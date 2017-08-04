@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-04-27"
+lastupdated: "2017-08-04"
 
 
 ---
@@ -25,9 +25,12 @@ SoftLayer's Application Programming Interface (API) is the development interface
 Softlayer's API is a Remote Procedure Call system. Each call involves sending data towards an API endpoint and receiving structured data in return. The format used to send and receive data with the SLAPI depends on which implementation of the API you choose. The
 SLAPI currently uses SOAP, XML-RPC or REST for data transmission.
 
-For more information about the Softlayer API and virtual server APIs, see the following links in SoftLayer Development Network:
+For more information about the Softlayer API and virtual server APIs, see the following resources in the SoftLayer Development Network:
 * [SoftLayer API Overview ![External link icon](../icons/launch-glyph.svg "External link icon")](https://sldn.softlayer.com/article/softlayer-api-overview){: new_window} 
 * [Getting Started with the SoftLayer API ![External link icon](../icons/launch-glyph.svg "External link icon")](http://sldn.softlayer.com/article/getting-started){: new_window}
 * [*SoftLayer_Virtual_Guest* API ![External link icon](../icons/launch-glyph.svg "External link icon")](http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest){: new_window}
+
+For additional API examples, see the following resources:
 * [Softlayer API Python Client: Working with Virtual Servers ![External link icon](../icons/launch-glyph.svg "External link icon")](http://softlayer-python.readthedocs.io/en/latest/cli/vs.html){: new_window}
+* [Softlayer API Examples ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/){: new_window}
 
