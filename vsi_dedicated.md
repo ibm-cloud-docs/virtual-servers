@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-07-11"
+lastupdated: "2017-07-31"
 
 
 ---
@@ -87,14 +87,19 @@ Keep in mind the following when you’re ordering a dedicated host(s) and dedica
       
 | Data Centers          ||
 | ------------ | ------- | 
-|DAL10         |  OSL01  |
-|DAL12         |  PAR01  |
-|DAL13         |  SAO01  |
-|FRA01         |  SEO01  |
-|MEL01         |  TOR01  |  
+|AMS03         |  PAR01  |
+|DAL09         |  SAO01  |
+|DAL10         |  SEO01  |
+|DAL12         |  SJC03  |
+|DAL13         |  SJC04  |  
+|FRA02         |  SYD01  |
+|LON02         |  SYD04  |
+|LON04         |  TOK02  |
+|MEL01         |  TOR01  |    
 |MEX01         |  WDC04  |
 |MIL01         |  WDC06  |
 |MON01         |  WDC07  |
+|OSL01
 {: caption="Table 2. Supported data centers" caption-side="top"}
 
 * The size of your host(s) is determined by your workloads that you will be running on it. The default is 56 Cores X 242 GB RAM X 1.2 TB. 
