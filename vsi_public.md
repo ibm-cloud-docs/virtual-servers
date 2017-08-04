@@ -21,7 +21,7 @@ lastupdated: "2017-04-27"
 Public virtual instances are IBM-managed, multi-tenant virtual server deployments that allow for rapid scalability and higher cost effectiveness with configurations that meet all business requirements. If you're looking for a single-tenant environment, consider the [Dedicated Virtual Server](../vsi/vsi_dedicated.html) offering.
 {:shortdesc}
 
-Public nodes reside on a hypervisor that is shared with other clients. However, the processors and memory are dedicated to the virtual server, making server performance extremely reliable. Options are available for higher processor speeds and RAM when using public nodes. 
+Public instances reside on a hypervisor that is shared with other clients. However, the processors and memory are dedicated to the virtual server, making server performance extremely reliable. Options are available for higher processor speeds and RAM when using public instances. 
 
 ## Location
 You can select the specific data center to which you want to deploy. For new deployments, Bluemix automatically identifies the best POD (based on availability) and creates the appropriate public and private VLANs. For additions to existing environments, you can select the specific POD, VLAN, and subnet that is required for your design.
@@ -31,7 +31,7 @@ When you order, you have core processor options from which to select. The core p
 
 RAM is extremely straight-forward. The offering fully dedicates the amount of RAM that you select to your virtual server, with up to 242GB on a single virtual server.
 
-**Note:** Public and dedicated nodes have slightly different configuration maximums. Very high allocations of either cores or memory limit the available options.
+**Note:** Public and dedicated instances have slightly different configuration maximums. Very high allocations of either cores or memory limit the available options.
 
 ## Operating system
 
