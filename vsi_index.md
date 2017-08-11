@@ -22,7 +22,7 @@ You can deploy {{site.data.keyword.BluVirtServers}} in a matter of minutes. The 
 
 When creating a virtual server, you can choose from hourly or monthly billing, public (multi-tenant) environment or dedicated (single-tenant) environment, and high performance local disks or enterprise SAN storage.
 
-**Before you begin**
+## Before you begin
 
 Before you begin, review the following prerequisites.
 
@@ -35,7 +35,7 @@ Before you begin, review the following prerequisites.
 |[Dedicated virtual server](../vsi/vsi_dedicated.html)      | Single-tenant virtual server deployments            |
 {: caption="Table 1. Deployment options" caption-side="top"}   
 
-**Provisioning a virtual server**
+## Provisioning a virtual server
 
 After you decide upon a deployment option, begin the provisioning process.
 
@@ -45,7 +45,7 @@ After you decide upon a deployment option, begin the provisioning process.
 |[Provisioning dedicated hosts and instances](../vsi/vsi_provision_dedicated.html)| Provision private instances or dedicated instances on dedicated hosts.|
 {: caption="Table 2. Provisioning information" caption-side="top"}
    
-**What's next?**
+## What's next?
 
 After your virtual server is provisioned and available to use, you can configure your virtual servers by using the 
 Customer Portal or Softlayer APIs. For more information, see [Configuring virtual servers](../vsi/vsi_configuring.html).
