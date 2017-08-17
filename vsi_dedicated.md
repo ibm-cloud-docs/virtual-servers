@@ -83,7 +83,7 @@ You have the choice of two deployment models: dedicated hosts and dedicated inst
 
 Keep in mind the following when you’re ordering a dedicated host(s) and dedicated host instances:
 
-* Your host location; you can currently select from 16 IBM Cloud Data Centers:
+* Your host location; you can select from the following IBM Cloud Data Centers:
       
 | Data Centers          ||
 | ------------ | ------- | 
