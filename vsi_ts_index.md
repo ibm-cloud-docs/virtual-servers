@@ -45,5 +45,5 @@ When using the forums to ask a question, tag your question so that it is seen by
 
 See [Getting help](https://new-console.eu-gb.bluemix.net/docs/support/index.html#getting-help) for more details about using the forums.
 
-For information about opening an IBM support ticket, or about support levels and ticket severities, see [Contacting support](https://new-console.eu-gb.bluemix.net/docs/support/index.html#contacting-support).
+For information about opening an IBM support ticket, or about support levels and ticket severities, see [Contacting support](https://console.bluemix.net/docs/support/index.html?pos=3#contacting-support).
 
