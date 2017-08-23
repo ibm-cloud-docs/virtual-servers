@@ -33,6 +33,4 @@ To view portable storage, complete the following steps:
 2. Click the **Configuration** tab.
 3. Click the **View Portable Storage for this Device** button. Portable storage will be displayed for the device.
 
-## Can I add disk storage to my hourly or monthly virtual server?
-You can upgrade or downgrade disk storage for any virtual server by updating your storage options in the *First Disk* through 
-*Fifth Disk* fields in the Configuration screen of the device that you want to update. For more information, see [Reconfiguring an existing virtual server](../vsi/vsi_reconfigure.html).
+

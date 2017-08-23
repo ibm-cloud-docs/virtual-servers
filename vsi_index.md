@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-08-01"
+lastupdated: "2017-08-23"
 
 
 ---
@@ -20,7 +20,7 @@ lastupdated: "2017-08-01"
 You can deploy {{site.data.keyword.BluVirtServers}} in a matter of minutes. The virtual servers are deployed from your choice of virtual server images and in the geographic region that makes sense for your workloads.
 {:shortdesc}
 
-When creating a virtual server, you can choose from hourly or monthly billing, public (multi-tenant) environment or dedicated (single-tenant) environment, and high performance local disks or enterprise SAN storage.
+When you create a virtual server, you can choose from hourly or monthly billing, public (multitenancy) environment or dedicated (single-tenant) environment, and high-performance local disks or enterprise SAN storage.
 
 ## Before you begin
 
@@ -31,11 +31,11 @@ Before you begin, review the following prerequisites.
      
 |              Deployment options                           |  Description                                        |
 | --------------------------------------------------------- | --------------------------------------------------- |
-|[Public virtual server](../vsi/vsi_public.html)            | IBM-managed, muti-tenant virtual server deployments |
+|[Public virtual server](../vsi/vsi_public.html)            | IBM-managed, multitenancy virtual server deployments |
 |[Dedicated virtual server](../vsi/vsi_dedicated.html)      | Single-tenant virtual server deployments            |
 {: caption="Table 1. Deployment options" caption-side="top"}   
 
-## Provisioning a virtual server
+## Provisioning a virtual server 
 
 After you decide upon a deployment option, begin the provisioning process.
 
@@ -48,4 +48,4 @@ After you decide upon a deployment option, begin the provisioning process.
 ## What's next?
 
 After your virtual server is provisioned and available to use, you can configure your virtual servers by using the 
-Customer Portal or Softlayer APIs. For more information, see [Configuring virtual servers](../vsi/vsi_configuring.html).
+Customer Portal or infrastructure APIs. For more information, see [Configuring virtual servers](../vsi/vsi_configuring.html).

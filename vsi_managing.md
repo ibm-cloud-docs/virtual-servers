@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-04-27"
+lastupdated: "2017-08-23"
 
 
 ---
@@ -29,11 +29,15 @@ The following virtual server management tasks are available to you from the devi
 * Reboot -  immediately power off a device and then power it back on again.
 * Power On / Off - remotely turn a device on or off.
 * Rename - change or update a device name.
-* Cancel - terminate use of a device. Devices can be canceled immediately or on a billing anniversary. Refunds cannot be given for immediate cancellations.
+* Cancel - end use of a device. Devices can be canceled immediately or on a billing anniversary. Refunds cannot be given for immediate cancellations.
 
 Complete the following steps to perform management tasks for your virtual servers from the Device List in the Customer Portal:  
-1. Log in to the [Customer Portal ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} using your unique credentials. 
+1. Log in to the [Customer Portal ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials. 
 2. From the **Devices** menu, select **Device List**.
-3. Click **Actions** for the device you want to manage and select the desired management task.
+3. Click **Actions** for the device you want to manage and select the wanted management task.
 
 **Tip:** You can interact with servers in the Customer Portal in both the Snapshot view (a summary of your device) and on the Device Details screen (a fully detailed list). To view and interact with your server in the Snapshot View, click the arrow next to the Device Name to expand the view. To view and interact with your server on the Device Details screen, click the Device Name of the server.
+
+## What's Next?
+If you need to reconfigure an existing virtual server, see [Reconfiguring an existing virtual server](../vsi/vsi_reconfigure.html).
+

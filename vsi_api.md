@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-08-04"
+lastupdated: "2017-04-27"
 
 
 ---
@@ -28,9 +28,18 @@ SLAPI currently uses SOAP, XML-RPC or REST for data transmission.
 For more information about the Softlayer API and virtual server APIs, see the following resources in the SoftLayer Development Network:
 * [SoftLayer API Overview ![External link icon](../icons/launch-glyph.svg "External link icon")](https://sldn.softlayer.com/article/softlayer-api-overview){: new_window} 
 * [Getting Started with the SoftLayer API ![External link icon](../icons/launch-glyph.svg "External link icon")](http://sldn.softlayer.com/article/getting-started){: new_window}
-* [*SoftLayer_Virtual_Guest* API ![External link icon](../icons/launch-glyph.svg "External link icon")](http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest){: new_window}
+* [API Reference: SoftLayer_Virtual_Guest::createObject](http://sldn.softlayer.com/reference/services/softlayer_virtual_guest/createobject)
+* [API Reference: SoftLayer_Product_Order::placeOrder](http://sldn.softlayer.com/reference/services/SoftLayer_Product_Order/placeOrder)
 
-For additional API examples, see the following resources:
+For API usage examples, see the following resources:
 * [Softlayer API Python Client: Working with Virtual Servers ![External link icon](../icons/launch-glyph.svg "External link icon")](http://softlayer-python.readthedocs.io/en/latest/cli/vs.html){: new_window}
-* [Softlayer API Examples ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/){: new_window}
+* [Softlayer API Examples - Release Notes ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/){: new_window}
+* [Python examples ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/python/){: new_window}
 
+## Dedicated virtual servers usage examples
+* [Get Dedicated Host Allocation ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/python/getdedihostallocation/){: new_window}
+* [Get Dedicated Host Guests ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/python/getdedicatedhostguests/){: new_window}
+* [Migrate a virtual server instance between dedicated hosts ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/python/migratededicatedinstance/){: new_window}
+
+## Public virtual servers usage examples
+* [softlayer_virtual_guest API examples ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/classes/softlayer_virtual_guest/){: new_window}
