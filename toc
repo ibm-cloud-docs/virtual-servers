@@ -18,6 +18,7 @@ IBM Bluemix Virtual Servers
     {: .topicgroup}
     Security options
         vsi_security_options.md
+        vsi_security_groups.md
 
     vsi_image_templates_intro.md
 
@@ -62,6 +63,10 @@ IBM Bluemix Virtual Servers
     {: .topicgroup}
     Monitoring
         vsi_monitoring_intro.md
+        
+    {: .topicgroup}
+    Security
+        vsi_managing_sg.md
 
     {: .topicgroup}
     Backing up and recovering
