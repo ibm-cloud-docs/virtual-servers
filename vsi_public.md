@@ -87,7 +87,9 @@ Before deployment, consider your security options. As part of the order process,
 
 **Note:** A virtual server cannot be protected by two firewall appliances on the same interface. 
 
-For more information, see [Security options](../vsi/vsi_security_options.html).
+You can also use security groups to enact a set of IP filter rules that define how to handle incoming and outgoing traffic to both the public and private interfaces of a virtual server instance.
+
+For more information, see [Firewalls](../vsi/vsi_security_options.html) and [Getting started with security groups (Beta)](/docs/infrastructure/security-groups/sg_index.html).
 
 ## Monitoring
 
