@@ -17,7 +17,7 @@ lastupdated: "2017-08-24"
 {:table: .aria-labeledby="caption"}
 
 
-# Dedicated instances
+# Provisioning dedicated instances
 
 You have two options on how to provision your dedicated instances. The first is through the IBM® Bluemix® Catalog and the second is through the Customer Portal. Note that the catalog and portal require unique log-in IDs, in other words, your catalog username and password won’t work for logging in to the portal and vice versa. See [https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window}  to set up either your Bluemix Catalog or Customer Portal credentials.
 {:shortdesc}
