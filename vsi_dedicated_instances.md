@@ -30,8 +30,9 @@ Use the following steps to log in to the Bluemix Catalog to begin provisioning y
 3.	Enter your email or IBMid and click **Continue**.
 4.	Enter your Password and click **Log in**.
 5.	Select **Infrastructure > Compute**.
-6.	Click the **Dedicated Virtual Servers (Hourly)** or **Dedicated Virtual Servers (Monthly)** tile.
-7.  Click the **Create** button.
+6.  Click the **Virtual Servers** tile.
+7.	Select the **Dedicated Virtual Servers** option.
+8.  Click **Create**. 
 
 You will be on the main page of the Customer Portal.
 
