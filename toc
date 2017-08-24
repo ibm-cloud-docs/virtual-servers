@@ -54,6 +54,7 @@ IBM Bluemix Virtual Servers
             vsi_reload_os_image.md
             vsi_managing_users_pwd.md
             vsi_vulnerability_scans.md
+        vsi_device_access.md
         vsi_viewing_monitors.md
         vsi_managing_storage.md
 
