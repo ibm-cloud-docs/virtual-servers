@@ -52,7 +52,8 @@ Ensure that you are logged in, either through Bluemix Catalog or Customer Portal
    <li>Enter your email or IBMid and click <b>Continue.</b></li>
    <li>Enter your Password and click <b>Log in.</b></li>
    <li>Select <b>Infrastructure</b> > <b>Compute</b>.</li>
-   <li>Click the <b>Public Virtual Servers (Hourly)</b> or <b>Public Virtual Servers (Monthly)</b> tile.</li>
+   <li>Click the <b>Virtual Servers</b> tile.</li>
+   <li>Select the <b>Public Virtual Servers</b> option.</li>
    <li>Click <b>Create</b>. The main page of the Customer Portal opens.</li>
    </ol>
    </td>
