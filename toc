@@ -35,6 +35,7 @@ IBM Bluemix Virtual Servers
     {: .topicgroup}
     Provisioning
         vsi_provision_public.md
+        vsi_dedicated_instances.md
         vsi_provision_dedicated.md
 
     {: .topicgroup}
