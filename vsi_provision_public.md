@@ -81,7 +81,11 @@ To provision your public virtual server instance through the *Devices* icon, com
 2.  On the Devices page, click **Hourly** or **Monthly** for one of the Virtual Server offerings.
 3.  On the *Configure your Cloud Server* page, complete all the relevant information.
 4.  Click the **Add to Order** button to continue.
-5.  Click the **Create** button to complete your order.
+5.  Confirm or edit the domain information for the server.
+6.  Click the **Cloud Service terms** and the **Third-Party Service Agreement** check box.
+7.  Confirm or enter your payment information and click the **Submit Order** button. You are redirected to a screen with your provisioning order number. You can print the screen because it's also your provisioning order receipt.
+
+ A series of emails are sent to your administrator: acknowledgment of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email includes a link to your Device Details page, after logging in to Bluemix. You can also log directly in to the Customer Portal.
 
 ### Provisioning a public virtual server instance through the Devices menu
 {: #ordering-public-devices-menu}
@@ -91,12 +95,15 @@ You can also provision your public virtual server instances through the *Devices
 1. Click **Devices > Device List**.
 
    The Devices page displays all device types: dedicated hosts, virtual servers, bare metal servers, and NetScaler application delivery controllers—within your account.
-2. Select the host for your public instances by clicking on its link under *Device Name*.
-   
-   **Note:** If you have no devices, click the **Order Devices** link in the upper right-hand corner.
-3. On the *Configure your Cloud Server* page, complete all the relevant information.
-4. Click the **Add to Order** button to continue.
-5. Click the **Create** button to complete your order.
+2. Click the **Order Devices** link in the upper right-hand corner.
+3. On the Devices page, click **Hourly** or **Monthly** for one of the Virtual Server offerings.
+4. On the *Configure your Cloud Server* page, complete all the relevant information.
+5. Click the **Add to Order** button to continue.
+6. Confirm or edit the domain information for the server.
+7. Click the **Cloud Service terms** and the **Third-Party Service Agreement** check box.
+8. Confirm or enter your payment information and click the **Submit Order** button. You are redirected to a screen with your provisioning order number. You can print the screen because it's also your provisioning order receipt.
+
+A series of emails are sent to your administrator: acknowledgment of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email includes a link to your Device Details page, after logging in to Bluemix. You can also log directly in to the Customer Portal.
 
 ### What's Next?
 After your virtual server is provisioned, you can start managing it. For more information, see [Managing your virtual server](../vsi/vsi_managing.html).
