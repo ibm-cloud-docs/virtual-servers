@@ -77,8 +77,8 @@ After you have completed the prerequisites, you can begin to provision a public 
 ### Provisioning a public virtual server instance through the Devices icon
 To provision your public virtual server instance through the *Devices* icon, complete the following steps:
 
-1.  On the Customer Portal main page, click the **Devices** icon under *Order*.
-2.  Scroll down on the Order SoftLayer Products and Services page to the *Devices* section. Click on either **Public Virtual Server (Hourly)** or **Public Virtual Server (Monthly)** link.
+1.  From the Customer Portal, locate the **Order** section and click **Devices**.
+2.  On the Devices page, click **Hourly** or **Monthly** for one of the Virtual Server offerings.
 3.  On the *Configure your Cloud Server* page, complete all the relevant information.
 4.  Click the **Add to Order** button to continue.
 5.  Click the **Create** button to complete your order.
