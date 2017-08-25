@@ -77,7 +77,7 @@ The first option to provision dedicated host instances is to use the **Device** 
     <td>
     <ul>
     <li>Auto Assign – Bluemix automatically assigns your instance to a host in your selected data center.</li>
-    <li>Specify Host – Ussed with dedicated host instances. See [Dedicated virtual server](../vsi/vsi_dedicated.html) for more information on dedicated hosts and dedicated host instances.</li>
+    <li>Specify Host – Used with dedicated host instances. See [Dedicated virtual server](../vsi/vsi_dedicated.html) for more information on dedicated hosts and dedicated host instances.</li>
     </ul>
     </td>
     </tr>
