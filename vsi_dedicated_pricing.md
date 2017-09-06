@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-09-05"
+lastupdated: "2017-09-06"
 
 
 ---
@@ -28,8 +28,10 @@ Hourly instances can be provisioned on hourly and monthly hosts. Monthly instanc
 
 | Host configuration | vCPU	| RAM (GB) | Local storage (TB SSD) |	Hourly price | Monthly price | 
 | ------------------ | ---- | -------- | ---------------------- | ------------ | ------------- |
-| 56x242x1.2TB	     |  56 	|   242    |        	1.2	          |     $3.164   | 	$2,099.95   |
+| 56x242x1.2TB	     |  56 	|   242    |        	1.2	          |     $3.164   | 	$2,099.00    |
 {: caption="Table 1. Dedicated host pricing" caption-side="top"}
+
+Note that price varies by region.
 
 SAN (network attached), premium OSs, and SW Add-ons will be charged hourly or monthly, by the instance, depending on the instance provisioned on the dedicated host. Pricing for these components is consistent with the existing offering on public instances and dedicated instances. 
 
