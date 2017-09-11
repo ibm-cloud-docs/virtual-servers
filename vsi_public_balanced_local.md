@@ -25,7 +25,7 @@ The offering is available in the following flavors:
 <CAPTION>Table 1. Balanced local storage flavors</CAPTION>
 <THEAD>
 <TR>
-<th>Name</th>
+<th>Flavor</th>
 <th>Cores</th>
 <th>Memory (GB)</th>
 <th>Secondary storage (GB)<sup>(*)</sup></th>
