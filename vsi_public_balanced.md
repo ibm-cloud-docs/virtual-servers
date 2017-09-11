@@ -25,7 +25,7 @@ The offering is available in the following flavors:
 <CAPTION>Table 3. Balanced flavors with network-attached storage</CAPTION>
 <THEAD>
 <TR>
-<th>Name</th>
+<th>Flavor</th>
 <th>Cores</th>
 <th>Memory (GB)</th>
 <th>Storage type</th>
