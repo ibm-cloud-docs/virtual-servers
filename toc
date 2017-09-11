@@ -11,8 +11,8 @@ IBM Bluemix Virtual Servers
     {: .topicgroup}
     Deployment options
         vsi_public.md
-            vsi_public_balanced_local.md
             vsi_public_balanced.md
+            vsi_public_balanced_local.md
             vsi_public_compute.md
             vsi_public_memory.md
             vsi_public_selections.md
