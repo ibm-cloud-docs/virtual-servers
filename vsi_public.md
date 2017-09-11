@@ -44,6 +44,6 @@ The following public virtual servers are available.
 
 ## Next Steps
 
-After you review and decide upon your virtual server size, it's time to provision your public virtual server. To get started, review the following information: 
+After you review and decide upon your virtual server flavor, it's time to provision your public virtual server. To get started, review the following information: 
 1. [Provisioning selections](../vsi/vsi_public_selections.html)
 2. [Provisioning public instances](../vsi/vsi_provision_public.html)
