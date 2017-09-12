@@ -117,13 +117,6 @@ The offering is available in the following flavors:
 <td>400, (2 x 400)</td>
 <td>Local SSD, Local HDD</td>
 </tr>
-<tr>
-<td>Balanced Local-13</td>
-<td>56</td>
-<td>242</td>
-<td>2 x 750</td>
-<td>Local SSD, Local HDD</td>
-</tr>
 </TBODY>
 </table>
 
