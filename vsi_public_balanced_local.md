@@ -140,10 +140,10 @@ The following data centers support Balanced Local Storage virtual servers:
 |------------ |------  |  
 |AMS01        |HOU02   |
 |DAL01        |SJC01   | 
-|DAL05        |SEA01   |
-|DAL06        |SNG01   |
-|DAL13        |WDC01   |        
-|HKG02        |        | 
+|DAL05        |SJC04   |
+|DAL06        |SEA01   |
+|DAL13        |SNG01   |        
+|HKG02        |WDC01   | 
 {: caption="Table 2. Supported data centers" caption-side="top"}
 
 All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), supported  databases, and software add-ons are also available with this offering.  
