@@ -45,7 +45,7 @@ After you decide upon a deployment option, begin the provisioning process.
 |[Provisioning dedicated hosts and instances](../vsi/vsi_provision_dedicated.html)| Provision private instances or dedicated instances on dedicated hosts.|
 {: caption="Table 2. Provisioning information" caption-side="top"}
    
-## What's next?
+## Next Steps
 
 After your virtual server is provisioned and available to use, you can configure your virtual servers by using the 
 Customer Portal or infrastructure APIs. For more information, see [Configuring virtual servers](../vsi/vsi_configuring.html).

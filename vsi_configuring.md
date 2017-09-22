@@ -58,7 +58,7 @@ Backups ensure that your data is safely stored outside of your device and protec
 - EVault backup is an automated, agent-based backup system. This is a popular “set-and-forget” solution for managing your device. It is compatible with Microsoft software including Exchange and SQL through extra plug-ins. EVault users interact with this service through EVault’s WebCC web-based application. For more information, see [EVault ![External link icon](../icons/launch-glyph.svg "External link icon")](https://knowledgelayer.softlayer.com/topic/evault-backup){: new_window}.
 - [R1Soft Continuous Data Protection (CDP) ![External link icon](../icons/launch-glyph.svg "External link icon")](https://knowledgelayer.softlayer.com/topic/r1soft-cdp){: new_window} is backup software that can be installed on your server or self-managed virtual machine. It is recommended if you want a single interface to manage all of your backups. You interact with R1Soft CDP through your proprietary management system, which allows agents to be installed on virtual machines and offers database plug-ins for extra functions.
 
-## What's Next?
+## Next Steps
 After your virtual server is configured, you can start managing it. For more information, see [Managing your virtual server](../vsi/vsi_managing.html).
 
 

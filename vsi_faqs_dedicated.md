@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-06-16"
+lastupdated: "2017-09-11"
 
 
 ---
@@ -37,7 +37,7 @@ No. Existing auto-assigned dedicated instances cannot be reprovisioned on dedica
 The offering is supported on virtual servers; IBM Bluemix does have a bare metal offering. The differences between virtual hosts and bare metal servers are the time to provision and virtualization management.
 
 ## What is the provisioning lifecycle of a dedicated host?
-Dedicated hosts are allocated to users when provisioned. They will persist to the account until it is reclaimed. Dedicated hosts are offered in only on-demand pricing, hour of monthly, so when reclaimed, billing models will charge as other hourly or monthly IBM Bluemix infrastructure offerings.
+Dedicated hosts are allocated to users when provisioned. They will persist to the account until it is reclaimed. Dedicated hosts are offered in only on-demand pricing, hourly or monthly, so when reclaimed, billing models will charge as other hourly or monthly IBM Bluemix infrastructure offerings.
 
 ## How is the dedicated host offering billed?
 You can purchase dedicated hosts on-demand with hourly or monthly billing. Hourly-only hosts allow only hourly instances to be provisioned; monthly-only hosts allow you to provision monthly *and* hourly instances. Pricing for dedicated hosts includes core, RAM, local SSD storage and network port speeds. Premium operating systems, storage area network (SAN) storage and software add-on prices and licensing are charged based on the instance deployed—hourly or monthly—on the dedicated host. The same pricing model as IBM Bluemix public and dedicated instances is followed for these items.

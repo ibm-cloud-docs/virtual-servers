@@ -41,5 +41,5 @@ Use the following steps to migrate dedicated host instances to another dedicated
 
 The migration will begin immediately. During the migration, the dedicated instance is offline until on its new host. You can view the target host’s Device Details page to make sure the instance migrated correctly.
 
-## What's Next?
+## Next Steps
 After you migrate a dedicated host instance, confirm the migration worked by verifying that its Status is green on the new dedicated host's Device Details page.

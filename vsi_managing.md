@@ -38,6 +38,6 @@ Complete the following steps to perform management tasks for your virtual server
 
 **Tip:** You can interact with servers in the Customer Portal in both the Snapshot view (a summary of your device) and on the Device Details screen (a fully detailed list). To view and interact with your server in the Snapshot View, click the arrow next to the Device Name to expand the view. To view and interact with your server on the Device Details screen, click the Device Name of the server.
 
-## What's Next?
+## Next Steps
 If you need to reconfigure an existing virtual server, see [Reconfiguring an existing virtual server](../vsi/vsi_reconfigure.html).
 

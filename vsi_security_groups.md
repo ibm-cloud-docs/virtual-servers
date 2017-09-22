@@ -24,3 +24,4 @@ outgoing traffic to both the public and private interfaces of a virtual server i
 {:shortdesc}
 
 For more information about the security groups beta feature, see [Getting started with security groups (Beta)](/docs/infrastructure/security-groups/sg_index.html).
+

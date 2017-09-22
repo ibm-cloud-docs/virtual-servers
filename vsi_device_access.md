@@ -77,5 +77,5 @@ To provide access at a specific device level, continue to the following steps.
 
 **Note:** You can also use the SoftLayer_User_Customer::addBulkDedicatedHostAccess API service to give a user access to one or more dedicated hosts. For more information, see [Adding Bulk Dedicated Host Access ![External link icon](../icons/launch-glyph.svg "External link icon")](http://sldn.softlayer.com/reference/services/softlayer_user_customer/addbulkdedicatedhostaccess){: new_window}.  
 
-## What's next?
+## Next Steps
 User permissions are updated immediately after the changes are submitted. If permissions have been granted, the user can view or interact with the selected features. If permissions have been removed, the user can no longer view or interact with the selected features. Permissions can be updated again at any time.

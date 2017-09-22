@@ -34,5 +34,5 @@ When ordering a device, you can select a custom provisioning script if it has be
 5. In the URL field, enter the exact URL to be associated with the script.
 6. Click **Add**.
 
-## What's Next?
+## Next steps
 After an order that contains a provisioning script is submitted, the device is provisioned similar to any other device. Before the device becomes available, the specified script is downloaded to the device. The origin of the provisioning script determines the behavior during this last step of the provisioning process. If the script is supplied from an HTTPS URL, the script is downloaded and runs with no additional interaction required of the user. If the script is supplied over HTTP, the script is downloaded only. For scripts provided over HTTP, the administrator must log in to the device and run the script manually.

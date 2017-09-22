@@ -42,6 +42,6 @@ For example, a dedicated instance provisioned on a dedicated host with the follo
 * 100 GB Local SSD first disc
 * 400 GB Local SSD second disc
 * 400 GB Local SSD third disc
-* 1  Gbps public and prive network uplinks (dedicated host)
+* 1 Gbps public and private network uplinks (dedicated host) 
 
 

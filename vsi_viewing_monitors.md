@@ -79,7 +79,7 @@ indicates the echo was not received. If you have already configured a basic moni
    </TBODY>
    </table>
    
-## What's Next?
+## Next Steps
    
 - If a new monitor has been added, the monitor will appear on the **Monitoring** tab. The monitor will send a ping to the device every five minutes, expecting a response based on the selected ping type. If the expected response is not received, an email is sent to the notification email address for the account in the specified timeframe, if notification has been selected.
 - If a monitor has been edited, the monitor will continue to function as specified in the monitor details. If type is changed, the amount of time to receive the expected ping will be different. If notification options changed, the way users will be notified of a failed attempts will be change based on the new selections. The monitor will remain accessible from the **Monitoring** tab.

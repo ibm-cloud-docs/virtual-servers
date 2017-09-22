@@ -77,7 +77,7 @@ The first option to provision dedicated host instances is to use the **Device** 
     <td>
     <ul>
     <li>Auto Assign – Bluemix automatically assigns your instance to a host in your selected data center.</li>
-    <li>Specify Host – Used with dedicated host instances. See [Dedicated virtual server](../vsi/vsi_dedicated.html) for more information on dedicated hosts and dedicated host instances.</li>
+    <li>Specify Host – Ussed with dedicated host instances. See [Dedicated virtual server](../vsi/vsi_dedicated.html) for more information on dedicated hosts and dedicated host instances.</li>
     </ul>
     </td>
     </tr>
@@ -172,5 +172,5 @@ Your second option is to provision your dedicated instances through the **Device
     The **Order SoftLayer Product and Services** window displays.
 3.	Follow the steps under [Provisioning your dedicated instances through the Devices](#ordering-dedicated-devices-menu) menu, beginning with Step 2.
 
-### What's Next?
+### Next Steps
 After your virtual server is provisioned, you can start managing it. For more information, see [Managing virtual servers](../vsi/vsi_managing.html).

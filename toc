@@ -7,6 +7,8 @@ IBM Bluemix Virtual Servers
     {: .navgroup id="learn"}
     vsi_index.md
     vsi_about.md
+        vsi_image_templates_intro.md
+        /storage/portable-storage-topic-description.md
 
     {: .topicgroup}
     Deployment options
@@ -25,11 +27,10 @@ IBM Bluemix Virtual Servers
         vsi_security_options.md
         vsi_security_groups.md
 
-    vsi_image_templates_intro.md
-
     {: .topicgroup}
     Related links
         [Control Portal](https://control.softlayer.com/)
+        [Maximize Control with IBM Bluemix Virtual servers](https://www.ibm.com/blogs/bluemix/2017/08/maximize-control-ibm-bluemix-virtual-servers/)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
@@ -47,22 +48,30 @@ IBM Bluemix Virtual Servers
     {: .topicgroup}
     Configuring
         vsi_configuring.md
-        vsi_connect_iscsi.md
         vsi_reconfigure.md
-        image_index.md
+        vsi_work_image.md
 
     {: .topicgroup}
-    Managing
+    Managing servers
         vsi_managing.md
             vsi_add_script.md
-            vsi_managing_dedicated.md
-            vsi_reload_os.md
-            vsi_reload_os_image.md
-            vsi_managing_users_pwd.md
             vsi_vulnerability_scans.md
+            vsi_bandwidth-graphs.md
+        vsi_managing_dedicated.md
         vsi_device_access.md
-        vsi_viewing_monitors.md
-        vsi_managing_storage.md
+        vsi_interact_device_snapshot_view.md
+        vsi_managing_users_pwd.md
+
+    {: .topicgroup}
+    Managing security
+        vsi_managing_sg.md
+
+    {: .topicgroup}
+    Managing storage
+        /storage/access-portable-storage-screen.md
+        /storage/vsi_view_portable_storage.md
+        /storage/edit-description-portable-storage-volume-psv.md
+        vsi_connect_iscsi.md
 
     {: .topicgroup}
     Migrating
@@ -71,10 +80,7 @@ IBM Bluemix Virtual Servers
     {: .topicgroup}
     Monitoring
         vsi_monitoring_intro.md
-        
-    {: .topicgroup}
-    Security
-        vsi_managing_sg.md
+        vsi_viewing_monitors.md
 
     {: .topicgroup}
     Backing up and recovering

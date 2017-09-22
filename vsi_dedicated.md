@@ -94,13 +94,13 @@ Keep in mind the following when you’re ordering a dedicated host(s) and dedica
 |DAL06         |  SEO01  |
 |DAL09         |  SJC01  |
 |DAL10         |  SJC03  |
-|DAL12         |  SJC04  |  
-|DAL13         |  SNG01  |
+|DAL12         |  SJC04  |
+|DAL13         |  SNG01  | 
 |FRA02         |  SYD01  |
 |HKG02         |  SYD04  |
 |HOU02         |  TOK02  |
 |LON02         |  TOR01  |
-|LON04         |  WDC01  |    
+|LON04         |  WDC01  |
 |MEL01         |  WDC04  |
 |MEX01         |  WDC06  |
 |MIL01         |  WDC07  |
@@ -110,9 +110,9 @@ Keep in mind the following when you’re ordering a dedicated host(s) and dedica
 * You can order only two hosts at a time. For example, if you need six hosts, you will need to place three separate orders.
 * Each host will need its own unique name and you can automatically assign your POD.
 
-## What's Next?
+## Next Steps
 
-After you have reviewed and decided upon your deployment options, it's time to provision your virtual server. To get started, see [Provisioning dedicated hosts and instances](../vsi/vsi_provision_dedicated.html).
+After you have reviewed and decided upon your deployment options, it is time to provision your virtual server. To get started, see [Provisioning dedicated hosts and instances](../vsi/vsi_provision_dedicated.html).
 
 
 

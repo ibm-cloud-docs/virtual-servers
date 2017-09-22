@@ -20,12 +20,12 @@ lastupdated: "2017-08-23"
 {: #ordering-vs-public}
 
 ## Before you begin
-You have two options to provision your public virtual server instances. The first is through the IBM® Bluemix® Catalog and the second is through the Customer Portal. The catalog and customer portal require unique log-in IDs. Your catalog user name and password won’t work for logging in to the portal and vice versa.
+You have two options to provision your public virtual server instances. The first is through the IBM® Bluemix® Catalog and the second is through the {{site.data.keyword.slportal}}. The catalog and customer portal require unique log-in IDs. Your catalog user name and password won’t work for logging in to the portal and vice versa.
 {:shortdesc}
 
 Before you begin, review the following prerequisites.
 
-  1. Ensure that you have either your Bluemix catalog or Customer Portal credentials set-up. 
+  1. Ensure that you have either your Bluemix catalog or customer portal credentials set-up. 
   
      **Note:** For the Bluemix catalog, you must have an upgraded account to order virtual servers. For more information about upgrading your account, see [Upgrading and unifying Bluemix and SoftLayer billing accounts](https://console.ng.bluemix.net/docs/admin/softlayerlink.html).
   
@@ -54,7 +54,7 @@ Ensure that you are logged in, either through Bluemix catalog or Customer Portal
    <li>Select <b>Infrastructure</b> > <b>Compute</b>.</li>
    <li>Click the <b>Virtual Servers</b> tile.</li>
    <li>Select the <b>Public Virtual Servers</b> option.</li>
-   <li>Click <b>Create</b>. The main page of the Customer Portal opens.</li>
+   <li>Click <b>Create</b>. The main page of the customer portal opens.</li>
    </ol>
    </td>
    </tr>
@@ -63,7 +63,7 @@ Ensure that you are logged in, either through Bluemix catalog or Customer Portal
    <td>
    <ol>
    <li>Open a new browser window and enter <a href="https://control.softlayer.com">https://control.softlayer.com</a>.</li>
-   <li>Enter your User name and Password, and click <b>Log In</b>. Or, click <b>Log in with IBMid</b>. Then, enter your email or IBMid and click <b>Continue</b>. Enter your password and click <b>Log In</b>. The main page of the Customer Portal opens.</li>
+   <li>Enter your User name and Password, and click <b>Log In</b>. Or, click <b>Log in with IBMid</b>. Then, enter your email or IBMid and click <b>Continue</b>. Enter your password and click <b>Log In</b>. The main page of the customer portal opens.</li>
    </ol>
    </td>
    </tr>
@@ -77,7 +77,7 @@ After you have completed the prerequisites, you can begin to provision a public 
 ### Provisioning a public virtual server instance through the Devices icon
 To provision your public virtual server instance through the *Devices* icon, complete the following steps:
 
-1.  From the Customer Portal, locate the **Order** section and click **Devices**.
+1.  From the {{site.data.keyword.slportal}}, locate the **Order** section and click **Devices**.
 2.  On the Devices page, click **Hourly** or **Monthly** for one of the Virtual Server offerings.
 3.  On the *Configure your Cloud Server* page, complete all the relevant information.
 4.  Click the **Add to Order** button to continue.
@@ -85,7 +85,7 @@ To provision your public virtual server instance through the *Devices* icon, com
 5.  Click the **Cloud Service terms** and the **Third-Party Service Agreement** check box.
 6.  Confirm or enter your payment information and click the **Submit Order** button. You are redirected to a screen with your provisioning order number. You can print the screen because it's also your provisioning order receipt.
 
- A series of emails are sent to your administrator: acknowledgment of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email includes a link to your Device Details page, after logging in to Bluemix. You can also log directly in to the Customer Portal.
+ A series of emails are sent to your administrator: acknowledgment of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email includes a link to your *Device Details* page, after logging in to Bluemix. You can also log directly in to the customer portal.
 
 ### Provisioning a public virtual server instance through the Devices menu
 {: #ordering-public-devices-menu}
@@ -103,7 +103,7 @@ You can also provision your public virtual server instances through the *Devices
 7. Click the **Cloud Service terms** and the **Third-Party Service Agreement** check box.
 8. Confirm or enter your payment information and click the **Submit Order** button. You are redirected to a screen with your provisioning order number. You can print the screen because it's also your provisioning order receipt.
 
-A series of emails are sent to your administrator: acknowledgment of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email includes a link to your Device Details page, after logging in to Bluemix. You can also log directly in to the Customer Portal.
+A series of emails are sent to your administrator: acknowledgment of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email includes a link to your *Device Details* page, after logging in to Bluemix. You can also log directly in to the customer portal.
 
 ### Next Steps
 After your virtual server is provisioned, you can start managing it. For more information, see [Managing your virtual server](../vsi/vsi_managing.html).
