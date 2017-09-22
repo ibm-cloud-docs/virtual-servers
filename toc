@@ -57,6 +57,9 @@ IBM Bluemix Virtual Servers
             vsi_add_script.md
             vsi_vulnerability_scans.md
             vsi_bandwidth-graphs.md
+            vsi_reload_os.md
+            vsi_reload_os_image.md
+            
         vsi_managing_dedicated.md
         vsi_device_access.md
         vsi_interact_device_snapshot_view.md
