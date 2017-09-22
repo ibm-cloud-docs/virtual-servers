@@ -39,11 +39,10 @@ Complete the following steps to perform management tasks for your virtual server
 **Tip:** You can interact with servers in the Customer Portal in both the Snapshot view (a summary of your device) and on the Device Details screen (a fully detailed list). To view and interact with your server in the Snapshot View, click the arrow next to the Device Name to expand the view. To view and interact with your server on the Device Details screen, click the Device Name of the server.
 
 ## What happens next
+
 * **Rename**
 
-  After renaming the device, the name will automatically be updated in the Customer Portal. When performing a search within the  
-  Portal, use the new device name when attempting to locate content associated with it. Repeat the previous steps to rename the 
-  device again at any time.
+After renaming the device, the name will automatically be updated in the Customer Portal. When performing a search within the Portal, use the new device name when attempting to locate content associated with it. Repeat the previous steps to rename the device again at any time.
 
 ## Next Steps
 If you need to reconfigure an existing virtual server, see [Reconfiguring an existing virtual server](../vsi/vsi_reconfigure.html).
