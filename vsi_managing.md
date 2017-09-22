@@ -49,6 +49,10 @@ Complete the following steps to perform management tasks for your virtual server
 * **Rename**
 
     After renaming the device, the name will automatically be updated in the Customer Portal. When performing a search within the Portal, use the new device name when attempting to locate content associated with it. Repeat the previous steps to rename the device again at any time.
+    
+* **Cancel**
+
+  After confirming the cancellation, the device cancellation process will begin. If an immediate cancellation was requested, the device will be canceled immediately. If a billing anniversary cancellation was requested, the device will remain active until the next billing anniversary. Upon its cancellation, the device will no longer appear in the Device List on the Customer Portal. Billing items will also be removed from invoices when all outstanding balances have been paid on the device, if any. For questions about a bill for a cancelled device, please open a ticket and select Accounting Request as the ticket subject. Refunds cannot be given for immediate cancellations.    
 
 ## Next Steps
 If you need to reconfigure an existing virtual server, see [Reconfiguring an existing virtual server](../vsi/vsi_reconfigure.html).
