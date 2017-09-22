@@ -38,7 +38,7 @@ Complete the following steps to perform management tasks for your virtual server
 
 **Tips:** 
 * You can interact with servers in the Customer Portal in both the Snapshot view (a summary of your device) and on the Device Details screen (a fully detailed list). To view and interact with your server in the Snapshot View, click the arrow next to the Device Name to expand the view. To view and interact with your server on the Device Details screen, click the Device Name of the server.
-* You can add notes to a device at any time from the **Configuration** tab. nNtes can help idenitfy details about the device, its use, and actions that have been taken on the device.
+* You can add notes to a device at any time from the **Configuration** tab. Notes can help identify details about the device, its use, and actions that have been taken on the device.
 
 ## What happens next
 
