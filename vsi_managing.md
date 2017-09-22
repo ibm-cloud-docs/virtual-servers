@@ -42,9 +42,13 @@ Complete the following steps to perform management tasks for your virtual server
 
 ## What happens next
 
+* **Power On/Off**
+
+    If the device has been powered off, the device remains in the power off state and must be manually powered on by repeating the steps above. Users may not interact with a device when a device is powered off. If the device has been powered on, normal interaction may take place. It will remain on until further action is taken.
+
 * **Rename**
 
-After renaming the device, the name will automatically be updated in the Customer Portal. When performing a search within the Portal, use the new device name when attempting to locate content associated with it. Repeat the previous steps to rename the device again at any time.
+    After renaming the device, the name will automatically be updated in the Customer Portal. When performing a search within the Portal, use the new device name when attempting to locate content associated with it. Repeat the previous steps to rename the device again at any time.
 
 ## Next Steps
 If you need to reconfigure an existing virtual server, see [Reconfiguring an existing virtual server](../vsi/vsi_reconfigure.html).
