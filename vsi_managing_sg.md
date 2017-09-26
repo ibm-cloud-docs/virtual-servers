@@ -22,4 +22,4 @@ lastupdated: "2017-08-14"
 You can manage security groups using the Security Groups page or the Device Details page in the Customer Portal.
 {:shortdesc}
 
-For more information about managing security groups, see [Managing security groups (Beta)](/docs/infrastructure/security-groups/sg_managing.html).
+For more information about managing security groups, see [Managing security groups](/docs/infrastructure/security-groups/sg_managing.html).
