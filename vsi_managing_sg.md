@@ -17,7 +17,7 @@ lastupdated: "2017-08-14"
 {:table: .aria-labeledby="caption"}
 
 
-# Managing security groups (Beta)
+# Managing security groups
 
 You can manage security groups using the Security Groups page or the Device Details page in the Customer Portal.
 {:shortdesc}
