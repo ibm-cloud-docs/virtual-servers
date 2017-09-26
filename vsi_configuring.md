@@ -51,7 +51,7 @@ Monitoring is primarily used as a resource to check your server’s uptime, but 
 ## Secure your system
 Hardware firewalls are available to ensure that your device is always secure. Hardware firewalls are provisioned on demand with no downtime. If rules are established properly, a firewall can protect your server from unwanted activity. After you order a firewall, it must be enabled and rules must be set. For more information about how to get the most out of firewalls, see [Firewall ![External link icon](../icons/launch-glyph.svg "External link icon")](https://knowledgelayer.softlayer.com/topic/firewall){: new_window}.
 
-Security groups (Beta) are another option for limiting network traffic on your virtual servers. You can use security groups to enact a set of IP filter rules that define how to handle incoming and outgoing traffic to both the public and private interfaces of a virtual server instance. For more information, see [Getting started with security groups (Beta)](/docs/infrastructure/security-groups/sg_index.html).
+Security groups are another option for limiting network traffic on your virtual servers. You can use security groups to enact a set of IP filter rules that define how to handle incoming and outgoing traffic to both the public and private interfaces of a virtual server instance. For more information, see [Getting started with security groups](/docs/infrastructure/security-groups/sg_index.html).
 
 ## Schedule backups 
 Backups ensure that your data is safely stored outside of your device and protected if it is lost. The following backup services are available to store your data in a secure location in case you ever need to reload your information onto your device:
