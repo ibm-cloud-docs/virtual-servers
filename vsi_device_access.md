@@ -23,7 +23,7 @@ lastupdated: "2017-08-23"
 To access and manage the details for a specific device, you must have the right permissions granted to your user account.  After the account administrator grants your user account access to a device, you can view the device details by using the customer portal or by using the API.  The information or action that you see depends on the device type, as well as the permissions that are granted to your user account.
 {:shortdesc}
 
-**Note:** If your account has devices to which you have not been granted access, then you receive a "not found" message when you try to access those devices.
+**Note:** If your account has devices to which you have not been granted access, you will see an "Unknown Device" name when you try to access those devices.
 
 You can assign device access to any users on your account, but not to yourself. Only an account's administrator has access to all devices on their customer account and can set access for all other users on their account. 
 
