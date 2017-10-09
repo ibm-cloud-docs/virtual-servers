@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-08-04"
+lastupdated: "2017-10-09"
 
 
 ---
@@ -41,15 +41,19 @@ You have the option for SAN or local storage for each virtual server. You can su
 
 ### Local storage
 
-Local storage is built on disks that are local to the virtual server host. Local storage provides improved disk read/write performance.  The disks are built in a redundant array of independent disks (RAID) configuration for redundancy, disk replacement, and health monitoring which is fully managed by Bluemix. In newer data centers, this storage is all solid state drive (SSD) to provide the best performance. Local storage virtual servers are limited to two disks. The primary disk can be 25GB or 100GB. The secondary disk can be up to 300GB.
+Local storage is built on disks that are local to the virtual server host. Local storage provides improved disk read/write performance.  The disks are built in a redundant array of independent disks (RAID) configuration for redundancy, disk replacement, and health monitoring which is fully managed by Bluemix. In newer data centers, this storage is all solid state drive (SSD) to provide the best performance. For information about specific local storage options, see [Balanced local storage virtual servers](vsi_public_balanced_local.html) or [Dedicated virtual servers](vsi_dedicated.html). 
 
 ### SAN storage
 
-SAN storage is built on Bluemix's SAN infrastructure rather than the local host storage.  This provides greater resiliency in the event of a host failure and can also support much larger volumes.  In the event of a host failure, virtual server instances using SAN-based storage are automatically migrated to other hosts and restarted. The primary disk can be 25GB or 100GB. You can add up to four additional volumes, up to 2TB each.
+SAN storage is built on Bluemix's SAN infrastructure rather than the local host storage.  This provides greater resiliency in the event of a host failure and can also support much larger volumes.  In the event of a host failure, virtual server instances using SAN-based storage are automatically migrated to other hosts and restarted. For information about specific SAN storage options, see [Public virtual servers](vsi_public.html) or [Dedicated virtual servers](vsi_dedicated.html). 
 
 ### Portable storage
 
-All secondary disks are attached as portable storage.  The disks can be detached at any time to allow them to be moved to other virtual servers. Detaching a local disk automatically migrates it to a SAN volume. The disks can be re-attached to another server at any time, as long as the change does not exceed the disk quota or the maximum volume size limit of the target virtual server. 
+Second through fifth disks are attached as portable storage. In most cases, the disks can be detached at any time to allow them to be moved to other virtual servers. 
+
+**Exception:** With public virtual servers that use Balanced local storage flavors, you cannot detach primary or secondary disks.
+
+The disks can be re-attached to another server, as long as the change does not exceed the disk quota or the maximum volume size limit of the target virtual server.
 
 **Note:** The moved disk is converted to the storage type of the target server.
 
