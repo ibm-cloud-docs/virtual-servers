@@ -123,20 +123,7 @@ The offering is available in the following flavors:
 **Storage Notes:**
 * <sup>(*)</sup>Balanced local flavors automatically come with a 100 GB local storage boot disk. Then, you must select a required, second disk (options shown in table above). Any additional local disks are optional. If you require over 500 GB, then two additional disks are required (for example, 8 cores require 2 x 250 GB of local storage).
 *	Maximum local storage is limited by cores. 
-*	Type of storage depends on data center location.
+* Balanced local storage is globally available; however, the type of storage (Local SSD or Local HDD) depends on the data center location.
 *	You cannot detach primary or secondary disks.
-
-
-The following data centers support Balanced Local Storage virtual servers:
-
-|Data Centers |        |
-|------------ |------  |  
-|AMS01        |HOU02   |
-|DAL01        |SJC01   | 
-|DAL05        |SJC04   |
-|DAL06        |SEA01   |
-|DAL13        |SNG01   |        
-|HKG02        |WDC01   |  
-{: caption="Table 2. Supported data centers" caption-side="top"}
 
 All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), supported  databases, and software add-ons are also available with this offering.  
