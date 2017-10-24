@@ -26,9 +26,9 @@ IBM Bluemix Virtual Servers
     Security options
         vsi_security_options.md
         vsi_security_groups.md
-
+    
     [Software options](../infrastructure/software/index.html)
-
+    
     {: .topicgroup}
     Related links
         [Control Portal](https://control.softlayer.com/)
@@ -89,7 +89,7 @@ IBM Bluemix Virtual Servers
         [Install ClamAV](../infrastructure/software/install-clamav.html)
         [Notify Users of an Approaching Bandwidth Limitation in cPanel/WHM](../infrastructure/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
         [Why did my cpsrvd email fail?](../infrastructure/software/why-did-my-cpsrvd-email-fail.html)
-        
+    
     {: .topicgroup}
     Migrating
         vsi_migrating_dedicated.md
