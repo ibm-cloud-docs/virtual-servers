@@ -76,20 +76,7 @@ IBM Bluemix Virtual Servers
         /storage/access-portable-storage-screen.md
         /storage/vsi_view_portable_storage.md
         /storage/edit-description-portable-storage-volume-psv.md
-        
-    {: .topicgroup}
-    Managing software
-        [Reloading the OS](../infrastructure/software/vsi_reload_os.html)
-        [Reload an OS using an image template](../infrastructure/software/vsi_reload_os_image.html)
-        [Frequently asked questions: OS Reload](../infrastructure/software/os-reload-question-faq.html)
-        [Microsoft Windows Update Information](../infrastructure/software/microsoft-windows-update-instructions.html)
-        [RedHat Update Instructions](../infrastructure/software/redhat-update-instructions.html)
-        [Adding IPv6 to Ubuntu systems](../infrastructure/software/adding-ipv6-ubuntu-systems.html)
-        [AV/S/Host IDS Topic Description](../infrastructure/software/avshost-ids-topic-description.html)
-        [Install ClamAV](../infrastructure/software/install-clamav.html)
-        [Notify Users of an Approaching Bandwidth Limitation in cPanel/WHM](../infrastructure/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
-        [Why did my cpsrvd email fail?](../infrastructure/software/why-did-my-cpsrvd-email-fail.html)
-    
+
     {: .topicgroup}
     Migrating
         vsi_migrating_dedicated.md
