@@ -27,7 +27,12 @@ IBM Bluemix Virtual Servers
         vsi_security_options.md
         vsi_security_groups.md
     
-    [Software options](../infrastructure/software/index.html)
+    {: .topicgroup}
+    Software options
+        [About software](../infrastructure/software/index.html)
+        [Microsoft Windows Update Information](../infrastructure/software/microsoft-windows-update-instructions.html)
+        [RedHat Update Information](../infrastructure/software/redhat-update-instructions.html)
+        [AV/S/Host IDS Topic Description](../infrastructure/software/avshost-ids-topic-description.html)
     
     {: .topicgroup}
     Related links
@@ -76,19 +81,14 @@ IBM Bluemix Virtual Servers
         /storage/access-portable-storage-screen.md
         /storage/vsi_view_portable_storage.md
         /storage/edit-description-portable-storage-volume-psv.md
-
+        
     {: .topicgroup}
     Managing software
         [Reloading the OS](../infrastructure/software/vsi_reload_os.html)
-        [Reload an OS using an image template](../infrastructure/software/vsi_reload_os_image.html)
-        [Frequently asked questions: OS Reload](../infrastructure/software/os-reload-question-faq.html)
-        [Microsoft Windows Update Information](../infrastructure/software/microsoft-windows-update-instructions.html)
-        [RedHat Update Instructions](../infrastructure/software/redhat-update-instructions.html)
+        [Reloading an OS using an image template](../infrastructure/software/vsi_reload_os_image.html)
         [Adding IPv6 to Ubuntu systems](../infrastructure/software/adding-ipv6-ubuntu-systems.html)
-        [AV/S/Host IDS Topic Description](../infrastructure/software/avshost-ids-topic-description.html)
-        [Install ClamAV](../infrastructure/software/install-clamav.html)
-        [Notify Users of an Approaching Bandwidth Limitation in cPanel/WHM](../infrastructure/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
-        [Why did my cpsrvd email fail?](../infrastructure/software/why-did-my-cpsrvd-email-fail.html)
+        [Installing ClamAV](../infrastructure/software/install-clamav.html)
+        [Notifying Users of an Approaching Bandwidth Limitation in cPanel/WHM](../infrastructure/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
 
     {: .topicgroup}
     Migrating
@@ -117,4 +117,6 @@ IBM Bluemix Virtual Servers
     FAQs
         vsi_faqs_vs.md
         vsi_faqs_dedicated.md
+        [FAQs: OS Reload](../infrastructure/software/os-reload-question-faq.html)
+        [FAQs: cpsrvd email](../infrastructure/software/why-did-my-cpsrvd-email-fail.html)
     {: .navgroup-end}
