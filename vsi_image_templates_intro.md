@@ -4,7 +4,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-23"
+lastupdated: "2017-10-24"
 
 
 ---
@@ -16,16 +16,21 @@ lastupdated: "2017-08-23"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# About image templates
-With {{site.data.keyword.BluVirtServers}} image templates, you can capture a device's image to quickly replicate its configuration with minimal changes in the order process. {{site.data.keyword.BluVirtServers_short}} provide two options for creating image templates, each offers unique features based on your operating system and the type of image you want to use.
+# Image templates
+With {{site.data.keyword.BluVirtServers}} image templates, you can capture a device's image to quickly replicate its configuration with minimal changes in the order process. 
 {:shortdesc}
 
-Standard Image Templates provide an imaging option for all {{site.data.keyword.BluVirtServers_short}}, regardless of operating system. Standard image templates allow you to capture an image of an existing virtual server and create a new one based on the captured image. However, standard image templates are not compatible with bare metal servers.
+Standard image templates provide an imaging option for all {{site.data.keyword.BluVirtServers_short}}, regardless of operating system. Standard image templates allow you to capture an image of an existing virtual server and create a new one based on the captured image. Standard image templates are not compatible with bare metal servers.
 
 ## How Image Templates Work
-The two main actions for any image template are create and deploy. When you request to create an image, IBM Bluemix Infrastructure's automated system takes your server offline. While the server is offline, a compressed backup of your data is created, the configuration information is recorded and the image template is stored on Bluemix infrastucture SAN. During the deployment stage of the image template, IBM Bluemix Infrastructure's automated system constructs a new server based on the data gathered from the selected image, making adjustments for volume, restores the copied data and then makes final configuration changes (for example, network configurations) for the new host.
+The two main actions for any image template are create and deploy. When you request to create an image, the automated system of {{site.data.keyword.BluSoftlayer_full}} takes your server offline. While the server is offline, a compressed backup of your data is created, the configuration information is recorded, and the image template is stored on the {{site.data.keyword.BluSoftlayer_notm}} SAN. During the deployment stage of the image template, the automated system constructs a new server that is based on the data that is gathered from the selected image. The deployment process makes adjustments for volume, restores the copied data, and then makes final configuration changes (for example, network configurations) for the new host.
 
-### Standard Image Templates
-Standard Image Templates are available on all virtual servers and do not require a specific operating system for functionality. Standard Image Templates capture an image of your virtual server and allow you to replicate its configuration to another virtual instance.
+## Private Images
 
-For more information about image templates, see [Image Templates ![External link icon](../icons/launch-glyph.svg "External link icon")](https://knowledgelayer.softlayer.com/topic/image-templates){: new_window} in KnowledgeLayer.
+Private images are images that are created by a user on the account or images that are created on another account and shared. By default, all images that are created are private. 
+
+## Public Images
+
+Public images are pre-configured machines that are posted by {{site.data.keyword.BluSoftlayer_notm}} or made public by customers and are available for use by all {{site.data.keyword.BluSoftlayer_notm}} customers. Virtual servers that are provisioned through Public Image Templates are generally configured for optimal performance, with specific combinations of a variety of configuration specs.
+
+For more information about image templates, see [Getting started with image templates](/docs/infrastructure/image-templates/image_index.html).
