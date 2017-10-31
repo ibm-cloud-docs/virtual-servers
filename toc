@@ -21,6 +21,8 @@ IBM Bluemix Virtual Servers
         vsi_dedicated.md
             vsi_dedicated_host.md
             vsi_dedicated_pricing.md
+            
+    vsi_image_templates_intro.md        
 
     {: .topicgroup}
     Security options
