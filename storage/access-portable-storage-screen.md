@@ -15,7 +15,7 @@ Portable Storage Volumes (PSVs) are an auxiliary storage solution exclusively fo
 
 ## Accessing the portable storage page
 
-1. Access the [Customer Portal](https://control.softlayer.com/){:new_window} using your unique credentials.
+1. Access the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) using your unique credentials.
 * Select **Storage > Block Storage** in the **Navigation Bar** to access the Portable Storage page.
 * Click on the **Action** button next to the portable storage and click on the attach option.
 * On the next screen choose the device that needs the storage attached.
@@ -30,7 +30,7 @@ From the *Portable Storage* page, PSVs may be edited, attached, detached and swa
 
 Portable storage attached to a server is listed on the server's *Device Details* page.
 
-1. Access the [Customer Portal](https://control.softlayer.com/){:new_window} using your unique credentials.
+1. Access the  [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) using your unique credentials.
 * Select **Devices > Device List** in the **Navigation Bar** to access the device list page.
 * Click the virtual servers host name to access the server's device detail's page.
 * Click the *Storage* tab to view the portable storage currently attached to the server.

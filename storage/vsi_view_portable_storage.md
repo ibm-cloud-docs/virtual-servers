@@ -28,8 +28,9 @@ lastupdated: "2017-09-13"
 
 To view portable storage, complete the following steps:
 
-1. From the Device List, click the *Virtual Server name* that contains the desired portable storage device.
-2. Click the **Configuration** tab.
-3. Click the **View Portable Storage for this Device** button. Portable storage will be displayed for the device.
+1. Access the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) by using your unique credentials.
+2. From the Device List, click the *Virtual Server name* that contains the desired portable storage device.
+3. Click the **Configuration** tab.
+4. Click the **View Portable Storage for this Device** button. Portable storage will be displayed for the device.
 
 
