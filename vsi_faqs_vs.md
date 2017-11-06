@@ -50,7 +50,7 @@ You might also see the **Migrate Host** option if one of your virtual servers is
 
 ## Can I use a Red Hat Cloud Access subscription to create a virtual server?
 
-Yes. When you import an image, you can specify that you will provide the operating system license. For more information, see [Use Red Hat Cloud Access](../image-templates/use-red-hat-cloud-access.html). Then you can order a virtual server from that image template and use your existing [Red Hat Cloud Access ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.redhat.com/en/technologies/cloud-computing/cloud-access){: new_window} subscription.
+Yes. When you import an image, you can specify that you will provide the operating system license. For more information, see [Use Red Hat Cloud Access](../infrastructure/image-templates/use-red-hat-cloud-access.html). Then you can order a virtual server from that image template and use your existing [Red Hat Cloud Access ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.redhat.com/en/technologies/cloud-computing/cloud-access){: new_window} subscription.
 
 ## What is the difference between a virtual server and a virtual private server (VPS)?
 
