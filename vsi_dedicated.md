@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-09-05"
+lastupdated: "2017-10-24"
 
 
 ---
@@ -18,14 +18,14 @@ lastupdated: "2017-09-05"
 
 
 # Dedicated virtual servers
-The IBM® Bluemix® infrastructure dedicated host offering is a virtualized, single-tenant, dedicated server. It provides you with maximum control over workload placement and flexible post-provisioning options. You can decide which pre-determined IBM® Cloud Data Center your virtual servers are placed in and can be assured capacity by allocating your host(s) directly to your account.
+The {{site.data.keyword.Bluemix}} infrastructure dedicated host offering is a virtualized, single-tenant, dedicated server. It provides you with maximum control over workload placement and flexible post-provisioning options. You can decide which pre-determined {{site.data.keyword.cloud}} data center your virtual servers are placed in and can be assured capacity by allocating your host(s) directly to your account.
 {:shortdesc}
 
 The offering includes the following features: 
 
 * Affinity and anti-affinity. You can specify host-to-virtual server and virtual server-to-virtual server relationships that should remain, which are known as affinity and anti-affinity rules. These rules help you make sure that your workloads are placed appropriately based on your workload requirements.
 * Post-deployment management. You can migrate virtual servers between dedicated hosts based on your workload requirements.
-* Workload visibility. You can view resource consumption—core, RAM and local storage—for each host, giving you maximum control over your workload management.
+* Workload visibility. You can view resource consumption—core, RAM, and local storage—for each host, giving you maximum control over your workload management.
 
 You have the choice of two deployment models: dedicated hosts and dedicated instances. Dedicated hosts help with control over workload placement and dedicated instances offer single-tenant isolation. 
 
@@ -79,11 +79,11 @@ You have the choice of two deployment models: dedicated hosts and dedicated inst
 </table>
 
 
-<sup>(1)</sup>Pricing of host is inclusive of core, RAM, Local SSD and network speeds. Premium operating system (OS), storage area network (SAN) storage and software add-ons will be priced per instance with existing pricing and licensing in an hourly or monthly model.
+<sup>(1)</sup>Pricing of host is inclusive of core, RAM, Local SSD, and network speeds. Premium operating system (OS), storage area network (SAN) storage, and software add-ons will be priced per instance with existing pricing and licensing in an hourly or monthly model.
 
 Keep in mind the following when you’re ordering a dedicated host(s) and dedicated host instances:
 
-* Your host location; you can select from the following IBM Cloud Data Centers:
+* Your host location; you can select from the following {{site.data.keyword.cloud_notm}} data centers:
       
 | Data Centers          ||
 | ------------ | ------- | 

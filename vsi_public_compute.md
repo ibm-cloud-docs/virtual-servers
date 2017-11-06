@@ -26,53 +26,53 @@ The offering is available in the following flavors:
 <THEAD>
 <TR>
 <th>Flavor</th>
-<th>Cores</th>
-<th>Memory (GB)</th>
+<th>vCPU</th>
+<th>RAM</th>
 <th>Storage type</th>
 </TR>
 </THEAD>
 <TBODY>
 <tr>
-<td>Compute-1</td>
+<td>C1.1x1</td>
 <td>1</td>
-<td>1</td>
+<td>1 GB</td>
 <td>SAN</td>
 </tr>
 <tr>
-<td>Compute-2</td>
+<td>C1.2x2</td>
 <td>2</td>
-<td>2</td>
+<td>2 GB</td>
 <td>SAN</td>
 </tr>
 <tr>
-<td>Compute-3</td>
+<td>C1.4x4</td>
 <td>4</td>
-<td>4</td>
+<td>4 GB</td>
 <td>SAN</td>
 </tr>
 <tr>
-<td>Compute-4</td>
+<td>C1.8x8</td>
 <td>8</td>
-<td>8</td>
+<td>8 GB</td>
 <td>SAN</td>
 </tr>
 <tr>
-<td>Compute-5</td>
+<td>C1.16x16</td>
 <td>16</td>
-<td>16</td>
+<td>16 GB</td>
 <td>SAN</td>
 </tr>
 <tr>
-<td>Compute-6</td>
+<td>C1.32x32</td>
 <td>32</td>
-<td>32</td>
+<td>32 GB</td>
 <td>SAN</td>
 </tr>
 </TBODY>
 </table>
 
 **Storage Notes:**
-* SAN primary boot disk (25 or 100 GB) with additional disks available (5 total disks allowed).
+* SAN primary boot disk (25 or 100 GB) with additional disks available, up to 2 TB each (5 total disks allowed).
 * Pricing for public virtual servers using SAN storage includes virtual CPU, memory, and minimum primary boot disk. Additional disk prices depend on the disk size and quantity that you select.  
 
 Compute flavors are available in all data centers.

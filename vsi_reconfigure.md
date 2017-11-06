@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-08-23"
+lastupdated: "2017-10-24"
 
 
 ---
@@ -17,7 +17,7 @@ lastupdated: "2017-08-23"
 {:table: .aria-labeledby="caption"}
 
 
-# Re-configuring an existing virtual server
+# Reconfiguring an existing virtual server
 {: #reconfiguring-virtual-servers}
 
 After a virtual server is provisioned, you can upgrade or downgrade its configuration at any time.  
@@ -32,54 +32,15 @@ Use the following steps to reconfigure an existing virtual server.
 {:shortdesc}
 
 ## Modifying an existing virtual server (that uses pre-set flavors)
-1. From the Device List, click the name of the virtual server that you want to reconfigure.
-2. On the **Configuration** tab, you can click **Modify** or **Modify device configuration** to update the following items. 
+1. Access the [{{site.data.keyword.slportal_full}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) by using your unique credentials. 
+2. From the Device List, click the name of the virtual server that you want to reconfigure.
+3. On the **Configuration** tab, you can click **Modify** or **Modify device configuration** to update the following items. 
   <dl>
   <dt>Size</dt>
   <dd>Select a new size.</dd>
   <p><note>Note: When you modify a flavor that uses local storage, you cannot switch to a flavor that uses non-local storage. Likewise, when you modify a flavor that uses non-local storage, you cannot switch to a flavor that uses local storage.
   </note></p>
   </dl>
-3. After you specify changes for the virtual server, complete the configuration update.
-  <dl>
-  
-  <dt>Upgrade date</dt>
-  <dd>You can click the Immediately check box for an immediate update, or schedule a time for the update to become active.</dd>
-
-  <dt>Upgrade time</dt>
-  <dd>Enter the date (YYYY-MM-DD) for the update to become active.</dd>
-
-  <dt>Notes</dt>
-  <dd>Enter any applicable notes for your device. </dd>
-  </dl>
-
-4. Click **Continue**.
-5. Review your order confirmation for accuracy.  Click **Edit** to edit your upgrade.
-6. Click **Confirm** to confirm your order and apply the changes to your device.
-
-## Modifying an existing virtual server (before pre-set flavors) or a dedicated virtual server
-1. From the Device List, click the name of the virtual server that you want to reconfigure.
-2. On the **Configuration** tab, you can click **Modify** or **Modify device configuration** to update the following items. 
-  
-  <dl>
-
-  <dt>Cores</dt>
-  <dd>Select the number of cores for the update, if applicable.</dd>
-
-  <dt>RAM</dt>
-  <dd>Select the amount of RAM to apply to your device, if applicable.</dd>
-
-  <dt>Max Speed</dt>
-  <dd> Select the new uplink port speeds for your device, if applicable.</dd>
-
-  <dt>Public bandwidth</dt>
-  <dd>Select the amount (in GB) of public bandwidth for your device, if applicable.  </dd>
-  </dl>
-  
-3. On the **Storage** tab, you can click **Modify** or **Modify device configuration** to reconfigure the storage that is assigned to your virtual server.
-   
-   **Note:** For public virtual servers, if you are upgrading local storage and require more core or RAM, you might lose your secondary disk. When you modify a virtual server flavor that uses local storage, the flavor is pre-set for you and flavors that are not comparable cannot be selected.  
-
 4. After you specify changes for the virtual server, complete the configuration update.
   <dl>
   
@@ -96,3 +57,26 @@ Use the following steps to reconfigure an existing virtual server.
 5. Click **Continue**.
 6. Review your order confirmation for accuracy.  Click **Edit** to edit your upgrade.
 7. Click **Confirm** to confirm your order and apply the changes to your device.
+
+## Modifying an existing virtual server (before pre-set flavors) or a dedicated virtual server
+1. From the Device List, click the name of the virtual server that you want to reconfigure.
+2. On the **Configuration** tab, you can click **Core or RAM upgrade** link to update the following items. 
+  
+|   Upgrade options       |  Description                                                                                                |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------- |
+| Upgrade Date            | Enter the date (YYYY-MM-DD) for the update to become active.                                                |
+| Upgrade Time            | Select the time from the drop down boxes for the time of the day for the update to become active, or click the **Immediate** checkbox for an immediate update.                                                                                        |
+| Cores                   | Select the number of cores for the update, if applicable. |
+| RAM                     | Select the amount of RAM to apply to your device for the update, if applicable.   |
+| Uplink Port Speeds      | Select the new uplink port speeds for your device, if applicable. |
+| Public Bandwidth        | Select the amount (in GB) of public bandwidth for your device, if applicable.   |
+| First Disk – Fifth Disk | Select the disk space/storage option for your first disk, if applicable. See **Disk Notes** below for more information.                                                                                                                               |
+| Notes                   | Enter any applicable notes for your device.                                                                 |
+{: caption="Table 1. Deployment options" caption-side="top"}   
+  
+  **Disk Notes:**
+  * Both Local and SAN storage is available.  Double check your selection to ensure your storage option is correct.
+  * For public virtual servers, if you are upgrading local storage and require more core or RAM, you might lose your secondary disk. When you modify a virtual server flavor that uses local storage, the flavor is pre-set for you and flavors that are not comparable cannot be selected.
+3. Click **Continue**.
+4. Review your order confirmation for accuracy.  Click **Edit** to edit your upgrade.
+5. Click **Confirm** to confirm your order and apply the changes to your device.

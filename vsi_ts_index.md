@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-04-27"
+lastupdated: "2017-10-24"
 
 
 ---
@@ -37,7 +37,7 @@ Last updated: 09 March 2017
 If you have problems or questions when using {{site.data.keyword.BluVirtServers}}, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support ticket.
 {:shortdesc}
 
-When using the forums to ask a question, tag your question so that it is seen by the {{site.data.keyword.Bluemix_notm}} development teams.
+When using the forums to ask a question, tag your question so that it is seen by the {{site.data.keyword.Bluemix}} development teams.
 <!--Insert the appropriate Stack Overflow tag for your service for <block-storage> in URL and text below:  -->
 * If you have technical questions about Virtual Servers, post your question on [Stack Overflow ![External link icon](../icons/launch-glyph.svg "External link icon")](http://stackoverflow.com/search?q=virtual-servers+ibm-bluemix){:new_window} and tag your question with "ibm-bluemix" and "virtual-servers".
 <!--Insert the appropriate dW Answers tag for your service for <service_keyword> in URL below:  -->

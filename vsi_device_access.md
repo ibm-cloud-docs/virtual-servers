@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-08-23"
+lastupdated: "2017-10-24"
 
 
 ---
@@ -20,7 +20,7 @@ lastupdated: "2017-08-23"
 # Managing device access
 {: #managing-device-access}
 
-To access and manage the details for a specific device, you must have the right permissions granted to your user account.  After the account administrator grants your user account access to a device, you can view the device details by using the customer portal or by using the API.  The information or action that you see depends on the device type, as well as the permissions that are granted to your user account.
+To access and manage the details for a specific device, you must have the right permissions granted to your user account.  After the account administrator grants your user account access to a device, you can view the device details by using the {{site.data.keyword.slportal_full}} or by using the API.  The information or action that you see depends on the device type, as well as the permissions that are granted to your user account.
 {:shortdesc}
 
 **Note:** If your account has devices to which you have not been granted access, you will see an "Unknown Device" name when you try to access those devices.
@@ -40,7 +40,7 @@ Allows you to view the IP addresses, operating system type, passwords, and more 
 ## Adding permission to view virtual server instances
 Use the following steps to add *View Virtual Server Details* permissions for any of your child users. Only an account's administrator can grant permissions to other users on their account.  
 
-1. Access the [Customer Portal ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
+1. Access the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
 2. Select **Account > Users** from the Navigation Bar to access the Users screen.
 3. Click the relevant user name to access the User Profile.
 4. Click the **Portal Permissions** icon to access the Portal Permissions screen.
@@ -59,7 +59,7 @@ To provide access at a specific device level, continue to the following steps.
 ## Adding permission to view dedicated hosts
 Use the following steps to add *View Virtual Dedicated Host Details* permissions for any of your child users. Only an account's administrator can grant permissions to other users on their account.
 
-1. Access the [Customer Portal ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
+1. Access the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
 2. Select **Account > Users** from the Navigation Bar to access the Users screen.
 3. Click the relevant user name to access the User Profile.
 4. Click the **Portal Permissions** icon to access the Portal Permissions screen.

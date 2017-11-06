@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-07-31"
+lastupdated: "2017-10-24"
 
 
 ---
@@ -19,11 +19,11 @@ lastupdated: "2017-07-31"
 # Provisioning dedicated hosts and instances
 {: #ordering-vs-dedicated}
 
-You have two options on how to provision your dedicated host server and instances. The first is through the IBM® Bluemix® Catalog and the second is through the Customer Portal. Note that the catalog and portal require unique log-in IDs, in other words, your catalog username and password won’t work for logging in to the portal and vice versa. See [https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window}  to set up either your Bluemix Catalog or Customer Portal credentials.
+You have two options on how to provision your dedicated instances. The first is through the {{site.data.keyword.Bluemix}} catalog and the second is through the {{site.data.keyword.slportal_full}}. The catalog and {{site.data.keyword.slportal}} require unique log-in IDs. Your catalog user name and password won’t work for logging in to the portal and vice versa. See [Signing up for {{site.data.keyword.Bluemix_notm}}](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window}  to set up either your {{site.data.keyword.Bluemix_notm}} catalog or {{site.data.keyword.slportal}} credentials.
 {:shortdesc}
 
 ## Log into the Bluemix Catalog
-Use the following steps to log in to the Bluemix Catalog to begin provisioning your dedicated hosts and dedicated host instances. 
+Use the following steps to log in to the {{site.data.keyword.Bluemix_notm}} catalog to begin provisioning your dedicated hosts and dedicated host instances. 
 
 1. Open a new browser window and enter [https://console.ng.bluemix.net/catalog/](https://console.ng.bluemix.net/catalog/){: new_window}.
 2.	Click the **Log in** link (upper-right corner). 
@@ -34,17 +34,17 @@ Use the following steps to log in to the Bluemix Catalog to begin provisioning y
 7.	Select the **Dedicated Virtual Servers** option.
 8.  Click **Create**. 
 
-You will be on the main page of the Customer Portal.
+You will be on the main page of the {{site.data.keyword.slportal}}.
 
 ## Log in to the Customer Portal
-Use the following steps to log in to the Customer Portal to begin the order for your dedicated hosts and dedicated host instances.
+Use the following steps to log in to the {{site.data.keyword.slportal}} to begin the order for your dedicated hosts and dedicated host instances.
 
 1.	Open a new browser window and enter [https://control.softlayer.com](https://control.softlayer.com){: new_window}. 
 2.	Enter your Username and Password, and click **Log In** OR click **Log in with IBMid**.
 3.	Enter your email or IBMid and click **Continue**.
 4.	Enter your Password and click **Log In**.
 
-You will be on the main page of the Customer Portal.
+You will be on the main page of the {{site.data.keyword.slportal}}.
 
 ## Provision your dedicated host 
 Use the following steps to provision your dedicated hosts.
@@ -74,7 +74,7 @@ You’re taken to the *Configure your Cloud Server* page. It’s from this page 
     </tr>
     <tr>
     <td>Location</td>
-    <td>Select the IBM Cloud Data Center where you want to place your hosts. See About for the list of applicable data centers.</td>
+    <td>Select the {{site.data.keyword.cloud}} data center where you want to place your hosts. See About for the list of applicable data centers.</td>
     </tr>
     <td>Dedicated Host</td>
     <td>Defaults to 56 Cores X 242 RAM X 1.2 TB</td>
@@ -115,7 +115,7 @@ You’re taken to the *Configure your Cloud Server* page. It’s from this page 
 9.  Click the **Cloud Service terms** checkbox.
 10. Confirm or enter your payment information and click the **Submit** button. You will be redirected to a screen with your provisioning order number. You can print the screen because it's also your provisioning order receipt.
 
-    A series of emails are sent to your administrator—acknowledgement of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email will include a link that will take you directly to your **Device Details** page after logging in to Bluemix. Another option would be to log directly in to the Customer Portal.
+    A series of emails are sent to your administrator—acknowledgement of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email will include a link that will take you directly to your **Device Details** page after logging in to {{site.data.keyword.Bluemix_notm}}. Another option would be to log directly in to the {{site.data.keyword.slportal}}.
 
 ## Provision your dedicated host instances
 {: #provision-dedicated-instances}
@@ -124,11 +124,11 @@ You can provision your dedicated host instances two ways—through the **Devices
 ### Provisioning your dedicated host instances through the Devices menu
 {: #ordering-dedicated-devices-menu}
 
-Your first option is to provision your dedicated host instances through the **Devices** menu from the main Customer Portal page. The following steps take you through this process.
+Your first option is to provision your dedicated host instances through the **Devices** menu from the main {{site.data.keyword.slportal}} page. The following steps take you through this process.
 
 1.	Click **Devices > Device List**. 
  
-    The *Devices* page displays all device types—dedicated hosts, virtual servers, bare metal servers and NetScaler application delivery controllers—within your account. 
+    The *Devices* page displays all device types—dedicated hosts, virtual servers, bare metal servers, and NetScaler application delivery controllers—within your account. 
 
 2.	Select the host for your dedicated host instances by clicking on its link under **Device Name**.
     
@@ -159,7 +159,7 @@ Your first option is to provision your dedicated host instances through the **De
     <td>Placement</td>
     <td>
     <ul>
-    <li>Auto Assign – Bluemix automatically assigns your instance to a host versus you specifying one. Your instance will be placed in a data center that has capacity. If you auto-assign your instance, you will not be using any of your dedicated hosts's capacity.</li>
+    <li>Auto Assign – {{site.data.keyword.Bluemix_notm}} automatically assigns your instance to a host versus you specifying one. Your instance will be placed in a data center that has capacity. If you auto-assign your instance, you will not be using any of your dedicated hosts's capacity.</li>
     <li>Specify Host – Your dedicated host associated with your account will display under Dedicated Host. </li>
     </ul>
     </td>
@@ -245,7 +245,7 @@ Your first option is to provision your dedicated host instances through the **De
 You will receive an email once your dedicated host instances have been provisioned.
 
 ### Provisioning your dedicated host instances through the Devices icon
-The second option to provision dedicated host instances is to use the **Device** icon on the Customer Portal home page. The following steps take you through this process.
+The second option to provision dedicated host instances is to use the **Device** icon on the {{site.data.keyword.slportal}} home page. The following steps take you through this process.
 
 1.	Click the **Devices** icon and select **Hourly** or **Monthly** under Dedicated Virtual Servers.
 2.	Follow the steps under [Provisioning your dedicated host instances through the Devices menu](#ordering-dedicated-devices-menu), beginning with Step 5.

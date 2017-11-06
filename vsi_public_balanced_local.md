@@ -26,104 +26,129 @@ The offering is available in the following flavors:
 <THEAD>
 <TR>
 <th>Flavor</th>
-<th>Cores</th>
-<th>Memory (GB)</th>
-<th>Secondary storage (GB)<sup>(*)</sup></th>
+<th>vCPU</th>
+<th>RAM</th>
+<th>Secondary disks<sup>(*)</sup></th>
 <th>Storage type</th>
 </TR>
 </THEAD>
 <TBODY>
 <tr>
-<td>Balanced Local-1</td>
+<td>BL1.1x2</td>
 <td>1</td>
-<td>2</td>
-<td>25, 100</td>
+<td>2 GB</td>
+<td>25, 100 GB</td>
 <td>Local SSD, Local HDD</td>
 </tr>
 <tr>
-<td>Balanced Local-2</td>
+<td>BL1.1x4</td>
 <td>1</td>
-<td>4</td>
-<td>25, 100</td>
+<td>4 GB</td>
+<td>25, 100 GB</td>
 <td>Local SSD, Local HDD</td>
 </tr>
 <tr>
-<td>Balanced Local-3</td>
+<td>BL1.2x4</td>
 <td>2</td>
-<td>4</td>
-<td>100, 200</td>
+<td>4 GB</td>
+<td>100, 200 GB</td>
 <td>Local SSD, Local HDD</td>
 </tr>
 <tr>
-<td>Balanced Local-4</td>
+<td>BL1.2x8</td>
 <td>2</td>
-<td>8</td>
-<td>100, 200</td>
+<td>8 GB</td>
+<td>100, 200 GB</td>
 <td>Local SSD, Local HDD</td>
 </tr>
 <tr>
-<td>Balanced Local-5</td>
+<td>BL1.4x8</td>
 <td>4</td>
-<td>8</td>
-<td>150, 300</td>
+<td>8 GB</td>
+<td>150, 300 GB</td>
 <td>Local SSD, Local HDD</td>
 </tr>
 <tr>
-<td>Balanced Local-6</td>
+<td>BL1.4x16</td>
 <td>4</td>
-<td>16</td>
-<td>150, 300</td>
+<td>16 GB</td>
+<td>150, 300 GB</td>
 <td>Local SSD, Local HDD</td>
 </tr>
 <tr>
-<td>Balanced Local-7</td>
+<td>BL1.8x16</td>
 <td>8</td>
-<td>16</td>
-<td>250, (2 x 250)</td>
+<td>16 GB</td>
+<td>250 GB, (2 x 250 GB)</td>
 <td>Local SSD, Local HDD</td>
 </tr>
 <tr>
-<td>Balanced Local-8</td>
+<td>BL1.8x32</td>
 <td>8</td>
-<td>32</td>
-<td>250, (2 x 250)</td>
+<td>32 GB</td>
+<td>250 GB, (2 x 250 GB)</td>
 <td>Local SSD, Local HDD</td>
 </tr>
 <tr>
-<td>Balanced Local-9</td>
+<td>BL1.16x32</td>
 <td>16</td>
-<td>32</td>
-<td>300, (2 x 300)</td>
+<td>32 GB</td>
+<td>300 GB, (2 x 300 GB)</td>
 <td>Local SSD, Local HDD</td>
 </tr>
 <tr>
-<td>Balanced Local-10</td>
+<td>BL1.16x64</td>
 <td>16</td>
-<td>64</td>
-<td>300, (2 x 300)</td>
+<td>64 GB</td>
+<td>300 GB, (2 x 300 GB)</td>
 <td>Local SSD, Local HDD</td>
 </tr>
 <tr>
-<td>Balanced Local-11</td>
+<td>BL1.32x64</td>
 <td>32</td>
-<td>64</td>
-<td>400, (2 x 400)</td>
+<td>64 GB</td>
+<td>400 GB, (2 x 400 GB)</td>
 <td>Local SSD, Local HDD</td>
 </tr>
 <tr>
-<td>Balanced Local-12</td>
+<td>BL1.32x128</td>
 <td>32</td>
-<td>128</td>
-<td>400, (2 x 400)</td>
+<td>128 GB</td>
+<td>400 GB, (2 x 400 GB)</td>
 <td>Local SSD, Local HDD</td>
 </tr>
 </TBODY>
 </table>
 
 **Storage Notes:**
-* <sup>(*)</sup>Balanced local flavors automatically come with a 100 GB local storage boot disk. Then, you must select a required, second disk (options shown in table above). Any additional local disks are optional. If you require over 500 GB, then two additional disks are required (for example, 8 cores require 2 x 250 GB of local storage).
+* <sup>(*)</sup>Balanced local flavors automatically come with a 100 GB local storage boot disk. Then, you can select a second disk (options shown in table above). Any additional local disks are optional. If you require over 500 GB, then two additional disks are required (for example, 8 cores require 2 x 250 GB of local storage).
 *	Maximum local storage is limited by cores. 
-* Balanced local storage is globally available; however, the type of storage (Local SSD or Local HDD) depends on the data center location.
+*	Balanced local storage is globally available; however, the type of storage (Local SSD or Local HDD) depends on the data center location. 
 *	You cannot detach primary or secondary disks.
+
+The following data centers support Balanced Local Storage virtual servers:
+
+|Data Centers (Local SSD) |        |         |
+|------- |------  |------ | 
+|AMS03   |LON06   |SJC03  |
+|CHE01   |MEL01   |SJC04  | 
+|DAL09   |MEX01   |SYD01  |
+|DAL10   |MIL01   |SYD04  |
+|DAL12   |MON01   |TOK02  |       
+|DAL13   |OSL01   |TOR01  |
+|FRA02   |PAR01   |WDC04  |
+|LON02   |SAO01   |WDC06  |
+|LON04   |SEO01   | WDC07 | 
+{: caption="Table 2. Supported data centers (Local SSD)" caption-side="top"}
+
+|Data Centers (Local HDD) |        |
+|------------ |------  |  
+|AMS01        |SEA01   |
+|DAL01        |SJC01   | 
+|DAL05        |SNG01   |
+|DAL06        |WDC01   |
+|HKG02        |        |        
+|HOU02        |        |  
+{: caption="Table 3. Supported data centers (Local HDD)" caption-side="top"}
 
 All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), supported  databases, and software add-ons are also available with this offering.  

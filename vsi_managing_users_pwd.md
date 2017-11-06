@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-04-27"
+lastupdated: "2017-10-24"
 
 
 ---
@@ -20,7 +20,7 @@ lastupdated: "2017-04-27"
 # Managing users from password tracking
 {: #managing-virtual-servers}
 
-The Customer Portal has a complimentary Password Tracking tool that you can use to store user and password details for software associated with your devices. After adding information into the Password Tracking tool, it may be deleted at any time. Follow the links below for more information about using passwords on the [Customer Portal ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}.
+The {{site.data.keyword.slportal_full}} has a complimentary Password Tracking tool that you can use to store user and password details for software associated with your devices. After adding information into the Password Tracking tool, it may be deleted at any time. Follow the links below for more information about using passwords on the {{site.data.keyword.slportal}}.
 {:shortdesc}
 
 **Note:** You now access Passwords from the *Devices -> Manage -> Passwords* menu.

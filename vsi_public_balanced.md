@@ -26,88 +26,88 @@ The offering is available in the following flavors:
 <THEAD>
 <TR>
 <th>Flavor</th>
-<th>Cores</th>
-<th>Memory (GB)</th>
+<th>vCPU</th>
+<th>RAM</th>
 <th>Storage type</th>
 </TR>
 </THEAD>
 <TBODY>
 <tr>
-<td>Balanced-1</td>
+<td>B1.1x2</td>
 <td>1</td>
-<td>2</td>
+<td>2 GB</td>
 <td>SAN</td>
 </tr>
 <tr>
-<td>Balanced-2</td>
+<td>B1.1x4</td>
 <td>1</td>
-<td>4</td>
+<td>4 GB</td>
 <td>SAN</td>
 </tr>
 <tr>
-<td>Balanced-3</td>
+<td>B1.2x4</td>
 <td>2</td>
-<td>4</td>
+<td>4 GB</td>
 <td>SAN</td>
 </tr>
 <tr>
-<td>Balanced-4</td>
+<td>B1.2x8</td>
 <td>2</td>
-<td>8</td>
+<td>8 GB</td>
 <td>SAN</td>
 </tr>
 <tr>
-<td>Balanced-5</td>
+<td>B1.4x8</td>
 <td>4</td>
-<td>8</td>
+<td>8 GB</td>
 <td>SAN</td>
 </tr>
 <tr>
-<td>Balanced-6</td>
+<td>B1.4x16</td>
 <td>4</td>
-<td>16</td>
+<td>16 GB</td>
 <td>SAN</td>
 </tr>
 <tr>
-<td>Balanced-7</td>
+<td>B1.8x16</td>
 <td>8</td>
-<td>16</td>
+<td>16 GB</td>
 <td>SAN</td>
 </tr>
 <tr>
-<td>Balanced-8</td>
+<td>B1.8x32</td>
 <td>8</td>
-<td>32</td>
+<td>32 GB</td>
 <td>SAN</td>
 </tr>
 <tr>
-<td>Balanced-9</td>
+<td>B1.16x32</td>
 <td>16</td>
-<td>32</td>
+<td>32 GB</td>
 <td>SAN</td>
 </tr>
 <tr>
-<td>Balanced-10</td>
+<td>B1.16x64</td>
 <td>16</td>
-<td>64</td>
+<td>64 GB</td>
 <td>SAN</td>
 </tr>
 <tr>
-<td>Balanced-11</td>
+<td>B1.32x64</td>
 <td>32</td>
-<td>64</td>
+<td>64 GB</td>
 <td>SAN</td>
 </tr>
 <tr>
-<td>Balanced-12</td>
+<td>B1.32x128</td>
 <td>32</td>
-<td>128</td>
+<td>128 GB</td>
 <td>SAN</td>
 </tr>
 <tr>
-<td>Balanced-13</td>
+<td>B1.48x192</td>
 <td>48</td>
-<td>192</td>
+<td>192 GB</td>
 <td>SAN</td>
 </tr>
 </TBODY>
@@ -115,7 +115,7 @@ The offering is available in the following flavors:
 
 **Storage Notes:** 
 
-* SAN primary boot disk (25 or 100GB) with additional disks available (5 total disks allowed).
+* SAN primary boot disk (25 or 100GB) with additional disks available, up to 2 TB each (5 total disks allowed).
 * Pricing for public virtual servers using SAN storage includes virtual CPU, memory, and minimum primary boot disk. Additional disk prices depend on the disk size and quantity that you select.  
 
 Balanced flavors (with network-attached storage) are available in all data centers.

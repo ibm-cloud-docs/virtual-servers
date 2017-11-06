@@ -4,7 +4,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-05-17"
+lastupdated: "2017-10-24"
 
 
 ---
@@ -19,16 +19,16 @@ lastupdated: "2017-05-17"
 # Adding a custom provisioning script 
 {: #adding-post-script}
 
-Custom provisioning scripts allow users to specify a URL to a script that is run on a newly provisioned device. You can post and manage custom provisioning scripts within Customer Portal.
+Custom provisioning scripts allow users to specify a URL to a script that is run on a newly provisioned device. You can post and manage custom provisioning scripts within {{site.data.keyword.slportal_full}}.
 {:shortdesc}
 
-When ordering a device, you can select a custom provisioning script if it has been posted to the Provisioning Scripts screen of the Customer Portal. If a script has not been added, you can provide a URL. Provisioning scripts can be any file that the operating system (OS) can execute, including combined binary files or any OS-supported language. Use the following steps to add a custom provisioning script on the Customer Portal.
+When ordering a device, you can select a custom provisioning script if it has been posted to the Provisioning Scripts screen of the {{site.data.keyword.slportal}}. If a script has not been added, you can provide a URL. Provisioning scripts can be any file that the operating system (OS) can execute, including combined binary files or any OS-supported language. Use the following steps to add a custom provisioning script on the {{site.data.keyword.slportal}}.
 
 **Note:** This feature is currently available to Linux and Unix-based operating systems only.
 
 ## Adding a provisioning script
 
-1. From the **Devices** menu in the Customer Portal, select **Manage** > **Provisioning Scripts**.
+1. From the **Devices** menu in the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}, select **Manage** > **Provisioning Scripts**.
 2. Click **Add Provisioning Script**.
 4. In the Name field, enter a unique script name.
 5. In the URL field, enter the exact URL to be associated with the script.

@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-06-27"
+lastupdated: "2017-10-24"
 
 
 ---
@@ -19,13 +19,13 @@ lastupdated: "2017-06-27"
 # Managing dedicated hosts and instances
 {: #managing-virtual-servers}
 
-The Device Details page is where you manage your dedicated host and instances, track your support tickets and monitor your host’s availability. You can access and view your dedicated host instances two ways from the Device List—as part of their host or as an individual instance.
+The Device Details page is where you manage your dedicated host and instances, track your support tickets, and monitor your host’s availability. You can access and view your dedicated host instances two ways from the Device List—as part of their host or as an individual instance.
 {:shortdesc}
 
 ## Host Configuration tab
-You can perform several tasks from the **Configuration** tab for the dedicated host, including manage your dedicated host instances. Under the Actions drop-down menu, you can rename the host or cancel it. All assigned dedicated host instances must be cancelled or migrated first before a host can be cancelled, otherwise an error message is received.
+You can perform several tasks from the **Configuration** tab for the dedicated host, including manage your dedicated host instances. Under the Actions drop-down menu, you can rename the host or cancel it. All assigned dedicated host instances must be canceled or migrated first before a host can be canceled, otherwise an error message is received.
 
-Notes can be kept on the host and its instances, for example, Migration from myDallasHost to myTorHost is scheduled for XX/XX/XXXX. The General, System and Network frames of the page provide you with at-a-glance details about the host. Note that the Storage frame refers to local storage capacity.
+Notes can be kept on the host and its instances; for example, Migration from myDallasHost to myTorHost is scheduled for XX/XX/XXXX. The General, System, and Network frames of the page provide you with at-a-glance details about the host. Note that the Storage frame refers to local storage capacity.
 
 The Instances frame contains the instances assigned to a specific host, as well as the ability to add instances to the host. Click on the Actions menu for an instance to do the following to it:
 
@@ -41,10 +41,10 @@ The Instances frame contains the instances assigned to a specific host, as well 
 Use the Tickets tab to open support tickets for the host and any of its instances by clicking the Add a Ticket for this Device link.
 
 ## Host Allocations tab
-The Allocations tab lets you view available cores, RAM and local storage for your dedicated host. The blue slice of the “pie” represents what’s in use and the white slice is what’s available.
+The Allocations tab lets you view available cores, RAM, and local storage for your dedicated host. The blue slice of the “pie” represents what’s in use and the white slice is what’s available.
 
 ## Dedicated host instance tab
-The dedicated host instance Device Details page can be reached either through its host’s Device Details page or directly from the Device List. There are more tabs at the dedicated host instance level; Configuration and Tickets are similar to the tabs found at the host level. The Modify Device Configuration link, on the Configuration tab, lets you make changes to your system (core, RAM and local storage) and network (bandwidth and uplink port speeds) setup.
+The dedicated host instance Device Details page can be reached either through its host’s Device Details page or directly from the Device List. There are more tabs at the dedicated host instance level; Configuration and Tickets are similar to the tabs found at the host level. The Modify Device Configuration link, on the Configuration tab, lets you make changes to your system (core, RAM, and local storage) and network (bandwidth and uplink port speeds) setup.
 
 Usage displays a time-plot graph based on CPU usage by date. You can roll over the graph to see CPU usage for a specific date and time, which is helpful when trying to determine if you need to add processing capacity.
 
@@ -73,7 +73,7 @@ You'll receive a message that the dedicated host is canceled. There will be a li
 
 ### Cancel a dedicated instance
 
-Before you can cancel a dedicated host, the dedicated instances assigned to it have to be canceled. Dedicated instances can be canceled directly from the Device List, the Device Details page of their assigned host or their own Device Details page. 
+Before you can cancel a dedicated host, the dedicated instances assigned to it have to be canceled. Dedicated instances can be canceled directly from the Device List, the Device Details page of their assigned host, or their own Device Details page. 
 
 1. Select the dedicated instance to be canceled and click the **Actions** drop-down menu.
 2. Select **Cancel Device**.

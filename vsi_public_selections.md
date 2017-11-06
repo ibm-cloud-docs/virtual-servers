@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-10-09"
+lastupdated: "2017-10-24"
 
 
 ---
@@ -20,7 +20,7 @@ lastupdated: "2017-10-09"
 You must make the following selections when you provision a public virtual server.
 
 ## Location
-You can select the specific data center to which you want to deploy. For new deployments, Bluemix automatically identifies the best POD (based on availability) and creates the appropriate public and private VLANs. For additions to existing environments, you can select the specific POD, VLAN, and subnet that is required for your design.
+You can select the specific data center to which you want to deploy. For new deployments, {{site.data.keyword.Bluemix}} automatically identifies the best POD (based on availability) and creates the appropriate public and private VLANs. For additions to existing environments, you can select the specific POD, VLAN, and subnet that is required for your design.
 
 ## Processors / RAM
 When you order, you have core processor options from which to select. The core processor options follow standards for virtual server deployments. Each physical core on the server is hyper-threaded and presented as two virtual CPUs (vCPUs) or cores. The virtual server offering provides 2.0GHz or better per core with up to 56 cores available on a single virtual server.
@@ -33,41 +33,15 @@ RAM is extremely straight-forward. The offering fully dedicates the amount of RA
 
 You also select the operating system to be deployed to the server. You can select a number of free options such as CentOS and Ubuntu. Paid  options such as Windows Server and Red Hat Enterprise Linux (RHEL) are also available. It is important to note that Windows requires a 100GB primary disk.
 
-For existing customers, you can also deploy based on an Image Template through the Control Portal by navigating to **Devices -> Manage -> Images** and selecting **Order Virtual Server** from the *Actions* menu.  This automatically selects the appropriate operating system for the order.  Alternatively, you can order based on a standard image and then reload to an image template at any time.
+For existing customers, you can also deploy based on an Image Template through the {{site.data.keyword.slportal_full}} by navigating to **Devices -> Manage -> Images** and selecting **Order Virtual Server** from the *Actions* menu.  This automatically selects the appropriate operating system for the order.  Alternatively, you can order based on a standard image and then reload to an image template at any time.
 
 ## Storage
 
-You have the option for SAN or local storage for each virtual server. You can supplement SAN or local storage with other storage products as needed. SAN and local storage are both exposed to the virtual server as local disks. Any changes to disks such as attach, detach, migrate, and so on, require a reboot of the virtual server. An entire virtual server can be migrated to SAN or to local storage at any time by using the Control Portal. Changes to storage configurations must stay within the disk quota and size maximums for that storage type.
-
-### Local storage
-
-Local storage is built on disks that are local to the virtual server host. Local storage provides improved disk read/write performance.  The disks are built in a redundant array of independent disks (RAID) configuration for redundancy, disk replacement, and health monitoring which is fully managed by Bluemix. In newer data centers, this storage is all solid state drive (SSD) to provide the best performance. For information about specific local storage options, see [Balanced local storage virtual servers](vsi_public_balanced_local.html) or [Dedicated virtual servers](vsi_dedicated.html). 
-
-### SAN storage
-
-SAN storage is built on Bluemix's SAN infrastructure rather than the local host storage.  This provides greater resiliency in the event of a host failure and can also support much larger volumes.  In the event of a host failure, virtual server instances using SAN-based storage are automatically migrated to other hosts and restarted. For information about specific SAN storage options, see [Public virtual servers](vsi_public.html) or [Dedicated virtual servers](vsi_dedicated.html). 
-
-### Portable storage
-
-Second through fifth disks are attached as portable storage. In most cases, the disks can be detached at any time to allow them to be moved to other virtual servers. 
-
-**Exception:** With public virtual servers that use Balanced local storage flavors, you cannot detach primary or secondary disks.
-
-The disks can be re-attached to another server, as long as the change does not exceed the disk quota or the maximum volume size limit of the target virtual server.
-
-**Note:** The moved disk is converted to the storage type of the target server.
-
-### LVM limitations
-
-Logical volume management (LVM) is not supported as a bootable partitioning scheme. With proper operating system support and configuration, secondary virtual server disks can be used for LVM partitions. However, LVM is not a supported file system for Image Templates or Flex Images.
-
-### Supplemental storage
-
-Virtual servers are fully compatible with file and block SAN storage, as well as, object storage. These storage types are recommended for cluster drives, shared file storage, archival storage, large storage requirements, or specific performance requirements.
+You have the option for SAN or local storage for each virtual server. You can supplement SAN or local storage with other storage products as needed. SAN and local storage are both exposed to the virtual server as local disks. Any changes to disks such as attach, detach, migrate, and so on, require a reboot of the virtual server. For more information, see [Storage options](../vsi/storage/vsi_about_storage.html).
 
 ## Hourly and monthly billing
 
-You can select hourly or monthly billing for a virtual server. The primary difference, other than cost, is that hourly servers do not have an included bandwidth allocation. At the end of a billing period, the bandwidth usage and the number of hours each server was active on the account are calculated. A running total is available in the Control Portal under the Virtual Server View page with a link to a Details page, showing each line item, number of hours, and running charges per item.
+You can select hourly or monthly billing for a virtual server. The primary difference, other than cost, is that hourly servers do not have an included bandwidth allocation. At the end of a billing period, the bandwidth usage and the number of hours each server was active on the account are calculated. A running total is available in the {{site.data.keyword.slportal}} under the Virtual Server View page with a link to a Details page, showing each line item, number of hours, and running charges per item.
 
 ## Bandwidth
 
@@ -79,7 +53,7 @@ You can select the uplink speed for the virtual server, up to 1GB/s. These virtu
 
 ## Software
 
-You can select software to be installed by Bluemix during the provisioning process. Bluemix provides support for any software deployed during the provisioning process. You can also install your own software after the server is deployed.
+You can select software to be installed by {{site.data.keyword.Bluemix_notm}} during the provisioning process. {{site.data.keyword.Bluemix_notm}} provides support for any software deployed during the provisioning process. You can also install your own software after the server is deployed.
 
 ## Security
 
@@ -89,13 +63,13 @@ Before deployment, consider your security options. As part of the order process,
 
 You can also use security groups to enact a set of IP filter rules that define how to handle incoming and outgoing traffic to both the public and private interfaces of a virtual server instance.
 
-For more information, see [Firewalls](../vsi/vsi_security_options.html) and [Getting started with security groups](/docs/infrastructure/security-groups/sg_index.html).
+For more information, see [Firewalls](vsi_security_options.html) and [Getting started with security groups](/docs/infrastructure/security-groups/sg_index.html).
 
 ## Monitoring
 
 You can select from a variety of monitoring options for the virtual server. Options include the standard monitoring, which monitors via Ping and transmission control protocol (TCP) service response, and has optional responses in the event of failures. You can also add Advanced Monitoring which uses the Nimsoft software agent to provide a larger feature set for monitoring of the virtual server and installed software.
 
-For more information, see [Viewing and managing monitors](../vsi/vsi_viewing_monitors.html).
+For more information, see [Viewing and managing monitors](vsi_viewing_monitors.html).
 
 ## Backup
 
@@ -107,7 +81,7 @@ For more information, see [Re-registering your device with eVault ![External lin
 
 Post-provisioning scripts can be associated with any virtual server order. This runs a customer-developed script after other provisioning tasks are completed. The scripts are commonly utilized to apply a customer-specific configuration to a server and to aid in automation of your scaling strategy.
 
-For more information, see [Adding a custom provisioning script](../vsi/vsi_add_script.html).
+For more information, see [Adding a custom provisioning script](vsi_add_script.html).
 
 ## What's Next?
-When you are ready to provision your public virtual server, see [Provisioning public instances](../vsi/vsi_provision_public.html).
+When you are ready to provision your public virtual server, see [Provisioning public instances](vsi_provision_public.html).

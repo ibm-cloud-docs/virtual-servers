@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-08-23"
+lastupdated: "2017-10-24"
 
 
 ---
@@ -30,7 +30,7 @@ The public {{site.data.keyword.BluVirtServers}} offerings are IBM-managed, multi
 **Note:** If you are looking for a single-tenant environment, consider the [Dedicated virtual server](../vsi/vsi_dedicated.html) offering.
 {:shortdesc}
 
-Public instances reside on a hypervisor that is shared with other clients. However, the processors and memory are dedicated to the virtual server, making server performance reliable. 
+Public instances reside on a hypervisor that is shared with other clients; however, the processors and memory are dedicated to the virtual server, making server performance reliable. 
 
 The following public virtual servers are available. 
 

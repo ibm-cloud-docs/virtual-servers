@@ -48,4 +48,4 @@ After you decide upon a deployment option, begin the provisioning process.
 ## Next Steps
 
 After your virtual server is provisioned and available to use, you can configure your virtual servers by using the 
-Customer Portal or infrastructure APIs. For more information, see [Configuring virtual servers](../vsi/vsi_configuring.html).
+{{site.data.keyword.slportal_full}} or {{site.data.keyword.slapi_full}}. For more information, see [Configuring virtual servers](../vsi/vsi_configuring.html).
