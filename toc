@@ -40,6 +40,7 @@ IBM Bluemix Virtual Servers
     Related links
         [Control Portal](https://control.softlayer.com/)
         [Maximize Control with IBM Bluemix Virtual servers](https://www.ibm.com/blogs/bluemix/2017/08/maximize-control-ibm-bluemix-virtual-servers/)
+        [PHP web application on a LAMP Stack](../tutorials/lamp-stack.html)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
