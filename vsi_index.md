@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-08-23"
+lastupdated: "2017-11-15"
 
 
 ---
@@ -20,7 +20,7 @@ lastupdated: "2017-08-23"
 You can deploy {{site.data.keyword.BluVirtServers}} in a matter of minutes. The virtual servers are deployed from your choice of virtual server images and in the geographic region that makes sense for your workloads.
 {:shortdesc}
 
-When you create a virtual server, you can choose from hourly or monthly billing, public (multitenancy) environment or dedicated (single-tenant) environment, and high-performance local disks or enterprise SAN storage.
+When you create a virtual server, you can choose between hourly or monthly billing. You can also choose between a public (multi-tenancy) environment or a dedicated (single-tenancy) environment. Then, you can choose either high-performance local disks or enterprise SAN storage for your virtual server.
 
 ## Before you begin
 
