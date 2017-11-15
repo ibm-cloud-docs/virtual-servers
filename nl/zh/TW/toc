@@ -1,0 +1,127 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="virtual-servers" audience="compute" href=“/docs/vsi/index.html”}
+IBM Bluemix Virtual Servers 
+
+    {: .navgroup id="learn"}
+    vsi_index.md
+    vsi_about.md
+    
+    {: .topicgroup}
+    佈建選項
+        vsi_public.md
+            vsi_public_balanced.md
+            vsi_public_balanced_local.md
+            vsi_public_compute.md
+            vsi_public_memory.md
+            vsi_public_selections.md
+        vsi_dedicated.md
+            vsi_dedicated_host.md
+            vsi_dedicated_pricing.md
+
+    vsi_image_templates_intro.md
+
+    {: .topicgroup}
+    安全選項
+        vsi_security_options.md
+        vsi_security_groups.md
+
+    /storage/vsi_about_storage.md
+
+    {: .topicgroup}
+    軟體選項
+        [關於軟體](../infrastructure/software/index.html)
+        [Microsoft Windows Update 資訊](../infrastructure/software/microsoft-windows-update-instructions.html)
+        [RedHat Update 資訊](../infrastructure/software/redhat-update-instructions.html)
+        [AV/S/Host IDS 主題說明](../infrastructure/software/avshost-ids-topic-description.html)
+    
+    {: .topicgroup}
+    指導教學
+        [LAMP Stack 上的 PHP Web 應用程式](../tutorials/lamp-stack.html)
+        
+    {: .topicgroup}
+    相關鏈結
+        [Control Portal](https://control.softlayer.com/)
+        [Maximize Control with IBM Bluemix Virtual servers](https://www.ibm.com/blogs/bluemix/2017/08/maximize-control-ibm-bluemix-virtual-servers/)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    vsi_api.md
+        vsi_provision_api.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    {: .topicgroup}
+    佈建
+        vsi_provision_public.md
+        vsi_dedicated_instances.md
+        vsi_provision_dedicated.md
+
+    {: .topicgroup}
+    配置
+        vsi_configuring.md
+        vsi_reconfigure.md
+        vsi_work_image.md
+
+    {: .topicgroup}
+    管理伺服器
+        vsi_managing.md
+            vsi_add_script.md
+            vsi_vulnerability_scans.md
+            vsi_bandwidth-graphs.md
+        vsi_managing_dedicated.md
+        vsi_device_access.md
+        vsi_interact_device_snapshot_view.md
+        vsi_managing_users_pwd.md
+     
+    {: .topicgroup}
+    管理安全
+        vsi_managing_sg.md
+
+    {: .topicgroup}
+    管理儲存空間
+        /storage/access-portable-storage-screen.md
+        /storage/vsi_view_portable_storage.md
+        /storage/edit-description-portable-storage-volume-psv.md
+        
+    {: .topicgroup}
+    管理軟體
+        [重新載入 OS](../infrastructure/software/vsi_reload_os.html)
+        [使用映像檔範本重新載入 OS](../infrastructure/software/vsi_reload_os_image.html)
+        [將 IPv6 新增至 Ubuntu 系統](../infrastructure/software/adding-ipv6-ubuntu-systems.html)
+        [安裝 ClamAV](../infrastructure/software/install-clamav.html)
+        [在 cPanel/WHM 中通知使用者接近頻寬限制](../infrastructure/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
+ 
+    {: .topicgroup}
+    移轉
+        vsi_migrating_dedicated.md
+
+    {: .topicgroup}
+    監視
+        vsi_monitoring_intro.md
+        vsi_viewing_monitors.md
+
+    {: .topicgroup}
+    備份及回復
+        vsi_backup.md
+        vsi_launch_rescue.md
+        
+    {: .topicgroup}
+    相關鏈結
+        [Virtual Machine Network Setup](http://knowledgelayer.softlayer.com/learning/virtual-machine-network-setup)
+        [Control Portal](https://control.softlayer.com/)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    vsi_ts_index.md
+
+    {: .topicgroup}
+    常見問題
+        vsi_faqs_vs.md
+        vsi_faqs_dedicated.md
+        faq_servers_general.md
+        [常見問題：OS 重新載入](../infrastructure/software/os-reload-question-faq.html)
+        [常見問題：cpsrvd 電子郵件](../infrastructure/software/why-did-my-cpsrvd-email-fail.html)
+
+    {: .navgroup-end}

@@ -1,0 +1,196 @@
+---
+
+
+
+copyright:
+  years: 2017
+lastupdated: "2017-04-27"
+
+
+---
+
+{:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+
+# 公用虛擬伺服器（含特性）API 範例
+{: #api-python-public} 
+
+下列資訊所顯示的 REST API 範例用來佈建使用預設特性的公用虛擬伺服器實例。
+{:shortdesc}
+
+如需更健全的 API 範例，請參閱下列資源：
+* [Softlayer_Virtual_Guest API 範例](https://softlayer.github.io/classes/softlayer_virtual_guest/)
+
+## 使用建立物件佈建公用實例
+*SoftLayer_Virtual_Guest/createObject* API 服務是佈建使用預設特性的公用虛擬伺服器實例的最簡單方式。
+
+若要使用 REST 來佈建公用虛擬伺服器實例，會使用要求內文中的下列 JSON，將 POST 要求提交至 https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json。
+
+### JSON 要求內文 1
+```
+{
+    "parameters":[
+        {
+            "hostname": "public-01-mex01",
+            "domain": "softlayer.local",
+            "datacenter": {
+                "name": "mex01"  
+            },
+            "operatingSystemReferenceCode": "CENTOS_LATEST",
+            "networkComponents": [
+                {
+                    "maxSpeed": 100
+                }
+            ],
+            "hourlyBillingFlag": false,
+            "supplementalCreateObjectOptions": {
+                "flavorKeyName": "B1_1X2X25"
+            }
+        }
+    ]
+}
+```
+
+## 使用下單物件佈建公用實例
+佈建使用預設特性的公用虛擬伺服器的方式是使用 *SoftLayer_Product_Order/placeOrder* API 服務。
+
+若要使用 REST 來佈建公用虛擬伺服器，會使用要求內文中的下列 JSON，將 POST 要求提交至 https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json。
+
+**附註：**價格上不需要項目說明。包含它們的目的只是要顯示所提交的產品選項。
+
+### JSON 要求內文 2
+```
+{
+    "parameters": [
+        {
+            "location": "449600",
+            "packageId": 835,
+            "presetId": 554,
+            "prices": [
+                {
+                    "id": 45466,
+                    "item": {
+                        "description": "CentOS 7.x - Minimal Install (64 bit)"
+                    }
+                },
+                {
+                    "id": 2202,
+                    "item": {
+                        "description": "25 GB (SAN)"
+                    }
+                },
+                {
+                    "id": 905,
+                    "item": {
+                        "description": "Reboot / Remote Console"
+                    }
+                },
+                {
+                    "id": 273,
+                    "item": {
+                        "description": "100 Mbps Public & Private Network Uplinks"
+                    }
+                },
+                {
+                    "id": 50367,
+                    "item": {
+                        "description": "250 GB Bandwidth"
+                    }
+                },
+                {
+                    "id": 21,
+                    "item": {
+                        "description": "1 IP Address"
+                    }
+                },
+                {
+                    "id": 55,
+                    "item": {
+                        "description": "Host Ping"
+                    }
+                },
+                {
+                    "id": 57,
+                    "item": {
+                        "description": "Email and Ticket"
+                    }
+                },
+                {
+                    "id": 58,
+                    "item": {
+                        "description": "Automated Notification"
+                    }
+                },
+                {
+                    "id": 420,
+                    "item": {
+                        "description": "Unlimited SSL VPN Users & 1 PPTP VPN User per account"
+                    }
+                },
+                {
+                    "id": 418,
+                    "item": {
+                        "description": "Nessus Vulnerability Assessment & Reporting"
+                    }
+                }
+            ],
+            "quantity": 1,
+            "useHourlyPricing": false,
+            "virtualGuests": [
+                {
+                    "domain": "softlayer.local",
+                    "hostname": "public-01-mex01"
+                }
+            ],
+            "complexType": "SoftLayer_Container_Product_Order_Virtual_Guest"
+        }
+    ]
+}
+```
+
+## 升級公用實例
+升級公用虛擬伺服器的方式是使用 *SoftLayer_Product_Order/placeOrder* API 服務。
+
+若要使用 REST 來佈建公用虛擬伺服器，會使用要求內文中的下列 JSON，將 POST 要求提交至 https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json。
+
+**附註：**價格上不需要項目說明。包含它們的目的只是要顯示所提交的產品選項。
+
+### JSON 要求內文 3
+```
+{
+    "parameters":[
+        {
+            "complexType": "SoftLayer_Container_Product_Order_Virtual_Guest_Upgrade",
+            "presetId": 494,
+            "prices": [
+                {
+                    "id":"274",
+                    "item": {
+                        "description": "1 Gbps Public & Private Network Uplinks"
+                    },
+                    "categories": [
+                        {
+                            "categoryCode": "port_speed"
+                        }
+                    ]
+                }
+            ],
+            "properties": [
+                {
+                    "name": "MAINTENANCE_WINDOW",
+                    "value": "2017-07-20T13:48:31-05:00"
+                }
+            ],
+            "virtualGuests": [
+                {
+                    "id": 36189167
+                }
+            ]
+        }
+    ]
+}
+```
