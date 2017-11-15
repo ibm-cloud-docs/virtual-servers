@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-11-06"
+lastupdated: "2017-11-15"
 
 
 ---
@@ -21,7 +21,7 @@ lastupdated: "2017-11-06"
 {{site.data.keyword.BluVirtServers}} are scalable virtual servers that are purchased with dedicated cores and memory allocations. They are a great option if you are looking for compute resources, that can be added in minutes, with access to features like image templates. The hypervisor is fully managed by {{site.data.keyword.BluSoftlayer_full}} and you can perform configuration and management tasks by using both the {{site.data.keyword.slportal_full}} and the {{site.data.keyword.slapi_short}}. Virtual servers are deployed to the same VLANs as physical servers, allowing you to spread workloads across virtual servers and bare metal servers, while maintaining interoperability. Virtual servers are fully customizable when you order them, with options to scale up as your compute needs grow.
 {:shortdesc}
 
-You can choose from hourly or monthly billing, public (multi-tenancy) environments or dedicated (single-tenancy) environments, and high-performance local disks or enterprise SAN storage.
+When you create a virtual server, you can choose between hourly and monthly billing. You can also choose between a public (multi-tenancy) environment or a dedicated (single-tenancy) environment. Then, you can choose either high-performance local disks or enterprise SAN storage for your virtual server.
 
 ## Key Features
 
