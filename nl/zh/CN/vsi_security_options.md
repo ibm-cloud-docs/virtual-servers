@@ -1,0 +1,30 @@
+---
+
+
+
+copyright:
+  years: 2017
+lastupdated: "2017-08-23"
+
+
+---
+
+{:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+
+
+# 防火墙
+{: #virtual-server-security-options}
+
+使用 {{site.data.keyword.BluVirtServers}} 时，您有多个防火墙选项可提供基本安全层。防火墙选项可根据需要供应，而无需中断服务。防火墙服务可阻止意外流量冲击服务器，从而减少攻击可能性，并允许服务器资源专用于目标用途。
+{:shortdesc}
+
+防火墙可作为 Infrastructure 公用网络上所有服务器的附加功能提供。
+
+在订购过程中，可以选择特定于设备的硬件或选择软件防火墙来提供保护。或者，可以将专用防火墙设备部署到环境，然后将虚拟服务器部署到受保护的 VLAN。  
+
+**注**：一个虚拟服务器不能由同一接口上的两个防火墙设备进行保护。有关更多信息，请参阅 KnowledgeLayer 中的[防火墙 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](http://knowledgelayer.softlayer.com/topic/firewall){: new_window}。
