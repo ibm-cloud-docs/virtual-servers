@@ -35,6 +35,10 @@ IBM Bluemix Virtual Servers
         [Microsoft Windows Update Information](../infrastructure/software/microsoft-windows-update-instructions.html)
         [RedHat Update Information](../infrastructure/software/redhat-update-instructions.html)
         [AV/S/Host IDS Topic Description](../infrastructure/software/avshost-ids-topic-description.html)
+        
+    {: .topicgroup}
+    Services options
+        vsi_digital_transcoding.md
     
     {: .topicgroup}
     Tutorials 
