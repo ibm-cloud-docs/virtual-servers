@@ -1,0 +1,30 @@
+---
+
+
+
+copyright:
+  years: 2017
+lastupdated: "2017-08-23"
+
+
+---
+
+{:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+
+
+# ファイアウォール
+{: #virtual-server-security-options}
+
+{{site.data.keyword.BluVirtServers}} には、不可欠なセキュリティー・レイヤーを提供するいくつかのファイアウォール・オプションがあります。それらのファイアウォール・オプションは、サービスを中断せずに、オンデマンドでプロビジョンされます。ファイアウォール・サービスは、不必要なトラフィックがサーバーに到達しないようにして、攻撃の可能性を減らし、意図した使用目的専用にサーバー・リソースを使用できるようにします。
+{:shortdesc}
+
+ファイアウォールは、Infrastructure パブリック・ネットワーク上のすべてのサーバーでアドオン機能として使用可能です。
+
+オーダー・プロセスの一部として、デバイス固有のハードウェア・ファイアウォールまたはソフトウェア・ファイアウォールを選択して保護を提供することができます。あるいは、専用のファイアウォール・アプライアンスを環境にデプロイし、保護された VLAN に仮想サーバーをデプロイすることもできます。  
+
+**注:** 同じインターフェース上の 2 つのファイアウォール・アプライアンスによって仮想サーバーを保護することはできません。詳細情報については、KnowledgeLayer の[ファイアウォール![外部リンク・アイコン](../icons/launch-glyph.svg "外部リンク・アイコン")](http://knowledgelayer.softlayer.com/topic/firewall){: new_window} を参照してください。
