@@ -26,7 +26,7 @@ When you create a virtual server, you can choose between hourly or monthly billi
 
 Before you begin, review the following prerequisites.
 
-  1. You must have an upgraded account to order virtual servers. This process can take some time and requires your request to be approved before you can continue. For more information about upgrading your account, see [Upgrading and unifying Bluemix and SoftLayer billing accounts](https://console.ng.bluemix.net/docs/admin/softlayerlink.html).
+  1. You must have an upgraded account to order virtual servers. This process can take some time and requires your request to be approved before you can continue. For more information about upgrading your account, see [Switching to IBMid](https://console.ng.bluemix.net/docs/admin/softlayerlink.html).
   2. Review and choose your deployment options. For more information, see the following topics: 
      
 |              Deployment options                           |  Description                                        |
