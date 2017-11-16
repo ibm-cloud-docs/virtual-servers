@@ -1,0 +1,127 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="virtual-servers" audience="compute" href=“/docs/vsi/index.html”}
+IBM Bluemix Virtual Servers 
+
+    {: .navgroup id="learn"}
+    vsi_index.md
+    vsi_about.md
+    
+    {: .topicgroup}
+    프로비저닝 옵션
+        vsi_public.md
+            vsi_public_balanced.md
+            vsi_public_balanced_local.md
+            vsi_public_compute.md
+            vsi_public_memory.md
+            vsi_public_selections.md
+        vsi_dedicated.md
+            vsi_dedicated_host.md
+            vsi_dedicated_pricing.md
+
+    vsi_image_templates_intro.md
+
+    {: .topicgroup}
+    보안 옵션
+        vsi_security_options.md
+        vsi_security_groups.md
+
+    /storage/vsi_about_storage.md
+
+    {: .topicgroup}
+    소프트웨어 옵션
+        [About software](../infrastructure/software/index.html)
+        [Microsoft Windows 업데이트 정보](../infrastructure/software/microsoft-windows-update-instructions.html)
+        [RedHat 업데이트 정보](../infrastructure/software/redhat-update-instructions.html)
+        [AV/S/Host IDS 주제 설명](../infrastructure/software/avshost-ids-topic-description.html)
+    
+    {: .topicgroup}
+    튜토리얼
+        [LAMP 스택의 PHP 웹 애플리케이션](../tutorials/lamp-stack.html)
+        
+    {: .topicgroup}
+    관련 링크
+        [Control Portal](https://control.softlayer.com/)
+        [IBM Bluemix Virtual Servers를 사용한 제어 능력 극대화](https://www.ibm.com/blogs/bluemix/2017/08/maximize-control-ibm-bluemix-virtual-servers/)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    vsi_api.md
+        vsi_provision_api.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    {: .topicgroup}
+    프로비저닝
+        vsi_provision_public.md
+        vsi_dedicated_instances.md
+        vsi_provision_dedicated.md
+
+    {: .topicgroup}
+    구성
+        vsi_configuring.md
+        vsi_reconfigure.md
+        vsi_work_image.md
+
+    {: .topicgroup}
+    서버 관리
+        vsi_managing.md
+            vsi_add_script.md
+            vsi_vulnerability_scans.md
+            vsi_bandwidth-graphs.md
+        vsi_managing_dedicated.md
+        vsi_device_access.md
+        vsi_interact_device_snapshot_view.md
+        vsi_managing_users_pwd.md
+     
+    {: .topicgroup}
+    보안 관리
+        vsi_managing_sg.md
+
+    {: .topicgroup}
+    스토리지 관리
+        /storage/access-portable-storage-screen.md
+        /storage/vsi_view_portable_storage.md
+        /storage/edit-description-portable-storage-volume-psv.md
+        
+    {: .topicgroup}
+    소프트웨어 관리
+        [OS 다시 로드](../infrastructure/software/vsi_reload_os.html)
+        [이미지 템플리트를 사용하여 OS 다시 로드](../infrastructure/software/vsi_reload_os_image.html)
+        [Ubuntu 시스템에 IPv6 추가](../infrastructure/software/adding-ipv6-ubuntu-systems.html)
+        [ClamAV 설치](../infrastructure/software/install-clamav.html)
+        [cPanel/WHM에서 대역폭 제한에 근접할 때 사용자에게 알림](../infrastructure/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
+ 
+    {: .topicgroup}
+    마이그레이션
+        vsi_migrating_dedicated.md
+
+    {: .topicgroup}
+    모니터링
+        vsi_monitoring_intro.md
+        vsi_viewing_monitors.md
+
+    {: .topicgroup}
+    백업 및 복구
+        vsi_backup.md
+        vsi_launch_rescue.md
+        
+    {: .topicgroup}
+    관련 링크
+        [가상 머신 네트워크 설정](http://knowledgelayer.softlayer.com/learning/virtual-machine-network-setup)
+        [Control Portal](https://control.softlayer.com/)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    vsi_ts_index.md
+
+    {: .topicgroup}
+    FAQ
+        vsi_faqs_vs.md
+        vsi_faqs_dedicated.md
+        faq_servers_general.md
+        [FAQ: OS 다시 로드](../infrastructure/software/os-reload-question-faq.html)
+        [FAQ: cpsrvd 이메일](../infrastructure/software/why-did-my-cpsrvd-email-fail.html)
+
+    {: .navgroup-end}
