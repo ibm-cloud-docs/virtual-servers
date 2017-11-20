@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="virtual-servers" audience="compute" href=“/docs/vsi/index.html”}
-IBM Bluemix Virtual Servers 
+IBM Cloud Virtual Servers 
 
     {: .navgroup id="learn"}
     vsi_index.md
