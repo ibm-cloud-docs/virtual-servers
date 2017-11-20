@@ -22,7 +22,7 @@ lastupdated: "2017-10-25"
 You have two options on how to provision your dedicated instances. The first is through the {{site.data.keyword.Bluemix}} catalog and the second is through the {{site.data.keyword.slportal_full}}. The catalog and {{site.data.keyword.slportal}} require unique log-in IDs. Your catalog user name and password won’t work for logging in to the portal and vice versa. See [Signing up for {{site.data.keyword.Bluemix_notm}}](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window} to set up either your {{site.data.keyword.Bluemix_notm}} catalog or {{site.data.keyword.slportal}} credentials.
 {:shortdesc}
 
-## Log into the Bluemix Catalog
+## Log into the IBM Cloud Catalog
 Use the following steps to log in to the {{site.data.keyword.Bluemix_notm}} to begin provisioning your dedicated instances. 
 
 1. Open a new browser window and enter [https://console.bluemix.net/catalog/](https://console.bluemix.net/catalog/){: new_window}.
