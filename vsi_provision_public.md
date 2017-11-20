@@ -44,7 +44,7 @@ Ensure that you are logged in, either through {{site.data.keyword.Bluemix_notm}}
    </THEAD>
    <TBODY>
    <tr>
-   <td>Bluemix Catalog</td>
+   <td>IBM Cloud Catalog</td>
    <td>
    <ol>
    <li>Open a new browser window and enter  <a href="https://console.bluemix.net/catalog/">https://console.bluemix.net/catalog/</a>.</li>
