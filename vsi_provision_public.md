@@ -27,7 +27,7 @@ Before you begin, review the following prerequisites.
 
   1. Ensure that you have either your {{site.data.keyword.Bluemix_notm}} catalog or {{site.data.keyword.slportal}} credentials set-up. 
   
-     **Note:** For the {{site.data.keyword.Bluemix_notm}} catalog, you must have an upgraded account to order virtual servers. For more information about upgrading your account, see [Upgrading and unifying Bluemix and SoftLayer billing accounts](https://console.ng.bluemix.net/docs/admin/softlayerlink.html).
+     **Note:** For the {{site.data.keyword.Bluemix_notm}} catalog, you must have an upgraded account to order virtual servers. For more information about upgrading your account, see [Switching to IBMid](https://console.ng.bluemix.net/docs/admin/softlayerlink.html).
   
   2. If you haven't done so, review the deployment options available to you. For more information, see [Deployment options: Public virtual server](../vsi/vsi_public.html).
 
