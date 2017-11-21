@@ -1,0 +1,127 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="virtual-servers" audience="compute" href=“/docs/vsi/index.html”}
+IBM Bluemix Virtual Servers 
+
+    {: .navgroup id="learn"}
+    vsi_index.md
+    vsi_about.md
+    
+    {: .topicgroup}
+    Bereitstellungsoptionen
+        vsi_public.md
+            vsi_public_balanced.md
+            vsi_public_balanced_local.md
+            vsi_public_compute.md
+            vsi_public_memory.md
+            vsi_public_selections.md
+        vsi_dedicated.md
+            vsi_dedicated_host.md
+            vsi_dedicated_pricing.md
+
+    vsi_image_templates_intro.md
+
+    {: .topicgroup}
+    Sicherheitsoptionen
+        vsi_security_options.md
+        vsi_security_groups.md
+
+    /storage/vsi_about_storage.md
+
+    {: .topicgroup}
+    Softwareoptionen
+        [Informationen zur Software](../infrastructure/software/index.html)
+        [Informationen zu Microsoft Windows-Update](../infrastructure/software/microsoft-windows-update-instructions.html)
+        [Informationen zu RedHat-Update](../infrastructure/software/redhat-update-instructions.html)
+        [AV/S/Host IDS - Themenbeschreibung](../infrastructure/software/avshost-ids-topic-description.html)
+    
+    {: .topicgroup}
+    Lernprogramme
+        [PHP-Webanwendung auf einem LAMP-Stack](../tutorials/lamp-stack.html)
+        
+    {: .topicgroup}
+    Zugehörige Links
+        [Steuerportal](https://control.softlayer.com/)
+        [Mit IBM Bluemix Virtual Servers die Kontrolle maximieren](https://www.ibm.com/blogs/bluemix/2017/08/maximize-control-ibm-bluemix-virtual-servers/)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    vsi_api.md
+        vsi_provision_api.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    {: .topicgroup}
+    Bereitstellung
+        vsi_provision_public.md
+        vsi_dedicated_instances.md
+        vsi_provision_dedicated.md
+
+    {: .topicgroup}
+    Konfiguration
+        vsi_configuring.md
+        vsi_reconfigure.md
+        vsi_work_image.md
+
+    {: .topicgroup}
+    Server verwalten
+        vsi_managing.md
+            vsi_add_script.md
+            vsi_vulnerability_scans.md
+            vsi_bandwidth-graphs.md
+        vsi_managing_dedicated.md
+        vsi_device_access.md
+        vsi_interact_device_snapshot_view.md
+        vsi_managing_users_pwd.md
+     
+    {: .topicgroup}
+    Sicherheit verwalten
+        vsi_managing_sg.md
+
+    {: .topicgroup}
+    Speicher verwalten
+        /storage/access-portable-storage-screen.md
+        /storage/vsi_view_portable_storage.md
+        /storage/edit-description-portable-storage-volume-psv.md
+        
+    {: .topicgroup}
+    Verwaltungssoftware
+        [Betriebssystem erneut laden](../infrastructure/software/vsi_reload_os.html)
+        [Betriebssystem unter Verwendung einer Imagevorlage erneut laden](../infrastructure/software/vsi_reload_os_image.html)
+        [IPv6 zu Ubuntu-Systemen hinzufügen](../infrastructure/software/adding-ipv6-ubuntu-systems.html)
+        [ClamAV installieren](../infrastructure/software/install-clamav.html)
+        [Benutzer über eine anstehende Bandbreitenbegrenzung in cPanel/WHM benachrichtigen](../infrastructure/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
+ 
+    {: .topicgroup}
+    Migration
+        vsi_migrating_dedicated.md
+
+    {: .topicgroup}
+    Überwachung
+        vsi_monitoring_intro.md
+        vsi_viewing_monitors.md
+
+    {: .topicgroup}
+    Sicherung und Wiederherstellung
+        vsi_backup.md
+        vsi_launch_rescue.md
+        
+    {: .topicgroup}
+    Zugehörige Links
+        [Netz mit virtuellen Maschinen einrichten](http://knowledgelayer.softlayer.com/learning/virtual-machine-network-setup)
+        [Steuerportal](https://control.softlayer.com/)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    vsi_ts_index.md
+
+    {: .topicgroup}
+    FAQs
+        vsi_faqs_vs.md
+        vsi_faqs_dedicated.md
+        faq_servers_general.md
+        [FAQs: Erneutes Laden des Betriebssystems](../infrastructure/software/os-reload-question-faq.html)
+        [FAQs: cpsrvd-E-Mail](../infrastructure/software/why-did-my-cpsrvd-email-fail.html)
+
+    {: .navgroup-end}
