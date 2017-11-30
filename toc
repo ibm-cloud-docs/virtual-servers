@@ -95,7 +95,7 @@ IBM Cloud Virtual Servers
         [Reloading an OS using an image template](../infrastructure/software/vsi_reload_os_image.html)
         [Adding IPv6 to Ubuntu systems](../infrastructure/software/adding-ipv6-ubuntu-systems.html)
         [Installing ClamAV](../infrastructure/software/install-clamav.html)
-        [Notifying Users of an Approaching Bandwidth Limitation in cPanel/WHM](../infrastructure/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
+        [Notifying Users of an Approaching Bandwidth Limitation in cPanel/WHM](../infrastructure/software/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
  
     {: .topicgroup}
     Migrating
