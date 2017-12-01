@@ -36,6 +36,7 @@ IBM Cloud Virtual Servers
         [Microsoft Windows Update Information](../infrastructure/software/microsoft-windows-update-instructions.html)
         [RedHat Update Information](../infrastructure/software/redhat-update-instructions.html)
         [AV/S/Host IDS Topic Description](../infrastructure/software/avshost-ids-topic-description.html)
+        vsi_database_tools.md
         
     {: .topicgroup}
     Services options
