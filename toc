@@ -85,6 +85,7 @@ IBM Cloud Virtual Servers
     {: .topicgroup}
     Managing security
         vsi_managing_sg.md
+        [Accessing SSL certificates](../infrastructure/ssl-certificates/access-ssl-certificates-screen.html)
 
     {: .topicgroup}
     Managing storage
