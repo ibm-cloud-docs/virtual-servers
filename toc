@@ -27,6 +27,7 @@ IBM Cloud Virtual Servers
     Security options
         vsi_security_options.md
         vsi_security_groups.md
+        vsi_ssl_intro.md
 
     /storage/vsi_about_storage.md
 
