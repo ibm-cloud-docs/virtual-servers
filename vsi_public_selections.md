@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-10-24"
+lastupdated: "2017-12-19"
 
 
 ---
@@ -14,13 +14,17 @@ lastupdated: "2017-10-24"
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
 # Provisioning selections
 You must make the following selections when you provision a public virtual server.
 
 ## Location
-You can select the specific data center to which you want to deploy. For new deployments, {{site.data.keyword.Bluemix}} automatically identifies the best POD (based on availability) and creates the appropriate public and private VLANs. For additions to existing environments, you can select the specific POD, VLAN, and subnet that is required for your design.
+You can select the specific data center to which you want to deploy. For new deployments, {{site.data.keyword.Bluemix}} automatically identifies the best POD (based on availability) and creates the appropriate public and private VLANs. For additions to existing environments, you can select the specific POD, VLAN, and subnet that is required for your design. For more information about VLANs and subnets, see [Getting started with VLANs](/docs/infrastructure/vlans/getting-started.html).
+
+Selecting a subnet is optional and to be used only when you require your device to use an IP address from the subnet. If you select a subnet, verify that you have enough IP addresses to fulfill the request. If you do not have enough IP addresses for your subnet, your order can be delayed or canceled.
+{:tip}
 
 ## Processors / RAM
 When you order, you have core processor options from which to select. The core processor options follow standards for virtual server deployments. Each physical core on the server is hyper-threaded and presented as two virtual CPUs (vCPUs) or cores. The virtual server offering provides 2.0GHz or better per core with up to 56 cores available on a single virtual server.
