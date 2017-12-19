@@ -67,19 +67,23 @@ Before deployment, consider your security options. As part of the order process,
 
 You can also use security groups to enact a set of IP filter rules that define how to handle incoming and outgoing traffic to both the public and private interfaces of a virtual server instance.
 
-For more information, see [Firewalls](vsi_security_options.html) and [Getting started with security groups](/docs/infrastructure/security-groups/sg_index.html).
+For more information, see the following security topic collections.
+
+* [Hardware Firewalls (Shared)](../infrastructure/hardware-firewall-shared/getting-started.html)
+* [Hardware Firewalls (Dedicated)](../infrastructure/hardware-firewall-dedicated/getting-started.html)
+* [Getting started with security groups](/docs/infrastructure/security-groups/sg_index.html)
 
 ## Monitoring
 
 You can select from a variety of monitoring options for the virtual server. Options include the standard monitoring, which monitors via Ping and transmission control protocol (TCP) service response, and has optional responses in the event of failures. You can also add Advanced Monitoring which uses the Nimsoft software agent to provide a larger feature set for monitoring of the virtual server and installed software.
 
-For more information, see [Viewing and managing monitors](vsi_viewing_monitors.html).
+For more information, see [Monitoring](../infrastructure/SLmonitoring/monitoring_index.html).
 
 ## Backup
 
 During the order process, you can add Evault backups. You can also choose to purchase an R1soft license for your existing R1soft backup environment or utilize a third party backup solution.
 
-For more information, see [Re-registering your device with eVault ![External link icon](../icons/launch-glyph.svg "External link icon")](https://knowledgelayer.softlayer.com/procedure/how-do-i-re-register-evault){: new_window}.
+For more information, see [Re-registering your device with eVault](../infrastructure/Backup/how-do-i-re-register-evault.html).
 
 ## Post-provisioning scripts
 
