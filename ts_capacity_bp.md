@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-12-19"
+lastupdated: "2017-12-20"
 
 
 ---
@@ -43,6 +43,7 @@ You can attempt to provision again by using the following strategies:
 4. Provision fewer instances. 
 5. Spread out instances by provisioning to multiple data centers.
 6. Provision smaller instance sizes.
+7. Alter the VSI storage from SAN to LOCAL or LOCAL to SAN. 
 
 When provisioning fails, all the virtual server instances within that particular request fail.
 {:tip}
