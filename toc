@@ -129,10 +129,6 @@ IBM Cloud Virtual Servers
     vsi_ts_index.md
     
     {: .topicgroup}
-    Troubleshooting
-        ts_capacity_bp.md
-
-    {: .topicgroup}
     FAQs
         vsi_faqs_vs.md
         vsi_faqs_dedicated.md
