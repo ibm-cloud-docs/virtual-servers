@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-12-20"
+lastupdated: "2018-01-03"
 
 
 ---
@@ -29,6 +29,9 @@ There is insufficient capacity to complete the request.
 ```
 {:screen}
 
+When provisioning fails, all the virtual server instances within that particular request fail.
+{:tip}
+
 ## Why it's happening
 
 A capacity error occurs when there are insufficient resources available in the router or data center to fulfill the service request. There are a number of reasons that you could receive this error. Resource availability changes frequently, so you might wait and try again later.
@@ -45,7 +48,5 @@ You can attempt to provision again by using the following strategies:
 6. Provision smaller instance sizes.
 7. Alter the VSI storage from SAN to LOCAL or LOCAL to SAN. 
 
-When provisioning fails, all the virtual server instances within that particular request fail.
-{:tip}
 
 
