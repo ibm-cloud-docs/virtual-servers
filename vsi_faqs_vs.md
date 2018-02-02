@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-02-02"
 
 
 ---
@@ -47,6 +47,10 @@ In limited cases a virtual server might need to be migrated to a different host.
 During a maintenance window you might see a **Migrate Host** option display in the **Actions** menu of your device in the {{site.data.keyword.slportal}}. **Migrate Host** allows you to migrate the virtual server to a new host at your convenience during a specified maintenance period. If you do not initiate the migration during the maintenance period, then the virtual server is automatically migrated to complete the required maintenance. The **Migrate Host** option does not persist and is only available during maintenance periods that are communicated through maintenance notifications.
 
 You might also see the **Migrate Host** option if one of your virtual servers is required to have a certain level of hypervisor that is not available on the current host.
+
+## What happens to my data when my portable storage is deleted?
+
+When storage is deleted, any pointers to the data on that volume are removed, thus the data becomes completely inaccessible. If the physical storage is reprovisioned to another account, a new set of pointers are assigned. There is no way for the new account to access any data that might have been on the physical storage. The new set of pointers shows all 0's. When new data is written to the volume/LUN, any inaccessible data that still exists gets overwritten.
 
 ## Can I use a Red Hat Cloud Access subscription to create a virtual server?
 
