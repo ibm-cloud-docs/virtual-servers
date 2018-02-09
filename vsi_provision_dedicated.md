@@ -25,7 +25,7 @@ You have two options on how to provision your dedicated instances. The first is 
 ## Log into the IBM Cloud Catalog
 Use the following steps to log in to the {{site.data.keyword.Bluemix_notm}} catalog to begin provisioning your dedicated hosts and dedicated host instances. 
 
-1. Open a new browser window and enter [https://console.ng.bluemix.net/catalog/](https://console.ng.bluemix.net/catalog/){: new_window}.
+1. Open a new browser window and enter [https://console.bluemix.net/catalog/](https://console.bluemix.net/catalog/){: new_window}.
 2.	Click the **Log in** link (upper-right corner). 
 3.	Enter your email or IBMid and click **Continue**.
 4.	Enter your Password and click **Log in**.
