@@ -119,6 +119,10 @@ IBM Cloud Virtual Servers
     Backing up and recovering
         vsi_backup.md
         vsi_launch_rescue.md
+        spare_pools.md
+            add_spare_pool.md
+            cancel_spare_pool.md
+            reactivating_spare_pool_device.md
         
     {: .topicgroup}
     Related links
