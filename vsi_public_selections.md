@@ -21,7 +21,7 @@ lastupdated: "2017-12-19"
 You must make the following selections when you provision a public virtual server.
 
 ## Location
-You can select the specific data center to which you want to deploy. For new deployments, {{site.data.keyword.Bluemix}} automatically identifies the best POD (based on availability) and creates the appropriate public and private VLANs. For additions to existing environments, you can select the specific POD, VLAN, and subnet that is required for your design. For more information about VLANs and subnets, see [Getting started with VLANs](/docs/infrastructure/vlans/getting-started.html).
+You can select the specific data center to which you want to deploy. For new deployments, {{site.data.keyword.Bluemix}} automatically identifies the best data center (based on availability) and creates the appropriate public and private VLANs. For additions to existing environments, you can select the specific data center, VLAN, and subnet that is required for your design. For more information about VLANs and subnets, see [Getting started with VLANs](/docs/infrastructure/vlans/getting-started.html).
 
 Selecting a subnet is optional and to be used only when you require your device to use an IP address from the subnet. If you select a subnet, verify that you have enough IP addresses to fulfill the request. If you do not have enough IP addresses for your subnet, your order can be delayed or canceled.
 {:tip}
