@@ -15,6 +15,7 @@ IBM Cloud Virtual Servers
             vsi_public_balanced_local.md
             vsi_public_compute.md
             vsi_public_memory.md
+            vsi_public_gpu.md
             vsi_public_selections.md
         vsi_dedicated.md
             vsi_dedicated_host.md
@@ -105,6 +106,7 @@ IBM Cloud Virtual Servers
         [Adding IPv6 to Ubuntu systems](../infrastructure/software/adding-ipv6-ubuntu-systems.html)
         [Installing ClamAV](../infrastructure/software/install-clamav.html)
         [Notifying Users of an Approaching Bandwidth Limitation in cPanel/WHM](../infrastructure/software/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
+        vsi_public_gpu.md
  
     {: .topicgroup}
     Migrating
