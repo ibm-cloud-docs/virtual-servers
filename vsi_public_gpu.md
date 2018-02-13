@@ -22,6 +22,7 @@ GPU flavors are best for high performance workloads that require more compute de
 Powered by NVDIA Tesla P100 GPUs, {{site.data.keyword.cloud_notm}} Accelerated Compute “ac1” family offers both block and local SSD storage. The following GPU flavors are available for you to choose from:  
 
   <table>
+  <table width="75%">
 <CAPTION>Table 1. GPU flavors</CAPTION>
 <THEAD>
 <TR>
