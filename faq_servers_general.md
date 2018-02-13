@@ -152,4 +152,23 @@ LVM (Logical Volume Management) provides logical management of file systems in L
 
 Yes, with the order of our **Automated Reboot from Monitoring Failure** service, you can set up the monitoring system to automatically reboot the server and issue a ticket for a support technician if a monitoring alert is issued. As an additional service, we provide **NOC Monitoring**, in which you will receive personal notification in the event a monitoring issue occurs. To learn more about both of these offerings, please refer to [Server Monitoring ![External link icon](../icons/launch-glyph.svg "External link icon")](http://www.softlayer.com/services/monitoring/){:new_window}.
 
+## What is a cvsup mirror?
+
+You can update against a local cvsup mirror that was run for you. Ensure your supfile has the following entry:
+
+```
+*default host=cvsup.service.softlayer.com
+```
+{:pre }
+
+The distfiles are also mirrored and available from freebsd.org. You can add the following line into your */etc/make.conf* file to attempt to download from the local repository first:
+
+```
+MASTER_SITE_OVERRIDE?="http://mirrors.service.softlayer.com/freebsd/distfiles/${DIST_SUBDIR}/"
+```
+{:screen }
+
+If the file is not found there, it will follow the individual port Makefile and move to the next mirror.
+
+
 
