@@ -21,8 +21,8 @@ GPU flavors are best for high performance workloads that require more compute de
 
 Powered by NVDIA Tesla P100 GPUs, {{site.data.keyword.cloud_notm}} Accelerated Compute “ac1” family offers both block and local SSD storage. The following GPU flavors are available for you to choose from:  
 
-  <table>
-  <table width="75%">
+<table>
+<table style="width:1080px">
 <CAPTION>Table 1. GPU flavors</CAPTION>
 <THEAD>
 <TR>
@@ -92,7 +92,8 @@ Review the following GPU prerequisites.
   - Windows 2012 R2
   - Windows 2016
 
-2. Appropriate NVIDIA drivers and software must be installed. For more information about software and NVIDIA drivers, see [Installing GPU drivers and software packages](../vsi/vsi_gpu_nvidia_drivers.html).  
+2. Appropriate NVIDIA drivers and software must be installed. For more information about software and NVIDIA drivers, see [Installing GPU drivers and software packages](../vsi/vsi_gpu_nvidia_drivers.html).
+
 **Note:** The software that you install might have prerequisite software and operating system-specific configurations.
 
 
