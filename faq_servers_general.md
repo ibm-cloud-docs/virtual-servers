@@ -36,7 +36,7 @@ If you are unable to connect to the KVM console, review the troubleshooting tips
 
      **Note:** If using Mac OSX in conjunction with Google Chrome, refer to Information and System Requirements for Installing and Using Mac Java 7 on the Java website.
 
-   * If you are trying to connect to a VSI through the standard Java and are getting nothing but errors, you can also try using VNC. For more information about using VNC, see [Connecting to your VSI using VNC ![External link icon](../icons/launch-glyph.svg "External link icon")](https://knowledgelayer.softlayer.com/articles/connect-your-vsi-using-vnc){: new_window}.
+   * If you are trying to connect to a VSI through the standard Java and are getting nothing but errors, you can also try using VNC.
 
 If you have completed all of the checks above and still are unable to connect to the KVM console, contact Support for additional assistance in troubleshooting the issue. If a connection to the console has been made but issues occur connecting to the device, ensure the credentials being used to access the device are valid. Contact the account administrator to verify credentials, if necessary.
 
