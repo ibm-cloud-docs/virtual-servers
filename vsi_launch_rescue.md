@@ -25,7 +25,7 @@ Rescue Kernel is a live rescue environment, designed to provide customers with t
 
 ## Launch Rescue Kernel
 
-1. Access the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) by using your unique credentials.
+1. Access the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) by using your unique credentials.
 2. From the Device List, click the device name that you want to rescue.
 3. Click the *Actions* drop down list at the upper right corner, and select **Rescue**.
 4. Click the **Yes** button to transition your device to Rescue Kernel immediately. Click the **No** button to cancel the action.
