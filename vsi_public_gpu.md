@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-2-14"
+lastupdated: "2018-2-16"
 
 
 ---
@@ -21,64 +21,17 @@ GPU flavors are best for high performance workloads that require more compute de
 
 Powered by NVDIA Tesla P100 GPUs, {{site.data.keyword.cloud_notm}} Accelerated Compute “ac1” family offers both block and local SSD storage. The following GPU flavors are available for you to choose from:  
 
-<table>
-<table style="width:810px">
 <CAPTION>Table 1. GPU flavors</CAPTION>
-<THEAD>
-<TR>
-<th>Flavor</th>
-<th>GPU</th>
-<th>GPU RAM (GB)</th>
-<th>vCPU</th>
-<th>vCPU RAM (GB)</th>
-<th>Storage Type</th>
-<th>Boot Disc (GB)</th>
-<th>Secondary Disc (GB)</th>
-</TR>
-</THEAD>
-<TBODY>
-<tr>
-<td>ac1.8x60</td>
-<td>1 P100</td>
-<td>16</td>
-<td>8</td>
-<td>60</td>
-<td>Block (SAN)</td>
-<td>25 and 100</td>
-<td>4 x 2000</td>
-</tr>
-<tr>
-<td>ac1.8x60</td>
-<td>1 P100</td>
-<td>16</td>
-<td>8</td>
-<td>60</td>
-<td>Local SSD</td>
-<td>100</td>
-<td>2 x 300</td>
-</tr>
-<tr>
-<td>ac1.16x120</td>
-<td>2 P100</td>
-<td>32</td>
-<td>16</td>
-<td>120</td>
-<td>Block (SAN)</td>
-<td>25 and 100</td>
-<td>4 x 2000</td>
-</tr>
-<tr>
-<td>ac1.16x120</td>
-<td>2 P100</td>
-<td>32</td>
-<td>16</td>
-<td>120</td>
-<td>Local SSD</td>
-<td>100</td>
-<td>2 x 600</td></tr>
-
-</TBODY>
-</table>
+ 
+|| ac1.8x60 | ac1.8x60 | ac1.16x120 | ac1.16x120 |
+|--| 
+| <b>GPU</b> | 1 P100 | 1 P100 | 2 P100 | 2 P100 |
+|<b>GPU RAM (GB)</b> | 16 | 16 | 32 | 32 |
+| <b>vCPU</b> | 8 | 8 | 16 | 16|
+| <b>vCPU RAM (GB)</b> | 60 | 60 | 120 | 120 |
+| <b>Storage Type</b> | Block (SAN) | Local SSD | Block (SAN) | Local SSD |
+| <b>Boot Disc (GB)</b> | 25 and 100 | 100 | 25 and 100 | 100 |
+|<b>Secondary Disc (GB)</b> | 4 x 2000 | 2 x 300 | 4 x 2000 | 2 x 600 |
 
 **Note:** GPU flavors are available in the _DAL13_ datacenter.
 
