@@ -19,19 +19,79 @@ lastupdated: "2018-2-19"
 # GPU
 GPU flavors are best for high performance workloads that require more compute density to reduce resource management and costs. GPUs are ideal for intense graphic and data applications, or developing new applications that require fast performance.
 
-Powered by NVDIA Tesla P100 GPUs, {{site.data.keyword.cloud_notm}} Accelerated Compute “ac1” family offers both block and local SSD storage. The following GPU flavors are available for you to choose from:  
+Powered by NVDIA Tesla P100 GPUs, {{site.data.keyword.cloud_notm}} Accelerated Compute “ac1” family offers both block (ac1) and local SSD storage (acl1). The following GPU flavors are available for you to choose from:  
 
+<table>
 <CAPTION>Table 1. GPU flavors</CAPTION>
- 
-|| ac1.8x60 | acl1.8x60 | ac1.16x120 | acl1.16x120 |
-|--| 
-| <b>GPU</b> | 1 P100 | 1 P100 | 2 P100 | 2 P100 |
-| <b>GPU RAM (GB)</b> | 16 | 16 | 32 | 32 |
-| <b>vCPU</b> | 8 | 8 | 16 | 16|
-| <b>vCPU RAM (GB)</b> | 60 | 60 | 120 | 120 |
-| <b>Storage Type</b> | Block (SAN) | Local SSD | Block (SAN) | Local SSD |
-| <b>Boot Disc (GB)</b> | 25 and 100 | 100 | 25 and 100 | 100 |
-| <b>Secondary Disc (GB)</b> | 4 x 2000 | 2 x 300 | 4 x 2000 | 2 x 600 |
+<THEAD>
+<TR>
+
+<th></th>
+<th>ac1.8x60</th>
+<th>acl1.8x60</th>
+<th>ac1.16x120</th>
+<th>acl1.16x120</th>
+</TR>
+</THEAD>
+<TBODY>
+<tr>
+<td><b>GPU</b></td>
+<td>1 x P100</td>
+<td>1 x P100</td>
+<td>2 x P100</td>
+<td>2 x P100</td>
+</tr>
+<tr>
+<td><b>GPU RAM (GB)</b></td>
+<td>16</td>
+<td>16</td>
+<td>32</td>
+<td>32</td>
+</tr>
+
+<tr>
+<td><b>vCPU</b></td>
+<td>8</td>
+<td>8</td>
+<td>16</td>
+<td>16</td>
+</tr>
+
+<tr>
+<td><b>vCPU RAM (GB)</b></td>
+<td>60</td>
+<td>60</td>
+<td>120</td>
+<td>120</td>
+</tr>
+
+<tr>
+<td><b>Storage Type</b></td>
+<td>Block (SAN)</td>
+<td>Local SSD</td>
+<td>Block (SAN)</td>
+<td>Local SSD</td>
+</tr>
+
+<tr>
+<td><b>Boot Disc (GB)</b></td>
+<td>25 and 100</td>
+<td>100</td>
+<td>25 and 100</td>
+<td>100</td>
+</tr>
+
+<tr>
+<td><b>Secondary Disc (GB)</b></td>
+<td>4 x 2000</td>
+<td>2 x 300</td>
+<td>4 x 2000</td>
+<td>2 x 300</td>
+</tr>
+
+</TBODY>
+</table>
+
 
 **Note:** GPU flavors are available in the _DAL13_ datacenter.
 
