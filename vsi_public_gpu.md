@@ -23,7 +23,7 @@ Powered by NVDIA Tesla P100 GPUs, {{site.data.keyword.cloud_notm}} Accelerated C
 
 <CAPTION>Table 1. GPU flavors</CAPTION>
  
-|| ac1.8x60 | ac1.8x60 | ac1.16x120 | ac1.16x120 |
+|| ac1.8x60 | acl1.8x60 | ac1.16x120 | acl1.16x120 |
 |--| 
 | <b>GPU</b> | 1 P100 | 1 P100 | 2 P100 | 2 P100 |
 | <b>GPU RAM (GB)</b> | 16 | 16 | 32 | 32 |
