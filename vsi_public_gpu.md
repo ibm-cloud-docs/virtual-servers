@@ -17,7 +17,7 @@ lastupdated: "2018-2-16"
 {:table: .aria-labeledby="caption"}
 
 # GPU
-GPU flavors are best for high performance workloads that require more compute density to reduce resource management and costs. The GPU flavors are ideal for intense graphic and data applications, or developing new applications that require fast performance.
+GPU flavors are best for high performance workloads that require more compute density to reduce resource management and costs. GPUs are ideal for intense graphic and data applications, or developing new applications that require fast performance.
 
 Powered by NVDIA Tesla P100 GPUs, {{site.data.keyword.cloud_notm}} Accelerated Compute “ac1” family offers both block and local SSD storage. The following GPU flavors are available for you to choose from:  
 
