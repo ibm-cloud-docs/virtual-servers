@@ -21,4 +21,4 @@ From the device list, you can view a limited amount of information, or snapshot,
 |View the user name and password for the device|Click the **Show Password** check box.|
 |Enter tags to be associated with a device|<ul><li>Enter each tag for the device in the **Tags** field, separated by a comma.</li><li>Click the **Add Tag(s)** button.</li></ul>|
 |View a recent ticket associated with a device|Click the desired **Ticket Number** to be redirected to the details of the ticket.|
-|Add a ticket for a device.|<ul><li>Click the **Add a Ticket for this Device** link to be redirected to the **Add Ticket** page.</li><li>Proceed to [Create a Ticket ![External link icon](../icons/launch-glyph.svg "External link icon")](https://knowledgelayer.softlayer.com/pt-br/procedure/create-ticket){: new_window} in KnowledgeLayer.</li></ul>|
+|Add a ticket for a device.|<ul><li>Click the **Add a Ticket for this Device** link to be redirected to the **Add Ticket** page.</li><li>For more information about getting support, see [Creating a support ticket with customer portal](/docs/customer-portal/cpsupport.html).</li></ul>|
