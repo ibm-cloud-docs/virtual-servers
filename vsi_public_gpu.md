@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-2-20"
+lastupdated: "2018-2-21"
 
 
 ---
@@ -34,55 +34,48 @@ Powered by NVDIA Tesla P100 GPUs, {{site.data.keyword.cloud_notm}} Accelerated C
 </TR>
 </THEAD>
 <TBODY>
-<tr>
-<td><b>GPU</b></td>
+<tr><b>GPU</b>
 <td>1 x P100</td>
 <td>1 x P100</td>
 <td>2 x P100</td>
 <td>2 x P100</td>
 </tr>
-<tr>
-<td><b>GPU RAM (GB)</b></td>
+<tr>b>GPU RAM (GB)</b>
 <td>16</td>
 <td>16</td>
 <td>32</td>
 <td>32</td>
 </tr>
 
-<tr>
-<td><b>vCPU</b></td>
+<tr><b>vCPU</b>
 <td>8</td>
 <td>8</td>
 <td>16</td>
 <td>16</td>
 </tr>
 
-<tr>
-<td><b>vCPU RAM (GB)</b></td>
+<tr><b>vCPU RAM (GB)</b>
 <td>60</td>
 <td>60</td>
 <td>120</td>
 <td>120</td>
 </tr>
 
-<tr>
-<td><b>Storage Type</b></td>
+<tr><b>Storage Type</b>
 <td>Block (SAN)</td>
 <td>Local SSD</td>
 <td>Block (SAN)</td>
 <td>Local SSD</td>
 </tr>
 
-<tr>
-<td><b>Boot Disc (GB)</b></td>
+<tr><b>Boot Disc (GB)</b>
 <td>25 and 100</td>
 <td>100</td>
 <td>25 and 100</td>
 <td>100</td>
 </tr>
 
-<tr>
-<td><b>Secondary Disc (GB)</b></td>
+<tr><b>Secondary Disc (GB)</b>
 <td>4 x 2000</td>
 <td>2 x 300</td>
 <td>4 x 2000</td>
