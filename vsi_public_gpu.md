@@ -34,48 +34,55 @@ Powered by NVDIA Tesla P100 GPUs, {{site.data.keyword.cloud_notm}} Accelerated C
 </TR>
 </THEAD>
 <TBODY>
-<tr><b>GPU</b>
+<tr>
+<th scope="row">GPU</th>
 <td>1 x P100</td>
 <td>1 x P100</td>
 <td>2 x P100</td>
 <td>2 x P100</td>
 </tr>
-<tr>b>GPU RAM (GB)</b>
+<tr>
+<th scope="row">GPU RAM (GB)</th>
 <td>16</td>
 <td>16</td>
 <td>32</td>
 <td>32</td>
 </tr>
 
-<tr><b>vCPU</b>
+<tr>
+<th scope="row">vCPU</th>
 <td>8</td>
 <td>8</td>
 <td>16</td>
 <td>16</td>
 </tr>
 
-<tr><b>vCPU RAM (GB)</b>
+<tr>
+<th scope="row">vCPU RAM (GB)</th>
 <td>60</td>
 <td>60</td>
 <td>120</td>
 <td>120</td>
 </tr>
 
-<tr><b>Storage Type</b>
+<tr>
+<th scope="row">Storage Type</th>
 <td>Block (SAN)</td>
 <td>Local SSD</td>
 <td>Block (SAN)</td>
 <td>Local SSD</td>
 </tr>
 
-<tr><b>Boot Disc (GB)</b>
+<tr>
+<th scope="row">Boot Disc (GB)</th>
 <td>25 and 100</td>
 <td>100</td>
 <td>25 and 100</td>
 <td>100</td>
 </tr>
 
-<tr><b>Secondary Disc (GB)</b>
+<tr>
+<th scope="row">Secondary Disc (GB)</th>
 <td>4 x 2000</td>
 <td>2 x 300</td>
 <td>4 x 2000</td>
