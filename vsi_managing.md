@@ -41,6 +41,10 @@ Complete the following steps to perform management tasks for your virtual server
 * You can add notes to a device at any time from the **Configuration** tab. Notes can help identify details about the device, its use, and actions that have been taken on the device.
 
 ## What happens next
+* **Reboot**
+
+    A reboot is one of the most basic device actions. Rebooting a device results in the immediate powering off and then back on of your device and is done for many reasons, often specific to the device or business needs of the individual user. Device reboots can take place from both the Device List and from the Device View of an individual device. Virtual Servers can be rebooted at any time.  
+
 * **Power On/Off**
 
     If the device has been powered off, the device remains in the power off state and must be manually powered on by repeating the steps above. Users may not interact with a device when a device is powered off. If the device has been powered on, normal interaction may take place. It will remain on until further action is taken.
@@ -52,7 +56,6 @@ Complete the following steps to perform management tasks for your virtual server
 * **Cancel**
 
   After confirming the cancellation, the device cancellation process will begin. If an immediate cancellation was requested, the device will be canceled immediately. If a billing anniversary cancellation was requested, the device will remain active until the next billing anniversary. Upon its cancellation, the device will no longer appear in the Device List on the {{site.data.keyword.slportal}}. Billing items will also be removed from invoices when all outstanding balances have been paid on the device, if any. For questions about a bill for a canceled device, please open a ticket and select Accounting Request as the ticket subject. Refunds cannot be given for immediate cancellations.
-
   
 ## Next Steps
 If you need to reconfigure an existing virtual server, see [Reconfiguring an existing virtual server](../vsi/vsi_reconfigure.html).
