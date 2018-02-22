@@ -29,6 +29,7 @@ IBM Cloud Virtual Servers
         vsi_security_options.md
         vsi_security_groups.md
         vsi_ssl_intro.md
+        vsi_ssh_intro.md
 
     /storage/vsi_about_storage.md
 
@@ -72,6 +73,7 @@ IBM Cloud Virtual Servers
         vsi_configuring.md
         vsi_reconfigure.md
         vsi_work_image.md
+        vsi_ssh_config.md
 
     {: .topicgroup}
     Managing servers
