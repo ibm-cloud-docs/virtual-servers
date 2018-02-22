@@ -54,7 +54,7 @@ Use the following steps to provision your dedicated hosts.
 
    **Note:** Dedicated servers are private servers.
 
-You’re taken to the *Configure your Cloud Server* page. It’s from this page that you can order a dedicated instance that is or is not associated with a dedicated host. More information on ordering instances can be found under [Provision your dedicated host instances](provision-dedicated-instances).
+You’re taken to the *Configure your Cloud Server* page. It’s from this page that you can order a dedicated instance that is or is not associated with a dedicated host. More information on ordering instances can be found under [Provision your dedicated host instances](#provision-dedicated-instances).
 
 4.	Click the **Create Host** button on the right side of the form.
 5.	Enter the following information:
