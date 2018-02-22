@@ -26,7 +26,7 @@ Powered by NVDIA Tesla P100 GPUs, {{site.data.keyword.cloud_notm}} Accelerated C
 <caption>Table 1. GPU flavors</caption>
 
   
-<THEAD>
+<thead>
 <td rowspan="4"></td>
   <th colspan="4">GPU Flavors</th>
 <tr>
