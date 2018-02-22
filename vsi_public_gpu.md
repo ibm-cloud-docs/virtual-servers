@@ -22,71 +22,74 @@ GPU flavors are best for high performance workloads that require more compute de
 Powered by NVDIA Tesla P100 GPUs, {{site.data.keyword.cloud_notm}} Accelerated Compute “ac1” family offers both block (ac1) and local SSD storage (acl1). The following GPU flavors are available for you to choose from:  
 
 <table>
-<caption>Table 1. GPU flavors</caption>
-<THEAD>
-<TR>
 
-<th></th>
-<th>ac1.8x60</th>
-<th>acl1.8x60</th>
-<th>ac1.16x120</th>
-<th>acl1.16x120</th>
-</TR>
+<caption>Table 1. GPU flavors</caption>
+
+  
+<THEAD>
+<td rowspan="4"></td>
+  <th colspan="4">GPU Flavors</th>
+<tr>
+  <th>ac1.8x60</th>
+  <th>acl1.8x60</th>
+  <th>ac1.16x120</th>
+  <th>acl1.16x120</th>
+</tr>
 </THEAD>
 <TBODY>
 <tr>
 <th scope="row">GPU</th>
-<td>1 x P100</td>
-<td>1 x P100</td>
-<td>2 x P100</td>
-<td>2 x P100</td>
+  <td>1 x P100</td>
+  <td>1 x P100</td>
+  <td>2 x P100</td>
+  <td>2 x P100</td>
 </tr>
 <tr>
 <th scope="row">GPU RAM (GB)</th>
-<td>16</td>
-<td>16</td>
-<td>32</td>
-<td>32</td>
+  <td>16</td>
+  <td>16</td>
+  <td>32</td>
+  <td>32</td>
 </tr>
 
 <tr>
 <th scope="row">vCPU</th>
-<td>8</td>
-<td>8</td>
-<td>16</td>
-<td>16</td>
+  <td>8</td>
+  <td>8</td>
+  <td>16</td>
+  <td>16</td>
 </tr>
 
 <tr>
 <th scope="row">vCPU RAM (GB)</th>
-<td>60</td>
-<td>60</td>
-<td>120</td>
-<td>120</td>
+  <td>60</td>
+  <td>60</td>
+  <td>120</td>
+  <td>120</td>
 </tr>
 
 <tr>
 <th scope="row">Storage Type</th>
-<td>Block (SAN)</td>
-<td>Local SSD</td>
-<td>Block (SAN)</td>
-<td>Local SSD</td>
+  <td>Block (SAN)</td>
+  <td>Local SSD</td>
+  <td>Block (SAN)</td>
+  <td>Local SSD</td>
 </tr>
 
 <tr>
 <th scope="row">Boot Disc (GB)</th>
-<td>25 and 100</td>
-<td>100</td>
-<td>25 and 100</td>
-<td>100</td>
+  <td>25 and 100</td>
+  <td>100</td>
+  <td>25 and 100</td>
+  <td>100</td>
 </tr>
 
 <tr>
 <th scope="row">Secondary Disc (GB)</th>
-<td>4 x 2000</td>
-<td>2 x 300</td>
-<td>4 x 2000</td>
-<td>2 x 300</td>
+  <td>4 x 2000</td>
+  <td>2 x 300</td>
+  <td>4 x 2000</td>
+  <td>2 x 300</td>
 </tr>
 
 </TBODY>
