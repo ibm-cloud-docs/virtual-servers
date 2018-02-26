@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-04-27"
+  years: 2017, 2018
+lastupdated: "2018-02-26"
 
 
 ---
@@ -14,10 +14,11 @@ lastupdated: "2017-04-27"
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
-# Public virtual servers (with flavors) API examples
-{: #api-python-public} 
+# API examples: Public virtual servers flavors
+{: #api-rest-public}
 
 The following information displays Rest API examples for provisioning public virtual server instances that use pre-set flavors.
 {:shortdesc}
@@ -27,6 +28,9 @@ For more robust API examples, see the following resources:
 
 ## Provisioning a public instance using Create Object
 The *SoftLayer_Virtual_Guest/createObject* API service is the simplest way to provision a public virtual server instance that uses pre-set flavors.
+
+Not applicable for transient instances.
+{:tip}
 
 To provision a public virtual server instance using REST, a POST request would be submitted to https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json with the following JSON in the request body.
 
@@ -57,6 +61,9 @@ To provision a public virtual server instance using REST, a POST request would b
 
 ## Provisioning a public instance using Place Order Object
 Provisioning a public virtual server that uses pre-set flavors is done using the *SoftLayer_Product_Order/placeOrder* API service.
+
+Not applicable for transient instances.
+{:tip}
 
 To provision a public virtual server using REST, a POST request would be submitted to https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json with the below JSON in the request body.
 
@@ -155,6 +162,9 @@ To provision a public virtual server using REST, a POST request would be submitt
 ## Upgrading public instances
 Upgrading a public virtual server is done using the *SoftLayer_Product_Order/placeOrder* API service.
 
+Not applicable for transient instances.
+{:tip}
+
 To provision a public virtual server using REST, a POST request would be submitted to https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json with the below JSON in the request body.
 
 **Note:** The item descriptions are not required on the prices. They are included only to show the product options being submitted.
@@ -190,6 +200,37 @@ To provision a public virtual server using REST, a POST request would be submitt
                     "id": 36189167
                 }
             ]
+        }
+    ]
+}
+```
+## Provisioning a transient instance using Create Object
+{: #api-rest-transient}
+
+The *SoftLayer_Virtual_Guest/createObject* API service is the simplest way to provision a transient virtual server instance.
+
+To provision a transient virtual server instance using REST, a POST request would be submitted to https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json with the following JSON in the request body.
+
+### JSON Request Body 4
+```
+{
+    "parameters":[
+        {
+            "hostname": "sample-transient-public",
+            "domain": "softlayer.local",
+            "datacenter": {
+                "name": "mex01"
+            },
+            "operatingSystemReferenceCode": "CENTOS_LATEST",
+            "networkComponents": [
+                {
+                    "maxSpeed": 100
+                }
+            ],
+            "supplementalCreateObjectOptions": {
+                "flavorKeyName": "B1_1X2X25"
+            },
+            "transientGuestFlag": true
         }
     ]
 }
