@@ -35,7 +35,7 @@ Powered by NVDIA Tesla P100 GPUs, {{site.data.keyword.cloud_notm}} Accelerated C
   <th>ac1.16x120</th>
   <th>acl1.16x120</th>
 </tr>
-</THEAD>
+</thead>
 <TBODY>
 <tr>
   <th><b>GPU</b></th>
