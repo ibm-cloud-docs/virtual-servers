@@ -17,6 +17,7 @@ IBM Cloud Virtual Servers
             vsi_public_memory.md
             vsi_public_gpu.md
             vsi_public_selections.md
+        vsi_about_transient.md
         vsi_dedicated.md
             vsi_dedicated_host.md
             vsi_dedicated_pricing.md
@@ -65,6 +66,7 @@ IBM Cloud Virtual Servers
     {: .topicgroup}
     Provisioning
         vsi_provision_public.md
+        vsi_provision_transient.md
         vsi_dedicated_instances.md
         vsi_provision_dedicated.md
 
