@@ -27,4 +27,9 @@ Firewalls are available as an add-on feature for all servers on the Infrastructu
 
 As part of the ordering process, you can select device-specific hardware or a software firewall to provide protection. Alternatively, you can deploy dedicated firewall appliances to the environment and deploy the virtual server to a protected VLAN.  
 
-**Note:** A virtual server cannot be protected by two firewall appliances on the same interface. For more information, see [Firewall ![External link icon](../icons/launch-glyph.svg "External link icon")](http://knowledgelayer.softlayer.com/topic/firewall){: new_window} in KnowledgeLayer.
+**Note:** A virtual server cannot be protected by two firewall appliances on the same interface. 
+
+For more information, see the following security topic collections.
+
+* [Hardware Firewalls (Shared)](../infrastructure/hardware-firewall-shared/getting-started.html)
+* [Hardware Firewalls (Dedicated)](../infrastructure/hardware-firewall-dedicated/getting-started.html)
