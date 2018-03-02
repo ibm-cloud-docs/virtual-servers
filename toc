@@ -45,6 +45,7 @@ IBM Cloud Virtual Servers
     {: .topicgroup}
     Services options
         vsi_digital_transcoding.md
+        vsi_email_intro.md
     
     {: .topicgroup}
     Tutorials 
