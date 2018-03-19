@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-25"
+  years: 2017, 2018
+lastupdated: "2018-03-19"
 
 
 ---
@@ -49,7 +49,7 @@ The private network is the precursor to interacting with your devices through re
 Monitoring is primarily used as a resource to check your server’s uptime, but it can also be useful for knowing when to scale. Both Standard Monitoring and Nimsoft Monitoring services are available to cover various monitoring needs. Standard Monitoring, sometimes referred to as “Basic Monitoring,” is generally used in the ping-and-respond method by using either a slow or service ping that is initiated by using the {{site.data.keyword.slportal}}. Nimsoft Monitoring is also referred to as “Advanced Monitoring” and is available in three tiers: Basic, Advanced, and Premium. This service is also accessible through the {{site.data.keyword.slportal}}. For more information, see [Monitoring](../infrastructure/SLmonitoring/monitoring_index.html).
 
 ## Secure your system
-Hardware firewalls are available to ensure that your device is always secure. Hardware firewalls are provisioned on demand with no downtime. If rules are established properly, a firewall can protect your server from unwanted activity. After you order a firewall, it must be enabled and rules must be set. For more information about how to get the most out of firewalls.
+Hardware firewalls are available to ensure that your device is always secure. Hardware firewalls are provisioned on demand with no downtime. If rules are established properly, a firewall can protect your server from unwanted activity. After you order a firewall, it must be enabled and rules must be set.
 
 For more information, see the following security topic collections.
 
