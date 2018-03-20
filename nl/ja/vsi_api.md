@@ -19,10 +19,10 @@ lastupdated: "2017-10-25"
 # API リファレンス
 {: #api-reference} 
 
-{{site.data.keyword.slapi_full}} は、開発者やシステム管理者が {{site.data.keyword.cloud}} のバックエンド・システムと直接対話できるようにする開発用インターフェースです。{{site.data.keyword.slapi_short}} により、{{site.data.keyword.slportal_full}}の多くの機能が使用可能になります。つまり、通常、{{site.data.keyword.slportal}}での操作が可能であれば、API でも実行することができます。API 内で {{site.data.keyword.BluSoftlayer_full}} 環境のすべての部分とプログラムで対話できるため、{{site.data.keyword.slapi_short}} によってタスクを自動化できます。例えば、*SoftLayer_Virtual_Guest/createObject* API を使用して、仮想サーバー・インスタンスをデプロイすることができます。
+{{site.data.keyword.slapi_full}} は、開発者やシステム管理者が {{site.data.keyword.cloud}} のバックエンド・システムと直接対話できるようにする開発用インターフェースです。 {{site.data.keyword.slapi_short}} により、{{site.data.keyword.slportal_full}}の多くの機能が使用可能になります。つまり、通常、{{site.data.keyword.slportal}}での操作が可能であれば、API でも実行することができます。 API 内で {{site.data.keyword.BluSoftlayer_full}} 環境のすべての部分とプログラムで対話できるため、{{site.data.keyword.slapi_short}} によってタスクを自動化できます。 例えば、*SoftLayer_Virtual_Guest/createObject* API を使用して、仮想サーバー・インスタンスをデプロイすることができます。
 {:shortdesc}
 
-{{site.data.keyword.slapi_short}} は、リモート・プロシージャー・コール・システムです。各呼び出しには、API エンドポイントへのデータの送信と、それと引き換えに構造化データの受信が含まれます。{{site.data.keyword.slapi_short}} を使用したデータの送受信に使用される形式は、選択した API 実装によって異なります。{{site.data.keyword.slapi_short}} は現在、データ伝送に SOAP、XML-RPC、または REST を使用します。
+{{site.data.keyword.slapi_short}} は、リモート・プロシージャー・コール・システムです。 各呼び出しには、API エンドポイントへのデータの送信と、それと引き換えに構造化データの受信が含まれます。 {{site.data.keyword.slapi_short}} を使用したデータの送受信に使用される形式は、選択した API 実装によって異なります。 {{site.data.keyword.slapi_short}} は現在、データ伝送に SOAP、XML-RPC、または REST を使用します。
 
 {{site.data.keyword.slapi_short}} および仮想サーバー API について詳しくは、{{site.data.keyword.sldn_full}} の以下のリソースを参照してください。
 * [{{site.data.keyword.slapi_short}} Overview ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](https://sldn.softlayer.com/article/softlayer-api-overview){: new_window} 

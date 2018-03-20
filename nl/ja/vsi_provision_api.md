@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-04-27"
+  years: 2017, 2018
+lastupdated: "2018-02-28"
 
 
 ---
@@ -14,10 +14,11 @@ lastupdated: "2017-04-27"
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
-# パブリック仮想サーバー (フレーバーを使用) API の例
-{: #api-python-public} 
+# API の例: パブリック仮想サーバー・フレーバー
+{: #api-rest-public}
 
 以下の情報は、事前設定フレーバーを使用するパブリック仮想サーバー・インスタンスをプロビジョニングするための REST API の例を表示します。
 {:shortdesc}
@@ -27,6 +28,9 @@ lastupdated: "2017-04-27"
 
 ## Create Object を使用したパブリック・インスタンスのプロビジョニング
 *SoftLayer_Virtual_Guest/createObject* API サービスは、事前設定フレーバーを使用するパブリック仮想サーバー・インスタンスをプロビジョンするための最もシンプルな方法です。
+
+一時インスタンスには適用されません。
+{:tip}
 
 REST を使用してパブリック仮想サーバー・インスタンスをプロビジョンするために、要求本文に以下の JSON を含む POST 要求が https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json に送信されます。
 
@@ -58,9 +62,12 @@ REST を使用してパブリック仮想サーバー・インスタンスをプ
 ## Place Order Object を使用したパブリック・インスタンスのプロビジョニング
 事前設定フレーバーを使用するパブリック仮想サーバーのプロビジョニングは、*SoftLayer_Product_Order/placeOrder* API サービスを使用して行われます。
 
+一時インスタンスには適用されません。
+{:tip}
+
 REST を使用してパブリック仮想サーバーをプロビジョンするために、要求本体に以下の JSON を含む POST 要求が https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json に送信されます。
 
-**注:** 価格に項目の説明は必要ありません。それらは、送信する製品オプションを示すためにのみ含まれています。
+**注:** 価格に項目の説明は必要ありません。 それらは、送信する製品オプションを示すためにのみ含まれています。
 
 ### JSON 要求本文 2
 ```
@@ -155,9 +162,12 @@ REST を使用してパブリック仮想サーバーをプロビジョンする
 ## パブリック・インスタンスのアップグレード
 パブリック仮想サーバーのアップグレードは、*SoftLayer_Product_Order/placeOrder* API サービスを使用して行われます。
 
+一時インスタンスには適用されません。
+{:tip}
+
 REST を使用してパブリック仮想サーバーをプロビジョンするために、要求本体に以下の JSON を含む POST 要求が https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json に送信されます。
 
-**注:** 価格に項目の説明は必要ありません。それらは、送信する製品オプションを示すためにのみ含まれています。
+**注:** 価格に項目の説明は必要ありません。 それらは、送信する製品オプションを示すためにのみ含まれています。
 
 ### JSON 要求本文 3
 ```
@@ -190,6 +200,37 @@ REST を使用してパブリック仮想サーバーをプロビジョンする
                     "id": 36189167
                 }
             ]
+        }
+    ]
+}
+```
+## Create Object を使用した一時インスタンスのプロビジョニング
+{: #api-rest-transient}
+
+*SoftLayer_Virtual_Guest/createObject* API サービスは、一時仮想サーバー・インスタンスをプロビジョンするための最も簡単な方法です。
+
+REST を使用して一時仮想サーバー・インスタンスをプロビジョンするために、要求本文に以下の JSON を含む POST 要求が https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json に送信されます。
+
+### JSON 要求本文 4
+```
+{
+    "parameters":[
+        {
+            "hostname": "sample-transient-public",
+            "domain": "softlayer.local",
+            "datacenter": {
+                "name": "mex01"
+            },
+            "operatingSystemReferenceCode": "CENTOS_LATEST",
+            "networkComponents": [
+                {
+                    "maxSpeed": 100
+                }
+            ],
+            "supplementalCreateObjectOptions": {
+                "flavorKeyName": "B1_1X2X25"
+            },
+            "transientGuestFlag": true
         }
     ]
 }
