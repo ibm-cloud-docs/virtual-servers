@@ -27,4 +27,9 @@ lastupdated: "2017-08-23"
 
 在订购过程中，可以选择特定于设备的硬件或选择软件防火墙来提供保护。或者，可以将专用防火墙设备部署到环境，然后将虚拟服务器部署到受保护的 VLAN。  
 
-**注**：一个虚拟服务器不能由同一接口上的两个防火墙设备进行保护。有关更多信息，请参阅 KnowledgeLayer 中的[防火墙 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](http://knowledgelayer.softlayer.com/topic/firewall){: new_window}。
+**注**：一个虚拟服务器不能由同一接口上的两个防火墙设备进行保护。 
+
+有关更多信息，请参阅以下安全主题集合。
+
+* [硬件防火墙（共享）](../infrastructure/hardware-firewall-shared/getting-started.html)
+* [硬件防火墙（专用）](../infrastructure/hardware-firewall-dedicated/getting-started.html)

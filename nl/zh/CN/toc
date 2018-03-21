@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="virtual-servers" audience="compute" href=“/docs/vsi/index.html”}
-IBM Bluemix Virtual Servers 
+IBM Cloud Virtual Servers 
 
     {: .navgroup id="learn"}
     vsi_index.md
@@ -15,10 +15,13 @@ IBM Bluemix Virtual Servers
             vsi_public_balanced_local.md
             vsi_public_compute.md
             vsi_public_memory.md
+            vsi_public_gpu.md
             vsi_public_selections.md
+        vsi_about_transient.md
         vsi_dedicated.md
             vsi_dedicated_host.md
             vsi_dedicated_pricing.md
+        [供应脚本](../infrastructure/provisioning-scripts/ps_index.html)
 
     vsi_image_templates_intro.md
 
@@ -26,6 +29,8 @@ IBM Bluemix Virtual Servers
     安全选项
         vsi_security_options.md
         vsi_security_groups.md
+        vsi_ssl_intro.md
+        vsi_ssh_intro.md
 
     /storage/vsi_about_storage.md
 
@@ -35,10 +40,17 @@ IBM Bluemix Virtual Servers
         [Microsoft Windows 更新信息](../infrastructure/software/microsoft-windows-update-instructions.html)
         [RedHat 更新信息](../infrastructure/software/redhat-update-instructions.html)
         [AV/S/主机 IDS 主题描述](../infrastructure/software/avshost-ids-topic-description.html)
+        vsi_database_tools.md
+        
+    {: .topicgroup}
+    服务选项
+        vsi_digital_transcoding.md
+        vsi_email_intro.md
     
     {: .topicgroup}
     教程
         [LAMP 堆栈上的 PHP Web 应用程序](../tutorials/lamp-stack.html)
+        [使用虚拟服务器来构建高可用性和可扩展 Web 应用程序](../tutorials/highly-available-and-scalable-web-application.html)
         
     {: .topicgroup}
     相关链接
@@ -55,6 +67,7 @@ IBM Bluemix Virtual Servers
     {: .topicgroup}
     供应
         vsi_provision_public.md
+        vsi_provision_transient.md
         vsi_dedicated_instances.md
         vsi_provision_dedicated.md
 
@@ -63,6 +76,7 @@ IBM Bluemix Virtual Servers
         vsi_configuring.md
         vsi_reconfigure.md
         vsi_work_image.md
+        vsi_ssh_config.md
 
     {: .topicgroup}
     管理服务器
@@ -74,10 +88,16 @@ IBM Bluemix Virtual Servers
         vsi_device_access.md
         vsi_interact_device_snapshot_view.md
         vsi_managing_users_pwd.md
+        vsi_managing_port_speeds.md
+            vsi_upgrading_port_speeds_linux.md
+            vsi_upgrading_port_speeds_windows.md
+            vsi_downgrading_port_speeds.md
+        vsi_autoscale_intro.md
      
     {: .topicgroup}
     管理安全性
         vsi_managing_sg.md
+        [访问 SSL 证书](../infrastructure/ssl-certificates/access-ssl-certificates-screen.html)
 
     {: .topicgroup}
     管理存储器
@@ -89,8 +109,10 @@ IBM Bluemix Virtual Servers
     管理软件
         [重装操作系统](../infrastructure/software/vsi_reload_os.html)
         [使用映像模板重装操作系统](../infrastructure/software/vsi_reload_os_image.html)
-        [向 Ubuntu 系统添加 IPv6](../infrastructure/software/adding-ipv6-ubuntu-systems.html) [安装 ClamAV](../infrastructure/software/install-clamav.html)
-        [在 cPanel/WHM 中通知用户即将达到带宽限制](../infrastructure/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
+        [向 Ubuntu 系统添加 IPv6](../infrastructure/software/adding-ipv6-ubuntu-systems.html)
+        [安装 ClamAV](../infrastructure/software/install-clamav.html)
+        [在 cPanel/WHM 中通知用户接近带宽限制](../infrastructure/software/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
+        vsi_gpu_nvidia_drivers.md
  
     {: .topicgroup}
     迁移
@@ -105,6 +127,10 @@ IBM Bluemix Virtual Servers
     备份和恢复
         vsi_backup.md
         vsi_launch_rescue.md
+        spare_pools.md
+            add_spare_pool.md
+            cancel_spare_pool.md
+            reactivating_spare_pool_device.md
         
     {: .topicgroup}
     相关链接
@@ -114,7 +140,11 @@ IBM Bluemix Virtual Servers
 
     {: .navgroup id="help"}
     vsi_ts_index.md
-
+    
+    {: .topicgroup}
+    故障诊断
+        ts_capacity_bp.md
+    
     {: .topicgroup}
     常见问题
         vsi_faqs_vs.md

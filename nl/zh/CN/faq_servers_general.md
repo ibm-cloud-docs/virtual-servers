@@ -36,7 +36,7 @@ lastupdated: "2017-10-24"
 
      **注**：如果将 Mac OSX 与 Google Chrome 配合使用，请参阅 Java Web 站点上的“安装和使用 Mac Java 7 的信息和系统需求”。
 
-   * 如果在尝试通过标准 Java 连接到 VSI 时因出错而失败，那么也可以尝试使用 VNC。有关使用 VNC 的更多信息，请参阅[使用 VNC 连接到 VSI ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://knowledgelayer.softlayer.com/articles/connect-your-vsi-using-vnc){: new_window}。
+   * 如果在尝试通过标准 Java 连接到 VSI 时因出错而失败，那么也可以尝试使用 VNC。
 
 如果已完成上述所有检查，却仍无法连接到 KVM 控制台，请联系支持人员以获取对问题进行故障诊断的其他帮助。如果已连接到控制台，但连接到设备时发生问题，请确保用于访问设备的凭证有效。根据需要，联系帐户管理员以验证凭证。
 
@@ -45,7 +45,7 @@ lastupdated: "2017-10-24"
 
    * 密码是复制并粘贴的吗？如果不是，请尝试这样做。另外，请将密码粘贴到记事本中，以确保复制密码时不会意外包含任何空格。
    * 如果服务器上有 cPanel，那么是否有可能因登录失败而导致 cPHulk 阻止了您的 IP 地址？如果是，可以使用 KVM 或 IPMI 来访问服务器，并在 cPHulk 中将您的 IP 地址列入白名单，使该 IP 地址紧跟在“/scripts/cphulkdwhitelist”后面。
-   * 最近有人尝试通过在 {{site.data.keyword.slportal}}中修改服务器密码来更改该密码吗？在 {{site.data.keyword.slportal}}门户网站中更改密码仅会更改显示为密码的内容，而不会更改服务器使用的密码。如果发生这种情况，可以联系支持人员，他们通常可以恢复原始有效密码。
+   * 最近有人尝试通过在 {{site.data.keyword.slportal}}中修改服务器密码来更改该密码吗？在 {{site.data.keyword.slportal}}中更改密码仅会更改显示为密码的内容，而不会更改服务器使用的密码。如果发生这种情况，可以联系支持人员，他们通常可以恢复原始有效密码。
 
 如果检查了上面所有各项，却仍无法使用密码连接到服务器，请使用凭单联系支持人员，并请求密码重置。支持人员将需要重新引导服务器来重置密码，因此请确保您已准备好核准重新引导和/或提供您希望执行此操作的维护时间范围。大多数密码重置可以在 15 分钟内完成。在 {{site.data.keyword.slportal}}中，可以通过转至**支持 > 添加凭单**来创建凭单，并使用主题“*重新引导和控制台访问权*”。
 
@@ -145,5 +145,24 @@ LVM（逻辑卷管理）在 Linux 中提供对文件系统的逻辑管理。在 
 ## 能否使监视系统在服务器停止响应时，发出自动重新引导操作并向支持技术人员发出警报？
 
 可以，通过订购**从监视故障自动重新引导**服务，可以将监视系统设置为自动重新引导服务器，并在发出监视警报时，向支持技术人员发出凭单。我们还提供了附加服务 **NOC 监视**，通过此服务，您将在发生监视问题时收到个人通知。要了解有关这两种产品的更多信息，请参阅[服务器监视 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](http://www.softlayer.com/services/monitoring/){:new_window}。
+
+## 什么是 CVSup 镜像？
+
+可以根据运行的本地 CVSup 镜像进行更新。确保 supfile 具有以下条目：
+
+```
+*default host=cvsup.service.softlayer.com
+```
+{:pre }
+
+distfiles 也是镜像项，可以从 freebsd.org 获取。可以将以下行添加到 */etc/make.conf* 文件，以首先尝试从本地存储库进行下载：
+
+```
+MASTER_SITE_OVERRIDE?="http://mirrors.service.softlayer.com/freebsd/distfiles/${DIST_SUBDIR}/"
+```
+{:screen }
+
+如果找不到该文件，将访问单个端口 Makefile 并移至下一个镜像。
+
 
 

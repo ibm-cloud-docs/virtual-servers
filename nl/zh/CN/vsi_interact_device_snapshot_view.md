@@ -21,4 +21,4 @@ lastupdated: "2017-08-23"
 |查看设备的用户名和密码|单击**显示密码**复选框。|
 |输入要与设备关联的标记|<ul><li>在**标记**字段中输入设备的每个标记，标记之间以逗号分隔。</li><li>单击**添加标记**按钮。</li></ul>|
 |查看与设备关联的最近凭单|单击所需的**凭单号**以重定向到凭单的详细信息。|
-|为设备添加凭单。|<ul><li>单击**为此设备添加凭单**链接以重定向到**添加凭单**页面。</li><li>继续执行[创建凭单 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://knowledgelayer.softlayer.com/pt-br/procedure/create-ticket){: new_window}。</li></ul>|
+|为设备添加凭单。|<ul><li>单击**为此设备添加凭单**链接以重定向到**添加凭单**页面。</li><li>有关获取支持的更多信息，请参阅[使用客户门户网站创建支持凭单](/docs/customer-portal/cpsupport.html)。</li></ul>|

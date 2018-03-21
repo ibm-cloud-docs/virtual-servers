@@ -27,7 +27,7 @@ lastupdated: "2017-10-24"
 
   1. 确保您已设置 {{site.data.keyword.Bluemix_notm}} 目录或 {{site.data.keyword.slportal}}凭证。 
   
-     **注**：对于 {{site.data.keyword.Bluemix_notm}} 目录，您必须具有升级的帐户才能订购虚拟服务器。有关升级帐户的更多信息，请参阅[升级和统一 Bluemix 和 SoftLayer 缴费帐户](https://console.ng.bluemix.net/docs/admin/softlayerlink.html)。
+     **注**：对于 {{site.data.keyword.Bluemix_notm}} 目录，您必须具有升级的帐户才能订购虚拟服务器。有关升级帐户的更多信息，请参阅[切换到 IBM 标识](https://console.bluemix.net/docs/admin/softlayerlink.html)。
   
   2. 如果尚未查看可供您使用的部署选项，请执行此操作。有关更多信息，请参阅[部署选项：公共虚拟服务器](../vsi/vsi_public.html)。
 
@@ -44,7 +44,7 @@ lastupdated: "2017-10-24"
    </THEAD>
    <TBODY>
    <tr>
-   <td>Bluemix 目录</td>
+   <td>IBM Cloud 目录</td>
    <td>
    <ol>
    <li>打开新的浏览器窗口，然后输入 <a href="https://console.bluemix.net/catalog/">https://console.bluemix.net/catalog/</a>。</li>

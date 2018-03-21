@@ -40,6 +40,7 @@ lastupdated: "2017-10-24"
 | [均衡本地存储器](../vsi/vsi_public_balanced_local.html)| 最适用于需要高流量、低延迟 I/O 性能的大型数据库集群。|
 | [计算](../vsi/vsi_public_compute.html)| 最适用于中到高 Web 流量工作负载。|
 | [内存](../vsi/vsi_public_memory.html)| 最适用于内存高速缓存和实时分析工作负载。
+| [GPU](../vsi/vsi_public_gpu.html)| 最适用于高性能工作负载。
 {: caption="表 1. 支持的公共虚拟服务器" caption-side="top"}
 
 ## 后续步骤

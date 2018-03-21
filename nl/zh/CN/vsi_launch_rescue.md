@@ -25,7 +25,7 @@ lastupdated: "2017-10-24"
 
 ## 启动急救内核
 
-1. 使用您的唯一凭证来访问 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/)。
+1. 使用您的唯一凭证来访问 [{{site.data.keyword.slportal}} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/)。
 2. 在“设备列表”中，单击要急救的设备的名称。
 3. 单击右上角的*操作*下拉列表，然后选择**急救**。
 4. 单击**是**按钮以将设备立即转换为急救内核。单击**否**按钮以取消操作。

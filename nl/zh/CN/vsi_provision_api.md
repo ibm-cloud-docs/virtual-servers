@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-04-27"
+  years: 2017, 2018
+lastupdated: "2018-02-28"
 
 
 ---
@@ -14,10 +14,11 @@ lastupdated: "2017-04-27"
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
-# 公共虚拟服务器（带类型模板）API 示例
-{: #api-python-public} 
+# API 示例：公共虚拟服务器类型模板
+{: #api-rest-public}
 
 以下信息显示了用于供应使用预设置类型模板的公共虚拟服务器实例的 REST API 示例。
 {:shortdesc}
@@ -27,6 +28,9 @@ lastupdated: "2017-04-27"
 
 ## 使用创建对象供应公共实例
 要供应使用预设置类型模板的公共虚拟服务器实例，使用 *SoftLayer_Virtual_Guest/createObject* API 服务是最简单的方法。
+
+不适用于瞬态实例。
+{:tip}
 
 要使用 REST 来供应公共虚拟服务器实例，请在请求主体中使用以下 JSON 将 POST 请求提交到 https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json。
 
@@ -57,6 +61,9 @@ lastupdated: "2017-04-27"
 
 ## 使用下单对象供应公共实例
 使用 *SoftLayer_Product_Order/paceOrder* API 服务可供应使用预设置类型模板的公共虚拟服务器。
+
+不适用于瞬态实例。
+{:tip}
 
 要使用 REST 来供应公共虚拟服务器，请在请求主体中使用以下 JSON 将 POST 请求提交到 https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json。
 
@@ -155,6 +162,9 @@ lastupdated: "2017-04-27"
 ## 升级公共实例
 使用 *SoftLayer_Product_Order/placeOrder* API 服务可升级公共虚拟服务器。
 
+不适用于瞬态实例。
+{:tip}
+
 要使用 REST 来供应公共虚拟服务器，请在请求主体中使用以下 JSON 将 POST 请求提交到 https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json。
 
 **注**：价格上不需要项目描述。仅在显示要提交的产品选项时才包含项目描述。
@@ -190,6 +200,37 @@ lastupdated: "2017-04-27"
                     "id": 36189167
                 }
             ]
+        }
+    ]
+}
+```
+## 使用创建对象供应瞬态实例
+{: #api-rest-transient}
+
+要供应瞬态虚拟服务器实例，使用 *SoftLayer_Virtual_Guest/createObject* API 服务是最简单的方法。
+
+要使用 REST 来供应瞬态虚拟服务器实例，将在请求主体中使用以下 JSON 将 POST 请求提交到 https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json。
+
+### JSON 请求主体 4
+```
+{
+    "parameters":[
+        {
+            "hostname": "sample-transient-public",
+            "domain": "softlayer.local",
+            "datacenter": {
+                "name": "mex01"
+            },
+            "operatingSystemReferenceCode": "CENTOS_LATEST",
+            "networkComponents": [
+                {
+                    "maxSpeed": 100
+                }
+            ],
+            "supplementalCreateObjectOptions": {
+                "flavorKeyName": "B1_1X2X25"
+            },
+            "transientGuestFlag": true
         }
     ]
 }

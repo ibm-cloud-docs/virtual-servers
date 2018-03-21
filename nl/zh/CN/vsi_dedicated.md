@@ -18,7 +18,7 @@ lastupdated: "2017-10-24"
 
 
 # 专用虚拟服务器
-{{site.data.keyword.Bluemix}} Infrastructure 专用主机服务是一种虚拟化的单租户专用服务器。您可借此最大程度地控制工作负载布置，并使用灵活的供应后选项。您可以决定将虚拟服务器布置在哪个预先确定的 {{site.data.keyword.cloud}} 中，并可以通过将主机直接分配给您的帐户来确保容量。
+{{site.data.keyword.Bluemix}} Infrastructure 专用主机产品是一种虚拟化的单租户专用服务器。您可借此最大程度地控制工作负载布置，并使用灵活的供应后选项。您可以决定将虚拟服务器布置在哪个预先确定的 {{site.data.keyword.cloud}} 中，并可以通过将主机直接分配给您的帐户来确保容量。
 {:shortdesc}
 
 此产品包含以下功能： 
@@ -83,7 +83,7 @@ lastupdated: "2017-10-24"
 
 订购专用主机和专用主机实例时，请记住以下各点：
 
-* 主机位置；可以从以下 {{site.data.keyword.cloud_notm}} Data Center 中进行选择：
+* 主机位置；可以从以下 {{site.data.keyword.cloud_notm}} 数据中心中进行选择：
       
 | 数据中心||
 | ------------ | ------- | 

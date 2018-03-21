@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-02-12"
 
 
 ---
@@ -14,13 +14,17 @@ lastupdated: "2017-10-24"
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
 # 供应选择内容
 在供应公共虚拟服务器时，必须进行以下选择。
 
 ## 位置
-可以选择要部署到的特定数据中心。对于新部署，{{site.data.keyword.Bluemix}} 会自动识别最佳 POD（基于可用性）并创建相应的公用和专用 VLAN。要向现有环境添加项，可以选择您的设计所需的特定 POD、VLAN 和子网。
+可以选择要部署到的特定数据中心。对于新部署，{{site.data.keyword.Bluemix}} 会自动识别最佳数据中心（基于可用性）并创建相应的公用和专用 VLAN。要向现有环境添加项，可以选择您的设计所需的特定数据中心、VLAN 和子网。有关 VLAN 和子网的更多信息，请参阅 [VLAN 入门](/docs/infrastructure/vlans/getting-started.html)。
+
+选择子网是可选的，仅当需要设备使用子网中的 IP 地址时才使用。如果选择子网，请验证是否有足够的 IP 地址来执行该请求。如果子网没有足够的 IP 地址，那么您的订单可能会延迟或取消。
+{:tip}
 
 ## 处理器/RAM
 订购时，有多个核心处理器选项可供选择。核心处理器选项遵循虚拟服务器部署的标准。服务器上的每个物理核心都是超线程核心，并显示为两个虚拟 CPU (vCPU) 或核心。虚拟服务器产品提供了每个核心 2.0 GHz 或更高的性能，最多可在单个虚拟服务器上提供 56 个核心。
@@ -33,7 +37,7 @@ RAM 是极为简单的存储器。该产品将您选择的 RAM 量全部专用�
 
 还需要选择要部署到服务器的操作系统。您有若干免费选项可选择，例如 CentOS 和 Ubuntu。另外，还提供了付费选项，例如 Windows Server 和 Red Hat EnterpriseLinux (RHEL)。值得注意的是 Windows 需要一个 100 GB 的主磁盘。
 
-对于现有客户，还可以通过 {{site.data.keyword.slportal_full}}浏览至**设备 -> 管理 -> 映像**，并从*操作*菜单中选择**订购虚拟服务器**，以基于映像模板进行部署。这将自动为订单选择相应的操作系统。或者，可以基于标准映像进行订购，然后随时重装到映像模板。
+对于现有客户，还可以通过{{site.data.keyword.slportal_full}}浏览至**设备 -> 管理 -> 映像**，并从*操作*菜单中选择**订购虚拟服务器**，以基于映像模板进行部署。这将自动为订单选择相应的操作系统。或者，可以基于标准映像进行订购，然后随时重装到映像模板。
 
 ## 存储器
 
@@ -63,19 +67,23 @@ RAM 是极为简单的存储器。该产品将您选择的 RAM 量全部专用�
 
 还可以使用安全组来制定一组 IP 过滤规则，用于定义如何处理与虚拟服务器实例的公共接口和专用接口的传入和传出流量。
 
-有关更多信息，请参阅[防火墙](vsi_security_options.html)和[安全组入门](/docs/infrastructure/security-groups/sg_index.html)。
+有关更多信息，请参阅以下安全主题集合。
+
+* [硬件防火墙（共享）](../infrastructure/hardware-firewall-shared/getting-started.html)
+* [硬件防火墙（专用）](../infrastructure/hardware-firewall-dedicated/getting-started.html)
+* [安全组入门](/docs/infrastructure/security-groups/sg_index.html)
 
 ## 监视服务
 
 可以从虚拟服务器的各种监视服务选项中进行选择。选项包括标准监视服务，该服务通过 Ping 和传输控制协议 (TCP) 服务响应进行监视，并且在发生故障时包含可选的响应。您还可以添加高级监视服务，该服务使用 Nimsoft 软件代理程序提供了一组更丰富的功能来监视虚拟服务器和已安装的软件。
 
-有关更多信息，请参阅[查看和管理监视器](vsi_viewing_monitors.html)。
+有关更多信息，请参阅[监视](../infrastructure/SLmonitoring/monitoring_index.html)。
 
 ## 备份
 
 在订购过程中，可以添加 EVault Backup。还可以选择购买现有 R1soft 备份环境的 R1soft 许可证，或利用第三方备份解决方案。
 
-有关更多信息，请参阅[使用 eVault 重新注册设备 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://knowledgelayer.softlayer.com/procedure/how-do-i-re-register-evault){: new_window}。
+有关更多信息，请参阅[使用 eVault 重新注册设备](../infrastructure/Backup/how-do-i-re-register-evault.html)。
 
 ## 供应后脚本
 

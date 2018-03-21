@@ -20,11 +20,11 @@ lastupdated: "2017-10-25"
 # 供应专用实例
 
 对于如何供应专用实例，有两个选项。第一个是通过 {{site.data.keyword.Bluemix}} 目录，第二个是通过 {{site.data.keyword.slportal_full}}。目录和 {{site.data.keyword.slportal}}需要唯一登录标识。目录的用户名和密码无法用于登录到门户网站，反之亦然。
-请参阅[注册 {{site.data.keyword.Bluemix_notm}}](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window}以设置 {{site.data.keyword.Bluemix_notm}} 目录或 {{site.data.keyword.slportal}}凭证。
+请参阅[注册 {{site.data.keyword.Bluemix_notm}}](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window} 以设置 {{site.data.keyword.Bluemix_notm}} 目录或 {{site.data.keyword.slportal}}凭证。
 {:shortdesc}
 
-## 登录到 Bluemix 目录
-要登录到 {{site.data.keyword.Bluemix_notm}} 目录以开始供应专用实例，请使用以下步骤。 
+## 登录到 IBM Cloud 目录
+要登录到 {{site.data.keyword.Bluemix_notm}} 以开始供应专用实例，请使用以下步骤。 
 
 1. 打开新的浏览器窗口，然后输入 [https://console.bluemix.net/catalog/](https://console.bluemix.net/catalog/){: new_window}。
 2.	单击**登录**链接（右上角）。 
