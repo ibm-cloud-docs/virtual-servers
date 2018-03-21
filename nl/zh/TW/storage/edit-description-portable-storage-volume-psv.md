@@ -15,7 +15,7 @@ lastupdated: "2017-09-14"
 
 ## 編輯 PSV 說明
 
-1. 在 [Customer Portal ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/) 中存取**可攜式儲存空間**。如需相關資訊，請參閱[存取可攜式儲存空間](access-portable-storage-screen.html){:new_window}。
+1. 在[客戶入口網站 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/) 中存取**可攜式儲存空間**。如需相關資訊，請參閱[存取可攜式儲存空間](access-portable-storage-screen.html){:new_window}。
 * 尋找您想要的可攜式儲存磁區。<br/>**附註：**使用**過濾器**工具可快速在冗長清單中找到磁區。 
 * 按一下 PSV 的**說明**區段，以開啟說明來進行編輯。
 * 視需要在**說明**欄位中輸入或修訂內容。
