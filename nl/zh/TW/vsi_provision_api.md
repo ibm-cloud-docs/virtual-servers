@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-04-27"
+  years: 2017, 2018
+lastupdated: "2018-02-28"
 
 
 ---
@@ -14,10 +14,11 @@ lastupdated: "2017-04-27"
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
-# 公用虛擬伺服器（含特性）API 範例
-{: #api-python-public} 
+# API 範例：公用虛擬伺服器特性
+{: #api-rest-public}
 
 下列資訊所顯示的 REST API 範例用來佈建使用預設特性的公用虛擬伺服器實例。
 {:shortdesc}
@@ -27,6 +28,9 @@ lastupdated: "2017-04-27"
 
 ## 使用建立物件佈建公用實例
 *SoftLayer_Virtual_Guest/createObject* API 服務是佈建使用預設特性的公用虛擬伺服器實例的最簡單方式。
+
+不適用於暫時性實例。
+{:tip}
 
 若要使用 REST 來佈建公用虛擬伺服器實例，會使用要求內文中的下列 JSON，將 POST 要求提交至 https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json。
 
@@ -57,6 +61,9 @@ lastupdated: "2017-04-27"
 
 ## 使用下單物件佈建公用實例
 佈建使用預設特性的公用虛擬伺服器的方式是使用 *SoftLayer_Product_Order/placeOrder* API 服務。
+
+不適用於暫時性實例。
+{:tip}
 
 若要使用 REST 來佈建公用虛擬伺服器，會使用要求內文中的下列 JSON，將 POST 要求提交至 https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json。
 
@@ -155,6 +162,9 @@ lastupdated: "2017-04-27"
 ## 升級公用實例
 升級公用虛擬伺服器的方式是使用 *SoftLayer_Product_Order/placeOrder* API 服務。
 
+不適用於暫時性實例。
+{:tip}
+
 若要使用 REST 來佈建公用虛擬伺服器，會使用要求內文中的下列 JSON，將 POST 要求提交至 https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json。
 
 **附註：**價格上不需要項目說明。包含它們的目的只是要顯示所提交的產品選項。
@@ -190,6 +200,37 @@ lastupdated: "2017-04-27"
                     "id": 36189167
                 }
             ]
+        }
+    ]
+}
+```
+## 使用建立物件來佈建暫時性實例
+{: #api-rest-transient}
+
+*SoftLayer_Virtual_Guest/createObject* API 服務是佈建暫時性虛擬伺服器實例的最簡單方式。
+
+若要使用 REST 來佈建暫時性虛擬伺服器實例，會使用要求內文中的下列 JSON，將 POST 要求提交至 https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json。
+
+### JSON 要求內文 4
+```
+{
+    "parameters":[
+        {
+            "hostname": "sample-transient-public",
+            "domain": "softlayer.local",
+            "datacenter": {
+                "name": "mex01"
+            },
+            "operatingSystemReferenceCode": "CENTOS_LATEST",
+            "networkComponents": [
+                {
+                    "maxSpeed": 100
+                }
+            ],
+            "supplementalCreateObjectOptions": {
+                "flavorKeyName": "B1_1X2X25"
+            },
+            "transientGuestFlag": true
         }
     ]
 }

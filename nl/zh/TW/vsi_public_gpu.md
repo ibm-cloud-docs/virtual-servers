@@ -1,0 +1,115 @@
+---
+
+
+
+copyright:
+  years: 2017, 2018
+lastupdated: "2018-2-27"
+
+
+---
+
+{:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+
+# GPU
+GPU 特性最適用於高效能工作負載，而此工作負載需要更高的運算密度才能減少資源管理及成本。GPU 適用於有大量圖形及資料的應用程式，或開發需要快速效能的新應用程式。
+
+採用 NVDIA Tesla P100 GPU 技術，{{site.data.keyword.cloud_notm}} Accelerated Compute "ac1" 系列同時提供區塊 (ac1) 及本端 SSD 儲存空間 (acl1)。您可以從中選擇下列 GPU 特性：  
+
+<table>
+
+<caption>表 1. GPU 特性</caption>
+
+  
+<thead>
+<td rowspan="4"></td>
+  <th colspan="4">GPU 特性</th>
+<tr>
+  <th>ac1.8x60</th>
+  <th>acl1.8x60</th>
+  <th>ac1.16x120</th>
+  <th>acl1.16x120</th>
+</tr>
+</thead>
+<TBODY>
+<tr>
+  <th><b>GPU</b></th>
+  <td>1 x P100</td>
+  <td>1 x P100</td>
+  <td>2 x P100</td>
+  <td>2 x P100</td>
+</tr>
+<tr>
+  <th><b>GPU RAM (GB)</b></th>
+  <td>16</td>
+  <td>16</td>
+  <td>32</td>
+  <td>32</td>
+</tr>
+
+<tr>
+  <th><b>vCPU</b></th>
+  <td>8</td>
+  <td>8</td>
+  <td>16</td>
+  <td>16</td>
+</tr>
+
+<tr>
+  <th><b>vCPU RAM (GB)</b></th>
+  <td>60</td>
+  <td>60</td>
+  <td>120</td>
+  <td>120</td>
+</tr>
+
+<tr>
+  <th><b>儲存空間類型</b></th>
+  <td>區塊 (SAN)</td>
+  <td>本端 SSD </td>
+  <td>區塊 (SAN)</td>
+  <td>本端 SSD </td>
+</tr>
+
+<tr>
+  <th><b>開機光碟 (GB)</b></th>
+  <td>25 及 100</td>
+  <td>100</td>
+  <td>25 及 100</td>
+  <td>100</td>
+</tr>
+
+<tr>
+  <th><b>次要光碟 (GB)</b></th>
+  <td>4 x 2000</td>
+  <td>2 x 300</td>
+  <td>4 x 2000</td>
+  <td>2 x 300</td>
+</tr>
+
+</TBODY>
+</table>
+
+
+**附註：**_DAL13_ 資料中心內提供 GPU 特性。
+
+## 開始之前
+請檢閱下列 GPU 必要條件。
+
+1. 只有支援「硬體虛擬機器 (HVM)」開機模式的作業系統上才提供「GPU 系列」虛擬伺服器。請參閱下列支援 HVM 開機模式的作業系統的清單。  
+  - CentOS 7
+  - Debian 8
+  - RHEL 7
+  - Windows 2012 R2
+  - Windows 2016
+
+2. 必須安裝適當的 NVIDIA 驅動程式及軟體。如需軟體及 NVIDIA 驅動程式的相關資訊，請參閱[安裝 GPU 驅動程式及軟體套件](../vsi/vsi_gpu_nvidia_drivers.html)。
+
+**附註：**您安裝的軟體可能有必備軟體及作業系統特定配置。
+
+

@@ -27,7 +27,7 @@ lastupdated: "2017-10-24"
 
   1. 確定您已設定 {{site.data.keyword.Bluemix_notm}} 型錄或 {{site.data.keyword.slportal}} 認證。 
   
-     **附註：**針對 {{site.data.keyword.Bluemix_notm}} 型錄，您必須具有已升級的帳戶，才能訂購虛擬伺服器。如需升級帳戶的相關資訊，請參閱[升級及統一 Bluemix 與 SoftLayer 計費帳戶](https://console.ng.bluemix.net/docs/admin/softlayerlink.html)。
+     **附註：**針對 {{site.data.keyword.Bluemix_notm}} 型錄，您必須具有已升級的帳戶，才能訂購虛擬伺服器。如需升級帳戶的相關資訊，請參閱[切換至 IBM ID](https://console.bluemix.net/docs/admin/softlayerlink.html)。
   
   2. 如果您還沒有這麼做，請檢閱您可使用的部署選項。如需相關資訊，請參閱[部署選項：公用虛擬伺服器](../vsi/vsi_public.html)。
 
@@ -44,7 +44,7 @@ lastupdated: "2017-10-24"
    </THEAD>
    <TBODY>
    <tr>
-   <td>Bluemix 型錄</td>
+   <td>IBM Cloud 型錄</td>
    <td>
    <ol>
    <li>開啟新的瀏覽器視窗，然後輸入 <a href="https://console.bluemix.net/catalog/">https://console.bluemix.net/catalog/</a>。</li>

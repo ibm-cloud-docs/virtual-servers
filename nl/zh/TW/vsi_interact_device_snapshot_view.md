@@ -21,4 +21,4 @@ lastupdated: "2017-08-23"
 |檢視裝置的使用者名稱及密碼|按一下**顯示密碼**勾選框。|
 |輸入要與裝置相關聯的標籤|<ul><li>在**標籤**欄位中，輸入裝置的每一個標籤，並以逗點區隔。</li><li>按一下**新增標籤**按鈕。</li></ul>|
 |檢視與裝置相關聯的最近問題單|按一下所需的**問題單號碼**，以重新導向至問題單的詳細資料。|
-|新增裝置的問題單|<ul><li>按一下**新增此裝置的問題單**鏈結，以重新導向至**新增問題單**頁面。</li><li>請繼續進行 KnowledgeLayer 中的[建立問題單 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://knowledgelayer.softlayer.com/pt-br/procedure/create-ticket){: new_window}。</li></ul>|
+|新增裝置的問題單|<ul><li>按一下**新增此裝置的問題單**鏈結，以重新導向至**新增問題單**頁面。</li><li>如需取得支援的相關資訊，請參閱[使用客戶入口網站建立支援問題單](/docs/customer-portal/cpsupport.html)。</li></ul>|

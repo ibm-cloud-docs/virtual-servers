@@ -25,7 +25,7 @@ lastupdated: "2017-10-24"
 
 ## 啟動救援核心
 
-1. 使用唯一認證來存取 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/)。
+1. 使用唯一認證來存取 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/)。
 2. 從「裝置清單」中，按一下您要救援的裝置名稱。
 3. 按一下右上角的*動作* 下拉清單，然後選取**救援**。
 4. 按一下**是**按鈕，以立即將裝置轉移至「救援核心」。按一下**否**按鈕，以取消動作。

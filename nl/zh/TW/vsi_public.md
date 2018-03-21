@@ -40,6 +40,7 @@ lastupdated: "2017-10-24"
 | [平衡本端儲存空間](../vsi/vsi_public_balanced_local.html) | 最適合需要高或低延遲 I/O 效能的大型資料庫叢集。|
 | [計算](../vsi/vsi_public_compute.html) | 最適合中到高 Web 資料流量工作負載。|
 | [記憶體](../vsi/vsi_public_memory.html)  | 最適合記憶體快取及即時分析工作負載。
+| [GPU](../vsi/vsi_public_gpu.html)  | 最適合高效能工作負載。
 {: caption="表 1. 支援的公用虛擬伺服器" caption-side="top"}
 
 ## 後續步驟

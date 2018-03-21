@@ -27,4 +27,9 @@ lastupdated: "2017-08-23"
 
 在訂購過程中，您可以選取裝置特定硬體或軟體防火牆來提供保護。或者，您也可以將專用防火牆應用裝置部署至環境，並將虛擬伺服器部署至受保護的 VLAN。  
 
-**附註：**不能透過相同介面上的兩個防火牆應用裝置來保護虛擬伺服器。如需相關資訊，請參閱 KnowledgeLayer 中的[防火牆 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](http://knowledgelayer.softlayer.com/topic/firewall){: new_window}。
+**附註：**不能透過相同介面上的兩個防火牆應用裝置來保護虛擬伺服器。 
+
+如需相關資訊，請參閱下列安全主題集合。
+
+* [硬體防火牆（共用）](../infrastructure/hardware-firewall-shared/getting-started.html)
+* [硬體防火牆（專用）](../infrastructure/hardware-firewall-dedicated/getting-started.html)

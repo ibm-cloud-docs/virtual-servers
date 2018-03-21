@@ -22,7 +22,7 @@ lastupdated: "2017-10-25"
 您有兩個關於如何佈建專用實例的選項。第一個是透過 {{site.data.keyword.Bluemix}} 型錄，第二個則是透過 {{site.data.keyword.slportal_full}}。型錄及 {{site.data.keyword.slportal}} 需要唯一登入 ID。您的型錄使用者名稱及密碼將不適用於登入入口網站，反之亦然。請參閱[註冊 {{site.data.keyword.Bluemix_notm}}](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window} 以設定 {{site.data.keyword.Bluemix_notm}} 型錄或 {{site.data.keyword.slportal}} 認證。
 {:shortdesc}
 
-## 登入 Bluemix 型錄
+## 登入 IBM Cloud 型錄
 請使用下列步驟登入 {{site.data.keyword.Bluemix_notm}}，以開始佈建專用實例。 
 
 1. 開啟新的瀏覽器視窗，然後輸入 [https://console.bluemix.net/catalog/](https://console.bluemix.net/catalog/){: new_window}。

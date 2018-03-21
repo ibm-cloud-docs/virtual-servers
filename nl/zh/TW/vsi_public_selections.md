@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-02-12"
 
 
 ---
@@ -14,13 +14,17 @@ lastupdated: "2017-10-24"
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
 # 佈建選項
 當您佈建公用虛擬伺服器時，必須進行下列選擇。
 
 ## 位置
-您可以選取要在其中部署的特定資料中心。針對新的部署，{{site.data.keyword.Bluemix}} 會自動識別最佳 POD（根據可用性），並建立適當的公用及專用 VLAN。若要新增至現有環境，您可以選取特定 POD、VLAN 以及您設計所需的子網路。
+您可以選取要在其中部署的特定資料中心。針對新的部署，{{site.data.keyword.Bluemix}} 會自動識別最佳資料中心（根據可用性），並建立適當的公用及專用 VLAN。若要新增至現有環境，您可以選取特定資料中心、VLAN 以及您設計所需的子網路。如需 VLAN 及子網路的相關資訊，請參閱[開始使用 VLAN](/docs/infrastructure/vlans/getting-started.html)。
+
+選取子網路是選用的，而且只有在您需要裝置使用子網路中的 IP 位址時才能使用。如果您選取子網路，請驗證您有足夠的 IP 位址可滿足要求。如果您的子網路沒有足夠的 IP 位址，則可能會延遲或取消訂單。
+{:tip}
 
 ## 處理器/RAM
 當您訂購時，會有可從中選取的核心處理器選項。核心處理器選項遵循虛擬伺服器部署的標準。伺服器上的每一個實體核心都具有超執行緒並呈現為兩個虛擬 CPU (vCPU) 或核心。虛擬伺服器供應項目的每個核心都會提供 2.0GHz 或更佳的速度，而且單一虛擬伺服器上最多有 56 個核心。
@@ -63,19 +67,23 @@ RAM 極為直接明確。此供應項目會將您選取的 RAM 數量完全專�
 
 您也可以使用安全群組來制定一組 IP 過濾器規則，以定義如何處理虛擬伺服器實例的公用及專用介面的送入及送出資料流量。
 
-如需相關資訊，請參閱[防火牆](vsi_security_options.html)及[開始使用安全群組](/docs/infrastructure/security-groups/sg_index.html)。
+如需相關資訊，請參閱下列安全主題集合。
+
+* [硬體防火牆（共用）](../infrastructure/hardware-firewall-shared/getting-started.html)
+* [硬體防火牆（專用）](../infrastructure/hardware-firewall-dedicated/getting-started.html)
+* [開始使用安全群組](/docs/infrastructure/security-groups/sg_index.html)
 
 ## 監視
 
 您可以從虛擬伺服器的各種監視選項中進行選取。選項包括標準監視，可透過 Ping 及傳輸控制通訊協定 (TCP) 服務回應進行監視，而且具有失敗時的選用回應。您也可以新增使用 Nimsoft 軟體代理程式的「進階監視」，以提供用於監視虛擬伺服器及已安裝軟體的較大特性集。
 
-如需相關資訊，請參閱[檢視及管理監視器](vsi_viewing_monitors.html)。
+如需相關資訊，請參閱[監視](../infrastructure/SLmonitoring/monitoring_index.html)。
 
 ## 備份
 
 在訂購處理程序期間，您可以新增 Evault 備份。您也可以選擇購買現有 R1soft 備份環境的 R1soft 授權，或利用協力廠商備份解決方案。
 
-如需相關資訊，請參閱[使用 Evault 重新登錄裝置 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://knowledgelayer.softlayer.com/procedure/how-do-i-re-register-evault){: new_window}。
+如需相關資訊，請參閱[使用 Evault 重新登錄裝置](../infrastructure/Backup/how-do-i-re-register-evault.html)。
 
 ## 佈建後 Script
 
