@@ -2,7 +2,9 @@
 
 
 
-copyright: years: 2017 lastupdated: "2017-10-24"
+copyright:
+  years: 2017
+lastupdated: "2017-10-24"
 
 
 ---
@@ -38,6 +40,7 @@ Os servidores virtuais públicos a seguir estão disponíveis.
 | [Armazenamento local balanceado](../vsi/vsi_public_balanced_local.html) | Melhor para clusters de banco de dados grandes que requerem desempenho de E/S alto e de baixa latência.|
 | [Cálculo](../vsi/vsi_public_compute.html) | Melhor para cargas de trabalho de trafego da web moderado a alto.|
 | [Memória](../vsi/vsi_public_memory.html)  | Melhor para cargas de trabalho de armazenamento em cache de memória e de analítica em tempo real.
+| [GPU](../vsi/vsi_public_gpu.html)  | Melhor para cargas de trabalho de alto desempenho.
 {: caption="Tabela 1. Servidores virtuais públicos suportados" caption-side="top"}
 
 ## Próximas Etapas

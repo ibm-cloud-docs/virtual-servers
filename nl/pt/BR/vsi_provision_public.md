@@ -2,7 +2,9 @@
 
 
 
-copyright: years: 2017 lastupdated: "2017-10-24"
+copyright:
+  years: 2017
+lastupdated: "2017-10-24"
 
 
 ---
@@ -25,7 +27,7 @@ Antes de iniciar, revise os pré-requisitos a seguir.
 
   1. Assegure-se de que você tenha seu catálogo do {{site.data.keyword.Bluemix_notm}} ou as credenciais do {{site.data.keyword.slportal}} configuradas. 
   
-     **Nota:** para o catálogo do {{site.data.keyword.Bluemix_notm}}, deve-se ter uma conta com upgrade para pedir servidores virtuais. Para obter mais informações sobre como fazer upgrade de sua conta, veja [Fazendo upgrade e unificando as contas de cobrança do Bluemix e SoftLayer](https://console.ng.bluemix.net/docs/admin/softlayerlink.html).
+     **Nota:** para o catálogo do {{site.data.keyword.Bluemix_notm}}, deve-se ter uma conta com upgrade para pedir servidores virtuais. Para obter mais informações sobre como fazer upgrade de sua conta, veja [Alternando para o IBMid](https://console.bluemix.net/docs/admin/softlayerlink.html).
   
   2. Caso ainda não tenha feito isso, revise as opções de implementação disponíveis para você. Para obter mais informações, veja [Opções de implementação: servidor virtual público](../vsi/vsi_public.html).
 
@@ -42,7 +44,7 @@ Assegure-se de que você tenha efetuado login por meio do catálogo do {{site.da
    </THEAD>
    <TBODY>
    <tr>
-   <td>Catálogo do Bluemix</td>
+   <td>Catálogo do IBM Cloud</td>
    <td>
    <ol>
    <li>Abra uma nova janela do navegador e insira <a href="https://console.bluemix.net/catalog/">https://console.bluemix.net/catalog/</a>.</li>

@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-11-06"
+lastupdated: "2017-11-15"
 
 
 ---
@@ -21,7 +21,7 @@ lastupdated: "2017-11-06"
 {{site.data.keyword.BluVirtServers}} são servidores virtuais escaláveis que são comprados com núcleos dedicados e alocações de memória. Eles são uma boa opção se você estiver procurando por recursos de cálculo, que podem ser incluídos em minutos, com acesso a recursos como modelos de imagem. O hypervisor é totalmente gerenciado pelo {{site.data.keyword.BluSoftlayer_full}} e você pode executar tarefas de configuração e gerenciamento usando o {{site.data.keyword.slportal_full}} e o {{site.data.keyword.slapi_short}}. Os servidores virtuais são implementados nas mesmas VLANs que os servidores físicos, permitindo difundir cargas de trabalho entre servidores virtuais e servidores bare metal, enquanto mantém a interoperabilidade. Os servidores virtuais são totalmente customizáveis ao serem pedidos, com opções para aumentar a capacidade conforme seu cálculo precisa crescer.
 {:shortdesc}
 
-É possível escolher entre faturamento por hora ou mensal, ambientes públicos (ocupação variada) ou ambientes dedicados (ocupação única) e discos locais de alto desempenho ou armazenamento SAN corporativo.
+Ao criar um servidor virtual, é possível escolher entre faturamento por hora e mensal. Também é possível escolher entre um ambiente público (ocupação variada) ou um ambiente dedicado (ocupação única). Em seguida, é possível escolher discos locais de alto desempenho ou armazenamento SAN corporativo para seu servidor virtual.
 
 ## Recursos-chave
 

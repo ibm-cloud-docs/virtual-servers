@@ -2,7 +2,9 @@
 
 
 
-copyright: years: 2017 lastupdated: "2017-08-23"
+copyright:
+  years: 2017
+lastupdated: "2017-08-23"
 
 
 ---
@@ -25,4 +27,9 @@ Os firewalls estão disponíveis como um recurso complementar para todos os serv
 
 Como parte do processo de pedido, é possível selecionar um hardware específico do dispositivo ou um firewall de software para fornecer proteção. Como alternativa, é possível implementar dispositivos de firewall dedicados no ambiente e implementar o servidor virtual em uma VLAN protegida.  
 
-**Nota:** um servidor virtual não pode ser protegido por dois dispositivos de firewall na mesma interface. Para obter mais informações, veja [Firewall ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](http://knowledgelayer.softlayer.com/topic/firewall){: new_window} em KnowledgeLayer.
+**Nota:** um servidor virtual não pode ser protegido por dois dispositivos de firewall na mesma interface. 
+
+Para obter mais informações, veja as coleções de tópicos de segurança a seguir.
+
+* [Hardware Firewalls (Shared)](../infrastructure/hardware-firewall-shared/getting-started.html)
+* [Hardware Firewalls (Dedicated)](../infrastructure/hardware-firewall-dedicated/getting-started.html)

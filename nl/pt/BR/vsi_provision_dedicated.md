@@ -2,7 +2,9 @@
 
 
 
-copyright: years: 2017 lastupdated: "2017-10-24"
+copyright:
+  years: 2017
+lastupdated: "2017-10-24"
 
 
 ---
@@ -20,10 +22,10 @@ copyright: years: 2017 lastupdated: "2017-10-24"
 Você tem duas opções sobre como provisionar suas instâncias dedicadas. O primeiro é por meio do catálogo do {{site.data.keyword.Bluemix}} e o segundo é por meio do {{site.data.keyword.slportal_full}}. O catálogo e o {{site.data.keyword.slportal}} requerem IDs de login exclusivos. Seu nome do usuário e senha do catálogo não funcionarão para efetuar login no portal e vice-versa. Veja [Inscrevendo-se para o {{site.data.keyword.Bluemix_notm}}](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window} para configurar o catálogo do {{site.data.keyword.Bluemix_notm}} ou as credenciais do {{site.data.keyword.slportal}}.
 {:shortdesc}
 
-## Efetuar login no Catálogo do Bluemix
+## Efetuar login no catálogo do IBM Cloud
 Use as etapas a seguir para efetuar login no catálogo do {{site.data.keyword.Bluemix_notm}} para começar a provisionar seus hosts dedicados e instâncias de host dedicado. 
 
-1. Abra uma nova janela do navegador e insira [https://console.ng.bluemix.net/catalog/](https://console.ng.bluemix.net/catalog/){: new_window}.
+1. Abra uma nova janela do navegador e insira [https://console.bluemix.net/catalog/](https://console.bluemix.net/catalog/){: new_window}.
 2.	Clique no link **Efetuar login** (canto superior direito). 
 3.	Insira seu e-mail ou IBMid e clique em **Continuar**.
 4.	Insira sua senha e clique em **Efetuar login**.
@@ -52,7 +54,7 @@ Use as etapas a seguir para provisionar seus hosts dedicados.
 
    **Nota:** os servidores dedicados são servidores privados.
 
-Você é conduzido para a página *Configurar seu servidor em nuvem*. Nessa página, é possível pedir uma instância dedicada que está ou não associada a um host dedicado. Mais informações sobre como pedir instâncias podem ser localizadas em [Provisionar sua instância de host dedicado]{: provision-dedicated-instances}.
+Você é conduzido para a página *Configurar seu servidor em nuvem*. Nessa página, é possível pedir uma instância dedicada que está ou não associada a um host dedicado. Mais informações sobre como pedir instâncias podem ser localizadas em [Provisionar suas instâncias de host dedicado](#provision-dedicated-instances).
 
 4.	Clique no botão **Criar host** no lado direito do formulário.
 5.	Digite as informações a seguir:

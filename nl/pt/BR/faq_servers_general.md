@@ -2,7 +2,9 @@
 
 
 
-copyright: years: 2017 lastupdated: "2017-10-24"
+copyright:
+  years: 2017
+lastupdated: "2017-10-24"
 
 
 ---
@@ -34,7 +36,7 @@ Se não for possível se conectar ao console KVM, revise as dicas de resolução
 
      **Nota:** se usar o Mac OSX em conjunto com o Google Chrome, consulte Informações e requisitos do sistema para instalar e usar o Mac Java 7 no website do Java.
 
-   * Se você estiver tentando se conectar a um VSI por meio do Java padrão e não estiver obtendo nada, exceto erros, também será possível tentar usar o VNC. Para obter mais informações sobre como usar VNC, veja [Conectando ao seu VSI usando o VNC ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://knowledgelayer.softlayer.com/articles/connect-your-vsi-using-vnc){: new_window}.
+   * Se você estiver tentando se conectar a um VSI por meio do Java padrão e não estiver obtendo nada, exceto erros, também será possível tentar usar o VNC.
 
 Se você tiver concluído todas as verificações acima e ainda assim não for possível se conectar ao console KVM, entre em contato com o Suporte para obter assistência adicional na resolução do problema. Se tiver sido feita uma conexão com o console, mas os problemas ocorrerem ao se conectar ao dispositivo, assegure-se de que as credenciais que estão sendo usadas para acessar o dispositivo sejam válidas. Entre em contato com o administrador de conta para verificar as credenciais, se necessário.
 
@@ -149,5 +151,24 @@ O {{site.data.keyword.BluSoftlayer}} está ativando uma nova rota em todos os se
 ## Posso permitir que o sistema de monitoramento emita uma reinicialização automática e alerte um técnico de suporte no caso de o servidor parar de responder?
 
 Sim, com a ordem de nosso serviço **Reinicialização automatizada de falha de monitoramento**, é possível configurar o sistema de monitoramento para reinicializar automaticamente o servidor e emitir um chamado para um técnico de suporte se um alerta de monitoramento for emitido. Como um serviço adicional, fornecemos **Monitoramento NOC**, em que você receberá notificação pessoal no caso de um problema monitoramento ocorrer. Para saber mais sobre essas duas ofertas, consulte [Server Monitoring ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](http://www.softlayer.com/services/monitoring/){:new_window}.
+
+## O que é um espelho cvsup?
+
+É possível atualizar em um espelho cvsup local que foi executado para você. Assegure-se de que o supfile tenha a entrada a seguir:
+
+```
+*default host=cvsup.service.softlayer.com
+```
+{:pre }
+
+Os distfiles também são espelhados e estão disponíveis em freebsd.org. É possível incluir a linha a seguir no arquivo */etc/make.conf* para tentar fazer download do repositório local primeiro:
+
+```
+MASTER_SITE_OVERRIDE?="http://mirrors.service.softlayer.com/freebsd/distfiles/${DIST_SUBDIR}/"
+```
+{:screen }
+
+Se o arquivo não for localizado lá, ele seguirá o Makefile de porta individual e será movido para o próximo espelho.
+
 
 

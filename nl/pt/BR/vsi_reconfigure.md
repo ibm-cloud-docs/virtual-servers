@@ -2,7 +2,9 @@
 
 
 
-copyright: years: 2017 lastupdated: "2017-10-24"
+copyright:
+  years: 2017
+lastupdated: "2017-10-24"
 
 
 ---
@@ -60,20 +62,20 @@ Use as etapas a seguir para reconfigurar um servidor virtual existente.
 1. Na Lista de dispositivos, clique no nome do servidor virtual que você deseja reconfigurar.
 2. Na guia **Configuração**, é possível clicar no link **Upgrade de Núcleo ou RAM** para atualizar os itens a seguir. 
   
-|   Opções de Upgrade     |  Descrição                                                                                                |
+|   Opções de Upgrade       |  Descrição                                                                                                |
 | ----------------------- | ----------------------------------------------------------------------------------------------------------- |
-| Data do Upgrade         | Insira a data (AAAA-MM-DD) para que a atualização se torne ativa.                                                |
-| Horário do Upgrade      | Selecione o horário nas caixas suspensas para a hora do dia para que a atualização se torne ativa ou clique na caixa de seleção **Imediato** para uma atualização imediata.                                                                                        |
-| Núcleos                 | Selecione o número de núcleos para a atualização, se aplicável. |
-| RAM                     | Selecione a quantia de RAM a ser aplicada ao seu dispositivo para a atualização, se aplicável. |
+| Data do Upgrade            | Insira a data (AAAA-MM-DD) para que a atualização se torne ativa.                                                |
+| Horário do Upgrade            | Selecione o horário nas caixas suspensas para a hora do dia para que a atualização se torne ativa ou clique na caixa de seleção **Imediato** para uma atualização imediata.                                                                                        |
+| Núcleos                   | Selecione o número de núcleos para a atualização, se aplicável. |
+| RAM                     | Selecione a quantia de RAM a ser aplicada ao seu dispositivo para a atualização, se aplicável.   |
 | Velocidades da Porta de Uplink      | Selecione as novas velocidades da porta de uplink para seu dispositivo, se aplicável. |
-| Largura da Banda Pública| Selecione a quantia (em GB) de largura da banda pública para seu dispositivo, se aplicável.   |
+| Largura da Banda Pública        | Selecione a quantia (em GB) de largura da banda pública para seu dispositivo, se aplicável.   |
 | Primeiro Disco – Quinto Disco | Selecione a opção de espaço/armazenamento de disco para seu primeiro disco, se aplicável. Consulte **Notas sobre Disco** abaixo para obter informações adicionais.                                                                                                                               |
 | Notas                   | Insira quaisquer notas aplicáveis para seu dispositivo.                                                                 |
 {: caption="Tabela 1. Opções de implementação" caption-side="top"}   
   
   **Notas sobre Disco:**
-  * O armazenamento Local e de SAN está disponível. Verifique novamente sua seleção para assegurar que sua opção de armazenamento esteja correta.
+  * O armazenamento Local e de SAN está disponível.  Verifique novamente sua seleção para assegurar que sua opção de armazenamento esteja correta.
   * Para servidores virtuais públicos, se você estiver fazendo upgrade do armazenamento local e precisar de mais núcleo ou RAM, poderá perder seu disco secundário. Ao modificar um tipo de servidor virtual que usa armazenamento local, o tipo é pré-configurado para você e os tipos que não são comparáveis não podem ser selecionados.
 3. Clique em **Continuar**.
 4. Revise sua confirmação de ordem quanto à precisão.  Clique em **Editar** para editar seu upgrade.

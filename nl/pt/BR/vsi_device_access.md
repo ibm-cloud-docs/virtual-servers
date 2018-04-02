@@ -2,7 +2,9 @@
 
 
 
-copyright: years: 2017 lastupdated: "2017-10-24"
+copyright:
+  years: 2017
+lastupdated: "2017-10-24"
 
 
 ---
@@ -18,7 +20,7 @@ copyright: years: 2017 lastupdated: "2017-10-24"
 # Gerenciando o acesso ao dispositivo
 {: #managing-device-access}
 
-Para acessar e gerenciar os detalhes para um dispositivo específico, deve-se ter as permissões certas concedidas à sua conta do usuário.  Após o administrador de conta conceder seu acesso à conta do usuário para um dispositivo, é possível visualizar os detalhes do dispositivo usando o {{site.data.keyword.slportal_full}} ou usando a API. As informações ou ação que você vê dependem do tipo de dispositivo, bem como as permissões que são concedidas para sua conta do usuário.
+Para acessar e gerenciar os detalhes para um dispositivo específico, deve-se ter as permissões certas concedidas à sua conta do usuário.  Após o administrador de conta conceder seu acesso à conta do usuário para um dispositivo, é possível visualizar os detalhes do dispositivo usando o {{site.data.keyword.slportal_full}} ou usando a API.  As informações ou ação que você vê dependem do tipo de dispositivo, bem como as permissões que são concedidas para sua conta do usuário.
 {:shortdesc}
 
 **Nota:** se sua conta tiver dispositivos para os quais o acesso não foi concedido, você verá um nome "Dispositivo Desconhecido" quando tentar acessar esses dispositivos.

@@ -2,7 +2,9 @@
 
 
 
-copyright: years: 2017 lastupdated: "2017-10-24"
+copyright:
+  years: 2017, 2018
+lastupdated: "2018-02-12"
 
 
 ---
@@ -12,13 +14,17 @@ copyright: years: 2017 lastupdated: "2017-10-24"
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
 # Seleções de fornecimento
 Você deverá fazer as seleções a seguir quando provisionar um servidor virtual público.
 
 ## Local
-É possível selecionar o data center específico no qual você deseja implementar. Para novas implementações, o {{site.data.keyword.Bluemix}} identifica automaticamente o melhor POD (com base na disponibilidade) e cria as VLANs públicas e privadas apropriadas. Para adições a ambientes existentes, é possível selecionar o POD, a VLAN e a sub-rede específica que é necessária para seu design.
+É possível selecionar o data center específico no qual você deseja implementar. Para novas implementações, o {{site.data.keyword.Bluemix}} identifica automaticamente o melhor data center (com base na disponibilidade) e cria as VLANs públicas e privadas apropriadas. Para adições a ambientes existentes, é possível selecionar o data center, a VLAN e a sub-rede específicos que são necessários para seu design. Para obter mais informações sobre VLANs e sub-redes, veja [Introdução às VLANs](/docs/infrastructure/vlans/getting-started.html).
+
+A seleção de uma sub-rede é opcional e só deverá ser usada quando você requerer que seu dispositivo use um endereço IP da sub-rede. Se você selecionar uma sub-rede, verifique se possui endereços IP suficientes para cumprir a solicitação. Se você não tiver endereços IP suficientes para sua sub-rede, seu pedido poderá atrasar ou ser cancelado.
+{:tip}
 
 ## Processadores/RAM
 Ao fazer a ordem, você tem opções de processador de núcleo entre as quais selecionar. As opções de processador de núcleo seguem padrões para implementações de servidor virtual. Cada núcleo físico no servidor é hyper-threading e apresentado como duas CPUs virtuais (vCPUs) ou núcleos. A oferta de servidor virtual fornece 2,0 GHz ou mais por núcleo com até 56 núcleos disponíveis em um único servidor virtual.
@@ -31,7 +37,7 @@ A RAM é muito simples. A oferta dedica totalmente a quantia de RAM que você se
 
 Você também seleciona o sistema operacional a ser implementado no servidor. É possível selecionar várias opções grátis, como CentOS e Ubuntu. As opções pagas, como Windows Server e Red Hat Enterprise Linux (RHEL), também estão disponíveis. É importante observar que o Windows requer um disco primário de 100 GB.
 
-Para clientes existentes, também é possível implementar com base em um Modelo de Imagem por meio do {{site.data.keyword.slportal_full}} navegando para **Dispositivos-> Gerenciar-> Imagens** e selecionando **Pedir Servidor Virtual** no menu *Ações*. Isso seleciona automaticamente o sistema operacional apropriado para a ordem.  Como alternativa, é possível pedir com base em uma imagem padrão e, em seguida, recarregar em um modelo de imagem a qualquer momento.
+Para clientes existentes, também é possível implementar com base em um Modelo de Imagem por meio do {{site.data.keyword.slportal_full}} navegando para **Dispositivos-> Gerenciar-> Imagens** e selecionando **Pedir Servidor Virtual** no menu *Ações*.  Isso seleciona automaticamente o sistema operacional apropriado para a ordem.  Como alternativa, é possível pedir com base em uma imagem padrão e, em seguida, recarregar em um modelo de imagem a qualquer momento.
 
 ## Armazenamento
 
@@ -61,19 +67,23 @@ Antes da implementação, considere suas opções de segurança. Como parte do p
 
 Também é possível usar grupos de segurança para determinar um conjunto de regras de filtro de IP que definem como manipular o tráfego de entrada e de saída para as interfaces pública e privada de uma instância de servidor virtual.
 
-Para obter mais informações, consulte [Firewalls](vsi_security_options.html) e [Introdução aos grupos de segurança](/docs/infrastructure/security-groups/sg_index.html).
+Para obter mais informações, veja as coleções de tópicos de segurança a seguir.
+
+* [Hardware Firewalls (Shared)](../infrastructure/hardware-firewall-shared/getting-started.html)
+* [Hardware Firewalls (Dedicated)](../infrastructure/hardware-firewall-dedicated/getting-started.html)
+* [Introdução aos grupos de segurança](/docs/infrastructure/security-groups/sg_index.html)
 
 ## Monitoramento
 
 É possível selecionar entre uma variedade de opções de monitoramento para o servidor virtual. As opções incluem o monitoramento padrão, que monitora via Ping e resposta de serviço do protocolo de controle de transmissão (TCP) e tem respostas opcionais no caso de falhas. É possível também incluir o Advanced Monitoring que usa o agente de software Nimsoft para fornecer um conjunto maior de recursos para monitoramento do servidor virtual e do software instalado.
 
-Para obter mais informações, veja [Visualizando e gerenciando monitores](vsi_viewing_monitors.html).
+Para obter mais informações, veja [Monitoramento](../infrastructure/SLmonitoring/monitoring_index.html).
 
 ## Backup
 
 Durante o processo de ordem, é possível incluir backups Evault. Também é possível escolher comprar uma licença R1soft para o ambiente de backup R1soft existente ou utilizar uma solução de backup de terceiros.
 
-Para obter mais informações, veja [Registrando novamente seu dispositivo com o eVault ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://knowledgelayer.softlayer.com/procedure/how-do-i-re-register-evault){: new_window}.
+Para obter mais informações, veja [Registrando seu dispositivo novamente com o eVault](../infrastructure/Backup/how-do-i-re-register-evault.html).
 
 ## Scripts de pós-fornecimento
 

@@ -2,7 +2,9 @@
 
 
 
-copyright: years: 2017 lastupdated: "2017-10-25"
+copyright:
+  years: 2017
+lastupdated: "2017-10-25"
 
 
 ---
@@ -20,7 +22,7 @@ copyright: years: 2017 lastupdated: "2017-10-25"
 Você tem duas opções sobre como provisionar suas instâncias dedicadas. O primeiro é por meio do catálogo do {{site.data.keyword.Bluemix}} e o segundo é por meio do {{site.data.keyword.slportal_full}}. O catálogo e o {{site.data.keyword.slportal}} requerem IDs de login exclusivos. Seu nome do usuário e senha do catálogo não funcionarão para efetuar login no portal e vice-versa. Veja [Inscrevendo-se para o {{site.data.keyword.Bluemix_notm}}](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window} para configurar o catálogo do {{site.data.keyword.Bluemix_notm}} ou as credenciais do {{site.data.keyword.slportal}}.
 {:shortdesc}
 
-## Efetuar login no Catálogo do Bluemix
+## Efetuar login no catálogo do IBM Cloud
 Use as etapas a seguir para efetuar login no {{site.data.keyword.Bluemix_notm}} para iniciar o fornecimento de suas instâncias dedicadas. 
 
 1. Abra uma nova janela do navegador e insira [https://console.bluemix.net/catalog/](https://console.bluemix.net/catalog/){: new_window}.
