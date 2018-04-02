@@ -1,0 +1,55 @@
+---
+copyright:
+  years: 2014, 2018
+lastupdated: "2018-02-26"
+---
+
+{:shortdesc: .shortdesc}
+{:new_window: target="_blank"}
+
+# Opciones de almacenamiento
+
+Puede elegir entre SAN o almacenamiento local para cada servidor virtual. Puede complementar SAN o el almacenamiento local con otros productos de almacenamiento, si es necesario. 
+
+## Almacenamiento local
+
+El almacenamiento local se basa en discos que son locales para el host del servidor virtual. El almacenamiento local proporciona un mejor rendimiento de lectura/escritura de disco. Los discos se basan en una configuración de matriz redundante de discos independientes (RAID) que ofrece funciones de redundancia, sustitución de disco y supervisión de estado, que gestiona {{site.data.keyword.cloud}}. En los centros de datos más recientes, este almacenamiento es una unidad de estado sólido (SSD) para proporcionar el mejor rendimiento. 
+
+## Almacenamiento SAN
+ 
+El almacenamiento SAN se basa en la infraestructura SAN de {{site.data.keyword.cloud_notm}} en lugar de en el almacenamiento de host local. Esto proporciona una mayor capacidad de recuperación en el caso de que se produzca un error en el host y también admite volumen mucho mayores. En el caso de que se produzca un error del host, las instancias del servidor virtual que utilizan almacenamiento basado en SAN se migran automáticamente a otros hosts y se reinician. 
+
+Todos los discos secundarios están conectados como almacenamiento portátil. En la mayoría de los casos, los discos se pueden desconectar en cualquier momento para permitirles que se trasladen a otros servidores virtuales. 
+
+**Excepción:** Con los servidores virtuales públicos que utilizan el almacenamiento local equilibrado, no se pueden desconectar los discos primarios ni secundarios.
+
+Los discos se pueden volver a conectar a otro servidor, siempre que el cambio no supere la cuota de disco o el límite de tamaño de volumen máximo del servidor virtual de destino.
+
+**Nota:** el disco trasladado pasa a ser el tipo de almacenamiento del servidor de destino.
+
+## Volúmenes de almacenamiento portátil
+
+Los volúmenes de almacenamiento portátil son soluciones de almacenamiento auxiliares que están disponibles exclusivamente en {{site.data.keyword.BluVirtServers_short}}. Pueden estar conectados a un servidor virtual a la vez. También son una solución ideal si desea transferir datos entre servidores virtuales que existen en cualquier centro de datos de la red de {{site.data.keyword.cloud_notm}}. Los volúmenes de almacenamiento portátil son útiles para aplicaciones de base de datos que requieren acceso a almacenamiento de nivel de bloque en bruto no formateado y para mover conjuntos de datos grandes entre {{site.data.keyword.BluVirtServers_short}}.
+
+Cuando un volumen de almacenamiento portátil está conectado a un servidor virtual en un centro de datos distinto del servidor virtual original, el sistema interno de {{site.data.keyword.cloud_notm}} copia el volumen al SAN en el nuevo centro de datos. El sistema verificará entonces la integridad del volumen copiado y elimina el volumen portátil original desde el SAN del centro de datos original.
+
+## Limitaciones de LVM
+
+La gestión de volúmenes lógicos (LVM) no recibe soporte como esquema de particionamiento arrancable. Con la configuración y el soporte de sistema operativo adecuados, los discos del servidor virtual secundario se pueden utilizar para particiones LVM. Sin embargo, LVM no es un sistema de archivos soportado para plantillas de imágenes o imágenes flex.
+
+## Almacenamiento suplementario
+
+Los servidores virtuales son totalmente compatibles con el almacenamiento en archivo y SAN de bloque, así como con el almacenamiento de objetos. Estos tipos de almacenamiento son los recomendados para unidades de clúster, almacenamiento de archivos compartidos, almacenamiento de archivado, grandes requisitos de almacenamiento o requisitos de rendimiento específicos.
+
+Para obtener más información sobre las opciones de almacenamiento adicionales, consulte los recursos siguientes:
+
+* [Iniciación a Almacenamiento en bloque](/docs/infrastructure/BlockStorage/index.html)
+* [Iniciación a Almacenamiento de archivos](/docs/infrastructure/FileStorage/index.html)
+* [Iniciación a Almacenamiento de objetos](/docs/services/ObjectStorage/index.html)
+
+## Siguientes pasos
+Para obtener más información sobre cómo utilizar los volúmenes de almacenamiento portátil, consulte las tareas siguientes:
+* [Acceso a almacenamiento portátil](../storage/access-portable-storage-screen.html)
+* [Edición de la descripción de almacenamiento portátil](../storage/edit-description-portable-storage-volume-psv.html)
+
+
