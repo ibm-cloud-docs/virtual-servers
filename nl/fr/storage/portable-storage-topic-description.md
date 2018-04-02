@@ -14,6 +14,6 @@ Les volumes de stockage portable sont des solutions de stockage auxiliaires excl
 Lorsqu'un volume de stockage portable est connecté à un serveur virtuel d'un centre de données autre que celui du serveur virtuel d'origine, le système interne d'{{site.data.keyword.cloud}} copie le volume vers le réseau de stockage SAN du nouveau centre de données. Le système vérifie ensuite l'intégrité du volume copié et retire le volume portable d'origine du réseau de stockage SAN du centre de données d'origine.
 
 ## Etapes suivantes
-Pour plus d'informations sur l'utilisation des volumes de stockage portable, reportez-vous aux tâches suivantes : 
+Pour plus d'informations sur l'utilisation des volumes de stockage portable, reportez-vous aux tâches suivantes :
 * [Accès au stockage portable](../storage/access-portable-storage-screen.html)
 * [Edition de la description d'un stockage portable](../storage/edit-description-portable-storage-volume-psv.html)
