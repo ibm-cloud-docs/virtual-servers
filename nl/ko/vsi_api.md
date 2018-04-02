@@ -24,13 +24,13 @@ lastupdated: "2017-10-25"
 
 {{site.data.keyword.slapi_short}}는 원격 프로시저 호출(RPC) 시스템입니다. 각 호출에는 API 엔드포인트로 데이터를 전송하고 구조화된 데이터를 수신하는 과정이 포함됩니다. {{site.data.keyword.slapi_short}}와의 사이에 데이터를 전송하고 수신할 때 사용되는 형식은 사용자가 선택한 API 구현에 따라 달라집니다. {{site.data.keyword.slapi_short}}는 현재 데이터 전송에 SOAP, XML-RPC 또는 REST를 사용합니다.
 
-{{site.data.keyword.slapi_short}} 및 가상 서버 API에 대한 자세한 정보를 얻으려면 {{site.data.keyword.sldn_full}}의 다음 자원을 참조하십시오.
+{{site.data.keyword.slapi_short}} 및 가상 서버 API에 대한 자세한 정보를 얻으려면 {{site.data.keyword.sldn_full}}의 다음 리소스를 참조하십시오.
 * [{{site.data.keyword.slapi_short}} 개요 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://sldn.softlayer.com/article/softlayer-api-overview){: new_window} 
 * [{{site.data.keyword.slapi_short}} 시작하기 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](http://sldn.softlayer.com/article/getting-started){: new_window}
 * [API 참조: SoftLayer_Virtual_Guest::createObject ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](http://sldn.softlayer.com/reference/services/softlayer_virtual_guest/createobject){: new_window}
 * [API 참조: SoftLayer_Product_Order::placeOrder ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](http://sldn.softlayer.com/reference/services/SoftLayer_Product_Order/placeOrder){: new_window}
 
-API 사용 예는 다음 자원을 참조하십시오. 
+API 사용 예는 다음 리소스를 참조하십시오.
 * [{{site.data.keyword.slapi_short}} Python 클라이언트: 가상 서버 관련 작업 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](http://softlayer-python.readthedocs.io/en/latest/cli/vs.html){: new_window}
 * [{{site.data.keyword.slapi_short}} 예 - 릴리스 정보 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://softlayer.github.io/){: new_window}
 * [Python 예 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://softlayer.github.io/python/){: new_window}

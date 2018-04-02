@@ -17,7 +17,7 @@ lastupdated: "2017-10-24"
 {:table: .aria-labeledby="caption"}
 
 # 이미지 템플리트
-{{site.data.keyword.BluVirtServers}} 이미지 템플리트를 사용하면 특정 디바이스의 이미지를 캡처하여 주문 프로세스에서 해당 구성을 변경을 최소화하여 빠르게 복제할 수 있습니다.
+{{site.data.keyword.BluVirtServers}} 이미지 템플리트를 사용하면 특정 디바이스의 이미지를 캡처하여 주문 프로세스에서 해당 구성을 변경을 최소화하여 빠르게 복제할 수 있습니다. 
 {:shortdesc}
 
 표준 이미지 템플리트는 모든 {{site.data.keyword.BluVirtServers_short}}에 대한 이미징 옵션을 운영 체제에 관계없이 제공합니다. 표준 이미지 템플리트는 기존 가상 서버의 이미지를 캡처하고 캡처된 이미지를 기반으로 새 서버를 작성할 수 있게 해 줍니다. 표준 이미지 템플리트는 베어메탈 서버와 호환되지 않습니다.
