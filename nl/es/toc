@@ -1,0 +1,155 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="virtual-servers" audience="compute" href=“/docs/vsi/index.html”}
+Servidores virtuales de IBM Cloud 
+
+    {: .navgroup id="learn"}
+    vsi_index.md
+    vsi_about.md
+    
+    {: .topicgroup}
+    Opciones de suministro
+        vsi_public.md
+            vsi_public_balanced.md
+            vsi_public_balanced_local.md
+            vsi_public_compute.md
+            vsi_public_memory.md
+            vsi_public_gpu.md
+            vsi_public_selections.md
+        vsi_about_transient.md
+        vsi_dedicated.md
+            vsi_dedicated_host.md
+            vsi_dedicated_pricing.md
+        [Scripts de suministro](../infrastructure/provisioning-scripts/ps_index.html)
+
+    vsi_image_templates_intro.md
+
+    {: .topicgroup}
+    Opciones de seguridad
+        vsi_security_options.md
+        vsi_security_groups.md
+        vsi_ssl_intro.md
+        vsi_ssh_intro.md
+
+    /storage/vsi_about_storage.md
+
+    {: .topicgroup}
+    Opciones de software
+        [Acerca del software](../infrastructure/software/index.html)
+        [Información de actualización de Microsoft Windows](../infrastructure/software/microsoft-windows-update-instructions.html)
+        [Información de actualización de RedHat](../infrastructure/software/redhat-update-instructions.html)
+        [Descripción del tema de AV/S/IDS de host](../infrastructure/software/avshost-ids-topic-description.html)
+        vsi_database_tools.md
+        
+    {: .topicgroup}
+    Opciones de servicios
+        vsi_digital_transcoding.md
+        vsi_email_intro.md
+    
+    {: .topicgroup}
+    Guías de aprendizaje
+        [Aplicación web de PHP en una pila LAMP](../tutorials/lamp-stack.html)
+        [Uso de servidores virtuales para crear una app web altamente disponible y escalable](../tutorials/highly-available-and-scalable-web-application.html)
+        
+    {: .topicgroup}
+    Enlaces relacionados
+        [Control Portal](https://control.softlayer.com/)
+        [Maximizar el control con los servidores virtuales de IBM Bluemix](https://www.ibm.com/blogs/bluemix/2017/08/maximize-control-ibm-bluemix-virtual-servers/)
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    vsi_api.md
+        vsi_provision_api.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    {: .topicgroup}
+    Suministro
+        vsi_provision_public.md
+        vsi_provision_transient.md
+        vsi_dedicated_instances.md
+        vsi_provision_dedicated.md
+
+    {: .topicgroup}
+    Configuración
+        vsi_configuring.md
+        vsi_reconfigure.md
+        vsi_work_image.md
+        vsi_ssh_config.md
+
+    {: .topicgroup}
+    Gestión de servidores
+        vsi_managing.md
+            vsi_add_script.md
+            vsi_vulnerability_scans.md
+            vsi_bandwidth-graphs.md
+        vsi_managing_dedicated.md
+        vsi_device_access.md
+        vsi_interact_device_snapshot_view.md
+        vsi_managing_users_pwd.md
+        vsi_managing_port_speeds.md
+            vsi_upgrading_port_speeds_linux.md
+            vsi_upgrading_port_speeds_windows.md
+            vsi_downgrading_port_speeds.md
+        vsi_autoscale_intro.md
+     
+    {: .topicgroup}
+    Gestión de seguridad
+        vsi_managing_sg.md
+        [Acceso a certificados SSL](../infrastructure/ssl-certificates/access-ssl-certificates-screen.html)
+
+    {: .topicgroup}
+    Gestión de almacenamiento
+        /storage/access-portable-storage-screen.md
+        /storage/vsi_view_portable_storage.md
+        /storage/edit-description-portable-storage-volume-psv.md
+        
+    {: .topicgroup}
+    Gestión de software
+        [Recarga del SO](../infrastructure/software/vsi_reload_os.html)
+        [Recarga de un sistema operativo utilizando una plantilla de imagen](../infrastructure/software/vsi_reload_os_image.html)
+        [Adición de IPv6 a sistemas Ubuntu](../infrastructure/software/adding-ipv6-ubuntu-systems.html)
+        [Instalación de ClamAV](../infrastructure/software/install-clamav.html)
+        [Notificación a los usuarios de que se aproximan al límite de ancho de banda en cPanel/WHM](../infrastructure/software/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
+        vsi_gpu_nvidia_drivers.md
+ 
+    {: .topicgroup}
+    Migración
+        vsi_migrating_dedicated.md
+
+    {: .topicgroup}
+    Supervisión
+        vsi_monitoring_intro.md
+        vsi_viewing_monitors.md
+
+    {: .topicgroup}
+    Copia de seguridad y recuperación
+        vsi_backup.md
+        vsi_launch_rescue.md
+        spare_pools.md
+            add_spare_pool.md
+            cancel_spare_pool.md
+            reactivating_spare_pool_device.md
+        
+    {: .topicgroup}
+    Enlaces relacionados
+        [Configuración de la red de máquinas virtuales](http://knowledgelayer.softlayer.com/learning/virtual-machine-network-setup) [Control Portal](https://control.softlayer.com/)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    vsi_ts_index.md
+    
+    {: .topicgroup}
+    Resolución de problemas
+        ts_capacity_bp.md
+    
+    {: .topicgroup}
+    Preguntas frecuentes
+        vsi_faqs_vs.md
+        vsi_faqs_dedicated.md
+        faq_servers_general.md
+        [Preguntas frecuentes: Recarga del sistema operativo](../infrastructure/software/os-reload-question-faq.html)
+        [Preguntas frecuentes: correo electrónico de cpsrvd](../infrastructure/software/why-did-my-cpsrvd-email-fail.html)
+
+    {: .navgroup-end}
