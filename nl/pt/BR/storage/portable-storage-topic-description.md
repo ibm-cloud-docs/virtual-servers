@@ -1,5 +1,7 @@
 ---
-copyright: years: 1994, 2017 lastupdated: "2017-09-13"
+copyright:
+  years: 1994, 2017
+lastupdated: "2017-09-13"
 ---
 
 {:shortdesc: .shortdesc}
