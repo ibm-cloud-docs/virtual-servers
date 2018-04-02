@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="virtual-servers" audience="compute" href=“/docs/vsi/index.html”}
-IBM Bluemix Virtual Servers 
+IBM Cloud Virtual Servers 
 
     {: .navgroup id="learn"}
     vsi_index.md
@@ -15,10 +15,13 @@ IBM Bluemix Virtual Servers
             vsi_public_balanced_local.md
             vsi_public_compute.md
             vsi_public_memory.md
+            vsi_public_gpu.md
             vsi_public_selections.md
+        vsi_about_transient.md
         vsi_dedicated.md
             vsi_dedicated_host.md
             vsi_dedicated_pricing.md
+        [Bereitstellungsscripts](../infrastructure/provisioning-scripts/ps_index.html)
 
     vsi_image_templates_intro.md
 
@@ -26,6 +29,8 @@ IBM Bluemix Virtual Servers
     Sicherheitsoptionen
         vsi_security_options.md
         vsi_security_groups.md
+        vsi_ssl_intro.md
+        vsi_ssh_intro.md
 
     /storage/vsi_about_storage.md
 
@@ -35,10 +40,17 @@ IBM Bluemix Virtual Servers
         [Informationen zu Microsoft Windows-Update](../infrastructure/software/microsoft-windows-update-instructions.html)
         [Informationen zu RedHat-Update](../infrastructure/software/redhat-update-instructions.html)
         [AV/S/Host IDS - Themenbeschreibung](../infrastructure/software/avshost-ids-topic-description.html)
+        vsi_database_tools.md
+        
+    {: .topicgroup}
+    Serviceoptionen
+        vsi_digital_transcoding.md
+        vsi_email_intro.md
     
     {: .topicgroup}
     Lernprogramme
         [PHP-Webanwendung auf einem LAMP-Stack](../tutorials/lamp-stack.html)
+        [Virtuelle Server zum Erstellen hoch verfügbarer und skalierbarer Web-Apps verwenden](../tutorials/highly-available-and-scalable-web-application.html)
         
     {: .topicgroup}
     Zugehörige Links
@@ -55,6 +67,7 @@ IBM Bluemix Virtual Servers
     {: .topicgroup}
     Bereitstellung
         vsi_provision_public.md
+        vsi_provision_transient.md
         vsi_dedicated_instances.md
         vsi_provision_dedicated.md
 
@@ -63,6 +76,7 @@ IBM Bluemix Virtual Servers
         vsi_configuring.md
         vsi_reconfigure.md
         vsi_work_image.md
+        vsi_ssh_config.md
 
     {: .topicgroup}
     Server verwalten
@@ -74,10 +88,16 @@ IBM Bluemix Virtual Servers
         vsi_device_access.md
         vsi_interact_device_snapshot_view.md
         vsi_managing_users_pwd.md
+        vsi_managing_port_speeds.md
+            vsi_upgrading_port_speeds_linux.md
+            vsi_upgrading_port_speeds_windows.md
+            vsi_downgrading_port_speeds.md
+        vsi_autoscale_intro.md
      
     {: .topicgroup}
     Sicherheit verwalten
         vsi_managing_sg.md
+        [Auf SSL-Zertifikate zugreifen](../infrastructure/ssl-certificates/access-ssl-certificates-screen.html)
 
     {: .topicgroup}
     Speicher verwalten
@@ -86,12 +106,13 @@ IBM Bluemix Virtual Servers
         /storage/edit-description-portable-storage-volume-psv.md
         
     {: .topicgroup}
-    Verwaltungssoftware
+    Software verwalten
         [Betriebssystem erneut laden](../infrastructure/software/vsi_reload_os.html)
         [Betriebssystem unter Verwendung einer Imagevorlage erneut laden](../infrastructure/software/vsi_reload_os_image.html)
         [IPv6 zu Ubuntu-Systemen hinzufügen](../infrastructure/software/adding-ipv6-ubuntu-systems.html)
         [ClamAV installieren](../infrastructure/software/install-clamav.html)
-        [Benutzer über eine anstehende Bandbreitenbegrenzung in cPanel/WHM benachrichtigen](../infrastructure/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
+        [Benutzer über eine anstehende Bandbreitenbegrenzung in cPanel/WHM benachrichtigen](../infrastructure/software/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
+        vsi_gpu_nvidia_drivers.md
  
     {: .topicgroup}
     Migration
@@ -106,6 +127,10 @@ IBM Bluemix Virtual Servers
     Sicherung und Wiederherstellung
         vsi_backup.md
         vsi_launch_rescue.md
+        spare_pools.md
+            add_spare_pool.md
+            cancel_spare_pool.md
+            reactivating_spare_pool_device.md
         
     {: .topicgroup}
     Zugehörige Links
@@ -115,7 +140,11 @@ IBM Bluemix Virtual Servers
 
     {: .navgroup id="help"}
     vsi_ts_index.md
-
+    
+    {: .topicgroup}
+    Fehlerbehebung
+        ts_capacity_bp.md
+    
     {: .topicgroup}
     FAQs
         vsi_faqs_vs.md

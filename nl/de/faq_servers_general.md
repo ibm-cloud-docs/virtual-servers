@@ -28,7 +28,7 @@ Die Funktionen "Aus Image starten" und "Aus Image laden" wenden vorhandene Image
 ## Warum kann ich keine Verbindung zur KVM-Konsole herstellen?
 Wenn Sie keine Verbindung zur KVM-Konsole herstellen können, prüfen Sie die nachfolgenden Tipps zur Fehlerbehebung, die beim Beheben des Problems nützlich sein können. Falls weitere Probleme auftreten sollten, wenden Sie sich an den Support. Weitere Informationen zur Kontaktaufnahme mit dem Support finden Sie unter [Hilfe und Unterstützung anfordern](../vsi/vsi_ts_index.html).
 
-   * Die KVM-Konsole ist ein Java-Applet. Vor dem Zugriff auf die Konsole muss Java installiert werden. Weitere Informationen zum Installieren von Java finden Sie unter [Java kostenlos herunterladen ![Symbol für extrernen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://www.java.com/en/download/){: new_window}.   
+   * Die KVM-Konsole ist ein Java-Applet. Vor dem Zugriff auf die Konsole muss Java installiert werden. Weitere Informationen zum Installieren von Java finden Sie unter [Java kostenlos herunterladen ![Symbol für extrernen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://www.java.com/en/download/){: new_window}.  
    * Wenn Java installiert ist, stellen Sie sicher, dass eine Verbindung über VPN hergestellt wurde. Falls keine Verbindung besteht und Sie versuchen, eine Verbindung zur KVM-Konsole herzustellen, weist eine Warnung darauf hin, dass eine VPN-Verbindung erforderlich ist.
    * Die KVM-Konsole öffnet während des Verbindungsprozesses möglicherweise ein oder mehrere Popup-Fenster. Aktivieren Sie Pop-up-Fenster vom {{site.data.keyword.slportal}} um sicherzustellen, dass eine Verbindung hergestellt werden kann.
    * Möglicherweise wird der Fehler "Java-Anwendungen werden durch Ihre Sicherheitseinstellungen blockiert" angezeigt. Für Bare-Metal-iKVM-Einheiten müssen Sie eine Ausnahme für die IP-Adresse der IPMI-Einheit hinzufügen. Für VSI-Einheiten müssen "https://control.softlayer.com" und die IP-Adresse der KVM-Konsole zugelassen werden. Weitere Informationen finden Sie unter [Warum werden Java-Anwendungen beim aktuellen Java-Release durch Ihre Sicherheitseinstellungen blockiert? ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://www.java.com/en/download/help/java_blocked.xml){: new_window}.
@@ -36,7 +36,7 @@ Wenn Sie keine Verbindung zur KVM-Konsole herstellen können, prüfen Sie die na
 
      **Anmerkung:** Wenn Sie Mac OS X in Verbindung mit Google Chrome verwenden, lesen Sie die Angaben unter "Informationen und Systemvoraussetzungen zum Installieren und Verwenden von Mac Java 7" auf der Java-Website.
 
-   * Wenn bei dem Versuch, eine Verbindung zu einer VSI über die Java-Standardversion herzustellen, nur Fehler angezeigt werden, können Sie alternativ versuchen, VNC zu verwenden. Weitere Informationen zur Verwendung von VNC finden Sie unter [Über VNC mit Ihrer VSI verbinden ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://knowledgelayer.softlayer.com/articles/connect-your-vsi-using-vnc){: new_window}.
+   * Wenn bei dem Versuch, eine Verbindung zu einer VSI über die Java-Standardversion herzustellen, nur Fehler angezeigt werden, können Sie alternativ versuchen, VNC zu verwenden.
 
 Wenn Sie alle oben angegebenen Prüfschritte durchgeführt haben und weiterhin keine Verbindung zur KVM-Konsole herstellen können, wenden Sie sich an den Support, um weitere Unterstützung bei der Fehlerbehebung zu erhalten. Wenn zwar eine Verbindung zur Konsole hergestellt wurde, jedoch Probleme beim Verbinden mit der Einheit aufgetreten sind, stellen Sie sicher, dass gültige Berechtigungsnachweise für den Zugriff auf die Einheit verwendet werden. Wenden Sie sich gegebenenfalls an den Kontoadministrator, um Berechtigungsnachweise zu überprüfen.
 
@@ -151,5 +151,24 @@ LVM (Logical Volume Management) ermöglicht die logische Verwaltung von Dateisys
 ## Kann das Überwachungssystem einen automatischen Warmstart auslösen UND einen Support-Techniker verständigen, wenn der Server nicht mehr reagiert?
 
 Ja, wenn Sie den Service **Automatischer Warmstart nach Überwachungsfehler** bestellt haben, können Sie das Überwachungssystem so einrichten, dass automatisch ein Warmstart des Servers eingeleitet und ein Ticket für einen Support-Techniker geöffnet wird, wenn ein Überwachungsalert ausgegeben wird. Der zusätzliche Service **NOC-Überwachung** bietet die Möglichkeit, dass Sie persönlich benachrichtigt werden, wenn ein Überwachungsproblem auftritt. Weitere Informationen zu diesen beiden Angeboten enthält die Seite [Serverüberwachung ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](http://www.softlayer.com/services/monitoring/){:new_window}.
+
+## Was ist ein cvsup-Spiegel?
+
+Sie können Aktualisierungen für einen lokalen cvsup-Spiegel durchführen, der für Sie ausgeführt wurde. Stellen Sie sicher, dass Ihre Sup-Datei (supfile) den folgenden Eintrag enthält:
+
+```
+*default host=cvsup.service.softlayer.com
+```
+{:pre }
+
+Die Dist-Dateien (distfiles) werden ebenfalls gespiegelt und sind bei freebsd.org verfügbar. Sie können die folgende Zeile in Ihrer Datei */etc/make.conf* hinzufügen, um den Download zuerst vom lokalen Repository zu versuchen:
+
+```
+MASTER_SITE_OVERRIDE?="http://mirrors.service.softlayer.com/freebsd/distfiles/${DIST_SUBDIR}/"
+```
+{:screen }
+
+Wenn die Datei dort nicht gefunden wird, wird die Makefile des einzelnen Ports verwendet und mit dem nächsten Spiegel fortgefahren.
+
 
 

@@ -32,5 +32,9 @@ Im Rahmen des Bestellprozesses können Sie einheitenspezifische Hardware oder ei
 auswählen, um Schutzfunktionen bereitzustellen. Alternativ können Sie dedizierte Firewall-Anwendungen
 in der Umgebung bereitstellen und den virtuellen Server in einem geschützten VLAN bereitstellen.  
 
-**Hinweis:** Ein virtueller Server kann nicht durch zwei Firewall-Anwendungen in derselben Schnittstelle
-geschützt werden. Weitere Informationen finden Sie auf der KnowledgeLayer-Website unter [Firewall ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](http://knowledgelayer.softlayer.com/topic/firewall){: new_window}.
+**Hinweis:** Ein virtueller Server kann nicht durch zwei Firewall-Anwendungen in derselben Schnittstelle geschützt werden. 
+
+Weitere Informationen können Sie den folgenden Themensammlungen zur Sicherheit entnehmen.
+
+* [Hardware-Firewalls (gemeinsam genutzt)](../infrastructure/hardware-firewall-shared/getting-started.html)
+* [Hardware-Firewalls (dediziert)](../infrastructure/hardware-firewall-dedicated/getting-started.html)

@@ -20,7 +20,7 @@ lastupdated: "2017-10-24"
 # Einheitenzugriff verwalten
 {: #managing-device-access}
 
-Für den Zugriff und die Verwaltung der Details für eine bestimmte Einheit benötigt Ihr Benutzerkonto die entsprechenden Berechtigungen. Nachdem der Kontoadministrator Ihr Benutzerkonto für den Zugriff auf eine Einheit berechtigt hat, können Sie die Einheitendetails im {{site.data.keyword.slportal_full}} oder in der API anzeigen. Welche Informationen oder Aktionen für Sie angezeigt werden, hängt vom Einheitentyp und von den Berechtigungen Ihres Benutzerkontos ab.
+Für den Zugriff und die Verwaltung der Details für eine bestimmte Einheit benötigt Ihr Benutzerkonto die entsprechenden Berechtigungen.  Nachdem der Kontoadministrator Ihr Benutzerkonto für den Zugriff auf eine Einheit berechtigt hat, können Sie die Einheitendetails im {{site.data.keyword.slportal_full}} oder in der API anzeigen.  Welche Informationen oder Aktionen für Sie angezeigt werden, hängt vom Einheitentyp und von den Berechtigungen Ihres Benutzerkontos ab.
 {:shortdesc}
 
 **Hinweis:** Wenn Ihr Konto Einheiten enthält, für die Sie keine Zugriffsrechte besitzen, wird eine Nachricht "nicht gefunden" angezeigt, wenn Sie versuchen, auf die betreffenden Einheiten zuzugreifen.
@@ -31,11 +31,11 @@ Sie benötigen die folgenden Berechtigungen, um auf die Einheitendetails für ö
 
 **Details für virtuelle Server anzeigen**
 
-Ermöglicht das Anzeigen von IP-Adressen, Betriebssystemtyp, Kennwörtern und weiteren Details für einen angegebenen virtuellen Server. Diese Berechtigung ermöglicht außerdem das Ändern von Kennwörtern für virtuelle Server im Portal. Ein Benutzer muss über dieses Zugriffsrecht verfügen, um öffentliche Instanzen, dedizierte Instanzen und dedizierte Hostinstanzen anzuzeigen.
+Ermöglicht das Anzeigen von IP-Adressen, Betriebssystemtyp, Kennwörtern und weiteren Details für einen angegebenen virtuellen Server.  Diese Berechtigung ermöglicht außerdem das Ändern von Kennwörtern für virtuelle Server im Portal. Ein Benutzer muss über dieses Zugriffsrecht verfügen, um öffentliche Instanzen, dedizierte Instanzen und dedizierte Hostinstanzen anzuzeigen.
 
 **Details für virtuelle dedizierte Hosts anzeigen**
 
-Ermöglicht das Anzeigen von IP-Adressen, Betriebssystemtyp, Kennwörtern und weiteren Details für einen angegebenen dedizierten Host. Diese Berechtigung ermöglicht außerdem das Migrieren dedizierter Instanzen auf einen anderen dedizierten Host. Ein Benutzer muss über dieses Zugriffsrecht verfügen, um dedizierte Hosts anzuzeigen.
+Ermöglicht das Anzeigen von IP-Adressen, Betriebssystemtyp, Kennwörtern und weiteren Details für einen angegebenen dedizierten Host.  Diese Berechtigung ermöglicht außerdem das Migrieren dedizierter Instanzen auf einen anderen dedizierten Host. Ein Benutzer muss über dieses Zugriffsrecht verfügen, um dedizierte Hosts anzuzeigen.
 
 ## Berechtigungen zum Anzeigen virtueller Serverinstanzen hinzufügen
 Führen Sie die folgenden Schritte aus, um die Berechtigung *Details für virtuelle Server anzeigen* für beliebige der Ihnen untergeordneten Benutzer hinzuzufügen. Nur ein Kontoadministrator kann Berechtigungen für andere Benutzer in seinem Konto erteilen.  

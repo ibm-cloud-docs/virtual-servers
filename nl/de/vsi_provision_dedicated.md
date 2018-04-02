@@ -22,10 +22,10 @@ lastupdated: "2017-10-24"
 Sie haben zwei Möglichkeiten zum Bereitstellen Ihrer dedizierten Instanzen. Die erste Möglichkeit ist die Verwendung des {{site.data.keyword.Bluemix}}-Katalogs und die zweite Möglichkeit ist das {{site.data.keyword.slportal_full}}. Für den Katalog und für das {{site.data.keyword.slportal}} sind eindeutige Anmelde-IDs erforderlich. Sie können sich folglich mit dem Benutzernamen und Kennwort für den Katalog nicht beim Portal anmelden oder umgekehrt. In der Dokumentation [Bei {{site.data.keyword.Bluemix_notm}} anmelden](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window} finden Sie Informationen zum Einrichten von Berechtigungsnachweisen für den {{site.data.keyword.Bluemix_notm}}-Katalog bzw. für das {{site.data.keyword.slportal}}.
 {:shortdesc}
 
-## Beim Bluemix-Katalog anmelden
+## Beim IBM Cloud-Katalog anmelden
 Führen Sie die folgenden Schritte aus, um sich beim {{site.data.keyword.Bluemix_notm}}-Katalog anzumelden und mit dem Bereitstellen Ihrer dedizierten Hosts und dedizierten Hostinstanzen zu beginnen. 
 
-1. Öffnen Sie ein neues Browserfenster und geben Sie [https://console.ng.bluemix.net/catalog/](https://console.ng.bluemix.net/catalog/){: new_window} ein.
+1. Öffnen Sie ein neues Browserfenster und geben Sie [https://console.bluemix.net/catalog/](https://console.bluemix.net/catalog/){: new_window} ein.
 2.	Klicken Sie auf den Link **Anmeldung** in der rechten oberen Ecke. 
 3.	Geben Sie Ihre E-Mail-Adresse oder Ihre IBMiD ein und klicken Sie auf **Weiter**.
 4.	Geben Sie Ihr Kennwort ein und klicken Sie auf **Anmelden**.
@@ -55,8 +55,7 @@ Führen Sie die folgenden Schritte aus, um Ihre dedizierten Hosts bereitzustelle
    **Hinweis:** Dedizierte Server sind private Server.
 
 Die Seite *Cloud-Server konfigurieren* wird angezeigt. Auf dieser Seite können Sie eine dedizierte Instanz
-bestellen, die entweder einem dedizierten Host zugeordnet ist oder nicht. Weitere Informationen zum Bestellen von
-Instanzen finden Sie unter [Dedizierte Hostinstanzen bereitstellen]{: provision-dedicated-instances}.
+bestellen, die entweder einem dedizierten Host zugeordnet ist oder nicht. Weitere Informationen zum Bestellen von Instanzen finden Sie unter [Dedizierte Hostinstanzen bereitstellen](#provision-dedicated-instances).
 
 4.	Klicken Sie auf die Schaltfläche **Host erstellen** rechts im Formular.
 5.	Geben Sie die folgenden Informationen ein:

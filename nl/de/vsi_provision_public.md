@@ -27,7 +27,7 @@ Sie haben zwei Möglichkeiten, um Ihre öffentlichen virtuellen Serverinstanzen 
 
   1. Stellen Sie sicher, dass Sie über gültige Berechtigungsnachweise für den {{site.data.keyword.Bluemix_notm}}-Katalog oder für das {{site.data.keyword.slportal}} verfügen. 
   
-     **Hinweis:** Sie müssen über ein aktualisiertes Konto für den {{site.data.keyword.Bluemix_notm}}-Katalog verfügen, um virtuelle Server zu bestellen. Weitere Informationen zum Aktualisieren Ihres Kontos finden Sie unter [Bluemix- und SoftLayer-Abrechnungskonten aktualisieren und verknüpfen](https://console.ng.bluemix.net/docs/admin/softlayerlink.html).
+     **Hinweis:** Sie müssen über ein aktualisiertes Konto für den {{site.data.keyword.Bluemix_notm}}-Katalog verfügen, um virtuelle Server zu bestellen. Weitere Informationen zum Aktualisieren Ihres Kontos finden Sie unter [Zur IBMid wechseln](https://console.bluemix.net/docs/admin/softlayerlink.html).
   
   2. Machen Sie sich mit den Bereitstellungsoptionen vertraut, die Ihnen zur Verfügung stehen (falls dies noch nicht geschehen ist). Weitere Informationen finden Sie unter [Bereitstellungsoptionen: Öffentlicher virtueller Server](../vsi/vsi_public.html).
 
@@ -44,7 +44,7 @@ Stellen Sie sicher, dass Sie angemeldet sind (entweder beim {{site.data.keyword.
    </THEAD>
    <TBODY>
    <tr>
-   <td>Bluemix-Katalog</td>
+   <td>IBM Cloud-Katalog</td>
    <td>
    <ol>
    <li>Öffnen Sie ein neues Browserfenster und geben Sie <a href="https://console.bluemix.net/catalog/">https://console.bluemix.net/catalog/</a> ein.</li>
@@ -103,7 +103,7 @@ Sie können Ihre öffentlichen virtuellen Serverinstanzen auch über das Menü *
 7. Klicken Sie auf die Kontrollkästchen für Cloud-Service-Bedingungen**** und für Servicevereinbarungen Dritter****.
 8. Bestätigen Sie Ihre Zahlungsinformationen oder geben Sie sie ein und klicken Sie auf die Schaltfläche **Bestellung absenden**. Eine Anzeige mit der Nummer Ihrer Bereitstellungsbestellung wird angezeigt. Drucken Sie diese Anzeige. Sie ist die Auftragsbestätigung für Ihre Bereitstellungsbestellung.
 
-Mehrere E-Mails werden an Ihren Administrator gesendet: die Auftragsbestätigung für die Bereitstellungsbestellung, die Genehmigung  und die Bearbeitungsnachricht für die Bereitstellung sowie die Fertigstellungsnachricht für die Bereitstellung. Über einen Link in der Fertigstellungsnachricht gelangen Sie direkt zu der zugehörigen Seite *Einheitendetails*, nachdem Sie sich bei {{site.data.keyword.Bluemix_notm}} angemeldet haben. Sie können sich auch direkt beim {{site.data.keyword.slportal}} anmelden.
+Mehrere E-Mails werden an Ihren Administrator gesendet: die Auftragsbestätigung für die Bereitstellungsbestellung, die Genehmigung und die Bearbeitungsnachricht für die Bereitstellung sowie die Fertigstellungsnachricht für die Bereitstellung. Über einen Link in der Fertigstellungsnachricht gelangen Sie direkt zu der zugehörigen Seite *Einheitendetails*, nachdem Sie sich bei {{site.data.keyword.Bluemix_notm}} angemeldet haben. Sie können sich auch direkt beim {{site.data.keyword.slportal}} anmelden.
 
 ### Nächste Schritte
 Nachdem Ihr virtueller Server bereitgestellt ist, können Sie ihn verwalten. Weitere Informationen finden Sie unter [Virtuellen Server verwalten](../vsi/vsi_managing.html).

@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-04-27"
+  years: 2017, 2018
+lastupdated: "2018-02-28"
 
 
 ---
@@ -14,10 +14,11 @@ lastupdated: "2017-04-27"
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
-# API-Beispiele für öffentliche virtuelle Server (mit Flavors)
-{: #api-python-public} 
+# API-Beispiele: Versionen (Flavors) öffentlicher virtueller Server
+{: #api-rest-public}
 
 Die folgenden Informationen enthalten REST-API-Beispiel für die Bereitstellung öffentlicher virtueller Serverinstanzen, die vordefinierte Versionen (Flavors) verwenden.
 {:shortdesc}
@@ -27,6 +28,9 @@ Besonders leistungsfähige API-Beispiele finden Sie in den folgenden Ressourcen:
 
 ## Öffentliche Instanz mit dem Objekt 'create' bereitstellen
 Der API-Service *SoftLayer_Virtual_Guest/createObject* ist die einfachste Methode, um eine öffentliche virtuelle Serverinstanz bereitzustellen, die vordefinierte Versionen (Flavors) verwendet.
+
+Nicht zutreffend für transiente Instanzen.
+{:tip}
 
 Zum Bereitstellen einer öffentlichen virtuellen Serverinstanz mit REST wird eine POST-Anforderung an https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json übermittelt, die den folgenden JSON-Code im Anforderungshauptteil enthält.
 
@@ -57,6 +61,9 @@ Zum Bereitstellen einer öffentlichen virtuellen Serverinstanz mit REST wird ein
 
 ## Öffentliche Instanz mit dem Objekt 'placeOrder' bereitstellen
 Die Bereitstellung eines öffentlichen virtuellen Servers, der vordefinierte Versionen (Flavors) verwendet, erfolgt mit dem API-Service *SoftLayer_Product_Order/placeOrder*.
+
+Nicht zutreffend für transiente Instanzen.
+{:tip}
 
 Zum Bereitstellen eines öffentlichen virtuellen Servers mit REST wird eine POST-Anforderung an https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json übergeben, die den folgenden JSON-Code im Anforderungshauptteil enthält.
 
@@ -155,6 +162,9 @@ Zum Bereitstellen eines öffentlichen virtuellen Servers mit REST wird eine POST
 ## Upgrade für öffentliche Instanzen durchführen
 Die Durchführung eines Upgrades für einen öffentlichen virtuellen Server erfolgt mit dem API-Service *SoftLayer_Product_Order/placeOrder*.
 
+Nicht zutreffend für transiente Instanzen.
+{:tip}
+
 Zum Bereitstellen eines öffentlichen virtuellen Servers mit REST wird eine POST-Anforderung an https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json übergeben, die den folgenden JSON-Code im Anforderungshauptteil enthält.
 
 **Hinweis:** Die Artikelbezeichnungen sind in den Preisen nicht erforderlich. Sie sind nur angegeben, um deutlich zu machen, welche Produktoptionen übergeben werden.
@@ -190,6 +200,37 @@ Zum Bereitstellen eines öffentlichen virtuellen Servers mit REST wird eine POST
                     "id": 36189167
                 }
             ]
+        }
+    ]
+}
+```
+## Transiente Instanz mit dem Objekt 'create' bereitstellen
+{: #api-rest-transient}
+
+Der API-Service *SoftLayer_Virtual_Guest/createObject* ist die einfachste Methode zum Bereitstellen einer transienten virtuellen Serverinstanz.
+
+Zum Bereitstellen einer transienten virtuellen Serverinstanz mit REST wird eine POST-Anforderung an https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json übermittelt, die den folgenden JSON-Code im Anforderungshauptteil enthält.
+
+### JSON-Anforderungshauptteil 4
+```
+{
+    "parameters":[
+        {
+            "hostname": "sample-transient-public",
+            "domain": "softlayer.local",
+            "datacenter": {
+                "name": "mex01"
+            },
+            "operatingSystemReferenceCode": "CENTOS_LATEST",
+            "networkComponents": [
+                {
+                    "maxSpeed": 100
+                }
+            ],
+            "supplementalCreateObjectOptions": {
+                "flavorKeyName": "B1_1X2X25"
+            },
+            "transientGuestFlag": true
         }
     ]
 }

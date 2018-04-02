@@ -22,7 +22,7 @@ lastupdated: "2017-10-25"
 Sie haben zwei Möglichkeiten zum Bereitstellen Ihrer dedizierten Instanzen. Die erste Möglichkeit ist die Verwendung des {{site.data.keyword.Bluemix}}-Katalogs und die zweite Möglichkeit ist das {{site.data.keyword.slportal_full}}. Für den Katalog und für das {{site.data.keyword.slportal}} sind eindeutige Anmelde-IDs erforderlich. Sie können sich folglich mit dem Benutzernamen und Kennwort für den Katalog nicht beim Portal anmelden oder umgekehrt. In der Dokumentation [Bei {{site.data.keyword.Bluemix_notm}} anmelden](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window} finden Sie Informationen zum Einrichten von Berechtigungsnachweisen für den {{site.data.keyword.Bluemix_notm}}-Katalog bzw. für das {{site.data.keyword.slportal}}.
 {:shortdesc}
 
-## Beim Bluemix-Katalog anmelden
+## Beim IBM Cloud-Katalog anmelden
 Führen Sie die folgenden Schritte aus, um sich beim {{site.data.keyword.Bluemix_notm}}-Katalog anzumelden und mit dem Bereitstellen Ihrer dedizierten Instanzen zu beginnen. 
 
 1. Öffnen Sie ein neues Browserfenster und geben Sie [https://console.bluemix.net/catalog/](https://console.bluemix.net/catalog/){: new_window} ein.

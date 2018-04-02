@@ -62,21 +62,21 @@ Führen Sie die folgenden Schritte aus, um die Konfiguration für einen vorhande
 1. Klicken Sie in der Einheitenliste auf den Namen des virtuellen Servers, den Sie neu konfigurieren möchten.
 2. Auf der Registerkarte **Konfiguration** können Sie auf den Link für **Kern- oder RAM-Aktualisierung** klicken, um die folgenden Einstellungen zu ändern. 
   
-|   Aktualisierungsoptionen |  Beschreibung                                                                                                |
+|   Aktualisierungsoptionen       |  Beschreibung                                                                                                |
 | ----------------------- | ----------------------------------------------------------------------------------------------------------- |
-| Aktualisierungsdatum    | Geben Sie das Datum (JJJJ-MM-TT) an, an dem die Aktualisierung wirksam werden soll.                                                |
-| Aktualisierungszeitpunkt | Wählen Sie über die Dropdown-Felder die Uhrzeit aus, zu der die Aktualisierung aktiv werden soll oder klicken Sie auf das Kontrollkästchen **Sofort** für eine sofortige Aktualisierung.                                                                                        |
+| Aktualisierungsdatum            | Geben Sie das Datum (JJJJ-MM-TT) an, an dem die Aktualisierung wirksam werden soll.                                                |
+| Aktualisierungszeitpunkt            | Wählen Sie über die Dropdown-Felder die Uhrzeit aus, zu der die Aktualisierung aktiv werden soll oder klicken Sie auf das Kontrollkästchen **Sofort** für eine sofortige Aktualisierung.                                                                                        |
 | Kerne                   | Wählen Sie gegebenenfalls die Anzahl der Kerne für die Aktualisierung aus. |
 | RAM                     | Wählen Sie gegebenenfalls die gewünschte RAM-Größe aus, die für die Aktualisierung auf Ihre Einheit angewendet werden soll.   |
-| Uplink-Port-Geschwindigkeiten | Wählen Sie gegebenenfalls die neuen Uplink-Port-Geschwindigkeiten für Ihre Einheit aus. |
-| Öffentliche Bandbreite  | Wählen Sie gegebenenfalls das gewünschte Volumen (in GB) für die öffentliche Bandbreite Ihrer Einheit aus.   |
-| Erster Datenträger – Fünfter Datenträger | Wählen Sie gegebenenfalls die Option für den Plattenspeicherplatz/Speicher für Ihren ersten Datenträger aus. Weitere Informationen finden Sie unten im Abschnitt **Hinweise zu Datenträgern**.                                                                               |
-| Anmerkungen             | Geben Sie die gewünschten Anmerkungen für Ihre Einheit ein.                                                                 |
+| Uplink-Port-Geschwindigkeiten      | Wählen Sie gegebenenfalls die neuen Uplink-Port-Geschwindigkeiten für Ihre Einheit aus. |
+| Öffentliche Bandbreite        | Wählen Sie gegebenenfalls das gewünschte Volumen (in GB) für die öffentliche Bandbreite Ihrer Einheit aus.   |
+| Erster Datenträger – Fünfter Datenträger | Wählen Sie gegebenenfalls die Option für den Plattenspeicherplatz/Speicher für Ihren ersten Datenträger aus. Weitere Informationen finden Sie unten im Abschnitt **Hinweise zu Datenträgern**.                                                                                                                               |
+| Anmerkungen                   | Geben Sie die gewünschten Anmerkungen für Ihre Einheit ein.                                                                 |
 {: caption="Tabelle 1. Bereitstellungsoptionen" caption-side="top"}   
   
   **Hinweise zu Datenträgern:**
-  * Sowohl lokaler Speicher als auch SAN-Speicher sind verfügbar. Überprüfen Sie Ihre Auswahl noch einmal um sicherzustellen, dass Ihre Speicheroption richtig ist.
+  * Sowohl lokaler Speicher als auch SAN-Speicher sind verfügbar.  Überprüfen Sie Ihre Auswahl noch einmal um sicherzustellen, dass Ihre Speicheroption richtig ist.
   * Wenn Sie bei öffentlichen virtuellen Servern den lokalen Speicher aktualisieren und mehr Kerne oder RAM benötigen, wird möglicherweise der sekundäre Datenträger entfernt. Wenn Sie eine Version eines virtuellen Servers ändern, bei der lokaler Speicher verwendet wird, ist die Version bereits voreingestellt und es können keine Versionen ausgewählt werden, die nicht vergleichbar sind.
 3. Klicken Sie auf **Weiter**.
-4. Prüfen Sie, ob die Angaben in Ihrer Auftragsbestätigung korrekt sind. Klicken Sie auf **Bearbeiten**, um Ihre Aktualisierung zu bearbeiten.
+4. Prüfen Sie, ob die Angaben in Ihrer Auftragsbestätigung korrekt sind.  Klicken Sie auf **Bearbeiten**, um Ihre Aktualisierung zu bearbeiten.
 5. Klicken Sie auf **Bestätigen**, um Ihre Bestellung zu bestätigen und die Änderungen auf Ihre Einheit anzuwenden.

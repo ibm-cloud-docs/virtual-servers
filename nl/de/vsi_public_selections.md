@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-02-12"
 
 
 ---
@@ -14,13 +14,17 @@ lastupdated: "2017-10-24"
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
 # Auswahlen für die Bereitstellung
 Beim Bereitstellen eines öffentlichen virtuellen Servers müssen Sie die folgenden Auswahlen treffen.
 
 ## Standort
-Sie können auswählen, in welchem Rechenzentrum die Bereitstellung erfolgen soll. Bei neuen Bereitstellungen ermittelt {{site.data.keyword.Bluemix}} automatisch den am besten geeigneten POD (basierend auf der Verfügbarkeit) und erstellt die entsprechenden öffentlichen und privaten VLANs. Bei Ergänzungen für vorhandene Umgebungen können Sie POD, VLAN und Teilnetz auswählen, die für Ihre Zwecke geeignet sind.
+Sie können auswählen, in welchem Rechenzentrum die Bereitstellung erfolgen soll. Bei neuen Bereitstellungen ermittelt {{site.data.keyword.Bluemix}} automatisch das am besten geeignete Rechenzentrum (basierend auf der Verfügbarkeit) und erstellt die entsprechenden öffentlichen und privaten VLANs. Bei Ergänzungen für vorhandene Umgebungen können Sie das für Ihre jeweiligen Zwecke erforderliche Rechenzentrum, VLAN und Teilnetz auswählen. Weitere Informationen zu VLANs und Teilnetzen finden Sie unter [VLANs - Einführung](/docs/infrastructure/vlans/getting-started.html).
+
+Das Auswählen eines Teilnetzes ist optional und nur durchzuführen, wenn Ihre Einheit eine IP-Adresse aus dem Teilnetz verwenden soll. Falls Sie ein Teilnetz auswählen, prüfen Sie, ob Sie über genug IP-Adressen zur Erfüllung der Anforderung verfügen. Wenn Sie nicht über genug IP-Adressen für Ihr Teilnetz verfügen, kann Ihre Bestellung verzögert oder abgebrochen werden.
+{:tip}
 
 ## Prozessoren / RAM
 Beim Bestellen können Sie zwischen den angebotenen Optionen für Kernprozessoren auswählen. Dabei sind Standards für virtuelle Serverbereitstellungen zu beachten. Jeder physische Kern im Server wird per Hyper-Threading verbunden und als zwei virtuelle CPUs (vCPUs) oder Kerne dargestellt. Das Angebot für virtuelle Server bietet 2,0 GHz oder mehr pro Kern sowie bis zu 56 verfügbare Kerne auf einem einzelnen virtuellen Server.
@@ -33,7 +37,7 @@ Die Zuordnung des Arbeitsspeichers (RAM) ist sehr leicht nachvollziehbar. Die vo
 
 Sie können auch auswählen, welches Betriebssystem auf dem Server bereitgestellt werden soll. Dabei stehen einige kostenlose Optionen wie CentOS und Ubuntu zur Verfügung. Zahlungspflichtige Optionen wie Windows Server und Red Hat Enterprise Linux (RHEL) sind ebenfalls verfügbar. Wichtig: Beachten Sie, dass für Windows ein primärer Datenträger mit 100 MB erforderlich ist.
 
-Für Bestandskunden ist außerdem die Bereitstellung über eine Imagevorlage im {{site.data.keyword.slportal_full}} möglich (navigieren Sie zu **Einheiten -> Verwalten -> Images** und wählen Sie **Virtuellen Server bestellen** im Menü *Aktionen* aus. Daraufhin wird automatisch das entsprechende Betriebssystem für die Bestellung ausgewählt. Alternativ können Sie basierend auf einem Standardimage bestellen und danach jederzeit eine Imagevorlage erneut laden.
+Für Bestandskunden ist außerdem die Bereitstellung über eine Imagevorlage im {{site.data.keyword.slportal_full}} möglich (navigieren Sie zu **Einheiten -> Verwalten -> Images** und wählen Sie **Virtuellen Server bestellen** im Menü *Aktionen* aus.  Daraufhin wird automatisch das entsprechende Betriebssystem für die Bestellung ausgewählt.  Alternativ können Sie basierend auf einem Standardimage bestellen und danach jederzeit eine Imagevorlage erneut laden.
 
 ## Speicher
 
@@ -63,19 +67,23 @@ Vor der Bereitstellung sollten Sie sich mit den Sicherheitsoptionen befassen. Al
 
 Außerdem können Sie mithilfe von Sicherheitsgruppen eine Reihe von IP-Filterregeln aktivieren, die festlegen, wie eingehender und abgehender Datenverkehr für die öffentlichen und privaten Schnittstellen einer virtuellen Serverinstanz abgewickelt wird.
 
-Weitere Informationen finden Sie unter [Firewalls](vsi_security_options.html) und [Einführung in Sicherheitsgruppen](/docs/infrastructure/security-groups/sg_index.html).
+Weitere Informationen können Sie den folgenden Themensammlungen zur Sicherheit entnehmen.
+
+* [Hardware-Firewalls (gemeinsam genutzt)](../infrastructure/hardware-firewall-shared/getting-started.html)
+* [Hardware-Firewalls (dediziert)](../infrastructure/hardware-firewall-dedicated/getting-started.html)
+* [Einführung in Sicherheitsgruppen](/docs/infrastructure/security-groups/sg_index.html)
 
 ## Überwachung
 
 Sie können aus einer Vielzahl von Überwachungsoptionen für den virtuellen Server auswählen. Zu den verfügbaren Optionen gehört die Standardüberwachung, die mit Pingsignalen und TCP-Serviceantworten (TCP = Transmission Control Protocol) sowie mit optionalen Antworten bei Störungen arbeitet. Sie können auch die erweiterte Überwachung hinzufügen, die den Nimsoft-Softwareagenten nutzt und umfangreichere Überwachungsfunktionen für den virtuellen Server und die installierte Software bereitstellt.
 
-Weitere Informationen finden Sie unter [Überwachungskomponenten anzeigen und verwalten](vsi_viewing_monitors.html).
+Weitere Informationen finden Sie unter [Überwachung](../infrastructure/SLmonitoring/monitoring_index.html).
 
 ## Sicherung
 
 Während des Bestellprozesses können Sie Evault-Sicherungen hinzufügen. Sie können auch eine R1soft-Lizenz für Ihre vorhandene R1soft-Sicherungsumgebung erwerben oder die Sicherungslösung eines Drittanbieters verwenden.
 
-Weitere Informationen finden Sie unter [Einheit erneut bei eVault registrieren![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://knowledgelayer.softlayer.com/procedure/how-do-i-re-register-evault){: new_window}.
+Weitere Informationen finden Sie unter [Einheit erneut bei eVault registrieren](../infrastructure/Backup/how-do-i-re-register-evault.html).
 
 ## Scripts nach der Bereitstellung
 

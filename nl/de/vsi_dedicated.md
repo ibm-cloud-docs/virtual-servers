@@ -29,7 +29,7 @@ Das Angebot umfasst die folgenden Funktionen:
 
 Sie können zwischen zwei Bereitstellungsmodellen wählen: dedizierte Hosts und dedizierte Instanzen. Dedizierte Hosts bieten mehr Kontrolle bei der Platzierung von Workloads und dedizierte Instanzen ermöglichen die Einzel-Tenant-Isolierung. 
 
-**Hinweis:** In dedizierten Instanzen fehlen manche der Steuerfunktionen, die auf dedizierten Hosts zur Verfügung stehen. Weitere Details finden Sie in der folgenden Tabelle. 
+**Hinweis:** In dedizierten Instanzen fehlen manche der Steuerfunktionen, die auf dedizierten Hosts zur Verfügung stehen.  Weitere Details finden Sie in der folgenden Tabelle. 
 <table>
 <CAPTION>Tabelle 1. Steuerfunktionen</CAPTION>
 <THEAD>

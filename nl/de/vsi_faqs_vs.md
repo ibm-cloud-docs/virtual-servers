@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-02-02"
 
 
 ---
@@ -30,7 +30,7 @@ Sie können ein Upgrade oder Downgrade für die Datenträger jedes beliebigen vi
 
 ## Wie viele auf Stundenbasis abgerechnete virtuelle Server kann ich starten?
 
-Für das Konto gilt eine Obergrenze von 20 Instanzen, die auf öffentlichen virtuellen Servern, dedizierten virtuellen Servern und Bare-Metal-Servern gleichzeitig ausgeführt werden können. Wenn Sie diese Obergrenze erweitern möchten, wenden Sie sich an den Support und geben Sie dabei an, was Sie beabsichtigen und wie viele gleichzeitig ausgeführte Instanzen Sie benötigen.
+Für das Konto gilt eine Obergrenze von 20 Instanzen, die auf öffentlichen virtuellen Servern, dedizierten virtuellen Servern und Bare-Metal-Servern gleichzeitig ausgeführt werden können.  Wenn Sie diese Obergrenze erweitern möchten, wenden Sie sich an den Support und geben Sie dabei an, was Sie beabsichtigen und wie viele gleichzeitig ausgeführte Instanzen Sie benötigen.
 
 ## Wie wird die Bandbreite für meine auf Stundenbasis abgerechneten virtuellen Server in Rechnung gestellt?
 
@@ -48,13 +48,17 @@ In einem Wartungsfenster wird möglicherweise die Option **Host migrieren** im M
 
 Die Option **Host migrieren** wird möglicherweise auch dann angezeigt, wenn einer Ihrer virtuellen Server eine bestimmte Hypervisorstufe aufweisen muss, die auf dem aktuellen Host nicht verfügbar ist.
 
+## Was geschieht mit meinen Daten, wenn mein portierbarer Speicher gelöscht wird?
+
+Wenn Speicher gelöscht wird, werden alle Zeiger für die Daten auf dem Datenträger entfernt, das heißt auf die Daten kann nicht mehr zugegriffen werden. Wenn die physische Speichereinheit dann einem anderen Konto bereitgestellt wird, werden neue Zeiger zugeordnet. Es gibt für das neue Konto keine Möglichkeit, auf Daten zuzugreifen, die sich auf der physischen Speichereinheit befunden haben mögen. Alle neuen Zeiger enthalten nur Nullen. Wenn neue Daten auf den Datenträger/die LUN geschrieben werden, werden alle noch vorhandenen Daten, auf die nicht mehr zugegriffen werden kann, überschrieben.
+
 ## Kann ich ein Red Hat Cloud Access-Abonnement zum Erstellen eines virtuellen Servers verwenden?
 
 Ja. Beim Importieren eines Images können Sie angeben, dass Sie die Betriebssystemlizenz bereitstellen werden. Weitere Informationen finden Sie unter [Red Hat Cloud Access verwenden](../infrastructure/image-templates/use-red-hat-cloud-access.html). Anschließend können Sie einen virtuellen Server von dieser Imagevorlage bestellen und Ihr bestehendes Abonnement von [Red Hat Cloud Access ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://www.redhat.com/en/technologies/cloud-computing/cloud-access){: new_window} verwenden.
 
 ## Worin besteht der Unterschied zwischen einem virtuellen Server und einem virtuellen privaten Server (VPS)?
 
-Ein virtueller Server entspricht weitgehend dem Konzept des virtuellen privaten Servers (VPS) oder des virtuellen dedizierten Servers (VDS), mit dem Sie bereits vertraut sind. Diese virtuellen Serverumgebungen bieten die Möglichkeit zum Bereitstellen separater, privater und geschützter Umgebungen auf einem einzigen Hardwareknoten. Dabei ist der Funktionsumfang von VDS und VPS etwas stärker eingeschränkt. VPS- und VDS-Optionen sind im Allgemeinen auf eine Einzelserverarchitektur beschränkt, d. h. nur die auf dem Einzelserver installierten physischen Ressourcen können zwischen den einzelnen Servern auf einem VDS oder VPS hinzugefügt bzw. gemeinsam genutzt werden.
+Ein virtueller Server entspricht weitgehend dem Konzept des virtuellen privaten Servers (VPS) oder des virtuellen dedizierten Servers (VDS), mit dem Sie bereits vertraut sind. Diese virtuellen Serverumgebungen bieten die Möglichkeit zum Bereitstellen separater, privater und geschützter Umgebungen auf einem einzigen Hardwareknoten. Dabei ist der Funktionsumfang von VDS und VPS etwas stärker eingeschränkt. VPS- und VDS-Optionen sind im Allgemeinen auf eine Einzelserverarchitektur beschränkt, das heißt nur die physisch auf dem Einzelserver installierten Ressourcen können zwischen den einzelnen virtuellen Servern auf einem VDS oder VPS hinzugefügt oder aufgeteilt werden.
 
 Virtuelle Server werden in einer Cloudarchitektur mit mehreren Servern bereitgestellt, die alle verfügbaren Hardwareressourcen zusammenfasst und für die Verwendung durch einzelne Instanzen bereitstellt. Virtuelle Server können auf eine gemeinsam genutzte, SAN-basierte primäre Speicherplattform mit hoher Leistung oder auf leistungsstarken lokalen Festplattenspeicher zurückgreifen. Da jede Instanz Teil der größeren Cloudumgebung ist, erfolgt die Kommunikation zwischen allen virtuellen Servern nahezu ohne Verzögerung.
 

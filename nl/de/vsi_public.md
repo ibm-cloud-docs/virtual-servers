@@ -17,7 +17,7 @@ lastupdated: "2017-10-24"
 {:table: .aria-labeledby="caption"}
 
 # Öffentliche virtuelle Server
-Bei den {{site.data.keyword.BluVirtServers}}-Angeboten, die von IBM verwaltet werden, handelt es sich um Multi-Tenant-Bereitstellungen für virtuelle Server. Sie bieten schnelle Skalierbarkeit und mehr Kosteneffizienz durch vordefinierte Größen für alle Geschäftsanforderungen, damit Ihre Systeme schnell einsatzbereit sind. Öffentliche virtuelle Server bieten zahlreiche Vorteile, einschließlich der folgenden:
+Bei den {{site.data.keyword.BluVirtServers}}-Angeboten, die von IBM verwaltet werden, handelt es sich um Multi-Tenant-Bereitstellungen für virtuelle Server. Sie bieten schnelle Skalierbarkeit und mehr Kosteneffizienz durch vordefinierte Größen für alle Geschäftsanforderungen, damit Ihre Systeme schnell einsatzbereit sind.  Öffentliche virtuelle Server bieten zahlreiche Vorteile, einschließlich der folgenden:
 
 * **Globale Verfügbarkeit** 
 
@@ -40,6 +40,7 @@ Die folgenden öffentlichen virtuellen Server sind verfügbar.
 | [Ausgeglichener lokaler Speicher](../vsi/vsi_public_balanced_local.html) | Besonders geeignet für große Datenbankcluster, für die eine E/A-Leistung mit niedrigen Latenzzeiten erforderlich ist.|
 | [Compute](../vsi/vsi_public_compute.html) | Besonders geeignet für mittlere bis große Workloads im Webdatenverkehr.|
 | [Speicher](../vsi/vsi_public_memory.html)  | Besonders geeignet für Speichercache- und Echtzeitanalyse-Workloads.
+| [GPU](../vsi/vsi_public_gpu.html)  | Besonders geeignet für Workloads, die eine hohe Leistung erfordern.
 {: caption="Tabelle 1. Unterstützte öffentliche virtuelle Server" caption-side="top"}
 
 ## Nächste Schritte

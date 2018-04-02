@@ -126,7 +126,7 @@ Das Angebot ist in verschiedenen Versionen und Rechenzentren mit den folgenden O
 </table>
 
 **Hinweise zum Speicher:**
-* <sup>(*)</sup> Ausgeglichene lokale Versionen (Flavors) beinhalten automatisch einen Bootdatenträger mit 100 GB für die lokale Speicherung. Anschließend können Sie einen zweiten Datenträger auswählen (Optionen finden Sie in der Tabelle oben). Alle weiteren lokalen Datenträger sind optional. Wenn Sie mehr als 500 GB benötigen, sind zwei zusätzliche Datenträger erforderlich (Beispiel: für 8 Kerne sind 2 x 250 GB lokaler Speicher erforderlich).
+* <sup>(*)</sup>Ausgeglichene lokale Versionen (Flavors) beinhalten automatisch einen Bootdatenträger mit 100 GB für die lokale Speicherung. Anschließend können Sie einen zweiten Datenträger auswählen (Optionen finden Sie in der Tabelle oben). Alle weiteren lokalen Datenträger sind optional. Wenn Sie mehr als 500 GB benötigen, sind zwei zusätzliche Datenträger erforderlich (Beispiel: für 8 Kerne sind 2 x 250 GB lokaler Speicher erforderlich).
 *	Der maximale lokale Speicher wird durch die Kerne begrenzt. 
 *	Ausgeglichener lokaler Speicher ist global verfügbar. Der Typ des Speichers (Lokales SSD oder Lokales HDD) ist jedoch vom Standort des Rechenzentrums abhängig. 
 *	Primäre und sekundäre Datenträger können nicht abgehängt werden.
@@ -246,9 +246,9 @@ Alle unterstützten Betriebssysteme (z. B. RHEL, CentOS, Windows, Ubuntu und and
 </table>
 
 **Hinweise zum Speicher:**
-* <sup>(*)</sup> Ausgeglichene lokale Flavors (Versionen) beinhalten automatisch einen Bootdatenträger mit 100 GB für die lokale Speicherung. Anschließend können Sie einen zweiten Datenträger auswählen (Optionen finden Sie in der Tabelle oben). Alle weiteren lokalen Datenträger sind optional. Wenn Sie mehr als 500 GB benötigen, sind zwei zusätzliche Datenträger erforderlich (Beispiel: für 8 Kerne sind 2 x 250 GB lokaler Speicher erforderlich).
+* <sup>(*)</sup>Ausgeglichene lokale Versionen (Flavors) beinhalten automatisch einen Bootdatenträger mit 100 GB für die lokale Speicherung. Anschließend können Sie einen zweiten Datenträger auswählen (Optionen finden Sie in der Tabelle oben). Alle weiteren lokalen Datenträger sind optional. Wenn Sie mehr als 500 GB benötigen, sind zwei zusätzliche Datenträger erforderlich (Beispiel: für 8 Kerne sind 2 x 250 GB lokaler Speicher erforderlich).
 *	Der maximale lokale Speicher wird durch die Kerne begrenzt. 
-*	Ausgeglichener lokaler Speicher ist global verfügbar. Der Typ des Speichers (Lokales SSD oder Lokales HDD) ist jedoch von der Position des Rechenzentrums abhängig. 
+*	Ausgeglichener lokaler Speicher ist global verfügbar. Der Typ des Speichers (Lokales SSD oder Lokales HDD) ist jedoch vom Standort des Rechenzentrums abhängig. 
 *	Primäre und sekundäre Datenträger können nicht abgehängt werden.
 
 Die folgenden Rechenzentren unterstützen virtuelle Server mit ausgeglichenem lokalem SSD-Speicher:

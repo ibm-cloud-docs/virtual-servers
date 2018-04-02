@@ -41,6 +41,10 @@ Führen Sie die folgenden Schritte aus, um Verwaltungstasks für Ihre virtuellen
 * Sie können über die Registerkarte **Konfiguration** jederzeit Anmerkungen zu einer Einheit hinzufügen. Anmerkungen können beim Ermitteln von Details der Einheit, ihrer Verwendung und der für sie ausgeführten Aktionen helfen.
 
 ## Weitere Schritte
+* **Warmstart durchführen**
+
+    Ein Warmstart ist eine der grundlegendsten Einheitenaktionen. Der Warmstart einer Einheit führt zum sofortigen Ausschalten und dann Wiedereinschalten Ihrer Einheit und wird aus zahlreichen Gründen durchgeführt, wobei es sich häufig um für die Einheit oder die Geschäftsanforderungen des einzelnen Benutzers spezifische Gründe handelt. Warmstarts von Einheiten können sowohl aus der Einheitenliste als auch aus der Einheitenansicht einer einzelnen Einheit ausgeführt werden. Für virtuelle Server kann jederzeit ein Warmstart durchgeführt werden.  
+
 * **Ein-/ausschalten**
 
     Wenn die Einheit ausgeschaltet wird, bleibt sie im Status 'ausgeschaltet' und muss durch Wiederholung der oben beschriebenen Schritte manuell eingeschaltet werden. Benutzer können nicht mit einer Einheit interagieren, wenn sie ausgeschaltet ist. Sobald die Einheit eingeschaltet wurde, kann normale Interaktion stattfinden. Sie bleibt eingeschaltet, bis weitere Aktionen unternommen werden.
@@ -52,7 +56,6 @@ Führen Sie die folgenden Schritte aus, um Verwaltungstasks für Ihre virtuellen
 * **Abbrechen**
 
   Nach dem Bestätigen des Abbruchs beginnt der Abbruchprozess für die Einheit. Falls ein sofortiger Abbruch angefordert wurde, wird die Einheit sofort abgebrochen. Falls ein Abbruch am Rechnungsstichtag angefordert wurde, bleibt die Einheit bis zum nächsten Rechnungsstichtag aktiv. Nach ihrem Abbruch wird die Einheit nicht mehr in der Einheitenliste im {{site.data.keyword.slportal}} angezeigt. Rechnungspositionen werden ebenfalls aus Rechnungen entfernt, wenn alle ggf. ausstehenden Posten für die Einheit bezahlt wurden. Falls Sie Fragen zu einer Rechnung für eine abgebrochene Einheit haben, öffnen Sie ein Ticket und wählen Sie als Ticketthema 'Abrechnungsanforderung' aus. Beim sofortigen Abbrechen wird keine Rückerstattung von Gebühren gewährt.
-
   
 ## Nächste Schritte
 Weitere Informationen zum erneuten Konfigurieren eines vorhanden virtuellen Servers finden Sie unter [Vorhandenen virtuellen Server neu konfigurieren](../vsi/vsi_reconfigure.html).

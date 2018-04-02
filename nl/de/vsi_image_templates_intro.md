@@ -17,7 +17,7 @@ lastupdated: "2017-10-24"
 {:table: .aria-labeledby="caption"}
 
 # Imagevorlagen
-Mit den {{site.data.keyword.BluVirtServers}}-Imagevorlagen können Sie ein Image für eine Einheit erfassen und die zugehörige Konfiguration mit minimalen Änderungen im Bestellvorgang replizieren.
+Mit den {{site.data.keyword.BluVirtServers}}-Imagevorlagen können Sie ein Image für eine Einheit erfassen und die zugehörige Konfiguration mit minimalen Änderungen im Bestellvorgang replizieren. 
 {:shortdesc}
 
 Standard-Imagevorlagen stellen eine Option für die Imageerstellung für alle {{site.data.keyword.BluVirtServers_short}} unabhängig vom Betriebssystem bereit. Standard-Imagevorlagen ermöglichen die Imageerfassung für einen vorhandenen virtuellen Server und das Erstellen eines neuen virtuellen Servers basierend auf dem erfassten Image. Standard-Imagevorlage sind nicht kompatibel mit Bare-Metal-Servern.
