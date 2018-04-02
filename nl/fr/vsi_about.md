@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-11-06"
+lastupdated: "2017-11-15"
 
 
 ---
@@ -22,7 +22,7 @@ Les serveurs {{site.data.keyword.BluVirtServers}} sont des serveurs virtuels év
 est entièrement géré par {{site.data.keyword.BluSoftlayer_full}} et vous pouvez effectuer des tâches de configuration et de gestion en utilisant à la fois le portail {{site.data.keyword.slportal_full}} et l'API {{site.data.keyword.slapi_short}}. Les serveurs virtuels sont déployés dans les mêmes réseaux virtuels locaux que les serveurs physiques, ce qui vous permet de répartir les charges de travail entre des serveurs virtuels et des serveurs Bare Metal, tout en garantissant l'interopérabilité. Les serveurs virtuels sont entièrement personnalisables lorsque vous les commandez. Vous pouvez les adapter au fur et à mesure de l'évolution de vos besoins.
 {:shortdesc}
 
-Vous pouvez choisir une facturation horaire ou mensuelle, des environnements publics (multilocation) ou des environnements dédiés (service exclusif) et des disques locaux à hautes performances ou le stockage SAN d'entreprise.
+Lorsque vous créez un serveur virtuel, vous pouvez choisir entre une facturation horaire ou mensuelle. Vous pouvez également choisir entre un environnement public (à service partagé) ou un environnement dédié (à service exclusif). Enfin, vous pouvez choisir des disques locaux haute performance ou un stockage SAN d'entreprise pour votre serveur virtuel.
 
 ## Principales fonctions
 

@@ -25,7 +25,7 @@ Le noyau de secours est un environnement de secours actif, conçu pour permettre
 
 ## Lancement du noyau de secours
 
-1. Accédez au portail [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) en utilisant vos données d'identification uniques.
+1. Accédez au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/) en utilisant vos données d'identification uniques.
 2. Dans la Liste des unités, cliquez sur le nom de l'élément à récupérer.
 3. Cliquez sur la liste déroulante *Actions* dans le coin supérieur droit puis sélectionnez **Mode sans échec**.
 4. Cliquez sur le bouton **Oui** pour que votre terminal passe en mode Noyau de secours immédiatement. Cliquez sur le bouton **Non** pour annuler l'action.

@@ -28,15 +28,15 @@ Les fonctions Initialiser à partir d'une image et Charger à partir d'une image
 ## Pourquoi ne puis-je pas me connecter à la console KVM ?
 Si vous ne pouvez pas vous connecter à la console KVM, consultez les conseils d'identification et de résolution des problèmes ci-dessous pour résoudre plus facilement le problème. Si des problèmes supplémentaires surviennent, contactez le support technique. Pour savoir comment procéder, voir [Aide et support](../vsi/vsi_ts_index.html).
 
-   * La console KVM est une applet Java. Pour pouvoir accéder à la console, Java doit être installé. Pour plus d'informations sur l'installation de Java, voir [Free Java Download ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.java.com/en/download/){: new_window}.  
+   * La console KVM est une applet Java. Pour pouvoir accéder à la console, Java doit être installé. Pour plus d'informations sur l'installation de Java, voir [Free Java Download ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://www.java.com/en/download/){: new_window}.  
    * Si Java est installé, vérifiez qu'une connexion a été établie via VPN. Si aucune connexion n'est établie, un avertissement s'affiche lors de la tentative de connexion à la console KVM indiquant qu'une connexion VPN est requise.
-   * La console KVM peut afficher une ou plusieurs fenêtres contextuelles lors du processus de connexion. Activez les fenêtres en incrustation à partir du portail {{site.data.keyword.slportal}} pour vous assurer qu'il est possible d'établir une connexion. 
-   * Une erreur "Java applications are blocked by your security settings" peut s'afficher. Pour les terminaux iKVM Bare Metal, vous devez ajouter une exception pour l'adresse IP du terminal IPMI. Pour les terminaux VSI, vous devez autoriser "https://control.softlayer.com" et l'adresse IP de la machine KVM. Pour plus d'informations, voir [Why are Java applications blocked by your security settings with the latest Java? ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.java.com/en/download/help/java_blocked.xml){: new_window}.
+   * La console KVM peut afficher une ou plusieurs fenêtres contextuelles lors du processus de connexion. Activez les fenêtres en incrustation à partir du portail {{site.data.keyword.slportal}} pour vous assurer qu'il est possible d'établir une connexion.
+   * Une erreur "Java applications are blocked by your security settings" peut s'afficher. Pour les terminaux iKVM Bare Metal, vous devez ajouter une exception pour l'adresse IP du terminal IPMI. Pour les terminaux VSI, vous devez autoriser "https://control.softlayer.com" et l'adresse IP de la machine KVM. Pour plus d'informations, voir [Why are Java applications blocked by your security settings with the latest Java? ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://www.java.com/en/download/help/java_blocked.xml){: new_window}.
    * Si les conditions ci-dessus sont respectées et que le message d'erreur "Missing required Permissions manifest in main.jar" s'affiche, les applets Java n'ont pas été activées dans le panneau de configuration Java. Ce paramètre constitue une précaution de sécurité et a été introduit par Oracle dans Java SE v7. Activez les applets dans le panneau de configuration pour résoudre ce problème.
 
      **Remarque :** Si vous utilisez Mac OSX avec Google Chrome, voir Information and System Requirements for Installing and Using Mac Java 7 sur le site Web Java.
 
-   * Si vous tentez de vous connecter à une instance VSI via le programme Java standard et que seuls des messages d'erreur sont générés, vous pouvez également essayer d'utiliser VNC. Pour plus d'informations sur l'utilisation de VNC, voir [Connecting to your VSI using VNC ![External link icon](../icons/launch-glyph.svg "External link icon")](https://knowledgelayer.softlayer.com/articles/connect-your-vsi-using-vnc){: new_window}.
+   * Si vous tentez de vous connecter à une instance VSI via le programme Java standard et que seuls des messages d'erreur sont générés, vous pouvez également essayer d'utiliser VNC.
 
 Si vous avez effectué toutes les vérifications ci-dessus et que vous ne pouvez toujours pas vous connecter à la console KVM, contactez le support afin de résoudre ce problème. Si une connexion à la console a été établie mais que des problèmes surviennent lors de la connexion au terminal, vérifiez que les données d'identification utilisées lors de l'accès au terminal sont valides. Si nécessaire, contactez l'administrateur de compte pour vérifier ces données.
 
@@ -150,6 +150,25 @@ La gestion LVM permet la gestion logique des systèmes de fichiers dans Linux. D
 
 ## Est-il possible que le système de surveillance effectue une réinitialisation automatique et prévienne un technicien de support lorsque le serveur ne répond plus ?
 
-Oui, sur l'ordre de notre service **Automated Reboot from Monitoring Failure**, vous pouvez configurer le système de surveillance afin qu'il réinitialise automatiquement le serveur et émette un ticket destiné à un technicien de support lorsqu'une alerte de surveillance est émise. **NOC Monitoring** est fourni en tant que service supplémentaire, dans lequel vous recevez une notification personnelle lorsqu'un problème de surveillance survient. Pour en savoir plus sur ces offres, voir [Server Monitoring ![External link icon](../icons/launch-glyph.svg "External link icon")](http://www.softlayer.com/services/monitoring/){:new_window}.
+Oui, sur l'ordre de notre service **Automated Reboot from Monitoring Failure**, vous pouvez configurer le système de surveillance afin qu'il réinitialise automatiquement le serveur et émette un ticket destiné à un technicien de support lorsqu'une alerte de surveillance est émise. **NOC Monitoring** est fourni en tant que service supplémentaire, dans lequel vous recevez une notification personnelle lorsqu'un problème de surveillance survient. Pour en savoir plus sur ces offres, voir [Server Monitoring ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](http://www.softlayer.com/services/monitoring/){:new_window}.
+
+## Qu'est-ce qu'un miroir cvsup ?
+
+Vous pouvez effectuer une mise à jour à l'aide d'un miroir cvsup local exécuté pour vous. Assurez-vous que votre fichier .sup contient l'entrée suivante :
+
+```
+*default host=cvsup.service.softlayer.com
+```
+{:pre }
+
+Les fichiers .dist sont également mis en miroir et disponibles sur freebsd.org. Vous pouvez ajouter la ligne suivante dans votre fichier */etc/make.conf* pour tenter en premier un téléchargement depuis le référentiel local :
+
+```
+MASTER_SITE_OVERRIDE?="http://mirrors.service.softlayer.com/freebsd/distfiles/${DIST_SUBDIR}/"
+```
+{:screen }
+
+Si le fichier ne se trouve pas à cet endroit, il suivra le fichier Makefile de port individuel et passera au miroir suivant.
+
 
 

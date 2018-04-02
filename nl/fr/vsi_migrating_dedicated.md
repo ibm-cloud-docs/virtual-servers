@@ -25,7 +25,7 @@ Vous pouvez migrer vos instances d'hôte dédiées d'un hôte à un autre dans l
 
 Procédez comme suit pour migrer les instances d'hôte dédiées vers un autre hôte dédié dans le même pod à partir de la page Détails de l'unité de l'*hôte dédié d'origine*. 
 
-1. Accédez au portail [{{site.data.keyword.slportal_full}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) en utilisant vos données d'identification uniques. 
+1. Accédez au portail [{{site.data.keyword.slportal_full}} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/) en utilisant vos données d'identification uniques. 
 2. Cliquez sur **Appareil >Liste des unités** puis dans la liste, sélectionnez soit l'hôte, soit l'instance hébergée.
 3. Cliquez sur la liste déroulante **Actions** en regard de l'instance dédiée à migrer.
 4. Sélectionnez **Migrer** et indiquez l'hôte vers lequel l'instance doit être migrée. N'oubliez pas que l'hôte cible doit se trouver dans le même pod que l'hôte d'origine.
@@ -35,7 +35,7 @@ La migration commence immédiatement. Lors de la migration, l'instance dédiée 
 
 Procédez comme suit pour migrer les instances d'hôte dédiées vers un autre hôte dédié dans le même pod à partir de la page Détails de l'*instance d'hôte dédiée*.
 
-1. Accédez au portail [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) en utilisant vos données d'identification uniques.
+1. Accédez au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/) en utilisant vos données d'identification uniques.
 2. Cliquez sur **Appareil >Liste des unités** puis dans la liste, sélectionnez l'instance hébergée à migrer.
 3. Cliquez sur le lien **Migrer** sur le côté droit de la page.
 4. Sélectionnez l'hôte cible vers lequel migrer l'instance. N'oubliez pas que l'hôte cible doit se trouver dans le même pod que l'hôte d'origine.

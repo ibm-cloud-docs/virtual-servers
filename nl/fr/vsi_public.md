@@ -40,6 +40,7 @@ Les serveurs virtuels suivants sont disponibles.
 | [Stockage Balanced Local](../vsi/vsi_public_balanced_local.html) | Choix recommandé pour les clusters de base de données de grande taille exigeant des performances d'E-S élevées à faible temps d'attente.|
 | [Compute](../vsi/vsi_public_compute.html) | Choix recommandé pour les charges de travail de trafic Web modéré à élevé.|
 | [Memory](../vsi/vsi_public_memory.html)  | Choix recommandé pour les charges de travail d'analyse en temps réel et de mise en cache de mémoire.
+| [GPU](../vsi/vsi_public_gpu.html)  | Choix recommandé pour les charges de travail haute performance.
 {: caption="Tableau 1. Serveurs virtuels publics pris en charge" caption-side="top"}
 
 ## Etapes suivantes

@@ -110,4 +110,4 @@ Il s'agit d'une estimation effectuée par le système et mise gracieusement à v
 contactez notre équipe de support. Lorsque le terminal est à nouveau en ligne, il fonctionne comme cela a été défini dans la section Nouvelle configuration. Toutes les données précédemment sauvegardées sur le terminal sont perdues mais peuvent être restaurées si une sauvegarde a été effectuée avant le rechargement.
 Dans le cas contraire, les données ne peuvent pas être extraites.
  
-Pour enregistrer à nouveau votre terminal avec eVault, voir [Re-registering your device with eVault ![External link icon](../icons/launch-glyph.svg "External link icon")](https://knowledgelayer.softlayer.com/procedure/how-do-i-re-register-evault){: new_window}.
+Pour enregistrer à nouveau votre terminal avec eVault, voir [Re-registering your device with eVault ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://knowledgelayer.softlayer.com/procedure/how-do-i-re-register-evault){: new_window}.

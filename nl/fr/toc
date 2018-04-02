@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="virtual-servers" audience="compute" href=“/docs/vsi/index.html”}
-Serveurs virtuels IBM Bluemix 
+Serveurs virtuels IBM Cloud 
 
     {: .navgroup id="learn"}
     vsi_index.md
@@ -15,10 +15,13 @@ Serveurs virtuels IBM Bluemix
             vsi_public_balanced_local.md
             vsi_public_compute.md
             vsi_public_memory.md
+            vsi_public_gpu.md
             vsi_public_selections.md
+        vsi_about_transient.md
         vsi_dedicated.md
             vsi_dedicated_host.md
             vsi_dedicated_pricing.md
+        [Mise à disposition de scripts](../infrastructure/provisioning-scripts/ps_index.html)
 
     vsi_image_templates_intro.md
 
@@ -26,19 +29,28 @@ Serveurs virtuels IBM Bluemix
     Options de sécurité
         vsi_security_options.md
         vsi_security_groups.md
+        vsi_ssl_intro.md
+        vsi_ssh_intro.md
 
     /storage/vsi_about_storage.md
 
     {: .topicgroup}
-    Options logicielles
-        [A propos des logiciels](../infrastructure/software/index.html)
-     [Informations sur les mises à jour Microsoft Windows](../infrastructure/software/microsoft-windows-update-instructions.html)
-        [Informations sur les mises à jour RedHat](../infrastructure/software/redhat-update-instructions.html)
-    [Description du sujet des ID AV/S/Host](../infrastructure/software/avshost-ids-topic-description.html)
+    Options de logiciel
+        [A propos du logiciel](../infrastructure/software/index.html)
+        [Informations de mise à jour de Microsoft Windows](../infrastructure/software/microsoft-windows-update-instructions.html)
+        [Informations de mise à jour de RedHat](../infrastructure/software/redhat-update-instructions.html)
+        [Description de AV/S/Host IDS Topic](../infrastructure/software/avshost-ids-topic-description.html)
+        vsi_database_tools.md
+        
+    {: .topicgroup}
+    Options de service
+        vsi_digital_transcoding.md
+        vsi_email_intro.md
     
     {: .topicgroup}
     Tutoriels
-        [Application Web PHP sur une pile LAMP](../tutorials/lamp-stack.html)
+        [PHP web application on a LAMP Stack](../tutorials/lamp-stack.html)
+        [Use Virtual Servers to build highly available and scalable web app](../tutorials/highly-available-and-scalable-web-application.html)
         
     {: .topicgroup}
     Liens connexes
@@ -55,6 +67,7 @@ Serveurs virtuels IBM Bluemix
     {: .topicgroup}
     Mise à disposition
         vsi_provision_public.md
+        vsi_provision_transient.md
         vsi_dedicated_instances.md
         vsi_provision_dedicated.md
 
@@ -63,6 +76,7 @@ Serveurs virtuels IBM Bluemix
         vsi_configuring.md
         vsi_reconfigure.md
         vsi_work_image.md
+        vsi_ssh_config.md
 
     {: .topicgroup}
     Gestion des serveurs
@@ -74,10 +88,16 @@ Serveurs virtuels IBM Bluemix
         vsi_device_access.md
         vsi_interact_device_snapshot_view.md
         vsi_managing_users_pwd.md
+        vsi_managing_port_speeds.md
+            vsi_upgrading_port_speeds_linux.md
+            vsi_upgrading_port_speeds_windows.md
+            vsi_downgrading_port_speeds.md
+        vsi_autoscale_intro.md
      
     {: .topicgroup}
     Gestion de la sécurité
         vsi_managing_sg.md
+        [Accès aux certificats SSL](../infrastructure/ssl-certificates/access-ssl-certificates-screen.html)
 
     {: .topicgroup}
     Gestion du stockage
@@ -88,10 +108,11 @@ Serveurs virtuels IBM Bluemix
     {: .topicgroup}
     Gestion des logiciels
         [Rechargement du système d'exploitation](../infrastructure/software/vsi_reload_os.html)
-        [Rechargement d'un système d'exploitation avec un modèle d'image](../infrastructure/software/vsi_reload_os_image.html)
-    [Ajout d'IPv6 à des systèmes Ubuntu](../infrastructure/software/adding-ipv6-ubuntu-systems.html)
+        [Rechargement d'un système d'exploitation à l'aide d'un modèle d'image](../infrastructure/software/vsi_reload_os_image.html)
+        [Ajout de IPv6 aux systèmes Ubuntu](../infrastructure/software/adding-ipv6-ubuntu-systems.html)
         [Installation de ClamAV](../infrastructure/software/install-clamav.html)
-    [Notification des utilisateurs de l'approche d'une limitation de bande passante dans cPanel/WHM](../infrastructure/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
+        [Avis aux utilisateurs d'une limitation de bande passante imminente dans cPanel/WHM](../infrastructure/software/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
+        vsi_gpu_nvidia_drivers.md
  
     {: .topicgroup}
     Migration
@@ -106,6 +127,10 @@ Serveurs virtuels IBM Bluemix
     Sauvegarde et restauration
         vsi_backup.md
         vsi_launch_rescue.md
+        spare_pools.md
+            add_spare_pool.md
+            cancel_spare_pool.md
+            reactivating_spare_pool_device.md
         
     {: .topicgroup}
     Liens connexes
@@ -115,13 +140,17 @@ Serveurs virtuels IBM Bluemix
 
     {: .navgroup id="help"}
     vsi_ts_index.md
-
+    
+    {: .topicgroup}
+    Traitement des incidents
+        ts_capacity_bp.md
+    
     {: .topicgroup}
     Foire aux questions
         vsi_faqs_vs.md
         vsi_faqs_dedicated.md
         faq_servers_general.md
-        [Foire aux questions : Rechargement de système d'exploitation](../infrastructure/software/os-reload-question-faq.html)
+        [Foire aux questions : rechargement de système d'exploitation](../infrastructure/software/os-reload-question-faq.html)
         [Foire aux questions : courrier électronique cpsrvd](../infrastructure/software/why-did-my-cpsrvd-email-fail.html)
 
     {: .navgroup-end}

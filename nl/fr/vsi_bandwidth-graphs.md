@@ -10,15 +10,15 @@ Les graphiques de bande passante présentent le trafic entre Internet (graphique
 
 **Graphiques de réseau public**
 
-Le graphique *Vers le serveur* illustre le trafic depuis Internet vers votre serveur. 
+Le graphique *Vers le serveur* illustre le trafic depuis Internet vers votre serveur.
 
-Le graphique *Hors du serveur* illustre le trafic depuis votre serveur vers Internet. 
+Le graphique *Hors du serveur* illustre le trafic depuis votre serveur vers Internet.
 
 **Graphiques de réseau privé**
 
-Le graphique *Vers le serveur* illustre le trafic depuis le réseau privé vers votre serveur. 
+Le graphique *Vers le serveur* illustre le trafic depuis le réseau privé vers votre serveur.
 
-Le graphique *Hors du serveur* illustre le trafic depuis votre serveur vers le réseau privé. 
+Le graphique *Hors du serveur* illustre le trafic depuis votre serveur vers le réseau privé.
 
 **Quelle est l'utilisation estimée et pourquoi ne correspond-elle pas à mes graphiques ?**
 

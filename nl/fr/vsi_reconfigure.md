@@ -32,7 +32,7 @@ Utilisez la procédure suivante pour reconfigurer un serveur virtuel existant.
 {:shortdesc}
 
 ## Modification d'un serveur virtuel existant (utilisant des versions prédéfinies)
-1. Accédez au portail [{{site.data.keyword.slportal_full}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) en utilisant vos données d'identification uniques. 
+1. Accédez au portail [{{site.data.keyword.slportal_full}} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/) en utilisant vos données d'identification uniques. 
 2. Dans la liste de terminaux, cliquez sur le nom du serveur virtuel à reconfigurer.
 3. Sur l'onglet **Configuration**, vous pouvez cliquer sur **Modifier** ou **Modifier la configuration de l'unité** pour mettre à jour les éléments suivants. 
   <dl>
@@ -47,7 +47,7 @@ Utilisez la procédure suivante pour reconfigurer un serveur virtuel existant.
   <dt>Date de mise à niveau</dt>
   <dd>Vous pouvez cliquer sur la case à cocher Immédiatement pour une mise à jour immédiate ou planifier l'heure de la mise à jour.</dd>
 
-  <dt>Heure de la mise à jour</dt>
+  <dt>Heure de mise à niveau</dt>
   <dd>Entrez la date (AAAA-MM-JJ) d'application de la mise à jour.</dd>
 
   <dt>Remarques</dt>
@@ -60,23 +60,22 @@ Utilisez la procédure suivante pour reconfigurer un serveur virtuel existant.
 
 ## Modification d'un serveur virtuel existant (avant les versions prédéfinies) ou d'un serveur virtuel dédié
 1. Dans la liste de terminaux, cliquez sur le nom du serveur virtuel à reconfigurer.
-2. Sur l'onglet **Configuration**, vous pouvez cliquer sur le lien de **mise à niveau de coeur ou de mémoire RAM** pour mettre à jour les éléments suivants.  
+2. Sur l'onglet **Configuration**, vous pouvez cliquer sur le lien de **mise à niveau de coeur ou de mémoire RAM** pour mettre à jour les éléments suivants. 
   
-|   Options de mise à niveau |  Description                                                                                                |
+|   Options de mise à niveau       |  Description                                                                                                |
 | ----------------------- | ----------------------------------------------------------------------------------------------------------- |
-| Date de mise à niveau      | Entrez la date (AAAA-MM-JJ) d'application de la mise à jour.                                                |
-| Heure de mise à niveau     | Sélectionnez l'heure dans les zones déroulantes afin d'indiquer l'heure à laquelle la mise à jour doit être active, ou cochez la case **Immédiatement** pour une mise à jour immédiate.  |
-| Coeurs                     | Sélectionnez le nombre de coeurs pour la mise à jour. |
-| RAM                        | Sélectionnez la quantité de mémoire RAM à appliquer à votre terminal pour la mise à jour, si applicable.   |
-| Vitesses de port Uplink    | Sélectionnez les vitesses du nouveau port de liaison montante. |
-| Bande passante publique    | Sélectionnez la quantité (en Go) de bande passante publique pour votre terminal.   |
-| Premier disque – Cinquième disque | Sélectionnez l'option d'espace disque/stockage pour le premier disque, le cas échéant. Pour plus d'informations, voir **Remarques relatives aux disques** ci-dessous.
-|
+| Date de mise à niveau            | Entrez la date (AAAA-MM-JJ) d'application de la mise à jour.                                                |
+| Heure de mise à niveau            | Sélectionnez l'heure dans les zones déroulantes afin d'indiquer l'heure à laquelle la mise à jour doit être active, ou cochez la case **Immédiatement** pour une mise à jour immédiate.                                                                                        |
+| Coeurs                   | Sélectionnez le nombre de coeurs pour la mise à jour. |
+| RAM                     | Sélectionnez la quantité de mémoire RAM à appliquer à votre terminal pour la mise à jour, si applicable.   |
+| Vitesses de port Uplink      | Sélectionnez les vitesses du nouveau port de liaison montante. |
+| Bande passante publique        | Sélectionnez la quantité (en Go) de bande passante publique pour votre terminal.   |
+| Premier disque – Cinquième disque | Sélectionnez l'option d'espace disque/stockage pour le premier disque, le cas échéant. Pour plus d'informations, voir **Remarques relatives aux disques** ci-dessous.                                                                                                                               |
 | Remarques                   | Entrez des remarques relatives à votre terminal.                                                                 |
 {: caption="Tableau 1. Options de déploiement" caption-side="top"}   
   
   **Remarques relatives aux disques :**
-  * Un stockage de type local ou SAN est disponible. Vérifiez votre sélection pour vous assurer que l'option de stockage choisie est correcte. 
+  * Un stockage de type local ou SAN est disponible.  Vérifiez votre sélection pour vous assurer que l'option de stockage choisie est correcte.
   * Pour les serveurs virtuels publics, si vous effectuez la mise à niveau du stockage local et que vous avez besoin de coeurs ou de mémoire RAM supplémentaires, vous risquez de perdre votre disque secondaire. Lorsque vous modifiez une version de serveur virtuel qui utilise le stockage local, la version est prédéfinie pour vous et les versions qui ne sont pas comparables ne peuvent pas être sélectionnées.
 3. Cliquez sur **Continuer**.
 4. Vérifiez la confirmation de votre commande.  Cliquez sur **Editer** pour modifier votre mise à niveau.

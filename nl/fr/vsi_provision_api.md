@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-04-27"
+  years: 2017, 2018
+lastupdated: "2018-02-28"
 
 
 ---
@@ -14,10 +14,11 @@ lastupdated: "2017-04-27"
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
-# Exemples d'API de serveurs virtuels publics (avec versions)
-{: #api-python-public} 
+# Exemples d'API : versions de serveurs virtuels publics
+{: #api-rest-public}
 
 Des exemples d'API REST permettant de mettre à disposition des instances de serveur virtuel public qui utilisent des versions prédéfinies sont présentés ci-dessous.
 {:shortdesc}
@@ -27,6 +28,9 @@ Pour accéder à des exemples d'API plus robustes, voir les ressources suivantes
 
 ## Mise à disposition d'une instance publique en utilisant Create Object
 Le service d'API *SoftLayer_Virtual_Guest/createObject* constitue le meilleur moyen de mettre à disposition une instance de serveur virtuel public qui utilise des versions prédéfinies.
+
+Non applicable aux instances transitoires.
+{:tip}
 
 Pour mettre à disposition une instance de serveur virtuel public en utilisant REST, une demande POST est soumise à https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json avec l'élément JSON suivant dans le corps de la demande.
 
@@ -57,6 +61,9 @@ Pour mettre à disposition une instance de serveur virtuel public en utilisant R
 
 ## Mise à disposition d'une instance publique en utilisant Place Order Object
 La mise à disposition d'un serveur virtuel public qui utilise des versions prédéfinies est effectuée en utilisant le service d'API *SoftLayer_Product_Order/placeOrder*.
+
+Non applicable aux instances transitoires.
+{:tip}
 
 Pour mettre à disposition un serveur virtuel public en utilisant REST, une demande POST est soumise à https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json avec l'élément JSON suivant dans le corps de la demande.
 
@@ -155,6 +162,9 @@ Pour mettre à disposition un serveur virtuel public en utilisant REST, une dema
 ## Mise à niveau d'instances publiques
 La mise à niveau d'un serveur virtuel public est effectuée à l'aide du service d'API *SoftLayer_Product_Order/placeOrder*.
 
+Non applicable aux instances transitoires.
+{:tip}
+
 Pour mettre à disposition un serveur virtuel public en utilisant REST, une demande POST est soumise à https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json avec l'élément JSON suivant dans le corps de la demande.
 
 **Remarque :** Les descriptions d'élément ne sont pas requises sur les prix. Elles sont incluses uniquement pour afficher les options de produit soumises.
@@ -190,6 +200,37 @@ Pour mettre à disposition un serveur virtuel public en utilisant REST, une dema
                     "id": 36189167
                 }
             ]
+        }
+    ]
+}
+```
+## Mise à disposition d'une instance transitoire à l'aide de Create Object
+{: #api-rest-transient}
+
+Le service d'API *SoftLayer_Virtual_Guest/createObject* offre le meilleur moyen de mettre à disposition une instance de serveur virtuel transitoire.
+
+Pour mettre à disposition une instance de serveur virtuel transitoire à l'aide d'un REST, une demande POST est soumise à https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json avec le JSON suivant dans le corps de la demande.
+
+### Corps de la demande JSON 4
+```
+{
+    "parameters":[
+        {
+            "hostname": "sample-transient-public",
+            "domain": "softlayer.local",
+            "datacenter": {
+                "name": "mex01"
+            },
+            "operatingSystemReferenceCode": "CENTOS_LATEST",
+            "networkComponents": [
+                {
+                    "maxSpeed": 100
+                }
+            ],
+            "supplementalCreateObjectOptions": {
+                "flavorKeyName": "B1_1X2X25"
+            },
+            "transientGuestFlag": true
         }
     ]
 }

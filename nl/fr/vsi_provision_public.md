@@ -27,7 +27,7 @@ Avant de commencer, passez en revue les conditions requises présentées ci-dess
 
   1. Vérifiez que les données d'identification du portail {{site.data.keyword.slportal}} ou du catalogue {{site.data.keyword.Bluemix_notm}} sont définies. 
   
-     **Remarque :** Pour le catalogue {{site.data.keyword.Bluemix_notm}}, vous devez disposer d'un compte mis à niveau pour pouvoir commander des serveurs virtuels. Pour plus d'informations sur la mise à niveau d'un compte, voir [Upgrading and unifying Bluemix and SoftLayer billing accounts](https://console.ng.bluemix.net/docs/admin/softlayerlink.html).
+     **Remarque :** Pour le catalogue {{site.data.keyword.Bluemix_notm}}, vous devez disposer d'un compte mis à niveau pour pouvoir commander des serveurs virtuels. Pour plus d'informations sur la mise à niveau de votre compte, voir [Basculement sur IBMid](https://console.bluemix.net/docs/admin/softlayerlink.html).
   
   2. Si vous ne l'avez pas encore fait, consultez les options de déploiement disponibles. Pour plus d'informations, voir [Serveurs virtuels publics](../vsi/vsi_public.html).
 
@@ -44,7 +44,7 @@ Vérifiez que vous êtes connecté, soit via le catalogue {{site.data.keyword.Bl
    </THEAD>
    <TBODY>
    <tr>
-   <td>Catalogue Bluemix</td>
+   <td>Catalogue IBM Cloud</td>
    <td>
    <ol>
    <li>Ouvrez une fenêtre de navigateur et entrez <a href="https://console.bluemix.net/catalog/">https://console.bluemix.net/catalog/</a>.</li>
@@ -77,8 +77,8 @@ Une fois la configuration requise appliquée, vous pouvez commencer à mettre à
 ### Mise à disposition d'une instance de serveur virtuel public via l'icône Terminal
 Pour mettre à disposition votre instance de serveur virtuel public via l'icône *Terminaux*, procédez comme suit :
 
-1.  Dans le portail {{site.data.keyword.slportal}}, recherchez la section **Commande**, puis cliquez sur **Equipements**.
-2.  Sur la page Equipements, cliquez sur **Horaire** ou **Mensuel** pour une des offres de serveur virtuel.
+1.  Dans le portail {{site.data.keyword.slportal}}, recherchez la section **Commande**, puis cliquez sur **Unités**.
+2.  Sur la page Unités, cliquez sur **Horaire** ou **Mensuel** pour une des offres de serveur virtuel.
 3.  Sur la page de configuration de votre serveur Cloud**, indiquez les informations appropriées.
 4.  Cliquez sur le bouton **Ajouter à la commande** pour continuer.
 5.  Confirmez ou modifiez les informations de domaine pour le serveur.
@@ -87,16 +87,16 @@ Pour mettre à disposition votre instance de serveur virtuel public via l'icône
 
  Plusieurs messages électroniques sont envoyés à votre administrateur (accusé de réception de la commande de mise à disposition, approbation et traitement de la commande de mise à disposition et mise à disposition terminée). Le message électronique indiquant que la mise à disposition est terminée inclut un lien vous dirigeant directement vers la page *Détails de l'unité* après la connexion à {{site.data.keyword.Bluemix_notm}}. Vous pouvez également vous connecter directement au portail {{site.data.keyword.slportal}}.
 
-### Mise à disposition d'une instance de serveur virtuel public via le menu Equipements
+### Mise à disposition d'une instance de serveur virtuel public via le menu Unités
 {: #ordering-public-devices-menu}
 
-Vous pouvez également mettre à disposition vos instances de serveur virtuel public via le menu *Equipements* sur la page principale du portail {{site.data.keyword.slportal}}. 
+Vous pouvez également mettre à disposition vos instances de serveur virtuel public via le menu *Unités* sur la page principale du portail {{site.data.keyword.slportal}}. 
 
-1. Cliquez sur **Equipements > Liste des unités**.
+1. Cliquez sur **Unités > Liste des unités**.
 
-   La page Equipements affiche tous les types de terminal (hôtes dédiés, serveurs virtuels, serveurs Bare Metal et contrôleurs de distribution d'application NetScaler) de votre compte.
+   La page Unités affiche tous les types de terminal (hôtes dédiés, serveurs virtuels, serveurs Bare Metal et contrôleurs de distribution d'application NetScaler) de votre compte.
 2. Cliquez sur le lien **Commander unités** dans le coin supérieur droit.
-3. Sur la page Terminaux, cliquez sur **Horaire** ou **Mensuel** pour une des offres de serveur virtuel.
+3. Sur la page Unités, cliquez sur **Horaire** ou **Mensuel** pour une des offres de serveur virtuel.
 4. Sur la page de configuration de votre serveur Cloud**, indiquez les informations appropriées.
 5. Cliquez sur le bouton **Ajouter à la commande** pour continuer.
 6. Confirmez ou modifiez les informations de domaine pour le serveur.

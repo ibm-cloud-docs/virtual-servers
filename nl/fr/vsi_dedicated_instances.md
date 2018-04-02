@@ -22,7 +22,7 @@ lastupdated: "2017-10-25"
 Vous disposez de deux méthodes pour la mise à disposition de vos instances dédiées. Vous pouvez utiliser, soit le catalogue {{site.data.keyword.Bluemix}}, soit le portail {{site.data.keyword.slportal_full}}. Des ID de connexion uniques sont requis pour le catalogue et le portail {{site.data.keyword.slportal}}. Le nom d'utilisateur et le mot de passe du catalogue ne fonctionnent pas pour la connexion au portail et vice-versa. Pour configurer vos données d'identification permettant d'accéder au catalogue {{site.data.keyword.Bluemix_notm}} ou au portail {{site.data.keyword.slportal}}, voir [Inscription à {{site.data.keyword.Bluemix_notm}}](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window}
 {:shortdesc}
 
-## Connexion au catalogue Bluemix
+## Connexion au catalogue IBM Cloud
 Procédez comme suit pour vous connecter au catalogue {{site.data.keyword.Bluemix_notm}} afin de lancer la mise à disposition de vos instances dédiées. 
 
 1. Ouvrez une fenêtre de navigateur et entrez [https://console.bluemix.net/catalog/](https://console.bluemix.net/catalog/){: new_window}.
@@ -48,13 +48,13 @@ La page principale du portail {{site.data.keyword.slportal}} s'affiche.
 
 ## Mise à disposition de vos instances dédiées
 {: #provision-dedicated-instances}
-Vous pouvez mettre à disposition vos instances dédiées de deux manières, via l'icône **Equipements** ou le menu **Equipements**.
+Vous pouvez mettre à disposition vos instances dédiées de deux manières, via l'icône **Unités** ou le menu **Unités**.
 
-### Mise à disposition de vos instances d'hôte dédiées via l'icône Equipements
+### Mise à disposition de vos instances d'hôte dédiées via l'icône Unités
 {: #ordering-dedicated-devices-menu}
 La première méthode de mise à disposition d'instances d'hôte dédiées consiste à utiliser l'icône **Appareil** sur la page principale du portail {{site.data.keyword.slportal}}. Pour cela, suivez la procédure présentée ci-dessous.
 
-1.	Cliquez sur l'icône **Equipements**. La fenêtre **Commander des services et des produits SoftLayer** s'affiche. 
+1.	Cliquez sur l'icône **Unités**. La fenêtre **Commander des services et des produits SoftLayer** s'affiche. 
 2.  Sélectionnez **Horaire** ou **Mensuel** sous Serveurs virtuels dédiés. La page de configuration de votre serveur Cloud** s'affiche. 
 
 3.	Entrez les informations suivantes :
@@ -162,15 +162,15 @@ La première méthode de mise à disposition d'instances d'hôte dédiées consi
 
 ### Mise à disposition de vos instances dédiées via le menu Terminaux
 
-La seconde méthode consiste à mettre à disposition vos instances dédiées via le menu **Equipements** sur la page principale du portail {{site.data.keyword.slportal}}. Pour cela, suivez la procédure présentée ci-dessous.
+La seconde méthode consiste à mettre à disposition vos instances dédiées via le menu **Unités** sur la page principale du portail {{site.data.keyword.slportal}}. Pour cela, suivez la procédure présentée ci-dessous.
 
-1.	Cliquez sur **Equipements > Liste des unités**. 
+1.	Cliquez sur **Unités > Liste des unités**. 
  
-    La page *Equipements* affiche tous les types de terminal (serveurs virtuels, serveurs Bare Metal, hôtes dédiés et contrôleurs de distribution d'application NetScaler) de votre compte. 
+    La page *Unités* affiche tous les types d'unités (serveurs virtuels, serveurs Bare Metal, hôtes dédiés et contrôleurs de distribution d'application NetScaler) de votre compte. 
 
 2.	Cliquez sur le lien **Commandes d'unités** sur le côte droit de la page.
     La fenêtre **Commander des services et des produits SoftLayer** s'affiche.
-3.	Suivez la procédure [Mise à disposition de vos instances d'hôte dédiées via l'icône Equipements](#ordering-dedicated-devices-menu), à partir de l'étape 2.
+3.	Suivez la procédure [Mise à disposition de vos instances d'hôte dédiées via l'icône Unités](#ordering-dedicated-devices-menu), à partir de l'étape 2.
 
 ### Etapes suivantes
 Une fois que votre serveur virtuel est mis à disposition, vous pouvez commencer à le gérer. Pour plus d'informations, voir [Gestion des serveurs virtuels](../vsi/vsi_managing.html).

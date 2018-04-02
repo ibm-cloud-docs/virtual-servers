@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-02-12"
 
 
 ---
@@ -14,13 +14,16 @@ lastupdated: "2017-10-24"
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
 # Mise à disposition de sélections
 Vous devez effectuer les sélections suivantes lorsque vous mettez à disposition un serveur virtuel public.
 
 ## Emplacement
-Vous pouvez sélectionner le centre de données spécifique dans lequel effectuer le déploiement. Pour les nouveaux déploiement, {{site.data.keyword.Bluemix}} identifie automatiquement le meilleur pod (en fonction de la disponibilité) et crée les réseaux locaux virtuels (VLAN) publics et privés. Outre les environnements existants, vous pouvez sélectionner le pod spécifique, le réseau local virtuel et le sous-réseau dont vous avez besoin.
+Vous pouvez sélectionner le centre de données spécifique dans lequel effectuer le déploiement. Pour les nouveaux déploiements, {{site.data.keyword.Bluemix}} identifie automatiquement le meilleur centre de données (en fonction de la disponibilité) et crée les réseaux locaux virtuels (VLAN) publics et privés appropriés. Outre les environnements existants, vous pouvez sélectionner le centre de données spécifique, le réseau local virtuel et le sous-réseau dont vous avez besoin. Pour en savoir plus sur les réseaux locaux virtuels et sur les sous-réseaux, voir [Initiation aux réseaux locaux virtuels](/docs/infrastructure/vlans/getting-started.html).
+
+La sélection d'un sous-réseau est facultative et doit uniquement avoir lieu si vous souhaitez que votre terminal utilise une adresse IP appartenant au sous-réseau. Si vous sélectionnez un sous-réseau, vérifiez que vous avez suffisamment d'adresses IP pour répondre à la demande. Si vous n'avez pas assez d'adresses IP pour votre sous-réseau, votre commande peut être retardée ou annulée. {:tip}
 
 ## Processeurs / Mémoire RAM
 Lors de la commande, vous pouvez effectuer une sélection parmi des options de processeur de coeur. Ces options suivent les normes s'appliquant aux déploiements de serveur virtuel. Chaque coeur physique du serveur comporte plusieurs unités d'exécution et se présente sous la forme de deux unités virtuelles (vCPU) ou coeurs. L'offre de serveur virtuel propose au moins 2,0 GHz par coeur et jusqu'à 56 coeurs disponibles sur un serveur virtuel.
@@ -33,7 +36,7 @@ L'utilisation de la mémoire RAM est extrêmement directe. L'offre dédie entiè
 
 Vous sélectionnez également le système d'exploitation à déployer sur le serveur. Vous pouvez sélectionner certaines options gratuites, telles CentOS et Ubuntu. Certains systèmes payants, tels Windows Server et Red Hat Enterprise Linux (RHEL), sont également disponibles. Gardez à l'esprit que vous devez disposer d'un disque principal de 100 Go pour les systèmes Windows.
 
-Pour les clients existants, vous pouvez également effectuer le déploiement à partir d'un modèle d'image via le portail {{site.data.keyword.slportal_full}} en sélectionnant **Equipements -> Gérer -> Images**, puis **Commander un serveur virtuel**  dans le menu *Actions*.  Le système d'exploitation approprié est alors automatiquement sélectionné pour la commande.  Vous pouvez également effectuer une commande d'après une image standard puis effectuer un rechargement dans un modèle d'image à tout moment.
+Pour les clients existants, vous pouvez également effectuer le déploiement à partir d'un modèle d'image via le portail {{site.data.keyword.slportal_full}} en sélectionnant **Unités -> Gérer -> Images**, puis **Commander un serveur virtuel**  dans le menu *Actions*.  Le système d'exploitation approprié est alors automatiquement sélectionné pour la commande.  Vous pouvez également effectuer une commande d'après une image standard puis effectuer un rechargement dans un modèle d'image à tout moment.
 
 ## Stockage
 
@@ -63,19 +66,23 @@ Avant le déploiement, définissez vos options de sécurité. Dans le cadre du p
 
 Vous pouvez également utiliser des groupes de sécurité pour promulguer un ensemble de règles de filtre d'adresse IP qui définissent comment gérer le trafic entrant et sortant entre les interfaces publiques et privées d'une instance de serveur virtuel.
 
-Pour plus d'informations, voir [Pare-feu](vsi_security_options.html) et [Initiation aux groupes de sécurité](/docs/infrastructure/security-groups/sg_index.html).
+Pour plus d'informations, veuillez consulter les rubriques suivantes relatives à la sécurité.
+
+* [Pare-feu matériels (partagés)](../infrastructure/hardware-firewall-shared/getting-started.html)
+* [Pare-feu matériels (dédiés)](../infrastructure/hardware-firewall-dedicated/getting-started.html)
+* [Initiation aux groupes de sécurité](/docs/infrastructure/security-groups/sg_index.html)
 
 ## Surveillance
 
 Pour le serveur virtuel, vous pouvez effectuer une sélection parmi différentes options de surveillance. Les options incluent la surveillance standard, qui utilise la fonction ping ainsi que la réponse de service TCP et comporte des réponses facultatives pour les défaillances. Vous pouvez également ajouter la surveillance avancée qui utilise l'agent logiciel Nimsoft offrant un ensemble de fonctions étendues pour la surveillance du serveur virtuel et du logiciel installé.
 
-Pour plus d'informations, voir [Affichage et gestion des moniteurs](vsi_viewing_monitors.html).
+Pour plus d'informations, voir [Surveillance](../infrastructure/SLmonitoring/monitoring_index.html).
 
 ## Sauvegarde
 
 Lors de la commande, vous pouvez ajouter des sauvegardes Evault. Vous pouvez également choisir d'acheter une licence R1soft pour votre environnement de sauvegarde R1soft existant ou utiliser une solution de sauvegarde tierce.
 
-Pour plus d'informations, voir [Re-registering your device with eVault ![External link icon](../icons/launch-glyph.svg "External link icon")](https://knowledgelayer.softlayer.com/procedure/how-do-i-re-register-evault){: new_window}.
+Pour plus d'informations, voir [Re-registering your device with eVault](../infrastructure/Backup/how-do-i-re-register-evault.html).
 
 ## Scripts postérieurs à la mise à disposition
 

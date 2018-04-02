@@ -28,7 +28,7 @@ Lors de la commande d'un terminal, vous pouvez sélectionner un script de mise �
 
 ## Ajout d'un script de mise à disposition
 
-1. Dans le menu **Equipements** du portail [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}, sélectionnez **Gérer** > **Scripts de mise à disposition**.
+1. Dans le menu **Unités** du portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){: new_window}, sélectionnez **Gérer** > **Scripts de mise à disposition**.
 2. Cliquez sur **Ajout de scripts de mise à disposition**.
 4. Dans la zone Nom, entrez un nom de script unique.
 5. Dans la zone URL, entrez l'URL exacte à associer au script.
