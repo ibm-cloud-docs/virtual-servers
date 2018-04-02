@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-09-13"
+  years: 2014, 2018
+lastupdated: "2018-02-26"
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,11 +13,11 @@ Sie können für jeden virtuellen Server zwischen den Optionen 'SAN' und 'Lokal'
 
 ## Lokaler Speicher
 
-Der lokale Speicher befindet sich auf lokalen Datenträgern für den virtuellen Server-Host. Der lokale Speicher ermöglicht schnellere Lese- und Schreibzugriffe auf die Datenträger. Die Datenträger bilden eine RAID-Konfiguration (RAID = Redundant Array of Independent Disks), die Redundanz, Datenträgeraustausch und Statusüberwachung ermöglicht und vollständig von Bluemix verwaltet wird. In neueren Rechenzentren werden für diesen Speichertyp ausschließlich Solid-State-Laufwerke (SSDs) verwendet, um eine optimale Leistung zu erzielen. 
+Der lokale Speicher befindet sich auf lokalen Datenträgern für den virtuellen Server-Host. Der lokale Speicher ermöglicht schnellere Lese- und Schreibzugriffe auf die Datenträger. Die Datenträger bilden eine RAID-Konfiguration (RAID = Redundant Array of Independent Disks), die Redundanz, Datenträgeraustausch und Statusüberwachung ermöglicht und vollständig von {{site.data.keyword.cloud}} verwaltet wird. In neueren Rechenzentren werden für diesen Speichertyp ausschließlich Solid-State-Laufwerke (SSDs) verwendet, um eine optimale Leistung zu erzielen. 
 
 ## SAN-Speicher
  
-SAN-Speicher basiert auf der SAN-Infrastruktur von Bluemix und nicht auf dem lokalen Hostspeicher. Dies ermöglicht eine höhere Ausfallsicherheit bei Hostausfällen und kann deutlich größere Volumen unterstützen. Bei einem Hostausfall werden virtuelle Serverinstanzen, die den SAN-Speicher nutzen, automatisch auf andere Hosts migriert und neu gestartet. 
+SAN-Speicher basiert auf der SAN-Infrastruktur von {{site.data.keyword.cloud_notm}} und nicht auf dem lokalen Hostspeicher. Dies ermöglicht eine höhere Ausfallsicherheit bei Hostausfällen und kann deutlich größere Volumen unterstützen. Bei einem Hostausfall werden virtuelle Serverinstanzen, die den SAN-Speicher nutzen, automatisch auf andere Hosts migriert und neu gestartet. 
 
 Alle sekundären Datenträger werden als portierbarer Speicher angehängt. In den meisten Fällen können die Datenträger jederzeit abgehängt werden, um das Verschieben auf andere virtuelle Server zu ermöglichen. 
 
@@ -29,9 +29,9 @@ Die Datenträger können erneut an einen anderen Server angehängt werden, sofer
 
 ## Portierbare Speicherdatenträger
 
-Portierbare Speicherdatenträger sind Zusatzspeicherlösungen, die ausschließlich in {{site.data.keyword.BluVirtServers_short}} verfügbar sind. Sie können jeweils mit einem virtuellen Server verbunden werden. Sie stellen ferner eine ideale Lösung dar, wenn Sie Daten, die in einem beliebigen Rechenzentrum im {{site.data.keyword.cloud}}-Netz vorhanden sind, zwischen virtuellen Servern übertragen möchten. Portierbare Speicherdatenträger sind nützlich für Datenbankanwendungen, für die Zugriff auf rohen, unformatierten Blockspeicher erforderlich ist und zum Verschieben großer Dateien zwischen {{site.data.keyword.BluVirtServers_short}}.
+Portierbare Speicherdatenträger sind Zusatzspeicherlösungen, die ausschließlich in {{site.data.keyword.BluVirtServers_short}} verfügbar sind. Sie können jeweils mit einem virtuellen Server verbunden werden. Sie stellen ferner eine ideale Lösung dar, wenn Sie Daten, die in einem beliebigen Rechenzentrum im {{site.data.keyword.cloud_notm}}-Netz vorhanden sind, zwischen virtuellen Servern übertragen möchten. Portierbare Speicherdatenträger sind nützlich für Datenbankanwendungen, für die Zugriff auf rohen, unformatierten Blockspeicher erforderlich ist und zum Verschieben großer Dateien zwischen {{site.data.keyword.BluVirtServers_short}}.
 
-Wenn ein portierbarer Speicherdatenträger an einen virtuellen Server in einem anderen Rechenzentrum als der ursprüngliche virtuelle Server angehängt ist, kopiert das interne {{site.data.keyword.cloud}}-System den Datenträger in das SAN im neuen Rechenzentrum. Das System überprüft daraufhin die Integrität des kopierten Datenträgers und entfernt den ursprünglichen portierbaren Datenträger aus dem ursprünglichen Rechenzentrum-SAN.
+Wenn ein portierbarer Speicherdatenträger an einen virtuellen Server in einem anderen Rechenzentrum als der ursprüngliche virtuelle Server angehängt ist, kopiert das interne {{site.data.keyword.cloud_notm}}-System den Datenträger in das SAN im neuen Rechenzentrum. Das System überprüft daraufhin die Integrität des kopierten Datenträgers und entfernt den ursprünglichen portierbaren Datenträger aus dem ursprünglichen Rechenzentrum-SAN.
 
 ## Beschränkungen für LVM
 
