@@ -24,7 +24,8 @@ The following information displays Rest API examples for provisioning public vir
 {:shortdesc}
 
 For more robust API examples, see the following resources:
-* [Softlayer_Virtual_Guest API examples](https://softlayer.github.io/classes/softlayer_virtual_guest/)
+* [Softlayer_Virtual_Guest API examples ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/classes/softlayer_virtual_guest/)
+* [Getting a flavor list ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/article/vsiflavors/)
 
 ## Provisioning a public instance using Create Object
 The *SoftLayer_Virtual_Guest/createObject* API service is the simplest way to provision a public virtual server instance that uses pre-set flavors.
