@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-28"
+lastupdated: "2018-04-04"
 
 
 ---
@@ -25,7 +25,10 @@ Transient virtual servers are ideal for non-production workloads. For example, y
 ## Requirements
 To take advantage of transient instances, you must provision using the following public virtual server selections:
 * Transient
-* Mex01 data center
+* Your host location; you can select from the following data centers:
+    * MEX01 
+    * SEO01
+    * PAR01
 
 Transient instances are public instances that use SAN-backed storage.
 
