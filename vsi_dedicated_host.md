@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-04-10"
 
 
 ---
@@ -19,7 +19,7 @@ lastupdated: "2017-10-24"
 
 # Dedicated hosts and dedicated instances 
 
-Dedicated hosts are virtual servers that allow you to specify in which data center and POD you want the host placed. You then assign instances, or virtual machines, to a specific host for maximum control over workload placement and flexible cost-provisioning options.
+Dedicated hosts are virtual servers that allow you to specify the data center and POD in which you want your host placed. You then assign instances, or virtual machines, to a specific host for maximum control over workload placement and for flexible cost-provisioning options.
 {:shortdesc}
 
 ## Guaranteed capacity
@@ -30,3 +30,13 @@ You can view overall resource consumption for all dedicated instances assigned t
 
 ## Post-deployment management
 In addition to guaranteed capacity and visibility to your workloads, you can migrate your dedicated instances between dedicated hosts for maximum control over workload placement.
+
+## Maintenance
+Occasionally, infrastructure maintenance requires a dedicated host to restart. For example, the Xen hypervisor might need an update. If you have multiple dedicated hosts, you have the following options to minimize maintenance downtime. 
+* Maintenance is done by PODs within a data center. You can deploy your dedicated hosts to separate PODs to spread out the required maintenance. 
+* You can create a support ticket for a dedicated host to request that a scheduled maintenance be delayed. During that time, you can migrate dedicated instances (offline) between dedicated hosts in the same POD.
+
+## High availability
+If a dedicated host fails, the workloads on the dedicated host are automatically migrated to a new dedicated host. Dedicated instances remain dedicated throughout the lifecycle of the virtual server.
+
+For high availability scenarios, you might want to consider having an extra dedicated host designated. For example, the additional dedicated host provides you the flexibility to migrate workloads for maintenance windows.
