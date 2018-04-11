@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2018
+lastupdated: "2018-04-11"
 
 ---
 {:shortdesc: .shortdesc}
@@ -24,4 +24,4 @@ For more information about eVault back-up services, see [Getting Started with Ba
 
 Continuous Data Protection (CDP) is a high-performance backup software created by R1Soft that allows for backup of both physical and virtual devices. Idera CDP consists of three main components: the CDP server, the agent, and the database plugins, which are available for purchase separately from the first two components.  Because R1Soft CDP is a third-party backup solution, interactions with CDP take place entirely outside of {{site.data.keyword.Bluemix_short}} proprietary interfaces; however, R1Soft CDP passwords may be tracked and stored within {{site.data.keyword.slportal_full}}.  All other interactions with R1Soft CDP are documented on the R1Soft website.
 
-For more information about R1Soft CDP back-up services, see [Getting Started with Backup Services](../infrastructure/Backup/index.html){: new_window}.
+For more information about R1Soft CDP back-up services, see [R1Soft Documentation ![External link icon](../icons/launch-glyph.svg "External link icon")](http://wiki.r1soft.com/display/ServerBackupManager/Home){: new_window}.
