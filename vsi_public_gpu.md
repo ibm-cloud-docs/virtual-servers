@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-2-27"
+lastupdated: "2018-4-18"
 
 
 ---
@@ -19,7 +19,7 @@ lastupdated: "2018-2-27"
 # GPU
 GPU flavors are best for high performance workloads that require more compute density to reduce resource management and costs. GPUs are ideal for intense graphic and data applications, or developing new applications that require fast performance.
 
-Powered by NVDIA Tesla P100 GPUs, {{site.data.keyword.cloud_notm}} Accelerated Compute “ac1” family offers both block (ac1) and local SSD storage (acl1). The following GPU flavors are available for you to choose from:  
+Powered by NVDIA Tesla P100 GPUs, {{site.data.keyword.cloud_notm}} Accelerated Compute “ac1” flavor offers both block (ac1) and local SSD storage (acl1). The following GPU flavors are available for you to choose from:  
 
 <table>
 
@@ -101,7 +101,7 @@ Powered by NVDIA Tesla P100 GPUs, {{site.data.keyword.cloud_notm}} Accelerated C
 ## Before you begin
 Review the following GPU prerequisites.
 
-1. GPU Family virtual servers are only available on an operating system that supports Hardware Virtual Machine (HVM) boot mode. See the following list for operating systems that HVM boot mode.  
+1. GPU flavor virtual servers are only available on an operating system that supports Hardware Virtual Machine (HVM) boot mode. See the following list for operating systems that HVM boot mode.  
   - CentOS 7
   - Debian 8
   - RHEL 7
