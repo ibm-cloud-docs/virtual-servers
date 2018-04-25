@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-4-18"
+lastupdated: "2018-4-25"
 
 
 ---
@@ -17,84 +17,67 @@ lastupdated: "2018-4-18"
 {:table: .aria-labeledby="caption"}
 
 # GPU
-GPU flavors are best for high performance workloads that require more compute density to reduce resource management and costs. GPUs are ideal for intense graphic and data applications, or developing new applications that require fast performance.
+GPU flavors are best for high performance workloads that require more compute density to reduce resource management and costs. The GPU flavors are ideal for intense graphic and data applications, or developing new applications that require fast performance.
 
-Powered by NVDIA Tesla P100 GPUs, {{site.data.keyword.cloud_notm}} Accelerated Compute “ac1” flavor offers both block (ac1) and local SSD storage (acl1). The following GPU flavors are available for you to choose from:  
+Powered by NVDIA Tesla P100 GPUs, {{site.data.keyword.cloud_notm}} Accelerated Compute “ac1” flavor offers both block and local SSD storage. The following GPU flavors are available for you to choose from:  
 
-<table>
-
-<caption>Table 1. GPU flavors</caption>
-
-  
-<thead>
-<td rowspan="4"></td>
-  <th colspan="4">GPU Flavors</th>
-<tr>
-  <th>ac1.8x60</th>
-  <th>acl1.8x60</th>
-  <th>ac1.16x120</th>
-  <th>acl1.16x120</th>
-</tr>
-</thead>
+  <table>
+<CAPTION>Table 1. GPU flavors</CAPTION>
+<THEAD>
+<TR>
+<th>Flavor</th>
+<th>GPU</th>
+<th>GPU RAM (GB)</th>
+<th>vCPU</th>
+<th>vCPU RAM (GB)</th>
+<th>Storage Type</th>
+<th>Boot Disc (GB)</th>
+<th>Secondary Disc (GB)</th>
+</TR>
+</THEAD>
 <TBODY>
 <tr>
-  <th><b>GPU</b></th>
-  <td>1 x P100</td>
-  <td>1 x P100</td>
-  <td>2 x P100</td>
-  <td>2 x P100</td>
+<td>ac1.8x60</td>
+<td>1 P100</td>
+<td>16</td>
+<td>8</td>
+<td>60</td>
+<td>Block (SAN)</td>
+<td>25 and 100</td>
+<td>4 x 2000</td>
 </tr>
 <tr>
-  <th><b>GPU RAM (GB)</b></th>
-  <td>16</td>
-  <td>16</td>
-  <td>32</td>
-  <td>32</td>
+<td>ac1.8x60</td>
+<td>1 P100</td>
+<td>16</td>
+<td>8</td>
+<td>60</td>
+<td>Local SSD</td>
+<td>100</td>
+<td>2 x 300</td>
 </tr>
-
 <tr>
-  <th><b>vCPU</b></th>
-  <td>8</td>
-  <td>8</td>
-  <td>16</td>
-  <td>16</td>
+<td>ac1.16x120</td>
+<td>2 P100</td>
+<td>32</td>
+<td>16</td>
+<td>120</td>
+<td>Block (SAN)</td>
+<td>25 and 100</td>
+<td>4 x 2000</td>
 </tr>
-
 <tr>
-  <th><b>vCPU RAM (GB)</b></th>
-  <td>60</td>
-  <td>60</td>
-  <td>120</td>
-  <td>120</td>
-</tr>
-
-<tr>
-  <th><b>Storage Type</b></th>
-  <td>Block (SAN)</td>
-  <td>Local SSD</td>
-  <td>Block (SAN)</td>
-  <td>Local SSD</td>
-</tr>
-
-<tr>
-  <th><b>Boot Disc (GB)</b></th>
-  <td>25 and 100</td>
-  <td>100</td>
-  <td>25 and 100</td>
-  <td>100</td>
-</tr>
-
-<tr>
-  <th><b>Secondary Disc (GB)</b></th>
-  <td>4 x 2000</td>
-  <td>2 x 300</td>
-  <td>4 x 2000</td>
-  <td>2 x 300</td>
-</tr>
+<td>ac1.16x120</td>
+<td>2 P100</td>
+<td>32</td>
+<td>16</td>
+<td>120</td>
+<td>Local SSD</td>
+<td>100</td>
+<td>2 x 600</td></tr>
 
 </TBODY>
 </table>
-
 
 **Note:** GPU flavors are available in the _DAL13_ datacenter.
 
@@ -108,8 +91,7 @@ Review the following GPU prerequisites.
   - Windows 2012 R2
   - Windows 2016
 
-2. Appropriate NVIDIA drivers and software must be installed. For more information about software and NVIDIA drivers, see [Installing GPU drivers and software packages](../vsi/vsi_gpu_nvidia_drivers.html).
-
+2. Appropriate NVIDIA drivers and software must be installed. For more information about software and NVIDIA drivers, see [Installing GPU drivers and software packages](../vsi/vsi_gpu_nvidia_drivers.html).  
 **Note:** The software that you install might have prerequisite software and operating system-specific configurations.
 
 
