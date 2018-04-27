@@ -94,6 +94,7 @@ IBM Cloud Virtual Servers
             vsi_upgrading_port_speeds_windows.md
             vsi_downgrading_port_speeds.md
         vsi_autoscale_intro.md
+        add-provisioning-script.md
      
     {: .topicgroup}
     Managing security
