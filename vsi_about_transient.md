@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-26"
+lastupdated: "2018-04-27"
 
 
 ---
@@ -33,7 +33,7 @@ To take advantage of transient instances, you must provision using the following
 Transient instances are public instances that use SAN-backed storage.
 
 ## Notifications
-You can use the {{site.data.keyword.slapi_short}} to receive notifications when resources are available for a transient instance. You can also use the API to programmatically provision a transient virtual server when resources become available. Likewise, you can use the API to programmatically stop provisioning instances when resources become unavailable. For more information, see [Configuring automated reclaim notifications](configuring-automated-reclaim-notifications.md).
+You can use the {{site.data.keyword.slapi_short}} to receive notifications when resources are available for a transient instance. You can also use the API to programmatically provision a transient virtual server when resources become available. Likewise, you can use the API to programmatically stop provisioning instances when resources become unavailable. For more information, see [Configuring automated reclaim notifications](configuring-automated-reclaim-notifications.html).
 
 ## Limitations
 Consider the following limitations before provisioning a transient virtual server.
