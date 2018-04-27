@@ -15,7 +15,7 @@ Use provisioning scripts to specify a URL to a script to be run on a newly provi
 * Using **HTTPS protocol** downloads and runs the script automatically, if possible. If the URL is not associated to an executable script, the script is downloaded and no further action must be taken.
 
 ## Accessing the provisions scripts screen
-1. Enter the [{{site.data.keyword.slportal_full}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} with your unique credentials.
+1. Enter the [{{site.data.keyword.slportal_full}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} with your unique credentials.
 2. Select **Devices > Manage > Provisioning Scripts** from navigation to access the provisioning scripts screen.
 
 
