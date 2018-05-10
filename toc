@@ -115,10 +115,6 @@ IBM Cloud Virtual Servers
         [Installing ClamAV](../infrastructure/software/install-clamav.html)
         [Notifying Users of an Approaching Bandwidth Limitation in cPanel/WHM](../infrastructure/software/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
         vsi_gpu_nvidia_drivers.md
-        
-    {: .topicgroup}
-    R1Soft
-        [Restoring a server from an R1Soft image](../infrastructure/software/r1soft-cdp-bare-metal-restore-procedures.html)
  
     {: .topicgroup}
     Migrating
@@ -133,6 +129,7 @@ IBM Cloud Virtual Servers
     Backing up and recovering
         vsi_backup.md
         vsi_launch_rescue.md
+        [Restoring a server from an R1Soft image](../infrastructure/software/r1soft-cdp-bare-metal-restore-procedures.html)
         
     {: .topicgroup}
     Related links
