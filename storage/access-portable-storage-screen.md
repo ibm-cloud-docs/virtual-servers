@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-09-06"
+  years: 2014, 2018
+lastupdated: "2018-05-11"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,13 +9,11 @@ lastupdated: "2017-09-06"
 
 # Accessing portable storage
 
-## Overview
+Portable Storage Volumes (PSVs) are an auxiliary storage solution exclusively for {{site.data.keyword.virtualmachinesshort}}. Within the [{{site.data.keyword.slportal_full}} !{External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}, you can access portable storage volumes from the *Portable Storage* page, which displays all PSVs and is the location where volumes can be attached, detached, swapped, and edited. 
 
-Portable Storage Volumes (PSVs) are an auxiliary storage solution exclusively for {{site.data.keyword.virtualmachinesshort}}. Within the [Customer Portal](https://control.softlayer.com/){:new_window}, you can access portable storage volumes from the *Portable Storage* page, which displays all PSVs and is the location where volumes can be attached, detached, swapped, and edited. 
+## Accessing the Portable Storage page
 
-## Accessing the portable storage page
-
-1. Access the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) using your unique credentials.
+1. Access the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} using your unique credentials.
 * Select **Storage > Block Storage** in the **Navigation Bar** to access the Portable Storage page.
 * Click on the **Action** button next to the portable storage and click on the attach option.
 * On the next screen choose the device that needs the storage attached.
@@ -30,7 +28,7 @@ From the *Portable Storage* page, PSVs may be edited, attached, detached and swa
 
 Portable storage attached to a server is listed on the server's *Device Details* page.
 
-1. Access the  [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) using your unique credentials.
+1. Access the  [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} using your unique credentials.
 * Select **Devices > Device List** in the **Navigation Bar** to access the device list page.
 * Click the virtual servers host name to access the server's device detail's page.
 * Click the *Storage* tab to view the portable storage currently attached to the server.
