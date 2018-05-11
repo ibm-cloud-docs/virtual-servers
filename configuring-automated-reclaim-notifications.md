@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-04-23"
+lastupdated: "2018-05-11"
 
 
 ---
@@ -47,7 +47,7 @@ The transient virtual server webhook can be set up through the SLDN API by using
 
   `SoftLayer_Virtual_Guest::setWebhook(uri, secret)`
 
-For more information, see the SLDN API method documentation for [webhook set up ![External link icon](../icons/launch-glyph.svg "External link icon")](http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/setWebhook/){: new_window}.
+For more information, see the SLDN API method documentation for [webhook set up ![External link icon](../icons/launch-glyph.svg "External link icon")](http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/setTransientWebhook/){: new_window}.
 
 ### Canceling reclaim-scheduled notifications
 
@@ -55,7 +55,7 @@ To cancel the `reclaim-scheduled` notifications, call the following SLDN API met
 
   `SoftLayer_Virtual_Guest::deleteWebhook()`
 
-For more information, see the SLDN API method documentation for [canceling notifications ![External link icon](../icons/launch-glyph.svg "External link icon")](http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/deleteWebhook/){: new_window}.
+For more information, see the SLDN API method documentation for [canceling notifications ![External link icon](../icons/launch-glyph.svg "External link icon")](http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/deleteTransientWebhook/){: new_window}.
 
 ## Verifying the webhook requests
 
