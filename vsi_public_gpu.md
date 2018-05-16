@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-4-25"
+lastupdated: "2018-5-16"
 
 
 ---
@@ -88,6 +88,7 @@ Review the following GPU prerequisites.
   - CentOS 7
   - Debian 8
   - RHEL 7
+  - Ubuntu 16
   - Windows 2012 R2
   - Windows 2016
 
