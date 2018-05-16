@@ -80,7 +80,7 @@ Powered by NVDIA Tesla P100 GPUs, {{site.data.keyword.cloud_notm}} Accelerated C
 </table>
 
 **Note:** GPU flavors are available in the _DAL13_ datacenter.
-
+<!-- LON06 should be available May 23 and WDC07 end of May-->
 ## Before you begin
 Review the following GPU prerequisites.
 
