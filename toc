@@ -114,6 +114,7 @@ IBM Cloud Virtual Servers
         [Adding IPv6 to Ubuntu systems](../infrastructure/software/adding-ipv6-ubuntu-systems.html)
         [Installing ClamAV](../infrastructure/software/install-clamav.html)
         [Notifying Users of an Approaching Bandwidth Limitation in cPanel/WHM](../infrastructure/software/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
+        [Updating an instance to use a local WSUS server](../infrastructure/software/local-wsus.html)
         vsi_gpu_nvidia_drivers.md
  
     {: .topicgroup}
