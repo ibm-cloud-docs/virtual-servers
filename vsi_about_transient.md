@@ -38,7 +38,7 @@ You can use the {{site.data.keyword.slapi_short}} to receive notifications when 
 ## Limitations
 Consider the following limitations before provisioning a transient virtual server.
 
-* The number of supported, concurrent instances are part of your account-wide device quota. For more information about concurrent instance limits, see [FAQ: Virtual servers](vsi_faqs_vs.html#concurrent).
+* The number of supported, concurrent instances are part of your account-wide device quota. For more information about concurrent instance limits, see [FAQ: Virtual servers](../vsi/vsi_faqs_vs.html#concurrent).
 * Transient instances cannot be upgraded or downgraded.
 * Resources can be reclaimed at any time, without notification.
 * Transient instances cannot use local storage.
