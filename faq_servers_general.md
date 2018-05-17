@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 
 ---
@@ -46,6 +46,7 @@ If the root or administrator password to your server is suddenly not working, th
    * Are you copying and pasting the password? If not, please try to. Please also paste the password in a notepad to ensure no spaces are accidentally being copied with the password.
    * If the server has cPanel on it, is it possible that cPHulk has blocked your IP address due to failed logins? If so, you can access the server using the KVM or IPMI and whitelist your IP address in cPHulk with "/scripts/cphulkdwhitelist" followed by your IP address.
    * Has someone recently tried to change the password for the server by modifying the password in the {{site.data.keyword.slportal}}? Changing the password in the {{site.data.keyword.slportal}} only changes what you see as the password. It does not change the password the server is using. If this has happened, you can contact Support and they can usually recover the original, working password.
+   * You might need to boot into your operating system's rescue mode to be able to reset your password. For more information, see [Launching a rescue kernel](/docs/vsi/vsi_launch_rescue.html).
 
 If these have all been checked and you are still unable to connect to the server using the password, please contact support using a ticket and request a password reset. Support will need to reboot the server in order to reset the password, so please ensure that you are prepared to approve the reboot and/or provide a maintenance time frame in which you would like it done. Most password resets can be accomplished in 15 minutes. In the {{site.data.keyword.slportal}}, you can create a ticket by going to **Support > Add Ticket** and use the subject *"Reboots and Console Access"*.
 
