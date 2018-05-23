@@ -96,7 +96,7 @@ Review the following GPU prerequisites.
 2. Appropriate NVIDIA drivers and software must be installed. For more information about software and NVIDIA drivers, see [Installing GPU drivers and software packages](../vsi/vsi_gpu_nvidia_drivers.html).  
 **Note:** The software that you install might have prerequisite software and operating system-specific configurations.
 
-## Add or remove GPUs 
-You can change the number of GPUs on your virtual server after your initial order. But, that depends on how many GPUs you provisioned. You have one of the following options. <!--From the provisioning order screen, you have one of the following options.-->
-- If one GPU is provisioned, you can add another GPU, or
-- If two GPUs are provisioned, you can fallback to one GPU
+<!--# Add or remove GPUs--> 
+<!--You can change the number of GPUs on your virtual server after your initial order. But, that depends on how many GPUs you provisioned. You have one of the following options.--> <!--From the provisioning order screen, you have one of the following options.-->
+<!-- If one GPU is provisioned, you can add another GPU, or-->
+<!-- If two GPUs are provisioned, you can fallback to one GPU-->
