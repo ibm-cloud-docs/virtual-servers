@@ -68,6 +68,24 @@ The offering is available in the following flavors:
 <td>240 GB</td>
 <td>SAN</td>
 </tr>
+<tr>
+<td>M1.48x384</td>
+<td>48</td>
+<td>384 GB</td>
+<td>SAN</td>
+</tr>
+<tr>
+<td>M1.56x448</td>
+<td>56</td>
+<td>448 GB</td>
+<td>SAN</td>
+</tr>
+<tr>
+<td>M1.64x512</td>
+<td>64</td>
+<td>512 GB</td>
+<td>SAN</td>
+</tr>
 </TBODY>
 </table>
 
