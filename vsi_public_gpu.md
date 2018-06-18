@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-5-30"
+lastupdated: "2018-6-18"
 
 
 ---
@@ -79,8 +79,7 @@ Powered by NVDIA Tesla P100 GPUs, {{site.data.keyword.cloud_notm}} Accelerated C
 </TBODY>
 </table>
 
-**Note:** GPU flavors are available in the _DAL13_ and _LON06_ datacenters.
-<!--WDC07 end of May-->
+**Note:** GPU flavors are available in the _DAL13_, _LON06_,and _WDC07_ datacenters.
 
 ## Before you begin
 Review the following GPU prerequisites.
