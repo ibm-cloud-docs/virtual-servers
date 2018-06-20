@@ -33,7 +33,7 @@ The *SoftLayer_Virtual_Guest/createObject* API service is the simplest way to pr
 Not applicable for transient instances.
 {:tip}
 
-To provision a public virtual server instance using REST, a POST request would be submitted to https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json with the following JSON in the request body.
+To provision a public virtual server instance using REST, a POST request would be submitted to https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ with the following JSON in the request body.
 
 ### JSON Request Body 1
 ```
@@ -210,7 +210,7 @@ To provision a public virtual server using REST, a POST request would be submitt
 
 The *SoftLayer_Virtual_Guest/createObject* API service is the simplest way to provision a transient virtual server instance.
 
-To provision a transient virtual server instance using REST, a POST request would be submitted to https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json with the following JSON in the request body.
+To provision a transient virtual server instance using REST, a POST request would be submitted to https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ with the following JSON in the request body.
 
 ### JSON Request Body 4
 ```
