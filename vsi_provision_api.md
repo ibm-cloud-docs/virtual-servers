@@ -66,7 +66,7 @@ Provisioning a public virtual server that uses pre-set flavors is done using the
 Not applicable for transient instances.
 {:tip}
 
-To provision a public virtual server using REST, a POST request would be submitted to https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json with the below JSON in the request body.
+To provision a public virtual server using REST, a POST request would be submitted to https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ with the below JSON in the request body.
 
 **Note:** The item descriptions are not required on the prices. They are included only to show the product options being submitted.
 
@@ -166,7 +166,7 @@ Upgrading a public virtual server is done using the *SoftLayer_Product_Order/pla
 Not applicable for transient instances.
 {:tip}
 
-To provision a public virtual server using REST, a POST request would be submitted to https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json with the below JSON in the request body.
+To provision a public virtual server using REST, a POST request would be submitted to https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ with the below JSON in the request body.
 
 **Note:** The item descriptions are not required on the prices. They are included only to show the product options being submitted.
 
