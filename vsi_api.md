@@ -37,9 +37,9 @@ For API usage examples, see the following resources:
 * [Python examples ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/python/){: new_window}
 
 ## Dedicated virtual servers usage examples
-* [Get Dedicated Host Allocation ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/python/getdedihostallocation/){: new_window}
-* [Get Dedicated Host Guests ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/python/getdedicatedhostguests/){: new_window}
-* [Migrate a virtual server instance between dedicated hosts ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/python/migratededicatedinstance/){: new_window}
+* [Get Dedicated Host Allocation ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/python/getDediHostAllocation/){: new_window}
+* [Get Dedicated Host Guests ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/python/getDedicatedHostGuests/){: new_window}
+* [Migrate a virtual server instance between dedicated hosts ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/python/migrateDedicatedHost.py/){: new_window}
 
 ## Public virtual servers usage examples
 * [softlayer_virtual_guest API examples ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/classes/softlayer_virtual_guest/){: new_window}
