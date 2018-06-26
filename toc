@@ -134,7 +134,7 @@ IBM Cloud Virtual Servers
         
     {: .topicgroup}
     Related links
-        [Virtual Machine Network Setup](http://knowledgelayer.softlayer.com/learning/virtual-machine-network-setup)
+        [Virtual Machine Network Setup](../infrastructure/virtualization/virtual-machine-network-setup.html)
         [Control Portal](https://control.softlayer.com/)
     {: .navgroup-end}
 
