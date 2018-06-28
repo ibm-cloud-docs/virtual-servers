@@ -7,6 +7,7 @@ IBM Cloud Virtual Servers
     {: .navgroup id="learn"}
     vsi_index.md
     vsi_about.md
+    vsi_about_suspend.md
     
     {: .topicgroup}
     Provisioning options
