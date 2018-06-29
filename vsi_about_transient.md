@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-27"
+lastupdated: "2018-06-29"
 
 
 ---
@@ -20,15 +20,15 @@ lastupdated: "2018-04-27"
 # Transient virtual servers
 The {{site.data.keyword.BluVirtServers}} transient offering is a good option if you have flexible workloads and want cost savings. You will save money by running your workload on a transient virtual server. Transient instances are provisioned when there is unused capacity available. Therefore, when data center resources are needed for full, on-demand accounts, you can also lose those resources. Transient instances are de-provisioned on a first-on, first-off basis when those resources need to be reclaimed.   
 
-Transient virtual servers are ideal for non-production workloads. For example, you might use a transient instance to test and develop applications, or test scalability in environments that don't require constant uptime.
+Transient virtual servers offer the following flexibility:
 
-## Requirements
-To take advantage of transient instances, you must provision using the following public virtual server selections:
-* Transient
-* Your host location; you can select from the following data centers:
-    * MEX01 
-    * SEO01
-    * PAR01
+* **Global availability** 
+
+    The transient virtual server offering is available in data centers across the globe.
+    
+* **Cost savings** 
+
+    Transient virtual servers are ideal for non-production workloads. For example, you might use a transient instance to test and develop applications, or test scalability in environments that don't require constant uptime.
 
 Transient instances are public instances that use SAN-backed storage.
 
