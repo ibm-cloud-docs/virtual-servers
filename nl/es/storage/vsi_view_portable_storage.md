@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-09-13"
+  years: 2017, 2018
+lastupdated: "2018-05-11"
 
 
 ---
@@ -26,7 +26,7 @@ lastupdated: "2017-09-13"
 
 Para ver el almacenamiento portátil, siga estos pasos:
 
-1. Acceda al [portal del cliente ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/) utilizando sus credenciales exclusivas.
+1. Acceda al [{{site.data.keyword.slportal_full}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/) utilizando sus credenciales exclusivas.
 2. En la lista de dispositivos, pulse el *Nombre de servidor virtual* que contiene el dispositivo de almacenamiento portátil deseado.
 3. Pulse el separador **Configuración**.
 4. Pulse el botón **Ver almacenamiento portátil para este dispositivo**. Se mostrará el almacenamiento portátil correspondiente al dispositivo.

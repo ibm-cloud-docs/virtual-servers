@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-09-14"
+  years: 2014, 2018
+lastupdated: "2018-05-11"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,13 +9,11 @@ lastupdated: "2017-09-14"
 
 # Edición de una descripción de almacenamiento portátil
 
-## Visión general
-
-Puede ver volúmenes de almacenamiento portátil (PSVs) en el {{site.data.keyword.slportal}}. La página de almacenamiento portátil muestra la descripción, la ubicación, la capacidad y el nombre de dispositivo de PSV al que está asociado el PSV. Puede actualizar la descripción en cualquier momento. Se recomienda actualizar cada descripción PSV a un identificador exclusivo relacionado con el uso del PSV. 
+Puede ver volúmenes de almacenamiento portátil (PSV) en el {{site.data.keyword.slportal_full}}. La página de almacenamiento portátil muestra la descripción, la ubicación, la capacidad y el nombre de dispositivo de PSV al que está asociado el PSV. Puede actualizar la descripción en cualquier momento. Actualice cada descripción de PSV a un identificador exclusivo relacionado con el uso del PSV. 
 
 ## Edición de una descripción del PSV
 
-1. Acceda al **Almacenamiento portátil** en el [Portal del cliente ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/). Para obtener más información, consulte [Acceso al almacenamiento portátil](access-portable-storage-screen.html){:new_window}.
+1. Acceda a **Almacenamiento portátil** en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window}. Para obtener más información, consulte [Acceso al almacenamiento portátil](access-portable-storage-screen.html){:new_window}.
 * Localice los volúmenes de almacenamiento portátil que desee.<br/>**Nota:** Utilice la herramienta **Filtro** para ubicar rápidamente un volumen en una larga lista. 
 * Pulse la sección **Descripción** para que PSV abra la descripción para las ediciones.
 * Especifique o revise el contenido del campo **Descripción**, según sea necesario.

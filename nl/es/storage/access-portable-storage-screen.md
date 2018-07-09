@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-09-06"
+  years: 2014, 2018
+lastupdated: "2018-05-11"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,13 +9,11 @@ lastupdated: "2017-09-06"
 
 # Acceso a almacenamiento portátil
 
-## Visión general
+Los Volúmenes de almacenamiento portátiles (PSV) son una solución de almacenamiento auxiliar exclusivamente para {{site.data.keyword.virtualmachinesshort}}. En del [{{site.data.keyword.slportal_full}} !{Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window}puede acceder a los volúmenes de almacenamiento portátiles desde la página *Almacenamiento portátil*, que muestra todos los PSV y que es la ubicación donde se pueden conectar, desconectar, intercambiar y editar los volúmenes. 
 
-Los Volúmenes de almacenamiento portátiles (PSV) son una solución de almacenamiento auxiliar exclusivamente para {{site.data.keyword.virtualmachinesshort}}. En el [Portal del cliente](https://control.softlayer.com/){:new_window}, puede acceder a los volúmenes de almacenamiento portátiles desde la página *Almacenamiento portátil*, que muestra todos los PSV y que es la ubicación donde se pueden conectar, desconectar, intercambiar y editar los volúmenes. 
+## Acceso a la página Almacenamiento portátil
 
-## Acceso a la página de almacenamiento portátil
-
-1. Acceda al [Portal del cliente ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/) utilizando sus credenciales exclusivas.
+1. Acceda a [{{site.data.keyword.slportal}} ![icono de enlace externo](../../icons/launch-glyph.svg "icono de enlace externo")](https://control.softlayer.com/){: new_window} mediante sus credenciales únicas.
 * Seleccione **Almacenamiento > Almacenamiento en bloque** en la **Barra de navegación** para acceder a la página Almacenamiento portátil.
 * Pulse el botón **Acción** junto al almacenamiento portátil y pulse la opción Adjuntar.
 * En la pantalla siguiente, elija el dispositivo que necesita el almacenamiento adjunto.
@@ -30,7 +28,7 @@ En la página *Almacenamiento portátil*, se pueden editar, conectar, desconecta
 
 El almacenamiento portátil conectado a un servidor aparece en la página *Detalles de dispositivos* del servidor.
 
-1. Acceda al [Portal del cliente ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/) utilizando sus credenciales exclusivas.
+1. Acceda a [{{site.data.keyword.slportal}} ![icono de enlace externo](../../icons/launch-glyph.svg "icono de enlace externo")](https://control.softlayer.com/){: new_window} mediante sus credenciales únicas.
 * Seleccione **Dispositivos > Lista de dispositivos** en la **Barra de navegación** para acceder a la página de lista de dispositivos.
 * Pulse el nombre de host de los servidores virtuales para acceder a la página de detalles del dispositivo de servidor.
 * Pulse el separador *Almacenamiento* para ver el almacenamiento portátil actualmente conectado al servidor.
