@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-09-13"
+  years: 2017, 2018
+lastupdated: "2018-05-11"
 
 
 ---
@@ -25,7 +25,7 @@ lastupdated: "2017-09-13"
 
 若要檢視可攜式儲存空間，請完成下列步驟：
 
-1. 使用唯一認證來存取[客戶入口網站 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/)。
+1. 使用唯一認證來存取 [{{site.data.keyword.slportal_full}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/)。
 2. 從「裝置清單」中，按一下包含所需可攜式儲存空間裝置的*虛擬伺服器名稱*。
 3. 按一下**配置**標籤。
 4. 按一下**檢視此裝置的可攜式儲存空間**按鈕。即會顯示裝置的可攜式儲存空間。

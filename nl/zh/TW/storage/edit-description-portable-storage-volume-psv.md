@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-09-14"
+  years: 2014, 2018
+lastupdated: "2018-05-11"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,13 +9,11 @@ lastupdated: "2017-09-14"
 
 # 編輯可攜式儲存空間說明
 
-## 概觀
-
-您可以在 {{site.data.keyword.slportal}} 中檢視可攜式儲存磁區 (PSV)。可攜式儲存空間頁面會顯示 PSV 的說明、位置、容量及與 PSV 關聯的裝置名稱。您可以隨時更新說明。建議您將每個 PSV 說明更新為與 PSV 使用相關的唯一 ID。 
+您可以在 {{site.data.keyword.slportal_full}} 中檢視可攜式儲存磁區 (PSV)。可攜式儲存空間頁面會顯示 PSV 的說明、位置、容量及與 PSV 關聯的裝置名稱。您可以隨時更新說明。請將每個 PSV 說明更新為與 PSV 使用相關的唯一 ID。 
 
 ## 編輯 PSV 說明
 
-1. 在[客戶入口網站 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/) 中存取**可攜式儲存空間**。如需相關資訊，請參閱[存取可攜式儲存空間](access-portable-storage-screen.html){:new_window}。
+1. 在 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){: new_window} 中存取**可攜式儲存空間**。如需相關資訊，請參閱[存取可攜式儲存空間](access-portable-storage-screen.html){:new_window}。
 * 尋找您想要的可攜式儲存磁區。<br/>**附註：**使用**過濾器**工具可快速在冗長清單中找到磁區。 
 * 按一下 PSV 的**說明**區段，以開啟說明來進行編輯。
 * 視需要在**說明**欄位中輸入或修訂內容。
