@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-09-13"
+  years: 2017, 2018
+lastupdated: "2018-05-11"
 
 
 ---
@@ -26,7 +26,7 @@ lastupdated: "2017-09-13"
 
 ポータブル・ストレージを表示するには、以下のステップを実行します。
 
-1. 自分固有の資格情報を使用して、[カスタマー・ポータル ![「外部リンク」アイコン](../../icons/launch-glyph.svg "「外部リンク」アイコン")](https://control.softlayer.com/) にアクセスします。
+1. ユーザー固有の資格情報を使用して、[{{site.data.keyword.slportal_full}} ![「外部リンク」アイコン](../../icons/launch-glyph.svg "「外部リンク」アイコン")](https://control.softlayer.com/) にアクセスします。
 2. デバイス・リストから、希望するポータブル・ストレージ・デバイスを含む*仮想サーバー名*をクリックします。
 3. **「構成」**タブをクリックをします。
 4. **「このデバイスのポータブル・ストレージの表示 (View Portable Storage for this Device)」**ボタンをクリックします。 デバイスのポータブル・ストレージが表示されます。
