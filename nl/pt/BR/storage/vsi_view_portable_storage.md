@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-09-13"
+  years: 2017, 2018
+lastupdated: "2018-05-11"
 
 
 ---
@@ -28,8 +28,8 @@ ao seu servidor virtual a qualquer momento.
 
 Para visualizar o armazenamento móvel, conclua as etapas a seguir:
 
-1. Acesse o [Portal do Cliente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/) usando suas credenciais exclusivas.
-2. Na Lista de dispositivos, clique no *Nome do servidor virtual* que contém o dispositivo de armazenamento móvel desejado.
+1. Acesse o [{{site.data.keyword.slportal_full}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/) usando suas credenciais exclusivas.
+2. Na Lista de dispositivos, clique no *Nome do Virtual Server* que contém o dispositivo de armazenamento móvel desejado.
 3. Clique na guia **Configuração**.
 4. Clique no botão **Visualizar armazenamento móvel para este dispositivo**. O armazenamento móvel será exibido para o dispositivo.
 

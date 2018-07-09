@@ -43,9 +43,9 @@ Os servidores virtuais são totalmente compatíveis com o armazenamento SAN de a
 
 Para obter mais informações sobre as opções de armazenamento adicional, consulte os recursos a seguir:
 
-* [Introdução ao Armazenamento de Bloco](/docs/infrastructure/BlockStorage/index.html)
-* [Introdução ao Armazenamento de Arquivo](/docs/infrastructure/FileStorage/index.html)
-* [Introdução ao Armazenamento de Objeto](/docs/services/ObjectStorage/index.html)
+* [Introdução ao Block Storage](/docs/infrastructure/BlockStorage/index.html)
+* [Introdução ao File Storage](/docs/infrastructure/FileStorage/index.html)
+* [Introdução ao Object Storage](/docs/services/ObjectStorage/index.html)
 
 ## Próximas Etapas
 Para obter mais informações sobre como usar os volumes de armazenamento móvel, veja as tarefas a seguir:
