@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-09-13"
+  years: 2017, 2018
+lastupdated: "2018-05-11"
 
 
 ---
@@ -28,7 +28,7 @@ lastupdated: "2017-09-13"
 
 Pour afficher le stockage portable, procédez comme suit :
 
-1. Accédez au [portail client ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/) en utilisant vos données d'identification uniques.
+1. Accédez au portail [{{site.data.keyword.slportal_full}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/) en utilisant vos données d'identification uniques.
 2. Dans la Liste des unités, cliquez sur le nom de serveur virtuel** contenant le terminal de stockage portable souhaité.
 3. Cliquez sur l'onglet **Configuration**.
 4. Cliquez sur le bouton **Afficher le stockage portable pour cette unité**. Le stockage portable s'affiche pour le terminal.

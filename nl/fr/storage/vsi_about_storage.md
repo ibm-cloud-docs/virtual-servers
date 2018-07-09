@@ -31,7 +31,7 @@ Les disques peuvent être reconnectés à un autre serveur, tant que les modific
 
 Les volumes de stockage portable sont des solutions de stockage auxiliaires exclusivement disponibles sur les serveurs {{site.data.keyword.BluVirtServers_short}}. Il est possible de les connecter à un serveur virtuel à tout moment. Ils constituent également une solution idéale si vous souhaitez transférer des données entre des serveurs virtuels qui existent dans n'importe quel centre de données du réseau {{site.data.keyword.cloud_notm}}. Les volumes de stockage portable sont utiles pour les applications de base de données qui nécessitent un accès à un stockage par blocs, brut non formaté et pour le déplacement de jeux de données volumineux entre des serveurs {{site.data.keyword.BluVirtServers_short}}.
 
-Lorsqu'un volume de stockage portable est connecté à un serveur virtuel d'un centre de données autre que celui du serveur virtuel d'origine, le système interne de {{site.data.keyword.cloud_notm}} copie le volume vers le réseau de stockage SAN du nouveau centre de données. Le système vérifie ensuite l'intégrité du volume copié et retire le volume portable d'origine du réseau de stockage SAN du centre de données d'origine.
+Lorsqu'un volume de stockage portable est connecté à un serveur virtuel d'un centre de données autre que celui du serveur virtuel d'origine, le système interne d'{{site.data.keyword.cloud_notm}} copie le volume vers le réseau de stockage SAN du nouveau centre de données. Le système vérifie ensuite l'intégrité du volume copié et retire le volume portable d'origine du réseau de stockage SAN du centre de données d'origine.
 
 ## Limitations de gestion de volume logique (LVM)
 
