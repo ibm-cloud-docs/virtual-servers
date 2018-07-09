@@ -43,9 +43,9 @@ LVM(Logical Volume Management)은 부트 가능한 파티셔닝 스킴으로 지
 
 보조 스토리지 옵션에 대한 자세한 정보는 다음 리소스를 참조하십시오.
 
-* [블록 스토리지 시작하기](/docs/infrastructure/BlockStorage/index.html)
-* [파일 스토리지 시작하기](/docs/infrastructure/FileStorage/index.html)
-* [오브젝트 스토리지 시작하기](/docs/services/ObjectStorage/index.html)
+* [Block Storage 시작하기](/docs/infrastructure/BlockStorage/index.html)
+* [File Storage 시작하기](/docs/infrastructure/FileStorage/index.html)
+* [Object Storage 시작하기](/docs/services/ObjectStorage/index.html)
 
 ## 다음 단계
 휴대용 스토리지 볼륨 사용에 대한 자세한 정보는 다음 태스크를 참조하십시오.
