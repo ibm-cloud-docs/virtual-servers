@@ -85,25 +85,25 @@ lastupdated: "2017-10-24"
 
 * 主机位置；可以从以下 {{site.data.keyword.cloud_notm}} 数据中心中进行选择：
       
-| 数据中心||
+|数据中心||
 | ------------ | ------- | 
-|AMS01         |  MON01  |
-|AMS03         |  OSL01  |
-|CHE01         |  PAR01  |
-|DAL05         |  SAO01  |
-|DAL06         |  SEO01  |
-|DAL09         |  SJC01  |
-|DAL10         |  SJC03  |
-|DAL12         |  SJC04  |
-|DAL13         |  SNG01  | 
-|FRA02         |  SYD01  |
-|HKG02         |  SYD04  |
-|HOU02         |  TOK02  |
-|LON02         |  TOR01  |
-|LON04         |  WDC01  |
-|MEL01         |  WDC04  |
-|MEX01         |  WDC06  |
-|MIL01         |  WDC07  |
+|AMS01         |MON01  |
+|AMS03         |OSL01  |
+|CHE01         |PAR01  |
+|DAL05         |SAO01  |
+|DAL06         |SEO01  |
+|DAL09         |SJC01  |
+|DAL10         |SJC03  |
+|DAL12         |SJC04  |
+|DAL13         |SNG01  | 
+|FRA02         |SYD01  |
+|HKG02         |SYD04  |
+|HOU02         |TOK02  |
+|LON02         |TOR01  |
+|LON04         |WDC01  |
+|MEL01         |WDC04  |
+|MEX01         |WDC06  |
+|MIL01         |WDC07  |
 {: caption="表 2. 支持的数据中心" caption-side="top"}
 
 * 主机的大小根据您将运行的工作负载来确定。缺省值为 56 个核心 X 242 GB RAM X 1.2 TB。 

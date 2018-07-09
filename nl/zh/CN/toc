@@ -7,6 +7,7 @@ IBM Cloud Virtual Servers
     {: .navgroup id="learn"}
     vsi_index.md
     vsi_about.md
+    vsi_about_suspend.md
     
     {: .topicgroup}
     供应选项
@@ -21,7 +22,7 @@ IBM Cloud Virtual Servers
         vsi_dedicated.md
             vsi_dedicated_host.md
             vsi_dedicated_pricing.md
-        [供应脚本](../infrastructure/provisioning-scripts/ps_index.html)
+        vsi_ps_index.md
 
     vsi_image_templates_intro.md
 
@@ -77,6 +78,7 @@ IBM Cloud Virtual Servers
         vsi_reconfigure.md
         vsi_work_image.md
         vsi_ssh_config.md
+        configuring-automated-reclaim-notifications.md
 
     {: .topicgroup}
     管理服务器
@@ -93,6 +95,7 @@ IBM Cloud Virtual Servers
             vsi_upgrading_port_speeds_windows.md
             vsi_downgrading_port_speeds.md
         vsi_autoscale_intro.md
+        add-provisioning-script.md
      
     {: .topicgroup}
     管理安全性
@@ -112,6 +115,7 @@ IBM Cloud Virtual Servers
         [向 Ubuntu 系统添加 IPv6](../infrastructure/software/adding-ipv6-ubuntu-systems.html)
         [安装 ClamAV](../infrastructure/software/install-clamav.html)
         [在 cPanel/WHM 中通知用户接近带宽限制](../infrastructure/software/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
+        [更新实例以使用本地 WSUS 服务器](../infrastructure/software/local-wsus.html)
         vsi_gpu_nvidia_drivers.md
  
     {: .topicgroup}
@@ -124,17 +128,14 @@ IBM Cloud Virtual Servers
         vsi_viewing_monitors.md
 
     {: .topicgroup}
-    备份和恢复
+    备份和复原
         vsi_backup.md
         vsi_launch_rescue.md
-        spare_pools.md
-            add_spare_pool.md
-            cancel_spare_pool.md
-            reactivating_spare_pool_device.md
+        [从 R1Soft 映像复原服务器](../infrastructure/software/r1soft-cdp-bare-metal-restore-procedures.html)
         
     {: .topicgroup}
     相关链接
-        [虚拟机网络设置](http://knowledgelayer.softlayer.com/learning/virtual-machine-network-setup)
+        [虚拟机网络设置](../infrastructure/virtualization/virtual-machine-network-setup.html)
         [控制门户网站](https://control.softlayer.com/)
     {: .navgroup-end}
 

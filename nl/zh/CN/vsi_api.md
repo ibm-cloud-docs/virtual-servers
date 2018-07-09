@@ -25,20 +25,21 @@ lastupdated: "2017-10-25"
 {{site.data.keyword.slapi_short}} 是一种远程过程调用系统。每个调用都涉及向 API 端点发送数据以及接收所返回的结构化数据。通过 {{site.data.keyword.slapi_short}} 发送和接收数据时所使用的格式将取决于您所选择的 API 实现。{{site.data.keyword.slapi_short}} 当前使用 SOAP、XML-RPC 或 REST 进行数据传输。
 
 有关 {{site.data.keyword.slapi_short}} 和虚拟服务器 API 的更多信息，请参阅 {{site.data.keyword.sldn_full}}中的以下资源：
-* [{{site.data.keyword.slapi_short}} 概述 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://sldn.softlayer.com/article/softlayer-api-overview){: new_window} 
-* [{{site.data.keyword.slapi_short}} 入门 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](http://sldn.softlayer.com/article/getting-started){: new_window}
-* [API 参考：SoftLayer_Virtual_Guest::createObject ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](http://sldn.softlayer.com/reference/services/softlayer_virtual_guest/createobject){: new_window}
-* [API 参考：SoftLayer_Product_Order::placeOrder ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](http://sldn.softlayer.com/reference/services/SoftLayer_Product_Order/placeOrder){: new_window}
+* [{{site.data.keyword.slapi_short}} 概述 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://softlayer.github.io/reference/softlayerapi/){: new_window}
+* [ {{site.data.keyword.slapi_short}} 入门 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://softlayer.github.io/article/getting-started/){: new_window}
+* [API 参考：SoftLayer_Virtual_Guest::createObject ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/){: new_window}
+* [API 参考：SoftLayer_Product_Order::placeOrder ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/){: new_window}
 
 有关 API 用法示例，请参阅以下资源：
+* [通过使用 {{site.data.keyword.slapi_short}} 订单 CLI 了解和构建订单 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://softlayer.github.io/article/understanding-ordering/){: new_window}
 * [{{site.data.keyword.slapi_short}} Python 客户机：使用虚拟服务器 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](http://softlayer-python.readthedocs.io/en/latest/cli/vs.html){: new_window}
 * [{{site.data.keyword.slapi_short}} 示例 - 发行说明 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://softlayer.github.io/){: new_window}
 * [Python 示例 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://softlayer.github.io/python/){: new_window}
 
 ## 专用虚拟服务器用法示例
-* [获取专用主机分配 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://softlayer.github.io/python/getdedihostallocation/){: new_window}
-* [获取专用主机访客 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://softlayer.github.io/python/getdedicatedhostguests/){: new_window}
-* [在专用主机之间迁移虚拟服务器实例 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://softlayer.github.io/python/migratededicatedinstance/){: new_window}
+* [获取专用主机分配 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://softlayer.github.io/python/getDediHostAllocation/){: new_window}
+* [获取专用主机访客 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://softlayer.github.io/python/getDedicatedHostGuests/){: new_window}
+* [在专用主机之间迁移虚拟服务器实例 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://softlayer.github.io/python/migrateDedicatedHost.py/){: new_window}
 
 ## 公共虚拟服务器用法示例
 * [softlayer_virtual_guest API 示例 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://softlayer.github.io/classes/softlayer_virtual_guest/){: new_window}

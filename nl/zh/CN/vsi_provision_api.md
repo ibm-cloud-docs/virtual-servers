@@ -24,7 +24,8 @@ lastupdated: "2018-02-28"
 {:shortdesc}
 
 要获取更稳健的 API 示例，请参阅以下资源：
-* [Softlayer_Virtual_Guest API 示例](https://softlayer.github.io/classes/softlayer_virtual_guest/)
+* [Softlayer_Virtual_Guest API 示例 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://softlayer.github.io/classes/softlayer_virtual_guest/)
+* [获取类型模板列表 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://softlayer.github.io/article/vsiflavors/)
 
 ## 使用创建对象供应公共实例
 要供应使用预设置类型模板的公共虚拟服务器实例，使用 *SoftLayer_Virtual_Guest/createObject* API 服务是最简单的方法。
@@ -32,7 +33,7 @@ lastupdated: "2018-02-28"
 不适用于瞬态实例。
 {:tip}
 
-要使用 REST 来供应公共虚拟服务器实例，请在请求主体中使用以下 JSON 将 POST 请求提交到 https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json。
+要使用 REST 来供应公共虚拟服务器实例，将在请求主体中使用以下 JSON 将 POST 请求提交到 https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/。
 
 ### JSON 请求主体 1
 ```
@@ -65,7 +66,7 @@ lastupdated: "2018-02-28"
 不适用于瞬态实例。
 {:tip}
 
-要使用 REST 来供应公共虚拟服务器，请在请求主体中使用以下 JSON 将 POST 请求提交到 https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json。
+要使用 REST 来供应公共虚拟服务器，将在请求主体中使用以下 JSON 将 POST 请求提交到 https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/。
 
 **注**：价格上不需要项目描述。仅在显示要提交的产品选项时才包含项目描述。
 
@@ -165,7 +166,7 @@ lastupdated: "2018-02-28"
 不适用于瞬态实例。
 {:tip}
 
-要使用 REST 来供应公共虚拟服务器，请在请求主体中使用以下 JSON 将 POST 请求提交到 https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json。
+要使用 REST 来供应公共虚拟服务器，将在请求主体中使用以下 JSON 将 POST 请求提交到 https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/。
 
 **注**：价格上不需要项目描述。仅在显示要提交的产品选项时才包含项目描述。
 
@@ -209,7 +210,7 @@ lastupdated: "2018-02-28"
 
 要供应瞬态虚拟服务器实例，使用 *SoftLayer_Virtual_Guest/createObject* API 服务是最简单的方法。
 
-要使用 REST 来供应瞬态虚拟服务器实例，将在请求主体中使用以下 JSON 将 POST 请求提交到 https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json。
+要使用 REST 来供应瞬态虚拟服务器实例，将在请求主体中使用以下 JSON 将 POST 请求提交到 https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/。
 
 ### JSON 请求主体 4
 ```

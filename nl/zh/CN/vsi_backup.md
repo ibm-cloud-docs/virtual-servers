@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2018
+lastupdated: "2018-04-11"
 
 ---
 {:shortdesc: .shortdesc}
@@ -24,4 +24,5 @@ EVault Backup 是一种基于代理程序的自动备份系统，通过 EVault W
 
 Continuous Data Protection (CDP) 是 R1Soft 创建的高性能备份软件，用于备份物理和虚拟设备。Idera CDP 包含三个主要组件：CDP 服务器、代理程序和数据库插件；数据库插件可与前两个组件分开购买。由于 R1Soft CDP 是第三方备份解决方案，因此与 CDP 的交互完全在 {{site.data.keyword.Bluemix_short}} 专有接口外部执行；但是，可以在 {{site.data.keyword.slportal_full}}中跟踪和存储 R1Soft CDP 密码。与 R1Soft CDP 的其他所有交互都会在 R1Soft Web 站点上进行记录。
 
-有关 R1Soft CDP 备份服务的更多信息，请参阅[备份服务入门](../infrastructure/Backup/index.html){: new_window}。
+有关 R1Soft CDP 备份服务的更多信息，请参阅 [R1Soft 文档 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](http://wiki.r1soft.com/display/ServerBackupManager/Home){: new_window}。
+

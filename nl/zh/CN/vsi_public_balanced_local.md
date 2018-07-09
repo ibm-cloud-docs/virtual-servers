@@ -263,7 +263,7 @@ lastupdated: "2017-11-08"
 |DAL13        |OSL01  |TOR01  |
 |FRA02         |PAR01  |WDC04  |
 |LON02         |SAO01  |WDC06  |
-|LON04         |SEO01  | WDC07  | 
+|LON04         |SEO01  |WDC07  | 
 {: caption="表 2. 支持的数据中心（本地 SSD）" caption-side="top"}
 
 所有支持的操作系统（例如，RHEL、CentOS、Windows、Ubuntu 和其他操作系统）、支持的数据库以及软件附加组件也都可用于此产品。  

@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 
 ---
@@ -73,7 +73,7 @@ lastupdated: "2017-10-24"
 5. 验证是否选择了正确的设备。
 6. 单击**更新设备访问权**。
 
-**注**：您还可以使用 SoftLayer_User_Customer::addBulkDedicatedHostAccess API 服务，向用户授予对一个或多个专用主机的访问权。有关更多信息，请参阅[批量添加专用主机访问权 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](http://sldn.softlayer.com/reference/services/softlayer_user_customer/addbulkdedicatedhostaccess){: new_window}。  
+**注**：您还可以使用 SoftLayer_User_Customer::addBulkDedicatedHostAccess API 服务，向用户授予对一个或多个专用主机的访问权。有关更多信息，请参阅[批量添加专用主机访问权 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://softlayer.github.io/reference/services/SoftLayer_User_Customer/addBulkDedicatedHostAccess/){: new_window}。  
 
 ## 后续步骤
 在提交更改后，将立即更新用户许可权。如果授予了许可权，那么用户可以查看所选功能或与其进行交互。如果除去了许可权，那么用户将无法再查看所选功能或与其进行交互。许可权可以随时再次更新。

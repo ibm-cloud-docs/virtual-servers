@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 
 ---
@@ -27,8 +27,16 @@ lastupdated: "2017-10-24"
 
 1. 使用您的唯一凭证来访问 [{{site.data.keyword.slportal}} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/)。
 2. 在“设备列表”中，单击要急救的设备的名称。
-3. 单击右上角的*操作*下拉列表，然后选择**急救**。
+3. 单击右上角的*操作*下拉列表，然后选择**急救**。（或者，您可以单击*远程管理*选项卡，选择**急救**。）
 4. 单击**是**按钮以将设备立即转换为急救内核。单击**否**按钮以取消操作。
+
+## 在 Windows VSI 上
+
+1. 使用您的唯一凭证来访问 [{{site.data.keyword.slportal}} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/)。
+2. 在“设备列表”中，单击要急救的设备的名称。
+3. 单击右上角的*操作*下拉列表，然后选择**从映像引导**。
+4. 选择公共映像 *WindowsRescueStandalone.iso* 旁的**从此映像引导**。
+
 
 ## 后续步骤
 启动急救内核后，设备会断电并重新引导到设备操作系统的急救内核。这可能需要几分钟时间。
