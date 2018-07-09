@@ -21,7 +21,7 @@ lastupdated: "2018-02-12"
 공용 가상 서버를 프로비저닝할 때는 다음 선택을 수행해야 합니다.
 
 ## 위치
-배치할 특정 데이터 센터를 선택할 수 있습니다. 새 배치의 경우, {{site.data.keyword.Bluemix}}는 자동으로 최적의 데이터 센터(가용성을 기반으로)를 식별하고 적절한 공용 및 사설 VLAN을 작성합니다. 기존 환경에 추가하는 경우에는 디자인에 필요한 특정 데이터 센터, VLAN 및 서브넷을 선택할 수 있습니다. VLAN 및 서브넷에 대한 자세한 정보는 [VLAN 시작하기](/docs/infrastructure/vlans/getting-started.html)를 참조하십시오. 
+배치할 특정 데이터 센터를 선택할 수 있습니다. 새 배치의 경우, {{site.data.keyword.Bluemix}}는 자동으로 최적의 데이터 센터(가용성을 기반으로)를 식별하고 적절한 공용 및 사설 VLAN을 작성합니다. 기존 환경에 추가하는 경우에는 디자인에 필요한 특정 데이터 센터, VLAN 및 서브넷을 선택할 수 있습니다. VLAN 및 서브넷에 대한 자세한 정보는 [VLAN 시작하기](/docs/infrastructure/vlans/getting-started.html)를 참조하십시오.
 
 서브넷 선택은 선택사항이며 디바이스가 서브넷의 IP 주소를 사용해야 하는 경우에만 사용됩니다. 서브넷을 선택하는 경우, 요청 처리를 위한 충분한 IP 주소가 있는지 확인하십시오. 서브넷에 대해 충분한 IP 주소가 없는 경우에는 주문이 지연되거나 취소될 수 있습니다.
 {:tip}
@@ -37,7 +37,7 @@ RAM은 매우 직관적입니다. 이 오퍼링은 선택한 양의 RAM을 사�
 
 서버에 배치될 운영 체제 또한 선택할 수 있습니다. 선택할 수 있는 무료 옵션에는 CentOS 및 Ubuntu 등과 같은 몇 가지 옵션이 있습니다. Windows Server 및 Red Hat Enterprise Linux(RHEL)와 같은 유료 옵션 또한 사용 가능합니다. Windows는 100GB의 기본 디스크를 필요로 한다는 점을 참고하십시오.
 
-기존 고객의 경우에는 **디바이스 -> 관리 -> 이미지**로 이동하여 *조치* 메뉴에서 **가상 서버 주문**을 선택하여 {{site.data.keyword.slportal_full}}을 통해 이미지 템플리트를 기반으로 배치할 수도 있습니다.  이는 주문에 적합한 운영 체제를 자동으로 선택합니다.  또는, 표준 이미지를 기반으로 주문한 후 언제든지 이미지 템플리트로 다시 로드할 수도 있습니다.
+기존 고객의 경우에는 **디바이스 -> 관리 -> 이미지**로 이동하여 *조치* 메뉴에서 **Virtual Server 주문**을 선택하여 {{site.data.keyword.slportal_full}}을 통해 이미지 템플리트를 기반으로 배치할 수도 있습니다.  이는 주문에 적합한 운영 체제를 자동으로 선택합니다.  또는, 표준 이미지를 기반으로 주문한 후 언제든지 이미지 템플리트로 다시 로드할 수도 있습니다.
 
 ## 스토리지
 
@@ -67,23 +67,23 @@ RAM은 매우 직관적입니다. 이 오퍼링은 선택한 양의 RAM을 사�
 
 보안 그룹을 사용하여 가상 서버 인스턴스의 공용 및 개인용 인터페이스에 대한 수신 및 발신 트래픽을 처리하는 방법을 정의하는 IP 필터 규칙 세트를 설정할 수도 있습니다.
 
-자세한 정보는 다음 보안 주제 콜렉션을 참조하십시오. 
+자세한 정보는 다음 보안 주제 콜렉션을 참조하십시오.
 
-* [하드웨어 방화벽(공유)](../infrastructure/hardware-firewall-shared/getting-started.html)
-* [하드웨어 방화벽(전용)](../infrastructure/hardware-firewall-dedicated/getting-started.html)
+* [Hardware Firewall (공유)](../infrastructure/hardware-firewall-shared/getting-started.html)
+* [Hardware Firewalls (Dedicated)](../infrastructure/hardware-firewall-dedicated/getting-started.html)
 * [보안 그룹 시작하기](/docs/infrastructure/security-groups/sg_index.html)
 
 ## 모니터링
 
 가상 서버에 대해 다양한 모니터링 옵션을 선택할 수 있습니다. 옵션에는 ping 및 TCP 서비스 응답을 통해 모니터하며 고장 발생 시 선택적 응답이 있는 표준 모니터링이 포함되어 있습니다. 가상 서버 및 설치된 소프트웨어에 대해 더 많은 모니터링 기능 세트를 제공하는 Nimsoft 소프트웨어를 사용하는 고급 모니터링을 추가할 수도 있습니다.
 
-자세한 정보는 [모니터링](../infrastructure/SLmonitoring/monitoring_index.html)을 참조하십시오. 
+자세한 정보는 [모니터링](../infrastructure/SLmonitoring/monitoring_index.html)을 참조하십시오.
 
 ## 백업
 
 주문 프로세스 중에 EVault 백업을 추가할 수 있습니다. 기존 R1soft 백업 환경을 위해 R1soft 라이센스를 구입하거나 써드파티 백업 솔루션을 이용하도록 선택할 수도 있습니다.
 
-자세한 정보는 [디바이스를 eVault에 재등록](../infrastructure/Backup/how-do-i-re-register-evault.html)을 참조하십시오. 
+자세한 정보는 [디바이스를 eVault에 재등록](../infrastructure/Backup/how-do-i-re-register-evault.html)을 참조하십시오.
 
 ## 프로비저닝 후 스크립트
 

@@ -17,15 +17,15 @@ lastupdated: "2017-08-10"
 {:table: .aria-labeledby="caption"}
 
 # Balanced
-균형 특색(NAS(Network-Attached Storage)에 적용)은 리소스가 초과 구독되지 않으므로 고성능을 제공합니다. 네트워크 성능의 범위는 표준에서 프리미엄입니다. 
+균형 특성(flavor)(NAS(Network-Attached Storage)에 적용)은 리소스가 초과 구독되지 않으므로 고성능을 제공합니다. 네트워크 성능의 범위는 표준에서 프리미엄입니다. 
 
-이 오퍼링은 다음 특색에서 사용 가능합니다.
+이 오퍼링은 다음 특성에서 사용 가능합니다.
 
 <table>
-<CAPTION>표 3. NAS(Network-Attached Storage)의 균형 특색</CAPTION>
+<CAPTION>표 3. NAS(Network-Attached Storage)의 균형 특성</CAPTION>
 <THEAD>
 <TR>
-<th>특색</th>
+<th>특성</th>
 <th>vCPU</th>
 <th>RAM</th>
 <th>스토리지 유형</th>
@@ -118,6 +118,6 @@ lastupdated: "2017-08-10"
 * 최대 2TB의 추가 디스크가 사용 가능(총 5개 디스크가 허용됨)한 SAN 기본 부트 디스크(25GB 또는 100GB)입니다.
 * SAN 스토리지를 사용하는 공용 가상 서버에 대한 가격 책정은 가상 CPU, 메모리 및 최소 기본 부트 디스크를 포함합니다. 추가 디스크 가격은 선택하는 디스크 크기 및 수량에 따라 달라집니다.  
 
-균형 특색(NAS(Network-Attached Storage)에 적용)은 모든 데이터 센터에서 사용 가능합니다.
+균형 특성(NAS(Network-Attached Storage)에 적용)은 모든 데이터 센터에서 사용 가능합니다.
 
 모든 지원 운영 체제(RHEL, CentOS, Windows, Ubuntu 및 기타), 지원 데이터베이스 및 소프트웨어 추가 기능 또한 이 오퍼링과 함께 사용할 수 있습니다.  

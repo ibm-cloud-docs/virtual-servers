@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2018
+lastupdated: "2018-04-11"
 
 ---
 {:shortdesc: .shortdesc}
@@ -24,4 +24,4 @@ EVault 백업 서비스에 대한 자세한 정보는 [백업 서비스 시작�
 
 CDP(Continuous Data Protection)는 실제 및 가상 디바이스를 모두 백업할 수 있도록 하는, R1Soft에서 작성한 고성능 백업 소프트웨어입니다. Idera CDP는 세 가지 기본 CDP 컴포넌트인 CDP 서버, 에이전트, 데이터베이스 플러그인으로 구성되어 있으며, 데이터베이스 플러그인은 앞서 나온 두 컴포넌트와 별도로 구매 가능합니다.  R1Soft CDP는 써드파티 백업 솔루션이므로, CDP와의 상호작용은 전적으로 {{site.data.keyword.Bluemix_short}} 고유 인터페이스 외부에서 진행됩니다. 그러나 R1Soft CDP 비밀번호는 {{site.data.keyword.slportal_full}} 내에 저장하고 추적할 수 있습니다.  R1Soft CDP와의 다른 모든 상호작용은 R1Soft 웹 사이트에 기술되어 있습니다.
 
-R1Soft CDP 백업 서비스에 대한 자세한 정보는 [백업 서비스 시작하기](../infrastructure/Backup/index.html){: new_window}를 참조하십시오.
+R1Soft CDP 백업 서비스에 대한 자세한 정보는 [R1Soft 문서 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](http://wiki.r1soft.com/display/ServerBackupManager/Home){: new_window}를 참조하십시오. 

@@ -29,7 +29,7 @@ lastupdated: "2017-08-23"
 
 **참고:** 가상 서버는 동일 인터페이스의 두 방화벽 어플라이언스로 보호될 수 없습니다. 
 
-자세한 정보는 다음 보안 주제 콜렉션을 참조하십시오. 
+자세한 정보는 다음 보안 주제 콜렉션을 참조하십시오.
 
-* [하드웨어 방화벽(공유)](../infrastructure/hardware-firewall-shared/getting-started.html)
-* [하드웨어 방화벽(전용)](../infrastructure/hardware-firewall-dedicated/getting-started.html)
+* [Hardware Firewall (공유)](../infrastructure/hardware-firewall-shared/getting-started.html)
+* [Hardware Firewalls (Dedicated)](../infrastructure/hardware-firewall-dedicated/getting-started.html)

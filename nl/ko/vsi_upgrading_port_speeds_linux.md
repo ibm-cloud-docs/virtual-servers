@@ -20,7 +20,7 @@ lastupdated: "2017-12-12"
 
 # Linux에서 포트 속도 업그레이드
 
-고객 서버에 대한 기본 포트 속도(공용 및 사설 네트워크 모두)는 10Mbps입니다. 해당 포트 속도 중 하나를 100Mbps 또는 1000Mbps로 업그레이드하려면 영업 부서와 같이 티켓을 여십시오. 영업에서 월별 비용 승인을 요청하고 기술자가 네트워크에서 포트 속도 한계를 변경합니다. 
+고객 서버에 대한 기본 포트 속도(공용 및 사설 네트워크 모두)는 10Mbps입니다. 해당 포트 속도 중 하나를 100Mbps 또는 1000Mbps로 업그레이드하려면 영업 부서와 같이 티켓을 여십시오. 영업에서 월별 비용 승인을 요청하고 기술자가 네트워크에서 포트 속도 한계를 변경합니다.
 
 다음 명령은 서버 연결에 영향을 줍니다. 항상 작업 중이지 않은 IP에 먼저 연결하여 네트워크 연결을 관리하십시오.
 {:tip}
@@ -28,14 +28,14 @@ lastupdated: "2017-12-12"
 다음 명령을 실행하여 연결의 현재 속도를 확인할 수 있습니다.
 
     ```
-    # ethtool eth#   (eth1 for public, eth0 for private)
+        # ethtool eth#   (eth1 for public, eth0 for private)
     ```
     {: pre}
 
 해당 연결에 대한 현재 구성이 출력으로 표시됩니다.
 
     ```
-    root@noc-training-linux [~]# ethtool eth1
+        root@noc-training-linux [~]# ethtool eth1
     ```
     {: screen}
 

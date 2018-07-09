@@ -7,6 +7,7 @@ IBM Cloud Virtual Servers
     {: .navgroup id="learn"}
     vsi_index.md
     vsi_about.md
+    vsi_about_suspend.md
     
     {: .topicgroup}
     프로비저닝 옵션
@@ -21,7 +22,7 @@ IBM Cloud Virtual Servers
         vsi_dedicated.md
             vsi_dedicated_host.md
             vsi_dedicated_pricing.md
-        [프로비저닝 스크립트](../infrastructure/provisioning-scripts/ps_index.html)
+        vsi_ps_index.md
 
     vsi_image_templates_intro.md
 
@@ -77,6 +78,7 @@ IBM Cloud Virtual Servers
         vsi_reconfigure.md
         vsi_work_image.md
         vsi_ssh_config.md
+        configuring-automated-reclaim-notifications.md
 
     {: .topicgroup}
     서버 관리
@@ -93,6 +95,7 @@ IBM Cloud Virtual Servers
             vsi_upgrading_port_speeds_windows.md
             vsi_downgrading_port_speeds.md
         vsi_autoscale_intro.md
+        add-provisioning-script.md
      
     {: .topicgroup}
     보안 관리
@@ -112,6 +115,7 @@ IBM Cloud Virtual Servers
         [Ubuntu 시스템에 IPv6 추가](../infrastructure/software/adding-ipv6-ubuntu-systems.html)
         [ClamAV 설치](../infrastructure/software/install-clamav.html)
         [cPanel/WHM에서 대역폭 제한에 근접할 때 사용자에게 알림](../infrastructure/software/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
+        [로컬 WSUS 서버를 사용하도록 인스턴스 업데이트](../infrastructure/software/local-wsus.html)
         vsi_gpu_nvidia_drivers.md
  
     {: .topicgroup}
@@ -127,14 +131,11 @@ IBM Cloud Virtual Servers
     백업 및 복구
         vsi_backup.md
         vsi_launch_rescue.md
-        spare_pools.md
-            add_spare_pool.md
-            cancel_spare_pool.md
-            reactivating_spare_pool_device.md
+        [R1Soft 이미지로부터 서버 복구](../infrastructure/software/r1soft-cdp-bare-metal-restore-procedures.html)
         
     {: .topicgroup}
     관련 링크
-        [가상 머신 네트워크 설정](http://knowledgelayer.softlayer.com/learning/virtual-machine-network-setup)
+        [가상 머신 네트워크 설정](../infrastructure/virtualization/virtual-machine-network-setup.html)
         [Control Portal](https://control.softlayer.com/)
     {: .navgroup-end}
 

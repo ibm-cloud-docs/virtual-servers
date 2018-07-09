@@ -85,25 +85,25 @@ lastupdated: "2017-10-24"
 
 * 호스트 위치. 사용자는 다음 {{site.data.keyword.cloud_notm}} 데이터 센터를 선택할 수 있습니다.
       
-| 데이터 센터          ||
+|데이터 센터          ||
 | ------------ | ------- | 
-|AMS01         |  MON01  |
-|AMS03         |  OSL01  |
-|CHE01         |  PAR01  |
-|DAL05         |  SAO01  |
-|DAL06         |  SEO01  |
-|DAL09         |  SJC01  |
-|DAL10         |  SJC03  |
-|DAL12         |  SJC04  |
-|DAL13         |  SNG01  | 
-|FRA02         |  SYD01  |
-|HKG02         |  SYD04  |
-|HOU02         |  TOK02  |
-|LON02         |  TOR01  |
-|LON04         |  WDC01  |
-|MEL01         |  WDC04  |
-|MEX01         |  WDC06  |
-|MIL01         |  WDC07  |
+|AMS01         |MON01  |
+|AMS03         |OSL01  |
+|CHE01         |PAR01  |
+|DAL05         |SAO01  |
+|DAL06         |SEO01  |
+|DAL09         |SJC01  |
+|DAL10         |SJC03  |
+|DAL12         |SJC04  |
+|DAL13         |SNG01  | 
+|FRA02         |SYD01  |
+|HKG02         |SYD04  |
+|HOU02         |TOK02  |
+|LON02         |TOR01  |
+|LON04         |WDC01  |
+|MEL01         |WDC04  |
+|MEX01         |WDC06  |
+|MIL01         |WDC07  |
 {: caption="표 2. 지원되는 데이터 센터" caption-side="top"}
 
 * 호스트의 크기는 해당 호스트에서 실행할 워크로드에 따라 결정됩니다. 기본값은 56개 코어 X 242GB RAM X 1.2TB입니다. 

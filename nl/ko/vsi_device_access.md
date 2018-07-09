@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 
 ---
@@ -75,7 +75,7 @@ lastupdated: "2017-10-24"
 5. 올바른 디바이스가 선택되었는지 확인하십시오.
 6. **디바이스 액세스 권한 업데이트**를 클릭하십시오.
 
-**참고:** SoftLayer_User_Customer::addBulkDedicatedHostAccess API 서비스를 사용하여 하나 이상의 전용 호스트에 대한 사용자 액세스 권한을 부여할 수도 있습니다. 자세한 정보는 [대량 전용 호스트 액세스 권한 추가 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](http://sldn.softlayer.com/reference/services/softlayer_user_customer/addbulkdedicatedhostaccess){: new_window}를 참조하십시오.  
+**참고:** SoftLayer_User_Customer::addBulkDedicatedHostAccess API 서비스를 사용하여 하나 이상의 전용 호스트에 대한 사용자 액세스 권한을 부여할 수도 있습니다. 자세한 정보는 [대량 전용 호스트 액세스 권한 추가 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://softlayer.github.io/reference/services/SoftLayer_User_Customer/addBulkDedicatedHostAccess/){: new_window}를 참조하십시오.  
 
 ## 다음 단계
 사용자 권한은 변경사항이 제출된 후 즉시 업데이트됩니다. 권한이 부여된 경우 사용자는 선택한 기능을 보거나 이와 상호작용할 수 있습니다. 권한이 제거된 경우 사용자는 더 이상 선택한 기능을 보거나 이와 상호작용할 수 없습니다. 권한은 언제든지 다시 업데이트할 수 있습니다.

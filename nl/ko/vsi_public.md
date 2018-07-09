@@ -34,17 +34,17 @@ lastupdated: "2017-10-24"
 
 다음 공용 가상 서버가 사용 가능합니다. 
 
-| 공용 가상 서버  | 설명                                                                                              |
+|공용 가상 서버  |설명                                                                                              |
 | ----------------------- | -------------------------------------------------------------------------------------------------------- | 
-| [균형](../vsi/vsi_public_balanced.html) | 성능과 확장성 사이에 균형이 잡혀야 하는 일반 클라우드 워크로드에 가장 적합합니다. NAS(Network-Attached Storage)를 사용합니다.|
-| [균형 로컬 스토리지](../vsi/vsi_public_balanced_local.html) | 높거나 낮은 대기 시간 I/O 성능을 필요로 하는 대형 데이터베이스 클러스터에 가장 적합합니다.|
-| [계산](../vsi/vsi_public_compute.html) | 중간에서 높은 수준의 웹 트래픽 워크로드에 가장 적합합니다.|
-| [메모리](../vsi/vsi_public_memory.html)  | 메모리 캐싱 및 실시간 분석 워크로드에 가장 적합합니다.
-| [GPU](../vsi/vsi_public_gpu.html)  | 고성능 워크로드에 가장 적합합니다.
+|[균형](../vsi/vsi_public_balanced.html) |성능과 확장성 사이에 균형이 잡혀야 하는 일반 클라우드 워크로드에 가장 적합합니다. NAS(Network-Attached Storage)를 사용합니다.|
+|[균형 로컬 스토리지](../vsi/vsi_public_balanced_local.html) |높거나 낮은 대기 시간 I/O 성능을 필요로 하는 대형 데이터베이스 클러스터에 가장 적합합니다.|
+|[계산](../vsi/vsi_public_compute.html) |중간에서 높은 수준의 웹 트래픽 워크로드에 가장 적합합니다.|
+|[메모리](../vsi/vsi_public_memory.html)  |메모리 캐싱 및 실시간 분석 워크로드에 가장 적합합니다.
+|[GPU](../vsi/vsi_public_gpu.html)  |고성능 워크로드에 가장 적합합니다.
 {: caption="표 1. 지원되는 공용 가상 서버" caption-side="top"}
 
 ## 다음 단계
 
-가상 서버 특색을 검토하고 결정한 후에는 공용 가상 서버를 프로비저닝해야 합니다. 시작하려면 다음 정보를 검토하십시오. 
+가상 서버 특성(flavor)을 검토하고 결정한 후에는 공용 가상 서버를 프로비저닝해야 합니다. 시작하려면 다음 정보를 검토하십시오. 
 1. [프로비저닝 선택사항](../vsi/vsi_public_selections.html)
 2. [공용 인스턴스 프로비저닝](../vsi/vsi_provision_public.html)
