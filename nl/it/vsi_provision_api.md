@@ -24,7 +24,8 @@ Le seguenti informazioni visualizzano gli esempi API Rest per il provisioning de
 {:shortdesc}
 
 Per ulteriori esempi API solidi, consulta le seguenti risorse:
-* [Softlayer_Virtual_Guest API examples](https://softlayer.github.io/classes/softlayer_virtual_guest/)
+* [Softlayer_Virtual_Guest API examples ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://softlayer.github.io/classes/softlayer_virtual_guest/)
+* [Getting a flavor list ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://softlayer.github.io/article/vsiflavors/)
 
 ## Provisioning di un'istanza pubblica utilizzando Crea oggetto
 Il servizio API *SoftLayer_Virtual_Guest/createObject* è il modo più semplice per eseguire il provisioning di un'istanza del server virtuale pubblica che utilizza caratteristiche preimpostate.
@@ -32,7 +33,7 @@ Il servizio API *SoftLayer_Virtual_Guest/createObject* è il modo più semplice 
 Non applicabile alle istanze temporanee.
 {:tip}
 
-Per eseguire il provisioning di un'istanza del server virtuale pubblica utilizzando REST, deve essere inviata una richiesta POST all'indirizzo https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json con il seguente JSON nel corpo della richiesta.
+Per eseguire il provisioning di un'istanza del server virtuale pubblica utilizzando REST, deve essere inviata una richiesta POST all'indirizzo https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ con il seguente JSON nel corpo della richiesta.
 
 ### Corpo richiesta JSON 1
 ```
@@ -65,7 +66,7 @@ Il provisioning di un server virtuale che utilizza le caratteristiche preimposta
 Non applicabile alle istanze temporanee.
 {:tip}
 
-Per eseguire il provisioning di un server virtuale utilizzando REST, deve essere inviata una richiesta POST all'indirizzo https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json con il seguente JSON nel corpo della richiesta.
+Per eseguire il provisioning di un server virtuale utilizzando REST, deve essere inviata una richiesta POST all'indirizzo https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ con il seguente JSON nel corpo della richiesta.
 
 **Nota:** le descrizioni degli elementi non sono richieste sui prezzi. Vengono incluse solo per mostrare le opzioni del prodotto che stanno venendo inviate.
 
@@ -165,7 +166,7 @@ L'aggiornamento di un server virtuale pubblico viene eseguito utilizzando il ser
 Non applicabile alle istanze temporanee.
 {:tip}
 
-Per eseguire il provisioning di un server virtuale utilizzando REST, deve essere inviata una richiesta POST all'indirizzo https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json con il seguente JSON nel corpo della richiesta.
+Per eseguire il provisioning di un server virtuale utilizzando REST, deve essere inviata una richiesta POST all'indirizzo https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ con il seguente JSON nel corpo della richiesta.
 
 **Nota:** le descrizioni degli elementi non sono richieste sui prezzi. Vengono incluse solo per mostrare le opzioni del prodotto che stanno venendo inviate.
 
@@ -204,12 +205,12 @@ Per eseguire il provisioning di un server virtuale utilizzando REST, deve essere
     ]
 }
 ```
-## Provisioning di un'istanza temporanea utilizzando Crea oggetto 
+## Provisioning di un'istanza temporanea utilizzando Crea oggetto
 {: #api-rest-transient}
 
 Il servizio API *SoftLayer_Virtual_Guest/createObject* è il modo più semplice per eseguire il provisioning di un'istanza del server virtuale temporanea.
 
-Per eseguire il provisioning di un'istanza del server virtuale temporanea utilizzando REST, deve essere inviata una richiesta POST all'indirizzo https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json con il seguente JSON nel corpo della richiesta. 
+Per eseguire il provisioning di un'istanza del server virtuale temporanea utilizzando REST, deve essere inviata una richiesta POST all'indirizzo https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ con il seguente JSON nel corpo della richiesta.
 
 ### Corpo richiesta JSON 4
 ```

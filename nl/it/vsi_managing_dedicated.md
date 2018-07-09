@@ -48,7 +48,7 @@ La pagina dei dettagli del dispositivo dell'istanza host dedicata, può essere r
 
 L'utilizzo visualizza un grafico tracciato per tempo basato sull'utilizzo della CPU per data. Puoi scorrere sul grafico per visualizzare l'utilizzo di CPU per una data e ora specifica, il che è utile quando tenti di determinare se hai bisogno di aggiungere capacità di elaborazione.
 
-La larghezza di banda è un altro grafico tracciato per tempo che ti consente di immettere i parametri per visualizzare quanta larghezza di banda sta venendo utilizzata nel tempo. La scheda Archiviazione visualizza tutti i i blocchi aggiuntivi o l'archiviazione file nell'istanza.
+La larghezza di banda è un altro grafico tracciato per tempo che ti consente di immettere i parametri per visualizzare quanta larghezza di banda sta venendo utilizzata nel tempo. La scheda Archiviazione visualizza tutti i blocchi aggiuntivi o l'archiviazione file nell'istanza.
 
 # Annulla un host dedicato
 Puoi annullare un host dedicato in qualsiasi momento. Un prerequisito per l'annullamento di un host è di aver migrato le istanze dedicate assegnate ad esso in un altro host dedicato o aver annullato le istanze. 

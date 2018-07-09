@@ -16,7 +16,7 @@ lastupdated: "2017-10-24"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Aggiunta di un script di provisioning personalizzato 
+# Aggiunta di uno script di provisioning personalizzato 
 {: #adding-post-script}
 
 Gli script di provisioning personalizzati consentono agli utenti di specificare un URL in uno script in esecuzione in un dispositivo di cui è appena stato eseguito il provisioning. Puoi pubblicare e gestire gli script di provisioning personalizzati nel {{site.data.keyword.slportal_full}}.
@@ -26,7 +26,7 @@ Quando ordini un dispositivo, puoi selezionare uno script di provisioning person
 
 **Nota:** questa funzione è al momento disponibile solo per sistemi operativi Linux e basati su Unix.
 
-## Aggiunta di un script di provisioning
+## Aggiunta di uno script di provisioning
 
 1. Dal menu **Dispositivi** nel [{{site.data.keyword.slportal}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window}, seleziona **Gestisci** > **Script di provisioning**.
 2. Fai clic su **Aggiungi script di provisioning**.

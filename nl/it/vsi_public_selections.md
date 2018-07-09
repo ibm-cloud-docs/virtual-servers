@@ -45,7 +45,7 @@ Hai l'opzione tra archiviazione locale o SAN per ogni server virtuale. Puoi inte
 
 ## Fatturazione mensile e oraria
 
-Puoi selezionare la fatturazione mensile o oraria per un server virtuale. La differenza principale, è che i server a fatturazione oraria non dispongono di assegnazione di larghezza di banda inclusa. Al termine di un periodo di fatturazione vengono calcolati l'utilizzo della larghezza di banda e il numero di ore in cui ogni server è stato attivo nell'account. Un totale parziale è disponibile nel {{site.data.keyword.slportal}} nella pagina Vista server virtuale con un link a una pagina Dettagli, che mostra ogni elemento di riga, numero di ore e addebiti di esecuzione per ogni elemento.
+Puoi selezionare la fatturazione mensile o oraria per un server virtuale. La differenza principale, è che i server a fatturazione oraria non dispongono di assegnazione di larghezza di banda inclusa. Al termine di un periodo di fatturazione vengono calcolati l'utilizzo della larghezza di banda e il numero di ore in cui ogni server è stato attivo nell'account. Un totale parziale è disponibile nel {{site.data.keyword.slportal}} nella pagina Vista Virtual Server con un link a una pagina Dettagli, che mostra ogni elemento di riga, numero di ore e addebiti di esecuzione per ogni elemento.
 
 ## Larghezza di banda
 
@@ -89,7 +89,7 @@ Per ulteriori informazioni, consulta [Nuova registrazione del tuo dispositivo co
 
 Gli script di post provisioning possono essere associati a un qualsiasi ordine del server virtuale. Questo esegue uno script sviluppato dal cliente dopo il completamento di ogni attività di provisioning. Gli script sono comunemente utilizzati per applicare la configurazione specifica del cliente a un server e per agevolare l'automazione della tua strategia di ridimensionamento.
 
-Per ulteriori informazioni, consulta [Aggiunta di un script di provisioning personalizzato](vsi_add_script.html).
+Per ulteriori informazioni, consulta [Aggiunta di uno script di provisioning personalizzato](vsi_add_script.html).
 
 ## Operazioni successive
 Quando sei pronto ad eseguire il provisioning del tuo server virtuale pubblico, consulta [Provisioning di istanze pubbliche](vsi_provision_public.html).

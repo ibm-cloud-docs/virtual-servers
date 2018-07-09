@@ -34,7 +34,7 @@ Segui queste istruzioni per forzare la velocità della porta in un sistema Windo
   * Per un upgrade della porta privata l'IP dovrebbe essere un indirizzo 10.x.x.x.
 5. Se gli indirizzi IP non corrispondono, ripeti i passi da 1 a 3 per l'altra configurazione di rete.
 
-## Stato LAN 
+## Stato LAN
 
 Seleziona nuovamente la **Scheda generale** e poi seleziona **Proprietà.** Viene visualizzata una nuova finestra.
 

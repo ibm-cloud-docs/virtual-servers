@@ -78,7 +78,7 @@ Dopo aver completato i prerequisiti, puoi iniziare a eseguire il provisioning di
 Per eseguire il provisioning della tua istanza del server virtuale pubblica tramite l'icona *Dispositivi*, completa le seguenti istruzioni:
 
 1.  Dal {{site.data.keyword.slportal}}, individua la sezione **Ordine** e fai clic su **Dispositivi**.
-2.  Nella pagina Dispositivi, fai clic su **Oraria** o **Mensile** per una delle offerte del server virtuale.
+2.  Nella pagina Dispositivi, fai clic su **Oraria** o **Mensile** per una delle offerte del Virtual Server.
 3.  Nella pagina *Configura il tuo server cloud*, compila tutte le informazioni importanti.
 4.  Fai clic sul pulsante **Aggiungi all'ordine** per continuare.
 5.  Conferma o modifica le informazioni sul dominio per il server.
@@ -96,7 +96,7 @@ Puoi inoltre eseguire il provisioning delle tue istanze del server virtuale pubb
 
    La pagina Dispositivi visualizza tutti i tipi di dispositivo-server virtuale, i server bare metal, gli host dedicati e i controller di distribuzione dell'applicazione NetScaler nel tuo account.
 2. Fai clic sul link **Ordine dispositivi** nell'angolo in alto a destra.
-3. Nella pagina Dispositivi, fai clic su **Oraria** o **Mensile** per una delle offerte del server virtuale.
+3. Nella pagina Dispositivi, fai clic su **Oraria** o **Mensile** per una delle offerte del Virtual Server.
 4. Nella pagina *Configura il tuo server cloud*, compila tutte le informazioni importanti.
 5. Fai clic sul pulsante **Aggiungi all'ordine** per continuare.
 6. Conferma o modifica le informazioni sul dominio per il server.

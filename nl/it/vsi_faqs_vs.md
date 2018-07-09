@@ -20,12 +20,12 @@ lastupdated: "2018-02-02"
 # FAQ: server virtuali  
 
 ## Quali tipi di server virtuali sono disponibili per l'utilizzo?
-{{site.data.keyword.BluSoftlayer_full}} offre un paio di tipi di server virtuali. L'offerta standard è un server virtuale su base pubblica, che è un ambiente a più tenant, adatto per diversi bisogni. Se stai cercando un ambiente a singolo tenant, considera l'offerta del server virtuale dedicato. L'opzione del server virtuale dedicato è ideale per le applicazioni con requisiti della risorsa più severi. Per ulteriori informazioni sulle offerte del server virtuale correnti, consulta [Introduzione ai server virtuali](../vsi/vsi_index.html).
+{{site.data.keyword.BluSoftlayer_full}} offre un paio di tipi di server virtuali. L'offerta standard è un server virtuale su base pubblica, che è un ambiente a più tenant, adatto per diversi bisogni. Se stai cercando un ambiente a singolo tenant, considera l'offerta del Virtual Server dedicato. L'opzione del server virtuale dedicato è ideale per le applicazioni con requisiti della risorsa più severi. Per ulteriori informazioni sulle offerte del server virtuale correnti, consulta [Introduzione ai server virtuali](../vsi/vsi_index.html).
 
 ## Dove posso trovare le informazioni sui prezzi per i tipi di istanza pubblica?
 Per informazioni sui prezzi, vedi [Crea il tuo server virtuale ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud-computing/bluemix/virtual-servers){: new_window}.
 
-## Posso aggiungere l'archiviazione disco al mio server virtuale orario o mensile?
+## Posso aggiungere l'archiviazione disco al mio Virtual Server orario o mensile?
 Puoi eseguire o annullare l'aggiornamento dell'archiviazione disco per tutti i server virtuali aggiornando le tue opzioni di archiviazione nei campi *Primo disco* fino a *Quinto disco* nella schermata *Configurazione* del dispositivo che desideri aggiornare. Per ulteriori informazioni, consulta [Riconfigurazione di un server virtuale esistente](../vsi/vsi_reconfigure.html).
 
 ## Quanti server virtuali orari posso avviare?
@@ -58,7 +58,7 @@ Sì. Quando importi un'immagine, puoi specificare che fornirai la licenza del si
 
 ## Quale è la differenza tra un server virtuale e un VPS (virtual private server)?
 
-Un server virtuale è simile alle piattaforme VPS (virtual private server) o VDS (virtual dedicated server) con cui potresti già avere familiarità. Questi ambienti "server virtuale" consento il provisioning di ambienti distinti privatamente e in sicurezza su un solo nodo hardware, ma VDS e VPS sono più limitati nelle loro capacità. Le opzioni VPS e VDS sono generalmente circoscritte a un'architettura a singolo server, per cui solo le risorse che possono essere aggiunte o divise tra ogni server virtuale in una VDS o VPS sono le risorse fisicamente installate su tale server singolo. 
+Un server virtuale è simile alle piattaforme VPS (virtual private server) o VDS (virtual dedicated server) con cui potresti già avere familiarità. Questi ambienti "server virtuale" consento il provisioning di ambienti distinti privatamente e in sicurezza su un solo nodo hardware, ma VDS e VPS sono più limitati nelle loro capacità. Le opzioni VPS e VDS sono generalmente circoscritte a un'architettura a singolo server, per cui solo le risorse che possono essere aggiunte o divise tra ogni server virtuale in una VDS o VPS sono le risorse fisicamente installate su tale server singolo.
 
 Viene eseguito il provisioning dei server virtuali su un'architettura cloud a più server che raggruppa tutte le risorse hardware disponibili per le istanze individuali da utilizzare. I server virtuali possono utilizzare una piattaforma di archiviazione primaria basata su SAN a capacità altamente condivisa o un'archiviazione disco locale dalle elevate prestazioni. Poiché ogni istanza fa parte di un ambiente cloud più grande, la comunicazione tra tutti i server virtuali è istantanea.
 

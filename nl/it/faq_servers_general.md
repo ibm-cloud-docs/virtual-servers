@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 
 ---
@@ -46,6 +46,7 @@ Se la password amministratore o root al tuo server ha smesso di funzionare all'i
    * Stai copiando e incollando la password? Se no, prova. Incolla inoltre la password nel blocco note per assicurarti che non vengano accidentalmente copiati degli spazi con la password.
    * Se il server ha il cPanel, è possibile che cPHulk abbia bloccato il tuo indirizzo IP a causa di tentativi di accesso non riusciti? In questo caso, puoi accedere al server utilizzando KVM o IPMI e aggiungere il tuo indirizzo IP in cPHulk con "/scripts/cphulkdwhitelist" seguito dal tuo indirizzo IP.
    * Qualcuno ha tentato recentemente di modificare la password per il server modificandola nel {{site.data.keyword.slportal}}? La modifica della password nel {{site.data.keyword.slportal}} modifica solo ciò che vedi come password. Non modifica la password che sta utilizzando il server. Se si verifica questo, puoi contattare il supporto, i quali normalmente possono ripristinare la password funzionante originale.
+   * Potrebbe essere necessario avviare la modalità di salvataggio del tuo sistema operativo per poter ripristinare la tua password. Per ulteriori informazioni, consulta [Avvio di un kernel di salvataggio](/docs/vsi/vsi_launch_rescue.html).
 
 Se hai già tentato tutto questo e non sei ancora in grado di collegarti al server utilizzando la password, contatta il supporto utilizzando un ticket e richiede una reimpostazione della password. Il supporto dovrà riavviare il server per poter reimpostare la password, per cui assicurati di essere pronto ad approvare il riavvio e/o a fornire un intervallo di tempo di manutenzione in cui può essere eseguito. Molte reimpostazioni della password possono essere realizzate in 15 minuti. Nel {{site.data.keyword.slportal}}, puoi creare un ticket andando in **Supporto > Aggiungi ticket** e utilizzare l'oggetto *"Reboots and Console Access"*.
 
@@ -168,7 +169,7 @@ MASTER_SITE_OVERRIDE?="http://mirrors.service.softlayer.com/freebsd/distfiles/${
 ```
 {:screen }
 
-Se il file non viene trovato nell'ubicazione prevista, seguirà il singolo Makefile della porta e passerà al mirror successivo. 
+Se il file non viene trovato nell'ubicazione prevista, seguirà il singolo Makefile della porta e passerà al mirror successivo.
 
 
 

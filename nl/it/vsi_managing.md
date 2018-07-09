@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-06-28"
 
 
 ---
@@ -47,7 +47,7 @@ Completa le seguenti istruzioni per eseguire le attività di gestione per i tuoi
 
 * **Accensione/Spegnimento**
 
-    Se il dispositivo è stato spento, questo rimane nello stato spento e deve essere acceso manualmente ripetendo i passi precedenti. Gli utenti non possono interagire con un dispositivo quando è spento. Se il dispositivo è stato acceso, può avvenire la normale interazione. Rimarrà acceso finché non vengono effettuate ulteriori azioni.
+    Se il dispositivo è stato spento, questo rimane nello stato spento e deve essere acceso manualmente ripetendo i passi precedenti. Gli utenti non possono interagire con un dispositivo quando è spento. Se il dispositivo è stato acceso, può avvenire la normale interazione. Rimarrà acceso finché non vengono effettuate ulteriori azioni. Se il server virtuale supporta la funzione di sospensione della fatturazione, la fatturazione viene sospesa per alcune risorse di calcolo. Non puoi completare tutte le attività di gestione in un'istanza finché non viene ripresa la fatturazione. La sospensione della fatturazione è supportata solo per i nuovi provisioning delle istanze, non per le esistenti. Per ulteriori informazioni, vedi [Informazioni sulla sospensione della fatturazione](vsi_about_suspend.html).
 
 * **Ridenominare**
 

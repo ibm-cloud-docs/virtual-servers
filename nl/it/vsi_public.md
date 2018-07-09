@@ -37,7 +37,7 @@ I seguenti server virtuali pubblici sono disponibili.
 | Server virtuali pubblici  | Descrizione                                                                                              |
 | ----------------------- | -------------------------------------------------------------------------------------------------------- | 
 | [Bilanciato](../vsi/vsi_public_balanced.html) | Migliore per i carichi di lavoro cloud comuni che richiedono un bilanciamento di prestazioni e scalabilità. Utilizza l'archiviazione assegnata di rete.|
-| [Archiviazione locale bilanciata](../vsi/vsi_public_balanced_local.html) | Migliore per i cluster del database grandi che richiedono prestazioni  I/O di bassa o alta latenza.|
+| [Archiviazione locale bilanciata](../vsi/vsi_public_balanced_local.html) | Migliore per i cluster del database grandi che richiedono prestazioni I/O di bassa o alta latenza.|
 | [Calcolo](../vsi/vsi_public_compute.html) | Migliore per i carichi di lavoro con traffico web da moderato a elevato.|
 | [Memoria](../vsi/vsi_public_memory.html)  | Migliore per la memorizzazione nella cache e i carichi di lavoro di analisi in tempo reale.
 | [GPU](../vsi/vsi_public_gpu.html)  | Migliore per i carichi di lavoro dalle prestazioni elevate.

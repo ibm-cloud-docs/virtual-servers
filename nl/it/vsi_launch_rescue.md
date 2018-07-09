@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 
 ---
@@ -27,8 +27,16 @@ Il kernel di salvataggio è un ambiente di salvataggio live, progettato per forn
 
 1. Accedi al [{{site.data.keyword.slportal}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/) utilizzando le tue credenziali univoche.
 2. Dall'elenco dei dispositivi, fai clic sul nome del dispositivo che desideri salvare.
-3. Fai clic sull'elenco a discesa *Azioni* nell'angolo in alto a destra e seleziona **Salvataggio**.
+3. Fai clic sull'elenco a discesa *Azioni* nell'angolo in alto a destra e seleziona **Salvataggio**. (In alternativa, puoi fare clic sulla scheda *Gestione remota* e selezionare **Salvataggio**.)
 4. Fai clic sul pulsante **Sì** per passare immediatamente il tuo dispositivo al kernel di salvataggio. Fai clic sul pulsante **No** per annullare l'azione.
+
+## In VSI di Microsoft 
+
+1. Accedi al [{{site.data.keyword.slportal}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/) utilizzando le tue credenziali univoche.
+2. Dall'elenco dei dispositivi, fai clic sul nome del dispositivo che desideri salvare.
+3. Fai clic sull'elenco a discesa *Azioni* nell'angolo in alto a destra e seleziona **Avvio da immagine**.
+4. Seleziona **Avvio da immagine** accanto all'immagine pubblica, *WindowsRescueStandalone.iso*.
+
 
 ## Passi successivi
 Dopo aver avviato il kernel di salvataggio, il dispositivo viene spento e riavviato nel kernel di salvataggio per il sistema operativo del dispositivo. Questa operazione potrebbe richiedere alcuni minuti.

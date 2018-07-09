@@ -17,11 +17,11 @@ lastupdated: "2017-12-13"
 {:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
-# Gestione delle velocità della porta 
+# Gestione delle velocità della porta
 
 {{site.data.keyword.slportal_full}} ti consente di modificare la velocità che stanno negoziando i tuoi server, senza aprire un ticket di supporto.
 
-Completa la seguente procedura per aggiornare le velocità della porta. 
+Completa la seguente procedura per aggiornare le velocità della porta.
 
 1. Accedi al [{{site.data.keyword.slportal}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} utilizzando le tue credenziali univoche.
 2. Seleziona **Devices > Device Lists.**

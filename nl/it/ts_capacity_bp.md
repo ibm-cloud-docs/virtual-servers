@@ -18,7 +18,7 @@ lastupdated: "2018-01-03"
 {:table: .aria-labeledby="caption"}
 
 
-# Considerazioni sulla capacità 
+# Considerazioni sulla capacità
 
 ## Cosa sta succedendo
 
@@ -38,14 +38,14 @@ Un errore di capacità si verifica quando non ci sono risorse disponibili suffic
 
 ## Come risolverlo 
 
-Puoi tentare di nuovo il provisioning utilizzando le seguenti strategie: 
+Puoi tentare di nuovo il provisioning utilizzando le seguenti strategie:
 
 1. Esegui il provisioning specificando un router differente.  
-2. Esegui il provisioning senza specificare un router. 
-3. Esegui il provisioning in un data center differente. 
-4. Esegui il provisioning di meno istanze.  
+2. Esegui il provisioning senza specificare un router.
+3. Esegui il provisioning in un data center differente.
+4. Esegui il provisioning di meno istanze. 
 5. Estendi le istanze eseguendo il provisioning in più data center.
-6. Esegui il provisioning di istanze di dimensioni più piccole. 
+6. Esegui il provisioning di istanze di dimensioni più piccole.
 7. Modifica la memoria VSI da SAN a LOCAL o da LOCAL a SAN. 
 
 

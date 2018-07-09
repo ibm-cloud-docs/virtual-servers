@@ -50,7 +50,7 @@ Sarai reindirizzato alla pagina principale del {{site.data.keyword.slportal}}.
 Utilizza le seguenti istruzioni per eseguire il provisioning dei tuoi host dedicati.
 
 1.	Fai clic sull'icona **Dispositivi**.
-2.  Fai clic sul link **Server virtuale dedicato orario** o **Server virtuale dedicato mensile**. 
+2.  Fai clic sul link **Virtual Server dedicato orario** o **Virtual Server dedicato mensile**. 
 
    **Nota:** i server dedicati sono server privati.
 

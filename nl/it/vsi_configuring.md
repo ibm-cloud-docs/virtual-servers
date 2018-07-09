@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-25"
+  years: 2017, 2018
+lastupdated: "2018-03-19"
 
 
 ---
@@ -49,9 +49,9 @@ La rete privata è il precursore dell'interazione con i tuoi dispositivi tramite
 Il monitoraggio viene principalmente utilizzato come una risorsa per controllare l'attività del tuo server, ma può anche essere utile per sapere quando ridimensionare. I servizi di monitoraggio standard e Nimsoft sono disponibili per coprire varie esigenze di monitoraggio. Il monitoraggio standard, talvolta definito “Monitoraggio di base,” viene generalmente utilizzato nel metodo ping-and-respond (effettua ping e rispondi), attraverso l'uso di un ping lento o di servizio iniziato mediante il {{site.data.keyword.slportal}}. Il monitoraggio Nimsoft conosciuto anche come “Monitoraggio avanzato” è disponibile in tre livelli: Di base, Avanzato e Premium. Si può accedere a questo servizio anche tramite il {{site.data.keyword.slportal}}. Per ulteriori informazioni, vedi [Monitoraggio](../infrastructure/SLmonitoring/monitoring_index.html).
 
 ## Proteggi il tuo sistema
-I firewall hardware sono disponibili per assicurarti che il tuo sistema sia sempre protetto. Viene eseguito il provisioning dei firewall hardware su richiesta senza tempo di inattività. Se le regole sono state stabilite correttamente, un firewall può proteggere il tuo server da attività non desiderata. Dopo aver ordinato un firewall, deve essere abilitato e devono essere configurate le regole. Per ulteriori informazioni su come ottenere il massimo dai firewall.
+I firewall hardware sono disponibili per assicurarti che il tuo sistema sia sempre protetto. Viene eseguito il provisioning dei firewall hardware su richiesta senza tempo di inattività. Se le regole sono state stabilite correttamente, un firewall può proteggere il tuo server da attività non desiderata. Dopo aver ordinato un firewall, deve essere abilitato e devono essere configurate le regole.
 
-Per ulteriori informazioni, consulta le seguenti raccolte di argomenti di sicurezza. 
+Per ulteriori informazioni, consulta le seguenti raccolte di argomenti di sicurezza.
 
 * [Firewall hardware (condivisi)](../infrastructure/hardware-firewall-shared/getting-started.html)
 * [Firewall hardware (dedicati)](../infrastructure/hardware-firewall-dedicated/getting-started.html)

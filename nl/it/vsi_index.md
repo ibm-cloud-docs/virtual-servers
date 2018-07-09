@@ -20,7 +20,7 @@ lastupdated: "2018-02-28"
 Puoi distribuire {{site.data.keyword.BluVirtServers}} in pochi minuti. I server virtuali vengono distribuiti dalla tua scelta di immagini del server virtuale e nella regione geografica che abbia senso per i tuoi carichi di lavoro.
 {:shortdesc}
 
-Quando crei un server virtuale, puoi scegliere tra un ambiente (a tenancy multipla) pubblico o un ambiente (a tenancy singola) dedicato. Quindi, a seconda dell'ambiente scelto, devi anche selezionare oraria, mensile o i server virtuali temporanei. Nel caso dei server virtuali pubblici, scegli anche di utilizzare l'archiviazione locale o basata su SAN. 
+Quando crei un server virtuale, puoi scegliere tra un ambiente (a tenancy multipla) pubblico o un ambiente (a tenancy singola) dedicato. Quindi, a seconda dell'ambiente scelto, devi anche selezionare oraria, mensile o i server virtuali temporanei. Nel caso dei server virtuali pubblici, scegli anche di utilizzare l'archiviazione locale o basata su SAN.
 
 ## Informazioni preliminari
 
@@ -31,9 +31,9 @@ Prima di iniziare, controlla i seguenti prerequisiti.
 
 |              Opzioni di distribuzione                           |  Descrizione                                        |
 | --------------------------------------------------------- | --------------------------------------------------- |
-|[Server virtuale pubblico](../vsi/vsi_public.html)            | Gestito da IBM, distribuzioni server virtuale a più tenant |
+|[Server virtuale pubblico](../vsi/vsi_public.html)            | Gestito da IBM, distribuzioni server virtuale a più tenant|
 |[Server virtuale temporaneo](../vsi/vsi_about_transient.html)| Gestito da IBM, distribuzioni server virtuale a più tenant a un costo ridotto e consigliati per i carichi di lavoro flessibili |
-|[Server virtuale dedicato](../vsi/vsi_dedicated.html)      | Gestito da IBM, distribuzioni server virtuale a singolo tenant |
+|[Server virtuale dedicato](../vsi/vsi_dedicated.html)      | Gestito da IBM, distribuzioni server virtuale a singolo tenant            |
 {: caption="Tabella 1. Opzioni di distribuzione" caption-side="top"}   
 
 ## Provisioning di un server virtuale
@@ -43,7 +43,7 @@ Dopo aver deciso un'opzione di distribuzione, avvia il processo di provisioning.
 |              Istruzioni provisioning                                         |  Descrizione                                            |
 | -------------------------------------------------------------------------- | ------------------------------------------------------- |
 |[Provisioning di istanze pubbliche](../vsi/vsi_provision_public.html)                | Provisioning di istanze pubbliche con varie opzioni             |
-|[Provisioning di istanze temporanee](../vsi/vsi_provision_transient.html)                | Provisioning di istanze temporanee con varie opzioni  |
+|[Provisioning di istanze temporanee](../vsi/vsi_provision_transient.html)                | Provisioning di istanze temporanee con varie opzioni            |
 |[Provisioning di istanze e host dedicati](../vsi/vsi_provision_dedicated.html)| Provisioning di istanze private o dedicate su host dedicati|
 {: caption="Tabella 2. Informazioni di provisioning" caption-side="top"}
 
