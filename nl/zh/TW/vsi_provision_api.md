@@ -24,7 +24,8 @@ lastupdated: "2018-02-28"
 {:shortdesc}
 
 如需更健全的 API 範例，請參閱下列資源：
-* [Softlayer_Virtual_Guest API 範例](https://softlayer.github.io/classes/softlayer_virtual_guest/)
+* [Softlayer_Virtual_Guest API 範例 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://softlayer.github.io/classes/softlayer_virtual_guest/)
+* [取得特性清單 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://softlayer.github.io/article/vsiflavors/)
 
 ## 使用建立物件佈建公用實例
 *SoftLayer_Virtual_Guest/createObject* API 服務是佈建使用預設特性的公用虛擬伺服器實例的最簡單方式。
@@ -32,7 +33,7 @@ lastupdated: "2018-02-28"
 不適用於暫時性實例。
 {:tip}
 
-若要使用 REST 來佈建公用虛擬伺服器實例，會使用要求內文中的下列 JSON，將 POST 要求提交至 https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json。
+若要使用 REST 來佈建公用虛擬伺服器實例，會使用要求內文中的下列 JSON，將 POST 要求提交至 https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/。
 
 ### JSON 要求內文 1
 ```
@@ -65,7 +66,7 @@ lastupdated: "2018-02-28"
 不適用於暫時性實例。
 {:tip}
 
-若要使用 REST 來佈建公用虛擬伺服器，會使用要求內文中的下列 JSON，將 POST 要求提交至 https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json。
+若要使用 REST 來佈建公用虛擬伺服器，會使用要求內文中的下列 JSON，將 POST 要求提交至 https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/。
 
 **附註：**價格上不需要項目說明。包含它們的目的只是要顯示所提交的產品選項。
 
@@ -165,7 +166,7 @@ lastupdated: "2018-02-28"
 不適用於暫時性實例。
 {:tip}
 
-若要使用 REST 來佈建公用虛擬伺服器，會使用要求內文中的下列 JSON，將 POST 要求提交至 https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json。
+若要使用 REST 來佈建公用虛擬伺服器，會使用要求內文中的下列 JSON，將 POST 要求提交至 https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/。
 
 **附註：**價格上不需要項目說明。包含它們的目的只是要顯示所提交的產品選項。
 
@@ -209,7 +210,7 @@ lastupdated: "2018-02-28"
 
 *SoftLayer_Virtual_Guest/createObject* API 服務是佈建暫時性虛擬伺服器實例的最簡單方式。
 
-若要使用 REST 來佈建暫時性虛擬伺服器實例，會使用要求內文中的下列 JSON，將 POST 要求提交至 https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json。
+若要使用 REST 來佈建暫時性虛擬伺服器實例，會將 POST 要求提交至 https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/，並且在要求內文中使用下列 JSON。
 
 ### JSON 要求內文 4
 ```

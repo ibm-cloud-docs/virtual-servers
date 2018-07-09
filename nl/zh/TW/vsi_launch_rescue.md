@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 
 ---
@@ -27,8 +27,16 @@ lastupdated: "2017-10-24"
 
 1. 使用唯一認證來存取 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/)。
 2. 從「裝置清單」中，按一下您要救援的裝置名稱。
-3. 按一下右上角的*動作* 下拉清單，然後選取**救援**。
+3. 按一下右上角的*動作* 下拉清單，然後選取**救援**。（或者，您可以按一下*遠端管理* 標籤，然後選取**救援**。）
 4. 按一下**是**按鈕，以立即將裝置轉移至「救援核心」。按一下**否**按鈕，以取消動作。
+
+## 在 Windows VSI 上
+
+1. 使用唯一認證來存取 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/)。
+2. 從「裝置清單」中，按一下您要救援的裝置名稱。
+3. 按一下右上角的*動作* 下拉清單，然後選取**從映像檔開機**。
+4. 選取公用映像檔 *WindowsRescueStandalone.iso* 旁的**從此映像檔開機**。
+
 
 ## 後續步驟
 啟動「救援核心」之後，會關閉裝置電源，並將其重新開機到裝置作業系統的救援核心。這可能需要幾分鐘的時間。

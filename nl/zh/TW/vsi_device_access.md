@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 
 ---
@@ -75,7 +75,7 @@ lastupdated: "2017-10-24"
 5. 驗證已選取正確的裝置。
 6. 按一下**更新裝置存取**。
 
-**附註：**您也可以使用 SoftLayer_User_Customer::addBulkDedicatedHostAccess API 服務，將一個以上專用主機的存取權授與使用者。如需相關資訊，請參閱[新增大量專用主機存取 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](http://sldn.softlayer.com/reference/services/softlayer_user_customer/addbulkdedicatedhostaccess){: new_window}。  
+**附註：**您也可以使用 SoftLayer_User_Customer::addBulkDedicatedHostAccess API 服務，將一個以上專用主機的存取權授與使用者。如需相關資訊，請參閱[新增大量專用主機存取 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://softlayer.github.io/reference/services/SoftLayer_User_Customer/addBulkDedicatedHostAccess/){: new_window}。  
 
 ## 後續步驟
 在提交變更之後，會立即更新使用者許可權。如果已授與許可權，則使用者可以檢視選取的特性，或與之互動。如果已移除許可權，則使用者無法再檢視選取的特性，或與之互動。您隨時可以重新更新許可權。

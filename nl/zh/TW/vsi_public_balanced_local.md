@@ -263,7 +263,7 @@ lastupdated: "2017-11-08"
 |DAL13        |OSL01  |TOR01  |
 |FRA02         |PAR01  |WDC04  |
 |LON02         |SAO01  |WDC06  |
-|LON04         |SEO01  | WDC07  | 
+|LON04         |SEO01  |WDC07  | 
 {: caption="表 2. 支援的資料中心（本端 SSD）" caption-side="top"}
 
 此供應項目也提供所有支援的作業系統（例如 RHEL、CentOS、Windows、Ubuntu 及其他）、支援的資料庫以及軟體附加程式。  

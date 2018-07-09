@@ -29,22 +29,22 @@ lastupdated: "2018-02-28"
   1. 您必須具有已升級的帳戶，才能訂購虛擬伺服器。此處理程序可能需要一些時間，並且需要先核准要求，才能繼續進行。如需升級帳戶的相關資訊，請參閱[切換至 IBM ID](https://console.bluemix.net/docs/admin/softlayerlink.html)。
   2. 檢閱及選擇部署選項。如需相關資訊，請參閱下列主題：
 
-|              部署選項                                     |  說明                                               |
+|部署選項                                     |說明                                               |
 | --------------------------------------------------------- | --------------------------------------------------- |
-|[公用虛擬伺服器](../vsi/vsi_public.html)                   | IBM 受管理、多方承租戶虛擬伺服器部署|
-|[暫時性虛擬伺服器](../vsi/vsi_about_transient.html)| 以較低成本且最適合彈性工作負載而提供的 IBM 受管理、多方承租戶虛擬伺服器部署|
-|[專用虛擬伺服器](../vsi/vsi_dedicated.html)                | IBM 受管理、單一承租戶虛擬伺服器部署 |
+|[公用虛擬伺服器](../vsi/vsi_public.html)                   |IBM 受管理、多方承租戶虛擬伺服器部署|
+|[暫時性虛擬伺服器](../vsi/vsi_about_transient.html)|以較低成本且最適合彈性工作負載而提供的 IBM 受管理、多方承租戶虛擬伺服器部署|
+|[專用虛擬伺服器](../vsi/vsi_dedicated.html)                |IBM 受管理、單一承租戶虛擬伺服器部署 |
 {: caption="表 1. 部署選項" caption-side="top"}   
 
 ## 佈建虛擬伺服器
 
 在您決定部署選項之後，請開始佈建處理程序。
 
-|              佈建指示                                                          |  說明                                                   |
+|佈建指示                                                          |說明                                                   |
 | -------------------------------------------------------------------------- | ------------------------------------------------------- |
-|[佈建公用實例](../vsi/vsi_provision_public.html)                                 | 使用各種選項佈建公用實例                                    |
-|[佈建暫時性實例](../vsi/vsi_provision_transient.html)                | 使用各種選項佈建暫時性實例                                    |
-|[佈建專用主機及實例](../vsi/vsi_provision_dedicated.html)                        | 在專用主機上佈建專用實例 (private instance) 或專用實例 (dedicated instance)                                  |
+|[佈建公用實例](../vsi/vsi_provision_public.html)                                 |使用各種選項佈建公用實例                                    |
+|[佈建暫時性實例](../vsi/vsi_provision_transient.html)                |使用各種選項佈建暫時性實例                                    |
+|[佈建專用主機及實例](../vsi/vsi_provision_dedicated.html)                        |在專用主機上佈建專用實例 (private instance) 或專用實例 (dedicated instance)                                  |
 {: caption="表 2. 佈建資訊" caption-side="top"}
 
 ## 後續步驟

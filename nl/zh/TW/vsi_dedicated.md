@@ -85,25 +85,25 @@ lastupdated: "2017-10-24"
 
 * 您的主機位置；您可以從下列 {{site.data.keyword.cloud_notm}} 資料中心進行選取：
       
-| 資料中心              ||
+|資料中心              ||
 | ------------ | ------- | 
-|AMS01         |  MON01  |
-|AMS03         |  OSL01  |
-|CHE01         |  PAR01  |
-|DAL05         |  SAO01  |
-|DAL06         |  SEO01  |
-|DAL09         |  SJC01  |
-|DAL10         |  SJC03  |
-|DAL12         |  SJC04  |
-|DAL13         |  SNG01  | 
-|FRA02         |  SYD01  |
-|HKG02         |  SYD04  |
-|HOU02         |  TOK02  |
-|LON02         |  TOR01  |
-|LON04         |  WDC01  |
-|MEL01         |  WDC04  |
-|MEX01         |  WDC06  |
-|MIL01         |  WDC07  |
+|AMS01         |MON01  |
+|AMS03         |OSL01  |
+|CHE01         |PAR01  |
+|DAL05         |SAO01  |
+|DAL06         |SEO01  |
+|DAL09         |SJC01  |
+|DAL10         |SJC03  |
+|DAL12         |SJC04  |
+|DAL13         |SNG01  | 
+|FRA02         |SYD01  |
+|HKG02         |SYD04  |
+|HOU02         |TOK02  |
+|LON02         |TOR01  |
+|LON04         |WDC01  |
+|MEL01         |WDC04  |
+|MEX01         |WDC06  |
+|MIL01         |WDC07  |
 {: caption="表 2. 支援的資料中心" caption-side="top"}
 
 * 主機大小是根據您要在其上執行的工作負載所決定。預設值是 56 個核心 X 242 GB RAM X 1.2 TB。 

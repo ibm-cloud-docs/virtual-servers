@@ -7,6 +7,7 @@ IBM Cloud 虛擬伺服器
     {: .navgroup id="learn"}
     vsi_index.md
     vsi_about.md
+    vsi_about_suspend.md
     
     {: .topicgroup}
     佈建選項
@@ -21,7 +22,7 @@ IBM Cloud 虛擬伺服器
         vsi_dedicated.md
             vsi_dedicated_host.md
             vsi_dedicated_pricing.md
-        [佈建 Script](../infrastructure/provisioning-scripts/ps_index.html)
+        vsi_ps_index.md
 
     vsi_image_templates_intro.md
 
@@ -77,6 +78,7 @@ IBM Cloud 虛擬伺服器
         vsi_reconfigure.md
         vsi_work_image.md
         vsi_ssh_config.md
+        configuring-automated-reclaim-notifications.md
 
     {: .topicgroup}
     管理伺服器
@@ -93,6 +95,7 @@ IBM Cloud 虛擬伺服器
             vsi_upgrading_port_speeds_windows.md
             vsi_downgrading_port_speeds.md
         vsi_autoscale_intro.md
+        add-provisioning-script.md
      
     {: .topicgroup}
     管理安全
@@ -112,6 +115,7 @@ IBM Cloud 虛擬伺服器
         [將 IPv6 新增至 Ubuntu 系統](../infrastructure/software/adding-ipv6-ubuntu-systems.html)
         [安裝 ClamAV](../infrastructure/software/install-clamav.html)
         [在 cPanel/WHM 中通知使用者接近頻寬限制](../infrastructure/software/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
+        [更新實例以使用本端 WSUS 伺服器](../infrastructure/software/local-wsus.html)
         vsi_gpu_nvidia_drivers.md
  
     {: .topicgroup}
@@ -127,14 +131,11 @@ IBM Cloud 虛擬伺服器
     備份及回復
         vsi_backup.md
         vsi_launch_rescue.md
-        spare_pools.md
-            add_spare_pool.md
-            cancel_spare_pool.md
-            reactivating_spare_pool_device.md
+        [從 R1Soft 映像檔還原伺服器](../infrastructure/software/r1soft-cdp-bare-metal-restore-procedures.html)
         
     {: .topicgroup}
-    相關鏈結
-        [Virtual Machine Network Setup](http://knowledgelayer.softlayer.com/learning/virtual-machine-network-setup)
+相關鏈結
+        [Virtual Machine Network Setup](../infrastructure/virtualization/virtual-machine-network-setup.html)
         [Control Portal](https://control.softlayer.com/)
     {: .navgroup-end}
 

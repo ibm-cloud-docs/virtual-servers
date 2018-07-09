@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2018
+lastupdated: "2018-04-11"
 
 ---
 {:shortdesc: .shortdesc}
@@ -24,4 +24,4 @@ lastupdated: "2017-10-24"
 
 「持續資料保護 (CDP)」是 R1Soft 所建立的高效能備份軟體，容許同時備份實體及虛擬裝置。Idera CDP 包含三個主要元件：CDP 伺服器、代理程式，以及資料庫外掛程式（可與前兩個元件分開購買）。因為 R1Soft CDP 是一種協力廠商備份解決方案，所以與 CDP 的互動完全是在 {{site.data.keyword.Bluemix_short}} 專有介面外部進行；不過，R1Soft CDP 密碼可能在 {{site.data.keyword.slportal_full}} 內進行追蹤及儲存。R1Soft 網站會記載與 R1Soft CDP 的所有其他互動。
 
-如需 R1Soft CDP 備份服務的相關資訊，請參閱[開始使用備份服務](../infrastructure/Backup/index.html){: new_window}。
+如需 R1Soft CDP 備份服務的相關資訊，請參閱 [R1Soft 文件 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](http://wiki.r1soft.com/display/ServerBackupManager/Home){: new_window}。
