@@ -7,6 +7,7 @@ Servidores virtuales de IBM Cloud
     {: .navgroup id="learn"}
     vsi_index.md
     vsi_about.md
+    vsi_about_suspend.md
     
     {: .topicgroup}
     Opciones de suministro
@@ -21,7 +22,7 @@ Servidores virtuales de IBM Cloud
         vsi_dedicated.md
             vsi_dedicated_host.md
             vsi_dedicated_pricing.md
-        [Scripts de suministro](../infrastructure/provisioning-scripts/ps_index.html)
+        vsi_ps_index.md
 
     vsi_image_templates_intro.md
 
@@ -77,6 +78,7 @@ Servidores virtuales de IBM Cloud
         vsi_reconfigure.md
         vsi_work_image.md
         vsi_ssh_config.md
+        configuring-automated-reclaim-notifications.md
 
     {: .topicgroup}
     Gestión de servidores
@@ -93,6 +95,7 @@ Servidores virtuales de IBM Cloud
             vsi_upgrading_port_speeds_windows.md
             vsi_downgrading_port_speeds.md
         vsi_autoscale_intro.md
+        add-provisioning-script.md
      
     {: .topicgroup}
     Gestión de seguridad
@@ -112,6 +115,7 @@ Servidores virtuales de IBM Cloud
         [Adición de IPv6 a sistemas Ubuntu](../infrastructure/software/adding-ipv6-ubuntu-systems.html)
         [Instalación de ClamAV](../infrastructure/software/install-clamav.html)
         [Notificación a los usuarios de que se aproximan al límite de ancho de banda en cPanel/WHM](../infrastructure/software/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
+        [Actualización de una instancia para utilizar un servidor WSUS local](../infrastructure/software/local-wsus.html)
         vsi_gpu_nvidia_drivers.md
  
     {: .topicgroup}
@@ -127,14 +131,11 @@ Servidores virtuales de IBM Cloud
     Copia de seguridad y recuperación
         vsi_backup.md
         vsi_launch_rescue.md
-        spare_pools.md
-            add_spare_pool.md
-            cancel_spare_pool.md
-            reactivating_spare_pool_device.md
+        [Restauración de un servidor a partir de una imagen de R1Soft](../infrastructure/software/r1soft-cdp-bare-metal-restore-procedures.html)
         
     {: .topicgroup}
     Enlaces relacionados
-        [Configuración de la red de máquinas virtuales](http://knowledgelayer.softlayer.com/learning/virtual-machine-network-setup) [Control Portal](https://control.softlayer.com/)
+        [Configuración de la red de máquinas virtuales](../infrastructure/virtualization/virtual-machine-network-setup.html) [Control Portal](https://control.softlayer.com/)
     {: .navgroup-end}
 
     {: .navgroup id="help"}

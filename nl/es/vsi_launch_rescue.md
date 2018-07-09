@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 
 ---
@@ -27,8 +27,16 @@ Rescue Kernel es un entorno de rescate diseñado para ofrecer a los clientes la 
 
 1. Acceda al [{{site.data.keyword.slportal}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/) utilizando sus credenciales exclusivas.
 2. En la lista de dispositivos, pulse el nombre del dispositivo que desea rescatar.
-3. Pulse la lista desplegable *Acciones* en la esquina superior derecha y seleccione **Rescate**.
+3. Pulse la lista desplegable *Acciones* en la esquina superior derecha y seleccione **Rescate**. (Como alternativa, puede pulsar el separador *Gestión remota* y seleccionar **Rescatar**.)
 4. Pulse el botón **Sí** para transmitir el dispositivo a Rescue Kernel inmediatamente. Pulse el botón **No** si desea cancelar la acción.
+
+## En Windows VSI
+
+1. Acceda al [{{site.data.keyword.slportal}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/) utilizando sus credenciales exclusivas.
+2. En la lista de dispositivos, pulse el nombre del dispositivo que desea rescatar.
+3. Pulse la lista desplegable *Acciones* en la esquina superior derecha y seleccione **Arrancar desde imagen**.
+4. Seleccione **Arrancar desde esta imagen** junto a la imagen pública, *WindowsRescueStandalone.iso*.
+
 
 ## Siguientes pasos
 Después de iniciar Rescue Kernel, el dispositivo se apaga y se rearranca en el kernel de rescate correspondiente al sistema operativo del dispositivo. Este proceso puede tardar varios minutos.

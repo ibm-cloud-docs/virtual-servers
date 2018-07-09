@@ -37,7 +37,7 @@ indica que no se ha recibido un eco. Si ya ha configurado un supervisor básico,
    <td>Ver supervisores</td>
    <td>
    <ol>
-   <li>En la lista de dispositivos, pulse el <b>Nombre del dispositivo</b> para acceder al dispositivo.</li>
+   <li>En la lista de dispositivos, pulse el <b>Nombre de dispositivo</b> para acceder al dispositivo.</li>
    <li>Pulse el separador <b>Supervisión</b>. Aparece una página en la que se ven todos los pings actuales. (El separador <b>Supervisión</b> solo se puede ver si hay al menos un supervisor configurado.)</li>
    </ol>
    </td>
@@ -50,7 +50,7 @@ indica que no se ha recibido un eco. Si ya ha configurado un supervisor básico,
    <li>En la página Supervisores, pulse el separador <b>Añadir supervisor</b>.</li>
    <li>Seleccione la dirección IP que desea supervisar en la lista desplegable <b>Dirección IP</b>.</li>
    <li>Seleccione el tipo de supervisor en la lista desplegable <b>Tipo de supervisor</b>.</li>
-   <li>Configure las opciones de notificación. En la lista desplegable <b>Notificar</b>, seleccione <b>Notificar usuarios</b> para notificar problemas  a los usuarios o <b>No hacer nada</b> para omitir la notificación al usuario.</li>
+   <li>Configure las opciones de notificación. En la lista desplegable <b>¿Notificar?</b>, seleccione <b>Notificar a los usuarios</b> para informar a los usuarios sobre los problemas o <b>No hacer nada</b> para omitir la notificación a los usuarios.</li>
    <li>Seleccione el intervalo de tiempo para la notificación al usuario en la lista desplegable <b>Espera de notificación</b>.</li>
    <li>Pulse el botón <b>Añadir supervisor</b> para añadir el supervisor correspondiente al dispositivo. El nuevo supervisor aparece en la sección <b>Editar supervisores existentes</b> de la pantalla.</li>
    </ol>
@@ -60,7 +60,7 @@ indica que no se ha recibido un eco. Si ya ha configurado un supervisor básico,
    <td>Editar un supervisor existente</td>
    <td>
    <ol>
-   <li>En la página Supervisores bajo la cabecera <b>Editar supervisores existentes</b>, pulse cualquiera de los detalles del supervisor para editar el supervisor.</li>
+   <li>En la página Supervisores, bajo la cabecera <b>Editar supervisores existentes</b>, pulse cualquiera de los detalles del supervisor para editar el supervisor.</li>
    <li>Puede actualizar cualquiera de los siguientes campos: Tipo de supervisor, Notificar, Espera de notificación.</li>
    <li>Pulse el botón <b>Actualizar</b> para actualizar los detalles. Pulse el botón <b>Cancelar</b> si desea cancelar la edición.</li>
    </ol>
@@ -70,7 +70,7 @@ indica que no se ha recibido un eco. Si ya ha configurado un supervisor básico,
    <td>Eliminar un supervisor</td>
    <td>
    <ol>
-   <li>En la página Supervisores bajo la cabecera <b>Editar supervisores existentes</b>, pulse el icono Eliminar que hay junto a los detalles del supervisor.</li>
+   <li>En la página Supervisores, bajo la cabecera <b>Editar supervisores existentes</b>, pulse el icono Eliminar que hay junto a los detalles del supervisor.</li>
    <li>Pulse el botón <b>Sí</b> para eliminar el supervisor. Pulse el botón <b>No</b> si desea cancelar la acción.</li>
    </ol>
    </td>

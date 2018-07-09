@@ -36,7 +36,7 @@ Siga los pasos siguientes para iniciar una sesión en el catálogo de {{site.dat
 
 Se abrirá la página principal del {{site.data.keyword.slportal}}.
 
-## Inicio de sesión en el portal del cliente
+## Inicio de sesión en el Portal de clientes
 Siga los pasos siguientes para iniciar una sesión en el {{site.data.keyword.slportal}} para comenzar el pedido de sus hosts dedicados e instancias de host dedicadas.
 
 1.	Abra una nueva ventana del navegador y escriba [https://control.softlayer.com](https://control.softlayer.com){: new_window}. 
@@ -112,7 +112,7 @@ Se abrirá la página *Configurar el servidor de nube*. Desde esta página puede
     </TBODY>
     </table>
 
-9.  Pulse el recuadro de selección **Términos de servicio de la nube**.
+9.  Pulse el recuadro de selección **Términos de los servicios en la nube**.
 10. Confirme o especifique la información sobre el pago y pulse el botón **Enviar**. Se le redirigirá a una pantalla con el número de su pedido de suministro. Puede imprimir la pantalla ya que también es su recibo del pedido de suministro.
 
     Se enviará una serie de correos electrónicos al administrador: acuse de recibo del pedido de suministro, aprobación y proceso del pedido de suministro y suministro completado. El correo electrónico de suministro completado incluirá un enlace que le llevará directamente a la página **Detalles del dispositivo** después de iniciar una sesión en {{site.data.keyword.Bluemix_notm}}. Otra opción sería iniciar la sesión directamente en el {{site.data.keyword.slportal}}.
@@ -238,7 +238,7 @@ La primera opción consiste en suministrar las instancias de host dedicadas a tr
     </TBODY>
     </table>
 
-8.  Pulse los recuadros de selección **Términos de servicio de la nube** y **Acuerdo de servicios de terceros**.
+8.  Pulse los recuadros de selección **Términos de los servicios en la nube** y **Acuerdo de servicios de terceros**.
 9. Confirme o especifique la información sobre el pago y pulse el botón **Enviar**. Se le redirigirá a una pantalla con el número de su pedido de suministro. Puede imprimir la pantalla ya que también es su recibo del pedido de suministro.
 
 

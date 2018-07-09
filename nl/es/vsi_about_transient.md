@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-28"
+lastupdated: "2018-04-27"
 
 
 ---
@@ -25,17 +25,20 @@ Los servidores virtuales transitorios son ideales para cargas de trabajo de no p
 ## Requisitos
 Para poder utilizar las instancias transitorias, debe realizar el suministro utilizando las siguientes selecciones de servidor virtual público:
 * Transitorio
-* Centro de datos Mex01
+* La ubicación del host; puede elegir entre los siguientes centros de datos:
+    * MEX01 
+    * SEO01
+    * PAR01
 
 Las instancias transitorias son instancias públicas que utilizan almacenamiento respaldado por SAN.
 
 ## Notificaciones
-Puede utilizar la {{site.data.keyword.slapi_short}} para recibir notificaciones cuando estén disponibles los recursos para una instancia transitoria. También puede utilizar la API para suministrar mediante programación un servidor virtual transitorio cuando los recursos estén disponibles. Asimismo, puede utilizar la API para detener mediante programación el suministro de instancias cuando los recursos dejen de estar disponibles.  
+Puede utilizar la {{site.data.keyword.slapi_short}} para recibir notificaciones cuando estén disponibles los recursos para una instancia transitoria. También puede utilizar la API para suministrar mediante programación un servidor virtual transitorio cuando los recursos estén disponibles. Asimismo, puede utilizar la API para detener mediante programación el suministro de instancias cuando los recursos dejen de estar disponibles. Para obtener más información, consulte [Configuración de notificaciones de reclamación automatizadas](configuring-automated-reclaim-notifications.html).
 
 ## Limitaciones
 Tenga en cuenta las siguientes limitaciones antes de suministrar un servidor virtual transitorio.
 
-* El número de instancias simultáneas soportadas forman parte de su cuota del dispositivo en toda la cuenta. Para obtener más información sobre los límites de instancias simultáneas, consulte [Preguntas frecuentes: servidores virtuales](vsi_faqs_vs.html#concurrent).
+* El número de instancias simultáneas soportadas forman parte de su cuota del dispositivo en toda la cuenta. Para obtener más información sobre los límites de instancias simultáneas, consulte [Preguntas frecuentes: servidores virtuales](../vsi/vsi_faqs_vs.html#concurrent).
 * Las instancias transitorias no se pueden actualizar ni degradar.
 * Los recursos se pueden reclamar en cualquier momento, sin notificación.
 * Las instancias transitorias no pueden utilizar almacenamiento local.

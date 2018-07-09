@@ -17,8 +17,8 @@ lastupdated: "2017-05-17"
 {:table: .aria-labeledby="caption"}
 
 # Recarga del sistema operativo mediante una plantilla de imagen
-Al igual que la recarga de SO estándar, la recarga de un dispositivo desde una plantilla de imagen permite a los usuarios restaurar o reconfigurar un dispositivo en función de una plantilla de imagen existente que está asociada a la cuenta utilizada del portal del cliente. Durante el proceso de recarga de SO estándar, las opciones de configuración para el dispositivo se pueden seleccionar individualmente, mientras que la característica Cargar desde imagen carga la configuración exacta que aparece en la plantilla de imagen. Puede añadir características opcionales antes de realizar la recarga.
-Siga los pasos siguientes para realizar una recarga de SO desde una plantilla de imagen utilizando la característica Cargar desde imagen del portal del cliente.
+Al igual que la recarga de SO estándar, la recarga de un dispositivo desde una plantilla de imagen permite a los usuarios restaurar o reconfigurar un dispositivo en función de una plantilla de imagen existente que está asociada a la cuenta utilizada del Portal de clientes. Durante el proceso de recarga de SO estándar, las opciones de configuración para el dispositivo se pueden seleccionar individualmente, mientras que la característica Cargar desde imagen carga la configuración exacta que aparece en la plantilla de imagen. Puede añadir características opcionales antes de realizar la recarga.
+Siga los pasos siguientes para realizar una recarga de SO desde una plantilla de imagen utilizando la característica Cargar desde imagen del Portal de clientes.
 {:shortdesc}
 
 ## Realización de la recarga mediante una plantilla de imagen

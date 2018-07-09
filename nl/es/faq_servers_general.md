@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 
 ---
@@ -46,6 +46,7 @@ Si la contraseña del usuario root o del administrador deja de funcionar, hay va
    * ¿Está copiando y pegando la contraseña? Si no es así, inténtelo. Pegue también la contraseña en un bloc de notas para asegurarse de que no se copian espacios accidentalmente con la contraseña.
    * Si el servidor contiene cPanel, ¿es posible que cPHulk haya bloqueado la dirección IP debido a inicios de sesión fallidos? Si es así, puede acceder al servidor utilizando KVM o IPMI y colocar la dirección IP en la lista blanca en cPHulk con "/scripts/cphulkdwhitelist" seguido de la dirección IP.
    * ¿Ha intentado alguien cambiar la contraseña del servidor recientemente modificando la contraseña en el {{site.data.keyword.slportal}}? La modificación de la contraseña en el {{site.data.keyword.slportal}} solo cambia lo que se ve como contraseña. No cambia la contraseña que utiliza el servidor. Si ha sucedido esto, puede ponerse en contacto con el equipo de soporte; generalmente pueden recuperar la contraseña original que funcionaba.
+   * Es posible que tenga que arrancar en la modalidad de rescate del sistema operativo para poder restablecer la contraseña. Para obtener más información, consulte [Inicio de un kernel de rescate](/docs/vsi/vsi_launch_rescue.html).
 
 Si ha comprobado todo esto y sigue sin poder conectar con el servidor utilizando la contraseña, póngase en contacto con el equipo de soporte mediante una incidencia y solicite un restablecimiento de contraseña. El equipo de soporte deberá rearrancar el servidor para restablecer la contraseña, por lo que debe asegurarse de que está preparado para aprobar el rearranque y/o para ofrecer un intervalo de tiempo de mantenimiento en el que desea que se complete la operación. La mayoría de los restablecimientos se consiguen en 15 minutos. En el {{site.data.keyword.slportal}}, puede crear una incidencia yendo a **Soporte > Añadir incidencia** y utilizando el asunto *"Rearranques y acceso a la consola"*.
 

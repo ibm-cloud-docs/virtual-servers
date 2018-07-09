@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-06-28"
 
 
 ---
@@ -31,7 +31,7 @@ Dispone de las siguientes tareas de gestión de servidores virtuales desde la li
 * Cambiar el nombre - cambiar o actualizar el nombre de un dispositivo.
 * Cancelar - finalizar el uso de un dispositivo. Los dispositivos se pueden cancelar inmediatamente o en el aniversario de facturación. Después de confirmar la cancelación de su dispositivo, la acción no puede deshacerse. No se realizan devoluciones por cancelaciones inmediatas.
 
-Siga los siguientes pasos para realizar tareas de gestión para los servidores virtuales desde la lista de dispositivos en el portal del cliente:  
+Siga los siguientes pasos para realizar tareas de gestión para los servidores virtuales desde la lista de dispositivos en el Portal de clientes:  
 1. Inicie una sesión en el [{{site.data.keyword.slportal_full}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window} utilizando sus credenciales exclusivas. 
 2. En el menú **Dispositivos**, seleccione **Lista de dispositivos**.
 3. Pulse **Acciones** para el dispositivo que desea gestionar y seleccione la tarea de gestión que desea.
@@ -47,7 +47,7 @@ Siga los siguientes pasos para realizar tareas de gestión para los servidores v
 
 * **Encender/Apagar**
 
-    Si el dispositivo se ha apagado, permanecerá en el estado apagado y se debe encender manualmente repitiendo los pasos anteriores. Los usuarios no pueden interactuar con un dispositivo cuando éste está apagado. Si el dispositivo se ha encendido, puede tener lugar interacción normal. Permanecerá activo hasta que se lleve a cabo otra acción.
+    Si el dispositivo se ha apagado, permanecerá en el estado apagado y se debe encender manualmente repitiendo los pasos anteriores. Los usuarios no pueden interactuar con un dispositivo cuando éste está apagado. Si el dispositivo se ha encendido, puede tener lugar interacción normal. Permanecerá activo hasta que se lleve a cabo otra acción. Si el servidor virtual soporta la característica de suspensión de facturación, la facturación se suspende para algunos recursos de cálculo. No puede completar todas las acciones de gestión en una instancia hasta que se reanude la facturación. La suspensión de facturación solo está soportada en suministros nuevos, no en instancias existentes. Para obtener más información, consulte [Acerca de la suspensión de facturación](vsi_about_suspend.html).
 
 * **Cambiar el nombre**
 

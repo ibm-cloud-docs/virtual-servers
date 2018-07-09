@@ -25,20 +25,21 @@ lastupdated: "2017-10-25"
 La {{site.data.keyword.slapi_short}} es un sistema de llamada a procedimiento remoto. Cada llamada implica el envío de datos a un punto final de API y la recepción de datos estructurados. El formato utilizado para enviar y recibir datos con la {{site.data.keyword.slapi_short}} depende de la implementación de la API que se elija. Actualmente la {{site.data.keyword.slapi_short}} utiliza SOAP, XML-RPC o REST para la transmisión de datos.
 
 Para obtener más información sobre la {{site.data.keyword.slapi_short}} y las API del servidor virtual, consulte los recursos siguientes en {{site.data.keyword.sldn_full}}:
-* [Visión general de {{site.data.keyword.slapi_short}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://sldn.softlayer.com/article/softlayer-api-overview){: new_window} 
-* [Iniciación a la {{site.data.keyword.slapi_short}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](http://sldn.softlayer.com/article/getting-started){: new_window}
-* [Referencia de API: SoftLayer_Virtual_Guest::createObject ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](http://sldn.softlayer.com/reference/services/softlayer_virtual_guest/createobject){: new_window}
-* [Referencia de API: SoftLayer_Product_Order::placeOrder ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](http://sldn.softlayer.com/reference/services/SoftLayer_Product_Order/placeOrder){: new_window}
+* [Visión general de {{site.data.keyword.slapi_short}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://softlayer.github.io/reference/softlayerapi/){: new_window}
+* [Iniciación a la {{site.data.keyword.slapi_short}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://softlayer.github.io/article/getting-started/){: new_window}
+* [Referencia de API: SoftLayer_Virtual_Guest::createObject ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/){: new_window}
+* [Referencia de API: SoftLayer_Product_Order::placeOrder ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/){: new_window}
 
 Para ver ejemplos de uso de la API, consulte los siguientes recursos:
+* [Descripción y creación de un pedido utilizando la CLI de pedidos de {{site.data.keyword.slapi_short}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://softlayer.github.io/article/understanding-ordering/){: new_window}
 * [Cliente Python de la {{site.data.keyword.slapi_short}}: Cómo trabajar con servidores virtuales ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](http://softlayer-python.readthedocs.io/en/latest/cli/vs.html){: new_window}
 * [Ejemplos de {{site.data.keyword.slapi_short}} - Notas del release ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://softlayer.github.io/){: new_window}
 * [Ejemplos de Python ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://softlayer.github.io/python/){: new_window}
 
 ## Ejemplos de uso de servidores virtuales dedicados
-* [Obtención de asignación de host dedicado ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://softlayer.github.io/python/getdedihostallocation/){: new_window}
-* [Obtención de invitados de host dedicado ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://softlayer.github.io/python/getdedicatedhostguests/){: new_window}
-* [Migración de una instancia de servidor virtual entre hosts dedicados ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://softlayer.github.io/python/migratededicatedinstance/){: new_window}
+* [Obtención de asignación de host dedicado ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://softlayer.github.io/python/getDediHostAllocation/){: new_window}
+* [Obtención de invitados de host dedicado ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://softlayer.github.io/python/getDedicatedHostGuests/){: new_window}
+* [Migración de una instancia de servidor virtual entre hosts dedicados ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://softlayer.github.io/python/migrateDedicatedHost.py/){: new_window}
 
 ## Ejemplos de uso de servidores virtuales públicos
 * [Ejemplos de la API softlayer_virtual_guest ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://softlayer.github.io/classes/softlayer_virtual_guest/){: new_window}

@@ -36,7 +36,7 @@ Siga los pasos siguientes para iniciar una sesión en el {{site.data.keyword.Blu
 
 Se abrirá la página principal del {{site.data.keyword.slportal}}.
 
-## Inicio de sesión en el portal del cliente
+## Inicio de sesión en el Portal de clientes
 Utilice los pasos siguientes para iniciar sesión en el {{site.data.keyword.slportal}} para comenzar el pedido de sus instancias dedicadas.
 
 1.	Abra una nueva ventana del navegador y escriba [https://control.softlayer.com](https://control.softlayer.com){: new_window}. 
@@ -155,7 +155,7 @@ La primera opción para suministrar instancias de host dedicadas es utilizar el 
     </TBODY>
     </table>
 
-6.  Pulse los recuadros de selección **Términos de servicio de la nube** y **Acuerdo de servicios de terceros**.
+6.  Pulse los recuadros de selección **Términos de los servicios en la nube** y **Acuerdo de servicios de terceros**.
 7. Confirme o especifique la información sobre el pago y pulse el botón **Enviar pedido**. Se le redirigirá a una pantalla con el número de su pedido de suministro. Puede imprimir la pantalla ya que también es su recibo del pedido de suministro.
 
     Se enviará una serie de correos electrónicos al administrador: acuse de recibo del pedido de suministro, aprobación y proceso del pedido de suministro y suministro completado. El correo electrónico de suministro completado incluirá un enlace que le llevará directamente a la página **Detalles del dispositivo** después de iniciar una sesión en {{site.data.keyword.Bluemix_notm}}. Otra opción sería iniciar la sesión directamente en el {{site.data.keyword.slportal}}.

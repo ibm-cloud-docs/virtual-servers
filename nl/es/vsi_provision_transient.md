@@ -48,7 +48,7 @@ Para suministrar la instancia de servidor virtual transitorio a través del icon
 3.  En la página *Configurar su servidor de nube*, especifique toda la información pertinente.
 4.  Pulse **Añadir a pedido** para continuar.
 5.  Confirme o edite la información de dominio correspondiente al servidor.
-5.  Pulse los recuadros de selección **Términos del servicio de la nube** y **Acuerdo de servicio de terceros**.
+5.  Pulse los recuadros de selección **Términos de los servicios en la nube** y **Acuerdo de servicio de terceros**.
 6.  Confirme o especifique la información sobre el pago y pulse **Enviar pedido**. Se le redirigirá a una pantalla con el número de su pedido de suministro. Puede imprimir la pantalla ya que también es su recibo del pedido de suministro.
 
  Se enviará una serie de correos electrónicos al administrador: acuse de recibo del pedido de suministro, aprobación y proceso del pedido de suministro y suministro completado. El correo electrónico completo de suministro incluye un enlace con la página *Detalles del dispositivo*.
@@ -66,7 +66,7 @@ También puede suministrar instancias de servidor virtual transitorio a través 
 4. En la página *Configurar su servidor de nube*, especifique toda la información pertinente.
 5. Pulse **Añadir a pedido** para continuar.
 6. Confirme o edite la información de dominio correspondiente al servidor.
-7. Pulse los recuadros de selección **Términos del servicio de la nube** y **Acuerdo de servicio de terceros**.
+7. Pulse los recuadros de selección **Términos de los servicios en la nube** y **Acuerdo de servicio de terceros**.
 8. Confirme o especifique la información sobre el pago y pulse **Enviar pedido**. Se le redirigirá a una pantalla con el número de su pedido de suministro. Puede imprimir la pantalla ya que también es su recibo del pedido de suministro.
 
 Se enviará una serie de correos electrónicos al administrador: acuse de recibo del pedido de suministro, aprobación y proceso del pedido de suministro y suministro completado. El correo electrónico completo de suministro incluye un enlace con la página *Detalles del dispositivo*.

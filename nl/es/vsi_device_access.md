@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 
 ---
@@ -75,7 +75,7 @@ Para proporcionar acceso a un nivel de dispositivo específico, siga los pasos s
 5. Verifique que se han seleccionado los dispositivos correctos.
 6. Pulse **Actualizar acceso a dispositivo**.
 
-**Nota:** también puede utilizar el servicio de la API SoftLayer_User_Customer::addBulkDedicatedHostAccess para otorgar a un usuario acceso a uno o varios hosts dedicados. Para obtener más información, consulte [Adición de acceso masivo a host dedicado ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](http://sldn.softlayer.com/reference/services/softlayer_user_customer/addbulkdedicatedhostaccess){: new_window}.  
+**Nota:** también puede utilizar el servicio de la API SoftLayer_User_Customer::addBulkDedicatedHostAccess para otorgar a un usuario acceso a uno o varios hosts dedicados. Para obtener más información, consulte [Adición de acceso masivo a host dedicado ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://softlayer.github.io/reference/services/SoftLayer_User_Customer/addBulkDedicatedHostAccess/){: new_window}.  
 
 ## Siguientes pasos
 Los permisos de usuario se actualizan inmediatamente después de que se envíen los cambios. Si se han otorgado permisos, el usuario puede ver o interactuar con las características seleccionadas. Si se han retirado permisos, el usuario ya no puede ver ni interactuar con las características seleccionadas. Los permisos se pueden volver a actualizar en cualquier momento.
