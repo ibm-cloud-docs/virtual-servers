@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-09-06"
+  years: 2014, 2018
+lastupdated: "2018-05-11"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,13 +9,11 @@ lastupdated: "2017-09-06"
 
 # 访问可移植存储器
 
-## 概述
-
-可移植存储卷 (PSV) 是专用于 {{site.data.keyword.virtualmachinesshort}} 的辅助存储器解决方案。在[客户门户网站](https://control.softlayer.com/){:new_window}中，可以从*可移植存储器*页面访问可移植存储卷，此页面显示所有 PSV，并且在此可连接、拆离、交换和编辑卷。 
+可移植存储卷 (PSV) 是专用于 {{site.data.keyword.virtualmachinesshort}} 的辅助存储器解决方案。在 [{{site.data.keyword.slportal_full}} !{外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){: new_window} 内，您可以从*可移植存储器*页面访问可移植存储卷，此页面显示所有 PSV，并且可在其中添加、拆离、交换和编辑卷。 
 
 ## 访问可移植存储器页面
 
-1. 使用您的唯一凭证来访问[客户门户网站 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/)。
+1. 使用您的唯一凭证来访问 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){: new_window}。
 * 选择**导航栏**中的**存储器 > 块存储器**以访问“可移植存储器”页面。
 * 单击可移植存储器旁边的**操作**按钮，然后单击“连接”选项。
 * 在下一个屏幕上，选择需要连接存储器的设备。
@@ -30,7 +28,7 @@ lastupdated: "2017-09-06"
 
 连接到服务器的可移植存储器列在该服务器的*设备详细信息*页面上。
 
-1. 使用您的唯一凭证来访问[客户门户网站 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/)。
+1. 使用您的唯一凭证来访问 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){: new_window}。
 * 选择**导航栏**中的**设备 > 设备列表**以访问“设备列表”页面。
 * 单击虚拟服务器主机名以访问服务器的“设备详细信息”页面。
 * 单击*存储器*选项卡以查看当前连接到服务器的可移植存储器。
