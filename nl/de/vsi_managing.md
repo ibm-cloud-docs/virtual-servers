@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-06-28"
 
 
 ---
@@ -47,7 +47,7 @@ Führen Sie die folgenden Schritte aus, um Verwaltungstasks für Ihre virtuellen
 
 * **Ein-/ausschalten**
 
-    Wenn die Einheit ausgeschaltet wird, bleibt sie im Status 'ausgeschaltet' und muss durch Wiederholung der oben beschriebenen Schritte manuell eingeschaltet werden. Benutzer können nicht mit einer Einheit interagieren, wenn sie ausgeschaltet ist. Sobald die Einheit eingeschaltet wurde, kann normale Interaktion stattfinden. Sie bleibt eingeschaltet, bis weitere Aktionen unternommen werden.
+    Wenn die Einheit ausgeschaltet wird, bleibt sie im Status 'ausgeschaltet' und muss durch Wiederholung der oben beschriebenen Schritte manuell eingeschaltet werden. Benutzer können nicht mit einer Einheit interagieren, wenn sie ausgeschaltet ist. Sobald die Einheit eingeschaltet wurde, kann normale Interaktion stattfinden. Sie bleibt eingeschaltet, bis weitere Aktionen unternommen werden. Wenn der virtuelle Server die Funktion für ausgesetzte Abrechnung unterstützt, wird die Abrechnung für einige Rechenressourcen ausgesetzt. Sie können in einer Instanz erst wieder alle Verwaltungsaktionen ausführen, wenn die Abrechnung wiederaufgenommen wird. Die ausgesetzte Abrechnung wird nur für neue Bereitstellungen, nicht für vorhandene Instanzen, unterstützt. Weitere Informationen finden Sie in [Informationen zur ausgesetzten Abrechnung](vsi_about_suspend.html).
 
 * **Umbenennen**
 

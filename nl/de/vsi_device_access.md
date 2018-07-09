@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 
 ---
@@ -75,7 +75,7 @@ Führen Sie als nächstes die folgenden Schritte aus, um Zugriff auf einer besti
 5. Überprüfen Sie, dass die richtigen Einheiten ausgewählt sind.
 6. Klicken Sie auf **Einheitenzugriff aktualisieren**.
 
-**Hinweis:** Sie können auch den API-Service SoftLayer_User_Customer::addBulkDedicatedHostAccess verwenden, um einem Benutzer Zugriff auf einen oder mehrere dedizierte Hosts zu erteilen. Weitere Informationen finden Sie unter [Mehrfachen dedizierten Hostzugriff hinzufügen ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](http://sldn.softlayer.com/reference/services/softlayer_user_customer/addbulkdedicatedhostaccess){: new_window}.  
+**Hinweis:** Sie können auch den API-Service SoftLayer_User_Customer::addBulkDedicatedHostAccess verwenden, um einem Benutzer Zugriff auf einen oder mehrere dedizierte Hosts zu erteilen. Weitere Informationen finden Sie unter [Mehrfachen dedizierten Hostzugriff hinzufügen ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://softlayer.github.io/reference/services/SoftLayer_User_Customer/addBulkDedicatedHostAccess/){: new_window}.  
 
 ## Nächste Schritte
 Die Benutzerberechtigungen werden nach dem Absenden der Änderungen sofort aktualisiert. Wenn Berechtigungen erteilt wurden, kann der Benutzer die ausgewählten Funktionen anzeigen und aufrufen. Wenn Berechtigungen widerrufen wurden, kann der betreffende Benutzer die Funkionen nicht mehr anzeigen oder aufrufen. Berechtigungen können jederzeit erneut aktualisiert werden.

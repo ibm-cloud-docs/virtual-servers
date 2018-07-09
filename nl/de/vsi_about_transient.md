@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-28"
+lastupdated: "2018-04-27"
 
 
 ---
@@ -25,17 +25,20 @@ Transiente virtuelle Server sind ideal für Nicht-Produktions-Workloads. Sie kö
 ## Voraussetzungen
 Damit Sie die Vorteile transienter Instanzen nutzen können, müssen Sie die Bereitstellung mit den folgenden Optionen für öffentliche virtuelle Server durchführen:
 * Transient
-* Rechenzentrum Mex01
+* Ihr Host-Standort; Sie können aus folgenden Rechenzentren wählen:
+    * MEX01 
+    * SEO01
+    * PAR01
 
 Transiente Instanzen sind öffentliche Instanzen, die SAN-gestützten Speicher verwenden.
 
 ## Benachrichtigungen
-Sie können die {{site.data.keyword.slapi_short}} zum Empfangen von Benachrichtigungen verwenden, wenn Ressourcen für eine transiente Instanz verfügbar sind. Sie können die API auch verwenden, um einen transienten virtuellen Server programmgesteuert bereitzustellen, wenn Ressourcen verfügbar werden. Analog können Sie die API verwenden, um die Bereitstellung von Instanzen programmgesteuert zu stoppen, wenn Ressourcen nicht mehr verfügbar sind.  
+Sie können die {{site.data.keyword.slapi_short}} zum Empfangen von Benachrichtigungen verwenden, wenn Ressourcen für eine transiente Instanz verfügbar sind. Sie können die API auch verwenden, um einen transienten virtuellen Server programmgesteuert bereitzustellen, wenn Ressourcen verfügbar werden. Analog können Sie die API verwenden, um die Bereitstellung von Instanzen programmgesteuert zu stoppen, wenn Ressourcen nicht mehr verfügbar sind. Weitere Informationen finden Sie in [Automatisierte Benachrichtigungen über ein Zurückfordern konfigurieren](configuring-automated-reclaim-notifications.html).
 
 ## Einschränkungen
 Beachten Sie die folgenden Einschränkungen, bevor Sie einen transienten virtuellen Server bereitstellen.
 
-* Die Anzahl der unterstützten gleichzeitig ausgeführten Instanzen ist Teil Ihres kontoweiten Einheitenkontingents. Weitere Informationen zu Einschränkungen bei gleichzeitig ausgeführten Instanzen finden Sie unter [FAQs: Virtuelle Server](vsi_faqs_vs.html#concurrent).
+* Die Anzahl der unterstützten gleichzeitig ausgeführten Instanzen ist Teil Ihres kontoweiten Einheitenkontingents. Weitere Informationen zu Einschränkungen bei gleichzeitig ausgeführten Instanzen finden Sie unter [FAQs: Virtuelle Server](../vsi/vsi_faqs_vs.html#concurrent).
 * Für transiente Instanzen kann kein Upgrade oder Downgrade durchgeführt werden.
 * Ressourcen können jederzeit ohne Benachrichtigung freigegeben werden.
 * Transiente Instanzen können keinen lokalen Speicher verwenden.

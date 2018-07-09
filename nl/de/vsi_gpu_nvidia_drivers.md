@@ -18,17 +18,17 @@ lastupdated: "2018-02-12"
 
 # GPU-Treiber und -Softwarepakete installieren
 Sie müssen die folgende Software installieren, bevor Sie einen virtuellen Server der GPU-Familie verwenden können.
-* [NVIDIA-Treiber](http://www.nvidia.com/drivers) - ermöglicht Ihrem Betriebssystem die Kommunikation mit der GPU.
-* [CUDA-Toolkit](https://docs.nvidia.com/cuda/) - Entwicklungsumgebung für leistungsfähige GPU-beschleunigte Anwendungen.
-* [cuDNN](https://developer.nvidia.com/cudnn) - _(CUDA Deep Neural Network)_ Bibliothek für Anwendungen für neuronale Netze.
-* [NCCL](http://docs.nvidia.com/deeplearning/sdk/nccl-install-guide/index.html) - Clusterkommunikationsbibliothek für Multi-GPU- und/oder Mehrsystemkommunikation.
+* [NVIDIA-Treiber ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](http://www.nvidia.com/drivers){: new_window} – ermöglicht Ihrem Betriebssystem die Kommunikation mit der GPU.
+* [CUDA-Toolkit ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://docs.nvidia.com/cuda/){: new_window} – Entwicklungsumgebung für leistungsfähige GPU-beschleunigte Anwendungen.
+* [cuDNN ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://developer.nvidia.com/cudnn){: new_window} – (CUDA Deep Neural Network) Bibliothek für Anwendungen für neuronale Netze.
+* [NCCL ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](http://docs.nvidia.com/deeplearning/sdk/nccl-install-guide/index.html){: new_window} – Clusterkommunikationsbibliothek für Multi-GPU- und/oder Mehrsystemkommunikation.
 * **BLAS** (_Basic Linear Algebra Subprograms_) - Routinen, die die Bausteine für die Durchführung einfacher linearer algebraischer Operationen bereitstellen, wie beispielsweise eine der folgenden Bibliotheken:
-  - [Atlas](http://math-atlas.sourceforge.net/atlas_install/)
-  - [cuBLAS](https://developer.nvidia.com/cublas)
-  - [MKL](https://software.intel.com/en-us/mkl-developer-reference-c-blas-and-sparse-blas-routines)
-  - [OpenBLAS](http://www.openblas.net/)
+  - [Atlas ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](http://math-atlas.sourceforge.net/atlas_install/){: new_window}
+  - [cuBLAS ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://developer.nvidia.com/cublas){: new_window}
+  - [MKL ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://software.intel.com/en-us/mkl-developer-reference-c-blas-and-sparse-blas-routines){: new_window}
+  - [OpenBLAS ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](http://www.openblas.net/){: new_window}
 
 Wenn Sie ein Framework für maschinelles Lernen installieren, müssen Sie zusätzlich zu den oben genannten Softwarepaketen Framework-Software installieren, wie beispielsweise eine der folgenden Plattformen.
-* [Caffe](https://www.nvidia.com/en-us/data-center/gpu-accelerated-applications/caffe/) (_Convolutional Architecture for Fast Feature Embedding_) - lizenziertes Open-Source-Deep-Learning-Framework.
-* [Tensorflow (Tensorflow 1.2+)](https://www.tensorflow.org/install/) - stellt eine Open-Source-Softwarebibliothek für numerische Berechnungen bereit.
+* [Caffe ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://www.nvidia.com/en-us/data-center/gpu-accelerated-applications/caffe/){: new_window} (Convolutional Architecture for Fast Feature Embedding) – lizenziertes Open-Source-Deep-Learning-Framework.
+* [Tensorflow (Tensorflow 1.2+) ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://www.tensorflow.org/install/){: new_window} – stellt eine Open-Source-Softwarebibliothek für numerische Berechnungen bereit.
 

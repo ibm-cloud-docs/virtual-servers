@@ -7,6 +7,7 @@ IBM Cloud Virtual Servers
     {: .navgroup id="learn"}
     vsi_index.md
     vsi_about.md
+    vsi_about_suspend.md
     
     {: .topicgroup}
     Bereitstellungsoptionen
@@ -21,7 +22,7 @@ IBM Cloud Virtual Servers
         vsi_dedicated.md
             vsi_dedicated_host.md
             vsi_dedicated_pricing.md
-        [Bereitstellungsscripts](../infrastructure/provisioning-scripts/ps_index.html)
+        vsi_ps_index.md
 
     vsi_image_templates_intro.md
 
@@ -77,6 +78,7 @@ IBM Cloud Virtual Servers
         vsi_reconfigure.md
         vsi_work_image.md
         vsi_ssh_config.md
+        configuring-automated-reclaim-notifications.md
 
     {: .topicgroup}
     Server verwalten
@@ -93,6 +95,7 @@ IBM Cloud Virtual Servers
             vsi_upgrading_port_speeds_windows.md
             vsi_downgrading_port_speeds.md
         vsi_autoscale_intro.md
+        add-provisioning-script.md
      
     {: .topicgroup}
     Sicherheit verwalten
@@ -112,6 +115,7 @@ IBM Cloud Virtual Servers
         [IPv6 zu Ubuntu-Systemen hinzufügen](../infrastructure/software/adding-ipv6-ubuntu-systems.html)
         [ClamAV installieren](../infrastructure/software/install-clamav.html)
         [Benutzer über eine anstehende Bandbreitenbegrenzung in cPanel/WHM benachrichtigen](../infrastructure/software/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
+        [Instanz für die Verwendung eines lokalen WSUS-Servers aktualisieren](../infrastructure/software/local-wsus.html)
         vsi_gpu_nvidia_drivers.md
  
     {: .topicgroup}
@@ -127,14 +131,11 @@ IBM Cloud Virtual Servers
     Sicherung und Wiederherstellung
         vsi_backup.md
         vsi_launch_rescue.md
-        spare_pools.md
-            add_spare_pool.md
-            cancel_spare_pool.md
-            reactivating_spare_pool_device.md
+        [Server mithilfe eines R1Soft-Images wiederherstellen](../infrastructure/software/r1soft-cdp-bare-metal-restore-procedures.html)
         
     {: .topicgroup}
     Zugehörige Links
-        [Netz mit virtuellen Maschinen einrichten](http://knowledgelayer.softlayer.com/learning/virtual-machine-network-setup)
+        [Netz mit virtuellen Maschinen einrichten](../infrastructure/virtualization/virtual-machine-network-setup.html)
         [Steuerportal](https://control.softlayer.com/)
     {: .navgroup-end}
 

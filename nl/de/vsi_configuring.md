@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-25"
+  years: 2017, 2018
+lastupdated: "2018-03-19"
 
 
 ---
@@ -49,7 +49,7 @@ Das private Netz ist die Zentrale für Interaktionen mit Ihren Einheiten über R
 Die Überwachung dient primär als Ressource zum Überprüfen der Betriebszeit Ihres Servers und sie kann Anhaltspunkte für den geeigneten Zeitpunkt für Skalierungsmaßnahmen liefern. Die Standard Monitoring-Services und Nimsoft Monitoring decken unterschiedliche Überwachungsanforderungen ab. Standard Monitoring (gelegentlich auch als 'Basisüberwachung' bezeichnet) wird im Allgemeinen bei der Ping/Antwort-Methode mit einem langsamen Pingsignal oder einem Servicepingsignal verwendet, das über das {{site.data.keyword.slportal}} abgesetzt wird. Nimsoft Monitoring (auch als 'erweiterte Überwachung' bezeichnet) ist in drei Stufen (Basis, Erweitert und Premium) verfügbar. Dieser Service ist ebenfalls über das {{site.data.keyword.slportal}} zugänglich. Weitere Informationen finden Sie unter [Überwachung](../infrastructure/SLmonitoring/monitoring_index.html).
 
 ## System schützen
-Mithilfe der verfügbaren Hardware-Firewalls können Sie sicherstellen, dass Ihr System stets geschützt ist. Hardware-Firewalls werden bei Bedarf ohne Ausfallszeit bereitgestellt. Wenn die Firewallregeln korrekt eingerichtet werden, kann Ihr System durch die Firewall vor unbeabsichtigten Aktivitäten geschützt werden. Nachdem Sie eine Firewall bestellt haben, muss sie aktiviert und mit Regeln ausgestattet werden.  
+Mithilfe der verfügbaren Hardware-Firewalls können Sie sicherstellen, dass Ihr System stets geschützt ist. Hardware-Firewalls werden bei Bedarf ohne Ausfallszeit bereitgestellt. Wenn die Firewallregeln korrekt eingerichtet werden, kann Ihr System durch die Firewall vor unbeabsichtigten Aktivitäten geschützt werden. Nachdem Sie eine Firewall bestellt haben, muss sie aktiviert und mit Regeln ausgestattet werden.
 
 Weitere Informationen können Sie den folgenden Themensammlungen zur Sicherheit entnehmen.
 

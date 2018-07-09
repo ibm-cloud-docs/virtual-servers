@@ -36,7 +36,7 @@ Sie in den folgenden Abschnitten:
 | --------------------------------------------------------- | --------------------------------------------------- |
 |[Öffentlicher virtueller Server](../vsi/vsi_public.html)            | Von IBM verwaltete Multi-Tenant-Bereitstellungen für virtuelle Server|
 |[Transienter virtueller Server](../vsi/vsi_about_transient.html)| Von IBM verwaltete Multi-Tenant-Bereitstellungen für virtuelle Server, angeboten zu reduzierten Kosten und am besten geeignet für flexible Workloads |
-|[Dedizierter virtueller Server](../vsi/vsi_dedicated.html)      | Von IBM verwaltete Einzel-Tenant-Bereitstellungen für virtuelle Server             |
+|[Dedizierter virtueller Server](../vsi/vsi_dedicated.html)      | Von IBM verwaltete Einzel-Tenant-Bereitstellungen für virtuelle Server            |
 {: caption="Tabelle 1. Bereitstellungsoptionen" caption-side="top"}   
 
 ## Virtuellen Server bereitstellen

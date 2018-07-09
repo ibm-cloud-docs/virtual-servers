@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 
 ---
@@ -27,8 +27,16 @@ Der Rescue-Kernel ist eine Live-Rescue-Umgebung, die dem Kunden die Möglichkeit
 
 1. Öffnen Sie das [{{site.data.keyword.slportal}} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/), indem Sie Ihre eindeutigen Berechtigungsnachweise eingeben.
 2. Klicken Sie in der Einheitenliste auf den Namen der Einheit, für die Sie den Rescue-Kernel starten möchten.
-3. Klicken Sie auf die Dropdown-Liste *Aktionen* in der rechten oberen Ecke und wählen Sie **Rescue** aus.
+3. Klicken Sie auf die Dropdown-Liste *Aktionen* in der rechten oberen Ecke und wählen Sie **Rescue** aus. (Alternativ können Sie auf die Registerkarte *Remote Management* klicken und **Retten** auswählen.)
 4. Klicken Sie auf die Schaltfläche **Ja**, um für Ihre Einheit sofort den Rescue-Kernel zu starten. Klicken Sie auf die Schaltfläche **Nein**, um die Aktion abzubrechen.
+
+## Unter Windows VSI
+
+1. Öffnen Sie das [{{site.data.keyword.slportal}} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/), indem Sie Ihre eindeutigen Berechtigungsnachweise eingeben.
+2. Klicken Sie in der Einheitenliste auf den Namen der Einheit, für die Sie den Rescue-Kernel starten möchten.
+3. Klicken Sie auf die Dropdown-Liste *Aktionen* in der rechten oberen Ecke und wählen Sie die Option für **Aus Image starten** aus.
+4. Wählen Sie neben dem öffentlichen Image *WindowsRescueStandalone.iso* die Option für **Aus diesem Image starten** aus.
+
 
 ## Nächste Schritte
 Nach dem Starten des Rescue-Kernels wird die Einheit ausgeschaltet und im Rescue-Kernel für das Betriebssystem der Einheit erneut gestartet. Dieser Vorgang kann mehrere Minuten dauern.

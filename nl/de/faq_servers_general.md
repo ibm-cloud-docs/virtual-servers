@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 
 ---
@@ -46,6 +46,7 @@ Wenn das Root- oder Administratorkennwort für Ihren Server plötzlich nicht meh
    * Haben Sie das Kennwort kopiert und eingefügt? Falls nicht, versuchen Sie es. Fügen Sie das Kennwort probeweise in einem Texteditor ein, um sicherzustellen, dass keine unbeabsichtigten Leerzeichen mit kopiert werden.
    * Wenn der Server über eine Komponente cPanel verfügt: Besteht die Möglichkeit, dass Ihre IP-Adresse nach fehlgeschlagenen Anmeldeversuchen durch cPHulk gesperrt wurde? Wenn dies zutrifft, können Sie über KVM oder IPMI auf den Server zugreifen und Ihre IP-Adresse in die Whitelist eintragen, indem Sie cPHulk mit "/scripts/cphulkdwhitelist", gefolgt von Ihrer IP-Adresse eingeben.
    * Hat jemand in letzter Zeit versucht, das Kennwort für den Server durch Ändern des Kennworts im {{site.data.keyword.slportal}} zu ändern? Beim Ändern des Kennworts im {{site.data.keyword.slportal}} wird nur das für Sie angezeigte Kennwort geändert. Dies hat keine Auswirkung auf das vom Server verwendete Kennwort. Wenn dies der Fall ist, verständigen Sie den Support. Der Support kann in der Regel das ursprüngliche gültige Kennwort wiederherstellen.
+   * Möglicherweise müssen Sie über einen Bootvorgang zum Wiederherstellungsmodus Ihres Betriebssystems wechseln, um das Kennwort zurücksetzen zu können. Weitere Informationen finden Sie unter [Rescue-Kernel starten](/docs/vsi/vsi_launch_rescue.html).
 
 Wenn die angegebenen Punkte überprüft wurden und weiterhin kein Serverzugriff mit dem Kennwort möglich ist, öffnen Sie ein Support-Ticket und fordern Sie das Zurücksetzen des Kennworts an. Der Support muss einen Neustart des Servers durchführen, um das Kennwort zurückzusetzen. Halten Sie sich bereit, den Neustart zu bestätigen und/oder benennen Sie einen Wartungszeitrahmen, in dem der Neustart erfolgen kann. Das Zurücksetzen des Kennworts dauert in den meisten Fällen nicht länger als 15 Minuten. Um ein Ticket zu öffnen, navigieren Sie im {{site.data.keyword.slportal}} zu **Support > Ticket hinzufügen** und verwenden Sie den Eintrag *"Neustarts und Konsolenzugriff"*.
 

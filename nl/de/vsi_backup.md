@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2018
+lastupdated: "2018-04-11"
 
 ---
 {:shortdesc: .shortdesc}
@@ -24,4 +24,4 @@ Weitere Informationen zu den eVault-Backup-Services finden Sie unter [Einführun
 
 Continuous Data Protection (CDP) ist eine leistungsfähige Sicherungssoftware von R1Soft, die das Sichern physischer und virtueller Einheiten ermöglicht. Idera CDP besteht aus drei Hauptkomponenten: dem CDP-Server, dem Agenten und den Datenbank-Plug-ins, die unabhängig von den beiden ersten Komponenten erworben werden können.  Da es sich bei R1Soft CDP um die Sicherungslösung eines Drittanbieters handelt, finden Interaktionen mit CDP vollständig außerhalb der proprietären {{site.data.keyword.Bluemix_short}}-Schnittstellen statt. Die Kennwörter für R1Soft CDP können jedoch erfasst und im {{site.data.keyword.slportal_full}} gespeichert werden.  Alle übrigen Interaktionen mit R1Soft CDP sind auf der R1Soft-Website dokumentiert.
 
-Weitere Informationen zu den R1Soft CDP-Backup-Services finden Sie unter [Einführung in Backup-Services](../infrastructure/Backup/index.html){: new_window}.
+Weitere Informationen zu den R1Soft CDP-Backup-Services finden Sie in der [R1Soft-Dokumentation ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](http://wiki.r1soft.com/display/ServerBackupManager/Home){: new_window}.

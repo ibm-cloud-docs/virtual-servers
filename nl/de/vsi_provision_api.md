@@ -24,7 +24,8 @@ Die folgenden Informationen enthalten REST-API-Beispiel für die Bereitstellung 
 {:shortdesc}
 
 Besonders leistungsfähige API-Beispiele finden Sie in den folgenden Ressourcen:
-* [Softlayer_Virtual_Guest - API-Beispiele](https://softlayer.github.io/classes/softlayer_virtual_guest/)
+* [API-Beispiele für Softlayer_Virtual_Guest ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://softlayer.github.io/classes/softlayer_virtual_guest/)
+* [Versionsliste abrufen ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://softlayer.github.io/article/vsiflavors/)
 
 ## Öffentliche Instanz mit dem Objekt 'create' bereitstellen
 Der API-Service *SoftLayer_Virtual_Guest/createObject* ist die einfachste Methode, um eine öffentliche virtuelle Serverinstanz bereitzustellen, die vordefinierte Versionen (Flavors) verwendet.
@@ -32,7 +33,7 @@ Der API-Service *SoftLayer_Virtual_Guest/createObject* ist die einfachste Method
 Nicht zutreffend für transiente Instanzen.
 {:tip}
 
-Zum Bereitstellen einer öffentlichen virtuellen Serverinstanz mit REST wird eine POST-Anforderung an https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json übermittelt, die den folgenden JSON-Code im Anforderungshauptteil enthält.
+Zum Bereitstellen einer öffentlichen virtuellen Serverinstanz mit REST wird eine POST-Anforderung an https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ übergeben, die den folgenden JSON-Code im Anforderungshauptteil enthält.
 
 ### JSON-Anforderungshauptteil 1
 ```
@@ -65,7 +66,7 @@ Die Bereitstellung eines öffentlichen virtuellen Servers, der vordefinierte Ver
 Nicht zutreffend für transiente Instanzen.
 {:tip}
 
-Zum Bereitstellen eines öffentlichen virtuellen Servers mit REST wird eine POST-Anforderung an https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json übergeben, die den folgenden JSON-Code im Anforderungshauptteil enthält.
+Zum Bereitstellen eines öffentlichen virtuellen Servers mit REST wird eine POST-Anforderung an https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ übergeben, die den folgenden JSON-Code im Anforderungshauptteil enthält.
 
 **Hinweis:** Die Artikelbezeichnungen sind in den Preisen nicht erforderlich. Sie sind nur angegeben, um deutlich zu machen, welche Produktoptionen übergeben werden.
 
@@ -165,7 +166,7 @@ Die Durchführung eines Upgrades für einen öffentlichen virtuellen Server erfo
 Nicht zutreffend für transiente Instanzen.
 {:tip}
 
-Zum Bereitstellen eines öffentlichen virtuellen Servers mit REST wird eine POST-Anforderung an https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json übergeben, die den folgenden JSON-Code im Anforderungshauptteil enthält.
+Zum Bereitstellen eines öffentlichen virtuellen Servers mit REST wird eine POST-Anforderung an https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ übergeben, die den folgenden JSON-Code im Anforderungshauptteil enthält.
 
 **Hinweis:** Die Artikelbezeichnungen sind in den Preisen nicht erforderlich. Sie sind nur angegeben, um deutlich zu machen, welche Produktoptionen übergeben werden.
 
@@ -209,7 +210,7 @@ Zum Bereitstellen eines öffentlichen virtuellen Servers mit REST wird eine POST
 
 Der API-Service *SoftLayer_Virtual_Guest/createObject* ist die einfachste Methode zum Bereitstellen einer transienten virtuellen Serverinstanz.
 
-Zum Bereitstellen einer transienten virtuellen Serverinstanz mit REST wird eine POST-Anforderung an https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json übermittelt, die den folgenden JSON-Code im Anforderungshauptteil enthält.
+Zum Bereitstellen einer transienten virtuellen Serverinstanz mit REST wird eine POST-Anforderung an https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ übergeben, die den folgenden JSON-Code im Anforderungshauptteil enthält.
 
 ### JSON-Anforderungshauptteil 4
 ```
