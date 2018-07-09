@@ -30,8 +30,8 @@ Use as etapas a seguir para efetuar login no {{site.data.keyword.Bluemix_notm}} 
 3.	Insira seu e-mail ou IBMid e clique em **Continuar**.
 4.	Insira sua senha e clique em **Efetuar login**.
 5.	Selecione **Infraestrutura > Calcular**.
-6.  Clique no tile **Serviços virtuais**.
-7.	Selecione a opção **Servidores virtuais dedicados**.
+6.  Clique no tile **Virtual Servers**.
+7.	Selecione a opção **Virtual Servers dedicados**.
 8.  Clique em **Criar**. 
 
 Você estará na página principal do {{site.data.keyword.slportal}}.
@@ -55,7 +55,7 @@ Você estará na página principal do {{site.data.keyword.slportal}}.
 A primeira opção para provisionar instâncias de host dedicado é usar o ícone **Dispositivo** na página inicial do {{site.data.keyword.slportal}}. As etapas a seguir conduzem você por esse processo.
 
 1.	Clique no ícone **Dispositivos**. A janela **Pedir produto e serviços SoftLayer** é exibida. 
-2.  Selecione **Por hora** ou **Mensal** sob Servidores virtuais dedicados. Você é redirecionado para a página *Configurar seu servidor em nuvem*. 
+2.  Selecione **Por hora** ou **Mensal** sob Virtual Servers dedicados. Você é redirecionado para a página *Configurar seu servidor em nuvem*. 
 
 3.	Digite as informações a seguir:
        

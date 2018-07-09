@@ -37,7 +37,7 @@ A RAM é muito simples. A oferta dedica totalmente a quantia de RAM que você se
 
 Você também seleciona o sistema operacional a ser implementado no servidor. É possível selecionar várias opções grátis, como CentOS e Ubuntu. As opções pagas, como Windows Server e Red Hat Enterprise Linux (RHEL), também estão disponíveis. É importante observar que o Windows requer um disco primário de 100 GB.
 
-Para clientes existentes, também é possível implementar com base em um Modelo de Imagem por meio do {{site.data.keyword.slportal_full}} navegando para **Dispositivos-> Gerenciar-> Imagens** e selecionando **Pedir Servidor Virtual** no menu *Ações*.  Isso seleciona automaticamente o sistema operacional apropriado para a ordem.  Como alternativa, é possível pedir com base em uma imagem padrão e, em seguida, recarregar em um modelo de imagem a qualquer momento.
+Para clientes existentes, também é possível implementar com base em um Modelo de Imagem por meio do {{site.data.keyword.slportal_full}} navegando para **Dispositivos-> Gerenciar-> Imagens** e selecionando **Pedir Virtual Server** no menu *Ações*.  Isso seleciona automaticamente o sistema operacional apropriado para a ordem.  Como alternativa, é possível pedir com base em uma imagem padrão e, em seguida, recarregar em um modelo de imagem a qualquer momento.
 
 ## Armazenamento
 
@@ -45,7 +45,7 @@ Você tem a opção para SAN ou armazenamento local para cada servidor virtual. 
 
 ## Faturamento por hora e mensal
 
-É possível selecionar o faturamento por hora ou mensal para um servidor virtual. A diferença primária, além de custo, é que os servidores por hora não têm uma alocação de largura da banda incluída. No término de um período de faturamento, o uso da largura da banda e o número de horas que cada servidor ficou ativo na conta são calculados. Um total de execução está disponível no {{site.data.keyword.slportal}} sob a página Visualização do Servidor Virtual com um link para uma página Detalhes, mostrando cada item de linha, número de horas e encargos de execução por item.
+É possível selecionar o faturamento por hora ou mensal para um servidor virtual. A diferença primária, além de custo, é que os servidores por hora não têm uma alocação de largura da banda incluída. No término de um período de faturamento, o uso da largura da banda e o número de horas que cada servidor ficou ativo na conta são calculados. Um total de execução está disponível no {{site.data.keyword.slportal}} sob a página Visualização do Virtual Server com um link para uma página Detalhes, mostrando cada item de linha, número de horas e encargos de execução por item.
 
 ## Largura de Banda
 

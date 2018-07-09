@@ -2,14 +2,15 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="virtual-servers" audience="compute" href=“/docs/vsi/index.html”}
-Servidores virtuais do IBM Cloud 
+IBM Cloud Virtual Servers 
 
     {: .navgroup id="learn"}
     vsi_index.md
     vsi_about.md
+    vsi_about_suspend.md
     
     {: .topicgroup}
-    Opções de fornecimento
+    Opções de provisionamento
         vsi_public.md
             vsi_public_balanced.md
             vsi_public_balanced_local.md
@@ -21,7 +22,7 @@ Servidores virtuais do IBM Cloud
         vsi_dedicated.md
             vsi_dedicated_host.md
             vsi_dedicated_pricing.md
-        [Scripts de fornecimento](../infrastructure/provisioning-scripts/ps_index.html)
+        vsi_ps_index.md
 
     vsi_image_templates_intro.md
 
@@ -50,7 +51,7 @@ Servidores virtuais do IBM Cloud
     {: .topicgroup}
     Tutoriais
         [Aplicativo da web PHP em uma pilha de LAMP](../tutorials/lamp-stack.html)
-        [Usar servidores virtuais para construir o app da web altamente disponível e escalável](../tutorials/highly-available-and-scalable-web-application.html)
+        [Usar Virtual Servers para construir o app da web altamente disponível e escalável](../tutorials/highly-available-and-scalable-web-application.html)
         
     {: .topicgroup}
     Links relacionados
@@ -77,6 +78,7 @@ Servidores virtuais do IBM Cloud
         vsi_reconfigure.md
         vsi_work_image.md
         vsi_ssh_config.md
+        configuring-automated-reclaim-notifications.md
 
     {: .topicgroup}
     Gerenciando servidores
@@ -93,6 +95,7 @@ Servidores virtuais do IBM Cloud
             vsi_upgrading_port_speeds_windows.md
             vsi_downgrading_port_speeds.md
         vsi_autoscale_intro.md
+        add-provisioning-script.md
      
     {: .topicgroup}
     Gerenciando a segurança
@@ -106,12 +109,13 @@ Servidores virtuais do IBM Cloud
         /storage/edit-description-portable-storage-volume-psv.md
         
     {: .topicgroup}
-    Gerenciando o software
-        [Recarregando o OS](../infrastructure/software/vsi_reload_os.html)
-        [Recarregando um OS usando um modelo de imagem](../infrastructure/software/vsi_reload_os_image.html)
-        [Incluindo IPv6 em sistemas Ubuntu](../infrastructure/software/adding-ipv6-ubuntu-systems.html)
+    Gerenciando software
+        [Recarregando o S.O.](../infrastructure/software/vsi_reload_os.html)
+        [Recarregando um S.O. usando um modelo de imagem](../infrastructure/software/vsi_reload_os_image.html)
+        [Incluindo o IPv6 em sistemas Ubuntu](../infrastructure/software/adding-ipv6-ubuntu-systems.html)
         [Instalando o ClamAV](../infrastructure/software/install-clamav.html)
-        [Notificando os usuários sobre uma Aproximação de limitação de largura de banda no cPanel/WHM](../infrastructure/software/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
+        [Notificando os usuários sobre uma Aproximação de limitação de largura da banda no cPanel/WHM](../infrastructure/software/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
+        [Atualizando uma instância para usar um servidor WSUS local](../infrastructure/software/local-wsus.html)
         vsi_gpu_nvidia_drivers.md
  
     {: .topicgroup}
@@ -127,14 +131,11 @@ Servidores virtuais do IBM Cloud
     Fazendo backup e recuperando
         vsi_backup.md
         vsi_launch_rescue.md
-        spare_pools.md
-            add_spare_pool.md
-            cancel_spare_pool.md
-            reactivating_spare_pool_device.md
+        [Restaurando um servidor de uma imagem R1Soft](../infrastructure/software/r1soft-cdp-bare-metal-restore-procedures.html)
         
     {: .topicgroup}
     Links relacionados
-        [Configuração de rede de máquina virtual](http://knowledgelayer.softlayer.com/learning/virtual-machine-network-setup)
+        [Configuração de rede de máquina virtual](../infrastructure/virtualization/virtual-machine-network-setup.html)
         [Portal de controle](https://control.softlayer.com/)
     {: .navgroup-end}
 

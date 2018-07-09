@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-06-28"
 
 
 ---
@@ -43,11 +43,12 @@ Conclua as etapas a seguir para executar tarefas de gerenciamento para seus serv
 ## O que acontece em seguida
 * **Reinicalização**
 
-    Uma reinicialização é uma das ações de dispositivo mais básicas. A reinicialização de um dispositivo resulta na desativação e ativação imediatas de seu dispositivo e é feita por muitas razões, muitas vezes específicas para as necessidades do dispositivo ou de negócios do usuário individual. As reinicializações de dispositivo podem ocorrer da Lista de dispositivos e da Visualização do dispositivo de um dispositivo individual. Os Servidores virtuais podem ser reinicializados a qualquer momento.  
+    Uma reinicialização é uma das ações de dispositivo mais básicas. A reinicialização de um dispositivo resulta na desativação e ativação imediatas de seu dispositivo e é feita por muitas razões, muitas vezes específicas para as necessidades do dispositivo ou de negócios do usuário individual. As reinicializações de dispositivo podem ocorrer da Lista de dispositivos e da Visualização do dispositivo de um dispositivo individual. Os Virtual Servers podem ser reinicializados a qualquer momento.  
 
 * **Ligar/Desligar**
 
-    Se o dispositivo foi desligado, o dispositivo permanece no estado desligado e deve ser ligado manualmente repetindo as etapas acima. Os usuários não podem interagir com um dispositivo quando um dispositivo é desligado. Se o dispositivo foi ligado, pode ocorrer uma interação normal. Ele permanecerá ligado até que uma ação adicional seja tomada.
+    Se o dispositivo foi desligado, o dispositivo permanece no estado desligado e deve ser ligado manualmente repetindo as etapas acima. Os usuários não podem interagir com um dispositivo quando um dispositivo é desligado. Se o dispositivo foi ligado, pode ocorrer uma interação normal. Ele permanecerá ligado até que uma ação adicional seja tomada. Se o servidor virtual suportar o recurso de suspensão de faturamento, o faturamento será suspenso para alguns recursos de cálculo. Não será possível concluir todas as ações de gerenciamento em uma instância até que o faturamento seja retomado. A suspensão de faturamento é suportada somente em novas provisões, não em instâncias existentes.
+Para obter mais informações, consulte [Sobre a suspensão de faturamento](vsi_about_suspend.html).
 
 * **Renomear**
 

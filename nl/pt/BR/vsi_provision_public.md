@@ -52,8 +52,8 @@ Assegure-se de que você tenha efetuado login por meio do catálogo do {{site.da
    <li>Insira seu e-mail ou IBMid e clique em <b>Continuar</b>.</li>
    <li>Insira sua senha e clique em <b>Efetuar login</b>.</li>
    <li>Selecione <b>Infraestrutura</b> > <b>Cálculo</b>.</li>
-   <li>Clique no tile <b>Serviços virtuais</b>.</li>
-   <li>Selecione a opção <b>Servidores virtuais públicos</b>.</li>
+   <li>Clique no tile <b>Virtual Servers</b>.</li>
+   <li>Selecione a opção <b>Virtual Servers públicos</b>.</li>
    <li>Clique em <b>Criar</b>. A página principal do {{site.data.keyword.slportal}} é aberta.</li>
    </ol>
    </td>
@@ -78,7 +78,7 @@ Depois de ter concluído os pré-requisitos, é possível começar a provisionar
 Para provisionar sua instância de servidor virtual público por meio do ícone *Dispositivos*, conclua as etapas a seguir:
 
 1.  No {{site.data.keyword.slportal}}, localize a seção **Pedido** e clique em **Dispositivos**.
-2.  Na página Dispositivos, clique em **Por hora** ou **Mensal** para uma das ofertas de servidor virtual.
+2.  Na página Dispositivos, clique em **Por hora** ou **Mensal** para uma das ofertas de Virtual Server.
 3.  Na página *Configurar seu servidor em nuvem*, conclua todas as informações relevantes.
 4.  Clique no botão **Incluir na ordem** para continuar.
 5.  Confirme ou edite as informações de domínio para o servidor.
@@ -96,7 +96,7 @@ Também é possível provisionar suas instâncias de servidor virtual público p
 
    A página Dispositivos exibe todos os tipos de dispositivo: hosts dedicados, servidores virtuais, servidores bare metal e controladores de entrega do aplicativo NetScaler, em sua conta.
 2. Clique no link **Pedir dispositivos** no canto superior direito.
-3. Na página Dispositivos, clique em **Por hora** ou **Mensal** para uma das ofertas de servidor virtual.
+3. Na página Dispositivos, clique em **Por hora** ou **Mensal** para uma das ofertas de Virtual Server.
 4. Na página *Configurar seu servidor em nuvem*, conclua todas as informações relevantes.
 5. Clique no botão **Incluir na ordem** para continuar.
 6. Confirme ou edite as informações de domínio para o servidor.

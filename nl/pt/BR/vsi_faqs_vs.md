@@ -20,19 +20,19 @@ lastupdated: "2018-02-02"
 # FAQs: servidores virtuais  
 
 ## Quais tipos de servidores virtuais estão disponíveis para uso?
-O {{site.data.keyword.BluSoftlayer_full}} oferece alguns tipos de servidores virtuais. A oferta padrão é um servidor virtual baseado em público, que é um ambiente de diversos locatários, adequado para uma variedade de necessidades. Se você está procurando um ambiente de locatário único, considere a oferta de Servidor virtual dedicado. A opção do servidor virtual dedicado é ideal para aplicativos com requisitos de recursos mais rigorosos. Para obter mais informações sobre as ofertas atuais de servidor virtual, veja [Introdução aos servidores virtuais](../vsi/vsi_index.html).
+O {{site.data.keyword.BluSoftlayer_full}} oferece alguns tipos de servidores virtuais. A oferta padrão é um servidor virtual baseado em público, que é um ambiente de diversos locatários, adequado para uma variedade de necessidades. Se você está procurando um ambiente de locatário único, considere a oferta de Virtual Server dedicado. A opção do servidor virtual dedicado é ideal para aplicativos com requisitos de recursos mais rigorosos. Para obter mais informações sobre as ofertas atuais de servidor virtual, veja [Introdução aos servidores virtuais](../vsi/vsi_index.html).
 
 ## Onde posso localizar informações de precificação para tipos de instância pública?
 Para informações de precificação, consulte [Construir seu servidor virtual ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud-computing/bluemix/virtual-servers){: new_window}.
 
-## Posso incluir armazenamento em disco para meu Servidor Virtual por hora ou mensal?
+## Posso incluir armazenamento em disco para meu Virtual Server por hora ou mensal?
 Você pode fazer upgrade ou downgrade do armazenamento em disco para qualquer servidor virtual atualizando suas opções de armazenamento nos campos *Primeiro disco* a *Quinto disco* na tela *Configuração* do dispositivo que deseja atualizar. Para obter mais informações, veja [Reconfigurando um servidor virtual existente](../vsi/vsi_reconfigure.html).
 
-## Quantos Servidores Virtuais por hora posso inicializar?
+## Quantos Virtual Servers por hora posso inicializar?
 
 Por padrão, uma conta tem um limite de 20 instâncias que podem ser executadas em servidores virtuais públicos, servidores virtuais dedicados e servidores bare metal a qualquer momento.  Se desejar aumentar esse limite, entre em contato com o suporte para nos contar um pouco mais sobre o que você está fazendo e de quantas instâncias simultâneas pode precisar.
 
-## Como eu serei faturado pela largura da banda para meus Servidores Virtuais por hora?
+## Como eu serei faturado pela largura da banda para meus Virtual Servers por hora?
 
 O faturamento virtual por hora é dividido para o tráfego de entrada e de saída. Todo o tráfego de entrada para seu servidor virtual é livre de encargos. O tráfego de saída é medido e cobrado por GB, com totais avaliados no término de seu período de faturamento.
 

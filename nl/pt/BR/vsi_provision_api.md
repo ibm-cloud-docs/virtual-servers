@@ -24,7 +24,8 @@ As informações a seguir exibem exemplos de API de Rest para provisionar instâ
 {:shortdesc}
 
 Para exemplos de API mais robustos, veja os recursos a seguir:
-* [Exemplos de API Softlayer_Virtual_Guest](https://softlayer.github.io/classes/softlayer_virtual_guest/)
+* [Exemplos da API Softlayer_Virtual_Guest ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://softlayer.github.io/classes/softlayer_virtual_guest/)
+* [Obtendo uma lista de tipos ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://softlayer.github.io/article/vsiflavors/)
 
 ## Provisionando uma instância pública usando Criar objeto
 O serviço de API *SoftLayer_Virtual_Guest/createObject* é a maneira mais simples de provisionar uma instância de servidor virtual público que usa tipos pré-configurados.
@@ -32,7 +33,7 @@ O serviço de API *SoftLayer_Virtual_Guest/createObject* é a maneira mais simpl
 Não aplicável para instâncias temporárias.
 {:tip}
 
-Para provisionar uma instância de servidor virtual público usando REST, uma solicitação de POST seria enviada para https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json com o JSON a seguir no corpo da solicitação.
+Para provisionar uma instância de servidor virtual público usando REST, uma solicitação de POST seria enviada para https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ com o JSON a seguir no corpo da solicitação.
 
 ### Corpo da solicitação JSON 1
 ```
@@ -64,7 +65,7 @@ O fornecimento de um servidor virtual público que usa tipos pré-configurados �
 Não aplicável para instâncias temporárias.
 {:tip}
 
-Para provisionar um servidor virtual público usando REST, uma solicitação de POST seria enviada para https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json com o JSON abaixo no corpo da solicitação.
+Para provisionar um servidor virtual público usando REST, uma solicitação de POST seria enviada para https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ com o JSON abaixo no corpo da solicitação.
 
 **Nota:** as descrições de itens não são necessárias nos preços. Eles são incluídos somente para mostrar as opções do produto que estão sendo enviadas.
 
@@ -163,7 +164,7 @@ O upgrade de um servidor virtual público é feito usando o serviço de API *Sof
 Não aplicável para instâncias temporárias.
 {:tip}
 
-Para provisionar um servidor virtual público usando REST, uma solicitação de POST seria enviada para https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json com o JSON abaixo no corpo da solicitação.
+Para provisionar um servidor virtual público usando REST, uma solicitação de POST seria enviada para https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ com o JSON abaixo no corpo da solicitação.
 
 **Nota:** as descrições de itens não são necessárias nos preços. Eles são incluídos somente para mostrar as opções do produto que estão sendo enviadas.
 
@@ -206,7 +207,7 @@ Para provisionar um servidor virtual público usando REST, uma solicitação de 
 
 O serviço de API *SoftLayer_Virtual_Guest/createObject* é a maneira mais simples de provisionar uma instância de servidor virtual temporária.
 
-Para provisionar uma instância de servidor virtual temporária usando REST, uma solicitação de POST seria enviada para https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json com o JSON a seguir no corpo da solicitação.
+Para provisionar uma instância de servidor virtual temporária usando REST, uma solicitação de POST seria enviada para https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ com o JSON a seguir no corpo da solicitação.
 
 ### Corpo da solicitação 4 de JSON
 ```

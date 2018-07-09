@@ -30,8 +30,8 @@ Use as etapas a seguir para efetuar login no catálogo do {{site.data.keyword.Bl
 3.	Insira seu e-mail ou IBMid e clique em **Continuar**.
 4.	Insira sua senha e clique em **Efetuar login**.
 5.	Selecione **Infraestrutura > Calcular**.
-6.  Clique no tile **Serviços virtuais**.
-7.	Selecione a opção **Servidores virtuais dedicados**.
+6.  Clique no tile **Virtual Servers**.
+7.	Selecione a opção **Virtual Servers dedicados**.
 8.  Clique em **Criar**. 
 
 Você estará na página principal do {{site.data.keyword.slportal}}.
@@ -50,7 +50,7 @@ Você estará na página principal do {{site.data.keyword.slportal}}.
 Use as etapas a seguir para provisionar seus hosts dedicados.
 
 1.	Clique no ícone **Dispositivos**.
-2.  Clique no link **Servidor virtual dedicado por hora** ou **Servidor virtual dedicado mensal**. 
+2.  Clique no link **Virtual Server dedicado por hora** ou **Virtual Server dedicado mensal**. 
 
    **Nota:** os servidores dedicados são servidores privados.
 
@@ -247,7 +247,7 @@ Você receberá um e-mail quando suas instâncias de host dedicado tiverem sido 
 ### Fornecendo suas instâncias do host dedicado por meio do ícone Dispositivos
 A segunda opção para provisionar instâncias de host dedicado é usar o ícone **Dispositivo** na página inicial do {{site.data.keyword.slportal}}. As etapas a seguir conduzem você por esse processo.
 
-1.	Clique no ícone **Dispositivos** e selecione **Por hora** ou **Mensal** em Servidores virtuais dedicados.
+1.	Clique no ícone **Dispositivos** e selecione **Por hora** ou **Mensal** em Virtual Servers dedicados.
 2.	Siga as etapas em [Provisionando suas instâncias de host dedicado por meio do menu Dispositivos](#ordering-dedicated-devices-menu), iniciando com a Etapa 5.
 
 ### Próximas Etapas

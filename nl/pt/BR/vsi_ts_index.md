@@ -40,7 +40,7 @@ chamado de suporte no [Portal do Cliente
 Ao usar os fóruns para fazer uma pergunta, marque a sua pergunta
 para que ela possa ser vista pelas equipes de desenvolvimento do {{site.data.keyword.Bluemix}}.
 <!--Insert the appropriate Stack Overflow tag for your service for <block-storage> in URL and text below:  -->
-* Se tiver questões técnicas sobre Servidores virtuais, poste sua pergunta no [Stack Overflow ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](http://stackoverflow.com/search?q=virtual-servers+ibm-bluemix){:new_window} e identifique-a com "ibm-cloud" e "virtual-servers".
+* Se tiver questões técnicas sobre Virtual Servers, poste sua pergunta no [Stack Overflow ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](http://stackoverflow.com/search?q=virtual-servers+ibm-bluemix){:new_window} e identifique-a com "ibm-cloud" e "virtual-servers".
 <!--Insert the appropriate dW Answers tag for your service for <service_keyword> in URL below:  -->
 * Para perguntas sobre o serviço e instruções de introdução, use o fórum [IBM developerWorks dW Answers
 ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://developer.ibm.com/answers/topics/virtual-servers.html?smartspace=bluemix){:new_window}. Inclua as tags "virtual servers" e "ibm cloud".

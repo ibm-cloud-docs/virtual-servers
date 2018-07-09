@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 
 ---
@@ -29,7 +29,7 @@ Para acessar e gerenciar os detalhes para um dispositivo específico, deve-se te
 
 Deve-se ter as permissões a seguir para acessar os detalhes do dispositivo para servidores virtuais públicos ou servidores virtuais dedicados.
 
-**Visualizar detalhes de servidores virtuais**
+**Visualizar detalhes de Virtual Servers**
 
 Permite visualizar os endereços IP, tipo de sistema operacional, senhas e muito mais para um servidor virtual fornecido.  Também permite atualizar senhas do servidor virtual no portal. Um usuário deve ter esse acesso para visualizar as instâncias públicas, instâncias dedicadas e instâncias de host dedicado.
 
@@ -38,13 +38,13 @@ Permite visualizar os endereços IP, tipo de sistema operacional, senhas e muito
 Permite visualizar os endereços IP, tipo de sistema operacional, senhas e muito mais para um determinado host dedicado.  Permite também migrar instâncias dedicadas para um host dedicado diferente. Um usuário deve ter esse acesso para visualizar hosts dedicados.
 
 ## Incluindo permissão para visualizar instâncias de servidor virtual
-Use as etapas a seguir para incluir permissões *Visualizar detalhes do servidor virtual* para qualquer um de seus usuários filhos. Somente o administrador de uma conta pode conceder permissões para outros usuários em sua conta.  
+Use as etapas a seguir para incluir permissões *Visualizar detalhes do Virtual Server* para qualquer um de seus usuários filhos. Somente o administrador de uma conta pode conceder permissões para outros usuários em sua conta.  
 
 1. Acesse o [{{site.data.keyword.slportal}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window} usando suas credenciais exclusivas.
 2. Selecione **Conta > Usuários** na barra de navegação para acessar a tela Usuários.
 3. Clique no nome do usuário relevante para acessar o Perfil do usuário.
 4. Clique no ícone **Permissões do portal** para acessar a tela Permissões do portal.
-5. Na guia *Dispositivo*, selecione **Visualizar detalhes do servidor virtual** para incluir essa permissão no perfil do usuário.
+5. Na guia *Dispositivo*, selecione **Visualizar detalhes do Virtual Server** para incluir essa permissão no perfil do usuário.
 
 Para fornecer acesso em um nível de dispositivo específico, continue com as etapas a seguir.
 
@@ -75,7 +75,7 @@ Para fornecer acesso em um nível de dispositivo específico, continue com as et
 5. Verifique se os dispositivos corretos estão selecionados.
 6. Clique em **Atualizar acesso ao dispositivo**.
 
-**Nota:** também é possível usar o serviço da API SoftLayer_User_Customer::addBulkDedicatedHostAccess para fornecer um acesso de usuário para um ou mais hosts dedicados. Para obter mais informações, veja [Incluindo acesso ao host dedicado em massa ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](http://sldn.softlayer.com/reference/services/softlayer_user_customer/addbulkdedicatedhostaccess){: new_window}.  
+**Nota:** também é possível usar o serviço da API SoftLayer_User_Customer::addBulkDedicatedHostAccess para fornecer um acesso de usuário para um ou mais hosts dedicados. Para obter mais informações, consulte [Incluindo Bulk Dedicated Host Access ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://softlayer.github.io/reference/services/SoftLayer_User_Customer/addBulkDedicatedHostAccess/){: new_window}.  
 
 ## Próximas Etapas
 As permissões de usuário são atualizadas imediatamente após as mudanças serem enviadas. Se permissões tiverem sido concedidas, o usuário poderá visualizar ou interagir com os recursos selecionados. Se as permissões tiverem sido removidas, o usuário não poderá mais visualizar ou interagir com os recursos selecionados. As permissões podem ser atualizadas novamente a qualquer momento.

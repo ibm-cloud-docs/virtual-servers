@@ -27,7 +27,7 @@ Antes de iniciar, revise os pré-requisitos a seguir.
 
   1. Assegure-se de que as credenciais do {{site.data.keyword.slportal}} estejam configuradas.
 
-  2. Revise as considerações de capacidade da instância de servidor virtual. Para obter mais informações, veja [Considerações de capacidade](ts_capacity_bp.html).
+  2. Revise as considerações de capacidade da instância de servidor virtual.  Para obter mais informações, veja [Considerações de capacidade](ts_capacity_bp.html).
 
 ## Efetuando login
 Assegure-se de que esteja conectado ao {{site.data.keyword.slportal}}:
@@ -44,7 +44,7 @@ Depois de concluir os pré-requisitos, provisione uma instância de servidor vir
 Para provisionar sua instância de servidor virtual temporária por meio do ícone *Dispositivos*, conclua as etapas a seguir:
 
 1.  No {{site.data.keyword.slportal}}, localize a seção **Pedido** e clique em **Dispositivos**.
-2.  Em *Servidor virtual público* na página *Dispositivos*, clique em **Temporário** para a oferta Servidor virtual.
+2.  Em *Virtual Server público* na página *Dispositivos*, clique em **Temporário** para a oferta Virtual Server.
 3.  Na página *Configurar seu servidor em nuvem*, conclua todas as informações relevantes.
 4.  Clique em **Incluir no pedido** para continuar.
 5.  Confirme ou edite as informações de domínio para o servidor.
@@ -62,7 +62,7 @@ Também é possível provisionar suas instâncias de servidor virtual temporári
 
    A página Dispositivos exibe todos os tipos de dispositivo: hosts dedicados, servidores virtuais, servidores bare metal e controladores de entrega do aplicativo NetScaler, em sua conta.
 2. Clique no link **Pedir dispositivos** no canto superior direito.
-3. Em *Servidor virtual público* na página *Dispositivos*, clique em **Temporário** para a oferta Servidor virtual.
+3. Em *Virtual Server público* na página *Dispositivos*, clique em **Temporário** para a oferta Virtual Server.
 4. Na página *Configurar seu servidor em nuvem*, conclua todas as informações relevantes.
 5. Clique em **Incluir no pedido** para continuar.
 6. Confirme ou edite as informações de domínio para o servidor.

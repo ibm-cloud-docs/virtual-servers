@@ -34,7 +34,7 @@ seguintes tópicos:
 | --------------------------------------------------------- | --------------------------------------------------- |
 |[Servidor virtual público](../vsi/vsi_public.html)            | Implementações de servidor virtual de ocupação variada gerenciadas pela IBM|
 |[Servidor virtual temporário](../vsi/vsi_about_transient.html)| Implementações de servidor virtual de ocupação variada gerenciadas pela IBM oferecidas a um custo reduzido e mais adequadas para cargas de trabalho flexíveis |
-|[Servidor virtual dedicado](../vsi/vsi_dedicated.html)      | Implementações de servidor virtual de ocupação única gerenciadas pela IBM     |
+|[Servidor virtual dedicado](../vsi/vsi_dedicated.html)      | Implementações de servidor virtual de ocupação única gerenciadas pela IBM            |
 {: caption="Tabela 1. Opções de implementação" caption-side="top"}   
 
 ## Provisionando um servidor virtual
@@ -44,7 +44,7 @@ Depois de decidir sobre uma opção de implementação, inicie o processo de for
 |              Instruções de fornecimento                                         |  Descrição                                            |
 | -------------------------------------------------------------------------- | ------------------------------------------------------- |
 |[Provisionando instâncias públicas](../vsi/vsi_provision_public.html)                | Provisione instâncias públicas com várias opções             |
-|[Provisionando instâncias temporárias](../vsi/vsi_provision_transient.html)             | Provisione instâncias temporárias com várias opções          |
+|[Provisionando instâncias temporárias](../vsi/vsi_provision_transient.html)                | Provisione instâncias temporárias com várias opções            |
 |[Provisionando hosts e instâncias dedicadas](../vsi/vsi_provision_dedicated.html)| Provisione instâncias privadas ou instâncias dedicadas em hosts dedicados.|
 {: caption="Tabela 2. Provisionando informações" caption-side="top"}
 

@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 
 ---
@@ -46,6 +46,7 @@ Se a senha raiz ou do administrador para seu servidor repentinamente não estive
    * Você está copiando e colando a senha? Se não, tente. Além disso, cole a senha em um bloco de notas para assegurar que nenhum espaço esteja sendo copiado acidentalmente com a senha.
    * Se o servidor contiver o cPanel, é possível que o cPHulk tenha bloqueado seu endereço IP devido a logins com falha? Se sim, será possível acessar o servidor usando o KVM ou IPMI e incluir na lista de desbloqueio seu endereço IP em cPHulk com "/scripts/cphulkdwhitelist" seguido por seu endereço IP.
    * Alguém tentou recentemente mudar a senha para o servidor modificando a senha no {{site.data.keyword.slportal}}? Mudar a senha no {{site.data.keyword.slportal}} muda apenas o que você vê como a senha. Isso não muda a senha que o servidor está usando. Se isso aconteceu, é possível entrar em contato com o Suporte e eles podem normalmente recuperar a senha de trabalho original.
+   * Pode ser necessário inicializar no modo de resgate do seu sistema operacional para ser possível redefinir sua senha. Para obter mais informações, consulte [Ativando um kernel de resgate](/docs/vsi/vsi_launch_rescue.html).
 
 Se tudo isso foi verificado e ainda assim você não conseguir se conectar ao servidor usando a senha, entre em contato com o suporte usando um chamado e solicite uma reconfiguração de senha. O Suporte precisará reinicializar o servidor para reconfigurar a senha, portanto assegure-se de que você esteja preparado para aprovar a reinicialização e/ou fornecer um prazo de manutenção em que gostaria que isso ficasse pronto. A maioria das reconfigurações de senha pode ser realizada em 15 minutos. No {{site.data.keyword.slportal}}, é possível criar um chamado acessando **Suporte > Incluir Chamado** e usar o assunto *"Reinicializações e Acesso ao Console"*.
 

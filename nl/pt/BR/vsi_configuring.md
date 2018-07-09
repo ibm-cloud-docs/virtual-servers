@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-25"
+  years: 2017, 2018
+lastupdated: "2018-03-19"
 
 
 ---
@@ -49,7 +49,7 @@ A rede privada é a precursora para interagir com seus dispositivos por meio de 
 O monitoramento é usado principalmente como um recurso para verificar o tempo de atividade do seu servidor, mas também pode ser útil para saber quando escalar. Os serviços Standard Monitoring e Nimsoft Monitoring estão disponíveis para cobrir várias necessidades de monitoramento. O Standard Monitoring, às vezes referido como “Basic Monitoring”, geralmente é usado no método executar ping e responder usando um ping lento ou de serviço que é iniciado usando o {{site.data.keyword.slportal}}. O Nimsoft Monitoring também é referido como "Advanced Monitoring" e está disponível em três camadas: Básico, Avançado e Premium. Esse serviço também está acessível por meio do {{site.data.keyword.slportal}}. Para obter mais informações, veja [Monitoramento](../infrastructure/SLmonitoring/monitoring_index.html).
 
 ## Assegurar seu sistema
-Os firewalls de hardware estão disponíveis para assegurar que seu dispositivo esteja sempre seguro. Os firewalls de hardware são provisionados sob demanda sem tempo de inatividade. Se as regras são estabelecidas corretamente, um firewall pode proteger seu servidor de atividades indesejadas. Depois que você solicita um firewall, ele deve ser ativado e as regras devem ser configuradas. Para obter mais informações sobre como obter o máximo de firewalls.
+Os firewalls de hardware estão disponíveis para assegurar que seu dispositivo esteja sempre seguro. Os firewalls de hardware são provisionados sob demanda sem tempo de inatividade. Se as regras são estabelecidas corretamente, um firewall pode proteger seu servidor de atividades indesejadas. Depois que você solicita um firewall, ele deve ser ativado e as regras devem ser configuradas.
 
 Para obter mais informações, veja as coleções de tópicos de segurança a seguir.
 
