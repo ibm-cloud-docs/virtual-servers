@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-09-06"
+  years: 2014, 2018
+lastupdated: "2018-05-11"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,13 +9,11 @@ lastupdated: "2017-09-06"
 
 # Auf portierbaren Speicher zugreifen
 
-## Übersicht
-
-Portierbare Speicherdatenträger (Portable Storage Volumes: PSVs) stellen eine Zusatzspeicherlösung ausschließlich für {{site.data.keyword.virtualmachinesshort}} dar. Sie können im [Kundenportal](https://control.softlayer.com/){:new_window} auf portierbare Speicherdatenträger über die Seite für *portierbaren Speicher* zugreifen. Dort werden alle PSVs angezeigt und die Datenträger können angehängt, abgehängt, ausgelagert und bearbeitet werden. 
+Portierbare Speicherdatenträger (Portable Storage Volumes: PSVs) stellen eine Zusatzspeicherlösung ausschließlich für {{site.data.keyword.virtualmachinesshort}} dar. Im [{{site.data.keyword.slportal_full}} !{Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window} können Sie über die Seite für *Portierbarer Speicher*, auf der alle portierbaren Speicherdatenträger angezeigt werden und die die Position ist, an der Datenträger angehängt, abgehängt und ausgelagert werden können, auf portierbare Speicherdatenträger zugreifen. 
 
 ## Auf Seite für portierbaren Speicher zugreifen
 
-1. Öffnen Sie das [Kundenportal ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/) mit Ihren eindeutigen Berechtigungsnachweisen.
+1. Greifen Sie mithilfe Ihrer eindeutigen Berechtigungsnachweise auf das [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window} zu.
 * Wählen Sie die Option **Speicher > Blockspeicher** in der **Navigationsleiste** aus, um auf die Seite für portierbaren Speicher zu gelangen.
 * Klicken Sie auf die Schaltfläche **Aktion** neben dem portierbaren Speicher und klicken Sie auf die Option zum Anhängen.
 * Wählen Sie in der nächsten Anzeige die Einheit aus, an die der Speicher angehängt werden soll.
@@ -30,7 +28,7 @@ Portierbare Speicherdatenträger (Portable Storage Volumes: PSVs) stellen eine Z
 
 An einen Server angehängter portierbarer Speicher wird auf der Seite *Einheitendetails* des Servers aufgelistet.
 
-1. Öffnen Sie das [Kundenportal ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/) mit Ihren eindeutigen Berechtigungsnachweisen.
+1. Greifen Sie mithilfe Ihrer eindeutigen Berechtigungsnachweise auf das [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window} zu.
 * Wählen Sie die Option **Einheiten > Einheitenliste** in der **Navigationsleiste** aus, um die Seite 'Einheitenliste' aufzurufen.
 * Klicken Sie auf den Hostnamen des virtuellen Servers, um auf die Seite 'Einheitendetails' des Servers zuzugreifen.
 * Klicken Sie auf die Registerkarte *Speicher*, um den portierbaren Speicher anzuzeigen, der aktuell an den Server angehängt ist.

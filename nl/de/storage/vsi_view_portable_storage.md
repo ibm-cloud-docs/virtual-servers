@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-09-13"
+  years: 2017, 2018
+lastupdated: "2018-05-11"
 
 
 ---
@@ -27,7 +27,7 @@ virtuellen Server angewendet werden.
 
 Führen Sie die folgenden Schritte aus, um den portierbaren Speicher anzuzeigen:
 
-1. Öffnen Sie das [Kundenportal ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/), indem Sie Ihre eindeutigen Berechtigungsnachweise eingeben.
+1. Öffnen Sie das [{{site.data.keyword.slportal_full}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/), indem Sie Ihre eindeutigen Berechtigungsnachweise eingeben.
 2. Klicken Sie in der Einheitenliste auf den *Namen des virtuellen Servers*, der die gewünschte portierbare Speichereinheit enthält.
 3. Klicken Sie auf die Registerkarte **Konfiguration**.
 4. Klicken Sie auf die Schaltfläche **Portierbaren Speicher für diese Einheit anzeigen**. Der portierbare Speicher für die jeweilige Einheit wird angezeigt.
