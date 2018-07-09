@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 
 ---
@@ -75,7 +75,7 @@ lastupdated: "2017-10-24"
 5. 正しいデバイスが選択されていることを確認します。
 6. **「デバイスへのアクセス権限の更新」**をクリックします。
 
-**注:** SoftLayer_User_Customer::addBulkDedicatedHostAccess API サービスを使用して、1 つ以上の専用ホストへのアクセス権限をユーザーに付与することも可能です。 詳しくは、[専用ホスト・アクセス権限の一括追加に関する資料![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](http://sldn.softlayer.com/reference/services/softlayer_user_customer/addbulkdedicatedhostaccess){: new_window}を参照してください。  
+**注:** SoftLayer_User_Customer::addBulkDedicatedHostAccess API サービスを使用して、1 つ以上の専用ホストへのアクセス権限をユーザーに付与することも可能です。 詳しくは、[専用ホスト・アクセス権限の一括追加に関する資料![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](https://softlayer.github.io/reference/services/SoftLayer_User_Customer/addBulkDedicatedHostAccess/){: new_window}を参照してください。  
 
 ## 次のステップ
 変更が実行依頼されると、ユーザー許可は即時に更新されます。 許可が付与されている場合、ユーザーは、選択した機能を表示したり、その機能と対話したりすることができます。 許可が削除されている場合は、ユーザーは、選択した機能の表示および対話をできなくなります。 許可は、いつでも再度更新できます。

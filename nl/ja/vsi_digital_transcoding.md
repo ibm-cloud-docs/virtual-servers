@@ -19,7 +19,7 @@ lastupdated: "2017-11-14"
 
 # デジタル・トランスコーディング
 
-{{site.data.keyword.DigitalTranscodinglong}}・サービスを使用して、メディア・ファイルをあるフォーマットから別のフォーマットにトランスコード (つまり、変換) できます。トランスコーディングは通常、使用可能なメディア・ファイルが対象のフォーマットに適合しなかったり、サポートと非互換であったりする場合に行われます。
+{{site.data.keyword.DigitalTranscodinglong}}・サービスを使用して、メディア・ファイルをあるフォーマットから別のフォーマットにトランスコード (つまり、変換) できます。 トランスコーディングは通常、使用可能なメディア・ファイルが対象のフォーマットに適合しなかったり、サポートと非互換であったりする場合に行われます。
 {:shortdesc}
 
 {{site.data.keyword.DigitalTranscodingshort}}・サービスについて詳しくは、[デジタル・トランスコーディングの開始](/docs/infrastructure/digital-transcoding/tc_index.html)を参照してください。

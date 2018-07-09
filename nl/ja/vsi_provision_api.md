@@ -24,7 +24,8 @@ lastupdated: "2018-02-28"
 {:shortdesc}
 
 より堅固な API の例については、以下のリソースを参照してください。
-* [Softlayer_Virtual_Guest API examples](https://softlayer.github.io/classes/softlayer_virtual_guest/)
+* [Softlayer_Virtual_Guest API サンプル ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](https://softlayer.github.io/classes/softlayer_virtual_guest/)
+* [Getting a flavor list ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](https://softlayer.github.io/article/vsiflavors/)
 
 ## Create Object を使用したパブリック・インスタンスのプロビジョニング
 *SoftLayer_Virtual_Guest/createObject* API サービスは、事前設定フレーバーを使用するパブリック仮想サーバー・インスタンスをプロビジョンするための最もシンプルな方法です。
@@ -32,7 +33,7 @@ lastupdated: "2018-02-28"
 一時インスタンスには適用されません。
 {:tip}
 
-REST を使用してパブリック仮想サーバー・インスタンスをプロビジョンするために、要求本文に以下の JSON を含む POST 要求が https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json に送信されます。
+REST を使用してパブリック仮想サーバー・インスタンスをプロビジョンするために、要求本文に以下の JSON を含む POST 要求が https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ に送信されます。
 
 ### JSON 要求本文 1
 ```
@@ -65,7 +66,7 @@ REST を使用してパブリック仮想サーバー・インスタンスをプ
 一時インスタンスには適用されません。
 {:tip}
 
-REST を使用してパブリック仮想サーバーをプロビジョンするために、要求本体に以下の JSON を含む POST 要求が https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json に送信されます。
+REST を使用してパブリック仮想サーバーをプロビジョンするために、要求本文に以下の JSON を含む POST 要求が https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ に送信されます。
 
 **注:** 価格に項目の説明は必要ありません。 それらは、送信する製品オプションを示すためにのみ含まれています。
 
@@ -165,7 +166,7 @@ REST を使用してパブリック仮想サーバーをプロビジョンする
 一時インスタンスには適用されません。
 {:tip}
 
-REST を使用してパブリック仮想サーバーをプロビジョンするために、要求本体に以下の JSON を含む POST 要求が https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json に送信されます。
+REST を使用してパブリック仮想サーバーをプロビジョンするために、要求本文に以下の JSON を含む POST 要求が https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ に送信されます。
 
 **注:** 価格に項目の説明は必要ありません。 それらは、送信する製品オプションを示すためにのみ含まれています。
 
@@ -209,7 +210,7 @@ REST を使用してパブリック仮想サーバーをプロビジョンする
 
 *SoftLayer_Virtual_Guest/createObject* API サービスは、一時仮想サーバー・インスタンスをプロビジョンするための最も簡単な方法です。
 
-REST を使用して一時仮想サーバー・インスタンスをプロビジョンするために、要求本文に以下の JSON を含む POST 要求が https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json に送信されます。
+REST を使用して一時仮想サーバー・インスタンスをプロビジョンするために、要求本文に以下の JSON を含む POST 要求が https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ に送信されます。
 
 ### JSON 要求本文 4
 ```
