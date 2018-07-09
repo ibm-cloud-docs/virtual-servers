@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-09-06"
+  years: 2014, 2018
+lastupdated: "2018-05-11"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,13 +9,11 @@ lastupdated: "2017-09-06"
 
 # Accesso all'archiviazione portatile
 
-## Panoramica
+I volumi di archiviazione portatile (PSV) sono una soluzione di archiviazione ausiliaria disponibile solo per {{site.data.keyword.virtualmachinesshort}}. Nel [{{site.data.keyword.slportal_full}} !{Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window}, puoi accedere ai volumi di archiviazione portatile dalla pagina *Archiviazione portatile*, che visualizza tutti i PSV ed è la posizione in cui i volumi possono essere collegati, scollegati, scambiati e modificati. 
 
-I volumi di archiviazione portatile (PSV) sono una soluzione di archiviazione ausiliaria disponibile solo per {{site.data.keyword.virtualmachinesshort}}. All'interno del [Portale del cliente](https://control.softlayer.com/){:new_window}, puoi accedere ai volumi di archiviazione portatile dalla pagina *Archiviazione portatile*, che visualizza tutti i PSV ed è la posizione in cui i volumi possono essere collegati, scollegati, scambiati e modificati. 
+## Accesso alla pagina Archiviazione portatile 
 
-## Accesso alla pagina Archiviazione portatile
-
-1. Accedi al [Portale del cliente ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/) utilizzando le tue credenziali univoche.
+1. Accedi al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} utilizzando le tue credenziali univoche.
 * Nella **Barra di navigazione**, seleziona **Archiviazione > Archiviazione a blocchi** per accedere alla pagina Archiviazione portatile.
 * Fai clic sul pulsante **Azione** accanto all'archiviazione portatile e fai clic sull'opzione di collegamento.
 * Nella schermata successiva, scegli il dispositivo che necessita dell'archiviazione collegata.
@@ -30,7 +28,7 @@ Dalla pagina *Archiviazione portatile*, è possibile modificare, collegare, scol
 
 L'archiviazione portatile collegata a un server è elencata nella pagina *Dettagli del dispositivo* del server.
 
-1. Accedi al [Portale del cliente ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/) utilizzando le tue credenziali univoche.
+1. Accedi al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} utilizzando le tue credenziali univoche.
 * Nella **Barra di navigazione**, seleziona **Dispositivi > Elenco dispositivi** per accedere alla pagina Elenco dispositivi.
 * Fai clic sul nome host del server virtuale per accedere alla pagina dei dettagli del dispositivo del server.
 * Fai clic sulla scheda *Archiviazione* per visualizzare l'archiviazione portatile attualmente collegata al server.
