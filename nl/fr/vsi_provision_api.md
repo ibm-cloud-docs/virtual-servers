@@ -24,7 +24,8 @@ Des exemples d'API REST permettant de mettre à disposition des instances de ser
 {:shortdesc}
 
 Pour accéder à des exemples d'API plus robustes, voir les ressources suivantes :
-* [Softlayer_Virtual_Guest API examples](https://softlayer.github.io/classes/softlayer_virtual_guest/)
+* [Exemples d'API softlayer_virtual_guest ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://softlayer.github.io/classes/softlayer_virtual_guest/)
+* [Getting a flavor list ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://softlayer.github.io/article/vsiflavors/)
 
 ## Mise à disposition d'une instance publique en utilisant Create Object
 Le service d'API *SoftLayer_Virtual_Guest/createObject* constitue le meilleur moyen de mettre à disposition une instance de serveur virtuel public qui utilise des versions prédéfinies.
@@ -32,7 +33,7 @@ Le service d'API *SoftLayer_Virtual_Guest/createObject* constitue le meilleur mo
 Non applicable aux instances transitoires.
 {:tip}
 
-Pour mettre à disposition une instance de serveur virtuel public en utilisant REST, une demande POST est soumise à https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json avec l'élément JSON suivant dans le corps de la demande.
+Pour mettre à disposition une instance de serveur virtuel public en utilisant REST, une demande POST est soumise dans https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ avec l'élément JSON suivant dans le corps de la demande.
 
 ### Corps de demande JSON 1
 ```
@@ -65,7 +66,7 @@ La mise à disposition d'un serveur virtuel public qui utilise des versions pré
 Non applicable aux instances transitoires.
 {:tip}
 
-Pour mettre à disposition un serveur virtuel public en utilisant REST, une demande POST est soumise à https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json avec l'élément JSON suivant dans le corps de la demande.
+Pour mettre à disposition un serveur virtuel public en utilisant REST, une demande POST est soumise dans https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ avec l'élément JSON suivant dans le corps de la demande.
 
 **Remarque :** Les descriptions d'élément ne sont pas requises sur les prix. Elles sont incluses uniquement pour afficher les options de produit soumises.
 
@@ -165,7 +166,7 @@ La mise à niveau d'un serveur virtuel public est effectuée à l'aide du servic
 Non applicable aux instances transitoires.
 {:tip}
 
-Pour mettre à disposition un serveur virtuel public en utilisant REST, une demande POST est soumise à https://api.softlayer.com/rest/v3/SoftLayer_Product_Order/placeOrder.json avec l'élément JSON suivant dans le corps de la demande.
+Pour mettre à disposition un serveur virtuel public en utilisant REST, une demande POST est soumise dans https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ avec l'élément JSON suivant dans le corps de la demande.
 
 **Remarque :** Les descriptions d'élément ne sont pas requises sur les prix. Elles sont incluses uniquement pour afficher les options de produit soumises.
 
@@ -209,7 +210,7 @@ Pour mettre à disposition un serveur virtuel public en utilisant REST, une dema
 
 Le service d'API *SoftLayer_Virtual_Guest/createObject* offre le meilleur moyen de mettre à disposition une instance de serveur virtuel transitoire.
 
-Pour mettre à disposition une instance de serveur virtuel transitoire à l'aide d'un REST, une demande POST est soumise à https://api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/createObject.json avec le JSON suivant dans le corps de la demande.
+Pour mettre à disposition une instance de serveur virtuel transitoire en utilisant REST, une demande POST est soumise dans https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ avec l'élément JSON suivant dans le corps de la demande.
 
 ### Corps de la demande JSON 4
 ```

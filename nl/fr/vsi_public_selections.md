@@ -23,7 +23,8 @@ Vous devez effectuer les sélections suivantes lorsque vous mettez à dispositio
 ## Emplacement
 Vous pouvez sélectionner le centre de données spécifique dans lequel effectuer le déploiement. Pour les nouveaux déploiements, {{site.data.keyword.Bluemix}} identifie automatiquement le meilleur centre de données (en fonction de la disponibilité) et crée les réseaux locaux virtuels (VLAN) publics et privés appropriés. Outre les environnements existants, vous pouvez sélectionner le centre de données spécifique, le réseau local virtuel et le sous-réseau dont vous avez besoin. Pour en savoir plus sur les réseaux locaux virtuels et sur les sous-réseaux, voir [Initiation aux réseaux locaux virtuels](/docs/infrastructure/vlans/getting-started.html).
 
-La sélection d'un sous-réseau est facultative et doit uniquement avoir lieu si vous souhaitez que votre terminal utilise une adresse IP appartenant au sous-réseau. Si vous sélectionnez un sous-réseau, vérifiez que vous avez suffisamment d'adresses IP pour répondre à la demande. Si vous n'avez pas assez d'adresses IP pour votre sous-réseau, votre commande peut être retardée ou annulée. {:tip}
+La sélection d'un sous-réseau est facultative et doit uniquement avoir lieu si vous souhaitez que votre terminal utilise une adresse IP appartenant au sous-réseau. Si vous sélectionnez un sous-réseau, vérifiez que vous avez suffisamment d'adresses IP pour répondre à la demande. Si vous n'avez pas assez d'adresses IP pour votre sous-réseau, votre commande peut être retardée ou annulée.
+{:tip}
 
 ## Processeurs / Mémoire RAM
 Lors de la commande, vous pouvez effectuer une sélection parmi des options de processeur de coeur. Ces options suivent les normes s'appliquant aux déploiements de serveur virtuel. Chaque coeur physique du serveur comporte plusieurs unités d'exécution et se présente sous la forme de deux unités virtuelles (vCPU) ou coeurs. L'offre de serveur virtuel propose au moins 2,0 GHz par coeur et jusqu'à 56 coeurs disponibles sur un serveur virtuel.
@@ -36,7 +37,7 @@ L'utilisation de la mémoire RAM est extrêmement directe. L'offre dédie entiè
 
 Vous sélectionnez également le système d'exploitation à déployer sur le serveur. Vous pouvez sélectionner certaines options gratuites, telles CentOS et Ubuntu. Certains systèmes payants, tels Windows Server et Red Hat Enterprise Linux (RHEL), sont également disponibles. Gardez à l'esprit que vous devez disposer d'un disque principal de 100 Go pour les systèmes Windows.
 
-Pour les clients existants, vous pouvez également effectuer le déploiement à partir d'un modèle d'image via le portail {{site.data.keyword.slportal_full}} en sélectionnant **Unités -> Gérer -> Images**, puis **Commander un serveur virtuel**  dans le menu *Actions*.  Le système d'exploitation approprié est alors automatiquement sélectionné pour la commande.  Vous pouvez également effectuer une commande d'après une image standard puis effectuer un rechargement dans un modèle d'image à tout moment.
+Pour les clients existants, vous pouvez également effectuer le déploiement à partir d'un modèle d'image via le portail {{site.data.keyword.slportal_full}} en sélectionnant **Unités -> Gérer -> Images**, puis **Commander un serveur virtuel** dans le menu *Actions*.  Le système d'exploitation approprié est alors automatiquement sélectionné pour la commande.  Vous pouvez également effectuer une commande d'après une image standard puis effectuer un rechargement dans un modèle d'image à tout moment.
 
 ## Stockage
 

@@ -68,6 +68,24 @@ Les différentes versions suivantes sont disponibles pour l'offre :
 <td>240 Go</td>
 <td>SAN</td>
 </tr>
+<tr>
+<td>M1.48x384</td>
+<td>48</td>
+<td>384 Go</td>
+<td>SAN</td>
+</tr>
+<tr>
+<td>M1.56x448</td>
+<td>56</td>
+<td>448 Go</td>
+<td>SAN</td>
+</tr>
+<tr>
+<td>M1.64x512</td>
+<td>64</td>
+<td>512 Go</td>
+<td>SAN</td>
+</tr>
 </TBODY>
 </table>
 

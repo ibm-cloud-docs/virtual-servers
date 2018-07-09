@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 
 ---
@@ -75,7 +75,7 @@ Pour fournir l'accès à un niveau de terminal spécifique, suivez la procédure
 5. Vérifiez que les terminaux corrects sont sélectionnés.
 6. Cliquez sur **Mettre à jour l'accès à l'unité**.
 
-**Remarque :** Vous pouvez également utiliser le service d'API SoftLayer_User_Customer::addBulkDedicatedHostAccess pour octroyer à un utilisateur l'accès à un ou plusieurs hôtes dédiés. Pour plus d'informations, voir [Adding Bulk Dedicated Host Access ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](http://sldn.softlayer.com/reference/services/softlayer_user_customer/addbulkdedicatedhostaccess){: new_window}.  
+**Remarque :** Vous pouvez également utiliser le service d'API SoftLayer_User_Customer::addBulkDedicatedHostAccess pour octroyer à un utilisateur l'accès à un ou plusieurs hôtes dédiés. Pour plus d'informations, voir [Adding Bulk Dedicated Host Access ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://softlayer.github.io/reference/services/SoftLayer_User_Customer/addBulkDedicatedHostAccess/){: new_window}.  
 
 ## Etapes suivantes
 Les droits d'accès utilisateur sont mis à jour dès que les modifications sont soumises. Si des droits ont été octroyés, l'utilisateur peut afficher les fonctions sélectionnées ou interagir avec ces dernières. Si des droits ont été retirés, l'utilisateur ne peut plus afficher les fonctions sélectionnées ou interagir avec ces dernières. Les droits peuvent être mis à jour à nouveau à tout moment.

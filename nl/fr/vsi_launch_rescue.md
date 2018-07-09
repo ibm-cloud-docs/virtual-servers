@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 
 ---
@@ -27,8 +27,16 @@ Le noyau de secours est un environnement de secours actif, conçu pour permettre
 
 1. Accédez au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/) en utilisant vos données d'identification uniques.
 2. Dans la Liste des unités, cliquez sur le nom de l'élément à récupérer.
-3. Cliquez sur la liste déroulante *Actions* dans le coin supérieur droit puis sélectionnez **Mode sans échec**.
+3. Cliquez sur la liste déroulante *Actions* dans le coin supérieur droit puis sélectionnez **Mode sans échec**. (Sinon, vous pouvez aussi cliquer sur l'onglet *Gestion à distance* et sélectionnez **Mode sans échec**.)
 4. Cliquez sur le bouton **Oui** pour que votre terminal passe en mode Noyau de secours immédiatement. Cliquez sur le bouton **Non** pour annuler l'action.
+
+## Sous Windows VSI
+
+1. Accédez au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/) en utilisant vos données d'identification uniques.
+2. Dans la Liste des unités, cliquez sur le nom de l'élément à récupérer.
+3. Cliquez sur la liste déroulante *Actions* dans l'angle supérieur droit et sélectionnez l'option d'**initialisation à partir de l'image**.
+4. Sélectionnez **Initialiser À Partir De Cette Image** en regard de l'image publique, *WindowsRescueStandalone.iso*.
+
 
 ## Etapes suivantes
 Après le lancement du noyau de secours, le terminal est mis hors tension et est réamorcé dans le noyau de secours pour le système d'exploitation du terminal. Cette opération peut durer plusieurs minutes.

@@ -20,7 +20,7 @@ lastupdated: "2018-01-03"
 
 # Remarques sur la capacité
 
-## Quel est le problème ? 
+## Quel est le problème ?
 
 Lorsque vous mettez à disposition un serveur virtuel, le message d'erreur suivant peut s'afficher : 
 

@@ -38,7 +38,7 @@ Suivez les étapes suivantes pour forcer la vitesse de port sur un serveur Windo
 
 Sélectionnez l'onglet **Général** à nouveau, puis sélectionnez **Properties.** Une nouvelle fenêtre s'affiche.
 
-Sur l'onglet **Général** de la fenêtre **Propriétés de connexion**, sélectionnez **Configurer**. La fenêtre Propriétés du pilote s'affiche. 
+Sur l'onglet **Général** de la fenêtre **Propriétés de connexion**, sélectionnez **Configurer**. La fenêtre Propriétés du pilote s'affiche.
 
 1. Sélectionnez l'onglet **Avancé**.
 2. Sélectionnez **Vitesse de liaison&duplex** dans la liste des propriétés.

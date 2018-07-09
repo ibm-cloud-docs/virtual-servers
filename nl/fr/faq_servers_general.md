@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-05-17"
 
 
 ---
@@ -46,6 +46,7 @@ Si le mot de passe root ou de l'administrateur permettant d'accéder au serveur 
    * Avez-vous copié et collé le mot de passe ? Si la réponse est négative, effectuez cette action. Collez également le mot de passe dans un bloc-notes afin de vous assurer qu'aucun espace n'a été accidentellement copié avec le mot de passe.
    * Si le serveur inclut cPanel, est-il possible que cPHulk ait bloqué votre adresse IP en raison d'échecs de connexion ? Le cas échéant, vous pouvez accéder au serveur en utilisant la machine KVM ou IPMI et placer votre adresse IP sur liste blanche dans cPHulk en indiquant "/scripts/cphulkdwhitelist" suivi de votre adresse IP.
    * Quelqu'un a-t-il récemment tenté de changer le mot de passe du serveur en modifiant le mot de passe dans le portail {{site.data.keyword.slportal}} ? La modification du mot de passe dans le portail {{site.data.keyword.slportal}} modifie uniquement son affichage. Cela n'a aucune incidence sur le mot de passe utilisé par le serveur. En cas de problème, vous pouvez contacter l'équipe de support qui peut avoir accès au mot de passe d'origine.
+   * Vous devez peut-être redémarrer dans le mode récupération de votre système d'exploitation pour être en mesure de réinitialiser votre mot de passe. Pour plus d'informations, voir [Lancement d'un noyau de secours](/docs/vsi/vsi_launch_rescue.html).
 
 Si toutes ces vérifications ont été effectuées et que vous ne pouvez toujours pas vous connecter au serveur en utilisant le mot de passe, contactez l'équipe de support en utilisant un ticket et demandez une réinitialisation du mot de passe. L'équipe de support devra redémarrer le serveur pour pouvoir réinitialiser le mot de passe. Soyez donc prêt à accepter ce redémarrage et/ou à indiquer une période de maintenance au cours de laquelle effectuer cette opération. La plupart des réinitialisations de mot de passe peuvent être effectuées en 15 minutes. A partir du portail {{site.data.keyword.slportal}}, vous pouvez créer un ticket en cliquant sur **Support > Ajouter un ticket** et en sélectionnant le sujet *"Réinitialisations du serveur et accès console"*.
 

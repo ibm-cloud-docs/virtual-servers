@@ -50,7 +50,7 @@ Vous pouvez également voir l'option **Migrer un hôte** si l'un des serveurs vi
 
 ## Qu'arrive-t-il à mes données lorsque mon dispositif de stockage portable est supprimé ?
 
-Lorsque le dispositif de stockage est supprimé, tous les pointeurs vers les données de ce volume sont supprimés, et les données deviennent par conséquent totalement inaccessibles. Si le dispositif de stockage physique est alloué à un nouveau compte, un nouvel ensemble de pointeurs sont affectés. Il n'existe aucune possibilité pour le nouveau compte d'accéder aux données contenues antérieurement sur le dispositif de stockage physique. Le nouvel ensemble de pointeurs affiche tous les 0. Lorsque de nouvelles données sont écrites dans le volume/LUN, toutes les données inaccessibles existantes sont écrasées. 
+Lorsque le dispositif de stockage est supprimé, tous les pointeurs vers les données de ce volume sont supprimés, et les données deviennent par conséquent totalement inaccessibles. Si le dispositif de stockage physique est alloué à un nouveau compte, un nouvel ensemble de pointeurs sont affectés. Il n'existe aucune possibilité pour le nouveau compte d'accéder aux données contenues antérieurement sur le dispositif de stockage physique. Le nouvel ensemble de pointeurs affiche tous les 0. Lorsque de nouvelles données sont écrites dans le volume/LUN, toutes les données inaccessibles existantes sont écrasées.
 
 ## Puis-je utiliser un abonnement Red Hat Cloud Access pour créer un serveur virtuel ?
 

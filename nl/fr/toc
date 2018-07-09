@@ -7,6 +7,7 @@ Serveurs virtuels IBM Cloud
     {: .navgroup id="learn"}
     vsi_index.md
     vsi_about.md
+    vsi_about_suspend.md
     
     {: .topicgroup}
     Options de mise à disposition
@@ -21,7 +22,7 @@ Serveurs virtuels IBM Cloud
         vsi_dedicated.md
             vsi_dedicated_host.md
             vsi_dedicated_pricing.md
-        [Mise à disposition de scripts](../infrastructure/provisioning-scripts/ps_index.html)
+        vsi_ps_index.md
 
     vsi_image_templates_intro.md
 
@@ -77,6 +78,7 @@ Serveurs virtuels IBM Cloud
         vsi_reconfigure.md
         vsi_work_image.md
         vsi_ssh_config.md
+        configuring-automated-reclaim-notifications.md
 
     {: .topicgroup}
     Gestion des serveurs
@@ -93,6 +95,7 @@ Serveurs virtuels IBM Cloud
             vsi_upgrading_port_speeds_windows.md
             vsi_downgrading_port_speeds.md
         vsi_autoscale_intro.md
+        add-provisioning-script.md
      
     {: .topicgroup}
     Gestion de la sécurité
@@ -108,10 +111,11 @@ Serveurs virtuels IBM Cloud
     {: .topicgroup}
     Gestion des logiciels
         [Rechargement du système d'exploitation](../infrastructure/software/vsi_reload_os.html)
-        [Rechargement d'un système d'exploitation à l'aide d'un modèle d'image](../infrastructure/software/vsi_reload_os_image.html)
-        [Ajout de IPv6 aux systèmes Ubuntu](../infrastructure/software/adding-ipv6-ubuntu-systems.html)
+        [Nouveau chargement du système d'exploitation en utilisant un modèle d'image](../infrastructure/software/vsi_reload_os_image.html)
+        [Ajout de IPv6 au système Ubuntu](../infrastructure/software/adding-ipv6-ubuntu-systems.html)
         [Installation de ClamAV](../infrastructure/software/install-clamav.html)
         [Avis aux utilisateurs d'une limitation de bande passante imminente dans cPanel/WHM](../infrastructure/software/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
+        [Mise à jour d'une instance pour utiliser un serveur WSUS local](../infrastructure/software/local-wsus.html)
         vsi_gpu_nvidia_drivers.md
  
     {: .topicgroup}
@@ -127,14 +131,11 @@ Serveurs virtuels IBM Cloud
     Sauvegarde et restauration
         vsi_backup.md
         vsi_launch_rescue.md
-        spare_pools.md
-            add_spare_pool.md
-            cancel_spare_pool.md
-            reactivating_spare_pool_device.md
+        [Restauration d'un serveur depuis une image R1Soft](../infrastructure/software/r1soft-cdp-bare-metal-restore-procedures.html)
         
     {: .topicgroup}
     Liens connexes
-        [Virtual Machine Network Setup](http://knowledgelayer.softlayer.com/learning/virtual-machine-network-setup)
+        [Configuration du réseau pour machines virtuelles](../infrastructure/virtualization/virtual-machine-network-setup.html)
         [Portail de contrôle](https://control.softlayer.com/)
     {: .navgroup-end}
 

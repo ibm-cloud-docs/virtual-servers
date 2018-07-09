@@ -36,7 +36,7 @@ Procédez comme suit pour vous connecter au catalogue {{site.data.keyword.Bluemi
 
 La page principale du portail {{site.data.keyword.slportal}} s'affiche.
 
-## Connectez-vous au portail client
+## Connexion au portail client
 Procédez comme suit pour vous connecter au portail {{site.data.keyword.slportal}} en vue d'effectuer une commande d'instances dédiées.
 
 1.	Ouvrez une nouvelle fenêtre de navigateur et entrez [https://control.softlayer.com](https://control.softlayer.com){: new_window}. 

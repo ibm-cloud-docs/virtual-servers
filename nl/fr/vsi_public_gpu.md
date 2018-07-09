@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-2-27"
+lastupdated: "2018-6-18"
 
 
 ---
@@ -17,99 +17,85 @@ lastupdated: "2018-2-27"
 {:table: .aria-labeledby="caption"}
 
 # Processeurs graphiques (GPU)
-Les versions de processeurs graphiques (GPU) sont idéales pour les charges de travail haute performance qui nécessitent une densité de calcul supérieure pour réduire la gestion des ressources et les coûts. Les GPU sont parfaites pour les applications de données et de graphique intenses ou pour développer de nouvelles applications nécessitant des performances rapides.
+Les versions de processeurs graphiques (GPU) sont idéales pour les charges de travail haute performance qui nécessitent une densité de calcul supérieure pour réduire la gestion des ressources et les coûts. Les processeurs graphiques sont parfaits pour les applications de données et de graphiques intenses ou pour développer de nouvelles applications nécessitant des performances rapides.
 
-Alimenté par les GPU NVDIA Tesla P100, la famille Accelerated Compute “ac1” de {{site.data.keyword.cloud_notm}} offre à la fois un stockage en bloc (ac1) et un stockage SSD local (acl1). Les versions de GPU suivantes sont disponibles :  
+Optimisé par les processeurs graphiques NVDIA Tesla P100 GPUs, {{site.data.keyword.cloud_notm}} Accelerated Compute “ac1” offre à la fois un stockage en bloc et un stockage SSD local. Les versions de GPU suivantes sont disponibles :  
 
-<table>
-
-<caption>Tableau 1. Versions de GPU</caption>
-
-  
-<thead>
-<td rowspan="4"></td>
-  <th colspan="4">Versions de GPU</th>
-<tr>
-  <th>ac1.8x60</th>
-  <th>acl1.8x60</th>
-  <th>ac1.16x120</th>
-  <th>acl1.16x120</th>
-</tr>
-</thead>
+  <table>
+<CAPTION>Tableau 1. Versions de GPU</CAPTION>
+<THEAD>
+<TR>
+<th>Version</th>
+<th>GPU</th>
+<th>RAM GPU (Go)</th>
+<th>UC virtuelle</th>
+<th>RAM UC virtuelle (Go)</th>
+<th>Type de stockage</th>
+<th>Disque d'amorçage (Go)</th>
+<th>Disque secondaire (Go)</th>
+</TR>
+</THEAD>
 <TBODY>
 <tr>
-  <th><b>GPU</b></th>
-  <td>1 x P100</td>
-  <td>1 x P100</td>
-  <td>2 x P100</td>
-  <td>2 x P100</td>
+<td>ac1.8x60</td>
+<td>1 P100</td>
+<td>16</td>
+<td>8</td>
+<td>60</td>
+<td>En bloc (SAN)</td>
+<td>25 et 100</td>
+<td>4 x 2000</td>
 </tr>
 <tr>
-  <th><b>Mémoire RAM du GPU (Go)</b></th>
-  <td>16</td>
-  <td>16</td>
-  <td>32</td>
-  <td>32</td>
+<td>ac1.8x60</td>
+<td>1 P100</td>
+<td>16</td>
+<td>8</td>
+<td>60</td>
+<td>Unité SSD locale</td>
+<td>100</td>
+<td>2 x 300</td>
 </tr>
-
 <tr>
-  <th><b>UC virtuelle</b></th>
-  <td>8</td>
-  <td>8</td>
-  <td>16</td>
-  <td>16</td>
+<td>ac1.16x120</td>
+<td>2 P100</td>
+<td>32</td>
+<td>16</td>
+<td>120</td>
+<td>En bloc (SAN)</td>
+<td>25 et 100</td>
+<td>4 x 2000</td>
 </tr>
-
 <tr>
-  <th><b>Mémoire RAM du vCPU (Go)</b></th>
-  <td>60</td>
-  <td>60</td>
-  <td>120</td>
-  <td>120</td>
-</tr>
-
-<tr>
-  <th><b>Type de stockage</b></th>
-  <td>En bloc (SAN)</td>
-  <td>Unité SSD locale</td>
-  <td>En bloc (SAN)</td>
-  <td>Unité SSD locale</td>
-</tr>
-
-<tr>
-  <th><b>Disque d'amorçage (Go)</b></th>
-  <td>25 et 100</td>
-  <td>100</td>
-  <td>25 et 100</td>
-  <td>100</td>
-</tr>
-
-<tr>
-  <th><b>Disque secondaire (Go)</b></th>
-  <td>4 x 2000</td>
-  <td>2 x 300</td>
-  <td>4 x 2000</td>
-  <td>2 x 300</td>
-</tr>
+<td>ac1.16x120</td>
+<td>2 P100</td>
+<td>32</td>
+<td>16</td>
+<td>120</td>
+<td>Unité SSD locale</td>
+<td>100</td>
+<td>2 x 600</td></tr>
 
 </TBODY>
 </table>
 
-
-**Remarque :** les versions de GPU sont disponibles dans le centre de données _DAL13_.
+**Remarque :** les versions de GPU sont disponibles dans les centres de données _DAL13_, _LON06_,and _WDC07_.
 
 ## Avant de commencer
 Vérifiez les conditions requises ci-dessous pour le GPU.
 
-1. Les serveurs virtuels de la famille de GPU sont uniquement disponibles sur un système d'exploitation prenant en charge le mode d'amorçage des machines virtuelles matérielles (HVM). Consultez la liste suivante pour connaître les systèmes d'exploitation prenant en charge le mode d'amorçage HVM.  
+1. Les serveurs virtuels de version de GPU sont uniquement disponibles sur un système d'exploitation prenant en charge le mode d'amorçage HVM (Hardware Virtual Machine). Consultez la liste suivante pour connaître les systèmes d'exploitation prenant en charge le mode d'amorçage HVM.  
   - CentOS 7
   - Debian 8
   - RHEL 7
+  - Ubuntu 16
   - Windows 2012 R2
   - Windows 2016
 
-2. Des  pilotes NVIDIA et des logiciels appropriés doivent être installés. Pour en savoir plus sur les logiciels et les pilotes NVIDIA, voir [Installation de pilotes de GPU et de progiciels](../vsi/vsi_gpu_nvidia_drivers.html).
-
+2. Des pilotes NVIDIA et des logiciels appropriés doivent être installés. Pour en savoir plus sur les logiciels et les pilotes NVIDIA, voir [Installation de pilotes de GPU et de progiciels](../vsi/vsi_gpu_nvidia_drivers.html).  
 **Remarque :** le logiciel que vous installez peut nécessiter des conditions logicielles particulières ainsi que des configurations spécifiques au système d'exploitation.
 
-
+# Ajout ou suppression de processus graphiques
+Vous pouvez changer le nombre de processeurs graphiques sur votre serveur virtuel après votre commande initiale, mais cela dépend du nombre de processeurs graphiques que vous avez mis à disposition. Depuis la commande de mise à disposition, vous disposez de l'une des options suivantes :
+- Si un processeur graphique est mis à disposition, vous pouvez en ajouter un autre, ou
+- Si deux processeurs graphiques sont mis à disposition, vous pouvez revenir à un seul processeur graphique.

@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-25"
+  years: 2017, 2018
+lastupdated: "2018-03-19"
 
 
 ---
@@ -49,7 +49,7 @@ Le réseau privé constitue le point d'entrée pour l'interaction avec vos termi
 La surveillance permet principalement de vérifier la disponibilité de votre serveur mais elle vous permet également de savoir quand effectuer la mise à l'échelle. Les services de surveillance standard et de surveillance Nimsoft permettent de répondre aux différents besoins de surveillance. La surveillance standard, également appelée “Surveillance de base”, est généralement utilisée avec la méthode ping-et-réponse via une commande ping de service ou ping lente lancée à partir du portail {{site.data.keyword.slportal}}. La surveillance Nimsoft est également appelée “Surveillance avancée” et comporte trois niveaux : De base, Avancé et Premium. Ce service est également accessible via le portail {{site.data.keyword.slportal}}. Pour plus d'informations, voir [Surveillance](../infrastructure/SLmonitoring/monitoring_index.html).
 
 ## Sécurisation de votre système
-Des pare-feu matériels permettant de sécuriser votre terminal sont disponibles. Ils sont mis à disposition à la demande sans aucune interruption du fonctionnement. Si les règles sont établies correctement, un pare-feu permet de protéger votre serveur d'activités non souhaitées. Une fois que vous avez commandé un pare-feu, il doit être activé et les règles doivent être définies. Pour en savoir plus sur l'optimisation de vos pare-feu.
+Des pare-feu matériels permettant de sécuriser votre terminal sont disponibles. Ils sont mis à disposition à la demande sans aucune interruption du fonctionnement. Si les règles sont établies correctement, un pare-feu permet de protéger votre serveur d'activités non souhaitées. Une fois que vous avez commandé un pare-feu, il doit être activé et les règles doivent être définies.
 
 Pour plus d'informations, veuillez consulter les rubriques suivantes relatives à la sécurité.
 

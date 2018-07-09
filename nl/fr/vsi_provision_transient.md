@@ -27,7 +27,7 @@ Avant de commencer, passez en revue les conditions requises présentées ci-dess
 
   1. Vérifiez que vos données d'identification sont configurées sur le portail {{site.data.keyword.slportal}}.
 
-  2. Vérifiez les considérations sur la capacité des instances de serveur virtuel. Pour plus d'informations, voir [Considérations relatives à la capacité](ts_capacity_bp.html).
+  2. Vérifiez les considérations sur la capacité des instances de serveur virtuel.  Pour plus d'informations, voir [Considérations relatives à la capacité](ts_capacity_bp.html).
 
 ## Connexion
 Vérifiez que vous êtes connecté au portail {{site.data.keyword.slportal}} :
@@ -51,7 +51,7 @@ Pour mettre à disposition votre instance de serveur virtuel transitoire via l'i
 5.  Cliquez sur les cases à cocher **Conditions des services Cloud** et **Contrat de service tiers**.
 6.  Confirmez ou entrez vos informations de paiement et cliquez sur **Soumettre commande**. Un écran incluant votre numéro de commande de mise à disposition s'affiche. Vous pouvez imprimer cette page car il s'agit de votre reçu de commande de mise à disposition.
 
- Plusieurs messages électroniques sont envoyés à votre administrateur (accusé de réception de la commande de mise à disposition, approbation et traitement de la commande de mise à disposition et mise à disposition terminée). Le message électronique indiquant que la mise à disposition est terminée inclut un lien vous dirigeant directement vers la page *Détails de l'unité*. 
+ Plusieurs messages électroniques sont envoyés à votre administrateur (accusé de réception de la commande de mise à disposition, approbation et traitement de la commande de mise à disposition et mise à disposition terminée). Le message électronique indiquant que la mise à disposition est terminée inclut un lien vous dirigeant directement vers la page *Détails de l'unité*.
 
 ### Mise à disposition d'une instance de serveur virtuel transitoire via le menu Unités
 {: #ordering-transient-devices-menu}
@@ -69,7 +69,7 @@ Vous pouvez également mettre à disposition vos instances de serveur virtuel tr
 7. Cliquez sur les cases à cocher **Conditions des services Cloud** et **Contrat de service tiers**.
 8. Confirmez ou entrez vos informations de paiement et cliquez sur **Soumettre commande**. Un écran incluant votre numéro de commande de mise à disposition s'affiche. Vous pouvez imprimer cette page car il s'agit de votre reçu de commande de mise à disposition.
 
-Plusieurs messages électroniques sont envoyés à votre administrateur (accusé de réception de la commande de mise à disposition, approbation et traitement de la commande de mise à disposition et mise à disposition terminée). Le message électronique indiquant que la mise à disposition est terminée inclut un lien vous dirigeant directement vers la page *Détails de l'unité*. 
+Plusieurs messages électroniques sont envoyés à votre administrateur (accusé de réception de la commande de mise à disposition, approbation et traitement de la commande de mise à disposition et mise à disposition terminée). Le message électronique indiquant que la mise à disposition est terminée inclut un lien vous dirigeant directement vers la page *Détails de l'unité*.
 
 Vous pouvez aussi mettre à disposition un serveur virtuel transitoire via l'{{site.data.keyword.slapi_short}}. Pour obtenir un exemple, voir [Mise à disposition d'une instance transitoire à l'aide de Create Object](../vsi/vsi_provision_api.html#api-rest-transient).
 {:tip}
