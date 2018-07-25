@@ -41,7 +41,7 @@ If you are unable to connect to the KVM console, review the troubleshooting tips
 If you have completed all of the checks above and still are unable to connect to the KVM console, contact Support for additional assistance in troubleshooting the issue. If a connection to the console has been made but issues occur connecting to the device, ensure the credentials being used to access the device are valid. Contact the account administrator to verify credentials, if necessary.
 
 ## I lost my password to my server. How can I recover it?
-If the root or administrator password to your server is suddenly not working, there are a few things that you can check before contacting support.
+If the root or administrator password to your server is suddenly not working, check the following items. If necessary, use the instructions to launch a rescue kernel and reset your password.
 
    * Are you copying and pasting the password? If not, please try to. Please also paste the password in a notepad to ensure no spaces are accidentally being copied with the password.
    * If the server has cPanel on it, is it possible that cPHulk has blocked your IP address due to failed logins? If so, you can access the server using the KVM or IPMI and whitelist your IP address in cPHulk with "/scripts/cphulkdwhitelist" followed by your IP address.
