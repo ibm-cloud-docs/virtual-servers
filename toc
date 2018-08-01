@@ -79,6 +79,7 @@ IBM Cloud Virtual Servers
         vsi_work_image.md
         vsi_ssh_config.md
         configuring-automated-reclaim-notifications.md
+        how-are-server-ip-addresses-assigned-softlayer-network.md
 
     {: .topicgroup}
     Managing servers
