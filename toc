@@ -56,7 +56,7 @@ IBM Cloud Virtual Servers
     {: .topicgroup}
     Related links
         [Control Portal](https://control.softlayer.com/)
-        [Maximize Control with IBM Bluemix Virtual servers](https://www.ibm.com/blogs/bluemix/2017/08/maximize-control-ibm-bluemix-virtual-servers/)
+        [Maximize Control with Virtual Servers](https://www.ibm.com/blogs/bluemix/2017/08/maximize-control-ibm-bluemix-virtual-servers/)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
