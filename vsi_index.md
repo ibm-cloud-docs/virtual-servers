@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-28"
+lastupdated: "2018-08-15"
 
 
 ---
@@ -14,13 +14,17 @@ lastupdated: "2018-02-28"
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
-# Getting started with virtual servers
+# Getting started tutorial
 You can deploy {{site.data.keyword.BluVirtServers}} in a matter of minutes. The virtual servers are deployed from your choice of virtual server images and in the geographic region that makes sense for your workloads.
 {:shortdesc}
 
-When you create a virtual server, you can choose between a public (multi-tenancy) environment or a dedicated (single-tenancy) environment. Then, depending on the chosen environment, you must also select hourly, monthly, or transient virtual servers. In the case of public virtual servers, you also choose to use either SAN-based storage or local storage.
+Try our virtual servers on a virtual private cloud! For more information, see [IBM Cloud Virtual Servers (with VPC)](../../docs/vsi-is/getting-started.html#gettingstartedvsigen).
+{:tip}
+
+When you create a virtual server in our classic infrastructure, you can choose between a public (multi-tenancy) environment or a dedicated (single-tenancy) environment. Then, depending on the chosen environment, you must also select hourly, monthly, or transient virtual servers. In the case of public virtual servers, you also choose to use either SAN-based storage or local storage.
 
 ## Before you begin
 
