@@ -50,8 +50,8 @@ IBM Cloud Virtual Servers
     
     {: .topicgroup}
     Tutorials 
-        [PHP web application on a LAMP Stack](../tutorials/lamp-stack.html)
-        [Use Virtual Servers to build highly available and scalable web app](../tutorials/highly-available-and-scalable-web-application.html)
+        [PHP web application on a LAMP Stack](https://console.bluemix.net/docs/tutorials/lamp-stack.html)
+        [Use Virtual Servers to build highly available and scalable web app](https://console.bluemix.net/docs/tutorials/highly-available-and-scalable-web-application.html)
         
     {: .topicgroup}
     Related links
