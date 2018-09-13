@@ -62,6 +62,7 @@ IBM Cloud Virtual Servers
     {: .navgroup id="reference"}
     vsi_api.md
         vsi_provision_api.md
+    vsi_activity_tracker_events.md    
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
