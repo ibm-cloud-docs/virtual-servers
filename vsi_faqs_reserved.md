@@ -34,7 +34,7 @@ Depending on whether you specified hourly or monthly billing, billing for the CP
 You can reclaim reserved virtual server instances, but you cannot cancel reserved capacity.
 
 ## Does the reservation include everything I configured into my virtual server instance?
-Only CPU and RAM are included in your reservation. Primary disk and no-additional charge network or storage products are not included in your reservation. Additional network bandwidth, storage capacity, OS, and third party software are charged on an hourly or monthly basis depending on the instance type.
+Only CPU and RAM are included in your reservation. Primary disk and no-additional charge network or storage products are not included in your reservation. Additional network bandwidth, storage capacity, OS, and third-party software are charged on an hourly or monthly basis depending on the instance type.
 
 ## Why do I have to choose hourly or monthly billing on the virtual server instance?
 Your additional software, storage, and network selections need to be billed either hourly or monthly. 
