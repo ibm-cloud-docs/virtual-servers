@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-09-26"
+lastupdated: "2018-10-02"
 
 
 ---
@@ -20,23 +20,22 @@ lastupdated: "2018-09-26"
 
 ## Before you begin 
 
-You can provision your reserved capacity and instances through the {{site.data.keyword.cloud}} Catalog. You must provision your reserved capacity before your virtual server instances.
+You can provision your reserved capacity and instances through the {{site.data.keyword.cloud}} catalog. You must provision your reserved capacity before your virtual server instances.
 
-## Logging into the IBM Cloud Catalog
+## Logging into the IBM Cloud catalog
 
-Use the following steps to log in to the {{site.data.keyword.cloud_notm}} Catalog to begin provisioning your reserved capacity and instances.
+Use the following steps to log in to the {{site.data.keyword.cloud_notm}} catalog to begin provisioning your reserved capacity and instances.
 
-  1. Log in to the [{{site.data.keyword.cloud_notm}} Catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/){: new_window} using your unique credentials. 
+  1. Log in to the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/){: new_window} using your unique credentials. 
 
 ## Provisioning reserved capacity 
 
-In the {{site.data.keyword.cloud_notm}} Catalog, complete the following steps to provision your reserved capacity.
+In the {{site.data.keyword.cloud_notm}} catalog, complete the following steps to provision your reserved capacity.
 
-  1. Select **Infrastructure > Compute**.
-  2. Click the **Virtual Servers** tile.
-  3. Select the **Reserved Virtual Servers** option.
-  4. Click **Create**.
-  5. To create new reserved capacity, select **New Capacity +**. From the **Reserved Capacity** page, enter or select the following information: 
+  1. In the **Compute Infrastructure** section, click the **Virtual Servers** tile.
+  2. Select the **Reserved Virtual Servers** option.
+  3. Click **Create**.
+  4. To create new reserved capacity, select **New Capacity +**. From the **Reserved Capacity** page, enter or select the following information: 
 
 | Field                   | Value               |                                                                                                                                                                                                                                                                                                                                 
 | ----------------------- | ------------------- |
@@ -53,11 +52,10 @@ In the {{site.data.keyword.cloud_notm}} Catalog, complete the following steps to
 
 After you've provisioned your reserved capacity, it's time to provision your reserved virtual server instances. Reserved virtual server instances can be provisioned at any time during the contract term because your capacity is guaranteed. Complete the following steps to provision your reserved instances:
 
-1. In the {{site.data.keyword.cloud_notm}} Catalog, select **Infrastructure > Compute**.
-2. Click the **Virtual Servers** tile. 
-3. Select the **Reserved Virtual Servers** option. 
-4. Click **Create**. 
-5. To provision a reserved virtual server instance, enter or select the following information:
+1. In the {{site.data.keyword.cloud_notm}} catalog, select the **Virtual Servers** tile in the **Compute Infrastucture** section.
+2. Select the **Reserved Virtual Servers** option. 
+3. Click **Create**. 
+4. To provision a reserved virtual server instance, enter or select the following information:
 
 | Field                     | Value               |                                                                                                                                                                                                                                                                                                                                 
 | ------------------------- | ------------------- |
