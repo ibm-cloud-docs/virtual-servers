@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-10-02"
+lastupdated: "2018-10-03"
 
 
 ---
@@ -26,7 +26,7 @@ You can provision your reserved capacity and instances through the {{site.data.k
 
 Use the following steps to log in to the {{site.data.keyword.cloud_notm}} catalog to begin provisioning your reserved capacity and instances.
 
-  1. Log in to the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/){: new_window} using your unique credentials. 
+  1. Log in to the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/){: new_window} by using your unique credentials. 
 
 ## Provisioning reserved capacity 
 
