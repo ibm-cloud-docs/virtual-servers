@@ -33,7 +33,7 @@ Use the following steps to log in to the {{site.data.keyword.cloud_notm}} catalo
 In the {{site.data.keyword.cloud_notm}} catalog, complete the following steps to provision your reserved capacity.
 
   1. In the **Compute Infrastructure** section, click the **Virtual Servers** tile.
-  2. Select the **Reserved Virtual Servers** option.
+  2. Select the **Reserved Virtual Server** option.
   3. Click **Create**.
   4. To create new reserved capacity, select **New Capacity +**. From the **Reserved Capacity** page, enter or select the following information: 
 
@@ -53,7 +53,7 @@ In the {{site.data.keyword.cloud_notm}} catalog, complete the following steps to
 After you've provisioned your reserved capacity, it's time to provision your reserved virtual server instances. Reserved virtual server instances can be provisioned at any time during the contract term because your capacity is guaranteed. Complete the following steps to provision your reserved instances:
 
 1. In the {{site.data.keyword.cloud_notm}} catalog, select the **Virtual Servers** tile in the **Compute Infrastucture** section.
-2. Select the **Reserved Virtual Servers** option. 
+2. Select the **Reserved Virtual Server** option. 
 3. Click **Create**. 
 4. To provision a reserved virtual server instance, enter or select the following information:
 
