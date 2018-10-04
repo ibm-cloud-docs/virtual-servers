@@ -19,6 +19,7 @@ IBM Cloud Virtual Servers
             vsi_public_gpu.md
             vsi_public_selections.md
         vsi_about_transient.md
+        vsi_about_reserved.md
         vsi_dedicated.md
             vsi_dedicated_host.md
             vsi_dedicated_pricing.md
@@ -70,6 +71,7 @@ IBM Cloud Virtual Servers
     Provisioning
         vsi_provision_public.md
         vsi_provision_transient.md
+        vsi_provision_reserved.md
         vsi_dedicated_instances.md
         vsi_provision_dedicated.md
 
@@ -151,6 +153,7 @@ IBM Cloud Virtual Servers
     {: .topicgroup}
     FAQs
         vsi_faqs_vs.md
+        vsi_faqs_reserved.md
         vsi_faqs_dedicated.md
         faq_servers_general.md
         [FAQs: OS Reload](../infrastructure/software/os-reload-question-faq.html)
