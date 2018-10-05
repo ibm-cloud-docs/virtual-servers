@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-08-15"
+lastupdated: "2018-10-05"
 
 
 ---
@@ -37,6 +37,7 @@ Before you begin, review the following prerequisites.
 | --------------------------------------------------------- | --------------------------------------------------- |
 |[Public virtual server](../vsi/vsi_public.html)            | IBM-managed, multi-tenancy virtual server deployments|
 |[Transient virtual server](../vsi/vsi_about_transient.html)| IBM-managed, multi-tenancy virtual server deployments offered at a reduced cost and best suited for flexible workloads |
+|[Reserved virtual server](../vsi/vsi_about_reserved.html)  | IBM-managed, multi-tenancy virtual server deployments with guaranteed capacity for a contract term |
 |[Dedicated virtual server](../vsi/vsi_dedicated.html)      | IBM-managed, single-tenancy virtual server deployments            |
 {: caption="Table 1. Deployment options" caption-side="top"}   
 
@@ -48,6 +49,7 @@ After you decide upon a deployment option, begin the provisioning process.
 | -------------------------------------------------------------------------- | ------------------------------------------------------- |
 |[Provisioning public instances](../vsi/vsi_provision_public.html)                | Provision public instances with various options             |
 |[Provisioning transient instances](../vsi/vsi_provision_transient.html)                | Provision transient instances with various options            |
+|[Provisioning reserved capacity and instances](../vsi/vsi_provision_reserved.html)            | Provision reserved capacity and instances with various options |
 |[Provisioning dedicated hosts and instances](../vsi/vsi_provision_dedicated.html)| Provision private instances or dedicated instances on dedicated hosts.|
 {: caption="Table 2. Provisioning information" caption-side="top"}
 
