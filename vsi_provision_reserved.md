@@ -4,7 +4,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-10-03"
+lastupdated: "2018-10-05"
 
 
 ---
@@ -21,6 +21,8 @@ lastupdated: "2018-10-03"
 ## Before you begin 
 
 You can provision your reserved capacity and instances through the {{site.data.keyword.cloud}} catalog. You must provision your reserved capacity before your virtual server instances.
+
+**Note**: If you are not the account administrator, your user account must include the **Manage Reserved Capacities** permission. The account administrator can grant user's permission from the **Portal Permissions** tab in the console. For more information about updating permissions, see [Managing infrastructure access](/docs/iam/mnginfra.html).
 
 ## Logging into the IBM Cloud catalog
 
