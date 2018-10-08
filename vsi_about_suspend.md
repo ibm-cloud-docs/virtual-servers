@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-26"
+lastupdated: "2018-10-08"
 
 
 ---
@@ -23,28 +23,13 @@ lastupdated: "2018-06-26"
 When you power off a virtual server that supports the suspend billing feature, you do not accrue costs for certain compute resources. Billing stops automatically when the server is powered off. The suspend billing feature helps you reduce cost and prevents you from having to reprovision a virtual server when you need its resources again. Suspend billing is only supported on new provisions, not existing instances.
 {:shortdesc}
 
-To have access to the suspend billing feature, you must provision the new virtual server instance by using the {{site.data.keyword.slapi_short}} to specify the suspend billing package. The new virtual server instance must be configured with the following settings:
+This feature is available in data centers across the globe. To have access to the suspend billing feature, you must provision the new virtual server instance by using the {{site.data.keyword.slapi_short}} to specify the suspend billing package. The new virtual server instance must be configured with the following settings:
 
 * Hourly SAN
-* One of the following families:
+* Public flavors of one of the following families:
   * Balanced
   * Compute
   * Memory
-* One of the following {{site.data.keyword.cloud}} data centers:
-
-| Data Centers |         |
-| ------------ | ------- | 
-|SEO01         |  WDC01  |
-|SAO01         |  WDC04  |
-|TOK02         |  WDC06  |
-|DAL01         |  WDC07  |
-|DAL05         |  LON02  |
-|DAL06         |  LON04  |
-|DAL09         |  LON06  |
-|DAL10         |  FRA02  |
-|DAL12         |  FRA04  |
-|DAL13         |  FRA05  |
-{: caption="Table 1. Supported data centers" caption-side="top"}
 
 You can use the suspend billing feature as a faster alternative to provisioning and de-provisioning a virtual server instance.
 {:tip}
