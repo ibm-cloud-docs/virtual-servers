@@ -34,6 +34,8 @@ This feature is available in data centers across the globe. To have access to th
 You can use the suspend billing feature as a faster alternative to provisioning and de-provisioning a virtual server instance.
 {:tip}
 
+**Note:** Billing is suspended only when you power off your virtual server instance through the {{site.data.keyword.slportal_full}}, CLI, or {{site.data.keyword.slapi_short}}. If you power off your virtual server instance directly through the OS, billing isn't suspended for that instance.
+
 ## Provisioning
 
 For the beta, to provision a virtual server instance that supports the suspend billing feature, you must use the {{site.data.keyword.slapi_short}}. For API examples, see [Provisioning a public instance using Place Order Object](../vsi/vsi_provision_api.html#provisioning-a-public-instance-using-place-order-object). 
