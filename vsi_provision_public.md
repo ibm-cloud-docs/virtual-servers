@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-10-03"
+lastupdated: "2018-10-11"
 
 
 ---
@@ -39,7 +39,7 @@ Before you begin, review the following prerequisites.
 After you complete the prerequisites, you can begin to provision a public virtual server instance. You can provision your public instance through the {{site.data.keyword.cloud_notm}} catalog or the {{site.data.keyword.slportal}}.
 
 ### Provisioning a public virtual server instance through the IBM Cloud catalog
-To provision a public virtual server instance through the {{site.data.keyword.cloud_notm}}, complete the following steps:
+To provision a public virtual server instance through the {{site.data.keyword.cloud_notm}} catalog, complete the following steps:
 
   1. Log in to the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/){: new_window} by using your unique credentials. 
   2. In the **Compute Infrastructure** section, click the **Virtual Servers** tile.
