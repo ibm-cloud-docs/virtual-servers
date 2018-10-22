@@ -28,14 +28,14 @@ lastupdated: "2017-12-12"
 您可以執行下列指令來檢查現行連線速度：
 
     ```
-        # ethtool eth#   (eth1 for public, eth0 for private)
+    # ethtool eth#   (eth1 for public, eth0 for private)
     ```
     {: pre}
 
 輸出將會顯示該連線的現行配置：
 
     ```
-        root@noc-training-linux [~]# ethtool eth1
+    root@noc-training-linux [~]# ethtool eth1
     ```
     {: screen}
 

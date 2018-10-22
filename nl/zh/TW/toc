@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="virtual-servers" audience="compute" href=“/docs/vsi/index.html”}
+{: .toc subcollection="virtual-servers" audience="compute" arm="407" href=“/docs/vsi/index.html”}
 IBM Cloud 虛擬伺服器 
 
     {: .navgroup id="learn"}
@@ -19,6 +19,7 @@ IBM Cloud 虛擬伺服器
             vsi_public_gpu.md
             vsi_public_selections.md
         vsi_about_transient.md
+        vsi_about_reserved.md
         vsi_dedicated.md
             vsi_dedicated_host.md
             vsi_dedicated_pricing.md
@@ -49,19 +50,20 @@ IBM Cloud 虛擬伺服器
         vsi_email_intro.md
     
     {: .topicgroup}
-    指導教學
-        [LAMP Stack 上的 PHP Web 應用程式](../tutorials/lamp-stack.html)
-        [使用虛擬伺服器建置高可用性及可擴充 Web 應用程式](../tutorials/highly-available-and-scalable-web-application.html)
+指導教學
+        [LAMP Stack 上的 PHP Web 應用程式](https://console.bluemix.net/docs/tutorials/lamp-stack.html)
+        [使用虛擬伺服器建置高可用性及可擴充 Web 應用程式](https://console.bluemix.net/docs/tutorials/highly-available-and-scalable-web-application.html)
         
     {: .topicgroup}
     相關鏈結
-        [Control Portal](https://control.softlayer.com/)
-        [Maximize Control with IBM Bluemix Virtual servers](https://www.ibm.com/blogs/bluemix/2017/08/maximize-control-ibm-bluemix-virtual-servers/)
+        [控制入口網站](https://control.softlayer.com/)
+        [使用虛擬伺服器將控制最大化](https://www.ibm.com/blogs/bluemix/2017/08/maximize-control-ibm-bluemix-virtual-servers/)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     vsi_api.md
         vsi_provision_api.md
+    vsi_activity_tracker_events.md    
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -69,6 +71,7 @@ IBM Cloud 虛擬伺服器
     佈建
         vsi_provision_public.md
         vsi_provision_transient.md
+        vsi_provision_reserved.md
         vsi_dedicated_instances.md
         vsi_provision_dedicated.md
 
@@ -79,6 +82,7 @@ IBM Cloud 虛擬伺服器
         vsi_work_image.md
         vsi_ssh_config.md
         configuring-automated-reclaim-notifications.md
+        how-are-server-ip-addresses-assigned-softlayer-network.md
 
     {: .topicgroup}
     管理伺服器
@@ -149,6 +153,7 @@ IBM Cloud 虛擬伺服器
     {: .topicgroup}
     常見問題
         vsi_faqs_vs.md
+        vsi_faqs_reserved.md
         vsi_faqs_dedicated.md
         faq_servers_general.md
         [常見問題：OS 重新載入](../infrastructure/software/os-reload-question-faq.html)
