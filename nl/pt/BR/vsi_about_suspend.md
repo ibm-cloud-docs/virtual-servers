@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-26"
+lastupdated: "2018-10-08"
 
 
 ---
@@ -23,31 +23,18 @@ lastupdated: "2018-06-26"
 Quando você desliga um servidor virtual que suporta o recurso de suspensão de faturamento, você não acumula custos para determinados recursos de cálculo. O faturamento é interrompido automaticamente quando o servidor é desligado. O recurso de suspensão de faturamento ajuda a reduzir custos e impede que você precise reprovisionar um servidor virtual quando precisar dos recursos novamente. A suspensão de faturamento é suportada somente em novas provisões, não em instâncias existentes.
 {:shortdesc}
 
-Para ter acesso ao recurso de suspensão de faturamento, deve-se provisionar a nova instância de servidor virtual usando o {{site.data.keyword.slapi_short}} para especificar o pacote de suspensão de faturamento. A nova instância de servidor virtual deve ser definida com as seguintes configurações:
+Esse recurso está disponível em data centers em todo o mundo. Para ter acesso ao recurso de suspensão de faturamento, deve-se provisionar a nova instância de servidor virtual usando o {{site.data.keyword.slapi_short}} para especificar o pacote de suspensão de faturamento. A nova instância de servidor virtual deve ser definida com as seguintes configurações:
 
 * SAN por hora
-* Uma das seguintes famílias:
+* Tipos públicos de uma das famílias a seguir:
   * Balanceado
   * Computação
   * Memória
-* Um dos seguintes data centers do {{site.data.keyword.cloud}}:
-
-| Data centers |         |
-| ------------ | ------- | 
-|SEO01         |  WDC01  |
-|SAO01         |  WDC04  |
-|TOK02         |  WDC06  |
-|DAL01         |  WDC07  |
-|DAL05         |  LON02  |
-|DAL06         |  LON04  |
-|DAL09         |  LON06  |
-|DAL10         |  FRA02  |
-|DAL12         |  FRA04  |
-|DAL13         |  FRA05  |
-{: caption="Tabela 1. Data centers suportados" caption-side="top"}
 
 É possível usar o recurso de suspensão de faturamento como uma alternativa mais rápida para provisionar e desprovisionar uma instância de servidor virtual.
 {:tip}
+
+**Nota:** o faturamento é suspenso apenas quando você desliga a instância de servidor virtual por meio do {{site.data.keyword.slportal_full}}, da CLI ou do {{site.data.keyword.slapi_short}}. Se você desligar a instância de servidor virtual diretamente por meio do S.O., o faturamento não será suspenso para essa instância.
 
 ## Fornecimento
 
@@ -59,13 +46,13 @@ Também se deve especificar o ID do pacote específico de suspensão de faturame
 
 É importante entender quais custos param de acumular e quais custos persistem quando a instância de servidor virtual é desligada.
 
-| Recurso                      |Faturamento interrompido  | Faturamento persistente |
+| Recurso                      | Faturamento interrompido   | Faturamento persistente |
 | ----------------------------- | ----------------- | ---------------- |
 | vCPU                          |          P        |                  |
 | RAM                           |          P        |                  |
 | Velocidade da porta                    |          P        |                  |
-| Licenças do sistema operacional |          P        |                  |
-| Complementos de monitoramento      |          P        |                  |
+| Licenças do sistema operacional     |          P        |                  |
+| Complementos de monitoramento          |          P        |                  |
 | Endereços IP públicos secundários |                   |         P        |
 | Armazenamento                       |                   |         P        |
 {: caption="Tabela 1. Detalhes do recurso de faturamento" caption-side="top"}   

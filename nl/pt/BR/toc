@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="virtual-servers" audience="compute" href=“/docs/vsi/index.html”}
+{: .toc subcollection="virtual-servers" audience="compute" arm="407" href=“/docs/vsi/index.html”}
 IBM Cloud Virtual Servers 
 
     {: .navgroup id="learn"}
@@ -10,7 +10,7 @@ IBM Cloud Virtual Servers
     vsi_about_suspend.md
     
     {: .topicgroup}
-    Opções de provisionamento
+    Opções de fornecimento
         vsi_public.md
             vsi_public_balanced.md
             vsi_public_balanced_local.md
@@ -19,6 +19,7 @@ IBM Cloud Virtual Servers
             vsi_public_gpu.md
             vsi_public_selections.md
         vsi_about_transient.md
+        vsi_about_reserved.md
         vsi_dedicated.md
             vsi_dedicated_host.md
             vsi_dedicated_pricing.md
@@ -50,18 +51,21 @@ IBM Cloud Virtual Servers
     
     {: .topicgroup}
     Tutoriais
-        [Aplicativo da web PHP em uma pilha de LAMP](../tutorials/lamp-stack.html)
-        [Usar Virtual Servers para construir o app da web altamente disponível e escalável](../tutorials/highly-available-and-scalable-web-application.html)
+        [Aplicativo da web PHP em uma pilha de LAMP](https://console.bluemix.net/docs/tutorials/lamp-stack.html)
+        [Usar Virtual Servers para construir o app da web altamente disponível e escalável](https://console.bluemix.net/docs/tutorials/highly-available-and-scalable-web-application.html)
         
     {: .topicgroup}
     Links relacionados
         [Portal de controle](https://control.softlayer.com/)
-        [Maximizar controle com IBM Bluemix Virtual Servers](https://www.ibm.com/blogs/bluemix/2017/08/maximize-control-ibm-bluemix-virtual-servers/)
+
+[Controle
+máximo com os Virtual Servers](https://www.ibm.com/blogs/bluemix/2017/08/maximize-control-ibm-bluemix-virtual-servers/)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     vsi_api.md
         vsi_provision_api.md
+    vsi_activity_tracker_events.md    
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -69,6 +73,7 @@ IBM Cloud Virtual Servers
     Fornecimento
         vsi_provision_public.md
         vsi_provision_transient.md
+        vsi_provision_reserved.md
         vsi_dedicated_instances.md
         vsi_provision_dedicated.md
 
@@ -79,6 +84,7 @@ IBM Cloud Virtual Servers
         vsi_work_image.md
         vsi_ssh_config.md
         configuring-automated-reclaim-notifications.md
+        how-are-server-ip-addresses-assigned-softlayer-network.md
 
     {: .topicgroup}
     Gerenciando servidores
@@ -147,11 +153,14 @@ IBM Cloud Virtual Servers
         ts_capacity_bp.md
     
     {: .topicgroup}
-    FAQs
+    Perguntas frequentes
         vsi_faqs_vs.md
+        vsi_faqs_reserved.md
         vsi_faqs_dedicated.md
         faq_servers_general.md
-        [FAQs: recarregamento do SO](../infrastructure/software/os-reload-question-faq.html)
-        [FAQs: e-mail de cpsrvd](../infrastructure/software/why-did-my-cpsrvd-email-fail.html)
+        [Perguntas frequentes: recarregamento de
+S.O.](../infrastructure/software/os-reload-question-faq.html)
+        [Perguntas frequentes: e-mail
+cpsrvd](../infrastructure/software/why-did-my-cpsrvd-email-fail.html)
 
     {: .navgroup-end}

@@ -17,7 +17,10 @@ lastupdated: "2017-10-24"
 {:table: .aria-labeledby="caption"}
 
 # Servidores virtuais públicos
-As ofertas de {{site.data.keyword.BluVirtServers}} são implementações de servidores virtuais de diversos locatários gerenciados pela IBM. Elas fornecem escalabilidade rápida e eficácia de custo mais alto com tamanhos predefinidos que atendem todos os requisitos de negócios para colocar rapidamente em funcionamento.  Os servidores virtuais públicos têm muitas vantagens, incluindo as seguintes:
+As ofertas de {{site.data.keyword.BluVirtServers}} são implementações de servidores virtuais de diversos locatários gerenciados pela IBM. Elas fornecem escalabilidade rápida e eficácia de custo mais alto com tamanhos predefinidos que atendem todos os requisitos de negócios para colocar rapidamente em funcionamento.  
+{:shortdesc}
+
+Os servidores virtuais públicos têm muitas vantagens, incluindo as seguintes:
 
 * **Disponibilidade global** 
 
@@ -27,8 +30,13 @@ As ofertas de {{site.data.keyword.BluVirtServers}} são implementações de serv
 
     A oferta de servidor virtual público fornece opções de servidor virtual pequeno ou grande para atender a vários requisitos de carga de trabalho.
 
-**Nota:** se você estiver procurando um ambiente de locatário único, considere a oferta de [Servidor virtual dedicado](../vsi/vsi_dedicated.html).
-{:shortdesc}
+O tráfego de rede para os servidores virtuais públicos, que engloba a SAN da VSI e outro armazenamento conectado à
+rede, não tem garantia. Se o tráfego de rede de uma instância de servidor virtual começar a ter um impacto
+negativo significativo em outros servidores virtuais, essa instância poderá ser reiniciada em um novo host ou, em casos
+extremos, desativada completamente. Esse impacto negativo é frequentemente observado à medida que os níveis de tráfego
+se aproximam de 20 mil a 30 mil pacotes por segundo (PPS). Para uma rede garantida, o uso da oferta Virtual Server
+dedicado é recomendado. Para obter mais informações, consulte a oferta
+[Servidor virtual dedicado](../vsi/vsi_dedicated.html) com ambiente de único locatário.
 
 As instâncias públicas residem em um hypervisor que é compartilhado com outros clientes; no entanto, os processadores e a memória são dedicados ao servidor virtual, tornando o desempenho do servidor confiável. 
 

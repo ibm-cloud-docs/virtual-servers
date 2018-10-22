@@ -47,8 +47,7 @@ Conclua as etapas a seguir para executar tarefas de gerenciamento para seus serv
 
 * **Ligar/Desligar**
 
-    Se o dispositivo foi desligado, o dispositivo permanece no estado desligado e deve ser ligado manualmente repetindo as etapas acima. Os usuários não podem interagir com um dispositivo quando um dispositivo é desligado. Se o dispositivo foi ligado, pode ocorrer uma interação normal. Ele permanecerá ligado até que uma ação adicional seja tomada. Se o servidor virtual suportar o recurso de suspensão de faturamento, o faturamento será suspenso para alguns recursos de cálculo. Não será possível concluir todas as ações de gerenciamento em uma instância até que o faturamento seja retomado. A suspensão de faturamento é suportada somente em novas provisões, não em instâncias existentes.
-Para obter mais informações, consulte [Sobre a suspensão de faturamento](vsi_about_suspend.html).
+    Se o dispositivo foi desligado, o dispositivo permanece no estado desligado e deve ser ligado manualmente repetindo as etapas acima. Os usuários não podem interagir com um dispositivo quando um dispositivo é desligado. Se o dispositivo foi ligado, pode ocorrer uma interação normal. Ele permanecerá ligado até que uma ação adicional seja tomada. Se o servidor virtual suportar o recurso de suspensão de faturamento, o faturamento será suspenso para alguns recursos de cálculo. Não será possível concluir todas as ações de gerenciamento em uma instância até que o faturamento seja retomado. A suspensão de faturamento é suportada somente em novas provisões, não em instâncias existentes. Para obter mais informações, consulte [Sobre a suspensão de faturamento](vsi_about_suspend.html).
 
 * **Renomear**
 

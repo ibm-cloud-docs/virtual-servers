@@ -41,7 +41,7 @@ Se não for possível se conectar ao console KVM, revise as dicas de resolução
 Se você tiver concluído todas as verificações acima e ainda assim não for possível se conectar ao console KVM, entre em contato com o Suporte para obter assistência adicional na resolução do problema. Se tiver sido feita uma conexão com o console, mas os problemas ocorrerem ao se conectar ao dispositivo, assegure-se de que as credenciais que estão sendo usadas para acessar o dispositivo sejam válidas. Entre em contato com o administrador de conta para verificar as credenciais, se necessário.
 
 ## Perdi minha senha para o meu servidor. Como posso recuperá-la?
-Se a senha raiz ou do administrador para seu servidor repentinamente não estiver funcionando, será possível verificar algumas coisas antes de entrar em contato com o suporte.
+Se a senha raiz ou do administrador para o servidor parar de funcionar de repente, verifique os itens a seguir. Se necessário, use as instruções para ativar um kernel de resgate e reconfigurar a senha.
 
    * Você está copiando e colando a senha? Se não, tente. Além disso, cole a senha em um bloco de notas para assegurar que nenhum espaço esteja sendo copiado acidentalmente com a senha.
    * Se o servidor contiver o cPanel, é possível que o cPHulk tenha bloqueado seu endereço IP devido a logins com falha? Se sim, será possível acessar o servidor usando o KVM ou IPMI e incluir na lista de desbloqueio seu endereço IP em cPHulk com "/scripts/cphulkdwhitelist" seguido por seu endereço IP.

@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-27"
+lastupdated: "2018-06-29"
 
 
 ---
@@ -20,15 +20,15 @@ lastupdated: "2018-04-27"
 # Servidores virtuais temporários
 A oferta temporária {{site.data.keyword.BluVirtServers}} será uma boa opção se você tiver cargas de trabalho flexíveis e quiser economia de custo. Você economizará dinheiro ao executar sua carga de trabalho em um servidor virtual temporário. As instâncias temporárias são provisionadas quando há capacidade não usada disponível. Portanto, quando os recursos do data center são necessários para contas sob demanda integrais, também é possível perder esses recursos. As instâncias temporárias serão desprovidas em uma base primeiro a entrar, primeiro a sair quando esses recursos precisarem ser recuperados.   
 
-Os servidores virtuais temporários são ideais para cargas de trabalho de não produção. Por exemplo, você pode usar uma instância temporária para testar e desenvolver aplicativos ou testar a escalabilidade em ambientes que não requerem tempo de atividade constante.
+Os servidores virtuais temporários oferecem a flexibilidade a seguir:
 
-## Requisitos
-Para aproveitar as instâncias temporárias, deve-se provisionar usando as seleções de servidores virtuais públicos a seguir:
-* Temporário
-* Seu local de host; é possível selecionar entre os data centers a seguir:
-    * MEX01 
-    * SEO01
-    * PAR01
+* **Disponibilidade global** 
+
+    A oferta de servidor virtual temporário está disponível em data centers em todo o mundo.
+    
+* **Economia de custo** 
+
+    Os servidores virtuais temporários são ideais para cargas de trabalho de não produção. Por exemplo, você pode usar uma instância temporária para testar e desenvolver aplicativos ou testar a escalabilidade em ambientes que não requerem tempo de atividade constante.
 
 Instâncias temporárias são instâncias públicas que usam armazenamento suportado pela SAN.
 

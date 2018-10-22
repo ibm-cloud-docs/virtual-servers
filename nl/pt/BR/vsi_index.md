@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-28"
+lastupdated: "2018-10-05"
 
 
 ---
@@ -14,11 +14,15 @@ lastupdated: "2018-02-28"
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
-# Introdução aos servidores virtuais
+# Tutorial Introdução
 É possível implementar {{site.data.keyword.BluVirtServers}} em uma questão de minutos. Os servidores virtuais são implementados por meio de sua escolha de imagens do servidor virtual e na região geográfica que faz sentido para suas cargas de trabalho.
 {:shortdesc}
+
+Experimente os nossos servidores virtuais em uma nuvem particular virtual! Para obter mais informações, consulte [IBM Cloud Virtual Servers for VPC](../../docs/vsi-is/getting-started.html#gettingstartedvsigen).
+{:tip}
 
 Ao criar um servidor virtual, é possível escolher entre um ambiente público (ocupação variada) ou um ambiente dedicado (ocupação única). Em seguida, dependendo do ambiente escolhido, deve-se também selecionar servidores virtuais horários, mensais ou temporários. No caso de servidores virtuais públicos, você também escolhe usar o armazenamento baseado na SAN ou o armazenamento local.
 
@@ -34,6 +38,7 @@ seguintes tópicos:
 | --------------------------------------------------------- | --------------------------------------------------- |
 |[Servidor virtual público](../vsi/vsi_public.html)            | Implementações de servidor virtual de ocupação variada gerenciadas pela IBM|
 |[Servidor virtual temporário](../vsi/vsi_about_transient.html)| Implementações de servidor virtual de ocupação variada gerenciadas pela IBM oferecidas a um custo reduzido e mais adequadas para cargas de trabalho flexíveis |
+|[Servidor virtual reservado](../vsi/vsi_about_reserved.html) |Implementações de servidor virtual de ocupação variada gerenciadas pela IBM com capacidade garantida por um prazo de contrato|
 |[Servidor virtual dedicado](../vsi/vsi_dedicated.html)      | Implementações de servidor virtual de ocupação única gerenciadas pela IBM            |
 {: caption="Tabela 1. Opções de implementação" caption-side="top"}   
 
@@ -45,6 +50,8 @@ Depois de decidir sobre uma opção de implementação, inicie o processo de for
 | -------------------------------------------------------------------------- | ------------------------------------------------------- |
 |[Provisionando instâncias públicas](../vsi/vsi_provision_public.html)                | Provisione instâncias públicas com várias opções             |
 |[Provisionando instâncias temporárias](../vsi/vsi_provision_transient.html)                | Provisione instâncias temporárias com várias opções            |
+|[Fornecendo a capacidade e as instâncias reservadas](../vsi/vsi_provision_reserved.html)
+|Fornecimento de capacidade e instâncias reservadas com várias opções|
 |[Provisionando hosts e instâncias dedicadas](../vsi/vsi_provision_dedicated.html)| Provisione instâncias privadas ou instâncias dedicadas em hosts dedicados.|
 {: caption="Tabela 2. Provisionando informações" caption-side="top"}
 
