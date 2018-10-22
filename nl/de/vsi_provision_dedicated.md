@@ -61,7 +61,7 @@ bestellen, die entweder einem dedizierten Host zugeordnet ist oder nicht. Weiter
 5.	Geben Sie die folgenden Informationen ein:
     
     <table>
-    <CAPTION>Tabelle 1. Auswahlen für die Bereitstellung dedizierter Hosts</CAPTION>
+    <CAPTION>Tabelle 1. Optionen für die Bereitstellung dedizierter Hosts</CAPTION>
     <THEAD>
     <TR>
     <th>Feld</th>
@@ -78,7 +78,7 @@ bestellen, die entweder einem dedizierten Host zugeordnet ist oder nicht. Weiter
     <td>Wählen sie das {{site.data.keyword.cloud}}-Rechenzentrum aus, in dem Ihre Hosts platziert werden sollen. Die Liste der in Frage kommenden Rechenzentren finden Sie unter 'Informationen zu'.</td>
     </tr>
     <td>Dedizierter Host</td>
-    <td>Die Standardeinstellung sind 56 Kerne X 242 RAM X 1,2 TB</td>
+    <td>Die Standardeinstellung sind 56 Cores X 242 RAM X 1,2 TB</td>
     </tr>
     </TBODY>
     </table>
@@ -86,7 +86,7 @@ bestellen, die entweder einem dedizierten Host zugeordnet ist oder nicht. Weiter
     Die Zusammenfassung Ihrer Bestellung wird rechts neben der Seite *Konfiguration* angezeigt. 
     
 6.  Klicken Sie auf die Schaltfläche **Zur Bestellung hinzufügen**.
-7.  Bestätigen Sie Ihre Auswahlen auf der Seite *Checkout* und blättern Sie abwärts zu *Dedizierter Host - Erweiterte Systemkonfiguration*.
+7.  Bestätigen Sie Ihre Auswahl auf der Seite *Checkout* und blättern Sie abwärts zu *Dedizierter Host - Erweiterte Systemkonfiguration*.
 8.  Geben Sie die folgenden Informationen ein:
 
     <table>
@@ -114,7 +114,7 @@ bestellen, die entweder einem dedizierten Host zugeordnet ist oder nicht. Weiter
     </table>
 
 9.  Klicken Sie auf das Kontrollkästchen **Bedingungen für Cloud-Service**.
-10. Bestätigen Sie Ihre Zahlungsinformationen oder geben Sie sie ein und klicken Sie auf die Schaltfläche **Absenden**. Eine Anzeige mit der Nummer Ihrer Bereitstellungsbestellung wird angezeigt. Drucken Sie diese Anzeige. Sie ist die
+10. Bestätigen Sie Ihre Zahlungsinformationen oder geben Sie sie ein und klicken Sie auf die Schaltfläche **Absenden**. Eine Anzeige mit der Nummer Ihrer Bereitstellungsbestellung wird angezeigt. Drucken Sie diese Anzeige bei Bedarf. Sie ist auch die Bestätigung für die Auftragsbestätigung für die Bereitstellung. 
 
     Mehrere E-Mails werden an Ihren Administrator gesendet: die Auftragsbestätigung für Ihre Bereitstellungsbestellung, die Genehmigung und die Bearbeitungsnachricht für die Bereitstellung sowie die Fertigstellungsnachricht für die Bereitstellung. Über einen Link in der Fertigstellungsnachricht gelangen Sie direkt zu der zugehörigen Seite **Einheitendetails**, nachdem Sie sich bei {{site.data.keyword.Bluemix_notm}} angemeldet haben. Eine weitere Option ist die direkte Anmeldung beim {{site.data.keyword.slportal}}.
 
@@ -137,14 +137,14 @@ Die erste Option ist das Bereitstellen Ihrer dedizierten Hostinstanzen über das
 
 3.	Blättern Sie abwärts zum Abschnitt **Instanzen**.
 
-    Der Abrechnungsmodus für Ihren dedizierten Host (stündlich oder monatlich) legt die Abrechnung für Ihre dedizierten Hostinstanzen fest. Wenn Sie Hosts verwenden, die monatlich abgerechnet werden, können Sie dedizierte Hostinstanzen bereitstellen die auf Stundenbasis oder auf Monatsbasis abgerechnet werden. Beim Bereitstellen Ihrer Instanzen werden die beiden Links **Auf Stundenbasis hinzufügen** und **Auf Monatsbasis hinzufügen** angezeigt. Auf Stundenbasis abgerechnete Hosts können nur dedizierte Hostinstanzen bereitstellen, d. h. für sie wird nur der Link **Auf Stundenbasis hinzufügen** angezeigt. 
+    Der Abrechnungsmodus für Ihren dedizierten Host (stündlich oder monatlich) legt die Abrechnung für Ihre dedizierten Hostinstanzen fest. Wenn Sie Hosts mit einer Abrechnung auf Monatsbasis verwenden, können Sie dedizierte Hostinstanzen bereitstellen, die auf Stundenbasis oder auf Monatsbasis abgerechnet werden. Beim Bereitstellen Ihrer Instanzen werden die beiden Links **Auf Stundenbasis hinzufügen** und **Auf Monatsbasis hinzufügen** angezeigt. Auf Stundenbasis abgerechnete Hosts können nur dedizierte Hostinstanzen bereitstellen, d. h. für sie wird nur der Link **Auf Stundenbasis hinzufügen** angezeigt. 
 
-4.	Klicken Sie auf den Link **Auf Stundenbasis hinzufügen**, wenn Ihr Host stündlich oder monatlich abgerechnet wird. Klicken Sie auf den Link **Auf Monatsbasis hinzufügen**, wenn Ihr Host monatlich abgerechnet wird. Die Seite *Cloud-Server konfigurieren* wird wieder angezeigt. 
+4.	Klicken Sie auf den Link **Auf Stundenbasis hinzufügen**, wenn Ihr Host auf Stunden- oder Monatsbasis abgerechnet wird. Klicken Sie auf den Link **Auf Monatsbasis hinzufügen**, wenn Ihr Host auf Monatsbasis abgerechnet wird. Die Seite *Cloud-Server konfigurieren* wird wieder angezeigt. 
 
 5.	Geben Sie die folgenden Informationen ein:
        
     <table>
-    <CAPTION>Tabelle 3. Auswahlen für dedizierten Hostinstanzen</CAPTION>
+    <CAPTION>Tabelle 3. Optionen für dedizierte Hostinstanzen</CAPTION>
     <THEAD>
     <TR>
     <th>Feld</th>
@@ -240,7 +240,7 @@ Die erste Option ist das Bereitstellen Ihrer dedizierten Hostinstanzen über das
     </table>
 
 8.  Klicken Sie auf die Kontrollkästchen **Bedingungen für Cloud-Service** und **Servicevereinbarung Dritter**.
-9. Bestätigen Sie Ihre Zahlungsinformationen oder geben Sie sie ein und klicken Sie auf die Schaltfläche **Bestellung absenden**. Eine Anzeige mit der Nummer Ihrer Bereitstellungsbestellung wird angezeigt. Drucken Sie diese Anzeige. Sie ist die Auftragsbestätigung für Ihre Bereitstellungsbestellung.
+9. Bestätigen Sie Ihre Zahlungsinformationen oder geben Sie sie ein und klicken Sie auf die Schaltfläche **Bestellung absenden**. Eine Anzeige mit der Nummer Ihrer Bereitstellungsbestellung wird angezeigt. Drucken Sie diese Anzeige bei Bedarf. Sie ist auch die Bestätigung für die Auftragsbestätigung für die Bereitstellung. 
 
 
 Sie werden per E-Mail benachrichtigt, sobald Ihre dedizierten Hostinstanzen bereitgestellt sind.

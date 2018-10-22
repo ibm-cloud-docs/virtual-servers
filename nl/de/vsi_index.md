@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-28"
+lastupdated: "2018-10-05"
 
 
 ---
@@ -14,12 +14,15 @@ lastupdated: "2018-02-28"
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
-# Einführung in virtuelle Server
+# Lernprogramm zur Einführung
 {{site.data.keyword.BluVirtServers}} können in wenigen Minuten bereitgestellt werden. Die virtuellen Server werden
 aus den virtuellen Serverimages Ihrer Wahl und in der geografischen Region bereitgestellt, die für Ihre Workloads geeignet ist.
 {:shortdesc}
+
+Lernen Sie unsere virtuellen Server in einer virtuellen privaten Cloud kennen! Weitere Informationen finden Sie im Abschnitt zu [IBM Cloud Virtual Server-Instanzen für eine VPC](../../docs/vsi-is/getting-started.html#gettingstartedvsigen).{:tip}
 
 Wenn Sie einen virtuellen Server erstellen, können Sie zwischen einer öffentlichen Umgebung (Multi-Tenant-Funktionalität) und einer dedizierten Umgebung (Einzel-Tenant-Funktionalität) wählen. Abhängig von der gewählten Umgebung müssen Sie dann auch auf Stundenbasis abzurechnende, auf Monatsbasis abzurechnende oder transiente virtuelle Server auswählen. Im Falle öffentlicher virtueller Server wählen Sie auch aus, ob SAN-basierter Speicher oder lokaler Speicher verwendet werden soll.
 
@@ -36,6 +39,7 @@ Sie in den folgenden Abschnitten:
 | --------------------------------------------------------- | --------------------------------------------------- |
 |[Öffentlicher virtueller Server](../vsi/vsi_public.html)            | Von IBM verwaltete Multi-Tenant-Bereitstellungen für virtuelle Server|
 |[Transienter virtueller Server](../vsi/vsi_about_transient.html)| Von IBM verwaltete Multi-Tenant-Bereitstellungen für virtuelle Server, angeboten zu reduzierten Kosten und am besten geeignet für flexible Workloads |
+|[Reservierter virtueller Server](../vsi/vsi_about_reserved.html)  | Von IBM verwaltete Multi-Tenant-Bereitstellungen für virtuelle Server mit garantierter Kapazität über einen vereinbarten Zeitraum |
 |[Dedizierter virtueller Server](../vsi/vsi_dedicated.html)      | Von IBM verwaltete Einzel-Tenant-Bereitstellungen für virtuelle Server            |
 {: caption="Tabelle 1. Bereitstellungsoptionen" caption-side="top"}   
 
@@ -47,6 +51,7 @@ Nachdem Sie sich für eine Bereitstellungsoption entschieden haben, können Sie 
 | -------------------------------------------------------------------------- | ------------------------------------------------------- |
 |[Öffentliche Instanzen bereitstellen](../vsi/vsi_provision_public.html)                | Öffentliche Instanzen mit verschiedenen Optionen bereitstellen             |
 |[Transiente Instanzen bereitstellen](../vsi/vsi_provision_transient.html)                | Transiente Instanzen mit verschiedenen Optionen bereitstellen            |
+|[Reservierte Kapazität und Instanzen bereitstellen](../vsi/vsi_provision_reserved.html)            | Reservierte Kapazität und Instanzen mit verschiedenen Optionen bereitstellen |
 |[Dedizierte Hosts und Instanzen bereitstellen](../vsi/vsi_provision_dedicated.html)| Private Instanzen oder dedizierte Instanzen auf dedizierten Hosts bereitstellen|
 {: caption="Tabelle 2. Informationen zur Bereitstellung" caption-side="top"}
 

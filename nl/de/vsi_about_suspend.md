@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-26"
+lastupdated: "2018-10-08"
 
 
 ---
@@ -20,33 +20,21 @@ lastupdated: "2018-06-26"
 # Informationen zur ausgesetzten Abrechnung (Beta)
 {: #requirements}
 
-Bei Ausschalten eines virtuellen Servers, der die Funktion für ausgesetzte Abrechnung unterstützt, fallen für bestimmte Rechenressourcen keine Kosten an. Die Abrechnung stoppt bei Ausschalten des Servers automatisch. Die Funktion für ausgesetzte Abrechnung unterstützt Sie bei der Kostenreduzierung und bewirkt, dass Sie einen virtuellen Server nicht erneut bereitstellen müssen, wenn sie seine Ressourcen wieder benötigen. Die ausgesetzte Abrechnung wird nur für neue Bereitstellungen, nicht für vorhandene Instanzen, unterstützt.{:shortdesc}
+Bei Ausschalten eines virtuellen Servers, der die Funktion für ausgesetzte Abrechnung unterstützt, fallen für bestimmte Rechenressourcen keine Kosten an. Die Abrechnung stoppt bei Ausschalten des Servers automatisch. Die Funktion für ausgesetzte Abrechnung unterstützt Sie bei der Kostenreduzierung und bewirkt, dass Sie einen virtuellen Server nicht erneut bereitstellen müssen, wenn sie seine Ressourcen wieder benötigen. Die ausgesetzte Abrechnung wird nur für neue Bereitstellungen, nicht für vorhandene Instanzen, unterstützt.
+{:shortdesc}
 
-Damit Sie auf die Funktion für ausgesetzte Abrechnung zugreifen können, müssen Sie die virtuelle Serverinstanz mithilfe der {{site.data.keyword.slapi_short}} bereitstellen, in der sie das Paket für die ausgesetzte Abrechnung angeben. Die neue virtuelle Serverinstanz muss mithilfe der folgenden Einstellungen konfiguriert werden:
+Diese Funktion ist in Rechenzentren auf der ganzen Welt verfügbar. Damit Sie auf die Funktion für ausgesetzte Abrechnung zugreifen können, müssen Sie die virtuelle Serverinstanz mithilfe der {{site.data.keyword.slapi_short}} bereitstellen, in der sie das Paket für die ausgesetzte Abrechnung angeben. Die neue virtuelle Serverinstanz muss mithilfe der folgenden Einstellungen konfiguriert werden:
 
 * Stündliches SAN
-* Eine der folgenden Familien:
+* Öffentliche Versionen einer der folgenden Familien:
   * Ausgewogen (Balanced)
   * Berechnen (Compute)
   * Speicher (Memory)
-* Eines der folgenden {{site.data.keyword.cloud}}-Rechenzentren:
-
-| Rechenzentren |         |
-| ------------ | ------- | 
-|SEO01         |  WDC01  |
-|SAO01         |  WDC04  |
-|TOK02         |  WDC06  |
-|DAL01         |  WDC07  |
-|DAL05         |  LON02  |
-|DAL06         |  LON04  |
-|DAL09         |  LON06  |
-|DAL10         |  FRA02  |
-|DAL12         |  FRA04  |
-|DAL13         |  FRA05  |
-{: caption="Tabelle 1. Unterstützte Rechenzentren" caption-side="top"}
 
 Sie können die Funktion für ausgesetzte Abrechnung als eine schnellere Alternative zum Bereitstellen bzw. Aufheben der Bereitstellung von virtuellen Serverinstanzen verwenden.
 {:tip}
+
+**Anmerkung:** Die Abrechnung wird nur ausgesetzt, wenn Sie die virtuelle Serverinstanz über das {{site.data.keyword.slportal_full}}, die CLI oder die {{site.data.keyword.slapi_short}} ausschalten. Wenn Sie die virtuelle Serverinstanz direkt über das Betriebssystem ausschalten, wird die Abrechnung für die betreffende Instanz nicht ausgesetzt.
 
 ## Bereitstellung
 
@@ -58,15 +46,15 @@ Sie müssen während des Bereitstellungsprozesses auch die bestimmte ID für das
 
 Es ist wichtig zu verstehen, welche Kosten bei Ausschalten der virtuellen Serverinstanz weiterhin anfallen und welche Kosten nicht mehr anfallen.
 
-| Ressource                     | Abrechnung stoppt | Abrechnung läuft weiter |
+| Ressource                      | Abrechnung stoppt   | Abrechnung läuft weiter |
 | ----------------------------- | ----------------- | ---------------- |
 | vCPU                          |          X        |                  |
 | RAM                           |          X        |                  |
-| Portgeschwindigkeit           |          X        |                  |
-| Lizenzen des Betriebssystems  |          X        |                  |
-| Überwachung von Add-ons       |          X        |                  |
-| Sekundäre öffentl. IP-Adressen|                   |         X        |
-| Speicher                      |                   |         X        |
+| Portgeschwindigkeit                    |          X        |                  |
+| Lizenzen des Betriebssystems     |          X        |                  |
+| Überwachung von Add-ons          |          X        |                  |
+| Sekundäre öffentl. IP-Adressen |                   |         X        |
+| Speicher                       |                   |         X        |
 {: caption="Tabelle 1. Details zur Abrechnung von Ressourcen" caption-side="top"}   
 
 **Hinweis:** Wenn Sie eine virtuelle Serverinstanz bereitstellen, die die Funktion für ausgesetzte Abrechnung unterstützt, wird die Verwendungsdauer sowohl bei Verwendung als auch bei Aussetzen pro Minute berechnet. Auch wenn Sie die Funktion für ausgesetzte Abrechnung nie durch Ausschalten der Instanz aufrufen, wird die Abrechnungssumme pro Minute des Lebenszyklus der Instanz berechnet. 

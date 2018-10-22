@@ -41,7 +41,7 @@ Wenn Sie keine Verbindung zur KVM-Konsole herstellen können, prüfen Sie die na
 Wenn Sie alle oben angegebenen Prüfschritte durchgeführt haben und weiterhin keine Verbindung zur KVM-Konsole herstellen können, wenden Sie sich an den Support, um weitere Unterstützung bei der Fehlerbehebung zu erhalten. Wenn zwar eine Verbindung zur Konsole hergestellt wurde, jedoch Probleme beim Verbinden mit der Einheit aufgetreten sind, stellen Sie sicher, dass gültige Berechtigungsnachweise für den Zugriff auf die Einheit verwendet werden. Wenden Sie sich gegebenenfalls an den Kontoadministrator, um Berechtigungsnachweise zu überprüfen.
 
 ## Ich habe mein Kennwort für den Server nicht mehr. Wie kann ich das Kennwort wiederherstellen?
-Wenn das Root- oder Administratorkennwort für Ihren Server plötzlich nicht mehr funktioniert, sollten Sie zunächst einige Punkte überprüfen, bevor Sie sich an den Support wenden.
+Wenn das Root- oder Administratorkennwort für Ihren Server plötzlich nicht mehr funktioniert, überprüfen Sie die folgenden Punkte. Starten Sie, falls erforderlich, einen Rescue-Kernel wie in den Anweisungen angegeben und setzen Sie Ihr Kennwort zurück.
 
    * Haben Sie das Kennwort kopiert und eingefügt? Falls nicht, versuchen Sie es. Fügen Sie das Kennwort probeweise in einem Texteditor ein, um sicherzustellen, dass keine unbeabsichtigten Leerzeichen mit kopiert werden.
    * Wenn der Server über eine Komponente cPanel verfügt: Besteht die Möglichkeit, dass Ihre IP-Adresse nach fehlgeschlagenen Anmeldeversuchen durch cPHulk gesperrt wurde? Wenn dies zutrifft, können Sie über KVM oder IPMI auf den Server zugreifen und Ihre IP-Adresse in die Whitelist eintragen, indem Sie cPHulk mit "/scripts/cphulkdwhitelist", gefolgt von Ihrer IP-Adresse eingeben.

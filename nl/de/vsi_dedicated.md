@@ -25,7 +25,7 @@ Das Angebot umfasst die folgenden Funktionen:
 
 * Affinität und Anti-Affinität. Sie können Beziehungen vom Host zum virtuellen Server (Affinitätsregeln) und vom virtuellen Server zum Host (Anti-Affinitätsregeln) angeben, die beibehalten werden sollen. Durch diese Regeln können Sie sicherstellen, dass Ihre Workloads gemäß Ihren Workload-Anforderungen platziert werden.
 * Verwaltung nach der Bereitstellung. Sie können virtuelle Server entsprechend Ihren Workload-Anforderungen zwischen dedizierten Hosts migrieren.
-* Sichtbarkeit der Workloads. Sie können die Ressourcenauslastung (Kern, Arbeitsspeicher und lokaler Speicher) für jeden Host anzeigen. Dies ermöglicht Ihnen die maximale Kontrolle über Ihr Workload-Management.
+* Sichtbarkeit der Workloads. Sie können die Ressourcenauslastung (Core, Arbeitsspeicher und lokaler Speicher) für jeden Host anzeigen. Dies ermöglicht Ihnen die maximale Kontrolle über Ihr Workload-Management.
 
 Sie können zwischen zwei Bereitstellungsmodellen wählen: dedizierte Hosts und dedizierte Instanzen. Dedizierte Hosts bieten mehr Kontrolle bei der Platzierung von Workloads und dedizierte Instanzen ermöglichen die Einzel-Tenant-Isolierung. 
 
@@ -79,7 +79,7 @@ Sie können zwischen zwei Bereitstellungsmodellen wählen: dedizierte Hosts und 
 </table>
 
 
-<sup>(1)</sup> Die Abrechnung für Hosts beinhaltet Kern, Arbeitsspeicher, lokale SSD und Netzgeschwindigkeit. Premium-Betriebssystem, SAN-Speicher (SAN = Storage Area Network) und Software-Add-ons werden pro Instanz gemäß der vorhandenen Preisstruktur und Lizenzierung auf Stunden- oder Monatsbasis abgerechnet.
+<sup>(1)</sup> Die Abrechnung für Hosts beinhaltet Core, Arbeitsspeicher, lokale SSD und Netzgeschwindigkeit. Premium-Betriebssystem, SAN-Speicher (SAN = Storage Area Network) und Software-Add-ons werden pro Instanz gemäß der vorhandenen Preisstruktur und Lizenzierung auf Stunden- oder Monatsbasis abgerechnet.
 
 Beachten Sie Folgendes beim Bestellen dedizierter Hosts und dedizierter Hostinstanzen:
 
@@ -106,7 +106,7 @@ Beachten Sie Folgendes beim Bestellen dedizierter Hosts und dedizierter Hostinst
 |MIL01         |  WDC07  |
 {: caption="Tabelle 2. Unterstützte Rechenzentren" caption-side="top"}
 
-* Die Größe Ihrer Hosts wird durch die Workloads bestimmt, die darauf ausgeführt werden sollen. Die Standardeinstellung sind 56 Kerne X 242 GB RAM X 1,2 TB. 
+* Die Größe Ihrer Hosts wird durch die Workloads bestimmt, die darauf ausgeführt werden sollen. Die Standardeinstellung sind 56 Cores X 242 GB RAM X 1,2 TB. 
 * Sie können jeweils nur zwei Hosts auf einmal bestellen. Wenn Sie beispielsweise sechs Hosts benötigen, müssen Sie drei separate Bestellungen aufgeben.
 * Für jeden Host ist ein eindeutiger Name erforderlich, und Sie können Ihren POD automatisch zuordnen.
 

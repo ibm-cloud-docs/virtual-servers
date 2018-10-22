@@ -41,10 +41,10 @@ Das Teilfenster 'Instanzen' enthält die Instanzen, die einem bestimmten Host zu
 Auf der Registerkarte 'Tickets' können Sie Support-Tickets für den Host und alle zugehörigen Instanzen öffnen, indem Sie auf 'Ticket öffnen' für diesen Link 'Einheit' klicken.
 
 ## Registerkarte für Hostzuordnungen
-Auf der Registerkarte 'Zuordnungen' können Sie verfügbare Kerne, Arbeitsspeicher und und lokalen Speicher für Ihren dedizierten Host anzeigen. Das blaue Segment im Kreisdiagramm gibt die genutzten Ressourcen an und das weiße Segment die verfügbaren Ressourcen.
+Auf der Registerkarte 'Zuordnungen' können Sie verfügbare Cores, Arbeitsspeicher und und lokalen Speicher für Ihren dedizierten Host anzeigen. Das blaue Segment im Kreisdiagramm gibt die genutzten Ressourcen an und das weiße Segment die verfügbaren Ressourcen.
 
 ## Registerkarte für dedizierte Hostinstanzen
-Die Seite 'Einheitendetails' für dedizierte Hostinstanzen kann entweder über die Seite 'Einheitendetails des zugehörigen Hosts oder direkt über die Einheitenliste aufgerufen werden. Für dedizierte Hostinstanzen stehen weitere Registerkarten zur Verfügung; die Registerkarten 'Konfiguration' und 'Tickets' ähneln den Registerkarten auf der Hostebene. Über den Link 'Einheitenkonfiguration ändern' auf der Registerkarte 'Konfiguration' können Sie Änderungen an Ihrem System (z. B. Kern, Arbeitsspeicher und lokaler Speicher) und an Ihrer Netzkonfiguration (Bandbreite und Uplink-Port-Geschwindigkeiten) vornehmen.
+Die Seite 'Einheitendetails' für dedizierte Hostinstanzen kann entweder über die Seite 'Einheitendetails des zugehörigen Hosts oder direkt über die Einheitenliste aufgerufen werden. Für dedizierte Hostinstanzen stehen weitere Registerkarten zur Verfügung; die Registerkarten 'Konfiguration' und 'Tickets' ähneln den Registerkarten auf der Hostebene. Über den Link 'Einheitenkonfiguration ändern' auf der Registerkarte 'Konfiguration' können Sie Änderungen an Ihrem System (z. B. Core, Arbeitsspeicher und lokaler Speicher) und an Ihrer Netzkonfiguration (Bandbreite und Uplink-Port-Geschwindigkeiten) vornehmen.
 
 Für die Nutzung wird ein Zeitdiagramm angezeigt, das die CPU-Auslastung nach Datum darstellt. Das Diagramm bietet auch die Möglichkeit, die CPU-Auslastung für ein bestimmtes Datum bzw. eine bestimmte Uhrzeit anzuzeigen. Dies erleichtert Ihnen die Entscheidung, ob zusätzliche Verarbeitungskapazität bereitgestellt werden sollte.
 

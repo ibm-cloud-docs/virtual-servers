@@ -24,7 +24,7 @@ Die Preisstruktur für dedizierte Hosts ist unten zusammengefasst und schließt 
 
 Für dedizierte Hosts sind zusätzlich lokale Speicherplatten auf dem ersten, zweiten, dritten, vierten und fünften Datenträger verfügbar. Auf jedem sekundären Datenträger steht eine zusätzliche Kapazität von 400 GB zur Verfügung.
 
-Instanzen auf Stundenbasis können auf stündlich oder monatlich abgerechneten Hosts bereitgestellt werden. Instanzen auf Monatsbasis können nur auf monatlich abgerechneten Hosts bereitgestellt werden.
+Instanzen auf Stundenbasis können auf Hosts mit einer Abrechnung auf Monats- oder Stundenbasis bereitgestellt werden. Instanzen auf Monatsbasis können nur auf Hosts mit einer Abrechnung auf Monatsbasis bereitgestellt werden.
 
 | Hostkonfiguration | vCPU	| RAM (GB) | Lokaler Speicher (TB SSD) |	Preis pro Stunde | Preis pro Monat | 
 | ------------------ | ---- | -------- | ---------------------- | ------------ | ------------- |

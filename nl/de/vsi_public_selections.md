@@ -17,8 +17,8 @@ lastupdated: "2018-02-12"
 {:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
-# Auswahlen für die Bereitstellung
-Beim Bereitstellen eines öffentlichen virtuellen Servers müssen Sie die folgenden Auswahlen treffen.
+# Optionen für die Bereitstellung
+Beim Bereitstellen eines öffentlichen virtuellen Servers müssen Sie eine Auswahl in Bezug auf die folgenden Optionen treffen.
 
 ## Standort
 Sie können auswählen, in welchem Rechenzentrum die Bereitstellung erfolgen soll. Bei neuen Bereitstellungen ermittelt {{site.data.keyword.Bluemix}} automatisch das am besten geeignete Rechenzentrum (basierend auf der Verfügbarkeit) und erstellt die entsprechenden öffentlichen und privaten VLANs. Bei Ergänzungen für vorhandene Umgebungen können Sie das für Ihre jeweiligen Zwecke erforderliche Rechenzentrum, VLAN und Teilnetz auswählen. Weitere Informationen zu VLANs und Teilnetzen finden Sie unter [VLANs - Einführung](/docs/infrastructure/vlans/getting-started.html).
@@ -27,11 +27,11 @@ Das Auswählen eines Teilnetzes ist optional und nur durchzuführen, wenn Ihre E
 {:tip}
 
 ## Prozessoren / RAM
-Beim Bestellen können Sie zwischen den angebotenen Optionen für Kernprozessoren auswählen. Dabei sind Standards für virtuelle Serverbereitstellungen zu beachten. Jeder physische Kern im Server wird per Hyper-Threading verbunden und als zwei virtuelle CPUs (vCPUs) oder Kerne dargestellt. Das Angebot für virtuelle Server bietet 2,0 GHz oder mehr pro Kern sowie bis zu 56 verfügbare Kerne auf einem einzelnen virtuellen Server.
+Beim Bestellen können Sie zwischen den angebotenen Optionen für Kernprozessoren auswählen. Dabei sind Standards für virtuelle Serverbereitstellungen zu beachten. Jeder physische Core im Server wird per Hyper-Threading verbunden und als zwei virtuelle CPUs (vCPUs) oder Cores dargestellt. Das Angebot für virtuelle Server bietet 2,0 GHz oder mehr pro Core sowie bis zu 56 verfügbare Cores auf einem einzelnen virtuellen Server.
 
 Die Zuordnung des Arbeitsspeichers (RAM) ist sehr leicht nachvollziehbar. Die von Ihnen ausgewählte RAM-Kapazität wird Ihrem virtuellen Server in vollem Umfang dediziert zur Verfügung gestellt (bis zu 242 GB für einen einzelnen virtuellen Server).
 
-**Hinweis:** Für öffentliche und dedizierte Instanzen gelten geringfügig abweichende Konfigurationsgrenzwerte. Sehr hohe Zuordnungen für Kerne oder Arbeitsspeicher schränken die verfügbaren Optionen ein.
+**Hinweis:** Für öffentliche und dedizierte Instanzen gelten geringfügig abweichende Konfigurationsgrenzwerte. Sehr hohe Zuordnungen für Cores oder Arbeitsspeicher schränken die verfügbaren Optionen ein.
 
 ## Betriebssystem
 
@@ -43,13 +43,13 @@ Für Bestandskunden ist außerdem die Bereitstellung über eine Imagevorlage im 
 
 Sie können für jeden virtuellen Server zwischen den Optionen 'SAN' und 'Lokal' wählen. Der SAN-Speicher bzw. der lokale Speicher kann nach Bedarf durch weitere Produkte ergänzt werden. SAN-Speicher und lokaler Speicher sind für den virtuellen Server als lokale Datenträger zugänglich. Nach allen Änderungen der Datenträger (z. B. anhängen, abhängen, migrieren usw.) muss der virtuelle Server neu gestartet werden. Weitere Informationen finden Sie unter [Speicheroptionen](../vsi/storage/vsi_about_storage.html).
 
-## Stündliche und monatliche Abrechnung
+## Abrechnung auf Stundenbasis und Monatsbasis
 
-Für einen virtuellen Server können Sie die Abrechnung auf Stundenbasis oder auf Monatsbasiss auswählen. Der Hauptunterschied (abgesehen von den Gebühren) besteht darin, dass stündlich abgerechnete Server keine Bandbreitenzuordnung beinhalten. Am Ende des Abrechnungszeitraums werden die genutzte Bandbreite und die Anzahl der Stunden, in denen jeder Server für das Konto aktiv war, berechnet. Eine laufende Summe wird im {{site.data.keyword.slportal}} auf der Seite mit der Ansicht für virtuelle Server zusammen mit einem Link zu einer Detailseite mit den einzelnen Artikelpositionen, Stundenanzahlen und laufenden Kosten für jeden Artikel angezeigt.
+Für einen virtuellen Server können Sie eine Abrechnung auf Stundenbasis oder auf Monatsbasis auswählen. Der Hauptunterschied (abgesehen von den Gebühren) besteht darin, dass nach Stunden abgerechnete Server keine Bandbreitenzuordnung beinhalten. Am Ende des Abrechnungszeitraums werden die genutzte Bandbreite und die Anzahl der Stunden, in denen jeder Server für das Konto aktiv war, berechnet. Eine laufende Summe wird im {{site.data.keyword.slportal}} auf der Seite mit der Ansicht für virtuelle Server zusammen mit einem Link zu einer Detailseite mit den einzelnen Artikelpositionen, Stundenanzahlen und laufenden Kosten für jeden Artikel angezeigt.
 
 ## Bandbreite
 
-Das Angebot beinhaltet 250 GB für monatlich abgerechnete virtuelle Server mit einen öffentlichen Uplink. Größere Zuordnungen können Sie zu einem reduzierten Satz im Vergleich zum Überschreitungstarif erwerben.
+Das Angebot beinhaltet 250 GB für virtuelle Server mit öffentlichem Uplink und einer Abrechnung auf Monatsbasis. Größere Zuordnungen können Sie zu einem reduzierten Satz im Vergleich zum Überschreitungstarif erwerben.
 
 ## Portgeschwindigkeit
 

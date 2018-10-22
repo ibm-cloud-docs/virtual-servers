@@ -60,7 +60,7 @@ Die erste Option zum Bereitstellen dedizierter Hostinstanzen ist die Verwendung 
 3.	Geben Sie die folgenden Informationen ein:
        
     <table>
-    <CAPTION>Tabelle 1. Auswahlen für dedizierte Hostinstanzen</CAPTION>
+    <CAPTION>Tabelle 1. Optionen für dedizierte Hostinstanzen</CAPTION>
     <THEAD>
     <TR>
     <th>Feld</th>
@@ -156,7 +156,7 @@ Die erste Option zum Bereitstellen dedizierter Hostinstanzen ist die Verwendung 
     </table>
 
 6.  Klicken Sie auf die Kontrollkästchen **Bedingungen für Cloud-Service** und **Servicevereinbarung Dritter**.
-7. Bestätigen Sie Ihre Zahlungsinformationen oder geben Sie sie ein und klicken Sie auf die Schaltfläche **Bestellung absenden**. Eine Anzeige mit der Nummer Ihrer Bereitstellungsbestellung wird angezeigt. Drucken Sie diese Anzeige. Sie ist die Auftragsbestätigung für Ihre Bereitstellung.
+7. Bestätigen Sie Ihre Zahlungsinformationen oder geben Sie sie ein und klicken Sie auf die Schaltfläche **Bestellung absenden**. Eine Anzeige mit der Nummer Ihrer Bereitstellungsbestellung wird angezeigt. Drucken Sie diese Anzeige bei Bedarf. Sie ist auch die Bestätigung für die Auftragsbestätigung für die Bereitstellung. 
 
     Mehrere E-Mails werden an Ihren Administrator gesendet: die Auftragsbestätigung für Ihre Bereitstellungsbestellung, die Genehmigung und die Bearbeitungsnachricht für die Bereitstellung sowie die Fertigstellungsnachricht für die Bereitstellung. Über einen Link in der Fertigstellungsnachricht gelangen Sie direkt zu der zugehörigen Seite **Einheitendetails**, nachdem Sie sich bei {{site.data.keyword.Bluemix_notm}} angemeldet haben. Eine weitere Option ist die direkte Anmeldung beim {{site.data.keyword.slportal}}.
 
