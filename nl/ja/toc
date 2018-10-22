@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="virtual-servers" audience="compute" href=“/docs/vsi/index.html”}
+{: .toc subcollection="virtual-servers" audience="compute" arm="407" href=“/docs/vsi/index.html”}
 IBM Cloud 仮想サーバー 
 
     {: .navgroup id="learn"}
@@ -19,6 +19,7 @@ IBM Cloud 仮想サーバー
             vsi_public_gpu.md
             vsi_public_selections.md
         vsi_about_transient.md
+        vsi_about_reserved.md
         vsi_dedicated.md
             vsi_dedicated_host.md
             vsi_dedicated_pricing.md
@@ -49,19 +50,20 @@ IBM Cloud 仮想サーバー
         vsi_email_intro.md
     
     {: .topicgroup}
-    チュートリアル
-        [LAMP スタック上の PHP Web アプリケーション](../tutorials/lamp-stack.html)
-        [仮想サーバーを使用した、高可用性のスケーラブルな Web アプリケーションの構築 (Use Virtual Servers to build highly available and scalable web app)](../tutorials/highly-available-and-scalable-web-application.html)
+チュートリアル
+        [LAMP スタック上の PHP Web アプリケーション](https://console.bluemix.net/docs/tutorials/lamp-stack.html)
+        [仮想サーバーを使用した、高可用性のスケーラブルな Web アプリケーションの構築 (Use Virtual Servers to build highly available and scalable web app)](https://console.bluemix.net/docs/tutorials/highly-available-and-scalable-web-application.html)
         
     {: .topicgroup}
     関連リンク
         [コントロール・ポータル](https://control.softlayer.com/)
-        [Maximize Control with IBM Bluemix Virtual servers](https://www.ibm.com/blogs/bluemix/2017/08/maximize-control-ibm-bluemix-virtual-servers/)
+        [Maximize Control with Virtual Servers](https://www.ibm.com/blogs/bluemix/2017/08/maximize-control-ibm-bluemix-virtual-servers/)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     vsi_api.md
         vsi_provision_api.md
+    vsi_activity_tracker_events.md    
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -69,6 +71,7 @@ IBM Cloud 仮想サーバー
     プロビジョニング
         vsi_provision_public.md
         vsi_provision_transient.md
+        vsi_provision_reserved.md
         vsi_dedicated_instances.md
         vsi_provision_dedicated.md
 
@@ -79,6 +82,7 @@ IBM Cloud 仮想サーバー
         vsi_work_image.md
         vsi_ssh_config.md
         configuring-automated-reclaim-notifications.md
+        how-are-server-ip-addresses-assigned-softlayer-network.md
 
     {: .topicgroup}
     サーバーの管理
@@ -149,6 +153,7 @@ IBM Cloud 仮想サーバー
     {: .topicgroup}
     FAQ
         vsi_faqs_vs.md
+        vsi_faqs_reserved.md
         vsi_faqs_dedicated.md
         faq_servers_general.md
         [FAQ: OS 再ロード](../infrastructure/software/os-reload-question-faq.html)

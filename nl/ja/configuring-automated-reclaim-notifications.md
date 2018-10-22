@@ -17,30 +17,30 @@ lastupdated: "2018-05-11"
 {:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
-# 一時仮想サーバーの再利用についての通知の構成 
+# 一時仮想サーバーの再利用についての通知の構成
 
-一時仮想サーバーは、その性質として一時的であり、いつでも終了させることができますが、それが原因でデータが失われることがあります。自動再利用通知がこれを防ぐのに役立ちます。プロビジョン時に、終了が近いという通知を実際の終了の **2 分前**に受け取るように、一時仮想サーバーを構成できます。この通知により、ユーザーは、実行中のすべての処理を終了するように、または、必要なデータを一時仮想サーバーから転送するように、一時仮想サーバーにプログラマチックに警告することができます。
+一時仮想サーバーは、その性質として一時的であり、いつでも終了させることができますが、それが原因でデータが失われることがあります。 自動再利用通知は、消失データの削減に役立ちます。プロビジョン時に、終了が近いという通知を実際の終了の **2 分前**に受け取るように、一時仮想サーバーを構成できます。 この通知により、ユーザーは、実行中のすべての処理を終了するように、または、必要なデータを一時仮想サーバーから転送するように、一時仮想サーバーにプログラマチックに警告することができます。
 
-`reclaim-scheduled` 通知は Web フックです。これは、この通知が HTTP POST 要求によって、ユーザー指定のエンドポイントに送信されることを意味します。この Web フックをセットアップおよび使用するには、以下の手順を実行します。
+`reclaim-scheduled` 通知は Web フックです。これは、この通知が HTTP POST 要求によって、ユーザー指定のエンドポイントに送信されることを意味します。 この Web フックをセットアップおよび使用するには、以下の手順を実行します。
 
-1. 一時仮想サーバー・インスタンスをプロビジョンします
-2. Web フックをセットアップします 
-3. Web フック要求を検証します
+1. 一時仮想サーバー・インスタンスをプロビジョンします。
+2. Web フックをセットアップします。
+3. Web フック要求を確認します。
 
 ## 一時仮想サーバー・インスタンスのプロビジョニング
 
-一時仮想サーバーは、[{{site.data.keyword.slportal_full}} ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](https://control.softlayer.com/){: new_window} または [SLDN API ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](http://sldn.softlayer.com){: new_window} を介してプロビジョンできます。詳しくは、[一時インスタンスのプロビジョニング](/docs/vsi/vsi_provision_transient.html)を参照してください。 
+一時仮想サーバーは、[{{site.data.keyword.slportal_full}} ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](https://control.softlayer.com/){: new_window} または [SLDN API ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](http://sldn.softlayer.com){: new_window} を介してプロビジョンできます。 詳しくは、[一時インスタンスのプロビジョニング](/docs/vsi/vsi_provision_transient.html)を参照してください。
 
 ## Web フックのセットアップ
 
 Web フックをセットアップするには、SLDN API を使用して以下のパラメーターを一時仮想サーバー・インスタンスに割り当てる必要があります。
 
    * **URI** - `reclaim-scheduled` 通知の送信先にする有効な HTTP URI。
-   * **secret** - 要求に署名するためのハッシュ・アルゴリズムの鍵として使用されるストリング。この秘密ストリングは他の人に知られないようにしてください。
-   
-プロビジョンされる一時仮想サーバーごとに Web フックのセットアップが必要です。ただし、URI と secret は固有である必要はありません。
+   * **secret** - 要求に署名するためのハッシュ・アルゴリズムの鍵として使用されるストリング。 secret ストリングは、他の人に知られないようにしてください。
 
-両方のパラメーターが必須です。URI または secret の変更が必要な場合は、新しい情報でメソッドをもう一度呼び出してください。
+プロビジョンされる一時仮想サーバーごとに Web フックのセットアップが必要です。 ただし、URI と secret は固有である必要はありません。
+
+両方のパラメーターが必須です。 URI または secret の変更が必要な場合は、新しい情報でメソッドを再度呼び出してください。
 {: tip}
 
 以下のメソッドを使用して、SLDN API を介して一時仮想サーバー Web フックをセットアップできます。
@@ -59,58 +59,58 @@ Web フックをセットアップするには、SLDN API を使用して以下�
 
 ## Web フック要求の検証
 
-`reclaim-scheduled` 通知を検証するには、以下の項目を検討します。 
+`reclaim-scheduled` 通知を検証するには、以下の項目を検討します。
 
 1. 要求のタイム・スタンプ
 
-   要求を受信した時刻を、要求ヘッダー中のタイム・スタンプに照らしてチェックします。差がおよそ 30 秒を超える場合、要求を受け入れないでください。これは、リプレイ・アタックを防止するのに役立つことがあります。
+   要求を受信した時刻を、要求ヘッダー中のタイム・スタンプに照らしてチェックします。差がおよそ 30 秒を超える場合、要求を受け入れないでください。 このアクションは、リプレイ・アタックを防止するのに役立つことがあります。
 
-2. 要求の "X-IBM-Nonce" ヘッダー内で見つかった nonce
+2. 要求の "「X-IBM-Nonce」" ヘッダー内で見つかった nonce
 
-   これは、要求が送信されるときにランダムに生成されるストリングです。前に受信した nonce を保管して、要求に組み込まれた nonce と比較することを選択できます。要求内の nonce が前に使用されたものである場合、要求を受け入れないでください。これは、リプレイ・アタックを防止するのに役立つことがあります。
+   この値は、要求が送信されるときにランダムに生成されるストリングです。前に受信した nonce を保管して、要求に組み込まれた nonce と比較することを選択できます。 要求内の nonce が前に使用されたものである場合、要求を受け入れないでください。このアクションは、リプレイ・アタックを防止するのに役立つことがあります。
 
 3. 要求の "Authorization" ヘッダーにある HMAC (Hash Message Authentication Code)
 
-   これは、指定された secret ストリングを鍵として使用して HMAC-SHA256 アルゴリズムでハッシュされた後で Base64 にエンコードされたストリングです。ストリングを作成し、ハッシュし、Base64 にエンコードし、次に、その結果を "Authorization" ヘッダー内の署名と比較する必要があります。それらが一致しない場合、要求を受け入れないでください。HMAC 署名の作成について詳しくは、下の説明を参照してください。
+   この値は、指定された secret ストリングを鍵として使用する HMAC-SHA256 アルゴリズムを使用してハッシュされてから、Base64 にエンコードされたストリングです。ストリングを作成し、ハッシュし、Base64 にエンコードし、次に、その結果を "Authorization" ヘッダー内の署名と比較する必要があります。 それらが一致しない場合、要求を受け入れないでください。 HMAC 署名の作成について詳しくは、次のセクションを参照してください。
 
 ### HMAC 署名の比較
 
-要求の "Authorization" ヘッダー内に置かれた HMAC 署名を検証するためには、比較ストリングを作成する必要があります。そのストリングを作成するには、以下の手順を実行します。
+要求の「Authorization」ヘッダーにある HMAC 署名を検証するには、比較ストリングを作成する必要があります。そのストリングを作成するには、以下の手順を実行します。
 
-1. 正準ストリングを作成します。
+1. 正規化されたストリングを作成します。
 
   正準ストリングには、以下のデータが含まれている必要があります。
-  * メソッド・タイプ - 当ケースでは POST (大文字でなければなりません)
+  * メソッド・タイプ - この場合、POST (大文字)
   * コンテンツ・タイプ - "Content-Type" ヘッダー内で見つかります
-  * ペイロード - 要求本文。この例では、JSON ストリングが、ネイティブの連想配列またはディクショナリーにデコードされていると想定しています。  
-  * nonce - "X-IBM-Nonce" ヘッダー内で見つかります
+  * ペイロード - 要求本文。 この例では、JSON ストリングが、ネイティブの連想配列またはディクショナリーにデコードされていると想定しています。  
+  * nonce - "「X-IBM-Nonce」" ヘッダー内で見つかります
 
-  正準ストリングを作成するには、上記のデータを、以下の通りの順序で、区切り文字なしで結合します。
+  正準ストリングを作成するには、正規ストリング・データを、以下の正確な順序で、区切り文字なしで結合します。
 
-  メソッド・タイプ + コンテンツ・タイプ + ペイロード ['id'] + ペイロード ['serviceName'] + ペイロード ['event'] + ペイロード ['timestamp'] + nonce
+  メソッド・タイプ + コンテンツ・タイプ+ ペイロード['id'] + ペイロード['serviceName'] + ペイロード['event'] + ペイロード['time stamp'] + Nonce
 
 2. 正準ストリングをハッシュします。
 
-  一時仮想サーバー Web フックで使用されるハッシュ・アルゴリズムは、HMAC-SHA256 です。 これは鍵を使用するハッシュ・アルゴリズムです。使用される鍵は、Web フックがセットアップされたときに指定された secret です。
+  一時仮想サーバー Web フックで使用されるハッシュ・アルゴリズムは、鍵付きハッシュ・アルゴリズムである HMAC-SHA256 です。 使用される鍵は、Web フックがセットアップされたときに指定された secret です。
 
 3. ハッシュされた正準ストリングを Base64 にエンコードします。
 
 4. 結果のストリングを 'Authorization' ヘッダー内の署名と比較します。  
 
-  タイミング攻撃に対して安全なストリング比較関数を使用してください。ストリングが一致しない場合、要求を受け入れないでください。
+  タイミング攻撃に対して安全なストリング比較関数を使用してください。 ストリングが一致しない場合、要求を受け入れないでください。
 
 ## `reclaim-scheduled` 通知要求ペイロードの構造
 
 一時仮想サーバー Web フックから送信される要求は、ヘッダーとペイロードを含むという点で、任意の HTTP 要求に似ています。ペイロードは、以下の形式の JSON フォーマットのストリングです。
 
-**注:** キー名がこの特定の順序になるという保証はありません。
+**注**: キー名がこの特定の順序になるという保証はありません。
 
 	{
 		'event': 'reclaim-scheduled',
 		'id': <string - that is the ID of the transient guest being reclaimed>,
 		'link': <string - link for an API call to return info about the guest being reaped>,
 		'serviceName': <string - name of the API service class>,
-		'timestamp': <integer - timestamp of when the reclaim was scheduled>
+		'time stamp': <integer - timestamp of when the reclaim was scheduled>
 	}
 
 
@@ -138,20 +138,20 @@ PHP:
 
 ```
 // This assumes that the request headers are stored in an associative array called $headers and that
-// the JSON content of the request has been decoded into an associative array called $payload.
+// the JSON content of the request is decoded into an associative array called $payload.
 
 $secret = 'Your secret key';
 $canonical = 'POST' . $headers['Content-Type'] . $payload['id'] . $payload['serviceName'] . $payload['event']
-	     . payload['timestamp'] . $headers['X-IBM-Nonce'];
+	     . payload['time stamp'] . $headers['X-IBM-Nonce'];
 $signature = base64_encode(hash_hmac('sha256', $canonical, $secret));
-$matchFlag = hash_equals($headers['Authorization'], $signature); 
+$matchFlag = hash_equals($headers['Authorization'], $signature);
 ```
 {: screen}
 
 Node.js:
 
 ```
-// This assumes that the request headers are stored in variables named content_type, nonce, and auth_string.
+// This assumes that the request headers are stored in variables that are named content_type, nonce, and auth_string.
 // This also assumes that the content of the request is a JSON object called payload.
 
 const crypto = require('crypto');
