@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-26"
+lastupdated: "2018-10-08"
 
 
 ---
@@ -23,31 +23,18 @@ lastupdated: "2018-06-26"
 Quand vous mettez hors tension un serveur virtuel prenant en charge la fonction d'interruption de facturation, les coûts relatifs à certaines ressources de traitement ne sont pas décomptés. La facturation s'arrête automatiquement quand le serveur est mis hors tension. La fonction d'interruption de facturation vous permet de réduire les coûts et vous évite d'avoir à remettre à disposition un serveur virtuel quand vous avez à nouveau besoin de ses ressources. L'interruption de facturation n'est prise en charge que sur les nouvelles mises à disposition et non pas sur les instances existantes.
 {:shortdesc}
 
-Pour avoir accès à la fonction d'interruption de facturation, vous devez mettre à disposition la nouvelle instance de serveur virtuel en utilisant l'API {{site.data.keyword.slapi_short}} pour spécifier le package de suspension de facturation. La nouvelle instance de serveur virtuel doit être configurée avec les paramètres suivants :
+Cette fonction est disponible dans les centres de données du monde entier. Pour avoir accès à la fonction d'interruption de facturation, vous devez mettre à disposition la nouvelle instance de serveur virtuel en utilisant l'API {{site.data.keyword.slapi_short}} pour spécifier le package de suspension de facturation. La nouvelle instance de serveur virtuel doit être configurée avec les paramètres suivants :
 
 * SAN horaire
-* L'une des familles suivantes :
+* Versions publiques de l'une des familles suivantes :
   * Balanced
   * Compute
   * Memory
-* L'un des centres de données {{site.data.keyword.cloud}} suivants :
-
-| Centres de données |         |
-| ------------ | ------- | 
-|SEO01         |  WDC01  |
-|SAO01         |  WDC04  |
-|TOK02         |  WDC06  |
-|DAL01         |  WDC07  |
-|DAL05         |  LON02  |
-|DAL06         |  LON04  |
-|DAL09         |  LON06  |
-|DAL10         |  FRA02  |
-|DAL12         |  FRA04  |
-|DAL13         |  FRA05  |
-{: caption="Tableau 1. Centres de données pris en charge" caption-side="top"}
 
 Vous pouvez utiliser la fonction d'interruption de facturation comme une alternative plus rapide à la mise à disposition/hors disposition d'une instance de serveur virtuel.
 {:tip}
+
+**Remarque :** la facturation est uniquement suspendue lorsque vous mettez hors tension votre instance de serveur virtuel via le portail {{site.data.keyword.slportal_full}}, l'interface de ligne de commande ou l'API {{site.data.keyword.slapi_short}}. Si vous mettez hors tension votre instance de serveur virtuel directement à travers le système d'exploitation, la facturation n'est pas suspendue pour cette instance.
 
 ## Mise à disposition
 

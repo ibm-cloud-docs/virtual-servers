@@ -41,7 +41,7 @@ Si vous ne pouvez pas vous connecter à la console KVM, consultez les conseils d
 Si vous avez effectué toutes les vérifications ci-dessus et que vous ne pouvez toujours pas vous connecter à la console KVM, contactez le support afin de résoudre ce problème. Si une connexion à la console a été établie mais que des problèmes surviennent lors de la connexion au terminal, vérifiez que les données d'identification utilisées lors de l'accès au terminal sont valides. Si nécessaire, contactez l'administrateur de compte pour vérifier ces données.
 
 ## J'ai perdu le mot de passe d'accès au serveur. Comment puis-je le récupérer ?
-Si le mot de passe root ou de l'administrateur permettant d'accéder au serveur ne fonctionne plus, vous pouvez effectuer certaines vérifications avant de contacter l'équipe de support.
+Si le mot de passe d'administrateur ou de superutilisateur permettant d'accéder à votre serveur ne fonctionne plus, vérifiez les éléments suivants. Si nécessaire, consultez les instructions pour lancer un noyau de secours et réinitialisez votre mot de passe.
 
    * Avez-vous copié et collé le mot de passe ? Si la réponse est négative, effectuez cette action. Collez également le mot de passe dans un bloc-notes afin de vous assurer qu'aucun espace n'a été accidentellement copié avec le mot de passe.
    * Si le serveur inclut cPanel, est-il possible que cPHulk ait bloqué votre adresse IP en raison d'échecs de connexion ? Le cas échéant, vous pouvez accéder au serveur en utilisant la machine KVM ou IPMI et placer votre adresse IP sur liste blanche dans cPHulk en indiquant "/scripts/cphulkdwhitelist" suivi de votre adresse IP.

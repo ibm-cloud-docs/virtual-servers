@@ -17,7 +17,10 @@ lastupdated: "2017-10-24"
 {:table: .aria-labeledby="caption"}
 
 # Serveurs virtuels publics
-Les offres des serveurs {{site.data.keyword.BluVirtServers}} publics sont des déploiements de serveur virtuel à service partagé gérés par IBM. Elles offrent une évolutivité rapide et une meilleure rentabilité avec des tailles prédéfinies répondant à vos besoins métier pour que vous soyez opérationnel rapidement.  Les serveurs virtuels publics présentent un grand nombre d'avantages, notamment les suivants :
+Les offres des serveurs {{site.data.keyword.BluVirtServers}} publics sont des déploiements de serveur virtuel à service partagé gérés par IBM. Elles offrent une évolutivité rapide et une meilleure rentabilité avec des tailles prédéfinies répondant à vos besoins métier pour que vous soyez opérationnel rapidement.  
+{:shortdesc}
+
+Les serveurs virtuels publics présentent un grand nombre d'avantages, notamment les suivants :
 
 * **Disponibilité globale** 
 
@@ -27,8 +30,7 @@ Les offres des serveurs {{site.data.keyword.BluVirtServers}} publics sont des d�
 
     L'offre de serveur virtuel public propose des options de serveur virtuel de grande ou petite taille permettant de répondre à vos différentes exigences de charge de travail.
 
-**Remarque :** Si vous cherchez un environnement à usage exclusif, nous vous recommandons l'offre de [serveur virtuel dédié](../vsi/vsi_dedicated.html).
-{:shortdesc}
+Le trafic réseau pour les serveurs virtuels publics, qui englobe le VSI SAN et d'autres systèmes de stockage en réseau, n'offre pas de garantie. Si le trafic réseau d'une instance de serveur virtuel commence à avoir un impact négatif significatif sur d'autres serveurs virtuels, cette instance peut être redémarrée sur un nouvel hôte ou, dans des cas extrêmes, complètement désactivée. Cet impact négatif est souvent observé lorsque les niveaux de trafic approchent les 20 000 à 30 000 paquets par seconde (PPS). Pour une mise en réseau garantie, l'utilisation de l'offre Serveur Virtuel Dédié est recommandée. Pour plus d'informations, voir l'offre [Serveur virtuel dédié](../vsi/vsi_dedicated.html) pour les environnements à service exclusif.
 
 Les instances publiques se trouvent sur un hyperviseur partagé avec d'autres clients. Toutefois, les processeurs et la mémoire sont dédiés au serveur virtuel, ce qui rend les performances du serveur plus fiables. 
 

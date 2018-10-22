@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-27"
+lastupdated: "2018-06-29"
 
 
 ---
@@ -20,15 +20,15 @@ lastupdated: "2018-04-27"
 # Serveurs virtuels transitoires
 L'offre de serveurs {{site.data.keyword.BluVirtServers}} transitoires est une bonne option si vos charges de travail sont flexibles et si vous souhaitez réaliser des économies. Vous économiserez de l'argent en exécutant votre charge de travail sur un serveur virtuel transitoire. Des instances transitoires sont fournies lorsque des capacités inutilisées sont disponibles. Par conséquent, lorsque des ressources du centre de données sont requises pour des comptes à la demande qui sont complets, vous pouvez également perdre ces ressources. Les instances transitoires sont retirées (sur la base du premier activé, premier désactivé) lorsque ces ressources ont besoin d'être récupérées.   
 
-Les serveurs virtuels transitoires sont idéaux pour les charges de travail non associées à un environnement de production. Par exemple, vous pouvez utiliser une instance transitoire pour tester et développer des applications ou pour tester la mise à l'échelle dans des environnements qui ne nécessitent pas une disponibilité constante.
+Les serveurs virtuels transitoires offrent la flexibilité suivante :
 
-## Configuration requise
-Pour tirer profit des instances transitoires, votre mise à disposition doit utiliser les sélections suivantes pour le serveur virtuel public :
-* Transitoire
-* Emplacement de votre hôte. Vous pouvez effectuer une sélection parmi les centres de données suivants :
-    * MEX01 
-    * SEO01
-    * PAR01
+* **Disponibilité globale** 
+
+    L'offre de serveur virtuel transitoire est disponible dans les centres de données du monde entier. 
+    
+* **Economies de coûts** 
+
+    Les serveurs virtuels transitoires sont idéaux pour les charges de travail non associées à un environnement de production. Par exemple, vous pouvez utiliser une instance transitoire pour tester et développer des applications ou pour tester la mise à l'échelle dans des environnements qui ne nécessitent pas une disponibilité constante.
 
 Les instances transitoires sont des instances publiques qui utilisent un stockage SAN.
 

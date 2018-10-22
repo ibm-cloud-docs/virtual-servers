@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-28"
+lastupdated: "2018-10-05"
 
 
 ---
@@ -14,11 +14,15 @@ lastupdated: "2018-02-28"
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
-# Serveurs virtuels - Initiation
+# Tutoriel d'initiation
 Vous pouvez déployer les serveurs {{site.data.keyword.BluVirtServers}} en quelques minutes seulement. Les serveurs virtuels sont déployés à partir des images de serveur virtuel de votre choix et dans la zone géographique adaptée à vos charges de travail.
 {:shortdesc}
+
+Essayez nos serveurs virtuels sur un cloud privé virtuel ! Pour plus d'informations, voir [IBM Cloud Virtual Servers for VPC](../../docs/vsi-is/getting-started.html#gettingstartedvsigen).
+{:tip}
 
 Lorsque vous créez un serveur virtuel, vous pouvez choisir entre un environnement public (à service partagé) ou un environnement dédié (à service exclusif). Ensuite, suivant l'environnement choisi, vous devez également sélectionner des serveurs virtuels horaires, mensuels ou transitoires. Dans le cas des serveurs virtuels publics, vous choisissez également d'utiliser un dispositif de stockage SAN ou une mémoire locale.
 
@@ -33,6 +37,7 @@ Avant de commencer, passez en revue les conditions requises présentées ci-dess
 | --------------------------------------------------------- | --------------------------------------------------- |
 |[Serveur virtuel public](../vsi/vsi_public.html)            | Déploiements de serveurs virtuels à service partagé géré par IBM|
 |[Serveur virtuel transitoire](../vsi/vsi_about_transient.html)| Déploiements de serveurs virtuels à service partagé géré par IBM offerts à un coût réduit et idéaux pour les charges de travail flexibles |
+|[Serveur virtuel réservé](../vsi/vsi_about_reserved.html)  | Déploiements de serveurs virtuels à service partagé géré par IBM avec capacité garantie pendant la durée du contrat |
 |[Serveur virtuel dédié](../vsi/vsi_dedicated.html)      | Déploiements de serveurs virtuels à service exclusif géré par IBM            |
 {: caption="Tableau 1. Options de déploiement" caption-side="top"}   
 
@@ -44,6 +49,7 @@ Une fois que vous avez choisi une option de déploiement, commencez le processus
 | -------------------------------------------------------------------------- | ------------------------------------------------------- |
 |[Mise à disposition d'instances publiques](../vsi/vsi_provision_public.html)                | Mise à disposition d'instances publiques avec plusieurs options             |
 |[Mise à disposition d'instances transitoires](../vsi/vsi_provision_transient.html)                | Mise à disposition d'instances transitoires avec plusieurs options            |
+|[Mise à disposition de capacité et d'instances réservées](../vsi/vsi_provision_reserved.html)            |Mise à disposition de capacité et d'instances réservées avec plusieurs options |
 |[Mise à disposition d'instances et d'hôtes dédiés](../vsi/vsi_provision_dedicated.html)| Mise à disposition d'instances privées ou d'instances dédiées sur des hôtes dédiés.|
 {: caption="Tableau 2. Informations de mise à disposition" caption-side="top"}
 
