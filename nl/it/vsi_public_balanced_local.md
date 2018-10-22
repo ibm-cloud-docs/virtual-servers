@@ -34,7 +34,7 @@ L'offerta è disponibile in varie caratteristiche e data center, con le seguenti
 <th>vCPU</th>
 <th>RAM</th>
 <th>Dischi secondari<sup>(*)</sup></th>
-<th>Tipo di memoria</th>
+<th>Tipo di archiviazione</th>
 </TR>
 </THEAD>
 <TBODY>
@@ -154,7 +154,7 @@ Tutti i sistemi operativi supportati (come RHEL, CentOS, Windows, Ubuntu e altri
 <th>vCPU</th>
 <th>RAM</th>
 <th>Dischi secondari<sup>(*)</sup></th>
-<th>Tipo di memoria</th>
+<th>Tipo di archiviazione</th>
 </TR>
 </THEAD>
 <TBODY>

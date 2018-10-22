@@ -1,13 +1,13 @@
 ---
 copyright:
-  years: 2014, 2017
-lastupdated: "2017-12-21"
+  years: 2014, 2018
+lastupdated: "2018-04-27"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Gestione di uno script di provisioning 
+# Gestione di uno script di provisioning
 
 Utilizza gli script di provisioning per specificare un URL di uno script da eseguire su un dispositivo di cui è appena stato eseguito il provisioning. Non hai limitazioni per il nome dello script; tuttavia, l'utilizzo di una convezione di denominazione simile per ogni script rende più facile l'identificazione. Gli script di provisioning devono essere associati a un nome del dominio completo e accessibili utilizzando i protocolli HTTP e HTTPS. Il tipo di protocollo utilizzato influenza la risposta automatizzata del sistema quando viene scaricato lo script di provisioning sul dispositivo.
 

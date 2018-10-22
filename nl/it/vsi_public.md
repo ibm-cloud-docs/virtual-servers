@@ -17,7 +17,10 @@ lastupdated: "2017-10-24"
 {:table: .aria-labeledby="caption"}
 
 # Server virtuali pubblici
-Le offerte {{site.data.keyword.BluVirtServers}} pubbliche sono gestite da IBM, con distribuzioni del server virtuali a più tenant. Ti forniscono scalabilità veloce e prezzi più adeguati con dimensioni predefinite che soddisfano tutti i requisiti di business per operativi velocemente.  I server virtuali pubblici hanno molti vantaggi, inclusi i seguenti:
+Le offerte {{site.data.keyword.BluVirtServers}} pubbliche sono gestite da IBM, con distribuzioni del server virtuali a più tenant. Ti forniscono scalabilità veloce e prezzi più adeguati con dimensioni predefinite che soddisfano tutti i requisiti di business per operativi velocemente.  
+{:shortdesc}
+
+I server virtuali pubblici hanno molti vantaggi, inclusi i seguenti:
 
 * **Disponibilità globale** 
 
@@ -27,8 +30,7 @@ Le offerte {{site.data.keyword.BluVirtServers}} pubbliche sono gestite da IBM, c
 
     L'offerta server virtuale pubblico ti fornisce opzioni di server virtuali piccoli o grandi per soddisfare vari requisiti del carico di lavoro.
 
-**Nota:** se stai cercando un ambiente a singolo tenant, considera l'offerta [Server virtuale dedicato](../vsi/vsi_dedicated.html).
-{:shortdesc}
+Il traffico di rete per i server virtuali pubblici, che include la SAN VSI e altre archiviazioni collegate alla rete, non ha alcuna garanzia. Se il traffico di rete di un'istanza del server virtuale inizia ad avere un impatto significativo e negativo su altri server virtuali, tale istanza potrebbe venire riavviata su un nuovo host, o in casi estremi, completamente disabilitata. Questo impatto negativo viene spesso rilevato quando i livelli di traffico si avvicinano a 20.000-30.000 pacchetti al secondo (PPS).  Per garantire la rete, si consiglia l'utilizzo dell'offerta Virtual Server dedicato. Per ulteriori informazioni, consulta l'ambiente a singolo tenant, l'offerta [Server virtuale dedicato](../vsi/vsi_dedicated.html).
 
 Le istanze pubbliche si trovano su un hypervisor condiviso con altri client; tuttavia, i processori e la memoria sono dedicati al server virtuale, rendendo le prestazioni del server affidabili. 
 

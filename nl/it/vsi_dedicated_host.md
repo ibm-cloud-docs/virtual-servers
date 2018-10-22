@@ -19,7 +19,8 @@ lastupdated: "2018-04-10"
 
 # Istanze e host dedicati 
 
-Gli host dedicati sono server virtuali che ti consentono di specificare il data center e il POD in cui desideri sia posizionato l'host. In seguito assegna le istanze o le macchine virtuali a un host specifico per il massimo controllo sul posizionamento del carico di lavoro e sulle opzioni di provisioning del costo flessibile. {:shortdesc}
+Gli host dedicati sono server virtuali che ti consentono di specificare il data center e il POD in cui desideri sia posizionato l'host. In seguito assegna le istanze o le macchine virtuali a un host specifico per il massimo controllo sul posizionamento del carico di lavoro e sulle opzioni di provisioning del costo flessibile.
+{:shortdesc}
 
 ## Capacità garantita
 Disponi di capacità garantita nel data center e POD in cui hai posizionato il tuo host. Ad esempio, se il POD che contiene i tuoi host e istanze dedicati raggiunge la capacità, puoi continuare ad assegnare le istanze dedicate al tuo host se dispone di spazio appropriato.

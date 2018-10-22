@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-26"
+lastupdated: "2018-10-08"
 
 
 ---
@@ -23,31 +23,18 @@ lastupdated: "2018-06-26"
 Quando spegni un server virtuale che supporta la funzione di sospensione della fatturazione, non accumuli costi per alcune risorse di calcolo. La fatturazione si arresta automaticamente quando il server viene spento. La funzione di sospensione della fatturazione ti aiuta a ridurre i costi e a prevenire un reprovisioning di un server virtuale quando ti servono nuovamente le risorse. La sospensione della fatturazione è supportata solo per i nuovi provisioning delle istanze, non per le esistenti.
 {:shortdesc}
 
-Per accedere alla funzione di sospensione della fatturazione, devi eseguire il provisioning di una nuova istanza del server virtuale utilizzando {{site.data.keyword.slapi_short}} per specificare il pacchetto di sospensione della fatturazione. La nuova istanza del server virtuale deve essere configurata con le seguenti impostazioni:
+Questa funzione è disponibile nei data center di tutto il mondo. Per accedere alla funzione di sospensione della fatturazione, devi eseguire il provisioning di una nuova istanza del server virtuale utilizzando {{site.data.keyword.slapi_short}} per specificare il pacchetto di sospensione della fatturazione. La nuova istanza del server virtuale deve essere configurata con le seguenti impostazioni:
 
 * SAN orario
-* Una delle seguenti famiglie:
+* Caratteristiche pubbliche di una delle seguenti famiglie:
   * Bilanciato
   * Calcolo
   * Memoria
-* Uno dei seguenti data center {{site.data.keyword.cloud}}:
-
-| Data Center |         |
-| ------------ | ------- | 
-|SEO01         |  WDC01  |
-|SAO01         |  WDC04  |
-|TOK02         |  WDC06  |
-|DAL01         |  WDC07  |
-|DAL05         |  LON02  |
-|DAL06         |  LON04  |
-|DAL09         |  LON06  |
-|DAL10         |  FRA02  |
-|DAL12         |  FRA04  |
-|DAL13         |  FRA05  |
-{: caption="Tabella 1. Data center supportati" caption-side="top"}
 
 Puoi utilizzare la funzione di sospensione della fatturazione come un'alternativa più veloce al provisioning e all'annullamento del provisioning di un'istanza del server virtuale.
 {:tip}
+
+**Nota:** la fatturazione viene sospesa solo quando disattivi la tua istanza del server virtuale tramite {{site.data.keyword.slportal_full}}, la CLI o {{site.data.keyword.slapi_short}}. Se disattivi l'istanza del server virtuale direttamente attraverso il SO, la fatturazione non viene sospesa per quella istanza.
 
 ## Provisioning
 
@@ -89,7 +76,7 @@ Operating system usage...
 
 ### Archiviazione
 
-Quando sospendi la fatturazione su un'istanza del server virtuale, l'archiviazione associata rimane, ma non puoi accedere ai dati mentre l'istanza del server virtuale è spenta. Quando riprendi la fatturazione sull'istanza, puoi accedere ai tuoi dati e riinizia la normale fatturazione.
+Quando sospendi la fatturazione su un server virtuale, l'archiviazione associata rimane, ma non puoi accedere ai dati mentre l'istanza del server virtuale è disattivata. Quando riprendi la fatturazione sull'istanza, puoi accedere ai tuoi dati e riinizia la normale fatturazione.
 
 ### Indirizzi IP
 

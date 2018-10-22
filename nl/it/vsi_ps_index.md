@@ -7,7 +7,7 @@ lastupdated: "2018-02-20"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Script di provisioning 
+# Script di provisioning
 
 Uno script di provisioning è uno script che può essere scaricato o scaricato ed eseguito, su un dispositivo durante il processo di provisioning. Per gli account esistenti, gli script di provisioning sono gestiti in {{site.data.keyword.slportal_full}}. Durante il processo di ordine, puoi immettere manualmente gli script per i nuovi account o quelli che ancora non sono stati tracciati.
 

@@ -28,7 +28,7 @@ L'offerta è disponibile nelle seguenti caratteristiche:
 <th>Caratteristica</th>
 <th>vCPU</th>
 <th>RAM</th>
-<th>Tipo di memoria</th>
+<th>Tipo di archiviazione</th>
 </TR>
 </THEAD>
 <TBODY>
