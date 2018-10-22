@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="virtual-servers" audience="compute" href=“/docs/vsi/index.html”}
+{: .toc subcollection="virtual-servers" audience="compute" arm="407" href=“/docs/vsi/index.html”}
 IBM Cloud Virtual Servers 
 
     {: .navgroup id="learn"}
@@ -19,6 +19,7 @@ IBM Cloud Virtual Servers
             vsi_public_gpu.md
             vsi_public_selections.md
         vsi_about_transient.md
+        vsi_about_reserved.md
         vsi_dedicated.md
             vsi_dedicated_host.md
             vsi_dedicated_pricing.md
@@ -50,18 +51,19 @@ IBM Cloud Virtual Servers
     
     {: .topicgroup}
     튜토리얼
-        [LAMP 스택의 PHP 웹 애플리케이션](../tutorials/lamp-stack.html)
-        [가상 서버를 사용하여 고가용성 및 확장 가능 웹 앱 빌드](../tutorials/highly-available-and-scalable-web-application.html)
+        [PHP web application on a LAMP Stack](https://console.bluemix.net/docs/tutorials/lamp-stack.html)
+        [Use Virtual Servers to build highly available and scalable web app](https://console.bluemix.net/docs/tutorials/highly-available-and-scalable-web-application.html)
         
     {: .topicgroup}
     관련 링크
         [Control Portal](https://control.softlayer.com/)
-        [IBM Bluemix Virtual Servers를 사용한 제어 능력 극대화](https://www.ibm.com/blogs/bluemix/2017/08/maximize-control-ibm-bluemix-virtual-servers/)
+        [Virtual Server를 사용하여 제어 최대화](https://www.ibm.com/blogs/bluemix/2017/08/maximize-control-ibm-bluemix-virtual-servers/)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     vsi_api.md
         vsi_provision_api.md
+    vsi_activity_tracker_events.md    
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -69,6 +71,7 @@ IBM Cloud Virtual Servers
     프로비저닝
         vsi_provision_public.md
         vsi_provision_transient.md
+        vsi_provision_reserved.md
         vsi_dedicated_instances.md
         vsi_provision_dedicated.md
 
@@ -79,6 +82,7 @@ IBM Cloud Virtual Servers
         vsi_work_image.md
         vsi_ssh_config.md
         configuring-automated-reclaim-notifications.md
+        how-are-server-ip-addresses-assigned-softlayer-network.md
 
     {: .topicgroup}
     서버 관리
@@ -149,6 +153,7 @@ IBM Cloud Virtual Servers
     {: .topicgroup}
     FAQ
         vsi_faqs_vs.md
+        vsi_faqs_reserved.md
         vsi_faqs_dedicated.md
         faq_servers_general.md
         [FAQ: OS 다시 로드](../infrastructure/software/os-reload-question-faq.html)

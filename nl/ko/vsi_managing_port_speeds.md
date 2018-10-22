@@ -23,7 +23,7 @@ lastupdated: "2017-12-13"
 
 다음 단계를 완료하여 포트 속도를 업데이트하십시오.
 
-1. 고유 신임 정보를 사용하여 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}에 액세스하십시오.
+1. 고유 인증 정보를 사용하여 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}에 액세스하십시오.
 2. **디바이스 > 디바이스 목록**을 선택하십시오.
 3. 업데이트하려는 서버를 선택하십시오.
 4. **구성** 탭에서 **네트워크**로 이동하십시오.

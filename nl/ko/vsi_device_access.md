@@ -40,7 +40,7 @@ lastupdated: "2018-05-17"
 ## 가상 서버 인스턴스를 볼 수 있는 권한 추가
 하위 사용자에게 *가상 서버 세부사항 보기* 권한을 추가하려면 다음 단계를 사용하십시오. 계정의 관리자만 계정의 다른 사용자에게 권한을 부여할 수 있습니다.  
 
-1. 고유 신임 정보를 사용하여 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}에 액세스하십시오.
+1. 고유 인증 정보를 사용하여 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}에 액세스하십시오.
 2. 탐색줄에서 **계정 > 사용자**를 선택하여 사용자 화면에 액세스하십시오.
 3. 관련 사용자 이름을 클릭하여 사용자 프로파일에 액세스하십시오.
 4. **포털 권한** 아이콘을 클릭하여 포털 권한 화면에 액세스하십시오.
@@ -59,7 +59,7 @@ lastupdated: "2018-05-17"
 ## 전용 호스트를 볼 수 있는 권한 추가
 하위 사용자에게 *가상 전용 호스트 세부사항 보기* 권한을 추가하려면 다음 단계를 사용하십시오. 계정의 관리자만 계정의 다른 사용자에게 권한을 부여할 수 있습니다.
 
-1. 고유 신임 정보를 사용하여 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}에 액세스하십시오.
+1. 고유 인증 정보를 사용하여 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}에 액세스하십시오.
 2. 탐색줄에서 **계정 > 사용자**를 선택하여 사용자 화면에 액세스하십시오.
 3. 관련 사용자 이름을 클릭하여 사용자 프로파일에 액세스하십시오.
 4. **포털 권한** 아이콘을 클릭하여 포털 권한 화면에 액세스하십시오.

@@ -28,14 +28,14 @@ lastupdated: "2017-12-12"
 다음 명령을 실행하여 연결의 현재 속도를 확인할 수 있습니다.
 
     ```
-        # ethtool eth#   (eth1 for public, eth0 for private)
+    # ethtool eth#   (eth1 for public, eth0 for private)
     ```
     {: pre}
 
 해당 연결에 대한 현재 구성이 출력으로 표시됩니다.
 
     ```
-        root@noc-training-linux [~]# ethtool eth1
+    root@noc-training-linux [~]# ethtool eth1
     ```
     {: screen}
 

@@ -22,8 +22,8 @@ lastupdated: "2018-02-02"
 ## 사용 가능한 가상 서버 유형에는 어떤 것이 있습니까?
 {{site.data.keyword.BluSoftlayer_full}}에서는 여러 유형의 가상 서버를 제공합니다. 표준 오퍼링은 공용 기반 가상 서버로, 이는 다양한 요구사항에 적합한 멀티 테넌트 환경입니다. 싱글 테넌트 환경을 찾고 있는 경우에는 전용 Virtual Server 오퍼링을 고려하십시오. 전용 가상 서버 옵션은 리소스 요구사항이 더 엄격한 애플리케이션에 적합합니다. 현재 가상 서버 오퍼링에 대한 자세한 정보는 [가상 서버 시작하기](../vsi/vsi_index.html)를 참조하십시오.
 
-## 공용 인스턴스 유형에 대한 가격 책정 정보는 어디에서 찾을 수 있습니까?
-가격 책정 정보는 [가상 서버 빌드 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/cloud-computing/bluemix/virtual-servers){: new_window}를 참조하십시오.
+## 공용 인스턴스 유형에 대한 가격 정보는 어디에서 찾을 수 있습니까?
+가격 정보는 [가상 서버 빌드 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/cloud-computing/bluemix/virtual-servers){: new_window}를 참조하십시오.
 
 ## 내 시간별 또는 월별 Virtual Server에 디스크 스토리지를 추가할 수 있습니까?
 업데이트할 디바이스의 *구성* 화면에서 *첫 번째 디스크*부터 *다섯 번째 디스크* 필드까지 스토리지 옵션을 업데이트하여 가상 서버의 디스크 스토리지를 업그레이드하거나 다운그레이드할 수 있습니다. 자세한 정보는 [기존 가상 서버 다시 구성](../vsi/vsi_reconfigure.html)을 참조하십시오.

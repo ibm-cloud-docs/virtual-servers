@@ -19,7 +19,7 @@ lastupdated: "2017-10-24"
 # 전용 호스트 및 인스턴스 프로비저닝
 {: #ordering-vs-dedicated}
 
-전용 인스턴스를 프로비저닝하는 방법에는 두 가지 옵션이 있습니다. 첫 번째는 {{site.data.keyword.Bluemix}} 카탈로그를 통한 방법이며 두 번째는 {{site.data.keyword.slportal_full}}을 통합 방법입니다. 카탈로그 및 {{site.data.keyword.slportal}}은 고유 로그인 ID를 필요로 합니다. 카탈로그 사용자 이름 및 비밀번호로는 포털에 로그인할 수 없으며 그 반대 또한 마찬가지입니다. {{site.data.keyword.Bluemix_notm}} 카탈로그 또는 {{site.data.keyword.slportal}} 신임 정보를 설정하려면 [{{site.data.keyword.Bluemix_notm}}에 등록](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window}을 참조하십시오.
+전용 인스턴스를 프로비저닝하는 방법에는 두 가지 옵션이 있습니다. 첫 번째는 {{site.data.keyword.Bluemix}} 카탈로그를 통한 방법이며 두 번째는 {{site.data.keyword.slportal_full}}을 통합 방법입니다. 카탈로그 및 {{site.data.keyword.slportal}}은 고유 로그인 ID를 필요로 합니다. 카탈로그 사용자 이름 및 비밀번호로는 포털에 로그인할 수 없으며 그 반대 또한 마찬가지입니다. {{site.data.keyword.Bluemix_notm}} 카탈로그 또는 {{site.data.keyword.slportal}} 인증 정보를 설정하려면 [{{site.data.keyword.Bluemix_notm}}에 등록](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window}을 참조하십시오.
 {:shortdesc}
 
 ## IBM Cloud 카탈로그에 로그인
@@ -29,14 +29,14 @@ lastupdated: "2017-10-24"
 2.	**로그인** 링크(오른쪽 상단에 있음)를 클릭하십시오. 
 3.	이메일 또는 IBM ID를 입력하고 **계속**을 클릭하십시오.
 4.	비밀번호를 입력하고 **로그인**을 클릭하십시오.
-5.	**인프라 > 계산**을 선택하십시오.
+5.	**인프라 > 컴퓨팅**을 선택하십시오.
 6.  **Virtual Server** 타일을 클릭하십시오.
 7.	**전용 Virtual Server** 옵션을 선택하십시오.
 8.  **작성**을 클릭하십시오. 
 
 {{site.data.keyword.slportal}}의 기본 페이지로 이동됩니다.
 
-## Customer Portal에 로그인
+## 고객 포털에 로그인
 {{site.data.keyword.slportal}}에 로그인하여 전용 호스트 및 전용 호스트 인스턴스 주문을 시작하려면 다음 단계를 사용하십시오.
 
 1.	새 브라우저 창을 열고 [https://control.softlayer.com](https://control.softlayer.com){: new_window}을 입력하십시오. 
@@ -238,7 +238,7 @@ lastupdated: "2017-10-24"
     </TBODY>
     </table>
 
-8.  **클라우드 서비스 이용 약관** 및 **써드파티 서비스 계약** 선택란을 클릭하십시오.
+8.  **클라우드 서비스 이용 약관** 및 **서드파티 서비스 계약** 선택란을 클릭하십시오.
 9. 지불 정보를 확인하거나 입력하고 **제출** 단추를 클릭하십시오. 사용자의 프로비저닝 주문 번호가 있는 화면으로 이동됩니다. 이는 프로비저닝 주문 영수증이기도 하므로 사용자는 이 화면을 인쇄할 수 있습니다.
 
 

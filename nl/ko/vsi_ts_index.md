@@ -31,7 +31,7 @@ lastupdated: "2018-02-28"
 # 도움 및 지원 받기 
 {: #gettinghelp}
 
-{{site.data.keyword.BluVirtServers}} 사용과 관련된 문제점 또는 질문이 있는 경우, 정보를 검색하거나 아래 나열된 포럼에 질문하여 도움을 받을 수 있습니다. [Customer Portal![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/)에서도 지원 티켓을 열 수 있습니다.
+{{site.data.keyword.BluVirtServers}} 사용과 관련된 문제점 또는 질문이 있는 경우, 정보를 검색하거나 아래 나열된 포럼에 질문하여 도움을 받을 수 있습니다. [고객 포털![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/)에서도 지원 티켓을 열 수 있습니다.
 {:shortdesc}
 
 포럼을 통해 질문하는 경우 {{site.data.keyword.Bluemix}} 개발 팀이 볼 수 있도록 질문에 태그를 지정하십시오.
