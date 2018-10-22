@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="virtual-servers" audience="compute" href=“/docs/vsi/index.html”}
+{: .toc subcollection="virtual-servers" audience="compute" arm="407" href=“/docs/vsi/index.html”}
 IBM Cloud Virtual Servers 
 
     {: .navgroup id="learn"}
@@ -19,6 +19,7 @@ IBM Cloud Virtual Servers
             vsi_public_gpu.md
             vsi_public_selections.md
         vsi_about_transient.md
+        vsi_about_reserved.md
         vsi_dedicated.md
             vsi_dedicated_host.md
             vsi_dedicated_pricing.md
@@ -50,8 +51,8 @@ IBM Cloud Virtual Servers
     
     {: .topicgroup}
     教程
-        [LAMP 堆栈上的 PHP Web 应用程序](../tutorials/lamp-stack.html)
-        [使用虚拟服务器来构建高可用性和可扩展 Web 应用程序](../tutorials/highly-available-and-scalable-web-application.html)
+        [LAMP 堆栈上的 PHP Web 应用程序](https://console.bluemix.net/docs/tutorials/lamp-stack.html)
+        [使用虚拟服务器来构建高可用性和可扩展 Web 应用程序](https://console.bluemix.net/docs/tutorials/highly-available-and-scalable-web-application.html)
         
     {: .topicgroup}
     相关链接
@@ -62,6 +63,7 @@ IBM Cloud Virtual Servers
     {: .navgroup id="reference"}
     vsi_api.md
         vsi_provision_api.md
+    vsi_activity_tracker_events.md    
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -69,6 +71,7 @@ IBM Cloud Virtual Servers
     供应
         vsi_provision_public.md
         vsi_provision_transient.md
+        vsi_provision_reserved.md
         vsi_dedicated_instances.md
         vsi_provision_dedicated.md
 
@@ -79,6 +82,7 @@ IBM Cloud Virtual Servers
         vsi_work_image.md
         vsi_ssh_config.md
         configuring-automated-reclaim-notifications.md
+        how-are-server-ip-addresses-assigned-softlayer-network.md
 
     {: .topicgroup}
     管理服务器
@@ -149,6 +153,7 @@ IBM Cloud Virtual Servers
     {: .topicgroup}
     常见问题
         vsi_faqs_vs.md
+        vsi_faqs_reserved.md
         vsi_faqs_dedicated.md
         faq_servers_general.md
         [常见问题：操作系统重装](../infrastructure/software/os-reload-question-faq.html)

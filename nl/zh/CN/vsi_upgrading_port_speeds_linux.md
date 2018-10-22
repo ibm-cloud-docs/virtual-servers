@@ -28,14 +28,14 @@ lastupdated: "2017-12-12"
 可以通过运行以下命令来检查连接的当前速度：
 
     ```
-        # ethtool eth#   （eth1 表示公用，eth0 表示专用）
+    # ethtool eth#   （eth1 表示公用，eth0 表示专用）
     ```
     {: pre}
 
 输出将显示该连接的当前配置：
 
     ```
-        root@noc-training-linux [~]# ethtool eth1
+    root@noc-training-linux [~]# ethtool eth1
     ```
     {: screen}
 
