@@ -41,7 +41,7 @@ Si no puede conectar con la consola de KVM, revise los consejos siguientes sobre
 Si ha completado todas las comprobaciones anteriores y sigue sin poder conectar con la consola de KVM, póngase en contacto con el equipo de soporte para obtener ayuda adicional para solucionar el problema. Si se ha establecido una conexión con la consola pero hay problemas al conectar con el dispositivo, asegúrese de que las credenciales utilizadas para acceder al dispositivo son válidos. Póngase en contacto con el administrador de la cuenta para verificar las credenciales, si es necesario.
 
 ## He perdido la contraseña para el servidor. ¿Cómo puedo recuperarla?
-Si la contraseña del usuario root o del administrador deja de funcionar, hay varias cosas que puede comprobar antes de ponerse en contacto con el equipo de soporte.
+Si la contraseña del usuario root o del administrador de repente deja de funcionar, compruebe lo siguiente. Si es necesario, siga las instrucciones para iniciar un kernel de rescate y restablecer la contraseña.
 
    * ¿Está copiando y pegando la contraseña? Si no es así, inténtelo. Pegue también la contraseña en un bloc de notas para asegurarse de que no se copian espacios accidentalmente con la contraseña.
    * Si el servidor contiene cPanel, ¿es posible que cPHulk haya bloqueado la dirección IP debido a inicios de sesión fallidos? Si es así, puede acceder al servidor utilizando KVM o IPMI y colocar la dirección IP en la lista blanca en cPHulk con "/scripts/cphulkdwhitelist" seguido de la dirección IP.
@@ -74,7 +74,7 @@ LVM (Logical Volume Management) proporciona funciones de gestión lógica de sis
    <tr>
    <td>Windows 2003 Standard y Enterprise</td>
    <td>
-   Añada la ruta permanente desde la línea de mandatos escribiendo lo siguiente:
+   Añada la ruta persistente desde la línea de mandatos escribiendo lo siguiente:
    <blockquote>route add 161.26.0.0 mask 255.255.0.0 10.0.0.1 -p</blockquote>
    <b>Nota:</b> Sustituya 10.0.0.1 por la dirección IP de su pasarela privada.
    </td>
@@ -83,7 +83,7 @@ LVM (Logical Volume Management) proporciona funciones de gestión lógica de sis
    <td>Windows 2008 Server Core
    </td>
    <td>
-   Añada la ruta permanente desde la línea de mandatos escribiendo lo siguiente:
+   Añada la ruta persistente desde la línea de mandatos escribiendo lo siguiente:
    <blockquote>
    route add 161.26.0.0 mask 255.255.0.0 10.0.0.1 -p
    </blockquote>
@@ -93,7 +93,7 @@ LVM (Logical Volume Management) proporciona funciones de gestión lógica de sis
    <tr>
    <td>Windows 2008 Web, Standard, Enterprise y Datacenter</td>
    <td>
-   Añada la ruta permanente desde la línea de mandatos escribiendo lo siguiente:
+   Añada la ruta persistente desde la línea de mandatos escribiendo lo siguiente:
    <blockquote>
    route add 161.26.0.0 mask 255.255.0.0 10.0.0.1 -p
    </blockquote>

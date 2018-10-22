@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-26"
+lastupdated: "2018-10-08"
 
 
 ---
@@ -23,31 +23,18 @@ lastupdated: "2018-06-26"
 Cuando se desactiva un servidor virtual que da soporte a la característica de suspensión de facturación, no se acumulan los costes correspondientes a determinados recursos de cálculo. La facturación se detiene automáticamente cuando el servidor está apagado. La característica de suspensión de facturación le ayuda a reducir el coste e impide que tenga que volver a suministrar un servidor virtual cuando vuelva a necesitar sus recursos. La suspensión de facturación solo está soportada en suministros nuevos, no en instancias existentes.
 {:shortdesc}
 
-Para tener acceso a la característica de suspensión de facturación, debe suministrar la nueva instancia de servidor virtual utilizando la {{site.data.keyword.slapi_short}} para especificar el paquete de facturación de suspensión. La nueva instancia de servidor virtual debe estar configurada con los siguientes valores:
+Esta característica está disponible en los centros de datos de todo el mundo. Para tener acceso a la característica de suspensión de facturación, debe suministrar la nueva instancia de servidor virtual utilizando la {{site.data.keyword.slapi_short}} para especificar el paquete de facturación de suspensión. La nueva instancia de servidor virtual debe estar configurada con los siguientes valores:
 
 * SAN por horas
-* Una de las siguientes familias:
+* Tipos públicos de una de las siguientes familias:
   * Equilibrado
   * Cálculo
   * Memoria
-* Uno de los siguientes centros de datos de {{site.data.keyword.cloud}} :
-
-| Centros de datos |         |
-| ------------ | ------- | 
-|SEO01         |  WDC01  |
-|SAO01         |  WDC04  |
-|TOK02         |  WDC06  |
-|DAL01         |  WDC07  |
-|DAL05         |  LON02  |
-|DAL06         |  LON04  |
-|DAL09         |  LON06  |
-|DAL10         |  FRA02  |
-|DAL12         |  FRA04  |
-|DAL13         |  FRA05  |
-{: caption="Tabla 1. Centros de datos soportados" caption-side="top"}
 
 Puede utilizar la característica de suspensión de facturación como una alternativa más rápida para suministrar y dejar de suministrar una instancia de servidor virtual.
 {:tip}
+
+**Nota:** la facturación solo se suspende cuando apaga la instancia del servicio virtual a través del {{site.data.keyword.slportal_full}}, la CLI o {{site.data.keyword.slapi_short}}. Si apaga el servidor virtual directamente mediante el SO, no se suspende la facturación correspondiente a esa instancia.
 
 ## Suministro
 

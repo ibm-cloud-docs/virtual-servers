@@ -178,7 +178,7 @@ La primera opción consiste en suministrar las instancias de host dedicadas a tr
     </tr>
     <tr>
     <td>Sistema operativo</td>
-    <td>Seleccione el sistema operativo para la instancia. Tenga en cuenta que aparecerá un mensaje de error se existe un conflicto entre el servidor y el sistema operativo. Por ejemplo, si se selecciona Linux en un servidor Microsoft SQL.</td>
+    <td>Seleccione el sistema operativo para la instancia. Tenga en cuenta que aparecerá un mensaje de error si existe un conflicto entre el servidor y el sistema operativo. Por ejemplo, si se selecciona Linux en un servidor Microsoft SQL.</td>
     </tr>
     <tr>
     <td>Primer disco</td>

@@ -17,7 +17,10 @@ lastupdated: "2017-10-24"
 {:table: .aria-labeledby="caption"}
 
 # Servidores virtuales públicos
-Las ofertas de {{site.data.keyword.BluVirtServers}} públicos son despliegues de servidor virtual multiarrendatario gestionados por IBM. Le permiten escalar el entorno rápidamente, resultan rentables con tamaños predefinidos que se ajustan a todos los requisitos empresarial y se configuran y activan rápidamente.  Los servidores virtuales públicos ofrecen muchas ventajas, incluidas las siguientes:
+Las ofertas de {{site.data.keyword.BluVirtServers}} públicos son despliegues de servidor virtual multiarrendatario gestionados por IBM. Le permiten escalar el entorno rápidamente, resultan rentables con tamaños predefinidos que se ajustan a todos los requisitos empresarial y se configuran y activan rápidamente.  
+{:shortdesc}
+
+Los servidores virtuales públicos ofrecen muchas ventajas, incluidas las siguientes:
 
 * **Disponibilidad global** 
 
@@ -27,8 +30,7 @@ Las ofertas de {{site.data.keyword.BluVirtServers}} públicos son despliegues de
 
     La oferta de servidor virtual público ofrece opciones de servidor virtual pequeño o grande que se ajustan a diversos requisitos de carga de trabajo.
 
-**Nota:** si busca un entorno de un solo arrendatario, considere la oferta [Servidor virtual dedicado](../vsi/vsi_dedicated.html).
-{:shortdesc}
+El tráfico en la red correspondiente a servidores virtuales públicos, que engloba VSI SAN y otro almacenamiento conectado a la red, no tiene garantía. Si el tráfico en la red de una instancia de servidor virtual comienza a tener un impacto negativo significativo en otros servidores virtuales, dicha instancia se puede reiniciar en un nuevo host o, en casos extremos, se puede inhabilitar por completo. Este impacto negativo se suele observar cuando los niveles de tráfico alcanzan entre 20.000 y 30.000 paquetes por segundo (PPS).  Para disponer de un sistema de red garantizado se recomienda utilizar la oferta de servidor virtual dedicado. Para obtener más información, consulte la oferta del entorno de un solo arrendatario [servidor virtual dedicado](../vsi/vsi_dedicated.html).
 
 Las instancias públicas residen en un hipervisor que se comparte con otros clientes; sin embargo, los procesadores y la memoria están dedicados al servidor virtual, por lo que el rendimiento del servidor es muy fiable. 
 

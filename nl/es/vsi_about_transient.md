@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-04-27"
+lastupdated: "2018-06-29"
 
 
 ---
@@ -20,15 +20,15 @@ lastupdated: "2018-04-27"
 # Servidores virtuales transitorios
 La oferta de {{site.data.keyword.BluVirtServers}} transitorios es una buena opción si tiene cargas de trabajo flexibles y quiere ahorrar en costes. Conseguirá ahorrar si ejecuta su carga de trabajo en un servidor virtual transitorio. Las instancias transitorias se suministran cuando hay capacidad no utilizada disponible. Por tanto, cuando se necesitan recursos del centro de datos para cuentas bajo demanda completas, también puede perder estos recursos. Las instancias transitorias dejan de suministrarse cuando estos recursos se reclaman.   
 
-Los servidores virtuales transitorios son ideales para cargas de trabajo de no producción. Por ejemplo, podría utilizar una instancia transitoria para probar y desarrollar aplicaciones o para probar la escalabilidad en entornos que no requieran un tiempo de funcionamiento constante.
+Los servidores virtuales transitorios ofrecen la siguiente flexibilidad:
 
-## Requisitos
-Para poder utilizar las instancias transitorias, debe realizar el suministro utilizando las siguientes selecciones de servidor virtual público:
-* Transitorio
-* La ubicación del host; puede elegir entre los siguientes centros de datos:
-    * MEX01 
-    * SEO01
-    * PAR01
+* **Disponibilidad global** 
+
+    La oferta de servidor virtual transitorio está disponible en los centros de datos de todo el mundo.
+    
+* **Ahorro en costes** 
+
+    Los servidores virtuales transitorios son ideales para cargas de trabajo de no producción. Por ejemplo, podría utilizar una instancia transitoria para probar y desarrollar aplicaciones o para probar la escalabilidad en entornos que no requieran un tiempo de funcionamiento constante.
 
 Las instancias transitorias son instancias públicas que utilizan almacenamiento respaldado por SAN.
 
