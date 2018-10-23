@@ -1,14 +1,14 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-10-16"
+lastupdated: "2018-10-23"
 ---
 
 {:new_window: target="_blank"}
 
 # Storage options
 
-You have the option for SAN or local storage for each virtual server. You can supplement SAN or local storage with other storage products as needed. 
+You have the option of SAN (portable SAN) or local storage for each virtual server. You can supplement SAN or local storage with other storage products as needed. 
 
 ## Local storage
 
@@ -20,7 +20,7 @@ Portable storage volumes are auxiliary storage solutions that are exclusively av
 
 Portable storage is an ideal solution if you want to transfer data between virtual servers that exist in any data center on {{site.data.keyword.cloud_notm}}'s network. Portable storage volumes are useful for database applications that require access to raw, unformatted block-level storage and for moving large data sets between {{site.data.keyword.BluVirtServers_short}}.
 
-All secondary disks are attached as portable storage. In most cases, the disks can be detached at any time to allow them to be moved to other virtual servers. 
+All secondary disks are attached as portable storage. In most cases, these secondary disks can be detached at any time to allow them to be moved to other virtual servers. 
 
 **Exception:** With public virtual servers that use balanced local storage, you cannot detach primary or secondary disks.
 
