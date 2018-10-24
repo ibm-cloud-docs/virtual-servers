@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-10-24"
 
 
 ---
@@ -22,31 +22,27 @@ lastupdated: "2017-10-24"
 You have two options on how to provision your dedicated instances. The first is through the {{site.data.keyword.Bluemix}} catalog and the second is through the {{site.data.keyword.slportal_full}}. The catalog and {{site.data.keyword.slportal}} require unique log-in IDs. Your catalog user name and password won’t work for logging in to the portal and vice versa. See [Signing up for {{site.data.keyword.Bluemix_notm}}](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window}  to set up either your {{site.data.keyword.Bluemix_notm}} catalog or {{site.data.keyword.slportal}} credentials.
 {:shortdesc}
 
-## Log into the IBM Cloud Catalog
-Use the following steps to log in to the {{site.data.keyword.Bluemix_notm}} catalog to begin provisioning your dedicated hosts and dedicated host instances. 
+## Provisioning dedicated hosts and instances
+You can provision your dedicated hosts and instances through the {{site.data.keyword.cloud_notm}} or the {{site.data.keyword.slportal}}.
 
-1. Open a new browser window and enter [https://console.bluemix.net/catalog/](https://console.bluemix.net/catalog/){: new_window}.
-2.	Click the **Log in** link (upper-right corner). 
-3.	Enter your email or IBMid and click **Continue**.
-4.	Enter your Password and click **Log in**.
-5.	Select **Infrastructure > Compute**.
-6.  Click the **Virtual Servers** tile.
-7.	Select the **Dedicated Virtual Servers** option.
-8.  Click **Create**. 
+### Provisioning dedicated hosts and instances through the IBM Cloud catalog 
+To provision your dedicated hosts and dedicated host instances through the {{site.data.keyword.cloud_notm}} catalog, complete the following steps: 
 
-You will be on the main page of the {{site.data.keyword.slportal}}.
+1. Log in to the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/){: new_window} by using your unique credentials. 
+2. In the **Compute Infrastructure** section, click the **Virtual Servers** tile.
+3. Select the **Dedicated Virtual Server** option.
+4. Click **Create**.
+5. In the **Dedicated Host** section, you can either select **Create Host**, where you can create a new dedicated host, or **Specify Host**, where you can select from your existing dedicated hosts.
+6. Complete all of the relevant information for your dedicated host and dedicated virtual server instance.
+7. After you review your order summary, click the **Third-Party Service Agreements** check box.
+8. Click **Provision**. 
 
-## Log in to the Customer Portal
-Use the following steps to log in to the {{site.data.keyword.slportal}} to begin the order for your dedicated hosts and dedicated host instances.
+### Provisioning dedicated hosts and instances through the customer portal
+To provision your dedicated hosts and dedicated host instances through the {{site.data.keyword.slportal}}, complete the following steps:
 
-1.	Open a new browser window and enter [https://control.softlayer.com](https://control.softlayer.com){: new_window}. 
-2.	Enter your Username and Password, and click **Log In** OR click **Log in with IBMid**.
-3.	Enter your email or IBMid and click **Continue**.
-4.	Enter your Password and click **Log In**.
+1. Log in to the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
 
-You will be on the main page of the {{site.data.keyword.slportal}}.
-
-## Provision your dedicated host 
+#### Provisioning your dedicated host 
 Use the following steps to provision your dedicated hosts.
 
 1.	Click the **Devices** icon.
@@ -117,14 +113,10 @@ You’re taken to the *Configure your Cloud Server* page. It’s from this page 
 
     A series of emails are sent to your administrator—acknowledgement of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email will include a link that will take you directly to your **Device Details** page after logging in to {{site.data.keyword.Bluemix_notm}}. Another option would be to log directly in to the {{site.data.keyword.slportal}}.
 
-## Provision your dedicated host instances
+#### Provisioning your dedicated host instances
 {: #provision-dedicated-instances}
-You can provision your dedicated host instances two ways—through the **Devices** menu or the **Devices** icon.
 
-### Provisioning your dedicated host instances through the Devices menu
-{: #ordering-dedicated-devices-menu}
-
-Your first option is to provision your dedicated host instances through the **Devices** menu from the main {{site.data.keyword.slportal}} page. The following steps take you through this process.
+To provision your dedicated host instances through the {{site.data.keyword.slportal}}, complete the following steps:
 
 1.	Click **Devices > Device List**. 
  
@@ -244,13 +236,7 @@ Your first option is to provision your dedicated host instances through the **De
 
 You will receive an email once your dedicated host instances have been provisioned.
 
-### Provisioning your dedicated host instances through the Devices icon
-The second option to provision dedicated host instances is to use the **Device** icon on the {{site.data.keyword.slportal}} home page. The following steps take you through this process.
-
-1.	Click the **Devices** icon and select **Hourly** or **Monthly** under Dedicated Virtual Servers.
-2.	Follow the steps under [Provisioning your dedicated host instances through the Devices menu](#ordering-dedicated-devices-menu), beginning with Step 5.
-
-### Next Steps
+## Next Steps
 After your virtual server is provisioned, you can start managing it. For more information, see [Managing virtual servers](../vsi/vsi_managing.html).
 
 
