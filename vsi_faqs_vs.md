@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-10-24"
+lastupdated: "2018-10-30"
 
 
 ---
@@ -24,6 +24,9 @@ lastupdated: "2018-10-24"
 
 ## Where can I find pricing information for public instance types?
 For pricing information, see [Build your virtual server ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud-computing/bluemix/virtual-servers){: new_window}.
+
+## Where can I find pricing information for virtual public instances?
+For pricing information, see the [Virtual servers provisioning calculator](https://www.ibm.com/cloud-computing/bluemix/virtual-servers/calculator).
 
 ## Can I add disk storage to my hourly or monthly Virtual Server?
 You may upgrade or downgrade disk storage for any virtual server by updating your storage options in the *First Disk* through *Fifth Disk* fields in the *Configuration* screen of the device you want to update. For more information, see [Reconfiguring an existing virtual server](../vsi/vsi_reconfigure.html).
@@ -65,3 +68,7 @@ Virtual servers are provisioned on a multi-server cloud architecture that pools 
 <!--## I'm unable to connect to the virtualization API. How can I fix this?-->
 
 <!--This error generally occurs because a password is outdated. To fix this, update the root or Administrator password for the virtual server's operating system in the {{site.data.keyword.slportal_full}}.-->
+
+## Why do I receive a capacity error when provisioning a virtual server?
+
+When you provision a virtual server, you might receive an error message stating that there is insufficient capacity to complete the request. When provisioning fails, all the virtual server instances within that particular request fail. A capacity error occurs when there are insufficient resources available in the router or data center to fulfill the service request. There are a number of reasons that you could receive this error. Resource availability changes frequently, so you might wait and try again later. For more information on strategies to avoid this error, see [Capacity considerations](https://console.bluemix.net/docs/vsi/ts_capacity_bp.html).
