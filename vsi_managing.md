@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-28"
+lastupdated: "2018-10-30"
 
 
 ---
@@ -47,7 +47,7 @@ Complete the following steps to perform management tasks for your virtual server
 
 * **Power On/Off**
 
-    If the device has been powered off, the device remains in the power off state and must be manually powered on by repeating the steps above. Users may not interact with a device when a device is powered off. If the device has been powered on, normal interaction may take place. It will remain on until further action is taken. If the virtual server supports the suspend billing feature, billing is suspended for some compute resources. You cannot complete all management actions on an instance until billing is resumed. Suspend billing is only supported on new provisions, not existing instances. For more information, see [About suspend billing](vsi_about_suspend.html).
+    If the device has been powered off, the device remains in the power off state and must be manually powered on by repeating the steps above. Users cannot interact with a device when a device is powered off. If the virtual server supports the suspend billing feature, billing is suspended for some compute resources. You cannot complete all management actions on an instance until billing is resumed. For more information, see [About suspend billing](vsi_about_suspend.html). To find out if your virtual server instance supports the suspend billing feature, see [Viewing suspend billing feature](vsi_viewing_suspend.html). If the device has been powered on, normal interaction can take place. It will remain on until further action is taken.
 
 * **Rename**
 
