@@ -127,6 +127,8 @@ IBM Cloud Virtual Servers
     {: .topicgroup}
     Managing placement groups
         vsi_managing_placegroup.md
+    
+    {: .topicgroup}
     Migrating
         vsi_migrating_dedicated.md
 
