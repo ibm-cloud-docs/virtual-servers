@@ -26,6 +26,7 @@ IBM Cloud Virtual Servers
         vsi_ps_index.md
 
     vsi_image_templates_intro.md
+    vsi_placegroup.md
 
     {: .topicgroup}
     Security options
@@ -124,6 +125,8 @@ IBM Cloud Virtual Servers
         vsi_gpu_nvidia_drivers.md
  
     {: .topicgroup}
+    Managing placement groups
+        vsi_managing_placegroup.md
     Migrating
         vsi_migrating_dedicated.md
 
