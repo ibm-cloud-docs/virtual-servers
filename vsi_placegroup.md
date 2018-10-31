@@ -30,7 +30,7 @@ To get started, follow these steps:
 2. On the Placement Groups page, click **Add Placement Group**.
 3. Enter a name, description, and data center for the placement group, and click **Add**.
 4. Locate the **Order** section and click **Devices**.
-5. On the Devices page, click **Hourly** for one of the Virtual Server offerings.
+5. On the Devices page, click **Hourly** or **Monthly** for one of the Virtual Server offerings.
 6. Complete any other necessary information and click **Add to Order**. The Checkout page opens.
 7. You can select any existing placement groups. **Spread** means that the instances are be on different physical hardware.
 8. Finally, click **Submit Order**.
