@@ -15,7 +15,7 @@ lastupdated: "2018-10-31"
 # Managing placement groups
 {: #vsi_managing_placegroup}
 
-You can manage placement groups by using the Placement Groups page or the Device Details page in the Customer portal.
+You can manage placement groups by using the Placement Groups page or the Device Details page in the customer portal.
 {:shortdesc}
 
 ## Adding placement groups from the Placement Groups page
@@ -23,7 +23,7 @@ You can manage placement groups by using the Placement Groups page or the Device
 To add placement groups from the Placement Groups page, complete the following steps:
 {:shortdesc}
 
-1. In the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) navigation, select **Devices -> Manage -> Placement Groups**.
+1. In the [{{site.data.keyword.slportal_full}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} navigation, select **Devices -> Manage -> Placement Groups**.
 2. On the Placement Groups page, click **Add Placement Group**.
 3. Enter a name, description, and data center for the placement group, and click **Add**.
 
@@ -35,7 +35,7 @@ To add placement groups from the Placement Groups page, complete the following s
 To manage placement groups from the Placement Groups page, complete the following steps:
 {:shortdesc}
 
-1. From the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) navigation, select **Devices -> Manage -> Placement Groups**.
+1. From the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} navigation, select **Devices -> Manage -> Placement Groups**.
 2. Under the Placement Group section, you can complete several management tasks.
      * View a list of placement groups and number of assigned instances.
      * Add a group.
