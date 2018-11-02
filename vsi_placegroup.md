@@ -26,7 +26,7 @@ Create your placement group, then assign up to 5 new virtual server instances. W
 
 To get started, follow these steps:
  
-1. From your browser, open [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) and log in to your account.
+1. From your browser, open [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} and log in to your account.
 2. On the Placement Groups page, click **Add Placement Group**.
 3. Enter a name, description, and data center for the placement group, and click **Add**.
 4. Locate the **Order** section and click **Devices**.
