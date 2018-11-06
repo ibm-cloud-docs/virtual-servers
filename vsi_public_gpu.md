@@ -139,7 +139,7 @@ Powered by NVDIA Tesla GPUs, {{site.data.keyword.cloud_notm}} Accelerated Comput
 </TBODY>
 </table>
 
-**Note:** V100 GPU flavors are available in the _DAL10_, _DAL12_, and _LON04_<!--WDC07--> datacenters.
+**Note:** V100 GPU flavors are available in the _DAL10_, _DAL12_, and _LON04_, and WDC07 datacenters.
 
 
 ## Before you begin
