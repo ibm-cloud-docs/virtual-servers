@@ -3,7 +3,7 @@
 copyright:
   years: 2016, 2018
 
-lastupdated: "2018-09-12"
+lastupdated: "2018-11-06"
 
 ---
 
@@ -35,15 +35,15 @@ To get started monitoring your user's actions, see
 An initiator can be a user, a service, or an application. For a user to generate events, the user must have access to **Infrastructure** resources in {{site.data.keyword.Bluemix}} console. 
 {: tip}
 
-## Login events
-{: #login}
+<!--## Login events-->
+<!--{: #login}-->
 
-The following table lists the action that generates a login event:
+<!--The following table lists the action that generates a login event:-->
 
-| Action | Description |
-|----------|---------|
-| `audit-log.user.login`  | An event is generated when an initiator logs in to {{site.data.keyword.Bluemix}} through the {{site.data.keyword.Bluemix}} UI or the {{site.data.keyword.slportal}}. | 
-{: caption="Table 1. Login action" caption-side="top"} 
+<!--| Action | Description |-->
+<!--|----------|---------|-->
+<!--| `audit-log.user.login`  | An event is generated when an initiator logs in to {{site.data.keyword.Bluemix}} through the {{site.data.keyword.Bluemix}} UI or the {{site.data.keyword.slportal}}. |--> 
+<!--{: caption="Table 1. Login action" caption-side="top"}--> 
 
 
 ## Virtual server instance events
