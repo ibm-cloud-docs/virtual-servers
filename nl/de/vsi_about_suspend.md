@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-10-08"
+lastupdated: "2018-10-29"
 
 
 ---
@@ -15,15 +15,19 @@ lastupdated: "2018-10-08"
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:tip: .tip}
+{:note: .note}
+{:important: .important}
 {:table: .aria-labeledby="caption"}
 
-# Informationen zur ausgesetzten Abrechnung (Beta)
+# Informationen zur ausgesetzten Abrechnung
 {: #requirements}
 
-Bei Ausschalten eines virtuellen Servers, der die Funktion für ausgesetzte Abrechnung unterstützt, fallen für bestimmte Rechenressourcen keine Kosten an. Die Abrechnung stoppt bei Ausschalten des Servers automatisch. Die Funktion für ausgesetzte Abrechnung unterstützt Sie bei der Kostenreduzierung und bewirkt, dass Sie einen virtuellen Server nicht erneut bereitstellen müssen, wenn sie seine Ressourcen wieder benötigen. Die ausgesetzte Abrechnung wird nur für neue Bereitstellungen, nicht für vorhandene Instanzen, unterstützt.
+Bei Ausschalten eines virtuellen Servers, der das Feature für das Aussetzen der Abrechnung unterstützt, fallen für bestimmte Rechenressourcen keine Kosten an. Die Abrechnung stoppt bei Ausschalten des Servers automatisch. Die Funktion für ausgesetzte Abrechnung unterstützt Sie bei der Kostenreduzierung und bewirkt, dass Sie einen virtuellen Server nicht erneut bereitstellen müssen, wenn sie seine Ressourcen wieder benötigen.
 {:shortdesc}
 
-Diese Funktion ist in Rechenzentren auf der ganzen Welt verfügbar. Damit Sie auf die Funktion für ausgesetzte Abrechnung zugreifen können, müssen Sie die virtuelle Serverinstanz mithilfe der {{site.data.keyword.slapi_short}} bereitstellen, in der sie das Paket für die ausgesetzte Abrechnung angeben. Die neue virtuelle Serverinstanz muss mithilfe der folgenden Einstellungen konfiguriert werden:
+Die meisten virtuellen Serverinstanzen, die vor dem 01. November 2018 erstellt wurden, unterstützten das Feature für das Aussetzen der Abrechnung nicht. Informationen darüber, ob die virtuelle Serverinstanz das Feature für das Aussetzen der Abrechnung unterstützt, finden Sie in [Feature für das Aussetzen der Abrechnung anzeigen](vsi_viewing_suspend.html). 
+
+Dieses Feature ist in Rechenzentren auf der ganzen Welt verfügbar. Wenn Sie eine virtuelle Serverinstanz bereitstellen möchten, die das Feature für das Aussetzen der Abrechnung unterstützt, muss die virtuelle Serverinstanz mit den folgenden Einstellungen konfiguriert werden:
 
 * Stündliches SAN
 * Öffentliche Versionen einer der folgenden Familien:
@@ -31,16 +35,23 @@ Diese Funktion ist in Rechenzentren auf der ganzen Welt verfügbar. Damit Sie au
   * Berechnen (Compute)
   * Speicher (Memory)
 
-Sie können die Funktion für ausgesetzte Abrechnung als eine schnellere Alternative zum Bereitstellen bzw. Aufheben der Bereitstellung von virtuellen Serverinstanzen verwenden.
+Sie können das Feature für das Aussetzen der Abrechnung als eine schnellere Alternative zum Bereitstellen und Freigeben von virtuellen Serverinstanzen verwenden.
 {:tip}
 
-**Anmerkung:** Die Abrechnung wird nur ausgesetzt, wenn Sie die virtuelle Serverinstanz über das {{site.data.keyword.slportal_full}}, die CLI oder die {{site.data.keyword.slapi_short}} ausschalten. Wenn Sie die virtuelle Serverinstanz direkt über das Betriebssystem ausschalten, wird die Abrechnung für die betreffende Instanz nicht ausgesetzt.
+Die Abrechnung wird nur ausgesetzt, wenn Sie die virtuelle Serverinstanz über das {{site.data.keyword.slportal_full}}, die CLI oder die {{site.data.keyword.slapi_short}} ausschalten. Wenn Sie die virtuelle Serverinstanz direkt über das Betriebssystem ausschalten, wird die Abrechnung für die betreffende Instanz nicht ausgesetzt.
+{:note}
 
-## Bereitstellung
+## Bereitstellungsdetails
 
-In der Betaversion müssen Sie für die Bereitstellung einer virtuellen Serverinstanz, die die Funktion für ausgesetzte Abrechnung unterstützt, die {{site.data.keyword.slapi_short}} verwenden. API-Beispiele finden Sie in [Öffentliche Instanz mit dem Objekt 'placeOrder' bereitstellen](../vsi/vsi_provision_api.html#provisioning-a-public-instance-using-place-order-object). 
+Sie können eine virtuelle Serverinstanz, die das Feature für das Aussetzen der Abrechnung unterstützt, über den {{site.data.keyword.cloud_notm}}-Katalog, die Befehlszeilenschnittstelle oder das {{site.data.keyword.slapi_short}} bereitstellen. Weitere Informationen zum Bereitstellen von öffentlichen virtuellen Serverinstanzen finden Sie in [Öffentliche Instanzen bereitstellen](../vsi/vsi_provision_public.html).
 
-Sie müssen während des Bereitstellungsprozesses auch die bestimmte ID für das Paket für ausgesetzte Abrechnung angeben. Sie können in der {{site.data.keyword.slapi_short}} mithilfe des Schlüsselnamens (keyName) `SUSPEND_CLOUD_SERVER` eine Abfrage nach der ID des Pakets für ausgesetzte Abrechnung ausführen. Sie finden ein Beispiel für eine Suche nach Serverpaketen in [Bestellung mithilfe der {{site.data.keyword.slapi_short}}-Bestellungs-CLI verstehen und erstellen ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://softlayer.github.io/article/understanding-ordering/){: new_window}.
+Zum Bestellen virtueller Server über den {{site.data.keyword.cloud_notm}}-Katalog benötigen Sie ein Konto, für das ein Upgrade durchgeführt wurde. Weitere Informationen zum Aktualisieren Ihres Kontos finden Sie unter [Zur IBMid wechseln](https://console.bluemix.net/docs/admin/softlayerlink.html).
+{:note}
+
+### Bereitstellung über die SoftLayer-API
+Sie können eine virtuelle Serverinstanz, die das Feature für das Aussetzen der Abrechnung unterstützt, über die {{site.data.keyword.slapi_short}} bereitstellen. API-Beispiele finden Sie in [Öffentliche Instanz mit dem Objekt 'placeOrder' bereitstellen](../vsi/vsi_provision_api.html#provisioning-a-public-instance-using-place-order-object). 
+
+Sie müssen während des Bereitstellungsprozesses die spezifische Paket-ID für ausgesetzte Abrechnung angeben. Sie können in der {{site.data.keyword.slapi_short}} mithilfe des Schlüsselnamens (keyName) `SUSPEND_CLOUD_SERVER` eine Abfrage nach der ID des Pakets für ausgesetzte Abrechnung ausführen. Sie finden ein Beispiel für eine Suche nach Serverpaketen in [Bestellung mithilfe der {{site.data.keyword.slapi_short}}-Bestellungs-CLI verstehen und erstellen ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://softlayer.github.io/article/understanding-ordering/){: new_window}.
 
 ## Details zur Abrechnung
 
@@ -57,10 +68,10 @@ Es ist wichtig zu verstehen, welche Kosten bei Ausschalten der virtuellen Server
 | Speicher                       |                   |         X        |
 {: caption="Tabelle 1. Details zur Abrechnung von Ressourcen" caption-side="top"}   
 
-**Hinweis:** Wenn Sie eine virtuelle Serverinstanz bereitstellen, die die Funktion für ausgesetzte Abrechnung unterstützt, wird die Verwendungsdauer sowohl bei Verwendung als auch bei Aussetzen pro Minute berechnet. Auch wenn Sie die Funktion für ausgesetzte Abrechnung nie durch Ausschalten der Instanz aufrufen, wird die Abrechnungssumme pro Minute des Lebenszyklus der Instanz berechnet. 
+Wenn Sie eine virtuelle Serverinstanz bereitstellen, die das Feature für das Aussetzen der Abrechnung unterstützt, wird die Verwendungsdauer sowohl bei Verwendung als auch bei Aussetzen pro Minute berechnet. Auch wenn Sie das Feature für das Aussetzen der Abrechnung nie durch Ausschalten der Instanz aufrufen, wird die Abrechnungssumme pro Minute des Lebenszyklus der Instanz berechnet.{:note}
 
 ### Mindestnutzungsgebühr
-Bei virtuellen Serverinstanzen, die die Funktion für ausgesetzte Abrechnung unterstützen, fällt pro Monat eine Mindestnutzungsgebühr an. Nutzungszeiten, die 25 Prozent übersteigen, werden in Rechnung gestellt. Wenn die Nutzung geringer ist als 25 Prozent, werden Ihnen für 25 Prozent der Stunden, während denen die Instanz in Ihrem aktuellen Rechnungsstellungszyklus vorhanden war, Gebühren berechnet. 
+Bei virtuellen Serverinstanzen, die das Feature für das Aussetzen der Abrechnung unterstützen, kann in einigen Fällen eine Mindestnutzungsgebühr anfallen. Nutzungszeiten, die 25 Prozent übersteigen, werden in Rechnung gestellt. Wenn die Nutzung geringer ist als 25 Prozent, werden Ihnen für 25 Prozent der Stunden, während denen die Instanz in Ihrem aktuellen Rechnungsstellungszyklus vorhanden war, Gebühren berechnet. 
 
 ### Rechnung
 Wenn Sie die Abrechnung auf einem virtuellen Server aussetzen, enthält Ihre Rechnung einige Änderungen. Die entsprechenden Gebühren werden nun als nutzungsabhängige Einzeldaten aufgeführt. Beispielsweise werden folgende Zusatzpunkte aufgeführt, die in Stunden die Zeit der Verfügbarkeit und der Nutzung sowie die Gesamtzahl der in Rechnung gestellten Stunden darstellen:
@@ -76,20 +87,19 @@ Betriebssystemnutzung...
 
 ### Speicher
 
-Wenn Sie die Abrechnung in einer virtuellen Serverinstanz aussetzen, bleibt der zugeordnete Speicher bestehen; Sie können jedoch nicht auf Daten zugreifen, während die virtuelle Serverinstanz ausgeschaltet ist. Wenn Sie die Abrechnung in der Instanz wiederaufnehmen, können Sie auf Ihre Daten zugreifen und es beginnt wieder die normale Abrechnung.
+Wenn für eine virtuelle Serverinstanz die Abrechnung ausgesetzt wird, bleibt die Abrechnung für den zugehörigen Speicher bestehen, es besteht jedoch kein Zugriff auf die gespeicherten Daten, während die virtuelle Serverinstanz ausgeschaltet ist. Wenn Sie die Abrechnung für die Instanz wiederaufnehmen, können Sie wieder auf Ihre Daten zugreifen.
 
 ### IP-Adressen
 
 Alle öffentlichen IP-Adressen werden für Sie beibehalten, wenn die Abrechnung für Ihre virtuelle Serverinstanz ausgesetzt ist.
 
-Sie können über die {{site.data.keyword.slapi_short}} oder im {{site.data.keyword.slportal_full}} durch Öffnen der Seite mit den Einheitendetails anzeigen, ob Ihre Einheit gestoppt ist; außerdem können Sie das relevante Datum anzeigen, an dem der Status geändert wurde.
-
 ### Einschränkungen
 
-Die Anzahl der unterstützten gleichzeitig ausgeführten Instanzen ist Teil Ihres kontoweiten Einheitenkontingents. Weitere Informationen zu Einschränkungen bei gleichzeitig ausgeführten Instanzen finden Sie unter [FAQs: Virtuelle Server](vsi_faqs_vs.html#concurrent).
+Virtuelle Serverinstanzen, für die die Abrechnung ausgesetzt ist, zählen weiterhin zum Einheitenkontingent des Kontos. Weitere Informationen zu Einschränkungen bei Instanzen finden Sie in [FAQs: Virtuelle Server](vsi_faqs_vs.html#concurrent).
 
 ## Nächste Schritte
 Nach der Bereitstellung eines virtuellen Servers, der die ausgesetzte Abrechnung unterstützt, können Sie in der Einheit mit dem Aussetzen und Wiederaufnehmen der Abrechnung beginnen.
-Wenn die Abrechnung in einer virtuellen Serverinstanz ausgesetzt ist, können erst nach dem Wiederaufnehmen der Abrechnung für die Einheit wieder alle Aktionen ausgeführt werden.
+
+Wenn die Abrechnung für eine virtuelle Serverinstanz ausgesetzt ist, können erst nach dem Wiederaufnehmen der Abrechnung für die Einheit wieder alle Aktionen ausgeführt werden. Sie können über die {{site.data.keyword.slapi_short}} oder im {{site.data.keyword.slportal}} durch Öffnen der Seite mit den Einheitendetails anzeigen, ob Ihre Einheit gestoppt ist; außerdem können Sie das relevante Datum anzeigen, an dem der Status geändert wurde.
 
 Zum Aussetzen der Abrechnung in einer virtuellen Serverinstanz schalten Sie den virtuellen Server aus. Weitere Informationen finden Sie unter [Virtuelle Server verwalten](vsi_managing.html).

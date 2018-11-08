@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-10-03"
+lastupdated: "2018-10-11"
 
 
 ---
@@ -39,7 +39,7 @@ Sie haben zwei Möglichkeiten, um Ihre öffentlichen virtuellen Serverinstanzen 
 Wenn die Voraussetzungen erfüllt sind, können Sie mit dem Bereitstellen einer öffentlichen virtuellen Serverinstanz beginnen. Sie können die öffentliche Instanz über den {{site.data.keyword.cloud_notm}}-Katalog oder das {{site.data.keyword.slportal}} bereitstellen.
 
 ### Öffentliche virtuelle Serverinstanz über den IBM Cloud-Katalog bereitstellen
-Führen Sie die folgenden Schritte aus, um eine öffentliche virtuelle Serverinstanz über {{site.data.keyword.cloud_notm}} bereitzustellen:
+Führen Sie die folgenden Schritte aus, um eine öffentliche virtuelle Serverinstanz über den {{site.data.keyword.cloud_notm}}-Katalog bereitzustellen:
 
   1. Melden Sie sich beim [{{site.data.keyword.cloud_notm}}-Katalog ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://console.bluemix.net/catalog/){: new_window} mit Ihren eindeutigen Berechtigungsnachweisen an. 
   2. Klicken Sie im Bereich für die Datenverarbeitungsinfrastruktur**** auf die Kachel **Virtuelle Server**.
@@ -59,7 +59,7 @@ Führen Sie die folgenden Schritte aus, um Ihre öffentliche virtuelle Serverins
   5. Klicken Sie auf die Schaltfläche **Zur Bestellung hinzufügen**, um fortzufahren.
   6. Bestätigen oder bearbeiten Sie die Domäneninformationen für den Server.
   7. Klicken Sie auf die Kontrollkästchen für Cloud-Service-Bedingungen**** und für Servicevereinbarungen Dritter****.
-  8. Bestätigen Sie Ihre Zahlungsinformationen oder geben Sie sie ein und klicken Sie auf die Schaltfläche **Bestellung absenden**. Eine Anzeige mit der Nummer Ihrer Bereitstellungsbestellung wird angezeigt. Drucken Sie diese Anzeige bei Bedarf. Sie ist auch die Bestätigung für die Auftragsbestätigung für die Bereitstellung. 
+  8. Bestätigen Sie Ihre Zahlungsinformationen oder geben Sie sie ein und klicken Sie auf die Schaltfläche **Bestellung absenden**. Eine Anzeige mit der Nummer Ihrer Bereitstellungsbestellung wird angezeigt. Drucken Sie diese Anzeige bei Bedarf. Sie ist auch die Bestätigung für die Auftragsbestätigung für die Bereitstellung.
 
  Mehrere E-Mails werden an Ihren Administrator gesendet: die Auftragsbestätigung für die Bereitstellungsbestellung, die Genehmigung und die Bearbeitungsnachricht für die Bereitstellung sowie die Fertigstellungsnachricht für die Bereitstellung. Über einen Link in der Fertigstellungsnachricht gelangen Sie direkt zu der zugehörigen Seite *Einheitendetails*, nachdem Sie sich bei {{site.data.keyword.Bluemix_notm}} angemeldet haben. Sie können sich auch direkt beim {{site.data.keyword.slportal}} anmelden.
 

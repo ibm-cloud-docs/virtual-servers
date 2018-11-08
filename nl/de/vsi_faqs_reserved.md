@@ -34,7 +34,7 @@ Je nach Abrechnungsmodus (Stunden- oder Monatsbasis) wird die Abrechnung für CP
 Sie können reservierte virtuelle Serverinstanzen freigeben, Sie können jedoch keine reservierte Kapazität stornieren.
 
 ## Enthält die Reservierung alle Elemente, die ich in meiner virtuellen Serverinstanz konfiguriert habe?
-Ihre Reservierung umfasst lediglich CPU und RAM. Die primäre Platte sowie kostenfreie Netz- oder Speicherprodukte sind nicht in der Reservierung eingeschlossen. Zusätzliche Netzbandbreite, Speicherkapazität, Betriebssystem und Software anderer Anbieter werden je nach Instanztyp auf Stunden- oder Monatsbasis abgerechnet. 
+Ihre Reservierung umfasst lediglich CPU und RAM. Die primäre Platte sowie kostenfreie Netz- oder Speicherprodukte sind nicht in der Reservierung eingeschlossen. Zusätzliche Netzbandbreite, Speicherkapazität, Betriebssystem und Software anderer Anbieter werden je nach Instanztyp auf Stunden- oder Monatsbasis abgerechnet.
 
 ## Warum muss ich eine Abrechnung auf Stunden- oder Monatsbasis für die virtuelle Serverinstanz wählen?
 Ausgewählte zusätzliche Software-, Speicher- oder Netzoptionen müssen entweder auf Stundenbasis oder auf Monatsbasis abgerechnet werden. 

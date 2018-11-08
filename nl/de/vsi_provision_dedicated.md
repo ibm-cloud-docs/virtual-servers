@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-10-24"
 
 
 ---
@@ -22,31 +22,27 @@ lastupdated: "2017-10-24"
 Sie haben zwei Möglichkeiten zum Bereitstellen Ihrer dedizierten Instanzen. Die erste Möglichkeit ist die Verwendung des {{site.data.keyword.Bluemix}}-Katalogs und die zweite Möglichkeit ist das {{site.data.keyword.slportal_full}}. Für den Katalog und für das {{site.data.keyword.slportal}} sind eindeutige Anmelde-IDs erforderlich. Sie können sich folglich mit dem Benutzernamen und Kennwort für den Katalog nicht beim Portal anmelden oder umgekehrt. In der Dokumentation [Bei {{site.data.keyword.Bluemix_notm}} anmelden](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window} finden Sie Informationen zum Einrichten von Berechtigungsnachweisen für den {{site.data.keyword.Bluemix_notm}}-Katalog bzw. für das {{site.data.keyword.slportal}}.
 {:shortdesc}
 
-## Beim IBM Cloud-Katalog anmelden
-Führen Sie die folgenden Schritte aus, um sich beim {{site.data.keyword.Bluemix_notm}}-Katalog anzumelden und mit dem Bereitstellen Ihrer dedizierten Hosts und dedizierten Hostinstanzen zu beginnen. 
+## Dedizierte Hosts und Instanzen bereitstellen
+Sie können dedizierte Hosts und Instanzen über {{site.data.keyword.cloud_notm}} oder das {{site.data.keyword.slportal}} bereitstellen.
 
-1. Öffnen Sie ein neues Browserfenster und geben Sie [https://console.bluemix.net/catalog/](https://console.bluemix.net/catalog/){: new_window} ein.
-2.	Klicken Sie auf den Link **Anmeldung** in der rechten oberen Ecke. 
-3.	Geben Sie Ihre E-Mail-Adresse oder Ihre IBMiD ein und klicken Sie auf **Weiter**.
-4.	Geben Sie Ihr Kennwort ein und klicken Sie auf **Anmelden**.
-5.	Wählen Sie **Infrastruktur > Compute** aus.
-6.  Klicken Sie auf die Kachel **Virtuelle Server**.
-7.	Wählen Sie die Option **Dedizierte virtuelle Server** aus.
-8.  Klicken Sie auf **Erstellen**. 
+### Dedizierte Hosts und Instanzen über den IBM Cloud-Katalog bereitstellen 
+Führen Sie die folgenden Schritte aus, um die dedizierten Hosts und Hostinstanzen über den {{site.data.keyword.cloud_notm}}-Katalog bereitzustellen: 
 
-Die Hauptseite des {{site.data.keyword.slportal}}s wird angezeigt.
+1. Melden Sie sich beim [{{site.data.keyword.cloud_notm}}-Katalog ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://console.bluemix.net/catalog/){: new_window} mit Ihren eindeutigen Berechtigungsnachweisen an. 
+2. Klicken Sie im Bereich für die Datenverarbeitungsinfrastruktur**** auf die Kachel **Virtuelle Server**.
+3. Wählen Sie die Option **Dedizierter virtueller Server** aus.
+4. Klicken Sie auf **Erstellen**.
+5. Im Abschnitt **Dedizierter Host** können Sie entweder **Host erstellen** zum Erstellen eines neuen dedizierten Hosts oder **Host angeben** zum Auswählen eines vorhandenen dedizierten Hosts auswählen.
+6. Geben Sie alle relevanten Informationen für den dedizierten Host und die dedizierte virtuelle Serverinstanz an.
+7. Überprüfen Sie die Bestellübersicht und klicken Sie auf das Kontrollkästchen für Servicevereinbarungen anderer Anbieter****.
+8. Klicken Sie auf **Bereitstellen**. 
 
-## Beim Kundenportal anmelden
-Führen Sie die folgenden Schritte aus, um sich beim {{site.data.keyword.slportal}} anzumelden und die Bestellung für Ihre dedizierten Hosts und dedizierten Hostinstanzen zu erstellen.
+### Dedizierte Hosts und Instanzen über das Kundenportal bereitstellen
+Führen Sie die folgenden Schritte aus, um die dedizierten Hosts und Hostinstanzen über das {{site.data.keyword.slportal}} bereitzustellen:
 
-1.	Öffnen Sie ein neues Browserfenster und geben Sie [https://control.softlayer.com](https://control.softlayer.com){: new_window} ein. 
-2.	Geben Sie Ihren Benutzernamen und Ihr Kennwort ein und klicken Sie auf **Anmelden** ODER klicken Sie auf **Mit IBMiD anmelden**.
-3.	Geben Sie Ihre E-Mail-Adresse oder Ihre IBMiD ein und klicken Sie auf **Weiter**.
-4.	Geben Sie Ihr Kennwort ein und klicken Sie auf **Anmelden**.
+1. Melden Sie sich beim [{{site.data.keyword.slportal}} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window} mit Ihren eindeutigen Berechtigungsnachweisen an.
 
-Die Hauptseite des {{site.data.keyword.slportal}}s wird angezeigt.
-
-## Dedizierten Host bereitstellen 
+#### Dedizierten Host bereitstellen 
 Führen Sie die folgenden Schritte aus, um Ihre dedizierten Hosts bereitzustellen.
 
 1.	Klicken Sie auf das Symbol **Einheiten**.
@@ -114,18 +110,14 @@ bestellen, die entweder einem dedizierten Host zugeordnet ist oder nicht. Weiter
     </table>
 
 9.  Klicken Sie auf das Kontrollkästchen **Bedingungen für Cloud-Service**.
-10. Bestätigen Sie Ihre Zahlungsinformationen oder geben Sie sie ein und klicken Sie auf die Schaltfläche **Absenden**. Eine Anzeige mit der Nummer Ihrer Bereitstellungsbestellung wird angezeigt. Drucken Sie diese Anzeige bei Bedarf. Sie ist auch die Bestätigung für die Auftragsbestätigung für die Bereitstellung. 
+10. Bestätigen Sie Ihre Zahlungsinformationen oder geben Sie sie ein und klicken Sie auf die Schaltfläche **Bestellung absenden**. Eine Anzeige mit der Nummer Ihrer Bereitstellungsbestellung wird angezeigt. Drucken Sie diese Anzeige bei Bedarf. Sie ist auch die Bestätigung für die Auftragsbestätigung für die Bereitstellung.
 
     Mehrere E-Mails werden an Ihren Administrator gesendet: die Auftragsbestätigung für Ihre Bereitstellungsbestellung, die Genehmigung und die Bearbeitungsnachricht für die Bereitstellung sowie die Fertigstellungsnachricht für die Bereitstellung. Über einen Link in der Fertigstellungsnachricht gelangen Sie direkt zu der zugehörigen Seite **Einheitendetails**, nachdem Sie sich bei {{site.data.keyword.Bluemix_notm}} angemeldet haben. Eine weitere Option ist die direkte Anmeldung beim {{site.data.keyword.slportal}}.
 
-## Dedizierte Hostinstanzen bereitstellen
+#### Dedizierte Hostinstanzen bereitstellen
 {: #provision-dedicated-instances}
-Sie können Ihre dedizierten Hostinstanzen auf zwei Arten bereitstellen: über das Menü **Einheiten** oder über das Symbol **Einheiten**.
 
-### Dedizierte Hostinstanzen über das Menü 'Einheiten' bereitstellen
-{: #ordering-dedicated-devices-menu}
-
-Die erste Option ist das Bereitstellen Ihrer dedizierten Hostinstanzen über das Menü **Einheiten** auf der Hauptseite des {{site.data.keyword.slportal}}s. Dieser Prozess umfasst die folgenden Schritte.
+Führen Sie die folgenden Schritte aus, um die dedizierten Hostinstanzen über das {{site.data.keyword.slportal}} bereitzustellen:
 
 1.	Klicken Sie auf **Einheiten > Einheitenliste**. 
  
@@ -240,18 +232,12 @@ Die erste Option ist das Bereitstellen Ihrer dedizierten Hostinstanzen über das
     </table>
 
 8.  Klicken Sie auf die Kontrollkästchen **Bedingungen für Cloud-Service** und **Servicevereinbarung Dritter**.
-9. Bestätigen Sie Ihre Zahlungsinformationen oder geben Sie sie ein und klicken Sie auf die Schaltfläche **Bestellung absenden**. Eine Anzeige mit der Nummer Ihrer Bereitstellungsbestellung wird angezeigt. Drucken Sie diese Anzeige bei Bedarf. Sie ist auch die Bestätigung für die Auftragsbestätigung für die Bereitstellung. 
+9. Bestätigen Sie Ihre Zahlungsinformationen oder geben Sie sie ein und klicken Sie auf die Schaltfläche **Bestellung absenden**. Eine Anzeige mit der Nummer Ihrer Bereitstellungsbestellung wird angezeigt. Drucken Sie diese Anzeige bei Bedarf. Sie ist auch die Bestätigung für die Auftragsbestätigung für die Bereitstellung.
 
 
 Sie werden per E-Mail benachrichtigt, sobald Ihre dedizierten Hostinstanzen bereitgestellt sind.
 
-### Dedizierte Hostinstanzen über das Symbol 'Einheiten' bereitstellen
-Die zweite Option zum Bereitstellen dedizierter Hostinstanzen ist die Verwendung des Symbols **Einheiten** auf der Startseite des {{site.data.keyword.slportal}}s. Dieser Prozess umfasst die folgenden Schritte.
-
-1.	Klicken Sie auf das Symbol **Einheiten** und wählen Sie die Option **Stündlich** oder **Monatlich** unter 'Dedizierte virtuelle Server' aus.
-2.	Führen Sie die Schritte unter [Dedizierte Hostinstanzen über das Menü 'Einheiten' bereitstellen](#ordering-dedicated-devices-menu) ab Schritt 5 aus.
-
-### Nächste Schritte
+## Nächste Schritte
 Nachdem Ihr virtueller Server bereitgestellt ist, können Sie ihn verwalten. Weitere Informationen finden Sie unter [Virtuelle Server verwalten](../vsi/vsi_managing.html).
 
 

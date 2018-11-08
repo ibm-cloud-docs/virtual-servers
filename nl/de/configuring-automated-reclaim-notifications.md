@@ -19,7 +19,7 @@ lastupdated: "2018-05-11"
 
 # Benachrichtigungen für das Zurückfordern transienter virtueller Server konfigurieren
 
-Transiente virtuelle Server sind ihrer Art nach ephemer und können jederzeit beendet werden; dies führt möglicherweise zu Datenverlust. Hierbei können automatisierte Benachrichtigungen über ein Zurückfordern dazu beitragen, den Datenverlust zu verringern. Ist ein transienter, virtueller Server bereitgestellt, kann er so konfiguriert werden, dass **zwei Minuten** vor der tatsächlichen Beendigung eine Nachricht ausgegeben wird. Die Benachrichtigung ermöglicht es Ihnen, über ein Programm dafür zu sorgen, dass die gesamte aktuelle Verarbeitung beim transienten virtuellen Server beendet wird oder erforderliche Daten des transienten virtuellen Servers an andere Server übertragen werden. 
+Transiente virtuelle Server sind ihrer Art nach ephemer und können jederzeit beendet werden; dies führt möglicherweise zu Datenverlust. Hierbei können automatisierte Benachrichtigungen über ein Zurückfordern dazu beitragen, den Datenverlust zu verringern. Ist ein transienter, virtueller Server bereitgestellt, kann er so konfiguriert werden, dass **zwei Minuten** vor der tatsächlichen Beendigung eine Nachricht ausgegeben wird. Die Benachrichtigung ermöglicht es Ihnen, über ein Programm dafür zu sorgen, dass die gesamte aktuelle Verarbeitung beim transienten virtuellen Server beendet wird oder erforderliche Daten des transienten virtuellen Servers an andere Server übertragen werden.
 
 Die Benachrichtigung `reclaim-scheduled` ist ein Webhook; dies bedeutet, die Benachrichtigung wird über die HTTP-Anforderung POST an einen vom Benutzer bereitgestellten Endpunkt gesendet. Führen Sie für die Einrichtung und Verwendung des Webhooks folgende Schritte aus:
 

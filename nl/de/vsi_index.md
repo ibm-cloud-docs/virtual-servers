@@ -22,7 +22,8 @@ lastupdated: "2018-10-05"
 aus den virtuellen Serverimages Ihrer Wahl und in der geografischen Region bereitgestellt, die für Ihre Workloads geeignet ist.
 {:shortdesc}
 
-Lernen Sie unsere virtuellen Server in einer virtuellen privaten Cloud kennen! Weitere Informationen finden Sie im Abschnitt zu [IBM Cloud Virtual Server-Instanzen für eine VPC](../../docs/vsi-is/getting-started.html#gettingstartedvsigen).{:tip}
+Lernen Sie unsere virtuellen Server in einer virtuellen privaten Cloud kennen! Weitere Informationen finden Sie im Abschnitt zu [IBM Cloud Virtual Server-Instanzen für eine VPC](../../docs/vsi-is/getting-started.html#gettingstartedvsigen).
+{:tip}
 
 Wenn Sie einen virtuellen Server erstellen, können Sie zwischen einer öffentlichen Umgebung (Multi-Tenant-Funktionalität) und einer dedizierten Umgebung (Einzel-Tenant-Funktionalität) wählen. Abhängig von der gewählten Umgebung müssen Sie dann auch auf Stundenbasis abzurechnende, auf Monatsbasis abzurechnende oder transiente virtuelle Server auswählen. Im Falle öffentlicher virtueller Server wählen Sie auch aus, ob SAN-basierter Speicher oder lokaler Speicher verwendet werden soll.
 

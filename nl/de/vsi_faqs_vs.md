@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-02"
+lastupdated: "2018-10-30"
 
 
 ---
@@ -24,6 +24,9 @@ lastupdated: "2018-02-02"
 
 ## Wo finde ich Preisinformationen zu öffentlichen Instanztypen?
 Preisinformationen finden Sie unter [Eigenen virtuellen Server erstellen ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud-computing/bluemix/virtual-servers){: new_window}.
+
+## Wo finde ich Preisinformationen zu öffentlichen virtuellen Instanzen?
+Preisinformationen finden Sie in [Berechnungsfunktion für die Bereitstellung virtueller Server](https://www.ibm.com/cloud-computing/bluemix/virtual-servers/calculator).
 
 ## Kann ich Datenträger zu meinem virtuellen Server auf Stunden- oder Monatsbasis hinzufügen?
 Sie können ein Upgrade oder Downgrade für die Datenträger jedes beliebigen virtuellen Servers durchführen, indem Sie die Speicheroptionen in den Feldern *Erster Datenträger* bis *Fünfter Datenträger* in der Anzeige *Konfiguration* für die gewünschte Einheit ändern. Weitere Informationen finden Sie unter [Vorhandenen virtuellen Server neu konfigurieren](../vsi/vsi_reconfigure.html).
@@ -62,6 +65,10 @@ Ein virtueller Server entspricht weitgehend dem Konzept des virtuellen privaten 
 
 Virtuelle Server werden in einer Cloudarchitektur mit mehreren Servern bereitgestellt, die alle verfügbaren Hardwareressourcen zusammenfasst und für die Verwendung durch einzelne Instanzen bereitstellt. Virtuelle Server können auf eine gemeinsam genutzte, SAN-basierte primäre Speicherplattform mit hoher Leistung oder auf leistungsstarken lokalen Festplattenspeicher zurückgreifen. Da jede Instanz Teil der größeren Cloudumgebung ist, erfolgt die Kommunikation zwischen allen virtuellen Servern nahezu ohne Verzögerung.
 
-## Es kann keine Verbindung zur Virtualisierungs-API hergestellt werden. Wie kann ich dieses Problem beheben?
+<!--## I'm unable to connect to the virtualization API. How can I fix this?-->
 
-Dieser Fehler tritt in der Regel auf, weil ein Kennwort abgelaufen ist. Beheben Sie diesen Fehler, indem Sie das Root- oder Administratorkennwort für das Betriebssystem des virtuellen Servers im {{site.data.keyword.slportal_full}} aktualisieren.
+<!--This error generally occurs because a password is outdated. To fix this, update the root or Administrator password for the virtual server's operating system in the {{site.data.keyword.slportal_full}}.-->
+
+## Warum wird bei der Bereitstellung eines virtuellen Servers ein Kapazitätsfehler ausgegeben?
+
+Wenn Sie einen virtuellen Server bereitstellen, wird möglicherweise eine Fehlernachricht ausgegeben, in der Sie informiert werden, dass die Kapazität für die Ausführung der Anforderung nicht ausreicht. Wenn die Bereitstellung fehlschlägt, schlagen alle virtuellen Serverinstanzen innerhalb der betreffenden Anforderung fehl. Ein Kapazitätsfehler tritt auf, wenn im Router oder im Rechenzentrum nicht genügend Ressourcen für die Ausführung der Leistungsanforderung verfügbar sind. Es gibt eine Reihe von möglichen Ursachen für diesen Fehler. Die Ressourcenverfügbarkeit ändert sich häufig, sodass Sie möglicherweise warten und es später erneut versuchen möchten. Weitere Informationen über Strategien zur Vermeidung dieses Fehlers finden Sie in [Kapazitätsaspekte](https://console.bluemix.net/docs/vsi/ts_capacity_bp.html).

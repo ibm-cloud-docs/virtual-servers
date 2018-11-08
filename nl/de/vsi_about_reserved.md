@@ -21,7 +21,7 @@ lastupdated: "2018-10-04"
 
 Das {{site.data.keyword.BluVirtServers}}-Angebot für reservierte Instanzen ist eine hervorragende Option für alle, die nach garantierten Ressourcen für spätere Bereitstellungen sowie zum Einsparen von Kosten suchen. Sie können eine 1- oder 3-jährige Laufzeit für die reservierte Kapazität wählen. Im Rahmen dieser reservierten Kapazität können Sie eine Gruppe von bis zu 20 virtuellen Serverinstanzen einer bestimmten Größe wählen und diese Instanzen bereitstellen, sobald sie benötigt werden. Diese Kapazität wird Ihnen über die Laufzeit Ihres Vertrags im POD und Rechenzentrum Ihrer Wahl garantiert.
 
-Reservierte virtuelle Serverinstanzen bieten viele Vorzüge, z. B.: 
+Reservierte virtuelle Serverinstanzen bieten viele Vorzüge, z. B.:
 
 * **Garantierte Kapazität**
 
@@ -37,7 +37,7 @@ Reservierte virtuelle Serverinstanzen bieten viele Vorzüge, z. B.:
 
 * **Kosteneinsparungen**
     
-    Die Auswahl einer 1- oder 3-jährigen Vertragslaufzeit ermöglicht konstante monatliche Zahlungen und Kosteneinsparungen gegenüber Rechnungsstellungszyklen für virtuelle Server auf Stunden- oder Monatsbasis. 
+    Die Auswahl einer 1- oder 3-jährigen Vertragslaufzeit ermöglicht konstante monatliche Zahlungen und Kosteneinsparungen gegenüber Rechnungsstellungszyklen für virtuelle Server auf Stunden- oder Monatsbasis.
 
 ## Einschränkungen 
 
@@ -49,7 +49,7 @@ Vor dem Reservieren von Kapazität und Bereitstellen virtueller Serverinstanzen 
     
 ## Benachrichtigungen
 
-Einen Monat vor Ablauf des Vertrags über die reservierte virtuelle Serverkapazität erhalten Sie eine entsprechende E-Mail-Benachrichtigung. 
+Einen Monat vor Ablauf des Vertrags über die reservierte virtuelle Serverkapazität erhalten Sie eine entsprechende E-Mail-Benachrichtigung.
 
 ## Nächste Schritte
 

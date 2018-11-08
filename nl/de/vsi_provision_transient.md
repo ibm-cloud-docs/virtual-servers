@@ -19,7 +19,8 @@ lastupdated: "2018-10-03"
 
 # Transiente Instanzen bereitstellen
 {: #ordering-vs-transient}
-Sie können Ihre transienten virtuellen Serverinstanzen über den {{site.data.keyword.cloud}}-Katalog oder das {{site.data.keyword.slportal}} bereitstellen.{:shortdesc}
+Sie können Ihre transienten virtuellen Serverinstanzen über den {{site.data.keyword.cloud}}-Katalog oder das {{site.data.keyword.slportal}} bereitstellen.
+{:shortdesc}
 
 ## Vorbereitungen
 Überprüfen Sie die folgenden Voraussetzungen, bevor Sie beginnen.
@@ -54,7 +55,7 @@ Führen Sie die folgenden Schritte aus, um eine transiente virtuelle Serverinsta
   5. Klicken Sie auf **Zur Bestellung hinzufügen**, um fortzufahren.
   6. Bestätigen oder bearbeiten Sie die Domäneninformationen für den Server.
   7. Klicken Sie auf die Kontrollkästchen für Cloud-Service-Bedingungen**** und für Servicevereinbarungen Dritter****.
-  8. Bestätigen Sie Ihre Zahlungsinformationen oder geben Sie sie ein und klicken Sie auf **Bestellung absenden**. Eine Anzeige mit der Nummer Ihrer Bereitstellungsbestellung wird angezeigt. Drucken Sie diese Anzeige bei Bedarf. Sie ist auch die Bestätigung für die Auftragsbestätigung für die Bereitstellung. 
+  8. Bestätigen Sie Ihre Zahlungsinformationen oder geben Sie sie ein und klicken Sie auf **Bestellung absenden**. Eine Anzeige mit der Nummer Ihrer Bereitstellungsbestellung wird angezeigt. Drucken Sie diese Anzeige bei Bedarf. Sie ist auch die Bestätigung für die Auftragsbestätigung für die Bereitstellung.
 
  Mehrere E-Mails werden an Ihren Administrator gesendet: die Auftragsbestätigung für die Bereitstellungsbestellung, die Genehmigung und die Bearbeitungsnachricht für die Bereitstellung sowie die Fertigstellungsnachricht für die Bereitstellung. Über einen Link in der E-Mail, die die Fertigstellung der Bereitstellung mitteilt, gelangen Sie zu Ihrer Seite *Einheitendetails*.
 
