@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-28"
+lastupdated: "2018-10-30"
 
 
 ---
@@ -47,7 +47,7 @@ Procédez comme suit afin d'effectuer les tâches de gestion pour vos serveurs v
 
 * **Mise sous tension/hors tension**
 
-    Si le terminal a été mis hors tension, il reste à cet état et doit être mis sous tension manuellement à l'aide de la procédure ci-dessus. Les utilisateurs ne peuvent pas interagir avec un terminal lorsque ce dernier est hors tension. Si le terminal est sous tension, les utilisateurs peuvent interagir avec lui normalement. Il reste sous tension jusqu'à ce qu'une action soit effectuée. Si le serveur virtuel prend en charge la fonction d'interruption de facturation, la facturation est interrompue pour certaines ressources de traitement. Vous ne pouvez pas exécuter toutes les actions de gestion sur une instance tant que la facturation n'a pas repris. L'interruption de facturation n'est prise en charge que sur les nouvelles mises à disposition et non pas sur les instances existantes. Pour plus d'informations, voir [A propos de l'interruption de facturation (bêta)](vsi_about_suspend.html).
+    Si le terminal a été mis hors tension, il reste à cet état et doit être mis sous tension manuellement à l'aide de la procédure ci-dessus. Les utilisateurs ne peuvent pas interagir avec un terminal lorsque ce dernier est hors tension. Si le serveur virtuel prend en charge la fonction d'interruption de facturation, la facturation est interrompue pour certaines ressources de traitement. Vous ne pouvez pas exécuter toutes les actions de gestion sur une instance tant que la facturation n'a pas repris. Pour plus d'informations, voir [A propos de l'interruption de facturation (bêta)](vsi_about_suspend.html). Pour savoir si votre instance de serveur virtuel prend en charge la fonction d'interruption de facturation, voir [Affichage de la fonction d'interruption de facturation](vsi_viewing_suspend.html). Si le terminal a été mis sous tension, les utilisateurs peuvent interagir avec lui normalement. Il reste sous tension jusqu'à ce qu'une action soit effectuée.
 
 * **Attribution d'un nouveau nom**
 

@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-10-03"
+lastupdated: "2018-10-11"
 
 
 ---
@@ -39,7 +39,7 @@ Avant de commencer, passez en revue les conditions requises présentées ci-dess
 Après avoir rempli les conditions préalables, vous pouvez commencer à mettre à disposition une instance de serveur virtuel publique. Vous pouvez mettre à disposition votre instance publique via le catalogue {{site.data.keyword.cloud_notm}} ou le portail {{site.data.keyword.slportal}}.
 
 ### Mise à disposition d'une instance de serveur virtuel publique via le catalogue IBM Cloud
-Pour mettre à disposition une instance de serveur virtuel publique via {{site.data.keyword.cloud_notm}}, procédez comme suit :
+Pour mettre à disposition une instance de serveur virtuel publique via le catalogue {{site.data.keyword.cloud_notm}}, procédez comme suit :
 
   1. Connectez-vous au catalogue [{{site.data.keyword.cloud_notm}} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://console.bluemix.net/catalog/){: new_window} à l'aide de vos données d'identification uniques. 
   2. Dans la section **Infrastructure de calcul**, cliquez sur la vignette **Serveurs virtuels**.

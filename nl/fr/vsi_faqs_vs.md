@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-02"
+lastupdated: "2018-10-30"
 
 
 ---
@@ -24,6 +24,9 @@ lastupdated: "2018-02-02"
 
 ## Où puis-je trouver des informations de tarification pour les types d'instance publique ?
 Pour obtenir des informations de tarification, voir [Build your virtual server ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://www.ibm.com/cloud-computing/bluemix/virtual-servers){: new_window}.
+
+## Où puis-je trouver des informations de tarification pour les instances publiques virtuelles ?
+Pour obtenir des informations sur la tarification, voir [Virtual servers provisioning calculator](https://www.ibm.com/cloud-computing/bluemix/virtual-servers/calculator).
 
 ## Puis-je ajouter du stockage sur disque à mon serveur virtuel horaire ou mensuel ?
 Vous pouvez mettre à niveau ou rétromigrer le stockage sur disque pour tout serveur virtuel en mettant à jour vos options de stockage dans les zones *Premier disque* à *Cinquième disque* de l'écran *Configuration* du terminal que vous mettez à jour. Pour plus d'informations, voir [Nouvelle configuration d'un serveur virtuel existant](../vsi/vsi_reconfigure.html).
@@ -62,6 +65,10 @@ Un serveur virtuel est similaire aux plateformes de serveur privé virtuel (VPS)
 
 Les serveurs virtuels sont mis à disposition sur une architecture en cloud à plusieurs serveurs qui regroupe toutes les ressources matérielles disponibles pour les instances individuelles à utiliser. Les serveurs virtuels peuvent optimiser une plateforme de stockage principal de type SAN à haute capacité partagée ou un stockage de disque local à haute performances. Etant donné que chaque instance fait partie d'un environnement de cloud plus étendu, la communication entre tous les serveurs virtuels est instantanée.
 
-## Je n'arrive pas à me connecter à l'API de virtualisation. Comment puis-je résoudre ce problème ?
+<!--## I'm unable to connect to the virtualization API. How can I fix this?-->
 
-Cette erreur survient généralement lorsqu'un mot de passe est obsolète. Pour résoudre ce problème, mettez à jour le mot de passe root ou de l'administrateur pour le système d'exploitation du serveur virtuel dans le portail {{site.data.keyword.slportal_full}}.
+<!--This error generally occurs because a password is outdated. To fix this, update the root or Administrator password for the virtual server's operating system in the {{site.data.keyword.slportal_full}}.-->
+
+## Pour quelle raison une erreur de capacité s'affiche-t-elle lors de la mise à disposition d'un serveur virtuel ?
+
+Lorsque vous mettez à disposition un serveur virtuel, un message d'erreur indiquant que la demande ne peut aboutir en raison d'une capacité insuffisante s'affiche. Lorsque la mise à disposition échoue, toutes les instances de serveur virtuel faisant partie de cette demande spécifique échouent. Une erreur de capacité se produit lorsque le nombre de ressources disponibles est insuffisant dans le routeur ou dans le centre de données pour répondre à la demande de service. Il existe une série de raisons pour lesquelles cette erreur peut se produire. La disponibilité des ressources change fréquemment, et il est donc conseillé d'attendre et de réessayer plus tard. Pour plus d'informations sur les stratégies permettant d'éviter cette erreur, voir [Capacity considerations](https://console.bluemix.net/docs/vsi/ts_capacity_bp.html).

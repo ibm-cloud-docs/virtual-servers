@@ -24,7 +24,7 @@ Les serveurs virtuels transitoires offrent la flexibilité suivante :
 
 * **Disponibilité globale** 
 
-    L'offre de serveur virtuel transitoire est disponible dans les centres de données du monde entier. 
+    L'offre de serveur virtuel transitoire est disponible dans les centres de données du monde entier.
     
 * **Economies de coûts** 
 

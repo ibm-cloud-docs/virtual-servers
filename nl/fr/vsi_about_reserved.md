@@ -29,7 +29,7 @@ Les instances de serveur virtuel réservées offrent de nombreux avantages, nota
     
 * **Disponibilité globale**
     
-    L'offre de serveur virtuel réservé est disponible dans les centres de données du monde entier. 
+    L'offre de serveur virtuel réservé est disponible dans les centres de données du monde entier.
 
 * **Mise à disposition fiable**
    

@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-10-24"
 
 
 ---
@@ -22,32 +22,28 @@ lastupdated: "2017-10-24"
 Vous disposez de deux méthodes pour la mise à disposition de vos instances dédiées. Vous pouvez utiliser, soit le catalogue {{site.data.keyword.Bluemix}}, soit le portail {{site.data.keyword.slportal_full}}. Des ID de connexion uniques sont requis pour le catalogue et le portail {{site.data.keyword.slportal}}. Le nom d'utilisateur et le mot de passe du catalogue ne fonctionnent pas pour la connexion au portail et vice-versa. Pour configurer vos données d'identification permettant d'accéder au catalogue {{site.data.keyword.Bluemix_notm}} ou au portail {{site.data.keyword.slportal}}, voir [Inscription à {{site.data.keyword.Bluemix_notm}}](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window}
 {:shortdesc}
 
-## Connexion au catalogue IBM Cloud
-Procédez comme suit pour vous connecter au catalogue {{site.data.keyword.Bluemix_notm}} afin de lancer la mise à disposition de vos instances d'hôtes dédiées et de vos hôtes dédiés. 
+## Mise à disposition d'instances et d'hôtes dédiés
+Vous pouvez mettre à disposition vos instances et hôtes dédiés via {{site.data.keyword.cloud_notm}} ou le portail {{site.data.keyword.slportal}}.
 
-1. Ouvrez une fenêtre de navigateur et entrez [https://console.bluemix.net/catalog/](https://console.bluemix.net/catalog/){: new_window}.
-2.	Cliquez sur le lien **Se connecter** (coin supérieur droit). 
-3.	Entrez votre adresse électronique ou votre ID IBM puis cliquez sur **Continuer**.
-4.	Entrez votre mot de passe puis cliquez sur **Se connecter**.
-5.	Sélectionnez **Infrastructure > Calcul**.
-6.  Cliquez sur **Serveurs virtuels**.
-7.	Sélectionnez l'option **Serveurs virtuels dédiés**.
-8.  Cliquez sur **Créer**. 
+### Mise à disposition d'instances et d'hôtes dédiés via le catalogue IBM Cloud 
+Pour mettre à disposition vos instances et vos hôtes dédiés via le catalogue {{site.data.keyword.cloud_notm}}, procédez comme suit : 
 
-La page principale du portail {{site.data.keyword.slportal}} s'affiche.
+1. Connectez-vous au catalogue [{{site.data.keyword.cloud_notm}} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://console.bluemix.net/catalog/){: new_window} à l'aide de vos données d'identification uniques. 
+2. Dans la section **Infrastructure de calcul**, cliquez sur la vignette **Serveurs virtuels**.
+3. Sélectionnez l'option **Serveur virtuel dédié**.
+4. Cliquez sur **Créer**.
+5. Dans la section **Hôte dédié**, vous pouvez sélectionner **Créer un hôte** afin de créer un nouvel hôte dédié, ou **Spécifier l'hôte** afin d'effectuer une sélection dans votre liste d'hôtes dédiés existants.
+6. Complétez toutes les informations pertinentes pour votre hôte dédié et votre instance de serveur virtuel dédiée. 
+7. Après avoir examiné le récapitulatif de votre commande, cliquez sur la case **Accords de service tiers**.
+8. Cliquez sur **Mettre à disposition**. 
 
-## Connexion au portail client
-Procédez comme suit pour vous connecter au portail {{site.data.keyword.slportal}} afin de commencer la commande de vos hôtes dédiés et de vos instances d'hôte dédiées.
+### Mise à disposition d'instances et d'hôtes dédiés via le portail client
+Pour mettre à disposition vos hôtes dédiés et vos instances d'hôte dédiées via le portail {{site.data.keyword.slportal}}, procédez comme suit :
 
-1.	Ouvrez une nouvelle fenêtre de navigateur et entrez [https://control.softlayer.com](https://control.softlayer.com){: new_window}. 
-2.	Entrez votre nom d'utilisateur et votre mot de passe puis cliquez sur **Se connecter** OU cliquez sur **Connexion par ID IBM**.
-3.	Entrez votre adresse électronique ou votre ID IBM puis cliquez sur **Continuer**.
-4.	Entrez votre mot de passe puis cliquez sur **Se connecter**.
+1. Connectez-vous au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){: new_window} en utilisant vos données d'identification uniques.
 
-La page principale du portail {{site.data.keyword.slportal}} s'affiche.
-
-## Mise à disposition de votre hôte dédié 
-Procédez comme suit pour mettre à disposition vos hôtes dédiés.
+#### Mise à disposition de votre hôte dédié 
+Procédez comme suit pour mettre à disposition vos hôtes dédiés :
 
 1.	Cliquez sur l'icône **Unités**.
 2.  Cliquez sur le lien **Serveur virtuel dédié à l'heure** ou **Serveur virtuel dédié au mois**. 
@@ -117,14 +113,10 @@ La page de configuration du serveur Cloud** s'affiche. Sur cette page, vous pouv
 
     Plusieurs messages électroniques sont envoyés à votre administrateur (accusé de réception de la commande de mise à disposition, approbation et traitement de la commande de mise à disposition et mise à disposition terminée). Le message électronique indiquant que la mise à disposition est terminée inclut un lien vous dirigeant directement vers la page **Détails de l'unité** après la connexion à {{site.data.keyword.Bluemix_notm}}. Vous pouvez également vous connecter directement au portail {{site.data.keyword.slportal}}.
 
-## Mise à disposition de vos instances d'hôte dédiées
+#### Mise à disposition de vos instances d'hôte dédiées
 {: #provision-dedicated-instances}
-Vous pouvez mettre à disposition vos instances d'hôte dédiées de deux manières, via l'icône **Unités** ou le menu **Unités**.
 
-### Mise à disposition de vos instances d'hôte dédiées via le menu Unités
-{: #ordering-dedicated-devices-menu}
-
-La première méthode consiste à mettre à disposition vos instances d'hôte dédiées via le menu **Unités** sur la page principale du portail {{site.data.keyword.slportal}}. Pour cela, suivez la procédure présentée ci-dessous.
+Pour mettre à disposition vos instances d'hôte dédiées via le portail {{site.data.keyword.slportal}}, procédez comme suit :
 
 1.	Cliquez sur **Unités > Liste des unités**. 
  
@@ -244,13 +236,7 @@ La première méthode consiste à mettre à disposition vos instances d'hôte d�
 
 Une fois vos instances d'hôte dédiées mises à disposition, vous recevez un message électronique.
 
-### Mise à disposition de vos instances d'hôte dédiées via l'icône Unités
-La seconde méthode de mise à disposition d'instances d'hôte dédiées consiste à utiliser l'icône **Appareil** sur la page principale du portail {{site.data.keyword.slportal}}. Pour cela, suivez la procédure présentée ci-dessous.
-
-1.	Cliquez sur l'icône **Unités** et sélectionnez **Horaire** ou **Mensuel** sous Serveurs virtuels dédiés.
-2.	Suivez la procédure [Mise à disposition de vos instances d'hôte dédiées via le menu Unités](#ordering-dedicated-devices-menu), à partir de l'étape 5.
-
-### Etapes suivantes
+## Etapes suivantes
 Une fois que votre serveur virtuel est mis à disposition, vous pouvez commencer à le gérer. Pour plus d'informations, voir [Gestion des serveurs virtuels](../vsi/vsi_managing.html).
 
 

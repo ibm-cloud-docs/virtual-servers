@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-10-08"
+lastupdated: "2018-10-29"
 
 
 ---
@@ -15,15 +15,19 @@ lastupdated: "2018-10-08"
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:tip: .tip}
+{:note: .note}
+{:important: .important}
 {:table: .aria-labeledby="caption"}
 
-# A propos de l'interruption de facturation (bêta)
+# A propos de l'interruption de facturation
 {: #requirements}
 
-Quand vous mettez hors tension un serveur virtuel prenant en charge la fonction d'interruption de facturation, les coûts relatifs à certaines ressources de traitement ne sont pas décomptés. La facturation s'arrête automatiquement quand le serveur est mis hors tension. La fonction d'interruption de facturation vous permet de réduire les coûts et vous évite d'avoir à remettre à disposition un serveur virtuel quand vous avez à nouveau besoin de ses ressources. L'interruption de facturation n'est prise en charge que sur les nouvelles mises à disposition et non pas sur les instances existantes.
+Lorsque vous mettez hors tension un serveur virtuel prenant en charge la fonction d'interruption de facturation, les coûts relatifs à certaines ressources de traitement ne sont pas décomptés. La facturation s'arrête automatiquement lorsque le serveur est mis hors tension. La fonction d'interruption de facturation vous permet de réduire les coûts et vous évite d'avoir à remettre à disposition un serveur virtuel quand vous avez à nouveau besoin de ses ressources.
 {:shortdesc}
 
-Cette fonction est disponible dans les centres de données du monde entier. Pour avoir accès à la fonction d'interruption de facturation, vous devez mettre à disposition la nouvelle instance de serveur virtuel en utilisant l'API {{site.data.keyword.slapi_short}} pour spécifier le package de suspension de facturation. La nouvelle instance de serveur virtuel doit être configurée avec les paramètres suivants :
+La plupart des instances de serveur virtuel créées avant le 1er novembre 2018 ne prennent pas en charge la fonction d'interruption de facturation. Pour savoir si votre instance de serveur virtuel prend en charge la fonction d'interruption de facturation, voir [Affichage de la fonction d'interruption de facturation](vsi_viewing_suspend.html).  
+
+Cette fonction est disponible dans les centres de données du monde entier. Pour qu'une instance de serveur virtuel prenant en charge la fonction d'interruption de facturation puisse être mise à disposition, elle doit être configurée avec les paramètres suivants :
 
 * SAN horaire
 * Versions publiques de l'une des familles suivantes :
@@ -31,16 +35,23 @@ Cette fonction est disponible dans les centres de données du monde entier. Pour
   * Compute
   * Memory
 
-Vous pouvez utiliser la fonction d'interruption de facturation comme une alternative plus rapide à la mise à disposition/hors disposition d'une instance de serveur virtuel.
+Vous pouvez utiliser la fonction d'interruption de facturation comme une alternative plus rapide à la mise à disposition et à la récupération d'une instance de serveur virtuel.
 {:tip}
 
-**Remarque :** la facturation est uniquement suspendue lorsque vous mettez hors tension votre instance de serveur virtuel via le portail {{site.data.keyword.slportal_full}}, l'interface de ligne de commande ou l'API {{site.data.keyword.slapi_short}}. Si vous mettez hors tension votre instance de serveur virtuel directement à travers le système d'exploitation, la facturation n'est pas suspendue pour cette instance.
+La facturation est uniquement suspendue lorsque vous mettez hors tension votre instance de serveur virtuel via le portail {{site.data.keyword.slportal_full}}, l'interface de ligne de commande ou l'API {{site.data.keyword.slapi_short}}. Si vous mettez hors tension votre instance de serveur virtuel directement à travers le système d'exploitation, la facturation n'est pas suspendue pour cette instance.
+{:note}
 
-## Mise à disposition
+## Détails de la mise à disposition
 
-Pour la bêta, pour mettre à disposition une instance de serveur virtuel prenant en charge la fonction d'interruption de facturation, vous devez utiliser l'API {{site.data.keyword.slapi_short}}. Pour des exemples d'API, voir [Mise à disposition d'une instance publique en utilisant Place Order Object](../vsi/vsi_provision_api.html#provisioning-a-public-instance-using-place-order-object). 
+Vous pouvez mettre à disposition une instance de serveur virtuel prenant en charge la fonction d'interruption de facturation via le catalogue {{site.data.keyword.cloud_notm}}, l'interface de ligne de commande ou l'API {{site.data.keyword.slapi_short}}. Pour plus d'informations sur la mise à disposition d'instances de serveur virtuel publiques, voir [Mise à disposition d'instances publiques](../vsi/vsi_provision_public.html).
 
-Vous devez aussi spécifier l'ID de package de suspension de facturation spécifique durant le processus de mise à disposition. Vous pouvez effectuer une requête relative à l'ID de package de suspension de facturation dans l'API {{site.data.keyword.slapi_short}} en utilisant le nom de clé keyName `SUSPEND_CLOUD_SERVER`. Pour un exemple de recherche des packages de serveur, voir [Understanding and building an order using the {{site.data.keyword.slapi_short}} order CLI ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://softlayer.github.io/article/understanding-ordering/){: new_window}.
+Pour le catalogue {{site.data.keyword.cloud_notm}}, vous devez posséder un compte mis à niveau afin de commander des serveurs virtuels. Pour plus d'informations sur la mise à niveau de votre compte, voir [Basculement sur IBMid](https://console.bluemix.net/docs/admin/softlayerlink.html).
+{:note}
+
+### Mise à disposition via l'API Softlayer
+Vous pouvez mettre à disposition une instance de serveur virtuel prenant en charge la fonction d'interruption de facturation via l'API {{site.data.keyword.slapi_short}}. Pour obtenir des exemples d'API, voir [Mise à disposition d'une instance publique en utilisant Place Order Object](../vsi/vsi_provision_api.html#provisioning-a-public-instance-using-place-order-object). 
+
+Vous devez spécifier l'ID de package d'interruption de facturation spécifique durant le processus de mise à disposition. Vous pouvez effectuer une requête relative à l'ID de package de suspension de facturation dans l'API {{site.data.keyword.slapi_short}} en utilisant le nom de clé keyName `SUSPEND_CLOUD_SERVER`. Pour un exemple de recherche des packages de serveur, voir [Understanding and building an order using the {{site.data.keyword.slapi_short}} order CLI ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://softlayer.github.io/article/understanding-ordering/){: new_window}.
 
 ## Détails de facturation
 
@@ -57,10 +68,10 @@ Il est important de distinguer/connaître les coûts qui ne sont pas décomptés
 | Stockage                       |                   |         X        |
 {: caption="Tableau 1. Détails de facturation des ressources" caption-side="top"}   
 
-**Remarque :** quand vous mettez à disposition une instance de serveur virtuel qui prend en charge la fonction d'interruption de facturation, les durées d'utilisation sont calculées par minute, aussi bien pour la durée en utilisation que celle en période d'interruption d'utilisation de votre instance de serveur virtuel. Même si vous n'avez jamais initié la fonction d'interruption de facturation en mettant votre instance hors tension, la facturation est calculée par minute de cycle de vie de l'instance. 
+Lorsque vous mettez à disposition une instance de serveur virtuel qui prend en charge la fonction d'interruption de facturation, les durées d'utilisation sont calculées par minute, aussi bien pour la durée d'utilisation que pour la durée d'interruption de votre instance de serveur virtuel. Même si vous n'avez jamais initié la fonction d'interruption de facturation en mettant votre instance hors tension, la facturation est calculée par minute de cycle de vie de l'instance.{:note}
 
 ### Charge d'utilisation minimale
-Les instances de serveur virtuel qui prennent en charge la fonction d'interruption de facturation ont une charge d'utilisation minimale par mois. Si l'utilisation est supérieure à 25 %, vous êtes facturé pour cette utilisation. Si elle est inférieure à 25 %, vous payez 25 % des heures durant lesquelles l'instance a existé au sein du cycle de facturation actuel. 
+Les instances de serveur virtuel qui prennent en charge la fonction d'interruption de facturation ont une charge d'utilisation minimale qui s'applique dans certains cas. Si l'utilisation est supérieure à 25 %, vous êtes facturé pour cette utilisation. Si elle est inférieure à 25 %, vous payez 25 % des heures durant lesquelles l'instance a existé au sein du cycle de facturation actuel. 
 
 ### Facture et facturation
 Quand vous interrompez la facturation sur un serveur virtuel, quelques changements sont apportés sur votre facture. Les charges respectives apparaissent désormais sous forme d'informations avec détails d'utilisation. Vous verrez, par exemple, les ajouts ci-après qui reflètent les heures disponibles, les heures utilisées et le nombre total d'heures facturées :
@@ -76,20 +87,19 @@ Operating system usage...
 
 ### Stockage
 
-Quand vous interrompez la facturation sur une instance de serveur virtuel, le stockage associé est conservé mais vous ne pouvez pas accéder aux données tant que l'instance de serveur virtuel est hors tension. Quand vous reprenez la facturation sur l'instance, vous pouvez accéder à vos données et la facturation normale recommence.
+Lorsque vous interrompez la facturation sur une instance de serveur virtuel, la facturation du stockage associé continue mais vous ne pouvez pas accéder aux données stockées tant que l'instance de serveur virtuel est hors tension. Lorsque vous reprenez la facturation sur l'instance, vous pouvez de nouveau accéder à vos données. 
 
 ### Adresses IP
 
 Toutes les adresses IP publiques sont conservées quand la facturation est interrompue pour votre instance de serveur virtuel.
 
-Vous pouvez voir si votre unité est arrêtée, ainsi que la date effective à laquelle le statut a changé, via l'API {{site.data.keyword.slapi_short}} ou en accédant à la page Détails de l'unité dans le portail {{site.data.keyword.slportal_full}}.
-
 ### Limitations
 
-Le nombre d'instances simultanées prises en charge dépend du quota d'unités de votre compte. Pour en savoir plus sur les limites d'instances simultanées, voir la section [Foire aux questions : serveurs virtuels](vsi_faqs_vs.html#concurrent).
+Les instances de serveur virtuel qui sont interrompues continuent d'être prises en compte dans le quota d'unités à l'échelle du compte. Pour en savoir plus sur les limites d'instance, voir la section [Foire aux questions : serveurs virtuels](vsi_faqs_vs.html#concurrent).
 
 ## Etapes suivantes
 Après avoir mis à disposition un serveur virtuel prenant en charge l'interruption de facturation, vous pouvez commencer à interrompre et reprendre la facturation sur l'unité.
-Quand la facturation est interrompue sur une instance de serveur virtuel, vous ne pouvez pas effectuer sur l'instance toutes les actions habituelles tant que vous n'avez pas repris la facturation pour l'unité.
+
+Lorsque la facturation est interrompue sur une instance de serveur virtuel, vous ne pouvez pas effectuer sur l'instance toutes les actions habituelles tant que la facturation pour l'unité n'a pas repris. Vous pouvez voir si votre unité est arrêtée, ainsi que la date effective à laquelle le statut a changé, via l'API {{site.data.keyword.slapi_short}} ou en accédant à la page Détails de l'unité dans le portail {{site.data.keyword.slportal}}.
 
 Pour interrompre la facturation sur une instance de serveur virtuel, mettez le serveur virtuel hors tension. Pour plus d'informations, voir [Gestion des serveurs virtuels](vsi_managing.html).

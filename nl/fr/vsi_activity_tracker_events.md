@@ -27,7 +27,7 @@ Le service {{site.data.keyword.cloudaccesstrailshort}} enregistre les activités
 
 Pour commencer à surveiller les actions de vos utilisateurs, veuillez vous reporter à [{{site.data.keyword.cloudaccesstrailfull_notm}}](/docs/services/cloud-activity-tracker/index.html#getting-started-with-cla). 
 
-L'initiateur peut être un utilisateur, un service ou une application. Pour qu'un utilisateur puisse générer des événements, il doit avoir accès aux ressources **d'infrastructure** dans la console {{site.data.keyword.Bluemix}}.
+L'initiateur peut être un utilisateur, un service ou une application. Pour qu'un utilisateur puisse générer des événements, il doit avoir accès aux ressources **d'infrastructure** dans la console {{site.data.keyword.Bluemix}}. 
 {: tip}
 
 ## Evénements de connexion
@@ -79,4 +79,4 @@ Le tableau ci-dessous répertorie les actions qui génèrent un événement :
 
 Les événements d'{{site.data.keyword.cloudaccesstrailshort}} sont disponibles dans le **domaine de compte** d'{{site.data.keyword.cloudaccesstrailshort}} disponible dans la région {{site.data.keyword.Bluemix_notm}} dans laquelle les événements sont générés. Pour en savoir plus, voir [Affichage des événements de compte](/docs/services/cloud-activity-tracker/how-to/manage-events-ui/viewing_events.html#account_events).
 
-Les événements d'{{site.data.keyword.cloudaccesstrailshort}} sont automatiquement renvoyés au service {{site.data.keyword.cloudaccesstrailshort}} dans la région dans laquelle l'action se produit. 
+Les événements d'{{site.data.keyword.cloudaccesstrailshort}} sont automatiquement renvoyés au service {{site.data.keyword.cloudaccesstrailshort}} dans la région dans laquelle l'action se produit.

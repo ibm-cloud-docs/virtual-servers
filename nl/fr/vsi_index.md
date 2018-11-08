@@ -49,7 +49,7 @@ Une fois que vous avez choisi une option de déploiement, commencez le processus
 | -------------------------------------------------------------------------- | ------------------------------------------------------- |
 |[Mise à disposition d'instances publiques](../vsi/vsi_provision_public.html)                | Mise à disposition d'instances publiques avec plusieurs options             |
 |[Mise à disposition d'instances transitoires](../vsi/vsi_provision_transient.html)                | Mise à disposition d'instances transitoires avec plusieurs options            |
-|[Mise à disposition de capacité et d'instances réservées](../vsi/vsi_provision_reserved.html)            |Mise à disposition de capacité et d'instances réservées avec plusieurs options |
+|[Mise à disposition de capacité et d'instances réservées](../vsi/vsi_provision_reserved.html)            | Mise à disposition de capacité et d'instances réservées avec plusieurs options |
 |[Mise à disposition d'instances et d'hôtes dédiés](../vsi/vsi_provision_dedicated.html)| Mise à disposition d'instances privées ou d'instances dédiées sur des hôtes dédiés.|
 {: caption="Tableau 2. Informations de mise à disposition" caption-side="top"}
 

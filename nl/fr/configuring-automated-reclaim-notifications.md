@@ -67,7 +67,7 @@ Pour vérifier les notifications `reclaim-scheduled`, contrôlez les éléments 
 
 2. Nonce trouvé dans l'en-tête "X-IBM-Nonce" de la demande
 
-   Cette valeur est une chaîne qui est générée de façon aléatoire quand la demande est envoyée. Vous pouvez choisir de stocker les nonces reçus pour les comparer au nonce inclus dans la demande. Si le nonce de la demande a été utilisé auparavant, n'acceptez pas la demande, afin de prévenir tout risque d'attaque par réinsertion.
+   Cette valeur est une chaîne qui est générée de façon aléatoire quand la demande est envoyée. Vous pouvez choisir de stocker les nonces reçus pour les comparer au nonce inclus dans la demande. Si le nonce de la demande a été utilisé auparavant, n'acceptez pas la demande , afin de prévenir tout risque d'attaque par réinsertion.
 
 3. Code HMAC (Hash Message Authentication Code) figurant dans l'en-tête "Authorization" de la demande
 

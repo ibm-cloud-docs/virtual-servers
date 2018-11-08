@@ -26,6 +26,7 @@ Serveurs virtuels IBM Cloud
         vsi_ps_index.md
 
     vsi_image_templates_intro.md
+    vsi_placegroup.md
 
     {: .topicgroup}
     Options de sécurité
@@ -89,6 +90,7 @@ Serveurs virtuels IBM Cloud
         vsi_managing.md
             vsi_add_script.md
             vsi_vulnerability_scans.md
+            vsi_viewing_suspend.md
             vsi_bandwidth-graphs.md
         vsi_managing_dedicated.md
         vsi_device_access.md
@@ -122,6 +124,10 @@ Serveurs virtuels IBM Cloud
         [Mise à jour d'une instance pour utiliser un serveur WSUS local](../infrastructure/software/local-wsus.html)
         vsi_gpu_nvidia_drivers.md
  
+    {: .topicgroup}
+    Gestion des groupes de placement
+        vsi_managing_placegroup.md
+    
     {: .topicgroup}
     Migration
         vsi_migrating_dedicated.md
