@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-10-03"
+lastupdated: "2018-10-11"
 
 
 ---
@@ -39,7 +39,7 @@ Antes de iniciar, revise os pré-requisitos a seguir.
 Depois de preencher os pré-requisitos, é possível começar a fornecer uma instância de servidor virtual pública. É possível fornecer a instância pública por meio do catálogo do {{site.data.keyword.cloud_notm}} ou do {{site.data.keyword.slportal}}.
 
 ### Fornecendo uma instância de servidor virtual pública por meio do catálogo do IBM Cloud
-Para fornecer uma instância de servidor virtual pública por meio do {{site.data.keyword.cloud_notm}}, conclua as etapas a seguir:
+Para fornecer uma instância de servidor virtual pública por meio do catálogo do {{site.data.keyword.cloud_notm}}, conclua as seguintes etapas:
 
   1. Efetue login no catálogo do [{{site.data.keyword.cloud_notm}}![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://console.bluemix.net/catalog/){: new_window} usando as credenciais exclusivas. 
   2. Na seção **Infraestrutura de cálculo**, clique no bloco **Virtual Servers**.

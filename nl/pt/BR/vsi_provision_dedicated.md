@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-10-24"
 
 
 ---
@@ -22,31 +22,27 @@ lastupdated: "2017-10-24"
 Você tem duas opções sobre como provisionar suas instâncias dedicadas. O primeiro é por meio do catálogo do {{site.data.keyword.Bluemix}} e o segundo é por meio do {{site.data.keyword.slportal_full}}. O catálogo e o {{site.data.keyword.slportal}} requerem IDs de login exclusivos. Seu nome do usuário e senha do catálogo não funcionarão para efetuar login no portal e vice-versa. Veja [Inscrevendo-se para o {{site.data.keyword.Bluemix_notm}}](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window} para configurar o catálogo do {{site.data.keyword.Bluemix_notm}} ou as credenciais do {{site.data.keyword.slportal}}.
 {:shortdesc}
 
-## Efetuar login no catálogo do IBM Cloud
-Use as etapas a seguir para efetuar login no catálogo do {{site.data.keyword.Bluemix_notm}} para começar a provisionar seus hosts dedicados e instâncias de host dedicado. 
+## Provisionando hosts e instâncias dedicadas
+É possível fornecer os hosts e as instâncias dedicados por meio do {{site.data.keyword.cloud_notm}} ou do {{site.data.keyword.slportal}}.
 
-1. Abra uma nova janela do navegador e insira [https://console.bluemix.net/catalog/](https://console.bluemix.net/catalog/){: new_window}.
-2.	Clique no link **Efetuar login** (canto superior direito). 
-3.	Insira seu e-mail ou IBMid e clique em **Continuar**.
-4.	Insira sua senha e clique em **Efetuar login**.
-5.	Selecione **Infraestrutura > Calcular**.
-6.  Clique no tile **Virtual Servers**.
-7.	Selecione a opção **Virtual Servers dedicados**.
-8.  Clique em **Criar**. 
+### Fornecimento de hosts e instâncias dedicados por meio do catálogo do IBM Cloud 
+Para fornecer os hosts dedicados e as instâncias de host dedicadas por meio do catálogo do {{site.data.keyword.cloud_notm}}, conclua as etapas a seguir: 
 
-Você estará na página principal do {{site.data.keyword.slportal}}.
+1. Efetue login no catálogo do [{{site.data.keyword.cloud_notm}}![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://console.bluemix.net/catalog/){: new_window} usando as credenciais exclusivas. 
+2. Na seção **Infraestrutura de cálculo**, clique no bloco **Virtual Servers**.
+3. Selecione a opção **Virtual Server dedicado**.
+4. Clique em **Criar**.
+5. Na seção **Host dedicado**, é possível selecionar **Criar host**, para criar um novo host dedicado, ou **Especificar host**, para selecionar dos hosts dedicados existentes.
+6. Preencha todas as informações relevantes para o host dedicado e instância de servidor virtual dedicada.
+7. Depois de revisar o resumo do pedido, clique na caixa de seleção **Contrato de Prestação de Serviços de terceiro**.
+8. Clique em **Provisão**. 
 
-## Efetuar login no Portal do Cliente
-Use as etapas a seguir para efetuar login no {{site.data.keyword.slportal}} para iniciar o pedido para seus hosts dedicados e instâncias de host dedicado.
+### Fornecimento de hosts e instâncias dedicados por meio do portal do cliente
+Para fornecer os hosts dedicados e as instâncias de host dedicadas por meio do {{site.data.keyword.slportal}}, conclua as etapas a seguir:
 
-1.	Abra uma nova janela do navegador e insira [https://control.softlayer.com](https://control.softlayer.com){: new_window}. 
-2.	Insira seu Nome do usuário e Senha e clique em **Efetuar login** OU clique em **Efetuar login com o IBMid**.
-3.	Insira seu e-mail ou IBMid e clique em **Continuar**.
-4.	Insira sua Senha e clique em **Efetuar login**.
+1. Efetue login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window} usando suas credenciais exclusivas.
 
-Você estará na página principal do {{site.data.keyword.slportal}}.
-
-## Provisionar seu host dedicado 
+#### Fornecimento do host dedicado 
 Use as etapas a seguir para provisionar seus hosts dedicados.
 
 1.	Clique no ícone **Dispositivos**.
@@ -117,14 +113,11 @@ Você é conduzido para a página *Configurar seu servidor em nuvem*. Nessa pág
 
     Uma série de e-mails é enviada a seu administrador — confirmação, aprovação e processamento da ordem de fornecimento, e fornecimento concluído. O e-mail completo de fornecimento incluirá um link que o levará diretamente para sua página **Detalhes do dispositivo**, depois de efetuar login no {{site.data.keyword.Bluemix_notm}}. Outra opção seria registrar-se diretamente no {{site.data.keyword.slportal}}.
 
-## Provisionar sua instância de host dedicado
+#### Fornecimento das instâncias de host dedicadas
 {: #provision-dedicated-instances}
-É possível provisionar suas instâncias de host dedicado de duas maneiras, por meio do menu **Dispositivos** ou do ícone **Dispositivos**.
 
-### Provisionando suas instâncias de host dedicado por meio do menu Dispositivos
-{: #ordering-dedicated-devices-menu}
-
-Sua primeira opção é provisionar suas instâncias de host dedicado por meio do menu **Dispositivos** da página principal do {{site.data.keyword.slportal}}. As etapas a seguir conduzem você por esse processo.
+Para fornecer as instâncias de host dedicadas por meio do {{site.data.keyword.slportal}}, conclua as
+etapas a seguir:
 
 1.	Clique em **Dispositivos > Lista de dispositivos**. 
  
@@ -244,13 +237,7 @@ Sua primeira opção é provisionar suas instâncias de host dedicado por meio d
 
 Você receberá um e-mail quando suas instâncias de host dedicado tiverem sido provisionadas.
 
-### Fornecendo suas instâncias do host dedicado por meio do ícone Dispositivos
-A segunda opção para provisionar instâncias de host dedicado é usar o ícone **Dispositivo** na página inicial do {{site.data.keyword.slportal}}. As etapas a seguir conduzem você por esse processo.
-
-1.	Clique no ícone **Dispositivos** e selecione **Por hora** ou **Mensal** em Virtual Servers dedicados.
-2.	Siga as etapas em [Provisionando suas instâncias de host dedicado por meio do menu Dispositivos](#ordering-dedicated-devices-menu), iniciando com a Etapa 5.
-
-### Próximas Etapas
+## Próximas Etapas
 Depois que seu servidor virtual for provisionado, será possível começar a gerenciá-lo. Para obter mais informações, veja [Gerenciando servidores virtuais](../vsi/vsi_managing.html).
 
 

@@ -34,7 +34,7 @@ O tráfego de rede para os servidores virtuais públicos, que engloba a SAN da V
 rede, não tem garantia. Se o tráfego de rede de uma instância de servidor virtual começar a ter um impacto
 negativo significativo em outros servidores virtuais, essa instância poderá ser reiniciada em um novo host ou, em casos
 extremos, desativada completamente. Esse impacto negativo é frequentemente observado à medida que os níveis de tráfego
-se aproximam de 20 mil a 30 mil pacotes por segundo (PPS). Para uma rede garantida, o uso da oferta Virtual Server
+se aproximam de 20 mil a 30 mil pacotes por segundo (PPS).  Para uma rede garantida, o uso da oferta Virtual Server
 dedicado é recomendado. Para obter mais informações, consulte a oferta
 [Servidor virtual dedicado](../vsi/vsi_dedicated.html) com ambiente de único locatário.
 

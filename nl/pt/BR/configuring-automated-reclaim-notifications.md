@@ -23,7 +23,7 @@ Servidores virtuais temporários são, por natureza, efêmeros e podem ser final
 
 A notificação `reclaim-scheduled` é um webhook, o que significa que a notificação é enviada por uma solicitação de POST HTTP para um terminal fornecido pelo usuário. Conclua as etapas a seguir para configurar e usar o webhook:
 
-1. Forneça uma instância de servidor virtual temporária.
+1. Forneça uma instância do servidor virtual temporário.
 2. Configure o webhook.
 3. Verifique as solicitações do webhook.
 

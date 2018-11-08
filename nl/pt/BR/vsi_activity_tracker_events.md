@@ -31,7 +31,7 @@ mudam o estado de um serviço no {{site.data.keyword.Bluemix_notm}}. Para obter 
 
 Para começar a monitorar as ações do usuário, consulte [{{site.data.keyword.cloudaccesstrailfull_notm}}](/docs/services/cloud-activity-tracker/index.html#getting-started-with-cla). 
 
-Um inicializador pode ser um usuário, um serviço ou um aplicativo. Para que um usuário gere eventos, ele deve ter acesso aos recursos de **Infraestrutura** no console do {{site.data.keyword.Bluemix}}.
+Um inicializador pode ser um usuário, um serviço ou um aplicativo. Para que um usuário gere eventos, ele deve ter acesso aos recursos de **Infraestrutura** no console do {{site.data.keyword.Bluemix}}. 
 {: tip}
 
 ## Eventos de login
@@ -41,7 +41,7 @@ A tabela a seguir lista a ação que gera um evento de login:
 
 | Ação | Descrição |
 |----------|---------|
-| `audit-log.user.login`  |Um evento é gerado quando um inicializador efetua login no {{site.data.keyword.Bluemix}} por meio da UI do {{site.data.keyword.Bluemix}} ou do {{site.data.keyword.slportal}}.| 
+| `audit-log.user.login`  | Um evento é gerado quando um inicializador efetua login no {{site.data.keyword.Bluemix}} por meio da UI do {{site.data.keyword.Bluemix}} ou do {{site.data.keyword.slportal}}. | 
 {: caption="Tabela 1. Ação de login" caption-side="top"} 
 
 
@@ -54,26 +54,26 @@ A tabela a seguir lista as ações que geram um evento:
 
 | Ação | Descrição |
 |----------|---------|
-| `audit-log.vsi.provision`             |Um evento é gerado quando um inicializador fornece uma VSI.| 
-| `audit-log.vsi-port.disable`          |Um evento é gerado quando um inicializador desativa uma porta em uma VSI.| 
-| `audit-log.vsi-port.enable`           |Um evento é gerado quando um inicializador ativa uma porta em uma VSI.| 
-| `audit-log.vsi-port-speed.update`     |Um evento é gerado quando um inicializador atualiza a velocidade da porta em uma VSI.|
-| `audit-log.vsi-image-template.create` |Um evento é gerado quando um inicializador cria um modelo de imagem para uma VSI.|
-| `audit-log.vsi.power-off`             |Um evento é gerado quando um iniciador desliga uma VSI.|
-| `audit-log.vsi.soft-power-off`        |Um evento é gerado quando um inicializador faz desligamento suave em uma VSI.|
-| `audit-log.vsi.force-power-off`       |Um evento é gerado quando um inicializador faz um desligamento forçado em uma VSI.|
-| `audit-log.vsi.reboot`                |Um evento é gerado quando um inicializador reinicializa uma VSI.| 
-| `audit-log.vsi.soft-reboot`           |Um evento é gerado quando um inicializador faz uma reinicialização suave em uma VSI.| 
-| `audit-log.vsi.hard-reboot`           |Um evento é gerado quando um inicializador faz uma reinicialização forçada em uma VSI.| 
-| `audit-log.vsi.power-on`              |Um evento é gerado quando um inicializador liga uma VSI.| 
-| `audit-log.vsi.rename`                |Um evento é gerado quando um inicializador renomeia uma VSI.| 
-| `audit-log.vsi.rescue`                |Um evento é gerado quando um inicializador resgata uma VSI.| 
-| `audit-log.vsi-security-group.add`    |Um evento é gerado quando um inicializador inclui um grupo de segurança em uma VSI.| 
-| `audit-log.vsi-security-group.remove` |Um evento é gerado quando um inicializador remove um grupo de segurança de uma VSI.| 
-| `audit-log.vsi.reload`                |Um evento é gerado quando um inicializador executa um recarregamento do sistema operacional (S.O.) para uma VSI.| 
-| `audit-log.vsi.boot`                  |Um evento é gerado quando um inicializador inicializa uma VSI de uma imagem.| 
-| `audit-log.vsi.reclaim`               |Um evento é gerado quando um inicializador cancela uma VSI.| 
-| `audit-log.vsi.pause`                 |Um evento é gerado quando um inicializador pausa uma VSI.| 
+| `audit-log.vsi.provision`             | Um evento é gerado quando um inicializador fornece uma VSI.  | 
+| `audit-log.vsi-port.disable`          | Um evento é gerado quando um inicializador desativa uma porta em uma VSI. | 
+| `audit-log.vsi-port.enable`           | Um evento é gerado quando um inicializador ativa uma porta em uma VSI. | 
+| `audit-log.vsi-port-speed.update`     | Um evento é gerado quando um inicializador atualiza a velocidade da porta em uma VSI. |
+| `audit-log.vsi-image-template.create` | Um evento é gerado quando um inicializador cria um modelo de imagem para uma VSI.  |
+| `audit-log.vsi.power-off`             | Um evento é gerado quando um iniciador desliga uma VSI.  |
+| `audit-log.vsi.soft-power-off`        | Um evento é gerado quando um inicializador faz desligamento suave em uma VSI. |
+| `audit-log.vsi.force-power-off`       | Um evento é gerado quando um inicializador faz um desligamento forçado em uma VSI. |
+| `audit-log.vsi.reboot`                | Um evento é gerado quando um inicializador reinicializa uma VSI. | 
+| `audit-log.vsi.soft-reboot`           | Um evento é gerado quando um inicializador faz uma reinicialização suave em uma VSI. | 
+| `audit-log.vsi.hard-reboot`           | Um evento é gerado quando um inicializador faz uma reinicialização forçada em uma VSI. | 
+| `audit-log.vsi.power-on`              | Um evento é gerado quando um inicializador liga uma VSI. | 
+| `audit-log.vsi.rename`                | Um evento é gerado quando um inicializador renomeia uma VSI. | 
+| `audit-log.vsi.rescue`                | Um evento é gerado quando um inicializador resgata uma VSI. | 
+| `audit-log.vsi-security-group.add`    | Um evento é gerado quando um inicializador inclui um grupo de segurança em uma VSI. | 
+| `audit-log.vsi-security-group.remove` | Um evento é gerado quando um inicializador remove um grupo de segurança de uma VSI. | 
+| `audit-log.vsi.reload`                | Um evento é gerado quando um inicializador executa um recarregamento do sistema operacional (S.O.) para uma VSI. | 
+| `audit-log.vsi.boot`                  | Um evento é gerado quando um inicializador inicializa uma VSI de uma imagem. | 
+| `audit-log.vsi.reclaim`               | Um evento é gerado quando um inicializador cancela uma VSI. | 
+| `audit-log.vsi.pause`                 | Um evento é gerado quando um inicializador pausa uma VSI. | 
 {: caption="Tabela 2. Ações da VSI" caption-side="top"} 
 
 

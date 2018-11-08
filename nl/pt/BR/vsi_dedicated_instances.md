@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-25"
+  years: 2017, 2018
+lastupdated: "2018-10-24"
 
 
 ---
@@ -22,42 +22,34 @@ lastupdated: "2017-10-25"
 Você tem duas opções sobre como provisionar suas instâncias dedicadas. O primeiro é por meio do catálogo do {{site.data.keyword.Bluemix}} e o segundo é por meio do {{site.data.keyword.slportal_full}}. O catálogo e o {{site.data.keyword.slportal}} requerem IDs de login exclusivos. Seu nome do usuário e senha do catálogo não funcionarão para efetuar login no portal e vice-versa. Veja [Inscrevendo-se para o {{site.data.keyword.Bluemix_notm}}](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window} para configurar o catálogo do {{site.data.keyword.Bluemix_notm}} ou as credenciais do {{site.data.keyword.slportal}}.
 {:shortdesc}
 
-## Efetuar login no catálogo do IBM Cloud
-Use as etapas a seguir para efetuar login no {{site.data.keyword.Bluemix_notm}} para iniciar o fornecimento de suas instâncias dedicadas. 
-
-1. Abra uma nova janela do navegador e insira [https://console.bluemix.net/catalog/](https://console.bluemix.net/catalog/){: new_window}.
-2.	Clique no link **Efetuar Login** (canto superior direito). 
-3.	Insira seu e-mail ou IBMid e clique em **Continuar**.
-4.	Insira sua senha e clique em **Efetuar login**.
-5.	Selecione **Infraestrutura > Calcular**.
-6.  Clique no tile **Virtual Servers**.
-7.	Selecione a opção **Virtual Servers dedicados**.
-8.  Clique em **Criar**. 
-
-Você estará na página principal do {{site.data.keyword.slportal}}.
-
-## Efetuar login no Portal do Cliente
-Use as etapas a seguir para efetuar login no {{site.data.keyword.slportal}} para iniciar o pedido para suas instâncias dedicadas.
-
-1.	Abra uma nova janela do navegador e insira [https://control.softlayer.com](https://control.softlayer.com){: new_window}. 
-2.	Insira seu Nome do usuário e Senha e clique em **Efetuar login** OU clique em **Efetuar login com o IBMid**.
-3.	Insira seu e-mail ou IBMid e clique em **Continuar**.
-4.	Insira sua Senha e clique em **Efetuar login**.
-
-Você estará na página principal do {{site.data.keyword.slportal}}.
-
-## Provisionar suas instâncias dedicadas
+## Fornecimento de instâncias de servidor virtual dedicadas
 {: #provision-dedicated-instances}
-É possível provisionar suas instâncias dedicadas de duas maneiras, por meio do ícone **Dispositivos** ou do menu **Dispositivos**.
+É possível fornecer a instância de servidor virtual dedicada por meio do catálogo do {{site.data.keyword.cloud_notm}} ou do {{site.data.keyword.slportal}}. 
 
-### Fornecendo suas instâncias do host dedicado por meio do ícone Dispositivos
-{: #ordering-dedicated-devices-menu}
-A primeira opção para provisionar instâncias de host dedicado é usar o ícone **Dispositivo** na página inicial do {{site.data.keyword.slportal}}. As etapas a seguir conduzem você por esse processo.
+### Fornecimento de uma instância de servidor virtual dedicada por meio do catálogo do IBM Cloud 
+Para fornecer uma instância de servidor virtual dedicada por meio do catálogo do
+{{site.data.keyword.cloud_notm}}, conclua as seguintes etapas:
 
-1.	Clique no ícone **Dispositivos**. A janela **Pedir produto e serviços SoftLayer** é exibida. 
-2.  Selecione **Por hora** ou **Mensal** sob Virtual Servers dedicados. Você é redirecionado para a página *Configurar seu servidor em nuvem*. 
+  1. Efetue login no catálogo do [{{site.data.keyword.cloud_notm}}![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://console.bluemix.net/catalog/){: new_window} usando as credenciais exclusivas. 
+  2. Na seção **Infraestrutura de cálculo**, clique no bloco **Virtual Servers**.
+  3. Selecione a opção **Virtual Server dedicado**.
+  4. Clique em **Criar**.
+  5. Na seção **Host dedicado**, selecione **Designação automática**. O {{site.data.keyword.cloud_notm}}, então, designa automaticamente a instância para um host no data center selecionado.
+  
+     **Nota**: para os hosts dedicados, selecione **Especificar host** ou **Criar host**. Para obter mais informações sobre os hosts dedicados e as instâncias de host dedicadas, consulte [Servidores virtuais dedicados](../vsi/vsi_dedicated.html).
+     
+  5. Preencha todas as informações relevantes para a instância de servidor virtual dedicada. 
+  6. Depois de revisar o resumo do pedido, clique na caixa de seleção **Contrato de Prestação de Serviços de terceiro**. 
+  7. Clique em **Provisão**.
 
-3.	Digite as informações a seguir:
+### Fornecimento de uma instância dedicada de servidor virtual por meio do portal do cliente
+Para fornecer uma instância de servidor virtual dedicada por meio do {{site.data.keyword.slportal}}, conclua as seguintes etapas:
+
+1. Efetue login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window} usando suas credenciais exclusivas.
+2. Localize a seção **Ordem** e clique em **Dispositivos**. A janela **Pedir produto e serviços SoftLayer** é exibida. 
+3.  Selecione **Por hora** ou **Mensal** sob Virtual Servers dedicados. Você é redirecionado para a página *Configurar seu servidor em nuvem*. 
+
+4.	Digite as informações a seguir:
        
     <table>
     <CAPTION>Tabela 1. Seleções de instâncias de host dedicado</CAPTION>
@@ -77,7 +69,7 @@ A primeira opção para provisionar instâncias de host dedicado é usar o ícon
     <td>
     <ul>
     <li>Designar automaticamente – o {{site.data.keyword.Bluemix_notm}} designa sua instância automaticamente a um host em seu data center selecionado.</li>
-    <li>Especificar Host – usado com instâncias de host dedicado. Veja [Servidor virtual dedicado](../vsi/vsi_dedicated.html) para obter mais informações sobre hosts dedicados e instâncias de host dedicado.</li>
+    <li>Especificar Host – usado com instâncias de host dedicado. Consulte [Servidores virtuais dedicados](../vsi/vsi_dedicated.html) para obter mais informações sobre os hosts dedicados e as instâncias de host dedicadas.</li>
     </ul>
     </td>
     </tr>
@@ -116,10 +108,10 @@ A primeira opção para provisionar instâncias de host dedicado é usar o ícon
     </TBODY>
     </table> 
 
-4.	Clique no botão **Incluir na ordem**. Você será redirecionado para a página de Check-out.
-5.  Insira as informações a seguir na página *Efetuar check-out* sob a *Configuração do sistema avançado*:
+5.	Clique no botão **Incluir na ordem**. Você será redirecionado para a página de Check-out.
+6.  Insira as informações a seguir na página *Efetuar check-out* sob a *Configuração do sistema avançado*:
 
-<table>
+    <table>
     <CAPTION>Tabela 2. Configuração do sistema avançado de instância dedicada</CAPTION>
     <THEAD>
     <TR>
@@ -155,22 +147,11 @@ A primeira opção para provisionar instâncias de host dedicado é usar o ícon
     </TBODY>
     </table>
 
-6.  Clique nas caixas de seleção **Termos do serviço de nuvem** e **Contrato de prestação de serviços de terceiro**.
-7. Confirme ou insira suas informações de pagamento e clique no botão **Enviar ordem**. Você será redirecionado para uma tela com seu número de ordem de fornecimento. É possível imprimir a tela porque ela também é seu recibo de ordem de fornecimento.
+7.  Clique nas caixas de seleção **Termos do serviço de nuvem** e **Contrato de prestação de serviços de terceiro**.
+8. Confirme ou insira suas informações de pagamento e clique no botão **Enviar ordem**. Você será redirecionado para uma tela com seu número de ordem de fornecimento. É possível imprimir a tela porque ela também é seu recibo de ordem de fornecimento.
 
     Uma série de e-mails é enviada a seu administrador — confirmação, aprovação e processamento da ordem de fornecimento, e fornecimento concluído. O e-mail completo de fornecimento incluirá um link que o levará diretamente para sua página **Detalhes do dispositivo**, depois de efetuar login no {{site.data.keyword.Bluemix_notm}}. Outra opção seria registrar-se diretamente no {{site.data.keyword.slportal}}.
 
-### Provisionando suas instâncias dedicadas por meio do menu Dispositivos
-
-Sua segunda opção é provisionar suas instâncias dedicadas por meio do menu **Dispositivos** da página principal do {{site.data.keyword.slportal}}. As etapas a seguir conduzem você por esse processo.
-
-1.	Clique em **Dispositivos > Lista de dispositivos**. 
- 
-    A página *Dispositivos* exibe todos os tipos de dispositivo — servidores virtuais, servidores bare metal, hosts dedicados e controladores de entrega do aplicativo NetScaler — em sua conta. 
-
-2.	Clique no link **Pedindo dispositivos** no lado direito da página.
-    A janela **Pedir produto e serviços SoftLayer** é exibida.
-3.	Siga as etapas sob o menu [Provisionando suas instâncias dedicadas por meio dos Dispositivos](#ordering-dedicated-devices-menu), iniciando com a Etapa 2.
-
-### Próximas Etapas
+## Próximas Etapas
 Depois que seu servidor virtual for provisionado, será possível começar a gerenciá-lo. Para obter mais informações, veja [Gerenciando servidores virtuais](../vsi/vsi_managing.html).
+
