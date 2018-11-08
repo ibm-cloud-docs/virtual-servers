@@ -26,6 +26,7 @@ IBM Cloud 仮想サーバー
         vsi_ps_index.md
 
     vsi_image_templates_intro.md
+    vsi_placegroup.md
 
     {: .topicgroup}
     セキュリティーのオプション
@@ -50,7 +51,7 @@ IBM Cloud 仮想サーバー
         vsi_email_intro.md
     
     {: .topicgroup}
-チュートリアル
+    チュートリアル
         [LAMP スタック上の PHP Web アプリケーション](https://console.bluemix.net/docs/tutorials/lamp-stack.html)
         [仮想サーバーを使用した、高可用性のスケーラブルな Web アプリケーションの構築 (Use Virtual Servers to build highly available and scalable web app)](https://console.bluemix.net/docs/tutorials/highly-available-and-scalable-web-application.html)
         
@@ -89,6 +90,7 @@ IBM Cloud 仮想サーバー
         vsi_managing.md
             vsi_add_script.md
             vsi_vulnerability_scans.md
+            vsi_viewing_suspend.md
             vsi_bandwidth-graphs.md
         vsi_managing_dedicated.md
         vsi_device_access.md
@@ -122,6 +124,10 @@ IBM Cloud 仮想サーバー
         [ローカル WSUS サーバーを使用するためのインスタンスの更新](../infrastructure/software/local-wsus.html)
         vsi_gpu_nvidia_drivers.md
  
+    {: .topicgroup}
+    配置グループの管理
+        vsi_managing_placegroup.md
+    
     {: .topicgroup}
     マイグレーション
         vsi_migrating_dedicated.md

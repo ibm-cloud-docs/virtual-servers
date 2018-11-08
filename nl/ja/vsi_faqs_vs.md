@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-02"
+lastupdated: "2018-10-30"
 
 
 ---
@@ -24,6 +24,9 @@ lastupdated: "2018-02-02"
 
 ## パブリック・インスタンス・タイプの価格情報は、どこにありますか?
 価格情報については、[仮想サーバーの構築 ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](https://www.ibm.com/cloud-computing/bluemix/virtual-servers){: new_window} を参照してください。
+
+## 仮想パブリック・インスタンスの価格情報は、どこにありますか?
+価格情報については、[Virtual servers provisioning calculator (仮想サーバーのプロビジョニング計算器)](https://www.ibm.com/cloud-computing/bluemix/virtual-servers/calculator)を参照してください。
 
 ## 時間単位または月単位の仮想サーバーにディスク・ストレージを追加できますか?
 どの仮想サーバーでも、更新するデバイスの*「構成」* 画面で、*「1 番目のディスク」* から*「5 番目のディスク」* のフィールドのストレージ・オプションを更新することで、ディスク・ストレージをアップグレードまたはダウングレードできます。 詳しくは、[既存仮想サーバーの再構成](../vsi/vsi_reconfigure.html)を参照してください。
@@ -62,6 +65,10 @@ lastupdated: "2018-02-02"
 
 仮想サーバーは、個別インスタンスが使用するすべての使用可能なハードウェア・リソースをプールしたマルチサーバー・クラウド・アーキテクチャーでプロビジョンされます。 仮想サーバーは、共有された大容量の SAN ベース 1 次ストレージ・プラットフォーム、または高性能のローカル・ディスク・ストレージを利用できます。 各インスタンスは大規模なクラウド環境の一部であるため、すべての仮想サーバー間の通信は瞬時に行われます。
 
-## 仮想化 API に接続できません。 これを修正する方法を教えてください。
+<!--## I'm unable to connect to the virtualization API. How can I fix this?-->
 
-このエラーは一般的に、パスワードの期限切れが理由で発生します。 これを修正するには、{{site.data.keyword.slportal_full}}で、仮想サーバーのオペレーティング・システムの root パスワードまたは管理者パスワードを更新してください。.
+<!--This error generally occurs because a password is outdated. To fix this, update the root or Administrator password for the virtual server's operating system in the {{site.data.keyword.slportal_full}}.-->
+
+## 仮想サーバーのプロビジョニング時に容量エラーが表示されるのはなぜですか?
+
+仮想サーバーをプロビジョンするときに、要求を完了するのに十分な容量がないことを示すエラー・メッセージが表示されることがあります。プロビジョニングが失敗した場合、その特定の要求内のすべての仮想サーバー・インスタンスが失敗します。容量エラーは、サービス要求を実行するためにルーターまたはデータ・センター内で使用可能なリソースが不足している場合に発生します。 このエラーが表示される場合、多数の理由が考えられます。 リソース・アベイラビリティーは頻繁に変わるため、しばらく待ってから後で再試行してください。このエラーを回避する方法について詳しくは、[容量に関する考慮事項](https://console.bluemix.net/docs/vsi/ts_capacity_bp.html)を参照してください。
