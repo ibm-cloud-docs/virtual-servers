@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-02"
+lastupdated: "2018-10-30"
 
 
 ---
@@ -24,6 +24,9 @@ lastupdated: "2018-02-02"
 
 ## 공용 인스턴스 유형에 대한 가격 정보는 어디에서 찾을 수 있습니까?
 가격 정보는 [가상 서버 빌드 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/cloud-computing/bluemix/virtual-servers){: new_window}를 참조하십시오.
+
+## 가상 공용 인스턴스에 대한 가격 정보는 어디에서 찾을 수 있습니까?
+가격 정보는 [가상 서버 프로비저닝 계산기](https://www.ibm.com/cloud-computing/bluemix/virtual-servers/calculator)를 참조하십시오.
 
 ## 내 시간별 또는 월별 Virtual Server에 디스크 스토리지를 추가할 수 있습니까?
 업데이트할 디바이스의 *구성* 화면에서 *첫 번째 디스크*부터 *다섯 번째 디스크* 필드까지 스토리지 옵션을 업데이트하여 가상 서버의 디스크 스토리지를 업그레이드하거나 다운그레이드할 수 있습니다. 자세한 정보는 [기존 가상 서버 다시 구성](../vsi/vsi_reconfigure.html)을 참조하십시오.
@@ -62,6 +65,10 @@ lastupdated: "2018-02-02"
 
 가상 서버는 개별 인스턴스가 사용 가능한 모든 하드웨어 리소스를 포함하는 멀티 서버 클라우드 아키텍처에서 프로비저닝됩니다. 가상 서버는 공유 고용량 SAN 기반 기본 스토리지 플랫폼 또는 고성능 로컬 디스크 스토리지를 이용할 수 있습니다. 각 인스턴스는 더 큰 클라우드 환경의 일부이므로, 모든 가상 서버 간의 통신은 즉시 이뤄집니다.
 
-## 가상화 API에 연결할 수 없습니다. 이 문제를 수정하는 방법은 무엇입니까?
+<!--## I'm unable to connect to the virtualization API. How can I fix this?-->
 
-이 오류는 일반적으로 만료된 비밀번호로 인해 발생합니다. 이 문제를 수정하려면 {{site.data.keyword.slportal_full}}에서 가상 서버 운영 체제의 루트 또는 관리자 비밀번호를 업데이트하십시오.
+<!--This error generally occurs because a password is outdated. To fix this, update the root or Administrator password for the virtual server's operating system in the {{site.data.keyword.slportal_full}}.-->
+
+## 가상 서버를 프로비저닝할 때 용량 오류가 수신되는 이유는 무엇입니까?
+
+가상 서버를 프로비저닝할 때 요청을 완료하기에 용량이 충분하지 않다는 오류 메시지를 받을 수 있습니다. 프로비저닝이 실패하는 경우, 해당하는 특정 요청 내의 모든 가상 서버 인스턴스가 실패합니다. 용량 오류는 라우터 또는 데이터 센터에 서비스 요청을 처리하는 데 필요한 리소스가 충분하지 않은 경우에 발생합니다. 몇 가지 이유로 인해 이런 오류가 수신될 수 있습니다. 리소스 가용성은 자주 변경되기 때문에 잠시 대기한 후에 다시 시도해 볼 수도 있습니다. 이 오류를 방지하는 전략에 대한 자세한 정보는 [용량 고려사항](https://console.bluemix.net/docs/vsi/ts_capacity_bp.html)을 참조하십시오.

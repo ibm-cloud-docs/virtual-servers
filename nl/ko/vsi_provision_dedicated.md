@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-10-24"
 
 
 ---
@@ -19,34 +19,30 @@ lastupdated: "2017-10-24"
 # 전용 호스트 및 인스턴스 프로비저닝
 {: #ordering-vs-dedicated}
 
-전용 인스턴스를 프로비저닝하는 방법에는 두 가지 옵션이 있습니다. 첫 번째는 {{site.data.keyword.Bluemix}} 카탈로그를 통한 방법이며 두 번째는 {{site.data.keyword.slportal_full}}을 통합 방법입니다. 카탈로그 및 {{site.data.keyword.slportal}}은 고유 로그인 ID를 필요로 합니다. 카탈로그 사용자 이름 및 비밀번호로는 포털에 로그인할 수 없으며 그 반대 또한 마찬가지입니다. {{site.data.keyword.Bluemix_notm}} 카탈로그 또는 {{site.data.keyword.slportal}} 인증 정보를 설정하려면 [{{site.data.keyword.Bluemix_notm}}에 등록](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window}을 참조하십시오.
+전용 인스턴스를 프로비저닝하는 방법에는 두 가지 옵션이 있습니다. 첫 번째는 {{site.data.keyword.Bluemix}} 카탈로그를 통한 방법이며 두 번째는 {{site.data.keyword.slportal_full}}을 통한 방법입니다. 카탈로그 및 {{site.data.keyword.slportal}}은 고유 로그인 ID를 필요로 합니다. 카탈로그 사용자 이름 및 비밀번호로는 포털에 로그인할 수 없으며 그 반대 또한 마찬가지입니다. {{site.data.keyword.Bluemix_notm}} 카탈로그 또는 {{site.data.keyword.slportal}} 인증 정보를 설정하려면 [{{site.data.keyword.Bluemix_notm}}에 등록](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window}을 참조하십시오.
 {:shortdesc}
 
-## IBM Cloud 카탈로그에 로그인
-{{site.data.keyword.Bluemix_notm}} 카탈로그에 로그인하여 전용 호스트 및 전용 호스트 인스턴스 프로비저닝을 시작하려면 다음 단계를 사용하십시오. 
+## 전용 호스트 및 인스턴스 프로비저닝
+{{site.data.keyword.cloud_notm}} 또는 {{site.data.keyword.slportal}}을 통해 전용 호스트 및 인스턴스를 프로비저닝할 수 있습니다.
 
-1. 새 브라우저 창을 열고 [https://console.bluemix.net/catalog/](https://console.bluemix.net/catalog/){: new_window}를 입력하십시오.
-2.	**로그인** 링크(오른쪽 상단에 있음)를 클릭하십시오. 
-3.	이메일 또는 IBM ID를 입력하고 **계속**을 클릭하십시오.
-4.	비밀번호를 입력하고 **로그인**을 클릭하십시오.
-5.	**인프라 > 컴퓨팅**을 선택하십시오.
-6.  **Virtual Server** 타일을 클릭하십시오.
-7.	**전용 Virtual Server** 옵션을 선택하십시오.
-8.  **작성**을 클릭하십시오. 
+### IBM Cloud 카탈로그를 통해 전용 호스트 및 인스턴스 프로비저닝 
+{{site.data.keyword.cloud_notm}} 카탈로그를 통해 전용 호스트 및 전용 호스트 인스턴스를 프로비저닝하려면 다음 단계를 완료하십시오. 
 
-{{site.data.keyword.slportal}}의 기본 페이지로 이동됩니다.
+1. 고유 인증 정보를 사용하여 [{{site.data.keyword.cloud_notm}} 카탈로그 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://console.bluemix.net/catalog/){: new_window}에 로그인하십시오. 
+2. **컴퓨팅 인프라** 섹션에서 **Virtual Server** 타일을 클릭하십시오.
+3. **전용 Virtual Server** 옵션을 선택하십시오.
+4. **작성**을 클릭하십시오.
+5. **전용 호스트** 섹션에서 **호스트 작성**(새 전용 호스트를 작성할 수 있음) 또는 **호스트 지정**(기존 전용 호스트에서 선택할 수 있음)을 선택할 수 있습니다,
+6. 전용 호스트 및 전용 가상 서버 인스턴스에 대한 관련 정보를 모두 완료하십시오.
+7. 주문 요약을 검토한 후에 **서드파티 서비스 계약** 선택란을 클릭하십시오.
+8. **프로비저닝**을 클릭하십시오. 
 
-## 고객 포털에 로그인
-{{site.data.keyword.slportal}}에 로그인하여 전용 호스트 및 전용 호스트 인스턴스 주문을 시작하려면 다음 단계를 사용하십시오.
+### 고객 포털을 통해 전용 호스트 및 인스턴스 프로비저닝
+{{site.data.keyword.slportal}}을 통해 전용 호스트 및 전용 호스트 인스턴스를 프로비저닝하려면 다음 단계를 완료하십시오.
 
-1.	새 브라우저 창을 열고 [https://control.softlayer.com](https://control.softlayer.com){: new_window}을 입력하십시오. 
-2.	사용자 이름 및 비밀번호를 입력하고 **로그인**을 클릭하거나 **IBM ID로 로그인**을 클릭하십시오.
-3.	이메일 또는 IBM ID를 입력하고 **계속**을 클릭하십시오.
-4.	비밀번호를 입력하고 **로그인**을 클릭하십시오.
+1. 고유 인증 정보를 사용하여 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}에 로그인하십시오.
 
-{{site.data.keyword.slportal}}의 기본 페이지로 이동됩니다.
-
-## 전용 호스트 프로비저닝 
+#### 전용 호스트 프로비저닝 
 전용 호스트를 프로비저닝하려면 다음 단계를 사용하십시오.
 
 1.	**디바이스** 아이콘을 클릭하십시오.
@@ -117,14 +113,10 @@ lastupdated: "2017-10-24"
 
     일련의 이메일(프로비저닝 주문 확인, 프로비저닝 주문 승인 및 처리, 프로비저닝 완료)이 관리자에게 발송됩니다. 프로비저닝 완료 이메일은 {{site.data.keyword.Bluemix_notm}}에 로그인한 후 **디바이스 세부사항** 페이지로 바로 이동하는 링크를 포함합니다. 또 다른 옵션은 {{site.data.keyword.slportal}}에 직접 로그인하는 것입니다.
 
-## 전용 호스트 인스턴스 프로비저닝
+#### 전용 호스트 인스턴스 프로비저닝
 {: #provision-dedicated-instances}
-두 가지 방법(**디바이스** 메뉴 또는 **디바이스** 아이콘)을 통해 전용 호스트 인스턴스를 프로비저닝할 수 있습니다.
 
-### 디바이스 메뉴를 통한 전용 호스트 인스턴스 프로비저닝
-{: #ordering-dedicated-devices-menu}
-
-첫 번째 옵션은 기본 {{site.data.keyword.slportal}} 페이지에서 **디바이스** 메뉴를 통해 전용 호스트 인스턴스를 프로비저닝하는 것입니다. 다음 단계는 이 프로세스를 단계별로 안내합니다.
+{{site.data.keyword.slportal}}을 통해 전용 호스트 인스턴스를 프로비저닝하려면 다음 단계를 완료하십시오.
 
 1.	**디바이스 > 디바이스 목록**을 클릭하십시오. 
  
@@ -244,13 +236,7 @@ lastupdated: "2017-10-24"
 
 전용 호스트 인스턴스가 프로비저닝되면 이메일을 수신합니다.
 
-### 디바이스 아이콘을 통한 전용 호스트 인스턴스 프로비저닝
-전용 호스트 인스턴스 프로비저닝을 수행하는 두 번째 옵션은 {{site.data.keyword.slportal}} 홈 페이지에 있는 **디바이스** 아이콘을 사용하는 것입니다. 다음 단계는 이 프로세스를 단계별로 안내합니다.
-
-1.	**디바이스** 아이콘을 클릭하고 전용 Virtual Server 아래에서 **시간별** 또는 **월별**을 선택하십시오.
-2.	[디바이스 메뉴를 통한 전용 호스트 인스턴스 프로비저닝](#ordering-dedicated-devices-menu)의 단계를 5단계부터 따르십시오.
-
-### 다음 단계
+## 다음 단계
 가상 서버가 프로비저닝된 후에는 이 서버의 관리를 시작할 수 있습니다. 자세한 정보는 [가상 서버 관리](../vsi/vsi_managing.html)를 참조하십시오.
 
 

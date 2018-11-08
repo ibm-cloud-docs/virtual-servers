@@ -32,7 +32,7 @@ lastupdated: "2018-09-12"
 사용자 조치 모니터링을 시작하려면,
 [{{site.data.keyword.cloudaccesstrailfull_notm}}](/docs/services/cloud-activity-tracker/index.html#getting-started-with-cla)의 내용을 참조하십시오. 
 
-개시자는 사용자, 서비스 또는 애플리케이션일 수 있습니다. 사용자가 이벤트를 생성하는 경우, 해당 사용자에게는 {{site.data.keyword.Bluemix}} 콘솔의 **인프라** 리소스에 대한 액세스 권한이 있어야 합니다.
+개시자는 사용자, 서비스 또는 애플리케이션일 수 있습니다. 사용자가 이벤트를 생성하는 경우, 해당 사용자에게는 {{site.data.keyword.Bluemix}} 콘솔의 **인프라** 리소스에 대한 액세스 권한이 있어야 합니다. 
 {: tip}
 
 ## 로그인 이벤트
@@ -55,12 +55,12 @@ lastupdated: "2018-09-12"
 
 | 조치 |설명 |
 |----------|---------|
-| `audit-log.vsi.provision`             | 개시자가 VSI를 프로비저닝할 때 이벤트가 생성됩니다. | 
+| `audit-log.vsi.provision`             | 개시자가 VSI를 프로비저닝할 때 이벤트가 생성됩니다.  | 
 | `audit-log.vsi-port.disable`          | 개시자가 VSI의 포트를 사용 안함으로 설정할 때 이벤트가 생성됩니다. | 
 | `audit-log.vsi-port.enable`           | 개시자가 VSI의 포트를 사용으로 설정할 때 이벤트가 생성됩니다. | 
 | `audit-log.vsi-port-speed.update`     | 개시자가 VSI의 포트 속도를 업데이트할 때 이벤트가 생성됩니다. |
-| `audit-log.vsi-image-template.create` | 개시자가 VSI에 대한 이미지 템플리트를 작성할 때 이벤트가 생성됩니다. |
-| `audit-log.vsi.power-off`             | 개시자가 VSI의 전원을 끌 때 이벤트가 생성됩니다. |
+| `audit-log.vsi-image-template.create` | 개시자가 VSI에 대한 이미지 템플리트를 작성할 때 이벤트가 생성됩니다.  |
+| `audit-log.vsi.power-off`             | 개시자가 VSI의 전원을 끌 때 이벤트가 생성됩니다.  |
 | `audit-log.vsi.soft-power-off`        | 개시자가 VSI에서 소프트 전원 끄기를 수행할 때 이벤트가 생성됩니다. |
 | `audit-log.vsi.force-power-off`       | 개시자가 VSI에서 전원 끄기를 강제 실행할 때 이벤트가 생성됩니다. |
 | `audit-log.vsi.reboot`                | 개시자가 VSI를 다시 부팅할 때 이벤트가 생성됩니다. | 
@@ -87,4 +87,4 @@ lastupdated: "2018-09-12"
 보기](/docs/services/cloud-activity-tracker/how-to/manage-events-ui/viewing_events.html#account_events)를 참조하십시오.
 
 {{site.data.keyword.cloudaccesstrailshort}} 이벤트는 조치가 발생하는 동일한 지역의 {{site.data.keyword.cloudaccesstrailshort}} 서비스에
-자동으로 전달됩니다. 
+자동으로 전달됩니다.

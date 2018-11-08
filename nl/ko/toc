@@ -26,6 +26,7 @@ IBM Cloud Virtual Servers
         vsi_ps_index.md
 
     vsi_image_templates_intro.md
+    vsi_placegroup.md
 
     {: .topicgroup}
     보안 옵션
@@ -89,6 +90,7 @@ IBM Cloud Virtual Servers
         vsi_managing.md
             vsi_add_script.md
             vsi_vulnerability_scans.md
+            vsi_viewing_suspend.md
             vsi_bandwidth-graphs.md
         vsi_managing_dedicated.md
         vsi_device_access.md
@@ -122,6 +124,10 @@ IBM Cloud Virtual Servers
         [로컬 WSUS 서버를 사용하도록 인스턴스 업데이트](../infrastructure/software/local-wsus.html)
         vsi_gpu_nvidia_drivers.md
  
+    {: .topicgroup}
+    배치 그룹 관리
+        vsi_managing_placegroup.md
+    
     {: .topicgroup}
     마이그레이션
         vsi_migrating_dedicated.md
