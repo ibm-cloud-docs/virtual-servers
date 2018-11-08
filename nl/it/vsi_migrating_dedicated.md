@@ -26,20 +26,20 @@ Puoi migrare le tue istanze host dedicate da un host a un altro nello stesso POD
 Utilizza le seguenti istruzioni per migrare le istanze host dedicate a un altro host dedicato nello stesso POD dalla pagina dei dettagli del dispositivo dell'*host dedicato originale*. 
 
 1. Accedi al [{{site.data.keyword.slportal_full}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/) utilizzando le tue credenziali univoche. 
-2. Fai clic su **Dispositivo > Elenco dispositivi** e seleziona l'host e l'istanza host dall'elenco.
-3. Fai clic sull'elenco a discesa **Azioni** accanto all'istanza dedicata da migrare.
-4. Seleziona **Migra** e immetti l'host in cui viene migrata l'istanza; ricorda, l'host di destinazione deve essere nello stesso POD dell'host originale.
-5. Fai clic sul pulsante **Migra**. 
+2. Fai clic su **Device > Device List** e seleziona l'host e l'istanza host dall'elenco.
+3. Fai clic sull'elenco a discesa **Actions** accanto all'istanza dedicata da migrare.
+4. Seleziona **Migrate** e immetti l'host in cui viene migrata l'istanza; ricorda, l'host di destinazione deve essere nello stesso POD dell'host originale.
+5. Fai clic sul pulsante **Migrate**. 
 
 La migrazione inizierà immediatamente. Durante la migrazione, l'istanza dedicata è offline finché non migrata al proprio nuovo host. Puoi visualizzare la pagina dei dettagli del dispositivo dell'host di destinazione per assicurarti che l'istanza sia stata migrata correttamente.
 
-Utilizza le seguenti istruzioni per migrare le istanze host dedicate a un altro host dedicato nello stesso POD dalla pagina Dettagli dell'*istanza host dedicata*.
+Utilizza le seguenti istruzioni per migrare le istanze host dedicate a un altro host dedicato nello stesso POD dalla pagina dei dettagli dell'*istanza host dedicata*.
 
 1. Accedi al [{{site.data.keyword.slportal}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/) utilizzando le tue credenziali univoche.
-2. Fai clic su **Dispositivo > Elenco dispositivi** e seleziona l'istanza host da migrare dall'elenco.
-3. Fai clic sul link **Migra** nel lato destro della pagina.
+2. Fai clic su **Device > Device List** e seleziona l'istanza ospitata da migrare dall'elenco.
+3. Fai clic sul link **Migrate** nel lato destro della pagina.
 4. Seleziona l'host di destinazione a cui migrare l'istanza; ricorda, l'host di destinazione deve essere nello stesso POD dell'host originale.
-5. Fai clic sul pulsante **Migra**.
+5. Fai clic sul pulsante **Migrate**.
 
 La migrazione inizierà immediatamente. Durante la migrazione, l'istanza dedicata è offline finché non migrata al proprio nuovo host. Puoi visualizzare la pagina dei dettagli del dispositivo dell'host di destinazione per assicurarti che l'istanza sia stata migrata correttamente.
 

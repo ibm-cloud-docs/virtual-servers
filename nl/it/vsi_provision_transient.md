@@ -34,7 +34,7 @@ Prima di iniziare, controlla i seguenti prerequisiti.
 ## Provisioning di un'istanza del server virtuale temporanea 
 Dopo aver completato i prerequisiti, puoi iniziare ad eseguire il provisioning della tua istanza del server virtuale temporanea. Puoi eseguire il provisioning della tua istanza attraverso il catalogo {{site.data.keyword.cloud_notm}} o {{site.data.keyword.slportal}}.
 
-### Provisioning delle istanze del server virtuale temporanee tramite il catalogo IBM Cloud 
+### Provisioning delle istanze del server virtuale temporanee tramite il catalogo IBM Cloud
 Per eseguire il provisioning di un'istanza del server virtuale temporanea tramite il catalogo {{site.data.keyword.cloud_notm}}, completa le seguenti istruzioni:
 
   1. Accedi al catalogo [{{site.data.keyword.cloud_notm}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://console.bluemix.net/catalog/){: new_window} utilizzando le tue credenziali univoche.  
@@ -45,19 +45,19 @@ Per eseguire il provisioning di un'istanza del server virtuale temporanea tramit
   6. Dopo aver riesaminato il riepilogo dell'ordine, fai clic sulla casella di spunta **Accordi di servizio di terze parti**.
   7. Fai clic su **Provisioning**.
   
-### Provisioning delle istanze del server virtuale temporanee tramite il portale clienti 
+### Provisioning delle istanze del server virtuale temporanee tramite il portale del cliente
 Per eseguire il provisioning di un'istanza del server virtuale temporanea tramite {{site.data.keyword.slportal}}, completa le seguenti istruzioni:
 
   1. Accedi al [{{site.data.keyword.slportal}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} utilizzando le tue credenziali univoche.
-  2. Individua la sezione **Ordine** e fai clic su **Dispositivi**.
-  3. In *Virtual Server pubblico* nella pagina *Dispositivi*, fai clic su **Temporaneo** per l'offerta del Virtual Server.
-  4. Nella pagina *Configura il tuo server cloud*, compila tutte le informazioni importanti.
-  5. Fai clic su **Aggiungi all'ordine** per continuare.
+  2. Individua la sezione **Order** e fai clic su **Devices**.
+  3. In *Public Virtual Server* nella pagina *Devices*, fai clic su **Transient** per l'offerta Virtual Server.
+  4. Nella pagina *Configure your Cloud Server*, compila tutte le informazioni pertinenti.
+  5. Fai clic su **Add to Order** per continuare.
   6. Conferma o modifica le informazioni sul dominio per il server.
-  7. Fai clic sulle caselle di spunta **Termini servizio cloud** e sulla casella di spunta **Accordo servizi di terze parti**.
-  8. Conferma o immetti le tue informazioni di pagamento e fai clic su **Inoltra ordine**. Vieni reindirizzato a una schermata con il tuo numero di ordine di provisioning. Puoi stampare la schermata perché è anche la tua ricevuta dell'ordine di provisioning.
+  7. Fai clic sulle caselle di spunta **Cloud Service terms** e **Third-Party Service Agreement**.
+  8. Conferma o immetti le tue informazioni di pagamento e fai clic su **Submit Order**. Vieni reindirizzato a una schermata con il tuo numero di ordine di provisioning. Puoi stampare la schermata perché è anche la tua ricevuta dell'ordine di provisioning.
 
- Viene inviata una serie di email al tuo amministratore di riconoscimento dell'ordine di provisioning, l'approvazione e l'elaborazione e il completamento del provisioning. L'email di completamento del provisioning include un link alla pagina *Dettagli del dispositivo*.
+ Viene inviata una serie di email al tuo amministratore di riconoscimento dell'ordine di provisioning, l'approvazione e l'elaborazione e il completamento del provisioning. L'email di completamento del provisioning include un link alla pagina *Device Details*.
 
 Puoi anche eseguire il provisioning di un server virtuale temporaneo utilizzando {{site.data.keyword.slapi_short}}. Per un esempio, consulta [Provisioning di un'istanza temporanea utilizzando Crea oggetto](../vsi/vsi_provision_api.html#api-rest-transient).
 {:tip}

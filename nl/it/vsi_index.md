@@ -37,7 +37,7 @@ Prima di iniziare, controlla i seguenti prerequisiti.
 | --------------------------------------------------------- | --------------------------------------------------- |
 |[Server virtuale pubblico](../vsi/vsi_public.html)            | Gestito da IBM, distribuzioni server virtuale a più tenant|
 |[Server virtuale temporaneo](../vsi/vsi_about_transient.html)| Gestito da IBM, distribuzioni server virtuale a più tenant a un costo ridotto e consigliati per i carichi di lavoro flessibili |
-|[Server virtuale riservato](../vsi/vsi_about_reserved.html)  |Gestito da IBM, distribuzioni server virtuale a più tenant con capacità garantita per un termine del contratto |
+|[Server virtuale riservato](../vsi/vsi_about_reserved.html)  | Gestito da IBM, distribuzioni server virtuale a più tenant con capacità garantita per un termine del contratto |
 |[Server virtuale dedicato](../vsi/vsi_dedicated.html)      | Gestito da IBM, distribuzioni server virtuale a singolo tenant            |
 {: caption="Tabella 1. Opzioni di distribuzione" caption-side="top"}   
 
@@ -49,7 +49,7 @@ Dopo aver deciso un'opzione di distribuzione, avvia il processo di provisioning.
 | -------------------------------------------------------------------------- | ------------------------------------------------------- |
 |[Provisioning di istanze pubbliche](../vsi/vsi_provision_public.html)                | Provisioning di istanze pubbliche con varie opzioni             |
 |[Provisioning di istanze temporanee](../vsi/vsi_provision_transient.html)                | Provisioning di istanze temporanee con varie opzioni            |
-|[Provisioning della capacità e delle istanze riservate](../vsi/vsi_provision_reserved.html)            | Provisioning di capacità e istanze riservate con varie opzioni  |
+|[Provisioning della capacità e delle istanze riservate](../vsi/vsi_provision_reserved.html)            | Provisioning di capacità e istanze riservate con varie opzioni |
 |[Provisioning di istanze e host dedicati](../vsi/vsi_provision_dedicated.html)| Provisioning di istanze private o dedicate su host dedicati|
 {: caption="Tabella 2. Informazioni di provisioning" caption-side="top"}
 

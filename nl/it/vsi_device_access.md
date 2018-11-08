@@ -20,7 +20,7 @@ lastupdated: "2018-05-17"
 # Gestione accesso dispositivo
 {: #managing-device-access}
 
-Per accedere e gestire i dettagli di un dispositivo specifico, devi disporre delle autorizzazioni corrette concesse al tuo account utente.  Dopo che l'amministratore dell'account ha concesso al tuo account utente l'accesso a un dispositivo, puoi visualizzare i dettagli del dispositivo utilizzando il {{site.data.keyword.slportal_full}} o l'API.  Le informazioni o le azioni che puoi visualizzare dipendono dal tipo di dispositivo, così come le autorizzazioni concesse al tuo account utente.
+Per accedere e gestire i dettagli di un dispositivo specifico, devi disporre delle autorizzazioni corrette concesse al tuo account utente.  Dopo che l'amministratore dell'account ha concesso al tuo account utente l'accesso a un dispositivo, puoi visualizzare i dettagli del dispositivo utilizzando il {{site.data.keyword.slportal_full}} o la API.  Le informazioni o le azioni che puoi visualizzare dipendono dal tipo di dispositivo, così come le autorizzazioni concesse al tuo account utente.
 {:shortdesc}
 
 **Nota:** se il tuo account ha dispositivi a cui non ti è stato concesso l'accesso, visualizzerai il nome "Dispositivo sconosciuto" quando tenterai di accedere a tali dispositivi.

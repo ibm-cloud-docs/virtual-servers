@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-10-03"
+lastupdated: "2018-10-11"
 
 
 ---
@@ -38,8 +38,8 @@ Prima di iniziare, controlla i seguenti prerequisiti.
 
 Dopo aver completato i prerequisiti, puoi iniziare a eseguire il provisioning di un'istanza del server virtuale pubblica. Puoi eseguire il provisioning dell'istanza pubblica attraverso il catalogo {{site.data.keyword.cloud_notm}} o {{site.data.keyword.slportal}}.
 
-### Provisioning di un'istanza del server virtuale pubblica tramite il catalogo IBM Cloud 
-Per eseguire il provisioning di un'istanza del server virtuale pubblica tramite {{site.data.keyword.cloud_notm}}, completa le seguenti istruzioni:
+### Provisioning di un'istanza del server virtuale pubblica tramite il catalogo IBM Cloud
+Per eseguire il provisioning di un'istanza del server virtuale pubblica tramite il catalogo {{site.data.keyword.cloud_notm}}, completa le seguenti istruzioni:
 
   1. Accedi al catalogo [{{site.data.keyword.cloud_notm}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://console.bluemix.net/catalog/){: new_window} utilizzando le tue credenziali univoche. 
   2. Nella sezione **Infrastruttura di calcolo**, fai clic sul tile **Server virtuali**.
@@ -49,19 +49,19 @@ Per eseguire il provisioning di un'istanza del server virtuale pubblica tramite 
   6. Dopo aver riesaminato il riepilogo dell'ordine, fai clic sulla casella di spunta **Accordi di servizio di terze parti**. 
   7. Fai clic su **Provisioning**.
   
-### Provisioning di un'istanza del server virtuale pubblica tramite il portale clienti
+### Provisioning di un'istanza del server virtuale pubblica tramite il portale del cliente
 Per eseguire il provisioning della tua istanza del server virtuale pubblica tramite {{site.data.keyword.slportal}}, completa le seguenti istruzioni:
 
   1. Accedi al [{{site.data.keyword.slportal}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} utilizzando le tue credenziali univoche.
-  2. Individua la sezione **Ordine** e fai clic su **Dispositivi**. 
-  3. Nella pagina Dispositivi, fai clic su **SAN oraria**, **Locale oraria**, **Mensile** o **Temporanea** per una delle offerte di Virtual Server.
-  4. Nella pagina *Configura il tuo server cloud*, compila tutte le informazioni importanti.
-  5. Fai clic sul pulsante **Aggiungi all'ordine** per continuare.
+  2. Individua la sezione **Order** e fai clic su **Devices**. 
+  3. Nella pagina Devices, fai clic su **Hourly SAN**, **Hourly local**, **Monthly** o **Transient** per una delle offerte di Virtual Server.
+  4. Nella pagina *Configure your Cloud Server*, compila tutte le informazioni pertinenti.
+  5. Fai clic sul pulsante **Add to Order** per continuare.
   6. Conferma o modifica le informazioni sul dominio per il server.
-  7. Fai clic sulle caselle di spunta **Termini servizio cloud** e sulla casella di spunta **Accordo servizi di terze parti**.
-  8. Conferma o immetti le tue informazioni di pagamento e fai clic sul pulsante **Inoltra ordine**. Vieni reindirizzato a una schermata con il tuo numero di ordine di provisioning. Puoi stampare la schermata perché è anche la tua ricevuta dell'ordine di provisioning.
+  7. Fai clic sulle caselle di spunta **Cloud Service terms** e **Third-Party Service Agreement**.
+  8. Conferma o immetti le tue informazioni di pagamento e fai clic sul pulsante **Submit Order**. Vieni reindirizzato a una schermata con il tuo numero di ordine di provisioning. Puoi stampare la schermata perché è anche la tua ricevuta dell'ordine di provisioning.
 
- Viene inviata una serie di email al tuo amministratore di riconoscimento dell'ordine di provisioning, l'approvazione e l'elaborazione e il completamento del provisioning. L'email di completamento del provisioning include un link alla pagina *Dettagli del dispositivo*, dopo aver eseguito l'accesso a {{site.data.keyword.Bluemix_notm}}. Puoi anche accedere direttamente al {{site.data.keyword.slportal}}.
+ Viene inviata una serie di email al tuo amministratore di riconoscimento dell'ordine di provisioning, l'approvazione e l'elaborazione e il completamento del provisioning. L'email di completamento del provisioning include un link alla pagina *Device Details*, dopo aver eseguito l'accesso a {{site.data.keyword.Bluemix_notm}}. Puoi anche accedere direttamente al {{site.data.keyword.slportal}}.
 
 ## Passi successivi
 Dopo che è stato eseguito il provisioning del tuo server virtuale, puoi iniziare a gestirlo. Per ulteriori informazioni, vedi [Gestione del tuo server virtuale](../vsi/vsi_managing.html).

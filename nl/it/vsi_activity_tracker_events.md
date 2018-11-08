@@ -17,7 +17,7 @@ lastupdated: "2018-09-12"
 {:download: .download}
 
 
-# Eventi del programma di traccia dell'attività  
+# Eventi del programma di traccia dell'attività 
 {: #at_events}
 
 In qualità di responsabile della sicurezza, revisore o gestore, puoi utilizzare il servizio {{site.data.keyword.cloudaccesstrailfull}} per tracciare come gli utenti e le applicazioni interagiscono con
@@ -32,13 +32,13 @@ Il servizio {{site.data.keyword.cloudaccesstrailshort}} registra le attività av
 Per iniziare a monitorare le azioni del tuo utente, vedi
 [{{site.data.keyword.cloudaccesstrailfull_notm}}](/docs/services/cloud-activity-tracker/index.html#getting-started-with-cla). 
 
-Un iniziatore può essere un utente, un servizio o un'applicazione. Perché un utente possa generare gli eventi, deve avere l'accesso alle risorse dell'**Infrastruttura** nella console {{site.data.keyword.Bluemix}}.
+Un iniziatore può essere un utente, un servizio o un'applicazione. Perché un utente possa generare gli eventi, deve avere l'accesso alle risorse dell'**Infrastruttura** nella console {{site.data.keyword.Bluemix}}. 
 {: tip}
 
 ## Eventi di accesso
 {: #login}
 
-La seguente tabella elenca l'azione che genera un evento di accesso: 
+La seguente tabella elenca l'azione che genera un evento di accesso:
 
 | Azione | Descrizione |
 |----------|---------|
@@ -55,12 +55,12 @@ La seguente tabella elenca le azioni che generano un evento:
 
 | Azione | Descrizione |
 |----------|---------|
-| `audit-log.vsi.provision`             | Viene generato un evento quando un iniziatore esegue il provisioning di una VSI. | 
+| `audit-log.vsi.provision`             | Viene generato un evento quando un iniziatore esegue il provisioning di una VSI.  | 
 | `audit-log.vsi-port.disable`          | Viene generato un evento quando un iniziatore disabilita una porta in una VSI. | 
 | `audit-log.vsi-port.enable`           | Viene generato un evento quando un iniziatore abilita la porta in una VSI. | 
 | `audit-log.vsi-port-speed.update`     | Viene generato un evento quando un iniziatore aggiorna la velocità della porta in una VSI. |
-| `audit-log.vsi-image-template.create` | Viene generato un evento quando un iniziatore crea un template di immagini per una VSI. |
-| `audit-log.vsi.power-off`             | Viene generato un evento quando un iniziatore disattiva una VSI. |
+| `audit-log.vsi-image-template.create` | Viene generato un evento quando un iniziatore crea un template di immagini per una VSI.  |
+| `audit-log.vsi.power-off`             | Viene generato un evento quando un iniziatore disattiva una VSI.  |
 | `audit-log.vsi.soft-power-off`        | Viene generato un evento quando un iniziatore esegue un arresto semplice di una VSI. |
 | `audit-log.vsi.force-power-off`       | Viene generato un evento quando un iniziatore forza un arresto di una VSI. |
 | `audit-log.vsi.reboot`                | Viene generato un evento quando un iniziatore riavvia una VSI. | 

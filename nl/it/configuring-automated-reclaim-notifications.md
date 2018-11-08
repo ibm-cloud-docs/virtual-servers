@@ -23,7 +23,7 @@ I server virtuali temporanei sono per loro natura temporanei e possono essere te
 
 La notifica `reclaim-scheduled` è un webhook, il che significa che la notifica viene inviata da una richiesta HTTP POST a un endpoint fornito dall'utente. Completa la seguente procedura per configurare e utilizzare il webhook:
 
-1. Esegui il provisioning di un'istanza del server virtuale temporanea. 
+1. Esegui il provisioning di un'istanza del server virtuale temporanea.
 2. Configura il webhook.
 3. Verifica le richieste del webhook.
 
@@ -33,7 +33,7 @@ I server virtuali temporanei possono essere forniti tramite [{{site.data.keyword
 
 ## Configurazione del webhook
 
-Per configurare il webhook, devi assegnare i seguenti parametri all'istanza del server virtuale temporaneo utilizzando l'API SLDN:
+Per configurare il webhook, devi assegnare i seguenti parametri all'istanza del server virtuale temporaneo utilizzando la API SLDN:
 
    * **URI** - Un URI HTTP valido a cui viene inviata la notifica `reclaim-scheduled`.
    * **Segreto** - Una stringa utilizzata come la chiave dell'algoritmo hash per firmare la richiesta. Non comunicare la stringa segreta a nessuno.
@@ -43,7 +43,7 @@ Il webhook deve essere configurato per ogni server virtuale temporaneo fornito. 
 Entrambi i parametri sono obbligatori. Se l'URI o il segreto devono essere modificati, richiama nuovamente il metodo con le nuove informazioni.
 {: tip}
 
-Il webhook del server virtuale temporaneo può essere configurato tramite l'API SLDN utilizzando il seguente metodo:
+Il webhook del server virtuale temporaneo può essere configurato tramite la API SLDN utilizzando il seguente metodo:
 
   `SoftLayer_Virtual_Guest::setWebhook(uri, secret)`
 

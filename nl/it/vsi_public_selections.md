@@ -37,7 +37,7 @@ La RAM è estremamente diretta. L'offerta dedica completamente la quantità di R
 
 Puoi anche selezionare il sistema operativo che deve venire distribuito al server. Puoi selezionare alcune opzioni gratuite come CentOS e Ubuntu. Sono anche disponibili opzioni a pagamento come Windows Server e Red Hat Enterprise Linux (RHEL). È importante tenere presente che Windows richiede un disco primario da 100GB.
 
-Per i clienti esistenti, puoi anche eseguire la distribuzione in base a un template dell'immagine attraverso il {{site.data.keyword.slportal_full}} passando a **Dispositivi -> Gestisci -> Immagini** e selezionando **Ordina server virtuale** dal menu *Azioni*.  Questo seleziona automaticamente il sistema operativo appropriato per l'ordine.  In alternativa, puoi eseguire l'ordine basato su un'immagine standard e quindi ricaricare un template dell'immagine in qualsiasi momento.
+Per i clienti esistenti, puoi anche eseguire la distribuzione in base a un template dell'immagine attraverso il {{site.data.keyword.slportal_full}} andando a **Devices -> Manage -> Images** e selezionando **Order Virtual Server** dal menu *Actions*.  Questo seleziona automaticamente il sistema operativo appropriato per l'ordine.  In alternativa, puoi eseguire l'ordine basato su un'immagine standard e quindi ricaricare un template dell'immagine in qualsiasi momento.
 
 ## Archiviazione
 

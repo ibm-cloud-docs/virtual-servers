@@ -16,7 +16,7 @@ lastupdated: "2018-10-05"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Provisioning della capacità e delle istanze riservate 
+# Provisioning della capacità e delle istanze riservate
 
 ## Informazioni preliminari 
 
@@ -26,11 +26,11 @@ Puoi eseguire il provisioning della tua capacità e delle tue istanze tramite il
 
 ## Accesso al catalogo IBM Cloud
 
-Utilizza la seguente procedura per accedere al catalogo {{site.data.keyword.cloud_notm}} e iniziare il provisioning della tua capacità e delle tue istanze riservate. 
+Utilizza la seguente procedura per accedere al catalogo {{site.data.keyword.cloud_notm}} e iniziare il provisioning della tua capacità e delle tue istanze riservate.
 
   1. Accedi al catalogo [{{site.data.keyword.cloud_notm}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://console.bluemix.net/catalog/){: new_window} utilizzando le tue credenziali univoche. 
 
-## Provisioning della capacità riservata  
+## Provisioning della capacità riservata 
 
 Nel catalogo {{site.data.keyword.cloud_notm}}, completa la seguente procedura per eseguire il provisioning della tua capacità riservata.
 
@@ -57,11 +57,11 @@ Dopo aver eseguito il provisioning della tua capacità riservata, è ora di eseg
 1. Nel catalogo {{site.data.keyword.cloud_notm}}, seleziona il tile **Server virtuali** nella sezione **Infrastruttura di calcolo**.
 2. Seleziona l'opzione **Server virtuale riservato**. 
 3. Fai clic su **Crea**. 
-4. Per eseguire il provisioning di un'istanza del server virtuale, immetti o seleziona le seguenti informazioni: 
+4. Per eseguire il provisioning di un'istanza del server virtuale, immetti o seleziona le seguenti informazioni:
 
 | Campo                     | Valore               |                                                                                                                                                                                                                                                                                                                                 
 | ------------------------- | ------------------- |
-| Nome                    | È obbligatorio un nome per le tue istanze del server virtuale riservate. |                                                                                                                                                                                                                                                                                                       
+| Nome                      | È obbligatorio un nome per le tue istanze del server virtuale riservate. |                                                                                                                                                                                                                                                                                                       
 | Fatturazione                   | Seleziona la fatturazione oraria o mensile. |                                                                                                                                                                                                                                                
 | Capacità riservata         | Seleziona la tua capacità riservata o seleziona **Nuova capacità +** per eseguire il provisioning di ulteriore capacità riservata. |                                                                                                                                                                                                     
 | Componenti aggiuntivi                   | Scegli ulteriori archiviazione rete o software. |                                                                                                                                                                                                                                                                                            

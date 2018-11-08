@@ -55,29 +55,29 @@ Puoi annullare un host dedicato in qualsiasi momento. Un prerequisito per l'annu
 ## Annulla un host dedicato dall'elenco dei dispositivi
 Utilizza le seguenti istruzioni per annullare un host dedicato dall'elenco dei dispositivi.
 
-1. Selezione **Dispositivo** > **Elenco dispositivi**.
-2. Trova l'host dedicato da annullare e fai clic sul menu a discesa **Azioni**.
-3. Seleziona **Annulla host**. 
+1. Seleziona **Device** > **Device List**.
+2. Trova l'host dedicato da annullare e fai clic sul menu a discesa **Actions**.
+3. Seleziona **Cancel Host**. 
 4. Viene visualizzata una finestra a comparsa che contiene un elenco di istanze dedicate assegnate all'host. Dovrai migrare o annullare le istanze, se non lo hai già fatto, prima di annullare l'host. Fai clic su **OK**.
 
 Riceverai un messaggio che conferma che l'host è stato annullato. Ci sarà un link al ticket di supporto per annullare l'host dedicato.
 ## Annulla un host dedicato dalla pagina dei dettagli del dispositivo
 Utilizza le seguenti istruzioni per annullare l'host dedicato dalla pagina dei dettagli del dispositivo.
 
-1. Selezione **Dispositivo** > **Elenco dispositivi**.
+1. Seleziona **Device** > **Device List**.
 2. Trova l'host dedicato da annullare e fai doppio clic su di esso.
 3. Verifica che tutte le istanze dedicate assegnate all'host dedicato siano state migrate o annullate.
-4. Fai clic sul menu a discesa **Azioni** e seleziona **Annulla host**.
+4. Fai clic sul menu a discesa **Actions** e seleziona **Cancel Host**.
 
 Riceverai un messaggio che conferma che l'host è stato annullato. Ci sarà un link al ticket di supporto per annullare l'host dedicato.
 
 ### Annulla un'istanza dedicata
 
-Prima di poter annullare un host dedicato, devono essere annullate le istanze dedicate associate ad esso. Le istanze dedicate possono essere annullate direttamente dall'Elenco dispositivi, dalla pagina Dettagli del dispositivo del loro host assegnato o dalla loro pagina Dettagli del dispositivo. 
+Prima di poter annullare un host dedicato, devono essere annullate le istanze dedicate associate ad esso. Le istanze dedicate possono essere annullate direttamente dall'elenco dispositivi, dalla pagina dei dettagli del dispositivo del loro host assegnato o dalla loro pagina dei dettagli del dispositivo. 
 
-1. Seleziona l'istanza dedicata da annullare e fai clic sul menu a discesa **Azioni**.
-2. Seleziona **Annulla dispositivo**.
-3. Viene visualizzato un messaggio di avvertenza. Fai clic sul menu a discesa **Motivo** e seleziona il motivo per cui stai annullando l'istanza e fai clic su **Continua**.
+1. Seleziona l'istanza dedicata da annullare e fai clic sul menu a discesa **Actions**.
+2. Seleziona **Cancel Device**.
+3. Viene visualizzato un messaggio di avvertenza. Fai clic sul menu a discesa **Motivo** e seleziona il motivo per cui stai annullando l'istanza e fai clic su **Continue**.
 
 Riceverai un messaggio che conferma che l'istanza è stata annullata. Ci sarà un link al ticket di supporto per annullare l'istanza dedicata.
 

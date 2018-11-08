@@ -16,7 +16,7 @@ lastupdated: "2018-09-26"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# FAQ: capacità e istanze riservate  
+# FAQ: capacità e istanze riservate 
 
 ## Quali tipi di istanza del server virtuale possono essere riservati?
 Possono essere riservati solo le dimensioni della famiglia bilanciata, memoria e calcolo di cui è stato eseguito il backup SAN.
@@ -24,7 +24,7 @@ Possono essere riservati solo le dimensioni della famiglia bilanciata, memoria e
 ## Posso combinare diverse dimensioni CPUxRAM o modificarle in un secondo momento?
 Non puoi combinare diverse dimensioni CPUxRAM o modificarle in un secondo momento. La serie di istanze del server virtuale di cui esegui il provisioning alla tua capacità riservata deve avere la stessa dimensione della tua prenotazione. 
 
-## Il mio pagamento è anticipato o mensile? 
+## Il mio pagamento è anticipato o mensile?
 La capacità e le istanze riservate sono acquistate per un periodo annuale di uno o tre anni. Dopodiché, sei vincolato a un pagamento mensile. 
 
 ## Cosa succede alla fine del mio contratto?

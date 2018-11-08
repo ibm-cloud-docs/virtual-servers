@@ -19,10 +19,10 @@ lastupdated: "2017-10-25"
 # Guida di riferimento API
 {: #api-reference} 
 
-{{site.data.keyword.slapi_full}} è l'interfaccia di sviluppo che consente agli sviluppatori e agli amministratori di sistema di interagire direttamente con il sistema di backend di {{site.data.keyword.cloud}}. {{site.data.keyword.slapi_short}} potenzia molte delle funzioni disponibili nel {{site.data.keyword.slportal_full}}, che in genere significa che se un'interazione è possibile nel {{site.data.keyword.slportal}}, può essere eseguita anche nell'API. Poiché puoi interagire a livello di programmazione con tutte le parti dell'ambiente {{site.data.keyword.BluSoftlayer_full}} all'interno dell'API, {{site.data.keyword.slapi_short}} ti consente di automatizzare le attività. Ad esempio, puoi utilizzare l'API *SoftLayer_Virtual_Guest/createObject* per distribuire un'istanza del server virtuale.
+{{site.data.keyword.slapi_full}} è l'interfaccia di sviluppo che consente agli sviluppatori e agli amministratori di sistema di interagire direttamente con il sistema di backend di {{site.data.keyword.cloud}}. {{site.data.keyword.slapi_short}} potenzia molte delle funzioni disponibili nel {{site.data.keyword.slportal_full}}, che in genere significa che se un'interazione è possibile nel {{site.data.keyword.slportal}}, può essere eseguita anche nella API. Poiché puoi interagire a livello di programmazione con tutte le parti dell'ambiente {{site.data.keyword.BluSoftlayer_full}} all'interno della API, {{site.data.keyword.slapi_short}} ti consente di automatizzare le attività. Ad esempio, puoi utilizzare la API *SoftLayer_Virtual_Guest/createObject* per distribuire un'istanza del server virtuale.
 {:shortdesc}
 
-{{site.data.keyword.slapi_short}} è un sistema di chiamata di procedura remota. Ogni chiamata implica l'invio di dati verso un endpoint dell'API e la ricezione dei dati strutturati come ritorno. Il formato utilizzato per inviare e ricevere i dati con {{site.data.keyword.slapi_short}} dipende da quale implementazione API scegli. {{site.data.keyword.slapi_short}} attualmente utilizza SOAP, XML-RPC o REST per la trasmissione dei dati.
+{{site.data.keyword.slapi_short}} è un sistema di chiamata di procedura remota. Ogni chiamata implica l'invio di dati verso un endpoint della API e la ricezione dei dati strutturati come ritorno. Il formato utilizzato per inviare e ricevere i dati con {{site.data.keyword.slapi_short}} dipende da quale implementazione API scegli. {{site.data.keyword.slapi_short}} attualmente utilizza SOAP, XML-RPC o REST per la trasmissione dei dati.
 
 Per ulteriori informazioni sull'{{site.data.keyword.slapi_short}} e sulle API del server virtuale, consulta le seguenti risorse in {{site.data.keyword.sldn_full}}:
 * [Panoramica di {{site.data.keyword.slapi_short}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://softlayer.github.io/reference/softlayerapi/){: new_window}
@@ -30,7 +30,7 @@ Per ulteriori informazioni sull'{{site.data.keyword.slapi_short}} e sulle API de
 * [Riferimento API: SoftLayer_Virtual_Guest::createObject ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/){: new_window}
 * [Riferimento API: SoftLayer_Product_Order::placeOrder ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/){: new_window}
 
-Per gli esempi di utilizzo dell'API, consulta le seguenti risorse:
+Per gli esempi di utilizzo della API, consulta le seguenti risorse:
 * [Understanding and building an order using the {{site.data.keyword.slapi_short}} order CLI ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://softlayer.github.io/article/understanding-ordering/){: new_window}
 * [Client {{site.data.keyword.slapi_short}} Python: gestione dei server virtuali ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](http://softlayer-python.readthedocs.io/en/latest/cli/vs.html){: new_window}
 * [Esempi di {{site.data.keyword.slapi_short}} - Note sulla release ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://softlayer.github.io/){: new_window}

@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-28"
+lastupdated: "2018-10-30"
 
 
 ---
@@ -31,10 +31,10 @@ Le seguenti attività di gestione del server virtuale sono disponibili dall'elen
 * Ridenominazione - modifica o aggiornamento di un nome dispositivo.
 * Annullamento - terminare l'utilizzo di un dispositivo. I dispositivi possono essere annullati immediatamente o alla ricorrenza della fatturazione. Dopo aver confermato l'annullamento del dispositivo, l'azione non può essere annullata. Non possono venire forniti rimborsi per le cancellazioni immediate.
 
-Completa le seguenti istruzioni per eseguire le attività di gestione per i tuoi server virtuali dall'elenco dei dispositivi nel portale clienti.  
+Completa le seguenti istruzioni per eseguire le attività di gestione per i tuoi server virtuali dall'elenco dei dispositivi nel portale del cliente.  
 1. Accedi al [{{site.data.keyword.slportal_full}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} utilizzando le tue credenziali univoche. 
-2. Dal menu **Dispositivi**, seleziona **Elenco dispositivi**.
-3. Fai clic su **Azioni** per il dispositivo che vuoi gestire e seleziona l'attività di gestione desiderata.
+2. Dal menu **Devices**, seleziona **Device List**.
+3. Fai clic su **Actions** per il dispositivo che vuoi gestire e seleziona l'attività di gestione desiderata.
 
 **Suggerimenti:** 
 * Puoi interagire con i server nel {{site.data.keyword.slportal}} sia nella vista Istantanea (un riepilogo del tuo dispositivo) che nella schermata Dettagli del dispositivo (un elenco completamente dettagliato). Per visualizzare e interagire con il tuo server nella vista Istantanea, fai clic sulla freccia accanto al nome del dispositivo per espandere la vista. Per visualizzare e interagire con il tuo server nella schermata Dettagli del dispositivo, fai clic sul nome del dispositivo del server.
@@ -47,7 +47,7 @@ Completa le seguenti istruzioni per eseguire le attività di gestione per i tuoi
 
 * **Accensione/Spegnimento**
 
-    Se il dispositivo è stato spento, questo rimane nello stato spento e deve essere acceso manualmente ripetendo i passi precedenti. Gli utenti non possono interagire con un dispositivo quando è spento. Se il dispositivo è stato acceso, può avvenire la normale interazione. Rimarrà acceso finché non vengono effettuate ulteriori azioni. Se il server virtuale supporta la funzione di sospensione della fatturazione, la fatturazione viene sospesa per alcune risorse di calcolo. Non puoi completare tutte le attività di gestione in un'istanza finché non viene ripresa la fatturazione. La sospensione della fatturazione è supportata solo per i nuovi provisioning delle istanze, non per le esistenti. Per ulteriori informazioni, vedi [Informazioni sulla sospensione della fatturazione](vsi_about_suspend.html).
+    Se il dispositivo è stato spento, questo rimane nello stato spento e deve essere acceso manualmente ripetendo i passi precedenti. Gli utenti non possono interagire con un dispositivo quando è spento. Se il server virtuale supporta la funzione di sospensione della fatturazione, la fatturazione viene sospesa per alcune risorse di calcolo. Non puoi completare tutte le attività di gestione in un'istanza finché non viene ripresa la fatturazione. Per ulteriori informazioni, vedi [Informazioni sulla sospensione della fatturazione](vsi_about_suspend.html). Per appurare se la tua istanza del server virtuale supporta la funzione di sospensione della fatturazione, vedi [Visualizzazione della funzione di sospensione della fatturazione](vsi_viewing_suspend.html). Se il dispositivo è stato acceso, può avvenire la normale interazione. Rimarrà acceso finché non vengono effettuate ulteriori azioni.
 
 * **Ridenominare**
 

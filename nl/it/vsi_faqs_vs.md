@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-02"
+lastupdated: "2018-10-30"
 
 
 ---
@@ -24,6 +24,9 @@ lastupdated: "2018-02-02"
 
 ## Dove posso trovare le informazioni sui prezzi per i tipi di istanza pubblica?
 Per informazioni sui prezzi, vedi [Crea il tuo server virtuale ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud-computing/bluemix/virtual-servers){: new_window}.
+
+## Dove posso trovare le informazioni sui prezzi per le istanze pubbliche virtuali?
+Per le informazioni sui prezzi, consulta la pagina relativa al [calcolatore del provisioning di server virtuali](https://www.ibm.com/cloud-computing/bluemix/virtual-servers/calculator).
 
 ## Posso aggiungere l'archiviazione disco al mio Virtual Server orario o mensile?
 Puoi eseguire o annullare l'aggiornamento dell'archiviazione disco per tutti i server virtuali aggiornando le tue opzioni di archiviazione nei campi *Primo disco* fino a *Quinto disco* nella schermata *Configurazione* del dispositivo che desideri aggiornare. Per ulteriori informazioni, consulta [Riconfigurazione di un server virtuale esistente](../vsi/vsi_reconfigure.html).
@@ -62,6 +65,10 @@ Un server virtuale è simile alle piattaforme VPS (virtual private server) o VDS
 
 Viene eseguito il provisioning dei server virtuali su un'architettura cloud a più server che raggruppa tutte le risorse hardware disponibili per le istanze individuali da utilizzare. I server virtuali possono utilizzare una piattaforma di archiviazione primaria basata su SAN a capacità altamente condivisa o un'archiviazione disco locale dalle elevate prestazioni. Poiché ogni istanza fa parte di un ambiente cloud più grande, la comunicazione tra tutti i server virtuali è istantanea.
 
-## Non posso collegarmi all'API di virtualizzazione. In che modo posso correggere l'errore?
+<!--## I'm unable to connect to the virtualization API. How can I fix this?-->
 
-Questo errore generalmente si verifica perché una password è obsoleta. Per correggerlo, aggiorna la password root o di amministratore per il sistema operativo del server virtuale nel {{site.data.keyword.slportal_full}}.
+<!--This error generally occurs because a password is outdated. To fix this, update the root or Administrator password for the virtual server's operating system in the {{site.data.keyword.slportal_full}}.-->
+
+## Perché ricevo un errore di capacità quando eseguo il provisioning di un server virtuale?
+
+Quando esegui il provisioning di un server virtuale, potresti riceve un messaggio di errore che indica che la capacità disponibile non è sufficiente per completare la richiesta. Quando il provisioning non riesce, tutte le istanze del server virtuale in questa richiesta particolare non riescono. Un errore di capacità si verifica quando non ci sono risorse disponibili sufficienti nel router o nel data center per soddisfare la richiesta del servizio. Ci sono molti motivi per cui potresti ricevere questo errore. La disponibilità delle risorse cambia frequentemente, per cui puoi attendere e riprovare più tardi. Per ulteriori informazioni sulle strategie per evitare questo errore, vedi [Considerazioni sulla capacità](https://console.bluemix.net/docs/vsi/ts_capacity_bp.html).
