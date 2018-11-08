@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-02"
+lastupdated: "2018-10-30"
 
 
 ---
@@ -24,6 +24,9 @@ lastupdated: "2018-02-02"
 
 ## 在哪里可以找到公共实例类型的定价信息？
 有关定价信息，请参阅[构建虚拟服务器 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/cloud-computing/bluemix/virtual-servers){: new_window}。
+
+## 在哪里可以找到虚拟公共实例的定价信息？
+有关定价信息，请参阅[虚拟服务器供应计算器](https://www.ibm.com/cloud-computing/bluemix/virtual-servers/calculator)。
 
 ## 可以向每小时或每月虚拟服务器添加磁盘存储吗？
 通过在要更新的设备的*配置*屏幕中，更新*第一个磁盘*到*第五个磁盘*字段中的存储选项，可以升级或降级任何虚拟服务器的磁盘存储。有关更多信息，请参阅[重新配置现有虚拟服务器](../vsi/vsi_reconfigure.html)。
@@ -62,6 +65,11 @@ lastupdated: "2018-02-02"
 
 虚拟服务器是在多服务器云体系结构上供应的，该体系结构将所有可用硬件资源合并在一起供各个实例使用。虚拟服务器可以利用基于 SAN 的共享高容量主存储平台或高性能本地磁盘存储。由于每个实例都是更大的云环境的一部分，因此所有虚拟服务器之间的通信都是即时的。
 
-## 我无法连接到虚拟化 API。该如何解决这个问题？
+<!--## I'm unable to connect to the virtualization API. How can I fix this?-->
 
-发生此错误的原因通常是密码已过期。要解决此问题，请在 {{site.data.keyword.slportal_full}}中更新虚拟服务器操作系统的 root 用户或 Administrator 用户密码。
+<!--This error generally occurs because a password is outdated. To fix this, update the root or Administrator password for the virtual server's operating system in the {{site.data.keyword.slportal_full}}.-->
+
+## 为什么我在供应虚拟服务器时收到容量错误？
+
+供应虚拟服务器时，您可能会收到错误消息，说容量不足，无法完成请求。供应失败时，该特定请求中的所有虚拟服务器实例均会失败。
+路由器或数据中心的可用资源不足而无法执行服务请求时，会发生容量错误。有多个原因可能会导致您收到此错误。资源可用性变化频繁，因此您可以等待并稍后重试。有关避免此错误的策略的更多信息，请参阅[容量注意事项](https://console.bluemix.net/docs/vsi/ts_capacity_bp.html)。

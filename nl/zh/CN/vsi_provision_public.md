@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-10-03"
+lastupdated: "2018-10-11"
 
 
 ---
@@ -39,7 +39,7 @@ lastupdated: "2018-10-03"
 完成先决条件后，可以开始供应公共虚拟服务器实例。可以通过 {{site.data.keyword.cloud_notm}} 目录或 {{site.data.keyword.slportal}} 来供应公共实例。
 
 ### 通过 IBM Cloud 目录供应公共虚拟服务器实例
-要通过 {{site.data.keyword.cloud_notm}} 来供应公共虚拟服务器实例，请完成以下步骤：
+要通过 {{site.data.keyword.cloud_notm}} 目录来供应公共虚拟服务器实例，请完成以下步骤：
 
   1. 使用您的唯一凭证来登录到 [{{site.data.keyword.cloud_notm}} 目录 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://console.bluemix.net/catalog/){: new_window}。 
   2. 在**计算基础架构**部分中，单击**虚拟服务器**磁贴。
