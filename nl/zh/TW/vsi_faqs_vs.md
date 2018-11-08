@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-02"
+lastupdated: "2018-10-30"
 
 
 ---
@@ -24,6 +24,9 @@ lastupdated: "2018-02-02"
 
 ## 我可以在哪裏找到公用實例類型的定價資訊？
 如需相關資訊，請參閱[建置虛擬伺服器 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud-computing/bluemix/virtual-servers){: new_window}。
+
+## 我可以在哪裏找到虛擬公用實例的定價資訊？
+如需定價資訊，請參閱[虛擬伺服器佈建計算機](https://www.ibm.com/cloud-computing/bluemix/virtual-servers/calculator)。
 
 ## 我可以將磁碟儲存空間新增至每小時或每月虛擬伺服器嗎？
 您可以升級或降級任何虛擬伺服器的磁碟儲存空間，方法是在您要更新之裝置的*配置* 畫面的*第一個硬碟* 到*第五個硬碟* 欄位中更新儲存空間選項。如需相關資訊，請參閱[重新配置現有虛擬伺服器](../vsi/vsi_reconfigure.html)。
@@ -62,6 +65,10 @@ lastupdated: "2018-02-02"
 
 虛擬伺服器是佈建於多部伺服器雲端架構上，而此架構儲存要使用之個別實例的所有可用硬體資源。虛擬伺服器可以利用共用高容量 SAN 型主要儲存空間平台或高效能本端磁碟儲存空間。因為每一個實例都是較大型雲端環境的一部分，所以所有虛擬伺服器之間的通訊都是即時的。
 
-## 我無法連接至虛擬化 API。如何才能修正這個問題？
+<!--## I'm unable to connect to the virtualization API. How can I fix this?-->
 
-此錯誤一般是因密碼過期而發生。若要修正此問題，請在 {{site.data.keyword.slportal_full}} 中更新虛擬伺服器作業系統的 root 或管理者密碼。
+<!--This error generally occurs because a password is outdated. To fix this, update the root or Administrator password for the virtual server's operating system in the {{site.data.keyword.slportal_full}}.-->
+
+## 我在佈建虛擬伺服器時為什麼收到容量錯誤？
+
+當您佈建虛擬伺服器時，可能會收到錯誤訊息，指出容量不足，無法完成要求。佈建失敗時，特定要求內的所有虛擬伺服器實例都會失敗。路由器或資料中心內的可用資源不足而無法滿足服務要求時，發生容量錯誤。有數個原因，您都會收到此錯誤。資源可用性會經常變更，因此您可能需要等待，然後再試一次。如需避免此錯誤的策略相關資訊，請參閱[容量考量](https://console.bluemix.net/docs/vsi/ts_capacity_bp.html)。

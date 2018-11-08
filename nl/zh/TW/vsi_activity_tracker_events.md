@@ -20,7 +20,8 @@ lastupdated: "2018-09-12"
 # Activity Tracker 事件 
 {: #at_events}
 
-身為安全性管理者、審核員或管理員，您可以使用 {{site.data.keyword.cloudaccesstrailfull}} 服務來追蹤使用者及應用程式在 {{site.data.keyword.Bluemix}} 中與虛擬伺服器實例 (VSI) 互動的情形。與帳戶鏈結的帳戶擁有者及使用者，可以觸發虛擬伺服器事件，這些事件會記錄在 {{site.data.keyword.cloudaccesstrailshort}} 中。{:shortdesc}
+身為安全性管理者、審核員或管理員，您可以使用 {{site.data.keyword.cloudaccesstrailfull}} 服務來追蹤使用者及應用程式在 {{site.data.keyword.Bluemix}} 中與虛擬伺服器實例 (VSI) 互動的情形。與帳戶鏈結的帳戶擁有者及使用者，可以觸發虛擬伺服器事件，這些事件會記錄在 {{site.data.keyword.cloudaccesstrailshort}} 中。
+{:shortdesc}
 
 {{site.data.keyword.cloudaccesstrailshort}} 服務會記錄由使用者起始，且會變更 {{site.data.keyword.Bluemix_notm}} 中服務狀態的活動。如需相關資訊，請參閱[關於 {{site.data.keyword.cloudaccesstrailshort}}](/docs/services/cloud-activity-tracker/activity_tracker_ov.html#activity_tracker_ov )。
 

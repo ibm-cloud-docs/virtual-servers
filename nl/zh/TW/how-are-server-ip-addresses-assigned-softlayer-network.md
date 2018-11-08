@@ -17,7 +17,8 @@ lastupdated: "2018-08-01"
 # 指派伺服器 IP 位址
 {: #assigning-server-ip-addresses}
 
-{{site.data.keyword.cloud}} 會使用在專用網路上的 IPv4 位址，以及在要求時使用公用（面對網際網路）IPv4 位址，來配置虛擬伺服器實例。此外，您可以在公用網路上要求 IPv6 位址。所有這些 IP 位址統稱為_主要 IP 位址_。{:shortdesc}
+{{site.data.keyword.cloud}} 會使用在專用網路上的 IPv4 位址，以及在要求時使用公用（面對網際網路）IPv4 位址，來配置虛擬伺服器實例。此外，您可以在公用網路上要求 IPv6 位址。所有這些 IP 位址統稱為_主要 IP 位址_。
+{:shortdesc}
 
 透過 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com) 購買次要子網路之後，可以將其他 IP 位址連結至虛擬伺服器實例。使用此方式購買且由您管理的 IP 位址稱為_次要 IP 位址_。
 

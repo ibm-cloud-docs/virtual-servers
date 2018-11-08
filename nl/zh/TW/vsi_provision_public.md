@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-10-03"
+lastupdated: "2018-10-11"
 
 
 ---
@@ -39,7 +39,7 @@ lastupdated: "2018-10-03"
 在您完成必要條件之後，即可開始佈建公用虛擬伺服器實例。您可以透過 {{site.data.keyword.cloud_notm}} 型錄或 {{site.data.keyword.slportal}} 佈建公用實例。
 
 ### 透過 IBM Cloud 型錄佈建公用虛擬伺服器實例
-若要透過 {{site.data.keyword.cloud_notm}} 佈建公用虛擬伺服器實例，請完成下列步驟：
+若要透過 {{site.data.keyword.cloud_notm}} 型錄佈建公用虛擬伺服器實例，請完成下列步驟：
 
   1. 使用唯一認證來登入 [{{site.data.keyword.cloud_notm}} 型錄 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://console.bluemix.net/catalog/){: new_window}。 
   2. 在**運算基礎架構**區段中，按一下**虛擬伺服器**磚。

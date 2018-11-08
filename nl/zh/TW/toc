@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="virtual-servers" audience="compute" arm="407" href=“/docs/vsi/index.html”}
-IBM Cloud 虛擬伺服器 
+IBM Cloud Virtual Servers 
 
     {: .navgroup id="learn"}
     vsi_index.md
@@ -26,6 +26,7 @@ IBM Cloud 虛擬伺服器
         vsi_ps_index.md
 
     vsi_image_templates_intro.md
+    vsi_placegroup.md
 
     {: .topicgroup}
     安全選項
@@ -50,7 +51,7 @@ IBM Cloud 虛擬伺服器
         vsi_email_intro.md
     
     {: .topicgroup}
-指導教學
+    指導教學
         [LAMP Stack 上的 PHP Web 應用程式](https://console.bluemix.net/docs/tutorials/lamp-stack.html)
         [使用虛擬伺服器建置高可用性及可擴充 Web 應用程式](https://console.bluemix.net/docs/tutorials/highly-available-and-scalable-web-application.html)
         
@@ -89,6 +90,7 @@ IBM Cloud 虛擬伺服器
         vsi_managing.md
             vsi_add_script.md
             vsi_vulnerability_scans.md
+            vsi_viewing_suspend.md
             vsi_bandwidth-graphs.md
         vsi_managing_dedicated.md
         vsi_device_access.md
@@ -123,6 +125,10 @@ IBM Cloud 虛擬伺服器
         vsi_gpu_nvidia_drivers.md
  
     {: .topicgroup}
+    管理放置群組
+        vsi_managing_placegroup.md
+    
+    {: .topicgroup}
     移轉
         vsi_migrating_dedicated.md
 
@@ -138,8 +144,8 @@ IBM Cloud 虛擬伺服器
         [從 R1Soft 映像檔還原伺服器](../infrastructure/software/r1soft-cdp-bare-metal-restore-procedures.html)
         
     {: .topicgroup}
-相關鏈結
-        [Virtual Machine Network Setup](../infrastructure/virtualization/virtual-machine-network-setup.html)
+    相關鏈結
+        [虛擬機器網路設定](../infrastructure/virtualization/virtual-machine-network-setup.html)
         [Control Portal](https://control.softlayer.com/)
     {: .navgroup-end}
 
