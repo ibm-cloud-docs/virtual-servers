@@ -29,9 +29,9 @@ Dalla pagina *Archiviazione portatile*, è possibile modificare, collegare, scol
 L'archiviazione portatile collegata a un server è elencata nella pagina *Dettagli del dispositivo* del server.
 
 1. Accedi al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} utilizzando le tue credenziali univoche.
-* Nella **Barra di navigazione**, seleziona **Dispositivi > Elenco dispositivi** per accedere alla pagina Elenco dispositivi.
+* Nella **barra di navigazione**, seleziona **Devices > Device List** per accedere alla pagina Device List.
 * Fai clic sul nome host del server virtuale per accedere alla pagina dei dettagli del dispositivo del server.
-* Fai clic sulla scheda *Archiviazione* per visualizzare l'archiviazione portatile attualmente collegata al server.
-* Fai clic su **Azione** accanto all'archiviazione portatile e fai clic sull'opzione desiderata per scollegare o scambiare l'archiviazione. 
+* Fai clic sulla scheda *Storage* per visualizzare l'archiviazione portatile attualmente collegata al server.
+* Fai clic su **Action** accanto all'archiviazione portatile e fai clic sull'opzione desiderata per scollegare o scambiare l'archiviazione. 
 
-**Nota:** dalla pagina *Archiviazione portatile*, puoi fare clic sul nome host come scorciatoia per raggiungere la pagina *Dettagli del dispositivo*. 
+**Nota:** dalla pagina *Portable Storage*, puoi fare clic sul nome host come scorciatoia per raggiungere la pagina *Device Details*. 

@@ -29,7 +29,7 @@ lastupdated: "2018-05-11"
 Per visualizzare l'archiviazione portatile, completa le seguenti istruzioni:
 
 1. Accedi al [{{site.data.keyword.slportal_full}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/) utilizzando le tue credenziali univoche.
-2. Dall'elenco dei dispositivi, fai clic sul *Nome server virtuale* che contiene il dispositivo di archiviazione portatile desiderato.
+2. Dall'elenco dei dispositivi, fai clic sul *Nome Virtual Server* che contiene il dispositivo di archiviazione portatile desiderato.
 3. Fai clic sulla scheda **Configurazione**.
 4. Fai clic sul pulsante **Visualizza archiviazione portatile per questo dispositivo**. L'archiviazione portatile verrà visualizzata per il dispositivo.
 
