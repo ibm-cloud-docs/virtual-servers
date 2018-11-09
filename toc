@@ -110,9 +110,9 @@ IBM Cloud Virtual Servers
 
     {: .topicgroup}
     Managing storage
-        /storage/access-portable-storage-screen.md
-        /storage/vsi_view_portable_storage.md
-        /storage/edit-description-portable-storage-volume-psv.md
+        storage/access-portable-storage-screen.md
+        storage/vsi_view_portable_storage.md
+        storage/edit-description-portable-storage-volume-psv.md
         
     {: .topicgroup}
     Managing software
