@@ -35,7 +35,7 @@ IBM Cloud Virtual Servers
         vsi_ssl_intro.md
         vsi_ssh_intro.md
 
-    /storage/vsi_about_storage.md
+    storage/vsi_about_storage.md
 
     {: .topicgroup}
     Software options
