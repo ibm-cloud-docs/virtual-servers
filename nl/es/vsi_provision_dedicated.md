@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2018
+lastupdated: "2018-10-24"
 
 
 ---
@@ -22,31 +22,27 @@ lastupdated: "2017-10-24"
 Dispone de dos opciones para suministrar las instancias dedicadas. La primera es a través del catálogo de {{site.data.keyword.Bluemix}} y la segunda a través del {{site.data.keyword.slportal_full}}. El catálogo y el {{site.data.keyword.slportal}} requieren ID de inicio exclusivos. El nombre de usuario y la contraseña del catálogo no funcionarán para iniciar una sesión en el portal y viceversa. Consulte [Registro en {{site.data.keyword.Bluemix_notm}}](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window} para configurar su catálogo de {{site.data.keyword.Bluemix_notm}} o sus credenciales de {{site.data.keyword.slportal}}.
 {:shortdesc}
 
-## Inicio de sesión en el catálogo de IBM Cloud
-Siga los pasos siguientes para iniciar una sesión en el catálogo de {{site.data.keyword.Bluemix_notm}} para comenzar a suministrar sus hosts dedicados e instancias de host dedicadas. 
+## Suministro de hosts e instancias dedicados
+Puede suministrar sus hosts dedicados e instancias a través de {{site.data.keyword.cloud_notm}} o {{site.data.keyword.slportal}}.
 
-1. Abra una nueva ventana del navegador y escriba [https://console.bluemix.net/catalog/](https://console.bluemix.net/catalog/){: new_window}.
-2.	Pulse el enlace **Iniciar sesión ** (esquina superior derecha). 
-3.	Escriba su correo electrónico o IBMid y pulse **Continuar**.
-4.	Escriba su contraseña y pulse **Iniciar sesión**.
-5.	Seleccione **Infraestructura > Cálculo**.
-6.  Pulse el mosaico **Servidores virtuales**.
-7.	Seleccione la opción **Servidores virtuales dedicados**.
-8.  Pulse **Crear**. 
+### Suministro de hosts dedicados e instancias a través del catálogo de IBM Cloud 
+Para suministrar los hosts dedicados e instancias a través del catálogo de {{site.data.keyword.cloud_notm}}, complete los pasos siguientes: 
 
-Se abrirá la página principal del {{site.data.keyword.slportal}}.
+1. Inicie una sesión en el catálogo de [{{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://console.bluemix.net/catalog/){: new_window} con sus credenciales exclusivas. 
+2. En la sección **Infraestructura de cálculo**, pulse el mosaico **Servidores virtuales**.
+3. Seleccione la opción **Servidor virtual dedicado**.
+4. Pulse **Crear**.
+5. En la sección **Host dedicado** puede seleccionar **Crear host**, donde puede crear un nuevo host dedicado; o **Especificar host**, donde puede seleccionar sus hosts dedicados existentes.
+6. Rellene la información relevante correspondiente a su host dedicado e instancia de servidor virtual.
+7. Después de revisar el resumen del pedido, pulse el recuadro de selección **Acuerdos de servicios de terceros**.
+8. Pulse **Suministrar**. 
 
-## Inicio de sesión en el Portal de clientes
-Siga los pasos siguientes para iniciar una sesión en el {{site.data.keyword.slportal}} para comenzar el pedido de sus hosts dedicados e instancias de host dedicadas.
+### Suministro de hosts dedicados e instancias a través del portal del cliente
+Para suministrar los hosts dedicados e instancias a través de {{site.data.keyword.slportal}}, complete los pasos siguientes:
 
-1.	Abra una nueva ventana del navegador y escriba [https://control.softlayer.com](https://control.softlayer.com){: new_window}. 
-2.	Escriba su nombre de usuario y contraseña y pulse **Iniciar sesión** O BIEN pulse **Iniciar sesión con IBMid**.
-3.	Escriba su correo electrónico o IBMid y pulse **Continuar**.
-4.	Escriba su contraseña y pulse **Iniciar sesión**.
+1. Inicie una sesión en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window} utilizando sus credenciales exclusivas.
 
-Se abrirá la página principal del {{site.data.keyword.slportal}}.
-
-## Suministre su host dedicado 
+#### Suministro de su host dedicado 
 Siga los pasos siguientes para suministrar sus hosts dedicados.
 
 1.	Pulse el icono **Dispositivos**.
@@ -117,14 +113,10 @@ Se abrirá la página *Configurar el servidor de nube*. Desde esta página puede
 
     Se enviará una serie de correos electrónicos al administrador: acuse de recibo del pedido de suministro, aprobación y proceso del pedido de suministro y suministro completado. El correo electrónico de suministro completado incluirá un enlace que le llevará directamente a la página **Detalles del dispositivo** después de iniciar una sesión en {{site.data.keyword.Bluemix_notm}}. Otra opción sería iniciar la sesión directamente en el {{site.data.keyword.slportal}}.
 
-## Suministre sus instancias de host dedicadas
+#### Suministro de las instancias de su host dedicado
 {: #provision-dedicated-instances}
-Puede suministrar sus instancias de host dedicadas de dos maneras: a través del menú **Dispositivos** o del icono **Dispositivos**.
 
-### Suministro de sus instancias de host dedicadas a través del menú Dispositivos
-{: #ordering-dedicated-devices-menu}
-
-La primera opción consiste en suministrar las instancias de host dedicadas a través del menú **Dispositivos** de la página principal de {{site.data.keyword.slportal}}. Siga estos pasos para llevar a cabo este proceso.
+Para suministrar las instancias de sus hosts dedicados a través de {{site.data.keyword.slportal}}, complete los pasos siguientes:
 
 1.	Pulse **Dispositivos > Lista de dispositivos**. 
  
@@ -244,13 +236,7 @@ La primera opción consiste en suministrar las instancias de host dedicadas a tr
 
 Recibirá un correo electrónico cuando se hayan suministrado las instancias de host dedicadas.
 
-### Suministro de sus instancias de host dedicadas a través del icono Dispositivos
-La segunda opción para suministrar instancias de host dedicadas es utilizar el icono **Dispositivo** de la página de inicio del {{site.data.keyword.slportal}}. Siga estos pasos para llevar a cabo este proceso.
-
-1.	Pulse el icono **Dispositivos** y seleccione **Por hora** o **Mensualmente** en Servidores virtuales dedicados.
-2.	Siga los pasos del menú [Suministro de instancias de host dedicadas a través del menú Dispositivos](#ordering-dedicated-devices-menu), a partir del paso 5.
-
-### Siguientes pasos
+## Siguientes pasos
 Una vez suministrado el servidor virtual, puede empezar a gestionarlo. Para obtener más información, consulte [Gestión de servidores virtuales](../vsi/vsi_managing.html).
 
 

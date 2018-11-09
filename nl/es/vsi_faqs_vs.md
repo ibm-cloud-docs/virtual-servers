@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-02-02"
+lastupdated: "2018-10-30"
 
 
 ---
@@ -24,6 +24,9 @@ lastupdated: "2018-02-02"
 
 ## ¿Dónde puedo encontrar información sobre precios para los tipos de instancias públicas?
 Para obtener información sobre precios, consulte [Crear su servidor virtual ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud-computing/bluemix/virtual-servers){: new_window}.
+
+## ¿Dónde puedo encontrar información sobre precios para las instancias públicas virtuales?
+Para obtener información sobre precios, consulte [Calculador de suministro de servidor virtual](https://www.ibm.com/cloud-computing/bluemix/virtual-servers/calculator).
 
 ## ¿Puedo añadir almacenamiento de disco a mi servidor virtual por hora o mensual?
 Puede actualizar o degradar el almacenamiento de disco para cualquier servidor virtual actualizando las opciones de almacenamiento en los campos de *Primer disco* a *Quinto disco* en la pantalla *Configuración* del dispositivo que desea actualizar. Para obtener más información, consulte [Reconfiguración de un servidor virtual existente](../vsi/vsi_reconfigure.html).
@@ -62,6 +65,10 @@ Un servidor virtual es parecido a un servidor privado virtual (VPS) o servidor d
 
 Los servidores virtuales se suministran en una arquitectura de nube de varios servidores que sondea todos los recursos de hardware disponibles para que los utilicen las instancias individuales. Los servidores virtuales pueden aprovechar una plataforma compartida de almacenamiento primario basado en SAN de alta capacidad o un almacenamiento de disco local de alto rendimiento. Puesto que cada instancia forma parte del entorno de nube mayor, la comunicación entre todos los servidores virtuales es instantánea.
 
-## No puedo conectar con la API de virtualización. ¿Cómo lo puedo solucionar?
+<!--## I'm unable to connect to the virtualization API. How can I fix this?-->
 
-Este error suele producirse porque una contraseña ha quedado obsoleta. Para solucionarlo, actualice la contraseña raíz o de Administrador para el sistema operativo del servidor virtual en el {{site.data.keyword.slportal_full}}.
+<!--This error generally occurs because a password is outdated. To fix this, update the root or Administrator password for the virtual server's operating system in the {{site.data.keyword.slportal_full}}.-->
+
+## ¿Por qué recibo un error de capacidad al suministrar un servidor virtual?
+
+Cuando suministra un servidor virtual, es posible que reciba un mensaje de error diciendo que la capacidad es insuficiente para completar la solicitud. Cuando el suministro falla, todas las instancias de servidor virtual de dicha solicitud particular fallan. Se produce un error de capacidad cuando no hay suficientes recursos disponibles en el direccionador o centro de datos para completar la solicitud de servicio. Existen una serie de motivos por las cuales podría recibir este error. La disponibilidad de recursos cambia con frecuencia, por lo que puede esperar y volver a intentarlo más tarde. [Consideraciones de capacidad](https://console.bluemix.net/docs/vsi/ts_capacity_bp.html).

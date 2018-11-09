@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-28"
+lastupdated: "2018-10-30"
 
 
 ---
@@ -47,7 +47,7 @@ Siga los siguientes pasos para realizar tareas de gestión para los servidores v
 
 * **Encender/Apagar**
 
-    Si el dispositivo se ha apagado, permanecerá en el estado apagado y se debe encender manualmente repitiendo los pasos anteriores. Los usuarios no pueden interactuar con un dispositivo cuando éste está apagado. Si el dispositivo se ha encendido, puede tener lugar interacción normal. Permanecerá activo hasta que se lleve a cabo otra acción. Si el servidor virtual soporta la característica de suspensión de facturación, la facturación se suspende para algunos recursos de cálculo. No puede completar todas las acciones de gestión en una instancia hasta que se reanude la facturación. La suspensión de facturación solo está soportada en suministros nuevos, no en instancias existentes. Para obtener más información, consulte [Acerca de la suspensión de facturación](vsi_about_suspend.html).
+    Si el dispositivo se ha apagado, permanecerá en el estado apagado y se debe encender manualmente repitiendo los pasos anteriores. Los usuarios no pueden interactuar con un dispositivo cuando éste está apagado. Si el servidor virtual soporta la característica de suspensión de facturación, la facturación se suspende para algunos recursos de cálculo. No puede completar todas las acciones de gestión en una instancia hasta que se reanude la facturación. Para obtener más información, consulte [Acerca de la suspensión de facturación](vsi_about_suspend.html). Para saber si la instancia del servidor virtual soporta la característica de suspensión de facturación, consulte [Visualización de la característica de suspensión de facturación](vsi_viewing_suspend.html). Si el dispositivo se ha encendido, puede tener lugar interacción normal. Permanecerá activo hasta que se lleve a cabo otra acción.
 
 * **Cambiar el nombre**
 

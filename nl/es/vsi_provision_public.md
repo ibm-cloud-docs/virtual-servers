@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-10-03"
+lastupdated: "2018-10-11"
 
 
 ---
@@ -39,7 +39,7 @@ Antes de empezar, revise los siguientes requisitos previos.
 Cuando cumpla los requisitos previos, puede empezar a suministrar una instancia de servidor virtual público. Puede suministrar su instancia pública mediante el catálogo de {{site.data.keyword.cloud_notm}} o el {{site.data.keyword.slportal}}.
 
 ### Suministro de una instancia de servidor virtual público a través del catálogo de IBM Cloud
-Para suministrar una instancia de servidor virtual público a través de {{site.data.keyword.cloud_notm}}, siga los pasos siguientes:
+Para suministrar una instancia de servidor virtual público a través del catálogo de {{site.data.keyword.cloud_notm}}, siga los pasos siguientes:
 
   1. Inicie una sesión en el catálogo de [{{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://console.bluemix.net/catalog/){: new_window} con sus credenciales exclusivas. 
   2. En la sección **Infraestructura de cálculo**, pulse el mosaico **Servidores virtuales**.

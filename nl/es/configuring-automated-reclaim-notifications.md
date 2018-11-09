@@ -80,7 +80,7 @@ Para verificar la firma HMAC que se encuentra en la cabecera "Authorization" de 
 1. Cree la serie canónica.
 
   La serie canónica debe contener los datos siguientes:
-  * Tipo de método: POST en este caso (debe estar en mayúsculas)
+  * Tipo de método: POST en este caso (debe estar en mayúsculas).
   * Tipo de contenido: Se encuentra en la cabecera "Content-Type".
   * Carga útil: El cuerpo de la solicitud. En este ejemplo se presupone que la serie JSON se ha decodificado en una matriz o diccionario asociativo nativo.  
   * Nonce: se encuentra en la cabecera "X-IBM-Nonce".
