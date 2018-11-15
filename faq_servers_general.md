@@ -15,17 +15,22 @@ lastupdated: "2018-05-17"
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
+{:faq: data-hd-content-type='faq'}
 
 
 # FAQs: Servers (general)
 
 ## What is the difference between "Boot from Image" and "Load from Image"?
+{:faq}
+
 Boot from Image and Load from Image both utilize existing image templates, which are applied to a device to either replace the existing operating system or to supplement the operating system in an attempt to remedy an existing issue. The main difference between the Boot and Load process is the type of image that is used. When performing either the Boot or Load from Image process, ensure you have backed up all data you may want to recover.
 
    * Boot from Image is a way to boot a device using an ISO supplied by {{site.data.keyword.BluSoftlayer_full}} for system recovery or an ISO that has been uploaded using the *Import Image* feature in the {{site.data.keyword.slportal_full}}. The ISO may be a clean version of the device operating system or a recovery disk that can be used in an attempt to remedy an issue with the device.
    * Load from Image is a method of OS Reload that utilizes an image template that has either been captured from a device or uploaded using the *Image Import* feature in the {{site.data.keyword.slportal}}. The *Load from Image* option performs the reload using a VHD, which wipes the device of all data and replaces the existing operating system and files with a "like new" version of the selected image.
 
 ## Why can I not connect to the KVM console?
+{:faq}
+
 If you are unable to connect to the KVM console, review the troubleshooting tips below to assist in resolving the issue. Should additional issues occur, please contact support. For more information on contacting support, see [Getting help and support](../vsi/vsi_ts_index.html).
 
    * The KVM console is a Java applet. Java must be installed prior to accessing the console. For more information on installing Java, see [Free Java Download ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.java.com/en/download/){: new_window}.  
@@ -41,6 +46,8 @@ If you are unable to connect to the KVM console, review the troubleshooting tips
 If you have completed all of the checks above and still are unable to connect to the KVM console, contact Support for additional assistance in troubleshooting the issue. If a connection to the console has been made but issues occur connecting to the device, ensure the credentials being used to access the device are valid. Contact the account administrator to verify credentials, if necessary.
 
 ## I lost my password to my server. How can I recover it?
+{:faq}
+
 If the root or administrator password to your server is suddenly not working, check the following items. If necessary, use the instructions to launch a rescue kernel and reset your password.
 
    * Are you copying and pasting the password? If not, please try to. Please also paste the password in a notepad to ensure no spaces are accidentally being copied with the password.
@@ -51,9 +58,13 @@ If the root or administrator password to your server is suddenly not working, ch
 If these have all been checked and you are still unable to connect to the server using the password, please contact support using a ticket and request a password reset. Support will need to reboot the server in order to reset the password, so please ensure that you are prepared to approve the reboot and/or provide a maintenance time frame in which you would like it done. Most password resets can be accomplished in 15 minutes. In the {{site.data.keyword.slportal}}, you can create a ticket by going to **Support > Add Ticket** and use the subject *"Reboots and Console Access"*.
 
 ## Are LVM partitions supported as a valid filesystem?
+{:faq}
+
 LVM (Logical Volume Management) provides logical management of file systems in Linux. In the {{site.data.keyword.BluSoftlayer}} environment, LVM is not supported as a bootable partitioning scheme. Virtual server instances cannot be ordered with LVM, and importing images that use LVM as a boot partition will fail to provision. If you require LVM on the boot partition, the bare metal offering can support LVM on boot for certain operating systems. With proper OS support and configuration, secondary VSI Disks can be used for LVM partitions; however, it is important to note that LVM is not a supported filesystem for Flex Image or Image Templates. If you have further questions, please open a ticket with the support team who can assist you.
 
 ## Preconfigured 161.26.0.0/16 Routes on Customer Hosts
+{:faq}
+
 {{site.data.keyword.BluSoftlayer}} is enabling a new route on all newly provisioned servers to support future products.
    * The route points any address in the 161.26.0.0/16 range (161.26.0.0 255.255.0.0 | 161.26.0.0 -161.26.255.255) to the back-end private network.
    * This IP block is assigned to {{site.data.keyword.BluSoftlayer_notm}} by IANA and will not be advertised on the public Internet.
@@ -61,6 +72,7 @@ LVM (Logical Volume Management) provides logical management of file systems in L
    * ACLs on customer servers, virtual servers, and Vyatta gateways will need to be updated to allow customer's hosts to use Infrastructure services configured with IP addresses out of this range.
 
 ## How to add the new routing for various OSes
+{:faq}
 
    <table>
    <CAPTION>Table 1. Adding a routes by OS</CAPTION>
@@ -150,10 +162,12 @@ LVM (Logical Volume Management) provides logical management of file systems in L
    <a name="top"></a>
 
 ## Can I have the monitoring system issue an automatic reboot AND alert a support technician in the event that the server stops responding?
+{:faq}
 
 Yes, with the order of our **Automated Reboot from Monitoring Failure** service, you can set up the monitoring system to automatically reboot the server and issue a ticket for a support technician if a monitoring alert is issued. As an additional service, we provide **NOC Monitoring**, in which you will receive personal notification in the event a monitoring issue occurs. To learn more about both of these offerings, please refer to [Server Monitoring ![External link icon](../icons/launch-glyph.svg "External link icon")](http://www.softlayer.com/services/monitoring/){:new_window}.
 
 ## What is a cvsup mirror?
+{:faq}
 
 You can update against a local cvsup mirror that was run for you. Ensure your supfile has the following entry:
 
