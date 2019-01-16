@@ -9,7 +9,7 @@ lastupdated: "2018-05-11"
 
 # Accessing portable storage
 
-Portable Storage Volumes (PSVs) are an auxiliary storage solution exclusively for {{site.data.keyword.virtualmachinesshort}}. Within the [{{site.data.keyword.slportal_full}} !{External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}, you can access portable storage volumes from the *Portable Storage* page, which displays all PSVs and is the location where volumes can be attached, detached, swapped, and edited. 
+Portable Storage Volumes (PSVs) are an auxiliary storage solution exclusively for {{site.data.keyword.virtualmachinesshort}}. Within the [{{site.data.keyword.slportal_full}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}, you can access portable storage volumes from the *Portable Storage* page, which displays all PSVs and is the location where volumes can be attached, detached, swapped, and edited. 
 
 ## Accessing the Portable Storage page
 
