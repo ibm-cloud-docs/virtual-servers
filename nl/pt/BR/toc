@@ -35,7 +35,7 @@ IBM Cloud Virtual Servers
         vsi_ssl_intro.md
         vsi_ssh_intro.md
 
-    /storage/vsi_about_storage.md
+    storage/vsi_about_storage.md
 
     {: .topicgroup}
     Opções de software
@@ -59,8 +59,7 @@ IBM Cloud Virtual Servers
     Links relacionados
         [Portal de controle](https://control.softlayer.com/)
 
-[Controle
-máximo com os Virtual Servers](https://www.ibm.com/blogs/bluemix/2017/08/maximize-control-ibm-bluemix-virtual-servers/)
+[Controle máximo com os Virtual Servers](https://www.ibm.com/blogs/bluemix/2017/08/maximize-control-ibm-bluemix-virtual-servers/)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
@@ -112,9 +111,9 @@ máximo com os Virtual Servers](https://www.ibm.com/blogs/bluemix/2017/08/maximi
 
     {: .topicgroup}
     Gerenciando o armazenamento
-        /storage/access-portable-storage-screen.md
-        /storage/vsi_view_portable_storage.md
-        /storage/edit-description-portable-storage-volume-psv.md
+        storage/access-portable-storage-screen.md
+        storage/vsi_view_portable_storage.md
+        storage/edit-description-portable-storage-volume-psv.md
         
     {: .topicgroup}
     Gerenciando software
@@ -164,8 +163,7 @@ máximo com os Virtual Servers](https://www.ibm.com/blogs/bluemix/2017/08/maximi
         vsi_faqs_reserved.md
         vsi_faqs_dedicated.md
         faq_servers_general.md
-        [Perguntas frequentes: recarregamento de
-S.O.](../infrastructure/software/os-reload-question-faq.html)
+        [Perguntas frequentes: recarregamento de S.O.](../infrastructure/software/os-reload-question-faq.html)
         [Perguntas frequentes: e-mail
 cpsrvd](../infrastructure/software/why-did-my-cpsrvd-email-fail.html)
 
