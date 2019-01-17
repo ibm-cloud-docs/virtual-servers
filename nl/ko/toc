@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="virtual-servers" audience="compute" arm="407" href=“/docs/vsi/index.html”}
+{: .toc subcollection="virtual-servers" audience="compute" arm="407" href=“/docs/vsi/index.html” path="vsi"}
 IBM Cloud Virtual Servers 
 
     {: .navgroup id="learn"}
