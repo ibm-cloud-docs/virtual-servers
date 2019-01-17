@@ -58,9 +58,8 @@ IBM Cloud Virtual Servers
     {: .topicgroup}
     Links relacionados
         [Portal de controle](https://control.softlayer.com/)
-
-[Controle máximo com os Virtual Servers](https://www.ibm.com/blogs/bluemix/2017/08/maximize-control-ibm-bluemix-virtual-servers/)
-    {: .navgroup-end}
+    [Controle máximo com os Virtual Servers](https://www.ibm.com/blogs/bluemix/2017/08/maximize-control-ibm-bluemix-virtual-servers/)
+        {: .navgroup-end}
 
     {: .navgroup id="reference"}
     vsi_api.md
@@ -164,7 +163,6 @@ IBM Cloud Virtual Servers
         vsi_faqs_dedicated.md
         faq_servers_general.md
         [Perguntas frequentes: recarregamento de S.O.](../infrastructure/software/os-reload-question-faq.html)
-        [Perguntas frequentes: e-mail
-cpsrvd](../infrastructure/software/why-did-my-cpsrvd-email-fail.html)
+        [Perguntas frequentes: e-mail cpsrvd](../infrastructure/software/why-did-my-cpsrvd-email-fail.html)
 
     {: .navgroup-end}
