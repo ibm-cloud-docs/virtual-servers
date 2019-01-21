@@ -35,7 +35,7 @@ Servidores virtuales de IBM Cloud
         vsi_ssl_intro.md
         vsi_ssh_intro.md
 
-    /storage/vsi_about_storage.md
+    storage/vsi_about_storage.md
 
     {: .topicgroup}
     Opciones de software
@@ -110,9 +110,9 @@ Servidores virtuales de IBM Cloud
 
     {: .topicgroup}
     Gestión de almacenamiento
-        /storage/access-portable-storage-screen.md
-        /storage/vsi_view_portable_storage.md
-        /storage/edit-description-portable-storage-volume-psv.md
+        storage/access-portable-storage-screen.md
+        storage/vsi_view_portable_storage.md
+        storage/edit-description-portable-storage-volume-psv.md
         
     {: .topicgroup}
     Gestión de software
