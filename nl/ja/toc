@@ -35,7 +35,7 @@ IBM Cloud 仮想サーバー
         vsi_ssl_intro.md
         vsi_ssh_intro.md
 
-    /storage/vsi_about_storage.md
+    storage/vsi_about_storage.md
 
     {: .topicgroup}
     ソフトウェアのオプション
@@ -110,9 +110,9 @@ IBM Cloud 仮想サーバー
 
     {: .topicgroup}
     ストレージの管理
-        /storage/access-portable-storage-screen.md
-        /storage/vsi_view_portable_storage.md
-        /storage/edit-description-portable-storage-volume-psv.md
+        storage/access-portable-storage-screen.md
+        storage/vsi_view_portable_storage.md
+        storage/edit-description-portable-storage-volume-psv.md
         
     {: .topicgroup}
     ソフトウェアの管理
