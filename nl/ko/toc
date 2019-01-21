@@ -35,7 +35,7 @@ IBM Cloud Virtual Servers
         vsi_ssl_intro.md
         vsi_ssh_intro.md
 
-    /storage/vsi_about_storage.md
+    storage/vsi_about_storage.md
 
     {: .topicgroup}
     소프트웨어 옵션
@@ -110,9 +110,9 @@ IBM Cloud Virtual Servers
 
     {: .topicgroup}
     스토리지 관리
-        /storage/access-portable-storage-screen.md
-        /storage/vsi_view_portable_storage.md
-        /storage/edit-description-portable-storage-volume-psv.md
+        storage/access-portable-storage-screen.md
+        storage/vsi_view_portable_storage.md
+        storage/edit-description-portable-storage-volume-psv.md
         
     {: .topicgroup}
     소프트웨어 관리
