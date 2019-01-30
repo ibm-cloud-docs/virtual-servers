@@ -10,21 +10,24 @@ IBM Cloud Virtual Servers
     vsi_about_suspend.md
     
     {: .topicgroup}
-    Provisioning options
+    Public virtual servers
         vsi_public.md
-            vsi_public_balanced.md
-            vsi_public_balanced_local.md
-            vsi_public_compute.md
-            vsi_public_memory.md
-            vsi_public_gpu.md
-            vsi_public_selections.md
-        vsi_about_transient.md
-        vsi_about_reserved.md
+        vsi_public_balanced.md
+        vsi_public_balanced_local.md
+        vsi_public_compute.md
+        vsi_public_memory.md
+        vsi_public_gpu.md
+        vsi_public_selections.md
+        
+    vsi_about_transient.md
+    vsi_about_reserved.md
+    
+    Dedicated virtual servers
         vsi_dedicated.md
-            vsi_dedicated_host.md
-            vsi_dedicated_pricing.md
-        vsi_ps_index.md
-
+        vsi_dedicated_host.md
+        vsi_dedicated_pricing.md
+        
+    vsi_ps_index.md
     vsi_image_templates_intro.md
     vsi_placegroup.md
 
@@ -63,7 +66,7 @@ IBM Cloud Virtual Servers
 
     {: .navgroup id="reference"}
     vsi_api.md
-        vsi_provision_api.md
+    vsi_provision_api.md
     vsi_activity_tracker_events.md    
     {: .navgroup-end}
 
@@ -88,18 +91,18 @@ IBM Cloud Virtual Servers
     {: .topicgroup}
     Managing servers
         vsi_managing.md
-            vsi_add_script.md
-            vsi_vulnerability_scans.md
-            vsi_viewing_suspend.md
-            vsi_bandwidth-graphs.md
+        vsi_add_script.md
+        vsi_vulnerability_scans.md
+        vsi_viewing_suspend.md
+        vsi_bandwidth-graphs.md
         vsi_managing_dedicated.md
         vsi_device_access.md
         vsi_interact_device_snapshot_view.md
         vsi_managing_users_pwd.md
         vsi_managing_port_speeds.md
-            vsi_upgrading_port_speeds_linux.md
-            vsi_upgrading_port_speeds_windows.md
-            vsi_downgrading_port_speeds.md
+        vsi_upgrading_port_speeds_linux.md
+        vsi_upgrading_port_speeds_windows.md
+        vsi_downgrading_port_speeds.md
         vsi_autoscale_intro.md
         add-provisioning-script.md
      
