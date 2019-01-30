@@ -22,6 +22,7 @@ IBM Cloud Virtual Servers
     vsi_about_transient.md
     vsi_about_reserved.md
     
+    {: .topicgroup}
     Dedicated virtual servers
         vsi_dedicated.md
         vsi_dedicated_host.md
