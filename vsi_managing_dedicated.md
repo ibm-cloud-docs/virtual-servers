@@ -50,9 +50,9 @@ Usage displays a time-plot graph based on CPU usage by date. You can roll over t
 
 Bandwidth is another time-plot graph that lets you enter parameters to see how much bandwidth is being used over time. The Storage tab displays any additional block or file storage on the instance.
 
-# Cancel a dedicated host
+## Cancel a dedicated host
 You can cancel a dedicated host at any time. A prerequisite to canceling a host is to either have migrated the dedicated instances assigned to it to another dedicated host or have canceled the instances, too. 
-## Cancel a dedicated host from the Device List
+### Cancel a dedicated host from the Device List
 Use the following steps to cancel a dedicated host from the Device List.
 
 1. Select **Device** > **Device List**.
@@ -61,7 +61,7 @@ Use the following steps to cancel a dedicated host from the Device List.
 4. A pop-up window containing a list dedicated instances assigned to the host will appear. You will need to either migrate or cancel the instances, if you haven't done so already, prior to canceling the host. Click **OK**.
 
 You'll receive a message that the dedicated host is canceled. There will be a link to the support ticket to cancel the dedicated host.
-## Cancel a dedicated host from the Device Details page
+### Cancel a dedicated host from the Device Details page
 Use the following steps to cancel the dedicated host from the Device Details page.
 
 1. Select **Device** > **Device List**.
