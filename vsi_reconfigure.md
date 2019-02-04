@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
 
 ---
@@ -22,23 +22,23 @@ lastupdated: "2017-10-24"
 
 After a virtual server is provisioned, you can upgrade or downgrade its configuration at any time.  
 
-**Important note:** There are various public virtual servers available in pre-set flavors. For a limited time, you can modify any virtual servers that were available before pre-set flavors. Then, you will be required to migrate or cancel the existing instances and reorder. 
+**Important note:** There are various public virtual servers available in pre-set profiles. For a limited time, you can modify any virtual servers that were available before pre-set profiles. Then, you will be required to migrate or cancel the existing instances and reorder. 
 
-You cannot modify the individual core, RAM, or disk size of a virtual server that uses flavors. You must pick a different flavor that has the pre-set cores, RAM, and disk size you need. The virtual server flavor you select determines the valid cores, RAM, and disk sizes.  
+You cannot modify the individual core, RAM, or disk size of a virtual server that uses profiles. You must pick a different profile that has the pre-set cores, RAM, and disk size you need. The virtual server profile you select determines the valid cores, RAM, and disk sizes.  
 
 Dedicated virtual servers are more customizable; therefore, you can modify the individual cores, RAM, and disk sizes.
 
 Use the following steps to reconfigure an existing virtual server.
 {:shortdesc}
 
-## Modifying an existing virtual server (that uses pre-set flavors)
-1. Access the [{{site.data.keyword.slportal_full}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) by using your unique credentials. 
+## Modifying an existing virtual server (that uses pre-set profiles)
+1. Access the [{{site.data.keyword.slportal_full}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials. 
 2. From the Device List, click the name of the virtual server that you want to reconfigure.
 3. On the **Configuration** tab, you can click **Modify** or **Modify device configuration** to update the following items. 
   <dl>
   <dt>Size</dt>
   <dd>Select a new size.</dd>
-  <p><note>Note: When you modify a flavor that uses local storage, you cannot switch to a flavor that uses non-local storage. Likewise, when you modify a flavor that uses non-local storage, you cannot switch to a flavor that uses local storage.
+  <p><note>Note: When you modify a profile that uses local storage, you cannot switch to a profile that uses non-local storage. Likewise, when you modify a profile that uses non-local storage, you cannot switch to a profile that uses local storage.
   </note></p>
   </dl>
 4. After you specify changes for the virtual server, complete the configuration update.
@@ -58,7 +58,7 @@ Use the following steps to reconfigure an existing virtual server.
 6. Review your order confirmation for accuracy.  Click **Edit** to edit your upgrade.
 7. Click **Confirm** to confirm your order and apply the changes to your device.
 
-## Modifying an existing virtual server (before pre-set flavors) or a dedicated virtual server
+## Modifying an existing virtual server (before pre-set profiles) or a dedicated virtual server
 1. From the Device List, click the name of the virtual server that you want to reconfigure.
 2. On the **Configuration** tab, you can click **Core or RAM upgrade** link to update the following items. 
   
@@ -76,7 +76,7 @@ Use the following steps to reconfigure an existing virtual server.
   
   **Disk Notes:**
   * Both Local and SAN storage is available.  Double check your selection to ensure your storage option is correct.
-  * For public virtual servers, if you are upgrading local storage and require more core or RAM, you might lose your secondary disk. When you modify a virtual server flavor that uses local storage, the flavor is pre-set for you and flavors that are not comparable cannot be selected.
+  * For public virtual servers, if you are upgrading local storage and require more core or RAM, you might lose your secondary disk. When you modify a virtual server profile that uses local storage, the profile is pre-set for you and profiles that are not comparable cannot be selected.
 3. Click **Continue**.
 4. Review your order confirmation for accuracy.  Click **Edit** to edit your upgrade.
 5. Click **Confirm** to confirm your order and apply the changes to your device.
