@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-08-10"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
 
 ---
@@ -17,15 +17,15 @@ lastupdated: "2017-08-10"
 {:table: .aria-labeledby="caption"}
 
 # Compute
-Compute flavors are best for workloads with intensive CPU demands, such as high web traffic workloads, production batch processing, and front-end web servers.
+Compute profiles are best for workloads with intensive CPU demands, such as high web traffic workloads, production batch processing, and front-end web servers.
 
-The offering is available in the following flavors:
+The offering is available in the following profiles:
 
 <table>
-<CAPTION>Table 1. Compute flavors</CAPTION>
+<CAPTION>Table 1. Compute profiles</CAPTION>
 <THEAD>
 <TR>
-<th>Flavor</th>
+<th>Profile</th>
 <th>vCPU</th>
 <th>RAM</th>
 <th>Storage type</th>
@@ -75,7 +75,7 @@ The offering is available in the following flavors:
 * SAN primary boot disk (25 or 100 GB) with additional disks available, up to 2 TB each (5 total disks allowed).
 * Pricing for public virtual servers using SAN storage includes virtual CPU, memory, and minimum primary boot disk. Additional disk prices depend on the disk size and quantity that you select.  
 
-Compute flavors are available in all data centers.
+Compute profiles are available in all data centers.
 
 All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), supported  databases, and software add-ons are also available with this offering.  
 
