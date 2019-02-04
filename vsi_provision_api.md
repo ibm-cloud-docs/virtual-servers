@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-02-28"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
 
 ---
@@ -17,18 +17,18 @@ lastupdated: "2018-02-28"
 {:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
-# API examples: Public virtual servers flavors
+# API examples: Public virtual servers profiles
 {: #api-rest-public}
 
-The following information displays Rest API examples for provisioning public virtual server instances that use pre-set flavors.
+The following information displays Rest API examples for provisioning public virtual server instances that use pre-set profiles.
 {:shortdesc}
 
 For more robust API examples, see the following resources:
 * [Softlayer_Virtual_Guest API examples ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/classes/softlayer_virtual_guest/)
-* [Getting a flavor list ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/article/vsiflavors/)
+* [Getting a profile list ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/article/vsiflavors/)
 
 ## Provisioning a public instance using Create Object
-The *SoftLayer_Virtual_Guest/createObject* API service is the simplest way to provision a public virtual server instance that uses pre-set flavors.
+The *SoftLayer_Virtual_Guest/createObject* API service is the simplest way to provision a public virtual server instance that uses pre-set profiles.
 
 Not applicable for transient instances.
 {:tip}
@@ -61,7 +61,7 @@ To provision a public virtual server instance using REST, a POST request would b
 ```
 
 ## Provisioning a public instance using Place Order Object
-Provisioning a public virtual server that uses pre-set flavors is done using the *SoftLayer_Product_Order/placeOrder* API service.
+Provisioning a public virtual server that uses pre-set profiles is done using the *SoftLayer_Product_Order/placeOrder* API service.
 
 Not applicable for transient instances.
 {:tip}
