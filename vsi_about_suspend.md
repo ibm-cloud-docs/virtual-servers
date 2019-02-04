@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-29"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
 
 ---
@@ -30,7 +30,7 @@ Most virtual server instances created before November 1st, 2018 don't support th
 This feature is available in data centers across the globe. To provision a virtual server instance that supports the suspend billing feature, the virtual server instance must be configured with the following settings:
 
 * Hourly SAN
-* Public flavors of one of the following families:
+* Public profiles of one of the following families:
   * Balanced
   * Compute
   * Memory
