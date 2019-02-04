@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-06-29"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
 
 ---
@@ -43,11 +43,11 @@ Consider the following limitations before provisioning a transient virtual serve
 * Resources can be reclaimed at any time, without notification.
 * Transient instances cannot use local storage.
 * Transient instances only use SAN-backed storage (balanced, compute, memory).
-* Transient instances cannot use GPU-based flavors.
+* Transient instances cannot use GPU-based profiles.
 
 
 ## Next Steps
 
-After you review and select your virtual server flavor, it's time to provision your transient virtual server. To get started, review the following information:
+After you review and select your virtual server profile, it's time to provision your transient virtual server. To get started, review the following information:
 1. [Provisioning selections](../vsi/vsi_public_selections.html)
 2. [Provisioning transient instances](../vsi/vsi_provision_transient.html)
