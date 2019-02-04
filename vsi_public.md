@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
 
 ---
@@ -16,7 +16,7 @@ lastupdated: "2017-10-24"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Public virtual servers
+# About public virtual servers
 The public {{site.data.keyword.BluVirtServers}} offerings are IBM-managed, multi-tenant virtual server deployments. They give you rapid scalability and higher-cost effectiveness with pre-defined sizes that meet all business requirements to get you up and running quickly.  
 {:shortdesc}
 
@@ -42,11 +42,11 @@ The following public virtual servers are available.
 | [Balanced local storage](../vsi/vsi_public_balanced_local.html) | Best for large database clusters that require high, low latency I/O performance.|
 | [Compute](../vsi/vsi_public_compute.html) | Best for moderate to high web traffic workloads.|
 | [Memory](../vsi/vsi_public_memory.html)  | Best for memory caching and real-time analytics workloads.
-| [GPU](../vsi/vsi_public_gpu.html)  | Best for high performance workloads.
+| [GPU](../vsi/vsi_public_gpu.html)  | Best for high-performance workloads.
 {: caption="Table 1. Supported public virtual servers" caption-side="top"}
 
 ## Next Steps
 
-After you review and decide upon your virtual server flavor, it's time to provision your public virtual server. To get started, review the following information: 
+After you review and decide upon your virtual server profile, it's time to provision your public virtual server. To get started, review the following information: 
 1. [Provisioning selections](../vsi/vsi_public_selections.html)
 2. [Provisioning public instances](../vsi/vsi_provision_public.html)
