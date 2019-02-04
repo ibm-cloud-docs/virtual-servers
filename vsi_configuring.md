@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-03-19"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
 
 ---
@@ -60,8 +60,8 @@ Security groups are another option for limiting network traffic on your virtual 
 
 ## Schedule backups 
 Backups ensure that your data is safely stored outside of your device and protected if it is lost. The following backup services are available to store your data in a secure location in case you ever need to reload your information onto your device:
-- EVault backup is an automated, agent-based backup system. This is a popular “set-and-forget” solution for managing your device. It is compatible with Microsoft software including Exchange and SQL through extra plug-ins. EVault users interact with this service through EVault’s WebCC web-based application. For more information, see [Getting Started with Backup Services](../infrastructure/Backup/index.html).
-- R1Soft Continuous Data Protection is backup software that can be installed on your server or self-managed virtual machine. It is recommended if you want a single interface to manage all of your backups. You interact with R1Soft CDP through your proprietary management system, which allows agents to be installed on virtual machines and offers database plug-ins for extra functions. For more information, see [Getting Started with Backup Services](../infrastructure/Backup/index.html).
+- {{site.data.keyword.backup_notm}} is an automated, agent-based backup system. This is a popular “set-and-forget” solution for managing your device. It is compatible with Microsoft software including Exchange and SQL through extra plug-ins. {{site.data.keyword.backup_notm}} users interact with this service through {{site.data.keyword.backup_notm}}’s WebCC web-based application. For more information, see [Getting started with {{site.data.keyword.backup_notm}} services](../infrastructure/Backup/index.html).
+- R1Soft Continuous Data Protection is backup software that can be installed on your server or self-managed virtual machine. It is recommended if you want a single interface to manage all of your backups. You interact with R1Soft CDP through your proprietary management system, which allows agents to be installed on virtual machines and offers database plug-ins for extra functions. For more information, see [Getting started with {{site.data.keyword.backup_notm}} services](../infrastructure/Backup/index.html).
 
 ## Next Steps
 After your virtual server is configured, you can start managing it. For more information, see [Managing your virtual server](../vsi/vsi_managing.html).
