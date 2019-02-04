@@ -3,8 +3,8 @@
 
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-09-24"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
 
 ---
@@ -17,15 +17,15 @@ lastupdated: "2018-09-24"
 {:table: .aria-labeledby="caption"}
 
 # GPU
-GPU flavors are best for high-performance workloads that require more compute density to reduce resource management and costs. The GPU flavors are ideal for artificial intelligence processes, intense graphic and data applications, or developing new applications that require fast performance.
+GPU profiles are best for high-performance workloads that require more compute density to reduce resource management and costs. The GPU profiles are ideal for artificial intelligence processes, intense graphic and data applications, or developing new applications that require fast performance.
 
-Powered by NVDIA Tesla GPUs, {{site.data.keyword.cloud_notm}} Accelerated Compute “ac1” and "ac2" flavors both offer block and local SSD storage. The following GPU flavors are available for you to choose from:  
+Powered by NVDIA Tesla GPUs, {{site.data.keyword.cloud_notm}} Accelerated Compute “ac1” and "ac2" flavors both offer block and local SSD storage. The following GPU profiles are available for you to choose from:  
 
   <table>
-<CAPTION>Table 1. P100 GPU flavors</CAPTION>
+<CAPTION>Table 1. P100 GPU profiles</CAPTION>
 <THEAD>
 <TR>
-<th>Flavor</th>
+<th>Profile</th>
 <th>GPU</th>
 <th>GPU RAM (GB)</th>
 <th>vCPU</th>
@@ -79,13 +79,13 @@ Powered by NVDIA Tesla GPUs, {{site.data.keyword.cloud_notm}} Accelerated Comput
 </TBODY>
 </table>
 
-**Note:** P100 GPU flavors are available in the _DAL13_, _LON06_, and _WDC07_ datacenters.
+**Note:** P100 GPU profiles are available in the _DAL13_, _LON06_, and _WDC07_ data centers.
 
 <table>
-<CAPTION>Table 2. V100 GPU flavors</CAPTION>
+<CAPTION>Table 2. V100 GPU profiles</CAPTION>
 <THEAD>
 <TR>
-<th>Flavor</th>
+<th>Profile</th>
 <th>GPU</th>
 <th>GPU RAM (GB)</th>
 <th>vCPU</th>
@@ -139,13 +139,13 @@ Powered by NVDIA Tesla GPUs, {{site.data.keyword.cloud_notm}} Accelerated Comput
 </TBODY>
 </table>
 
-**Note:** V100 GPU flavors are available in the _DAL10_, _DAL12_, and _LON04_, and _WDC07_ datacenters.
+**Note:** V100 GPU profiles are available in the _DAL10_, _DAL12_, and _LON04_, and _WDC07_ data centers.
 
 
 ## Before you begin
 Review the following GPU prerequisites.
 
-1. GPU flavor virtual servers are only available on an operating system that supports Hardware Virtual Machine (HVM) boot mode. See the following list for operating systems that support HVM boot mode.  
+1. GPU profile virtual servers are only available on an operating system that supports Hardware Virtual Machine (HVM) boot mode. See the following list for operating systems that support HVM boot mode.  
   - CentOS 7
   - Debian 8
   - RHEL 7
