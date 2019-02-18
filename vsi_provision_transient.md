@@ -29,7 +29,7 @@ Before you begin, review the following prerequisites.
   
   **Note:** For the {{site.data.keyword.Bluemix_notm}} catalog, you must have an upgraded account to order virtual servers. For more information about upgrading your account, see [Switching to IBMid](https://console.bluemix.net/docs/admin/softlayerlink.html).
 
-  2. Review virtual server instance capacity considerations. For more information, see [Capacity considerations](ts_capacity_bp.html).
+  2. Review virtual server instance capacity considerations. For more information, see [Capacity considerations](/docs/vsi/ts_capacity_bp.html).
 
 ## Provisioning a transient virtual server instance 
 After you complete the prerequisites, you can begin to provision your transient virtual server instance. You can provision your instance through the {{site.data.keyword.cloud_notm}} catalog or the {{site.data.keyword.slportal}}.
@@ -59,8 +59,8 @@ To provision a transient virtual server instance through the {{site.data.keyword
 
  A series of emails are sent to your administrator: acknowledgment of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email includes a link to your *Device Details* page.
 
-You can also provision a transient virtual server by using the {{site.data.keyword.slapi_short}}. For an example, see [Provisioning a transient instance using Create Object](../vsi/vsi_provision_api.html#api-rest-transient).
+You can also provision a transient virtual server by using the {{site.data.keyword.slapi_short}}. For an example, see [Provisioning a transient instance using Create Object](/docs/vsi/vsi_provision_api.html#api-rest-transient).
 {:tip}
 
 ## Next Steps
-After your virtual server is provisioned, you can start managing it. For more information, see [Managing your virtual server](../vsi/vsi_managing.html).
+After your virtual server is provisioned, you can start managing it. For more information, see [Managing your virtual server](/docs/vsi/vsi_managing.html).

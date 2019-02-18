@@ -31,5 +31,5 @@ As part of the ordering process, you can select device-specific hardware or a so
 
 For more information, see the following security topic collections.
 
-* [Hardware Firewalls (Shared)](../infrastructure/hardware-firewall-shared/getting-started.html)
-* [Hardware Firewalls (Dedicated)](../infrastructure/hardware-firewall-dedicated/getting-started.html)
+* [Hardware Firewalls (Shared)](/docs/infrastructure/hardware-firewall-shared/getting-started.html)
+* [Hardware Firewalls (Dedicated)](/docs/infrastructure/hardware-firewall-dedicated/getting-started.html)

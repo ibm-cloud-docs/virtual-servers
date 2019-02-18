@@ -43,5 +43,5 @@ After launching Rescue Kernel, the device is powered down and rebooted into the 
 
 Remote access to the device is available from the device's IP address. You can access the device in Rescue Kernel by using the root or admin credentials for the devices that are recorded on the {{site.data.keyword.slportal}}. When using Rescue Kernel, you can troubleshoot, discover issues, and resolve issues as you would on a regularly booted device. If necessary, you can mount drives into the Rescue Kernel OS. To exit Rescue Kernel and return your device to its regular environment, reboot the device in the {{site.data.keyword.slportal}} or reboot from Rescue Kernel OS.
 
-For more information about rebooting a device, see [Managing virtual servers](../vsi/vsi_managing.html).
+For more information about rebooting a device, see [Managing virtual servers](/docs/vsi/vsi_managing.html).
 

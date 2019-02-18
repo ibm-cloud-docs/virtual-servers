@@ -42,4 +42,4 @@ To remove an instance from a placement group, you must delete or reclaim the ins
      
 ## Next Steps
 
-To create and manage new placement groups, see [Managing placement groups](vsi_managing_placegroup.html).
+To create and manage new placement groups, see [Managing placement groups](/docs/vsi/vsi_managing_placegroup.html).

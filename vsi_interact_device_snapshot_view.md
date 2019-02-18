@@ -12,7 +12,7 @@ From the device list, you can view a limited amount of information, or snapshot,
 
 ## Interact with a device in snapshot view
 
-1. Access the **Device List**. Refer to [Accessing the device list](vsi_managing.html).
+1. Access the **Device List**. Refer to [Accessing the device list](/docs/vsi/vsi_managing.html).
 2. Click the arrow next to the device you want to expand the device into the snapshot view.
 3. Determine the interaction to be made with the device.
 

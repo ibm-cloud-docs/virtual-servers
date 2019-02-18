@@ -29,9 +29,9 @@ Before you begin, review the following prerequisites.
 
      **Note:** For the {{site.data.keyword.Bluemix_notm}} catalog, you must have an upgraded account to order virtual servers. For more information about upgrading your account, see [Switching to IBMid](https://console.bluemix.net/docs/admin/softlayerlink.html).
 
-  2. If you haven't done so, review the deployment options available to you. For more information, see [Deployment options: Public virtual server](../vsi/vsi_public.html).
+  2. If you haven't done so, review the deployment options available to you. For more information, see [Deployment options: Public virtual server](/docs/vsi/vsi_public.html).
 
-  3. Review virtual server instance capacity considerations.  For more information, see [Capacity considerations](ts_capacity_bp.html).
+  3. Review virtual server instance capacity considerations.  For more information, see [Capacity considerations](/docs/vsi/ts_capacity_bp.html).
 
 ## Provisioning a public virtual server instance
 {: #ordering-public-instance}
@@ -64,4 +64,4 @@ To provision your public virtual server instance through the {{site.data.keyword
  A series of emails are sent to your administrator: acknowledgment of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email includes a link to your *Device Details* page, after logging in to {{site.data.keyword.Bluemix_notm}}. You can also log directly in to the {{site.data.keyword.slportal}}.
 
 ## Next Steps
-After your virtual server is provisioned, you can start managing it. For more information, see [Managing your virtual server](../vsi/vsi_managing.html).
+After your virtual server is provisioned, you can start managing it. For more information, see [Managing your virtual server](/docs/vsi/vsi_managing.html).

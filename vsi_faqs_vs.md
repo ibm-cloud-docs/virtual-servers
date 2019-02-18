@@ -23,7 +23,7 @@ lastupdated: "2018-10-30"
 ## What types of virtual servers are available for use?
 {:faq}
 
-{{site.data.keyword.BluSoftlayer_full}} offers a couple types of virtual servers. The standard offering is a public-based virtual server, which is a multi-tenant environment, suitable for a variety of needs. If you're looking for a single-tenant environment, consider the Dedicated Virtual Server offering. The dedicated virtual server option is ideal for applications with more stringent resource requirements. For more information about the current virtual server offerings see, [Getting started with virtual servers](../vsi/vsi_index.html).
+{{site.data.keyword.BluSoftlayer_full}} offers a couple types of virtual servers. The standard offering is a public-based virtual server, which is a multi-tenant environment, suitable for a variety of needs. If you're looking for a single-tenant environment, consider the Dedicated Virtual Server offering. The dedicated virtual server option is ideal for applications with more stringent resource requirements. For more information about the current virtual server offerings see, [Getting started with virtual servers](/docs/vsi/vsi_index.html).
 
 ## Where can I find pricing information for public instance types?
 {:faq}
@@ -38,7 +38,7 @@ For pricing information, see the [Virtual servers provisioning calculator](https
 ## Can I add disk storage to my hourly or monthly Virtual Server?
 {:faq}
 
-You may upgrade or downgrade disk storage for any virtual server by updating your storage options in the *First Disk* through *Fifth Disk* fields in the *Configuration* screen of the device you want to update. For more information, see [Reconfiguring an existing virtual server](../vsi/vsi_reconfigure.html).
+You may upgrade or downgrade disk storage for any virtual server by updating your storage options in the *First Disk* through *Fifth Disk* fields in the *Configuration* screen of the device you want to update. For more information, see [Reconfiguring an existing virtual server](/docs/vsi/vsi_reconfigure.html).
 
 ## How many hourly Virtual Servers can I start up?
 {:faq}
@@ -70,7 +70,7 @@ When storage is deleted, any pointers to the data on that volume are removed, th
 ## Can I use a Red Hat Cloud Access subscription to create a virtual server?
 {:faq}
 
-Yes. When you import an image, you can specify that you will provide the operating system license. For more information, see [Use Red Hat Cloud Access](../infrastructure/image-templates/use-red-hat-cloud-access.html). Then you can order a virtual server from that image template and use your existing [Red Hat Cloud Access ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.redhat.com/en/technologies/cloud-computing/cloud-access){: new_window} subscription.
+Yes. When you import an image, you can specify that you will provide the operating system license. For more information, see [Use Red Hat Cloud Access](/docs/infrastructure/image-templates/use-red-hat-cloud-access.html). Then you can order a virtual server from that image template and use your existing [Red Hat Cloud Access ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.redhat.com/en/technologies/cloud-computing/cloud-access){: new_window} subscription.
 
 ## What is the difference between a virtual server and a virtual private server (VPS)?
 {:faq}
@@ -85,4 +85,4 @@ Virtual servers are provisioned on a multi-server cloud architecture that pools 
 ## Why do I receive a capacity error when provisioning a virtual server?
 {:faq}
 
-When you provision a virtual server, you might receive an error message stating that there is insufficient capacity to complete the request. When provisioning fails, all the virtual server instances within that particular request fail. A capacity error occurs when there are insufficient resources available in the router or data center to fulfill the service request. There are a number of reasons that you could receive this error. Resource availability changes frequently, so you might wait and try again later. For more information on strategies to avoid this error, see [Capacity considerations](https://console.bluemix.net/docs/vsi/ts_capacity_bp.html).
+When you provision a virtual server, you might receive an error message stating that there is insufficient capacity to complete the request. When provisioning fails, all the virtual server instances within that particular request fail. A capacity error occurs when there are insufficient resources available in the router or data center to fulfill the service request. There are a number of reasons that you could receive this error. Resource availability changes frequently, so you might wait and try again later. For more information on strategies to avoid this error, see [Capacity considerations](https://console.bluemix.net/docs/vsi//docs/vsi/ts_capacity_bp.html).

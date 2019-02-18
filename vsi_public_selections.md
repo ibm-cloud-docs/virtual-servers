@@ -41,7 +41,7 @@ For existing customers, you can also deploy based on an Image Template through t
 
 ## Storage
 
-You have the option for SAN or local storage for each virtual server. You can supplement SAN or local storage with other storage products as needed. SAN and local storage are both exposed to the virtual server as local disks. Any changes to disks such as attach, detach, migrate, and so on, require a reboot of the virtual server. For more information, see [Storage options](../vsi/storage/vsi_about_storage.html).
+You have the option for SAN or local storage for each virtual server. You can supplement SAN or local storage with other storage products as needed. SAN and local storage are both exposed to the virtual server as local disks. Any changes to disks such as attach, detach, migrate, and so on, require a reboot of the virtual server. For more information, see [Storage options](/docs/vsi/vsi_about_storage.html).
 
 ## Hourly and monthly billing
 
@@ -69,27 +69,27 @@ You can also use security groups to enact a set of IP filter rules that define h
 
 For more information, see the following security topic collections.
 
-* [Hardware Firewalls (Shared)](../infrastructure/hardware-firewall-shared/getting-started.html)
-* [Hardware Firewalls (Dedicated)](../infrastructure/hardware-firewall-dedicated/getting-started.html)
+* [Hardware Firewalls (Shared)](/docs/infrastructure/hardware-firewall-shared/getting-started.html)
+* [Hardware Firewalls (Dedicated)](/docs/infrastructure/hardware-firewall-dedicated/getting-started.html)
 * [Getting started with security groups](/docs/infrastructure/security-groups/sg_index.html)
 
 ## Monitoring
 
 You can select from a variety of monitoring options for the virtual server. Options include the standard monitoring, which monitors via Ping and transmission control protocol (TCP) service response, and has optional responses in the event of failures. You can also add Advanced Monitoring which uses the Nimsoft software agent to provide a larger feature set for monitoring of the virtual server and installed software.
 
-For more information, see [Monitoring](../infrastructure/SLmonitoring/monitoring_index.html).
+For more information, see [Monitoring](/docs/infrastructure/SLmonitoring/monitoring_index.html).
 
 ## Backup
 
 During the order process, you can add Evault backups. You can also choose to purchase an R1soft license for your existing R1soft backup environment or utilize a third party backup solution.
 
-For more information, see [Re-registering your device with eVault](../infrastructure/Backup/how-do-i-re-register-evault.html).
+For more information, see [Re-registering your device with eVault](/docs/infrastructure/Backup/how-do-i-re-register-evault.html).
 
 ## Post-provisioning scripts
 
 Post-provisioning scripts can be associated with any virtual server order. This runs a customer-developed script after other provisioning tasks are completed. The scripts are commonly utilized to apply a customer-specific configuration to a server and to aid in automation of your scaling strategy.
 
-For more information, see [Adding a custom provisioning script](vsi_add_script.html).
+For more information, see [Adding a custom provisioning script](/docs/vsi/vsi_add_script.html).
 
 ## What's Next?
-When you are ready to provision your public virtual server, see [Provisioning public instances](vsi_provision_public.html).
+When you are ready to provision your public virtual server, see [Provisioning public instances](/docs/vsi/vsi_provision_public.html).

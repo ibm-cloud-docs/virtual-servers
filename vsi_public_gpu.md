@@ -153,7 +153,7 @@ Review the following GPU prerequisites.
   - Windows 2012 R2
   - Windows 2016
 
-2. Appropriate NVIDIA drivers and software must be installed. For more information about software and NVIDIA drivers, see [Installing GPU drivers and software packages](../vsi/vsi_gpu_nvidia_drivers.html).  
+2. Appropriate NVIDIA drivers and software must be installed. For more information about software and NVIDIA drivers, see [Installing GPU drivers and software packages](/docs/vsi/vsi_gpu_nvidia_drivers.html).  
 **Note:** The software that you install might have prerequisite software and operating system-specific configurations.
 
 ## Add or remove GPUs 

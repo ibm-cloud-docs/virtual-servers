@@ -35,7 +35,7 @@ To provision a dedicated virtual server instance through the {{site.data.keyword
   4. Click **Create**.
   5. In the **Dedicated Host** section, select **Auto Assign**. {{site.data.keyword.cloud_notm}} then automatically assigns your instance to a host in your selected data center.
   
-     **Note**: For dedicated hosts, select **Specify Host** or **Create Host**. For more information about dedicated hosts and dedicated host instances, see [Dedicated virtual servers](../vsi/vsi_dedicated.html).
+     **Note**: For dedicated hosts, select **Specify Host** or **Create Host**. For more information about dedicated hosts and dedicated host instances, see [Dedicated virtual servers](/docs/vsi/vsi_dedicated.html).
      
   5. Complete all of the relevant information for your dedicated virtual server instance. 
   6. After you review your order summary, click the **Third-Party Service Agreements** check box. 
@@ -68,7 +68,7 @@ To provision a dedicated virtual server instance through the {{site.data.keyword
     <td>
     <ul>
     <li>Auto Assign – {{site.data.keyword.Bluemix_notm}} automatically assigns your instance to a host in your selected data center.</li>
-    <li>Specify Host – Used with dedicated host instances. See [Dedicated virtual servers](../vsi/vsi_dedicated.html) for more information on dedicated hosts and dedicated host instances.</li>
+    <li>Specify Host – Used with dedicated host instances. See [Dedicated virtual servers](/docs/vsi/vsi_dedicated.html) for more information on dedicated hosts and dedicated host instances.</li>
     </ul>
     </td>
     </tr>
@@ -152,5 +152,5 @@ To provision a dedicated virtual server instance through the {{site.data.keyword
     A series of emails are sent to your administrator—acknowledgement of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email will include a link that will take you directly to your **Device Details** page after logging in to {{site.data.keyword.Bluemix_notm}}. Another option would be to log directly in to the {{site.data.keyword.slportal}}.
 
 ## Next Steps
-After your virtual server is provisioned, you can start managing it. For more information, see [Managing virtual servers](../vsi/vsi_managing.html).
+After your virtual server is provisioned, you can start managing it. For more information, see [Managing virtual servers](/docs/vsi/vsi_managing.html).
 

@@ -112,7 +112,7 @@ Keep in mind the following when you’re ordering a dedicated host(s) and dedica
 
 ## Next Steps
 
-After you have reviewed and decided upon your deployment options, it is time to provision your virtual server. To get started, see [Provisioning dedicated hosts and instances](../vsi/vsi_provision_dedicated.html).
+After you have reviewed and decided upon your deployment options, it is time to provision your virtual server. To get started, see [Provisioning dedicated hosts and instances](/docs/vsi/vsi_provision_dedicated.html).
 
 
 

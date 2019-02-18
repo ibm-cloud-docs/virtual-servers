@@ -56,5 +56,5 @@ For more information, see the [SLDN API documentation ![External link icon](../i
 ## Next steps
 
 To learn more about the suspend billing feature, review the following information:
-1. [About suspend billing](vsi_about_suspend.html)
-2. [Managing virtual servers](vsi_managing.html)
+1. [About suspend billing](/docs/vsi/vsi_about_suspend.html)
+2. [Managing virtual servers](/docs/vsi/vsi_managing.html)

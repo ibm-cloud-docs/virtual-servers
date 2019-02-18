@@ -47,7 +47,7 @@ Complete the following steps to perform management tasks for your virtual server
 
 * **Power On/Off**
 
-    If the device has been powered off, the device remains in the power off state and must be manually powered on by repeating the steps above. Users cannot interact with a device when a device is powered off. If the virtual server supports the suspend billing feature, billing is suspended for some compute resources. You cannot complete all management actions on an instance until billing is resumed. For more information, see [About suspend billing](vsi_about_suspend.html). To find out if your virtual server instance supports the suspend billing feature, see [Viewing suspend billing feature](vsi_viewing_suspend.html). If the device has been powered on, normal interaction can take place. It will remain on until further action is taken.
+    If the device has been powered off, the device remains in the power off state and must be manually powered on by repeating the steps above. Users cannot interact with a device when a device is powered off. If the virtual server supports the suspend billing feature, billing is suspended for some compute resources. You cannot complete all management actions on an instance until billing is resumed. For more information, see [About suspend billing](/docs/vsi/vsi_about_suspend.html). To find out if your virtual server instance supports the suspend billing feature, see [Viewing suspend billing feature](/docs/vsi//docs/vsi/vsi_viewing_suspend.html). If the device has been powered on, normal interaction can take place. It will remain on until further action is taken.
 
 * **Rename**
 
@@ -58,5 +58,5 @@ Complete the following steps to perform management tasks for your virtual server
   After confirming the cancellation, the device cancellation process will begin. If an immediate cancellation was requested, the device will be canceled immediately. If a billing anniversary cancellation was requested, the device will remain active until the next billing anniversary. Upon its cancellation, the device will no longer appear in the Device List on the {{site.data.keyword.slportal}}. Billing items will also be removed from invoices when all outstanding balances have been paid on the device, if any. For questions about a bill for a canceled device, please open a ticket and select Accounting Request as the ticket subject. Refunds cannot be given for immediate cancellations.
   
 ## Next Steps
-If you need to reconfigure an existing virtual server, see [Reconfiguring an existing virtual server](../vsi/vsi_reconfigure.html).
+If you need to reconfigure an existing virtual server, see [Reconfiguring an existing virtual server](/docs/vsi/vsi_reconfigure.html).
 

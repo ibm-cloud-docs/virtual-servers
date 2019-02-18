@@ -21,8 +21,8 @@ The balanced local storage profiles are primarily for large database clusters th
 
 The offering is available in various profiles and data centers, with the following local storage options:
 
-* [Local HDD](vsi_public_balanced_local.html#HDD)
-* [Local SSD](vsi_public_balanced_local.html#SSD)
+* [Local HDD](/do/docs/vsi/vsi_public_balanced_local.html#HDD)
+* [Local SSD](/do/docs/vsi/vsi_public_balanced_local.html#SSD)
 
 ## Local HDD {: #HDD}
  

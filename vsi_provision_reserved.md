@@ -69,4 +69,4 @@ After you've provisioned your reserved capacity, it's time to provision your res
 
 ## Next steps
 
-After you've provisioned your reserved virtual server capacity and instances, you can start managing them. For more information, see [Managing virtual servers](vsi_managing.html). If you have questions about reserved capacity and instances, see [FAQs: Reserved capacity and instances](vsi_faqs_reserved.html). 
+After you've provisioned your reserved virtual server capacity and instances, you can start managing them. For more information, see [Managing virtual servers](/docs/vsi/vsi_managing.html). If you have questions about reserved capacity and instances, see [FAQs: Reserved capacity and instances](/docs/vsi/vsi_faqs_reserved.html). 

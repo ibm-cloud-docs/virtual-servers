@@ -31,7 +31,7 @@ Boot from Image and Load from Image both utilize existing image templates, which
 ## Why can I not connect to the KVM console?
 {:faq}
 
-If you are unable to connect to the KVM console, review the troubleshooting tips below to assist in resolving the issue. Should additional issues occur, please contact support. For more information on contacting support, see [Getting help and support](../vsi/vsi_ts_index.html).
+If you are unable to connect to the KVM console, review the troubleshooting tips below to assist in resolving the issue. Should additional issues occur, please contact support. For more information on contacting support, see [Getting help and support](/docs/vsi/vsi_ts_index.html).
 
    * The KVM console is a Java applet. Java must be installed prior to accessing the console. For more information on installing Java, see [Free Java Download ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.java.com/en/download/){: new_window}.  
    * If Java is installed, ensure that a connection has been established using VPN. If a connection is not established, a warning is displayed when attempting to connect to the KVM console that a VPN connection is required.

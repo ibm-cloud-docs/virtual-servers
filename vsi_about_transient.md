@@ -22,23 +22,23 @@ The {{site.data.keyword.BluVirtServers}} transient offering is a good option if 
 
 Transient virtual servers offer the following flexibility:
 
-* **Global availability** 
+* **Global availability**
 
     The transient virtual server offering is available in data centers across the globe.
-    
-* **Cost savings** 
+
+* **Cost savings**
 
     Transient virtual servers are ideal for non-production workloads. For example, you might use a transient instance to test and develop applications, or test scalability in environments that don't require constant uptime.
 
 Transient instances are public instances that use SAN-backed storage.
 
 ## Notifications
-You can use the {{site.data.keyword.slapi_short}} to receive notifications when resources are available for a transient instance. You can also use the API to programmatically provision a transient virtual server when resources become available. Likewise, you can use the API to programmatically stop provisioning instances when resources become unavailable. For more information, see [Configuring automated reclaim notifications](configuring-automated-reclaim-notifications.html).
+You can use the {{site.data.keyword.slapi_short}} to receive notifications when resources are available for a transient instance. You can also use the API to programmatically provision a transient virtual server when resources become available. Likewise, you can use the API to programmatically stop provisioning instances when resources become unavailable. For more information, see [Configuring automated reclaim notifications](/docs/vsi/configuring-automated-reclaim-notifications.html).
 
 ## Limitations
 Consider the following limitations before provisioning a transient virtual server.
 
-* The number of supported, concurrent instances are part of your account-wide device quota. For more information about concurrent instance limits, see [FAQ: Virtual servers](../vsi/vsi_faqs_vs.html#concurrent).
+* The number of supported, concurrent instances are part of your account-wide device quota. For more information about concurrent instance limits, see [FAQ: Virtual servers](/docs/vsi/vsi_faqs_vs.html#concurrent).
 * Transient instances cannot be upgraded or downgraded.
 * Resources can be reclaimed at any time, without notification.
 * Transient instances cannot use local storage.
@@ -48,6 +48,12 @@ Consider the following limitations before provisioning a transient virtual serve
 
 ## Next Steps
 
+<<<<<<< HEAD
+After you review and select your virtual server flavor, it's time to provision your transient virtual server. To get started, review the following information:
+1. [Provisioning selections](/docs/vsi/vsi_public_selections.html)
+2. [Provisioning transient instances](/docs/vsi/vsi_provision_transient.html)
+=======
 After you review and select your virtual server profile, it's time to provision your transient virtual server. To get started, review the following information:
 1. [Provisioning selections](../vsi/vsi_public_selections.html)
 2. [Provisioning transient instances](../vsi/vsi_provision_transient.html)
+>>>>>>> origin/master
