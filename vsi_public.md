@@ -36,25 +36,18 @@ Public instances reside on a hypervisor that is shared with other clients; howev
 
 The following public virtual servers are available.
 
-|              Deployment options                           |  Description                                        |
-| --------------------------------------------------------- | --------------------------------------------------- |
-|[Public virtual server](/docs/vsi?topic=virtual-servers-about-public-virtual-servers#about-public-virtual-servers)            | IBM-managed, multi-tenancy virtual server deployments|
-|[Transient virtual server](/docs/vsi?topic=virtual-servers-transient-virtual-servers#transient-virtual-servers)| IBM-managed, multi-tenancy virtual server deployments offered at a reduced cost and best suited for flexible workloads |
-|[Reserved virtual server](/docs/vsi?topic=virtual-servers-about-reserved-virtual-servers#about-reserved-virtual-servers)  | IBM-managed, multi-tenancy virtual server deployments with guaranteed capacity for a contract term |
-|[Dedicated virtual server](/docs/vsi?topic=virtual-servers-about-dedicated-virtual-servers#about-dedicated-virtual-servers)      | IBM-managed, single-tenancy virtual server deployments            |
-{: caption="Table 1. Deployment options" caption-side="top"} 
+| Public virtual servers  | Description                                                                                              |
+| ----------------------- | -------------------------------------------------------------------------------------------------------- | 
+| [Balanced](/docs/vsi?topic=virtual-servers-balanced#balanced) | Best for common cloud workloads that require a balance of performance and scalability. Uses network-attached storage.|
+| [Balanced local storage](/docs/vsi?topic=virtual-servers-balanced-local-storage#balanced-local-storage) | Best for large database clusters that require high, low latency I/O performance.|
+| [Compute](/docs/vsi?topic=virtual-servers-compute#compute) | Best for moderate to high web traffic workloads.|
+| [Memory](/docs/vsi?topic=virtual-servers-memory#memory)  | Best for memory caching and real-time analytics workloads. |
+| [Micro](/docs/vsi?topic=virtual-servers-about-micro)  | Best for low-performance, intermittent workloads that require short bursts of CPU. | 
+| [GPU](/docs/vsi?topic=virtual-servers-gpu#gpu)  | Best for high-performance workloads.
+{: caption="Table 1. Supported public virtual servers" caption-side="top"}
 
-## Provisioning a virtual server
-
-After you decide upon a deployment option, begin the provisioning process.
-
-|              Provisioning Instructions                                         |  Description                                            |
-| -------------------------------------------------------------------------- | ------------------------------------------------------- |
-|[Provisioning public instances](/docs/vsi?topic=virtual-servers-ordering-vs-public#ordering-vs-public)                | Provision public instances with various options             |
-|[Provisioning transient instances](/docs/vsi?topic=virtual-servers-ordering-vs-transient#ordering-vs-transient)                | Provision transient instances with various options            |
-|[Provisioning reserved capacity and instances](/docs/vsi?topic=virtual-servers-provisioning-reserved-capacity-and-instances#provisioning-reserved-capacity-and-instances)            | Provision reserved capacity and instances with various options |
-|[Provisioning dedicated hosts and instances](/docs/vsi?topic=virtual-servers-ordering-vs-dedicated#ordering-vs-dedicated)| Provision private instances or dedicated instances on dedicated hosts.|
-{: caption="Table 2. Provisioning information" caption-side="top"}
+Some of these families are also available for IBM Cloud Virtual Servers for VPC. For more information, see [IBM Cloud Virtual Servers for Virtual Private Cloud](/docs/vsi-is?topic=virtual-servers-is-gettingstartedvsigen#gettingstartedvsigen).
+{:tip}
 
 ## Next Steps
 
