@@ -36,32 +36,21 @@ Public instances reside on a hypervisor that is shared with other clients; howev
 
 The following public virtual servers are available.
 
-| Public virtual servers  | Description                                                                                              |
-<<<<<<< HEAD
-| ----------------------- | -------------------------------------------------------------------------------------------------------- |
+| Public virtual servers  | Description     |                                                                                          | ----------------------- | --------------- |
 | [Balanced](/docs/vsi/vsi_public_balanced.html) | Best for common cloud workloads that require a balance of performance and scalability. Uses network-attached storage.|
 | [Balanced local storage](/docs/vsi/vsi_public_balanced_local.html) | Best for large database clusters that require high, low latency I/O performance.|
 | [Compute](/docs/vsi/vsi_public_compute.html) | Best for moderate to high web traffic workloads.|
-| [Memory](/docs/vsi/vsi_public_memory.html)  | Best for memory caching and real-time analytics workloads.
-| [GPU](/docs/vsi/vsi_public_gpu.html)  | Best for high performance workloads.
-=======
-| ----------------------- | -------------------------------------------------------------------------------------------------------- | 
-| [Balanced](../vsi/vsi_public_balanced.html) | Best for common cloud workloads that require a balance of performance and scalability. Uses network-attached storage.|
-| [Balanced local storage](../vsi/vsi_public_balanced_local.html) | Best for large database clusters that require high, low latency I/O performance.|
-| [Compute](../vsi/vsi_public_compute.html) | Best for moderate to high web traffic workloads.|
-| [Memory](../vsi/vsi_public_memory.html)  | Best for memory caching and real-time analytics workloads.
-| [GPU](../vsi/vsi_public_gpu.html)  | Best for high-performance workloads.
->>>>>>> origin/master
+| [Memory](/docs/vsi/vsi_public_memory.html)  | Best for memory caching and real-time analytics workloads. |
+| [GPU](/docs/vsi/vsi_public_gpu.html)  | Best for high performance workloads. |
 {: caption="Table 1. Supported public virtual servers" caption-side="top"}
 
 ## Next Steps
 
-<<<<<<< HEAD
 After you review and decide upon your virtual server flavor, it's time to provision your public virtual server. To get started, review the following information:
 1. [Provisioning selections](/docs/vsi/vsi_public_selections.html)
 2. [Provisioning public instances](/docs/vsi/vsi_provision_public.html)
-=======
+
 After you review and decide upon your virtual server profile, it's time to provision your public virtual server. To get started, review the following information: 
-1. [Provisioning selections](../vsi/vsi_public_selections.html)
-2. [Provisioning public instances](../vsi/vsi_provision_public.html)
->>>>>>> origin/master
+1. [Provisioning selections](/docs/vsi/vsi_public_selections.html)
+2. [Provisioning public instances](/docs/vsi/vsi_provision_public.html)
+
