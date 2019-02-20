@@ -42,7 +42,6 @@ The following public virtual servers are available.
 | [Balanced local storage](/docs/vsi?topic=virtual-servers-balanced-local-storage#balanced-local-storage) | Best for large database clusters that require high, low latency I/O performance.|
 | [Compute](/docs/vsi?topic=virtual-servers-compute#compute) | Best for moderate to high web traffic workloads.|
 | [Memory](/docs/vsi?topic=virtual-servers-memory#memory)  | Best for memory caching and real-time analytics workloads. |
-| [Micro](/docs/vsi?topic=virtual-servers-about-micro)  | Best for low-performance, intermittent workloads that require short bursts of CPU. | 
 | [GPU](/docs/vsi?topic=virtual-servers-gpu#gpu)  | Best for high-performance workloads.
 {: caption="Table 1. Supported public virtual servers" caption-side="top"}
 
