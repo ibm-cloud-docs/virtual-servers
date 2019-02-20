@@ -21,7 +21,7 @@ lastupdated: "2019-02-04"
 <<<<<<< HEAD
 For more information about eVault back-up services, see [Getting Started with Backup Services](/docs/infrastructure/Backup/index.html){: new_window}.
 =======
-For more information about {{site.data.keyword.backup_notm}} services, see [Getting Started with {{site.data.keyword.backup_notm}} services](../infrastructure/Backup/index.html).
+For more information about {{site.data.keyword.backup_notm}} services, see [Getting Started with {{site.data.keyword.backup_notm}} services](/docs/infrastructure/Backup.index.html).
 >>>>>>> origin/master
 
 ## R1Soft CDP
