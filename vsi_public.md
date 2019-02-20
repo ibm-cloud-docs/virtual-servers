@@ -62,7 +62,5 @@ After you review and decide upon your virtual server flavor, it's time to provis
 1. [Provisioning selections](/docs/vsi/vsi_public_selections.html)
 2. [Provisioning public instances](/docs/vsi/vsi_provision_public.html)
 
-After you review and decide upon your virtual server profile, it's time to provision your public virtual server. To get started, review the following information: 
-1. [Provisioning selections](/docs/vsi/vsi_public_selections.html)
-2. [Provisioning public instances](/docs/vsi/vsi_provision_public.html)
+
 
