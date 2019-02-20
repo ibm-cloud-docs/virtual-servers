@@ -18,6 +18,7 @@ lastupdated: "2019-02-04"
 {:table: .aria-labeledby="caption"}
 
 # Transient virtual servers
+{: #about-vs-transient}
 The {{site.data.keyword.BluVirtServers}} transient offering is a good option if you have flexible workloads and want cost savings. You will save money by running your workload on a transient virtual server. Transient instances are provisioned when there is unused capacity available. Therefore, when data center resources are needed for full, on-demand accounts, you can also lose those resources. Transient instances are de-provisioned on a first-on, first-off basis when those resources need to be reclaimed.   
 
 Transient virtual servers offer the following flexibility:
@@ -48,12 +49,7 @@ Consider the following limitations before provisioning a transient virtual serve
 
 ## Next Steps
 
-<<<<<<< HEAD
 After you review and select your virtual server flavor, it's time to provision your transient virtual server. To get started, review the following information:
 1. [Provisioning selections](/docs/vsi/vsi_public_selections.html)
 2. [Provisioning transient instances](/docs/vsi/vsi_provision_transient.html)
-=======
-After you review and select your virtual server profile, it's time to provision your transient virtual server. To get started, review the following information:
-1. [Provisioning selections](../vsi/vsi_public_selections.html)
-2. [Provisioning transient instances](../vsi/vsi_provision_transient.html)
->>>>>>> origin/master
+
