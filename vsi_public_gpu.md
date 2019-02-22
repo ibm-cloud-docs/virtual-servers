@@ -139,7 +139,7 @@ Powered by NVDIA Tesla GPUs, {{site.data.keyword.cloud_notm}} Accelerated Comput
 </TBODY>
 </table>
 
-**Note:** V100 GPU profiles are available in the _DAL10_, _DAL12_, and _LON04_, and _WDC07_ data centers.
+**Note:** V100 GPU profiles are available in the _DAL10_, _DAL12_, _LON04_, and _WDC07_ data centers.
 
 
 ## Before you begin
