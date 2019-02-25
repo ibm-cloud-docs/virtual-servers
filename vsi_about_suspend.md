@@ -4,7 +4,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-04"
+lastupdated: "2019-02-25"
 
 
 ---
@@ -43,7 +43,7 @@ Billing is suspended only when you power off your virtual server instance throug
 
 ## Provisioning details
 
-You can provision a virtual server instance that supports the suspend billing feature through the {{site.data.keyword.cloud_notm}} catalog, CLI, or the {{site.data.keyword.slapi_short}}. For more information on provisioning public virtual server instances, see [Provisioning public instances](/docs/vsi/vsi_provision_public.html).
+You can provision a virtual server instance that supports the suspend billing feature through the {{site.data.keyword.cloud_notm}} catalog (cloud.ibm.com), CLI, or the {{site.data.keyword.slapi_short}}. You can't provision a virtual server instance that supports the suspend billing feature through the {{site.data.keyword.slportal}} (control.softlayer.com). For more information on provisioning public virtual server instances, see [Provisioning public instances](/docs/vsi?topic=virtual-servers-ordering-vs-public#ordering-vs-public).
 
 For the {{site.data.keyword.cloud_notm}} catalog, you must have an upgraded account to order virtual servers. For more information about upgrading your account, see [Switching to IBMid](https://console.bluemix.net/docs/admin/softlayerlink.html).
 {:note}
