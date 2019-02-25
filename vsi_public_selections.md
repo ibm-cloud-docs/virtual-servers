@@ -18,6 +18,8 @@ lastupdated: "2018-02-12"
 {:table: .aria-labeledby="caption"}
 
 # Provisioning selections
+{: #provisioning-selections}
+
 You must make the following selections when you provision a public virtual server.
 
 ## Location
@@ -74,6 +76,7 @@ For more information, see the following security topic collections.
 * [Getting started with security groups](/docs/infrastructure/security-groups/sg_index.html)
 
 ## Monitoring
+{: #about-monitoring}
 
 You can select from a variety of monitoring options for the virtual server. Options include the standard monitoring, which monitors via Ping and transmission control protocol (TCP) service response, and has optional responses in the event of failures. You can also add Advanced Monitoring which uses the Nimsoft software agent to provide a larger feature set for monitoring of the virtual server and installed software.
 
