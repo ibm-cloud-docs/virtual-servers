@@ -21,7 +21,7 @@ The balanced profiles (with network-attached storage) provide higher performance
 The offering is available in the following profiles:
 
 <table>
-<CAPTION>Table 3. Balanced profiles with network-attached storage</CAPTION>
+<CAPTION>Table 1. Balanced profiles with network-attached storage</CAPTION>
 <THEAD>
 <TR>
 <th>Profile</th>
