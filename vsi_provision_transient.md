@@ -27,7 +27,7 @@ Before you begin, review the following prerequisites.
 
   1. Ensure that you have either your {{site.data.keyword.cloud_notm}} catalog or {{site.data.keyword.slportal}} credentials set up.
   
-  **Note:** For the {{site.data.keyword.Bluemix_notm}} catalog, you must have an upgraded account to order virtual servers. For more information about upgrading your account, see [Switching to IBMid](https://console.bluemix.net/docs/admin/softlayerlink.html).
+  **Note:** For the {{site.data.keyword.Bluemix_notm}} catalog, you must have an upgraded account to order virtual servers. For more information about upgrading your account, see [Switching to IBMid](/docs/account?topic=account-unifyingaccounts#unifyingaccounts).
 
   2. Review virtual server instance capacity considerations. For more information, see [Capacity considerations](/docs/vsi/ts_capacity_bp.html).
 
