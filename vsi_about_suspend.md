@@ -25,7 +25,7 @@ lastupdated: "2019-02-25"
 When you power off a virtual server that supports the suspend billing feature, you don't accrue costs for certain compute resources. Billing stops automatically when the server is powered off. The suspend billing feature helps you reduce cost and prevents you from having to reprovision a virtual server when you need its resources again.
 {:shortdesc}
 
-Most virtual server instances created before November 1st, 2018 don't support the suspend billing feature. To find out if your virtual server instance supports the suspend billing feature, see [Viewing suspend billing feature](/docs/vsi//docs/vsi/vsi_viewing_suspend.html).
+Most virtual server instances created before November 1st, 2018 don't support the suspend billing feature. To find out if your virtual server instance supports the suspend billing feature, see [Viewing suspend billing feature](/docs/vsi/vsi_viewing_suspend.html).
 
 This feature is available in data centers across the globe. To provision a virtual server instance that supports the suspend billing feature, the virtual server instance must be configured with the following settings:
 
