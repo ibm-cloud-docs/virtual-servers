@@ -85,7 +85,7 @@ For more information, see [Monitoring](/docs/infrastructure/SLmonitoring?topic=s
 
 During the order process, you can add {{site.data.keyword.backup_notm}}. You can also choose to purchase an R1soft license for your existing R1soft backup environment or utilize a third-party backup solution.
 
-For more information, see [Reregistering a vault](/docs/infrastructure/Backup?topic=Backup-reregister#reregister)
+For more information, see [Reregistering a vault](/docs/infrastructure/Backup?topic=Backup-reregister#reregister).
 
 ## Post-provisioning scripts
 
