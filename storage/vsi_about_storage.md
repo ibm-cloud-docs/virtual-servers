@@ -40,11 +40,11 @@ Virtual servers are fully compatible with {{site.data.keyword.filestorage_short}
 
 For more information about supplemental storage options, see the following resources:
 
-* [Getting Started with Block Storage](/docs/infrastructure/BlockStorage/index.html)
-* [Getting Started with File Storage](/docs/infrastructure/FileStorage/index.html)
-* [Getting Started with Object Storage](/docs/services/ObjectStorage/index.html)
+* [Getting Started with Block Storage](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted)
+* [Getting Started with File Storage](/docs/infrastructure/FileStorage?topic=FileStorage-GettingStarted)
+* [Getting Started with Object Storage](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage#about-ibm-cloud-object-storage)
 
 ## Next steps
 For more information about how to use portable storage volumes, see the following tasks:
-* [Accessing portable storage](/docs/vsi/storage/access-portable-storage-screen.html)
-* [Editing the portable storage description](/docs/vsi/storage/edit-description-portable-storage-volume-psv.html)
+* [Accessing portable storage](/docs/vsi/storage?topic=virtual-servers-accessing-portable-storage)
+* [Editing the portable storage description](/docs/vsi/storage?topic=virtual-servers-editing-a-portable-storage-description)

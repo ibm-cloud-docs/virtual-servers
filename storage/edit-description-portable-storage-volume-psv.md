@@ -13,7 +13,7 @@ You can view portable storage volumes (PSVs) in the {{site.data.keyword.slportal
 
 ## Editing a PSV description
 
-1. Access **Portable Storage** in the  [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}. For more information, see [Accessing portable storage](/docs/vsi/storage/access-portable-storage-screen.html){:new_window}.
+1. Access **Portable Storage** in the  [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}. For more information, see [Accessing portable storage](/docs/vsi/storage?topic=virtual-servers-accessing-portable-storage){:new_window}.
 * Locate the portable storage volumes that you want.<br/>**Note:** Use the **Filter** tool quickly locate a volume in a long list.
 * Click the **Description** section for the PSV to open the description for edits.
 * Enter or revise the content in the **Description** field, as necessary.

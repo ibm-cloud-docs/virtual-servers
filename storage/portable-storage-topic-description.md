@@ -15,5 +15,5 @@ When a portable storage volume is attached to a virtual server in a different da
 
 ## Next steps
 For more information about how to use portable storage volumes, see the following tasks:
-* [Accessing portable storage](/docs/vsi/storage/access-portable-storage-screen.html)
-* [Editing the portable storage description](/docs/vsi/storage/edit-description-portable-storage-volume-psv.html)
+* [Accessing portable storage](/docs/vsi/storage?topic=virtual-servers-accessing-portable-storage)
+* [Editing the portable storage description](/docs/vsi/storage?topic=virtual-servers-editing-a-portable-storage-description)
