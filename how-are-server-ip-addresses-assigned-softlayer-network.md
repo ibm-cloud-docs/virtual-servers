@@ -22,7 +22,7 @@ lastupdated: "2018-08-01"
 
 Additional IP addresses can be bound to virtual server instances after purchasing secondary subnets through the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com). IP addresses purchased in this way and managed by you are referred to as _Secondary IP Addresses_.
 
-For more information about options available for acquiring IP addresses, see [Subnets and IPs](https://console.bluemix.net/docs/infrastructure/subnets/).
+For more information about options available for acquiring IP addresses, see [Subnets and IPs](/docs/infrastructure/subnets?topic=subnets-getting-started-with-subnets-and-ips#getting-started-with-subnets-and-ips).
 
 ## Binding secondary IP addresses
 
