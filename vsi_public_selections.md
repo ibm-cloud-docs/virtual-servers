@@ -43,7 +43,7 @@ For existing customers, you can also deploy based on an Image Template through t
 
 ## Storage
 
-You have the option for SAN or local storage for each virtual server. You can supplement SAN or local storage with other storage products as needed. SAN and local storage are both exposed to the virtual server as local disks. Any changes to disks such as attach, detach, migrate, and so on, require a reboot of the virtual server. For more information, see [Storage options](/docs/vsi/vsi_about_storage.html).
+You have the option for SAN or local storage for each virtual server. You can supplement SAN or local storage with other storage products as needed. SAN and local storage are both exposed to the virtual server as local disks. Any changes to disks such as attach, detach, migrate, and so on, require a reboot of the virtual server. For more information, see [Storage options](/docs/vsi?topic=virtual-servers-storage-options#storage-options).
 
 ## Hourly and monthly billing
 
@@ -84,9 +84,9 @@ For more information, see [Monitoring](/docs/infrastructure/SLmonitoring/monitor
 
 ## Backup
 
-During the order process, you can add Evault backups. You can also choose to purchase an R1soft license for your existing R1soft backup environment or utilize a third party backup solution.
+During the order process, you can add {{site.data.keyword.backup_notm}}. You can also choose to purchase an R1soft license for your existing R1soft backup environment or utilize a third-party backup solution.
 
-For more information, see [Re-registering your device with eVault](/docs/infrastructure/Backup/how-do-i-re-register-evault.html).
+For more information, see [Reregistering a vault](/docs/infrastructure/Backup?topic=Backup-reregister#reregister)
 
 ## Post-provisioning scripts
 
