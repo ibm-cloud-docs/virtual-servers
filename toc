@@ -1,14 +1,14 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="virtual-servers" audience="compute" arm="407" href="/docs/vsi/index.html" path="vsi"}
-IBM Cloud Virtual Servers 
+{: .toc subcollection="virtual-servers" audience="compute" arm="407" href="/docs/vsi?topic=virtual-servers-getting-started-with-virtual-servers#getting-started-with-virtual-servers" path="vsi"}
+IBM Cloud Virtual Servers
 
     {: .navgroup id="learn"}
     vsi_index.md
     vsi_about.md
     vsi_about_suspend.md
-    
+
     {: .topicgroup}
     Public virtual servers
         vsi_public.md
@@ -18,16 +18,16 @@ IBM Cloud Virtual Servers
         vsi_public_memory.md
         vsi_public_gpu.md
         vsi_public_selections.md
-        
+
     vsi_about_transient.md
     vsi_about_reserved.md
-    
+
     {: .topicgroup}
     Dedicated virtual servers
         vsi_dedicated.md
         vsi_dedicated_host.md
         vsi_dedicated_pricing.md
-        
+
     vsi_ps_index.md
     vsi_image_templates_intro.md
     vsi_placegroup.md
@@ -43,22 +43,22 @@ IBM Cloud Virtual Servers
 
     {: .topicgroup}
     Software options
-        [About software](infrastructure/software/index.html)
-        [Microsoft Windows Update Information](infrastructure/software/microsoft-windows-update-instructions.html)
-        [RedHat Update Information](infrastructure/software/redhat-update-instructions.html)
-        [AV/S/Host IDS Topic Description](infrastructure/software/avshost-ids-topic-description.html)
+        [About software](/infrastructure/software/software-about-software#about-software)
+        [Microsoft Windows Update Information](/infrastructure/software/software-microsoft-windows-update-information#microsoft-windows-update-information)
+        [RedHat Update Information](/infrastructure/software/software-red-hat-update-instructions#red-hat-update-instructions)
+        [AV/S/Host IDS Topic Description](/infrastructure/software/software-anti-virus-spyware-and-host-ids-information#anti-virus-spyware-and-host-ids-information)
         vsi_database_tools.md
-        
+
     {: .topicgroup}
     Services options
         vsi_digital_transcoding.md
         vsi_email_intro.md
-    
+
     {: .topicgroup}
-    Tutorials 
-        [PHP web application on a LAMP Stack](https://console.bluemix.net/docs/tutorials/lamp-stack.html)
-        [Use Virtual Servers to build highly available and scalable web app](https://console.bluemix.net/docs/tutorials/highly-available-and-scalable-web-application.html)
-        
+    Tutorials
+        [PHP web application on a LAMP Stack](/tutorials/solution-tutorials-lamp-stack#lamp-stack)
+        [Use Virtual Servers to build highly available and scalable web app](/tutorials/solution-tutorials-highly-available-and-scalable-web-application#highly-available-and-scalable-web-application)
+
     {: .topicgroup}
     Related links
         [Control Portal](https://control.softlayer.com/)
@@ -68,7 +68,7 @@ IBM Cloud Virtual Servers
     {: .navgroup id="reference"}
     vsi_api.md
     vsi_provision_api.md
-    vsi_activity_tracker_events.md    
+    vsi_activity_tracker_events.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -101,11 +101,11 @@ IBM Cloud Virtual Servers
         add-provisioning-script.md
         vsi_managing_dedicated.md
         vsi_managing_users_pwd.md
-    
-    vsi_device_access.md      
-       
+
+    vsi_device_access.md
+
     {: .topicgroup}
-    Managing port speeds   
+    Managing port speeds
         vsi_managing_port_speeds.md
         vsi_upgrading_port_speeds_linux.md
         vsi_upgrading_port_speeds_windows.md
@@ -114,28 +114,28 @@ IBM Cloud Virtual Servers
     {: .topicgroup}
     Managing security
         vsi_managing_sg.md
-        [Accessing SSL certificates](infrastructure/ssl-certificates/access-ssl-certificates-screen.html)
+        [Accessing SSL certificates](/infrastructure/ssl-certificates/ssl-certificates-accessing-ssl-certificates#accessing-ssl-certificates)
 
     {: .topicgroup}
     Managing storage
         storage/access-portable-storage-screen.md
         storage/vsi_view_portable_storage.md
         storage/edit-description-portable-storage-volume-psv.md
-        
+
     {: .topicgroup}
     Managing software
-        [Reloading the OS](infrastructure/software/vsi_reload_os.html)
-        [Reloading an OS using an image template](infrastructure/software/vsi_reload_os_image.html)
-        [Adding IPv6 to Ubuntu systems](infrastructure/software/adding-ipv6-ubuntu-systems.html)
-        [Installing ClamAV](infrastructure/software/install-clamav.html)
-        [Notifying Users of an Approaching Bandwidth Limitation in cPanel/WHM](infrastructure/software/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
-        [Updating an instance to use a local WSUS server](infrastructure/software/local-wsus.html)
+        [Reloading the OS](/infrastructure/software/software-reloading-the-os#reloading-the-os)
+        [Reloading an OS using an image template](/infrastructure/software/software-reloading-an-os-using-an-image-template#reloading-an-os-using-an-image-template)
+        [Adding IPv6 to Ubuntu systems](/infrastructure/software/software-adding-ipv6-to-ubuntu-systems#adding-ipv6-to-ubuntu-systems)
+        [Installing ClamAV](/infrastructure/software/software-installing-clamav#installing-clamav)
+        [Notifying Users of an Approaching Bandwidth Limitation in cPanel/WHM](/infrastructure/software/software-notifying-users-of-an-approaching-bandwidth-limitation-in-cpanel-and-whm#notifying-users-of-an-approaching-bandwidth-limitation-in-cpanel-and-whm)
+        [Updating an instance to use a local WSUS server](/infrastructure/software/software-updating-an-instance-to-use-a-local-wsus-server#updating-an-instance-to-use-a-local-wsus-server)
         vsi_gpu_nvidia_drivers.md
- 
+
     {: .topicgroup}
     Managing placement groups
         vsi_managing_placegroup.md
-    
+
     {: .topicgroup}
     Migrating
         vsi_migrating_dedicated.md
@@ -149,28 +149,28 @@ IBM Cloud Virtual Servers
     Backing up and recovering
         vsi_backup.md
         vsi_launch_rescue.md
-        [Restoring a server from an R1Soft image](infrastructure/software/r1soft-cdp-bare-metal-restore-procedures.html)
-        
+        [Restoring a server from an R1Soft image](/infrastructure/software/software-restoring-your-server-from-an-r1soft-image#restoring-your-server-from-an-r1soft-image)
+
     {: .topicgroup}
     Related links
-        [Virtual Machine Network Setup](infrastructure/virtualization/virtual-machine-network-setup.html)
+        [Virtual Machine Network Setup](/infrastructure/virtualization/Virtualization-setting-up-a-virtual-machine-network#setting-up-a-virtual-machine-network)
         [Control Portal](https://control.softlayer.com/)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
     vsi_ts_index.md
-    
+
     {: .topicgroup}
     Troubleshooting
         ts_capacity_bp.md
-    
+
     {: .topicgroup}
     FAQs
         vsi_faqs_vs.md
         vsi_faqs_reserved.md
         vsi_faqs_dedicated.md
         faq_servers_general.md
-        [FAQs: OS Reload](infrastructure/software/os-reload-question-faq.html)
-        [FAQs: cpsrvd email](infrastructure/software/why-did-my-cpsrvd-email-fail.html)
+        [FAQs: OS Reload](/infrastructure/software/software-faqs#faqs)
+        [FAQs: cpsrvd email](/infrastructure/software/software-faqs#why-did-my-cpsrvd-email-fail-)
 
     {: .navgroup-end}

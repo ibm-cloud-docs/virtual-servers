@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2019
 lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -153,10 +152,10 @@ Review the following GPU prerequisites.
   - Windows 2012 R2
   - Windows 2016
 
-2. Appropriate NVIDIA drivers and software must be installed. For more information about software and NVIDIA drivers, see [Installing GPU drivers and software packages](/docs/vsi/vsi_gpu_nvidia_drivers.html).  
+2. Appropriate NVIDIA drivers and software must be installed. For more information about software and NVIDIA drivers, see [Installing GPU drivers and software packages](/docs/vsi?topic=virtual-servers-installing-gpu-drivers-and-software-packages).  
 **Note:** The software that you install might have prerequisite software and operating system-specific configurations.
 
-## Add or remove GPUs 
+## Add or remove GPUs
 You can change the number of GPUs on your virtual server after your initial order. But, that depends on how many GPUs you provisioned. You have one of the following options.
 
 - If one GPU is provisioned, you can add another GPU, or

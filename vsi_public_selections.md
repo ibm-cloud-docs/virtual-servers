@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-02-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -23,7 +22,7 @@ lastupdated: "2018-02-12"
 You must make the following selections when you provision a public virtual server.
 
 ## Location
-You can select the specific data center to which you want to deploy. For new deployments, {{site.data.keyword.Bluemix}} automatically identifies the best data center (based on availability) and creates the appropriate public and private VLANs. For additions to existing environments, you can select the specific data center, VLAN, and subnet that is required for your design. For more information about VLANs and subnets, see [Getting started with VLANs](/docs/infrastructure/vlans/getting-started.html).
+You can select the specific data center to which you want to deploy. For new deployments, {{site.data.keyword.Bluemix}} automatically identifies the best data center (based on availability) and creates the appropriate public and private VLANs. For additions to existing environments, you can select the specific data center, VLAN, and subnet that is required for your design. For more information about VLANs and subnets, see [Getting started with VLANs](/docs/infrastructure/vlans?topic=vlans-getting-started-with-vlans).
 
 Selecting a subnet is optional and to be used only when you require your device to use an IP address from the subnet. If you select a subnet, verify that you have enough IP addresses to fulfill the request. If you do not have enough IP addresses for your subnet, your order can be delayed or canceled.
 {:tip}
@@ -63,24 +62,24 @@ You can select software to be installed by {{site.data.keyword.Bluemix_notm}} du
 
 ## Security
 
-Before deployment, consider your security options. As part of the order process, you can select a device-specific hardware or software firewall to provide protection. Alternatively, you can deploy dedicated firewall appliances to the environment and deploy the virtual server to a protected VLAN. 
+Before deployment, consider your security options. As part of the order process, you can select a device-specific hardware or software firewall to provide protection. Alternatively, you can deploy dedicated firewall appliances to the environment and deploy the virtual server to a protected VLAN.
 
-**Note:** A virtual server cannot be protected by two firewall appliances on the same interface. 
+**Note:** A virtual server cannot be protected by two firewall appliances on the same interface.
 
 You can also use security groups to enact a set of IP filter rules that define how to handle incoming and outgoing traffic to both the public and private interfaces of a virtual server instance.
 
 For more information, see the following security topic collections.
 
-* [Hardware Firewalls (Shared)](/docs/infrastructure/hardware-firewall-shared/getting-started.html)
-* [Hardware Firewalls (Dedicated)](/docs/infrastructure/hardware-firewall-dedicated/getting-started.html)
-* [Getting started with security groups](/docs/infrastructure/security-groups/sg_index.html)
+* [Hardware Firewalls (Shared)](/docs/infrastructure/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started-with-hardware-firewall-shared)
+* [Hardware Firewalls (Dedicated)](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-getting-started-with-hardware-firewall-dedicated)
+* [Getting started with security groups](/docs/infrastructure/security-groups?topic=security-groups-getting-started-with-security-groups)
 
 ## Monitoring
 {: #about-monitoring}
 
 You can select from a variety of monitoring options for the virtual server. Options include the standard monitoring, which monitors via Ping and transmission control protocol (TCP) service response, and has optional responses in the event of failures. You can also add Advanced Monitoring which uses the Nimsoft software agent to provide a larger feature set for monitoring of the virtual server and installed software.
 
-For more information, see [Monitoring](/docs/infrastructure/SLmonitoring/monitoring_index.html).
+For more information, see [Monitoring](/docs/infrastructure/SLmonitoring?topic=slmonitoring-monitoring).
 
 ## Backup
 
@@ -92,7 +91,7 @@ For more information, see [Reregistering a vault](/docs/infrastructure/Backup?to
 
 Post-provisioning scripts can be associated with any virtual server order. This runs a customer-developed script after other provisioning tasks are completed. The scripts are commonly utilized to apply a customer-specific configuration to a server and to aid in automation of your scaling strategy.
 
-For more information, see [Adding a custom provisioning script](/docs/vsi/vsi_add_script.html).
+For more information, see [Adding a custom provisioning script](/docs/vsi?topic=virtual-servers-adding-post-script).
 
 ## What's Next?
-When you are ready to provision your public virtual server, see [Provisioning public instances](/docs/vsi/vsi_provision_public.html).
+When you are ready to provision your public virtual server, see [Provisioning public instances](/docs/vsi?topic=virtual-servers-ordering-vs-public).

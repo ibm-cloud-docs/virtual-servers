@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2015, 2017
 lastupdated: "2017-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -16,7 +15,7 @@ lastupdated: "2017-10-24"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Adding a custom provisioning script 
+# Adding a custom provisioning script
 {: #adding-post-script}
 
 Custom provisioning scripts allow users to specify a URL to a script that is run on a newly provisioned device. You can post and manage custom provisioning scripts within {{site.data.keyword.slportal_full}}.

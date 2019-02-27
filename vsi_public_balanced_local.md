@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2019
 lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -25,7 +24,7 @@ The offering is available in various profiles and data centers, with the followi
 * [Local SSD](/do/docs/vsi/vsi_public_balanced_local.html#SSD)
 
 ## Local HDD {: #HDD}
- 
+
 <table>
 <CAPTION>Table 1. Balanced local storage profiles using local HDD</CAPTION>
 <THEAD>
@@ -127,8 +126,8 @@ The offering is available in various profiles and data centers, with the followi
 
 **Storage Notes:**
 * <sup>(*)</sup>Balanced local profiles automatically come with a 100 GB local storage boot disk. Then, you can select a second disk (options shown in table above). Any additional local disks are optional. If you require over 500 GB, then two additional disks are required (for example, 8 cores require 2 x 250 GB of local storage).
-*	Maximum local storage is limited by cores. 
-*	Balanced local storage is globally available; however, the type of storage (Local SSD or Local HDD) depends on the data center location. 
+*	Maximum local storage is limited by cores.
+*	Balanced local storage is globally available; however, the type of storage (Local SSD or Local HDD) depends on the data center location.
 *	You cannot detach primary or secondary disks.
 
 The following data centers support Balanced Local Storage virtual servers with local HDD:
@@ -136,7 +135,7 @@ The following data centers support Balanced Local Storage virtual servers with l
 |Data Centers (Local HDD) |        |
 |------------ |------  |  
 |AMS01        |SEA01   |
-|DAL01        |SJC01   | 
+|DAL01        |SJC01   |
 |DAL05        |SNG01   |
 |DAL06        |WDC01   |
 |HKG02        |        |        
@@ -247,23 +246,23 @@ All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and othe
 
 **Storage Notes:**
 * <sup>(*)</sup>Balanced local profiles automatically come with a 100 GB local storage boot disk. Then, you can select a second disk (options shown in table above). Any additional local disks are optional. If you require over 500 GB, then two additional disks are required (for example, 8 cores require 2 x 250 GB of local storage).
-*	Maximum local storage is limited by cores. 
-*	Balanced local storage is globally available; however, the type of storage (Local SSD or Local HDD) depends on the data center location. 
+*	Maximum local storage is limited by cores.
+*	Balanced local storage is globally available; however, the type of storage (Local SSD or Local HDD) depends on the data center location.
 *	You cannot detach primary or secondary disks.
 
 The following data centers support Balanced Local Storage virtual servers with local SSD:
 
 |Data Centers (Local SSD) |        |         |
-|------- |------  |------ | 
+|------- |------  |------ |
 |AMS03   |LON06   |SJC03  |
-|CHE01   |MEL01   |SJC04  | 
+|CHE01   |MEL01   |SJC04  |
 |DAL09   |MEX01   |SYD01  |
 |DAL10   |MIL01   |SYD04  |
 |DAL12   |MON01   |TOK02  |       
 |DAL13   |OSL01   |TOR01  |
 |FRA02   |PAR01   |WDC04  |
 |LON02   |SAO01   |WDC06  |
-|LON04   |SEO01   | WDC07 | 
+|LON04   |SEO01   | WDC07 |
 {: caption="Table 2. Supported data centers (Local SSD)" caption-side="top"}
 
 All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), supported  databases, and software add-ons are also available with this offering.  

@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2019
 lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -22,7 +21,7 @@ lastupdated: "2019-02-04"
 
 After a virtual server is provisioned, you can upgrade or downgrade its configuration at any time.  
 
-**Important note:** There are various public virtual servers available in pre-set profiles. For a limited time, you can modify any virtual servers that were available before pre-set profiles. Then, you will be required to migrate or cancel the existing instances and reorder. 
+**Important note:** There are various public virtual servers available in pre-set profiles. For a limited time, you can modify any virtual servers that were available before pre-set profiles. Then, you will be required to migrate or cancel the existing instances and reorder.
 
 You cannot modify the individual core, RAM, or disk size of a virtual server that uses profiles. You must pick a different profile that has the pre-set cores, RAM, and disk size you need. The virtual server profile you select determines the valid cores, RAM, and disk sizes.  
 
@@ -32,9 +31,9 @@ Use the following steps to reconfigure an existing virtual server.
 {:shortdesc}
 
 ## Modifying an existing virtual server (that uses pre-set profiles)
-1. Access the [{{site.data.keyword.slportal_full}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials. 
+1. Access the [{{site.data.keyword.slportal_full}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
 2. From the Device List, click the name of the virtual server that you want to reconfigure.
-3. On the **Configuration** tab, you can click **Modify** or **Modify device configuration** to update the following items. 
+3. On the **Configuration** tab, you can click **Modify** or **Modify device configuration** to update the following items.
   <dl>
   <dt>Size</dt>
   <dd>Select a new size.</dd>
@@ -43,7 +42,7 @@ Use the following steps to reconfigure an existing virtual server.
   </dl>
 4. After you specify changes for the virtual server, complete the configuration update.
   <dl>
-  
+
   <dt>Upgrade date</dt>
   <dd>You can click the Immediately check box for an immediate update, or schedule a time for the update to become active.</dd>
 
@@ -60,8 +59,8 @@ Use the following steps to reconfigure an existing virtual server.
 
 ## Modifying an existing virtual server (before pre-set profiles) or a dedicated virtual server
 1. From the Device List, click the name of the virtual server that you want to reconfigure.
-2. On the **Configuration** tab, you can click **Core or RAM upgrade** link to update the following items. 
-  
+2. On the **Configuration** tab, you can click **Core or RAM upgrade** link to update the following items.
+
 |   Upgrade options       |  Description                                                                                                |
 | ----------------------- | ----------------------------------------------------------------------------------------------------------- |
 | Upgrade Date            | Enter the date (YYYY-MM-DD) for the update to become active.                                                |
@@ -73,7 +72,7 @@ Use the following steps to reconfigure an existing virtual server.
 | First Disk – Fifth Disk | Select the disk space/storage option for your first disk, if applicable. See **Disk Notes** below for more information.                                                                                                                               |
 | Notes                   | Enter any applicable notes for your device.                                                                 |
 {: caption="Table 1. Deployment options" caption-side="top"}   
-  
+
   **Disk Notes:**
   * Both Local and SAN storage is available.  Double check your selection to ensure your storage option is correct.
   * For public virtual servers, if you are upgrading local storage and require more core or RAM, you might lose your secondary disk. When you modify a virtual server profile that uses local storage, the profile is pre-set for you and profiles that are not comparable cannot be selected.

@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2019
 lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,7 +16,7 @@ lastupdated: "2019-02-04"
 {:table: .aria-labeledby="caption"}
 
 # Balanced
-The balanced profiles (with network-attached storage) provide higher performance, since resources are not oversubscribed. Network performance ranges from standard to premium. 
+The balanced profiles (with network-attached storage) provide higher performance, since resources are not oversubscribed. Network performance ranges from standard to premium.
 
 The offering is available in the following profiles:
 
@@ -113,7 +112,7 @@ The offering is available in the following profiles:
 </TBODY>
 </table>
 
-**Storage Notes:** 
+**Storage Notes:**
 
 * SAN primary boot disk (25 or 100GB) with additional disks available, up to 2 TB each (5 total disks allowed).
 * Pricing for public virtual servers using SAN storage includes virtual CPU, memory, and minimum primary boot disk. Additional disk prices depend on the disk size and quantity that you select.  

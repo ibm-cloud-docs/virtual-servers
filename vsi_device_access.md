@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-05-17"
 
+subcollection: virtual-servers
 
 ---
 
@@ -25,7 +24,7 @@ To access and manage the details for a specific device, you must have the right 
 
 **Note:** If your account has devices to which you have not been granted access, you will see an "Unknown Device" name when you try to access those devices.
 
-You can assign device access to any users on your account, but not to yourself. Only an account's administrator has access to all devices on their customer account and can set access for all other users on their account. 
+You can assign device access to any users on your account, but not to yourself. Only an account's administrator has access to all devices on their customer account and can set access for all other users on their account.
 
 You must have the following permissions to access the device details for public virtual servers or dedicated virtual servers.
 
@@ -49,7 +48,7 @@ Use the following steps to add *View Virtual Server Details* permissions for any
 To provide access at a specific device level, continue to the following steps.
 
 1. Click the **Device Access** icon to access the Device Access screen.
-2. Click the **Quick Access** tab. 
+2. Click the **Quick Access** tab.
    Note: Another option is to select an individual device instead.
 3. From the *Device Type* drop down list, select **All virtual servers**.
 4. Select the **Automatically grant access when new devices are added** check box if the associated user should always have access to this device type.
@@ -68,7 +67,7 @@ Use the following steps to add *View Virtual Dedicated Host Details* permissions
 To provide access at a specific device level, continue to the following steps.
 
 1. Click the **Device Access** icon to access the Device Access screen.
-2. Click the **Quick Access** tab. 
+2. Click the **Quick Access** tab.
    Note: Another option is to select individual devices instead.
 3. From the *Device Type* drop down list, select **All dedicated hosts**.
 4. Select the **Automatically grant access when new devices are added** check box if the associated user should always have access to this device type.

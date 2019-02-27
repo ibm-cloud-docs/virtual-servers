@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-02-22"
 
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -18,4 +20,4 @@ Secure Socket Shell (SSH) is a network protocol that enables a user or client co
 
 SSH keys are the public-key credentials used by the SSH protocol for authentication and encryption.
 
-For more information about SSH keys, see [Getting started with SSH keys](/docs/infrastructure/ssh-keys/index.html).
+For more information about SSH keys, see [Getting started with SSH keys](/docs/infrastructure/ssh-keys?topic=ssh-keys-getting-started-tutorial).

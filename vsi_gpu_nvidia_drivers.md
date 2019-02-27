@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-02-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -31,4 +30,3 @@ You need to install the following software before you can use a GPU Family virtu
 If you are installing a machine learning framework, you need to install framework software such as one of these platforms in addition to the preceding software packages.
 * [Caffe ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.nvidia.com/en-us/data-center/gpu-accelerated-applications/caffe/){: new_window} (Convolutional Architecture for Fast Feature Embedding) - licensed, open source deep learning framework.
 * [Tensorflow (Tensorflow 1.2+) ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.tensorflow.org/install/){: new_window} - provides an open source software library for numerical computation.
-

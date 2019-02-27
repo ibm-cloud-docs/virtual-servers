@@ -4,6 +4,8 @@ copyright:
   years: 2018
 lastupdated: "2018-08-01"
 
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}

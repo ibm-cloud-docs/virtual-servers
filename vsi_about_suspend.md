@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2019
 lastupdated: "2019-02-25"
 
+subcollection: virtual-servers
 
 ---
 
@@ -25,7 +24,7 @@ lastupdated: "2019-02-25"
 When you power off a virtual server that supports the suspend billing feature, you don't accrue costs for certain compute resources. Billing stops automatically when the server is powered off. The suspend billing feature helps you reduce cost and prevents you from having to reprovision a virtual server when you need its resources again.
 {:shortdesc}
 
-Most virtual server instances created before November 1st, 2018 don't support the suspend billing feature. To find out if your virtual server instance supports the suspend billing feature, see [Viewing suspend billing feature](/docs/vsi/vsi_viewing_suspend.html).
+Most virtual server instances created before November 1st, 2018 don't support the suspend billing feature. To find out if your virtual server instance supports the suspend billing feature, see [Viewing suspend billing feature](/docs/vsi?topic=virtual-servers-viewing-suspend-billing-feature).
 
 This feature is available in data centers across the globe. To provision a virtual server instance that supports the suspend billing feature, the virtual server instance must be configured with the following settings:
 
@@ -49,7 +48,7 @@ For the {{site.data.keyword.cloud_notm}} catalog, you must have an upgraded acco
 {:note}
 
 ### Provisioning through the Softlayer API
-You can provision a virtual server instance that supports the suspend billing feature through the {{site.data.keyword.slapi_short}}. For API examples, see [Provisioning a public instance using Place Order Object](/docs/vsi/vsi_provision_api.html#provisioning-a-public-instance-using-place-order-object).
+You can provision a virtual server instance that supports the suspend billing feature through the {{site.data.keyword.slapi_short}}. For API examples, see [Provisioning a public instance using Place Order Object](/docs/vsi?topic=virtual-servers-api-rest-public#provisioning-a-public-instance-using-place-order-object).
 
 You must specify the specific suspend billing package ID during the provisioning process. You can query in the {{site.data.keyword.slapi_short}} for the suspend billing package ID by using the keyName `SUSPEND_CLOUD_SERVER`. For an example on searching for server packages, see [Understanding and building an order using the {{site.data.keyword.slapi_short}} order CLI ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/article/understanding-ordering/){: new_window}.
 
@@ -96,11 +95,11 @@ All public IP addresses are retained for you when billing is suspended for your 
 
 ### Limitations
 
-Virtual server instances that are suspended continue to count toward your account-wide device quota. For more information about instance limits, see [FAQ: Virtual servers](/docs/vsi/vsi_faqs_vs.html#concurrent).
+Virtual server instances that are suspended continue to count toward your account-wide device quota. For more information about instance limits, see [FAQ: Virtual servers](/docs/vsi?topic=virtual-servers-faqs-virtual-servers#concurrent).
 
 ## Next steps
 After you provision a virtual server that supports suspend billing, you can begin to suspend and resume billing on the device.
 
 When billing is suspended on a virtual server instance, you can't complete all of the same actions on the instance until you resume billing for the device. You can view whether your device is stopped, as well as the relevant date when the status changed, through the {{site.data.keyword.slapi_short}} or by accessing the Device details page in the {{site.data.keyword.slportal}}.
 
-To suspend billing on a virtual server instance, power off the virtual server. For more information, see [Managing virtual servers](/docs/vsi/vsi_managing.html).
+To suspend billing on a virtual server instance, power off the virtual server. For more information, see [Managing virtual servers](/docs/vsi?topic=virtual-servers-managing-virtual-servers).

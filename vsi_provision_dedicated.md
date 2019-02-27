@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -25,28 +24,28 @@ You have two options on how to provision your dedicated instances. The first is 
 ## Provisioning dedicated hosts and instances
 You can provision your dedicated hosts and instances through the {{site.data.keyword.cloud_notm}} or the {{site.data.keyword.slportal}}.
 
-### Provisioning dedicated hosts and instances through the IBM Cloud catalog 
-To provision your dedicated hosts and dedicated host instances through the {{site.data.keyword.cloud_notm}} catalog, complete the following steps: 
+### Provisioning dedicated hosts and instances through the IBM Cloud catalog
+To provision your dedicated hosts and dedicated host instances through the {{site.data.keyword.cloud_notm}} catalog, complete the following steps:
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/){: new_window} by using your unique credentials. 
+1. Log in to the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/){: new_window} by using your unique credentials.
 2. In the **Compute Infrastructure** section, click the **Virtual Servers** tile.
 3. Select the **Dedicated Virtual Server** option.
 4. Click **Create**.
 5. In the **Dedicated Host** section, you can either select **Create Host**, where you can create a new dedicated host, or **Specify Host**, where you can select from your existing dedicated hosts.
 6. Complete all of the relevant information for your dedicated host and dedicated virtual server instance.
 7. After you review your order summary, click the **Third-Party Service Agreements** check box.
-8. Click **Provision**. 
+8. Click **Provision**.
 
 ### Provisioning dedicated hosts and instances through the customer portal
 To provision your dedicated hosts and dedicated host instances through the {{site.data.keyword.slportal}}, complete the following steps:
 
 1. Log in to the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
 
-#### Provisioning your dedicated host 
+#### Provisioning your dedicated host
 Use the following steps to provision your dedicated hosts.
 
 1.	Click the **Devices** icon.
-2.  Click on either **Dedicated Virtual Server Hourly** or **Dedicated Virtual Server Monthly** link. 
+2.  Click on either **Dedicated Virtual Server Hourly** or **Dedicated Virtual Server Monthly** link.
 
    **Note:** Dedicated servers are private servers.
 
@@ -54,7 +53,7 @@ You’re taken to the *Configure your Cloud Server* page. It’s from this page 
 
 4.	Click the **Create Host** button on the right side of the form.
 5.	Enter the following information:
-    
+
     <table>
     <CAPTION>Table 1. Dedicated host provisioning selections</CAPTION>
     <THEAD>
@@ -77,9 +76,9 @@ You’re taken to the *Configure your Cloud Server* page. It’s from this page 
     </tr>
     </TBODY>
     </table>
-    
-    Your Order Summary displays on the right side of the *Configuration* page. 
-    
+
+    Your Order Summary displays on the right side of the *Configuration* page.
+
 6.  Click the **Add to Order** button.
 7.  Confirm your selections on the *Checkout* page and scroll down to *Dedicated Host Advanced System Configuration*.
 8.  Enter the following information:
@@ -118,22 +117,22 @@ You’re taken to the *Configure your Cloud Server* page. It’s from this page 
 
 To provision your dedicated host instances through the {{site.data.keyword.slportal}}, complete the following steps:
 
-1.	Click **Devices > Device List**. 
- 
-    The *Devices* page displays all device types—dedicated hosts, virtual servers, bare metal servers, and NetScaler application delivery controllers—within your account. 
+1.	Click **Devices > Device List**.
+
+    The *Devices* page displays all device types—dedicated hosts, virtual servers, bare metal servers, and NetScaler application delivery controllers—within your account.
 
 2.	Select the host for your dedicated host instances by clicking on its link under **Device Name**.
-    
+
     You’re on the **Configuration** tab of the *Device Details* page. The **Tickets** tab lists your active support tickets and the **Allocations** tab displays your memory usage for your selected billing period. See Using Device Details to manage your dedicated host and instances for more information on the tabs.
 
 3.	Scroll down to the **Instances** frame.
 
-    How your dedicated host is billed (monthly or hourly) determines the billing of your dedicated host instances. Note that if you have monthly-billed hosts, you can provision both hourly- and monthly-billed dedicated host instances. There are two links—**Add hourly** and **Add monthly**—available when provisioning your instances. Hourly-billed dedicated hosts can only provision hourly-billed dedicated host instances and will only see the **Add hourly** link. 
+    How your dedicated host is billed (monthly or hourly) determines the billing of your dedicated host instances. Note that if you have monthly-billed hosts, you can provision both hourly- and monthly-billed dedicated host instances. There are two links—**Add hourly** and **Add monthly**—available when provisioning your instances. Hourly-billed dedicated hosts can only provision hourly-billed dedicated host instances and will only see the **Add hourly** link.
 
-4.	Click the **Add hourly** link if your host is billed hourly or monthly; click the **Add monthly** link if your host is billed monthly. You’re redirected to the *Configure your Cloud Server* page. 
+4.	Click the **Add hourly** link if your host is billed hourly or monthly; click the **Add monthly** link if your host is billed monthly. You’re redirected to the *Configure your Cloud Server* page.
 
 5.	Enter the following information:
-       
+
     <table>
     <CAPTION>Table 3. Dedicated host instances selections</CAPTION>
     <THEAD>
@@ -189,7 +188,7 @@ To provision your dedicated host instances through the {{site.data.keyword.slpor
     </tr>
     <tr>
     </TBODY>
-    </table> 
+    </table>
 
 6.	Click the **Add to Order** button.
 7.  Enter the following information on the *Checkout* page under *Advanced System Configuration*:
@@ -237,6 +236,4 @@ To provision your dedicated host instances through the {{site.data.keyword.slpor
 You will receive an email once your dedicated host instances have been provisioned.
 
 ## Next Steps
-After your virtual server is provisioned, you can start managing it. For more information, see [Managing virtual servers](/docs/vsi/vsi_managing.html).
-
-
+After your virtual server is provisioned, you can start managing it. For more information, see [Managing virtual servers](/docs/vsi?topic=virtual-servers-managing-virtual-servers).

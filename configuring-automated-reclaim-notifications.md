@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-05-11"
 
+subcollection: virtual-servers
 
 ---
 
@@ -29,7 +28,7 @@ The `reclaim-scheduled` notification is a webhook, which means the notification 
 
 ## Provisioning a transient virtual server instance
 
-Transient virtual servers can be provisioned through the [{{site.data.keyword.slportal_full}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} or through the [SLDN API ![External link icon](../icons/launch-glyph.svg "External link icon")](http://sldn.softlayer.com){: new_window}. For more information, see [Provisioning transient instances](/docs/vsi/vsi_provision_transient.html).
+Transient virtual servers can be provisioned through the [{{site.data.keyword.slportal_full}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} or through the [SLDN API ![External link icon](../icons/launch-glyph.svg "External link icon")](http://sldn.softlayer.com){: new_window}. For more information, see [Provisioning transient instances](/docs/vsi?topic=virtual-servers-ordering-vs-transient).
 
 ## Setting up the webhook
 

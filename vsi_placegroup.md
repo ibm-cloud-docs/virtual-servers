@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-10-31"
 
+subcollection: virtual-servers
 
 ---
 
@@ -25,7 +24,7 @@ With placement groups for {{site.data.keyword.BluVirtServers}}, you can use publ
 Create your placement group, then assign up to 5 new virtual server instances. With the spread rule, each of your virtual servers are provisioned on different physical hosts.
 
 To get started, follow these steps:
- 
+
 1. From your browser, open [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} and log in to your account.
 2. On the Placement Groups page, click **Add Placement Group**.
 3. Enter a name, description, and data center for the placement group, and click **Add**.
@@ -36,10 +35,10 @@ To get started, follow these steps:
 8. Finally, click **Submit Order**.
 
 ##Limitations
-Existing instances cannot be added to a placement group; you can only add a virtual server instance to a placement group at provisioning. 
+Existing instances cannot be added to a placement group; you can only add a virtual server instance to a placement group at provisioning.
 
 To remove an instance from a placement group, you must delete or reclaim the instance.
-     
+
 ## Next Steps
 
-To create and manage new placement groups, see [Managing placement groups](/docs/vsi/vsi_managing_placegroup.html).
+To create and manage new placement groups, see [Managing placement groups](/docs/vsi?topic=virtual-servers-vsi_managing_placegroup).

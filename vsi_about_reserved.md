@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-10-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -55,5 +54,5 @@ You will receive an email notification one month before the end of the term on y
 
 After you've reviewed and decided on your options, it's time to provision your reserved capacity and instances. To get started, review the following information:
 
-   1. [Provisioning reserved capacity and instances](/docs/vsi/vsi_provision_reserved.html)
-   2. [FAQs: Reserved capacity and instances](/docs/vsi/vsi_faqs_reserved.html)
+   1. [Provisioning reserved capacity and instances](/docs/vsi?topic=virtual-servers-provisioning-reserved-capacity-and-instances)
+   2. [FAQs: Reserved capacity and instances](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances)

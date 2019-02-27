@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -28,14 +27,14 @@ lastupdated: "2017-10-24"
 ## What are the benefits of using dedicated hosts over dedicated instances?
 {:faq}
 
-Both offerings are guaranteed single tenancy. Dedicated hosts provide the flexibility to specify on which host to provision dedicated host instances, as well as: 
+Both offerings are guaranteed single tenancy. Dedicated hosts provide the flexibility to specify on which host to provision dedicated host instances, as well as:
    * Control over which {{site.data.keyword.cloud}} data center the server is placed
    * Ability to manage your servers as workload requirements change; for example, migrate virtual servers between your dedicated hosts on the same POD
 
 ## Can I keep my existing dedicated instances or do I need to set up a dedicated host and dedicated host instances?
 {:faq}
 
-Yes, you can keep your existing dedicated instances. 
+Yes, you can keep your existing dedicated instances.
 
 ## Can I interchange provisioning of dedicated instances (auto–assigned) and dedicated host instances?
 {:faq}
@@ -91,4 +90,3 @@ Yes, resource limitations are per account as defined for all {{site.data.keyword
 {:faq}
 
 No; you can only provision the listed capacity on dedicated hosts.
-

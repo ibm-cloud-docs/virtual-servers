@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2019
 lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -16,7 +15,7 @@ lastupdated: "2019-02-04"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Memory 
+# Memory
 Memory profiles are best for memory intensive workloads, such as large caching workloads, intensive database applications, or in-memory analytics workloads.
 
 The offering is available in the following profiles:
@@ -96,4 +95,3 @@ The offering is available in the following profiles:
 Memory profiles are available in all data centers.
 
 All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), supported  databases, and software add-ons are also available with this offering.  
-

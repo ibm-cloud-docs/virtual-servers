@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -21,15 +20,15 @@ lastupdated: "2017-10-24"
 The {{site.data.keyword.Bluemix}} infrastructure dedicated host offering is a virtualized, single-tenant, dedicated server. It provides you with maximum control over workload placement and flexible post-provisioning options. You can decide which pre-determined {{site.data.keyword.cloud}} data center your virtual servers are placed in and can be assured capacity by allocating your host(s) directly to your account.
 {:shortdesc}
 
-The offering includes the following features: 
+The offering includes the following features:
 
 * Affinity and anti-affinity. You can specify host-to-virtual server and virtual server-to-virtual server relationships that should remain, which are known as affinity and anti-affinity rules. These rules help you make sure that your workloads are placed appropriately based on your workload requirements.
 * Post-deployment management. You can migrate virtual servers between dedicated hosts based on your workload requirements.
 * Workload visibility. You can view resource consumption—core, RAM, and local storage—for each host, giving you maximum control over your workload management.
 
-You have the choice of two deployment models: dedicated hosts and dedicated instances. Dedicated hosts help with control over workload placement and dedicated instances offer single-tenant isolation. 
+You have the choice of two deployment models: dedicated hosts and dedicated instances. Dedicated hosts help with control over workload placement and dedicated instances offer single-tenant isolation.
 
-**Note:** Dedicated instances do not provide some of the control features offered by dedicated hosts.  See the following table for more details. 
+**Note:** Dedicated instances do not provide some of the control features offered by dedicated hosts.  See the following table for more details.
 <table>
 <CAPTION>Table 1. Control features</CAPTION>
 <THEAD>
@@ -84,9 +83,9 @@ You have the choice of two deployment models: dedicated hosts and dedicated inst
 Keep in mind the following when you’re ordering a dedicated host(s) and dedicated host instances:
 
 * Your host location; you can select from the following {{site.data.keyword.cloud_notm}} data centers:
-      
+
 | Data Centers          ||
-| ------------ | ------- | 
+| ------------ | ------- |
 |AMS01         |  MON01  |
 |AMS03         |  OSL01  |
 |CHE01         |  PAR01  |
@@ -95,7 +94,7 @@ Keep in mind the following when you’re ordering a dedicated host(s) and dedica
 |DAL09         |  SJC01  |
 |DAL10         |  SJC03  |
 |DAL12         |  SJC04  |
-|DAL13         |  SNG01  | 
+|DAL13         |  SNG01  |
 |FRA02         |  SYD01  |
 |HKG02         |  SYD04  |
 |HOU02         |  TOK02  |
@@ -106,14 +105,10 @@ Keep in mind the following when you’re ordering a dedicated host(s) and dedica
 |MIL01         |  WDC07  |
 {: caption="Table 2. Supported data centers" caption-side="top"}
 
-* The size of your host(s) is determined by your workloads that you will be running on it. The default is 56 Cores X 242 GB RAM X 1.2 TB. 
+* The size of your host(s) is determined by your workloads that you will be running on it. The default is 56 Cores X 242 GB RAM X 1.2 TB.
 * You can order only two hosts at a time. For example, if you need six hosts, you will need to place three separate orders.
 * Each host will need its own unique name and you can automatically assign your POD.
 
 ## Next Steps
 
-After you have reviewed and decided upon your deployment options, it is time to provision your virtual server. To get started, see [Provisioning dedicated hosts and instances](/docs/vsi/vsi_provision_dedicated.html).
-
-
-
-  
+After you have reviewed and decided upon your deployment options, it is time to provision your virtual server. To get started, see [Provisioning dedicated hosts and instances](/docs/vsi?topic=virtual-servers-ordering-vs-dedicated).

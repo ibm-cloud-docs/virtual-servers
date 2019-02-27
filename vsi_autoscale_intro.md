@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-02-28"
+
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -17,4 +21,4 @@ Auto scale provides you with the ability to automate the manual scaling process 
 * Near-real-time status updates for scaling activity in groups.
 * Optional integration of virtual LAN (VLAN) and local load balancers.
 
-For more information, see [Getting started with auto scaling](/docs/infrastructure/SLautoscale/index.html).
+For more information, see [Getting started with auto scaling](/docs/infrastructure/SLautoscale?topic=slautoscale-getting-started-with-auto-scaling).

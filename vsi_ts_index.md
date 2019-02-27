@@ -1,18 +1,17 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-02-28"
 
+subcollection: virtual-servers
 
 ---
 
 <!-- Common attributes used in the template are defined as follows: -->
-{:tsSymptoms: .tsSymptoms} 
-{:tsCauses: .tsCauses} 
-{:tsResolve: .tsResolve} 
+{:tsSymptoms: .tsSymptoms}
+{:tsCauses: .tsCauses}
+{:tsResolve: .tsResolve}
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
@@ -28,7 +27,7 @@ lastupdated: "2018-02-28"
 <!-- The short description section should include the service long name and "Bluemix" for search optimization. Example short description: -->
 
 <!-- Add a heading and content for how to get help and support. Use this template for beta and GA services:  -->
-# Getting help and support 
+# Getting help and support
 {: #gettinghelp}
 
 If you have problems or questions when using {{site.data.keyword.BluVirtServers}}, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support ticket in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/).
@@ -42,5 +41,4 @@ When using the forums to ask a question, tag your question so that it is seen by
 
 See [Getting help](/docs/get-support?topic=get-support-getting-customer-support#using-avatar) for more details about using the forums.
 
-For information about opening an IBM support ticket, see [Contacting support](/docs/get-support/howtogetsupport.html).
-
+For information about opening an IBM support ticket, see [Contacting support](/docs/get-support?topic=get-support-getting-customer-support).

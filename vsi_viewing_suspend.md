@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-10-30"
 
+subcollection: virtual-servers
 
 ---
 
@@ -23,10 +22,10 @@ You can view whether your virtual server instance supports the suspend billing f
 ## Viewing the suspend billing feature in the customer portal
 To determine if your virtual server instance supports the suspend billing feature in the {{site.data.keyword.slportal}}, use the following steps:
 
-1. Log in to the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials. 
-2. From the **Devices** menu, select **Device List**. 
-3. From the **Device List**, click the name of your virtual server instance. 
-4. On the **Configuration** tab in the **System** section, you can view whether your virtual server instance supports the suspend billing feature. 
+1. Log in to the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
+2. From the **Devices** menu, select **Device List**.
+3. From the **Device List**, click the name of your virtual server instance.
+4. On the **Configuration** tab in the **System** section, you can view whether your virtual server instance supports the suspend billing feature.
 
 | Field                                 | Value                     |
 | --------------------------------------| ------------------------- |
@@ -38,7 +37,7 @@ To determine if your virtual server instance supports the suspend billing featur
 
 The following command is an example request of verifying if your virtual server instance supports the suspend billing feature in the {{site.data.keyword.slapi_short}}.
 
-**Note**: The following JSON request and response is a generic example. 
+**Note**: The following JSON request and response is a generic example.
 
 ```
 curl -X GET \
@@ -56,5 +55,5 @@ For more information, see the [SLDN API documentation ![External link icon](../i
 ## Next steps
 
 To learn more about the suspend billing feature, review the following information:
-1. [About suspend billing](/docs/vsi/vsi_about_suspend.html)
-2. [Managing virtual servers](/docs/vsi/vsi_managing.html)
+1. [About suspend billing](/docs/vsi?topic=virtual-servers-requirements)
+2. [Managing virtual servers](/docs/vsi?topic=virtual-servers-managing-virtual-servers)

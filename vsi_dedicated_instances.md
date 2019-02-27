@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -24,32 +23,32 @@ You have two options on how to provision your dedicated instances. The first is 
 
 ## Provisioning dedicated virtual server instances
 {: #provision-dedicated-instances}
-You can provision your dedicated virtual server instance through the {{site.data.keyword.cloud_notm}} catalog or the {{site.data.keyword.slportal}}. 
+You can provision your dedicated virtual server instance through the {{site.data.keyword.cloud_notm}} catalog or the {{site.data.keyword.slportal}}.
 
-### Provisioning a dedicated virtual server instance through the IBM Cloud catalog 
+### Provisioning a dedicated virtual server instance through the IBM Cloud catalog
 To provision a dedicated virtual server instance through the {{site.data.keyword.cloud_notm}} catalog, complete the following steps:
 
-  1. Log in to the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/){: new_window} by using your unique credentials. 
+  1. Log in to the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/){: new_window} by using your unique credentials.
   2. In the **Compute Infrastructure** section, click the **Virtual Servers** tile.
   3. Select the **Dedicated Virtual Server** option.
   4. Click **Create**.
   5. In the **Dedicated Host** section, select **Auto Assign**. {{site.data.keyword.cloud_notm}} then automatically assigns your instance to a host in your selected data center.
-  
-     **Note**: For dedicated hosts, select **Specify Host** or **Create Host**. For more information about dedicated hosts and dedicated host instances, see [Dedicated virtual servers](/docs/vsi/vsi_dedicated.html).
-     
-  5. Complete all of the relevant information for your dedicated virtual server instance. 
-  6. After you review your order summary, click the **Third-Party Service Agreements** check box. 
+
+     **Note**: For dedicated hosts, select **Specify Host** or **Create Host**. For more information about dedicated hosts and dedicated host instances, see [Dedicated virtual servers](/docs/vsi?topic=virtual-servers-dedicated-virtual-servers).
+
+  5. Complete all of the relevant information for your dedicated virtual server instance.
+  6. After you review your order summary, click the **Third-Party Service Agreements** check box.
   7. Click **Provision**.
 
 ### Provisioning a dedicated virtual server instance through the customer portal
 To provision a dedicated virtual server instance through the {{site.data.keyword.slportal}}, complete the following steps:
 
 1. Log in to the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
-2. Locate the **Order** section and click **Devices**. The **Order SoftLayer Product and Services** window displays. 
-3.  Select **Hourly** or **Monthly** under Dedicated Virtual Servers. You’re redirected to the *Configure your Cloud Server* page. 
+2. Locate the **Order** section and click **Devices**. The **Order SoftLayer Product and Services** window displays.
+3.  Select **Hourly** or **Monthly** under Dedicated Virtual Servers. You’re redirected to the *Configure your Cloud Server* page.
 
 4.	Enter the following information:
-       
+
     <table>
     <CAPTION>Table 1. Dedicated host instances selections</CAPTION>
     <THEAD>
@@ -68,7 +67,7 @@ To provision a dedicated virtual server instance through the {{site.data.keyword
     <td>
     <ul>
     <li>Auto Assign – {{site.data.keyword.Bluemix_notm}} automatically assigns your instance to a host in your selected data center.</li>
-    <li>Specify Host – Used with dedicated host instances. See [Dedicated virtual servers](/docs/vsi/vsi_dedicated.html) for more information on dedicated hosts and dedicated host instances.</li>
+    <li>Specify Host – Used with dedicated host instances. See [Dedicated virtual servers](/docs/vsi?topic=virtual-servers-dedicated-virtual-servers) for more information on dedicated hosts and dedicated host instances.</li>
     </ul>
     </td>
     </tr>
@@ -105,7 +104,7 @@ To provision a dedicated virtual server instance through the {{site.data.keyword
     </tr>
     <tr>
     </TBODY>
-    </table> 
+    </table>
 
 5.	Click the **Add to Order** button. You'll be redirected to the Checkout page.
 6.  Enter the following information on the *Checkout* page under *Advanced System Configuration*:
@@ -152,5 +151,4 @@ To provision a dedicated virtual server instance through the {{site.data.keyword
     A series of emails are sent to your administrator—acknowledgement of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email will include a link that will take you directly to your **Device Details** page after logging in to {{site.data.keyword.Bluemix_notm}}. Another option would be to log directly in to the {{site.data.keyword.slportal}}.
 
 ## Next Steps
-After your virtual server is provisioned, you can start managing it. For more information, see [Managing virtual servers](/docs/vsi/vsi_managing.html).
-
+After your virtual server is provisioned, you can start managing it. For more information, see [Managing virtual servers](/docs/vsi?topic=virtual-servers-managing-virtual-servers).

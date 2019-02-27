@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -51,13 +50,13 @@ Usage displays a time-plot graph based on CPU usage by date. You can roll over t
 Bandwidth is another time-plot graph that lets you enter parameters to see how much bandwidth is being used over time. The Storage tab displays any additional block or file storage on the instance.
 
 ## Cancel a dedicated host
-You can cancel a dedicated host at any time. A prerequisite to canceling a host is to either have migrated the dedicated instances assigned to it to another dedicated host or have canceled the instances, too. 
+You can cancel a dedicated host at any time. A prerequisite to canceling a host is to either have migrated the dedicated instances assigned to it to another dedicated host or have canceled the instances, too.
 ### Cancel a dedicated host from the Device List
 Use the following steps to cancel a dedicated host from the Device List.
 
 1. Select **Device** > **Device List**.
 2. Find the dedicated host to be canceled and click the **Actions** drop-down menu.
-3. Select **Cancel Host**. 
+3. Select **Cancel Host**.
 4. A pop-up window containing a list dedicated instances assigned to the host will appear. You will need to either migrate or cancel the instances, if you haven't done so already, prior to canceling the host. Click **OK**.
 
 You'll receive a message that the dedicated host is canceled. There will be a link to the support ticket to cancel the dedicated host.
@@ -73,11 +72,10 @@ You'll receive a message that the dedicated host is canceled. There will be a li
 
 ### Cancel a dedicated instance
 
-Before you can cancel a dedicated host, the dedicated instances assigned to it have to be canceled. Dedicated instances can be canceled directly from the Device List, the Device Details page of their assigned host, or their own Device Details page. 
+Before you can cancel a dedicated host, the dedicated instances assigned to it have to be canceled. Dedicated instances can be canceled directly from the Device List, the Device Details page of their assigned host, or their own Device Details page.
 
 1. Select the dedicated instance to be canceled and click the **Actions** drop-down menu.
 2. Select **Cancel Device**.
 3. A warning message will appear. Click the **Reason** drop-down menu and select the reason you're canceling the dedicated instance and click **Continue**.
 
 You'll receive a message that the dedicated instance is canceled. There will be a link to the support ticket to cancel the dedicated instance.
-

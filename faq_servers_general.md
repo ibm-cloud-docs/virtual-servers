@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-05-17"
 
+subcollection: virtual-servers
 
 ---
 
@@ -31,7 +30,7 @@ Boot from Image and Load from Image both utilize existing image templates, which
 ## Why can I not connect to the KVM console?
 {:faq}
 
-If you are unable to connect to the KVM console, review the troubleshooting tips below to assist in resolving the issue. Should additional issues occur, please contact support. For more information on contacting support, see [Getting help and support](/docs/vsi/vsi_ts_index.html).
+If you are unable to connect to the KVM console, review the troubleshooting tips below to assist in resolving the issue. Should additional issues occur, please contact support. For more information on contacting support, see [Getting help and support](/docs/vsi?topic=virtual-servers-gettinghelp).
 
    * The KVM console is a Java applet. Java must be installed prior to accessing the console. For more information on installing Java, see [Free Java Download ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.java.com/en/download/){: new_window}.  
    * If Java is installed, ensure that a connection has been established using VPN. If a connection is not established, a warning is displayed when attempting to connect to the KVM console that a VPN connection is required.
@@ -53,7 +52,7 @@ If the root or administrator password to your server is suddenly not working, ch
    * Are you copying and pasting the password? If not, please try to. Please also paste the password in a notepad to ensure no spaces are accidentally being copied with the password.
    * If the server has cPanel on it, is it possible that cPHulk has blocked your IP address due to failed logins? If so, you can access the server using the KVM or IPMI and whitelist your IP address in cPHulk with "/scripts/cphulkdwhitelist" followed by your IP address.
    * Has someone recently tried to change the password for the server by modifying the password in the {{site.data.keyword.slportal}}? Changing the password in the {{site.data.keyword.slportal}} only changes what you see as the password. It does not change the password the server is using. If this has happened, you can contact Support and they can usually recover the original, working password.
-   * You might need to boot into your operating system's rescue mode to be able to reset your password. For more information, see [Launching a rescue kernel](/docs/vsi/vsi_launch_rescue.html).
+   * You might need to boot into your operating system's rescue mode to be able to reset your password. For more information, see [Launching a rescue kernel](/docs/vsi?topic=virtual-servers-launching-rescue).
 
 If these have all been checked and you are still unable to connect to the server using the password, please contact support using a ticket and request a password reset. Support will need to reboot the server in order to reset the password, so please ensure that you are prepared to approve the reboot and/or provide a maintenance time frame in which you would like it done. Most password resets can be accomplished in 15 minutes. In the {{site.data.keyword.slportal}}, you can create a ticket by going to **Support > Add Ticket** and use the subject *"Reboots and Console Access"*.
 
@@ -158,7 +157,7 @@ LVM (Logical Volume Management) provides logical management of file systems in L
    </tr>
    </TBODY>
    </table>
-   
+
    <a name="top"></a>
 
 ## Can I have the monitoring system issue an automatic reboot AND alert a support technician in the event that the server stops responding?
@@ -184,6 +183,3 @@ MASTER_SITE_OVERRIDE?="http://mirrors.service.softlayer.com/freebsd/distfiles/${
 {:screen }
 
 If the file is not found there, it will follow the individual port Makefile and move to the next mirror.
-
-
-

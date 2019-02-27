@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-10-31"
 
+subcollection: virtual-servers
 
 ---
 
@@ -27,7 +26,7 @@ To add placement groups from the Placement Groups page, complete the following s
 2. On the Placement Groups page, click **Add Placement Group**.
 3. Enter a name, description, and data center for the placement group, and click **Add**.
 
-**Note:** Existing instances cannot be added to a placement group; you can only add a virtual server instance to a placement group at provisioning. 
+**Note:** Existing instances cannot be added to a placement group; you can only add a virtual server instance to a placement group at provisioning.
 
 
 ## Managing placement groups from Placement Groups page
@@ -41,7 +40,6 @@ To manage placement groups from the Placement Groups page, complete the followin
      * Add a group.
      * Edit group information.
      * Delete a group.
-     
+
  **Notes:** You must remove assigned servers from the placement group before the placement group can be deleted.
 To remove an instance from a placement group, you must delete or reclaim the instance.
-     
