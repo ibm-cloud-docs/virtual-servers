@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-10-30"
+  years: 2018, 2019
+lastupdated: "2019-03-01"
 
 subcollection: virtual-servers
 
@@ -25,7 +25,7 @@ To determine if your virtual server instance supports the suspend billing featur
 1. Log in to the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
 2. From the **Devices** menu, select **Device List**.
 3. From the **Device List**, click the name of your virtual server instance.
-4. On the **Configuration** tab in the **System** section, you can view whether your virtual server instance supports the suspend billing feature.
+4. On the **Configuration** tab in the **General** section, you can view whether your virtual server instance supports the suspend billing feature.
 
 | Field                                 | Value                     |
 | --------------------------------------| ------------------------- |
