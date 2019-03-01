@@ -17,7 +17,7 @@ subcollection: virtual-servers
 
 
 # Managing users from password tracking
-{: #managing-virtual-servers}
+{: #managing-password-tracking}
 
 The {{site.data.keyword.slportal_full}} has a complimentary Password Tracking tool that you can use to store user and password details for software associated with your devices. After adding information into the Password Tracking tool, it may be deleted at any time. For more information about using passwords on the {{site.data.keyword.slportal}}, see [Managing passwords](/docs/customer-portal?topic=customer-portal-cp_manpws).
 {:shortdesc}
