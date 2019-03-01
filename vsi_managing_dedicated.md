@@ -16,7 +16,7 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 # Managing dedicated hosts and instances
-{: #managing-virtual-servers}
+{: #managing-dedicated-hosts-instances}
 
 The Device Details page is where you manage your dedicated host and instances, track your support tickets, and monitor your host’s availability. You can access and view your dedicated host instances two ways from the Device List—as part of their host or as an individual instance.
 {:shortdesc}
