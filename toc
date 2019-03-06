@@ -132,9 +132,7 @@ IBM Cloud Virtual Servers
         [Updating an instance to use a local WSUS server](/infrastructure/software/software-updating-an-instance-to-use-a-local-wsus-server#updating-an-instance-to-use-a-local-wsus-server)
         vsi_gpu_nvidia_drivers.md
 
-    {: .topicgroup}
-    Managing placement groups
-        vsi_managing_placegroup.md
+    vsi_managing_placegroup.md
 
     {: .topicgroup}
     Migrating
