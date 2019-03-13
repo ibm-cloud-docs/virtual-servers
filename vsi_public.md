@@ -16,6 +16,7 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 # About public virtual servers
+{: #about-public-virtual-servers}
 The public {{site.data.keyword.BluVirtServers}} offerings are IBM-managed, multi-tenant virtual server deployments. They give you rapid scalability and higher-cost effectiveness with pre-defined sizes that meet all business requirements to get you up and running quickly.  
 {:shortdesc}
 
