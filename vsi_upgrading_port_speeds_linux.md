@@ -18,6 +18,7 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 # Upgrading port speed in Linux
+{: #upgrading-port-speed-in-linux}
 
 The default port speeds for customer servers (for both public and private networks) is 10 Mbps. If you would like to upgrade either of your port speeds to 100 Mbps or 1000 Mbps, please open a ticket with our Sales department. Sales will ask you to approve the monthly charge and a technician will change the port speed limits on the network.
 
