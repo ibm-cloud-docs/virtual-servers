@@ -16,6 +16,8 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 # Balanced local storage
+{: #balanced-local-storage}
+
 The balanced local storage profiles are primarily for large database clusters that require high or low latency I/O performance. This offering has higher performance since the resources are not oversubscribed. Network performance ranges from standard to premium.
 
 The offering is available in various profiles and data centers, with the following local storage options:
