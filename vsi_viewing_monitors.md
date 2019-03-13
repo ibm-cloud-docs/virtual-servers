@@ -16,6 +16,7 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 # Viewing and managing monitors
+{: #viewing-and-managing-monitors}
 
 Monitoring a device allows users to initiate service and slow pings to ensure the device is online and responsive.
 {:shortdesc}
