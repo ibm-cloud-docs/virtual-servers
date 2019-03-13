@@ -17,6 +17,7 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 # Managing port speeds
+{: #managing-port-speeds}
 
 The {{site.data.keyword.slportal_full}} allows you to modify the speed that your server is negotiating at, without opening a support ticket.
 
