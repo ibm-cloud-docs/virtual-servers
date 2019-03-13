@@ -12,6 +12,7 @@ subcollection: virtual-servers
 {:new_window: target="_blank"}
 
 # Editing a portable storage description
+{: #editing-a-portable-storage-description}
 
 You can view portable storage volumes (PSVs) in the {{site.data.keyword.slportal_full}}. The portable storage page displays the PSV's description, location, capacity and device name to which the PSV is associated. You can update the description at any time. Update each PSV description to a unique identifier related to the use of the PSV.
 
