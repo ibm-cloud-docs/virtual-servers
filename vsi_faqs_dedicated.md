@@ -18,6 +18,7 @@ subcollection: virtual-servers
 
 
 # FAQs: Dedicated hosts and instances
+{: #faqs-dedicated-hosts-and-instances}
 
 ## What is a dedicated host?
 {:faq}
