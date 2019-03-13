@@ -16,6 +16,7 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 # Database tools
+{: #database-tools}
 
 {{site.data.keyword.cloud}} offers optional at-cost and no-cost database tool products for both {{site.data.keyword.virtualmachinesshort}} and {{site.data.keyword.baremetal_short}} deployments. However, database tool products are only available for monthly billing cycles of {{site.data.keyword.virtualmachinesshort}} and {{site.data.keyword.baremetal_short}}.
 {:shortdesc}
