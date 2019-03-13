@@ -16,6 +16,8 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 # Installing GPU drivers and software packages
+{: #installing-gpu-drivers-and-software-packages}
+
 You need to install the following software before you can use a GPU Family virtual server.
 * [NVIDIA drivers ![External link icon](../icons/launch-glyph.svg "External link icon")](http://www.nvidia.com/drivers){: new_window} - allows your operating system to communicate with the GPU.
 * [CUDA Toolkit ![External link icon](../icons/launch-glyph.svg "External link icon")](https://docs.nvidia.com/cuda/){: new_window} - development environment for high-performance GPU-accelerated applications.
