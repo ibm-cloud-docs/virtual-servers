@@ -17,6 +17,7 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 # Downgrading port speeds
+{: #downgrading-port-speeds}
 
 You can temporarily downgrade port speeds without opening a ticket. You can access the **Port Controls** option by clicking **Actions** in the upper-right from the **Device Details** page. From this screen, select the speed you need, or disconnect it.
 {:shortdesc}
