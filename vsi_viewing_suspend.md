@@ -17,6 +17,8 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 # Viewing suspend billing feature
+{: #viewing-suspend-billing-feature}
+
 You can view whether your virtual server instance supports the suspend billing feature in the {{site.data.keyword.slportal_full}} or through the {{site.data.keyword.slapi_short}}.
 
 ## Viewing the suspend billing feature in the customer portal
