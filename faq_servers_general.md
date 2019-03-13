@@ -18,6 +18,7 @@ subcollection: virtual-servers
 
 
 # FAQs: Servers (general)
+{: #faqs-servers-general-}
 
 ## What is the difference between "Boot from Image" and "Load from Image"?
 {:faq}
