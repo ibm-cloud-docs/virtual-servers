@@ -16,6 +16,8 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 # Dedicated virtual server pricing
+{: #dedicated-virtual-server-pricing}
+
 Pricing for dedicated hosts will be offered in an hourly and monthly model.
 {:shortdesc}
 
