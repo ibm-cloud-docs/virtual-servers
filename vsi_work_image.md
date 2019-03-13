@@ -12,6 +12,8 @@ subcollection: virtual-servers
 {:new_window: target="_blank"}
 
 # Working with image templates
+{: #working-with-image-templates}
+
 You can access the Image Templates screen in the {{site.data.keyword.slportal_full}}.
 {:shortdesc}
 
