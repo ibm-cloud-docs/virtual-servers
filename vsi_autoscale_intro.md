@@ -12,6 +12,7 @@ subcollection: virtual-servers
 {:new_window: target="_blank"}
 
 # Managing servers with auto scaling
+{: #managing-servers-with-auto-scaling}
 
 Auto scale provides you with the ability to automate the manual scaling process that is associated with adding or removing virtual servers to support your business applications. Auto scaling can be managed through the API or {{site.data.keyword.slportal_full}} and enables the following:
 
