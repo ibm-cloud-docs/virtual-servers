@@ -16,6 +16,8 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 # Image templates
+{: #image-templates}
+
 With {{site.data.keyword.BluVirtServers}} image templates, you can capture a device's image to quickly replicate its configuration with minimal changes in the order process.
 {:shortdesc}
 
