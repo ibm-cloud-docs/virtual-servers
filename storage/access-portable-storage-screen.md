@@ -12,6 +12,7 @@ subcollection: virtual-servers
 {:new_window: target="_blank"}
 
 # Accessing portable storage
+{: #accessing-portable-storage}
 
 Portable Storage Volumes (PSVs) are an auxiliary storage solution exclusively for {{site.data.keyword.virtualmachinesshort}}. Within the {{site.data.keyword.slportal_full}}, you can access portable storage volumes from the *Portable Storage* page, which displays all PSVs and is the location where volumes can be attached, detached, swapped, and edited. 
 
