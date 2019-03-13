@@ -16,6 +16,8 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 # SSL certificates
+{: #ssl-certificates}
+
 Secure Sockets Layer (SSL) is a technology that encrypts traffic between the client application and the server application involved in the conversation. This encryption is accomplished through a public key/private key system using an SSL certificate.
 {:shortdesc}
 
