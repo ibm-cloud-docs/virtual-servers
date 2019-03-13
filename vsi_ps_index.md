@@ -13,6 +13,7 @@ subcollection: virtual-servers
 {:new_window: target="_blank"}
 
 # Provisioning scripts
+{: #provisioning-scripts}
 
 A provisioning script is a script that can either be downloaded to, or downloaded and run on, a device during the provisioning process. For existing accounts, provisioning scripts are managed within the {{site.data.keyword.slportal_full}}. During the ordering process, you can manually enter scripts for new accounts or scripts that are not yet tracked.
 
