@@ -17,6 +17,7 @@ subcollection: virtual-servers
 
 
 # Placement groups
+{: #placement-groups}
 
 With placement groups for {{site.data.keyword.BluVirtServers}}, you can use public instances to build for high availability within a data center, or provide an additional level of fault tolerance within a larger deployment.
 {:shortdesc}
