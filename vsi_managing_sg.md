@@ -17,6 +17,7 @@ subcollection: virtual-servers
 
 
 # Managing security groups
+{: #managing-security-groups}
 
 You can manage security groups using the Security Groups page or the Device Details page in the {{site.data.keyword.slportal_full}}.
 {:shortdesc}
