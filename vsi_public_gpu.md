@@ -16,6 +16,8 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 # GPU
+{: #gpu}
+
 GPU profiles are best for high-performance workloads that require more compute density to reduce resource management and costs. The GPU profiles are ideal for artificial intelligence processes, intense graphic and data applications, or developing new applications that require fast performance.
 
 Powered by NVDIA Tesla GPUs, {{site.data.keyword.cloud_notm}} Accelerated Compute “ac1” and "ac2" flavors both offer block and local SSD storage. The following GPU profiles are available for you to choose from:  
