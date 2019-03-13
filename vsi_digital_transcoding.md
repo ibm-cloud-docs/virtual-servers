@@ -17,6 +17,7 @@ subcollection: virtual-servers
 
 
 # Digital transcoding
+{: #digital-transcoding}
 
 {{site.data.keyword.DigitalTranscodinglong}} service allows you to transcode, or convert, a media file from one format to another. Transcoding usually takes place when the media file that is available doesn't fit the desired format or is incompatible with the support.
 {:shortdesc}
