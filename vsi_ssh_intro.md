@@ -16,6 +16,8 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 # SSH keys
+{: #ssh-keys}
+
 Secure Socket Shell (SSH) is a network protocol that enables a user or client computer to connect, using a secure channel, to a remote computer over the internet and have access to issue commands on the remote computer.
 
 SSH keys are the public-key credentials used by the SSH protocol for authentication and encryption.
