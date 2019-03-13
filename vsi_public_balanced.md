@@ -16,6 +16,8 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 # Balanced
+{: #balanced}
+
 The balanced profiles (with network-attached storage) provide higher performance, since resources are not oversubscribed. Network performance ranges from standard to premium.
 
 The offering is available in the following profiles:
