@@ -16,6 +16,7 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 # About virtual servers
+{: #about-virtual-servers}
 
 {{site.data.keyword.BluVirtServers}} are scalable virtual servers that are purchased with dedicated cores and memory allocations. They are a great option if you are looking for compute resources, that can be added in minutes, with access to features like image templates. The hypervisor is fully managed by {{site.data.keyword.BluSoftlayer_full}} and you can perform configuration and management tasks by using both the {{site.data.keyword.slportal_full}} and the {{site.data.keyword.slapi_short}}. Virtual servers are deployed to the same VLANs as physical servers, allowing you to spread workloads across virtual servers and bare metal servers, while maintaining interoperability. Virtual servers are fully customizable when you order them, with options to scale up as your compute needs grow.
 {:shortdesc}
