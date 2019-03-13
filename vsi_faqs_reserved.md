@@ -17,6 +17,7 @@ subcollection: virtual-servers
 {:faq: data-hd-content-type='faq'}
 
 # FAQs: Reserved capacity and instances
+{: #faqs-reserved-capacity-and-instances}
 
 ## Which virtual server instance types can be reserved?
 {:faq}
