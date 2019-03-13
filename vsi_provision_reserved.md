@@ -16,6 +16,7 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 # Provisioning reserved capacity and instances
+{: #provisioning-reserved-capacity-and-instances}
 
 ## Before you begin
 
