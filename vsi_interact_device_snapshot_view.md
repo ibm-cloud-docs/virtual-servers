@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 20144, 2017
+  years: 2014, 2017
 lastupdated: "2017-08-23"
 
 subcollection: virtual-servers
@@ -9,6 +9,7 @@ subcollection: virtual-servers
 ---
 
 # Interacting with a device in snapshot view
+{: #interacting-with-a-device-in-snapshot-view}
 
 ## Overview
 
