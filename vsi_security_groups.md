@@ -17,6 +17,7 @@ subcollection: virtual-servers
 
 
 # Security groups
+{: #security-groups}
 
 With security groups for {{site.data.keyword.BluVirtServers}}, you can enact a set of IP filter rules that define how to handle incoming and
 outgoing traffic to both the public and private interfaces of a virtual server instance. A security group creates a sort of virtual firewall.
