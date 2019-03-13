@@ -12,6 +12,7 @@ subcollection: virtual-servers
 {:new_window: target="_blank"}
 
 # Managing a provisioning script
+{: #managing-a-provisioning-script}
 
 Use provisioning scripts to specify a URL to a script to be run on a newly provisioned device. You have no restrictions for the script name; however, using a similar naming convention for each script makes it easier to identify. Provisioning scripts must be associated with a fully qualified domain name and accessible using the HTTP or HTTPS protocols. The type of protocol that is used impacts the system's automated response when the provisioning script is downloaded to the device.
 
