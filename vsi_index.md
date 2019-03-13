@@ -17,6 +17,8 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 # Getting started tutorial
+{: #getting-started-tutorial}
+
 You can deploy {{site.data.keyword.BluVirtServers}} in a matter of minutes. The virtual servers are deployed from your choice of virtual server images and in the geographic region that makes sense for your workloads.
 {:shortdesc}
 
