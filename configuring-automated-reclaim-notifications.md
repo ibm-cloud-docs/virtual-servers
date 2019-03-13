@@ -17,6 +17,7 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 # Configuring notifications for reclaims of transient virtual servers
+{: #configuring-notifications-for-reclaims-of-transient-virtual-servers}
 
 Transient virtual servers are by their nature ephemeral and they can be terminated at any time, which might lead to lost data. Automated reclaim notifications can help reduce lost data. When provisioned, a transient virtual server can be configured to receive a notification that it is being terminated **two minutes** before the actual termination. The notification enables you to programmatically alert the transient virtual server to finish any processing that is in progress or to transfer any necessary data off the transient virtual server.
 
