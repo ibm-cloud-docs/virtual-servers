@@ -1,10 +1,11 @@
 ---
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-10-24"
 ---
 
 # Bandwidth Graphs
+{: #bandwidth-graphs}
 
 The bandwidth graphs show traffic to and from the internet (public graphs) and to and from the private network (private graphs).
 
