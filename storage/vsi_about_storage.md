@@ -7,6 +7,7 @@ lastupdated: "2018-10-23"
 {:new_window: target="_blank"}
 
 # Storage options
+{: #storage-options}
 
 You have the option of SAN (portable SAN) or local storage for each virtual server. You can supplement SAN or local storage with other storage products as needed.
 
