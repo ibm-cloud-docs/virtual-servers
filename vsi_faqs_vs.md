@@ -18,6 +18,7 @@ subcollection: virtual-servers
 
 
 # FAQs: Virtual servers  
+{: #faqs-virtual-servers}
 
 ## What types of virtual servers are available for use?
 {:faq}
