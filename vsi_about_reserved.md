@@ -4,6 +4,8 @@ copyright:
   years: 2018
 lastupdated: "2018-10-04"
 
+keywords: reserved virtual servers, cost savings, guaranteed capacity
+
 subcollection: virtual-servers
 
 ---
