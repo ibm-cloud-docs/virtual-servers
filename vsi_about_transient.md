@@ -4,6 +4,8 @@ copyright:
   years: 2017, 2019
 lastupdated: "2019-02-04"
 
+keywords: transient virtual servers, transient instances, transient offering, cost savings
+
 subcollection: virtual-servers
 
 ---
