@@ -4,6 +4,8 @@ copyright:
   years: 2017
 lastupdated: "2017-11-15"
 
+keywords: scalable virtual servers, virtual servers, key features
+
 subcollection: virtual-servers
 
 ---
