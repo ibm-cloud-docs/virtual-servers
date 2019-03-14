@@ -4,6 +4,8 @@ copyright:
   years: 2017, 2019
 lastupdated: "2019-02-25"
 
+keywords: virtual server, suspend billing feature, virtual server instances, suspend billing
+
 subcollection: virtual-servers
 
 ---
