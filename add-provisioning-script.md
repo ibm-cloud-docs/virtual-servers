@@ -25,6 +25,7 @@ Use provisioning scripts to specify a URL to a script to be run on a newly provi
 
 
 ## Adding a provisioning script
+{: #add-provisioning-script}
 
 1. From the **Provisioning Scripts** screen in the {{site.data.keyword.slportal}}, click **Add Provisioning Script** at the top of the screen.
 * Enter an **identifying name** for the provisioning script in the **Name** field.
