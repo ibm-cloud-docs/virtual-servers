@@ -28,6 +28,7 @@ The `reclaim-scheduled` notification is a webhook, which means the notification 
 3. Verify the webhook requests.
 
 ## Provisioning a transient virtual server instance
+{: #provision-transient-virtual-server}
 
 Transient virtual servers can be provisioned through the [{{site.data.keyword.slportal_full}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} or through the [SLDN API ![External link icon](../icons/launch-glyph.svg "External link icon")](http://sldn.softlayer.com){: new_window}. For more information, see [Provisioning transient instances](/docs/vsi?topic=virtual-servers-ordering-vs-transient).
 
