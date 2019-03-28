@@ -1,15 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-11"
+
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Accesso all'archiviazione portatile
+{: #accessing-portable-storage}
 
-I volumi di archiviazione portatile (PSV) sono una soluzione di archiviazione ausiliaria disponibile solo per {{site.data.keyword.virtualmachinesshort}}. Nel [{{site.data.keyword.slportal_full}} !{Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window}, puoi accedere ai volumi di archiviazione portatile dalla pagina *Archiviazione portatile*, che visualizza tutti i PSV ed è la posizione in cui i volumi possono essere collegati, scollegati, scambiati e modificati. 
+I volumi di archiviazione portatile (PSV) sono una soluzione di archiviazione ausiliaria disponibile solo per {{site.data.keyword.virtualmachinesshort}}. All'interno del {{site.data.keyword.slportal_full}}, puoi accedere ai volumi di archiviazione portatile dalla pagina *Archiviazione portatile*, che visualizza tutti i PSV ed è la posizione in cui i volumi possono essere collegati, scollegati, scambiati e modificati. 
 
 ## Accesso alla pagina Archiviazione portatile
 

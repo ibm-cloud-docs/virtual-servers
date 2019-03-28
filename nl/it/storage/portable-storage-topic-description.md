@@ -15,5 +15,5 @@ Quando un volume di archiviazione portatile è collegato a un server virtuale in
 
 ## Passi successivi
 Per ulteriori informazioni su come utilizzare i volumi di archiviazione portatile, vedi le seguenti attività:
-* [Accesso all'archiviazione portatile](../storage/access-portable-storage-screen.html)
-* [Modifica della descrizione dell'archiviazione portatile](../storage/edit-description-portable-storage-volume-psv.html)
+* [Accesso all'archiviazione portatile](/docs/vsi/storage?topic=virtual-servers-accessing-portable-storage)
+* [Modifica della descrizione dell'archiviazione portatile](/docs/vsi/storage?topic=virtual-servers-editing-a-portable-storage-description)
