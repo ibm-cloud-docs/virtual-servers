@@ -15,5 +15,5 @@ lastupdated: "2017-09-13"
 
 ## 次のステップ
 ポータブル・ストレージ・ボリュームの使用方法について詳しくは、以下のタスクを参照してください。
-* [ポータブル・ストレージへのアクセス](../storage/access-portable-storage-screen.html)
-* [ポータブル・ストレージの説明の編集](../storage/edit-description-portable-storage-volume-psv.html)
+* [ポータブル・ストレージへのアクセス](/docs/vsi/storage?topic=virtual-servers-accessing-portable-storage)
+* [ポータブル・ストレージの説明の編集](/docs/vsi/storage?topic=virtual-servers-editing-a-portable-storage-description)

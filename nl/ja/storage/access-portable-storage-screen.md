@@ -1,15 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-11"
+
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # ポータブル・ストレージへのアクセス
+{: #accessing-portable-storage}
 
-ポータブル・ストレージ・ボリューム (PSV) は、{{site.data.keyword.virtualmachinesshort}}専用の補助ストレージ・ソリューションです。 [{{site.data.keyword.slportal_full}} !{「外部リンク」アイコン](../../icons/launch-glyph.svg "「外部リンク」アイコン")](https://control.softlayer.com/){: new_window} 内で、*「ポータブル・ストレージ」*ページからポータブル・ストレージ・ボリュームにアクセスできます。 このページにはすべての PSV が表示され、このページでボリュームの接続、切り離し、交換、および編集を行うことができます。 
+ポータブル・ストレージ・ボリューム (PSV) は、{{site.data.keyword.virtualmachinesshort}}専用の補助ストレージ・ソリューションです。 {{site.data.keyword.slportal_full}}内で、*「ポータブル・ストレージ」* ページからポータブル・ストレージ・ボリュームにアクセスできます。このページには、すべての PSV が表示され、ここでボリュームの接続、切り離し、交換、および編集を行うことができます。 
 
 ## 「ポータブル・ストレージ」ページへのアクセス
 

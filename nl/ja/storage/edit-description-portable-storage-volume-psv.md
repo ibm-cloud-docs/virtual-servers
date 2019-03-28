@@ -1,20 +1,25 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-11"
+
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # ポータブル・ストレージの説明の編集
+{: #editing-a-portable-storage-description}
 
-{{site.data.keyword.slportal_full}}にポータブル・ストレージ・ボリューム (PSV) を表示できます。 ポータブル・ストレージ・ページには、PSV の説明、場所、容量、およびその PSV が関連付けられているデバイス名が表示されます。 説明はいつでも更新できます。 各 PSV の説明を更新して、その PSV の使用に関連した固有の ID を指定してください。 
+{{site.data.keyword.slportal_full}}にポータブル・ストレージ・ボリューム (PSV) を表示できます。 ポータブル・ストレージ・ページには、PSV の説明、場所、容量、およびその PSV が関連付けられているデバイス名が表示されます。 説明はいつでも更新できます。 各 PSV の説明を更新して、その PSV の使用に関連した固有の ID を指定してください。
 
 ## PSV の説明の編集
 
-1. [{{site.data.keyword.slportal}} ![「外部リンク」アイコン](../../icons/launch-glyph.svg "「外部リンク」アイコン")](https://control.softlayer.com/){: new_window} の**「ポータブル・ストレージ」**にアクセスします。 詳しくは、[ポータブル・ストレージへのアクセス](access-portable-storage-screen.html){:new_window}を参照してください。
-* 必要なポータブル・ストレージ・ボリュームを見つけます。<br/>**注:** **「フィルター」**ツールを使用すると、長いリストから素早くボリュームを見つけることができます。 
+1. [{{site.data.keyword.slportal}} ![「外部リンク」アイコン](../../icons/launch-glyph.svg "「外部リンク」アイコン")](https://control.softlayer.com/){: new_window} の**「ポータブル・ストレージ」**にアクセスします。 詳しくは、[ポータブル・ストレージへのアクセス](/docs/vsi/storage?topic=virtual-servers-accessing-portable-storage)を参照してください。
+* 必要なポータブル・ストレージ・ボリュームを見つけます。<br/>**注:** **「フィルター」**ツールを使用すると、長いリストから素早くボリュームを見つけることができます。
 * PSV の**「説明」**セクションをクリックして、編集のために説明を開きます。
 * 必要に応じて、**「説明」**フィールドの内容を入力または改訂します。
 * その PSV が入っている行内の任意の場所をクリックして、編集した説明を保存します。
