@@ -7,20 +7,21 @@ lastupdated: "2018-10-23"
 {:new_window: target="_blank"}
 
 # 儲存空間選項
+{: #storage-options}
 
-您可以為每一部虛擬伺服器選擇 SAN（可攜式 SAN）或本端儲存空間。您可以視需要使用其他儲存產品補充 SAN 或本端儲存空間。 
+您可以為每一部虛擬伺服器選擇 SAN（可攜式 SAN）或本端儲存空間。您可以視需要使用其他儲存產品補充 SAN 或本端儲存空間。
 
 ## 本端儲存空間
 
-本端儲存空間是在虛擬伺服器主機的本端磁碟上進行建置。本端儲存空間提供改良的磁碟讀寫效能。磁碟是以多磁碟機陣列 (RAID) 配置所建置，可進行由 {{site.data.keyword.cloud}} 完全管理的備援、磁碟更換及性能監視。在較新的資料中心內，此儲存空間是可提供最佳效能的所有固態硬碟 (SSD)。 
+本端儲存空間是在虛擬伺服器主機的本端磁碟上進行建置。本端儲存空間提供改良的磁碟讀寫效能。磁碟是以多磁碟機陣列 (RAID) 配置所建置，可進行由 {{site.data.keyword.cloud}} 完全管理的備援、磁碟更換及性能監視。在較新的資料中心內，此儲存空間是可提供最佳效能的所有固態硬碟 (SSD)。
 
 ## 可攜式 SAN 儲存空間
- 
+
 可攜式儲存磁區是專用於 {{site.data.keyword.BluVirtServers_short}} 的輔助儲存空間解決方案。可攜式 SAN 是以 {{site.data.keyword.cloud_notm}} 的全快閃記憶體儲存空間叢集為建置基礎，而不是本端主機儲存空間。這個基礎架構可以在主機故障時提供更大的備援，也可以支援更大的磁區。如果主機故障，則會將使用 SAN 型儲存空間的虛擬伺服器實例自動移轉至其他主機，並重新啟動。
 
 如果您要在位在 {{site.data.keyword.cloud_notm}} 網路上的任何資料中心內的虛擬伺服器之間傳送資料，可攜式儲存空間是理想的解決方案。可攜式儲存磁區適用需要存取原始、未格式化區塊層次儲存空體的資料庫應用程式，也適合在 {{site.data.keyword.BluVirtServers_short}} 之間移動大型資料集。
 
-所有次要磁碟都會連接為可攜式儲存空間。在大部分案例中，您隨時可以分離次要磁碟，以將它們移至其他虛擬伺服器。 
+所有次要磁碟都會連接為可攜式儲存空間。在大部分案例中，您隨時可以分離次要磁碟，以將它們移至其他虛擬伺服器。
 
 **例外狀況：**如果是使用平衡本端儲存空間的公用虛擬伺服器，則無法分離主要或次要磁碟。
 
@@ -40,13 +41,11 @@ lastupdated: "2018-10-23"
 
 如需補充性儲存空間選項的相關資訊，請參閱下列資源：
 
-* [開始使用 Block Storage](/docs/infrastructure/BlockStorage/index.html)
-* [開始使用 File Storage](/docs/infrastructure/FileStorage/index.html)
-* [開始使用 Object Storage](/docs/services/ObjectStorage/index.html)
+* [開始使用 Block Storage](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted)
+* [開始使用 File Storage](/docs/infrastructure/FileStorage?topic=FileStorage-GettingStarted)
+* [開始使用 Object Storage](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage#about-ibm-cloud-object-storage)
 
 ## 後續步驟
 如需如何使用可攜式儲存磁區的相關資訊，請參閱下列作業：
-* [存取可攜式儲存空間](../storage/access-portable-storage-screen.html)
-* [編輯可攜式儲存空間說明](../storage/edit-description-portable-storage-volume-psv.html)
-
-
+* [存取可攜式儲存空間](/docs/vsi/storage?topic=virtual-servers-accessing-portable-storage)
+* [編輯可攜式儲存空間說明](/docs/vsi/storage?topic=virtual-servers-editing-a-portable-storage-description)

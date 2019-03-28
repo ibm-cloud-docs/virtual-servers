@@ -1,15 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-11"
+
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 存取可攜式儲存空間
+{: #accessing-portable-storage}
 
-「可攜式儲存磁區 (PSV)」是一種專門用於 {{site.data.keyword.virtualmachinesshort}} 的輔助儲存空間解決方案。在 [{{site.data.keyword.slportal_full}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){: new_window} 內，您可以從*可攜式儲存空間* 頁面存取可攜式儲存空間磁區，此頁面會顯示所有 PSV，也是可以連接、分離、交換和編輯磁區的位置。 
+「可攜式儲存磁區 (PSV)」是一種專門用於 {{site.data.keyword.virtualmachinesshort}} 的輔助儲存空間解決方案。在 {{site.data.keyword.slportal_full}} 內，您可以從*可攜式儲存空間* 頁面存取可攜式儲存磁區，此頁面會顯示所有 PSV，也是可以連接、分離、交換和編輯磁區的位置。 
 
 ## 存取可攜式儲存空間頁面
 

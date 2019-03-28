@@ -15,5 +15,5 @@ lastupdated: "2017-09-13"
 
 ## 後續步驟
 如需如何使用可攜式儲存磁區的相關資訊，請參閱下列作業：
-* [存取可攜式儲存空間](../storage/access-portable-storage-screen.html)
-* [編輯可攜式儲存空間說明](../storage/edit-description-portable-storage-volume-psv.html)
+* [存取可攜式儲存空間](/docs/vsi/storage?topic=virtual-servers-accessing-portable-storage)
+* [編輯可攜式儲存空間說明](/docs/vsi/storage?topic=virtual-servers-editing-a-portable-storage-description)
