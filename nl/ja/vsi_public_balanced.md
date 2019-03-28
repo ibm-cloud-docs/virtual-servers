@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2017
-lastupdated: "2017-08-10"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,15 +16,17 @@ lastupdated: "2017-08-10"
 {:table: .aria-labeledby="caption"}
 
 # 平衡型
-平衡型フレーバー (Network Attached Storage を使用) では、リソースがオーバーサブスクライブされないため、より高いパフォーマンスが提供されます。 ネットワーク・パフォーマンスは、標準からプレミアムまで多岐にわたります。 
+{: #balanced}
 
-このオファリングは、以下のフレーバーで利用可能です。
+平衡型プロファイル (Network Attached Storage を使用) では、リソースがオーバーサブスクライブされないため、より高いパフォーマンスが提供されます。 ネットワーク・パフォーマンスは、標準からプレミアムまで多岐にわたります。
+
+このオファリングは、以下のプロファイルで利用可能です。
 
 <table>
-<CAPTION>表 3. 平衡型フレーバー (Network Attached Storage を使用)</CAPTION>
+<CAPTION>表 1. 平衡型プロファイル (Network Attached Storage を使用)</CAPTION>
 <THEAD>
 <TR>
-<th>フレーバー</th>
+<th>プロファイル</th>
 <th>vCPU</th>
 <th>RAM</th>
 <th>ストレージ・タイプ</th>
@@ -113,11 +114,11 @@ lastupdated: "2017-08-10"
 </TBODY>
 </table>
 
-**ストレージの注:** 
+**ストレージの注:**
 
 * SAN 1 次ブート・ディスク (25 GB または 100 GB) で、それぞれ 2 TB までの追加ディスクが使用可能 (合計 5 個のディスクが許可される)。
 * SAN ストレージを使用するパブリック仮想サーバーの料金には、仮想 CPU、メモリー、および最小 1 次ブート・ディスクが含まれます。 追加のディスクの価格は、選択するディスクのサイズと数量で決まります。  
 
-平衡型フレーバー (Network Attached Storage を使用) は、すべてのデータ・センターで使用可能です。
+平衡型プロファイル (Network Attached Storage を使用) は、すべてのデータ・センターで使用可能です。
 
 すべてのサポート対象オペレーティング・システム (RHEL、CentOS、Windows、Ubuntu、およびその他)、サポート対象データベース、およびソフトウェア・アドオンもこのオファリングで使用可能です。  

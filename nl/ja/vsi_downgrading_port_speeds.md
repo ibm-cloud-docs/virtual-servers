@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-12-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,6 +17,7 @@ lastupdated: "2017-12-12"
 {:table: .aria-labeledby="caption"}
 
 # ポート速度のダウングレード
+{: #downgrading-port-speeds}
 
 チケットをオープンせずに、ポート速度を一時的にダウングレードすることができます。 **「デバイス詳細」**ページの右上にある**「アクション」 **をクリックすることによって、**「ポート制御」**オプションにアクセスできます。 この画面から、必要な速度を選択したり、切断したりします。
 {:shortdesc}

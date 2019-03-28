@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-02-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,10 +17,12 @@ lastupdated: "2018-02-12"
 {:table: .aria-labeledby="caption"}
 
 # プロビジョニングの選択
+{: #provisioning-selections}
+
 パブリック仮想サーバーをプロビジョンする際は、以下の選択を行う必要があります。
 
 ## 場所
-デプロイ先の特定データ・センターを選択できます。 新規のデプロイメントの場合、{{site.data.keyword.Bluemix}} は、(可用性に基づいて) 最適なデータ・センターを自動的に識別し、適切なパブリック VLAN とプライベート VLAN を作成します。 既存環境に追加する場合は、自分の設計に必要な特定のデータ・センター、VLAN、およびサブネットを選択できます。 VLAN とサブネットについて詳しくは、[VLAN の概説 (Getting started with VLANs) ](/docs/infrastructure/vlans/getting-started.html)を参照してください。
+デプロイ先の特定データ・センターを選択できます。 新規のデプロイメントの場合、{{site.data.keyword.Bluemix}} は、(可用性に基づいて) 最適なデータ・センターを自動的に識別し、適切なパブリック VLAN とプライベート VLAN を作成します。 既存環境に追加する場合は、自分の設計に必要な特定のデータ・センター、VLAN、およびサブネットを選択できます。 VLAN とサブネットについて詳しくは、[VLAN の概説 (Getting started with VLANs) ](/docs/infrastructure/vlans?topic=vlans-getting-started-with-vlans)を参照してください。
 
 サブネットの選択はオプションであり、デバイスでサブネットの IP アドレスを使用する必要がある場合にのみ使用されます。 サブネットを選択する場合は、要求を実行するために十分な IP アドレスがあることを確認してください。 サブネット用に十分な IP アドレスがない場合は、オーダーが遅くなったりキャンセルされたりすることがあります。
 {:tip}
@@ -41,7 +42,7 @@ RAM は、非常に単純です。 このオファリングでは、ユーザー
 
 ## ストレージ
 
-仮想サーバーごとに SAN またはローカル・ストレージを選択できます。 必要に応じて、SAN またはローカル・ストレージを他のストレージ製品で補足することができます。 SAN およびローカル・ストレージは両方とも、ローカル・ディスクとして仮想サーバーに公開されます。 ディスクへの変更 (接続、切り離し、マイグレーション、その他) には、仮想サーバーのリブートが必要になります。 詳しくは、[ストレージのオプション](../vsi/storage/vsi_about_storage.html)を参照してください。
+仮想サーバーごとに SAN またはローカル・ストレージを選択できます。 必要に応じて、SAN またはローカル・ストレージを他のストレージ製品で補足することができます。 SAN およびローカル・ストレージは両方とも、ローカル・ディスクとして仮想サーバーに公開されます。 ディスクへの変更 (接続、切り離し、マイグレーション、その他) には、仮想サーバーのリブートが必要になります。 詳しくは、[ストレージのオプション](/docs/vsi?topic=virtual-servers-storage-options#storage-options)を参照してください。
 
 ## 時間単位および月単位の請求処理
 
@@ -61,35 +62,36 @@ RAM は、非常に単純です。 このオファリングでは、ユーザー
 
 ## セキュリティー
 
-デプロイメントの前に、セキュリティー・オプションを検討してください。 オーダー・プロセスの一部として、デバイス固有のハードウェア・ファイアウォールまたはソフトウェア・ファイアウォールを選択して、保護を提供することができます。 あるいは、専用のファイアウォール・アプライアンスを環境にデプロイし、保護された VLAN に仮想サーバーをデプロイすることもできます。 
+デプロイメントの前に、セキュリティー・オプションを検討してください。 オーダー・プロセスの一部として、デバイス固有のハードウェア・ファイアウォールまたはソフトウェア・ファイアウォールを選択して、保護を提供することができます。 あるいは、専用のファイアウォール・アプライアンスを環境にデプロイし、保護された VLAN に仮想サーバーをデプロイすることもできます。
 
-**注:** 同じインターフェース上の 2 つのファイアウォール・アプライアンスによって仮想サーバーを保護することはできません。 
+**注:** 同じインターフェース上の 2 つのファイアウォール・アプライアンスによって仮想サーバーを保護することはできません。
 
 また、セキュリティー・グループを使用して、仮想サーバー・インスタンスのパブリック・インターフェースおよびプライベート・インターフェース両方への着信トラフィックと発信トラフィックの処理方法を定義する一連の IP フィルター・ルールを制定することもできます。
 
 詳しくは、以下のセキュリティーに関するトピックのコレクションを参照してください。
 
-* [ハードウェア・ファイアウォール (共有)](../infrastructure/hardware-firewall-shared/getting-started.html)
-* [ハードウェア・ファイアウォール (専用)](../infrastructure/hardware-firewall-dedicated/getting-started.html)
-* [セキュリティー・グループの概説](/docs/infrastructure/security-groups/sg_index.html)
+* [ハードウェア・ファイアウォール (共有)](/docs/infrastructure/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started-with-hardware-firewall-shared)
+* [ハードウェア・ファイアウォール (専用)](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-getting-started-with-hardware-firewall-dedicated)
+* [セキュリティー・グループの概説](/docs/infrastructure/security-groups?topic=security-groups-getting-started-with-security-groups)
 
 ## モニタリング
+{: #about-monitoring}
 
 仮想サーバーのさまざまなモニタリング・オプションの中から選択できます。 オプションには、標準モニタリングが含まれます。標準モニタリングは、ping および伝送制御プロトコル (TCP) サービス応答を介してモニターし、障害が発生した際にはオプション応答があります。 さらに、Nimsoft ソフトウェア・エージェントを使用して、仮想サーバーおよびインストール済みソフトウェアをモニタリングするための、より大規模な機能セットを提供する拡張モニタリングを追加することもできます。
 
-詳しくは、[モニタリング (Monitoring) ](../infrastructure/SLmonitoring/monitoring_index.html)を参照してください。
+詳しくは、[モニタリング (Monitoring) ](/docs/infrastructure/SLmonitoring?topic=slmonitoring-monitoring)を参照してください。
 
 ## バックアップ
 
-オーダー・プロセス中、Evault バックアップを追加することができます。 さらに、既存の R1soft バックアップ環境用の R1soft ライセンスを購入したり、サード・パーティーのバックアップ・ソリューションを使用したりすることもできます。
+オーダー・プロセス中、{{site.data.keyword.backup_notm}}を追加することができます。さらに、既存の R1soft バックアップ環境用の R1soft ライセンスを購入したり、サード・パーティーのバックアップ・ソリューションを使用したりすることもできます。
 
-詳しくは、[デバイスの eVault への再登録 (Re-registering your device with eVault) ](../infrastructure/Backup/how-do-i-re-register-evault.html)を参照してください。
+詳しくは、[ボールトの再登録](/docs/infrastructure/Backup?topic=Backup-reregister#reregister)を参照してください。
 
 ## ポストプロビジョニング・スクリプト
 
 ポストプロビジョニング・スクリプトは、どの仮想サーバー・オーダーにも関連付けることができます。 これにより、他のプロビジョニング・タスクが完了した後に、お客様が開発したスクリプトが実行されます。 これらのスクリプトは一般的に、お客様固有の構成をサーバーに適用し、スケーリング戦略の自動化を支援するために使用されます。
 
-詳しくは、[カスタム・プロビジョニング・スクリプトの追加](vsi_add_script.html)を参照してください。
+詳しくは、[カスタム・プロビジョニング・スクリプトの追加](/docs/vsi?topic=virtual-servers-adding-post-script)を参照してください。
 
 ## 次のステップ
-パブリック仮想サーバーをプロビジョンする準備ができたら、[パブリック・インスタンスのプロビジョニング](vsi_provision_public.html)を参照してください。
+パブリック仮想サーバーをプロビジョンする準備ができたら、[パブリック・インスタンスのプロビジョニング](/docs/vsi?topic=virtual-servers-ordering-vs-public)を参照してください。

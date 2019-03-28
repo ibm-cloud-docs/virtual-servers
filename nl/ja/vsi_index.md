@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-10-05"
 
+keywords: virtual servers, provisioning process, IBM Cloud Virtual Servers
+
+subcollection: virtual-servers
 
 ---
 
@@ -18,10 +19,12 @@ lastupdated: "2018-10-05"
 {:table: .aria-labeledby="caption"}
 
 # 入門チュートリアル
+{: #getting-started-tutorial}
+
 {{site.data.keyword.BluVirtServers}} のデプロイは、ほんの数分で行うことができます。 仮想サーバーは、ユーザーが選択した仮想サーバー・イメージから、ワークロードに適した地理的地域にデプロイされます。
 {:shortdesc}
 
-仮想プライベート・クラウドで仮想サーバーを試してみてください。 詳しくは、[IBM Cloud Virtual Servers for VPC](../../docs/vsi-is/getting-started.html#gettingstartedvsigen) を参照してください。
+仮想プライベート・クラウドで仮想サーバーを試してみてください。 詳しくは、[IBM Cloud Virtual Servers for VPC](/docs/vsi-is?topic=virtual-servers-is-gettingstartedvsigen#gettingstartedvsigen) を参照してください。
 {:tip}
 
 仮想サーバーの作成時に、パブリック (マルチテナンシー) 環境か専用 (単一テナンシー) 環境を選択することができます。 その後、選択した環境に応じて、時間単位の仮想サーバー、月単位の仮想サーバー、または一時仮想サーバーを選択する必要もあります。 パブリック仮想サーバーの場合、さらに SAN ベースのストレージかローカル・ストレージのいずれかを使用するように選択します。
@@ -30,15 +33,15 @@ lastupdated: "2018-10-05"
 
 始めに、以下の前提条件を確認してください。
 
-  1. 仮想サーバーをオーダーするには、アップグレードされたアカウントを持っている必要があります。 このプロセスにはある程度時間がかかり、続行する前にユーザーの要求が承認される必要があります。 アカウントのアップグレードについて詳しくは、[IBM ID への切り替え](https://console.bluemix.net/docs/admin/softlayerlink.html)を参照してください。
+  1. 仮想サーバーをオーダーするには、アップグレードされたアカウントを持っている必要があります。 このプロセスにはある程度時間がかかり、続行する前にユーザーの要求が承認される必要があります。 アカウントのアップグレードについて詳しくは、[IBM ID への切り替え](/docs/account?topic=account-unifyingaccounts#unifyingaccounts)を参照してください。
   2. デプロイメント・オプションを確認および選択します。 詳しくは、以下のトピックを参照してください。
 
 |              デプロイメント・オプション                           |  説明                                        |
 | --------------------------------------------------------- | --------------------------------------------------- |
-|[パブリック仮想サーバー](../vsi/vsi_public.html)            | IBM が管理するマルチテナンシー仮想サーバー・デプロイメント|
-|[一時仮想サーバー](../vsi/vsi_about_transient.html)| 割引コストで提供され、柔軟なワークロードに最適な、IBM が管理するマルチテナンシー仮想サーバー・デプロイメント |
-|[予約済み仮想サーバー](../vsi/vsi_about_reserved.html)  | 契約条件の保証容量を含む、IBM が管理するマルチテナンシー仮想サーバー・デプロイメント |
-|[専用仮想サーバー](../vsi/vsi_dedicated.html)      | IBM が管理する単一テナンシー仮想サーバー・デプロイメント            |
+|[パブリック仮想サーバー](/docs/vsi?topic=virtual-servers-about-public-virtual-servers)            | IBM が管理するマルチテナンシー仮想サーバー・デプロイメント|
+|[一時仮想サーバー](/docs/vsi?topic=virtual-servers-about-vs-transient)| 割引コストで提供され、柔軟なワークロードに最適な、IBM が管理するマルチテナンシー仮想サーバー・デプロイメント |
+|[予約済み仮想サーバー](/docs/vsi?topic=virtual-servers-about-reserved-virtual-servers)  | 契約条件の保証容量を含む、IBM が管理するマルチテナンシー仮想サーバー・デプロイメント |
+|[専用仮想サーバー](/docs/vsi?topic=virtual-servers-dedicated-virtual-servers)      | IBM が管理する単一テナンシー仮想サーバー・デプロイメント            |
 {: caption="表 1. デプロイメント・オプション" caption-side="top"}   
 
 ## 仮想サーバーのプロビジョニング
@@ -47,12 +50,12 @@ lastupdated: "2018-10-05"
 
 |              プロビジョニングの説明                                         |  説明                                            |
 | -------------------------------------------------------------------------- | ------------------------------------------------------- |
-|[パブリック・インスタンスのプロビジョニング](../vsi/vsi_provision_public.html)                | さまざまなオプションによるパブリック・インスタンスのプロビジョン             |
-|[一時インスタンスのプロビジョニング](../vsi/vsi_provision_transient.html)                | さまざまなオプションによる一時インスタンスのプロビジョン            |
-|[予約済み容量およびインスタンスのプロビジョニング](../vsi/vsi_provision_reserved.html)            | さまざまなオプションによる予約済み容量およびインスタンスのプロビジョン |
-|[専用ホストおよび専用インスタンスのプロビジョニング](../vsi/vsi_provision_dedicated.html)| 専用ホスト上のプライベート・インスタンスまたは専用インスタンスのプロビジョン|
+|[パブリック・インスタンスのプロビジョニング](/docs/vsi?topic=virtual-servers-ordering-vs-public)                | さまざまなオプションによるパブリック・インスタンスのプロビジョン             |
+|[一時インスタンスのプロビジョニング](/docs/vsi?topic=virtual-servers-ordering-vs-transient)                | さまざまなオプションによる一時インスタンスのプロビジョン            |
+|[予約済み容量およびインスタンスのプロビジョニング](/docs/vsi?topic=virtual-servers-provisioning-reserved-capacity-and-instances)            | さまざまなオプションによる予約済み容量およびインスタンスのプロビジョン |
+|[専用ホストおよび専用インスタンスのプロビジョニング](/docs/vsi?topic=virtual-servers-ordering-vs-dedicated)| 専用ホスト上のプライベート・インスタンスまたは専用インスタンスのプロビジョン|
 {: caption="表 2. プロビジョニング情報" caption-side="top"}
 
 ## 次のステップ
 
-仮想サーバーがプロビジョンされて使用可能になったら、{{site.data.keyword.slportal_full}}または {{site.data.keyword.slapi_full}} を使用して仮想サーバーを構成できます。 詳しくは、[仮想サーバーの構成](../vsi/vsi_configuring.html)を参照してください。
+仮想サーバーがプロビジョンされて使用可能になったら、{{site.data.keyword.slportal_full}}または {{site.data.keyword.slapi_full}} を使用して仮想サーバーを構成できます。 詳しくは、[仮想サーバーの構成](/docs/vsi?topic=virtual-servers-configuring-virtual-servers)を参照してください。

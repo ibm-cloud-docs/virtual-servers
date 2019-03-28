@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-02-28"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,18 +16,18 @@ lastupdated: "2018-02-28"
 {:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
-# API の例: パブリック仮想サーバー・フレーバー
+# API の例: パブリック仮想サーバー・プロファイル
 {: #api-rest-public}
 
-以下の情報は、事前設定フレーバーを使用するパブリック仮想サーバー・インスタンスをプロビジョニングするための REST API の例を表示します。
+以下の情報は、事前設定プロファイルを使用するパブリック仮想サーバー・インスタンスをプロビジョニングするための REST API の例を表示します。
 {:shortdesc}
 
 より堅固な API の例については、以下のリソースを参照してください。
 * [Softlayer_Virtual_Guest API サンプル ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](https://softlayer.github.io/classes/softlayer_virtual_guest/)
-* [Getting a flavor list ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](https://softlayer.github.io/article/vsiflavors/)
+* [Getting a profile list ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](https://softlayer.github.io/article/vsiflavors/)
 
 ## Create Object を使用したパブリック・インスタンスのプロビジョニング
-*SoftLayer_Virtual_Guest/createObject* API サービスは、事前設定フレーバーを使用するパブリック仮想サーバー・インスタンスをプロビジョンするための最もシンプルな方法です。
+*SoftLayer_Virtual_Guest/createObject* API サービスは、事前設定プロファイルを使用するパブリック仮想サーバー・インスタンスをプロビジョンするための最もシンプルな方法です。
 
 一時インスタンスには適用されません。
 {:tip}
@@ -61,7 +60,7 @@ REST を使用してパブリック仮想サーバー・インスタンスをプ
 ```
 
 ## Place Order Object を使用したパブリック・インスタンスのプロビジョニング
-事前設定フレーバーを使用するパブリック仮想サーバーのプロビジョニングは、*SoftLayer_Product_Order/placeOrder* API サービスを使用して行われます。
+事前設定プロファイルを使用するパブリック仮想サーバーのプロビジョニングは、*SoftLayer_Product_Order/placeOrder* API サービスを使用して行われます。
 
 一時インスタンスには適用されません。
 {:tip}

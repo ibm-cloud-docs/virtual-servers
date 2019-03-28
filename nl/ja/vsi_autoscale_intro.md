@@ -1,13 +1,18 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-02-28"
+
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 自動スケーリングを使用したサーバーの管理
+{: #managing-servers-with-auto-scaling}
 
 自動スケーリングを使用すると、ビジネス・アプリケーションをサポートするために、仮想サーバーの追加や削除に関連付けられた手動スケーリング・プロセスを自動化できます。 自動スケーリングは API または {{site.data.keyword.slportal_full}} から管理でき、以下のことを可能にします。
 
@@ -17,4 +22,4 @@ lastupdated: "2018-02-28"
 * グループでのスケーリング・アクティビティーをほぼリアルタイムで状況更新する。
 * オプションで仮想 LAN (VLAN) とローカル・ロード・バランサーを統合する。
 
-詳しくは、[Auto-Scaling の概説 (Getting started with auto scaling) ](/docs/infrastructure/SLautoscale/index.html)を参照してください。
+詳しくは、[Auto-Scaling の概説 (Getting started with auto scaling) ](/docs/infrastructure/SLautoscale?topic=slautoscale-getting-started-with-auto-scaling)を参照してください。

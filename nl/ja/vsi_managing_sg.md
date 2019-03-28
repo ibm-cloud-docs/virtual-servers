@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,8 +17,9 @@ lastupdated: "2017-10-24"
 
 
 # セキュリティー・グループの管理
+{: #managing-security-groups}
 
 セキュリティー・グループは、{{site.data.keyword.slportal_full}}の「セキュリティー・グループ」ページまたは「デバイスの詳細」ページを使用して管理することができます。
 {:shortdesc}
 
-セキュリティー・グループの管理について詳しくは、[セキュリティー・グループの管理](/docs/infrastructure/security-groups/sg_managing.html)を参照してください。
+セキュリティー・グループの管理について詳しくは、[セキュリティー・グループの管理](/docs/infrastructure/security-groups?topic=security-groups-managing-sg)を参照してください。

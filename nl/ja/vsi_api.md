@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-10-25"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,7 +16,7 @@ lastupdated: "2017-10-25"
 {:table: .aria-labeledby="caption"}
 
 # API リファレンス
-{: #api-reference} 
+{: #api-reference}
 
 {{site.data.keyword.slapi_full}} は、開発者やシステム管理者が {{site.data.keyword.cloud}} のバックエンド・システムと直接対話できるようにする開発用インターフェースです。 {{site.data.keyword.slapi_short}} により、{{site.data.keyword.slportal_full}}の多くの機能が使用可能になります。つまり、通常、{{site.data.keyword.slportal}}での操作が可能であれば、API でも実行することができます。 API 内で {{site.data.keyword.BluSoftlayer_full}} 環境のすべての部分とプログラムで対話できるため、{{site.data.keyword.slapi_short}} によってタスクを自動化できます。 例えば、*SoftLayer_Virtual_Guest/createObject* API を使用して、仮想サーバー・インスタンスをデプロイすることができます。
 {:shortdesc}

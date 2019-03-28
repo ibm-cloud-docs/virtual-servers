@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2015, 2017
 lastupdated: "2017-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -16,7 +15,7 @@ lastupdated: "2017-10-24"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# カスタム・プロビジョニング・スクリプトの追加 
+# カスタム・プロビジョニング・スクリプトの追加
 {: #adding-post-script}
 
 カスタム・プロビジョニング・スクリプトにより、新しくプロビジョンされたデバイスで実行されるスクリプトへの URL を指定することができます。 {{site.data.keyword.slportal_full}}内でカスタム・プロビジョニング・スクリプトのポストと管理を行えます。

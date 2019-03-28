@@ -4,6 +4,8 @@ copyright:
   years: 2018
 lastupdated: "2018-08-01"
 
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -22,7 +24,7 @@ lastupdated: "2018-08-01"
 
 [{{site.data.keyword.slportal}} ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](https://control.softlayer.com) を使用してセカンダリー・サブネットを購入した後、追加の IP アドレスを仮想サーバー・インスタンスにバインドできます。 この方法で購入して管理する IP アドレスは、_2 次 IP アドレス_と呼ばれます。
 
-IP アドレスの取得に使用可能なオプションについて詳しくは、[サブネットおよび IP ](https://console.bluemix.net/docs/infrastructure/subnets/)を参照してください。
+IP アドレスの取得に使用可能なオプションについて詳しくは、[サブネットおよび IP ](/docs/infrastructure/subnets?topic=subnets-getting-started-with-subnets-and-ips#getting-started-with-subnets-and-ips)を参照してください。
 
 ## 2 次 IP アドレスのバインディング
 

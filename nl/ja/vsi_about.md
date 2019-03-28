@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-11-15"
 
+keywords: scalable virtual servers, virtual servers, key features
+
+subcollection: virtual-servers
 
 ---
 
@@ -17,6 +18,7 @@ lastupdated: "2017-11-15"
 {:table: .aria-labeledby="caption"}
 
 # Virtual Servers の概要
+{: #about-virtual-servers}
 
 {{site.data.keyword.BluVirtServers}} は、専用のコアおよびメモリー割り振りと共に購入される拡張が容易な仮想サーバーです。 数分で追加が可能で、イメージ・テンプレートのような機能も利用できるコンピュート・リソースをお探しであれば、これは優れた選択肢です。 ハイパーバイザーは {{site.data.keyword.BluSoftlayer_full}} によって完全管理され、お客様は {{site.data.keyword.slportal_full}}と {{site.data.keyword.slapi_short}} の両方を使用して構成タスクと管理タスクを実行できます。 仮想サーバーは物理サーバーと同じ VLAN にデプロイされ、相互運用性を維持しながら、仮想サーバーとベア・メタル・サーバーにワークロードを分散させることができます。 仮想サーバーはオーダー時に完全にカスタマイズ可能で、コンピュート・ニーズの増大に伴って拡大することができます。
 {:shortdesc}

@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-08-23"
 
+subcollection: virtual-servers
 
 ---
 
@@ -27,9 +26,9 @@ lastupdated: "2017-08-23"
 
 オーダー・プロセスの一部として、デバイス固有のハードウェア・ファイアウォールまたはソフトウェア・ファイアウォールを選択して保護を提供することができます。 あるいは、専用のファイアウォール・アプライアンスを環境にデプロイし、保護された VLAN に仮想サーバーをデプロイすることもできます。  
 
-**注:** 同じインターフェース上の 2 つのファイアウォール・アプライアンスによって仮想サーバーを保護することはできません。 
+**注:** 同じインターフェース上の 2 つのファイアウォール・アプライアンスによって仮想サーバーを保護することはできません。
 
 詳しくは、以下のセキュリティーに関するトピックのコレクションを参照してください。
 
-* [ハードウェア・ファイアウォール (共有)](../infrastructure/hardware-firewall-shared/getting-started.html)
-* [ハードウェア・ファイアウォール (専用)](../infrastructure/hardware-firewall-dedicated/getting-started.html)
+* [ハードウェア・ファイアウォール (共有)](/docs/infrastructure/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started-with-hardware-firewall-shared)
+* [ハードウェア・ファイアウォール (専用)](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-getting-started-with-hardware-firewall-dedicated)

@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-05-11"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,6 +17,7 @@ lastupdated: "2018-05-11"
 {:table: .aria-labeledby="caption"}
 
 # 一時仮想サーバーの再利用についての通知の構成
+{: #configuring-notifications-for-reclaims-of-transient-virtual-servers}
 
 一時仮想サーバーは、その性質として一時的であり、いつでも終了させることができますが、それが原因でデータが失われることがあります。 自動再利用通知は、消失データの削減に役立ちます。 プロビジョン時に、終了が近いという通知を実際の終了の **2 分前**に受け取るように、一時仮想サーバーを構成できます。 この通知により、ユーザーは、実行中のすべての処理を終了するように、または、必要なデータを一時仮想サーバーから転送するように、一時仮想サーバーにプログラマチックに警告することができます。
 
@@ -28,8 +28,9 @@ lastupdated: "2018-05-11"
 3. Web フック要求を確認します。
 
 ## 一時仮想サーバー・インスタンスのプロビジョニング
+{: #provision-transient-virtual-server}
 
-一時仮想サーバーは、[{{site.data.keyword.slportal_full}} ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](https://control.softlayer.com/){: new_window} または [SLDN API ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](http://sldn.softlayer.com){: new_window} を介してプロビジョンできます。 詳しくは、[一時インスタンスのプロビジョニング](/docs/vsi/vsi_provision_transient.html)を参照してください。
+一時仮想サーバーは、[{{site.data.keyword.slportal_full}} ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](https://control.softlayer.com/){: new_window} または [SLDN API ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](http://sldn.softlayer.com){: new_window} を介してプロビジョンできます。 詳しくは、[一時インスタンスのプロビジョニング](/docs/vsi?topic=virtual-servers-ordering-vs-transient)を参照してください。
 
 ## Web フックのセットアップ
 

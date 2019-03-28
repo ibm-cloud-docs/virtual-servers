@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-12-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -19,6 +18,7 @@ lastupdated: "2017-12-12"
 {:table: .aria-labeledby="caption"}
 
 # Linux でのポート速度のアップグレード
+{: #upgrading-port-speed-in-linux}
 
 (パブリック・ネットワークとプライベート・ネットワークの両方で) カスタマー・サーバーのデフォルトのポート速度は 10 Mbps です。 いずれかのポート速度を 100 Mbps または 1000 Mbps にアップグレードするには、営業部でチケットをオープンしてください。 営業担当が月額料金を承認するように依頼し、技術者がネットワークのポート速度制限を変更します。
 
