@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,7 +16,7 @@ lastupdated: "2017-10-24"
 {:table: .aria-labeledby="caption"}
 
 # Dedizierte Hosts und Instanzen verwalten
-{: #managing-virtual-servers}
+{: #managing-dedicated-hosts-instances}
 
 Auf der Seite 'Einheitendetails' können Sie Ihre dedizierten Hosts und Instanzen verwalten, Ihre Support-Tickets verfolgen und die Verfügbarkeit Ihres Hosts überwachen. Sie können Ihre dedizierten Hostinstanzen in der Einheitenliste auf zwei Arten aufrufen und anzeigen: als Teil des zugehörigen Hosts oder als einzelne Instanz.
 {:shortdesc}
@@ -50,18 +49,18 @@ Für die Nutzung wird ein Zeitdiagramm angezeigt, das die CPU-Auslastung nach Da
 
 Für die Bandbreite wird ebenfalls ein Zeitdiagramm dargestellt. In diesem Diagramm können Sie Parameter eingeben, um zu ermitteln, welcher Anteil der Bandbreite im Zeitverlauf genutzt wird. Auf der Registerkarte 'Speicher' wird der zusätzliche Block- oder Dateispeicher für die Instanz angezeigt.
 
-# Dedizierten Host abbrechen
-Sie können einen dedizierten Host jederzeit abbrechen. Bevor ein Host abgebrochen werden kann, müssen die dem Host zugeordneten dedizierten Instanzen entweder auf einen anderen dedizierten Host migriert oder ebenfalls abgebrochen werden. 
-## Dedizierten Host über die Einheitenliste abbrechen
+## Dedizierten Host abbrechen
+Sie können einen dedizierten Host jederzeit abbrechen. Bevor ein Host abgebrochen werden kann, müssen die dem Host zugeordneten dedizierten Instanzen entweder auf einen anderen dedizierten Host migriert oder ebenfalls abgebrochen werden.
+### Dedizierten Host über die Einheitenliste abbrechen
 Führen Sie die folgenden Schritte aus, um einen dedizierten Host über die Einheitenliste abzubrechen.
 
 1. Wählen Sie **Einheit** > **Einheitenliste** aus.
 2. Suchen Sie den dedizierten Host, den Sie abbrechen möchten, und klicken Sie auf das Dropdown-Menü **Aktionen**.
-3. Wählen Sie **Host abbrechen** aus. 
+3. Wählen Sie **Host abbrechen** aus.
 4. Ein Popup-Fenster mit mit einer Liste der dedizierten Instanzen, die dem Host zugeordnet sind, wird angezeigt. Sie müssen die Instanzen entweder migrieren oder abbrechen (falls nicht bereits geschehen), bevor Sie den Host abbrechen. Klicken Sie auf **OK**.
 
 Eine Nachricht weist darauf hin, dass der dedizierte Host abgebrochen wird. Ein Link für das Support-Ticket zum Abbrechen des Hosts wird angezeigt.
-## Dedizierten Host über die Seite 'Einheitendetails' abbrechen
+### Dedizierten Host über die Seite 'Einheitendetails' abbrechen
 Führen Sie die folgenden Schritte aus, um den dedizierten Host über die Seite 'Einheitendetails' abzubrechen.
 
 1. Wählen Sie **Einheit** > **Einheitenliste** aus.
@@ -73,11 +72,10 @@ Eine Nachricht weist darauf hin, dass der dedizierte Host abgebrochen wird. Ein 
 
 ### Dedizierte Instanz abbrechen
 
-Bevor Sie einen dedizierten host abbrechen können, müssen die dedizierten Instanzen abgebrochen werden, die dem Host zugeordnet sind. Dedizierte Instanzen können direkt über die Einheitenliste, die Seite 'Einheitendetails' des zugehörigen Hosts oder über die Seite 'Einheitendetails' der jeweiligen dedizierten Instanz abgebrochen werden. 
+Bevor Sie einen dedizierten host abbrechen können, müssen die dedizierten Instanzen abgebrochen werden, die dem Host zugeordnet sind. Dedizierte Instanzen können direkt über die Einheitenliste, die Seite 'Einheitendetails' des zugehörigen Hosts oder über die Seite 'Einheitendetails' der jeweiligen dedizierten Instanz abgebrochen werden.
 
 1. Wählen Sie die dedizierte Instanz aus, die Sie abbrechen möchten, und klicken Sie auf das Dropdown-Menü **Aktionen**.
 2. Wählen Sie **Einheit abbrechen** aus.
 3. Ein Warnhinweis wird angezeigt. Klicken Sie auf das Dropdown-Menü **Ursache**, wählen Sie den Grund für das Abbrechen der dedizierten Instanz aus und klicken Sie auf **Weiter**.
 
 Eine Nachricht weist darauf hin, dass die dedizierte Instanz abgebrochen wird. Ein Link für das Support-Ticket zum Abbrechen der dedizierten Instanz wird angezeigt.
-

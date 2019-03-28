@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-12-13"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,6 +17,7 @@ lastupdated: "2017-12-13"
 {:table: .aria-labeledby="caption"}
 
 # Portgeschwindigkeiten verwalten
+{: #managing-port-speeds}
 
 Das {{site.data.keyword.slportal_full}} ermöglicht Ihnen das Ändern der Vereinbarungsgeschwindigkeit Ihres Servers, ohne dass Sie ein Support-Ticket öffnen müssen.
 

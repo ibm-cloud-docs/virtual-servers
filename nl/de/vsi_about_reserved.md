@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-10-04"
 
+keywords: reserved virtual servers, cost savings, guaranteed capacity
+
+subcollection: virtual-servers
 
 ---
 
@@ -25,28 +26,28 @@ Reservierte virtuelle Serverinstanzen bieten viele Vorzüge, z. B.:
 
 * **Garantierte Kapazität**
 
-    Wenn Sie Kapazität reservieren, wird Ihnen diese Kapazität für die Laufzeit Ihres Vertrags garantiert. 
-    
+    Wenn Sie Kapazität reservieren, wird Ihnen diese Kapazität für die Laufzeit Ihres Vertrags garantiert.
+
 * **Globale Verfügbarkeit**
-    
+
     Das Angebot für reservierte virtuelle Server ist in Rechenzentren auf der ganzen Welt verfügbar.
 
 * **Zuverlässige Bereitstellung**
-   
+
    Innerhalb der reservierten Kapazitäten können Sie virtuelle Serverinstanzen nach Bedarf bereitstellen und freigeben.
 
 * **Kosteneinsparungen**
-    
+
     Die Auswahl einer 1- oder 3-jährigen Vertragslaufzeit ermöglicht konstante monatliche Zahlungen und Kosteneinsparungen gegenüber Rechnungsstellungszyklen für virtuelle Server auf Stunden- oder Monatsbasis.
 
-## Einschränkungen 
+## Einschränkungen
 
 Vor dem Reservieren von Kapazität und Bereitstellen virtueller Serverinstanzen sind die folgenden Einschränkungen zu beachten:
-  
+
   * Reservierte virtuelle Serverinstanzen können nur SAN-gestützten Speicher (Versionen 'Ausgewogen' (balanced), 'Hauptspeicher' (memory) und 'Datenverarbeitung' (compute)) verwenden.
   * Ein Upgrade oder Downgrade für Ihre Instanzen ist nicht möglich.
   * Reservierte Kapazität kann nicht storniert werden. Sie können jedoch virtuelle Serverinstanzen im Rahmen der betreffenden Kapazität freigeben.
-    
+
 ## Benachrichtigungen
 
 Einen Monat vor Ablauf des Vertrags über die reservierte virtuelle Serverkapazität erhalten Sie eine entsprechende E-Mail-Benachrichtigung.
@@ -55,5 +56,5 @@ Einen Monat vor Ablauf des Vertrags über die reservierte virtuelle Serverkapazi
 
 Nach Abwägung der verfügbaren Optionen und einer entsprechenden Entscheidung können Sie nun mit der Bereitstellung der reservierten Kapazität und Instanzen fortfahren. Lesen Sie zunächst die folgenden Informationen:
 
-   1. [Reservierte Kapazität und Instanzen bereitstellen](../vsi/vsi_provision_reserved.html)
-   2. [Häufig gestellte Fragen (FAQs): Reservierte Kapazität und Instanzen](../vsi/vsi_faqs_reserved.html)
+   1. [Reservierte Kapazität und Instanzen bereitstellen](/docs/vsi?topic=virtual-servers-provisioning-reserved-capacity-and-instances)
+   2. [Häufig gestellte Fragen (FAQs): Reservierte Kapazität und Instanzen](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances)

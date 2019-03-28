@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-05-17"
 
+subcollection: virtual-servers
 
 ---
 
@@ -15,18 +14,24 @@ lastupdated: "2018-05-17"
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
+{:faq: data-hd-content-type='faq'}
 
 
 # Häufig gestellte Fragen (FAQs): Server (allgemein)
+{: #faqs-servers-general-}
 
 ## Worin besteht der Unterschied zwischen "Aus Image starten" und "Aus Image laden"?
+{:faq}
+
 Die Funktionen "Aus Image starten" und "Aus Image laden" wenden vorhandene Imagevorlagen auf eine Einheit an, um das vorhandene Betriebssystem entweder zu ersetzen oder zu ergänzen. Mit dieser Maßnahme soll ein bestehendes Problem behoben werden. Der Hauptunterschied zwischen dem Start- und dem Ladeprozess ist der Typ des verwendeten Images. Stellen Sie vor dem Ausführen des Prozesses "Aus Image starten" oder "Aus Image laden" sicher, dass Sie alle Daten gesichert haben, die möglicherweise wiederhergestellt werden sollen.
 
    * "Aus Image starten" ist eine Methode zum Booten einer Einheit mithilfe eines ISO-Images, das von {{site.data.keyword.BluSoftlayer_full}} für die Systemwiederherstellung bereitgestellt wird, oder eines ISO-Images, das mit der Funktion *Image importieren* im {{site.data.keyword.slportal_full}} hochgeladen wurde. Das ISO-Image kann eine bereinigte Version des Betriebssystems der Einheit oder ein Wiederherstellungsdatenträger sein, die bzw. der verwendet werden kann, um ein Problem in der Einheit zu beheben.
    * "Aus Image laden" ist eine Methode zum erneuten Laden des Betriebssystems unter Verwendung einer Imagevorlage, die entweder aus einer Einheit erfasst oder mit der Funktion *Image importieren* im {{site.data.keyword.slportal}} hochgeladen wurde. Bei der Methode *Aus Image laden* wird eine VHD zum erneuten Laden verwendet. Dabei werden alle Daten auf der Einheit gelöscht und das vorhandene Betriebssystem sowie die Dateien werden durch eine (unbenutzte) Originalversion des ausgewählten Images ersetzt.
 
 ## Warum kann ich keine Verbindung zur KVM-Konsole herstellen?
-Wenn Sie keine Verbindung zur KVM-Konsole herstellen können, prüfen Sie die nachfolgenden Tipps zur Fehlerbehebung, die beim Beheben des Problems nützlich sein können. Falls weitere Probleme auftreten sollten, wenden Sie sich an den Support. Weitere Informationen zur Kontaktaufnahme mit dem Support finden Sie unter [Hilfe und Unterstützung anfordern](../vsi/vsi_ts_index.html).
+{:faq}
+
+Wenn Sie keine Verbindung zur KVM-Konsole herstellen können, prüfen Sie die nachfolgenden Tipps zur Fehlerbehebung, die beim Beheben des Problems nützlich sein können. Falls weitere Probleme auftreten sollten, wenden Sie sich an den Support. Weitere Informationen zur Kontaktaufnahme mit dem Support finden Sie unter [Hilfe und Unterstützung anfordern](/docs/vsi?topic=virtual-servers-gettinghelp).
 
    * Die KVM-Konsole ist ein Java-Applet. Vor dem Zugriff auf die Konsole muss Java installiert werden. Weitere Informationen zum Installieren von Java finden Sie unter [Java kostenlos herunterladen ![Symbol für extrernen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://www.java.com/en/download/){: new_window}.  
    * Wenn Java installiert ist, stellen Sie sicher, dass eine Verbindung über VPN hergestellt wurde. Falls keine Verbindung besteht und Sie versuchen, eine Verbindung zur KVM-Konsole herzustellen, weist eine Warnung darauf hin, dass eine VPN-Verbindung erforderlich ist.
@@ -41,19 +46,25 @@ Wenn Sie keine Verbindung zur KVM-Konsole herstellen können, prüfen Sie die na
 Wenn Sie alle oben angegebenen Prüfschritte durchgeführt haben und weiterhin keine Verbindung zur KVM-Konsole herstellen können, wenden Sie sich an den Support, um weitere Unterstützung bei der Fehlerbehebung zu erhalten. Wenn zwar eine Verbindung zur Konsole hergestellt wurde, jedoch Probleme beim Verbinden mit der Einheit aufgetreten sind, stellen Sie sicher, dass gültige Berechtigungsnachweise für den Zugriff auf die Einheit verwendet werden. Wenden Sie sich gegebenenfalls an den Kontoadministrator, um Berechtigungsnachweise zu überprüfen.
 
 ## Ich habe mein Kennwort für den Server nicht mehr. Wie kann ich das Kennwort wiederherstellen?
+{:faq}
+
 Wenn das Root- oder Administratorkennwort für Ihren Server plötzlich nicht mehr funktioniert, überprüfen Sie die folgenden Punkte. Starten Sie, falls erforderlich, einen Rescue-Kernel wie in den Anweisungen angegeben und setzen Sie Ihr Kennwort zurück.
 
    * Haben Sie das Kennwort kopiert und eingefügt? Falls nicht, versuchen Sie es. Fügen Sie das Kennwort probeweise in einem Texteditor ein, um sicherzustellen, dass keine unbeabsichtigten Leerzeichen mit kopiert werden.
    * Wenn der Server über eine Komponente cPanel verfügt: Besteht die Möglichkeit, dass Ihre IP-Adresse nach fehlgeschlagenen Anmeldeversuchen durch cPHulk gesperrt wurde? Wenn dies zutrifft, können Sie über KVM oder IPMI auf den Server zugreifen und Ihre IP-Adresse in die Whitelist eintragen, indem Sie cPHulk mit "/scripts/cphulkdwhitelist", gefolgt von Ihrer IP-Adresse eingeben.
    * Hat jemand in letzter Zeit versucht, das Kennwort für den Server durch Ändern des Kennworts im {{site.data.keyword.slportal}} zu ändern? Beim Ändern des Kennworts im {{site.data.keyword.slportal}} wird nur das für Sie angezeigte Kennwort geändert. Dies hat keine Auswirkung auf das vom Server verwendete Kennwort. Wenn dies der Fall ist, verständigen Sie den Support. Der Support kann in der Regel das ursprüngliche gültige Kennwort wiederherstellen.
-   * Möglicherweise müssen Sie über einen Bootvorgang zum Wiederherstellungsmodus Ihres Betriebssystems wechseln, um das Kennwort zurücksetzen zu können. Weitere Informationen finden Sie unter [Rescue-Kernel starten](/docs/vsi/vsi_launch_rescue.html).
+   * Möglicherweise müssen Sie über einen Bootvorgang zum Wiederherstellungsmodus Ihres Betriebssystems wechseln, um das Kennwort zurücksetzen zu können. Weitere Informationen finden Sie unter [Rescue-Kernel starten](/docs/vsi?topic=virtual-servers-launching-rescue).
 
 Wenn die angegebenen Punkte überprüft wurden und weiterhin kein Serverzugriff mit dem Kennwort möglich ist, öffnen Sie ein Support-Ticket und fordern Sie das Zurücksetzen des Kennworts an. Der Support muss einen Neustart des Servers durchführen, um das Kennwort zurückzusetzen. Halten Sie sich bereit, den Neustart zu bestätigen und/oder benennen Sie einen Wartungszeitrahmen, in dem der Neustart erfolgen kann. Das Zurücksetzen des Kennworts dauert in den meisten Fällen nicht länger als 15 Minuten. Um ein Ticket zu öffnen, navigieren Sie im {{site.data.keyword.slportal}} zu **Support > Ticket hinzufügen** und verwenden Sie den Eintrag *"Neustarts und Konsolenzugriff"*.
 
 ## Werden LVM-Partitionen als gültiges Dateisystem unterstützt?
+{:faq}
+
 LVM (Logical Volume Management) ermöglicht die logische Verwaltung von Dateisystemen in Linux. In der {{site.data.keyword.BluSoftlayer}}-Umgebung wird LVM nicht als bootfähiges Partitionierungsschema unterstützt. Virtuelle Serverinstanzen können nicht mit LVM bestellt werden und das Bereitstellen von Images, die LVM als bootfähige Partition verwenden, schlägt fehl. Wenn Sie LVM auf der Bootpartition benötigen, finden Sie im Bare-Metal-Angebot Unterstützung für LVM beim Booten unter bestimmten Betriebssystemen. Bei entsprechender Betriebssystemunterstützung und -konfiguration können sekundäre VSI-Platten für LVM-Partitionen verwendet werden. Dabei ist jedoch zu beachten, dass LVM kein unterstütztes Dateisystem für flexible Images oder Imagevorlagen ist. Wenn Sie weitere Fragen haben, öffnen Sie ein Support-Ticket, um Unterstützung anzufordern.
 
 ## Vorkonfigurierte 161.26.0.0/16-Routen auf Kunden-Hosts
+{:faq}
+
 {{site.data.keyword.BluSoftlayer}} aktiviert auf allen neu bereitgestellten Servern eine neue Route, um zukünftige Produkte zu unterstützen.
    * Die Route verweist auf eine beliebige Adresse für das private Back-End-Netz im Bereich 161.26.0.0/16 (161.26.0.0 255.255.0.0 | 161.26.0.0 -161.26.255.255).
    * Dieser IP-Block wird der {{site.data.keyword.BluSoftlayer_notm}} von IANA zugewiesen und nicht im öffentlichen Internet zugänglich gemacht.
@@ -61,6 +72,7 @@ LVM (Logical Volume Management) ermöglicht die logische Verwaltung von Dateisys
    * ACLs auf Kundenservern, virtuellen Servern und Vyatta-Gateways müssen aktualisiert werden, damit Kunden-Hosts Infrastrukturservices verwenden können, die mit IP-Adressen aus diesem Bereich konfiguriert sind.
 
 ## Vorgehensweise beim Hinzufügen der neuen Routenwahl für verschiedene Betriebssysteme
+{:faq}
 
    <table>
    <CAPTION>Tabelle 1. Routen für Betriebssysteme hinzufügen</CAPTION>
@@ -146,14 +158,16 @@ LVM (Logical Volume Management) ermöglicht die logische Verwaltung von Dateisys
    </tr>
    </TBODY>
    </table>
-   
+
    <a name="top"></a>
 
 ## Kann das Überwachungssystem einen automatischen Warmstart auslösen UND einen Support-Techniker verständigen, wenn der Server nicht mehr reagiert?
+{:faq}
 
 Ja, wenn Sie den Service **Automatischer Warmstart nach Überwachungsfehler** bestellt haben, können Sie das Überwachungssystem so einrichten, dass automatisch ein Warmstart des Servers eingeleitet und ein Ticket für einen Support-Techniker geöffnet wird, wenn ein Überwachungsalert ausgegeben wird. Der zusätzliche Service **NOC-Überwachung** bietet die Möglichkeit, dass Sie persönlich benachrichtigt werden, wenn ein Überwachungsproblem auftritt. Weitere Informationen zu diesen beiden Angeboten enthält die Seite [Serverüberwachung ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](http://www.softlayer.com/services/monitoring/){:new_window}.
 
 ## Was ist ein cvsup-Spiegel?
+{:faq}
 
 Sie können Aktualisierungen für einen lokalen cvsup-Spiegel durchführen, der für Sie ausgeführt wurde. Stellen Sie sicher, dass Ihre Sup-Datei (supfile) den folgenden Eintrag enthält:
 
@@ -170,6 +184,3 @@ MASTER_SITE_OVERRIDE?="http://mirrors.service.softlayer.com/freebsd/distfiles/${
 {:screen }
 
 Wenn die Datei dort nicht gefunden wird, wird die Makefile des einzelnen Ports verwendet und mit dem nächsten Spiegel fortgefahren.
-
-
-

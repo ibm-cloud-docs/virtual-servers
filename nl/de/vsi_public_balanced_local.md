@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2017
-lastupdated: "2017-11-08"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,20 +16,22 @@ lastupdated: "2017-11-08"
 {:table: .aria-labeledby="caption"}
 
 # Ausgeglichener lokaler Speicher
-Die Versionen (Flavors) mit ausgeglichenem lokalem Speicher sind in erster Linie für große Datenbankcluster geeignet, für die eine E/A-Leistung mit hohen oder niedrigen Latenzzeiten erforderlich ist. Dieses Angebot bietet eine höhere Leistung, da die Ressourcen nicht übermäßig beansprucht werden. Die Netzleistung liegt zwischen dem Standard- und dem Premiumbereich.
+{: #balanced-local-storage}
 
-Das Angebot ist in verschiedenen Versionen und Rechenzentren mit den folgenden Optionen für lokalen Speicher verfügbar:
+Die Profile mit ausgeglichenem lokalem Speicher sind in erster Linie für große Datenbankcluster geeignet, für die eine E/A-Leistung mit hohen oder niedrigen Latenzzeiten erforderlich ist. Dieses Angebot bietet eine höhere Leistung, da die Ressourcen nicht übermäßig beansprucht werden. Die Netzleistung liegt zwischen dem Standard- und dem Premiumbereich.
 
-* [Lokales HDD](vsi_public_balanced_local.html#HDD)
-* [Lokales SSD](vsi_public_balanced_local.html#SSD)
+Das Angebot ist in verschiedenen Profilen und Rechenzentren mit den folgenden Optionen für lokalen Speicher verfügbar:
+
+* [Lokales HDD](/docs/vsi?topic=virtual-servers-HDD#HDD)
+* [Lokales SSD](/docs/vsi?topic=virtual-servers-SSD#SSD)
 
 ## Lokales HDD {: #HDD}
- 
+
 <table>
-<CAPTION>Tabelle 1. Versionen (Flavors) mit ausgeglichenem lokalem Speicher und Verwendung von lokalem HDD</CAPTION>
+<CAPTION>Tabelle 1. Profile mit ausgeglichenem lokalem Speicher und Verwendung von lokalem HDD</CAPTION>
 <THEAD>
 <TR>
-<th>Version</th>
+<th>Profil</th>
 <th>vCPU</th>
 <th>RAM</th>
 <th>Sekundäre Platten<sup>(*)</sup></th>
@@ -126,9 +127,9 @@ Das Angebot ist in verschiedenen Versionen und Rechenzentren mit den folgenden O
 </table>
 
 **Hinweise zum Speicher:**
-* <sup>(*)</sup>Ausgeglichene lokale Versionen (Flavors) beinhalten automatisch einen Bootdatenträger mit 100 GB für die lokale Speicherung. Anschließend können Sie einen zweiten Datenträger auswählen (Optionen finden Sie in der Tabelle oben). Alle weiteren lokalen Datenträger sind optional. Wenn Sie mehr als 500 GB benötigen, sind zwei zusätzliche Datenträger erforderlich (Beispiel: für 8 Cores sind 2 x 250 GB lokaler Speicher erforderlich).
-*	Der maximale lokale Speicher wird durch die Cores begrenzt. 
-*	Ausgeglichener lokaler Speicher ist global verfügbar. Der Typ des Speichers (Lokales SSD oder Lokales HDD) ist jedoch vom Standort des Rechenzentrums abhängig. 
+* <sup>(*)</sup>Ausgeglichene lokale Profile beinhalten automatisch einen Bootdatenträger mit 100 GB für die lokale Speicherung. Anschließend können Sie einen zweiten Datenträger auswählen (Optionen finden Sie in der Tabelle oben). Alle weiteren lokalen Datenträger sind optional. Wenn Sie mehr als 500 GB benötigen, sind zwei zusätzliche Datenträger erforderlich (Beispiel: für 8 Cores sind 2 x 250 GB lokaler Speicher erforderlich).
+*	Der maximale lokale Speicher wird durch die Cores begrenzt.
+*	Ausgeglichener lokaler Speicher ist global verfügbar. Der Typ des Speichers (Lokales SSD oder Lokales HDD) ist jedoch vom Standort des Rechenzentrums abhängig.
 *	Primäre und sekundäre Datenträger können nicht abgehängt werden.
 
 Die folgenden Rechenzentren unterstützen virtuelle Server mit ausgeglichenem lokalem HDD-Speicher:
@@ -136,7 +137,7 @@ Die folgenden Rechenzentren unterstützen virtuelle Server mit ausgeglichenem lo
 |Rechenzentren (Lokales HDD) |        |
 |------------ |------  |  
 |AMS01        |SEA01   |
-|DAL01        |SJC01   | 
+|DAL01        |SJC01   |
 |DAL05        |SNG01   |
 |DAL06        |WDC01   |
 |HKG02        |        |        
@@ -147,10 +148,10 @@ Alle unterstützten Betriebssysteme (z. B. RHEL, CentOS, Windows, Ubuntu und and
 
 ## Lokales SSD {: #SSD}
 <table>
-<CAPTION>Tabelle 1. Versionen (Flavors) mit ausgeglichenem lokalem Speicher und Verwendung von lokalem SSD</CAPTION>
+<CAPTION>Tabelle 1. Profile mit ausgeglichenem lokalem Speicher und Verwendung von lokalem SSD</CAPTION>
 <THEAD>
 <TR>
-<th>Version</th>
+<th>Profil</th>
 <th>vCPU</th>
 <th>RAM</th>
 <th>Sekundäre Platten<sup>(*)</sup></th>
@@ -246,24 +247,24 @@ Alle unterstützten Betriebssysteme (z. B. RHEL, CentOS, Windows, Ubuntu und and
 </table>
 
 **Hinweise zum Speicher:**
-* <sup>(*)</sup>Ausgeglichene lokale Versionen (Flavors) beinhalten automatisch einen Bootdatenträger mit 100 GB für die lokale Speicherung. Anschließend können Sie einen zweiten Datenträger auswählen (Optionen finden Sie in der Tabelle oben). Alle weiteren lokalen Datenträger sind optional. Wenn Sie mehr als 500 GB benötigen, sind zwei zusätzliche Datenträger erforderlich (Beispiel: für 8 Cores sind 2 x 250 GB lokaler Speicher erforderlich).
-*	Der maximale lokale Speicher wird durch die Cores begrenzt. 
-*	Ausgeglichener lokaler Speicher ist global verfügbar. Der Typ des Speichers (Lokales SSD oder Lokales HDD) ist jedoch vom Standort des Rechenzentrums abhängig. 
+* <sup>(*)</sup>Ausgeglichene lokale Profile beinhalten automatisch einen Bootdatenträger mit 100 GB für die lokale Speicherung. Anschließend können Sie einen zweiten Datenträger auswählen (Optionen finden Sie in der Tabelle oben). Alle weiteren lokalen Datenträger sind optional. Wenn Sie mehr als 500 GB benötigen, sind zwei zusätzliche Datenträger erforderlich (Beispiel: für 8 Cores sind 2 x 250 GB lokaler Speicher erforderlich).
+*	Der maximale lokale Speicher wird durch die Cores begrenzt.
+*	Ausgeglichener lokaler Speicher ist global verfügbar. Der Typ des Speichers (Lokales SSD oder Lokales HDD) ist jedoch vom Standort des Rechenzentrums abhängig.
 *	Primäre und sekundäre Datenträger können nicht abgehängt werden.
 
 Die folgenden Rechenzentren unterstützen virtuelle Server mit ausgeglichenem lokalem SSD-Speicher:
 
 |Rechenzentren (Lokales SSD) |        |         |
-|------- |------  |------ | 
+|------- |------  |------ |
 |AMS03   |LON06   |SJC03  |
-|CHE01   |MEL01   |SJC04  | 
+|CHE01   |MEL01   |SJC04  |
 |DAL09   |MEX01   |SYD01  |
 |DAL10   |MIL01   |SYD04  |
 |DAL12   |MON01   |TOK02  |       
 |DAL13   |OSL01   |TOR01  |
 |FRA02   |PAR01   |WDC04  |
 |LON02   |SAO01   |WDC06  |
-|LON04   |SEO01   | WDC07 | 
+|LON04   |SEO01   | WDC07 |
 {: caption="Tabelle 2. Unterstützte Rechenzentren (Lokales SSD)" caption-side="top"}
 
 Alle unterstützten Betriebssysteme (z. B. RHEL, CentOS, Windows, Ubuntu und andere), Datenbanken und Software-Add-ons sind auch für dieses Angebot verfügbar.  

@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2014, 2018
 lastupdated: "2018-08-17"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,8 +17,9 @@ lastupdated: "2018-08-17"
 
 
 # Digitale Transcodierung
+{: #digital-transcoding}
 
 Der Service {{site.data.keyword.DigitalTranscodinglong}} ermöglicht Ihnen die Transcodierung, oder Konvertierung, einer Mediendatei von einem Format in ein anderes. Eine Transcodierung erfolgt normalerweise, wenn die verfügbare Mediendatei nicht dem gewünschten Format entspricht oder nicht mit der Unterstützung kompatibel ist.
 {:shortdesc}
 
-Weitere Informationen zum Service {{site.data.keyword.DigitalTranscodingshort}} finden Sie unter [Digital Transcoding - Einführung](/docs/infrastructure/digital-transcoding/tc_index.html).
+Weitere Informationen zum Service {{site.data.keyword.DigitalTranscodingshort}} finden Sie unter [Digital Transcoding - Einführung](/docs/infrastructure/digital-transcoding?topic=digital-transcoding-getting-started-with-digital-transcoding#getting-started-with-digital-transcoding).

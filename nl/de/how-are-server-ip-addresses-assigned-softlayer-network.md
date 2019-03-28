@@ -4,6 +4,8 @@ copyright:
   years: 2018
 lastupdated: "2018-08-01"
 
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -22,7 +24,7 @@ In {{site.data.keyword.cloud}} werden virtuelle Serverinstanzen mit einer IPv4-A
 
 Zusätzliche IP-Adressen können nach dem Erwerb sekundärer Teilnetze über das [{{site.data.keyword.slportal}} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com) an virtuelle Serverinstanzen gebunden werden. Auf diese Weise erworbene und von Ihnen verwaltete IP-Adressen werden als _sekundäre IP-Adressen_ bezeichnet.
 
-Weitere Informationen zu den für den Bezug von IP-Adressen verfügbaren Optionen finden Sie im Abschnitt [Teilnetze und IP-Adressen](https://console.bluemix.net/docs/infrastructure/subnets/).
+Weitere Informationen zu den für den Bezug von IP-Adressen verfügbaren Optionen finden Sie im Abschnitt [Teilnetze und IP-Adressen](/docs/infrastructure/subnets?topic=subnets-getting-started-with-subnets-and-ips#getting-started-with-subnets-and-ips).
 
 ## Sekundäre IP-Adressen binden
 

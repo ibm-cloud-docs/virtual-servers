@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,8 +17,9 @@ lastupdated: "2017-10-24"
 
 
 # Sicherheitsgruppen verwalten
+{: #managing-security-groups}
 
 Sicherheitsgruppen können über die Seite 'Sicherheitsgruppen' oder über die Seite 'Einheitendetails' im {{site.data.keyword.slportal_full}} verwaltet werden.
 {:shortdesc}
 
-Weitere Informationen zum Verwalten von Sicherheitsgruppen finden Sie unter [Sicherheitsgruppen verwalten](/docs/infrastructure/security-groups/sg_managing.html).
+Weitere Informationen zum Verwalten von Sicherheitsgruppen finden Sie unter [Sicherheitsgruppen verwalten](/docs/infrastructure/security-groups?topic=security-groups-managing-sg).

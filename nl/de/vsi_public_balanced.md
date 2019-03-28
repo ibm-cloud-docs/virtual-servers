@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2017
-lastupdated: "2017-08-10"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,15 +16,17 @@ lastupdated: "2017-08-10"
 {:table: .aria-labeledby="caption"}
 
 # Ausgeglichen
-Die ausgeglichenen Versionen (Flavors) (mit NAS) bieten eine höhere Leistung, da die Ressourcen nicht übermäßig beansprucht werden. Die Netzleistung liegt zwischen dem Standard- und dem Premiumbereich. 
+{: #balanced}
 
-Für dieses Angebot stehen die folgenden Versionen (Flavors) zur Verfügung:
+Die ausgeglichenen Profile (mit NAS) bieten eine höhere Leistung, da die Ressourcen nicht übermäßig beansprucht werden. Die Netzleistung liegt zwischen dem Standard- und dem Premiumbereich.
+
+Für dieses Angebot stehen die folgenden Profile zur Verfügung:
 
 <table>
-<CAPTION>Tabelle 3. Ausgeglichene Versionen (Flavors) mit NAS</CAPTION>
+<CAPTION>Tabelle 1. Ausgeglichene Profile mit NAS</CAPTION>
 <THEAD>
 <TR>
-<th>Version</th>
+<th>Profil</th>
 <th>vCPU</th>
 <th>RAM</th>
 <th>Speichertyp</th>
@@ -113,11 +114,11 @@ Für dieses Angebot stehen die folgenden Versionen (Flavors) zur Verfügung:
 </TBODY>
 </table>
 
-**Hinweise zum Speicher:** 
+**Hinweise zum Speicher:**
 
 * Primärer SAN-Bootdatenträger (25 oder 100 GB) mit verfügbaren zusätzlichen Datenträgern mit bis zu jeweils 2 TB (5 Datenträger insgesamt zulässig).
 * Die Preise für öffentliche virtuelle Server mit SAN-Speicher beinhalten virtuelle CPU, Hauptspeicher und einen primären Bootdatenträger in Mindestgröße. Die Preise für zusätzliche Datenträger sind von der ausgewählten Größe und Menge der Datenträger abhängig.  
 
-Die ausgeglichenen Versionen (Flavors) mit NAS sind in allen Rechenzentren verfügbar.
+Die ausgeglichenen Profile mit NAS sind in allen Rechenzentren verfügbar.
 
 Alle unterstützten Betriebssysteme (z. B. RHEL, CentOS, Windows, Ubuntu und andere), Datenbanken und Software-Add-ons sind auch für dieses Angebot verfügbar.  

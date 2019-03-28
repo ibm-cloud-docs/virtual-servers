@@ -1,13 +1,18 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-02-28"
+
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Server mit automatischer Skalierung verwalten
+{: #managing-servers-with-auto-scaling}
 
 Mithilfe der automatischen Skalierung haben Sie die Möglichkeit, den manuellen Skalierungsprozess zu automatisieren, der mit dem Hinzufügen oder Entfernen virtueller Server zur Unterstützung Ihrer Geschäftsanwendungen verbunden ist. Die automatische Skalierung kann über die API oder das {{site.data.keyword.slportal_full}} verwaltet werden und ermöglicht Folgendes:
 
@@ -17,4 +22,4 @@ Mithilfe der automatischen Skalierung haben Sie die Möglichkeit, den manuellen 
 * Echtzeitnahe Statusaktualisierungen für Skalierungsaktivitäten in Gruppen.
 * Optionale Integration von virtuellem LAN (VLAN) und lokalen Lastausgleichsfunktionen.
 
-Weitere Informationen finden Sie unter [Automatische Skalierung - Einführung](/docs/infrastructure/SLautoscale/index.html).
+Weitere Informationen finden Sie unter [Automatische Skalierung - Einführung](/docs/infrastructure/SLautoscale?topic=slautoscale-getting-started-with-auto-scaling).

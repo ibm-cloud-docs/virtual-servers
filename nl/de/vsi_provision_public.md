@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-10-11"
 
+subcollection: virtual-servers
 
 ---
 
@@ -27,11 +26,11 @@ Sie haben zwei Möglichkeiten, um Ihre öffentlichen virtuellen Serverinstanzen 
 
   1. Stellen Sie sicher, dass Sie über gültige Berechtigungsnachweise für den {{site.data.keyword.Bluemix_notm}}-Katalog oder für das {{site.data.keyword.slportal}} verfügen.
 
-     **Hinweis:** Sie müssen über ein aktualisiertes Konto für den {{site.data.keyword.Bluemix_notm}}-Katalog verfügen, um virtuelle Server zu bestellen. Weitere Informationen zum Aktualisieren Ihres Kontos finden Sie unter [Zur IBMid wechseln](https://console.bluemix.net/docs/admin/softlayerlink.html).
+     **Hinweis:** Sie müssen über ein aktualisiertes Konto für den {{site.data.keyword.Bluemix_notm}}-Katalog verfügen, um virtuelle Server zu bestellen. Weitere Informationen zum Aktualisieren Ihres Kontos finden Sie unter [Zur IBMid wechseln](/docs/account?topic=account-unifyingaccounts#unifyingaccounts).
 
-  2. Machen Sie sich mit den Bereitstellungsoptionen vertraut, die Ihnen zur Verfügung stehen (falls dies noch nicht geschehen ist). Weitere Informationen finden Sie unter [Bereitstellungsoptionen: Öffentlicher virtueller Server](../vsi/vsi_public.html).
+  2. Machen Sie sich mit den Bereitstellungsoptionen vertraut, die Ihnen zur Verfügung stehen (falls dies noch nicht geschehen ist). Weitere Informationen finden Sie unter [Bereitstellungsoptionen: Öffentlicher virtueller Server](/docs/vsi?topic=virtual-servers-about-public-virtual-servers).
 
-  3. Überprüfen Sie die Überlegungen zur Kapazität der virtuellen Serverinstanz.  Weitere Informationen finden Sie unter [Überlegungen zur Kapazität](ts_capacity_bp.html).
+  3. Überprüfen Sie die Überlegungen zur Kapazität der virtuellen Serverinstanz.  Weitere Informationen finden Sie unter [Überlegungen zur Kapazität](/docs/vsi?topic=virtual-servers-capacity-considerations).
 
 ## Öffentliche virtuelle Serverinstanz bereitstellen
 {: #ordering-public-instance}
@@ -41,19 +40,19 @@ Wenn die Voraussetzungen erfüllt sind, können Sie mit dem Bereitstellen einer 
 ### Öffentliche virtuelle Serverinstanz über den IBM Cloud-Katalog bereitstellen
 Führen Sie die folgenden Schritte aus, um eine öffentliche virtuelle Serverinstanz über den {{site.data.keyword.cloud_notm}}-Katalog bereitzustellen:
 
-  1. Melden Sie sich beim [{{site.data.keyword.cloud_notm}}-Katalog ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://console.bluemix.net/catalog/){: new_window} mit Ihren eindeutigen Berechtigungsnachweisen an. 
+  1. Melden Sie sich beim [{{site.data.keyword.cloud_notm}}-Katalog ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://console.bluemix.net/catalog/){: new_window} mit Ihren eindeutigen Berechtigungsnachweisen an.
   2. Klicken Sie im Bereich für die Datenverarbeitungsinfrastruktur**** auf die Kachel **Virtuelle Server**.
   3. Wählen Sie die Option **Öffentlicher virtueller Server** aus.
   4. Klicken Sie auf **Erstellen**.
-  5. Geben Sie alle relevanten Informationen für die virtuelle Serverinstanz an. 
-  6. Überprüfen Sie die Bestellübersicht und klicken Sie auf das Kontrollkästchen für Servicevereinbarungen anderer Anbieter****. 
+  5. Geben Sie alle relevanten Informationen für die virtuelle Serverinstanz an.
+  6. Überprüfen Sie die Bestellübersicht und klicken Sie auf das Kontrollkästchen für Servicevereinbarungen anderer Anbieter****.
   7. Klicken Sie auf **Bereitstellen**.
-  
+
 ### Öffentliche virtuelle Serverinstanz über das Kundenportal bereitstellen
 Führen Sie die folgenden Schritte aus, um Ihre öffentliche virtuelle Serverinstanz über das {{site.data.keyword.slportal}} bereitzustellen:
 
   1. Melden Sie sich beim [{{site.data.keyword.slportal}} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window} mit Ihren eindeutigen Berechtigungsnachweisen an.
-  2. Suchen Sie den Bereich **Bestellung** und klicken Sie auf **Einheiten**. 
+  2. Suchen Sie den Bereich **Bestellung** und klicken Sie auf **Einheiten**.
   3. Klicken Sie auf der Seite 'Einheiten' auf **Stündliches SAN**, **Stündlich lokal**, **Monatlich** oder **Transient** für eines der Angebote für virtuelle Server.
   4. Geben Sie auf der Seite *Cloud-Server konfigurieren* alle relevanten Informationan an.
   5. Klicken Sie auf die Schaltfläche **Zur Bestellung hinzufügen**, um fortzufahren.
@@ -64,4 +63,4 @@ Führen Sie die folgenden Schritte aus, um Ihre öffentliche virtuelle Serverins
  Mehrere E-Mails werden an Ihren Administrator gesendet: die Auftragsbestätigung für die Bereitstellungsbestellung, die Genehmigung und die Bearbeitungsnachricht für die Bereitstellung sowie die Fertigstellungsnachricht für die Bereitstellung. Über einen Link in der Fertigstellungsnachricht gelangen Sie direkt zu der zugehörigen Seite *Einheitendetails*, nachdem Sie sich bei {{site.data.keyword.Bluemix_notm}} angemeldet haben. Sie können sich auch direkt beim {{site.data.keyword.slportal}} anmelden.
 
 ## Nächste Schritte
-Nachdem Ihr virtueller Server bereitgestellt ist, können Sie ihn verwalten. Weitere Informationen finden Sie unter [Virtuellen Server verwalten](../vsi/vsi_managing.html).
+Nachdem Ihr virtueller Server bereitgestellt ist, können Sie ihn verwalten. Weitere Informationen finden Sie unter [Virtuellen Server verwalten](/docs/vsi?topic=virtual-servers-managing-virtual-servers).

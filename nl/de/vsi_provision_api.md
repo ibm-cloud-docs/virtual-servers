@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-02-28"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,18 +16,18 @@ lastupdated: "2018-02-28"
 {:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
-# API-Beispiele: Versionen (Flavors) öffentlicher virtueller Server
+# API-Beispiele: Profile öffentlicher virtueller Server
 {: #api-rest-public}
 
-Die folgenden Informationen enthalten REST-API-Beispiel für die Bereitstellung öffentlicher virtueller Serverinstanzen, die vordefinierte Versionen (Flavors) verwenden.
+Die folgenden Informationen enthalten REST-API-Beispiel für die Bereitstellung öffentlicher virtueller Serverinstanzen, die vordefinierte Profile verwenden.
 {:shortdesc}
 
 Besonders leistungsfähige API-Beispiele finden Sie in den folgenden Ressourcen:
 * [API-Beispiele für Softlayer_Virtual_Guest ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://softlayer.github.io/classes/softlayer_virtual_guest/)
-* [Versionsliste abrufen ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://softlayer.github.io/article/vsiflavors/)
+* [Profilliste abrufen ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://softlayer.github.io/article/vsiflavors/)
 
 ## Öffentliche Instanz mit dem Objekt 'create' bereitstellen
-Der API-Service *SoftLayer_Virtual_Guest/createObject* ist die einfachste Methode, um eine öffentliche virtuelle Serverinstanz bereitzustellen, die vordefinierte Versionen (Flavors) verwendet.
+Der API-Service *SoftLayer_Virtual_Guest/createObject* ist die einfachste Methode, um eine öffentliche virtuelle Serverinstanz bereitzustellen, die vordefinierte Profile verwendet.
 
 Nicht zutreffend für transiente Instanzen.
 {:tip}
@@ -61,7 +60,7 @@ Zum Bereitstellen einer öffentlichen virtuellen Serverinstanz mit REST wird ein
 ```
 
 ## Öffentliche Instanz mit dem Objekt 'placeOrder' bereitstellen
-Die Bereitstellung eines öffentlichen virtuellen Servers, der vordefinierte Versionen (Flavors) verwendet, erfolgt mit dem API-Service *SoftLayer_Product_Order/placeOrder*.
+Die Bereitstellung eines öffentlichen virtuellen Servers, der vordefinierte Profile verwendet, erfolgt mit dem API-Service *SoftLayer_Product_Order/placeOrder*.
 
 Nicht zutreffend für transiente Instanzen.
 {:tip}

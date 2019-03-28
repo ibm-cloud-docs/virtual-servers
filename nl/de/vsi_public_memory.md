@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2017
-lastupdated: "2017-08-10"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -16,16 +15,18 @@ lastupdated: "2017-08-10"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Speicher 
-Speicherbetonte Versionen (Flavors) sind besonders geeignet für speicherintensive Workloads (z. B. umfangreiche Caching-Workloads, rechenintensive Datenbankanwendungen oder speicherinterne Analyse-Workloads).
+# Speicher
+{: #memory}
 
-Für dieses Angebot stehen die folgenden Versionen (Flavors) zur Verfügung:
+Speicherbetonte Profile sind besonders geeignet für speicherintensive Workloads (z. B. umfangreiche Caching-Workloads, rechenintensive Datenbankanwendungen oder speicherinterne Analyse-Workloads).
+
+Für dieses Angebot stehen die folgenden Profile zur Verfügung:
 
 <table>
-<CAPTION>Tabelle 1. Speicherbetonte Versionen (Flavors)</CAPTION>
+<CAPTION>Tabelle 1. Speicherbetonte Profile</CAPTION>
 <THEAD>
 <TR>
-<th>Version</th>
+<th>Profil</th>
 <th>vCPU</th>
 <th>RAM</th>
 <th>Speichertyp</th>
@@ -93,7 +94,6 @@ Für dieses Angebot stehen die folgenden Versionen (Flavors) zur Verfügung:
 * Primärer SAN-Bootdatenträger (25 oder 100 GB) mit verfügbaren zusätzlichen Datenträgern mit bis zu jeweils 2 TB (5 Datenträger insgesamt zulässig).
 * Die Preise für öffentliche virtuelle Server mit SAN-Speicher beinhalten virtuelle CPU, Hauptspeicher und einen primären Bootdatenträger in Mindestgröße. Die Preise für zusätzliche Datenträger sind von der ausgewählten Größe und Menge der Datenträger abhängig.  
 
-Speicherbetonte Versionen (Flavors) sind in allen Rechenzentren verfügbar.
+Speicherbetonte Profile sind in allen Rechenzentren verfügbar.
 
 Alle unterstützten Betriebssysteme (z. B. RHEL, CentOS, Windows, Ubuntu und andere), Datenbanken und Software-Add-ons sind auch für dieses Angebot verfügbar.  
-

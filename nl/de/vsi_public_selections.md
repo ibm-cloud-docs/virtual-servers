@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-02-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,10 +17,12 @@ lastupdated: "2018-02-12"
 {:table: .aria-labeledby="caption"}
 
 # Optionen für die Bereitstellung
+{: #provisioning-selections}
+
 Beim Bereitstellen eines öffentlichen virtuellen Servers müssen Sie eine Auswahl in Bezug auf die folgenden Optionen treffen.
 
 ## Standort
-Sie können auswählen, in welchem Rechenzentrum die Bereitstellung erfolgen soll. Bei neuen Bereitstellungen ermittelt {{site.data.keyword.Bluemix}} automatisch das am besten geeignete Rechenzentrum (basierend auf der Verfügbarkeit) und erstellt die entsprechenden öffentlichen und privaten VLANs. Bei Ergänzungen für vorhandene Umgebungen können Sie das für Ihre jeweiligen Zwecke erforderliche Rechenzentrum, VLAN und Teilnetz auswählen. Weitere Informationen zu VLANs und Teilnetzen finden Sie unter [VLANs - Einführung](/docs/infrastructure/vlans/getting-started.html).
+Sie können auswählen, in welchem Rechenzentrum die Bereitstellung erfolgen soll. Bei neuen Bereitstellungen ermittelt {{site.data.keyword.Bluemix}} automatisch das am besten geeignete Rechenzentrum (basierend auf der Verfügbarkeit) und erstellt die entsprechenden öffentlichen und privaten VLANs. Bei Ergänzungen für vorhandene Umgebungen können Sie das für Ihre jeweiligen Zwecke erforderliche Rechenzentrum, VLAN und Teilnetz auswählen. Weitere Informationen zu VLANs und Teilnetzen finden Sie unter [VLANs - Einführung](/docs/infrastructure/vlans?topic=vlans-getting-started-with-vlans).
 
 Das Auswählen eines Teilnetzes ist optional und nur durchzuführen, wenn Ihre Einheit eine IP-Adresse aus dem Teilnetz verwenden soll. Falls Sie ein Teilnetz auswählen, prüfen Sie, ob Sie über genug IP-Adressen zur Erfüllung der Anforderung verfügen. Wenn Sie nicht über genug IP-Adressen für Ihr Teilnetz verfügen, kann Ihre Bestellung verzögert oder abgebrochen werden.
 {:tip}
@@ -41,7 +42,7 @@ Für Bestandskunden ist außerdem die Bereitstellung über eine Imagevorlage im 
 
 ## Speicher
 
-Sie können für jeden virtuellen Server zwischen den Optionen 'SAN' und 'Lokal' wählen. Der SAN-Speicher bzw. der lokale Speicher kann nach Bedarf durch weitere Produkte ergänzt werden. SAN-Speicher und lokaler Speicher sind für den virtuellen Server als lokale Datenträger zugänglich. Nach allen Änderungen der Datenträger (z. B. anhängen, abhängen, migrieren usw.) muss der virtuelle Server neu gestartet werden. Weitere Informationen finden Sie unter [Speicheroptionen](../vsi/storage/vsi_about_storage.html).
+Sie können für jeden virtuellen Server zwischen den Optionen 'SAN' und 'Lokal' wählen. Der SAN-Speicher bzw. der lokale Speicher kann nach Bedarf durch weitere Produkte ergänzt werden. SAN-Speicher und lokaler Speicher sind für den virtuellen Server als lokale Datenträger zugänglich. Nach allen Änderungen der Datenträger (z. B. anhängen, abhängen, migrieren usw.) muss der virtuelle Server neu gestartet werden. Weitere Informationen finden Sie unter [Speicheroptionen](/docs/vsi?topic=virtual-servers-storage-options#storage-options).
 
 ## Abrechnung auf Stundenbasis und Monatsbasis
 
@@ -61,35 +62,36 @@ Sie können Software auswählen, die bei der Bereitstellung von {{site.data.keyw
 
 ## Sicherheit
 
-Vor der Bereitstellung sollten Sie sich mit den Sicherheitsoptionen befassen. Als Teil des Bestellprozesses können Sie eine einheitenspezifische Hardware- oder Software-Firewall auswählen, um Ihr System zu schützen. Alternativ können Sie dedizierte Firewallanwendungen in der Umgebung bereitstellen und den virtuellen Server in einem geschützten VLAN bereitstellen. 
+Vor der Bereitstellung sollten Sie sich mit den Sicherheitsoptionen befassen. Als Teil des Bestellprozesses können Sie eine einheitenspezifische Hardware- oder Software-Firewall auswählen, um Ihr System zu schützen. Alternativ können Sie dedizierte Firewallanwendungen in der Umgebung bereitstellen und den virtuellen Server in einem geschützten VLAN bereitstellen.
 
-**Hinweis:** Ein virtueller Server kann nicht durch zwei Firewall-Anwendungen in derselben Schnittstelle geschützt werden. 
+**Hinweis:** Ein virtueller Server kann nicht durch zwei Firewall-Anwendungen in derselben Schnittstelle geschützt werden.
 
 Außerdem können Sie mithilfe von Sicherheitsgruppen eine Reihe von IP-Filterregeln aktivieren, die festlegen, wie eingehender und abgehender Datenverkehr für die öffentlichen und privaten Schnittstellen einer virtuellen Serverinstanz abgewickelt wird.
 
 Weitere Informationen können Sie den folgenden Themensammlungen zur Sicherheit entnehmen.
 
-* [Hardware-Firewalls (gemeinsam genutzt)](../infrastructure/hardware-firewall-shared/getting-started.html)
-* [Hardware-Firewalls (dediziert)](../infrastructure/hardware-firewall-dedicated/getting-started.html)
-* [Einführung in Sicherheitsgruppen](/docs/infrastructure/security-groups/sg_index.html)
+* [Hardware-Firewalls (gemeinsam genutzt)](/docs/infrastructure/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started-with-hardware-firewall-shared)
+* [Hardware-Firewalls (dediziert)](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-getting-started-with-hardware-firewall-dedicated)
+* [Einführung in Sicherheitsgruppen](/docs/infrastructure/security-groups?topic=security-groups-getting-started-with-security-groups)
 
 ## Überwachung
+{: #about-monitoring}
 
 Sie können aus einer Vielzahl von Überwachungsoptionen für den virtuellen Server auswählen. Zu den verfügbaren Optionen gehört die Standardüberwachung, die mit Pingsignalen und TCP-Serviceantworten (TCP = Transmission Control Protocol) sowie mit optionalen Antworten bei Störungen arbeitet. Sie können auch die erweiterte Überwachung hinzufügen, die den Nimsoft-Softwareagenten nutzt und umfangreichere Überwachungsfunktionen für den virtuellen Server und die installierte Software bereitstellt.
 
-Weitere Informationen finden Sie unter [Überwachung](../infrastructure/SLmonitoring/monitoring_index.html).
+Weitere Informationen finden Sie unter [Überwachung](/docs/infrastructure/SLmonitoring?topic=slmonitoring-monitoring).
 
 ## Sicherung
 
-Während des Bestellprozesses können Sie Evault-Sicherungen hinzufügen. Sie können auch eine R1soft-Lizenz für Ihre vorhandene R1soft-Sicherungsumgebung erwerben oder die Sicherungslösung eines Drittanbieters verwenden.
+Während des Bestellprozesses können Sie {{site.data.keyword.backup_notm}} hinzufügen. Sie können auch eine R1soft-Lizenz für Ihre vorhandene R1soft-Sicherungsumgebung erwerben oder die Sicherungslösung eines Drittanbieters verwenden.
 
-Weitere Informationen finden Sie unter [Einheit erneut bei eVault registrieren](../infrastructure/Backup/how-do-i-re-register-evault.html).
+Weitere Informationen finden Sie in [Vault registrieren](/docs/infrastructure/Backup?topic=Backup-reregister#reregister).
 
 ## Scripts nach der Bereitstellung
 
 Bei jeder Bestellung eines virtuellen Servers können Scripts nach der Bereitstellung zugeordnet werden. Dies ermöglicht die Ausführung eines vom Kunden entwickelten Scripts, nachdem die Bereitstellungstasks abgeschlossen sind. Solche Scripts werden häufig verwendet, um eine kundenspezifische Konfiguration auf einen Server anzuwenden und die Automatisierung Ihrer Skalierungsstrategie zu unterstützen.
 
-Weitere Informationen finden Sie unter [Angepasstes Bereitstellungsscript hinzufügen](vsi_add_script.html).
+Weitere Informationen finden Sie unter [Angepasstes Bereitstellungsscript hinzufügen](/docs/vsi?topic=virtual-servers-adding-post-script).
 
 ## Weitere Schritte
-Wenn Sie mit dem Bereitstellen Ihres öffentlichen virtuellen Servers beginnen möchten, finden Sie weitere Informationen unter [Öffentliche Instanzen bereitstellen](vsi_provision_public.html).
+Wenn Sie mit dem Bereitstellen Ihres öffentlichen virtuellen Servers beginnen möchten, finden Sie weitere Informationen unter [Öffentliche Instanzen bereitstellen](/docs/vsi?topic=virtual-servers-ordering-vs-public).

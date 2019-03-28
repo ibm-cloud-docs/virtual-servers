@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-10-30"
 
+subcollection: virtual-servers
 
 ---
 
@@ -32,11 +31,11 @@ In der Einheitenliste sind die folgenden Verwaltungstasks für virtuelle Server 
 * Abbrechen - Die Verwendung einer Einheit beenden. Die Verwendung von Einheiten kann sofort oder an einem Rechnungsstichtag abgebrochen werden. Nach dem Bestätigen des Abbruchs Ihrer Einheit kann die Aktion nicht rückgängig gemacht werden. Beim sofortigen Abbrechen wird keine Rückerstattung von Gebühren gewährt.
 
 Führen Sie die folgenden Schritte aus, um Verwaltungstasks für Ihre virtuellen Server über die Einheitenliste im Kundenportal auszuführen:  
-1. Melden Sie sich beim [{{site.data.keyword.slportal_full}} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window} mit Ihren eindeutigen Berechtigungsnachweisen an. 
+1. Melden Sie sich beim [{{site.data.keyword.slportal_full}} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window} mit Ihren eindeutigen Berechtigungsnachweisen an.
 2. Wählen Sie im Menü **Einheiten** die Option **Einheitenliste** aus.
 3. Klicken Sie auf **Aktionen** für die Einheit, die Sie verwalten möchten, und wählen Sie die gewünschte Verwaltungstask aus.
 
-**Tipps:** 
+**Tipps:**
 * Für die Interaktion mit Servern im {{site.data.keyword.slportal}} können Sie sowohl die Snapshot-Ansicht (eine Zusammenfassung für Ihre Einheit) als auch die Anzeige der Einheitendetails (eine ausführliche Liste) verwenden. Klicken Sie zum Anzeigen von oder Interagieren mit Ihrem Server in der Snapshot-Ansicht auf den Pfeil neben dem Einheitennamen, um die Ansicht zu erweitern. Klicken Sie zum Anzeigen von oder Interagieren mit Ihrem Server in der Ansicht 'Einheitendetails' auf den Einheitennamen des Servers.
 * Sie können über die Registerkarte **Konfiguration** jederzeit Anmerkungen zu einer Einheit hinzufügen. Anmerkungen können beim Ermitteln von Details der Einheit, ihrer Verwendung und der für sie ausgeführten Aktionen helfen.
 
@@ -47,7 +46,7 @@ Führen Sie die folgenden Schritte aus, um Verwaltungstasks für Ihre virtuellen
 
 * **Ein-/ausschalten**
 
-    Wenn die Einheit ausgeschaltet wird, bleibt sie im Status 'ausgeschaltet' und muss durch Wiederholung der oben beschriebenen Schritte manuell eingeschaltet werden. Benutzer können nicht mit einer Einheit interagieren, wenn sie ausgeschaltet ist. Wenn der virtuelle Server die Funktion für ausgesetzte Abrechnung unterstützt, wird die Abrechnung für einige Rechenressourcen ausgesetzt. Sie können in einer Instanz erst wieder alle Verwaltungsaktionen ausführen, wenn die Abrechnung wiederaufgenommen wird. Weitere Informationen finden Sie in [Informationen zur ausgesetzten Abrechnung](vsi_about_suspend.html). Informationen darüber, ob die virtuelle Serverinstanz das Feature für das Aussetzen der Abrechnung unterstützt, finden Sie in [Feature für das Aussetzen der Abrechnung anzeigen](vsi_viewing_suspend.html). Sobald die Einheit eingeschaltet wurde, kann normale Interaktion stattfinden. Sie bleibt eingeschaltet, bis weitere Aktionen unternommen werden.
+    Wenn die Einheit ausgeschaltet wird, bleibt sie im Status 'ausgeschaltet' und muss durch Wiederholung der oben beschriebenen Schritte manuell eingeschaltet werden. Benutzer können nicht mit einer Einheit interagieren, wenn sie ausgeschaltet ist. Wenn der virtuelle Server die Funktion für ausgesetzte Abrechnung unterstützt, wird die Abrechnung für einige Rechenressourcen ausgesetzt. Sie können in einer Instanz erst wieder alle Verwaltungsaktionen ausführen, wenn die Abrechnung wiederaufgenommen wird. Weitere Informationen finden Sie in [Informationen zur ausgesetzten Abrechnung](/docs/vsi?topic=virtual-servers-requirements). Informationen darüber, ob die virtuelle Serverinstanz das Feature für das Aussetzen der Abrechnung unterstützt, finden Sie in [Feature für das Aussetzen der Abrechnung anzeigen](/docs/vsi?topic=virtual-servers-viewing-suspend-billing-feature). Sobald die Einheit eingeschaltet wurde, kann normale Interaktion stattfinden. Sie bleibt eingeschaltet, bis weitere Aktionen unternommen werden.
 
 * **Umbenennen**
 
@@ -56,7 +55,6 @@ Führen Sie die folgenden Schritte aus, um Verwaltungstasks für Ihre virtuellen
 * **Abbrechen**
 
   Nach dem Bestätigen des Abbruchs beginnt der Abbruchprozess für die Einheit. Falls ein sofortiger Abbruch angefordert wurde, wird die Einheit sofort abgebrochen. Falls ein Abbruch am Rechnungsstichtag angefordert wurde, bleibt die Einheit bis zum nächsten Rechnungsstichtag aktiv. Nach ihrem Abbruch wird die Einheit nicht mehr in der Einheitenliste im {{site.data.keyword.slportal}} angezeigt. Rechnungspositionen werden ebenfalls aus Rechnungen entfernt, wenn alle ggf. ausstehenden Posten für die Einheit bezahlt wurden. Falls Sie Fragen zu einer Rechnung für eine abgebrochene Einheit haben, öffnen Sie ein Ticket und wählen Sie als Ticketthema 'Abrechnungsanforderung' aus. Beim sofortigen Abbrechen wird keine Rückerstattung von Gebühren gewährt.
-  
-## Nächste Schritte
-Weitere Informationen zum erneuten Konfigurieren eines vorhanden virtuellen Servers finden Sie unter [Vorhandenen virtuellen Server neu konfigurieren](../vsi/vsi_reconfigure.html).
 
+## Nächste Schritte
+Weitere Informationen zum erneuten Konfigurieren eines vorhanden virtuellen Servers finden Sie unter [Vorhandenen virtuellen Server neu konfigurieren](/docs/vsi?topic=virtual-servers-reconfiguring-virtual-servers).

@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-05-11"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,6 +17,7 @@ lastupdated: "2018-05-11"
 {:table: .aria-labeledby="caption"}
 
 # Benachrichtigungen für das Zurückfordern transienter virtueller Server konfigurieren
+{: #configuring-notifications-for-reclaims-of-transient-virtual-servers}
 
 Transiente virtuelle Server sind ihrer Art nach ephemer und können jederzeit beendet werden; dies führt möglicherweise zu Datenverlust. Hierbei können automatisierte Benachrichtigungen über ein Zurückfordern dazu beitragen, den Datenverlust zu verringern. Ist ein transienter, virtueller Server bereitgestellt, kann er so konfiguriert werden, dass **zwei Minuten** vor der tatsächlichen Beendigung eine Nachricht ausgegeben wird. Die Benachrichtigung ermöglicht es Ihnen, über ein Programm dafür zu sorgen, dass die gesamte aktuelle Verarbeitung beim transienten virtuellen Server beendet wird oder erforderliche Daten des transienten virtuellen Servers an andere Server übertragen werden.
 
@@ -28,8 +28,9 @@ Die Benachrichtigung `reclaim-scheduled` ist ein Webhook; dies bedeutet, die Ben
 3. Webhookanforderungen überprüfen
 
 ## Transiente virtuelle Serverinstanz bereitstellen
+{: #provision-transient-virtual-server}
 
-Transiente virtuelle Server können über das [{{site.data.keyword.slportal_full}} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window} oder über die [SLDN-API ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](http://sldn.softlayer.com){: new_window} bereitgestellt werden. Weitere Informationen finden Sie unter [Transiente Instanzen bereitstellen](/docs/vsi/vsi_provision_transient.html).
+Transiente virtuelle Server können über das [{{site.data.keyword.slportal_full}} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window} oder über die [SLDN-API ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](http://sldn.softlayer.com){: new_window} bereitgestellt werden. Weitere Informationen finden Sie unter [Transiente Instanzen bereitstellen](/docs/vsi?topic=virtual-servers-ordering-vs-transient).
 
 ## Webhook einrichten
 

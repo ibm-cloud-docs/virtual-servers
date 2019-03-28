@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-10-03"
 
+subcollection: virtual-servers
 
 ---
 
@@ -26,12 +25,12 @@ Sie können Ihre transienten virtuellen Serverinstanzen über den {{site.data.ke
 Überprüfen Sie die folgenden Voraussetzungen, bevor Sie beginnen.
 
   1. Stellen Sie sicher, dass Sie über gültige Berechtigungsnachweise für den {{site.data.keyword.cloud_notm}}-Katalog oder für das {{site.data.keyword.slportal}} verfügen.
-  
-  **Hinweis:** Sie müssen über ein aktualisiertes Konto für den {{site.data.keyword.Bluemix_notm}}-Katalog verfügen, um virtuelle Server zu bestellen. Weitere Informationen zum Aktualisieren Ihres Kontos finden Sie unter [Zur IBMid wechseln](https://console.bluemix.net/docs/admin/softlayerlink.html).
 
-  2. Überprüfen Sie die Überlegungen zur Kapazität der virtuellen Serverinstanz. Weitere Informationen finden Sie unter [Überlegungen zur Kapazität](ts_capacity_bp.html).
+  **Hinweis:** Sie müssen über ein aktualisiertes Konto für den {{site.data.keyword.Bluemix_notm}}-Katalog verfügen, um virtuelle Server zu bestellen. Weitere Informationen zum Aktualisieren Ihres Kontos finden Sie unter [Zur IBMid wechseln](/docs/account?topic=account-unifyingaccounts#unifyingaccounts).
 
-## Transiente virtuelle Serverinstanz bereitstellen 
+  2. Überprüfen Sie die Überlegungen zur Kapazität der virtuellen Serverinstanz. Weitere Informationen finden Sie unter [Überlegungen zur Kapazität](/docs/vsi?topic=virtual-servers-capacity-considerations).
+
+## Transiente virtuelle Serverinstanz bereitstellen
 Wenn die Voraussetzungen erfüllt sind, können Sie mit dem Bereitstellen einer transienten virtuellen Serverinstanz beginnen. Sie können die Instanz über den {{site.data.keyword.cloud_notm}}-Katalog oder das {{site.data.keyword.slportal}} bereitstellen.
 
 ### Transiente virtuelle Serverinstanzen über den IBM Cloud-Katalog bereitstellen
@@ -44,7 +43,7 @@ Führen Sie die folgenden Schritte aus, um eine transiente virtuelle Serverinsta
   5. Geben Sie alle relevanten Informationen für die virtuelle Serverinstanz an.
   6. Überprüfen Sie die Bestellübersicht und klicken Sie auf das Kontrollkästchen für Servicevereinbarungen anderer Anbieter****.
   7. Klicken Sie auf **Bereitstellen**.
-  
+
 ### Transiente virtuelle Serverinstanzen über das Kundenportal bereitstellen
 Führen Sie die folgenden Schritte aus, um eine transiente virtuelle Serverinstanz über das {{site.data.keyword.slportal}} bereitzustellen:
 
@@ -59,8 +58,8 @@ Führen Sie die folgenden Schritte aus, um eine transiente virtuelle Serverinsta
 
  Mehrere E-Mails werden an Ihren Administrator gesendet: die Auftragsbestätigung für die Bereitstellungsbestellung, die Genehmigung und die Bearbeitungsnachricht für die Bereitstellung sowie die Fertigstellungsnachricht für die Bereitstellung. Über einen Link in der E-Mail, die die Fertigstellung der Bereitstellung mitteilt, gelangen Sie zu Ihrer Seite *Einheitendetails*.
 
-Sie können einen transienten virtuellen Server auch mithilfe der {{site.data.keyword.slapi_short}} bereitstellen. Ein Beispiel finden Sie unter [Transiente Instanz mit dem Objekt 'create' bereitstellen](../vsi/vsi_provision_api.html#api-rest-transient).
+Sie können einen transienten virtuellen Server auch mithilfe der {{site.data.keyword.slapi_short}} bereitstellen. Ein Beispiel finden Sie unter [Transiente Instanz mit dem Objekt 'create' bereitstellen](/docs/vsi?topic=virtual-servers-api-rest-public#api-rest-transient).
 {:tip}
 
 ## Nächste Schritte
-Nachdem Ihr virtueller Server bereitgestellt ist, können Sie ihn verwalten. Weitere Informationen finden Sie unter [Virtuellen Server verwalten](../vsi/vsi_managing.html).
+Nachdem Ihr virtueller Server bereitgestellt ist, können Sie ihn verwalten. Weitere Informationen finden Sie unter [Virtuellen Server verwalten](/docs/vsi?topic=virtual-servers-managing-virtual-servers).

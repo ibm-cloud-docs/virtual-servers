@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2018
-lastupdated: "2018-10-30"
+  years: 2018, 2019
+lastupdated: "2019-03-01"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,27 +17,29 @@ lastupdated: "2018-10-30"
 {:table: .aria-labeledby="caption"}
 
 # Feature für das Aussetzen der Abrechnung anzeigen
+{: #viewing-suspend-billing-feature}
+
 Informationen darüber, ob die virtuelle Serverinstanz das Feature für das Aussetzen der Abrechnung unterstützt, können Sie über das {{site.data.keyword.slportal_full}} oder die {{site.data.keyword.slapi_short}} anzeigen.
 
 ## Feature für das Aussetzen der Abrechnung im Kundenportal anzeigen
 Führen Sie die folgenden Schritte aus, um über das {{site.data.keyword.slportal}} zu ermitteln, ob die virtuelle Serverinstanz das Feature für das Aussetzen der Abrechnung:
 
-1. Melden Sie sich beim [{{site.data.keyword.slportal}} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window} mit Ihren eindeutigen Berechtigungsnachweisen an. 
-2. Wählen Sie im Menü **Einheiten** die Option **Einheitenliste** aus. 
-3. Klicken Sie in der **Einheitenliste** auf den Namen der virtuellen Serverinstanz. 
-4. Auf der Registerkarte **Konfiguration** im Abschnitt **System** können Sie Informationen darüber anzeigen, ob die virtuelle Serverinstanz das Feature für das Aussetzen der Abrechnung unterstützt. 
+1. Melden Sie sich beim [{{site.data.keyword.slportal}} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window} mit Ihren eindeutigen Berechtigungsnachweisen an.
+2. Wählen Sie im Menü **Einheiten** die Option **Einheitenliste** aus.
+3. Klicken Sie in der **Einheitenliste** auf den Namen der virtuellen Serverinstanz.
+4. Auf der Registerkarte **Konfiguration** im Abschnitt **Allgemein** können Sie Informationen darüber anzeigen, ob die virtuelle Serverinstanz das Feature für das Aussetzen der Abrechnung unterstützt.
 
 | Feld                                 | Wert                     |
 | --------------------------------------| ------------------------- |
-| Ausgesetzte Abrechnung: Aktiviert beim Ausschalten | Feature wird unterstützt.    |
-| Ausgesetzte Abrechnung: Nicht verfügbar            | Feature wird nicht unterstützt. |
+| Ausgesetzte Abrechnung: Aktiviert beim Ausschalten | Feature wird unterstützt.     |
+| Ausgesetzte Abrechnung: Nicht verfügbar          | Feature wird nicht unterstützt. |
 {: caption="Tabelle 1. Details zum Aussetzen der Abrechnung" caption-side="top"}
 
 ## Feature für das Aussetzen der Abrechnung über die SoftLayer-API anzeigen
 
 Der folgende Befehl ist eine Beispielanforderung, mit der über die {{site.data.keyword.slapi_short}} verifiziert wird, ob die virtuelle Serverinstanz das Feature für das Aussetzen der Abrechnung unterstützt.
 
-**Hinweis**: Bei der folgenden JSON-Anforderung und -Antwort handelt es sich um ein generisches Beispiel. 
+**Hinweis**: Bei der folgenden JSON-Anforderung und -Antwort handelt es sich um ein generisches Beispiel.
 
 ```
 curl -X GET \
@@ -56,5 +57,5 @@ Weitere Informationen finden Sie in der [SLDN-API-Dokumentation ![Symbol für ex
 ## Nächste Schritte
 
 Weitere Informationen zum Feature für das Aussetzen der Abrechnung finden Sie hier:
-1. [Informationen zum Aussetzen der Abrechnung ](vsi_about_suspend.html)
-2. [Virtuelle Server verwalten](vsi_managing.html)
+1. [Informationen zur ausgesetzten Abrechnung](/docs/vsi?topic=virtual-servers-requirements)
+2. [Virtuelle Server verwalten](/docs/vsi?topic=virtual-servers-managing-virtual-servers)

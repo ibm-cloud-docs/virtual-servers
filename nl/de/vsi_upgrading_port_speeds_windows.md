@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-12-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,6 +16,7 @@ lastupdated: "2017-12-12"
 {:table: .aria-labeledby="caption"}
 
 # Portgeschwindigkeit in Windows erhöhen (Upgrade)
+{: #upgrading-port-speed-in-windows}
 
 Die Standardportgeschwindigkeit für Kundenserver (sowohl für öffentliche als auch private Netze) beträgt 10 Mbps. Wenn Sie Ihre Portgeschwindigkeit auf 100 Mbps oder 1000 Mbps erhöhen möchten, öffnen Sie ein Ticket mit der Anforderung. Der Vertrieb bittet Sie, die Mindestgebühr zu bestätigen, und ein Techniker ändert die Portgeschwindigkeiten für Ihr Netz.
 

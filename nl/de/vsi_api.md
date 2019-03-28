@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-10-25"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,7 +16,7 @@ lastupdated: "2017-10-25"
 {:table: .aria-labeledby="caption"}
 
 # API-Referenz
-{: #api-reference} 
+{: #api-reference}
 
 Die {{site.data.keyword.slapi_full}} ist die Entwicklungsschnittstelle, die Entwicklern und Systemadministratoren die direkte Interaktion mit dem Back-End-System von {{site.data.keyword.cloud}} ermöglicht. Die {{site.data.keyword.slapi_short}} ermöglicht viele der Funktionen im {{site.data.keyword.slportal_full}}, d. h. jede Interaktion, die im {{site.data.keyword.slportal}} möglich ist, kann in der Regel auch in der API ausgeführt werden. Da Sie innerhalb der API programmgesteuert mit allen Teilen der {{site.data.keyword.BluSoftlayer_full}}-Umgebung interagieren können, eröffnet {{site.data.keyword.slapi_short}} Ihnen die Möglichkeit zum Automatisieren von Tasks. Sie können zum Beispiel die API *SoftLayer_Virtual_Guest/createObject* verwenden, um eine virtuelle Instanz bereitzustellen.
 {:shortdesc}

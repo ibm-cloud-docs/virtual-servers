@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-05-17"
 
+subcollection: virtual-servers
 
 ---
 
@@ -25,7 +24,7 @@ Für den Zugriff und die Verwaltung der Details für eine bestimmte Einheit ben�
 
 **Hinweis:** Wenn Ihr Konto Einheiten enthält, für die Sie keine Zugriffsrechte besitzen, wird eine Nachricht "nicht gefunden" angezeigt, wenn Sie versuchen, auf die betreffenden Einheiten zuzugreifen.
 
-Sie können in Ihrem Konto allen Benutzern außer Ihnen selbst Einheitenzugriff erteilen. Nur ein Kontoadministrator kann auf alle Einheiten in seinem Kundenkonto zugreifen und den Zugriff für alle anderen Benutzer in seinem Konto festlegen. 
+Sie können in Ihrem Konto allen Benutzern außer Ihnen selbst Einheitenzugriff erteilen. Nur ein Kontoadministrator kann auf alle Einheiten in seinem Kundenkonto zugreifen und den Zugriff für alle anderen Benutzer in seinem Konto festlegen.
 
 Sie benötigen die folgenden Berechtigungen, um auf die Einheitendetails für öffentliche virtuelle Server oder dedizierte virtuelle Server zuzugreifen.
 
@@ -49,7 +48,7 @@ Führen Sie die folgenden Schritte aus, um die Berechtigung *Details für virtue
 Führen Sie als nächstes die folgenden Schritte aus, um Zugriff auf einer bestimmten Einheitenebene bereitzustellen.
 
 1. Klicken Sie auf das Symbol **Einheitenzugriff**, um die Anzeige 'Einheitenzugriff' aufzurufen.
-2. Klicken Sie auf die Registerkarte **Schnellzugriff**. 
+2. Klicken Sie auf die Registerkarte **Schnellzugriff**.
    Hinweis: Eine andere Option ist das Auswählen einer einzelnen Einheit.
 3. Wählen Sie in der Dropdown-Liste *Einheitentyp* den Eintrag **Alle virtuellen Server** aus.
 4. Wählen Sie das Kontrollkästchen **Zugriff automatisch erteilen, wenn neue Einheiten hinzugefügt werden** aus, wenn der zugeordnete Benutzer immer Zugriff auf diesen Einheitentyp erhalten soll.
@@ -68,7 +67,7 @@ Führen Sie die folgenden Schritte aus, um die Berechtigung *Details für virtue
 Führen Sie als nächstes die folgenden Schritte aus, um Zugriff auf einer bestimmten Einheitenebene bereitzustellen.
 
 1. Klicken Sie auf das Symbol **Einheitenzugriff**, um die Anzeige 'Einheitenzugriff' aufzurufen.
-2. Klicken Sie auf die Registerkarte **Schnellzugriff**. 
+2. Klicken Sie auf die Registerkarte **Schnellzugriff**.
    Hinweis: Eine andere Option ist das Auswählen einzelner Einheiten.
 3. Wählen Sie in der Dropdown-Liste *Einheitentyp* den Eintrag **Alle dedizierten Hosts** aus.
 4. Wählen Sie das Kontrollkästchen **Zugriff automatisch erteilen, wenn neue Einheiten hinzugefügt werden** aus, wenn der zugeordnete Benutzer immer Zugriff auf diesen Einheitentyp erhalten soll.

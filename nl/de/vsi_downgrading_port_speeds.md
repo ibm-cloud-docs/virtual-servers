@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-12-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,6 +17,7 @@ lastupdated: "2017-12-12"
 {:table: .aria-labeledby="caption"}
 
 # Portgeschwindigkeit verringern
+{: #downgrading-port-speeds}
 
 Sie können Portgeschwindigkeiten temporär verringern (ein Downgrade durchführen), ohne ein Ticket zu öffnen. Sie können auf die Option für **Portsteuerelemente** zugreifen, indem Sie in der rechten oberen Ecke der Seite **Einheitendetails** auf **Aktionen** klicken. Wählen Sie in dieser Anzeige die benötigte Geschwindigkeit aus oder trennen Sie die Verbindung.
 {:shortdesc}

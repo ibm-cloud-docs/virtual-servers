@@ -1,13 +1,18 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-04-27"
+
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Bereitstellungsscript verwalten
+{: #managing-a-provisioning-script}
 
 Mit Bereitstellungsscripts können Benutzer eine URL für ein Script angeben, das in einer neu bereitgestellten Einheit ausgeführt werden soll. Es gibt keine Beschränkungen für den Scriptnamen; zur Identifizierung der Scripts ist es jedoch einfacher, wenn für die einzelnen Scripts ähnliche Namenskonventionen verwendet werden. Bereitstellungsscripts muss ein vollständig qualifizierter Domänenname zugeordnet werden und auf sie muss der Zugriff mithilfe des Protokolls HTTP oder HTTPS möglich sein. Der verwendete Protokolltyp hat Auswirkung auf die automatische Antwort des Systems, wenn das Bereitstellungsscript in die Einheit heruntergeladen wird.
 
@@ -20,6 +25,7 @@ Mit Bereitstellungsscripts können Benutzer eine URL für ein Script angeben, da
 
 
 ## Bereitstellungsscript hinzufügen
+{: #add-provisioning-script}
 
 1. Klicken Sie in der Anzeige für **Bereitstellungsscripts** im {{site.data.keyword.slportal}} auf **Bereitstellungsscript hinzufügen** oben in der Anzeige.
 * Geben Sie für das Bereitstellungsscript einen **identifizierenden Namen** im Feld **Name** ein.

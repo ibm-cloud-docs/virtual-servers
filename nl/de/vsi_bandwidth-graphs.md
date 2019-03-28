@@ -1,10 +1,11 @@
 ---
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-10-24"
 ---
 
 # Bandbreitendiagramme
+{: #bandwidth-graphs}
 
 Die Bandbreitendiagramme stellen den Datenverkehr vom und zum Internet (öffentliche Diagramme) sowie vom und zum privaten Netz (private Diagramme) dar.
 

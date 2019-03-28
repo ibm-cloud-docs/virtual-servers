@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-05-17"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,7 +16,7 @@ lastupdated: "2018-05-17"
 {:table: .aria-labeledby="caption"}
 
 
-# Rescue-Kernel starten 
+# Rescue-Kernel starten
 {: #launching-rescue}
 
 Der Rescue-Kernel ist eine Live-Rescue-Umgebung, die dem Kunden die Möglichkeit gibt, einen Bare-Metal-Server oder einen virtuellen Server online zu schalten, um Systemprobleme zu beheben, die sonst nur durch erneutes Laden des Betriebssystems behoben werden können. Der Rescue-Kernel muss im {{site.data.keyword.slportal_full}} aufgerufen werden. Führen Sie die folgenden Schritte aus, um den Rescue-Kernel für eine Einheit zu starten.
@@ -43,5 +42,4 @@ Nach dem Starten des Rescue-Kernels wird die Einheit ausgeschaltet und im Rescue
 
 Der Fernzugriff auf die Einheit ist über die IP-Adresse der Einheit möglich. Sie können auf die Einheit im Rescue-Kernel zugreifen, indem Sie die Root- oder Administratorberechtigungsnachweise für die Einheiten angeben, die im {{site.data.keyword.slportal}} aufgezeichnet sind. Bei Verwendung des Rescue-Kernels können Sie nach Fehlern suchen sowie Probleme erkennen und beheben wie auf einer regulär gestarteten Einheit. Falls erforderlich, können Sie im Rescue-Kernel-Betriebssystem Laufwerke anhängen. Um den Rescue-Kernel zu beenden und Ihre Einheit wieder in die normale Umgebung zu versetzen, führen Sie für die Einheit einen Warmstart über das {{site.data.keyword.slportal}} oder das Rescue-Kernel-Betriebssystem durch.
 
-Weitere Informationen zum erneuten Starten einer Einheit finden Sie unter [Virtuelle Server verwalten](../vsi/vsi_managing.html).
-
+Weitere Informationen zum erneuten Starten einer Einheit finden Sie unter [Virtuelle Server verwalten](/docs/vsi?topic=virtual-servers-managing-virtual-servers).

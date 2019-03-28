@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-02-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,6 +16,8 @@ lastupdated: "2018-02-12"
 {:table: .aria-labeledby="caption"}
 
 # GPU-Treiber und -Softwarepakete installieren
+{: #installing-gpu-drivers-and-software-packages}
+
 Sie müssen die folgende Software installieren, bevor Sie einen virtuellen Server der GPU-Familie verwenden können.
 * [NVIDIA-Treiber ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](http://www.nvidia.com/drivers){: new_window} – ermöglicht Ihrem Betriebssystem die Kommunikation mit der GPU.
 * [CUDA-Toolkit ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://docs.nvidia.com/cuda/){: new_window} – Entwicklungsumgebung für leistungsfähige GPU-beschleunigte Anwendungen.
@@ -31,4 +32,3 @@ Sie müssen die folgende Software installieren, bevor Sie einen virtuellen Serve
 Wenn Sie ein Framework für maschinelles Lernen installieren, müssen Sie zusätzlich zu den oben genannten Softwarepaketen Framework-Software installieren, wie beispielsweise eine der folgenden Plattformen.
 * [Caffe ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://www.nvidia.com/en-us/data-center/gpu-accelerated-applications/caffe/){: new_window} (Convolutional Architecture for Fast Feature Embedding) – lizenziertes Open-Source-Deep-Learning-Framework.
 * [Tensorflow (Tensorflow 1.2+) ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://www.tensorflow.org/install/){: new_window} – stellt eine Open-Source-Softwarebibliothek für numerische Berechnungen bereit.
-

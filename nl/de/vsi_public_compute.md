@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2017
-lastupdated: "2017-08-10"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,15 +16,17 @@ lastupdated: "2017-08-10"
 {:table: .aria-labeledby="caption"}
 
 # Compute
-Compute-Versionen (Flavors) sind besonders geeignet für Workloads mit intensiver CPU-Nutzung (z. B. Workloads mit umfangreichem Webdatenverkehr, Stapelverarbeitung in der Produktionsumgebung oder Front-End-Web-Server).
+{: #compute}
 
-Für dieses Angebot stehen die folgenden Versionen (Flavors) zur Verfügung:
+Compute-Profile sind besonders geeignet für Workloads mit intensiver CPU-Nutzung (z. B. Workloads mit umfangreichem Webdatenverkehr, Stapelverarbeitung in der Produktionsumgebung oder Front-End-Web-Server).
+
+Für dieses Angebot stehen die folgenden Profile zur Verfügung:
 
 <table>
-<CAPTION>Tabelle 1. Compute-Versionen (Flavors)</CAPTION>
+<CAPTION>Tabelle 1. Compute-Profile</CAPTION>
 <THEAD>
 <TR>
-<th>Version</th>
+<th>Profil</th>
 <th>vCPU</th>
 <th>RAM</th>
 <th>Speichertyp</th>
@@ -75,7 +76,6 @@ Für dieses Angebot stehen die folgenden Versionen (Flavors) zur Verfügung:
 * Primärer SAN-Bootdatenträger (25 oder 100 GB) mit verfügbaren zusätzlichen Datenträgern mit bis zu jeweils 2 TB (5 Datenträger insgesamt zulässig).
 * Die Preise für öffentliche virtuelle Server mit SAN-Speicher beinhalten virtuelle CPU, Hauptspeicher und einen primären Bootdatenträger in Mindestgröße. Die Preise für zusätzliche Datenträger sind von der ausgewählten Größe und Menge der Datenträger abhängig.  
 
-Compute-Versionen (Flavors) sind in allen Rechenzentren verfügbar.
+Compute-Profile sind in allen Rechenzentren verfügbar.
 
 Alle unterstützten Betriebssysteme (z. B. RHEL, CentOS, Windows, Ubuntu und andere), Datenbanken und Software-Add-ons sind auch für dieses Angebot verfügbar.  
-

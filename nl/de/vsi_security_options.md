@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-08-23"
 
+subcollection: virtual-servers
 
 ---
 
@@ -32,9 +31,9 @@ Im Rahmen des Bestellprozesses können Sie einheitenspezifische Hardware oder ei
 auswählen, um Schutzfunktionen bereitzustellen. Alternativ können Sie dedizierte Firewall-Anwendungen
 in der Umgebung bereitstellen und den virtuellen Server in einem geschützten VLAN bereitstellen.  
 
-**Hinweis:** Ein virtueller Server kann nicht durch zwei Firewall-Anwendungen in derselben Schnittstelle geschützt werden. 
+**Hinweis:** Ein virtueller Server kann nicht durch zwei Firewall-Anwendungen in derselben Schnittstelle geschützt werden.
 
 Weitere Informationen können Sie den folgenden Themensammlungen zur Sicherheit entnehmen.
 
-* [Hardware-Firewalls (gemeinsam genutzt)](../infrastructure/hardware-firewall-shared/getting-started.html)
-* [Hardware-Firewalls (dediziert)](../infrastructure/hardware-firewall-dedicated/getting-started.html)
+* [Hardware-Firewalls (gemeinsam genutzt)](/docs/infrastructure/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started-with-hardware-firewall-shared)
+* [Hardware-Firewalls (dediziert)](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-getting-started-with-hardware-firewall-dedicated)

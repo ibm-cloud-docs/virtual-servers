@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2018-01-03"
 
+subcollection: virtual-servers
 
 ---
 
@@ -19,10 +18,11 @@ lastupdated: "2018-01-03"
 
 
 # Überlegungen zur Kapazität
+{: #capacity-considerations}
 
 ## Problem
 
-Wenn Sie einen virtuellen Server bereitstellen, wird möglicherweise die folgende Fehlernachricht ausgegeben: 
+Wenn Sie einen virtuellen Server bereitstellen, wird möglicherweise die folgende Fehlernachricht ausgegeben:
 
 ```
 There is insufficient capacity to complete the request.
@@ -36,17 +36,14 @@ Wenn die Bereitstellung fehlschlägt, schlagen alle virtuellen Serverinstanzen i
 
 Ein Kapazitätsfehler tritt auf, wenn im Router oder im Rechenzentrum nicht genügend Ressourcen für die Ausführung der Leistungsanforderung verfügbar sind. Es gibt eine Reihe von möglichen Ursachen für diesen Fehler. Die Ressourcenverfügbarkeit ändert sich häufig, sodass Sie möglicherweise warten und es später erneut versuchen möchten.
 
-## Lösung 
+## Lösung
 
 Sie können mithilfe der folgenden Strategien die Bereitstellung erneut versuchen:
 
 1. Bereitstellung mit Angabe eines anderen Routers.  
 2. Bereitstellung ohne Angabe eines Routers.
 3. Bereitstellung in einem anderen Rechenzentrum.
-4. Bereitstellung von weniger Instanzen. 
+4. Bereitstellung von weniger Instanzen.
 5. Verteilung der Instanzen durch Bereitstellung in mehreren Rechenzentren.
 6. Bereitstellung geringerer Instanzgrößen.
-7. Änderung des VSI-Speichers von 'SAN' auf 'Lokal' bzw. 'Lokal' auf 'SAN'. 
-
-
-
+7. Änderung des VSI-Speichers von 'SAN' auf 'Lokal' bzw. 'Lokal' auf 'SAN'.

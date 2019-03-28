@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,38 +17,39 @@ lastupdated: "2018-10-24"
 
 
 # Dedizierte Instanzen bereitstellen
+{: #provisioning-dedicated-instances}
 
-Sie haben zwei Möglichkeiten zum Bereitstellen Ihrer dedizierten Instanzen. Die erste Möglichkeit ist die Verwendung des {{site.data.keyword.Bluemix}}-Katalogs und die zweite Möglichkeit ist das {{site.data.keyword.slportal_full}}. Für den Katalog und für das {{site.data.keyword.slportal}} sind eindeutige Anmelde-IDs erforderlich. Sie können sich folglich mit dem Benutzernamen und Kennwort für den Katalog nicht beim Portal anmelden oder umgekehrt. In der Dokumentation [Bei {{site.data.keyword.Bluemix_notm}} anmelden](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window} finden Sie Informationen zum Einrichten von Berechtigungsnachweisen für den {{site.data.keyword.Bluemix_notm}}-Katalog bzw. für das {{site.data.keyword.slportal}}.
+Sie haben zwei Möglichkeiten zum Bereitstellen Ihrer dedizierten Instanzen. Die erste Möglichkeit ist die Verwendung des {{site.data.keyword.Bluemix}}-Katalogs und die zweite Möglichkeit ist das {{site.data.keyword.slportal_full}}. Für den Katalog und für das {{site.data.keyword.slportal}} sind eindeutige Anmelde-IDs erforderlich. Sie können sich folglich mit dem Benutzernamen und Kennwort für den Katalog nicht beim Portal anmelden oder umgekehrt. [Bei {{site.data.keyword.Bluemix_notm}} registrieren](/docs/account?topic=account-signup#signup) enthält Informationen zum Einrichten des {{site.data.keyword.Bluemix_notm}}-Katalogs oder der {{site.data.keyword.slportal}}-Berechtigungsnachweise.
 {:shortdesc}
 
 ## Dedizierte virtuelle Serverinstanzen bereitstellen
 {: #provision-dedicated-instances}
-Sie können die dedizierte virtuelle Serverinstanz über den {{site.data.keyword.cloud_notm}}-Katalog oder das {{site.data.keyword.slportal}} bereitstellen. 
+Sie können die dedizierte virtuelle Serverinstanz über den {{site.data.keyword.cloud_notm}}-Katalog oder das {{site.data.keyword.slportal}} bereitstellen.
 
-### Dedizierte virtuelle Serverinstanz über den IBM Cloud-Katalog bereitstellen 
+### Dedizierte virtuelle Serverinstanz über den IBM Cloud-Katalog bereitstellen
 Führen Sie die folgenden Schritte aus, um eine dedizierte virtuelle Serverinstanz über den {{site.data.keyword.cloud_notm}}-Katalog bereitzustellen:
 
-  1. Melden Sie sich beim [{{site.data.keyword.cloud_notm}}-Katalog ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://console.bluemix.net/catalog/){: new_window} mit Ihren eindeutigen Berechtigungsnachweisen an. 
+  1. Melden Sie sich beim [{{site.data.keyword.cloud_notm}}-Katalog ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://console.bluemix.net/catalog/){: new_window} mit Ihren eindeutigen Berechtigungsnachweisen an.
   2. Klicken Sie im Bereich für die Datenverarbeitungsinfrastruktur**** auf die Kachel **Virtuelle Server**.
   3. Wählen Sie die Option **Dedizierter virtueller Server** aus.
   4. Klicken Sie auf **Erstellen**.
   5. Wählen Sie im Abschnitt **Dedizierter Host** die Option **Automatisch zuweisen** aus. Daraufhin weist {{site.data.keyword.cloud_notm}} die Instanz automatisch einem Host im ausgewählten Rechenzentrum zu.
-  
-     **Hinweis**: Wählen Sie für dedizierte Hosts **Host angeben** oder **Host erstellen** aus. Weitere Informationen zu dedizierten Hosts und Hostinstanzen finden Sie in [Dedizierte virtuelle Server](../vsi/vsi_dedicated.html).
-     
-  5. Geben Sie alle relevanten Informationen für die dedizierte virtuelle Serverinstanz an. 
-  6. Überprüfen Sie die Bestellübersicht und klicken Sie auf das Kontrollkästchen für Servicevereinbarungen anderer Anbieter****. 
+
+     **Hinweis**: Wählen Sie für dedizierte Hosts **Host angeben** oder **Host erstellen** aus. Weitere Informationen zu dedizierten Hosts und Hostinstanzen finden Sie in [Dedizierte virtuelle Server](/docs/vsi?topic=virtual-servers-dedicated-virtual-servers).
+
+  5. Geben Sie alle relevanten Informationen für die dedizierte virtuelle Serverinstanz an.
+  6. Überprüfen Sie die Bestellübersicht und klicken Sie auf das Kontrollkästchen für Servicevereinbarungen anderer Anbieter****.
   7. Klicken Sie auf **Bereitstellen**.
 
 ### Dedizierte virtuelle Serverinstanz über das Kundenportal bereitstellen
 Führen Sie die folgenden Schritte aus, um eine dedizierte virtuelle Serverinstanz über das {{site.data.keyword.slportal}} bereitzustellen:
 
 1. Melden Sie sich beim [{{site.data.keyword.slportal}} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window} mit Ihren eindeutigen Berechtigungsnachweisen an.
-2. Suchen Sie den Bereich **Bestellung** und klicken Sie auf **Einheiten**. Das Fenster **SoftLayer-Produkt und Services bestellen** wird angezeigt. 
-3.  Wählen Sie unter 'Dedizierte virtuelle Server' die Option **Stündlich** oder **Monatlich** aus. Die Seite *Cloud-Server konfigurieren* wird wieder angezeigt. 
+2. Suchen Sie den Bereich **Bestellung** und klicken Sie auf **Einheiten**. Das Fenster **SoftLayer-Produkt und Services bestellen** wird angezeigt.
+3.  Wählen Sie unter 'Dedizierte virtuelle Server' die Option **Stündlich** oder **Monatlich** aus. Die Seite *Cloud-Server konfigurieren* wird wieder angezeigt.
 
 4.	Geben Sie die folgenden Informationen ein:
-       
+
     <table>
     <CAPTION>Tabelle 1. Optionen für dedizierte Hostinstanzen</CAPTION>
     <THEAD>
@@ -68,7 +68,7 @@ Führen Sie die folgenden Schritte aus, um eine dedizierte virtuelle Serverinsta
     <td>
     <ul>
     <li>Automatisch zuordnen – {{site.data.keyword.Bluemix_notm}} ordnet Ihre Instanz automatisch einem Host in dem von Ihnen ausgewählten Rechenzentrum zu.</li>
-    <li>Host angeben – Wird bei dedizierten Hostinstanzen verwendet. Weitere Informationen zu dedizierten Hosts und dedizierten Hostinstanzen finden Sie in [Dedizierte virtuelle Server](../vsi/vsi_dedicated.html).</li>
+    <li>Host angeben – Wird bei dedizierten Hostinstanzen verwendet. Weitere Informationen zu dedizierten Hosts und dedizierten Hostinstanzen finden Sie in [Dedizierte virtuelle Server](/docs/vsi?topic=virtual-servers-dedicated-virtual-servers).</li>
     </ul>
     </td>
     </tr>
@@ -105,7 +105,7 @@ Führen Sie die folgenden Schritte aus, um eine dedizierte virtuelle Serverinsta
     </tr>
     <tr>
     </TBODY>
-    </table> 
+    </table>
 
 5.	Klicken Sie auf die Schaltfläche **Zur Bestellung hinzufügen**. Sie werden zur Seite 'Checkout' weitergeleitet.
 6.  Geben Sie auf der Seite *Checkout* unter *Erweiterte Systemkonfiguration* die folgenden Informationen ein:
@@ -152,5 +152,4 @@ Führen Sie die folgenden Schritte aus, um eine dedizierte virtuelle Serverinsta
     Mehrere E-Mails werden an Ihren Administrator gesendet: die Auftragsbestätigung für Ihre Bereitstellungsbestellung, die Genehmigung und die Bearbeitungsnachricht für die Bereitstellung sowie die Fertigstellungsnachricht für die Bereitstellung. Über einen Link in der Fertigstellungsnachricht gelangen Sie direkt zu der zugehörigen Seite **Einheitendetails**, nachdem Sie sich bei {{site.data.keyword.Bluemix_notm}} angemeldet haben. Eine weitere Option ist die direkte Anmeldung beim {{site.data.keyword.slportal}}.
 
 ## Nächste Schritte
-Nachdem Ihr virtueller Server bereitgestellt ist, können Sie ihn verwalten. Weitere Informationen finden Sie unter [Virtuelle Server verwalten](../vsi/vsi_managing.html).
-
+Nachdem Ihr virtueller Server bereitgestellt ist, können Sie ihn verwalten. Weitere Informationen finden Sie unter [Virtuelle Server verwalten](/docs/vsi?topic=virtual-servers-managing-virtual-servers).

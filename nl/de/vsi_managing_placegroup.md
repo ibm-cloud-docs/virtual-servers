@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-10-31"
 
+subcollection: virtual-servers
 
 ---
 
@@ -27,7 +26,7 @@ Führen Sie die folgenden Schritte aus, um Platzierungsgruppen über die Seite '
 2. Klicken Sie auf der Seite 'Platzierungsgruppen' auf die Option **Platzierungsgruppe hinzufügen**.
 3. Geben Sie einen Namen, eine Beschreibung und ein Rechenzentrum für die Platzierungsgruppe an und klicken Sie auf **Hinzufügen**.
 
-**Hinweis:** Vorhandene Instanzen können nicht zu einer Platzierungsgruppe hinzugefügt werden; es ist nur möglich, eine virtuelle Serverinstanz zum Zeitpunkt der Bereitstellung zu einer Platzierungsgruppe hinzuzufügen. 
+**Hinweis:** Vorhandene Instanzen können nicht zu einer Platzierungsgruppe hinzugefügt werden; es ist nur möglich, eine virtuelle Serverinstanz zum Zeitpunkt der Bereitstellung zu einer Platzierungsgruppe hinzuzufügen.
 
 
 ## Platzierungsgruppen über die Seite 'Platzierungsgruppen' verwalten
@@ -41,7 +40,6 @@ Führen Sie die folgenden Schritte aus, um Platzierungsgruppen über die Seite '
      * Gruppe hinzufügen.
      * Gruppeninformationen bearbeiten.
      * Gruppe löschen.
-     
+
  **Hinweise:** Zugewiesene Server müssen von der Platzierungsgruppe entfernt werden, bevor die Platzierungsgruppe gelöscht werden kann.
 Zum Entfernen einer Instanz von einer Platzierungsgruppe muss die Instanz gelöscht oder freigegeben werden.
-     

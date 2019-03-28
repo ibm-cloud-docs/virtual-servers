@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-12-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -19,6 +18,7 @@ lastupdated: "2017-12-12"
 {:table: .aria-labeledby="caption"}
 
 # Portgeschwindigkeit in Linux erhöhen (Upgrade)
+{: #upgrading-port-speed-in-linux}
 
 Die Standardportgeschwindigkeit für Kundenserver (sowohl für öffentliche als auch private Netze) beträgt 10 Mbps. Wenn Sie Ihre Portgeschwindigkeit auf 100 Mbps oder 1000 Mbps erhöhen möchten, öffnen Sie bitte ein Ticket bei unserer Vertriebsabteilung. Der Vertrieb wird Sie bitten, die monatliche Gebühr zu bestätigen, und ein Techniker wird die Portgeschwindigkeitslimits für das Netz ändern.
 

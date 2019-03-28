@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2015, 2017
 lastupdated: "2017-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -16,7 +15,7 @@ lastupdated: "2017-10-24"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Angepasstes Bereitstellungsscript hinzufügen 
+# Angepasstes Bereitstellungsscript hinzufügen
 {: #adding-post-script}
 
 Angepasste Bereitstellungsscripts bieten Benutzern die Möglichkeit, eine URL für ein Script anzugeben, das in einer neu bereitgestellten Einheit ausgeführt werden soll. Angepasste Bereitstellungsscripts können Sie im {{site.data.keyword.slportal_full}} posten und verwalten.

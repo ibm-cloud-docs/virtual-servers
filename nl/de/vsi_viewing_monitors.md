@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-10-23"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,6 +16,7 @@ lastupdated: "2017-10-23"
 {:table: .aria-labeledby="caption"}
 
 # Überwachung anzeigen und verwalten
+{: #viewing-and-managing-monitors}
 
 Die Überwachung einer Einheit bietet Benutzern die Möglichkeit, durch das Absetzen von Service-Pingsignalen und langsamen Pingsignalen sicherzustellen, dass die Einheit online und reaktionsfähig ist.
 {:shortdesc}
@@ -78,9 +78,9 @@ gibt an, dass kein Echo empfangen wurde. Wenn Sie bereits eine Basisüberwachung
    </tr>
    </TBODY>
    </table>
-   
+
 ## Nächste Schritte
-   
+
 - Wenn eine neue Überwachung hinzugefügt wurde, wird sie auf der Registerkarte **Überwachung** angezeigt. Die Überwachung sendet alle fünf Minuten ein Pingsignal an die Einheit und erwartet eine Antwort entsprechend dem ausgewählten Pingsignaltyp. Wenn die erwartete Antwort nicht eintrifft, wird im angegebenen Zeitrahmen eine E-Mail an die für das Konto angegebene Benachrichtigungs-E-Mail-Adresse gesendet, falls die Benachrichtigungsoption ausgewählt wurde.
 - Wenn eine Überwachung bearbeitet wurde, wird die Überwachung unter Beachtung der angegebenen Überwachungsdetails fortgesetzt. Wenn der Typ geändert wurde, wird ein geänderter Zeitrahmen für den Empfang des erwarteten Pingsignals verwendet. Wenn Benachrichtigungsoptionen geändert wurden, erfolgt die Benutzerbenachrichtigung über fehlgeschlagene Versuche gemäß den neuen Auswahlen. Die Überwachung ist in der Registerkarte **Überwachung** weiterhin zugänglich.
 - Wenn eine Überwachung entfernt wurde, wird sie für die Einheit nicht mehr ausgeführt. Alle zugehörigen Prozesse für die Überwachung, die entfernt wurde, werden beendet, und die Überwachung wird auf der Registerkarte **Überwachung** nicht mehr angezeigt.
