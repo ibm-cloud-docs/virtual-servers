@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-08-23"
 
+subcollection: virtual-servers
 
 ---
 
@@ -27,9 +26,9 @@ I firewall sono disponibili come una funzione aggiuntiva per tutti i server nell
 
 Come parte del processo di ordine, puoi selezionare l'hardware specifico per il dispositivo o un firewall software per fornire protezione. In alternativa, puoi distribuire le applicazioni firewall dedicate all'ambiente e distribuire il server virtuale a una VLAN protetta.  
 
-**Nota:** un server virtuale non può essere protetto da due applicazioni firewall nella stessa interfaccia. 
+**Nota:** un server virtuale non può essere protetto da due applicazioni firewall nella stessa interfaccia.
 
 Per ulteriori informazioni, consulta le seguenti raccolte di argomenti di sicurezza.
 
-* [Firewall hardware (condivisi)](../infrastructure/hardware-firewall-shared/getting-started.html)
-* [Firewall hardware (dedicati)](../infrastructure/hardware-firewall-dedicated/getting-started.html)
+* [Firewall hardware (condivisi)](/docs/infrastructure/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started-with-hardware-firewall-shared)
+* [Firewall hardware (dedicati)](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-getting-started-with-hardware-firewall-dedicated)

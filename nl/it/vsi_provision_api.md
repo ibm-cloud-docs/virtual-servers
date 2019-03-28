@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-02-28"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,18 +16,18 @@ lastupdated: "2018-02-28"
 {:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
-# Esempi API: caratteristiche server virtuali pubblici
+# Esempi API: profili server virtuali pubblici
 {: #api-rest-public}
 
-Le seguenti informazioni visualizzano gli esempi API Rest per il provisioning delle istanze del server virtuale pubbliche che utilizzano caratteristiche preimpostate.
+Le seguenti informazioni visualizzano gli esempi API Rest per il provisioning delle istanze del server virtuale pubbliche che utilizzano profili preimpostati.
 {:shortdesc}
 
 Per ulteriori esempi API solidi, consulta le seguenti risorse:
 * [Softlayer_Virtual_Guest API examples ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://softlayer.github.io/classes/softlayer_virtual_guest/)
-* [Getting a flavor list ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://softlayer.github.io/article/vsiflavors/)
+* [Getting a profile list ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://softlayer.github.io/article/vsiflavors/)
 
 ## Provisioning di un'istanza pubblica utilizzando Crea oggetto
-Il servizio API *SoftLayer_Virtual_Guest/createObject* è il modo più semplice per eseguire il provisioning di un'istanza del server virtuale pubblica che utilizza caratteristiche preimpostate.
+Il servizio API *SoftLayer_Virtual_Guest/createObject* è il modo più semplice per eseguire il provisioning di un'istanza del server virtuale pubblica che utilizza profili preimpostati.
 
 Non applicabile alle istanze temporanee.
 {:tip}
@@ -61,7 +60,7 @@ Per eseguire il provisioning di un'istanza del server virtuale pubblica utilizza
 ```
 
 ## Provisioning di un'istanza pubblica utilizzando Effettua ordine oggetto
-Il provisioning di un server virtuale che utilizza le caratteristiche preimpostate viene eseguito utilizzando il servizio API *SoftLayer_Product_Order/placeOrder*.
+Il provisioning di un server virtuale pubblico che utilizza i profili preimpostati viene eseguito utilizzando il servizio API *SoftLayer_Product_Order/placeOrder*.
 
 Non applicabile alle istanze temporanee.
 {:tip}

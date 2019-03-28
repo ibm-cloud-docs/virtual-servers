@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2017
-lastupdated: "2017-08-10"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,15 +16,17 @@ lastupdated: "2017-08-10"
 {:table: .aria-labeledby="caption"}
 
 # Bilanciato
-Le caratteristiche bilanciate (con l'archiviazione assegnata per rete) forniscono prestazioni elevate, poiché le non possono sottoscrivere più della disponibilità effettiva. Le prestazioni di rete vanno da standard a premium. 
+{: #balanced}
 
-L'offerta è disponibile nelle seguenti caratteristiche:
+I profili bilanciati (con l'archiviazione assegnata per rete) forniscono prestazioni elevate, poiché le risorse non possono sottoscrivere più della disponibilità effettiva. Le prestazioni di rete vanno da standard a premium.
+
+L'offerta è disponibile nei seguenti profili:
 
 <table>
-<CAPTION>Tabella 3. Caratteristiche bilanciate con l'archiviazione assegnata per rete.</CAPTION>
+<CAPTION>Tabella 1. Profili bilanciati con l'archiviazione assegnata per rete</CAPTION>
 <THEAD>
 <TR>
-<th>Caratteristica</th>
+<th>Profilo</th>
 <th>vCPU</th>
 <th>RAM</th>
 <th>Tipo di archiviazione</th>
@@ -113,11 +114,11 @@ L'offerta è disponibile nelle seguenti caratteristiche:
 </TBODY>
 </table>
 
-**Note di archiviazione:** 
+**Note di archiviazione:**
 
 * Disco di avvio primario SAN (25 o 100 GB) con dischi aggiuntivi disponibili, fino a 2 TB ciascuno (5 dischi totali consentiti).
 * I prezzi per i server virtuali pubblici che utilizzano l'archiviazione SAN includono CPU virtuale, memoria e disco di avvio primario minimo. I prezzi di ulteriori dischi dipendono dalla dimensione e dalla quantità che selezioni.  
 
-Le caratteristiche bilanciate (con l'archiviazione assegnata per rete) sono disponibili in tutti i data center.
+I profili bilanciati (con l'archiviazione assegnata per rete) sono disponibili in tutti i data center.
 
 Tutti i sistemi operativi supportati (come RHEL, CentOS, Windows, Ubuntu e altri), i database supportati e i componenti aggiuntivi software sono inoltre disponibili con questa offerta.  

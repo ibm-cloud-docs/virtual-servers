@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-05-11"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,6 +17,7 @@ lastupdated: "2018-05-11"
 {:table: .aria-labeledby="caption"}
 
 # Configurazione delle notifiche per i recuperi dei server virtuali temporanei
+{: #configuring-notifications-for-reclaims-of-transient-virtual-servers}
 
 I server virtuali temporanei sono per loro natura temporanei e possono essere terminati in qualsiasi momento, che potrebbe comportare la perdita di dati. Le notifiche di recupero automatizzate possono essere utili a ridurre la perdita di dati. Quando ne viene eseguito il provisioning, un server virtuale temporaneo può essere configurato per ricevere una notifica che sta per essere terminato, **due minuti** prima della terminazione effettiva. La notifica ti consente di avvisare in modo programmatico il server virtuale temporaneo di finire qualsiasi elaborazione in corso o di trasferire tutti i dati necessari al di fuori di esso.
 
@@ -28,8 +28,9 @@ La notifica `reclaim-scheduled` è un webhook, il che significa che la notifica 
 3. Verifica le richieste del webhook.
 
 ## Provisioning di un'istanza del server virtuale temporanea
+{: #provision-transient-virtual-server}
 
-I server virtuali temporanei possono essere forniti tramite [{{site.data.keyword.slportal_full}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} o tramite [SLDN API ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](http://sldn.softlayer.com){: new_window}. Per ulteriori informazioni, vedi [Provisioning delle istanze temporanee](/docs/vsi/vsi_provision_transient.html).
+I server virtuali temporanei possono essere forniti tramite [{{site.data.keyword.slportal_full}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} o tramite [SLDN API ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](http://sldn.softlayer.com){: new_window}. Per ulteriori informazioni, vedi [Provisioning delle istanze temporanee](/docs/vsi?topic=virtual-servers-ordering-vs-transient).
 
 ## Configurazione del webhook
 

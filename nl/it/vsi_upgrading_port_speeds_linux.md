@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-12-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -19,6 +18,7 @@ lastupdated: "2017-12-12"
 {:table: .aria-labeledby="caption"}
 
 # Upgrade della velocità della porta in Linux
+{: #upgrading-port-speed-in-linux}
 
 Le velocità della porta predefinite per i server del cliente (sia per le reti private che pubbliche) sono 10 Mbps. Se vuoi aggiornare una delle tue velocità della porta a 100 Mbps o 1000 Mbps, apri un ticket con il nostro dipartimento delle vendite. Il dipartimento delle vendite ti chiederà di approvare l'addebito mensile e un tecnico modificherà i limiti di velocità della porta nella rete.
 

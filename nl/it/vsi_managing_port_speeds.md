@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-12-13"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,6 +17,7 @@ lastupdated: "2017-12-13"
 {:table: .aria-labeledby="caption"}
 
 # Gestione delle velocità della porta
+{: #managing-port-speeds}
 
 {{site.data.keyword.slportal_full}} ti consente di modificare la velocità che stanno negoziando i tuoi server, senza aprire un ticket di supporto.
 

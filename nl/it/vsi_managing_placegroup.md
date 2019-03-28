@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-10-31"
 
+subcollection: virtual-servers
 
 ---
 
@@ -27,7 +26,7 @@ Per aggiungere dei gruppi di posizionamento dalla pagina Placement Groups, compl
 2. Nella pagina Placement Groups, fai clic su **Add Placement Group**.
 3. Immetti un nome, una descrizione e un data center per il gruppo di posizionamento e fai clic su **Add**.
 
-**Nota:** le istanze esistenti non possono essere aggiunte a un gruppo di posizionamento; puoi aggiungere un'istanza del server virtuale a un gruppo di posizionamento solo in fase di provisioning. 
+**Nota:** le istanze esistenti non possono essere aggiunte a un gruppo di posizionamento; puoi aggiungere un'istanza del server virtuale a un gruppo di posizionamento solo in fase di provisioning.
 
 
 ## Gestione dei gruppi di posizionamento dalla pagina Placement Groups
@@ -41,7 +40,6 @@ Per gestire i gruppi di posizionamento dalla pagina Placement Groups, completa l
      * Aggiungere un gruppo.
      * Modificare le informazioni sul gruppo.
      * Eliminare un gruppo.
-     
+
  **Note:** devi rimuovere i server assegnati dal gruppo di posizionamento prima che il gruppo di posizionamento possa essere eliminato.
 Per rimuovere un'istanza da un gruppo di posizionamento, devi eliminare o recuperare l'istanza.
-     

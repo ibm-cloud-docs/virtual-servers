@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-09-24"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,15 +16,17 @@ lastupdated: "2018-09-24"
 {:table: .aria-labeledby="caption"}
 
 # GPU
-Le caratteristiche GPU sono migliori per i carichi di lavoro dalle prestazioni elevate che richiedono più densità di calcolo per ridurre la gestione delle risorse e i costi. Le caratteristiche GPU sono ideali per i processi di intelligenza artificiale, le applicazioni di dati e grafiche intense o per lo sviluppo di nuove applicazioni che richiedono prestazioni veloci.
+{: #gpu}
 
-Con tecnologia NVDIA Tesla GPUs, le caratteristiche {{site.data.keyword.cloud_notm}} Accelerated Compute “ac1” e "ac2" offrono entrambe l'archiviazione blocchi e SSD locale. Le seguenti caratteristiche GPU sono disponibili per la tua scelta:  
+I profili GPU sono migliori per i carichi di lavoro dalle prestazioni elevate che richiedono più densità di calcolo per ridurre la gestione delle risorse e i costi. I profili GPU sono ideali per i processi di intelligenza artificiale, le applicazioni di dati e grafiche intense o per lo sviluppo di nuove applicazioni che richiedono prestazioni veloci. 
+
+Con tecnologia NVDIA Tesla GPUs, le caratteristiche {{site.data.keyword.cloud_notm}} Accelerated Compute “ac1” e "ac2" offrono entrambe l'archiviazione blocchi e SSD locale. I seguenti profili GPU sono disponibili per la tua scelta:  
 
   <table>
-<CAPTION>Tabella 1. Caratteristiche P100 GPU</CAPTION>
+<CAPTION>Tabella 1. Profili P100 GPU</CAPTION>
 <THEAD>
 <TR>
-<th>Caratteristica</th>
+<th>Profilo</th>
 <th>GPU</th>
 <th>GPU RAM (GB)</th>
 <th>vCPU</th>
@@ -79,13 +80,13 @@ Con tecnologia NVDIA Tesla GPUs, le caratteristiche {{site.data.keyword.cloud_no
 </TBODY>
 </table>
 
-**Nota:** le caratteristiche P100 GPU sono disponibili nei data center _DAL13_, _LON06_ e _WDC07_.
+**Nota:** i profili P100 GPU sono disponibili nei data center _DAL13_, _LON06_ e _WDC07_.
 
 <table>
-<CAPTION>Tabella 2. Caratteristiche V100 GPU</CAPTION>
+<CAPTION>Tabella 2. Profili V100 GPU</CAPTION>
 <THEAD>
 <TR>
-<th>Caratteristica</th>
+<th>Profilo</th>
 <th>GPU</th>
 <th>GPU RAM (GB)</th>
 <th>vCPU</th>
@@ -139,13 +140,13 @@ Con tecnologia NVDIA Tesla GPUs, le caratteristiche {{site.data.keyword.cloud_no
 </TBODY>
 </table>
 
-**Nota:** le caratteristiche V100 GPU sono disponibili nei data center _DAL10_, _DAL12_ e _LON04_<!--WDC07-->.
+**Nota:** i profili V100 GPU sono disponibili nei data center _DAL10_, _DAL12_, _LON04_ e _WDC07_.
 
 
 ## Informazioni preliminari
 Controlla i seguenti prerequisiti GPU.
 
-1. I server virtuali della caratteristica GPU sono disponibili solo su un sistema operativo che supporta la modalità di avvio HVM (Hardware Virtual Machine). Consulta il seguente elenco per i sistemi operativi che supportano la modalità di avvio HVM.  
+1. I server virtuali del profilo GPU sono disponibili solo su un sistema operativo che supporta la modalità di avvio HVM (Hardware Virtual Machine). Consulta il seguente elenco per i sistemi operativi che supportano la modalità di avvio HVM.  
   - CentOS 7
   - Debian 8
   - RHEL 7
@@ -153,10 +154,10 @@ Controlla i seguenti prerequisiti GPU.
   - Windows 2012 R2
   - Windows 2016
 
-2. Devono essere installati il software e i driver NVIDIA appropriati. Per ulteriori informazioni sul software e sui driver NVIDIA, consulta [Installazione dei driver GPU dai pacchetti software](../vsi/vsi_gpu_nvidia_drivers.html).  
+2. Devono essere installati il software e i driver NVIDIA appropriati. Per ulteriori informazioni sul software e sui driver NVIDIA, consulta [Installazione dei driver GPU dai pacchetti software](/docs/vsi?topic=virtual-servers-installing-gpu-drivers-and-software-packages).  
 **Nota:** il software che istalli potrebbe avere del software prerequisito e delle configurazioni specifiche per sistema operativo.
 
-## Aggiungi o rimuovi GPU 
+## Aggiungi o rimuovi GPU
 Puoi modificare il numero di GPU sul tuo server virtuale dopo l'ordine iniziale. Ma dipende da quanti GPU hai fornito. Hai una delle seguenti opzioni.
 
 - Se viene fornita una GPU, puoi aggiungerne un'altra oppure

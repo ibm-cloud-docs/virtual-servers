@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -19,34 +18,34 @@ lastupdated: "2018-10-24"
 # Provisioning di istanze e host dedicati
 {: #ordering-vs-dedicated}
 
-Hai due opzioni su come eseguire il provisioning delle tue istanze dedicate. La prima è attraverso il catalogo {{site.data.keyword.Bluemix}} e la seconda tramite il {{site.data.keyword.slportal_full}}. Il catalogo e il {{site.data.keyword.slportal}} richiedono ID di accesso univoci. I tuoi nome utente e password del catalogo non funzionano per accedere al portale e viceversa. Vedi [Registrazione a {{site.data.keyword.Bluemix_notm}}](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window} per configurare le tue credenziali del catalogo {{site.data.keyword.Bluemix_notm}} o del {{site.data.keyword.slportal}}.
+Hai due opzioni su come eseguire il provisioning delle tue istanze dedicate. La prima è attraverso il catalogo {{site.data.keyword.Bluemix}} e la seconda tramite il {{site.data.keyword.slportal_full}}. Il catalogo e il {{site.data.keyword.slportal}} richiedono ID di accesso univoci. I tuoi nome utente e password del catalogo non funzionano per accedere al portale e viceversa. Vedi [Registrazione a {{site.data.keyword.Bluemix_notm}}](/docs/account?topic=account-signup#signup) per configurare le tue credenziali del catalogo {{site.data.keyword.Bluemix_notm}} o del {{site.data.keyword.slportal}}.
 {:shortdesc}
 
 ## Provisioning di istanze e host dedicati
 È possibile eseguire il provisioning di host e istanze dedicati tramite {{site.data.keyword.cloud_notm}} o il {{site.data.keyword.slportal}}.
 
-### Provisioning di host e istanze dedicati tramite il catalogo IBM Cloud 
-Per eseguire il provisioning dei tuoi host dedicati e delle tue istanze host dedicate tramite il catalogo {{site.data.keyword.cloud_notm}}, completa la seguente procedura: 
+### Provisioning di host e istanze dedicati tramite il catalogo IBM Cloud
+Per eseguire il provisioning dei tuoi host dedicati e delle tue istanze host dedicate tramite il catalogo {{site.data.keyword.cloud_notm}}, completa la seguente procedura:
 
-1. Accedi al catalogo [{{site.data.keyword.cloud_notm}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://console.bluemix.net/catalog/){: new_window} utilizzando le tue credenziali univoche. 
+1. Accedi al catalogo [{{site.data.keyword.cloud_notm}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://console.bluemix.net/catalog/){: new_window} utilizzando le tue credenziali univoche.
 2. Nella sezione **Infrastruttura di calcolo**, fai clic sul tile **Server virtuali**.
 3. Seleziona l'opzione **Virtual Server dedicato**.
 4. Fai clic su **Crea**.
 5. Nella sezione **Host dedicato**, puoi selezionare **Crea host**, dove puoi creare un nuovo host dedicato, oppure **Specifica host**, dove puoi operare una selezione dai tuoi host dedicati esistenti.
 6. Completa tutte le informazioni pertinenti per la tua istanza host dedicata e la tua istanza del server virtuale dedicata.
 7. Dopo aver riesaminato il riepilogo dell'ordine, fai clic sulla casella di spunta **Accordi di servizio di terze parti**.
-8. Fai clic su **Provisioning**. 
+8. Fai clic su **Provisioning**.
 
 ### Provisioning di host e istanze dedicati tramite il portale del cliente
 Per eseguire il provisioning dei tuoi host dedicati e delle tue istanze host dedicate tramite il {{site.data.keyword.slportal}}, completa la seguente procedura:
 
 1. Accedi al [{{site.data.keyword.slportal}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} utilizzando le tue credenziali univoche.
 
-#### Provisioning del tuo host dedicato 
+#### Provisioning del tuo host dedicato
 Utilizza le seguenti istruzioni per eseguire il provisioning dei tuoi host dedicati.
 
 1.	Fai clic sull'icona **Devices**.
-2.  Fai clic sul link **Dedicated Virtual Server Hourly** o su quello **Dedicated Virtual Server Monthly**. 
+2.  Fai clic sul link **Dedicated Virtual Server Hourly** o su quello **Dedicated Virtual Server Monthly**.
 
    **Nota:** i server dedicati sono server privati.
 
@@ -54,7 +53,7 @@ Vieni reindirizzato alla pagina *Configure your Cloud Server*. È da questa pagi
 
 4.	Fai clic sul pulsante **Crea host** nel lato destro del modulo.
 5.	Immetti le seguenti informazioni:
-    
+
     <table>
     <CAPTION>Tabella 1. Selezioni provisioning host dedicati</CAPTION>
     <THEAD>
@@ -77,9 +76,9 @@ Vieni reindirizzato alla pagina *Configure your Cloud Server*. È da questa pagi
     </tr>
     </TBODY>
     </table>
-    
-    Il tuo riepilogo dell'ordine viene visualizzato al lato destro della pagina *Configurazione*. 
-    
+
+    Il tuo riepilogo dell'ordine viene visualizzato al lato destro della pagina *Configurazione*.
+
 6.  Fai clic sul pulsante **Aggiungi all'ordine**.
 7.  Conferma le tue selezioni nella pagina *Checkout* e scorri fino a *Configurazione avanzata del sistema host dedicato*.
 8.  Immetti le seguenti informazioni:
@@ -118,22 +117,22 @@ Vieni reindirizzato alla pagina *Configure your Cloud Server*. È da questa pagi
 
 Per eseguire il provisioning delle tue istanze host dedicate tramite il {{site.data.keyword.slportal}}, completa la seguente procedura:
 
-1.	Fai clic su **Devices > Device List**. 
- 
-    La pagina *Devices* visualizza tutti i tipi di dispositivi —host dedicati, server virtuali, server bare metal e controller di distribuzione dell'applicazione NetScaler— presenti nel tuo account. 
+1.	Fai clic su **Devices > Device List**.
+
+    La pagina *Devices* visualizza tutti i tipi di dispositivi —host dedicati, server virtuali, server bare metal e controller di distribuzione dell'applicazione NetScaler— presenti nel tuo account.
 
 2.	Seleziona l'host per le tue istanze host dedicate facendo clic sul suo link in **Device Name**.
-    
+
     Sei nella scheda **Configuration** della pagina *Device Details*. La scheda **Ticket** elenca i tuoi ticket di supporto attivi e la scheda **Allocations** visualizza il tuo utilizzo di memoria per il tuo periodo di fatturazione selezionato. Consulta Utilizzo dei dettagli del dispositivo per gestire le istanze e gli host dedicati per ulteriori informazioni sulle schede.
 
 3.	Scorri al frame **Instances**.
 
-    Come il tuo host dedicato viene fatturato (mensile o orario) determina la fatturazione delle tue istanze host dedicate. Tieni presente che se hai host fatturati mensilmente, puoi eseguire il provisioning di istanze host dedicate fatturate mensili e orarie. Sono presenti due link-**Add hourly** e **Add monthly**—disponibili quando esegui il provisioning delle tue istanze. Gli host a fatturazione oraria possono soltanto eseguire il provisioning di istanze host dedicate a fatturazione oraria e verrà visualizzato solo il link **Aggiungi orario**. 
+    Come il tuo host dedicato viene fatturato (mensile o orario) determina la fatturazione delle tue istanze host dedicate. Tieni presente che se hai host fatturati mensilmente, puoi eseguire il provisioning di istanze host dedicate fatturate mensili e orarie. Sono presenti due link-**Add hourly** e **Add monthly**—disponibili quando esegui il provisioning delle tue istanze. Gli host a fatturazione oraria possono soltanto eseguire il provisioning di istanze host dedicate a fatturazione oraria e verrà visualizzato solo il link **Aggiungi orario**.
 
-4.	Fai clic sul link **Add hourly** se il tuo host ha fatturazione oraria o mensile; fai clic sul link **Add monthly** se il tuo host viene fatturato mensilmente. Vieni reindirizzato alla pagina *Configure your Cloud Server*. 
+4.	Fai clic sul link **Add hourly** se il tuo host ha fatturazione oraria o mensile; fai clic sul link **Add monthly** se il tuo host viene fatturato mensilmente. Vieni reindirizzato alla pagina *Configure your Cloud Server*.
 
 5.	Immetti le seguenti informazioni:
-       
+
     <table>
     <CAPTION>Tabella 3. Selezioni istanze host dedicate</CAPTION>
     <THEAD>
@@ -169,7 +168,7 @@ Per eseguire il provisioning delle tue istanze host dedicate tramite il {{site.d
     <td> Seleziona la RAM per ogni istanza in un ordine di provisioning.</td>
     </tr>
     <tr>
-    <td>Sistema Operativo</td>
+    <td>Sistema operativo</td>
     <td>Seleziona il sistema operativo per l'istanza. Tieni presente che viene emesso un messaggio di errore se è presente un conflitto tra il server e il sistema operativo. Ad esempio, selezionando Linux su un server Microsoft SQL.</td>
     </tr>
     <tr>
@@ -189,7 +188,7 @@ Per eseguire il provisioning delle tue istanze host dedicate tramite il {{site.d
     </tr>
     <tr>
     </TBODY>
-    </table> 
+    </table>
 
 6.	Fai clic sul pulsante **Aggiungi all'ordine**.
 7.  Immetti le seguenti informazioni nella pagina *Checkout* in *Configurazione avanzata del sistema*:
@@ -237,6 +236,4 @@ Per eseguire il provisioning delle tue istanze host dedicate tramite il {{site.d
 Riceverai un'email dopo il provisioning delle tue istanze host dedicate.
 
 ## Passi successivi
-Dopo che è stato eseguito il provisioning del tuo server virtuale, puoi iniziare a gestirlo. Per ulteriori informazioni, vedi [Gestione dei server virtuali](../vsi/vsi_managing.html).
-
-
+Dopo che è stato eseguito il provisioning del tuo server virtuale, puoi iniziare a gestirlo. Per ulteriori informazioni, vedi [Gestione dei server virtuali](/docs/vsi?topic=virtual-servers-managing-virtual-servers).

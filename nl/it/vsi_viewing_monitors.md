@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-10-23"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,6 +16,7 @@ lastupdated: "2017-10-23"
 {:table: .aria-labeledby="caption"}
 
 # Visualizzazione e gestione dei monitoraggi
+{: #viewing-and-managing-monitors}
 
 Il monitoraggio di un dispositivo consente all'utente di avviare i ping lenti e del servizio per assicurarsi che il dispositivo sia online e reattivo.
 {:shortdesc}
@@ -78,9 +78,9 @@ indica che non è stato ricevuto. Se hai già configurato un monitoraggio di bas
    </tr>
    </TBODY>
    </table>
-   
+
 ## Passi successivi
-   
+
 - Se è stato aggiunto un nuovo monitoraggio, verrà visualizzato nella scheda **Monitoraggio**. Il monitoraggio invierà un ping al dispositivo ogni cinque minuti, attendendo una risposta in base al tipo di ping selezionato. Se la risposta prevista non viene ricevuta, viene inviata un'email all'indirizzo email di notifica per l'account nell'intervallo di tempo specificato, se l'invio della notifica è stato selezionato.
 - Se un monitoraggio è stato modificato, continuerà a funzionare come specificato nei dettagli del monitoraggio. Se viene modificato il tipo, la quantità di tempo per ricevere il ping sarà differente. Se le opzioni di notifica sono state modificate, il modo in cui gli utenti verranno avvisati dei tentativi non riusciti verrà modificato in base alle nuove selezioni. Il monitoraggio rimarrà accessibile dalla scheda **Monitoraggio**.
 - Se un monitoraggio è stato rimosso, non funzionerà più per il dispositivo. Tutto il monitoraggio associato con il monitoraggio rimosso sarà interrotto e non verrà più visualizzato nella scheda **Monitoraggio**.

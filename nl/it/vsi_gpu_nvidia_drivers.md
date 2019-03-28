@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-02-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,6 +16,8 @@ lastupdated: "2018-02-12"
 {:table: .aria-labeledby="caption"}
 
 # Installazione dei driver GPU dai pacchetti software
+{: #installing-gpu-drivers-and-software-packages}
+
 Devi installare il seguente software prima di poter utilizzare un server virtuale della famiglia GPU.
 * [NVIDIA drivers ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](http://www.nvidia.com/drivers){: new_window} - consente al tuo sistema operativo per comunicare con il GPU.
 * [CUDA Toolkit ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://docs.nvidia.com/cuda/){: new_window} - ambiente di sviluppo per le applicazioni accelerate GPU di prestazioni elevate.
@@ -31,4 +32,3 @@ Devi installare il seguente software prima di poter utilizzare un server virtual
 Se stai installando un framework machine learning, devi installare il software del framework come ad esempio una di queste piattaforme in aggiunta ai precedenti pacchetti software.
 * [Caffe ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://www.nvidia.com/en-us/data-center/gpu-accelerated-applications/caffe/){: new_window} (Convolutional Architecture for Fast Feature Embedding) - con licenza, framework di apprendimento approfondito open source.
 * [Tensorflow (Tensorflow 1.2+) ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://www.tensorflow.org/install/){: new_window} - fornisce una libreria software open source per il calcolo numerico.
-

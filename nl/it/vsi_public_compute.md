@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2017
-lastupdated: "2017-08-10"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,15 +16,17 @@ lastupdated: "2017-08-10"
 {:table: .aria-labeledby="caption"}
 
 # Calcolo
-Le caratteristiche di calcolo sono migliori per i carichi di lavoro con richiesta di CPU intensiva, come i carichi di lavoro di traffico web elevato, l'elaborazione batch di produzione e i server web di frontend.
+{: #compute}
 
-L'offerta è disponibile nelle seguenti caratteristiche:
+I profili di calcolo sono migliori per i carichi di lavoro con richiesta di CPU intensiva, come i carichi di lavoro di traffico web elevato, l'elaborazione batch di produzione e i server web di frontend.
+
+L'offerta è disponibile nei seguenti profili:
 
 <table>
-<CAPTION>Tabella 1. Caratteristiche di calcolo</CAPTION>
+<CAPTION>Tabella 1. Profili di calcolo</CAPTION>
 <THEAD>
 <TR>
-<th>Caratteristica</th>
+<th>Profilo</th>
 <th>vCPU</th>
 <th>RAM</th>
 <th>Tipo di archiviazione</th>
@@ -75,7 +76,6 @@ L'offerta è disponibile nelle seguenti caratteristiche:
 * Disco di avvio primario SAN (25 o 100 GB) con dischi aggiuntivi disponibili, fino a 2 TB ciascuno (5 dischi totali consentiti).
 * I prezzi per i server virtuali pubblici che utilizzano l'archiviazione SAN includono CPU virtuale, memoria e disco di avvio primario minimo. I prezzi di ulteriori dischi dipendono dalla dimensione e dalla quantità che selezioni.  
 
-Le caratteristiche di calcolo sono disponibili in tutti i data center.
+I profili di calcolo sono disponibili in tutti i data center.
 
 Tutti i sistemi operativi supportati (come RHEL, CentOS, Windows, Ubuntu e altri), i database supportati e i componenti aggiuntivi software sono inoltre disponibili con questa offerta.  
-

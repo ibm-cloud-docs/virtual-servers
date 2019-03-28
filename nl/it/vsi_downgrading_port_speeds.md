@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-12-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,6 +17,7 @@ lastupdated: "2017-12-12"
 {:table: .aria-labeledby="caption"}
 
 # Downgrade delle velocità della porta
+{: #downgrading-port-speeds}
 
 Puoi temporaneamente diminuire le velocità della porta senza aprire un ticket. Puoi accedere all'opzione **Controlli porta** facendo clic su **Azioni** in alto a destra dalla pagina **Dettagli dispositivo**. Da questa schermata, seleziona la velocità di cui hai bisogno o scollegala.
 {:shortdesc}

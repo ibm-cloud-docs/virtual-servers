@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-12-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,6 +16,7 @@ lastupdated: "2017-12-12"
 {:table: .aria-labeledby="caption"}
 
 # Upgrade della velocità della porta in Windows
+{: #upgrading-port-speed-in-windows}
 
 La velocità della porta predefinita per i server del cliente (sia per le reti private che pubbliche) è 10 Mbps. Se vuoi aggiornare una delle tue velocità della porta a 100 Mbps o 1000 Mbps, apri un ticket con la richiesta. Il dipartimento delle vendite ti chiede di approvare l'addebito minimo e un tecnico modifica le velocità della porta sulla rete.
 

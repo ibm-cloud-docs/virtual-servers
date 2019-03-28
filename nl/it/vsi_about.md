@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-11-15"
 
+keywords: scalable virtual servers, virtual servers, key features
+
+subcollection: virtual-servers
 
 ---
 
@@ -17,6 +18,7 @@ lastupdated: "2017-11-15"
 {:table: .aria-labeledby="caption"}
 
 # Informazioni sui server virtuali
+{: #about-virtual-servers}
 
 {{site.data.keyword.BluVirtServers}} sono server virtuali scalabili che vengono acquistati con i core dedicati e le allocazioni di memoria. Sono una grande opzione se stai cercando risorse di calcolo, che possono essere aggiunti in minuti, con l'accesso alle funzioni come i template dell'immagine. L'hypervisor è totalmente gestito da {{site.data.keyword.BluSoftlayer_full}} e puoi eseguire le attività di gestione e configurazione utilizzando sia il {{site.data.keyword.slportal_full}} che l'{{site.data.keyword.slapi_short}}. I server virtuali vengono distribuiti alle stesse VLAN dei server fisici, consentendoti di estendere i carichi di lavoro tra più server virtuali e bare metal, mentre conservi l'interoperabilità. I server virtuali sono completamente personalizzabili quando li ordini, con opzioni per il ridimensionamento quando il tuo calcolo deve crescere.
 {:shortdesc}

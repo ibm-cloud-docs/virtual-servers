@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-10-30"
 
+subcollection: virtual-servers
 
 ---
 
@@ -15,32 +14,44 @@ lastupdated: "2018-10-30"
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
+{:faq: data-hd-content-type='faq'}
 
 
 # FAQ: server virtuali  
+{: #faqs-virtual-servers}
 
 ## Quali tipi di server virtuali sono disponibili per l'utilizzo?
-{{site.data.keyword.BluSoftlayer_full}} offre un paio di tipi di server virtuali. L'offerta standard è un server virtuale su base pubblica, che è un ambiente a più tenant, adatto per diversi bisogni. Se stai cercando un ambiente a singolo tenant, considera l'offerta del Virtual Server dedicato. L'opzione del server virtuale dedicato è ideale per le applicazioni con requisiti della risorsa più severi. Per ulteriori informazioni sulle offerte del server virtuale correnti, consulta [Introduzione ai server virtuali](../vsi/vsi_index.html).
+{:faq}
+
+{{site.data.keyword.BluSoftlayer_full}} offre un paio di tipi di server virtuali. L'offerta standard è un server virtuale su base pubblica, che è un ambiente a più tenant, adatto per diversi bisogni. Se stai cercando un ambiente a singolo tenant, considera l'offerta del Virtual Server dedicato. L'opzione del server virtuale dedicato è ideale per le applicazioni con requisiti della risorsa più severi. Per ulteriori informazioni sulle offerte del server virtuale correnti, consulta [Introduzione ai server virtuali](/docs/vsi?topic=virtual-servers-getting-started-tutorial).
 
 ## Dove posso trovare le informazioni sui prezzi per i tipi di istanza pubblica?
+{:faq}
+
 Per informazioni sui prezzi, vedi [Crea il tuo server virtuale ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://www.ibm.com/cloud-computing/bluemix/virtual-servers){: new_window}.
 
 ## Dove posso trovare le informazioni sui prezzi per le istanze pubbliche virtuali?
+{:faq}
+
 Per le informazioni sui prezzi, consulta la pagina relativa al [calcolatore del provisioning di server virtuali](https://www.ibm.com/cloud-computing/bluemix/virtual-servers/calculator).
 
 ## Posso aggiungere l'archiviazione disco al mio Virtual Server orario o mensile?
-Puoi eseguire o annullare l'aggiornamento dell'archiviazione disco per tutti i server virtuali aggiornando le tue opzioni di archiviazione nei campi *Primo disco* fino a *Quinto disco* nella schermata *Configurazione* del dispositivo che desideri aggiornare. Per ulteriori informazioni, consulta [Riconfigurazione di un server virtuale esistente](../vsi/vsi_reconfigure.html).
+{:faq}
+
+Puoi eseguire o annullare l'aggiornamento dell'archiviazione disco per tutti i server virtuali aggiornando le tue opzioni di archiviazione nei campi *Primo disco* fino a *Quinto disco* nella schermata *Configurazione* del dispositivo che desideri aggiornare. Per ulteriori informazioni, consulta [Riconfigurazione di un server virtuale esistente](/docs/vsi?topic=virtual-servers-reconfiguring-virtual-servers).
 
 ## Quanti server virtuali orari posso avviare?
+{:faq}
 
 Per impostazione predefinita, un account ha un limite di 20 istanze che possono essere eseguite sui server virtuali pubblici, dedicati e bare metal in un determinato momento.  Se vuoi incrementare questo limite, contatta il supporto per farci sapere qualcosa di più su cosa stai facendo e di quante istanze contemporanee hai bisogno.
 
 ## Sarò addebitato per larghezza di banda per i miei server virtuali orari?
+{:faq}
 
 La fatturazione virtuale oraria è suddivisa per il traffico in entrata e in uscita. Tutto il traffico in entrata verso il tuo server virtuale è gratuito. Il traffico in uscita viene misurato e addebitato per GB, con i totali valutati alla fine del tuo periodo di fatturazione.
 
 ## In quali casi il mio server virtuale viene migrato su un altro host?
-
+{:faq}
 In casi limitati potrebbe essere necessario migrare un server virtuale su un altro host. Se è richiesta una migrazione, il server virtuale viene arrestato, migrato e quindi riavviato. Un server virtuale potrebbe essere migrato nei seguenti casi:
 
 * Un hypervisor deve essere aggiornato, un host viene disattivato o un host non può più caricare nuove istanze. Se un host è contrassegnato per una di queste modifiche, quando viene riavviato uno dei suoi server virtuali dal {{site.data.keyword.slportal_full}}, il riavvio attiva automaticamente il server virtuale da migrare su un altro host.
@@ -52,15 +63,17 @@ Durante una finestra di manutenzione potresti vedere un'opzione **Migra host** n
 Potresti anche visualizzare l'opzione **Migra host** se è richiesto che uno dei tuoi server virtuali abbia un determinato livello di hypervisor che non è disponibile nell'host corrente.
 
 ## Cosa succede ai miei dati quando la mia archiviazione portatile viene eliminata?
+{:faq}
 
 Quando l'archiviazione viene eliminata, tutti i puntatori ai dati su quel volume vengono rimossi, quindi i dati diventano completamente inaccessibili. Se l'archiviazione fisica viene rifornita in un altro account, viene assegnata una nuova serie di puntatori. Non c'è modo per il nuovo account di accedere ai dati che potevano trovarsi nell'archiviazione fisica. La nuova serie di puntatori mostra tutti 0. Quando vengono scritti i nuovi dati nel volume/LUN, tutti i dati non accessibili che ancora esistono vengono sovrascritti.
 
 ## Posso utilizzare una sottoscrizione Red Hat Cloud Access per creare un server virtuale?
+{:faq}
 
-Sì. Quando importi un'immagine, puoi specificare che fornirai la licenza del sistema operativo. Per ulteriori informazioni, vedi [Utilizza Red Hat Cloud Access](../infrastructure/image-templates/use-red-hat-cloud-access.html). Puoi quindi ordinare un server virtuale da quel template dell'immagine e utilizzare la tua sottoscrizione [Red Hat Cloud Access ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://www.redhat.com/en/technologies/cloud-computing/cloud-access){: new_window} esistente.
+Sì. Quando importi un'immagine, puoi specificare che fornirai la licenza del sistema operativo. Per ulteriori informazioni, vedi [Utilizza Red Hat Cloud Access](/docs/infrastructure/image-templates?topic=image-templates-using-your-own-os-license-or-subscription). Puoi quindi ordinare un server virtuale da quel template dell'immagine e utilizzare la tua sottoscrizione [Red Hat Cloud Access ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://www.redhat.com/en/technologies/cloud-computing/cloud-access){: new_window} esistente.
 
 ## Quale è la differenza tra un server virtuale e un VPS (virtual private server)?
-
+{:faq}
 Un server virtuale è simile alle piattaforme VPS (virtual private server) o VDS (virtual dedicated server) con cui potresti già avere familiarità. Questi ambienti "server virtuale" consento il provisioning di ambienti distinti privatamente e in sicurezza su un solo nodo hardware, ma VDS e VPS sono più limitati nelle loro capacità. Le opzioni VPS e VDS sono generalmente circoscritte a un'architettura a singolo server, per cui solo le risorse che possono essere aggiunte o divise tra ogni server virtuale in una VDS o VPS sono le risorse fisicamente installate su tale server singolo.
 
 Viene eseguito il provisioning dei server virtuali su un'architettura cloud a più server che raggruppa tutte le risorse hardware disponibili per le istanze individuali da utilizzare. I server virtuali possono utilizzare una piattaforma di archiviazione primaria basata su SAN a capacità altamente condivisa o un'archiviazione disco locale dalle elevate prestazioni. Poiché ogni istanza fa parte di un ambiente cloud più grande, la comunicazione tra tutti i server virtuali è istantanea.
@@ -70,5 +83,6 @@ Viene eseguito il provisioning dei server virtuali su un'architettura cloud a pi
 <!--This error generally occurs because a password is outdated. To fix this, update the root or Administrator password for the virtual server's operating system in the {{site.data.keyword.slportal_full}}.-->
 
 ## Perché ricevo un errore di capacità quando eseguo il provisioning di un server virtuale?
+{:faq}
 
-Quando esegui il provisioning di un server virtuale, potresti riceve un messaggio di errore che indica che la capacità disponibile non è sufficiente per completare la richiesta. Quando il provisioning non riesce, tutte le istanze del server virtuale in questa richiesta particolare non riescono. Un errore di capacità si verifica quando non ci sono risorse disponibili sufficienti nel router o nel data center per soddisfare la richiesta del servizio. Ci sono molti motivi per cui potresti ricevere questo errore. La disponibilità delle risorse cambia frequentemente, per cui puoi attendere e riprovare più tardi. Per ulteriori informazioni sulle strategie per evitare questo errore, vedi [Considerazioni sulla capacità](https://console.bluemix.net/docs/vsi/ts_capacity_bp.html).
+Quando esegui il provisioning di un server virtuale, potresti riceve un messaggio di errore che indica che la capacità disponibile non è sufficiente per completare la richiesta. Quando il provisioning non riesce, tutte le istanze del server virtuale in questa richiesta particolare non riescono. Un errore di capacità si verifica quando non ci sono risorse disponibili sufficienti nel router o nel data center per soddisfare la richiesta del servizio. Ci sono molti motivi per cui potresti ricevere questo errore. La disponibilità delle risorse cambia frequentemente, per cui puoi attendere e riprovare più tardi. Per ulteriori informazioni sulle strategie per evitare questo errore, vedi [Considerazioni sulla capacità](/docs/vsi?topic=virtual-servers-capacity-considerations).

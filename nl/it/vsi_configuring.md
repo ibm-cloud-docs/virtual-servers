@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-03-19"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -23,14 +22,14 @@ lastupdated: "2018-03-19"
 Quando hai accesso al tuo server virtuale, assicurati di configurarlo in modo che soddisfi i bisogni del tuo ambiente.
 {:shortdesc}
 
-## Accedi 
+## Accedi
 Accedi al [{{site.data.keyword.slportal_full}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} con le credenziali che hai ricevuto in un'email quando il tuo account è stato inizialmente creato.
 
 ## Individua il tuo server virtuale
-Trova il tuo server virtuale nell'elenco dei dispositivi nel {{site.data.keyword.slportal}}. Dall'elenco dei dispositivi, puoi gestire i dispositivi, aggiornarli o generare i grafici dell'utilizzo della larghezza di banda. Per ulteriori informazioni, vedi [Gestione dei server virtuali](../vsi/vsi_managing.html).
+Trova il tuo server virtuale nell'elenco dei dispositivi nel {{site.data.keyword.slportal}}. Dall'elenco dei dispositivi, puoi gestire i dispositivi, aggiornarli o generare i grafici dell'utilizzo della larghezza di banda. Per ulteriori informazioni, vedi [Gestione dei server virtuali](/docs/vsi?topic=virtual-servers-managing-virtual-servers).
 
 ## Registra gli indirizzi IP e le credenziali
-Mantieni un log degli indirizzi IP e delle credenziali per il server in una posizione sicura in modo da potervi accedere rapidamente senza dover accedere al {{site.data.keyword.slportal}}. 
+Mantieni un log degli indirizzi IP e delle credenziali per il server in una posizione sicura in modo da potervi accedere rapidamente senza dover accedere al {{site.data.keyword.slportal}}.
 - Indirizzi IP del dispositivo individuali possono essere visualizzati dall'elenco dei dispositivi.
 - Password root del dispositivo individuali possono essere visualizzate nella vista dell'istantanea del dispositivo. Fai clic sulla freccia accanto al nome del dispositivo per espandere la vista.
 - Più indirizzi IP del dispositivo possono essere visualizzati utilizzando l'azione di scaricamento CSV nell'elenco dei dispositivi. Seleziona Scarica CSV dall'ingranaggio delle impostazioni per scaricare un elenco completo di dispositivi e di dettagli nel formato foglio di calcolo.
@@ -40,31 +39,29 @@ A tutto il software che è stato caricato nel tuo dispositivo durante il process
 
 Facoltativamente, gli aggiornamenti delle password possono essere memorizzati nella scheda Password per ciascun dispositivo; tuttavia, ricorda che quando memorizzi le password nel {{site.data.keyword.slportal}}, qualsiasi persona con accesso all'account e autorizzazioni appropriate può visualizzare le password memorizzate nella schermata Password.
 
-Per ulteriori informazioni sulla visualizzazione e gestione delle tue credenziali software, consulta [Gestione dell'accesso all'infrastruttura](../iam/mnginfra.html).
+Per ulteriori informazioni sulla visualizzazione e gestione delle tue credenziali software, consulta [Gestione dell'accesso all'infrastruttura](/docs/iam?topic=iam-mngclassicinfra).
 
 ## Accedi al tuo server nella rete privata
-La rete privata è il precursore dell'interazione con i tuoi dispositivi tramite desktop remoto (RDP) utilizzando SSH e KVM su IP. Lo strumento di accesso VPN consente il collegamento alla rete privata dall'endpoint VPN SSL più vicino o dall'endpoint di tua scelta. L'accesso VPN è inoltre necessario per interagire con diversi servizi offerti. Per ulteriori informazioni, consulta [Introduzione a VPN (Virtual Private Networking)](../infrastructure/iaas-vpn/getting-started.html).
+La rete privata è il precursore dell'interazione con i tuoi dispositivi tramite desktop remoto (RDP) utilizzando SSH e KVM su IP. Lo strumento di accesso VPN consente il collegamento alla rete privata dall'endpoint VPN SSL più vicino o dall'endpoint di tua scelta. L'accesso VPN è inoltre necessario per interagire con diversi servizi offerti. Per ulteriori informazioni, consulta [Introduzione a VPN (Virtual Private Networking)](/docs/infrastructure/iaas-vpn?topic=VPN-getting-started-with-virtual-private-networking-vpn-).
 
 ## Configurazione del monitoraggio
-Il monitoraggio viene principalmente utilizzato come una risorsa per controllare l'attività del tuo server, ma può anche essere utile per sapere quando ridimensionare. I servizi di monitoraggio standard e Nimsoft sono disponibili per coprire varie esigenze di monitoraggio. Il monitoraggio standard, talvolta definito “Monitoraggio di base,” viene generalmente utilizzato nel metodo ping-and-respond (effettua ping e rispondi), attraverso l'uso di un ping lento o di servizio iniziato mediante il {{site.data.keyword.slportal}}. Il monitoraggio Nimsoft conosciuto anche come “Monitoraggio avanzato” è disponibile in tre livelli: Di base, Avanzato e Premium. Si può accedere a questo servizio anche tramite il {{site.data.keyword.slportal}}. Per ulteriori informazioni, vedi [Monitoraggio](../infrastructure/SLmonitoring/monitoring_index.html).
+Il monitoraggio viene principalmente utilizzato come una risorsa per controllare l'attività del tuo server, ma può anche essere utile per sapere quando ridimensionare. I servizi di monitoraggio standard e Nimsoft sono disponibili per coprire varie esigenze di monitoraggio. Il monitoraggio standard, talvolta definito “Monitoraggio di base,” viene generalmente utilizzato nel metodo ping-and-respond (effettua ping e rispondi), attraverso l'uso di un ping lento o di servizio iniziato mediante il {{site.data.keyword.slportal}}. Il monitoraggio Nimsoft conosciuto anche come “Monitoraggio avanzato” è disponibile in tre livelli: Di base, Avanzato e Premium. Si può accedere a questo servizio anche tramite il {{site.data.keyword.slportal}}. Per ulteriori informazioni, vedi [Monitoraggio](/docs/infrastructure/SLmonitoring?topic=slmonitoring-monitoring).
 
 ## Proteggi il tuo sistema
 I firewall hardware sono disponibili per assicurarti che il tuo sistema sia sempre protetto. Viene eseguito il provisioning dei firewall hardware su richiesta senza tempo di inattività. Se le regole sono state stabilite correttamente, un firewall può proteggere il tuo server da attività non desiderata. Dopo aver ordinato un firewall, deve essere abilitato e devono essere configurate le regole.
 
 Per ulteriori informazioni, consulta le seguenti raccolte di argomenti di sicurezza.
 
-* [Firewall hardware (condivisi)](../infrastructure/hardware-firewall-shared/getting-started.html)
-* [Firewall hardware (dedicati)](../infrastructure/hardware-firewall-dedicated/getting-started.html)
+* [Firewall hardware (condivisi)](/docs/infrastructure/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started-with-hardware-firewall-shared)
+* [Firewall hardware (dedicati)](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-getting-started-with-hardware-firewall-dedicated)
 
-I gruppi di sicurezza rappresentano un'altra opzione per limitare il traffico di rete sui tuoi server virtuali. Puoi utilizzare i gruppi di sicurezza per attivare una serie di regole di filtro IP che definiscono come gestire il traffico in entrata e in uscita per le interfacce pubbliche e private di un'istanza del server virtuale. Per ulteriori informazioni, vedi [Introduzione ai gruppi di sicurezza](/docs/infrastructure/security-groups/sg_index.html).
+I gruppi di sicurezza rappresentano un'altra opzione per limitare il traffico di rete sui tuoi server virtuali. Puoi utilizzare i gruppi di sicurezza per attivare una serie di regole di filtro IP che definiscono come gestire il traffico in entrata e in uscita per le interfacce pubbliche e private di un'istanza del server virtuale. Per ulteriori informazioni, vedi [Introduzione ai gruppi di sicurezza](/docs/infrastructure/security-groups?topic=security-groups-getting-started-with-security-groups).
 
-## Pianifica backup 
+## Pianifica backup
 I backup garantiscono che i tuoi dati vengano archiviati in modo sicuro al di fuori del dispositivo e protetti se persi. I seguenti servizi di backup sono disponibili per archiviare i tuoi dati in un'ubicazione sicura nel caso tu abbia mai bisogno di ricaricare le tue informazioni nel tuo dispositivo:
-- Il backup EVault è un sistema di backup basato sull'agent automatizzato. Questa è una soluzione “configura e dimentica” popolare per la gestione del tuo dispositivo. È compatibile con il software Microsoft inclusi Exchange e SQL tramite ulteriori plugin. Gli utenti EVault interagiscono con questo servizio tramite l'applicazione basata sul web WebCC di EVault. Per ulteriori informazioni, vedi [Introduzione ai servizi di backup](../infrastructure/Backup/index.html).
-- R1Soft Continuous Data Protection (CDP) è un software di backup che può essere installato nel tuo server o nella macchina virtuale autogestita. È raccomandato se vuoi una sola interfaccia per gestire tutti i tuoi backup. Interagisci con CDP R1Soft tramite il tuo sistema di gestione proprietario, che permette l'installazione degli agent sulle macchine virtuali e offre i plugin del database per ulteriori funzioni. Per ulteriori informazioni, vedi [Introduzione ai servizi di backup](../infrastructure/Backup/index.html).
+
+- {{site.data.keyword.backup_notm}} è un sistema di backup basato sull'agent e automatizzato. Questa è una soluzione “configura e dimentica” popolare per la gestione del tuo dispositivo. È compatibile con il software Microsoft inclusi Exchange e SQL tramite ulteriori plugin. Gli utenti {{site.data.keyword.backup_notm}} interagiscono con questo servizio tramite l'applicazione basata sul web WebCC di {{site.data.keyword.backup_notm}}. Per ulteriori informazioni, vedi [Introduzione ai servizi {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted).
+- R1Soft Continuous Data Protection (CDP) è un software di backup che può essere installato nel tuo server o nella macchina virtuale autogestita. È raccomandato se vuoi una sola interfaccia per gestire tutti i tuoi backup. Interagisci con CDP R1Soft tramite il tuo sistema di gestione proprietario, che permette l'installazione degli agent sulle macchine virtuali e offre i plugin del database per ulteriori funzioni. Per ulteriori informazioni, vedi [Introduzione ai servizi {{site.data.keyword.backup_notm}}](/docs/infrastructure/Backup?topic=Backup-gettingstarted#gettingstarted).
 
 ## Passi successivi
-Dopo aver configurato il tuo server virtuale, puoi iniziare a gestirlo. Per ulteriori informazioni, vedi [Gestione del tuo server virtuale](../vsi/vsi_managing.html).
-
-
-
+Dopo aver configurato il tuo server virtuale, puoi iniziare a gestirlo. Per ulteriori informazioni, vedi [Gestione del tuo server virtuale](/docs/vsi?topic=virtual-servers-managing-virtual-servers).

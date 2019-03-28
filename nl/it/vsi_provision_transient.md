@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-10-03"
 
+subcollection: virtual-servers
 
 ---
 
@@ -26,12 +25,12 @@ Puoi eseguire il provisioning delle tue istanze del server virtuale temporanee t
 Prima di iniziare, controlla i seguenti prerequisiti.
 
   1. Assicurati di aver impostato le credenziali del catalogo {{site.data.keyword.cloud_notm}} o del {{site.data.keyword.slportal}}.
-  
-  **Nota:** per il catalogo {{site.data.keyword.Bluemix_notm}}, devi disporre di un account aggiornato per ordinare i server virtuali. Per ulteriori informazioni sull'aggiornamento del tuo account, consulta [Passaggio all'ID IBM](https://console.bluemix.net/docs/admin/softlayerlink.html).
 
-  2. Controlla le considerazioni sulla capacità dell'istanza del server virtuale. Per ulteriori informazioni, vedi [Considerazioni sulla capacità](ts_capacity_bp.html).
+  **Nota:** per il catalogo {{site.data.keyword.Bluemix_notm}}, devi disporre di un account aggiornato per ordinare i server virtuali. Per ulteriori informazioni sull'aggiornamento del tuo account, consulta [Passaggio all'ID IBM](/docs/account?topic=account-unifyingaccounts#unifyingaccounts).
 
-## Provisioning di un'istanza del server virtuale temporanea 
+  2. Controlla le considerazioni sulla capacità dell'istanza del server virtuale. Per ulteriori informazioni, vedi [Considerazioni sulla capacità](/docs/vsi?topic=virtual-servers-capacity-considerations).
+
+## Provisioning di un'istanza del server virtuale temporanea
 Dopo aver completato i prerequisiti, puoi iniziare ad eseguire il provisioning della tua istanza del server virtuale temporanea. Puoi eseguire il provisioning della tua istanza attraverso il catalogo {{site.data.keyword.cloud_notm}} o {{site.data.keyword.slportal}}.
 
 ### Provisioning delle istanze del server virtuale temporanee tramite il catalogo IBM Cloud
@@ -44,7 +43,7 @@ Per eseguire il provisioning di un'istanza del server virtuale temporanea tramit
   5. Completa tutte le informazioni pertinenti per la tua istanza del server virtuale.
   6. Dopo aver riesaminato il riepilogo dell'ordine, fai clic sulla casella di spunta **Accordi di servizio di terze parti**.
   7. Fai clic su **Provisioning**.
-  
+
 ### Provisioning delle istanze del server virtuale temporanee tramite il portale del cliente
 Per eseguire il provisioning di un'istanza del server virtuale temporanea tramite {{site.data.keyword.slportal}}, completa le seguenti istruzioni:
 
@@ -59,8 +58,8 @@ Per eseguire il provisioning di un'istanza del server virtuale temporanea tramit
 
  Viene inviata una serie di email al tuo amministratore di riconoscimento dell'ordine di provisioning, l'approvazione e l'elaborazione e il completamento del provisioning. L'email di completamento del provisioning include un link alla pagina *Device Details*.
 
-Puoi anche eseguire il provisioning di un server virtuale temporaneo utilizzando {{site.data.keyword.slapi_short}}. Per un esempio, consulta [Provisioning di un'istanza temporanea utilizzando Crea oggetto](../vsi/vsi_provision_api.html#api-rest-transient).
+Puoi anche eseguire il provisioning di un server virtuale temporaneo utilizzando {{site.data.keyword.slapi_short}}. Per un esempio, consulta [Provisioning di un'istanza temporanea utilizzando Crea oggetto](/docs/vsi?topic=virtual-servers-api-rest-public#api-rest-transient).
 {:tip}
 
 ## Passi successivi
-Dopo che è stato eseguito il provisioning del tuo server virtuale, puoi iniziare a gestirlo. Per ulteriori informazioni, vedi [Gestione del tuo server virtuale](../vsi/vsi_managing.html).
+Dopo che è stato eseguito il provisioning del tuo server virtuale, puoi iniziare a gestirlo. Per ulteriori informazioni, vedi [Gestione del tuo server virtuale](/docs/vsi?topic=virtual-servers-managing-virtual-servers).

@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-02-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,10 +17,12 @@ lastupdated: "2018-02-12"
 {:table: .aria-labeledby="caption"}
 
 # Provisioning di selezioni
+{: #provisioning-selections}
+
 Devi effettuare le seguenti selezioni quando esegui il provisioning di un server virtuale pubblico.
 
 ## Ubicazione
-Puoi selezionare il data center specifico in cui desideri effettuare la distribuzione. Per le nuove distribuzioni, {{site.data.keyword.Bluemix}} identifica automaticamente il data center migliore (in base alla disponibilità) e crea le VLAN pubbliche e private appropriate. Per aggiunte agli ambienti esistenti, puoi selezionare la sottorete, la VLAN e il data center specifici richiesti dalla tua progettazione. Per ulteriori informazioni sulle VLAN e sulle sottoreti, vedi [Introduzione alle VLAN](/docs/infrastructure/vlans/getting-started.html).
+Puoi selezionare il data center specifico in cui desideri effettuare la distribuzione. Per le nuove distribuzioni, {{site.data.keyword.Bluemix}} identifica automaticamente il data center migliore (in base alla disponibilità) e crea le VLAN pubbliche e private appropriate. Per aggiunte agli ambienti esistenti, puoi selezionare la sottorete, la VLAN e il data center specifici richiesti dalla tua progettazione. Per ulteriori informazioni sulle VLAN e sulle sottoreti, vedi [Introduzione alle VLAN](/docs/infrastructure/vlans?topic=vlans-getting-started-with-vlans).
 
 La selezione di una sottorete è facoltativa e deve essere utilizzata solo quando hai bisogno che il tuo dispositivo utilizzi un indirizzo IP da una sottorete. Se selezioni una sottorete, verifica di avere abbastanza indirizzi IP per completare la richiesta. Se non hai abbastanza indirizzi IP per la tua sottorete, il tuo ordine può essere ritardato o annullato.
 {:tip}
@@ -41,7 +42,7 @@ Per i clienti esistenti, puoi anche eseguire la distribuzione in base a un templ
 
 ## Archiviazione
 
-Hai l'opzione tra archiviazione locale o SAN per ogni server virtuale. Puoi integrare l'archiviazione locale o SAN con altri prodotti se necessario. Sia l'archiviazione locale che SAN sono esposti sul server virtuale come dischi locali. Tutte le modifiche ai dischi, come collegare, scollegare, migrare e così via, richiedono un riavvio del server virtuale. Per ulteriori informazioni, vedi [Opzioni di archiviazione](../vsi/storage/vsi_about_storage.html).
+Hai l'opzione tra archiviazione locale o SAN per ogni server virtuale. Puoi integrare l'archiviazione locale o SAN con altri prodotti se necessario. Sia l'archiviazione locale che SAN sono esposti sul server virtuale come dischi locali. Tutte le modifiche ai dischi, come collegare, scollegare, migrare e così via, richiedono un riavvio del server virtuale. Per ulteriori informazioni, vedi [Opzioni di archiviazione](/docs/vsi?topic=virtual-servers-storage-options#storage-options).
 
 ## Fatturazione mensile e oraria
 
@@ -61,35 +62,36 @@ Puoi selezionare il software che deve essere installato da {{site.data.keyword.B
 
 ## Sicurezza
 
-Prima di distribuire, considera le seguenti opzioni di sicurezza. Come parte del processo di ordine, puoi selezionare un firewall software o hardware specifico per il dispositivo per fornire protezione. In alternativa, puoi distribuire le applicazioni firewall dedicate all'ambiente e distribuire il server virtuale a una VLAN protetta. 
+Prima di distribuire, considera le seguenti opzioni di sicurezza. Come parte del processo di ordine, puoi selezionare un firewall software o hardware specifico per il dispositivo per fornire protezione. In alternativa, puoi distribuire le applicazioni firewall dedicate all'ambiente e distribuire il server virtuale a una VLAN protetta.
 
-**Nota:** un server virtuale non può essere protetto da due applicazioni firewall nella stessa interfaccia. 
+**Nota:** un server virtuale non può essere protetto da due applicazioni firewall nella stessa interfaccia.
 
 Puoi anche utilizzare i gruppi di sicurezza per attivare una serie di regole di filtro IP che definiscono come gestire il traffico in entrata e in uscita per le interfacce pubbliche e private di un'istanza del server virtuale.
 
 Per ulteriori informazioni, consulta le seguenti raccolte di argomenti di sicurezza.
 
-* [Firewall hardware (condivisi)](../infrastructure/hardware-firewall-shared/getting-started.html)
-* [Firewall hardware (dedicati)](../infrastructure/hardware-firewall-dedicated/getting-started.html)
-* [Introduzione ai gruppi di sicurezza](/docs/infrastructure/security-groups/sg_index.html)
+* [Firewall hardware (condivisi)](/docs/infrastructure/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started-with-hardware-firewall-shared)
+* [Firewall hardware (dedicati)](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-getting-started-with-hardware-firewall-dedicated)
+* [Introduzione ai gruppi di sicurezza](/docs/infrastructure/security-groups?topic=security-groups-getting-started-with-security-groups)
 
 ## Monitoraggio
+{: #about-monitoring}
 
 Puoi selezionare molte opzioni di monitoraggio per il server virtuale. Le opzioni includono il monitoraggio standard, che monitora tramite la risposta del servizio TCP (transmission control protocol) e Ping, e dispone di risposte facoltative nel caso di errori. Puoi anche aggiungere il monitoraggio avanzato che utilizza l'agent software Nimsoft per fornire una vasta serie di funzioni per il monitoraggio del server virtuale e del software installato.
 
-Per ulteriori informazioni, vedi [Monitoraggio](../infrastructure/SLmonitoring/monitoring_index.html).
+Per ulteriori informazioni, vedi [Monitoraggio](/docs/infrastructure/SLmonitoring?topic=slmonitoring-monitoring).
 
 ## Backup
 
-Durante il processo di ordine, puoi aggiungere i backup Evault. Puoi anche scegliere di acquistare una licenza R1soft per il tuo ambiente di backup R1soft esistente o utilizzare una soluzione di backup di terze parti.
+Durante il processo di ordine, puoi aggiungere {{site.data.keyword.backup_notm}}. Puoi anche scegliere di acquistare una licenza R1soft per il tuo ambiente di backup R1soft esistente o utilizzare una soluzione di backup di terze parti.
 
-Per ulteriori informazioni, consulta [Nuova registrazione del tuo dispositivo con eVault](../infrastructure/Backup/how-do-i-re-register-evault.html).
+Per ulteriori informazioni, consulta [Ri-registrazione di un archivio](/docs/infrastructure/Backup?topic=Backup-reregister#reregister).
 
 ## Script di post provisioning
 
 Gli script di post provisioning possono essere associati a un qualsiasi ordine del server virtuale. Questo esegue uno script sviluppato dal cliente dopo il completamento di ogni attività di provisioning. Gli script sono comunemente utilizzati per applicare la configurazione specifica del cliente a un server e per agevolare l'automazione della tua strategia di ridimensionamento.
 
-Per ulteriori informazioni, consulta [Aggiunta di uno script di provisioning personalizzato](vsi_add_script.html).
+Per ulteriori informazioni, consulta [Aggiunta di uno script di provisioning personalizzato](/docs/vsi?topic=virtual-servers-adding-post-script).
 
 ## Operazioni successive
-Quando sei pronto ad eseguire il provisioning del tuo server virtuale pubblico, consulta [Provisioning di istanze pubbliche](vsi_provision_public.html).
+Quando sei pronto ad eseguire il provisioning del tuo server virtuale pubblico, consulta [Provisioning di istanze pubbliche](/docs/vsi?topic=virtual-servers-ordering-vs-public).

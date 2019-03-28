@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2015, 2017
 lastupdated: "2017-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -16,7 +15,7 @@ lastupdated: "2017-10-24"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Aggiunta di uno script di provisioning personalizzato 
+# Aggiunta di uno script di provisioning personalizzato
 {: #adding-post-script}
 
 Gli script di provisioning personalizzati consentono agli utenti di specificare un URL in uno script in esecuzione in un dispositivo di cui è appena stato eseguito il provisioning. Puoi pubblicare e gestire gli script di provisioning personalizzati nel {{site.data.keyword.slportal_full}}.

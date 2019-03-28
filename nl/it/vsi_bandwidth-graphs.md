@@ -1,10 +1,11 @@
 ---
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-10-24"
 ---
 
 # Grafici della larghezza di banda
+{: #bandwidth-graphs}
 
 I grafici della larghezza di banda mostrano il traffico in entrata e in uscita da internet (grafici pubblici) e dalla rete privata (grafici privati).
 

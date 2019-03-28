@@ -4,6 +4,8 @@ copyright:
   years: 2018
 lastupdated: "2018-08-01"
 
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -22,7 +24,7 @@ lastupdated: "2018-08-01"
 
 Ulteriori indirizzi IP possono essere collegati alle istanze del server virtuale dopo l'acquisto di sottoreti secondarie tramite [{{site.data.keyword.slportal}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com). Gli indirizzi IP acquistati in questo modo e gestiti da te sono indicati come _Indirizzi IP Secondari_.
 
-Per ulteriori informazioni sulle opzioni disponibili per l'acquisizione degli indirizzi IP, consulta [Sottoreti e IP](https://console.bluemix.net/docs/infrastructure/subnets/).
+Per ulteriori informazioni sulle opzioni disponibili per l'acquisizione degli indirizzi IP, consulta [Sottoreti e IP](/docs/infrastructure/subnets?topic=subnets-getting-started-with-subnets-and-ips#getting-started-with-subnets-and-ips).
 
 ## Bind degli indirizzi IP secondari
 
