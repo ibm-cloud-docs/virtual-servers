@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2017
-lastupdated: "2017-08-10"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -16,16 +15,18 @@ lastupdated: "2017-08-10"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Memoria 
-Los tipos de memoria son la mejor opción para cargas de trabajo que utilizan mucha memoria, como las cargas de trabajo con alto nivel de colocación en memoria caché, aplicaciones con uso intensivo de bases de datos o cargas de trabajo de análisis en memoria.
+# Memoria
+{: #memory}
 
-Están disponibles los siguientes tipos de esta oferta:
+Los perfiles de memoria son la mejor opción para cargas de trabajo que utilizan mucha memoria, como las cargas de trabajo con alto nivel de colocación en memoria caché, aplicaciones con uso intensivo de bases de datos o cargas de trabajo de análisis en memoria.
+
+Están disponibles los siguientes perfiles de esta oferta:
 
 <table>
-<CAPTION>Tabla 1. Tipos de memoria</CAPTION>
+<CAPTION>Tabla 1. Perfiles de memoria</CAPTION>
 <THEAD>
 <TR>
-<th>Tipo</th>
+<th>Perfil</th>
 <th>vCPU</th>
 <th>RAM</th>
 <th>Tipo de almacenamiento</th>
@@ -93,7 +94,6 @@ Están disponibles los siguientes tipos de esta oferta:
 * Disco de arranque primario SAN (25 o 100 GB) con discos adicionales disponibles, hasta 2 TB cada uno (se permiten un total de 5 discos).
 * Los precios de los servidores virtuales públicos que utilizan almacenamiento SAN incluyen CPU virtual, memoria y disco de arranque primario mínimo. Los precios de los discos adicionales dependen del tamaño del disco y de la cantidad seleccionada.  
 
-Los tipos de memoria están disponibles en todos los centros de datos.
+Los perfiles de memoria están disponibles en todos los centros de datos.
 
 Todos los sistemas operativos admitidos (como por ejemplo RHEL, CentOS, Windows, Ubuntu y otros), bases de datos admitidas y complementos de software también están disponibles con esta oferta.  
-

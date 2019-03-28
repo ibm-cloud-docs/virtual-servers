@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-10-25"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,7 +16,7 @@ lastupdated: "2017-10-25"
 {:table: .aria-labeledby="caption"}
 
 # Referencia de API
-{: #api-reference} 
+{: #api-reference}
 
 {{site.data.keyword.slapi_full}} es la interfaz de desarrollo que proporciona a los desarrolladores y a los administradores del sistema la interacción directa con el sistema de fondo de {{site.data.keyword.cloud}}. {{site.data.keyword.slapi_short}} alimenta muchas de las características del {{site.data.keyword.slportal_full}}, lo que normalmente significa que si una acción se puede ejecutar en el {{site.data.keyword.slportal}}, también se puede ejecutar en la API. Puesto que puede interactuar mediante programación con todas las partes del entorno de {{site.data.keyword.BluSoftlayer_full}} dentro de la API, {{site.data.keyword.slapi_short}} le permite automatizar las tareas. Por ejemplo, puede utilizar la API *SoftLayer_Virtual_Guest/createObject* para desplegar una instancia del servidor virtual.
 {:shortdesc}

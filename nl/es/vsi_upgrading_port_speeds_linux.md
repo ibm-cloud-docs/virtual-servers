@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-12-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -19,6 +18,7 @@ lastupdated: "2017-12-12"
 {:table: .aria-labeledby="caption"}
 
 # Actualización de la velocidad de puerto en Linux
+{: #upgrading-port-speed-in-linux}
 
 La velocidad de puerto predeterminada para servidores de clientes (para redes públicas y privadas) es 10 Mbps. Si le gustaría actualizar las velocidades de puerto a 100 Mbps o 1000 Mbps, abra una incidencia con nuestro departamento de ventas. Ventas le solicitará que apruebe el cargo mensual y un técnico cambiará los límites de velocidad de puerto en la red.
 

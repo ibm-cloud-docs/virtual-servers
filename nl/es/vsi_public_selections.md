@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-02-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,10 +17,12 @@ lastupdated: "2018-02-12"
 {:table: .aria-labeledby="caption"}
 
 # Selecciones de suministro
+{: #provisioning-selections}
+
 Debe realizar las siguientes selecciones cuando suministre un servidor virtual público.
 
 ## Ubicación
-Puede seleccionar el centro de datos específico en el que desea realizar el despliegue. Para los despliegues nuevos, {{site.data.keyword.Bluemix}} identifica automáticamente el mejor centro de datos (en función de la disponibilidad) y crea las VLAN públicas y privadas adecuadas. Para adiciones a entornos existentes, puede seleccionar el centro de datos específico, la VLAN y la subred necesarios para su diseño. Para obtener más información sobre VLAN y subredes, consulte [Iniciación a las VLAN](/docs/infrastructure/vlans/getting-started.html).
+Puede seleccionar el centro de datos específico en el que desea realizar el despliegue. Para los despliegues nuevos, {{site.data.keyword.Bluemix}} identifica automáticamente el mejor centro de datos (en función de la disponibilidad) y crea las VLAN públicas y privadas adecuadas. Para adiciones a entornos existentes, puede seleccionar el centro de datos específico, la VLAN y la subred necesarios para su diseño. Para obtener más información sobre VLAN y subredes, consulte [Iniciación a las VLAN](/docs/infrastructure/vlans?topic=vlans-getting-started-with-vlans).
 
 La selección de una subred es opcional y solo se utiliza cuando necesita que el dispositivo utilice una dirección IP desde la subred. Si selecciona una subred, verifique que dispone de suficientes direcciones IP para completar la solicitud. Si no tiene suficientes direcciones IP para la subred, el pedido se puede retrasar o cancelar.
 {:tip}
@@ -41,7 +42,7 @@ Para los clientes existentes, también puede desplegar en función de una planti
 
 ## Almacenamiento
 
-Puede elegir entre SAN o almacenamiento local para cada servidor virtual. Puede complementar SAN o el almacenamiento local con otros productos de almacenamiento, si es necesario. Tanto SAN como almacenamiento local se exponen en el servidor virtual como discos locales. Los cambios realizados en los discos, como conexión, desconexión, migración, etc., requieren que se rearranque el servidor virtual. Para obtener más información, consulte [Opciones de almacenamiento](../vsi/storage/vsi_about_storage.html).
+Puede elegir entre SAN o almacenamiento local para cada servidor virtual. Puede complementar SAN o el almacenamiento local con otros productos de almacenamiento, si es necesario. Tanto SAN como almacenamiento local se exponen en el servidor virtual como discos locales. Los cambios realizados en los discos, como conexión, desconexión, migración, etc., requieren que se rearranque el servidor virtual. Para obtener más información, consulte [Opciones de almacenamiento](/docs/vsi?topic=virtual-servers-storage-options#storage-options).
 
 ## Facturación por hora y mensual
 
@@ -61,35 +62,36 @@ Puede seleccionar el software que instalará {{site.data.keyword.Bluemix_notm}} 
 
 ## Seguridad
 
-Antes del despliegue, estudie las opciones de seguridad. Como parte del proceso del pedido, puede seleccionar un hardware específico del dispositivo o un software de cortafuegos para proporcionar protección. Como alternativa, puede desplegar dispositivos cortafuegos dedicados en el entorno y desplegar el servidor virtual en una VLAN protegida. 
+Antes del despliegue, estudie las opciones de seguridad. Como parte del proceso del pedido, puede seleccionar un hardware específico del dispositivo o un software de cortafuegos para proporcionar protección. Como alternativa, puede desplegar dispositivos cortafuegos dedicados en el entorno y desplegar el servidor virtual en una VLAN protegida.
 
-**Nota:** un servidor virtual no puede estar protegido por dos dispositivos cortafuegos en la misma interfaz. 
+**Nota:** un servidor virtual no puede estar protegido por dos dispositivos cortafuegos en la misma interfaz.
 
 También puede utilizar grupos de seguridad para aprobar un conjunto de reglas de filtro de IP que definan cómo se debe manejar el tráfico de entrada y de salida a interfaces públicas y privadas de una instancia de servidor virtual.
 
 Para obtener más información, consulte las siguientes recopilaciones de temas de seguridad.
 
-* [Cortafuegos de hardware (compartido)](../infrastructure/hardware-firewall-shared/getting-started.html)
-* [Cortafuegos de hardware (dedicado)](../infrastructure/hardware-firewall-dedicated/getting-started.html)
-* [Iniciación a los grupos de seguridad](/docs/infrastructure/security-groups/sg_index.html)
+* [Cortafuegos de hardware (compartido)](/docs/infrastructure/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started-with-hardware-firewall-shared)
+* [Cortafuegos de hardware (dedicado)](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-getting-started-with-hardware-firewall-dedicated)
+* [Iniciación a los grupos de seguridad](/docs/infrastructure/security-groups?topic=security-groups-getting-started-with-security-groups)
 
 ## Supervisión
+{: #about-monitoring}
 
 Puede seleccionar entre varias opciones de supervisión para el servidor virtual. Las opciones incluyen la supervisión estándar, que supervisa a través de Ping y respuesta del servicio del protocolo de control de transmisión (TCP), y ofrece respuestas opcionales en el caso de que se produzcan errores. También puede añadir la supervisión avanzada, que utiliza el agente de software Nimsoft para ofrecer un conjunto más amplio de características para la supervisión del servidor virtual y del software instalado.
 
-Para obtener más información, consulte [Supervisión](../infrastructure/SLmonitoring/monitoring_index.html).
+Para obtener más información, consulte [Supervisión](/docs/infrastructure/SLmonitoring?topic=slmonitoring-monitoring).
 
 ## Copia de seguridad
 
-Durante el proceso de pedido, puede añadir copias de seguridad Evault. También puede optar por adquirir una licencia de R1soft para el entorno de copia de seguridad de R1soft existente o utilizar una solución de seguridad de otro proveedor.
+Durante el proceso de pedido, puede añadir {{site.data.keyword.backup_notm}}. También puede optar por adquirir una licencia de R1soft para el entorno de copia de seguridad de R1soft existente o utilizar una solución de seguridad de otro proveedor.
 
-Para obtener más información, consulte [Volver a registrar el dispositivo con eVault](../infrastructure/Backup/how-do-i-re-register-evault.html).
+Para obtener más información, consulte [Volver a registrar una caja fuerte](/docs/infrastructure/Backup?topic=Backup-reregister#reregister).
 
 ## Scripts posteriores al suministro
 
 Se pueden asociar scripts posteriores al suministro a cualquier pedido de servidor virtual. Se ejecutará un script desarrollado por el cliente después de que finalicen las otras tareas de suministro. Los scripts se suelen utilizar para aplicar una configuración específica del cliente a un servidor y para ayudar a automatizar la estrategia de escalado.
 
-Para obtener más información, consulte [Adición de un script de suministro personalizado](vsi_add_script.html).
+Para obtener más información, consulte [Adición de un script de suministro personalizado](/docs/vsi?topic=virtual-servers-adding-post-script).
 
 ## Qué hacer a continuación
-Cuando esté preparado para suministrar el servidor virtual público, consulte [Suministro de instancias públicas](vsi_provision_public.html).
+Cuando esté preparado para suministrar el servidor virtual público, consulte [Suministro de instancias públicas](/docs/vsi?topic=virtual-servers-ordering-vs-public).

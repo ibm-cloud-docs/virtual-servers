@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,7 +16,7 @@ lastupdated: "2017-10-24"
 {:table: .aria-labeledby="caption"}
 
 # Gestión de hosts e instancias dedicados
-{: #managing-virtual-servers}
+{: #managing-dedicated-hosts-instances}
 
 La página de detalles del dispositivo es donde puede gestionar el host y las instancias dedicados, realizar el seguimiento de las incidencias y supervisar la disponibilidad del host. Puede acceder y ver las instancias de host dedicadas de dos formas desde la lista de dispositivos: como parte de su host o como instancias individuales.
 {:shortdesc}
@@ -50,18 +49,18 @@ Uso muestra un gráfico en el tiempo sobre el uso de CPU por fecha. Puede renova
 
 Ancho de banda es otro gráfico en el tiempo que le permite especificar parámetros para ver cuánto ancho de banda se ha utilizado a lo largo del tiempo. El separador Almacenamiento muestra cualquier bloque adicional o almacenamiento de archivos de la instancia.
 
-# Cancelar un host dedicado
-Puede cancelar un host dedicado en cualquier momento. Un requisito previo para cancelar un host es que se hayan migrado a otro host dedicado las instancias dedicadas asignadas al mismo o que se hayan cancelado las instancias. 
-## Cancelar un host dedicado desde la lista de dispositivos
+## Cancelar un host dedicado
+Puede cancelar un host dedicado en cualquier momento. Un requisito previo para cancelar un host es que se hayan migrado a otro host dedicado las instancias dedicadas asignadas al mismo o que se hayan cancelado las instancias.
+### Cancelar un host dedicado desde la lista de dispositivos
 Siga los pasos siguientes para cancelar un host dedicado desde la lista de dispositivos.
 
 1. Seleccione **Dispositivo** > **Lista de dispositivos**.
 2. Busque el host dedicado que desea cancelar y pulse el menú desplegable **Acciones**.
-3. Seleccione **Cancelar host**. 
+3. Seleccione **Cancelar host**.
 4. Aparecerá una ventana emergente que contiene una lista de las instancias dedicadas asignadas al host. Deberá migrar o cancelar las instancias, si aún no lo han hecho, antes de cancelar el host. Pulse **Aceptar**.
 
 Recibirá un mensaje que indica que el host dedicado se ha cancelado. Habrá un enlace con la incidencia de soporte para cancelar el host dedicado.
-## Cancelar un host dedicado desde la página Detalles del dispositivo
+### Cancelar un host dedicado desde la página Detalles del dispositivo
 Siga los pasos siguientes para cancelar un host dedicado desde la página Detalles del dispositivo.
 
 1. Seleccione **Dispositivo** > **Lista de dispositivos**.
@@ -73,11 +72,10 @@ Recibirá un mensaje que indica que el host dedicado se ha cancelado. Habrá un 
 
 ### Cancelar una instancia dedicada
 
-Para poder cancelar un host dedicado, se deben haber cancelado las instancias dedicadas asignadas al mismo. Las instancias dedicadas se pueden cancelar directamente desde la lista de dispositivos, desde la página Detalles del dispositivo de su host asignado o desde su propia página Detalles del dispositivo. 
+Para poder cancelar un host dedicado, se deben haber cancelado las instancias dedicadas asignadas al mismo. Las instancias dedicadas se pueden cancelar directamente desde la lista de dispositivos, desde la página Detalles del dispositivo de su host asignado o desde su propia página Detalles del dispositivo.
 
 1. Seleccione la instancia dedicada que desea cancelar y pulse el menú desplegable **Acciones**.
 2. Seleccione **Cancelar dispositivo**.
 3. Aparecerá un mensaje de aviso. Pulse el menú desplegable **Motivo** y seleccione el motivo por el que va a cancelar la instancia dedicada y pulse **Continuar**.
 
 Recibirá un mensaje que indica que la instancia dedicada se ha cancelado. Habrá un enlace con la incidencia de soporte para cancelar la instancia dedicada.
-

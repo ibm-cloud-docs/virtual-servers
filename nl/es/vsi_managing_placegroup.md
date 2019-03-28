@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-10-31"
 
+subcollection: virtual-servers
 
 ---
 
@@ -15,7 +14,7 @@ lastupdated: "2018-10-31"
 # Gestión de grupos de colocación
 {: #vsi_managing_placegroup}
 
-Puede gestionar grupos de colocación utilizando la página Grupos de colocación o la página Detalles de dispositivo en el portal de cliente.
+Puede gestionar grupos de colocación utilizando la página Grupos de colocación o la página Detalles de dispositivo en el portal de clientes.
 {:shortdesc}
 
 ## Adición de grupos de colocación desde la página Grupos de colocación
@@ -27,7 +26,7 @@ Para agregar grupos de colocación desde la página Grupos de colocación, compl
 2. En la página Grupos de colocación, haga clic en **Agregar grupo de colocación**.
 3. Introduzca un nombre, una descripción y un centro de datos para el grupo de colocación y haga clic en **Agregar**.
 
-**Nota:** Las instancias existentes no se pueden agregar a un grupo de colocación. Solo puede agregar una instancia de servidor virtual a un grupo de colocación en el suministro. 
+**Nota:** Las instancias existentes no se pueden agregar a un grupo de colocación. Solo puede agregar una instancia de servidor virtual a un grupo de colocación en el suministro.
 
 
 ## Gestión de grupos de colocación desde la página Grupos de colocación
@@ -41,7 +40,6 @@ Para gestionar grupos de colocación desde la página Grupos de colocación, com
      * Añadir un grupo.
      * Editar la información del grupo.
      * Suprimir un grupo.
-     
+
  **Notas:** Debe eliminar los servidores asignados desde el grupo de colocación antes de poder eliminar el grupo.
 Para eliminar una instancia de un grupo de colocación, debe eliminar o reclamar la instancia.
-     

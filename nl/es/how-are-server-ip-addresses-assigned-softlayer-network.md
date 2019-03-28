@@ -4,6 +4,8 @@ copyright:
   years: 2018
 lastupdated: "2018-08-01"
 
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -22,7 +24,7 @@ lastupdated: "2018-08-01"
 
 Se pueden vincular direcciones IP adicionales a instancias de servidor virtual después de adquirir subredes secundarias a través del [{{site.data.keyword.slportal}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com). Si adquiere direcciones IP de este modo y las gestiona, reciben el nombre de _direcciones IP secundarias_.
 
-Para obtener más información sobre las opciones disponibles para adquirir direcciones IP, consulte [Subredes de IP](https://console.bluemix.net/docs/infrastructure/subnets/).
+Para obtener más información sobre las opciones disponibles para adquirir direcciones IP, consulte [Subredes de IP](/docs/infrastructure/subnets?topic=subnets-getting-started-with-subnets-and-ips#getting-started-with-subnets-and-ips).
 
 ## Vinculación de direcciones IP secundarias
 

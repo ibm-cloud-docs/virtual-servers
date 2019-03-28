@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,38 +17,39 @@ lastupdated: "2018-10-24"
 
 
 # Suministro de instancias dedicadas
+{: #provisioning-dedicated-instances}
 
-Dispone de dos opciones para suministrar las instancias dedicadas. La primera es a través del catálogo de {{site.data.keyword.Bluemix}} y la segunda a través del {{site.data.keyword.slportal_full}}. El catálogo y el {{site.data.keyword.slportal}} requieren ID de inicio exclusivos. El nombre de usuario y la contraseña del catálogo no funcionarán para iniciar una sesión en el portal y viceversa. Consulte [Registro en {{site.data.keyword.Bluemix_notm}}](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window} para configurar su catálogo de {{site.data.keyword.Bluemix_notm}} o sus credenciales de {{site.data.keyword.slportal}}.
+Dispone de dos opciones para suministrar las instancias dedicadas. La primera es a través del catálogo de {{site.data.keyword.Bluemix}} y la segunda a través del {{site.data.keyword.slportal_full}}. El catálogo y el {{site.data.keyword.slportal}} requieren ID de inicio exclusivos. El nombre de usuario y la contraseña del catálogo no funcionarán para iniciar una sesión en el portal y viceversa. Consulte [Registro en {{site.data.keyword.Bluemix_notm}}](/docs/account?topic=account-signup#signup) para configurar su catálogo de {{site.data.keyword.Bluemix_notm}} o sus credenciales de {{site.data.keyword.slportal}}.
 {:shortdesc}
 
 ## Suministro de instancias de servidor virtual dedicadas
 {: #provision-dedicated-instances}
-Puede suministrar su instancia de servidor virtual dedicada mediante el catálogo de {{site.data.keyword.cloud_notm}} o el {{site.data.keyword.slportal}}. 
+Puede suministrar su instancia de servidor virtual dedicada mediante el catálogo de {{site.data.keyword.cloud_notm}} o el {{site.data.keyword.slportal}}.
 
-### Suministro de una instancia de servidor virtual dedicada a través del catálogo de IBM Cloud 
+### Suministro de una instancia de servidor virtual dedicada a través del catálogo de IBM Cloud
 Para suministrar una instancia de servidor virtual dedicada a través del catálogo de {{site.data.keyword.cloud_notm}}, siga los pasos siguientes:
 
-  1. Inicie una sesión en el catálogo de [{{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://console.bluemix.net/catalog/){: new_window} con sus credenciales exclusivas. 
+  1. Inicie una sesión en el catálogo de [{{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://console.bluemix.net/catalog/){: new_window} con sus credenciales exclusivas.
   2. En la sección **Infraestructura de cálculo**, pulse el mosaico **Servidores virtuales**.
   3. Seleccione la opción **Servidor virtual dedicado**.
   4. Pulse **Crear**.
   5. En la sección **Host dedicado**, seleccione **Asignar automáticamente**. A continuación, {{site.data.keyword.cloud_notm}} asigna automáticamente la instancia a un host del centro de datos seleccionado.
-  
-     **Nota**: Para los hosts dedicados, seleccione **Especificar host** o **Crear host**. Para obtener más información sobre los hosts dedicados y las instancias de host dedicadas, consulte [Servidores virtuales dedicados](../vsi/vsi_dedicated.html).
-     
-  5. Rellene la información relevante correspondiente a su instancia de servidor virtual dedicada. 
-  6. Después de revisar el resumen del pedido, pulse el recuadro de selección **Acuerdos de servicios de terceros**. 
+
+     **Nota**: Para los hosts dedicados, seleccione **Especificar host** o **Crear host**. Para obtener más información sobre los hosts dedicados y las instancias de host dedicadas, consulte [Servidores virtuales dedicados](/docs/vsi?topic=virtual-servers-dedicated-virtual-servers).
+
+  5. Rellene la información relevante correspondiente a su instancia de servidor virtual dedicada.
+  6. Después de revisar el resumen del pedido, pulse el recuadro de selección **Acuerdos de servicios de terceros**.
   7. Pulse **Suministrar**.
 
 ### Suministro de una instancia de servidor virtual dedicada a través del portal de clientes
 Para suministrar una instancia de servidor virtual dedicada a través del {{site.data.keyword.slportal}}, siga los pasos siguientes:
 
 1. Inicie una sesión en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window} utilizando sus credenciales exclusivas.
-2. Localice la sección **Pedido** y pulse **Dispositivos**. Se abrirá la ventana **Solicitar producto de SoftLayer y servicios**. 
-3.  Seleccione **Por hora** o **Mensualmente** en Servidores virtuales dedicados. Se le dirigirá a la página *Configurar el servidor de nube*. 
+2. Localice la sección **Pedido** y pulse **Dispositivos**. Se abrirá la ventana **Solicitar producto de SoftLayer y servicios**.
+3.  Seleccione **Por hora** o **Mensualmente** en Servidores virtuales dedicados. Se le dirigirá a la página *Configurar el servidor de nube*.
 
 4.	Especifique la información siguiente:
-       
+
     <table>
     <CAPTION>Tabla 1. Selecciones de instancias de host dedicadas</CAPTION>
     <THEAD>
@@ -68,7 +68,7 @@ Para suministrar una instancia de servidor virtual dedicada a través del {{site
     <td>
     <ul>
     <li>Asignar automáticamente – {{site.data.keyword.Bluemix_notm}} asigna automáticamente la instancia a un host del centro de datos seleccionado.</li>
-    <li>Especificar host – Se utiliza con instancias de host dedicadas. Consulte [Servidores virtuales dedicados](../vsi/vsi_dedicated.html) para obtener más información sobre los hosts dedicados y las instancias de host dedicado.</li>
+    <li>Especificar host – Se utiliza con instancias de host dedicadas. Consulte [Servidores virtuales dedicados](/docs/vsi?topic=virtual-servers-dedicated-virtual-servers) para obtener más información sobre los hosts dedicados y las instancias de host dedicado.</li>
     </ul>
     </td>
     </tr>
@@ -105,7 +105,7 @@ Para suministrar una instancia de servidor virtual dedicada a través del {{site
     </tr>
     <tr>
     </TBODY>
-    </table> 
+    </table>
 
 5.	Pulse el botón **Añadir a pedido**. Se le redirigirá a la página de pago.
 6.  Especifique la información siguiente en la página de *Pago* bajo *Configuración avanzada del sistema*:
@@ -152,5 +152,4 @@ Para suministrar una instancia de servidor virtual dedicada a través del {{site
     Se enviará una serie de correos electrónicos al administrador: acuse de recibo del pedido de suministro, aprobación y proceso del pedido de suministro y suministro completado. El correo electrónico de suministro completado incluirá un enlace que le llevará directamente a la página **Detalles del dispositivo** después de iniciar una sesión en {{site.data.keyword.Bluemix_notm}}. Otra opción sería iniciar la sesión directamente en el {{site.data.keyword.slportal}}.
 
 ## Siguientes pasos
-Una vez suministrado el servidor virtual, puede empezar a gestionarlo. Para obtener más información, consulte [Gestión de servidores virtuales](../vsi/vsi_managing.html).
-
+Una vez suministrado el servidor virtual, puede empezar a gestionarlo. Para obtener más información, consulte [Gestión de servidores virtuales](/docs/vsi?topic=virtual-servers-managing-virtual-servers).

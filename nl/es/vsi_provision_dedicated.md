@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -19,34 +18,34 @@ lastupdated: "2018-10-24"
 # Suministro de hosts e instancias dedicados
 {: #ordering-vs-dedicated}
 
-Dispone de dos opciones para suministrar las instancias dedicadas. La primera es a través del catálogo de {{site.data.keyword.Bluemix}} y la segunda a través del {{site.data.keyword.slportal_full}}. El catálogo y el {{site.data.keyword.slportal}} requieren ID de inicio exclusivos. El nombre de usuario y la contraseña del catálogo no funcionarán para iniciar una sesión en el portal y viceversa. Consulte [Registro en {{site.data.keyword.Bluemix_notm}}](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window} para configurar su catálogo de {{site.data.keyword.Bluemix_notm}} o sus credenciales de {{site.data.keyword.slportal}}.
+Dispone de dos opciones para suministrar las instancias dedicadas. La primera es a través del catálogo de {{site.data.keyword.Bluemix}} y la segunda a través del {{site.data.keyword.slportal_full}}. El catálogo y el {{site.data.keyword.slportal}} requieren ID de inicio exclusivos. El nombre de usuario y la contraseña del catálogo no funcionarán para iniciar una sesión en el portal y viceversa. Consulte [Registro en {{site.data.keyword.Bluemix_notm}}](/docs/account?topic=account-signup#signup) para configurar su catálogo de {{site.data.keyword.Bluemix_notm}} o sus credenciales de {{site.data.keyword.slportal}}.
 {:shortdesc}
 
 ## Suministro de hosts e instancias dedicados
 Puede suministrar sus hosts dedicados e instancias a través de {{site.data.keyword.cloud_notm}} o {{site.data.keyword.slportal}}.
 
-### Suministro de hosts dedicados e instancias a través del catálogo de IBM Cloud 
-Para suministrar los hosts dedicados e instancias a través del catálogo de {{site.data.keyword.cloud_notm}}, complete los pasos siguientes: 
+### Suministro de hosts dedicados e instancias a través del catálogo de IBM Cloud
+Para suministrar los hosts dedicados e instancias a través del catálogo de {{site.data.keyword.cloud_notm}}, complete los pasos siguientes:
 
-1. Inicie una sesión en el catálogo de [{{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://console.bluemix.net/catalog/){: new_window} con sus credenciales exclusivas. 
+1. Inicie una sesión en el catálogo de [{{site.data.keyword.cloud_notm}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://console.bluemix.net/catalog/){: new_window} con sus credenciales exclusivas.
 2. En la sección **Infraestructura de cálculo**, pulse el mosaico **Servidores virtuales**.
 3. Seleccione la opción **Servidor virtual dedicado**.
 4. Pulse **Crear**.
 5. En la sección **Host dedicado** puede seleccionar **Crear host**, donde puede crear un nuevo host dedicado; o **Especificar host**, donde puede seleccionar sus hosts dedicados existentes.
 6. Rellene la información relevante correspondiente a su host dedicado e instancia de servidor virtual.
 7. Después de revisar el resumen del pedido, pulse el recuadro de selección **Acuerdos de servicios de terceros**.
-8. Pulse **Suministrar**. 
+8. Pulse **Suministrar**.
 
-### Suministro de hosts dedicados e instancias a través del portal del cliente
+### Suministro de hosts dedicados e instancias a través del portal de clientes
 Para suministrar los hosts dedicados e instancias a través de {{site.data.keyword.slportal}}, complete los pasos siguientes:
 
 1. Inicie una sesión en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window} utilizando sus credenciales exclusivas.
 
-#### Suministro de su host dedicado 
+#### Suministro de su host dedicado
 Siga los pasos siguientes para suministrar sus hosts dedicados.
 
 1.	Pulse el icono **Dispositivos**.
-2.  Pulse el enlace **Servidor virtual dedicado por hora** o **Servidor virtual dedicado mensual**. 
+2.  Pulse el enlace **Servidor virtual dedicado por hora** o **Servidor virtual dedicado mensual**.
 
    **Nota:** los servidores dedicados son servidores privados.
 
@@ -54,7 +53,7 @@ Se abrirá la página *Configurar el servidor de nube*. Desde esta página puede
 
 4.	Pulse el botón **Crear host** en la parte derecha del formulario.
 5.	Especifique la información siguiente:
-    
+
     <table>
     <CAPTION>Tabla 1. Selecciones de suministro de host dedicado</CAPTION>
     <THEAD>
@@ -77,9 +76,9 @@ Se abrirá la página *Configurar el servidor de nube*. Desde esta página puede
     </tr>
     </TBODY>
     </table>
-    
-    El resumen de su pedido se muestra en la parte derecha de la página *Configuración*. 
-    
+
+    El resumen de su pedido se muestra en la parte derecha de la página *Configuración*.
+
 6.  Pulse el botón **Añadir a pedido**.
 7.  Confirme las selecciones en la página de *Pago* y desplácese hasta *Configuración del sistema avanzado de host dedicado*.
 8.  Especifique la información siguiente:
@@ -118,22 +117,22 @@ Se abrirá la página *Configurar el servidor de nube*. Desde esta página puede
 
 Para suministrar las instancias de sus hosts dedicados a través de {{site.data.keyword.slportal}}, complete los pasos siguientes:
 
-1.	Pulse **Dispositivos > Lista de dispositivos**. 
- 
-    La página *Dispositivos* muestra todos los tipos de dispositivos -host dedicados, servidores virtuales, servidores nativos y controladores de distribución de aplicaciones NetScaler- de su cuenta. 
+1.	Pulse **Dispositivos > Lista de dispositivos**.
+
+    La página *Dispositivos* muestra todos los tipos de dispositivos -host dedicados, servidores virtuales, servidores nativos y controladores de distribución de aplicaciones NetScaler- de su cuenta.
 
 2.	Seleccione el host para las instancias de host dedicadas pulsando sobre su enlace en **Nombre de dispositivo**.
-    
+
     Irá al separador **Configuración** de la página *Detalles del dispositivo*. El separador **Incidencias** muestra las incidencias de soporte activas y el separador **Asignaciones** muestra el uso de memoria correspondiente al periodo de facturación seleccionado. Consulte Utilización de los detalles del dispositivo para gestionar el host dedicado y las instancias para obtener más información sobre los separadores.
 
 3.	Desplácese hasta la ventana **Instancias**.
 
-    La forma en que se factura el host dedicado (al mes o por hora) determina la facturación de las instancias de host dedicadas. Tenga en cuenta que si tiene hosts de facturación mensual, puede suministrar instancias de host dedicadas de facturación tanto por hora como al mes. Dispone de dos enlaces -**Añadir por hora** y **Añadir mensualmente**— para suministrar sus instancias. Los hosts dedicados que se facturan por hora solo pueden suministrar instancias de host dedicadas que se facturen por hora y solo verá el enlace **Añadir por hora** enlace. 
+    La forma en que se factura el host dedicado (al mes o por hora) determina la facturación de las instancias de host dedicadas. Tenga en cuenta que si tiene hosts de facturación mensual, puede suministrar instancias de host dedicadas de facturación tanto por hora como al mes. Dispone de dos enlaces -**Añadir por hora** y **Añadir mensualmente**— para suministrar sus instancias. Los hosts dedicados que se facturan por hora solo pueden suministrar instancias de host dedicadas que se facturen por hora y solo verá el enlace **Añadir por hora** enlace.
 
-4.	Pulse el enlace **Añadir por hora** si el host se factura por hora o mensualmente; pulse el enlace **Añadir mensualmente** si el host se factura al mes. Se le dirigirá a la página *Configurar el servidor de nube*. 
+4.	Pulse el enlace **Añadir por hora** si el host se factura por hora o mensualmente; pulse el enlace **Añadir mensualmente** si el host se factura al mes. Se le dirigirá a la página *Configurar el servidor de nube*.
 
 5.	Especifique la información siguiente:
-       
+
     <table>
     <CAPTION>Tabla 3. Selecciones de instancias de host dedicadas</CAPTION>
     <THEAD>
@@ -189,7 +188,7 @@ Para suministrar las instancias de sus hosts dedicados a través de {{site.data.
     </tr>
     <tr>
     </TBODY>
-    </table> 
+    </table>
 
 6.	Pulse el botón **Añadir a pedido**.
 7.  Especifique la información siguiente en la página de *Pago* bajo *Configuración avanzada del sistema*:
@@ -237,6 +236,4 @@ Para suministrar las instancias de sus hosts dedicados a través de {{site.data.
 Recibirá un correo electrónico cuando se hayan suministrado las instancias de host dedicadas.
 
 ## Siguientes pasos
-Una vez suministrado el servidor virtual, puede empezar a gestionarlo. Para obtener más información, consulte [Gestión de servidores virtuales](../vsi/vsi_managing.html).
-
-
+Una vez suministrado el servidor virtual, puede empezar a gestionarlo. Para obtener más información, consulte [Gestión de servidores virtuales](/docs/vsi?topic=virtual-servers-managing-virtual-servers).

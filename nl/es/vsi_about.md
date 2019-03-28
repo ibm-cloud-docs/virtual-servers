@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-11-15"
 
+keywords: scalable virtual servers, virtual servers, key features
+
+subcollection: virtual-servers
 
 ---
 
@@ -17,6 +18,7 @@ lastupdated: "2017-11-15"
 {:table: .aria-labeledby="caption"}
 
 # Acerca de los servidores virtuales
+{: #about-virtual-servers}
 
 Los {{site.data.keyword.BluVirtServers}} son servidores virtuales escalables que se adquieren con núcleos dedicados y asignaciones de memoria. Constituyen una opción ideal si necesita recursos de cálculo, que se pueden añadir en cuestión de minutos, con acceso a características como plantillas de imágenes. El hipervisor está completamente gestionado por {{site.data.keyword.BluSoftlayer_full}} y puede realizar tareas de configuración y gestión mediante {{site.data.keyword.slportal_full}} y {{site.data.keyword.slapi_short}}. Los servidores virtuales se despliegan en las mismas VLAN que los servidores físicos, lo que le permite distribuir las cargas de trabajo entre servidores virtuales y servidores nativos, manteniendo la interoperatividad. Los servidores virtuales son totalmente personalizables cuando se reciben, con opciones para aumentar la capacidad de cálculo a medida que crecen sus necesidades.
 {:shortdesc}

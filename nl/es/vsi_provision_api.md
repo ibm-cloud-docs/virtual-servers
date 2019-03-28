@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-02-28"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,18 +16,18 @@ lastupdated: "2018-02-28"
 {:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
-# Ejemplos de API: tipos de servidores virtuales públicos
+# Ejemplos de API: perfiles de servidores virtuales públicos
 {: #api-rest-public}
 
-La información siguiente muestra ejemplos de la API REST para instancias de servidor virtual público que utilizan tipos predefinidos.
+La información siguiente muestra ejemplos de la API REST para instancias de servidor virtual público que utilizan perfiles predefinidos.
 {:shortdesc}
 
 Para ver ejemplos de API más potentes, consulte los siguientes recursos:
 * [Ejemplos de la API Softlayer_Virtual_Guest ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://softlayer.github.io/classes/softlayer_virtual_guest/)
-* [Obtención de una lista de tipos ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo") ](https://softlayer.github.io/article/vsiflavors/)
+* [Obtención de una lista de perfiles ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://softlayer.github.io/article/vsiflavors/)
 
 ## Suministro de una instancia pública mediante Crear objeto
-El servicio de la API *SoftLayer_Virtual_Guest/createObject* constituye el modo más sencillo de suministrar una instancia de servidor virtual público que utilice tipos predefinidos.
+El servicio de la API *SoftLayer_Virtual_Guest/createObject* constituye el modo más sencillo de suministrar una instancia de servidor virtual público que utilice perfiles predefinidos.
 
 No aplicable a instancias transitorias.
 {:tip}
@@ -61,7 +60,7 @@ Para suministrar una instancia de servidor virtual público mediante REST, se de
 ```
 
 ## Suministro de una instancia pública mediante Colocar objeto de pedido
-El suministro de un servidor virtual público que utilice tipos predefinidos se realiza mediante el servicio de la API *SoftLayer_Product_Order/placeOrder*.
+El suministro de un servidor virtual público que utilice perfiles predefinidos se realiza mediante el servicio de la API *SoftLayer_Product_Order/placeOrder*.
 
 No aplicable a instancias transitorias.
 {:tip}

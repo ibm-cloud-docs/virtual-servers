@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2015, 2017
 lastupdated: "2017-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -16,7 +15,7 @@ lastupdated: "2017-10-24"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Adición de un script de suministro personalizado 
+# Adición de un script de suministro personalizado
 {: #adding-post-script}
 
 Los scripts de suministro personalizados permiten a los usuarios especificar un URL a un script que se ejecuta en un dispositivo recién suministrado. Puede publicar y gestionar scripts de suministro personalizados en {{site.data.keyword.slportal_full}}.

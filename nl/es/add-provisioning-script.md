@@ -1,13 +1,18 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-04-27"
+
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Gestión de un script de suministro
+{: #managing-a-provisioning-script}
 
 Utilice los scripts de suministro para un URL para que se ejecute un script en un dispositivo recién suministrado. No hay restricciones para el nombre del script; sin embargo, utilizar un convenio de denominación similar cada script hace que sea más fácil identificar. Los scripts de suministro deben estar asociados con un nombre de dominio completo y deben ser accesibles utilizando los protocolos HTTP o HTTPS. El tipo de protocolo que se utiliza afecta a la respuesta automatizada del sistema cuando el script de suministro se descarga al dispositivo.
 
@@ -20,6 +25,7 @@ Utilice los scripts de suministro para un URL para que se ejecute un script en u
 
 
 ## Adición de un script de suministro
+{: #add-provisioning-script}
 
 1. Desde la pantalla **Scripts de suministro** del {{site.data.keyword.slportal}}, pulse **Añadir script de suministro** en la parte superior de la pantalla.
 * Especifique un **nombre identificativo** para el script de suministro en el campo **Nombre**.

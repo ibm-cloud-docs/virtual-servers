@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-05-17"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,7 +16,7 @@ lastupdated: "2018-05-17"
 {:table: .aria-labeledby="caption"}
 
 
-# Inicio de un kernel de rescate 
+# Inicio de un kernel de rescate
 {: #launching-rescue}
 
 Rescue Kernel es un entorno de rescate diseñado para ofrecer a los clientes la posibilidad de colocar en línea un servidor nativo o un servidor virtual para solucionar problemas del sistema que normalmente solo se solucionarían mediante una recarga del SO. Rescue Kernel se debe iniciar en el {{site.data.keyword.slportal_full}}. Siga estos pasos para iniciar Rescue Kernel para un dispositivo.
@@ -43,5 +42,4 @@ Después de iniciar Rescue Kernel, el dispositivo se apaga y se rearranca en el 
 
 Puede acceder al dispositivo de forma remota desde la dirección IP del dispositivo. Puede acceder al dispositivo en Rescue Kernel utilizando las credenciales de root o admin para los dispositivos registrados en el {{site.data.keyword.slportal}}. Si utiliza Rescue Kernel, puede resolver y descubrir problemas igual que lo haría en un dispositivo arrancado de manera normal. Si es necesario, puede montar unidades en SO de Rescue Kernel. Para salir de Rescue Kernel y devolver el dispositivo a su entorno ordinario, rearranque el dispositivo en el {{site.data.keyword.slportal}} o rearranque desde el SO de Rescue Kernel.
 
-Para obtener más información sobre el rearranque de un dispositivo, consulte [Gestión de servidores virtuales](../vsi/vsi_managing.html).
-
+Para obtener más información sobre el rearranque de un dispositivo, consulte [Gestión de servidores virtuales](/docs/vsi?topic=virtual-servers-managing-virtual-servers).

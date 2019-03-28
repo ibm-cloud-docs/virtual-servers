@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-05-17"
 
+subcollection: virtual-servers
 
 ---
 
@@ -15,18 +14,24 @@ lastupdated: "2018-05-17"
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
+{:faq: data-hd-content-type='faq'}
 
 
 # Preguntas frecuentes: Servidores (general)
+{: #faqs-servers-general-}
 
 ## ¿Cuál es la diferencia entre "Arrancar desde imagen" y "Cargar desde imagen"?
+{:faq}
+
 Tanto Arrancar desde imagen como Cargar desde imagen utilizan plantillas de imagen existentes, que se aplican a un dispositivo para sustituir el sistema operativo existente o para complementar el sistema operativo con el fin de solucionar un problema existente. La principal diferencia entre los procesos de arranque y carga es el tipo de imagen que se utiliza. Cuando se realice un proceso de arranque o carga desde imagen, asegúrese de haber hecho una copia de seguridad todos los datos que desea recuperar.
 
    * El proceso de Arrancar desde imagen es una forma de arrancar un dispositivo utilizando un ISO suministrado por {{site.data.keyword.BluSoftlayer_full}} para la recuperación del sistema o un ISO que se ha cargado mediante la característica *Importar imagen* en el {{site.data.keyword.slportal_full}}. El ISO puede ser una versión nueva del sistema operativo del dispositivo o un disco de recuperación que se puede utilizar para solucionar un problema con el dispositivo.
    * Cargar desde imagen es un método de recarga de SO que utiliza una plantilla de imagen que se ha capturado desde un dispositivo o que se ha cargado utilizando la característica *Importar imagen* en el {{site.data.keyword.slportal}}. La opción *Cargar desde imagen* realiza la recarga utilizando un VHD, que borra todos los datos del dispositivo y sustituye el sistema operativo y los archivos existentes con una versión "como nueva" de la imagen seleccionada.
 
 ## ¿Por qué no puedo conectar con la consola de KVM?
-Si no puede conectar con la consola de KVM, revise los consejos siguientes sobre resolución de problemas para ayudarle a resolver el problema. Si se producen problemas adicionales, póngase en contacto con el equipo de soporte. Para obtener más información sobre cómo ponerse en contacto con el equipo de soporte, consulte [Obtención de ayuda y soporte](../vsi/vsi_ts_index.html).
+{:faq}
+
+Si no puede conectar con la consola de KVM, revise los consejos siguientes sobre resolución de problemas para ayudarle a resolver el problema. Si se producen problemas adicionales, póngase en contacto con el equipo de soporte. Para obtener más información sobre cómo ponerse en contacto con el equipo de soporte, consulte [Obtención de ayuda y soporte](/docs/vsi?topic=virtual-servers-gettinghelp).
 
    * La consola de KVM es un applet Java. Java debe estar instalado para poder acceder a la consola. Para obtener más información sobre la instalación de Java, consulte [Descarga gratuita de Java ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://www.java.com/en/download/){: new_window}.  
    * Si Java está instalado, asegúrese de que la conexión se ha establecido utilizando VPN. Si no se ha establecido una conexión, aparece un aviso cuando se intenta conectar con la consola de KVM que indica que se necesita una conexión VPN.
@@ -41,19 +46,25 @@ Si no puede conectar con la consola de KVM, revise los consejos siguientes sobre
 Si ha completado todas las comprobaciones anteriores y sigue sin poder conectar con la consola de KVM, póngase en contacto con el equipo de soporte para obtener ayuda adicional para solucionar el problema. Si se ha establecido una conexión con la consola pero hay problemas al conectar con el dispositivo, asegúrese de que las credenciales utilizadas para acceder al dispositivo son válidos. Póngase en contacto con el administrador de la cuenta para verificar las credenciales, si es necesario.
 
 ## He perdido la contraseña para el servidor. ¿Cómo puedo recuperarla?
+{:faq}
+
 Si la contraseña del usuario root o del administrador de repente deja de funcionar, compruebe lo siguiente. Si es necesario, siga las instrucciones para iniciar un kernel de rescate y restablecer la contraseña.
 
    * ¿Está copiando y pegando la contraseña? Si no es así, inténtelo. Pegue también la contraseña en un bloc de notas para asegurarse de que no se copian espacios accidentalmente con la contraseña.
    * Si el servidor contiene cPanel, ¿es posible que cPHulk haya bloqueado la dirección IP debido a inicios de sesión fallidos? Si es así, puede acceder al servidor utilizando KVM o IPMI y colocar la dirección IP en la lista blanca en cPHulk con "/scripts/cphulkdwhitelist" seguido de la dirección IP.
    * ¿Ha intentado alguien cambiar la contraseña del servidor recientemente modificando la contraseña en el {{site.data.keyword.slportal}}? La modificación de la contraseña en el {{site.data.keyword.slportal}} solo cambia lo que se ve como contraseña. No cambia la contraseña que utiliza el servidor. Si ha sucedido esto, puede ponerse en contacto con el equipo de soporte; generalmente pueden recuperar la contraseña original que funcionaba.
-   * Es posible que tenga que arrancar en la modalidad de rescate del sistema operativo para poder restablecer la contraseña. Para obtener más información, consulte [Inicio de un kernel de rescate](/docs/vsi/vsi_launch_rescue.html).
+   * Es posible que tenga que arrancar en la modalidad de rescate del sistema operativo para poder restablecer la contraseña. Para obtener más información, consulte [Inicio de un kernel de rescate](/docs/vsi?topic=virtual-servers-launching-rescue).
 
 Si ha comprobado todo esto y sigue sin poder conectar con el servidor utilizando la contraseña, póngase en contacto con el equipo de soporte mediante una incidencia y solicite un restablecimiento de contraseña. El equipo de soporte deberá rearrancar el servidor para restablecer la contraseña, por lo que debe asegurarse de que está preparado para aprobar el rearranque y/o para ofrecer un intervalo de tiempo de mantenimiento en el que desea que se complete la operación. La mayoría de los restablecimientos se consiguen en 15 minutos. En el {{site.data.keyword.slportal}}, puede crear una incidencia yendo a **Soporte > Añadir incidencia** y utilizando el asunto *"Rearranques y acceso a la consola"*.
 
 ## ¿Se da soporte a las particiones LVM como sistema de archivo válido?
+{:faq}
+
 LVM (Logical Volume Management) proporciona funciones de gestión lógica de sistemas de archivos en Linux. En el entorno {{site.data.keyword.BluSoftlayer}}, LVM no recibe soporte como esquema de particionamiento arrancable. No se pueden solicitar instancias de servidor virtual con LVM ni se pueden suministrar imágenes de importación que utilicen LVM como partición de arranque. Si necesita LVM en la partición de arranque, la oferta nativa puede dar soporte a LVM en al arranque para ciertos sistemas operativos. Con el soporte y configuración adecuados del sistema operativo, se pueden utilizar discos VSI secundarios para particiones LVM; sin embargo, es importante señalar que LVM no es un sistema de archivos soportado para imágenes flex o para plantillas de imagen. Si tiene más preguntas, abra una incidencia con el equipo de soporte que pueda ayudarle.
 
 ## Rutas 161.26.0.0/16 preconfiguradas en hosts de clientes
+{:faq}
+
 {{site.data.keyword.BluSoftlayer}} habilita una nueva ruta en todos los servidores recién suministrados para dar soporte a productos futuros.
    * La ruta apunta a cualquier dirección del rango 161.26.0.0/16 (161.26.0.0 255.255.0.0 | 161.26.0.0 -161.26.255.255) para la red privada de fondo.
    * IANA asigna este bloque de IP a {{site.data.keyword.BluSoftlayer_notm}} y no se anunciará en la Internet pública.
@@ -61,6 +72,7 @@ LVM (Logical Volume Management) proporciona funciones de gestión lógica de sis
    * Las ACL de servidores de clientes, servidores virtuales y pasarelas Vyatta se tendrán que actualizar para que permitan a los hosts de los clientes utilizar servicios de la infraestructura configurados con direcciones IP fuera de este rango.
 
 ## Cómo añadir el nuevo direccionamiento para varios sistemas operativos
+{:faq}
 
    <table>
    <CAPTION>Tabla 1. Adición de rutas por sistema operativo</CAPTION>
@@ -146,14 +158,16 @@ LVM (Logical Volume Management) proporciona funciones de gestión lógica de sis
    </tr>
    </TBODY>
    </table>
-   
+
    <a name="top"></a>
 
 ## ¿Puedo hacer que el sistema de supervisión emita un rearranque automático Y advierta a un técnico de soporte en el caso de que el servidor deje de responder?
+{:faq}
 
 Sí; si solicita nuestro servicio de **Arranque automático después de un error de supervisión**, puede configurar el sistema de supervisión de modo que rearranque automáticamente el servidor y emita una incidencia para un técnico de soporte si se genera una alerta de supervisión. Como servicio adicional, ofrecemos la **Supervisión NOC**, por la que recibirá una notificación personal en el caso de que se produzca un problema de supervisión. Para obtener más información sobre estas dos ofertas, consulte [Supervisión del servidor ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](http://www.softlayer.com/services/monitoring/){:new_window}.
 
 ## ¿Qué es una duplicación cvsup?
+{:faq}
 
 Puede realizar una actualización hacia una duplicación cvsup local que se ejecute para usted. Asegúrese de que supfile tenga la siguiente entrada:
 
@@ -170,6 +184,3 @@ MASTER_SITE_OVERRIDE?="http://mirrors.service.softlayer.com/freebsd/distfiles/${
 {:screen }
 
 Si el archivo no está allí, seguirá el puerto individual Makefile y pasará a la siguiente duplicación.
-
-
-

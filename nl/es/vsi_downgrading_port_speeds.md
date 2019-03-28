@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-12-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,6 +17,7 @@ lastupdated: "2017-12-12"
 {:table: .aria-labeledby="caption"}
 
 # Degradación de velocidades de puerto
+{: #downgrading-port-speeds}
 
 Puede degradar temporalmente velocidades de puerto sin abrir una incidencia. Acceda a la opción **Controles de puerto** pulsando **Acciones** en la esquina superior derecha de la página **Detalles del dispositivo**. Desde esta página, seleccione la velocidad que necesite, o desconéctela.
 {:shortdesc}

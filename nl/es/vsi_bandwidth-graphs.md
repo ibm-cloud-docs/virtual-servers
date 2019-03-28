@@ -1,10 +1,11 @@
 ---
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-10-24"
 ---
 
 # Gráficos de ancho de banda
+{: #bandwidth-graphs}
 
 Los gráficos de ancho de banda muestran el tráfico de entrada y salida de Internet (gráficos públicos) y de entrada y salida de la red privada (gráficos privados).
 

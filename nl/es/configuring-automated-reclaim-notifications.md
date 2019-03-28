@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-05-11"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,6 +17,7 @@ lastupdated: "2018-05-11"
 {:table: .aria-labeledby="caption"}
 
 # Configuración de notificaciones para las reclamaciones de servidores virtuales transitorios
+{: #configuring-notifications-for-reclaims-of-transient-virtual-servers}
 
 Los servidores virtuales transitorios son, por naturaleza, efímeros y se pueden terminar en cualquier momento, lo que podría provocar una pérdida de datos. Las notificaciones de reclamación automatizada pueden ayudarle a reducir la pérdida de datos. Cuando está suministrado, un servidor virtual transitorio se puede configurar para que reciba una notificación de que se está terminando **dos minutos** antes de la terminación real. La notificación le permite alertar mediante programación al servidor virtual transitorio para que finalice los procesos en curso o para que transfiera los datos necesarios fuera del servidor virtual transitorio.
 
@@ -28,8 +28,9 @@ La notificación `reclaim-scheduled` es un webhook, lo que significa que la noti
 3. Verifique las solicitudes del webhook.
 
 ## Suministro de una instancia de servidor virtual transitorio
+{: #provision-transient-virtual-server}
 
-Los servidores virtuales transitorios pueden suministrarse a través del [{{site.data.keyword.slportal_full}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window} o a través de la [API de SLDN ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](http://sldn.softlayer.com){: new_window}. Para obtener más información, consulte [Suministro de instancias transitorias](/docs/vsi/vsi_provision_transient.html).
+Los servidores virtuales transitorios pueden suministrarse a través del [{{site.data.keyword.slportal_full}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window} o a través de la [API de SLDN ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](http://sldn.softlayer.com){: new_window}. Para obtener más información, consulte [Suministro de instancias transitorias](/docs/vsi?topic=virtual-servers-ordering-vs-transient).
 
 ## Configuración del webhook
 

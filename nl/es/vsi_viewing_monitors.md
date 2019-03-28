@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-10-23"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,6 +16,7 @@ lastupdated: "2017-10-23"
 {:table: .aria-labeledby="caption"}
 
 # Visualización y gestión de supervisores
+{: #viewing-and-managing-monitors}
 
 La supervisión de un dispositivo permite a los usuarios iniciar el servicio y pings lentos para garantizar que el dispositivo está en línea y responde.
 {:shortdesc}
@@ -77,9 +77,9 @@ indica que no se ha recibido un eco. Si ya ha configurado un supervisor básico,
    </tr>
    </TBODY>
    </table>
-   
+
 ## Siguientes pasos
-   
+
 - Si se ha añadido un nuevo supervisor, aparecerá en el separador **Supervisión**. El supervisor enviará un ping al dispositivo cada cinco minutos y esperará una respuesta en función del tipo de ping seleccionado. Si no se recibe la respuesta esperada, se enviará un correo electrónico a la dirección de correo electrónico de notificación para la cuenta en el periodo de tiempo especificado, si se ha seleccionado la notificación.
 - Si se ha editado un supervisor, este seguirá funcionando según lo especificado en los detalles de supervisión. Si se modifica el tipo, el periodo de tiempo para recibir el ping esperado será diferente. Si se han modificado las opciones de notificación, cambiará el modo en que se notificará a los usuarios sobre intentos fallidos en función de las nuevas selecciones. Se podrá seguir accediendo al supervisor desde el separador **Supervisión**.
 - Si se elimina un supervisor, dejará de funcionar para el dispositivo. Toda la supervisión asociada al supervisor eliminado dejará de funcionar y el supervisor dejará de aparecer en el separador **Supervisión**.
