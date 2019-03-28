@@ -15,5 +15,5 @@ Lorsqu'un volume de stockage portable est connecté à un serveur virtuel d'un c
 
 ## Etapes suivantes
 Pour plus d'informations sur l'utilisation des volumes de stockage portable, reportez-vous aux tâches suivantes :
-* [Accès au stockage portable](../storage/access-portable-storage-screen.html)
-* [Edition de la description d'un stockage portable](../storage/edit-description-portable-storage-volume-psv.html)
+* [Accès au stockage portable](/docs/vsi/storage?topic=virtual-servers-accessing-portable-storage)
+* [Edition de la description d'un stockage portable](/docs/vsi/storage?topic=virtual-servers-editing-a-portable-storage-description)

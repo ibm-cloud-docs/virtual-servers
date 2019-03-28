@@ -1,15 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-11"
+
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Accès au stockage portable
+{: #accessing-portable-storage}
 
-Les volumes de stockage portable (PSV) constituent une solution de stockage auxiliaire exclusivement dédiée à {{site.data.keyword.virtualmachinesshort}}. Dans le portail [{{site.data.keyword.slportal_full}} !{Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){: new_window}, vous pouvez accéder aux volumes de stockage portable à partir de la page *Dispositif de Stockage Portable*, qui affiche tous les volumes de stockage portable et qui permet de connecter, de déconnecter, de permuter et d'éditer des volumes. 
+Les volumes de stockage portable (PSV) constituent une solution de stockage auxiliaire exclusivement dédiée à {{site.data.keyword.virtualmachinesshort}}. Dans le portail {{site.data.keyword.slportal_full}}, vous pouvez accéder aux volumes de stockage portable à partir de la page *Dispositif de Stockage Portable*, qui affiche tous les volumes de stockage portable et qui permet de connecter, de déconnecter, de permuter et d'éditer des volumes. 
 
 ## Accès à la page Dispositif de Stockage Portable
 
