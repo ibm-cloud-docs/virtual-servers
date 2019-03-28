@@ -1,15 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-11"
+
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Auf portierbaren Speicher zugreifen
+{: #accessing-portable-storage}
 
-Portierbare Speicherdatenträger (Portable Storage Volumes: PSVs) stellen eine Zusatzspeicherlösung ausschließlich für {{site.data.keyword.virtualmachinesshort}} dar. Im [{{site.data.keyword.slportal_full}} !{Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window} können Sie über die Seite für *Portierbarer Speicher*, auf der alle portierbaren Speicherdatenträger angezeigt werden und die die Position ist, an der Datenträger angehängt, abgehängt und ausgelagert werden können, auf portierbare Speicherdatenträger zugreifen. 
+Portierbare Speicherdatenträger (Portable Storage Volumes: PSVs) stellen eine Zusatzspeicherlösung ausschließlich für {{site.data.keyword.virtualmachinesshort}} dar. Im {{site.data.keyword.slportal_full}} können Sie über die Seite *Portierbarer Speicher* auf portierbare Speicherdatenträger zugreifen. Hier werden alle PSVs angezeigt und es können Datenträger angehängt, abgehängt, ausgelagert und bearbeitet werden.  
 
 ## Auf Seite für portierbaren Speicher zugreifen
 

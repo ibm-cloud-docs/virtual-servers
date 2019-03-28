@@ -15,5 +15,5 @@ Wenn ein portierbarer Speicherdatenträger an einen virtuellen Server in einem a
 
 ## Nächste Schritte
 Weitere Informationen zur Verwendung von portierbaren Speicherdatenträgern finden Sie unter den folgenden Tasks:
-* [Auf portierbaren Speicher zugreifen](../storage/access-portable-storage-screen.html)
-* [Beschreibung für portierbaren Speicher bearbeiten](../storage/edit-description-portable-storage-volume-psv.html)
+* [Auf portierbaren Speicher zugreifen](/docs/vsi/storage?topic=virtual-servers-accessing-portable-storage)
+* [Beschreibung für portierbaren Speicher bearbeiten](/docs/vsi/storage?topic=virtual-servers-editing-a-portable-storage-description)
