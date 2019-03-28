@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-02-28"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,18 +16,18 @@ lastupdated: "2018-02-28"
 {:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
-# API 範例：公用虛擬伺服器特性
+# API 範例：公用虛擬伺服器設定檔
 {: #api-rest-public}
 
-下列資訊所顯示的 REST API 範例用來佈建使用預設特性的公用虛擬伺服器實例。
+下列資訊所顯示的 REST API 範例用來佈建使用預設設定檔的公用虛擬伺服器實例。
 {:shortdesc}
 
 如需更健全的 API 範例，請參閱下列資源：
 * [Softlayer_Virtual_Guest API 範例 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://softlayer.github.io/classes/softlayer_virtual_guest/)
-* [取得特性清單 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://softlayer.github.io/article/vsiflavors/)
+* [取得設定檔清單 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://softlayer.github.io/article/vsiflavors/)
 
 ## 使用建立物件佈建公用實例
-*SoftLayer_Virtual_Guest/createObject* API 服務是佈建使用預設特性的公用虛擬伺服器實例的最簡單方式。
+*SoftLayer_Virtual_Guest/createObject* API 服務是佈建使用預設設定檔的公用虛擬伺服器實例的最簡單方式。
 
 不適用於暫時性實例。
 {:tip}
@@ -61,7 +60,7 @@ lastupdated: "2018-02-28"
 ```
 
 ## 使用下單物件佈建公用實例
-佈建使用預設特性的公用虛擬伺服器的方式是使用 *SoftLayer_Product_Order/placeOrder* API 服務。
+佈建使用預設設定檔的公用虛擬伺服器的方式是使用 *SoftLayer_Product_Order/placeOrder* API 服務。
 
 不適用於暫時性實例。
 {:tip}

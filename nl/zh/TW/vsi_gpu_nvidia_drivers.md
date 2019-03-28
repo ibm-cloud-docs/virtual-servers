@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-02-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,6 +16,8 @@ lastupdated: "2018-02-12"
 {:table: .aria-labeledby="caption"}
 
 # 安裝 GPU 驅動程式及軟體套件
+{: #installing-gpu-drivers-and-software-packages}
+
 您需要先安裝下列軟體，才能使用「GPU 系列」虛擬伺服器。
 * [NVIDIA 驅動程式 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](http://www.nvidia.com/drivers){: new_window} - 容許作業系統與 GPU 通訊。
 * [CUDA 工具箱 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://docs.nvidia.com/cuda/){: new_window} - 高效能 GPU 加速應用程式的開發環境。
@@ -31,4 +32,3 @@ lastupdated: "2018-02-12"
 如果您要安裝 Machine Learning 架構，則需要安裝架構軟體，例如，先前軟體套件以外的其中一個平台。
 * [Caffe ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://www.nvidia.com/en-us/data-center/gpu-accelerated-applications/caffe/){: new_window} (Convolutional Architecture for Fast Feature Embedding) - 授權、開放程式碼深度學習架構。
 * [Tensorflow (Tensorflow 1.2+) ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://www.tensorflow.org/install/){: new_window} - 提供進行數值計算的開放程式碼軟體程式庫。
-

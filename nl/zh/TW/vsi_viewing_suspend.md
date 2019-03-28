@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2018
-lastupdated: "2018-10-30"
+  years: 2018, 2019
+lastupdated: "2019-03-01"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,15 +17,17 @@ lastupdated: "2018-10-30"
 {:table: .aria-labeledby="caption"}
 
 # 檢視暫停計費特性
+{: #viewing-suspend-billing-feature}
+
 您可以在 {{site.data.keyword.slportal_full}} 中或透過 {{site.data.keyword.slapi_short}} 檢視您的虛擬伺服器實例是否支援暫停計費特性。
 
 ## 在客戶入口網站中檢視暫停計費特性
 若要在 {{site.data.keyword.slportal}} 中判斷虛擬伺服器實例是否支援暫停計費特性，請使用下列步驟：
 
-1. 使用唯一認證來登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){: new_window}。 
-2. 從**裝置**功能表中，選取**裝置清單**。 
-3. 從**裝置清單**中，按一下虛擬伺服器實例的名稱。 
-4. 在**系統**區段的**配置**標籤上，您可以檢視虛擬伺服器實例是否支援暫停計費特性。 
+1. 使用唯一認證來登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){: new_window}。
+2. 從**裝置**功能表中，選取**裝置清單**。
+3. 從**裝置清單**中，按一下虛擬伺服器實例的名稱。
+4. 在**一般**區段的**配置**標籤上，您可以檢視虛擬伺服器實例是否支援暫停計費特性。
 
 |欄位|值|
 | --------------------------------------| ------------------------- |
@@ -38,7 +39,7 @@ lastupdated: "2018-10-30"
 
 下列指令是在 {{site.data.keyword.slapi_short}} 中驗證您的虛擬伺服器實例是否支援暫停計費特性的範例要求。
 
-**附註**：下列 JSON 要求及回應是一般的範例。 
+**附註**：下列 JSON 要求及回應是一般的範例。
 
 ```
 curl -X GET \
@@ -56,5 +57,5 @@ curl -X GET \
 ## 後續步驟
 
 若要進一步瞭解暫停計費特性，請檢閱下列資訊：
-1. [關於暫停計費](vsi_about_suspend.html)
-2. [管理虛擬伺服器](vsi_managing.html)
+1. [關於暫停計費](/docs/vsi?topic=virtual-servers-requirements)
+2. [管理虛擬伺服器](/docs/vsi?topic=virtual-servers-managing-virtual-servers)

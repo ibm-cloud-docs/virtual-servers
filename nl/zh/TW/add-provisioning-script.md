@@ -1,13 +1,18 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-04-27"
+
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 管理佈建 Script
+{: #managing-a-provisioning-script}
 
 使用佈建 Script，以指定要在新佈建裝置上執行之 Script 的 URL。Script 名稱沒有任何限制；不過，對每一個 Script 使用類似的命名慣例，可以方便識別。佈建 Script 必須與完整網域名稱相關聯，並且可以使用 HTTP 或 HTTPS 通訊協定進行存取。使用的通訊協定類型會影響系統在將佈建 Script 下載至裝置時的自動回應。
 
@@ -20,6 +25,7 @@ lastupdated: "2018-04-27"
 
 
 ## 新增佈建 Script
+{: #add-provisioning-script}
 
 1. 從 {{site.data.keyword.slportal}} 中的**佈建 Script** 畫面，按一下畫面頂端的**新增佈建 Script**。
 * 在**名稱**欄位中，輸入佈建 Script 的**識別性名稱**。

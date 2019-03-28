@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-11-15"
 
+keywords: scalable virtual servers, virtual servers, key features
+
+subcollection: virtual-servers
 
 ---
 
@@ -17,6 +18,7 @@ lastupdated: "2017-11-15"
 {:table: .aria-labeledby="caption"}
 
 # 關於虛擬伺服器
+{: #about-virtual-servers}
 
 {{site.data.keyword.BluVirtServers}} 是與專用核心及記憶體配置一起購買的可擴充虛擬伺服器。如果您要尋找可立即新增的計算資源，並存取映像檔範本這類特性，則它們是不錯的選項。Hypervisor 完全由 {{site.data.keyword.BluSoftlayer_full}} 所管理，您可以使用 {{site.data.keyword.slportal_full}} 及 {{site.data.keyword.slapi_short}} 來執行配置及管理作業。虛擬伺服器會部署至與實體伺服器相同的 VLAN，可讓您將工作負載分佈到虛擬伺服器及裸機伺服器，同時維護交互作業能力。當您訂購虛擬伺服器時，可以使用隨著計算需求成長而擴增的選項完全自訂虛擬伺服器。
 {:shortdesc}

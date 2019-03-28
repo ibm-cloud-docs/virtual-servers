@@ -1,18 +1,17 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-02-28"
 
+subcollection: virtual-servers
 
 ---
 
 <!-- Common attributes used in the template are defined as follows: -->
-{:tsSymptoms: .tsSymptoms} 
-{:tsCauses: .tsCauses} 
-{:tsResolve: .tsResolve} 
+{:tsSymptoms: .tsSymptoms}
+{:tsCauses: .tsCauses}
+{:tsResolve: .tsResolve}
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
@@ -28,7 +27,7 @@ lastupdated: "2018-02-28"
 <!-- The short description section should include the service long name and "Bluemix" for search optimization. Example short description: -->
 
 <!-- Add a heading and content for how to get help and support. Use this template for beta and GA services:  -->
-# 取得協助及支援 
+# 取得協助及支援
 {: #gettinghelp}
 
 如果您在使用 {{site.data.keyword.BluVirtServers}} 時有問題或疑問，可以搜尋資訊或透過下列其中一個討論區提問來取得協助。您也可以在[客戶入口網站 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/) 中開立支援問題單。
@@ -40,7 +39,6 @@ lastupdated: "2018-02-28"
 <!--Insert the appropriate dW Answers tag for your service for <service_keyword> in URL below:  -->
 * 若為服務及開始使用指示的相關問題，請使用 [IBM developerWorks dW Answers ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://developer.ibm.com/answers/topics/virtual-servers.html?smartspace=bluemix){:new_window} 討論區。請包括 "virtual servers" 及 "ibm cloud" 標籤。
 
-如需使用討論區的詳細資料，請參閱[取得協助](https://new-console.eu-gb.bluemix.net/docs/support/index.html#getting-help)。
+如需使用討論區的詳細資料，請參閱[取得協助](/docs/get-support?topic=get-support-getting-customer-support#using-avatar)。
 
-如需開立 IBM 支援問題單的相關資訊，請參閱[與支援中心聯絡](/docs/get-support/howtogetsupport.html)。
-
+如需開立 IBM 支援問題單的相關資訊，請參閱[與支援中心聯絡](/docs/get-support?topic=get-support-getting-customer-support)。

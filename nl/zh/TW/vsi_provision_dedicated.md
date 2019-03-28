@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -19,34 +18,34 @@ lastupdated: "2018-10-24"
 # 佈建專用主機及實例
 {: #ordering-vs-dedicated}
 
-您有兩個關於如何佈建專用實例的選項。第一個是透過 {{site.data.keyword.Bluemix}} 型錄，第二個則是透過 {{site.data.keyword.slportal_full}}。型錄及 {{site.data.keyword.slportal}} 需要唯一登入 ID。您的型錄使用者名稱及密碼將不適用於登入入口網站，反之亦然。請參閱[註冊 {{site.data.keyword.Bluemix_notm}}](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window} 以設定 {{site.data.keyword.Bluemix_notm}} 型錄或 {{site.data.keyword.slportal}} 認證。
+您有兩個關於如何佈建專用實例的選項。第一個是透過 {{site.data.keyword.Bluemix}} 型錄，第二個則是透過 {{site.data.keyword.slportal_full}}。型錄及 {{site.data.keyword.slportal}} 需要唯一登入 ID。您的型錄使用者名稱及密碼將不適用於登入入口網站，反之亦然。請參閱[註冊 {{site.data.keyword.Bluemix_notm}}](/docs/account?topic=account-signup#signup) 以設定 {{site.data.keyword.Bluemix_notm}} 型錄或 {{site.data.keyword.slportal}} 認證。
 {:shortdesc}
 
 ## 佈建專用主機及實例
 您可以透過 {{site.data.keyword.cloud_notm}} 或 {{site.data.keyword.slportal}} 佈建專用主機及實例。
 
-### 透過 IBM Cloud 型錄佈建專用主機及實例 
-若要透過 {{site.data.keyword.cloud_notm}} 型錄佈建專用主機及專用主機實例，請完成下列步驟： 
+### 透過 IBM Cloud 型錄佈建專用主機及實例
+若要透過 {{site.data.keyword.cloud_notm}} 型錄佈建專用主機及專用主機實例，請完成下列步驟：
 
-1. 使用唯一認證來登入 [{{site.data.keyword.cloud_notm}} 型錄 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://console.bluemix.net/catalog/){: new_window}。 
+1. 使用唯一認證來登入 [{{site.data.keyword.cloud_notm}} 型錄 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://console.bluemix.net/catalog/){: new_window}。
 2. 在**運算基礎架構**區段中，按一下**虛擬伺服器**磚。
 3. 選取**專用虛擬伺服器**選項。
 4. 按一下**建立**。
 5. 在**專用主機**區段中，您可以選取**建立主機**以建立新的專用主機，或是選取**指定主機**以選取現有的專用主機。
 6. 完成專用主機及專用虛擬伺服器實例的所有相關資訊。
 7. 在您檢閱訂單摘要之後，請按一下**協力廠商服務合約**勾選框。
-8. 按一下**佈建**。 
+8. 按一下**佈建**。
 
 ### 透過客戶入口網站佈建專用主機及實例
 若要透過 {{site.data.keyword.slportal}} 佈建專用主機及專用主機實例，請完成下列步驟：
 
 1. 使用唯一認證來登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){: new_window}。
 
-#### 佈建專用主機 
+#### 佈建專用主機
 請使用下列步驟，以佈建專用主機。
 
 1.	按一下**裝置**圖示。
-2.  按一下**每小時專用虛擬伺服器**或**每月專用虛擬伺服器**鏈結。 
+2.  按一下**每小時專用虛擬伺服器**或**每月專用虛擬伺服器**鏈結。
 
    **附註：**專用伺服器 (dedicated server) 是專用伺服器 (private server)。
 
@@ -54,7 +53,7 @@ lastupdated: "2018-10-24"
 
 4.	按一下表單右側的**建立主機**按鈕。
 5.	輸入下列資訊：
-    
+
     <table>
     <CAPTION>表 1. 專用主機佈建選項</CAPTION>
     <THEAD>
@@ -77,9 +76,9 @@ lastupdated: "2018-10-24"
     </tr>
     </TBODY>
     </table>
-    
-    「訂單摘要」會顯示在*配置* 頁面右側。 
-    
+
+    「訂單摘要」會顯示在*配置* 頁面右側。
+
 6.  按一下**新增至訂單**按鈕。
 7.  確認*結帳* 頁面上的選項，然後向下捲動至*專用主機進階系統配置*。
 8.  輸入下列資訊：
@@ -118,22 +117,22 @@ lastupdated: "2018-10-24"
 
 若要透過 {{site.data.keyword.slportal}} 佈建專用主機實例，請完成下列步驟：
 
-1.	按一下**裝置 > 裝置清單**。 
- 
-    *裝置* 頁面會顯示您帳戶內的所有裝置類型：專用主機、虛擬伺服器、裸機伺服器，以及 NetScaler 應用程式交付控制器。 
+1.	按一下**裝置 > 裝置清單**。
+
+    *裝置* 頁面會顯示您帳戶內的所有裝置類型：專用主機、虛擬伺服器、裸機伺服器，以及 NetScaler 應用程式交付控制器。
 
 2.	選取專用主機實例的主機，方法是按一下其在**裝置名稱**下的鏈結。
-    
+
     您是位在*裝置詳細資料* 頁面的**配置**標籤。**問題單**標籤會列出作用中支援問題單，**配置**標籤則會顯示所選取計費期間的記憶體用量。如需這些標籤的相關資訊，請參閱「使用裝置詳細資料來管理專用主機及實例」。
 
 3.	向下捲動至**實例**頁框。
 
-    專用主機的計費方式（每月或每小時）可決定專用主機實例的計費。請注意，如果您有每月計費的主機，則可以同時佈建每小時及每月計費的專用主機實例。佈建實例時，提供兩個鏈結：**每小時新增**及**每月新增**。每小時計費的專用主機只能佈建每小時計費的專用主機實例，而且只會看到**每小時新增**鏈結。 
+    專用主機的計費方式（每月或每小時）可決定專用主機實例的計費。請注意，如果您有每月計費的主機，則可以同時佈建每小時及每月計費的專用主機實例。佈建實例時，提供兩個鏈結：**每小時新增**及**每月新增**。每小時計費的專用主機只能佈建每小時計費的專用主機實例，而且只會看到**每小時新增**鏈結。
 
-4.	如果您的主機是每小時或每月計費，請按一下**每小時新增**鏈結；如果您的主機是每月付費，請按一下**每月新增**鏈結。即會將您重新導向至*配置雲端伺服器* 頁面。 
+4.	如果您的主機是每小時或每月計費，請按一下**每小時新增**鏈結；如果您的主機是每月付費，請按一下**每月新增**鏈結。即會將您重新導向至*配置雲端伺服器* 頁面。
 
 5.	輸入下列資訊：
-       
+
     <table>
     <CAPTION>表 3. 專用主機實例選項</CAPTION>
     <THEAD>
@@ -189,7 +188,7 @@ lastupdated: "2018-10-24"
     </tr>
     <tr>
     </TBODY>
-    </table> 
+    </table>
 
 6.	按一下**新增至訂單**按鈕。
 7.  在*結帳* 頁面的*進階系統配置* 下方，輸入下列資訊：
@@ -237,6 +236,4 @@ lastupdated: "2018-10-24"
 已佈建專用主機實例之後，您會收到一封電子郵件。
 
 ## 後續步驟
-佈建虛擬伺服器之後，即可開始進行管理。如需相關資訊，請參閱[管理虛擬伺服器](../vsi/vsi_managing.html)。
-
-
+佈建虛擬伺服器之後，即可開始進行管理。如需相關資訊，請參閱[管理虛擬伺服器](/docs/vsi?topic=virtual-servers-managing-virtual-servers)。

@@ -1,30 +1,34 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="virtual-servers" audience="compute" arm="407" href="/docs/vsi/index.html" path="vsi"}
-IBM Cloud Virtual Servers 
+{: .toc subcollection="virtual-servers" audience="compute" arm="407" href="/docs/vsi?topic=virtual-servers-getting-started-with-virtual-servers#getting-started-with-virtual-servers" path="vsi"}
+IBM Cloud Virtual Servers
 
     {: .navgroup id="learn"}
     vsi_index.md
     vsi_about.md
     vsi_about_suspend.md
-    
-    {: .topicgroup}
-    佈建選項
-        vsi_public.md
-            vsi_public_balanced.md
-            vsi_public_balanced_local.md
-            vsi_public_compute.md
-            vsi_public_memory.md
-            vsi_public_gpu.md
-            vsi_public_selections.md
-        vsi_about_transient.md
-        vsi_about_reserved.md
-        vsi_dedicated.md
-            vsi_dedicated_host.md
-            vsi_dedicated_pricing.md
-        vsi_ps_index.md
 
+    {: .topicgroup}
+    公用虛擬伺服器
+        vsi_public.md
+        vsi_public_balanced.md
+        vsi_public_balanced_local.md
+        vsi_public_compute.md
+        vsi_public_memory.md
+        vsi_public_gpu.md
+        vsi_public_selections.md
+
+    vsi_about_transient.md
+    vsi_about_reserved.md
+
+    {: .topicgroup}
+    專用虛擬伺服器
+        vsi_dedicated.md
+        vsi_dedicated_host.md
+        vsi_dedicated_pricing.md
+
+    vsi_ps_index.md
     vsi_image_templates_intro.md
     vsi_placegroup.md
 
@@ -39,32 +43,32 @@ IBM Cloud Virtual Servers
 
     {: .topicgroup}
     軟體選項
-        [關於軟體](../infrastructure/software/index.html)
-        [Microsoft Windows Update 資訊](../infrastructure/software/microsoft-windows-update-instructions.html)
-        [RedHat Update 資訊](../infrastructure/software/redhat-update-instructions.html)
-        [AV/S/Host IDS 主題說明](../infrastructure/software/avshost-ids-topic-description.html)
+        [關於軟體](/infrastructure/software/software-about-software#about-software)
+        [Microsoft Windows Update 資訊](/infrastructure/software/software-microsoft-windows-update-information#microsoft-windows-update-information)
+        [RedHat Update 資訊](/infrastructure/software/software-red-hat-update-instructions#red-hat-update-instructions)
+        [AV/S/Host IDS 主題說明](/infrastructure/software/software-anti-virus-spyware-and-host-ids-information#anti-virus-spyware-and-host-ids-information)
         vsi_database_tools.md
-        
+
     {: .topicgroup}
     服務選項
         vsi_digital_transcoding.md
         vsi_email_intro.md
-    
+
     {: .topicgroup}
     指導教學
-        [LAMP Stack 上的 PHP Web 應用程式](https://console.bluemix.net/docs/tutorials/lamp-stack.html)
-        [使用虛擬伺服器建置高可用性及可擴充 Web 應用程式](https://console.bluemix.net/docs/tutorials/highly-available-and-scalable-web-application.html)
-        
+        [LAMP Stack 上的 PHP Web 應用程式](/tutorials/solution-tutorials-lamp-stack#lamp-stack)
+        [使用虛擬伺服器建置高可用性及可擴充 Web 應用程式](/tutorials/solution-tutorials-highly-available-and-scalable-web-application#highly-available-and-scalable-web-application)
+
     {: .topicgroup}
     相關鏈結
         [控制入口網站](https://control.softlayer.com/)
-        [使用虛擬伺服器將控制最大化](https://www.ibm.com/blogs/bluemix/2017/08/maximize-control-ibm-bluemix-virtual-servers/)
+        [Maximize Control with Virtual Servers](https://www.ibm.com/blogs/bluemix/2017/08/maximize-control-ibm-bluemix-virtual-servers/)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     vsi_api.md
-        vsi_provision_api.md
-    vsi_activity_tracker_events.md    
+    vsi_provision_api.md
+    vsi_activity_tracker_events.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -88,46 +92,48 @@ IBM Cloud Virtual Servers
     {: .topicgroup}
     管理伺服器
         vsi_managing.md
-            vsi_add_script.md
-            vsi_vulnerability_scans.md
-            vsi_viewing_suspend.md
-            vsi_bandwidth-graphs.md
-        vsi_managing_dedicated.md
-        vsi_device_access.md
+        vsi_add_script.md
+        vsi_vulnerability_scans.md
+        vsi_viewing_suspend.md
+        vsi_bandwidth-graphs.md
         vsi_interact_device_snapshot_view.md
-        vsi_managing_users_pwd.md
-        vsi_managing_port_speeds.md
-            vsi_upgrading_port_speeds_linux.md
-            vsi_upgrading_port_speeds_windows.md
-            vsi_downgrading_port_speeds.md
         vsi_autoscale_intro.md
         add-provisioning-script.md
-     
+        vsi_managing_dedicated.md
+        vsi_managing_users_pwd.md
+
+    vsi_device_access.md
+
+    {: .topicgroup}
+    管理埠速度
+        vsi_managing_port_speeds.md
+        vsi_upgrading_port_speeds_linux.md
+        vsi_upgrading_port_speeds_windows.md
+        vsi_downgrading_port_speeds.md
+
     {: .topicgroup}
     管理安全
         vsi_managing_sg.md
-        [存取 SSL 憑證](../infrastructure/ssl-certificates/access-ssl-certificates-screen.html)
+        [存取 SSL 憑證](/infrastructure/ssl-certificates/ssl-certificates-accessing-ssl-certificates#accessing-ssl-certificates)
 
     {: .topicgroup}
     管理儲存空間
         storage/access-portable-storage-screen.md
         storage/vsi_view_portable_storage.md
         storage/edit-description-portable-storage-volume-psv.md
-        
+
     {: .topicgroup}
     管理軟體
-        [重新載入 OS](../infrastructure/software/vsi_reload_os.html)
-        [使用映像檔範本重新載入 OS](../infrastructure/software/vsi_reload_os_image.html)
-        [將 IPv6 新增至 Ubuntu 系統](../infrastructure/software/adding-ipv6-ubuntu-systems.html)
-        [安裝 ClamAV](../infrastructure/software/install-clamav.html)
-        [在 cPanel/WHM 中通知使用者接近頻寬限制](../infrastructure/software/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
-        [更新實例以使用本端 WSUS 伺服器](../infrastructure/software/local-wsus.html)
+        [重新載入 OS](/infrastructure/software/software-reloading-the-os#reloading-the-os)
+        [使用映像檔範本重新載入 OS](/infrastructure/software/software-reloading-an-os-using-an-image-template#reloading-an-os-using-an-image-template)
+        [將 IPv6 新增至 Ubuntu 系統](/infrastructure/software/software-adding-ipv6-to-ubuntu-systems#adding-ipv6-to-ubuntu-systems)
+        [安裝 ClamAV](/infrastructure/software/software-installing-clamav#installing-clamav)
+        [在 cPanel/WHM 中通知使用者接近頻寬限制](/infrastructure/software/software-notifying-users-of-an-approaching-bandwidth-limitation-in-cpanel-and-whm#notifying-users-of-an-approaching-bandwidth-limitation-in-cpanel-and-whm)
+        [更新實例以使用本端 WSUS 伺服器](/infrastructure/software/software-updating-an-instance-to-use-a-local-wsus-server#updating-an-instance-to-use-a-local-wsus-server)
         vsi_gpu_nvidia_drivers.md
- 
-    {: .topicgroup}
-    管理放置群組
-        vsi_managing_placegroup.md
-    
+
+    vsi_managing_placegroup.md
+
     {: .topicgroup}
     移轉
         vsi_migrating_dedicated.md
@@ -141,28 +147,28 @@ IBM Cloud Virtual Servers
     備份及回復
         vsi_backup.md
         vsi_launch_rescue.md
-        [從 R1Soft 映像檔還原伺服器](../infrastructure/software/r1soft-cdp-bare-metal-restore-procedures.html)
-        
+        [從 R1Soft 映像檔還原伺服器](/infrastructure/software/software-restoring-your-server-from-an-r1soft-image#restoring-your-server-from-an-r1soft-image)
+
     {: .topicgroup}
     相關鏈結
-        [虛擬機器網路設定](../infrastructure/virtualization/virtual-machine-network-setup.html)
-        [Control Portal](https://control.softlayer.com/)
+        [虛擬機器網路設定](/infrastructure/virtualization/Virtualization-setting-up-a-virtual-machine-network#setting-up-a-virtual-machine-network)
+        [控制入口網站](https://control.softlayer.com/)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
     vsi_ts_index.md
-    
+
     {: .topicgroup}
     疑難排解
         ts_capacity_bp.md
-    
+
     {: .topicgroup}
     常見問題
         vsi_faqs_vs.md
         vsi_faqs_reserved.md
         vsi_faqs_dedicated.md
         faq_servers_general.md
-        [常見問題：OS 重新載入](../infrastructure/software/os-reload-question-faq.html)
-        [常見問題：cpsrvd 電子郵件](../infrastructure/software/why-did-my-cpsrvd-email-fail.html)
+        [常見問題：OS 重新載入](/infrastructure/software/software-faqs#faqs)
+        [常見問題：cpsrvd 電子郵件](/infrastructure/software/software-faqs#why-did-my-cpsrvd-email-fail-)
 
     {: .navgroup-end}

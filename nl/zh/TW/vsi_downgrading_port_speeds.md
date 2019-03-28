@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-12-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,6 +17,7 @@ lastupdated: "2017-12-12"
 {:table: .aria-labeledby="caption"}
 
 # 降級埠速度
+{: #downgrading-port-speeds}
 
 您可以暫時降級埠速度，而不需要開立問題單。您可以按一下**裝置詳細資料**頁面右上方的**動作**，以存取**埠控制**選項。從此畫面中，選取您需要的速度，或將它中斷連線。
 {:shortdesc}

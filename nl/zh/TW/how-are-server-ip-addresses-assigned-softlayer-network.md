@@ -4,6 +4,8 @@ copyright:
   years: 2018
 lastupdated: "2018-08-01"
 
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -22,7 +24,7 @@ lastupdated: "2018-08-01"
 
 透過 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com) 購買次要子網路之後，可以將其他 IP 位址連結至虛擬伺服器實例。使用此方式購買且由您管理的 IP 位址稱為_次要 IP 位址_。
 
-如需獲得 IP 位址之可用選項的相關資訊，請參閱[子網路及 IP](https://console.bluemix.net/docs/infrastructure/subnets/)。
+如需獲得 IP 位址之可用選項的相關資訊，請參閱[子網路及 IP](/docs/infrastructure/subnets?topic=subnets-getting-started-with-subnets-and-ips#getting-started-with-subnets-and-ips)。
 
 ## 連結次要 IP 位址
 

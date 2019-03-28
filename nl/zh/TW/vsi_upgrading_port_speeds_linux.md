@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-12-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -19,6 +18,7 @@ lastupdated: "2017-12-12"
 {:table: .aria-labeledby="caption"}
 
 # 在 Linux 中升級埠速度
+{: #upgrading-port-speed-in-linux}
 
 客戶伺服器的預設埠速度（適用於公用及專用網路）是 10 Mbps。如果您要將任一個埠速度升級為 100 Mbps 或 1000 Mbps，請向銷售部門開立問題單。銷售人員會要求您核准每月費用，而技術人員將會變更網路上的埠速度限制。
 

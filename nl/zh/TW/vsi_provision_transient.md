@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-10-03"
 
+subcollection: virtual-servers
 
 ---
 
@@ -26,12 +25,12 @@ lastupdated: "2018-10-03"
 開始之前，請檢閱下列必要條件。
 
   1. 確定您已設定 {{site.data.keyword.cloud_notm}} 型錄或 {{site.data.keyword.slportal}} 認證。
-  
-  **附註：**針對 {{site.data.keyword.Bluemix_notm}} 型錄，您必須具有已升級的帳戶，才能訂購虛擬伺服器。如需升級帳戶的相關資訊，請參閱[切換至 IBM ID](https://console.bluemix.net/docs/admin/softlayerlink.html)。
 
-  2. 檢閱虛擬伺服器實例容量考量。如需相關資訊，請參閱[容量考量](ts_capacity_bp.html)。
+  **附註：**針對 {{site.data.keyword.Bluemix_notm}} 型錄，您必須具有已升級的帳戶，才能訂購虛擬伺服器。如需升級帳戶的相關資訊，請參閱[切換至 IBM ID](/docs/account?topic=account-unifyingaccounts#unifyingaccounts)。
 
-## 佈建暫時性虛擬伺服器實例 
+  2. 檢閱虛擬伺服器實例容量考量。如需相關資訊，請參閱[容量考量](/docs/vsi?topic=virtual-servers-capacity-considerations)。
+
+## 佈建暫時性虛擬伺服器實例
 在您完成必要條件之後，即可開始佈建暫時性虛擬伺服器實例。您可以透過 {{site.data.keyword.cloud_notm}} 型錄或 {{site.data.keyword.slportal}} 佈建實例。
 
 ### 透過 IBM Cloud 型錄佈建暫時性虛擬伺服器實例
@@ -44,7 +43,7 @@ lastupdated: "2018-10-03"
   5. 完成虛擬伺服器實例的所有相關資訊。
   6. 在您檢閱訂單摘要之後，請按一下**協力廠商服務合約**勾選框。
   7. 按一下**佈建**。
-  
+
 ### 透過客戶入口網站佈建暫時性虛擬伺服器實例
 若要透過 {{site.data.keyword.slportal}} 佈建暫時性虛擬伺服器實例，請完成下列步驟：
 
@@ -59,8 +58,8 @@ lastupdated: "2018-10-03"
 
  一系列的電子郵件會傳送給管理者：佈建訂單確認、佈建訂單核准和處理，以及佈建完成。佈建完成電子郵件會包含*裝置詳細資料* 頁面的鏈結。
 
-您也可以使用 {{site.data.keyword.slapi_short}}，來佈建暫時性虛擬伺服器。如需範例，請參閱[使用建立物件來佈建暫時性實例](../vsi/vsi_provision_api.html#api-rest-transient)。
+您也可以使用 {{site.data.keyword.slapi_short}}，來佈建暫時性虛擬伺服器。如需範例，請參閱[使用建立物件來佈建暫時性實例](/docs/vsi?topic=virtual-servers-api-rest-public#api-rest-transient)。
 {:tip}
 
 ## 後續步驟
-佈建虛擬伺服器之後，即可開始進行管理。如需相關資訊，請參閱[管理虛擬伺服器](../vsi/vsi_managing.html)。
+佈建虛擬伺服器之後，即可開始進行管理。如需相關資訊，請參閱[管理虛擬伺服器](/docs/vsi?topic=virtual-servers-managing-virtual-servers)。

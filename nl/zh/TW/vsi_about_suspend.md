@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-29"
+  years: 2017, 2019
+lastupdated: "2019-02-25"
 
+keywords: virtual server, suspend billing feature, virtual server instances, suspend billing
+
+subcollection: virtual-servers
 
 ---
 
@@ -25,12 +26,12 @@ lastupdated: "2018-10-29"
 當您關閉支援暫停計費特性之虛擬伺服器的電源時，並不會增加特定運算資源的成本。關閉伺服器電源時，就會自動停止計費。暫停計費特性可協助您降低成本，並且讓您於再次需要虛擬伺服器的資源時，不需要重新佈建虛擬伺服器。
 {:shortdesc}
 
-大部分在 2018 年 11 月 1 日之前建立的虛擬伺服器實例不支援暫停計費特性。要找出您的虛擬伺服器實例是否支援暫停計費特性，請參閱[檢視暫停計費特性](vsi_viewing_suspend.html)。 
+大部分在 2018 年 11 月 1 日之前建立的虛擬伺服器實例不支援暫停計費特性。要找出您的虛擬伺服器實例是否支援暫停計費特性，請參閱[檢視暫停計費特性](/docs/vsi?topic=virtual-servers-viewing-suspend-billing-feature)。
 
 全球各資料中心都提供此特性。若要佈建支援暫停計費特性的虛擬伺服器實例，必須使用下列設定來配置虛擬伺服器實例：
 
 * 每小時 SAN
-* 下列其中一個系列的公用特性：
+* 下列其中一個系列的公用設定檔：
   * 平衡
   * 運算
   * 記憶體
@@ -43,13 +44,13 @@ lastupdated: "2018-10-29"
 
 ## 佈建詳細資料
 
-您可以透過 {{site.data.keyword.cloud_notm}} 型錄、CLI 或 {{site.data.keyword.slapi_short}} 佈建支援暫停計費特性的虛擬伺服器實例。如需佈建公用虛擬伺服器實例的相關資訊，請參閱[佈建公用實例](../vsi/vsi_provision_public.html)。
+您可以透過 {{site.data.keyword.cloud_notm}} 型錄 (cloud.ibm.com)、CLI 或 {{site.data.keyword.slapi_short}} 佈建支援暫停計費特性的虛擬伺服器實例。您無法透過 {{site.data.keyword.slportal}} (control.softlayer.com) 佈建支援暫停計費特性的虛擬伺服器實例。如需佈建公用虛擬伺服器實例的相關資訊，請參閱[佈建公用實例](/docs/vsi?topic=virtual-servers-ordering-vs-public#ordering-vs-public)。
 
-針對 {{site.data.keyword.cloud_notm}} 型錄，您必須具有已升級的帳戶，才能訂購虛擬伺服器。如需升級帳戶的相關資訊，請參閱[切換至 IBM ID](https://console.bluemix.net/docs/admin/softlayerlink.html)。
+針對 {{site.data.keyword.cloud_notm}} 型錄，您必須具有已升級的帳戶，才能訂購虛擬伺服器。如需升級帳戶的相關資訊，請參閱[切換至 IBM ID](/docs/account?topic=account-unifyingaccounts#unifyingaccounts)。
 {:note}
 
 ### 透過 Softlayer API 佈建
-您可以透過 {{site.data.keyword.slapi_short}} 佈建支援暫停計費特性的虛擬伺服器實例。針對 API 範例，請參閱[使用下訂單物件佈建公用實例](../vsi/vsi_provision_api.html#provisioning-a-public-instance-using-place-order-object)。 
+您可以透過 {{site.data.keyword.slapi_short}} 佈建支援暫停計費特性的虛擬伺服器實例。針對 API 範例，請參閱[使用下訂單物件佈建公用實例](/docs/vsi?topic=virtual-servers-api-rest-public#provisioning-a-public-instance-using-place-order-object)。
 
 您必須在佈建處理程序期間指定特定暫停計費套件 ID。您可以使用 keyName `SUSPEND_CLOUD_SERVER` 在 {{site.data.keyword.slapi_short}} 中查詢暫停計費套件 ID。如需搜尋伺服器套件的範例，請參閱[瞭解及使用 {{site.data.keyword.slapi_short}} 訂單 CLI 建置訂單 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://softlayer.github.io/article/understanding-ordering/){: new_window}。
 
@@ -72,7 +73,7 @@ lastupdated: "2018-10-29"
 {:note}
 
 ### 使用費用下限
-支援暫停計費特性的虛擬伺服器實例，可以具有在某些情況下套用的使用費用下限。如果用量大於 25%，則會向您收取該用量的費用。如果用量小於 25%，則會向您收取現行計費週期內現有實例之 25% 的小時的費用。 
+支援暫停計費特性的虛擬伺服器實例，可以具有在某些情況下套用的使用費用下限。如果用量大於 25%，則會向您收取該用量的費用。如果用量小於 25%，則會向您收取現行計費週期內現有實例之 25% 的小時的費用。
 
 ### 帳單發票
 當您暫停虛擬伺服器上的計費時，會在帳單發票中看到一些變更。相關費用現在顯示為用量型詳細資料。例如，您可能會看到下列反映可用小時、已使用小時及已收費總時數的新增項目：
@@ -96,7 +97,7 @@ Operating system usage...
 
 ### 限制
 
-已暫停的虛擬伺服器實例會繼續計入您的帳戶層面裝置配額。如需實例限制的相關資訊，請參閱[常見問題：虛擬伺服器](vsi_faqs_vs.html#concurrent)。
+已暫停的虛擬伺服器實例會繼續計入您的帳戶層面裝置配額。如需實例限制的相關資訊，請參閱[常見問題：虛擬伺服器](/docs/vsi?topic=virtual-servers-faqs-virtual-servers#concurrent)。
 
 ## 後續步驟
 在您佈建支援暫停計費的虛擬伺服器之後，即可開始暫停及繼續裝置上的計費。
@@ -104,4 +105,4 @@ Operating system usage...
 
 暫停虛擬伺服器實例上的計費時，除非繼續裝置的計費，否則無法完成實例上的所有相同動作。您可以透過 {{site.data.keyword.slapi_short}} 或存取 {{site.data.keyword.slportal}} 中的「裝置詳細資料」頁面，來檢視是否已停止裝置，以及變更狀態的相關日期。
 
-若要暫停虛擬伺服器實例上的計費，請關閉虛擬伺服器電源。如需相關資訊，請參閱[管理虛擬伺服器](vsi_managing.html)。
+若要暫停虛擬伺服器實例上的計費，請關閉虛擬伺服器電源。如需相關資訊，請參閱[管理虛擬伺服器](/docs/vsi?topic=virtual-servers-managing-virtual-servers)。

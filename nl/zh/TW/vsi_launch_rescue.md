@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-05-17"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,7 +16,7 @@ lastupdated: "2018-05-17"
 {:table: .aria-labeledby="caption"}
 
 
-# 啟動救援核心 
+# 啟動救援核心
 {: #launching-rescue}
 
 「救援核心」是一種即時救援環境，設計目的是要讓客戶可以將裸機伺服器或虛擬伺服器上線，以疑難排解一般只能透過「OS 重新載入」解決的系統問題。您必須在 {{site.data.keyword.slportal_full}} 上起始「救援核心」。請使用下列步驟，以啟動裝置的「救援核心」。
@@ -43,5 +42,4 @@ lastupdated: "2018-05-17"
 
 您可以從裝置的 IP 位址遠端存取裝置。使用 {{site.data.keyword.slportal}} 上所記錄裝置的 root 或管理者認證，即可在「救援核心」中存取裝置。使用「救援核心」時，您可以疑難排解、探索問題以及解決問題，就像一般開機裝置一樣。必要的話，您可以將磁碟機裝載至「救援核心 OS」。若要結束「救援核心」，並將裝置還原成其一般環境，請在 {{site.data.keyword.slportal}} 中將裝置重新開機，或從「救援核心 OS」重新開機。
 
-如需將裝置重新開機的相關資訊，請參閱[管理虛擬伺服器](../vsi/vsi_managing.html)。
-
+如需將裝置重新開機的相關資訊，請參閱[管理虛擬伺服器](/docs/vsi?topic=virtual-servers-managing-virtual-servers)。

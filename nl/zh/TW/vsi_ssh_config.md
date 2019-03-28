@@ -4,9 +4,9 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-02-22"
 
+subcollection: virtual-servers
+
 ---
-
-
 
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
@@ -16,6 +16,8 @@ lastupdated: "2018-02-22"
 {:table: .aria-labeledby="caption"}
 
 # 配置 SSH 金鑰
+{: #configuring-ssh-keys}
+
 Secure Socket Shell (SSH) 通訊協定是伺服器上所安裝之作業系統的一部分。您有數個配置選項可用（例如，配置埠，以及限制存取權）。您也可以管理 SSH 金鑰。
 
-如需 SSH 選項的相關資訊，請參閱[開始使用 SSH 金鑰](/docs/infrastructure/ssh-keys/index.html)。
+如需 SSH 選項的相關資訊，請參閱[開始使用 SSH 金鑰](/docs/infrastructure/ssh-keys?topic=ssh-keys-getting-started-tutorial)。

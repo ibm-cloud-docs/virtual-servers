@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-10-30"
 
+subcollection: virtual-servers
 
 ---
 
@@ -15,32 +14,44 @@ lastupdated: "2018-10-30"
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
+{:faq: data-hd-content-type='faq'}
 
 
 # 常見問題：虛擬伺服器  
+{: #faqs-virtual-servers}
 
 ## 哪些類型的虛擬伺服器可供使用？
-{{site.data.keyword.BluSoftlayer_full}} 提供幾種類型的虛擬伺服器。標準供應項目是適用於各種需求的公用型虛擬伺服器（即多方承租戶環境）。如果您要尋找單一承租戶環境，請考慮使用「專用虛擬伺服器」供應項目。專用虛擬伺服器選項適用於具有更嚴格資源需求的應用程式。如需現行虛擬伺服器供應項目的相關資訊，請參閱[開始使用虛擬伺服器](../vsi/vsi_index.html)。
+{:faq}
+
+{{site.data.keyword.BluSoftlayer_full}} 提供幾種類型的虛擬伺服器。標準供應項目是適用於各種需求的公用型虛擬伺服器（即多方承租戶環境）。如果您要尋找單一承租戶環境，請考慮使用「專用虛擬伺服器」供應項目。專用虛擬伺服器選項適用於具有更嚴格資源需求的應用程式。如需現行虛擬伺服器供應項目的相關資訊，請參閱[開始使用虛擬伺服器](/docs/vsi?topic=virtual-servers-getting-started-tutorial)。
 
 ## 我可以在哪裏找到公用實例類型的定價資訊？
+{:faq}
+
 如需相關資訊，請參閱[建置虛擬伺服器 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud-computing/bluemix/virtual-servers){: new_window}。
 
 ## 我可以在哪裏找到虛擬公用實例的定價資訊？
+{:faq}
+
 如需定價資訊，請參閱[虛擬伺服器佈建計算機](https://www.ibm.com/cloud-computing/bluemix/virtual-servers/calculator)。
 
 ## 我可以將磁碟儲存空間新增至每小時或每月虛擬伺服器嗎？
-您可以升級或降級任何虛擬伺服器的磁碟儲存空間，方法是在您要更新之裝置的*配置* 畫面的*第一個硬碟* 到*第五個硬碟* 欄位中更新儲存空間選項。如需相關資訊，請參閱[重新配置現有虛擬伺服器](../vsi/vsi_reconfigure.html)。
+{:faq}
+
+您可以升級或降級任何虛擬伺服器的磁碟儲存空間，方法是在您要更新之裝置的*配置* 畫面的*第一個硬碟* 到*第五個硬碟* 欄位中更新儲存空間選項。如需相關資訊，請參閱[重新配置現有虛擬伺服器](/docs/vsi?topic=virtual-servers-reconfiguring-virtual-servers)。
 
 ## 我可以啟動多少部每小時虛擬伺服器？
+{:faq}
 
 依預設，帳戶在任何給定的時間都有 20 個實例的限制，而這些實例都可以在公用虛擬伺服器、專用虛擬伺服器及裸機伺服器上執行。如果您要增加此限制，請與支援中心聯絡，更進一步告訴我們您正在執行的作業以及您可能需要的並行實例數目。
 
 ## 我要如何支付每小時虛擬伺服器頻寬的費用？
+{:faq}
 
 每小時虛擬計費會細分為入埠及出埠資料流量。虛擬伺服器的所有入埠資料流量都是免費的。出埠資料流量是按 GB 進行計量及收費，並在計費期間結束時估算出總計。
 
 ## 我的虛擬伺服器在什麼情況下會移轉至不同主機？
-
+{:faq}
 在有限的情況下，虛擬伺服器可能需要移轉至不同的主機。如果需要移轉，虛擬伺服器會先關閉、移轉，然後再重新啟動。在下列情況下，可能會移轉虛擬伺服器：
 
 * 需要更新 Hypervisor、主機正在解除任務，或不容許主機承擔新的實例。如果主機標示了要進行任何上述變更，當其中一個虛擬伺服器從 {{site.data.keyword.slportal_full}} 重新啟動時，重新開機會自動觸發使得虛擬伺服器移轉至不同的主機。
@@ -52,15 +63,17 @@ lastupdated: "2018-10-30"
 如果您的其中一個虛擬伺服器需要的特定 Hypervisor 層次無法在現行主機上使用，您也可能看到**移轉主機**選項。
 
 ## 刪除我的可攜式儲存空間時，我的資料會發生什麼情況？
+{:faq}
 
 刪除儲存空間時，會移除該磁區上資料的任何指標，因此，資料會變成完成無法存取。如果將實體儲存空間重新佈建至另一個帳戶，則會指派一組新的指標。新的帳戶沒有方法可以存取任何可能已在實體儲存空間上的資料。這組新的指標全部顯示 0。將新的資料寫入至磁區/LUN 時，會改寫仍然存在的任何無法存取資料。
 
 ## 我可以使用 Red Hat Cloud Access 訂閱來建立虛擬伺服器嗎？
+{:faq}
 
-可以。匯入映像檔時，您可以指定將提供作業系統授權。如需相關資訊，請參閱[使用 Red Hat Cloud Access](../infrastructure/image-templates/use-red-hat-cloud-access.html)。接下來您可以從該映像檔範本訂購虛擬伺服器，並使用現有的 [Red Hat Cloud Access ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://www.redhat.com/en/technologies/cloud-computing/cloud-access){: new_window} 訂閱。
+可以。匯入映像檔時，您可以指定將提供作業系統授權。如需相關資訊，請參閱[使用 Red Hat Cloud Access](/docs/infrastructure/image-templates?topic=image-templates-using-your-own-os-license-or-subscription)。接下來您可以從該映像檔範本訂購虛擬伺服器，並使用現有的 [Red Hat Cloud Access ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://www.redhat.com/en/technologies/cloud-computing/cloud-access){: new_window} 訂閱。
 
 ## 虛擬伺服器與虛擬專用伺服器 (VPS) 之間的差異為何？
-
+{:faq}
 虛擬伺服器與您可能已熟悉的虛擬專用伺服器 (virtual private server, VPS) 或虛擬專用伺服器 (virtual dedicated server, VDS) 平台類似。這些「虛擬伺服器」環境容許在單一硬體節點上以專用且安全地方式佈建不同的環境，但 VDS 及 VPS 的功能較為受限。VPS 及 VDS 選項一般侷限於單一伺服器架構，因此，只有可在 VDS 或 VPS 的每一部虛擬伺服器之間新增或分發的資源，才是在該單一伺服器上實際安裝的資源。
 
 虛擬伺服器是佈建於多部伺服器雲端架構上，而此架構儲存要使用之個別實例的所有可用硬體資源。虛擬伺服器可以利用共用高容量 SAN 型主要儲存空間平台或高效能本端磁碟儲存空間。因為每一個實例都是較大型雲端環境的一部分，所以所有虛擬伺服器之間的通訊都是即時的。
@@ -70,5 +83,6 @@ lastupdated: "2018-10-30"
 <!--This error generally occurs because a password is outdated. To fix this, update the root or Administrator password for the virtual server's operating system in the {{site.data.keyword.slportal_full}}.-->
 
 ## 我在佈建虛擬伺服器時為什麼收到容量錯誤？
+{:faq}
 
-當您佈建虛擬伺服器時，可能會收到錯誤訊息，指出容量不足，無法完成要求。佈建失敗時，特定要求內的所有虛擬伺服器實例都會失敗。路由器或資料中心內的可用資源不足而無法滿足服務要求時，發生容量錯誤。有數個原因，您都會收到此錯誤。資源可用性會經常變更，因此您可能需要等待，然後再試一次。如需避免此錯誤的策略相關資訊，請參閱[容量考量](https://console.bluemix.net/docs/vsi/ts_capacity_bp.html)。
+當您佈建虛擬伺服器時，可能會收到錯誤訊息，指出容量不足，無法完成要求。佈建失敗時，特定要求內的所有虛擬伺服器實例都會失敗。路由器或資料中心內的可用資源不足而無法滿足服務要求時，發生容量錯誤。有數個原因，您都會收到此錯誤。資源可用性會經常變更，因此您可能需要等待，然後再試一次。如需避免此錯誤的策略相關資訊，請參閱[容量考量](/docs/vsi?topic=virtual-servers-capacity-considerations)。

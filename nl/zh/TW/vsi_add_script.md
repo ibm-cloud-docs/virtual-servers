@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2015, 2017
 lastupdated: "2017-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -16,7 +15,7 @@ lastupdated: "2017-10-24"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# 新增自訂佈建 Script 
+# 新增自訂佈建 Script
 {: #adding-post-script}
 
 自訂佈建 Script 可讓使用者指定在新佈建裝置上執行之 Script 的 URL。您可以在 {{site.data.keyword.slportal_full}} 內張貼及管理自訂佈建 Script。

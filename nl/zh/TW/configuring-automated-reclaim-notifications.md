@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-05-11"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,6 +17,7 @@ lastupdated: "2018-05-11"
 {:table: .aria-labeledby="caption"}
 
 # 配置暫時性虛擬伺服器收回通知
+{: #configuring-notifications-for-reclaims-of-transient-virtual-servers}
 
 暫時性虛擬伺服器本質上是暫時存在的，隨時都可以終止，因此可能會導致遺失資料。自動化收回通知有助於減少資料遺失。佈建時，暫時性虛擬伺服器可以配置成在實際終止之前的**兩分鐘**收到將終止的通知。通知可讓您以程式設計方式警告暫時性虛擬伺服器完成任何進行中的處理，或將任何必要資料傳送離開暫時性虛擬伺服器。
 
@@ -28,8 +28,9 @@ lastupdated: "2018-05-11"
 3. 驗證 Webhook 要求。
 
 ## 佈建暫時性虛擬伺服器實例
+{: #provision-transient-virtual-server}
 
-可以透過 [{{site.data.keyword.slportal_full}} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){: new_window} 或透過 [SLDN API ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](http://sldn.softlayer.com){: new_window} 佈建暫時性虛擬伺服器。如需相關資訊，請參閱[佈建暫時性實例](/docs/vsi/vsi_provision_transient.html)。
+可以透過 [{{site.data.keyword.slportal_full}} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){: new_window} 或透過 [SLDN API ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](http://sldn.softlayer.com){: new_window} 佈建暫時性虛擬伺服器。如需相關資訊，請參閱[佈建暫時性實例](/docs/vsi?topic=virtual-servers-ordering-vs-transient)。
 
 ## 設定 Webhook
 
