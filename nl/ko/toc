@@ -1,30 +1,34 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="virtual-servers" audience="compute" arm="407" href="/docs/vsi/index.html" path="vsi"}
-IBM Cloud Virtual Servers 
+{: .toc subcollection="virtual-servers" audience="compute" arm="407" href="/docs/vsi?topic=virtual-servers-getting-started-with-virtual-servers#getting-started-with-virtual-servers" path="vsi"}
+IBM Cloud Virtual Servers
 
     {: .navgroup id="learn"}
     vsi_index.md
     vsi_about.md
     vsi_about_suspend.md
-    
-    {: .topicgroup}
-    프로비저닝 옵션
-        vsi_public.md
-            vsi_public_balanced.md
-            vsi_public_balanced_local.md
-            vsi_public_compute.md
-            vsi_public_memory.md
-            vsi_public_gpu.md
-            vsi_public_selections.md
-        vsi_about_transient.md
-        vsi_about_reserved.md
-        vsi_dedicated.md
-            vsi_dedicated_host.md
-            vsi_dedicated_pricing.md
-        vsi_ps_index.md
 
+    {: .topicgroup}
+    공용 가상 서버
+        vsi_public.md
+        vsi_public_balanced.md
+        vsi_public_balanced_local.md
+        vsi_public_compute.md
+        vsi_public_memory.md
+        vsi_public_gpu.md
+        vsi_public_selections.md
+
+    vsi_about_transient.md
+    vsi_about_reserved.md
+
+    {: .topicgroup}
+    전용 가상 서버
+        vsi_dedicated.md
+        vsi_dedicated_host.md
+        vsi_dedicated_pricing.md
+
+    vsi_ps_index.md
     vsi_image_templates_intro.md
     vsi_placegroup.md
 
@@ -39,22 +43,22 @@ IBM Cloud Virtual Servers
 
     {: .topicgroup}
     소프트웨어 옵션
-        [소프트웨어 정보](../infrastructure/software/index.html)
-        [Microsoft Windows 업데이트 정보](../infrastructure/software/microsoft-windows-update-instructions.html)
-        [RedHat 업데이트 정보](../infrastructure/software/redhat-update-instructions.html)
-        [AV/S/Host IDS 주제 설명](../infrastructure/software/avshost-ids-topic-description.html)
+        [소프트웨어 정보](/infrastructure/software/software-about-software#about-software)
+        [Microsoft Windows 업데이트 정보](/infrastructure/software/software-microsoft-windows-update-information#microsoft-windows-update-information)
+        [RedHat 업데이트 정보](/infrastructure/software/software-red-hat-update-instructions#red-hat-update-instructions)
+        [AV/S/Host IDS 주제 설명](/infrastructure/software/software-anti-virus-spyware-and-host-ids-information#anti-virus-spyware-and-host-ids-information)
         vsi_database_tools.md
-        
+
     {: .topicgroup}
     서비스 옵션
         vsi_digital_transcoding.md
         vsi_email_intro.md
-    
+
     {: .topicgroup}
     튜토리얼
-        [PHP web application on a LAMP Stack](https://console.bluemix.net/docs/tutorials/lamp-stack.html)
-        [Use Virtual Servers to build highly available and scalable web app](https://console.bluemix.net/docs/tutorials/highly-available-and-scalable-web-application.html)
-        
+        [PHP web application on a LAMP Stack](/tutorials/solution-tutorials-lamp-stack#lamp-stack)
+        [Use Virtual Servers to build highly available and scalable web app](/tutorials/solution-tutorials-highly-available-and-scalable-web-application#highly-available-and-scalable-web-application)
+
     {: .topicgroup}
     관련 링크
         [Control Portal](https://control.softlayer.com/)
@@ -63,8 +67,8 @@ IBM Cloud Virtual Servers
 
     {: .navgroup id="reference"}
     vsi_api.md
-        vsi_provision_api.md
-    vsi_activity_tracker_events.md    
+    vsi_provision_api.md
+    vsi_activity_tracker_events.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -88,46 +92,48 @@ IBM Cloud Virtual Servers
     {: .topicgroup}
     서버 관리
         vsi_managing.md
-            vsi_add_script.md
-            vsi_vulnerability_scans.md
-            vsi_viewing_suspend.md
-            vsi_bandwidth-graphs.md
-        vsi_managing_dedicated.md
-        vsi_device_access.md
+        vsi_add_script.md
+        vsi_vulnerability_scans.md
+        vsi_viewing_suspend.md
+        vsi_bandwidth-graphs.md
         vsi_interact_device_snapshot_view.md
-        vsi_managing_users_pwd.md
-        vsi_managing_port_speeds.md
-            vsi_upgrading_port_speeds_linux.md
-            vsi_upgrading_port_speeds_windows.md
-            vsi_downgrading_port_speeds.md
         vsi_autoscale_intro.md
         add-provisioning-script.md
-     
+        vsi_managing_dedicated.md
+        vsi_managing_users_pwd.md
+
+    vsi_device_access.md
+
+    {: .topicgroup}
+    포트 속도 관리
+        vsi_managing_port_speeds.md
+        vsi_upgrading_port_speeds_linux.md
+        vsi_upgrading_port_speeds_windows.md
+        vsi_downgrading_port_speeds.md
+
     {: .topicgroup}
     보안 관리
         vsi_managing_sg.md
-        [SSL 인증서 액세스](../infrastructure/ssl-certificates/access-ssl-certificates-screen.html)
+        [SSL 인증서 액세스](/infrastructure/ssl-certificates/ssl-certificates-accessing-ssl-certificates#accessing-ssl-certificates)
 
     {: .topicgroup}
     스토리지 관리
         storage/access-portable-storage-screen.md
         storage/vsi_view_portable_storage.md
         storage/edit-description-portable-storage-volume-psv.md
-        
+
     {: .topicgroup}
     소프트웨어 관리
-        [OS 다시 로드](../infrastructure/software/vsi_reload_os.html)
-        [이미지 템플리트를 사용하여 OS 다시 로드](../infrastructure/software/vsi_reload_os_image.html)
-        [Ubuntu 시스템에 IPv6 추가](../infrastructure/software/adding-ipv6-ubuntu-systems.html)
-        [ClamAV 설치](../infrastructure/software/install-clamav.html)
-        [cPanel/WHM에서 대역폭 제한에 근접할 때 사용자에게 알림](../infrastructure/software/notify-users-approaching-bandwidth-limitation-cpanelwhm.html)
-        [로컬 WSUS 서버를 사용하도록 인스턴스 업데이트](../infrastructure/software/local-wsus.html)
+        [OS 다시 로드](/infrastructure/software/software-reloading-the-os#reloading-the-os)
+        [이미지 템플리트를 사용하여 OS 다시 로드](/infrastructure/software/software-reloading-an-os-using-an-image-template#reloading-an-os-using-an-image-template)
+        [Ubuntu 시스템에 IPv6 추가](/infrastructure/software/software-adding-ipv6-to-ubuntu-systems#adding-ipv6-to-ubuntu-systems)
+        [ClamAV 설치](/infrastructure/software/software-installing-clamav#installing-clamav)
+        [cPanel/WHM에서 대역폭 제한에 근접할 때 사용자에게 알림](/infrastructure/software/software-notifying-users-of-an-approaching-bandwidth-limitation-in-cpanel-and-whm#notifying-users-of-an-approaching-bandwidth-limitation-in-cpanel-and-whm)
+        [로컬 WSUS 서버를 사용하도록 인스턴스 업데이트](/infrastructure/software/software-updating-an-instance-to-use-a-local-wsus-server#updating-an-instance-to-use-a-local-wsus-server)
         vsi_gpu_nvidia_drivers.md
- 
-    {: .topicgroup}
-    배치 그룹 관리
-        vsi_managing_placegroup.md
-    
+
+    vsi_managing_placegroup.md
+
     {: .topicgroup}
     마이그레이션
         vsi_migrating_dedicated.md
@@ -141,28 +147,28 @@ IBM Cloud Virtual Servers
     백업 및 복구
         vsi_backup.md
         vsi_launch_rescue.md
-        [R1Soft 이미지로부터 서버 복구](../infrastructure/software/r1soft-cdp-bare-metal-restore-procedures.html)
-        
+        [R1Soft 이미지로부터 서버 복구](/infrastructure/software/software-restoring-your-server-from-an-r1soft-image#restoring-your-server-from-an-r1soft-image)
+
     {: .topicgroup}
     관련 링크
-        [가상 머신 네트워크 설정](../infrastructure/virtualization/virtual-machine-network-setup.html)
+        [가상 머신 네트워크 설정](/infrastructure/virtualization/Virtualization-setting-up-a-virtual-machine-network#setting-up-a-virtual-machine-network)
         [Control Portal](https://control.softlayer.com/)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
     vsi_ts_index.md
-    
+
     {: .topicgroup}
     문제점 해결
         ts_capacity_bp.md
-    
+
     {: .topicgroup}
     FAQ
         vsi_faqs_vs.md
         vsi_faqs_reserved.md
         vsi_faqs_dedicated.md
         faq_servers_general.md
-        [FAQ: OS 다시 로드](../infrastructure/software/os-reload-question-faq.html)
-        [FAQ: cpsrvd 이메일](../infrastructure/software/why-did-my-cpsrvd-email-fail.html)
+        [FAQ: OS 다시 로드](/infrastructure/software/software-faqs#faqs)
+        [FAQ: cpsrvd 이메일](/infrastructure/software/software-faqs#why-did-my-cpsrvd-email-fail-)
 
     {: .navgroup-end}

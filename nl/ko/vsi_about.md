@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-11-15"
 
+keywords: scalable virtual servers, virtual servers, key features
+
+subcollection: virtual-servers
 
 ---
 
@@ -17,6 +18,7 @@ lastupdated: "2017-11-15"
 {:table: .aria-labeledby="caption"}
 
 # 가상 서버 정보
+{: #about-virtual-servers}
 
 {{site.data.keyword.BluVirtServers}}는 전용 코어 및 메모리 할당과 함께 구매되는 스케일링 가능한 가상 서버입니다. 이는 이미지 템플리트와 같은 기능을 사용할 수 있으며 수 분 내에 추가할 수 있는 컴퓨팅 리소스를 찾고 있는 경우 굉장히 유용합니다. 하이퍼바이저는 {{site.data.keyword.BluSoftlayer_full}}에서 완전히 관리하며 사용자는 {{site.data.keyword.slportal_full}} 및 {{site.data.keyword.slapi_short}}를 사용하여 구성 및 관리 태스크를 수행할 수 있습니다. 가상 서버는 실제 서버와 동일한 VLAN에 배치되어, 사용자가 상호 운용성을 유지하면서 가상 서버와 베어메탈 서버에 워크로드를 분산할 수 있게 해 줍니다. 가상 서버는 주문 시에 모든 항목을 사용자 정의할 수 있으며, 필요한 컴퓨팅 능력이 증가함에 따라 스케일링할 수 있습니다.
 {:shortdesc}

@@ -1,13 +1,18 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-04-27"
+
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 프로비저닝 스크립트 관리
+{: #managing-a-provisioning-script}
 
 새로 프로비저닝된 디바이스에서 실행될 스크립트에 URL을 지정하려면 프로비저닝 스크립트를 사용하십시오. 스크립트 이름에 대해서는 제한사항이 없지만, 각 스크립트에 대해 유사한 이름 지정 규칙을 사용하면 이들을 식별하기 더 쉬워집니다. 프로비저닝 스크립트는 완전한 도메인 이름과 연관되어야 하며 HTTP 또는 HTTPS 프로토콜을 사용해 액세스할 수 있어야 합니다. 사용되는 프로토콜은 프로비저닝 스크립트가 디바이스에 다운로드되었을 때의 자동화된 응답에 영향을 줍니다.
 
@@ -20,6 +25,7 @@ lastupdated: "2018-04-27"
 
 
 ## 프로비저닝 스크립트 추가
+{: #add-provisioning-script}
 
 1. {{site.data.keyword.slportal}}의 **프로비저닝 스크립트** 화면에서 맨 위에 있는 **프로비저닝 스크립트 추가**를 클릭하십시오.
 * **이름** 필드에 프로비저닝 스크립트의 **식별 이름**을 입력하십시오.

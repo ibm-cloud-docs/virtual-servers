@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-05-17"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,7 +16,7 @@ lastupdated: "2018-05-17"
 {:table: .aria-labeledby="caption"}
 
 
-# 복구 커널 시작 
+# 복구 커널 시작
 {: #launching-rescue}
 
 복구 커널(Rescue Kernel)은 실시간 복구 환경으로, 보통 OS 다시 로드로 해결되는 시스템 문제를 해결하기 위해 베어메탈 서버 또는 가상 서버를 온라인 상태로 전환할 수 있는 기능을 고객에게 제공할 수 있도록 디자인되었습니다. 복구 커널은 {{site.data.keyword.slportal_full}}에서 시작해야 합니다. 특정 디바이스에 대해 복구 커널을 시작하려면 다음 단계를 사용하십시오.
@@ -43,5 +42,4 @@ lastupdated: "2018-05-17"
 
 디바이스의 IP 주소로부터 디바이스에 대한 원격 액세스가 사용 가능합니다. {{site.data.keyword.slportal}}에 기록된 디바이스의 루트 또는 관리자 인증 정보를 사용하여 복구 커널에서 디바이스에 액세스할 수 있습니다. 복구 커널을 사용할 때는 정상 부팅한 디바이스에서와 마찬가지로 문제를 검색하고 해결할 수 있습니다. 필요한 경우에는 복구 커널 OS에 드라이브를 마운트할 수 있습니다. 복구 커널을 종료하고 디바이스를 일반 환경으로 되돌리려면 디바이스를 {{site.data.keyword.slportal}} 또는 복구 커널 OS에서 다시 부팅하십시오.
 
-디바이스를 다시 부팅하는 방법은 [가상 서버 관리](../vsi/vsi_managing.html)를 참조하십시오.
-
+디바이스를 다시 부팅하는 방법은 [가상 서버 관리](/docs/vsi?topic=virtual-servers-managing-virtual-servers)를 참조하십시오.

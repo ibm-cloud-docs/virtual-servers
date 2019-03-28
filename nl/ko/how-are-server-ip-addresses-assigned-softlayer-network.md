@@ -4,6 +4,8 @@ copyright:
   years: 2018
 lastupdated: "2018-08-01"
 
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -22,7 +24,7 @@ lastupdated: "2018-08-01"
 
 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com)을 통해 보조 서브넷을 구매하고 나면 추가 IP 주소를 가상 서버 인스턴스로 바인드할 수 있습니다. 이러한 방법으로 구매하고 사용자가 관리하는 IP 주소는 _보조 IP 주소_라고 합니다.
 
-IP 주소 획득에 사용 가능한 옵션에 대한 자세한 정보는 [서브넷 및 IP](https://console.bluemix.net/docs/infrastructure/subnets/)를 참조하십시오.
+IP 주소 획득에 사용 가능한 옵션에 대한 자세한 정보는 [서브넷 및 IP](/docs/infrastructure/subnets?topic=subnets-getting-started-with-subnets-and-ips#getting-started-with-subnets-and-ips)를 참조하십시오.
 
 ## 보조 IP 주소 바인딩
 

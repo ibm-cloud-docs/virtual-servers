@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-12-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,6 +16,7 @@ lastupdated: "2017-12-12"
 {:table: .aria-labeledby="caption"}
 
 # Windows에서 포트 속도 업그레이드
+{: #upgrading-port-speed-in-windows}
 
 고객 서버에 대한 기본 포트 속도(공용 및 사설 네트워크 모두)는 10Mbps입니다. 해당 포트 속도 중 하나를 100Mbps 또는 1000Mbps로 업그레이드하려면 요청을 포함하여 티켓을 여십시오. 영업에서 최소 비용 승인을 요청하고 기술자가 사용자 네트워크에서 포트 속도를 변경합니다.
 

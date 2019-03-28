@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-02-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,10 +17,12 @@ lastupdated: "2018-02-12"
 {:table: .aria-labeledby="caption"}
 
 # 프로비저닝 선택사항
+{: #provisioning-selections}
+
 공용 가상 서버를 프로비저닝할 때는 다음 선택을 수행해야 합니다.
 
 ## 위치
-배치할 특정 데이터 센터를 선택할 수 있습니다. 새 배치의 경우, {{site.data.keyword.Bluemix}}는 자동으로 최적의 데이터 센터(가용성을 기반으로)를 식별하고 적절한 공용 및 사설 VLAN을 작성합니다. 기존 환경에 추가하는 경우에는 디자인에 필요한 특정 데이터 센터, VLAN 및 서브넷을 선택할 수 있습니다. VLAN 및 서브넷에 대한 자세한 정보는 [VLAN 시작하기](/docs/infrastructure/vlans/getting-started.html)를 참조하십시오.
+배치할 특정 데이터 센터를 선택할 수 있습니다. 새 배치의 경우, {{site.data.keyword.Bluemix}}는 자동으로 최적의 데이터 센터(가용성을 기반으로)를 식별하고 적절한 공용 및 사설 VLAN을 작성합니다. 기존 환경에 추가하는 경우에는 디자인에 필요한 특정 데이터 센터, VLAN 및 서브넷을 선택할 수 있습니다. VLAN 및 서브넷에 대한 자세한 정보는 [VLAN 시작하기](/docs/infrastructure/vlans?topic=vlans-getting-started-with-vlans)를 참조하십시오.
 
 서브넷 선택은 선택사항이며 디바이스가 서브넷의 IP 주소를 사용해야 하는 경우에만 사용됩니다. 서브넷을 선택하는 경우, 요청 처리를 위한 충분한 IP 주소가 있는지 확인하십시오. 서브넷에 대해 충분한 IP 주소가 없는 경우에는 주문이 지연되거나 취소될 수 있습니다.
 {:tip}
@@ -41,7 +42,7 @@ RAM은 매우 직관적입니다. 이 오퍼링은 선택한 양의 RAM을 사�
 
 ## 스토리지
 
-사용자는 각 가상 서버에 대해 SAN 또는 로컬 스토리지 옵션을 선택할 수 있습니다. SAN 또는 로컬 스토리지는 필요한 경우 다른 스토리지 제품으로 보완할 수 있습니다. SAN 및 로컬 스토리지는 모두 가상 서버에 로컬 디스크로 노출됩니다. 연결, 분리, 마이그레이션 등과 같은 모든 디스크에 대한 변경사항은 가상 서버 다시 부팅을 필요로 합니다. 자세한 정보는 [스토리지 옵션](../vsi/storage/vsi_about_storage.html)을 참조하십시오.
+사용자는 각 가상 서버에 대해 SAN 또는 로컬 스토리지 옵션을 선택할 수 있습니다. SAN 또는 로컬 스토리지는 필요한 경우 다른 스토리지 제품으로 보완할 수 있습니다. SAN 및 로컬 스토리지는 모두 가상 서버에 로컬 디스크로 노출됩니다. 연결, 분리, 마이그레이션 등과 같은 모든 디스크에 대한 변경사항은 가상 서버 다시 부팅을 필요로 합니다. 자세한 정보는 [스토리지 옵션](/docs/vsi?topic=virtual-servers-storage-options#storage-options)을 참조하십시오.
 
 ## 시간별 또는 월별 비용 청구
 
@@ -61,35 +62,36 @@ RAM은 매우 직관적입니다. 이 오퍼링은 선택한 양의 RAM을 사�
 
 ## 보안
 
-배치하기 전에는 보안 옵션을 고려하십시오. 주문 프로세스의 일부로서, 사용자는 보호 기능을 제공하기 위해 디바이스 고유 하드웨어 또는 소프트웨어 방화벽을 선택할 수 있습니다. 또는, 환경에 전용 방화벽 어플라이언스를 배치하고 보호된 VLAN에 가상 서버를 배치할 수 있습니다. 
+배치하기 전에는 보안 옵션을 고려하십시오. 주문 프로세스의 일부로서, 사용자는 보호 기능을 제공하기 위해 디바이스 고유 하드웨어 또는 소프트웨어 방화벽을 선택할 수 있습니다. 또는, 환경에 전용 방화벽 어플라이언스를 배치하고 보호된 VLAN에 가상 서버를 배치할 수 있습니다.
 
-**참고:** 가상 서버는 동일 인터페이스의 두 방화벽 어플라이언스로 보호될 수 없습니다. 
+**참고:** 가상 서버는 동일 인터페이스의 두 방화벽 어플라이언스로 보호될 수 없습니다.
 
 보안 그룹을 사용하여 가상 서버 인스턴스의 공용 및 개인용 인터페이스에 대한 수신 및 발신 트래픽을 처리하는 방법을 정의하는 IP 필터 규칙 세트를 설정할 수도 있습니다.
 
 자세한 정보는 다음 보안 주제 콜렉션을 참조하십시오.
 
-* [Hardware Firewall (공유)](../infrastructure/hardware-firewall-shared/getting-started.html)
-* [Hardware Firewalls (Dedicated)](../infrastructure/hardware-firewall-dedicated/getting-started.html)
-* [보안 그룹 시작하기](/docs/infrastructure/security-groups/sg_index.html)
+* [Hardware Firewall (공유)](/docs/infrastructure/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started-with-hardware-firewall-shared)
+* [Hardware Firewalls (Dedicated)](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-getting-started-with-hardware-firewall-dedicated)
+* [보안 그룹 시작하기](/docs/infrastructure/security-groups?topic=security-groups-getting-started-with-security-groups)
 
 ## 모니터링
+{: #about-monitoring}
 
 가상 서버에 대해 다양한 모니터링 옵션을 선택할 수 있습니다. 옵션에는 ping 및 TCP 서비스 응답을 통해 모니터하며 고장 발생 시 선택적 응답이 있는 표준 모니터링이 포함되어 있습니다. 가상 서버 및 설치된 소프트웨어에 대해 더 많은 모니터링 기능 세트를 제공하는 Nimsoft 소프트웨어를 사용하는 고급 모니터링을 추가할 수도 있습니다.
 
-자세한 정보는 [모니터링](../infrastructure/SLmonitoring/monitoring_index.html)을 참조하십시오.
+자세한 정보는 [모니터링](/docs/infrastructure/SLmonitoring?topic=slmonitoring-monitoring)을 참조하십시오.
 
 ## 백업
 
-주문 프로세스 중에 EVault 백업을 추가할 수 있습니다. 기존 R1soft 백업 환경을 위해 R1soft 라이센스를 구입하거나 서드파티 백업 솔루션을 이용하도록 선택할 수도 있습니다.
+주문 프로세스 중에 {{site.data.keyword.backup_notm}}을 추가할 수 있습니다. 기존 R1soft 백업 환경을 위해 R1soft 라이센스를 구입하거나 서드파티 백업 솔루션을 이용하도록 선택할 수도 있습니다.
 
-자세한 정보는 [디바이스를 eVault에 재등록](../infrastructure/Backup/how-do-i-re-register-evault.html)을 참조하십시오.
+자세한 정보는 [저장소 재등록](/docs/infrastructure/Backup?topic=Backup-reregister#reregister)을 참조하십시오.
 
 ## 프로비저닝 후 스크립트
 
 프로비저닝 후 스크립트는 가상 서버 주문과 연관될 수 있습니다. 이는 다른 프로비저닝 태스크가 완료된 후 고객이 개발한 스크립트를 실행합니다. 이 스크립트는 일반적으로 서버에 고객 고유 구성을 적용하고 스케일링 전략의 자동화를 돕기 위해 이용됩니다.
 
-자세한 정보는 [사용자 정의 프로비저닝 스크립트 추가](vsi_add_script.html)를 참조하십시오.
+자세한 정보는 [사용자 정의 프로비저닝 스크립트 추가](/docs/vsi?topic=virtual-servers-adding-post-script)를 참조하십시오.
 
 ## 다음 단계
-공용 가상 서버를 프로비저닝할 준비가 완료된 경우에는 [공용 인스턴스 프로비저닝](vsi_provision_public.html)을 참조하십시오.
+공용 가상 서버를 프로비저닝할 준비가 완료된 경우에는 [공용 인스턴스 프로비저닝](/docs/vsi?topic=virtual-servers-ordering-vs-public)을 참조하십시오.

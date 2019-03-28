@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-10-30"
 
+subcollection: virtual-servers
 
 ---
 
@@ -15,32 +14,44 @@ lastupdated: "2018-10-30"
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
+{:faq: data-hd-content-type='faq'}
 
 
 # FAQ: 가상 서버  
+{: #faqs-virtual-servers}
 
 ## 사용 가능한 가상 서버 유형에는 어떤 것이 있습니까?
-{{site.data.keyword.BluSoftlayer_full}}에서는 여러 유형의 가상 서버를 제공합니다. 표준 오퍼링은 공용 기반 가상 서버로, 이는 다양한 요구사항에 적합한 멀티 테넌트 환경입니다. 싱글 테넌트 환경을 찾고 있는 경우에는 전용 Virtual Server 오퍼링을 고려하십시오. 전용 가상 서버 옵션은 리소스 요구사항이 더 엄격한 애플리케이션에 적합합니다. 현재 가상 서버 오퍼링에 대한 자세한 정보는 [가상 서버 시작하기](../vsi/vsi_index.html)를 참조하십시오.
+{:faq}
+
+{{site.data.keyword.BluSoftlayer_full}}에서는 여러 유형의 가상 서버를 제공합니다. 표준 오퍼링은 공용 기반 가상 서버로, 이는 다양한 요구사항에 적합한 멀티 테넌트 환경입니다. 싱글 테넌트 환경을 찾고 있는 경우에는 전용 Virtual Server 오퍼링을 고려하십시오. 전용 가상 서버 옵션은 리소스 요구사항이 더 엄격한 애플리케이션에 적합합니다. 현재 가상 서버 오퍼링에 대한 자세한 정보는 [가상 서버 시작하기](/docs/vsi?topic=virtual-servers-getting-started-tutorial)를 참조하십시오.
 
 ## 공용 인스턴스 유형에 대한 가격 정보는 어디에서 찾을 수 있습니까?
+{:faq}
+
 가격 정보는 [가상 서버 빌드 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.ibm.com/cloud-computing/bluemix/virtual-servers){: new_window}를 참조하십시오.
 
 ## 가상 공용 인스턴스에 대한 가격 정보는 어디에서 찾을 수 있습니까?
+{:faq}
+
 가격 정보는 [가상 서버 프로비저닝 계산기](https://www.ibm.com/cloud-computing/bluemix/virtual-servers/calculator)를 참조하십시오.
 
 ## 내 시간별 또는 월별 Virtual Server에 디스크 스토리지를 추가할 수 있습니까?
-업데이트할 디바이스의 *구성* 화면에서 *첫 번째 디스크*부터 *다섯 번째 디스크* 필드까지 스토리지 옵션을 업데이트하여 가상 서버의 디스크 스토리지를 업그레이드하거나 다운그레이드할 수 있습니다. 자세한 정보는 [기존 가상 서버 다시 구성](../vsi/vsi_reconfigure.html)을 참조하십시오.
+{:faq}
+
+업데이트할 디바이스의 *구성* 화면에서 *첫 번째 디스크*부터 *다섯 번째 디스크* 필드까지 스토리지 옵션을 업데이트하여 가상 서버의 디스크 스토리지를 업그레이드하거나 다운그레이드할 수 있습니다. 자세한 정보는 [기존 가상 서버 다시 구성](/docs/vsi?topic=virtual-servers-reconfiguring-virtual-servers)을 참조하십시오.
 
 ## 시작할 수 있는 시간별 Virtual Server의 최대 수는 몇개입니까?
+{:faq}
 
 기본적으로 하나의 계정은 임의의 시점에 공용 가상 서버, 전용 가상 서버 및 베어메탈 서버에서 최대 20개의 인스턴스를 보유할 수 있습니다.  이 한계를 증가시키려는 경우에는 지원에 문의하여 지금 수행하고 있는 작업과 필요한 동시 인스턴스 수를 알려주십시오.
 
 ## 내 시간별 Virtual Server의 대역폭은 어떻게 비용 청구됩니까?
+{:faq}
 
 시간별 가상 서버 비용 청구는 인바운드 트래픽과 아웃바운드 트래픽으로 구분됩니다. 가상 서버에 대한 모든 인바운드 트래픽은 무료입니다. 아웃바운드 트래픽은 측정되어 GB 단위로 비용 청구되며, 총계는 비용 청구 기간의 끝에 계산됩니다.
 
 ## 어떤 경우에 내 가상 서버가 다른 호스트로 마이그레이션됩니까?
-
+{:faq}
 제한된 경우에 가상 서버가 다른 호스트로 마이그레이션되어야 합니다. 마이그레이션이 필수인 경우, 가상 서버가 시스템 종료되고 마이그레이션된 다음 다시 시작됩니다. 다음 경우에 가상 서버가 마이그레이션될 수 있습니다.
 
 * 하이퍼바이저가 업데이트되어야 하며 호스트가 사용 중지되거나 호스트가 새 인스턴스를 채택하도록 허용되지 않습니다. 호스트에 이러한 변경사항 중 하나가 있는 것으로 표시되는 경우 가상 서버 중 하나가 {{site.data.keyword.slportal_full}}에서 다시 부팅되며 이렇게 다시 부팅되는 것으로 인해 자동으로 가상 서버가 다른 호스트로 마이그레이션되도록 트리거됩니다.
@@ -52,15 +63,17 @@ lastupdated: "2018-10-30"
 가상 서버 중 하나에 현재 호스트에서 사용할 수 없는 특정 레벨의 하이퍼바이저가 있어야 하는 경우에도 **호스트 마이그레이션** 옵션을 볼 수 있습니다.
 
 ## 휴대용 스토리지 삭제 시에 데이터는 어떻게 됩니까?
+{:faq}
 
 스토리지가 삭제되면 해당 볼륨에서 데이터에 대한 모든 포인터가 제거되기 때문에 데이터는 완전히 액세스 불가능합니다. 물리적 스토리지가 다른 계정으로 다시 프로비저닝되는 경우, 새 포인터 세트가 지정됩니다. 새 계정이 물리적 스토리지에 있었을 수도 있는 임의 데이터에 액세스할 수 있는 방법은 없습니다. 새 포인터 세트는 모두 0으로 표시합니다. 새 데이터가 볼륨/LUN에 작성되면 여전히 존재하던 모든 액세스 불가능하던 데이터는 겹쳐쓰기됩니다.
 
 ## Red Hat Cloud Access 구독을 사용하여 가상 서버를 작성할 수 있습니까?
+{:faq}
 
-예. 이미지를 가져올 때 운영 체제 라이센스를 제공하도록 지정할 수 있습니다. 자세한 정보는 [Red Hat Cloud Access 사용](../infrastructure/image-templates/use-red-hat-cloud-access.html)을 참조하십시오. 그런 다음 해당 이미지 템플리트로부터 가상 서버를 주문하고 기존 [Red Hat Cloud Access ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.redhat.com/en/technologies/cloud-computing/cloud-access){: new_window} 구독을 사용할 수 있습니다.
+예. 이미지를 가져올 때 운영 체제 라이센스를 제공하도록 지정할 수 있습니다. 자세한 정보는 [Red Hat Cloud Access 사용](/docs/infrastructure/image-templates?topic=image-templates-using-your-own-os-license-or-subscription)을 참조하십시오. 그런 다음 해당 이미지 템플리트로부터 가상 서버를 주문하고 기존 [Red Hat Cloud Access ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://www.redhat.com/en/technologies/cloud-computing/cloud-access){: new_window} 구독을 사용할 수 있습니다.
 
 ## 가상 서버와 가상 개인용 서버(VPS) 간의 차이점은 무엇입니까?
-
+{:faq}
 가상 서버는 널리 사용되고 있는 가상 개인용 서버(VPS) 또는 가상 전용 서버(VDS) 플랫폼과 유사합니다. 이러한 "가상 서버" 환경은 특정 환경을 비공개로 안전하게 하나의 하드웨어 노드에 프로비저닝할 수 있게 해 주지만, VDS 및 VPS의 기능은 좀 더 제한되어 있습니다. VPS 및 VDS 옵션은 일반적으로 단일 서버 아키텍처로 한정되므로, VDS 또는 VPS의 각 가상 서버에 추가 또는 분배할 수 있는 리소스는 해당 서버에 실제 설치된 리소스뿐입니다.
 
 가상 서버는 개별 인스턴스가 사용 가능한 모든 하드웨어 리소스를 포함하는 멀티 서버 클라우드 아키텍처에서 프로비저닝됩니다. 가상 서버는 공유 고용량 SAN 기반 기본 스토리지 플랫폼 또는 고성능 로컬 디스크 스토리지를 이용할 수 있습니다. 각 인스턴스는 더 큰 클라우드 환경의 일부이므로, 모든 가상 서버 간의 통신은 즉시 이뤄집니다.
@@ -70,5 +83,6 @@ lastupdated: "2018-10-30"
 <!--This error generally occurs because a password is outdated. To fix this, update the root or Administrator password for the virtual server's operating system in the {{site.data.keyword.slportal_full}}.-->
 
 ## 가상 서버를 프로비저닝할 때 용량 오류가 수신되는 이유는 무엇입니까?
+{:faq}
 
-가상 서버를 프로비저닝할 때 요청을 완료하기에 용량이 충분하지 않다는 오류 메시지를 받을 수 있습니다. 프로비저닝이 실패하는 경우, 해당하는 특정 요청 내의 모든 가상 서버 인스턴스가 실패합니다. 용량 오류는 라우터 또는 데이터 센터에 서비스 요청을 처리하는 데 필요한 리소스가 충분하지 않은 경우에 발생합니다. 몇 가지 이유로 인해 이런 오류가 수신될 수 있습니다. 리소스 가용성은 자주 변경되기 때문에 잠시 대기한 후에 다시 시도해 볼 수도 있습니다. 이 오류를 방지하는 전략에 대한 자세한 정보는 [용량 고려사항](https://console.bluemix.net/docs/vsi/ts_capacity_bp.html)을 참조하십시오.
+가상 서버를 프로비저닝할 때 요청을 완료하기에 용량이 충분하지 않다는 오류 메시지를 받을 수 있습니다. 프로비저닝이 실패하는 경우, 해당하는 특정 요청 내의 모든 가상 서버 인스턴스가 실패합니다. 용량 오류는 라우터 또는 데이터 센터에 서비스 요청을 처리하는 데 필요한 리소스가 충분하지 않은 경우에 발생합니다. 몇 가지 이유로 인해 이런 오류가 수신될 수 있습니다. 리소스 가용성은 자주 변경되기 때문에 잠시 대기한 후에 다시 시도해 볼 수도 있습니다. 이 오류를 방지하는 전략에 대한 자세한 정보는 [용량 고려사항](/docs/vsi?topic=virtual-servers-capacity-considerations)을 참조하십시오.

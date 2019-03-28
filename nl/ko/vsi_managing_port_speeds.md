@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-12-13"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,6 +17,7 @@ lastupdated: "2017-12-13"
 {:table: .aria-labeledby="caption"}
 
 # 포트 속도 관리
+{: #managing-port-speeds}
 
 {{site.data.keyword.slportal_full}}에서는 지원 티켓을 열지 않고도 서버가 협상 중인 속도를 수정하도록 허용합니다.
 

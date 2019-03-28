@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-05-11"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,6 +17,7 @@ lastupdated: "2018-05-11"
 {:table: .aria-labeledby="caption"}
 
 # 임시 가상 서버 재확보에 대한 알림 구성
+{: #configuring-notifications-for-reclaims-of-transient-virtual-servers}
 
 임시 가상 서버는 본질적으로 오래 가지 않으며 언제든지 종료될 수 있고, 이는 데이터 손실로 이어질 수 있습니다. 자동화된 재확보 알림은 데이터 손실을 줄이는 데 도움을 줍니다. 임시 가상 서버는 프로비저닝될 때 실제 종료 전에 종료되기까지 **2분** 남았음을 알리는 알림을 수신하도록 구성될 수 있습니다. 알림을 통해 사용자는 임시 가상 서버에 진행 중인 처리를 완료하거나 필요한 데이터를 임시 가상 서버에서 전송하도록 프로그래밍 방식으로 경보를 보낼 수 있습니다.
 
@@ -28,8 +28,9 @@ lastupdated: "2018-05-11"
 3. 웹훅 요청을 확인하십시오.
 
 ## 임시 가상 서버 인스턴스 프로비저닝
+{: #provision-transient-virtual-server}
 
-임시 가상 서버는 [{{site.data.keyword.slportal_full}} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window} 또는 [SLDN API ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](http://sldn.softlayer.com){: new_window}를 통해 프로비저닝될 수 있습니다. 자세한 정보는 [임시 인스턴스 프로비저닝](/docs/vsi/vsi_provision_transient.html)을 참조하십시오.
+임시 가상 서버는 [{{site.data.keyword.slportal_full}} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window} 또는 [SLDN API ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](http://sldn.softlayer.com){: new_window}를 통해 프로비저닝될 수 있습니다. 자세한 정보는 [임시 인스턴스 프로비저닝](/docs/vsi?topic=virtual-servers-ordering-vs-transient)을 참조하십시오.
 
 ## 웹훅 설정
 

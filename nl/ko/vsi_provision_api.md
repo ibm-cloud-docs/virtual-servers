@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-02-28"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,18 +16,18 @@ lastupdated: "2018-02-28"
 {:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
-# API 예: 공용 가상 서버 특성
+# API 예: 공용 가상 서버 프로파일
 {: #api-rest-public}
 
-다음 정보는 사전 설정된 특성(flavor)을 사용하는 공용 가상 서버 인스턴스의 프로비저닝에 대한 Rest API 예를 보여줍니다.
+다음 정보는 사전 설정된 프로파일을 사용하는 공용 가상 서버 인스턴스의 프로비저닝에 대한 Rest API 예를 보여줍니다.
 {:shortdesc}
 
 더 안정적인 API 예는 다음 리소스를 참조하십시오.
 * [Softlayer_Virtual_Guest API 예 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://softlayer.github.io/classes/softlayer_virtual_guest/)
-* [특성 목록 가져오기 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://softlayer.github.io/article/vsiflavors/)
+* [프로파일 목록 가져오기 ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://softlayer.github.io/article/vsiflavors/)
 
 ## 오브젝트 작성을 사용한 공용 인스턴스 프로비저닝
-*SoftLayer_Virtual_Guest/createObject* API 서비스는 사전 설정된 특성을 사용하는 공용 가상 서버 인스턴스를 프로비저닝하는 가장 간단한 방법입니다.
+*SoftLayer_Virtual_Guest/createObject* API 서비스는 사전 설정된 프로파일을 사용하는 공용 가상 서버 인스턴스를 프로비저닝하는 가장 간단한 방법입니다.
 
 임시 인스턴스에는 적용되지 않습니다.
 {:tip}
@@ -61,7 +60,7 @@ REST를 사용하여 공용 가상 서버 인스턴스를 프로비저닝하는 
 ```
 
 ## 주문 발주 오브젝트를 사용한 공용 인스턴스 프로비저닝
-사전 설정된 특성을 사용하는 공용 가상 서버 프로비저닝은 *SoftLayer_Product_Order/placeOrder* API 서비스를 사용하여 수행됩니다.
+사전 설정된 프로파일을 사용하는 공용 가상 서버 프로비저닝은 *SoftLayer_Product_Order/placeOrder* API 서비스를 사용하여 수행됩니다.
 
 임시 인스턴스에는 적용되지 않습니다.
 {:tip}

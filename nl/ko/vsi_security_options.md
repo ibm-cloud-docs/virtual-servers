@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-08-23"
 
+subcollection: virtual-servers
 
 ---
 
@@ -27,9 +26,9 @@ lastupdated: "2017-08-23"
 
 주문 프로세스의 일부로서, 사용자는 보호 기능을 제공하기 위해 디바이스 고유 하드웨어 또는 소프트웨어 방화벽을 선택할 수 있습니다. 또는, 환경에 전용 방화벽 어플라이언스를 배치하고 보호된 VLAN에 가상 서버를 배치할 수 있습니다.  
 
-**참고:** 가상 서버는 동일 인터페이스의 두 방화벽 어플라이언스로 보호될 수 없습니다. 
+**참고:** 가상 서버는 동일 인터페이스의 두 방화벽 어플라이언스로 보호될 수 없습니다.
 
 자세한 정보는 다음 보안 주제 콜렉션을 참조하십시오.
 
-* [Hardware Firewall (공유)](../infrastructure/hardware-firewall-shared/getting-started.html)
-* [Hardware Firewalls (Dedicated)](../infrastructure/hardware-firewall-dedicated/getting-started.html)
+* [Hardware Firewall (공유)](/docs/infrastructure/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started-with-hardware-firewall-shared)
+* [Hardware Firewalls (Dedicated)](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-getting-started-with-hardware-firewall-dedicated)

@@ -1,13 +1,18 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-02-28"
+
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 자동 스케일링으로 서버 관리
+{: #managing-servers-with-auto-scaling}
 
 자동 스케일링은 비즈니스 애플리케이션 지원을 위한 가상 서버 추가 또는 제거에 연관된 수동 스케일링 프로세스 자동화 기능을 제공합니다. 자동 스케일링은 {{site.data.keyword.slportal_full}} 또는 API를 통해 관리가 가능하며 다음을 허용합니다.
 
@@ -17,4 +22,4 @@ lastupdated: "2018-02-28"
 * 활동을 그룹으로 스케일링하기 위한 거의 실시간의 상태 업데이트.
 * 가상 LAN(VLAN) 및 로컬 밸런서의 선택적 통합.
 
-자세한 정보는 [자동 스케일링 시작하기](/docs/infrastructure/SLautoscale/index.html)를 참조하십시오.
+자세한 정보는 [자동 스케일링 시작하기](/docs/infrastructure/SLautoscale?topic=slautoscale-getting-started-with-auto-scaling)를 참조하십시오.

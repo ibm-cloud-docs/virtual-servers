@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-10-04"
 
+keywords: reserved virtual servers, cost savings, guaranteed capacity
+
+subcollection: virtual-servers
 
 ---
 
@@ -25,28 +26,28 @@ lastupdated: "2018-10-04"
 
 * **보장된 용량**
 
-    용량을 예약하는 경우 계약 기간 동안 이 용량이 보장됩니다. 
-    
+    용량을 예약하는 경우 계약 기간 동안 이 용량이 보장됩니다.
+
 * **글로벌 가용성**
-    
+
     예약된 가상 서버 오퍼링은 전 세계의 데이터 센터에서 사용할 수 있습니다.
 
 * **신뢰할 수 있는 프로비저닝**
-   
+
    예약된 용량으로 가상 서버 인스턴스를 언제든지 프로비저닝하고 재확보할 수 있습니다.
 
 * **비용 절감**
-    
+
     1년 또는 3년 계약 기간 중 하나를 선택하면 시간별 또는 월별 가상 서버 비용 청구 주기와 비교하여 일정한 월별 지불 및 비용 절감의 이점을 누릴 수 있습니다.
 
-## 제한사항 
+## 제한사항
 
 용량 예약 및 예약된 가상 서버 인스턴스를 프로비저닝하기 전에 다음 제한사항을 고려하십시오.
-  
+
   * 예약된 가상 서버 인스턴스는 SAN 기반의 스토리지(밸런스됨, 메모리, 컴퓨팅)만 사용할 수 있습니다.
   * 인스턴스를 업그레이드하거나 다운그레이드할 수 없습니다.
   * 예약된 용량을 취소할 수 없습니다. 그러나, 해당 용량의 가상 서버 인스턴스를 재확보할 수는 있습니다.
-    
+
 ## 알림
 
 예약된 가상 서버 용량의 기간이 끝나기 한 달 전에 이메일 알림을 받습니다.
@@ -55,5 +56,5 @@ lastupdated: "2018-10-04"
 
 옵션을 검토하고 결정하고 나면, 예약된 용량 및 인스턴스를 프로비저닝할 시간입니다. 시작하려면 다음 정보를 검토하십시오.
 
-   1. [예약된 용량 및 인스턴스 프로비저닝](../vsi/vsi_provision_reserved.html)
-   2. [FAQ: 예약된 용량 및 인스턴스](../vsi/vsi_faqs_reserved.html)
+   1. [예약된 용량 및 인스턴스 프로비저닝](/docs/vsi?topic=virtual-servers-provisioning-reserved-capacity-and-instances)
+   2. [FAQ: 예약된 용량 및 인스턴스](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances)

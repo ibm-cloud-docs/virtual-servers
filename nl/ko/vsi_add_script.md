@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2015, 2017
 lastupdated: "2017-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -16,7 +15,7 @@ lastupdated: "2017-10-24"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# 사용자 정의 프로비저닝 스크립트 추가 
+# 사용자 정의 프로비저닝 스크립트 추가
 {: #adding-post-script}
 
 사용자는 사용자 정의 프로비저닝 스크립트를 사용하여 새로 프로비저닝된 디바이스에서 실행되는 스크립트에 대한 URL을 지정할 수 있습니다. {{site.data.keyword.slportal_full}}에서 사용자 정의 프로비저닝 스크립트를 게시하고 관리할 수 있습니다.

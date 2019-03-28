@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-10-03"
 
+subcollection: virtual-servers
 
 ---
 
@@ -26,12 +25,12 @@ lastupdated: "2018-10-03"
 시작하기 전에 다음 전제조건을 검토하십시오.
 
   1. {{site.data.keyword.cloud_notm}} 카탈로그 또는 {{site.data.keyword.slportal}} 인증 정보 중 하나가 설정되어 있는지 확인하십시오.
-  
-  **참고:** {{site.data.keyword.Bluemix_notm}} 카탈로그의 경우에는 가상 서버를 주문하려면 업그레이드된 계정이 있어야 합니다. 계정 업그레이드에 대한 자세한 정보는 [IBM ID로 전환](https://console.bluemix.net/docs/admin/softlayerlink.html)을 참조하십시오.
 
-  2. 가상 서버 인스턴스 용량 고려사항을 검토하십시오. 자세한 정보는 [용량 고려사항](ts_capacity_bp.html)을 참조하십시오.
+  **참고:** {{site.data.keyword.Bluemix_notm}} 카탈로그의 경우에는 가상 서버를 주문하려면 업그레이드된 계정이 있어야 합니다. 계정 업그레이드에 대한 자세한 정보는 [IBM ID로 전환](/docs/account?topic=account-unifyingaccounts#unifyingaccounts)을 참조하십시오.
 
-## 임시 가상 서버 인스턴스 프로비저닝 
+  2. 가상 서버 인스턴스 용량 고려사항을 검토하십시오. 자세한 정보는 [용량 고려사항](/docs/vsi?topic=virtual-servers-capacity-considerations)을 참조하십시오.
+
+## 임시 가상 서버 인스턴스 프로비저닝
 전제조건을 완료하고 나면 임시 가상 서버 인스턴스의 프로비저닝을 시작할 수 있습니다. {{site.data.keyword.cloud_notm}} 카탈로그 또는 {{site.data.keyword.slportal}}을 통해 인스턴스를 프로비저닝할 수 있습니다.
 
 ### IBM Cloud 카탈로그를 통해 임시 가상 서버 인스턴스 프로비저닝
@@ -44,7 +43,7 @@ lastupdated: "2018-10-03"
   5. 가상 서버 인스턴스에 대한 모든 관련 정보를 완료하십시오.
   6. 주문 요약을 검토한 후에 **서드파티 서비스 계약** 선택란을 클릭하십시오.
   7. **프로비저닝**을 클릭하십시오.
-  
+
 ### 고객 포털을 통해 임시 가상 서버 인스턴스 프로비저닝
 {{site.data.keyword.slportal}}을 통해 임시 가상 서버 인스턴스를 프로비저닝하려면 다음 단계를 완료하십시오.
 
@@ -59,8 +58,8 @@ lastupdated: "2018-10-03"
 
  일련의 이메일(프로비저닝 주문 확인, 프로비저닝 주문 승인 및 처리, 프로비저닝 완료)이 관리자에게 발송됩니다. 프로비저닝 완료 이메일에는 *디바이스 세부사항* 페이지 링크가 포함됩니다.
 
-{{site.data.keyword.slapi_short}}를 사용해서도 임시 가상 서버를 프로비저닝할 수 있습니다. 해당 예는 [오브젝트 작성을 사용하여 임시 인스턴스 프로비저닝](../vsi/vsi_provision_api.html#api-rest-transient)을 참조하십시오.
+{{site.data.keyword.slapi_short}}를 사용해서도 임시 가상 서버를 프로비저닝할 수 있습니다. 해당 예는 [오브젝트 작성을 사용하여 임시 인스턴스 프로비저닝](/docs/vsi?topic=virtual-servers-api-rest-public#api-rest-transient)을 참조하십시오.
 {:tip}
 
 ## 다음 단계
-가상 서버가 프로비저닝된 후에는 이 서버의 관리를 시작할 수 있습니다. 자세한 정보는 [가상 서버 관리](../vsi/vsi_managing.html)를 참조하십시오.
+가상 서버가 프로비저닝된 후에는 이 서버의 관리를 시작할 수 있습니다. 자세한 정보는 [가상 서버 관리](/docs/vsi?topic=virtual-servers-managing-virtual-servers)를 참조하십시오.
