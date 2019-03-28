@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2018-01-03"
 
+subcollection: virtual-servers
 
 ---
 
@@ -19,10 +18,11 @@ lastupdated: "2018-01-03"
 
 
 # Remarques sur la capacité
+{: #capacity-considerations}
 
 ## Quel est le problème ?
 
-Lorsque vous mettez à disposition un serveur virtuel, le message d'erreur suivant peut s'afficher : 
+Lorsque vous mettez à disposition un serveur virtuel, le message d'erreur suivant peut s'afficher :
 
 ```
 There is insufficient capacity to complete the request.
@@ -36,17 +36,14 @@ Lorsque la mise à disposition échoue, toutes les instances de serveur virtuel 
 
 Une erreur de capacité se produit lorsque le nombre de ressources disponibles est insuffisant dans le routeur ou dans le centre de données pour répondre à la demande de service. Il existe une série de raisons pour lesquelles cette erreur peut se produire. La disponibilité des ressources change fréquemment, et il est donc conseillé d'attendre et de réessayer plus tard.
 
-## Comment résoudre le problème ? 
+## Comment résoudre le problème ?
 
 Vous pouvez tenter une nouvelle mise à disposition à l'aide des stratégies suivantes :
 
 1. Spécifiez un routeur différent lors de la mise à disposition.  
 2. Ne spécifiez aucun routeur lors de la mise à disposition.
 3. Effectuez la mise à disposition dans un centre de données différent.
-4. Mettez à disposition un nombre d'instances plus réduit. 
+4. Mettez à disposition un nombre d'instances plus réduit.
 5. Répartissez les instances en effectuant une mise à disposition vers plusieurs centres de données.
 6. Mettez à disposition des tailles d'instances plus réduites.
-7. Faites passer le stockage VSI de SAN à LOCAL ou de LOCAL à SAN. 
-
-
-
+7. Faites passer le stockage VSI de SAN à LOCAL ou de LOCAL à SAN.

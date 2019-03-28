@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2017
-lastupdated: "2017-11-08"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,20 +16,22 @@ lastupdated: "2017-11-08"
 {:table: .aria-labeledby="caption"}
 
 # Stockage Balanced Local
-Les versions Balanced Local sont conçues pour les clusters de base de données de grande taille exigeant des performances d'E-S élevées à faible temps d'attente. Les performances sont plus élevées car les ressources ne sont pas trop sollicitées. Les performances réseau vont de standard à premium.
+{: #balanced-local-storage}
 
-Cette offre est disponible dans différentes versions et centres de données, avec les options de stockage local suivantes :
+Les profils de stockage local Balanced sont conçus pour les clusters de base de données de grande taille exigeant des performances d'E-S élevées à faible temps d'attente. Les performances sont plus élevées car les ressources ne sont pas trop sollicitées. Les performances réseau vont de standard à premium.
 
-* [Unité de disque dur locale](vsi_public_balanced_local.html#HDD)
-* [Unité SSD locale](vsi_public_balanced_local.html#SSD)
+Cette offre est disponible dans différents profils et centres de données, avec les options de stockage local suivantes :
+
+* [Unité de disque dur locale](/docs/vsi?topic=virtual-servers-HDD#HDD)
+* [Unité SSD locale](/docs/vsi?topic=virtual-servers-SSD#SSD)
 
 ## Unité de disque dur locale {: #HDD}
- 
+
 <table>
-<CAPTION>Tableau 1. Versions de stockage Balanced Local sur des unités de disque dur locales</CAPTION>
+<CAPTION>Tableau 1. Profils de stockage local Balanced sur des unités de disque dur locales</CAPTION>
 <THEAD>
 <TR>
-<th>Version</th>
+<th>Profil</th>
 <th>UC virtuelle</th>
 <th>RAM</th>
 <th>Disques secondaires<sup>(*)</sup></th>
@@ -126,9 +127,9 @@ Cette offre est disponible dans différentes versions et centres de données, av
 </table>
 
 **Remarques sur le stockage :**
-* <sup>(*)</sup>Les versions Balanced Local incluent un disque d'amorçage de stockage local de 100 Go. Vous pouvez ensuite sélectionner un second disque (options présentées dans le tableau ci-dessus). Tout disque local supplémentaire est facultatif. Si vous avez besoin de plus de 500 Go, deux disques supplémentaires sont requis (par exemple, 8 coeurs exigent 2 x 250 Go de stockage local).
-*	Le stockage local maximal est limité par les coeurs. 
-*	Le stockage Balanced Local est disponible dans le monde entier. Le type de stockage (unité SSD locale ou unité de disque dur locale) dépend toutefois de l'emplacement du centre de données. 
+* <sup>(*)</sup>Les profils locaux Balanced incluent un disque d'amorçage de stockage local de 100 Go. Vous pouvez ensuite sélectionner un second disque (options présentées dans le tableau ci-dessus). Tout disque local supplémentaire est facultatif. Si vous avez besoin de plus de 500 Go, deux disques supplémentaires sont requis (par exemple, 8 coeurs exigent 2 x 250 Go de stockage local).
+*	Le stockage local maximal est limité par les coeurs.
+*	Le stockage Balanced Local est disponible dans le monde entier. Le type de stockage (unité SSD locale ou unité de disque dur locale) dépend toutefois de l'emplacement du centre de données.
 *	Vous ne pouvez pas déconnecter les disques principaux ou secondaires.
 
 Les centres de données suivants prennent en charge les serveurs virtuels de stockage Balanced Local sur unité de disque dur locale :
@@ -136,7 +137,7 @@ Les centres de données suivants prennent en charge les serveurs virtuels de sto
 |Centres de données (unité de disque dur locale) |        |
 |------------ |------  |  
 |AMS01        |SEA01   |
-|DAL01        |SJC01   | 
+|DAL01        |SJC01   |
 |DAL05        |SNG01   |
 |DAL06        |WDC01   |
 |HKG02        |        |        
@@ -147,10 +148,10 @@ Tous les systèmes d'exploitation pris en charge (RHEL, CentOS, Windows, Ubuntu 
 
 ## Unité SSD locale {: #SSD}
 <table>
-<CAPTION>Tableau 1. Versions de stockage Balanced Local sur des unités SSD locales</CAPTION>
+<CAPTION>Tableau 1. Profils de stockage local Balanced sur des unités SSD locales</CAPTION>
 <THEAD>
 <TR>
-<th>Version</th>
+<th>Profil</th>
 <th>UC virtuelle</th>
 <th>RAM</th>
 <th>Disques secondaires<sup>(*)</sup></th>
@@ -246,24 +247,24 @@ Tous les systèmes d'exploitation pris en charge (RHEL, CentOS, Windows, Ubuntu 
 </table>
 
 **Remarques sur le stockage :**
-* <sup>(*)</sup>Les versions Balanced Local incluent un disque d'amorçage de stockage local de 100 Go. Vous pouvez ensuite sélectionner un second disque (options présentées dans le tableau ci-dessus). Tout disque local supplémentaire est facultatif. Si vous avez besoin de plus de 500 Go, deux disques supplémentaires sont requis (par exemple, 8 coeurs exigent 2 x 250 Go de stockage local).
-*	Le stockage local maximal est limité par les coeurs. 
-*	Le stockage Balanced Local est disponible dans le monde entier. Le type de stockage (unité SSD locale ou unité de disque dur locale) dépend toutefois de l'emplacement du centre de données. 
+* <sup>(*)</sup>Les profils locaux Balanced incluent un disque d'amorçage de stockage local de 100 Go. Vous pouvez ensuite sélectionner un second disque (options présentées dans le tableau ci-dessus). Tout disque local supplémentaire est facultatif. Si vous avez besoin de plus de 500 Go, deux disques supplémentaires sont requis (par exemple, 8 coeurs exigent 2 x 250 Go de stockage local).
+*	Le stockage local maximal est limité par les coeurs.
+*	Le stockage Balanced Local est disponible dans le monde entier. Le type de stockage (unité SSD locale ou unité de disque dur locale) dépend toutefois de l'emplacement du centre de données.
 *	Vous ne pouvez pas déconnecter les disques principaux ou secondaires.
 
 Les centres de données suivants prennent en charge les serveurs virtuels de stockage Balanced Local sur unité SSD locale :
 
 |Centres de données (unité SSD locale) |        |         |
-|------- |------  |------ | 
+|------- |------  |------ |
 |AMS03   |LON06   |SJC03  |
-|CHE01   |MEL01   |SJC04  | 
+|CHE01   |MEL01   |SJC04  |
 |DAL09   |MEX01   |SYD01  |
 |DAL10   |MIL01   |SYD04  |
 |DAL12   |MON01   |TOK02  |       
 |DAL13   |OSL01   |TOR01  |
 |FRA02   |PAR01   |WDC04  |
 |LON02   |SAO01   |WDC06  |
-|LON04   |SEO01   | WDC07 | 
+|LON04   |SEO01   | WDC07 |
 {: caption="Tableau 2. Centres de données pris en charge (unité SSD locale)" caption-side="top"}
 
 Tous les systèmes d'exploitation pris en charge (RHEL, CentOS, Windows, Ubuntu et autres), les bases de données prises en charge et les modules logiciels complémentaires sont également disponibles avec cette offre.  

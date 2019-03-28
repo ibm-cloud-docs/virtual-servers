@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-02-28"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,18 +16,18 @@ lastupdated: "2018-02-28"
 {:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
-# Exemples d'API : versions de serveurs virtuels publics
+# Exemples d'API : profils de serveurs virtuels
 {: #api-rest-public}
 
-Des exemples d'API REST permettant de mettre à disposition des instances de serveur virtuel public qui utilisent des versions prédéfinies sont présentés ci-dessous.
+Des exemples d'API REST permettant de mettre à disposition des instances de serveur virtuel public qui utilisent des profils prédéfinis sont présentés ci-dessous.
 {:shortdesc}
 
 Pour accéder à des exemples d'API plus robustes, voir les ressources suivantes :
 * [Exemples d'API softlayer_virtual_guest ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://softlayer.github.io/classes/softlayer_virtual_guest/)
-* [Getting a flavor list ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://softlayer.github.io/article/vsiflavors/)
+* [Obtention d'une liste de profils ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://softlayer.github.io/article/vsiflavors/)
 
 ## Mise à disposition d'une instance publique en utilisant Create Object
-Le service d'API *SoftLayer_Virtual_Guest/createObject* constitue le meilleur moyen de mettre à disposition une instance de serveur virtuel public qui utilise des versions prédéfinies.
+Le service d'API *SoftLayer_Virtual_Guest/createObject* constitue le meilleur moyen de mettre à disposition une instance de serveur virtuel public qui utilise des profils prédéfinis.
 
 Non applicable aux instances transitoires.
 {:tip}
@@ -61,7 +60,7 @@ Pour mettre à disposition une instance de serveur virtuel public en utilisant R
 ```
 
 ## Mise à disposition d'une instance publique en utilisant Place Order Object
-La mise à disposition d'un serveur virtuel public qui utilise des versions prédéfinies est effectuée en utilisant le service d'API *SoftLayer_Product_Order/placeOrder*.
+La mise à disposition d'un serveur virtuel public qui utilise des profils prédéfinis est effectuée en utilisant le service d'API *SoftLayer_Product_Order/placeOrder*.
 
 Non applicable aux instances transitoires.
 {:tip}

@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-05-17"
 
+subcollection: virtual-servers
 
 ---
 
@@ -25,7 +24,7 @@ Pour accéder aux détails d'un terminal spécifique et gérer ces derniers, vot
 
 **Remarque :** Si votre compte a des terminaux pour lesquels l'accès ne vous pas a été accordé, un message "Nom d'unité inconnu" s'affiche lorsque vous tentez d'accéder à ces terminaux.
 
-Vous pouvez affecter un accès au terminal pour les utilisateurs de votre compte mais non pour vous même. Seul un administrateur de compte peut accéder à tous les terminaux du compte client et peut définir l'accès pour tous les autres utilisateurs du compte. 
+Vous pouvez affecter un accès au terminal pour les utilisateurs de votre compte mais non pour vous même. Seul un administrateur de compte peut accéder à tous les terminaux du compte client et peut définir l'accès pour tous les autres utilisateurs du compte.
 
 Vous devez disposer des droits suivants pour accéder aux détails du terminal pour les serveurs virtuels publics ou les serveurs virtuels privés.
 
@@ -49,7 +48,7 @@ Suivez la procédure présentée ci-dessous pour ajouter des droits d'*affichage
 Pour fournir l'accès à un niveau de terminal spécifique, suivez la procédure décrite ci-dessous.
 
 1. Cliquez sur l'icône **Accès à l'unité** pour accéder à l'écran Accès à l'unité.
-2. Cliquez sur l'onglet **Accès rapide**. 
+2. Cliquez sur l'onglet **Accès rapide**.
    Remarque : Vous pouvez également sélectionner un terminal individuel à la place.
 3. Dans la liste déroulante *Type d'unité*, sélectionnez **Tous les serveurs virtuels**.
 4. Sélectionnez la case à cocher **Accorder l'accès automatiquement lors de l'ajout de nouveaux appareils** si l'utilisateur associé doit toujours avoir accès à ce type de terminal.
@@ -68,7 +67,7 @@ Suivez la procédure présentée ci-dessous pour ajouter des droits d'*affichage
 Pour fournir l'accès à un niveau de terminal spécifique, suivez la procédure décrite ci-dessous.
 
 1. Cliquez sur l'icône **Accès à l'unité** pour accéder à l'écran Accès à l'unité.
-2. Cliquez sur l'onglet **Accès rapide**. 
+2. Cliquez sur l'onglet **Accès rapide**.
    Remarque : Vous pouvez également sélectionner des terminaux individuels à la place.
 3. Dans la liste déroulante *Type d'unité*, sélectionnez **Tous les hôtes dédiés**.
 4. Sélectionnez la case à cocher **Accorder l'accès automatiquement lors de l'ajout de nouveaux appareils** si l'utilisateur associé doit toujours avoir accès à ce type de terminal.

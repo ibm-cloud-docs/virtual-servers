@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-02-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,10 +17,12 @@ lastupdated: "2018-02-12"
 {:table: .aria-labeledby="caption"}
 
 # Mise à disposition de sélections
+{: #provisioning-selections}
+
 Vous devez effectuer les sélections suivantes lorsque vous mettez à disposition un serveur virtuel public.
 
 ## Emplacement
-Vous pouvez sélectionner le centre de données spécifique dans lequel effectuer le déploiement. Pour les nouveaux déploiements, {{site.data.keyword.Bluemix}} identifie automatiquement le meilleur centre de données (en fonction de la disponibilité) et crée les réseaux locaux virtuels (VLAN) publics et privés appropriés. Outre les environnements existants, vous pouvez sélectionner le centre de données spécifique, le réseau local virtuel et le sous-réseau dont vous avez besoin. Pour en savoir plus sur les réseaux locaux virtuels et sur les sous-réseaux, voir [Initiation aux réseaux locaux virtuels](/docs/infrastructure/vlans/getting-started.html).
+Vous pouvez sélectionner le centre de données spécifique dans lequel effectuer le déploiement. Pour les nouveaux déploiements, {{site.data.keyword.Bluemix}} identifie automatiquement le meilleur centre de données (en fonction de la disponibilité) et crée les réseaux locaux virtuels (VLAN) publics et privés appropriés. Outre les environnements existants, vous pouvez sélectionner le centre de données spécifique, le réseau local virtuel et le sous-réseau dont vous avez besoin. Pour en savoir plus sur les réseaux locaux virtuels et sur les sous-réseaux, voir [Initiation aux réseaux locaux virtuels](/docs/infrastructure/vlans?topic=vlans-getting-started-with-vlans).
 
 La sélection d'un sous-réseau est facultative et doit uniquement avoir lieu si vous souhaitez que votre terminal utilise une adresse IP appartenant au sous-réseau. Si vous sélectionnez un sous-réseau, vérifiez que vous avez suffisamment d'adresses IP pour répondre à la demande. Si vous n'avez pas assez d'adresses IP pour votre sous-réseau, votre commande peut être retardée ou annulée.
 {:tip}
@@ -41,7 +42,7 @@ Pour les clients existants, vous pouvez également effectuer le déploiement à 
 
 ## Stockage
 
-Vous pouvez choisir le réseau SAN ou le stockage local pour chaque serveur virtuel. Vous pouvez ensuite utiliser d'autres produits de stockage en complément, si nécessaire. SAN et le stockage local sont exposés sur le serveur virtuel en tant que disques locaux. Toute modification apportée aux disques, telle la connexion, la déconnexion, la migration, exige une réinitialisation du serveur virtuel. Pour plus d'informations, voir [Options de stockage](../vsi/storage/vsi_about_storage.html).
+Vous pouvez choisir le réseau SAN ou le stockage local pour chaque serveur virtuel. Vous pouvez ensuite utiliser d'autres produits de stockage en complément, si nécessaire. SAN et le stockage local sont exposés sur le serveur virtuel en tant que disques locaux. Toute modification apportée aux disques, telle la connexion, la déconnexion, la migration, exige une réinitialisation du serveur virtuel. Pour plus d'informations, voir [Options de stockage](/docs/vsi?topic=virtual-servers-storage-options#storage-options).
 
 ## Facturation horaire et mensuelle
 
@@ -61,35 +62,36 @@ Vous pouvez sélectionner le logiciel à installer par {{site.data.keyword.Bluem
 
 ## Sécurité
 
-Avant le déploiement, définissez vos options de sécurité. Dans le cadre du processus de commande, vous pouvez sélectionner un pare-feu matériel ou logiciel spécifique au terminal afin d'assurer votre protection. Vous pouvez également déployer des dispositifs de pare-feu dédiés et déployer le serveur virtuel sur un réseau VLAN protégé. 
+Avant le déploiement, définissez vos options de sécurité. Dans le cadre du processus de commande, vous pouvez sélectionner un pare-feu matériel ou logiciel spécifique au terminal afin d'assurer votre protection. Vous pouvez également déployer des dispositifs de pare-feu dédiés et déployer le serveur virtuel sur un réseau VLAN protégé.
 
-**Remarque :** Un serveur virtuel ne peut pas être protégé par deux dispositifs de pare-feu sur la même interface. 
+**Remarque :** Un serveur virtuel ne peut pas être protégé par deux dispositifs de pare-feu sur la même interface.
 
 Vous pouvez également utiliser des groupes de sécurité pour promulguer un ensemble de règles de filtre d'adresse IP qui définissent comment gérer le trafic entrant et sortant entre les interfaces publiques et privées d'une instance de serveur virtuel.
 
 Pour plus d'informations, veuillez consulter les rubriques suivantes relatives à la sécurité.
 
-* [Pare-feu matériels (partagés)](../infrastructure/hardware-firewall-shared/getting-started.html)
-* [Pare-feu matériels (dédiés)](../infrastructure/hardware-firewall-dedicated/getting-started.html)
-* [Initiation aux groupes de sécurité](/docs/infrastructure/security-groups/sg_index.html)
+* [Pare-feu matériels (partagés)](/docs/infrastructure/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started-with-hardware-firewall-shared)
+* [Pare-feu matériels (dédiés)](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-getting-started-with-hardware-firewall-dedicated)
+* [Initiation aux groupes de sécurité](/docs/infrastructure/security-groups?topic=security-groups-getting-started-with-security-groups)
 
 ## Surveillance
+{: #about-monitoring}
 
 Pour le serveur virtuel, vous pouvez effectuer une sélection parmi différentes options de surveillance. Les options incluent la surveillance standard, qui utilise la fonction ping ainsi que la réponse de service TCP et comporte des réponses facultatives pour les défaillances. Vous pouvez également ajouter la surveillance avancée qui utilise l'agent logiciel Nimsoft offrant un ensemble de fonctions étendues pour la surveillance du serveur virtuel et du logiciel installé.
 
-Pour plus d'informations, voir [Surveillance](../infrastructure/SLmonitoring/monitoring_index.html).
+Pour plus d'informations, voir [Surveillance](/docs/infrastructure/SLmonitoring?topic=slmonitoring-monitoring).
 
 ## Sauvegarde
 
-Lors de la commande, vous pouvez ajouter des sauvegardes Evault. Vous pouvez également choisir d'acheter une licence R1soft pour votre environnement de sauvegarde R1soft existant ou utiliser une solution de sauvegarde tierce.
+Lors de la commande, vous pouvez ajouter {{site.data.keyword.backup_notm}}. Vous pouvez également choisir d'acheter une licence R1soft pour votre environnement de sauvegarde R1soft existant ou utiliser une solution de sauvegarde tierce.
 
-Pour plus d'informations, voir [Re-registering your device with eVault](../infrastructure/Backup/how-do-i-re-register-evault.html).
+Pour plus d'informations, voir [Enregistrement d'un coffre](/docs/infrastructure/Backup?topic=Backup-reregister#reregister).
 
 ## Scripts postérieurs à la mise à disposition
 
 Les scripts postérieurs à la mise à disposition peuvent être associés à toute commande de serveur virtuel. Un script développé par un client s'exécute après les autres tâches de mise à disposition. Les scripts sont généralement utilisés pour appliquer à un serveur une configuration spécifique à un client et pour faciliter l'automatisation de la mise à l'échelle.
 
-Pour plus d'informations, voir [Ajout d'un script de mise à disposition personnalisé](vsi_add_script.html).
+Pour plus d'informations, voir [Ajout d'un script de mise à disposition personnalisé](/docs/vsi?topic=virtual-servers-adding-post-script).
 
 ## Etape suivante
-Lorsque vous êtes prêt à mettre à disposition votre serveur virtuel public, voir [Mise à disposition d'instances publiques](vsi_provision_public.html).
+Lorsque vous êtes prêt à mettre à disposition votre serveur virtuel public, voir [Mise à disposition d'instances publiques](/docs/vsi?topic=virtual-servers-ordering-vs-public).

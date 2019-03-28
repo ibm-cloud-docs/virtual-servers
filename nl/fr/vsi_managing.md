@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-10-30"
 
+subcollection: virtual-servers
 
 ---
 
@@ -32,11 +31,11 @@ Les tâches de gestion de serveur virtuel suivantes sont disponibles dans la lis
 * Annulation - Fin d'utilisation d'un terminal. Les terminaux peuvent être annulés immédiatement ou au moment d'un anniversaire de facturation. Une fois l'annulation de votre terminal confirmée, l'action ne peut plus être annulée. Aucun remboursement n'est effectué pour les annulations immédiates.
 
 Procédez comme suit afin d'effectuer les tâches de gestion pour vos serveurs virtuels à partir de la liste des terminaux dans le portail client :  
-1. Connectez-vous au portail [{{site.data.keyword.slportal_full}} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){: new_window} en utilisant vos données d'identification uniques. 
+1. Connectez-vous au portail [{{site.data.keyword.slportal_full}} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){: new_window} en utilisant vos données d'identification uniques.
 2. Dans le menu **Unités**, sélectionnez **Liste d'unités**.
 3. Cliquez sur **Actions** pour le terminal à gérer et sélectionnez la tâche de gestion souhaitée.
 
-**Astuces :** 
+**Astuces :**
 * Vous pouvez interagir avec les serveurs dans le portail {{site.data.keyword.slportal}} soit dans la vue Instantané (récapitulatif de votre terminal), soit dans l'écran Détails de l'unité (liste détaillée complète). Pour afficher votre serveur et interagir avec ce dernier dans la vue Instantané, cliquez sur la flèche en regard du nom du terminal pour développer la vue. Pour afficher votre serveur et interagir avec ce dernier dans l'écran Détails de l'unité, cliquez sur le nom de terminal du serveur.
 * Vous pouvez ajouter des remarques à un terminal à tout moment à partir de l'onglet **Configuration**. Les remarques vous permettent d'identifier des détails sur le terminal, son utilisation et les actions effectuées sur ce dernier.
 
@@ -47,7 +46,7 @@ Procédez comme suit afin d'effectuer les tâches de gestion pour vos serveurs v
 
 * **Mise sous tension/hors tension**
 
-    Si le terminal a été mis hors tension, il reste à cet état et doit être mis sous tension manuellement à l'aide de la procédure ci-dessus. Les utilisateurs ne peuvent pas interagir avec un terminal lorsque ce dernier est hors tension. Si le serveur virtuel prend en charge la fonction d'interruption de facturation, la facturation est interrompue pour certaines ressources de traitement. Vous ne pouvez pas exécuter toutes les actions de gestion sur une instance tant que la facturation n'a pas repris. Pour plus d'informations, voir [A propos de l'interruption de facturation (bêta)](vsi_about_suspend.html). Pour savoir si votre instance de serveur virtuel prend en charge la fonction d'interruption de facturation, voir [Affichage de la fonction d'interruption de facturation](vsi_viewing_suspend.html). Si le terminal a été mis sous tension, les utilisateurs peuvent interagir avec lui normalement. Il reste sous tension jusqu'à ce qu'une action soit effectuée.
+    Si le terminal a été mis hors tension, il reste à cet état et doit être mis sous tension manuellement à l'aide de la procédure ci-dessus. Les utilisateurs ne peuvent pas interagir avec un terminal lorsque ce dernier est hors tension. Si le serveur virtuel prend en charge la fonction d'interruption de facturation, la facturation est interrompue pour certaines ressources de traitement. Vous ne pouvez pas exécuter toutes les actions de gestion sur une instance tant que la facturation n'a pas repris. Pour plus d'informations, voir [A propos de l'interruption de facturation (bêta)](/docs/vsi?topic=virtual-servers-requirements). Pour savoir si votre instance de serveur virtuel prend en charge la fonction d'interruption de facturation, voir [Affichage de la fonction d'interruption de facturation](/docs/vsi?topic=virtual-servers-viewing-suspend-billing-feature). Si le terminal a été mis sous tension, les utilisateurs peuvent interagir avec lui normalement. Il reste sous tension jusqu'à ce qu'une action soit effectuée.
 
 * **Attribution d'un nouveau nom**
 
@@ -56,7 +55,6 @@ Procédez comme suit afin d'effectuer les tâches de gestion pour vos serveurs v
 * **Annulation**
 
   Une fois l'annulation confirmée, le processus d'annulation du terminal commence. Si une annulation immédiate est demandée, le terminal est annulé immédiatement. Si l'annulation d'une date anniversaire de facturation a été demandée, le terminal reste actif jusqu'à la date anniversaire de facturation suivante. Dès son annulation, le terminal disparaît de la liste des terminaux du portail {{site.data.keyword.slportal}}. Les éléments de facturation sont également retirés des factures lorsque les soldes restants sont payés sur le terminal, le cas échéant. Si vous avez des questions sur la facture d'un terminal annulé, ouvrez un ticket et sélectionnez Demande de comptabilité en objet. Aucun remboursement n'est effectué pour les annulations immédiates.
-  
-## Etapes suivantes
-Si vous avez besoin de configurer à nouveau un serveur virtuel existant, voir [Nouvelle configuration d'un serveur virtuel existant](../vsi/vsi_reconfigure.html).
 
+## Etapes suivantes
+Si vous avez besoin de configurer à nouveau un serveur virtuel existant, voir [Nouvelle configuration d'un serveur virtuel existant](/docs/vsi?topic=virtual-servers-reconfiguring-virtual-servers).

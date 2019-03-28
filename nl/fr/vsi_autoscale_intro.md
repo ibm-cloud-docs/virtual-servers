@@ -1,13 +1,18 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-02-28"
+
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Gestion des serveurs avec la mise à l'échelle automatique
+{: #managing-servers-with-auto-scaling}
 
 La mise à l'échelle vous permet d'automatiser le processus de mise à l'échelle manuel associé à l'ajout ou à la suppression de serveurs virtuels pour prendre en charge vos applications d'entreprise. La mise à l'échelle automatique peut être gérée via l'API ou via le portail {{site.data.keyword.slportal_full}} et vous permet :
 
@@ -17,4 +22,4 @@ La mise à l'échelle vous permet d'automatiser le processus de mise à l'échel
 * Des mises à jour de l'état en temps quasi-réel pour l'activité de mise à l'échelle par groupes.
 * Intégration facultative du réseau local virtuel (VLAN) et des équilibreurs de charge locaux.
 
-Pour plus d'informations, voir [Initiation à la mise à l'échelle automatique](/docs/infrastructure/SLautoscale/index.html).
+Pour plus d'informations, voir [Initiation à la mise à l'échelle automatique](/docs/infrastructure/SLautoscale?topic=slautoscale-getting-started-with-auto-scaling).

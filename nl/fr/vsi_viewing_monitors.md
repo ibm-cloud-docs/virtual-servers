@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-10-23"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,6 +16,7 @@ lastupdated: "2017-10-23"
 {:table: .aria-labeledby="caption"}
 
 # Affichage et gestion des moniteurs
+{: #viewing-and-managing-monitors}
 
 La surveillance d'un terminal permet aux utilisateurs de lancer des commandes ping de service et des commandes ping lentes afin de garantir que le terminal est en ligne et qu'il répond.
 {:shortdesc}
@@ -78,9 +78,9 @@ indique le contraire. Si vous avez déjà configuré un moniteur de base, vous p
    </tr>
    </TBODY>
    </table>
-   
+
 ## Etapes suivantes
-   
+
 - Si un nouveau moniteur a été ajouté, le moniteur apparaît sur l'onglet **Surveillance**. Le moniteur envoie une demande ping au terminal toutes les cinq minutes, attendant une réponse en fonction du type de demande ping sélectionnée. Si la réponse attendue n'est pas reçue, un message électronique est envoyé pendant la période définie à l'adresse de notification correspondant au compte (dans le cas où la notification a été sélectionnée).
 - Si un moniteur a été édité, le moniteur continue de fonctionner comme cela est défini dans les détails du moniteur. Si le type est modifié, la période avant la réception de la commande ping attendue est différente. En cas de modification des options de notification, la façon dont les utilisateurs sont avertis des tentatives infructueuses sont modifiées en fonction des nouvelles sélections. Le moniteur reste accessible dans l'onglet **Surveillance**.
 - Si un moniteur est supprimé, ce dernier ne fonctionne plus pour le terminal. Toutes les opérations de surveillance associées au moniteur supprimé s'arrêtent et le moniteur ne s'affiche plus sur l'onglet **Surveillance**.

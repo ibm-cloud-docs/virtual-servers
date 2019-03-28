@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,7 +16,7 @@ lastupdated: "2017-10-24"
 {:table: .aria-labeledby="caption"}
 
 # Gestion des instances et des hôtes dédiés
-{: #managing-virtual-servers}
+{: #managing-dedicated-hosts-instances}
 
 Sur la page Détails de l'unité, vous pouvez gérer vos instances et vos hôtes dédiés, suivre vos tickets de support et surveiller la disponibilité de votre hôte. Vous pouvez accéder à vos instances d'hôte dédiées et les consulter de deux manières dans la liste des unités, soit comme partie de l'hôte, soit en tant qu'instance individuelle.
 {:shortdesc}
@@ -50,18 +49,18 @@ Le graphique temporel Utilisation présente l'utilisation de l'unité centrale p
 
 Le graphique temporel Bande passante, quant à lui, vous permet d'entrer des paramètres pour voir la quantité de bande passante utilisée au fil du temps. L'onglet Stockage affiche tout stockage de fichier ou de bloc supplémentaire sur l'instance.
 
-# Annulation d'un hôte dédié
-Vous pouvez annuler un hôte dédié à tout moment. Avant d'annuler un hôte, vous devez avoir migré les instances dédiées qui lui sont affectées vers un autre hôte dédié ou avoir annulé ces instances. 
-## Annulation d'un hôte dédié à partir de la liste des unités
+## Annulation d'un hôte dédié
+Vous pouvez annuler un hôte dédié à tout moment. Avant d'annuler un hôte, vous devez avoir migré les instances dédiées qui lui sont affectées vers un autre hôte dédié ou avoir annulé ces instances.
+### Annulation d'un hôte dédié à partir de la liste des unités
 Procédez comme suit pour annuler un hôte dédié à partir de la liste des unités.
 
 1. Sélectionnez **Appareil** > **Liste des unités**.
 2. Recherchez l'hôte dédié à annuler puis cliquez sur le menu déroulant **Actions**.
-3. Sélectionnez **Annuler l'hôte**. 
+3. Sélectionnez **Annuler l'hôte**.
 4. Une fenêtre en incrustation contenant la liste des instances dédiées affectées à l'hôte s'affiche. Vous devez alors migrer ou annuler les instances avant d'annuler l'hôte. Cliquez sur **OK**.
 
 Un message s'affiche indiquant que l'hôte dédié est annulé. Il contient un lien vers le ticket de support permettant d'effectuer cette opération.
-## Annulez un hôte dédié sur la page Détails de l'unité.
+### Annulez un hôte dédié sur la page Détails de l'unité.
 Procédez comme suit pour annuler l'hôte dédié à partir de la page Détails de l'unité.
 
 1. Sélectionnez **Appareil** > **Liste des unités**.
@@ -73,11 +72,10 @@ Un message s'affiche indiquant que l'hôte dédié est annulé. Il contient un l
 
 ### Annulation d'une instance dédiée
 
-Avant de pouvoir annuler un hôte dédié, les instances dédiées associées à ce dernier doivent être annulées. Les instances dédiées peuvent être annulées directement à partir de la liste des unités, sur la page Détails de l'unité sur un terminal de l'hôte affecté ou sur leurs propres pages Détails de l'unité. 
+Avant de pouvoir annuler un hôte dédié, les instances dédiées associées à ce dernier doivent être annulées. Les instances dédiées peuvent être annulées directement à partir de la liste des unités, sur la page Détails de l'unité sur un terminal de l'hôte affecté ou sur leurs propres pages Détails de l'unité.
 
 1. Sélectionnez l'instance dédiée à annuler puis cliquez sur le menu déroulant **Actions**.
 2. Sélectionnez **Annuler unité**.
 3. Un message d'avertissement s'affiche. Cliquez sur le menu déroulant **Raison**, sélectionnez la raison pour laquelle vous annulez l'instance dédiée puis cliquez sur **Continuer**.
 
 Un message s'affiche vous indiquant que l'instance dédiée est annulée. Il contient un lien vers le ticket de support permettant d'effectuer cette opération.
-

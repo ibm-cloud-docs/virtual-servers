@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-05-11"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,6 +17,7 @@ lastupdated: "2018-05-11"
 {:table: .aria-labeledby="caption"}
 
 # Configuration des notifications pour la récupération des serveurs virtuels transitoires
+{: #configuring-notifications-for-reclaims-of-transient-virtual-servers}
 
 Les serveurs virtuels transitoires sont par nature éphémères et peuvent être arrêtés à tout moment, ce qui peut entraîner une perte de données. Des notifications de récupération automatisée peuvent aider à limiter la perte de données. Lors de sa mise à disposition, un serveur virtuel transitoire peut être configuré pour recevoir une notification indiquant qu'il est arrêté, **deux minutes** avant son arrêt effectif. La notification vous permet d'alerter, via un programme, le serveur virtuel transitoire et de lui demander d'arrêter le traitement en cours ou de transférer toutes les données nécessaires en dehors du serveur virtuel transitoire.
 
@@ -28,8 +28,9 @@ La notification `reclaim-scheduled` est une fonction de rappel webhook : une not
 3. Vérifiez les demandes de webhook.
 
 ## Mise à disposition d'une instance de serveur virtuel transitoire
+{: #provision-transient-virtual-server}
 
-Les serveurs virtuels transitoires peuvent être mis à disposition via le portail [{{site.data.keyword.slportal_full}} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){: new_window} ou par le biais de l'[API SLDN![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](http://sldn.softlayer.com){: new_window}. Pour plus d'informations, voir [Mise à disposition d'instances transitoires](/docs/vsi/vsi_provision_transient.html).
+Les serveurs virtuels transitoires peuvent être mis à disposition via le portail [{{site.data.keyword.slportal_full}} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){: new_window} ou par le biais de l'[API SLDN![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](http://sldn.softlayer.com){: new_window}. Pour plus d'informations, voir [Mise à disposition d'instances transitoires](/docs/vsi?topic=virtual-servers-ordering-vs-transient).
 
 ## Configuration de la fonction de rappel webhook
 
@@ -67,7 +68,7 @@ Pour vérifier les notifications `reclaim-scheduled`, contrôlez les éléments 
 
 2. Nonce trouvé dans l'en-tête "X-IBM-Nonce" de la demande
 
-   Cette valeur est une chaîne qui est générée de façon aléatoire quand la demande est envoyée. Vous pouvez choisir de stocker les nonces reçus pour les comparer au nonce inclus dans la demande. Si le nonce de la demande a été utilisé auparavant, n'acceptez pas la demande , afin de prévenir tout risque d'attaque par réinsertion.
+   Cette valeur est une chaîne qui est générée de façon aléatoire quand la demande est envoyée. Vous pouvez choisir de stocker les nonces reçus pour les comparer au nonce inclus dans la demande. Si le nonce de la demande a été utilisé auparavant, n'acceptez pas la demande afin de prévenir tout risque d'attaque par réinsertion.
 
 3. Code HMAC (Hash Message Authentication Code) figurant dans l'en-tête "Authorization" de la demande
 

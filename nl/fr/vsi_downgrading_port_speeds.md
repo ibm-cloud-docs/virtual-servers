@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-12-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,6 +17,7 @@ lastupdated: "2017-12-12"
 {:table: .aria-labeledby="caption"}
 
 # Rétromigration des vitesses de port
+{: #downgrading-port-speeds}
 
 Vous pouvez temporairement rétromigrer les vitesses de port sans avoir à ouvrir un ticket. Vous pouvez accéder à l'option **Contrôle de port** en cliquant sur **Actions** dans l'angle supérieur droit de la page **Détails de l'unité**. Dans cet écran, sélectionnez la vitesse requise ou déconnectez-la.
 {:shortdesc}

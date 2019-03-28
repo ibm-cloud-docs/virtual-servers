@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2017
-lastupdated: "2017-08-10"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,15 +16,17 @@ lastupdated: "2017-08-10"
 {:table: .aria-labeledby="caption"}
 
 # Compute
-Les versions Compute sont recommandées pour les charges de travail avec des demandes d'unité centrale importantes, comme les fortes charges de travail de trafic Web, le traitement de lots de production et les serveurs Web frontaux.
+{: #compute}
 
-Les différentes versions suivantes sont disponibles pour l'offre :
+Les profils Compute sont recommandés pour les charges de travail avec des demandes d'unité centrale importantes, comme les fortes charges de travail de trafic Web, le traitement de lots de production et les serveurs Web frontaux.
+
+L'offre est disponible dans les profils suivants :
 
 <table>
-<CAPTION>Tableau 1. Versions Compute</CAPTION>
+<CAPTION>Tableau 1. Profils Compute</CAPTION>
 <THEAD>
 <TR>
-<th>Version</th>
+<th>Profil</th>
 <th>UC virtuelle</th>
 <th>RAM</th>
 <th>Type de stockage</th>
@@ -75,7 +76,6 @@ Les différentes versions suivantes sont disponibles pour l'offre :
 * Disque d'amorçage principal SAN (25 ou 100 Go) avec des disques supplémentaires disponibles, jusqu'à 2 To chacun (5 disques autorisés au total).
 * La tarification des serveurs virtuels publics utilisant le stockage SAN inclut l'unité centrale virtuelle, la mémoire et un disque d'amorçage principal. Le prix des disques supplémentaires dépend de la taille du disque et de la quantité sélectionnée.  
 
-Les versions Compute sont disponibles dans tous les centres de données.
+Les profils Compute sont disponibles dans tous les centres de données.
 
 Tous les systèmes d'exploitation pris en charge (RHEL, CentOS, Windows, Ubuntu et autres), les bases de données prises en charge et les modules logiciels complémentaires sont également disponibles avec cette offre.  
-

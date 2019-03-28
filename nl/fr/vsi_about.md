@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-11-15"
 
+keywords: scalable virtual servers, virtual servers, key features
+
+subcollection: virtual-servers
 
 ---
 
@@ -17,6 +18,7 @@ lastupdated: "2017-11-15"
 {:table: .aria-labeledby="caption"}
 
 # A propos des serveurs virtuels
+{: #about-virtual-servers}
 
 Les serveurs {{site.data.keyword.BluVirtServers}} sont des serveurs virtuels évolutifs achetés avec des coeurs dédiés et des allocations de mémoire. Ils constituent un très bon choix si vous souhaitez calculer des ressources, pouvant être ajoutées en quelques minutes, avec un accès à des fonctions telles des modèles d'image. L'hyperviseur
 est entièrement géré par {{site.data.keyword.BluSoftlayer_full}} et vous pouvez effectuer des tâches de configuration et de gestion en utilisant à la fois le portail {{site.data.keyword.slportal_full}} et l'API {{site.data.keyword.slapi_short}}. Les serveurs virtuels sont déployés dans les mêmes réseaux virtuels locaux que les serveurs physiques, ce qui vous permet de répartir les charges de travail entre des serveurs virtuels et des serveurs Bare Metal, tout en garantissant l'interopérabilité. Les serveurs virtuels sont entièrement personnalisables lorsque vous les commandez. Vous pouvez les adapter au fur et à mesure de l'évolution de vos besoins.

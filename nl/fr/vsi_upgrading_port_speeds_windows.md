@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-12-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,6 +16,7 @@ lastupdated: "2017-12-12"
 {:table: .aria-labeledby="caption"}
 
 # Augmentation de la vitesse de port dans Windows
+{: #upgrading-port-speed-in-windows}
 
 La vitesse de port par défaut pour les serveurs client est de 10 Mbits/s (pour les réseaux publics comme pour les réseaux privés). Si vous souhaitez augmenter vos vitesses de port à 100 Mbits/s ou 1000 Mbits/s, ouvrez un ticket et formulez une demande. Le département des ventes vous demandera d'approuver les frais minimaux et un technicien changera les vitesses de port sur votre réseau.
 

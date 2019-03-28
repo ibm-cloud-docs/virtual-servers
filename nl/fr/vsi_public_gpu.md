@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-09-24"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,16 +16,18 @@ lastupdated: "2018-09-24"
 {:table: .aria-labeledby="caption"}
 
 # Processeurs graphiques (GPU)
-Les processeurs graphiques sont particulièrement adaptés aux charges de travail hautes performances qui nécessitent une plus grande densité de calcul pour réduire la gestion des ressources et les coûts. Ils sont particulièrement adaptés aux processus d'intelligence artificielle, aux applications graphiques et de données intenses, ou au développement de nouvelles applications nécessitant des performances rapides.
+{: #gpu}
 
-Alimentés par les processeurs graphiques NVDIA Tesla, les versions {{site.data.keyword.cloud_notm}} Accelerated Compute “ac1” et "ac2" offrent toutes deux un stockage SSD en bloc et local. Les versions de GPU suivantes sont disponibles :  
+Les profils de processeur graphique sont particulièrement adaptés aux charges de travail hautes performances qui nécessitent une plus grande densité de calcul pour réduire la gestion des ressources et les coûts ainsi qu'aux processus d'intelligence artificielle, aux applications graphiques et de données intenses, ou au développement de nouvelles applications exigeant des performances rapides.
+
+Alimentés par les processeurs graphiques NVDIA Tesla, les versions {{site.data.keyword.cloud_notm}} Accelerated Compute “ac1” et "ac2" offrent toutes deux un stockage SSD en bloc et local. Les profils de processeur graphique suivants sont disponibles :  
 
   <table>
-<CAPTION>Tableau 1. Versions de GPU P100</CAPTION>
+<CAPTION>Tableau 1. Profils de processeur graphique P100</CAPTION>
 <THEAD>
 <TR>
-<th>Version</th>
-<th>GPU</th>
+<th>Profil</th>
+<th>Processeurs graphiques (GPU)</th>
 <th>RAM GPU (Go)</th>
 <th>UC virtuelle</th>
 <th>RAM UC virtuelle (Go)</th>
@@ -79,14 +80,14 @@ Alimentés par les processeurs graphiques NVDIA Tesla, les versions {{site.data.
 </TBODY>
 </table>
 
-**Remarque :** les versions de GPU P100 sont disponibles dans les centres de données _DAL13_, _LON06_ et _WDC07_.
+**Remarque :** les profils de processeur graphique P100 sont disponibles dans les centres de données _DAL13_, _LON06_ et _WDC07_.
 
 <table>
-<CAPTION>Tableau 2. Versions de GPU V100</CAPTION>
+<CAPTION>Tableau 2. Profils de processeur graphique V100</CAPTION>
 <THEAD>
 <TR>
-<th>Version</th>
-<th>GPU</th>
+<th>Profil</th>
+<th>Processeurs graphiques (GPU)</th>
 <th>RAM GPU (Go)</th>
 <th>UC virtuelle</th>
 <th>RAM UC virtuelle (Go)</th>
@@ -139,13 +140,13 @@ Alimentés par les processeurs graphiques NVDIA Tesla, les versions {{site.data.
 </TBODY>
 </table>
 
-**Remarque :** les versions de GPU V100 sont disponibles dans les centres de données _DAL10_, _DAL12_ et _LON04_<!--WDC07-->.
+**Remarque :** Les profils de processeur graphique V100 sont disponibles dans les centres de données _DAL10_, _DAL12_, _LON04_ et _WDC07_.
 
 
 ## Avant de commencer
 Vérifiez les conditions requises ci-dessous pour le GPU.
 
-1. Les serveurs virtuels de version de GPU sont uniquement disponibles sur un système d'exploitation prenant en charge le mode d'amorçage HVM (Hardware Virtual Machine). Consultez la liste suivante pour connaître les systèmes d'exploitation prenant en charge le mode d'amorçage HVM.  
+1. Les serveurs virtuels de profil de processeur graphique sont disponibles uniquement sur un système d'exploitation prenant en charge le mode d'amorçage HVM (Hardware Virtual Machine). Consultez la liste suivante pour connaître les systèmes d'exploitation prenant en charge le mode d'amorçage HVM.  
   - CentOS 7
   - Debian 8
   - RHEL 7
@@ -153,10 +154,10 @@ Vérifiez les conditions requises ci-dessous pour le GPU.
   - Windows 2012 R2
   - Windows 2016
 
-2. Des pilotes NVIDIA et des logiciels appropriés doivent être installés. Pour en savoir plus sur les logiciels et les pilotes NVIDIA, voir [Installation de pilotes de GPU et de progiciels](../vsi/vsi_gpu_nvidia_drivers.html).  
+2. Des pilotes NVIDIA et des logiciels appropriés doivent être installés. Pour en savoir plus sur les logiciels et les pilotes NVIDIA, voir [Installation de pilotes de GPU et de progiciels](/docs/vsi?topic=virtual-servers-installing-gpu-drivers-and-software-packages).  
 **Remarque :** le logiciel que vous installez peut nécessiter des conditions logicielles particulières ainsi que des configurations spécifiques au système d'exploitation.
 
-## Ajout ou suppression de processus graphiques 
+## Ajout ou suppression de processus graphiques
 Vous pouvez changer le nombre de processeurs graphiques sur votre serveur virtuel après votre commande initiale, mais cela dépend du nombre de processeurs graphiques que vous avez mis à disposition. 
 
 - Si un processeur graphique est mis à disposition, vous pouvez en ajouter un autre, ou

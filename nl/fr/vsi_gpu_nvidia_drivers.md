@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-02-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,6 +16,8 @@ lastupdated: "2018-02-12"
 {:table: .aria-labeledby="caption"}
 
 # Installation des pilotes GPU et des progiciels
+{: #installing-gpu-drivers-and-software-packages}
+
 Vous devez installer les logiciels suivants avant de pouvoir utiliser un serveur virtuel de la famille de GPU.
 * [Pilotes NVIDIA ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](http://www.nvidia.com/drivers){: new_window} - permettent à votre système d'exploitation de communiquer avec le GPU.
 * [Kit d'outils CUDA ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://docs.nvidia.com/cuda/){: new_window} - environnement de développement pour les applications haute performance accélérées par le GPU.
@@ -31,4 +32,3 @@ Vous devez installer les logiciels suivants avant de pouvoir utiliser un serveur
 Si vous installez une structure d'apprentissage automatique, vous devez installer un logiciel d'infrastructure comme l'une de ces plateformes en plus des progiciels précédents.
 * [Caffe ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://www.nvidia.com/en-us/data-center/gpu-accelerated-applications/caffe/){: new_window} (Convolutional Architecture for Fast Feature Embedding) - infrastructure d'apprentissage en profondeur open source sous licence.
 * [Tensorflow (Tensorflow 1.2+) ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://www.tensorflow.org/install/){: new_window} - offre une bibliothèque open source pour le calcul numérique.
-

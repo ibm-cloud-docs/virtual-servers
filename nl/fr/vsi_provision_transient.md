@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-10-03"
 
+subcollection: virtual-servers
 
 ---
 
@@ -26,12 +25,12 @@ Vous pouvez mettre à disposition vos instances de serveur virtuel transitoires 
 Avant de commencer, passez en revue les conditions requises présentées ci-dessous.
 
   1. Vérifiez que vos données d'identification sont définies pour le catalogue {{site.data.keyword.cloud_notm}} ou le portail {{site.data.keyword.slportal}}.
-  
-  **Remarque :** Pour le catalogue {{site.data.keyword.Bluemix_notm}}, vous devez disposer d'un compte mis à niveau pour pouvoir commander des serveurs virtuels. Pour plus d'informations sur la mise à niveau de votre compte, voir [Basculement sur IBMid](https://console.bluemix.net/docs/admin/softlayerlink.html).
 
-  2. Vérifiez les considérations sur la capacité des instances de serveur virtuel. Pour plus d'informations, voir [Considérations relatives à la capacité](ts_capacity_bp.html).
+  **Remarque :** Pour le catalogue {{site.data.keyword.Bluemix_notm}}, vous devez disposer d'un compte mis à niveau pour pouvoir commander des serveurs virtuels. Pour plus d'informations sur la mise à niveau de votre compte, voir [Basculement sur IBMid](/docs/account?topic=account-unifyingaccounts#unifyingaccounts).
 
-## Mise à disposition d'une instance de serveur virtuel transitoire 
+  2. Vérifiez les considérations sur la capacité des instances de serveur virtuel. Pour plus d'informations, voir [Considérations relatives à la capacité](/docs/vsi?topic=virtual-servers-capacity-considerations).
+
+## Mise à disposition d'une instance de serveur virtuel transitoire
 Après avoir rempli les conditions préalables, vous pouvez commencer à mettre à disposition votre instance de serveur virtuel transitoire. Vous pouvez mettre à disposition votre instance via le catalogue {{site.data.keyword.cloud_notm}} ou le portail {{site.data.keyword.slportal}}.
 
 ### Mise à disposition d'instances de serveur virtuel transitoires via le catalogue IBM Cloud
@@ -44,7 +43,7 @@ Pour mettre à disposition une instance de serveur virtuel transitoire via le ca
   5. Complétez toutes les informations pertinentes pour votre instance de serveur virtuel.
   6. Après avoir examiné le récapitulatif de votre commande, cliquez sur la case **Accords de service tiers**.
   7. Cliquez sur **Mettre à disposition**.
-  
+
 ### Mise à disposition d'instances de serveur virtuel transitoires via le portail client
 Pour mettre à disposition une instance de serveur virtuel transitoire via le portail {{site.data.keyword.slportal}}, procédez comme suit :
 
@@ -59,8 +58,8 @@ Pour mettre à disposition une instance de serveur virtuel transitoire via le po
 
  Plusieurs messages électroniques sont envoyés à votre administrateur (accusé de réception de la commande de mise à disposition, approbation et traitement de la commande de mise à disposition et mise à disposition terminée). Le message électronique indiquant que la mise à disposition est terminée inclut un lien vous dirigeant directement vers la page *Détails de l'unité*.
 
-Vous pouvez aussi mettre à disposition un serveur virtuel transitoire via l'{{site.data.keyword.slapi_short}}. Pour obtenir un exemple, voir [Mise à disposition d'une instance transitoire à l'aide de Create Object](../vsi/vsi_provision_api.html#api-rest-transient).
+Vous pouvez aussi mettre à disposition un serveur virtuel transitoire via l'{{site.data.keyword.slapi_short}}. Pour obtenir un exemple, voir [Mise à disposition d'une instance transitoire à l'aide de Create Object](/docs/vsi?topic=virtual-servers-api-rest-public#api-rest-transient).
 {:tip}
 
 ## Etapes suivantes
-Une fois que votre serveur virtuel est mis à disposition, vous pouvez commencer à le gérer. Pour plus d'informations, voir [Gestion des serveurs virtuels](../vsi/vsi_managing.html).
+Une fois que votre serveur virtuel est mis à disposition, vous pouvez commencer à le gérer. Pour plus d'informations, voir [Gestion des serveurs virtuels](/docs/vsi?topic=virtual-servers-managing-virtual-servers).

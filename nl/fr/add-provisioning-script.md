@@ -1,13 +1,18 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-04-27"
+
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Gestion d'un script de mise à disposition
+{: #managing-a-provisioning-script}
 
 Utilisez des scripts de mise à disposition pour spécifier une URL dans un script à exécuter sur une unité nouvellement mise à disposition. Il n'y a pas de restrictions pour le nom de script ; toutefois, l'utilisation d'une convention de dénomination similaire pour chaque script facilite l'identification. Les scripts de mise à disposition doivent être associés à un nom de domaine complet et accessibles en utilisant les protocoles HTTP ou HTTPS. Le type de protocole qui est utilisé a un impact sur la réponse automatisée du système quand le script de mise à disposition est téléchargé sur le périphérique.
 
@@ -20,6 +25,7 @@ Utilisez des scripts de mise à disposition pour spécifier une URL dans un scri
 
 
 ## Ajout d'un script de mise à disposition
+{: #add-provisioning-script}
 
 1. Dans l'écran **Scripts de mise à disposition** du portail {{site.data.keyword.slportal}}, cliquez sur **Ajout de scripts de mise à disposition** en haut de l'écran.
 * Entrez un **nom d'identification** pour le script de mise à disposition dans la zone **Nom**.

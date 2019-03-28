@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-10-31"
 
+subcollection: virtual-servers
 
 ---
 
@@ -27,7 +26,7 @@ Pour ajouter des groupes de placement à partir de la page Groupes de placement,
 2. Sur la page Groupes de placement, cliquez sur **Ajouter un groupe de placement**.
 3. Entrez un nom, une description et un centre de données pour le groupe de placement, puis cliquez sur **Ajouter**.
 
-**Remarque :** des instances existantes ne peuvent pas être ajoutées à un groupe de placement. Vous pouvez uniquement ajouter une instance de serveur virtuel à un groupe de placement lors de la mise à disposition.  
+**Remarque :** des instances existantes ne peuvent pas être ajoutées à un groupe de placement. Vous pouvez uniquement ajouter une instance de serveur virtuel à un groupe de placement lors de la mise à disposition.
 
 
 ## Gestion des groupes de placement à partir de la page Groupes de placement
@@ -41,7 +40,6 @@ Pour gérer des groupes de placement à partir de la page Groupes de placement, 
      * Ajout d'un groupe.
      * Edition d'informations sur le groupe.
      * Suppression d'un groupe.
-     
+
  **Remarque :** vous devez retirer les serveurs affectés du groupe de placement pour que celui-ci puisse être supprimé.
-Pour retirer une instance d'un groupe de placement, vous devez la supprimer ou la récupérer. 
-     
+Pour retirer une instance d'un groupe de placement, vous devez la supprimer ou la récupérer.

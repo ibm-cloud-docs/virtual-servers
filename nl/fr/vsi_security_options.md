@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-08-23"
 
+subcollection: virtual-servers
 
 ---
 
@@ -27,9 +26,9 @@ Des pare-feu sont disponibles en tant que fonction complémentaire pour tous les
 
 Dans le cadre du processus de commande, vous pouvez sélectionner un pare-feu matériel ou logiciel spécifique au terminal afin d'assurer votre protection. Vous pouvez également déployer des dispositifs de pare-feu dédiés et déployer le serveur virtuel sur un réseau VLAN protégé.  
 
-**Remarque :** Un serveur virtuel ne peut pas être protégé par deux dispositifs de pare-feu sur la même interface. 
+**Remarque :** Un serveur virtuel ne peut pas être protégé par deux dispositifs de pare-feu sur la même interface.
 
 Pour plus d'informations, veuillez consulter les rubriques suivantes relatives à la sécurité.
 
-* [Pare-feu matériels (partagés)](../infrastructure/hardware-firewall-shared/getting-started.html)
-* [Pare-feu matériels (dédiés)](../infrastructure/hardware-firewall-dedicated/getting-started.html)
+* [Pare-feu matériels (partagés)](/docs/infrastructure/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started-with-hardware-firewall-shared)
+* [Pare-feu matériels (dédiés)](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-getting-started-with-hardware-firewall-dedicated)

@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-05-17"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,7 +16,7 @@ lastupdated: "2018-05-17"
 {:table: .aria-labeledby="caption"}
 
 
-# Lancement d'un noyau de secours 
+# Lancement d'un noyau de secours
 {: #launching-rescue}
 
 Le noyau de secours est un environnement de secours actif, conçu pour permettre aux clients de mettre en ligne un serveur Bare Metal ou un serveur virtuel en vue de résoudre les problèmes système qui seraient normalement résolus uniquement via le rechargement du système d'exploitation. Le noyau de secours doit être lancé sur le portail {{site.data.keyword.slportal_full}}. Procédez comme suit pour lancer le noyau de secours pour un terminal.
@@ -43,5 +42,4 @@ Après le lancement du noyau de secours, le terminal est mis hors tension et est
 
 L'accès distant au terminal est disponible à partir de l'adresse IP de ce dernier. Vous pouvez accéder au terminal dans le noyau de secours en utilisant les données d'identification root ou de l'administrateur pour les terminaux enregistrés sur le portail {{site.data.keyword.slportal}}. Lors de l'utilisation du noyau de secours, vous pouvez détecter les problèmes et les résoudre comme vous le feriez sur un terminal normalement amorcé. Si nécessaire, vous pouvez monter les terminaux dans le système d'exploitation du noyau de secours. Pour quitter ce dernier et faire en sorte que votre terminal fonctionne dans son environnement habituel, réamorcez le terminal dans le portail {{site.data.keyword.slportal}} ou à partir du système d'exploitation de noyau de secours.
 
-Pour plus d'informations sur le réamorçage d'un terminal, voir [Gestion des serveurs virtuels](../vsi/vsi_managing.html).
-
+Pour plus d'informations sur le réamorçage d'un terminal, voir [Gestion des serveurs virtuels](/docs/vsi?topic=virtual-servers-managing-virtual-servers).

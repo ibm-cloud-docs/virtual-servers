@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-12-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -19,6 +18,7 @@ lastupdated: "2017-12-12"
 {:table: .aria-labeledby="caption"}
 
 # Augmenter la vitesse de port dans Linux
+{: #upgrading-port-speed-in-linux}
 
 Les vitesses de port par défaut des serveurs client est de 10 Mbits/s pour les réseaux publics comme pour les réseaux privés. Si vous souhaitez augmenter vos vitesses de port à 100 Mbits/s ou à 1000 Mbits/s, ouvrez un ticket auprès de notre département des ventes. Celui-ci vous demandera d'approuver les frais mensuels et un technicien changera les limites de la vitesse de port sur le réseau.
 

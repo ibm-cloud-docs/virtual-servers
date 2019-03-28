@@ -4,6 +4,8 @@ copyright:
   years: 2018
 lastupdated: "2018-08-01"
 
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -22,7 +24,7 @@ lastupdated: "2018-08-01"
 
 Des adresses IP supplémentaires peuvent être liées à des instances de serveur virtuel après l'achat de sous-réseaux secondaires via le [{{site.data.keyword.slportal}} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com). Les adresses IP ainsi achetées et gérées par vous sont appelées _adresses IP secondaires_.
 
-Pour en savoir plus sur les options disponibles pour acquérir des adresses IP, voir [Sous-réseaux et IP](https://console.bluemix.net/docs/infrastructure/subnets/).
+Pour en savoir plus sur les options disponibles pour acquérir des adresses IP, voir [Sous-réseaux et IP](/docs/infrastructure/subnets?topic=subnets-getting-started-with-subnets-and-ips#getting-started-with-subnets-and-ips).
 
 ## Liaisons d'adresses IP secondaires
 

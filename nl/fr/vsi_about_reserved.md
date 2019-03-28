@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-10-04"
 
+keywords: reserved virtual servers, cost savings, guaranteed capacity
+
+subcollection: virtual-servers
 
 ---
 
@@ -25,28 +26,28 @@ Les instances de serveur virtuel réservées offrent de nombreux avantages, nota
 
 * **Capacité garantie**
 
-    Lorsque vous réservez une capacité, celle-ci est garantie pendant toute la durée de votre contrat. 
-    
+    Lorsque vous réservez une capacité, celle-ci est garantie pendant toute la durée de votre contrat.
+
 * **Disponibilité globale**
-    
+
     L'offre de serveur virtuel réservé est disponible dans les centres de données du monde entier.
 
 * **Mise à disposition fiable**
-   
+
    Vous pouvez à tout moment mettre à disposition et récupérer les instances de serveur virtuel dans vos capacités réservées.
 
 * **Economies de coûts**
-    
+
     Le choix d'un contrat d'un an ou de trois ans permet d'effectuer des paiements mensuels continus et de réduire les coûts par rapport aux cycles de facturation horaires ou mensuels du serveur virtuel.
 
-## Limitations 
+## Limitations
 
 Tenez compte des limitations suivantes avant de réserver de la capacité et de mettre à disposition des instances de serveur virtuel réservées :
-  
+
   * Les instances de serveur virtuel réservées ne peuvent utiliser que le stockage basé SAN (balanced, memory, compute).
   * Vous ne pouvez pas mettre à niveau ou rétromigrer vos instances.
   * La capacité réservée ne peut pas être annulée, par contre vous pouvez récupérer les instances de serveur virtuel dans cette capacité.
-    
+
 ## Notifications
 
 Vous recevrez une notification par e-mail un mois avant la fin du contrat sur la capacité de serveur virtuel réservée.
@@ -55,5 +56,5 @@ Vous recevrez une notification par e-mail un mois avant la fin du contrat sur la
 
 Après avoir révisé et choisi les options, vous devez mettre à disposition votre capacité et vos instances réservées. Pour commencer, consultez les rubriques suivantes :
 
-   1. [Mise à disposition de la capacité et des instances réservées](../vsi/vsi_provision_reserved.html)
-   2. [FAQ : Capacité et instances réservées](../vsi/vsi_faqs_reserved.html)
+   1. [Mise à disposition de la capacité et des instances réservées](/docs/vsi?topic=virtual-servers-provisioning-reserved-capacity-and-instances)
+   2. [FAQ : Capacité et instances réservées](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances)

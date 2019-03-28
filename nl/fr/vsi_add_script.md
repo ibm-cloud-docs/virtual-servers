@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2015, 2017
 lastupdated: "2017-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -16,7 +15,7 @@ lastupdated: "2017-10-24"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Ajout d'un script de mise à disposition personnalisé 
+# Ajout d'un script de mise à disposition personnalisé
 {: #adding-post-script}
 
 Les scripts de mise à disposition personnalisés permettent aux utilisateurs d'indiquer une URL d'un script qui s'exécute sur un terminal nouvellement mis à disposition. Vous pouvez publier et gérer des scripts de mise à disposition personnalisés dans le portail {{site.data.keyword.slportal_full}}.

@@ -1,10 +1,11 @@
 ---
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-10-24"
 ---
 
 # Graphiques de bande passante
+{: #bandwidth-graphs}
 
 Les graphiques de bande passante présentent le trafic entre Internet (graphiques publics) et le réseau privé (graphiques privés).
 

@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -19,34 +18,34 @@ lastupdated: "2018-10-24"
 # Mise à disposition d'instances et d'hôtes dédiés
 {: #ordering-vs-dedicated}
 
-Vous disposez de deux méthodes pour la mise à disposition de vos instances dédiées. Vous pouvez utiliser, soit le catalogue {{site.data.keyword.Bluemix}}, soit le portail {{site.data.keyword.slportal_full}}. Des ID de connexion uniques sont requis pour le catalogue et le portail {{site.data.keyword.slportal}}. Le nom d'utilisateur et le mot de passe du catalogue ne fonctionnent pas pour la connexion au portail et vice-versa. Pour configurer vos données d'identification permettant d'accéder au catalogue {{site.data.keyword.Bluemix_notm}} ou au portail {{site.data.keyword.slportal}}, voir [Inscription à {{site.data.keyword.Bluemix_notm}}](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window}
+Vous disposez de deux méthodes pour la mise à disposition de vos instances dédiées. Vous pouvez utiliser, soit le catalogue {{site.data.keyword.Bluemix}}, soit le portail {{site.data.keyword.slportal_full}}. Des ID de connexion uniques sont requis pour le catalogue et le portail {{site.data.keyword.slportal}}. Le nom d'utilisateur et le mot de passe du catalogue ne fonctionnent pas pour la connexion au portail et vice-versa. Pour configurer vos données d'identification permettant d'accéder au catalogue {{site.data.keyword.Bluemix_notm}} ou au portail {{site.data.keyword.slportal}}, voir [Inscription à {{site.data.keyword.Bluemix_notm}}](/docs/account?topic=account-signup#signup)
 {:shortdesc}
 
 ## Mise à disposition d'instances et d'hôtes dédiés
 Vous pouvez mettre à disposition vos instances et hôtes dédiés via {{site.data.keyword.cloud_notm}} ou le portail {{site.data.keyword.slportal}}.
 
-### Mise à disposition d'instances et d'hôtes dédiés via le catalogue IBM Cloud 
-Pour mettre à disposition vos instances et vos hôtes dédiés via le catalogue {{site.data.keyword.cloud_notm}}, procédez comme suit : 
+### Mise à disposition d'instances et d'hôtes dédiés via le catalogue IBM Cloud
+Pour mettre à disposition vos instances et vos hôtes dédiés via le catalogue {{site.data.keyword.cloud_notm}}, procédez comme suit :
 
-1. Connectez-vous au catalogue [{{site.data.keyword.cloud_notm}} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://console.bluemix.net/catalog/){: new_window} à l'aide de vos données d'identification uniques. 
+1. Connectez-vous au catalogue [{{site.data.keyword.cloud_notm}} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://console.bluemix.net/catalog/){: new_window} à l'aide de vos données d'identification uniques.
 2. Dans la section **Infrastructure de calcul**, cliquez sur la vignette **Serveurs virtuels**.
 3. Sélectionnez l'option **Serveur virtuel dédié**.
 4. Cliquez sur **Créer**.
 5. Dans la section **Hôte dédié**, vous pouvez sélectionner **Créer un hôte** afin de créer un nouvel hôte dédié, ou **Spécifier l'hôte** afin d'effectuer une sélection dans votre liste d'hôtes dédiés existants.
-6. Complétez toutes les informations pertinentes pour votre hôte dédié et votre instance de serveur virtuel dédiée. 
+6. Complétez toutes les informations pertinentes pour votre hôte dédié et votre instance de serveur virtuel dédiée.
 7. Après avoir examiné le récapitulatif de votre commande, cliquez sur la case **Accords de service tiers**.
-8. Cliquez sur **Mettre à disposition**. 
+8. Cliquez sur **Mettre à disposition**.
 
 ### Mise à disposition d'instances et d'hôtes dédiés via le portail client
 Pour mettre à disposition vos hôtes dédiés et vos instances d'hôte dédiées via le portail {{site.data.keyword.slportal}}, procédez comme suit :
 
 1. Connectez-vous au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){: new_window} en utilisant vos données d'identification uniques.
 
-#### Mise à disposition de votre hôte dédié 
+#### Mise à disposition de votre hôte dédié
 Procédez comme suit pour mettre à disposition vos hôtes dédiés :
 
 1.	Cliquez sur l'icône **Unités**.
-2.  Cliquez sur le lien **Serveur virtuel dédié à l'heure** ou **Serveur virtuel dédié au mois**. 
+2.  Cliquez sur le lien **Serveur virtuel dédié à l'heure** ou **Serveur virtuel dédié au mois**.
 
    **Remarque :** Les serveurs dédiés sont des serveurs privés.
 
@@ -54,7 +53,7 @@ La page de configuration du serveur Cloud** s'affiche. Sur cette page, vous pouv
 
 4.	Cliquez sur le bouton permettant de créer un hôte**** sur le côté droit du formulaire.
 5.	Entrez les informations suivantes :
-    
+
     <table>
     <CAPTION>Tableau 1. Sélections de mise à disposition d'hôte dédié</CAPTION>
     <THEAD>
@@ -77,9 +76,9 @@ La page de configuration du serveur Cloud** s'affiche. Sur cette page, vous pouv
     </tr>
     </TBODY>
     </table>
-    
-    Le récapitulatif de la commande s'affiche sur le côté droit de la page *Configuration*. 
-    
+
+    Le récapitulatif de la commande s'affiche sur le côté droit de la page *Configuration*.
+
 6.  Cliquez sur le bouton **Ajouter à la commande**.
 7.  Confirmez vos sélections sur la page *Réservation* et accédez à *Configuration du système avancé d'hôte dédié*.
 8.  Entrez les informations suivantes :
@@ -118,22 +117,22 @@ La page de configuration du serveur Cloud** s'affiche. Sur cette page, vous pouv
 
 Pour mettre à disposition vos instances d'hôte dédiées via le portail {{site.data.keyword.slportal}}, procédez comme suit :
 
-1.	Cliquez sur **Unités > Liste des unités**. 
- 
-    La page *Unités* affiche tous les types d'unités (hôtes dédiés, serveurs virtuels, serveurs Bare Metal et contrôleurs de distribution d'application NetScaler) de votre compte. 
+1.	Cliquez sur **Unités > Liste des unités**.
+
+    La page *Unités* affiche tous les types d'unités (hôtes dédiés, serveurs virtuels, serveurs Bare Metal et contrôleurs de distribution d'application NetScaler) de votre compte.
 
 2.	Sélectionnez l'hôte de vos instances d'hôte dédiées en cliquant sur son lien sous **Nom de l'unité**.
-    
+
     L'onglet **Configuration** de la page *Détails de l'unité* s'affiche alors. L'onglet **Tickets** répertorie vos tickets de support actifs et l'onglet **Allocations** affiche votre utilisation de mémoire pour la période de facturation sélectionnée. Pour plus d'informations sur les onglets, voir la section relative à l'utilisation des détails de l'unité pour la gestion de vos instances et de votre hôte dédiés.
 
 3.	Faites défiler jusqu'au cadre **Instances**.
 
-    La fréquence de facturation de votre hôte dédié (à l'heure ou au mois) détermine la facturation de vos instances d'hôte dédiées. Si vous avez des hôtes facturés mensuellement, vous pouvez mettre à disposition à la fois des instances d'hôte facturées à l'heure ou mensuellement. Deux liens sont disponibles (lien d'ajout à l'heure ou d'ajout au mois********) lors de la mise à disposition de vos instances. Les hôtes dédiés facturés à l'heure peuvent uniquement mettre à disposition des instances d'hôte dédiées facturées à l'heure et seul le lien d'ajout à l'heure**** sera affiché. 
+    La fréquence de facturation de votre hôte dédié (à l'heure ou au mois) détermine la facturation de vos instances d'hôte dédiées. Si vous avez des hôtes facturés mensuellement, vous pouvez mettre à disposition à la fois des instances d'hôte facturées à l'heure ou mensuellement. Deux liens sont disponibles (lien d'ajout à l'heure ou d'ajout au mois********) lors de la mise à disposition de vos instances. Les hôtes dédiés facturés à l'heure peuvent uniquement mettre à disposition des instances d'hôte dédiées facturées à l'heure et seul le lien d'ajout à l'heure**** sera affiché.
 
-4.	Cliquez sur le lien d'ajout à l'heure**** si votre hôte est facturé à l'heure ou mensuellement. Cliquez sur le lien d'ajout au mois**** si votre hôte est facturé mensuellement. La page de configuration de votre serveur Cloud** s'affiche. 
+4.	Cliquez sur le lien d'ajout à l'heure**** si votre hôte est facturé à l'heure ou mensuellement. Cliquez sur le lien d'ajout au mois**** si votre hôte est facturé mensuellement. La page de configuration de votre serveur Cloud** s'affiche.
 
 5.	Entrez les informations suivantes :
-       
+
     <table>
     <CAPTION>Tableau 3. Sélection d'instances d'hôte dédiées</CAPTION>
     <THEAD>
@@ -189,7 +188,7 @@ Pour mettre à disposition vos instances d'hôte dédiées via le portail {{site
     </tr>
     <tr>
     </TBODY>
-    </table> 
+    </table>
 
 6.	Cliquez sur le bouton **Ajouter à la commande**.
 7.  Entrez les informations suivantes sur la page *Réservation* sous *Configuration système avancée*:
@@ -237,6 +236,4 @@ Pour mettre à disposition vos instances d'hôte dédiées via le portail {{site
 Une fois vos instances d'hôte dédiées mises à disposition, vous recevez un message électronique.
 
 ## Etapes suivantes
-Une fois que votre serveur virtuel est mis à disposition, vous pouvez commencer à le gérer. Pour plus d'informations, voir [Gestion des serveurs virtuels](../vsi/vsi_managing.html).
-
-
+Une fois que votre serveur virtuel est mis à disposition, vous pouvez commencer à le gérer. Pour plus d'informations, voir [Gestion des serveurs virtuels](/docs/vsi?topic=virtual-servers-managing-virtual-servers).
