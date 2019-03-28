@@ -1,15 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-11"
+
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 访问可移植存储器
+{: #accessing-portable-storage}
 
-可移植存储卷 (PSV) 是专用于 {{site.data.keyword.virtualmachinesshort}} 的辅助存储器解决方案。在 [{{site.data.keyword.slportal_full}} !{外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){: new_window} 内，您可以从*可移植存储器*页面访问可移植存储卷，此页面显示所有 PSV，并且可在其中添加、拆离、交换和编辑卷。 
+可移植存储卷 (PSV) 是专用于 {{site.data.keyword.virtualmachinesshort}} 的辅助存储器解决方案。在 {{site.data.keyword.slportal_full}} 中，您可以从*可移植存储器*页面访问可移植存储卷，在此页面中可以查看所有 PSV，还可以连接、拆离、交换和编辑卷。 
 
 ## 访问可移植存储器页面
 

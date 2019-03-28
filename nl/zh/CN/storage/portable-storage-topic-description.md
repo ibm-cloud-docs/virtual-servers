@@ -15,5 +15,5 @@ lastupdated: "2017-09-13"
 
 ## 后续步骤
 有关如何使用可移植存储卷的更多信息，请参阅以下任务：
-* [访问可移植存储器](../storage/access-portable-storage-screen.html)
-* [编辑可移植存储器描述](../storage/edit-description-portable-storage-volume-psv.html)
+* [访问可移植存储器](/docs/vsi/storage?topic=virtual-servers-accessing-portable-storage)
+* [编辑可移植存储器描述](/docs/vsi/storage?topic=virtual-servers-editing-a-portable-storage-description)
