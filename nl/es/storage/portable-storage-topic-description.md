@@ -15,5 +15,5 @@ Cuando un volumen de almacenamiento portátil está conectado a un servidor virt
 
 ## Siguientes pasos
 Para obtener más información sobre cómo utilizar los volúmenes de almacenamiento portátil, consulte las tareas siguientes:
-* [Acceso a almacenamiento portátil](../storage/access-portable-storage-screen.html)
-* [Edición de la descripción de almacenamiento portátil](../storage/edit-description-portable-storage-volume-psv.html)
+* [Acceso a almacenamiento portátil](/docs/vsi/storage?topic=virtual-servers-accessing-portable-storage)
+* [Edición de la descripción de almacenamiento portátil](/docs/vsi/storage?topic=virtual-servers-editing-a-portable-storage-description)

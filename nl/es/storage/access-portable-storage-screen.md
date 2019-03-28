@@ -1,15 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-11"
+
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Acceso a almacenamiento portátil
+{: #accessing-portable-storage}
 
-Los Volúmenes de almacenamiento portátiles (PSV) son una solución de almacenamiento auxiliar exclusivamente para {{site.data.keyword.virtualmachinesshort}}. En del [{{site.data.keyword.slportal_full}} !{Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window}puede acceder a los volúmenes de almacenamiento portátiles desde la página *Almacenamiento portátil*, que muestra todos los PSV y que es la ubicación donde se pueden conectar, desconectar, intercambiar y editar los volúmenes. 
+Los Volúmenes de almacenamiento portátiles (PSV) son una solución de almacenamiento auxiliar exclusivamente para {{site.data.keyword.virtualmachinesshort}}. Dentro de {{site.data.keyword.slportal_full}}, puede acceder a los volúmenes de almacenamiento portátiles desde la página *Almacenamiento portátil*, que muestra todos los PSV y que es la ubicación donde se pueden conectar, desconectar, intercambiar y editar los volúmenes. 
 
 ## Acceso a la página Almacenamiento portátil
 
