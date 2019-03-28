@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-12-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,6 +17,7 @@ lastupdated: "2017-12-12"
 {:table: .aria-labeledby="caption"}
 
 # 对端口速度降级
+{: #downgrading-port-speeds}
 
 您可以临时对端口速度降级，而无需开具凭单。可以通过单击**设备详细信息**页面右上方的**操作**来访问**端口控制**选项。在此屏幕中，选择需要的速度，或者断开端口连接。
 {:shortdesc}

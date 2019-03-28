@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-12-13"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,6 +17,7 @@ lastupdated: "2017-12-13"
 {:table: .aria-labeledby="caption"}
 
 # 管理端口速度
+{: #managing-port-speeds}
 
 通过 {{site.data.keyword.slportal_full}}，您可以修改服务器进行协商的速度，而无需开具支持凭单。
 

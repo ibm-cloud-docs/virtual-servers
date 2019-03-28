@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-05-11"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,6 +17,7 @@ lastupdated: "2018-05-11"
 {:table: .aria-labeledby="caption"}
 
 # 配置瞬态虚拟服务器的回收通知
+{: #configuring-notifications-for-reclaims-of-transient-virtual-servers}
 
 瞬态虚拟服务器本质上是临时的，可以随时终止，终止时可能导致数据丢失。自动回收通知可以帮助减少丢失的数据。供应时，瞬态虚拟服务器可以配置为在实际终止前 **2 分钟**接收到关于即将终止的通知。通知支持以编程方式提醒瞬态虚拟服务器完成正在执行的任何处理，或者转移瞬态虚拟服务器上的任何必要数据。
 
@@ -28,8 +28,9 @@ lastupdated: "2018-05-11"
 3. 验证 Webhook 请求。
 
 ## 供应瞬态虚拟服务器实例
+{: #provision-transient-virtual-server}
 
-瞬态虚拟服务器可以通过 [{{site.data.keyword.slportal_full}} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){: new_window} 或通过 [SLDN API ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](http://sldn.softlayer.com){: new_window} 供应。有关更多信息，请参阅[供应瞬态实例](/docs/vsi/vsi_provision_transient.html)。
+瞬态虚拟服务器可以通过 [{{site.data.keyword.slportal_full}} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){: new_window} 或通过 [SLDN API ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](http://sldn.softlayer.com){: new_window} 供应。有关更多信息，请参阅[供应瞬态实例](/docs/vsi?topic=virtual-servers-ordering-vs-transient)。
 
 
 ## 设置 Webhook

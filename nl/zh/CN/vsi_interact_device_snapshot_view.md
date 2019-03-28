@@ -1,10 +1,15 @@
 ---
+
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-08-23"
+
+subcollection: virtual-servers
+
 ---
 
 # 在快照视图中与设备交互
+{: #interacting-with-a-device-in-snapshot-view}
 
 ## 概述
 
@@ -12,7 +17,7 @@ lastupdated: "2017-08-23"
 
 ## 在快照视图中与设备交互
 
-1. 访问**设备列表**。请参阅[访问设备列表](vsi_managing.html)。
+1. 访问**设备列表**。请参阅[访问设备列表](/docs/vsi?topic=virtual-servers-managing-virtual-servers)。
 2. 单击所需设备旁边的箭头以将该设备展开到“快照”视图。
 3. 确定要与设备进行的交互。
 
@@ -21,4 +26,4 @@ lastupdated: "2017-08-23"
 |查看设备的用户名和密码|单击**显示密码**复选框。|
 |输入要与设备关联的标记|<ul><li>在**标记**字段中输入设备的每个标记，标记之间以逗号分隔。</li><li>单击**添加标记**按钮。</li></ul>|
 |查看与设备关联的最近凭单|单击所需的**凭单号**以重定向到凭单的详细信息。|
-|为设备添加凭单。|<ul><li>单击**为此设备添加凭单**链接以重定向到**添加凭单**页面。</li><li>有关获取支持的更多信息，请参阅[使用客户门户网站创建支持凭单](/docs/customer-portal/cpsupport.html)。</li></ul>|
+|为设备添加凭单。|<ul><li>单击**为此设备添加凭单**链接以重定向到**添加凭单**页面。</li><li>有关获取支持的更多信息，请参阅[使用客户门户网站创建支持凭单](/docs/customer-portal?topic=customer-portal-customerportal_support)。</li></ul>|

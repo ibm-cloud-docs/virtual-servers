@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-10-30"
 
+subcollection: virtual-servers
 
 ---
 
@@ -15,32 +14,44 @@ lastupdated: "2018-10-30"
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
+{:faq: data-hd-content-type='faq'}
 
 
 # 常见问题：虚拟服务器  
+{: #faqs-virtual-servers}
 
 ## 哪些类型的虚拟服务器可供使用？
-{{site.data.keyword.BluSoftlayer_full}} 提供了几种类型的虚拟服务器。标准产品是基于公共的虚拟服务器，这是适合各种需求的多租户环境。如果寻找的是单租户环境，请考虑使用“专用虚拟服务器”产品。专用虚拟服务器选项非常适合资源需求更严格的应用程序。有关当前虚拟服务器产品的更多信息，请参阅[虚拟服务器入门](../vsi/vsi_index.html)。
+{:faq}
+
+{{site.data.keyword.BluSoftlayer_full}} 提供了几种类型的虚拟服务器。标准产品是基于公共的虚拟服务器，这是适合各种需求的多租户环境。如果寻找的是单租户环境，请考虑使用“专用虚拟服务器”产品。专用虚拟服务器选项非常适合资源需求更严格的应用程序。有关当前虚拟服务器产品的更多信息，请参阅[虚拟服务器入门](/docs/vsi?topic=virtual-servers-getting-started-tutorial)。
 
 ## 在哪里可以找到公共实例类型的定价信息？
+{:faq}
+
 有关定价信息，请参阅[构建虚拟服务器 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/cloud-computing/bluemix/virtual-servers){: new_window}。
 
 ## 在哪里可以找到虚拟公共实例的定价信息？
+{:faq}
+
 有关定价信息，请参阅[虚拟服务器供应计算器](https://www.ibm.com/cloud-computing/bluemix/virtual-servers/calculator)。
 
 ## 可以向每小时或每月虚拟服务器添加磁盘存储吗？
-通过在要更新的设备的*配置*屏幕中，更新*第一个磁盘*到*第五个磁盘*字段中的存储选项，可以升级或降级任何虚拟服务器的磁盘存储。有关更多信息，请参阅[重新配置现有虚拟服务器](../vsi/vsi_reconfigure.html)。
+{:faq}
+
+通过在要更新的设备的*配置*屏幕中，更新*第一个磁盘*到*第五个磁盘*字段中的存储选项，可以升级或降级任何虚拟服务器的磁盘存储。有关更多信息，请参阅[重新配置现有虚拟服务器](/docs/vsi?topic=virtual-servers-reconfiguring-virtual-servers)。
 
 ## 可以启动多少个每小时虚拟服务器？
+{:faq}
 
 缺省情况下，在任意给定时间，一个帐户可以在公共虚拟服务器、专用虚拟服务器和裸机服务器上运行的实例数限制为 20。如果要提高此限制，请联系支持人员，多提供一些有关您要执行的操作以及可能需要的并发实例数的信息。
 
 ## 对于每小时虚拟服务器的带宽，会如何计费？
+{:faq}
 
 每小时虚拟计费分解为入站和出站流量。虚拟服务器的所有入站流量都是免费的。出站流量按 GB 计量和收费，在结算周期结束时会评估总量。
 
 ## 在什么情况下，虚拟服务器会迁移到其他主机？
-
+{:faq}
 在有限的情况下，可能需要将虚拟服务器迁移到其他主机。如果需要迁移，那么会关闭、迁移并重新启动虚拟服务器。在以下情况下，可能会迁移虚拟服务器：
 
 * 需要更新系统管理程序，正在解除主机，或不允许主机执行新实例。如果某个主机标记为要进行其中任一更改，那么在 {{site.data.keyword.slportal_full}}中重新引导该主机的某个虚拟服务器时，重新引导会自动触发将该虚拟服务器迁移到其他主机。
@@ -52,15 +63,17 @@ lastupdated: "2018-10-30"
 如果某个虚拟服务器需要具有的特定级别系统管理程序在当前主机上不可用，那么也可能会看到**迁移主机**选项。
 
 ## 删除可移植存储器时，数据会发生什么情况？
+{:faq}
 
 删除存储器时，会除去指向该卷上数据的所有指针，因此数据会变得完全无法访问。如果将该物理存储器重新供应到其他帐户，那么会分配一组新的指针。新帐户无法访问物理存储器上可能存在的任何数据。新的一组指针会显示为全是 0。将新数据写入卷/LUN 时，会覆盖仍然存在的任何不可访问的数据。
 
 ## 可以使用 Red Hat Cloud Access 预订来创建虚拟服务器吗？
+{:faq}
 
-可以。导入映像时，可以指定您将提供操作系统许可证。有关更多信息，请参阅[使用 Red Hat Cloud Access](../infrastructure/image-templates/use-red-hat-cloud-access.html)。然后，可以通过该映像模板订购虚拟服务器，并使用现有的 [Red Hat Cloud Access ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://www.redhat.com/en/technologies/cloud-computing/cloud-access){: new_window} 预订。
+可以。导入映像时，可以指定您将提供操作系统许可证。有关更多信息，请参阅[使用 Red Hat Cloud Access](/docs/infrastructure/image-templates?topic=image-templates-using-your-own-os-license-or-subscription)。然后，可以通过该映像模板订购虚拟服务器，并使用现有的 [Red Hat Cloud Access ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://www.redhat.com/en/technologies/cloud-computing/cloud-access){: new_window} 预订。
 
 ## 虚拟服务器与虚拟专用服务器 (VPS) 有什么区别？
-
+{:faq}
 虚拟服务器类似于您可能已经很熟悉的虚拟专用服务器 (VPS) 或虚拟专用服务器 (VDS) 平台。这些“虚拟服务器”环境支持在单个硬件节点上以专用、安全的方式供应不同的环境，但 VDS 和 VPS 在功能方面有更多限制。VPS 和 VDS 选项通常仅限于单服务器体系结构，因此可以在 VDS 或 VPS 上的每个虚拟服务器之间添加或分配的唯一资源是物理安装在该单个服务器上的资源。
 
 虚拟服务器是在多服务器云体系结构上供应的，该体系结构将所有可用硬件资源合并在一起供各个实例使用。虚拟服务器可以利用基于 SAN 的共享高容量主存储平台或高性能本地磁盘存储。由于每个实例都是更大的云环境的一部分，因此所有虚拟服务器之间的通信都是即时的。
@@ -70,6 +83,7 @@ lastupdated: "2018-10-30"
 <!--This error generally occurs because a password is outdated. To fix this, update the root or Administrator password for the virtual server's operating system in the {{site.data.keyword.slportal_full}}.-->
 
 ## 为什么我在供应虚拟服务器时收到容量错误？
+{:faq}
 
 供应虚拟服务器时，您可能会收到错误消息，说容量不足，无法完成请求。供应失败时，该特定请求中的所有虚拟服务器实例均会失败。
-路由器或数据中心的可用资源不足而无法执行服务请求时，会发生容量错误。有多个原因可能会导致您收到此错误。资源可用性变化频繁，因此您可以等待并稍后重试。有关避免此错误的策略的更多信息，请参阅[容量注意事项](https://console.bluemix.net/docs/vsi/ts_capacity_bp.html)。
+路由器或数据中心的可用资源不足而无法执行服务请求时，会发生容量错误。有多个原因可能会导致您收到此错误。资源可用性变化频繁，因此您可以等待并稍后重试。有关避免此错误的策略的更多信息，请参阅[容量注意事项](/docs/vsi?topic=virtual-servers-capacity-considerations)。

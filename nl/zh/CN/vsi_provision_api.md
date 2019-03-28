@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-02-28"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,18 +16,18 @@ lastupdated: "2018-02-28"
 {:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
-# API 示例：公共虚拟服务器类型模板
+# API 示例：公共虚拟服务器概要文件
 {: #api-rest-public}
 
-以下信息显示了用于供应使用预设置类型模板的公共虚拟服务器实例的 REST API 示例。
+以下信息显示了供应使用预设置概要文件的公共虚拟服务器实例的 REST API 示例。
 {:shortdesc}
 
 要获取更稳健的 API 示例，请参阅以下资源：
 * [Softlayer_Virtual_Guest API 示例 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://softlayer.github.io/classes/softlayer_virtual_guest/)
-* [获取类型模板列表 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://softlayer.github.io/article/vsiflavors/)
+* [获取概要文件列表 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://softlayer.github.io/article/vsiflavors/)
 
 ## 使用创建对象供应公共实例
-要供应使用预设置类型模板的公共虚拟服务器实例，使用 *SoftLayer_Virtual_Guest/createObject* API 服务是最简单的方法。
+要供应使用预设置概要文件的公共虚拟服务器实例，使用 *SoftLayer_Virtual_Guest/createObject* API 服务是最简单的方法。
 
 不适用于瞬态实例。
 {:tip}
@@ -60,8 +59,8 @@ lastupdated: "2018-02-28"
 }
 ```
 
-## 使用下单对象供应公共实例
-使用 *SoftLayer_Product_Order/paceOrder* API 服务可供应使用预设置类型模板的公共虚拟服务器。
+## 使用下订单对象供应公共实例
+使用 *SoftLayer_Product_Order/paceOrder* API 服务可供应使用预设置概要文件的公共虚拟服务器。
 
 不适用于瞬态实例。
 {:tip}

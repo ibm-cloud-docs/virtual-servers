@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2015, 2017
 lastupdated: "2017-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -16,7 +15,7 @@ lastupdated: "2017-10-24"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# 添加定制供应脚本 
+# 添加定制供应脚本
 {: #adding-post-script}
 
 定制供应脚本支持用户指定在新供应的设备上运行的脚本的 URL。您可以在 {{site.data.keyword.slportal_full}}中发布和管理定制供应脚本。

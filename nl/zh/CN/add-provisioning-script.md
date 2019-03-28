@@ -1,13 +1,18 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-04-27"
+
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 管理供应脚本
+{: #managing-a-provisioning-script}
 
 使用供应脚本指定要在新供应的设备上运行的脚本的 URL。脚本名称没有限制；但是，对每个脚本使用类似的命名约定可更容易进行识别。供应脚本必须与标准域名关联，并且必须可使用 HTTP 或 HTTPS 协议进行访问。当供应脚本下载到设备时，使用的协议类型会影响系统的自动响应。
 
@@ -21,6 +26,7 @@ lastupdated: "2018-04-27"
 
 
 ## 添加供应脚本
+{: #add-provisioning-script}
 
 1. 从 {{site.data.keyword.slportal}} 的**供应脚本**屏幕，单击屏幕顶部的**添加供应脚本**。
 * 在**名称**字段中，输入供应脚本的**识别名称**。

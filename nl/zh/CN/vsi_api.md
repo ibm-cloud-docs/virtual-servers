@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-10-25"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,7 +16,7 @@ lastupdated: "2017-10-25"
 {:table: .aria-labeledby="caption"}
 
 # API 参考
-{: #api-reference} 
+{: #api-reference}
 
 {{site.data.keyword.slapi_full}}是供开发者和系统管理员与 {{site.data.keyword.cloud}} 后端系统进行直接交互的开发接口。{{site.data.keyword.slapi_short}} 支持 {{site.data.keyword.slportal_full}}中的许多功能，这通常意味着如果某个交互可以在 {{site.data.keyword.slportal}}中执行，那么也可以在此 API 中运行。由于在 API 中可以通过编程方式与 {{site.data.keyword.BluSoftlayer_full}} 环境的所有部分进行交互，所以 {{site.data.keyword.slapi_short}} 支持自动执行任务。例如，可以使用 *SoftLayer_Virtual_Guest/createObject* API 来部署虚拟服务器实例。
 {:shortdesc}

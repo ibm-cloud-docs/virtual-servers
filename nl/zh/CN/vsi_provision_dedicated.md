@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -20,35 +19,35 @@ lastupdated: "2018-10-24"
 {: #ordering-vs-dedicated}
 
 对于如何供应专用实例，有两个选项。第一个是通过 {{site.data.keyword.Bluemix}} 目录，第二个是通过 {{site.data.keyword.slportal_full}}。目录和 {{site.data.keyword.slportal}}需要唯一登录标识。目录的用户名和密码无法用于登录到门户网站，反之亦然。
-请参阅[注册 {{site.data.keyword.Bluemix_notm}}](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window} 以设置 {{site.data.keyword.Bluemix_notm}} 目录或 {{site.data.keyword.slportal}}凭证。
+请参阅[注册 {{site.data.keyword.Bluemix_notm}}](/docs/account?topic=account-signup#signup) 以设置 {{site.data.keyword.Bluemix_notm}} 目录或 {{site.data.keyword.slportal}}凭证。
 {:shortdesc}
 
 ## 供应专用主机和实例
 可以通过 {{site.data.keyword.cloud_notm}} 或 {{site.data.keyword.slportal}} 来供应专用主机和实例。
 
 
-### 通过 IBM Cloud 目录供应专用主机和实例 
-要通过 {{site.data.keyword.cloud_notm}} 目录来供应专用主机和专用主机实例，请完成以下步骤： 
+### 通过 IBM Cloud 目录供应专用主机和实例
+要通过 {{site.data.keyword.cloud_notm}} 目录来供应专用主机和专用主机实例，请完成以下步骤：
 
-1. 使用您的唯一凭证来登录到 [{{site.data.keyword.cloud_notm}} 目录 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://console.bluemix.net/catalog/){: new_window}。 
+1. 使用您的唯一凭证来登录到 [{{site.data.keyword.cloud_notm}} 目录 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://console.bluemix.net/catalog/){: new_window}。
 2. 在**计算基础架构**部分中，单击**虚拟服务器**磁贴。
 3. 选择**专用虚拟服务器**选项。
 4. 单击**创建**。
 5. 在**专用主机**部分，既可以选择**创建主机**以创建新的专用主机，也可以**指定主机**以从现有专用主机中进行选择。
 6. 填写专用主机和专用虚拟服务器实例的所有相关信息。
 7. 复查订单摘要后，单击**第三方服务协议**复选框。
-8. 单击**供应**。 
+8. 单击**供应**。
 
 ### 通过客户门户网站供应专用主机和实例
 要通过 {{site.data.keyword.slportal}} 来供应专用主机和专用主机实例，请完成以下步骤：
 
 1. 使用您的唯一凭证来登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){: new_window}。
 
-#### 供应专用主机 
+#### 供应专用主机
 要供应专用主机，请使用以下步骤。
 
 1.	单击**设备**图标。
-2.  单击**每小时专用虚拟服务器**或**每月专用虚拟服务器**链接。 
+2.  单击**每小时专用虚拟服务器**或**每月专用虚拟服务器**链接。
 
    **注**：专用服务器是私有服务器。
 
@@ -56,7 +55,7 @@ lastupdated: "2018-10-24"
 
 4.	单击表单右侧的**创建主机**按钮。
 5.	输入以下信息：
-    
+
     <table>
     <CAPTION>表 1. 专用主机供应选项</CAPTION>
     <THEAD>
@@ -79,9 +78,9 @@ lastupdated: "2018-10-24"
     </tr>
     </TBODY>
     </table>
-    
-    “订单摘要”会显示在*配置*页面的右侧。 
-    
+
+    “订单摘要”会显示在*配置*页面的右侧。
+
 6.  单击**添加到订单**按钮。
 7.  确认*结帐*页面上的选择内容，然后向下滚动到*专用主机高级系统配置*。
 8.  输入以下信息：
@@ -120,22 +119,22 @@ lastupdated: "2018-10-24"
 
 要通过 {{site.data.keyword.slportal}} 来供应专用主机实例，请完成以下步骤：
 
-1.	单击**设备 > 设备列表**。 
- 
-    *设备*页面将显示您帐户中的所有设备类型 - 专用主机、虚拟服务器、裸机服务器和 NetScaler 应用程序交付控制器。 
+1.	单击**设备 > 设备列表**。
+
+    *设备*页面将显示您帐户中的所有设备类型 - 专用主机、虚拟服务器、裸机服务器和 NetScaler 应用程序交付控制器。
 
 2.	通过单击**设备名**下主机的链接来选择专用主机实例的主机。
-    
+
     这将显示*设备详细信息*页面的**配置**选项卡。**凭单**选项卡将列出您的活动支持凭单，**分配**选项卡显示所选计费周期的内存使用情况。有关选项卡的更多信息，请参阅“使用设备详细信息管理专用主机和实例”。
 
 3.	向下滚动到**实例**框架。
 
-    专用主机的计费方式（按月或按小时）决定了专用主机实例的计费方式。请注意，如果有按月计费的主机，那么可以同时供应按小时和按月计费的专用主机实例。在供应实例时，有两个链接可用：**添加每小时**和**添加每月**。按小时计费的专用主机只能供应按小时计费的专用主机实例，并且只会看到**添加每小时**链接。 
+    专用主机的计费方式（按月或按小时）决定了专用主机实例的计费方式。请注意，如果有按月计费的主机，那么可以同时供应按小时和按月计费的专用主机实例。在供应实例时，有两个链接可用：**添加每小时**和**添加每月**。按小时计费的专用主机只能供应按小时计费的专用主机实例，并且只会看到**添加每小时**链接。
 
-4.	如果主机是按小时计费的，请单击**添加每小时**链接；如果主机是按月计费的，请单击**添加每月**链接。这会将您重定向到*配置云服务器*页面。 
+4.	如果主机是按小时计费的，请单击**添加每小时**链接；如果主机是按月计费的，请单击**添加每月**链接。这会将您重定向到*配置云服务器*页面。
 
 5.	输入以下信息：
-       
+
     <table>
     <CAPTION>表 3. 专用主机实例选项</CAPTION>
     <THEAD>
@@ -191,7 +190,7 @@ lastupdated: "2018-10-24"
     </tr>
     <tr>
     </TBODY>
-    </table> 
+    </table>
 
 6.	单击**添加到订单**按钮。
 7.  在*高级系统配置*下的*结帐*页面上，输入以下信息：
@@ -239,6 +238,4 @@ lastupdated: "2018-10-24"
 一旦供应了专用主机实例，您将收到一封电子邮件。
 
 ## 后续步骤
-供应虚拟服务器后，即可以开始对其进行管理。有关更多信息，请参阅[管理虚拟服务器](../vsi/vsi_managing.html)。
-
-
+供应虚拟服务器后，即可以开始对其进行管理。有关更多信息，请参阅[管理虚拟服务器](/docs/vsi?topic=virtual-servers-managing-virtual-servers)。

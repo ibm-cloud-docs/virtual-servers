@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,40 +17,41 @@ lastupdated: "2018-10-24"
 
 
 # 供应专用实例
+{: #provisioning-dedicated-instances}
 
 对于如何供应专用实例，有两个选项。第一个是通过 {{site.data.keyword.Bluemix}} 目录，第二个是通过 {{site.data.keyword.slportal_full}}。目录和 {{site.data.keyword.slportal}}需要唯一登录标识。目录的用户名和密码无法用于登录到门户网站，反之亦然。
-请参阅[注册 {{site.data.keyword.Bluemix_notm}}](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window} 以设置 {{site.data.keyword.Bluemix_notm}} 目录或 {{site.data.keyword.slportal}}凭证。
+请参阅[注册 {{site.data.keyword.Bluemix_notm}}](/docs/account?topic=account-signup#signup) 以设置 {{site.data.keyword.Bluemix_notm}} 目录或 {{site.data.keyword.slportal}}凭证。
 {:shortdesc}
 
 ## 供应专用虚拟服务器实例
 {: #provision-dedicated-instances}
 可以通过 {{site.data.keyword.cloud_notm}} 目录或 {{site.data.keyword.slportal}} 来供应专用虚拟服务器实例。
- 
 
-### 通过 IBM Cloud 目录供应专用虚拟服务器实例 
+
+### 通过 IBM Cloud 目录供应专用虚拟服务器实例
 要通过 {{site.data.keyword.cloud_notm}} 目录来供应专用虚拟服务器实例，请完成以下步骤：
 
-  1. 使用您的唯一凭证来登录到 [{{site.data.keyword.cloud_notm}} 目录 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://console.bluemix.net/catalog/){: new_window}。 
+  1. 使用您的唯一凭证来登录到 [{{site.data.keyword.cloud_notm}} 目录 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://console.bluemix.net/catalog/){: new_window}。
   2. 在**计算基础架构**部分中，单击**虚拟服务器**磁贴。
   3. 选择**专用虚拟服务器**选项。
   4. 单击**创建**。
   5. 在**专用主机**部分，选择**自动分配**。随后，{{site.data.keyword.cloud_notm}} 会自动将实例分配给所选数据中心内的主机。
-  
-     **注**：对于专用主机，请选择**指定主机**或**创建主机**。有关专用主机和专用主机实例的更多信息，请参阅[专用虚拟服务器](../vsi/vsi_dedicated.html)。
-     
-  5. 填写专用虚拟服务器实例的所有相关信息。 
-  6. 复查订单摘要后，单击**第三方服务协议**复选框。 
+
+     **注**：对于专用主机，请选择**指定主机**或**创建主机**。有关专用主机和专用主机实例的更多信息，请参阅[专用虚拟服务器](/docs/vsi?topic=virtual-servers-dedicated-virtual-servers)。
+
+  5. 填写专用虚拟服务器实例的所有相关信息。
+  6. 复查订单摘要后，单击**第三方服务协议**复选框。
   7. 单击**供应**。
 
 ### 通过客户门户网站供应专用虚拟服务器实例
 要通过 {{site.data.keyword.slportal}} 来供应专用虚拟服务器实例，请完成以下步骤：
 
 1. 使用您的唯一凭证来登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){: new_window}。
-2. 找到**订购**部分，然后单击**设备**。这将显示**订购 SoftLayer 产品和服务**窗口。 
-3.  在“专用虚拟服务器”下，选择**每小时**或**每月**。这会将您重定向到*配置云服务器*页面。 
+2. 找到**订购**部分，然后单击**设备**。这将显示**订购 SoftLayer 产品和服务**窗口。
+3.  在“专用虚拟服务器”下，选择**每小时**或**每月**。这会将您重定向到*配置云服务器*页面。
 
 4.	输入以下信息：
-       
+
     <table>
     <CAPTION>表 1. 专用主机实例选项</CAPTION>
     <THEAD>
@@ -70,7 +70,7 @@ lastupdated: "2018-10-24"
     <td>
     <ul>
     <li>自动分配 - {{site.data.keyword.Bluemix_notm}} 会自动将实例分配给所选数据中心内的主机。</li>
-    <li>指定主机 - 用于专用主机实例。有关专用主机和专用主机实例的更多信息，请参阅[专用虚拟服务器](../vsi/vsi_dedicated.html)。</li>
+    <li>指定主机 - 用于专用主机实例。有关专用主机和专用主机实例的更多信息，请参阅[专用虚拟服务器](/docs/vsi?topic=virtual-servers-dedicated-virtual-servers)。</li>
     </ul>
     </td>
     </tr>
@@ -107,7 +107,7 @@ lastupdated: "2018-10-24"
     </tr>
     <tr>
     </TBODY>
-    </table> 
+    </table>
 
 5.	单击**添加到订单**按钮。这会将您重定向到“结帐”页面。
 6.  在*高级系统配置*下的*结帐*页面上，输入以下信息：
@@ -154,5 +154,4 @@ lastupdated: "2018-10-24"
     将向您的管理员发送一系列电子邮件 - 确认供应订单、供应订单核准和处理以及供应完成。“供应完成”电子邮件将包含一个链接，用于在您登录到 {{site.data.keyword.Bluemix_notm}} 后直接转至**设备详细信息**页面。另一个选项是直接登录到 {{site.data.keyword.slportal}}。
 
 ## 后续步骤
-供应虚拟服务器后，即可以开始对其进行管理。有关更多信息，请参阅[管理虚拟服务器](../vsi/vsi_managing.html)。
-
+供应虚拟服务器后，即可以开始对其进行管理。有关更多信息，请参阅[管理虚拟服务器](/docs/vsi?topic=virtual-servers-managing-virtual-servers)。

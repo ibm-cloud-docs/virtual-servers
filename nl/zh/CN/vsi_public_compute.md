@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2017
-lastupdated: "2017-08-10"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,15 +16,17 @@ lastupdated: "2017-08-10"
 {:table: .aria-labeledby="caption"}
 
 # 计算
-计算类型模板最适合具有密集 CPU 需求的工作负载，例如高 Web 流量工作负载、生产批量处理和前端 Web 服务器。
+{: #compute}
 
-产品通过以下类型模板提供：
+计算概要文件最适合具有密集 CPU 需求的工作负载，例如高 Web 流量工作负载、生产批量处理和前端 Web 服务器。
+
+此产品通过以下概要文件来提供：
 
 <table>
-<CAPTION>表 1. 计算类型模板</CAPTION>
+<CAPTION>表 1. 计算概要文件</CAPTION>
 <THEAD>
 <TR>
-<th>类型模板</th>
+<th>概要文件</th>
 <th>vCPU</th>
 <th>RAM</th>
 <th>存储器类型</th>
@@ -75,7 +76,6 @@ lastupdated: "2017-08-10"
 * SAN 主引导磁盘（25 GB 或 100 GB），有附加磁盘可用，每个磁盘最高 2 TB（总共允许 5 个磁盘）。
 * 使用 SAN 存储器的公共虚拟服务器的定价包括虚拟 CPU、内存和最小主引导磁盘。附加磁盘价格取决于选择的磁盘大小和数量。  
 
-计算类型模板在所有数据中心内可用。
+计算概要文件在所有数据中心内均可用。
 
 所有支持的操作系统（例如，RHEL、CentOS、Windows、Ubuntu 和其他操作系统）、支持的数据库以及软件附加组件也都可用于此产品。  
-

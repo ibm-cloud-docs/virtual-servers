@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-02-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,6 +16,8 @@ lastupdated: "2018-02-12"
 {:table: .aria-labeledby="caption"}
 
 # 安装 GPU 驱动程序和软件包
+{: #installing-gpu-drivers-and-software-packages}
+
 您需要安装以下软件后，才能使用 GPU 系列虚拟服务器。
 * [NVIDIA 驱动程序 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](http://www.nvidia.com/drivers){: new_window} - 支持操作系统与 GPU 通信。
 * [CUDA 工具箱 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://docs.nvidia.com/cuda/){: new_window} - 用于高性能 GPU 加速应用程序的开发环境。
@@ -32,5 +33,4 @@ lastupdated: "2018-02-12"
 如果要安装机器学习框架，那么除了上面的软件包之外，还需要安装框架软件，例如以下其中一个平台。
 * [Caffe ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://www.nvidia.com/en-us/data-center/gpu-accelerated-applications/caffe/){: new_window} (Convolutional Architecture for Fast Feature Embedding) - 获得许可的开放式源代码深度学习框架。
 * [Tensorflow (Tensorflow 1.2+) ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://www.tensorflow.org/install/){: new_window} - 提供用于数值计算的开放式源代码软件库。
-
 

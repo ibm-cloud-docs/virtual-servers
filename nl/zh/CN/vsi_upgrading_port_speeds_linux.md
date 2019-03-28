@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-12-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -19,6 +18,7 @@ lastupdated: "2017-12-12"
 {:table: .aria-labeledby="caption"}
 
 # 在 Linux 中升级端口速度
+{: #upgrading-port-speed-in-linux}
 
 客户服务器的缺省端口速度（对于公用和专用网络）为 10 Mbps。如果您希望将任一端口速度升级到 100 Mbps 或 1000 Mbps，请向销售部门开具凭单。销售人员会要求您批准按月收费，然后技术人员会更改网络上的端口速度限制。
 
