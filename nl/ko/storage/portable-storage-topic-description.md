@@ -15,5 +15,5 @@ lastupdated: "2017-09-13"
 
 ## 다음 단계
 휴대용 스토리지 볼륨 사용에 대한 자세한 정보는 다음 태스크를 참조하십시오.
-* [휴대용 스토리지 액세스](../storage/access-portable-storage-screen.html)
-* [휴대용 스토리지 설명 편집](../storage/edit-description-portable-storage-volume-psv.html)
+* [휴대용 스토리지 액세스](/docs/vsi/storage?topic=virtual-servers-accessing-portable-storage)
+* [휴대용 스토리지 설명 편집](/docs/vsi/storage?topic=virtual-servers-editing-a-portable-storage-description)

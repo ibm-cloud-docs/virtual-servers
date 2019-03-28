@@ -7,20 +7,21 @@ lastupdated: "2018-10-23"
 {:new_window: target="_blank"}
 
 # 스토리지 옵션
+{: #storage-options}
 
-사용자는 각 가상 서버에 대해 SAN(휴대용 SAN) 또는 로컬 스토리지 옵션을 선택할 수 있습니다. SAN 또는 로컬 스토리지는 필요한 경우 다른 스토리지 제품으로 보완할 수 있습니다. 
+사용자는 각 가상 서버에 대해 SAN(휴대용 SAN) 또는 로컬 스토리지 옵션을 선택할 수 있습니다. SAN 또는 로컬 스토리지는 필요한 경우 다른 스토리지 제품으로 보완할 수 있습니다.
 
 ## 로컬 스토리지
 
-로컬 스토리지는 가상 서버 호스트에 대해 로컬인 디스크에 빌드됩니다. 로컬 스토리지는 향상된 디스크 쓰기/읽기 성능을 제공합니다. 이 디스크는 중복성, 디스크 교체 기능 및 상태 모니터링 기능을 갖추기 위해 RAID(Redundant Array of Independent Disks) 구성으로 빌드되며 이러한 기능은 모두 {{site.data.keyword.cloud}}에서 관리합니다. 신규 데이터 센터에서는 최상의 성능을 제공하기 위해 이 스토리지에 모두 SSD(Solid-State Drive)를 사용합니다. 
+로컬 스토리지는 가상 서버 호스트에 대해 로컬인 디스크에 빌드됩니다. 로컬 스토리지는 향상된 디스크 쓰기/읽기 성능을 제공합니다. 이 디스크는 중복성, 디스크 교체 기능 및 상태 모니터링 기능을 갖추기 위해 RAID(Redundant Array of Independent Disks) 구성으로 빌드되며 이러한 기능은 모두 {{site.data.keyword.cloud}}에서 관리합니다. 신규 데이터 센터에서는 최상의 성능을 제공하기 위해 이 스토리지에 모두 SSD(Solid-State Drive)를 사용합니다.
 
 ## 휴대용 SAN 스토리지
- 
+
 휴대용 스토리지 볼륨은 {{site.data.keyword.BluVirtServers_short}}에서 독점적으로 사용 가능한 보조 스토리지 솔루션입니다.  휴대용 SAN은 로컬 호스트 스토리지가 아니라 {{site.data.keyword.cloud_notm}}의 모든 플래시 스토리지 클러스터에 빌드됩니다. 이 인프라는 호스트 고장 시 더 나은 복원성을 제공하는 동시에 훨씬 더 큰 볼륨을 지원할 수 있습니다. 호스트 고장이 발생하는 경우, SAN 기반 스토리지를 사용하는 가상 서버 인스턴스는 자동으로 다른 호스트로 마이그레이션된 후 다시 시작됩니다.
 
 휴대용 스토리지는 {{site.data.keyword.cloud_notm}} 네트워크의 임의의 데이터 센터에 존재하는 가상 서버 간에 데이터를 전송하고자 하는 경우에 이상적인 솔루션입니다. 휴대용 스토리지 볼륨은 원시의 형식화되지 않은 블록 레벨의 스토리지에 대한 액세스가 필요한 데이터베이스 애플리케이션 및 {{site.data.keyword.BluVirtServers_short}} 간에 대형 데이터 세트를 이동하는 데 유용합니다.
 
-모든 보조 디스크는 휴대용 스토리지로서 연결됩니다. 대부분의 경우, 이러한 보조 디스크는 다른 가상 서버로 이동할 수 있도록 언제든지 분리할 수 있습니다. 
+모든 보조 디스크는 휴대용 스토리지로서 연결됩니다. 대부분의 경우, 이러한 보조 디스크는 다른 가상 서버로 이동할 수 있도록 언제든지 분리할 수 있습니다.
 
 **예외:** 밸런스된 로컬 스토리지를 사용하는 공용 가상 서버의 경우, 1차 또는 2차 디스크를 분리할 수 없습니다.
 
@@ -38,15 +39,13 @@ LVM(Logical Volume Management)은 부트 가능한 파티셔닝 스킴으로 지
 
 가상 서버는 {{site.data.keyword.cos_full}}뿐만 아니라 {{site.data.keyword.filestorage_short}} 및 {{site.data.keyword.blockstorageshort}}와도 완벽하게 호환됩니다. 클러스터 드라이브, 공유 파일 스토리지, 아카이브 스토리지, 대형 스토리지 요구사항 또는 특정 스토리지 요구사항에는 이러한 스토리지 유형이 권장됩니다.
 
-보조 스토리지 옵션에 대한 자세한 정보는 다음 리소스를 참조하십시오.
+보조 스토리지 옵션에 대한 자세한 정보는 다음 자원을 참조하십시오.
 
-* [Block Storage 시작하기](/docs/infrastructure/BlockStorage/index.html)
-* [File Storage 시작하기](/docs/infrastructure/FileStorage/index.html)
-* [Object Storage 시작하기](/docs/services/ObjectStorage/index.html)
+* [Block Storage 시작하기](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted)
+* [File Storage 시작하기](/docs/infrastructure/FileStorage?topic=FileStorage-GettingStarted)
+* [Object Storage 시작하기](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage#about-ibm-cloud-object-storage)
 
 ## 다음 단계
 휴대용 스토리지 볼륨 사용에 대한 자세한 정보는 다음 태스크를 참조하십시오.
-* [휴대용 스토리지 액세스](../storage/access-portable-storage-screen.html)
-* [휴대용 스토리지 설명 편집](../storage/edit-description-portable-storage-volume-psv.html)
-
-
+* [휴대용 스토리지 액세스](/docs/vsi/storage?topic=virtual-servers-accessing-portable-storage)
+* [휴대용 스토리지 설명 편집](/docs/vsi/storage?topic=virtual-servers-editing-a-portable-storage-description)

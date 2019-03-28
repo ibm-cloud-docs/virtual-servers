@@ -1,15 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-11"
+
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 휴대용 스토리지 액세스
+{: #accessing-portable-storage}
 
-휴대용 스토리지 볼륨(PSV)은 {{site.data.keyword.virtualmachinesshort}}에 대해 독점적으로 사용되는 보조 스토리지 솔루션입니다. [{{site.data.keyword.slportal_full}} !{외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window} 내의 *휴대용 스토리지* 페이지(모든 PSV를 표시하며 볼륨을 연결, 분리, 스왑 및 편집할 수 있는 위치)에서 휴대용 스토리지 볼륨에 액세스할 수 있습니다. 
+휴대용 스토리지 볼륨(PSV)은 {{site.data.keyword.virtualmachinesshort}}에 대해 독점적으로 사용되는 보조 스토리지 솔루션입니다. {{site.data.keyword.slportal_full}} 내의 *휴대용 스토리지* 페이지(모든 PSV를 표시하며 볼륨을 연결, 분리, 스왑 및 편집할 수 있는 위치)에서 휴대용 스토리지 볼륨에 액세스할 수 있습니다. 
 
 ## 휴대용 스토리지 페이지 액세스
 
