@@ -7,21 +7,22 @@ lastupdated: "2018-10-23"
 {:new_window: target="_blank"}
 
 # Opções de armazenamento
+{: #storage-options}
 
-Existe a opção de armazenamento SAN (SAN móvel) ou local para cada servidor virtual. É possível complementar a SAN ou o armazenamento local com outros produtos de armazenamento conforme necessário. 
+Existe a opção de armazenamento SAN (SAN móvel) ou local para cada servidor virtual. É possível complementar a SAN ou o armazenamento local com outros produtos de armazenamento conforme necessário.
 
 ## Armazenamento local
 
-O armazenamento local é construído em discos que são locais para o host do servidor virtual. O armazenamento local fornece melhor desempenho de leitura/gravação de disco. Os discos são construídos em uma configuração de Redundant Array of Independent Disks (RAID) para redundância, substituição de disco e monitoramento de funcionamento que é totalmente gerenciado pelo {{site.data.keyword.cloud}}. Em data centers mais recentes, esse armazenamento é toda unidade de estado sólido (SSD) para fornecer o melhor desempenho. 
+O armazenamento local é construído em discos que são locais para o host do servidor virtual. O armazenamento local fornece melhor desempenho de leitura/gravação de disco. Os discos são construídos em uma configuração de Redundant Array of Independent Disks (RAID) para redundância, substituição de disco e monitoramento de funcionamento que é totalmente gerenciado pelo {{site.data.keyword.cloud}}. Em data centers mais recentes, esse armazenamento é toda unidade de estado sólido (SSD) para fornecer o melhor desempenho.
 
 ## Armazenamento SAN móvel
- 
+
 Os volumes de armazenamento móvel são soluções de armazenamento auxiliar exclusivamente disponíveis nos {{site.data.keyword.BluVirtServers_short}}.  A SAN móvel é construída em todos os clusters de armazenamento flash do {{site.data.keyword.cloud_notm}} em vez de no armazenamento do host local. Essa infraestrutura fornece maior resiliência no caso de uma falha do host e também
 pode suportar volumes muito maiores. No caso de uma falha de host, as instâncias de servidor virtual que usam o armazenamento baseado em SAN são migradas automaticamente para outros hosts e reiniciadas.
 
 O armazenamento móvel é uma solução ideal se você deseja transferir dados entre servidores virtuais existentes em qualquer data center na rede do {{site.data.keyword.cloud_notm}}. Os volumes de armazenamento móvel são úteis para aplicativos de banco de dados que requerem acesso ao armazenamento em nível de bloco bruto e não formatado e para mover grandes conjuntos de dados entre os {{site.data.keyword.BluVirtServers_short}}.
 
-Todos os discos secundários são conectados como armazenamento móvel. Na maioria dos casos, esses discos secundários podem ser separados a qualquer momento para permitir que sejam movidos para outros servidores virtuais. 
+Todos os discos secundários são conectados como armazenamento móvel. Na maioria dos casos, esses discos secundários podem ser separados a qualquer momento para permitir que sejam movidos para outros servidores virtuais.
 
 **Exceção:** com servidores virtuais públicos que utilizam armazenamento local balanceado, não é possível remover discos primários ou secundários.
 
@@ -41,13 +42,11 @@ Os servidores virtuais são totalmente compatíveis com o {{site.data.keyword.fi
 
 Para obter mais informações sobre as opções de armazenamento adicional, consulte os recursos a seguir:
 
-* [Introdução ao Block Storage](/docs/infrastructure/BlockStorage/index.html)
-* [Introdução ao File Storage](/docs/infrastructure/FileStorage/index.html)
-* [Introdução ao Object Storage](/docs/services/ObjectStorage/index.html)
+* [Introdução ao Block Storage](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted)
+* [Introdução ao File Storage](/docs/infrastructure/FileStorage?topic=FileStorage-GettingStarted)
+* [Introdução ao Object Storage](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage#about-ibm-cloud-object-storage)
 
 ## Próximas Etapas
 Para obter mais informações sobre como usar os volumes de armazenamento móvel, veja as tarefas a seguir:
-* [Acessando o armazenamento móvel](../storage/access-portable-storage-screen.html)
-* [Editando a descrição do armazenamento móvel](../storage/edit-description-portable-storage-volume-psv.html)
-
-
+* [Acessando o armazenamento móvel](/docs/vsi/storage?topic=virtual-servers-accessing-portable-storage)
+* [Editando a descrição de armazenamento móvel](/docs/vsi/storage?topic=virtual-servers-editing-a-portable-storage-description)

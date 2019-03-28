@@ -1,15 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-11"
+
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Acessando o armazenamento móvel
+{: #accessing-portable-storage}
 
-Volumes de Armazenamento Móvel (PSVs) são uma solução de armazenamento auxiliar exclusivamente para o {{site.data.keyword.virtualmachinesshort}}. No [{{site.data.keyword.slportal_full}} !{Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window}, é possível acessar volumes de armazenamento móvel na página *Armazenamento móvel*, que exibe todos os PSVs e é o local onde os volumes podem ser anexados, removidos, trocados e editados. 
+Volumes de Armazenamento Móvel (PSVs) são uma solução de armazenamento auxiliar exclusivamente para o {{site.data.keyword.virtualmachinesshort}}. No {{site.data.keyword.slportal_full}}, é possível acessar volumes de armazenamento móvel por meio da página *Armazenamento móvel*, que exibe todos os PSVs e é o local em que os volumes podem ser anexados, removidos, trocados e editados. 
 
 ## Acessando a página Armazenamento móvel
 

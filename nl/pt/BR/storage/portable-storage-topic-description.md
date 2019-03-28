@@ -15,5 +15,5 @@ Quando um volume de armazenamento móvel é anexado a um servidor virtual em um 
 
 ## Próximas Etapas
 Para obter mais informações sobre como usar os volumes de armazenamento móvel, veja as tarefas a seguir:
-* [Acessando o armazenamento móvel](../storage/access-portable-storage-screen.html)
-* [Editando a descrição do armazenamento móvel](../storage/edit-description-portable-storage-volume-psv.html)
+* [Acessando o armazenamento móvel](/docs/vsi/storage?topic=virtual-servers-accessing-portable-storage)
+* [Editando a descrição de armazenamento móvel](/docs/vsi/storage?topic=virtual-servers-editing-a-portable-storage-description)
