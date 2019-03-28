@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-12-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,6 +16,7 @@ lastupdated: "2017-12-12"
 {:table: .aria-labeledby="caption"}
 
 # Fazendo upgrade de velocidade da porta no Windows
+{: #upgrading-port-speed-in-windows}
 
 A velocidade de porta padrão para servidores clientes (para as redes públicas e privadas) é 10 Mbps. Se você quiser fazer upgrade de uma das velocidades de porta para 100 Mbps ou 1000 Mbps, abra um chamado com a solicitação. As vendas solicitam a aprovação do encargo mínimo e um técnico muda as velocidades de porta em sua rede.
 

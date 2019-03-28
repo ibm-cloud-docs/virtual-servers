@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2017
-lastupdated: "2017-08-10"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,15 +16,17 @@ lastupdated: "2017-08-10"
 {:table: .aria-labeledby="caption"}
 
 # Computação
-Os tipos de cálculo são melhores para cargas de trabalho com demandas de CPU intensiva, como cargas de trabalho de tráfego da web alto, processamento em lote de produção e servidores da web de front-end.
+{: #compute}
 
-A oferta está disponível nos tipos a seguir:
+Os perfis de cálculo são melhores para cargas de trabalho com demandas de CPU intensivas, como cargas de trabalho de tráfego da web alto, processamento em lote de produção e servidores da web de front-end.
+
+A oferta está disponível nos perfis a seguir:
 
 <table>
-<CAPTION>Tabela 1. Tipos de cálculo</CAPTION>
+<CAPTION>Tabela 1. Perfis de cálculo</CAPTION>
 <THEAD>
 <TR>
-<th>Tipo</th>
+<th>Perfil</th>
 <th>vCPU</th>
 <th>RAM</th>
 <th>Tipo de armazenamento</th>
@@ -75,7 +76,6 @@ A oferta está disponível nos tipos a seguir:
 * Disco de inicialização primária SAN (25 ou 100 GB) com discos adicionais disponíveis, até 2 TB cada um (total de 5 discos permitidos).
 * A precificação para servidores virtuais públicos usando o armazenamento SAN inclui CPU virtual, memória e disco de inicialização primário mínimo. Os preços de discos adicionais dependem do tamanho do disco e da quantidade selecionada.  
 
-Os tipos de cálculo estão disponíveis em todos os data centers.
+Os perfis de cálculo estão disponíveis em todos os data centers.
 
 Todos os sistemas operacionais suportados (como RHEL, CentOS, Windows, Ubuntu e outros), bancos de dados suportados e complementos de software também estão disponíveis com esta oferta.  
-

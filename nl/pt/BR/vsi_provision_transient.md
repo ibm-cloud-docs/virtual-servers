@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-10-03"
 
+subcollection: virtual-servers
 
 ---
 
@@ -26,12 +25,12 @@ lastupdated: "2018-10-03"
 Antes de iniciar, revise os pré-requisitos a seguir.
 
   1. Assegure-se de que você tenha o catálogo do {{site.data.keyword.cloud_notm}} ou as credenciais do {{site.data.keyword.slportal}} configuradas.
-  
-  **Nota:** para o catálogo do {{site.data.keyword.Bluemix_notm}}, deve-se ter uma conta com upgrade para pedir servidores virtuais. Para obter mais informações sobre como fazer upgrade de sua conta, veja [Alternando para o IBMid](https://console.bluemix.net/docs/admin/softlayerlink.html).
 
-  2. Revise as considerações de capacidade da instância de servidor virtual. Para obter mais informações, veja [Considerações de capacidade](ts_capacity_bp.html).
+  **Nota:** para o catálogo do {{site.data.keyword.Bluemix_notm}}, deve-se ter uma conta com upgrade para pedir servidores virtuais. Para obter mais informações sobre como fazer upgrade de sua conta, veja [Alternando para o IBMid](/docs/account?topic=account-unifyingaccounts#unifyingaccounts).
 
-## Provisionando uma instância de servidor virtual temporária 
+  2. Revise as considerações de capacidade da instância de servidor virtual. Para obter mais informações, veja [Considerações de capacidade](/docs/vsi?topic=virtual-servers-capacity-considerations).
+
+## Provisionando uma instância de servidor virtual temporária
 Depois de preencher os pré-requisitos, é possível começar a fornecer a instância de servidor virtual temporária. É possível fornecer a instância por meio do catálogo do {{site.data.keyword.cloud_notm}} ou do {{site.data.keyword.slportal}}.
 
 ### Fornecendo as instâncias de servidor virtual temporárias por meio do catálogo do IBM Cloud
@@ -44,7 +43,7 @@ Para fornecer uma instância de servidor virtual temporária por meio do catálo
   5. Preencha todas as informações relevantes para a instância de servidor virtual.
   6. Depois de revisar o resumo do pedido, clique na caixa de seleção **Contrato de Prestação de Serviços de terceiro**.
   7. Clique em **Provisão**.
-  
+
 ### Fornecendo as instâncias de servidor virtual temporárias por meio do portal do cliente
 Para fornecer uma instância de servidor virtual temporária por meio do {{site.data.keyword.slportal}}, conclua as etapas a seguir:
 
@@ -59,8 +58,8 @@ Para fornecer uma instância de servidor virtual temporária por meio do {{site.
 
  Uma série de e-mails é enviada a seu administrador: confirmação, aprovação e processamento da ordem de fornecimento, e fornecimento concluído. O e-mail de fornecimento concluído inclui um link para sua página *Detalhes do dispositivo*.
 
-Também é possível provisionar um servidor virtual temporário usando o {{site.data.keyword.slapi_short}}. Para obter um exemplo, veja [Provisionando uma instância temporária usando Criar objeto](../vsi/vsi_provision_api.html#api-rest-transient).
+Também é possível provisionar um servidor virtual temporário usando o {{site.data.keyword.slapi_short}}. Para ver um exemplo, consulte [Provisionando uma instância temporária usando Create Object](/docs/vsi?topic=virtual-servers-api-rest-public#api-rest-transient).
 {:tip}
 
 ## Próximas Etapas
-Depois que seu servidor virtual for provisionado, será possível começar a gerenciá-lo. Para obter mais informações, veja [Gerenciando seu servidor virtual](../vsi/vsi_managing.html).
+Depois que seu servidor virtual for provisionado, será possível começar a gerenciá-lo. Para obter mais informações, veja [Gerenciando seu servidor virtual](/docs/vsi?topic=virtual-servers-managing-virtual-servers).

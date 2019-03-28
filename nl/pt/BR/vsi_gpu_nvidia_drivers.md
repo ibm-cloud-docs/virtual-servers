@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-02-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,6 +16,8 @@ lastupdated: "2018-02-12"
 {:table: .aria-labeledby="caption"}
 
 # Instalando drivers de GPU e pacotes de software
+{: #installing-gpu-drivers-and-software-packages}
+
 É necessário instalar o software a seguir antes de poder usar um servidor virtual da Família GPU.
 * [Drivers NVIDIA ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](http://www.nvidia.com/drivers){: new_window} - permite que o seu sistema operacional se comunique com o GPU.
 * [Kit de ferramentas CUDA ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://docs.nvidia.com/cuda/){: new_window} - ambiente de desenvolvimento para aplicativos de alto desempenho acelerados por GPU.
@@ -32,4 +33,3 @@ lastupdated: "2018-02-12"
 Se você estiver instalando uma estrutura de aprendizado de máquina, será necessário instalar o software de estrutura como uma dessas plataformas, além dos pacotes de software anteriores.
 * [Caffe ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://www.nvidia.com/en-us/data-center/gpu-accelerated-applications/caffe/){: new_window} (Convolutional Architecture for Fast Feature Embedding) - estrutura licenciada de deep learning de software livre.
 * [Tensorflow (Tensorflow 1.2+) ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://www.tensorflow.org/install/){: new_window} - fornece uma biblioteca de software livre para cálculo numérico.
-

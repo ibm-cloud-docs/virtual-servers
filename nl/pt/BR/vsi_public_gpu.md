@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-09-24"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,19 +16,19 @@ lastupdated: "2018-09-24"
 {:table: .aria-labeledby="caption"}
 
 # GPU
-Os tipos de GPU são melhores para cargas de trabalho de alto desempenho que requerem mais densidade de cálculo
-para reduzir o gerenciamento de recursos e os custos. Os tipos de GPU são ideais para os processos de inteligência
-artificial, os aplicativos gráficos e de dados intensos ou o desenvolvimento de novos aplicativos que requerem desempenho
-rápido.
+{: #gpu}
+
+Os perfis de GPU são melhores para cargas de trabalho de alto desempenho que requerem mais densidade de cálculo para reduzir o gerenciamento de recursos e os custos. Os perfis de GPU são ideais para os processos de inteligência
+artificial, para os aplicativos gráficos e de dados intensos ou para o desenvolvimento de novos aplicativos que requerem desempenho rápido.
 
 Desenvolvidos pelas GPUs da NVDIA Tesla, os tipos “ac1” e "ac2" do {{site.data.keyword.cloud_notm}}
-Accelerated Compute oferecem armazenamento em bloco e SSD local. Os tipos de GPU a seguir estão disponíveis para você escolher:  
+Accelerated Compute oferecem armazenamento em bloco e SSD local. Os perfis de GPU a seguir estão disponíveis para sua escolha:  
 
   <table>
-<CAPTION>Tabela 1. Tipos de GPU P100</CAPTION>
+<CAPTION>Tabela 1. Perfis de GPU P100</CAPTION>
 <THEAD>
 <TR>
-<th>Tipo</th>
+<th>Perfil</th>
 <th>GPU</th>
 <th>RAM de GPU (GB)</th>
 <th>vCPU</th>
@@ -83,14 +82,13 @@ Accelerated Compute oferecem armazenamento em bloco e SSD local. Os tipos de GPU
 </TBODY>
 </table>
 
-**Nota:** os tipos de GPU P100 estão disponíveis nos data centers _DAL13_,
-_LON06_ e _WDC07_.
+**Nota:** os perfis de GPU P100 estão disponíveis nos data centers _DAL13_, _LON06_ e _WDC07_.
 
 <table>
-<CAPTION>Tabela 2. Tipos de GPU V100</CAPTION>
+<CAPTION>Tabela 2. Perfis de GPU V100</CAPTION>
 <THEAD>
 <TR>
-<th>Tipo</th>
+<th>Perfil</th>
 <th>GPU</th>
 <th>RAM de GPU (GB)</th>
 <th>vCPU</th>
@@ -144,14 +142,13 @@ _LON06_ e _WDC07_.
 </TBODY>
 </table>
 
-**Nota:** os tipos de GPU V100 estão disponíveis nos data centers _DAL10_,
-_DAL12_ e _LON04_<!--WDC07-->.
+**Nota:** os perfis de GPU V100 estão disponíveis nos data centers _DAL10_, _DAL12_, _LON04_ e _WDC07_.
 
 
 ## Antes de iniciar
 Revise os pré-requisitos de GPU a seguir.
 
-1. Os servidores virtuais dos tipos do GPU estão disponíveis apenas em um sistema operacional que suporta o modo de inicialização Hardware Virtual Machine (HVM). Consulte a lista a seguir para os sistemas operacionais que suportam o modo de inicialização do HVM.  
+1. Os servidores virtuais dos perfis de GPU estão disponíveis apenas em um sistema operacional que suporte o modo de inicialização Hardware Virtual Machine (HVM). Consulte a lista a seguir para os sistemas operacionais que suportam o modo de inicialização do HVM.  
   - CentOS 7
   - Debian 8
   - RHEL 7
@@ -159,10 +156,10 @@ Revise os pré-requisitos de GPU a seguir.
   - Windows 2012 R2
   - Windows 2016
 
-2. Drivers NVIDIA e software apropriados devem ser instalados. Para obter mais informações sobre software e drivers NVIDIA, veja [Instalando drivers GPU e pacotes de software](../vsi/vsi_gpu_nvidia_drivers.html).  
+2. Drivers NVIDIA e software apropriados devem ser instalados. Para obter mais informações sobre software e drivers NVIDIA, veja [Instalando drivers GPU e pacotes de software](/docs/vsi?topic=virtual-servers-installing-gpu-drivers-and-software-packages).  
 **Nota:** o software instalado pode ter software obrigatório e configurações específicas do sistema operacional.
 
-## Incluir ou remover GPUs 
+## Incluir ou remover GPUs
 É possível mudar o número de GPUs em seu servidor virtual após seu pedido inicial. Mas, isso depende de quantos GPUs você provisionou. Você tem uma das opções a seguir.
 
 - Se um GPU estiver provisionado, será possível incluir outro GPU ou

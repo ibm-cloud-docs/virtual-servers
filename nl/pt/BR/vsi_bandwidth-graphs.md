@@ -1,10 +1,11 @@
 ---
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-10-24"
 ---
 
 # Gráficos de largura da banda
+{: #bandwidth-graphs}
 
 Os gráficos de largura da banda mostram o tráfego para/de Internet (gráficos públicos) e para/de rede privada (gráficos privados).
 

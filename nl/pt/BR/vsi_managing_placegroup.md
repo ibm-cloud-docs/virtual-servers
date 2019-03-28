@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-10-31"
 
+subcollection: virtual-servers
 
 ---
 
@@ -27,7 +26,7 @@ Para incluir os grupos de posicionamento por meio da página Grupos de posiciona
 2. Na página Grupos de posicionamento, clique em **Incluir grupo de posicionamento**.
 3. Insira um nome, uma descrição e um data center para o grupo de posicionamento e clique em **Incluir**.
 
-**Nota:** as instâncias existentes não podem ser incluídas em um grupo de posicionamento; somente é possível incluir uma instância de servidor virtual em um grupo de posicionamento no fornecimento. 
+**Nota:** as instâncias existentes não podem ser incluídas em um grupo de posicionamento; somente é possível incluir uma instância de servidor virtual em um grupo de posicionamento no fornecimento.
 
 
 ## Gerenciando os grupos de posicionamento por meio da página Grupos de posicionamento
@@ -41,7 +40,6 @@ Para gerenciar os grupos de posicionamento por meio da página Grupos de posicio
      * Inclua um grupo.
      * Editar informações sobre o grupo.
      * Exclui um grupo.
-     
+
  **Notas:** deve-se remover os servidores designados do grupo de posicionamento antes de poder excluí-lo.
 Para remover uma instância de um grupo de posicionamento, deve-se excluí-la ou recuperá-la.
-     

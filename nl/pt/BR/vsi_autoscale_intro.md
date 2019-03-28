@@ -1,13 +1,18 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-02-28"
+
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Gerenciando servidores com ajuste de escala automático
+{: #managing-servers-with-auto-scaling}
 
 A escala automática fornece a capacidade de automatizar o processo de ajuste de escala manual que está associado à inclusão ou remoção de servidores virtuais para suportar seus aplicativos de negócios. O ajuste de escala automático pode ser gerenciado por meio da API ou do {{site.data.keyword.slportal_full}} e permite o seguinte:
 
@@ -17,4 +22,4 @@ A escala automática fornece a capacidade de automatizar o processo de ajuste de
 * Atualizações de status próximas do tempo real para atividade de ajuste de escala em grupos.
 * Integração opcional da virtual LAN (VLAN) e dos balanceadores de carga locais.
 
-Para obter mais informações, veja [Introdução ao ajuste de escala automático](/docs/infrastructure/SLautoscale/index.html).
+Para obter mais informações, veja [Introdução ao ajuste de escala automático](/docs/infrastructure/SLautoscale?topic=slautoscale-getting-started-with-auto-scaling).

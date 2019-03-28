@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-05-17"
 
+subcollection: virtual-servers
 
 ---
 
@@ -25,7 +24,7 @@ Para acessar e gerenciar os detalhes para um dispositivo específico, deve-se te
 
 **Nota:** se sua conta tiver dispositivos para os quais o acesso não foi concedido, você verá um nome "Dispositivo Desconhecido" quando tentar acessar esses dispositivos.
 
-É possível designar acesso ao dispositivo para quaisquer usuários em sua conta, mas não para si mesmo. Somente o administrador de uma conta tem acesso a todos os dispositivos em sua conta do cliente e pode configurar o acesso para todos os outros usuários em sua conta. 
+É possível designar acesso ao dispositivo para quaisquer usuários em sua conta, mas não para si mesmo. Somente o administrador de uma conta tem acesso a todos os dispositivos em sua conta do cliente e pode configurar o acesso para todos os outros usuários em sua conta.
 
 Deve-se ter as permissões a seguir para acessar os detalhes do dispositivo para servidores virtuais públicos ou servidores virtuais dedicados.
 
@@ -49,7 +48,7 @@ Use as etapas a seguir para incluir permissões *Visualizar detalhes do Virtual 
 Para fornecer acesso em um nível de dispositivo específico, continue com as etapas a seguir.
 
 1. Clique no ícone **Acesso ao dispositivo** para acessar a tela Acesso ao dispositivo.
-2. Clique na guia **Acesso rápido**. 
+2. Clique na guia **Acesso rápido**.
    Nota: outra opção é selecionar um dispositivo individual.
 3. Na lista suspensa *Tipo de dispositivo*, selecione **Todos os servidores virtuais**.
 4. Selecione a caixa de seleção **Conceder acesso automaticamente quando novos dispositivos forem incluídos** se o usuário associado deverá sempre ter acesso a esse tipo de dispositivo.
@@ -68,7 +67,7 @@ Use as etapas a seguir para incluir permissões *Visualizar detalhes do host ded
 Para fornecer acesso em um nível de dispositivo específico, continue com as etapas a seguir.
 
 1. Clique no ícone **Acesso ao dispositivo** para acessar a tela Acesso ao dispositivo.
-2. Clique na guia **Acesso rápido**. 
+2. Clique na guia **Acesso rápido**.
    Nota: outra opção é selecionar dispositivos individuais.
 3. Na lista suspensa *Tipo de dispositivo*, selecione **Todos os hosts dedicados**.
 4. Selecione a caixa de seleção **Conceder acesso automaticamente quando novos dispositivos forem incluídos** se o usuário associado deverá sempre ter acesso a esse tipo de dispositivo.

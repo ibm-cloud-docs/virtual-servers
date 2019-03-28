@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-02-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,10 +17,12 @@ lastupdated: "2018-02-12"
 {:table: .aria-labeledby="caption"}
 
 # Seleções de fornecimento
+{: #provisioning-selections}
+
 Você deverá fazer as seleções a seguir quando provisionar um servidor virtual público.
 
 ## Local
-É possível selecionar o data center específico no qual você deseja implementar. Para novas implementações, o {{site.data.keyword.Bluemix}} identifica automaticamente o melhor data center (com base na disponibilidade) e cria as VLANs públicas e privadas apropriadas. Para adições a ambientes existentes, é possível selecionar o data center, a VLAN e a sub-rede específicos que são necessários para seu design. Para obter mais informações sobre VLANs e sub-redes, veja [Introdução às VLANs](/docs/infrastructure/vlans/getting-started.html).
+É possível selecionar o data center específico no qual você deseja implementar. Para novas implementações, o {{site.data.keyword.Bluemix}} identifica automaticamente o melhor data center (com base na disponibilidade) e cria as VLANs públicas e privadas apropriadas. Para adições a ambientes existentes, é possível selecionar o data center, a VLAN e a sub-rede específicos que são necessários para seu design. Para obter mais informações sobre VLANs e sub-redes, veja [Introdução às VLANs](/docs/infrastructure/vlans?topic=vlans-getting-started-with-vlans).
 
 A seleção de uma sub-rede é opcional e só deverá ser usada quando você requerer que seu dispositivo use um endereço IP da sub-rede. Se você selecionar uma sub-rede, verifique se possui endereços IP suficientes para cumprir a solicitação. Se você não tiver endereços IP suficientes para sua sub-rede, seu pedido poderá atrasar ou ser cancelado.
 {:tip}
@@ -41,7 +42,7 @@ Para clientes existentes, também é possível implementar com base em um Modelo
 
 ## Armazenamento
 
-Você tem a opção para SAN ou armazenamento local para cada servidor virtual. É possível complementar a SAN ou o armazenamento local com outros produtos de armazenamento conforme necessário. O SAN e o armazenamento local são expostos ao servidor virtual como discos locais. Quaisquer mudanças nos discos, como conectar, remover, migrar e assim por diante, requerem uma reinicialização do servidor virtual. Para obter mais informações, consulte [Opções de Armazenamento](../vsi/storage/vsi_about_storage.html).
+Você tem a opção para SAN ou armazenamento local para cada servidor virtual. É possível complementar a SAN ou o armazenamento local com outros produtos de armazenamento conforme necessário. O SAN e o armazenamento local são expostos ao servidor virtual como discos locais. Quaisquer mudanças nos discos, como conectar, remover, migrar e assim por diante, requerem uma reinicialização do servidor virtual. Para obter mais informações, consulte [Opções de Armazenamento](/docs/vsi?topic=virtual-servers-storage-options#storage-options).
 
 ## Faturamento por hora e mensal
 
@@ -61,35 +62,36 @@ A oferta inclui 250 GB com servidores virtuais mensais que possuem um link públ
 
 ## Segurança
 
-Antes da implementação, considere suas opções de segurança. Como parte do processo de ordem, é possível selecionar um hardware específico do dispositivo ou um firewall de software para fornecer proteção. Como alternativa, é possível implementar dispositivos de firewall dedicados no ambiente e implementar o servidor virtual em uma VLAN protegida. 
+Antes da implementação, considere suas opções de segurança. Como parte do processo de ordem, é possível selecionar um hardware específico do dispositivo ou um firewall de software para fornecer proteção. Como alternativa, é possível implementar dispositivos de firewall dedicados no ambiente e implementar o servidor virtual em uma VLAN protegida.
 
-**Nota:** um servidor virtual não pode ser protegido por dois dispositivos de firewall na mesma interface. 
+**Nota:** um servidor virtual não pode ser protegido por dois dispositivos de firewall na mesma interface.
 
 Também é possível usar grupos de segurança para determinar um conjunto de regras de filtro de IP que definem como manipular o tráfego de entrada e de saída para as interfaces pública e privada de uma instância de servidor virtual.
 
 Para obter mais informações, veja as coleções de tópicos de segurança a seguir.
 
-* [Hardware Firewalls (Shared)](../infrastructure/hardware-firewall-shared/getting-started.html)
-* [Hardware Firewalls (Dedicated)](../infrastructure/hardware-firewall-dedicated/getting-started.html)
-* [Introdução aos grupos de segurança](/docs/infrastructure/security-groups/sg_index.html)
+* [Hardware Firewalls (Shared)](/docs/infrastructure/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started-with-hardware-firewall-shared)
+* [Hardware Firewalls (Dedicated)](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-getting-started-with-hardware-firewall-dedicated)
+* [Introdução aos grupos de segurança](/docs/infrastructure/security-groups?topic=security-groups-getting-started-with-security-groups)
 
 ## Monitoramento
+{: #about-monitoring}
 
 É possível selecionar entre uma variedade de opções de monitoramento para o servidor virtual. As opções incluem o monitoramento padrão, que monitora via Ping e resposta de serviço do protocolo de controle de transmissão (TCP) e tem respostas opcionais no caso de falhas. É possível também incluir o Advanced Monitoring que usa o agente de software Nimsoft para fornecer um conjunto maior de recursos para monitoramento do servidor virtual e do software instalado.
 
-Para obter mais informações, veja [Monitoramento](../infrastructure/SLmonitoring/monitoring_index.html).
+Para obter mais informações, veja [Monitoramento](/docs/infrastructure/SLmonitoring?topic=slmonitoring-monitoring).
 
 ## Backup
 
-Durante o processo de ordem, é possível incluir backups Evault. Também é possível escolher comprar uma licença R1soft para o ambiente de backup R1soft existente ou utilizar uma solução de backup de terceiros.
+Durante o processo de pedido, é possível incluir o {{site.data.keyword.backup_notm}}. Também é possível escolher comprar uma licença R1soft para o ambiente de backup R1soft existente ou utilizar uma solução de backup de terceiros.
 
-Para obter mais informações, veja [Registrando seu dispositivo novamente com o eVault](../infrastructure/Backup/how-do-i-re-register-evault.html).
+Para obter mais informações, consulte [Registrando novamente uma área segura](/docs/infrastructure/Backup?topic=Backup-reregister#reregister).
 
 ## Scripts de pós-fornecimento
 
 Os scripts de pós-fornecimento podem ser associados a qualquer ordem de servidor virtual. Isso executa um script desenvolvido pelo cliente após outras tarefas de fornecimento serem concluídas. Os scripts são comumente utilizados para aplicar uma configuração específica do cliente a um servidor e ajudar na automação de sua estratégia de ajuste de escala.
 
-Para obter mais informações, veja [Incluindo um script de fornecimento customizado](vsi_add_script.html).
+Para obter mais informações, veja [Incluindo um script de fornecimento customizado](/docs/vsi?topic=virtual-servers-adding-post-script).
 
 ## O que vem a seguir?
-Quando você estiver pronto para provisionar seu servidor virtual público, veja [Provisionando instâncias públicas](vsi_provision_public.html).
+Quando você estiver pronto para provisionar seu servidor virtual público, veja [Provisionando instâncias públicas](/docs/vsi?topic=virtual-servers-ordering-vs-public).

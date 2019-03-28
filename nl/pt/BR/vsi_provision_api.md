@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-02-28"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,18 +16,18 @@ lastupdated: "2018-02-28"
 {:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
-# Exemplos de API: tipos de servidores virtuais públicos
+# Exemplos de API: perfis de servidores virtuais públicos
 {: #api-rest-public}
 
-As informações a seguir exibem exemplos de API de Rest para provisionar instâncias de servidor virtual públicas que usam tipos pré-configurados.
+As informações a seguir exibem exemplos da API de REST para provisionar instâncias de servidor virtual público que usam perfis pré-configurados.
 {:shortdesc}
 
 Para exemplos de API mais robustos, veja os recursos a seguir:
 * [Exemplos da API Softlayer_Virtual_Guest ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://softlayer.github.io/classes/softlayer_virtual_guest/)
-* [Obtendo uma lista de tipos ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://softlayer.github.io/article/vsiflavors/)
+* [Obtendo uma lista de perfis ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://softlayer.github.io/article/vsiflavors/)
 
 ## Provisionando uma instância pública usando Criar objeto
-O serviço de API *SoftLayer_Virtual_Guest/createObject* é a maneira mais simples de provisionar uma instância de servidor virtual público que usa tipos pré-configurados.
+O serviço de API *SoftLayer_Virtual_Guest/createObject* é a maneira mais simples de provisionar uma instância de servidor virtual público que usa perfis pré-configurados.
 
 Não aplicável para instâncias temporárias.
 {:tip}
@@ -60,7 +59,7 @@ Para provisionar uma instância de servidor virtual público usando REST, uma so
 ```
 
 ## Provisionando uma instância pública usando Colocar objeto de ordem
-O fornecimento de um servidor virtual público que usa tipos pré-configurados é feito usando o serviço de API *SoftLayer_Product_Order/placeOrder*.
+A provisão de um servidor virtual público que usa perfis pré-configurados é feita usando o serviço de API *SoftLayer_Product_Order/placeOrder*.
 
 Não aplicável para instâncias temporárias.
 {:tip}

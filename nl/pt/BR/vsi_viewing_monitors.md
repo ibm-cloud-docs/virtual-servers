@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-10-23"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,6 +16,7 @@ lastupdated: "2017-10-23"
 {:table: .aria-labeledby="caption"}
 
 # Visualizando e gerenciando monitores
+{: #viewing-and-managing-monitors}
 
 Monitorar um dispositivo permite que os usuários iniciem pings lentos e de serviço para assegurar que o dispositivo esteja on-line e responsivo.
 {:shortdesc}
@@ -78,9 +78,9 @@ indica que o eco não foi recebido. Se você já configurou um monitor básico, 
    </tr>
    </TBODY>
    </table>
-   
+
 ## Próximas Etapas
-   
+
 - Se um novo monitor foi incluído, o monitor aparecerá na guia **Monitoramento**. O monitor enviará um ping para o dispositivo a cada cinco minutos, esperando uma resposta baseada no tipo de ping selecionado. Se a resposta esperada não for recebida, um e-mail será enviado ao endereço de e-mail de notificação para a conta no intervalo de tempo especificado, se a notificação foi selecionada.
 - Se um monitor foi editado, o monitor continuará a funcionar conforme especificado nos detalhes do monitor. Se o tipo for mudado, a quantia de tempo para receber o ping esperado será diferente. Se as opções de notificação forem mudadas, a maneira como os usuários serão notificados sobre tentativas com falha será mudada com base nas novas seleções. O monitor ficará acessível na guia **Monitoramento**.
 - Se um monitor for removido, o monitor não funcionará mais para o dispositivo. Todo o monitoramento associado ao monitor removido cessará e o monitor não aparecerá mais na guia **Monitoramento**.

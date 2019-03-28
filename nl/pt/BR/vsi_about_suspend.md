@@ -1,11 +1,12 @@
 ---
 
-
-
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-29"
+  years: 2017, 2019
+lastupdated: "2019-02-25"
 
+keywords: virtual server, suspend billing feature, virtual server instances, suspend billing
+
+subcollection: virtual-servers
 
 ---
 
@@ -28,14 +29,14 @@ para determinados recursos de cálculo não são acumulados. O faturamento é in
 
 A maioria das instâncias de servidor virtual criadas antes de 1º de novembro de 2018 não suporta o recurso de
 suspensão de faturamento. Para descobrir se a instância de servidor virtual suporta o recurso de suspensão de
-faturamento, consulte [Visualizando o recurso de suspensão de faturamento](vsi_viewing_suspend.html). 
+faturamento, consulte [Visualizando o recurso de suspensão de faturamento](/docs/vsi?topic=virtual-servers-viewing-suspend-billing-feature).
 
 Esse recurso está disponível em data centers em todo o mundo. Para fornecer uma instância de servidor virtual que
 suporte o recurso de suspensão de faturamento, a instância de servidor virtual deve ser definida com as seguintes
 configurações:
 
 * SAN por hora
-* Tipos públicos de uma das famílias a seguir:
+* Perfis públicos de uma das famílias a seguir:
   * Balanceado
   * Computação
   * Memória
@@ -50,17 +51,16 @@ O faturamento será suspenso somente quando a instância de servidor virtual for
 
 ## Detalhes do fornecimento
 
-É possível fornecer uma instância de servidor virtual que suporte o recurso de suspensão de faturamento por meio
-do catálogo do {{site.data.keyword.cloud_notm}}, da CLI ou do {{site.data.keyword.slapi_short}}. Para
+É possível provisionar uma instância de servidor virtual que suporta o recurso de suspensão de faturamento por meio do catálogo do {{site.data.keyword.cloud_notm}} (cloud.ibm.com), da CLI ou do {{site.data.keyword.slapi_short}}. Não é possível provisionar uma instância de servidor virtual que suporta o recurso de suspensão de faturamento por meio do {{site.data.keyword.slportal}} (control.softlayer.com). Para
 obter informações adicionais sobre o fornecimento de instâncias de servidor virtual públicas, consulte
-[Fornecimento de instâncias públicas](../vsi/vsi_provision_public.html).
+[Fornecimento de instâncias públicas](/docs/vsi?topic=virtual-servers-ordering-vs-public#ordering-vs-public).
 
 Para o catálogo do {{site.data.keyword.cloud_notm}}, deve-se ter uma conta atualizada para solicitar
-os servidores virtuais. Para obter mais informações sobre como fazer upgrade de sua conta, veja [Alternando para o IBMid](https://console.bluemix.net/docs/admin/softlayerlink.html).
+os servidores virtuais. Para obter mais informações sobre como fazer upgrade de sua conta, veja [Alternando para o IBMid](/docs/account?topic=account-unifyingaccounts#unifyingaccounts).
 {:note}
 
 ### Fornecimento por meio da API do Softlayer
-É possível fornecer uma instância de servidor virtual que suporte o recurso de suspensão de faturamento por meio do {{site.data.keyword.slapi_short}}. Para obter exemplos de API, consulte [Provisionando uma instância pública usando o objeto Place Order](../vsi/vsi_provision_api.html#provisioning-a-public-instance-using-place-order-object). 
+É possível fornecer uma instância de servidor virtual que suporte o recurso de suspensão de faturamento por meio do {{site.data.keyword.slapi_short}}. Para obter exemplos de API, consulte [Provisionando uma instância pública usando o objeto Place Order](/docs/vsi?topic=virtual-servers-api-rest-public#provisioning-a-public-instance-using-place-order-object).
 
 Deve-se especificar o ID do pacote de suspensão de faturamento específico durante o processo de fornecimento. É possível consultar o {{site.data.keyword.slapi_short}} para obter o ID do pacote de suspensão de faturamento usando o keyName `SUSPEND_CLOUD_SERVER`. Para obter um exemplo sobre a procura por pacotes do servidor, consulte [Entendendo e construindo um pedido usando a {{site.data.keyword.slapi_short}} CLI de pedido ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://softlayer.github.io/article/understanding-ordering/){: new_window}.
 
@@ -87,7 +87,7 @@ faturamento será calculado por minuto do ciclo de vida da instância.
 
 ### Encargo mínimo de uso
 As instâncias de servidor virtual que suportam o recurso de suspensão de faturamento podem ter um encargo de uso
-mínimo aplicado em alguns casos. Se o uso for maior que 25%, você será faturado por esse uso. Se o uso for menor que 25%, você será cobrado por 25% das horas em que a instância existiu dentro do ciclo de faturamento atual. 
+mínimo aplicado em alguns casos. Se o uso for maior que 25%, você será faturado por esse uso. Se o uso for menor que 25%, você será cobrado por 25% das horas em que a instância existiu dentro do ciclo de faturamento atual.
 
 ### Fatura de cobrança
 Ao suspender o faturamento em um servidor virtual, você verá algumas mudanças em sua fatura de cobrança. Os encargos relevantes agora aparecem como detalhes baseados em uso. Por exemplo, é possível ver as seguintes adições que refletem horas disponíveis, horas usadas e o número total de horas cobradas:
@@ -114,7 +114,7 @@ Todos os endereços IP públicos são retidos para você quando o faturamento é
 ### Limitações
 
 As instâncias de servidor virtual que são suspensas continuam a contar para a cota do dispositivo em toda a
-conta. Para obter mais informações sobre os limites de instância, consulte [Perguntas frequentes: servidores virtuais](vsi_faqs_vs.html#concurrent).
+conta. Para obter mais informações sobre os limites de instância, consulte [Perguntas frequentes: servidores virtuais](/docs/vsi?topic=virtual-servers-faqs-virtual-servers#concurrent).
 
 ## Próximas Etapas
 Após provisionar um servidor virtual que suporte a suspensão de faturamento, será possível começar a suspender e retomar o faturamento no dispositivo.
@@ -122,4 +122,4 @@ Após provisionar um servidor virtual que suporte a suspensão de faturamento, s
 Quando o faturamento é suspenso em uma instância de servidor virtual, não é possível concluir todas as mesmas
 ações na instância até que o faturamento para o dispositivo seja retomado. É possível visualizar se o seu dispositivo está parado, bem como a data relevante em que o status foi mudado, por meio do {{site.data.keyword.slapi_short}} ou acessando a página Detalhes do dispositivo no {{site.data.keyword.slportal}}.
 
-Para suspender o faturamento em uma instância de servidor virtual, desligue o servidor virtual. Para obter mais informações, veja [Gerenciando servidores virtuais](vsi_managing.html).
+Para suspender o faturamento em uma instância de servidor virtual, desligue o servidor virtual. Para obter mais informações, veja [Gerenciando servidores virtuais](/docs/vsi?topic=virtual-servers-managing-virtual-servers).

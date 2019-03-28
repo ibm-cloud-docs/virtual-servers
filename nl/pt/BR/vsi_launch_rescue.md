@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-05-17"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,7 +16,7 @@ lastupdated: "2018-05-17"
 {:table: .aria-labeledby="caption"}
 
 
-# Ativando um kernel de resgate 
+# Ativando um kernel de resgate
 {: #launching-rescue}
 
 Rescue Kernel é um ambiente de resgate em tempo real, projetado para fornecer aos clientes a capacidade de colocar um servidor bare metal ou servidor virtual on-line para solucionar problemas do sistema que normalmente seriam resolvidos somente por meio do Recarregamento de OS. O Rescue Kernel deve ser iniciado no {{site.data.keyword.slportal_full}}. Use as etapas a seguir para ativar o Rescue Kernel para um dispositivo.
@@ -43,5 +42,4 @@ Após ativar o Rescue Kernel, o dispositivo é desligado e reinicializado no ker
 
 O acesso remoto ao dispositivo está disponível por meio do endereço IP do dispositivo. É possível acessar o dispositivo no Rescue Kernel usando as credenciais raiz ou do administrador para os dispositivos que são registrados no {{site.data.keyword.slportal}}. Ao usar o Rescue Kernel, é possível solucionar problemas, descobrir problemas e resolver problemas como você faria em um dispositivo regularmente inicializado. Se necessário, é possível montar unidades no OS do Rescue Kernel. Para sair do Rescue Kernel e retornar o dispositivo para seu ambiente regular, reinicialize o dispositivo no {{site.data.keyword.slportal}} ou reinicialize no SO do Rescue Kernel.
 
-Para obter mais informações sobre como reinicializar um dispositivo, consulte [Gerenciando Servidores Virtuais](../vsi/vsi_managing.html).
-
+Para obter mais informações sobre como reinicializar um dispositivo, consulte [Gerenciando Servidores Virtuais](/docs/vsi?topic=virtual-servers-managing-virtual-servers).

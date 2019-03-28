@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-12-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -19,6 +18,7 @@ lastupdated: "2017-12-12"
 {:table: .aria-labeledby="caption"}
 
 # Fazendo upgrade da velocidade da porta no Linux
+{: #upgrading-port-speed-in-linux}
 
 As velocidades de porta padrão para servidores clientes (para as redes públicas e privadas) é 10 Mbps. Se você quiser fazer upgrade de uma de suas velocidades de porta para 100 Mbps ou 1000 Mbps, abra um chamado com o nosso departamento de Vendas. As vendas solicitarão a aprovação dos encargos mensais e um técnico mudará os limites de velocidade da porta na rede.
 

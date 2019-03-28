@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-10-11"
 
+subcollection: virtual-servers
 
 ---
 
@@ -27,11 +26,11 @@ Antes de iniciar, revise os pré-requisitos a seguir.
 
   1. Assegure-se de que você tenha seu catálogo do {{site.data.keyword.Bluemix_notm}} ou as credenciais do {{site.data.keyword.slportal}} configuradas.
 
-     **Nota:** para o catálogo do {{site.data.keyword.Bluemix_notm}}, deve-se ter uma conta com upgrade para pedir servidores virtuais. Para obter mais informações sobre como fazer upgrade de sua conta, veja [Alternando para o IBMid](https://console.bluemix.net/docs/admin/softlayerlink.html).
+     **Nota:** para o catálogo do {{site.data.keyword.Bluemix_notm}}, deve-se ter uma conta com upgrade para pedir servidores virtuais. Para obter mais informações sobre como fazer upgrade de sua conta, veja [Alternando para o IBMid](/docs/account?topic=account-unifyingaccounts#unifyingaccounts).
 
-  2. Caso ainda não tenha feito isso, revise as opções de implementação disponíveis para você. Para obter mais informações, veja [Opções de implementação: servidor virtual público](../vsi/vsi_public.html).
+  2. Caso ainda não tenha feito isso, revise as opções de implementação disponíveis para você. Para obter mais informações, veja [Opções de implementação: servidor virtual público](/docs/vsi?topic=virtual-servers-about-public-virtual-servers).
 
-  3. Revise as considerações de capacidade da instância de servidor virtual.  Para obter mais informações, veja [Considerações de capacidade](ts_capacity_bp.html).
+  3. Revise as considerações de capacidade da instância de servidor virtual.  Para obter mais informações, veja [Considerações de capacidade](/docs/vsi?topic=virtual-servers-capacity-considerations).
 
 ## Provisionando uma instância de servidor virtual público
 {: #ordering-public-instance}
@@ -41,19 +40,19 @@ Depois de preencher os pré-requisitos, é possível começar a fornecer uma ins
 ### Fornecendo uma instância de servidor virtual pública por meio do catálogo do IBM Cloud
 Para fornecer uma instância de servidor virtual pública por meio do catálogo do {{site.data.keyword.cloud_notm}}, conclua as seguintes etapas:
 
-  1. Efetue login no catálogo do [{{site.data.keyword.cloud_notm}}![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://console.bluemix.net/catalog/){: new_window} usando as credenciais exclusivas. 
+  1. Efetue login no catálogo do [{{site.data.keyword.cloud_notm}}![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://console.bluemix.net/catalog/){: new_window} usando as credenciais exclusivas.
   2. Na seção **Infraestrutura de cálculo**, clique no bloco **Virtual Servers**.
   3. Selecione a opção **Virtual Server público**.
   4. Clique em **Criar**.
-  5. Preencha todas as informações relevantes para a instância de servidor virtual. 
-  6. Depois de revisar o resumo do pedido, clique na caixa de seleção **Contrato de Prestação de Serviços de terceiro**. 
+  5. Preencha todas as informações relevantes para a instância de servidor virtual.
+  6. Depois de revisar o resumo do pedido, clique na caixa de seleção **Contrato de Prestação de Serviços de terceiro**.
   7. Clique em **Provisão**.
-  
+
 ### Fornecendo uma instância de servidor virtual pública por meio do portal do cliente
 Para fornecer a instância de servidor virtual pública por meio do {{site.data.keyword.slportal}}, conclua as etapas a seguir:
 
   1. Efetue login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window} usando suas credenciais exclusivas.
-  2. Localize a seção **Ordem** e clique em **Dispositivos**. 
+  2. Localize a seção **Ordem** e clique em **Dispositivos**.
   3. Na página Dispositivos, clique em **SAN por hora**, **Local por hora**, **Mensal** ou **Temporário** para uma das ofertas de Virtual Server.
   4. Na página *Configurar seu servidor em nuvem*, conclua todas as informações relevantes.
   5. Clique no botão **Incluir na ordem** para continuar.
@@ -64,4 +63,4 @@ Para fornecer a instância de servidor virtual pública por meio do {{site.data.
  Uma série de e-mails é enviada a seu administrador: confirmação, aprovação e processamento da ordem de fornecimento, e fornecimento concluído. O e-mail completo de fornecimento inclui um link para sua página *Detalhes do dispositivo*, depois de efetuar login no {{site.data.keyword.Bluemix_notm}}. Também é possível registrar-se diretamente no {{site.data.keyword.slportal}}.
 
 ## Próximas Etapas
-Depois que seu servidor virtual for provisionado, será possível começar a gerenciá-lo. Para obter mais informações, veja [Gerenciando seu servidor virtual](../vsi/vsi_managing.html).
+Depois que seu servidor virtual for provisionado, será possível começar a gerenciá-lo. Para obter mais informações, veja [Gerenciando seu servidor virtual](/docs/vsi?topic=virtual-servers-managing-virtual-servers).

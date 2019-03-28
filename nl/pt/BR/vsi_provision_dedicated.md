@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -19,34 +18,34 @@ lastupdated: "2018-10-24"
 # Provisionando hosts e instâncias dedicadas
 {: #ordering-vs-dedicated}
 
-Você tem duas opções sobre como provisionar suas instâncias dedicadas. O primeiro é por meio do catálogo do {{site.data.keyword.Bluemix}} e o segundo é por meio do {{site.data.keyword.slportal_full}}. O catálogo e o {{site.data.keyword.slportal}} requerem IDs de login exclusivos. Seu nome do usuário e senha do catálogo não funcionarão para efetuar login no portal e vice-versa. Veja [Inscrevendo-se para o {{site.data.keyword.Bluemix_notm}}](https://console.bluemix.net/docs/admin/adminpublic.html#signing-up-for-bluemix){: new_window} para configurar o catálogo do {{site.data.keyword.Bluemix_notm}} ou as credenciais do {{site.data.keyword.slportal}}.
+Você tem duas opções sobre como provisionar suas instâncias dedicadas. O primeiro é por meio do catálogo do {{site.data.keyword.Bluemix}} e o segundo é por meio do {{site.data.keyword.slportal_full}}. O catálogo e o {{site.data.keyword.slportal}} requerem IDs de login exclusivos. Seu nome do usuário e senha do catálogo não funcionarão para efetuar login no portal e vice-versa. Veja [Inscrevendo-se para o {{site.data.keyword.Bluemix_notm}}](/docs/account?topic=account-signup#signup) para configurar o catálogo do {{site.data.keyword.Bluemix_notm}} ou as credenciais do {{site.data.keyword.slportal}}.
 {:shortdesc}
 
 ## Provisionando hosts e instâncias dedicadas
 É possível fornecer os hosts e as instâncias dedicados por meio do {{site.data.keyword.cloud_notm}} ou do {{site.data.keyword.slportal}}.
 
-### Fornecimento de hosts e instâncias dedicados por meio do catálogo do IBM Cloud 
-Para fornecer os hosts dedicados e as instâncias de host dedicadas por meio do catálogo do {{site.data.keyword.cloud_notm}}, conclua as etapas a seguir: 
+### Fornecimento de hosts e instâncias dedicados por meio do catálogo do IBM Cloud
+Para fornecer os hosts dedicados e as instâncias de host dedicadas por meio do catálogo do {{site.data.keyword.cloud_notm}}, conclua as etapas a seguir:
 
-1. Efetue login no catálogo do [{{site.data.keyword.cloud_notm}}![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://console.bluemix.net/catalog/){: new_window} usando as credenciais exclusivas. 
+1. Efetue login no catálogo do [{{site.data.keyword.cloud_notm}}![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://console.bluemix.net/catalog/){: new_window} usando as credenciais exclusivas.
 2. Na seção **Infraestrutura de cálculo**, clique no bloco **Virtual Servers**.
 3. Selecione a opção **Virtual Server dedicado**.
 4. Clique em **Criar**.
 5. Na seção **Host dedicado**, é possível selecionar **Criar host**, para criar um novo host dedicado, ou **Especificar host**, para selecionar dos hosts dedicados existentes.
 6. Preencha todas as informações relevantes para o host dedicado e instância de servidor virtual dedicada.
 7. Depois de revisar o resumo do pedido, clique na caixa de seleção **Contrato de Prestação de Serviços de terceiro**.
-8. Clique em **Provisão**. 
+8. Clique em **Provisão**.
 
 ### Fornecimento de hosts e instâncias dedicados por meio do portal do cliente
 Para fornecer os hosts dedicados e as instâncias de host dedicadas por meio do {{site.data.keyword.slportal}}, conclua as etapas a seguir:
 
 1. Efetue login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window} usando suas credenciais exclusivas.
 
-#### Fornecimento do host dedicado 
+#### Fornecimento do host dedicado
 Use as etapas a seguir para provisionar seus hosts dedicados.
 
 1.	Clique no ícone **Dispositivos**.
-2.  Clique no link **Virtual Server dedicado por hora** ou **Virtual Server dedicado mensal**. 
+2.  Clique no link **Virtual Server dedicado por hora** ou **Virtual Server dedicado mensal**.
 
    **Nota:** os servidores dedicados são servidores privados.
 
@@ -54,7 +53,7 @@ Você é conduzido para a página *Configurar seu servidor em nuvem*. Nessa pág
 
 4.	Clique no botão **Criar host** no lado direito do formulário.
 5.	Digite as informações a seguir:
-    
+
     <table>
     <CAPTION>Tabela 1. Seleções de fornecimento de host dedicado</CAPTION>
     <THEAD>
@@ -77,9 +76,9 @@ Você é conduzido para a página *Configurar seu servidor em nuvem*. Nessa pág
     </tr>
     </TBODY>
     </table>
-    
-    Seu Resumo de ordem é exibido no lado direito da página *Configuração*. 
-    
+
+    Seu Resumo de ordem é exibido no lado direito da página *Configuração*.
+
 6.  Clique no botão **Incluir na ordem**.
 7.  Confirme suas seleções na página *Check-out* e role para baixo até *Configuração do sistema avançado de host dedicado*.
 8.  Digite as informações a seguir:
@@ -119,22 +118,22 @@ Você é conduzido para a página *Configurar seu servidor em nuvem*. Nessa pág
 Para fornecer as instâncias de host dedicadas por meio do {{site.data.keyword.slportal}}, conclua as
 etapas a seguir:
 
-1.	Clique em **Dispositivos > Lista de dispositivos**. 
- 
-    A página *Dispositivos* exibe todos os tipos de dispositivo — hosts dedicados, servidores virtuais, servidores bare metal e controladores de entrega do aplicativo NetScaler — em sua conta. 
+1.	Clique em **Dispositivos > Lista de dispositivos**.
+
+    A página *Dispositivos* exibe todos os tipos de dispositivo — hosts dedicados, servidores virtuais, servidores bare metal e controladores de entrega do aplicativo NetScaler — em sua conta.
 
 2.	Selecione o host para suas instâncias de host dedicado clicando em seu link sob **Nome do dispositivo**.
-    
+
     Você está na guia **Configuração** da página *Detalhes do dispositivo*. A guia **Chamados** lista seus chamados de suporte ativos e a guia **Alocações** exibe seu uso de memória para o período de faturamento selecionado. Veja Usando detalhes do dispositivo para gerenciar seu host dedicado e instâncias para obter mais informações nas guias.
 
 3.	Role para baixo até o quadro **Instâncias**.
 
-    A forma como seu host dedicado é faturado (mensal ou por hora) determina o faturamento de suas instâncias de host dedicado. Observe que se você tiver hosts faturados mensalmente, será possível provisionar instâncias de host dedicado faturadas por hora ou mensalmente. Há dois links, **Incluir por hora** e **Incluir mensalmente**, disponíveis ao provisionar suas instâncias. Os hosts dedicados faturados por hora podem provisionar somente instâncias de host dedicado faturadas por hora e verão somente o link **Incluir por hora**. 
+    A forma como seu host dedicado é faturado (mensal ou por hora) determina o faturamento de suas instâncias de host dedicado. Observe que se você tiver hosts faturados mensalmente, será possível provisionar instâncias de host dedicado faturadas por hora ou mensalmente. Há dois links, **Incluir por hora** e **Incluir mensalmente**, disponíveis ao provisionar suas instâncias. Os hosts dedicados faturados por hora podem provisionar somente instâncias de host dedicado faturadas por hora e verão somente o link **Incluir por hora**.
 
-4.	Clique no link **Incluir por hora** se seu host for faturado por hora ou mensalmente; clique no link **Incluir mensalmente** se seu host for faturado mensalmente. Você é redirecionado para a página *Configurar seu servidor em nuvem*. 
+4.	Clique no link **Incluir por hora** se seu host for faturado por hora ou mensalmente; clique no link **Incluir mensalmente** se seu host for faturado mensalmente. Você é redirecionado para a página *Configurar seu servidor em nuvem*.
 
 5.	Digite as informações a seguir:
-       
+
     <table>
     <CAPTION>Tabela 3. Seleções de instâncias de host dedicado</CAPTION>
     <THEAD>
@@ -190,7 +189,7 @@ etapas a seguir:
     </tr>
     <tr>
     </TBODY>
-    </table> 
+    </table>
 
 6.	Clique no botão **Incluir na ordem**.
 7.  Insira as informações a seguir na página *Efetuar check-out* sob a *Configuração do sistema avançado*:
@@ -238,6 +237,4 @@ etapas a seguir:
 Você receberá um e-mail quando suas instâncias de host dedicado tiverem sido provisionadas.
 
 ## Próximas Etapas
-Depois que seu servidor virtual for provisionado, será possível começar a gerenciá-lo. Para obter mais informações, veja [Gerenciando servidores virtuais](../vsi/vsi_managing.html).
-
-
+Depois que seu servidor virtual for provisionado, será possível começar a gerenciá-lo. Para obter mais informações, veja [Gerenciando servidores virtuais](/docs/vsi?topic=virtual-servers-managing-virtual-servers).

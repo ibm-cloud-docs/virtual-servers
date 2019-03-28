@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-11-30"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,6 +16,7 @@ lastupdated: "2017-11-30"
 {:table: .aria-labeledby="caption"}
 
 # Ferramentas do banco de dados
+{: #database-tools}
 
 O {{site.data.keyword.cloud}} oferece
 produtos de ferramentas de banco de dados opcionais
@@ -25,4 +25,4 @@ tanto cobrados quanto gratuitos para implementações do
 do {{site.data.keyword.baremetal_short}}. No entanto, os produtos de ferramenta de banco de dados estão disponíveis somente para ciclos de faturamento mensal do {{site.data.keyword.virtualmachinesshort}} e {{site.data.keyword.baremetal_short}}.
 {:shortdesc}
 
-Para obter mais informações sobre as ferramentas do Banco de dados, veja [Introdução a ferramentas de banco de dados.](/docs/infrastructure/database-tools/database_tools_index.html)
+Para obter mais informações sobre as ferramentas do Banco de dados, veja [Introdução a ferramentas de banco de dados.](/docs/infrastructure/database-tools?topic=database-tools-getting-started-tutorial)

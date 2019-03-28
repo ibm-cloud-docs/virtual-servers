@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -13,6 +12,8 @@ lastupdated: "2017-10-24"
 {:new_window: target="_blank"}
 
 # Trabalhando com modelos de imagem
+{: #working-with-image-templates}
+
 É possível acessar a tela Modelos de Imagem no {{site.data.keyword.slportal_full}}.
 {:shortdesc}
 
@@ -21,14 +22,6 @@ Use as etapas a seguir para acessar a tela Modelos de Imagem no {{site.data.keyw
 * Efetue login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window} usando suas credenciais exclusivas.
 * No menu **Dispositivos**, selecione **Gerenciar > Imagens**.
 
-Na tela *Modelos de imagem*, você vê todas as imagens privadas associadas à conta. Todas as interações com imagens privadas acontecem aqui. Nessa página, é possível arrastar colunas para customizar a visualização. Também é possível acessar imagens públicas clicando no seletor suspenso **Imagens Privadas** e escolhendo **Imagens Públicas** no lugar. 
+Na tela *Modelos de imagem*, você vê todas as imagens privadas associadas à conta. Todas as interações com imagens privadas acontecem aqui. Nessa página, é possível arrastar colunas para customizar a visualização. Também é possível acessar imagens públicas clicando no seletor suspenso **Imagens Privadas** e escolhendo **Imagens Públicas** no lugar.
 
-Para obter mais informações sobre modelos de imagem, veja [Introdução aos modelos de imagem](/docs/infrastructure/image-templates/image_index.html).
-
-
-
-
-
-
-
-
+Para obter mais informações sobre modelos de imagem, veja [Introdução aos modelos de imagem](/docs/infrastructure/image-templates?topic=image-templates-getting-started-with-image-templates).

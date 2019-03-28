@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-12-12"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,6 +17,7 @@ lastupdated: "2017-12-12"
 {:table: .aria-labeledby="caption"}
 
 # Fazendo downgrade de velocidades da porta
+{: #downgrading-port-speeds}
 
 É possível fazer downgrade provisório de velocidades da porta sem abrir um chamado. É possível acessar a opção **Controles de porta** clicando em **Ações** no canto superior direito da página **Detalhes**. Nessa tela, selecione a velocidade necessária ou desconecte-a.
 {:shortdesc}

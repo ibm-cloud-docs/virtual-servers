@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2017
-lastupdated: "2017-08-10"
+  years: 2017, 2019
+lastupdated: "2019-02-04"
 
+subcollection: virtual-servers
 
 ---
 
@@ -17,15 +16,17 @@ lastupdated: "2017-08-10"
 {:table: .aria-labeledby="caption"}
 
 # Balanceado
-Os tipos balanceados (com armazenamento conectado à rede) fornecem maior desempenho, pois os recursos não são sobrecarregados. O desempenho da rede varia de padrão a premium. 
+{: #balanced}
 
-A oferta está disponível nos tipos a seguir:
+Os perfis balanceados (com o armazenamento conectado à rede) fornecem maior desempenho, pois os recursos não são alocados excessivamente. O desempenho da rede varia de padrão a premium.
+
+A oferta está disponível nos perfis a seguir:
 
 <table>
-<CAPTION>Tabela 3. Tipos balanceados com armazenamento conectado à rede</CAPTION>
+<CAPTION>Tabela 1. Perfis balanceados com o armazenamento conectado à rede</CAPTION>
 <THEAD>
 <TR>
-<th>Tipo</th>
+<th>Perfil</th>
 <th>vCPU</th>
 <th>RAM</th>
 <th>Tipo de armazenamento</th>
@@ -113,11 +114,11 @@ A oferta está disponível nos tipos a seguir:
 </TBODY>
 </table>
 
-**Notas de armazenamento:** 
+**Notas de armazenamento:**
 
 * Disco de inicialização primária SAN (25 ou 100 GB) com discos adicionais disponíveis, até 2 TB cada (total de 5 discos permitidos).
 * A precificação para servidores virtuais públicos usando o armazenamento SAN inclui CPU virtual, memória e disco de inicialização primário mínimo. Os preços de discos adicionais dependem do tamanho do disco e da quantidade selecionada.  
 
-Os tipos balanceados (com armazenamento conectado à rede) estão disponíveis em todos os data centers.
+Os perfis balanceados (com o armazenamento conectado à rede) estão disponíveis em todos os data centers.
 
 Todos os sistemas operacionais suportados (como RHEL, CentOS, Windows, Ubuntu e outros), bancos de dados suportados e complementos de software também estão disponíveis com esta oferta.  

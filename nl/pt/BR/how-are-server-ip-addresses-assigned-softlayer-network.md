@@ -4,6 +4,8 @@ copyright:
   years: 2018
 lastupdated: "2018-08-01"
 
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -22,7 +24,7 @@ O {{site.data.keyword.cloud}} configura as instâncias do servidor virtual com u
 
 Endereços IP adicionais podem ser ligados às instâncias de servidor virtual após a compra de sub-redes secundárias por meio do [{{site.data.keyword.slportal}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com). Endereços IP comprados dessa maneira e gerenciados por você são referidos como _Endereços IP secundários_.
 
-Para obter mais informações sobre as opções disponíveis para a aquisição de endereços IP, consulte [Subnets e IPs](https://console.bluemix.net/docs/infrastructure/subnets/).
+Para obter mais informações sobre as opções disponíveis para a aquisição de endereços IP, consulte [Subnets e IPs](/docs/infrastructure/subnets?topic=subnets-getting-started-with-subnets-and-ips#getting-started-with-subnets-and-ips).
 
 ## Ligando endereços IP secundários
 

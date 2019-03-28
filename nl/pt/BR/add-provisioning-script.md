@@ -1,13 +1,18 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-04-27"
+
+subcollection: virtual-servers
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Gerenciando um script de provisionamento
+{: #managing-a-provisioning-script}
 
 Use os scripts de provisionamento para especificar uma URL para um script a ser executado em um dispositivo recentemente provisionado. Você não tem restrições para o nome do script; no entanto, usar uma convenção de nomenclatura semelhante para cada script torna mais fácil a identificação. Os scripts de provisionamento devem ser associados a um nome completo do domínio e devem ser acessíveis usando os protocolos HTTP ou HTTPS. O tipo de protocolo que é usado afeta a resposta automatizada do sistema quando o script de provisionamento é transferido por download para o dispositivo.
 
@@ -20,6 +25,7 @@ Use os scripts de provisionamento para especificar uma URL para um script a ser 
 
 
 ## Incluindo um script de fornecimento
+{: #add-provisioning-script}
 
 1. Na tela **Scripts de provisionamento** no {{site.data.keyword.slportal}}, clique em **Incluir script de provisionamento** na parte superior da tela.
 * Insira um **nome de identificação** para o script de provisionamento no campo **Nome**.

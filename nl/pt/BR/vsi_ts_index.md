@@ -1,18 +1,17 @@
 ---
 
-
-
 copyright:
   years: 2017, 2018
 lastupdated: "2018-02-28"
 
+subcollection: virtual-servers
 
 ---
 
 <!-- Common attributes used in the template are defined as follows: -->
-{:tsSymptoms: .tsSymptoms} 
-{:tsCauses: .tsCauses} 
-{:tsResolve: .tsResolve} 
+{:tsSymptoms: .tsSymptoms}
+{:tsCauses: .tsCauses}
+{:tsResolve: .tsResolve}
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
@@ -28,7 +27,7 @@ lastupdated: "2018-02-28"
 <!-- The short description section should include the service long name and "Bluemix" for search optimization. Example short description: -->
 
 <!-- Add a heading and content for how to get help and support. Use this template for beta and GA services:  -->
-# Obtendo ajuda e suporte 
+# Obtendo ajuda e suporte
 {: #gettinghelp}
 
 Se você tiver problemas ou perguntas ao usar o {{site.data.keyword.BluVirtServers}}, poderá obter ajuda procurando por informações ou fazendo perguntas através de um dos fóruns listados
@@ -47,7 +46,6 @@ para que ela possa ser vista pelas equipes de desenvolvimento do {{site.data.key
 
 Consulte
 [Obtendo
-ajuda](https://new-console.eu-gb.bluemix.net/docs/support/index.html#getting-help) para obter mais detalhes sobre o uso dos fóruns.
+ajuda](/docs/get-support?topic=get-support-getting-customer-support#using-avatar) para obter mais detalhes sobre o uso dos fóruns.
 
-Para obter informações sobre como abrir um chamado de suporte IBM, veja [Entrando em contato com o suporte](/docs/get-support/howtogetsupport.html).
-
+Para obter informações sobre como abrir um chamado de suporte IBM, veja [Entrando em contato com o suporte](/docs/get-support?topic=get-support-getting-customer-support).

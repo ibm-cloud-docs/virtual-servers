@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
-  years: 2018
-lastupdated: "2018-10-30"
+  years: 2018, 2019
+lastupdated: "2019-03-01"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,6 +17,8 @@ lastupdated: "2018-10-30"
 {:table: .aria-labeledby="caption"}
 
 # Visualizando o recurso de suspensão de faturamento
+{: #viewing-suspend-billing-feature}
+
 É possível visualizar se a instância de servidor virtual suporta o recurso de suspensão de faturamento no
 {{site.data.keyword.slportal_full}} ou por meio do {{site.data.keyword.slapi_short}}.
 
@@ -25,16 +26,15 @@ lastupdated: "2018-10-30"
 Para determinar se a instância de servidor virtual suporta o recurso de suspensão de faturamento no
 {{site.data.keyword.slportal}}, use as etapas a seguir:
 
-1. Efetue login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window} usando suas credenciais exclusivas. 
-2. No menu **Dispositivos**, selecione **Lista de dispositivos**. 
-3. Na **Lista de dispositivos**, clique no nome da instância de servidor virtual. 
-4. Na guia **Configuração**, na seção **Sistema**, é possível
-visualizar se a instância de servidor virtual suporta o recurso de suspensão de faturamento. 
+1. Efetue login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window} usando suas credenciais exclusivas.
+2. No menu **Dispositivos**, selecione **Lista de dispositivos**.
+3. Na **Lista de dispositivos**, clique no nome da instância de servidor virtual.
+4. Na guia **Configuração**, na seção **Geral**, é possível visualizar se a instância de servidor virtual suporta o recurso de suspensão de faturamento.
 
 | Campo                                 | Valor                     |
 | --------------------------------------| ------------------------- |
 | Suspensão de faturamento: ativado no desligamento | O recurso é suportado.     |
-| Suspensão de faturamento: indisponível | O recurso não é suportado. |
+| Suspensão de faturamento: indisponível          | O recurso não é suportado. |
 {: caption="Tabela 1. Detalhes da suspensão de faturamento" caption-side="top"}
 
 ## Visualizando o recurso de suspensão de faturamento por meio da API do Softlayer
@@ -42,7 +42,7 @@ visualizar se a instância de servidor virtual suporta o recurso de suspensão d
 O comando a seguir é uma solicitação de exemplo para verificar se a instância de servidor virtual suporta o
 recurso de suspensão de faturamento no {{site.data.keyword.slapi_short}}.
 
-**Nota**: a solicitação e a resposta JSON a seguir é um exemplo genérico. 
+**Nota**: a solicitação e a resposta JSON a seguir é um exemplo genérico.
 
 ```
 curl -X GET \
@@ -62,5 +62,5 @@ SLDN ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo
 ## Próximas Etapas
 
 Para saber mais sobre o recurso de suspensão de faturamento, revise as seguintes informações:
-1. [Sobre a suspensão de faturamento](vsi_about_suspend.html)
-2. [Gerenciando servidores virtuais](vsi_managing.html)
+1. [Sobre a suspensão de faturamento](/docs/vsi?topic=virtual-servers-requirements)
+2. [Gerenciando servidores virtuais](/docs/vsi?topic=virtual-servers-managing-virtual-servers)

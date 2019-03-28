@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2015, 2017
 lastupdated: "2017-10-24"
 
+subcollection: virtual-servers
 
 ---
 
@@ -16,7 +15,7 @@ lastupdated: "2017-10-24"
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Incluindo um script de fornecimento customizado 
+# Incluindo um script de fornecimento customizado
 {: #adding-post-script}
 
 Os scripts de fornecimento customizado permitem que os usuários especifiquem uma URL para um script que é executado em um dispositivo recentemente provisionado. É possível postar e gerenciar scripts de fornecimento customizado no {{site.data.keyword.slportal_full}}.

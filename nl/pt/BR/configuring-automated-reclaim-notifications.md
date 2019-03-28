@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2018
 lastupdated: "2018-05-11"
 
+subcollection: virtual-servers
 
 ---
 
@@ -18,6 +17,7 @@ lastupdated: "2018-05-11"
 {:table: .aria-labeledby="caption"}
 
 # Configurando notificações para recuperações de servidores virtuais temporários
+{: #configuring-notifications-for-reclaims-of-transient-virtual-servers}
 
 Servidores virtuais temporários são, por natureza, efêmeros e podem ser finalizados a qualquer momento, o que pode levar à perda de dados. As notificações de recuperação automatizadas podem ajudar a reduzir a perda de dados. Quando provisionado, um servidor virtual temporário pode ser configurado para receber uma notificação indicando que ele está sendo finalizado **dois minutos** antes da finalização real. A notificação permite alertar programaticamente o servidor virtual temporário para concluir qualquer processamento em andamento ou transferir quaisquer dados necessários para fora do servidor virtual temporário.
 
@@ -28,8 +28,9 @@ A notificação `reclaim-scheduled` é um webhook, o que significa que a notific
 3. Verifique as solicitações do webhook.
 
 ## Provisionando uma instância de servidor virtual temporária
+{: #provision-transient-virtual-server}
 
-Servidores virtuais temporários podem ser provisionados por meio do [{{site.data.keyword.slportal_full}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window} ou por meio da [API SLDN ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](http://sldn.softlayer.com){: new_window}. Para obter mais informações, consulte [Provisionando instâncias temporárias](/docs/vsi/vsi_provision_transient.html).
+Servidores virtuais temporários podem ser provisionados por meio do [{{site.data.keyword.slportal_full}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window} ou por meio da [API SLDN ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](http://sldn.softlayer.com){: new_window}. Para obter mais informações, consulte [Provisionando instâncias temporárias](/docs/vsi?topic=virtual-servers-ordering-vs-transient).
 
 ## Configurando o webhook
 
@@ -70,7 +71,8 @@ ajudar a evitar os ataques de reprodução.
 
 2. O nonce localizado no cabeçalho "X-IBM-Nonce" da solicitação
 
-   Esse valor é uma sequência que é gerada aleatoriamente quando a solicitação é enviada. É possível escolher armazenar nonces recebidos anteriormente para comparar ao nonce incluído na solicitação. Se o nonce na solicitação foi usado anteriormente, não aceite a solicitação. Essa ação pode ajudar a evitar os ataques de reprodução.
+   Esse valor é uma sequência que é gerada aleatoriamente quando a solicitação é enviada. É possível escolher armazenar nonces recebidos anteriormente para comparar ao nonce incluído na solicitação. Se o nonce na solicitação foi usado anteriormente, não aceite a solicitação. Essa ação pode
+ajudar a evitar os ataques de reprodução.
 
 3. Hash Message Authentication Code (HMAC) localizado no cabeçalho "Authorization" da solicitação
 
