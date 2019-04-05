@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2018-01-03"
+  years: 2017, 2019
+lastupdated: "2019-04-05"
 
 subcollection: virtual-servers
 
@@ -17,7 +17,7 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 
-# Capacity considerations
+# Resource considerations for virtual server instances
 {: #capacity-considerations}
 
 ## What's happening
@@ -34,7 +34,7 @@ When provisioning fails, all the virtual server instances within that particular
 
 ## Why it's happening
 
-A capacity error occurs when there are insufficient resources available in the router or data center to fulfill the service request. There are a number of reasons that you could receive this error. Resource availability changes frequently, so you might wait and try again later.
+An error occurs when there are insufficient resources available in the router or data center to fulfill the service request. There are a number of reasons that you could receive this error. Resource availability changes frequently, so you might wait and try again later.
 
 ## How to fix it
 
