@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2018-01-03"
+  years: 2017, 2019
+lastupdated: "2019-04-05"
 
 subcollection: virtual-servers
 
@@ -17,8 +17,8 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 
-# VSI Resource Considerations
-{: #vsi-resource-considerations}
+# Resource considerations for virtual server instances
+{: #capacity-considerations}
 
 ## What's happening
 
