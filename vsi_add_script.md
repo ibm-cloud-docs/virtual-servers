@@ -27,7 +27,7 @@ When ordering a device, you can select a custom provisioning script if it has be
 
 ## Adding a provisioning script
 
-1. From the **Devices** menu in the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window}, select **Manage** > **Provisioning Scripts**.
+1. From the **Devices** menu, select **Manage** > **Provisioning Scripts**.
 2. Click **Add Provisioning Script**.
 4. In the Name field, enter a unique script name.
 5. In the URL field, enter the exact URL to be associated with the script.
