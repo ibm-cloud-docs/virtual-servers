@@ -23,7 +23,7 @@ When you have access to your virtual server, ensure that you configure it to mee
 {:shortdesc}
 
 ## Log in
-Log in to the [{{site.data.keyword.slportal_full}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} with the credentials that you received in an email when your account was initially created.
+Log in to the [console](https://cloud.ibm.com/classic?){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") with the credentials that you received in an email when your account was initially created. Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}. 
 
 ## Locate your virtual server
 Find your virtual server in the Device List in the {{site.data.keyword.slportal}}. From the Device List, you can manage devices, upgrade devices, or generate bandwidth usage charts. For more information, see [Managing virtual servers](/docs/vsi?topic=virtual-servers-managing-virtual-servers).
