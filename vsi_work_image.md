@@ -19,7 +19,7 @@ You can access the Image Templates screen in the {{site.data.keyword.slportal_fu
 
 Use the following steps to access the Image Templates screen in the {{site.data.keyword.slportal}}.
 
-* Log in to the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
+* Log in to the [console](https://cloud.ibm.com/classic?){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"). Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}. 
 * From the **Devices** menu, select **Manage > Images**.
 
 On the *Image Templates* screen, you see all of the private images that are associated with the account. Any interactions with private images happen here. From this page, you can drag columns to customize the view. You can also access public images by clicking the **Private Images** drop-down selector and choosing **Public Images** instead.
