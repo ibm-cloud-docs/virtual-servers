@@ -31,7 +31,7 @@ Use the following steps to reconfigure an existing virtual server.
 {:shortdesc}
 
 ## Modifying an existing virtual server (that uses pre-set profiles)
-1. Access the [{{site.data.keyword.slportal_full}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
+1. Access the [console](https://cloud.ibm.com/classic?){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") with the credentials that you received in an email when your account was initially created. Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}. 
 2. From the Device List, click the name of the virtual server that you want to reconfigure.
 3. On the **Configuration** tab, you can click **Modify** or **Modify device configuration** to update the following items.
   <dl>
