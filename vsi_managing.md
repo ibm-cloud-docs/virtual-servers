@@ -26,7 +26,7 @@ You can manage virtual servers, along with other devices, from the device detail
 ## Before you begin
 First, navigate to the device details list and ensure you have the correct account permissions to complete the tasks. 
 
-* Access the device details list in the [console](https://cloud.ibm.com/classic?){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"). Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.  
+* Navigate to the device details list in the [console](https://cloud.ibm.com/classic?){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"). Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.  
 * Ensure you have any necessary account permissions and device access. Only the account owner, or a user with the Manage user classic infrastructure permission, can adjust the permissions. 
 
 For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access).
