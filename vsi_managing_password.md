@@ -10,7 +10,7 @@ subcollection: virtual-servers
 
 ---
 
-# Managing usernames and passwords for a device
+# Viewing and managing usernames and passwords for a device
 {: #view-update-user-name-password-for-device}
 
 From the device details page, you can view existing usernames and passwords on a device and update them to new values.
