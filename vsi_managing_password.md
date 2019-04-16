@@ -17,9 +17,7 @@ From the device details page, you can view existing usernames and passwords on a
 
 ## Before you begin
 {: #view-update-user-name-password-for-device-before-you-begin}
-First, navigate to the device details list.
-
-* Access the device details list in the [console](https://cloud.ibm.com/classic?){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"). Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.  
+First, navigate to the device details list. Access the device details list in the [console](https://cloud.ibm.com/classic?){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"). Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.  
 
 
 ## View device passwords
