@@ -62,4 +62,5 @@ You can also provision a transient virtual server by using the {{site.data.keywo
 {:tip}
 
 ## Next Steps
-After your virtual server is provisioned, you can start managing it. For more information, see [Managing your virtual server](/docs/vsi?topic=virtual-servers-managing-virtual-servers).
+After your virtual server is provisioned and available to use, you can configure your virtual servers by using the
+{{site.data.keyword.slportal_full}} or {{site.data.keyword.slapi_full}}. For more information, see [Configuring virtual servers](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).

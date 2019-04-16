@@ -236,4 +236,5 @@ To provision your dedicated host instances through the {{site.data.keyword.slpor
 You will receive an email once your dedicated host instances have been provisioned.
 
 ## Next Steps
-After your virtual server is provisioned, you can start managing it. For more information, see [Managing virtual servers](/docs/vsi?topic=virtual-servers-managing-virtual-servers).
+After your virtual server is provisioned and available to use, you can configure your virtual servers by using the
+{{site.data.keyword.slportal_full}} or {{site.data.keyword.slapi_full}}. For more information, see [Configuring virtual servers](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).

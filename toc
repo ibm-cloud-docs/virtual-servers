@@ -97,6 +97,7 @@ IBM Cloud Virtual Servers
         vsi_viewing_suspend.md
         vsi_bandwidth-graphs.md
         vsi_interact_device_snapshot_view.md
+        vsi_managing_password.md
         vsi_autoscale_intro.md
         add-provisioning-script.md
         vsi_managing_dedicated.md

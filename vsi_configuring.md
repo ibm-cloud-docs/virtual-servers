@@ -19,7 +19,7 @@ subcollection: virtual-servers
 # Configuring virtual servers
 {: #configuring-virtual-servers}
 
-When you have access to your virtual server, ensure that you configure it to meet the needs of your environment.
+When you have access to your virtual server, be sure to change your password and consider setting up SSH for a more secure authentication solution. There are many other options for configuring your virtual server to meet the needs of your environment.
 {:shortdesc}
 
 ## Log in
@@ -27,6 +27,12 @@ Log in to the [console](https://cloud.ibm.com/classic?){: new_window} ![External
 
 ## Locate your virtual server
 Find your virtual server in the Device List in the {{site.data.keyword.slportal}}. From the Device List, you can manage devices, upgrade devices, or generate bandwidth usage charts. For more information, see [Managing virtual servers](/docs/vsi?topic=virtual-servers-managing-virtual-servers).
+
+## Change your password
+Change your password using strong password guidelines. See [Managing usernames and passwords for a device](/docs/vsi?topic=virtual-servers-view-update-user-name-password-for-device#view-update-user-name-password-for-device)
+
+## Configure SSH
+SSH provides better security solution than password authentication. See [Getting started with SSH keys](docs/infrastructure/ssh-keys?topic=ssh-keys-getting-started-tutorial#getting-started-tutorial)
 
 ## Record IP addresses and credentials
 Keep a log of IP addresses and credentials for the server in a safe location so that you can access them quickly without having to log in to the {{site.data.keyword.slportal}}.
@@ -47,15 +53,16 @@ The private network is the precursor to interacting with your devices through re
 ## Set up monitoring
 Monitoring is primarily used as a resource to check your server’s uptime, but it can also be useful for knowing when to scale. Both Standard Monitoring and Nimsoft Monitoring services are available to cover various monitoring needs. Standard Monitoring, sometimes referred to as “Basic Monitoring,” is generally used in the ping-and-respond method by using either a slow or service ping that is initiated by using the {{site.data.keyword.slportal}}. Nimsoft Monitoring is also referred to as “Advanced Monitoring” and is available in three tiers: Basic, Advanced, and Premium. This service is also accessible through the {{site.data.keyword.slportal}}. For more information, see [Monitoring](/docs/infrastructure/SLmonitoring?topic=slmonitoring-monitoring).
 
-## Secure your system
-Hardware firewalls are available to ensure that your device is always secure. Hardware firewalls are provisioned on demand with no downtime. If rules are established properly, a firewall can protect your server from unwanted activity. After you order a firewall, it must be enabled and rules must be set.
+## Configure security groups
+You can use security groups to limit network traffic on your virtual servers. Use security groups to enact a set of IP filter rules that define how to handle incoming and outgoing traffic to both the public and private interfaces of a virtual server instance. For more information, see [Getting started with security groups](/docs/infrastructure/security-groups?topic=security-groups-getting-started-with-security-groups#getting-started-with-security-groups).
 
-For more information, see the following security topic collections.
+## Configure firewalls
+Hardware firewalls are also available for even more protection. Hardware firewalls are provisioned on demand with no downtime. If rules are established properly, a firewall can protect your server from unwanted activity. After you order a firewall, it must be enabled and rules must be set.
 
-* [Hardware Firewalls (Shared)](/docs/infrastructure/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started-with-hardware-firewall-shared)
-* [Hardware Firewalls (Dedicated)](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-getting-started-with-hardware-firewall-dedicated)
+For more information, see the following topic collections.
 
-Security groups are another option for limiting network traffic on your virtual servers. You can use security groups to enact a set of IP filter rules that define how to handle incoming and outgoing traffic to both the public and private interfaces of a virtual server instance. For more information, see [Getting started with security groups](/docs/infrastructure/security-groups?topic=security-groups-getting-started-with-security-groups).
+* [Hardware Firewalls (Shared)](/docs/infrastructure/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started-with-hardware-firewall-shared#getting-started)
+* [Hardware Firewalls (Dedicated)](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-getting-started-with-hardware-firewall-dedicated#getting-started)
 
 ## Schedule backups
 Backups ensure that your data is safely stored outside of your device and protected if it is lost. The following backup services are available to store your data in a secure location in case you ever need to reload your information onto your device:

@@ -63,4 +63,5 @@ To provision your public virtual server instance through the {{site.data.keyword
  A series of emails are sent to your administrator: acknowledgment of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email includes a link to your *Device Details* page, after logging in to {{site.data.keyword.Bluemix_notm}}. You can also log directly in to the {{site.data.keyword.slportal}}.
 
 ## Next Steps
-After your virtual server is provisioned, you can start managing it. For more information, see [Managing your virtual server](/docs/vsi?topic=virtual-servers-managing-virtual-servers).
+After your virtual server is provisioned and available to use, you can configure your virtual servers by using the
+{{site.data.keyword.slportal_full}} or {{site.data.keyword.slapi_full}}. For more information, see [Configuring virtual servers](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).

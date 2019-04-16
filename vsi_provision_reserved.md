@@ -69,4 +69,7 @@ After you've provisioned your reserved capacity, it's time to provision your res
 
 ## Next steps
 
-After you've provisioned your reserved virtual server capacity and instances, you can start managing them. For more information, see [Managing virtual servers](/docs/vsi?topic=virtual-servers-managing-virtual-servers). If you have questions about reserved capacity and instances, see [FAQs: Reserved capacity and instances](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances).
+After your virtual server is provisioned and available to use, you can configure your virtual servers by using the
+{{site.data.keyword.slportal_full}} or {{site.data.keyword.slapi_full}}. For more information, see [Configuring virtual servers](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).
+
+If you have questions about reserved capacity and instances, see [FAQs: Reserved capacity and instances](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances#faqs-reserved-capacity-and-instances). 
