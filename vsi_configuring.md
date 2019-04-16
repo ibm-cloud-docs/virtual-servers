@@ -19,7 +19,7 @@ subcollection: virtual-servers
 # Configuring virtual servers
 {: #configuring-virtual-servers}
 
-When you have access to your virtual server, be sure to change your password and consider setting up SSH for a more secure authentication solution. There are many other options for configuring your virtual server to meet the needs of your environment.
+When you have access to your virtual server, be sure to change your password. For improved authentication security, set up SSH. There are many other options for configuring your virtual server to meet the needs of your environment.
 {:shortdesc}
 
 ## Log in
