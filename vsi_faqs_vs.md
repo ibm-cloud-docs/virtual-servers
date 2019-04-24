@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-30"
+  years: 2017, 2019
+lastupdated: "2019-04-23"
 
 subcollection: virtual-servers
 
@@ -33,7 +33,7 @@ For pricing information, see [Build your virtual server ![External link icon](..
 ## Where can I find pricing information for virtual public instances?
 {:faq}
 
-For pricing information, see the [Virtual servers provisioning calculator](https://www.ibm.com/cloud-computing/bluemix/virtual-servers/calculator).
+For pricing information, see the [Virtual servers provisioning calculator ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud-computing/bluemix/virtual-servers/calculator){: new_window}.
 
 ## Can I add disk storage to my hourly or monthly Virtual Server?
 {:faq}
