@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-10-23"
+  years: 2014, 2019
+lastupdated: "2019-04-25"
 ---
 
 {:new_window: target="_blank"}
@@ -41,7 +41,7 @@ Virtual servers are fully compatible with {{site.data.keyword.filestorage_short}
 
 For more information about supplemental storage options, see the following resources:
 
-* [Getting Started with Block Storage](/docs/infrastructure/BlockStorage )
+* [Getting Started with Block Storage](/docs/infrastructure/BlockStorage)
 * [Getting Started with File Storage](/docs/infrastructure/FileStorage)
 * [Getting Started with Object Storage](/docs/services/cloud-object-storage)
 
