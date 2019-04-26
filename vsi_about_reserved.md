@@ -1,11 +1,10 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-10-04"
+  years: 2018, 2019
+lastupdated: "2019-04-25"
 
-keywords: reserved virtual servers, cost savings, guaranteed capacity
-
+keywords: reserved virtual servers, cost savings, guaranteed capacity 
 subcollection: virtual-servers
 
 ---
@@ -26,28 +25,36 @@ Reserved virtual server instances offer many advantages, including the following
 
 * **Guaranteed capacity**
 
-    When you reserve capacity, this capacity is guaranteed for the life of your contract term.
-
+    When you reserve capacity, this capacity is guaranteed for the life of your contract term. 
+    
 * **Global availability**
-
+    
     The reserved virtual server offering is available in data centers across the globe.
 
 * **Reliable provisioning**
-
+   
    You can provision and reclaim virtual server instances to your reserved capacities at any time.
 
 * **Cost savings**
-
+    
     Choosing either a one or three year contract term allows for consistent monthly payments and reduced costs compared to hourly or monthly virtual server billing cycles.
 
-## Limitations
+Reserved virtual server instances are public instances that use SAN-backed storage. The following families of public instances are available for this offering.
+
+| Families  | Description                                                                                              |
+| ----------------------- | -------------------------------------------------------------------------------------------------------- | 
+| [Balanced](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#balanced) | Best for common cloud workloads that require a balance of performance and scalability. Uses network-attached storage.|
+| [Compute](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#compute) | Best for moderate to high web traffic workloads.|
+| [Memory](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#memory)  | Best for memory caching and real-time analytics workloads. |
+{: caption="Table 1. Public virtual server family selections" caption-side="top"}
+
+## Limitations 
 
 Consider the following limitations before reserving capacity and provisioning reserved virtual server instances:
-
-  * Reserved virtual server instances can only use SAN-backed storage (balanced, memory, compute).
+  
   * You can't upgrade or downgrade your instances.
   * Reserved capacity cannot be canceled; however, you can reclaim virtual server instances in that capacity.
-
+    
 ## Notifications
 
 You will receive an email notification one month before the end of the term on your reserved virtual server capacity.
@@ -56,5 +63,5 @@ You will receive an email notification one month before the end of the term on y
 
 After you've reviewed and decided on your options, it's time to provision your reserved capacity and instances. To get started, review the following information:
 
-   1. [Provisioning reserved capacity and instances](/docs/vsi?topic=virtual-servers-provisioning-reserved-capacity-and-instances)
-   2. [FAQs: Reserved capacity and instances](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances)
+   1. [Provisioning reserved capacity and instances](/docs/vsi?topic=virtual-servers-provisioning-reserved-capacity-and-instances#provisioning-reserved-capacity-and-instances)
+   2. [FAQs: Reserved capacity and instances](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances#faqs-reserved-capacity-and-instances)
