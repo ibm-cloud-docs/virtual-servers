@@ -8,17 +8,7 @@ IBM Cloud Virtual Servers
     vsi_index.md
     vsi_about.md
     vsi_about_suspend.md
-
-    {: .topicgroup}
-    Public virtual servers
-        vsi_public.md
-        vsi_public_balanced.md
-        vsi_public_balanced_local.md
-        vsi_public_compute.md
-        vsi_public_memory.md
-        vsi_public_gpu.md
-        vsi_public_selections.md
-
+    vsi_public.md
     vsi_about_transient.md
     vsi_about_reserved.md
 
@@ -27,7 +17,9 @@ IBM Cloud Virtual Servers
         vsi_dedicated.md
         vsi_dedicated_host.md
         vsi_dedicated_pricing.md
-
+        
+    vsi_public_selections.md
+    vsi_public_profiles.md
     vsi_ps_index.md
     vsi_image_templates_intro.md
     vsi_placegroup.md
