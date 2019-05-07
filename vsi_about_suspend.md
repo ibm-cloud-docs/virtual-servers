@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-05-07"
 
 keywords: virtual server, suspend billing feature, virtual server instances, suspend billing
 
@@ -39,7 +39,7 @@ This feature is available in data centers across the globe. To provision a virtu
 You can use the suspend billing feature as a faster alternative to provisioning and reclaiming a virtual server instance.
 {:tip}
 
-Billing is suspended only when you power off your virtual server instance through the {{site.data.keyword.slportal_full}}, CLI, or {{site.data.keyword.slapi_short}}. If you power off your virtual server instance directly through the OS, billing isn't suspended for that instance.
+Billing is suspended only when you power off your virtual server instance through the {{site.data.keyword.cloud}} console, CLI, or {{site.data.keyword.slapi_short}}. If you power off your virtual server instance directly through the OS, billing isn't suspended for that instance.
 {:note}
 
 ## Provisioning details
