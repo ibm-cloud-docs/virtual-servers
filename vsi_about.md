@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-11-15"
+  years: 2017, 2019
+lastupdated: "2019-05-07"
 
 keywords: scalable virtual servers, virtual servers, key features
 
@@ -20,7 +20,7 @@ subcollection: virtual-servers
 # About virtual servers
 {: #about-virtual-servers}
 
-{{site.data.keyword.BluVirtServers}} are scalable virtual servers that are purchased with dedicated cores and memory allocations. They are a great option if you are looking for compute resources, that can be added in minutes, with access to features like image templates. The hypervisor is fully managed by {{site.data.keyword.BluSoftlayer_full}} and you can perform configuration and management tasks by using both the {{site.data.keyword.slportal_full}} and the {{site.data.keyword.slapi_short}}. Virtual servers are deployed to the same VLANs as physical servers, allowing you to spread workloads across virtual servers and bare metal servers, while maintaining interoperability. Virtual servers are fully customizable when you order them, with options to scale up as your compute needs grow.
+{{site.data.keyword.BluVirtServers}} are scalable virtual servers that are purchased with cores and memory allocations. They are a great option if you are looking for compute resources, that can be added in minutes, with access to features like image templates. The hypervisor is fully managed by {{site.data.keyword.BluSoftlayer_full}} and you can perform configuration and management tasks by using both the {{site.data.keyword.slportal_full}} and the {{site.data.keyword.slapi_short}}. Virtual servers are deployed to the same VLANs as physical servers, allowing you to spread workloads across virtual servers and bare metal servers, while maintaining interoperability. Virtual servers are fully customizable when you order them, with options to scale up as your compute needs grow.
 {:shortdesc}
 
 When you create a virtual server, you can choose between hourly and monthly billing. You can also choose between a public (multi-tenancy) environment or a dedicated (single-tenancy) environment. Then, you can choose either high-performance local disks or enterprise SAN storage for your virtual server.
