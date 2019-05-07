@@ -17,7 +17,7 @@ IBM Cloud Virtual Servers
         vsi_dedicated.md
         vsi_dedicated_host.md
         vsi_dedicated_pricing.md
-        
+
     vsi_public_selections.md
     vsi_public_profiles.md
     vsi_ps_index.md
@@ -94,6 +94,7 @@ IBM Cloud Virtual Servers
         add-provisioning-script.md
         vsi_managing_dedicated.md
         vsi_managing_users_pwd.md
+        vsi_managing_users.md
 
     vsi_device_access.md
 
