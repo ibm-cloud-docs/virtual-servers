@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-04-26"
+lastupdated: "2019-05-13"
 
 keywords: public virtual servers, network traffic, virtual server deployment, profile
 
@@ -32,8 +32,8 @@ Depending on your instance type, some families might not be available.
 
 | Families  | Description                                                                                              |
 | ----------------------- | -------------------------------------------------------------------------------------------------------- | 
-| [Balanced](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#balanced) | Best for common cloud workloads that require a balance of performance and scalability. Uses network-attached storage.|
-| [Balanced local storage](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#balanced-local-storage) | Best for large database clusters that require high, low latency I/O performance. |
+| [Balanced](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#balanced) | Best for common cloud workloads that require a balance of performance and scalability. Uses network-attached storage. |
+| [Balanced local storage](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#balanced-local-storage) | Best for large database workloads that require high I/O performance and low latency performance. |
 | [Compute](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#compute) | Best for moderate to high web traffic workloads. |
 | [Memory](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#memory)  | Best for memory caching and real-time analytics workloads. |
 | [GPU](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#gpu)  | Best for high-performance workloads. |
@@ -45,7 +45,7 @@ Some of these families are also available for IBM Cloud Virtual Servers for VPC.
 ## Balanced
 {: #balanced}
 
-The balanced profiles (with network-attached storage) provide higher performance, since resources are not oversubscribed. Network performance ranges from standard to premium. 
+The balanced profiles (with network-attached storage) are ideal for common cloud workloads that require a balance of performance and scale. Network performance ranges from standard to premium.
 
 The offering is available in the following profiles:
 
@@ -78,7 +78,7 @@ All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and othe
 ## Balanced local storage
 {: #balanced-local-storage}
 
-The balanced local storage profiles are primarily for large database clusters that require high or low latency I/O performance. This offering has higher performance since the resources are not oversubscribed. Network performance ranges from standard to premium.
+The balanced local storage profiles are primarily for large database workloads that require high I/O performance and low latency performance. Network performance ranges from standard to premium.
 
 The offering is available in various profiles and data centers, with the following local storage options:
 
