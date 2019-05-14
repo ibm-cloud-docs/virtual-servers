@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-05-13"
+lastupdated: "2019-05-14"
 
 keywords: public virtual servers, network traffic, virtual server deployment, profile
 
@@ -33,7 +33,7 @@ Depending on your instance type, some families might not be available.
 | Families  | Description                                                                                              |
 | ----------------------- | -------------------------------------------------------------------------------------------------------- | 
 | [Balanced](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#balanced) | Best for common cloud workloads that require a balance of performance and scalability. Uses network-attached storage. |
-| [Balanced local storage](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#balanced-local-storage) | Best for large database workloads that require high I/O performance and low latency performance. |
+| [Balanced local storage](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#balanced-local-storage) | Best for large database workloads that require high I/O performance with very low latency. |
 | [Compute](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#compute) | Best for moderate to high web traffic workloads. |
 | [Memory](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#memory)  | Best for memory caching and real-time analytics workloads. |
 | [GPU](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#gpu)  | Best for high-performance workloads. |
@@ -78,7 +78,7 @@ All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and othe
 ## Balanced local storage
 {: #balanced-local-storage}
 
-The balanced local storage profiles are primarily for large database workloads that require high I/O performance and low latency performance. Network performance ranges from standard to premium.
+The balanced local storage profiles are primarily for large database workloads that require high I/O performance with very low latency. Network performance ranges from standard to premium.
 
 The offering is available in various profiles and data centers, with the following local storage options:
 
