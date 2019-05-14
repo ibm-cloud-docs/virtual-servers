@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-05-13"
+lastupdated: "2019-05-14"
 
 keywords: public virtual servers, network traffic, virtual server deployment
 
@@ -41,7 +41,7 @@ The following families of public instances are available for this offering.
 | Families  | Description                                                                                              |
 | ----------------------- | -------------------------------------------------------------------------------------------------------- | 
 | [Balanced](/docs/vsi?topic=virtual-servers-balanced#balanced) | Best for common cloud workloads that require a balance of performance and scalability. Uses network-attached storage. |
-| [Balanced local storage](/docs/vsi?topic=virtual-servers-balanced-local-storage#balanced-local-storage) | Best for large database workloads that require high I/O performance and low latency performance. |
+| [Balanced local storage](/docs/vsi?topic=virtual-servers-balanced-local-storage#balanced-local-storage) | Best for large database workloads that require high I/O performance with very low latency. |
 | [Compute](/docs/vsi?topic=virtual-servers-compute#compute) | Best for moderate to high web traffic workloads.|
 | [Memory](/docs/vsi?topic=virtual-servers-memory#memory)  | Best for memory caching and real-time analytics workloads. |
 | [GPU](/docs/vsi?topic=virtual-servers-gpu#gpu)  | Best for high-performance workloads.
