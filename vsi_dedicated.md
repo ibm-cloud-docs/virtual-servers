@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2019
+lastupdated: "2019-05-16"
 
 subcollection: virtual-servers
 
@@ -107,7 +107,7 @@ Keep in mind the following when you’re ordering a dedicated host(s) and dedica
 |MIL01         |  WDC07  |
 {: caption="Table 2. Supported data centers" caption-side="top"}
 
-* The size of your host(s) is determined by your workloads that you will be running on it. The default is 56 Cores X 242 GB RAM X 1.2 TB.
+* The size of your host(s) is determined by your workloads that you will be running on it. The default is 56 Cores X 242 GB RAM X 1.2 TB, but you can choose from additional configurations.
 * You can order only two hosts at a time. For example, if you need six hosts, you will need to place three separate orders.
 * Each host will need its own unique name and you can automatically assign your POD.
 
