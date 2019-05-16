@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-24"
+  years: 2017, 2019
+lastupdated: "2019-05-16"
 
 subcollection: virtual-servers
 
@@ -72,7 +72,7 @@ You’re taken to the *Configure your Cloud Server* page. It’s from this page 
     <td>Select the {{site.data.keyword.cloud}} data center where you want to place your hosts. See About for the list of applicable data centers.</td>
     </tr>
     <td>Dedicated Host</td>
-    <td>Defaults to 56 Cores X 242 RAM X 1.2 TB</td>
+    <td>Defaults to 56 Cores X 242 RAM X 1.2 TB, but you can select from other configurations.</td>
     </tr>
     </TBODY>
     </table>
