@@ -30,7 +30,7 @@ For the {{site.data.keyword.cloud_notm}} console, you must have an upgraded acco
 
 Before you begin, review the following prerequisites.
 
-  1. Review the deployment options available to you. For more information, see [Deployment options: Public virtual server](/docs/vsi?topic=virtual-servers-about-public-virtual-servers#about-public-virtual-servers).
+  1. Review the deployment options available to you. For more information, see [Public virtual server](/docs/vsi?topic=virtual-servers-about-public-virtual-servers#about-public-virtual-servers).
 
   2. Review virtual server instance capacity considerations.  For more information, see [Resource considerations for virtual server instances](/docs/vsi?topic=virtual-servers-capacity-considerations#capacity-considerations).
   
