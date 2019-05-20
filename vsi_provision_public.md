@@ -117,4 +117,4 @@ To provision your public virtual server instance through the {{site.data.keyword
 A series of emails is sent to your administrator: acknowledgment of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email includes a link to your *Device Details* page after you log in to {{site.data.keyword.Bluemix_notm}}.
 
 After your virtual server is provisioned and available to use, you can configure your virtual servers by using the
-{{site.data.keyword.cloud_notm} console or {{site.data.keyword.slapi_short}}. For more information, see [Configuring virtual servers](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).
+{{site.data.keyword.cloud_notm}} console or {{site.data.keyword.slapi_short}}. For more information, see [Configuring virtual servers](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).
