@@ -61,7 +61,7 @@ You must be logged in to see all available options.
 
 ### Public instance add-ons 
 
-  If you choose any OS, control panel, or software add-ons, they must be compatible with your image to avoid an error when you are ordering your instance. For example, you can’t provision a RedHat image with a Microsoft database.
+If you choose any OS, control panel, or software add-ons, they must be compatible with your image to avoid an error when you are ordering your instance. For example, you can’t provision a RedHat image with a Microsoft database.
 {:important}
 
 | Field     | Details     |
