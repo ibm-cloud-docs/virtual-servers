@@ -7,7 +7,6 @@ IBM Cloud Virtual Servers
     {: .navgroup id="learn"}
     vsi_index.md
     vsi_about.md
-    vsi_about_suspend.md
     vsi_public.md
     vsi_about_transient.md
     vsi_about_reserved.md
@@ -23,6 +22,7 @@ IBM Cloud Virtual Servers
     vsi_ps_index.md
     vsi_image_templates_intro.md
     vsi_placegroup.md
+    vsi_about_suspend.md
 
     {: .topicgroup}
     Security options
