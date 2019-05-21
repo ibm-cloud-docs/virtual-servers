@@ -20,7 +20,7 @@ subcollection: virtual-servers
 {:important: .important}
 {:table: .aria-labeledby="caption"}
 
-# About suspend billing
+# Suspend billing
 {: #requirements}
 
 When you power off a virtual server that supports the suspend billing feature, you don't accrue costs for certain compute resources. Billing stops automatically when the server is powered off. The suspend billing feature helps you reduce cost and prevents you from having to reprovision a virtual server when you need its resources again.
