@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-05"
+  years: 2017, 2019
+lastupdated: "2019-05-29"
 
 keywords: virtual servers, provisioning process, IBM Cloud Virtual Servers
 
@@ -53,10 +53,10 @@ After you decide upon a deployment option, begin the provisioning process.
 |[Provisioning public instances](/docs/vsi?topic=virtual-servers-ordering-vs-public)                | Provision public instances with various options             |
 |[Provisioning transient instances](/docs/vsi?topic=virtual-servers-ordering-vs-transient)                | Provision transient instances with various options            |
 |[Provisioning reserved capacity and instances](/docs/vsi?topic=virtual-servers-provisioning-reserved-capacity-and-instances)            | Provision reserved capacity and instances with various options |
-|[Provisioning dedicated hosts and instances](/docs/vsi?topic=virtual-servers-ordering-vs-dedicated)| Provision private instances or dedicated instances on dedicated hosts.|
+|[Provisioning dedicated hosts and instances](/docs/vsi?topic=virtual-servers-ordering-vs-dedicated)| Provision private instances or dedicated instances on dedicated hosts|
 {: caption="Table 2. Provisioning information" caption-side="top"}
 
-## Next Steps
+## Next steps
 
 After your virtual server is provisioned and available to use, you can configure your virtual servers by using the
-{{site.data.keyword.slportal_full}} or {{site.data.keyword.slapi_full}}. For more information, see [Configuring virtual servers](/docs/vsi?topic=virtual-servers-configuring-virtual-servers).
+{{site.data.keyword.cloud_notm}} console or {{site.data.keyword.slapi_short}}. For more information, see [Configuring virtual servers](/docs/vsi?topic=virtual-servers-configuring-virtual-servers).
