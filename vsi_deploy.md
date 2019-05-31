@@ -30,7 +30,7 @@ A virtual server instance offers better transparency, predictability, and automa
 
 Provisioning a virtual server instance and deploying it can be a complex and time-consuming process, but you can get up and running quickly by using the {{site.data.keyword.cloud_notm}} App Service.
 
-Services don't bind to the virtual server instance. You cannot add services to an application in a virtual server.
+Services don't bind to the virtual server instance. You cannot add services to an application in a virtual server. However, you can still use any {{site.data.keyword.cloud_notm}} service in an application that is running in a virtual server if you made the credentials available to the app that is running in the virtual server instance.
 {: important}
 
 ## Deploying apps
