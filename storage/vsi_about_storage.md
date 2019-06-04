@@ -56,5 +56,5 @@ For more information about supplemental storage options, see the following resou
 
 ## Next steps
 For more information about how to use portable storage volumes, see the following tasks:
-* [Accessing portable storage](/docs/vsi?topic=virtual-servers-accessing-portable-storage#accessing-portable-storage)
+* [Managing portable storage](/docs/vsi?topic=virtual-servers-accessing-portable-storage#accessing-portable-storage)
 * [Editing the portable storage description](/docs/vsi?topic=virtual-servers-editing-a-portable-storage-description#editing-a-portable-storage-description)
