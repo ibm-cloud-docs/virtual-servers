@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-08-01"
+  years: 2018, 2019
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -22,9 +22,9 @@ subcollection: virtual-servers
 {{site.data.keyword.cloud}} configures virtual server instances with an IPv4 address on the private network, and if requested, a public (internet-facing) IPv4 address. Additionally, you can request an IPv6 address on the public network. All of these IP addresses are collectively referred to as _Primary IP Addresses_.
 {:shortdesc}
 
-Additional IP addresses can be bound to virtual server instances after purchasing secondary subnets through the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com). IP addresses purchased in this way and managed by you are referred to as _Secondary IP Addresses_.
+Additional IP addresses can be bound to virtual server instances after purchasing secondary subnets through the {{site.data.keyword.cloud_notm}} console. IP addresses purchased in this way and managed by you are referred to as _Secondary IP Addresses_.
 
-For more information about options available for acquiring IP addresses, see [Subnets and IPs](/docs/infrastructure/subnets?topic=subnets-getting-started-with-subnets-and-ips#getting-started-with-subnets-and-ips).
+For more information about options available for acquiring IP addresses, see [Subnets and IPs](/docs/infrastructure/subnets?topic=subnets-about-subnets-and-ips).
 
 ## Binding secondary IP addresses
 
