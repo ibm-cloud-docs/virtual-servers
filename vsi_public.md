@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-05-14"
+lastupdated: "2019-06-04"
 
 keywords: public virtual servers, network traffic, virtual server deployment
 
@@ -52,6 +52,4 @@ Some of these families are also available for IBM Cloud Virtual Servers for VPC.
 
 ## Next steps
 
-After you review and decide upon your virtual server profile, it's time to provision your public virtual server. To get started, review the following information: 
-1. [Provisioning selections](/docs/vsi?topic=virtual-servers-provisioning-selections#provisioning-selections)
-2. [Provisioning public instances](/docs/vsi?topic=virtual-servers-ordering-vs-public#ordering-vs-public)
+After you review and decide upon your virtual server profile, it's time to provision your public virtual server. To get started, see [Provisioning public instances](/docs/vsi?topic=virtual-servers-ordering-vs-public#ordering-vs-public).
