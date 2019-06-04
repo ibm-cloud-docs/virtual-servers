@@ -91,6 +91,8 @@ IBM Cloud Virtual Servers
     Deploying applications
         vsi_deploy.md
     
+    logging-in-to-console.md
+    
     {: .topicgroup}
     Managing permissions and access
         /iam/iam-mngclassicinfra
