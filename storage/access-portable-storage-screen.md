@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-05-11"
+  years: 2014, 2019
+lastupdated: "2019-06-03"
 
 subcollection: virtual-servers
 
@@ -10,33 +10,37 @@ subcollection: virtual-servers
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:tip: .tip}
+{:note: .note}
 
-# Accessing portable storage
+# Managing portable storage
 {: #accessing-portable-storage}
 
-Portable Storage Volumes (PSVs) are an auxiliary storage solution exclusively for {{site.data.keyword.virtualmachinesshort}}. Within the {{site.data.keyword.slportal_full}}, you can access portable storage volumes from the *Portable Storage* page, which displays all PSVs and is the location where volumes can be attached, detached, swapped, and edited. 
+Portable storage volumes (PSVs) are an auxiliary storage solution exclusively for {{site.data.keyword.virtualmachinesshort}}. Within the {{site.data.keyword.cloud}} console, you can access portable storage volumes and display all PSVs. You can also attach, detach, swap, and edit volumes.
+{:shortdesc}
 
-## Accessing the Portable Storage page
+You can't attach or swap portable storage volumes to a virtual server instance that is provisioned from an encrypted image template.
+{:note}
 
-1. Access the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} using your unique credentials.
-* Select **Storage > Block Storage** in the **Navigation Bar** to access the Portable Storage page.
-* Click on the **Action** button next to the portable storage and click on the attach option.
-* On the next screen choose the device that needs the storage attached.
+## Before you begin
+First, navigate to the storage or devices menu and ensure you have the correct account permissions to complete the tasks.
 
-**Note:** The portable storage section is listed just below the iSCSI storage section.
+* Navigate to your console's storage or device menu. For more information, see [Navigating to devices](/docs/vsi?topic=virtual-servers-navigating-devices).
+* Ensure you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
 
-## Available actions
+For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access).
 
-From the *Portable Storage* page, PSVs may be edited, attached, detached and swapped.
+## Attaching portable storage
 
-## Accessing portable storage attached to a server
+1. From the **Storage** menu, select **Block Storage.**
+2. In the **Portable storage** section, select the attach option for the portable storage you want to use.
+3. On the next screen, choose the device that needs the storage, and select **Attach.**
+
+## Managing portable storage attached to a server
 
 Portable storage attached to a server is listed on the server's *Device Details* page.
 
-1. Access the  [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} using your unique credentials.
-* Select **Devices > Device List** in the **Navigation Bar** to access the device list page.
-* Click the virtual servers host name to access the server's device detail's page.
-* Click the *Storage* tab to view the portable storage currently attached to the server.
-* Click on **Action** next to the portable storage and click the option you want to detach or swap the storage. 
-
-**Note:** From the *Portable Storage* page, you can click the host name as a short cut to get to the server's *Device Details* page. 
+1. From the **Devices** menu, select **Device List.**
+2. From the **Device List**, select a virtual server instance to view its details.
+3. Click the **Storage** tab to view the portable storage currently attached to the instance.
+4. In the **Actions** menu, you can **Swap** or **Detach** the storage.
