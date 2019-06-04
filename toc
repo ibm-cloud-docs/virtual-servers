@@ -90,27 +90,28 @@ IBM Cloud Virtual Servers
     {: .topicgroup}
     Deploying applications
         vsi_deploy.md
+    
+    {: .topicgroup}
+    Managing permissions and access
+        /iam/iam/mngclassicinfra
+        vsi_device_access.md
+        vsi_managing_password.md
+        vsi_managing_users_pwd.md
 
     {: .topicgroup}
     Managing servers
         vsi_managing.md
-        vsi_add_script.md
+        vsi_managing_dedicated.md
+        vsi_interact_device_snapshot_view.md
+        add-provisioning-script.md
         vsi_vulnerability_scans.md
         vsi_viewing_suspend.md
-        vsi_interact_device_snapshot_view.md
-        vsi_managing_password.md
-        add-provisioning-script.md
-        vsi_managing_dedicated.md
-        vsi_managing_users_pwd.md
-        vsi_managing_users.md
     
     {: .topicgroup}
     Managing servers with auto scaling
         vsi_auto_scale_permissions.md
         vsi_auto_scale_schedule.md
         vsi_auto_scale_resource.md
-    
-    vsi_device_access.md
 
     {: .topicgroup}
     Managing port speeds
