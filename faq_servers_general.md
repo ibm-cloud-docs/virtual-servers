@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-05-17"
+  years: 2017, 2019
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -25,21 +25,22 @@ subcollection: virtual-servers
 
 Boot from Image and Load from Image both utilize existing image templates, which are applied to a device to either replace the existing operating system or to supplement the operating system in an attempt to remedy an existing issue. The main difference between the Boot and Load process is the type of image that is used. When performing either the Boot or Load from Image process, ensure you have backed up all data you may want to recover.
 
-   * Boot from Image is a way to boot a device using an ISO supplied by {{site.data.keyword.BluSoftlayer_full}} for system recovery or an ISO that has been uploaded using the *Import Image* feature in the {{site.data.keyword.slportal_full}}. The ISO may be a clean version of the device operating system or a recovery disk that can be used in an attempt to remedy an issue with the device.
-   * Load from Image is a method of OS Reload that utilizes an image template that has either been captured from a device or uploaded using the *Image Import* feature in the {{site.data.keyword.slportal}}. The *Load from Image* option performs the reload using a VHD, which wipes the device of all data and replaces the existing operating system and files with a "like new" version of the selected image.
+   * Boot from Image is a way to boot a device using an ISO supplied by {{site.data.keyword.BluSoftlayer_full}} for system recovery or an ISO that has been uploaded using the *Import Image* feature in the {{site.data.keyword.cloud_notm}} console. The ISO may be a clean version of the device operating system or a recovery disk that can be used in an attempt to remedy an issue with the device.
+   * Load from Image is a method of OS Reload that utilizes an image template that has either been captured from a device or uploaded using the *Image Import* feature in the {{site.data.keyword.cloud_notm}} console. The *Load from Image* option performs the reload using a VHD, which wipes the device of all data and replaces the existing operating system and files with a "like new" version of the selected image.
 
 ## Why can I not connect to the KVM console?
 {:faq}
 
-If you are unable to connect to the KVM console, review the troubleshooting tips below to assist in resolving the issue. Should additional issues occur, please contact support. For more information on contacting support, see [Getting help and support](/docs/vsi?topic=virtual-servers-gettinghelp).
+If you are unable to connect to the KVM console, review the troubleshooting tips below to assist in resolving the issue. Should additional issues occur, please contact support. For more information on contacting support, see [Getting help and support](/docs/vsi?topic=virtual-servers-gettinghelp#gettinghelp).
 
    * The KVM console is a Java applet. Java must be installed prior to accessing the console. For more information on installing Java, see [Free Java Download ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.java.com/en/download/){: new_window}.  
    * If Java is installed, ensure that a connection has been established using VPN. If a connection is not established, a warning is displayed when attempting to connect to the KVM console that a VPN connection is required.
-   * The KVM console may generate one or more pop-up boxes during the connection process. Enable pop-ups from the {{site.data.keyword.slportal}} to ensure a connection can be made.
+   * The KVM console may generate one or more pop-up boxes during the connection process. Enable pop-ups from the {{site.data.keyword.cloud_notm}} console to ensure a connection can be made.
    * You may receive an error "Java applications are blocked by your security settings." For bare-metal iKVM devices, you must add an exception for the IP Address of the IPMI device. For VSI devices, be sure to allow "https://control.softlayer.com" and the IP address of the KVM. For more information, see [Why are Java applications blocked by your security settings with the latest Java? ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.java.com/en/download/help/java_blocked.xml){: new_window}.
    * If the above conditions have been met and you receive an error that states, "Missing required Permissions manifest in main.jar", then Java applets have not been enabled in the Java Control Panel. This setting was introduced as a security precaution from Oracle in Java SE v7. Enable applets in the Control Panel to resolve this issue.
 
-     **Note:** If using Mac OSX in conjunction with Google Chrome, refer to Information and System Requirements for Installing and Using Mac Java 7 on the Java website.
+     If using Mac OSX in conjunction with Google Chrome, refer to Information and System Requirements for Installing and Using Mac Java 7 on the Java website.
+     {:note}
 
    * If you are trying to connect to a VSI through the standard Java and are getting nothing but errors, you can also try using VNC.
 
@@ -52,10 +53,10 @@ If the root or administrator password to your server is suddenly not working, ch
 
    * Are you copying and pasting the password? If not, please try to. Please also paste the password in a notepad to ensure no spaces are accidentally being copied with the password.
    * If the server has cPanel on it, is it possible that cPHulk has blocked your IP address due to failed logins? If so, you can access the server using the KVM or IPMI and whitelist your IP address in cPHulk with "/scripts/cphulkdwhitelist" followed by your IP address.
-   * Has someone recently tried to change the password for the server by modifying the password in the {{site.data.keyword.slportal}}? Changing the password in the {{site.data.keyword.slportal}} only changes what you see as the password. It does not change the password the server is using. If this has happened, you can contact Support and they can usually recover the original, working password.
-   * You might need to boot into your operating system's rescue mode to be able to reset your password. For more information, see [Launching a rescue kernel](/docs/vsi?topic=virtual-servers-launching-rescue).
+   * Has someone recently tried to change the password for the server by modifying the password in the {{site.data.keyword.cloud_notm}} console? Changing the password in the {{site.data.keyword.cloud_notm}} console only changes what you see as the password. It does not change the password the server is using. If this has happened, you can contact Support and they can usually recover the original, working password.
+   * You might need to boot into your operating system's rescue mode to be able to reset your password. For more information, see [Launching a rescue kernel](/docs/vsi?topic=virtual-servers-launching-rescue#launching-rescue).
 
-If these have all been checked and you are still unable to connect to the server using the password, please contact support using a ticket and request a password reset. Support will need to reboot the server in order to reset the password, so please ensure that you are prepared to approve the reboot and/or provide a maintenance time frame in which you would like it done. Most password resets can be accomplished in 15 minutes. In the {{site.data.keyword.slportal}}, you can create a ticket by going to **Support > Add Ticket** and use the subject *"Reboots and Console Access"*.
+If these have all been checked and you are still unable to connect to the server using the password, please contact support using a ticket and request a password reset. Support will need to reboot the server in order to reset the password, so please ensure that you are prepared to approve the reboot and/or provide a maintenance time frame in which you would like it done. Most password resets can be accomplished in 15 minutes. In the {{site.data.keyword.cloud_notm}} console, you can create a ticket by going to **Support > Create a case** and use the subject *Accounts & access*.
 
 ## Are LVM partitions supported as a valid filesystem?
 {:faq}
@@ -65,7 +66,7 @@ LVM (Logical Volume Management) provides logical management of file systems in L
 ## Preconfigured 161.26.0.0/16 Routes on Customer Hosts
 {:faq}
 
-{{site.data.keyword.BluSoftlayer}} is enabling a new route on all newly provisioned servers to support future products.
+{{site.data.keyword.BluSoftlayer_notm}} is enabling a new route on all newly provisioned servers to support future products.
    * The route points any address in the 161.26.0.0/16 range (161.26.0.0 255.255.0.0 | 161.26.0.0 -161.26.255.255) to the back-end private network.
    * This IP block is assigned to {{site.data.keyword.BluSoftlayer_notm}} by IANA and will not be advertised on the public Internet.
    * Only {{site.data.keyword.BluSoftlayer_notm}} systems will be addressed out of this space.
@@ -164,7 +165,7 @@ LVM (Logical Volume Management) provides logical management of file systems in L
 ## Can I have the monitoring system issue an automatic reboot AND alert a support technician in the event that the server stops responding?
 {:faq}
 
-Yes, with the order of our **Automated Reboot from Monitoring Failure** service, you can set up the monitoring system to automatically reboot the server and issue a ticket for a support technician if a monitoring alert is issued. As an additional service, we provide **NOC Monitoring**, in which you will receive personal notification in the event a monitoring issue occurs. To learn more about both of these offerings, please refer to [Server Monitoring ![External link icon](../icons/launch-glyph.svg "External link icon")](http://www.softlayer.com/services/monitoring/){:new_window}.
+Yes, with the order of our **Automated Reboot from Monitoring Failure** service, you can set up the monitoring system to automatically reboot the server and issue a ticket for a support technician if a monitoring alert is issued. As an additional service, we provide **NOC Monitoring**, in which you will receive personal notification in the event a monitoring issue occurs. To learn more about both of these offerings, please refer to [Server Monitoring ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/infrastructure/monitoring?cm_mc_uid=46846454197915580355142&cm_mc_sid_50200000=71138741559658182022){:new_window}.
 
 ## What is a cvsup mirror?
 {:faq}
