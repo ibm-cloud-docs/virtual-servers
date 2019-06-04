@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2019
+lastupdated: "2019-06-03"
 
 subcollection: virtual-servers
 
@@ -14,14 +14,19 @@ subcollection: virtual-servers
 # Working with image templates
 {: #working-with-image-templates}
 
-You can access the Image Templates screen in the {{site.data.keyword.slportal_full}}.
-{:shortdesc}
+## Before you begin
+First, navigate to the devices menu and ensure you have the correct account permissions to complete the tasks.
 
-Use the following steps to access the Image Templates screen in the {{site.data.keyword.slportal}}.
+* Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/vsi?topic=virtual-servers-navigating-devices).
+* Ensure you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
 
-* Log in to the [console](https://cloud.ibm.com/classic?){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"). Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}. 
-* From the **Devices** menu, select **Manage > Images**.
+For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access).
 
-On the *Image Templates* screen, you see all of the private images that are associated with the account. Any interactions with private images happen here. From this page, you can drag columns to customize the view. You can also access public images by clicking the **Private Images** drop-down selector and choosing **Public Images** instead.
+## Accessing image templates
+Complete the following steps to access image templates in your console.
 
-For more information about image templates, see [Getting started with image templates](/docs/infrastructure/image-templates?topic=image-templates-getting-started-with-image-templates).
+1. From the **Devices** menu, select **Manage > Images**.
+2. On the *Image Templates* screen, you see all of the private images that are associated with the account. Any interactions with private images happen here. You can also access public images by clicking the **Private Images** drop-down selector and choosing **Public Images** instead.
+
+For more information about image templates, see [Getting started with image templates](/docs/infrastructure/image-templates?topic=image-templates-getting-started#getting-started).
+
