@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-09-26"
+  years: 2018, 2019
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -37,7 +37,7 @@ Reserved capacity and instances are purchased for a one or three year term. Afte
 ## What happens at the end of my contract?
 {:faq}
 
-Depending on whether you specified hourly or monthly billing, billing for the CPU and RAM will convert to the current list price, with any account discounts applied. For more information about pricing, see [Build your virtual server ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud-computing/bluemix/virtual-servers){: new_window}.
+Depending on whether you specified hourly or monthly billing, billing for the CPU and RAM will convert to the current list price, with any account discounts applied. For more information about pricing, see [Build your virtual server ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/virtual-servers){: new_window}.
 
 ## What happens if I don't need my reserved virtual server instances anymore?
 {:faq}
