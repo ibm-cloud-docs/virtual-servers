@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-04-25"
+lastupdated: "2019-06-04"
 
 keywords: transient virtual servers, transient instances, transient offering, cost savings
 
@@ -56,7 +56,5 @@ Consider the following limitations before provisioning a transient virtual serve
 
 ## Next steps
 
-After you review and select your virtual server profile, it's time to provision your transient virtual server. To get started, review the following information:
-1. [Provisioning selections](/docs/vsi?topic=virtual-servers-provisioning-selections#provisioning-selections)
-2. [Provisioning transient instances](/docs/vsi?topic=virtual-servers-ordering-vs-transient#ordering-vs-transient)
+After you review and select your virtual server profile, it's time to provision your transient virtual server. To get started, see [Provisioning transient instances](/docs/vsi?topic=virtual-servers-ordering-vs-transient#ordering-vs-transient).
 
