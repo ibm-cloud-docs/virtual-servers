@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-04"
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -14,6 +14,7 @@ subcollection: virtual-servers
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:tip: .tip}
+{:note: .note}
 {:table: .aria-labeledby="caption"}
 
 # API examples: Public virtual servers profiles
@@ -33,6 +34,9 @@ Not applicable for transient instances.
 {:tip}
 
 To provision a public virtual server instance using REST, a POST request would be submitted to https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ with the following JSON in the request body.
+
+The following JSON request body is a generic example. 
+{:note}
 
 ### JSON Request Body 1
 ```
@@ -67,7 +71,11 @@ Not applicable for transient instances.
 
 To provision a public virtual server using REST, a POST request would be submitted to https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ with the below JSON in the request body.
 
-**Note:** The item descriptions are not required on the prices. They are included only to show the product options being submitted.
+The item descriptions are not required on the prices. They are included only to show the product options being submitted.
+{:note}
+
+The following JSON request body is a generic example. 
+{:note}
 
 ### JSON Request Body 2
 ```
@@ -167,7 +175,11 @@ Not applicable for transient instances.
 
 To provision a public virtual server using REST, a POST request would be submitted to https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ with the below JSON in the request body.
 
-**Note:** The item descriptions are not required on the prices. They are included only to show the product options being submitted.
+The item descriptions are not required on the prices. They are included only to show the product options being submitted.
+{:note}
+
+The following JSON request body is a generic example. 
+{:note}
 
 ### JSON Request Body 3
 ```
@@ -210,6 +222,9 @@ To provision a public virtual server using REST, a POST request would be submitt
 The *SoftLayer_Virtual_Guest/createObject* API service is the simplest way to provision a transient virtual server instance.
 
 To provision a transient virtual server instance using REST, a POST request would be submitted to https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ with the following JSON in the request body.
+
+The following JSON request body is a generic example. 
+{:note}
 
 ### JSON Request Body 4
 ```
