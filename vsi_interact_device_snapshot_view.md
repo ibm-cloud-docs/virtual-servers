@@ -1,29 +1,46 @@
 ---
 
 copyright:
-  years: 2014, 2017
-lastupdated: "2017-08-23"
+  years: 2014, 2019
+lastupdated: "2019-05-28"
 
 subcollection: virtual-servers
 
 ---
 
-# Interacting with a device in snapshot view
-{: #interacting-with-a-device-in-snapshot-view}
+{:shortdesc: .shortdesc}
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:new_window: target="_blank"}
+{:pre: .pre}
+{:tip: .tip}
+{:table: .aria-labeledby="caption"}
 
-## Overview
+# Managing a device in snapshot view
+{: #managing-a-device-in-snapshot-view}
 
-From the device list, you can view a limited amount of information, or snapshot, for one or more devices. You can perform multiple actions on a device in snapshot view. The actions include viewing the user name and password for the device, adding tags, and viewing tickets. Complete the following steps to interact with a device in the snapshot view.
+From the device list, you can view a limited amount of information, or snapshot, for one or more devices. You can perform multiple actions on a device in snapshot view. The actions include viewing the user name and password for the device, adding tags, and viewing tickets.
+{:shortdesc}
 
-## Interact with a device in snapshot view
+## Before you begin
 
-1. Access the **Device List**. Refer to [Accessing the device list](/docs/vsi?topic=virtual-servers-managing-virtual-servers).
-2. Click the arrow next to the device you want to expand the device into the snapshot view.
-3. Determine the interaction to be made with the device.
+First, navigate to the device menu and ensure you have the correct account permissions to complete the tasks. 
 
-|If the interaction is...|Then...|
+* Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/vsi?topic=virtual-servers-navigating-devices).
+* Ensure you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions. 
+
+For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access).
+
+## Managing a device in snapshot view
+
+1. From the **Devices** menu, select **Device List**.
+2. Click the arrow next to the device that you want to expand into snapshot view.
+3. Determine what you want to do with the device.
+
+|If you want to...|Then...|
 |---|---|
-|View the user name and password for the device|Click the **Show Password** check box.|
-|Enter tags to be associated with a device|<ul><li>Enter each tag for the device in the **Tags** field, separated by a comma.</li><li>Click the **Add Tag(s)** button.</li></ul>|
-|View a recent ticket associated with a device|Click the desired **Ticket Number** to be redirected to the details of the ticket.|
-|Add a ticket for a device.|<ul><li>Click the **Add a Ticket for this Device** link to be redirected to the **Add Ticket** page.</li><li>For more information about getting support, see [Creating a support ticket with customer portal](/docs/customer-portal?topic=customer-portal-customerportal_support).</li></ul>|
+|View the username and password for the device|Select the **Show Password** check box.|
+|Enter tags to be associated with a device|Enter each tag for the device in the **Tags** field, separated by a comma.|
+|View a recent case associated with a device|Click the desired case number to be redirected to the details of the case.|
+|Add a case for a device|Click **Add a Case for this Device** to be redirected to the **Add Case** page. For more information about getting support, see [Getting support](/docs/get-support?topic=get-support-getting-customer-support).|
+{: caption="Table 1. Snapshot view actions" caption-side="top"}
