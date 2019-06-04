@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-05-17"
+  years: 2017, 2019
+lastupdated: "2019-06-03"
 
 subcollection: virtual-servers
 
@@ -16,30 +16,37 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 
-# Launching a rescue kernel
+# Launching Rescue Kernel
 {: #launching-rescue}
 
-Rescue Kernel is a live rescue environment, designed to provide customers with the ability to bring a bare metal server or virtual server online in order to troubleshoot system issues that would normally only be resolved through OS Reload. Rescue Kernel must be initiated on the {{site.data.keyword.slportal_full}}. Use the following steps to launch Rescue Kernel for a device.
+Rescue Kernel is a live rescue environment designed to provide you with the ability to bring a bare metal server or virtual server online in order to troubleshoot system issues that would normally only be resolved through OS Reload. Rescue Kernel must be initiated in the {{site.data.keyword.cloud}} console. Use the following steps to launch Rescue Kernel for a device.
 {:shortdesc}
 
-## Launch Rescue Kernel
+## Before you begin
+First, navigate to the device menu and ensure you have the correct account permissions to complete the tasks.
 
-1. Access the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) by using your unique credentials.
-2. From the Device List, click the device name that you want to rescue.
-3. Click the *Actions* drop down list at the upper right corner, and select **Rescue**. (Alternatively, you can click the *Remote Mgmt* tab and select **Rescue**.)
-4. Click the **Yes** button to transition your device to Rescue Kernel immediately. Click the **No** button to cancel the action.
+* Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/vsi?topic=virtual-servers-navigating-devices).
+* Ensure you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
 
-## On Windows VSI
+For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access).
 
-1. Access the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) by using your unique credentials.
-2. From the Device List, click the device name that you want to rescue.
-3. Click the *Actions* drop down list at the upper right corner, and select **Boot from Image**.
-4. Select **Boot From This Image** next to the public image, *WindowsRescueStandalone.iso*.
+## Launching Rescue Kernel
 
+1. From the **Devices** menu, select **Device List**.
+2. From the **Device List**, click the device name that you want to rescue.
+3. In the *Actions* menu, select **Rescue mode**.
+4. Click **Yes** to transition your device to Rescue Kernel immediately.
 
-## Next Steps
+## Launching Rescue Kernel for a Windows instance
+
+1. From the **Devices** menu, select **Device List**.
+2. From the **Device List**, click the device name that you want to rescue.
+3. In the *Actions* menu, select **Boot from image**.
+4. Select **Boot from this image** next to the public image, *WindowsRescueStandalone.iso*.
+
+## Next steps
 After launching Rescue Kernel, the device is powered down and rebooted into the rescue kernel for the device's operating system. This may take several minutes.
 
-Remote access to the device is available from the device's IP address. You can access the device in Rescue Kernel by using the root or admin credentials for the devices that are recorded on the {{site.data.keyword.slportal}}. When using Rescue Kernel, you can troubleshoot, discover issues, and resolve issues as you would on a regularly booted device. If necessary, you can mount drives into the Rescue Kernel OS. To exit Rescue Kernel and return your device to its regular environment, reboot the device in the {{site.data.keyword.slportal}} or reboot from Rescue Kernel OS.
+Remote access to the device is available from the device's IP address. You can access the device in Rescue Kernel by using the root or admin credentials for the devices that are recorded in the {{site.data.keyword.cloud_notm}} console. When using Rescue Kernel, you can troubleshoot, discover issues, and resolve issues as you would on a regularly booted device. If necessary, you can mount drives into the Rescue Kernel OS. To exit Rescue Kernel and return your device to its regular environment, reboot the device in the {{site.data.keyword.cloud_notm}} console or reboot from Rescue Kernel OS.
 
-For more information about rebooting a device, see [Managing virtual servers](/docs/vsi?topic=virtual-servers-managing-virtual-servers).
+For more information about rebooting a device, see [Managing virtual servers](/docs/vsi?topic=virtual-servers-managing-virtual-servers#managing-virtual-servers).
