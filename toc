@@ -21,8 +21,7 @@ IBM Cloud Virtual Servers
     Auto scale
         vsi_about_auto_scale.md
         vsi_auto_scale_apache_brooklyn.md
-
-    vsi_public_selections.md
+        
     vsi_public_profiles.md
     vsi_ps_index.md
     vsi_image_templates_intro.md
