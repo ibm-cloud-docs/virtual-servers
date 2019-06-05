@@ -18,7 +18,7 @@ subcollection: virtual-servers
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
-{:row-headers .row-headers}
+{:row-headers: .row-headers}
 {:table: .aria-labeledby="caption"}
 
 # Suspend billing
