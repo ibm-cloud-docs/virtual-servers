@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-05-16"
+lastupdated: "2019-06-05"
 
 subcollection: virtual-servers
 
@@ -14,13 +14,14 @@ subcollection: virtual-servers
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:note: .note}
+{:row-headers: .row-headers}
 {:table: .aria-labeledby="caption"}
 
 
 # About dedicated virtual servers
 {: #dedicated-virtual-servers}
 
-The {{site.data.keyword.Bluemix}} infrastructure dedicated host offering is a virtualized, single-tenant, dedicated server. It provides you with maximum control over workload placement and flexible post-provisioning options. You can decide which pre-determined {{site.data.keyword.cloud}} data center your virtual servers are placed in and can be assured capacity by allocating your host(s) directly to your account.
+The {{site.data.keyword.Bluemix}} infrastructure dedicated host offering is a virtualized, single-tenant, dedicated server. It provides you with maximum control over workload placement and flexible post-provisioning options. You can decide which pre-determined {{site.data.keyword.cloud_notm}} data center your virtual servers are placed in and can be assured capacity by allocating your host(s) directly to your account.
 {:shortdesc}
 
 The offering includes the following features:
@@ -34,54 +35,19 @@ You have the choice of two deployment models: dedicated hosts and dedicated inst
 Dedicated instances do not provide some of the control features offered by dedicated hosts.  See the following table for more details.
 {:note}
 
-<table>
-<CAPTION>Table 1. Control features</CAPTION>
-<THEAD>
-<TR>
-<th>Dedicated virtual server feature</th>
-<th>Dedicated hosts instances</th>
-<th>Dedicated instances</th>
-</TR>
-</THEAD>
-<TBODY>
-<tr>
-<td>Single-tenant isolation</td>
-<td>X</td>
-<td>X</td>
-</tr>
-<tr>
-<td>Virtual server placement control</td>
-<td>X</td>
-<td></td>
-</tr>
-<tr>
-<td>Resource visibility</td>
-<td>X</td>
-<td></td>
-</tr>
-<tr>
-<td>Instance billing</td>
-<td></td>
-<td>X</td>
-</tr>
-<tr>
-<td>Host billing<sup>(1)</sup></td>
-<td>X</td>
-<td></td>
-</tr>
-<tr>
-<td>Post-deployment control</td>
-<td>X</td>
-<td></td>
-</tr>
-<tr>
-<td>Capacity reservations</td>
-<td>X</td>
-<td></td>
-</tr>
-</TBODY>
-</table>
-
+| Dedicated virtual server feature | Dedicated hosts instances | Dedicated instances |
+| ------- | ------- | ------- |
+| Single-tenant isolation | ![Checkmark icon](../../icons/checkmark-icon.svg) | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| Virtual server placement control | ![Checkmark icon](../../icons/checkmark-icon.svg) |   |
+| Resource visibility | ![Checkmark icon](../../icons/checkmark-icon.svg) |   |
+| Instance billing |   | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| Host billing<sup>(1)</sup> | ![Checkmark icon](../../icons/checkmark-icon.svg) |   |
+| Post-deployment control | ![Checkmark icon](../../icons/checkmark-icon.svg) |   |
+| Capacity reservations | ![Checkmark icon](../../icons/checkmark-icon.svg) |   |
+{: row-headers}
+{: class="comparison-table}
+{: caption="Table 1. Control features" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify the control feature. The column headers identify whether the offering offers the control feature. To understand whether the offering offers the control feature, navigate to the row in the table, and find the offering you are interested in.}
 
 <sup>(1)</sup>Pricing of host is inclusive of core, RAM, Local SSD, and network speeds. Premium operating system (OS), storage area network (SAN) storage, and software add-ons will be priced per instance with existing pricing and licensing in an hourly or monthly model.
 
