@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-05-07"
+lastupdated: "2019-06-05"
 
 keywords: virtual server, suspend billing feature, virtual server instances, suspend billing
 
@@ -18,6 +18,7 @@ subcollection: virtual-servers
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:row-headers .row-headers}
 {:table: .aria-labeledby="caption"}
 
 # Suspend billing
@@ -60,14 +61,17 @@ It's important to understand what costs stop accruing and what costs persist whe
 
 | Resource                      | Billing stopped   | Billing persists |
 | ----------------------------- | ----------------- | ---------------- |
-| vCPU                          |          X        |                  |
-| RAM                           |          X        |                  |
-| Port speed                    |          X        |                  |
-| Operating system licenses     |          X        |                  |
-| Monitoring add-ons            |          X        |                  |
-| Secondary public IP addresses |                   |         X        |
-| Storage                       |                   |         X        |
-{: caption="Table 1. Resource billing details" caption-side="top"}   
+| vCPU                          | ![Checkmark icon](../../icons/checkmark-icon.svg) |                  |
+| RAM                           | ![Checkmark icon](../../icons/checkmark-icon.svg) |                  |
+| Port speed                    | ![Checkmark icon](../../icons/checkmark-icon.svg) |                  |
+| Operating system licenses     | ![Checkmark icon](../../icons/checkmark-icon.svg) |                  |
+| Monitoring add-ons            | ![Checkmark icon](../../icons/checkmark-icon.svg) |                  |
+| Secondary public IP addresses |                   | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| Storage                       |                   | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+{: row-headers}
+{: class="comparison-table"}
+{: caption="Table 1. Resource billing details" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify the resource. The column headers identify whether billing stops or persists when your instance is powered off. To understand whether billing stops or persists for a resource, navigate to the row in the table, and find the billing information you are interested in."}  
 
 When you provision a virtual server instance that supports the suspend billing feature, the usage times are calculated per minute, for both the in use time and suspended time of your virtual server instance. Even if you never initiate the suspend billing feature by powering off your instance, the billing is calculated per minute of the instance's lifecycle.
 {:note}
