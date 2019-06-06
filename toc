@@ -101,7 +101,6 @@ IBM Cloud Virtual Servers
     {: .topicgroup}
     Managing servers
         vsi_managing.md
-        vsi_managing_dedicated.md
         vsi_interact_device_snapshot_view.md
         add-provisioning-script.md
         vsi_vulnerability_scans.md
