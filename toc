@@ -97,7 +97,6 @@ IBM Cloud Virtual Servers
         /iam/iam-mngclassicinfra
         vsi_device_access.md
         vsi_managing_password.md
-        vsi_managing_users_pwd.md
 
     {: .topicgroup}
     Managing servers
