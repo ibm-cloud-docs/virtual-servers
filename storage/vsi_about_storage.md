@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-06-06"
 
 subcollection: virtual-servers
 
@@ -57,4 +57,4 @@ For more information about supplemental storage options, see the following resou
 ## Next steps
 For more information about how to use portable storage volumes, see the following tasks:
 * [Managing portable storage](/docs/vsi?topic=virtual-servers-accessing-portable-storage#accessing-portable-storage)
-* [Editing the portable storage description](/docs/vsi?topic=virtual-servers-editing-a-portable-storage-description#editing-a-portable-storage-description)
+* [Editing a portable storage description](/docs/vsi?topic=virtual-servers-editing-a-portable-storage-description#editing-a-portable-storage-description)
