@@ -28,5 +28,5 @@ Complete the following steps to access image templates in your console.
 1. From the **Devices** menu, select **Manage > Images**.
 2. On the *Image Templates* screen, you see all of the private images that are associated with the account. Any interactions with private images happen here. You can also access public images by clicking the **Private Images** drop-down selector and choosing **Public Images** instead.
 
-For more information about image templates, see [Getting started with image templates](/docs/infrastructure/image-templates?topic=image-templates-getting-started#getting-started).
+For more information about image templates, see [Getting started with image templates](/docs/infrastructure/image-templates?topic=image-templates-getting-started-with-image-templates#getting-started-with-image-templates).
 
