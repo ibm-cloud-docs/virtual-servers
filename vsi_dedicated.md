@@ -57,6 +57,6 @@ Keep in mind the following when you’re ordering a dedicated host(s) and dedica
 * You can order only two hosts at a time. For example, if you need six hosts, you will need to place three separate orders.
 * Each host will need its own unique name and you can automatically assign your POD.
 
-## Next Steps
+## Next steps
 
 After you have reviewed and decided upon your deployment options, it is time to provision your virtual server. To get started, see [Provisioning dedicated hosts and instances](/docs/vsi?topic=virtual-servers-ordering-vs-dedicated).
