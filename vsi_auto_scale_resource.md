@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-05-07"
+lastupdated: "2019-06-07"
 
 keywords:
 
@@ -19,17 +19,26 @@ subcollection: virtual-servers
 Launching a new product or having a sale on an existing product can cause a spike in traffic on your website. A spike in traffic can affect your response time, which affects your customers’ experience with your website. {{site.data.keyword.cloud}} auto scale enables you to automatically respond to traffic spikes. You can use resource-based auto scaling to control these traffic spikes.
 {:shortdesc}
 
-For example, a Dallas, Texas-based e-commerce website requires three virtual servers to be online at all times. Business spikes between the hours of 9:00 AM and 5:00 PM every weekday when the company holds online sales. To help sustain website response times, three more virtual servers are needed during these times. Additionally, when public inbound traffic averages over 5 MB per second across all virtual servers for 10 minutes, two more virtual servers should be provisioned. When traffic falls below 5 MB per second, those extra virtual servers should be canceled and removed. The goal is to have no more than five virtual servers handling the traffic surge, which keeps the weekday virtual servers from being impacted by the extra weekday traffic. The following steps take you through how to set up auto scale to support resource-based scaling.
+## Before you begin
+First, navigate to the device menu and ensure you have the correct account permissions to complete the tasks.
+
+* Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/vsi?topic=virtual-servers-navigating-devices).
+* Ensure you have any necessary account permissions and device access. If you are not the account administrator, your user account must include permission to use auto scale. For more information about updating permissions to use auto scale, see [Setting up user permissions for auto scale](/docs/vsi?topic=virtual-servers-user-permissions-required-to-use-auto-scale). Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions. 
+
+For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access).
 
 ## Adding an auto scale group
 {: #adding-auto-scale-group}
 
-1. Open the [Add Auto Scale Group ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/classic/autoscale/add){: new_window} page from the {{site.data.keyword.cloud}} console.
-2. Set up an auto scale group by first entering a **Group Name**, for example, Weekend Scale Up Group, and then select the data center.
-3. Select the server termination policy. For example, if you choose **Oldest**, the server with the oldest provisioned date is selected when scaling down.
-4. Indicate whether your group is to be a multi-VLAN scale group and how to balance scaling down across the configured VLAN pairs
-5. Select the public and private VLANs on which you want your servers provisioned. If the servers are to be accessed from public internet (if the VLAN is running web servers), leave **Private Network Only** cleared.
-6. Set the **Minimum Member Counts** to 3 and **Maximum Member Counts** to 6. Set the **Cooldown Period** to 0. Because this is schedule-based scaling, there are no statistics gathered to trigger scaling actions.
+For example, a Dallas, Texas-based e-commerce website requires three virtual servers to be online at all times. Business spikes between the hours of 9:00 AM and 5:00 PM every weekday when the company holds online sales. To help sustain website response times, three more virtual servers are needed during these times. Additionally, when public inbound traffic averages over 5 MB per second across all virtual servers for 10 minutes, two more virtual servers should be provisioned. When traffic falls below 5 MB per second, those extra virtual servers should be canceled and removed. The goal is to have no more than five virtual servers handling the traffic surge, which keeps the weekday virtual servers from being impacted by the extra weekday traffic. The following steps take you through how to set up auto scale to support resource-based scaling.
+
+1. From the **Devices** menu, select **Auto Scale**.
+2. Select **Add Auto Scale Group**.
+3. Set up an auto scale group by first entering a **Group Name**, for example, Weekend Scale Up Group, and then select the data center.
+4. Select the server termination policy. For example, if you choose **Oldest**, the server with the oldest provisioned date is selected when scaling down.
+5. Indicate whether your group is to be a multi-VLAN scale group and how to balance scaling down across the configured VLAN pairs
+6. Select the public and private VLANs on which you want your servers provisioned. If the servers are to be accessed from public internet (if the VLAN is running web servers), leave **Private Network Only** cleared.
+7. Set the **Minimum Member Counts** to 3 and **Maximum Member Counts** to 6. Set the **Cooldown Period** to 0. Because this is schedule-based scaling, there are no statistics gathered to trigger scaling actions.
 
 ## Defining member configuration for your group
 {: #defining-member-configuration}
@@ -58,3 +67,4 @@ In the scenario, the e-commerce website is using resource-based scaling. Two pol
 12. Click **Add Policy** again to specify the second policy that removes the servers when the traffic has decreased to fewer than 5 Mbps\*The cooldown period will be the same as the group’s cooldown. The trigger is if my public network incoming Mbps is less than 5 (5 Mbps) for a period of 600 seconds (10 minutes).
 
 When both groups are created, the Weekday Scale Up group creates three servers (the minimum). On weekdays, at 9:00 AM Central Time, three more servers are added, and at 5:00 PM Central Time, the servers are removed. There is no other way for the members to be added or removed from that group. In a completely separate Traffic Burst Group, two servers are added for every 10 minutes in which the inbound public traffic across all members averages at 5 MB per second, until it hits the group maximum of five. After the inbound public traffic stays under that amount for 10 minutes, all servers in this group are removed.
+
