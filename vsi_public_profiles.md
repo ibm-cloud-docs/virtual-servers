@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-11"
+lastupdated: "2019-06-14"
 
 keywords: public virtual servers, network traffic, virtual server deployment, profile
 
@@ -207,18 +207,19 @@ The following data centers support balanced local storage virtual servers with l
 {: #local-hdd1}
 {: tab-title="Americas"}
 
-| Available Data Centers - Local HDD |     |
-| ---------------------- | --- |
-| Amsterdam (AMS01)      |     |
+| Available Data Centers - Local HDD |
+| ---------------------- |
+| Amsterdam (AMS01)      |
 {: class="simple-tab-table"}
 {: caption="Table 5. Available data centers (local HDD) - Europe" caption-side="top"}
 {: tab-group="Local-HDD"}
 {: #local-hdd2}
 {: tab-title="Europe"}
 
-| Available Data Centers - Local HDD |       |
-| ---------------------- | ----- |
-| Hong Kong (HKG02)      | Singapore (SNG01) |
+| Available Data Centers - Local HDD |
+| ---------------------- |
+| Hong Kong (HKG02)      | 
+| Singapore (SNG01)      |
 {: class="simple-tab-table"}
 {: caption="Table 6. Available data centers (local HDD) - Asia-Pacific" caption-side="top"}
 {: tab-group="Local-HDD"}
