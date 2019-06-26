@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-06-26"
 
 subcollection: virtual-servers
 
@@ -23,7 +23,9 @@ subcollection: virtual-servers
 ## What types of virtual servers are available for use?
 {: faq}
 
-{{site.data.keyword.BluSoftlayer_full}} offers a couple types of virtual servers. The standard offering is a public-based virtual server, which is a multi-tenant environment, suitable for various needs. If you're looking for a single-tenant environment, consider the Dedicated Virtual Server offering. The dedicated virtual server option is ideal for applications with more stringent resource requirements. For more information about the current virtual server offerings, see [Getting started with virtual servers](/docs/vsi?topic=virtual-servers-getting-started-with-virtual-servers#getting-started-with-virtual-servers).
+{{site.data.keyword.BluSoftlayer_full}} offers a couple types of virtual servers within its Classic Infrastructure. The standard offering is a public-based virtual server, which is a multi-tenant environment, suitable for a variety of needs. If you're looking for a single-tenant environment, consider the Dedicated Virtual Server offering. The dedicated virtual server option is ideal for applications with more stringent resource requirements. For more information about the current virtual server offerings see, [Getting started with virtual servers](/docs/vsi?topic=virtual-servers-getting-started-with-virtual-servers#getting-started-with-virtual-servers).
+
+IBM Cloud offers the Virtual Private Cloud (VPC) Infrastructure, which is the next generation cloud platform. You create your own space in the IBM Cloud to run an isolated environment within the public cloud by using VPC. VPC provides the security of a private cloud with the agility and ease of a public cloud. For more information, see [About Virtual Private Cloud](https://cloud.ibm.com/docs/vpc-on-classic?topic=vpc-on-classic-about).
 
 ## Where can I find pricing information for public instance types?
 {: faq}
@@ -33,7 +35,7 @@ For pricing information, see [Build your virtual server ![External link icon](..
 ## Where can I find pricing information for virtual public instances?
 {: faq}
 
-For pricing information, see the [Virtual servers provisioning calculator ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud-computing/bluemix/virtual-servers/calculator){: new_window}.
+Estimating your cost for an {{site.data.keyword.cloud_notm}} server to support your workload begins in the [IBM Cloud catalog](https://cloud.ibm.com/catalog). From the catalog, select **Compute** and choose the server type - Bare Metal Server, Virtual Server, or Virtual Server for VPC (Virtual Private Cloud). For pricing information, see the [Virtual servers provisioning calculator ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud-computing/bluemix/virtual-servers/calculator){: new_window}.
 
 ## Can I add disk storage to my hourly or monthly Virtual Server?
 {: faq}
