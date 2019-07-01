@@ -149,7 +149,7 @@ IBM Cloud Virtual Servers
     {: .topicgroup}
     Monitoring
         vsi_monitoring_intro.md
-        vsi_viewing_monitors.md
+        /SLmonitoring/slmonitoring-viewing-and-managing-monitors
 
     {: .topicgroup}
     Backing up and recovering
