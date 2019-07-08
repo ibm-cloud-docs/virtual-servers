@@ -81,7 +81,7 @@ Yes. When you import an image, you can specify that you will provide the operati
 
 A virtual server is similar to the virtual private server (VPS) or virtual dedicated server (VDS) platforms you might already be familiar with. These "virtual server" environments allow for distinct environments to be provisioned privately and securely on a single hardware node, but VDS and VPS are more limited in their capabilities. VPS and VDS options are generally confined to a single-server architecture, so the only resources that can be added or divided up between each virtual server on a VDS or VPS are the resources physically installed on that single server.
 
-Virtual servers are provisioned on a multi-server cloud architecture that pools all available hardware resources for individual instances to use. Virtual servers can leverage a shared high-capacity SAN-based primary storage platform or high-performance local disk storage. Because each instances is part of the larger cloud environment, communication between all virtual servers is instantaneous.
+Virtual servers are provisioned on a multi-server cloud architecture that pools all available hardware resources for individual instances to use. Virtual servers can leverage a shared high-capacity SAN-based primary storage platform or high-performance local disk storage. Because each instance is part of the larger cloud environment, communication between all virtual servers is instantaneous.
 
 ## Why do I receive a capacity error when provisioning a virtual server?
 {: faq}
