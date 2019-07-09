@@ -48,7 +48,7 @@ For more information, see the following topics:
 ## Begin the provisioning process
 After you decide upon a deployment option, begin the provisioning process. Refer to the following topics.
 
-Because you started the provisioning process with a custom image, you cannot change the image type during the provisioning process.
+Because you started the provisioning process with a 3rd-party image, you cannot change the image type during the provisioning process.
 {:note}
 
 |              Provisioning Instructions                                         |  Description                                            |
