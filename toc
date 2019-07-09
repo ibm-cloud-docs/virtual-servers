@@ -16,17 +16,18 @@ IBM Cloud Virtual Servers
         vsi_dedicated.md
         vsi_dedicated_host.md
         vsi_dedicated_pricing.md
-        
+
     {: .topicgroup}
     Auto scale
         vsi_about_auto_scale.md
         vsi_auto_scale_apache_brooklyn.md
-        
+
     vsi_public_profiles.md
     vsi_ps_index.md
     vsi_image_templates_intro.md
     vsi_placegroup.md
     vsi_about_suspend.md
+    vsi_about_3rd-party.md
 
     {: .topicgroup}
     Security options
@@ -76,6 +77,7 @@ IBM Cloud Virtual Servers
         vsi_provision_reserved.md
         vsi_dedicated_instances.md
         vsi_provision_dedicated.md
+        vsi_provision_3rd-party.md
 
     {: .topicgroup}
     Configuring
@@ -85,13 +87,13 @@ IBM Cloud Virtual Servers
         vsi_ssh_config.md
         configuring-automated-reclaim-notifications.md
         how-are-server-ip-addresses-assigned-softlayer-network.md
-        
+
     {: .topicgroup}
     Deploying applications
         vsi_deploy.md
-    
+
     logging-in-to-console.md
-    
+
     {: .topicgroup}
     Managing permissions and access
         /iam/iam-mngclassicinfra
@@ -105,7 +107,7 @@ IBM Cloud Virtual Servers
         add-provisioning-script.md
         vsi_vulnerability_scans.md
         vsi_viewing_suspend.md
-    
+
     {: .topicgroup}
     Managing servers with auto scaling
         vsi_auto_scale_permissions.md
