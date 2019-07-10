@@ -14,7 +14,6 @@ subcollection: virtual-servers
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
-{:faq: data-hd-content-type='faq'}
 
 
 # FAQs: Servers (general)
