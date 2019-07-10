@@ -18,14 +18,12 @@ subcollection: virtual-servers
 {:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
-# 3rd party images
+# Third-party images
 {: #about-3rd-party}
 
-Some third party vendors provide images that include specific VSI parameters and software. You can provision a VSI by selection one of these 3rd party images. All requirements, configurations and software are built into the image.
-
+Some third-party vendors provide images that include specific virtual server instance parameters and software. You can provision a virtual server instance by selecting one of these third-party images. All requirements, configurations, and software are built into the image.
+{: shortdesc}
 
 ## Next steps
 
-To provision a VSI using a 3rd party image, see [Provisioning a virtual server instance from a 3rd party image](/docs/vsi?topic=virtual-servers-ordering-3P#ordering-3P).
-
-.
+To provision a virtual server instance using a third-party image, see [Provisioning a virtual server instance from a third-party image](/docs/vsi?topic=virtual-servers-ordering-3P#ordering-3P).
