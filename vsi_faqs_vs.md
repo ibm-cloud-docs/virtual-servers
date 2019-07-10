@@ -83,10 +83,6 @@ A virtual server is similar to the virtual private server (VPS) or virtual dedic
 
 Virtual servers are provisioned on a multi-server cloud architecture that pools all available hardware resources for individual instances to use. Virtual servers can use a shared high-capacity SAN-based primary storage platform or high-performance local disk storage. Because each instance is part of the larger cloud environment, communication between all virtual servers is instantaneous.
 
-<!--## I'm unable to connect to the virtualization API. How can I fix this?-->
-
-<!--This error generally occurs because a password is outdated. To fix this, update the root or Administrator password for the virtual server's operating system in the {{site.data.keyword.slportal_full}}.-->
-
 ## Why do I receive a capacity error when provisioning a virtual server?
 {: faq}
 
