@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-20"
+lastupdated: "2019-07-10"
 
-keywords: cloud image, 3rd party image
+keywords: cloud image, third-party image
 
 subcollection: virtual-servers
 
@@ -27,3 +27,4 @@ Some third-party vendors provide images that include specific virtual server ins
 ## Next steps
 
 To provision a virtual server instance using a third-party image, see [Provisioning a virtual server instance from a third-party image](/docs/vsi?topic=virtual-servers-ordering-3P#ordering-3P).
+
