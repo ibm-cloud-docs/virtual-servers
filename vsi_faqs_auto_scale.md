@@ -12,7 +12,6 @@ subcollection: virtual-servers
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
-{:faq: data-hd-content-type='faq'}
 
 # FAQs: Auto scale
 {: #faqs-auto-scale}
