@@ -14,7 +14,6 @@ subcollection: virtual-servers
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
-{:faq: data-hd-content-type='faq'}
 
 # FAQs: Reserved capacity and instances
 {: #faqs-reserved-capacity-and-instances}
