@@ -180,7 +180,6 @@ IBM Cloud Virtual Servers
         faq_servers_general.md
         vsi_faqs_auto_scale.md
         vsi_faqs_bandwidth_graphs.md
-        [FAQs: OS Reload](/infrastructure/software/software-faqs#faqs)
-        [FAQs: cpsrvd email](/infrastructure/software/software-faqs#why-did-my-cpsrvd-email-fail-)
+        /software/software-faqs
 
     {: .navgroup-end}
