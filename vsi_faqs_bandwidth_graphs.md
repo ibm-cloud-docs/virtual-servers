@@ -15,7 +15,6 @@ subcollection: virtual-servers
 {:pre: .pre}
 {:tip: .tip}
 {:table: .aria-labeledby="caption"}
-{:faq: data-hd-content-type='faq'}
 
 # FAQs: Bandwidth graphs
 {: #faqs-bandwidth-graphs}
