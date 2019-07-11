@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2017
-lastupdated: "2017-12-12"
+  years: 2014, 2019
+lastupdated: "2019-05-28"
 
 subcollection: virtual-servers
 
@@ -13,16 +13,20 @@ subcollection: virtual-servers
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:note: .note}
 {:table: .aria-labeledby="caption"}
 
 # Upgrading port speed in Windows
 {: #upgrading-port-speed-in-windows}
 
-The default port speed for customer servers (for both public and private networks) is 10 Mbps. If you would like to upgrade either of your port speeds to 100 Mbps or 1000 Mbps, open a ticket with the request. Sales asks you to approve the minimal charge and a technician changes the port speeds on your network.
+The default port speed for customer servers (for both public and private networks) is 10 Mbps. If you would like to upgrade either of your port speeds to 100 Mbps or 1000 Mbps, open a ticket with the request. Sales asks you to approve the minimal charge and a technician changes the port speeds on your network. For more information about opening an IBM support ticket, see [Getting support](/docs/get-support?topic=get-support-getting-customer-support).
 
 After the upgrade is completed on the network side, hardcode the appropriate network interfaces on your server.
 
-Follow these steps to force the port speed on a Windows server. **Note:** Always connect to your server on the network that you are NOT working on to avoid locking yourself out of the server.
+Always connect to your server on the network that you are NOT working on to avoid locking yourself out of the server.
+{:note}
+
+Complete the following steps to force the port speed on a Windows server. 
 
 1. Select **Start > Select Control Panel > Select Network Connections**.
 2. Click the network connection that you are trying to upgrade/downgrade.
