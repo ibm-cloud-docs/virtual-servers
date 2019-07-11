@@ -48,7 +48,7 @@ Before you begin, review the following prerequisites.
 
 After you decide upon a deployment option, begin the provisioning process.
 
-|              Provisioning Instructions                                         |  Description                                            |
+|              Provisioning instructions                                         |  Description                                            |
 | -------------------------------------------------------------------------- | ------------------------------------------------------- |
 |[Provisioning public instances](/docs/vsi?topic=virtual-servers-ordering-vs-public)                | Provision public instances with various options             |
 |[Provisioning transient instances](/docs/vsi?topic=virtual-servers-ordering-vs-transient)                | Provision transient instances with various options            |
