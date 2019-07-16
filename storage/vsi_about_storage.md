@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-06-06"
+lastupdated: "2019-07-16"
 
 subcollection: virtual-servers
 
@@ -16,11 +16,11 @@ subcollection: virtual-servers
 # Storage options
 {: #storage-options}
 
-You have the option of SAN (portable SAN) or local storage for each virtual server. You can supplement SAN or local storage with other storage products as needed.
+You have the option of local storage or SAN (portable SAN) for each virtual server. You can supplement local storage or SAN with other storage products as needed.
 
 ## Local storage
 
-Local storage is built on disks that are local to the virtual server host. Local storage provides improved disk read/write performance. The disks are built in a redundant array of independent disks (RAID) configuration for redundancy, disk replacement, and health monitoring which is fully managed by {{site.data.keyword.cloud}}. In newer data centers, this storage is all solid state drive (SSD) to provide the best performance.
+Local storage is built on disks that are local to the virtual server host. Local storage provides improved disk read/write performance. The disks are built in a redundant array of independent disks (RAID) configuration for redundancy, disk replacement, and health monitoring which is fully managed by {{site.data.keyword.cloud}}. In newer data centers, this storage is all solid state drive (SSD) to provide the best performance. For more information about available data centers for local SSD storage, see [Balanced local storage](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#balanced-local-storage).
 
 ## Portable SAN storage
 
