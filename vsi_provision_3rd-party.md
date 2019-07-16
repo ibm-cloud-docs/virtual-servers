@@ -48,7 +48,7 @@ For more information, see the following topics:
 ## Provisioning a virtual server
 After you decide upon a deployment option, begin the provisioning process. For more information, refer to the following topics.
 
-Because you started the provisioning process with a custom image, you cannot change the image type during the provisioning process.
+Because you started the provisioning process with a third-party image, you cannot change the image type during the provisioning process.
 {:note}
 
 |              Provisioning instructions                                         |  Description                                            |
