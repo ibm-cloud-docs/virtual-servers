@@ -76,7 +76,7 @@ If you choose any OS, control panel, or software add-ons, they must be compatibl
 
 ### Attached storage disks
 
-If you need extra storage, you can attach storage disks to your instance. The type of storage disks that are available to you depend on the profile that you select. For example, balanced local profiles and a few of the GPU profiles use local-backed disks. If you select monthly billing, you can add {{site.data.keyword.backup_notm}} and choose the option that best fits your needs. For more information, see [{{site.data.keyword.backup_notm}} services](/docs/infrastructure/Backup?topic=Backup-getting-started).
+If you need extra storage, you can attach storage disks to your instance. The type of storage disks that are available to you depend on the profile that you select. For example, balanced local profiles and a few of the GPU profiles use local storage disks. If you select monthly billing, you can add {{site.data.keyword.backup_notm}} and choose the option that best fits your needs. For more information, see [{{site.data.keyword.backup_notm}} services](/docs/infrastructure/Backup?topic=Backup-getting-started).
 
 ### Network interface
 
