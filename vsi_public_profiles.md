@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-14"
+lastupdated: "2019-07-17"
 
 keywords: public virtual servers, network traffic, virtual server deployment, profile
 
@@ -436,10 +436,10 @@ All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and othe
 
 GPU profiles are best for high-performance workloads that require more compute density to reduce resource management and costs. The GPU profiles are ideal for artificial intelligence processes, intense graphic and data applications, or developing new applications that require fast performance.
 
-Powered by NVDIA Tesla GPUs, {{site.data.keyword.cloud_notm}} Accelerated Compute “ac1” and "ac2" profiles both offer block and local SSD storage. The following GPU profiles are available for you to choose from:  
+Powered by NVDIA Tesla GPUs, {{site.data.keyword.cloud_notm}} Accelerated Compute “ac1” and "ac2" profiles both offer block and local SSD storage. The following GPU profiles are available globally for you to choose from:  
 
 <table>
-<CAPTION>Table 13. P100 GPU profiles</CAPTION>
+<CAPTION>Table 14. P100 GPU profiles</CAPTION>
 <THEAD>
 <TR>
 <th>Profile</th>
@@ -496,11 +496,46 @@ Powered by NVDIA Tesla GPUs, {{site.data.keyword.cloud_notm}} Accelerated Comput
 </TBODY>
 </table>
 
-P100 GPU profiles are available in the _DAL13_, _LON06_, and _WDC07_ data centers.
-{: note}
+<br>
+<br>
+The following data centers support P100 GPU profiles:
+
+| Available Data Centers - P100 GPUs |       
+| ----------------------  | 
+| Dallas (DAL13)          | 
+| Washington , DC (WDC07) |
+{: class="simple-tab-table"}
+{: caption="Table 15. Available data centers (P100 GPUs) - Americas" caption-side="top"}
+{: tab-group="P100 GPUs"}
+{: #local-p100_1}
+{: tab-title="Americas"}
+
+| Available Data Centers - P100 GPUs |
+| ---------------------- |
+| Frankfurt (FRA02)      |
+| London (LON04)         |
+| London (LON06)         |
+{: class="simple-tab-table"}
+{: caption="Table 16. Available data centers (P100 GPUs) - Europe" caption-side="top"}
+{: tab-group="P100 GPUs"}
+{: #local-p100_2}
+{: tab-title="Europe"}
+
+| Available Data Centers - P100 GPUs |
+| ---------------------- |
+| Tokyo (TOK02)          |
+| Sydney (SYD04)         |
+{: class="simple-tab-table"}
+{: caption="Table 17. Available data centers (P100 GPUs) - Asia-Pacific" caption-side="top"}
+{: tab-group="P100 GPUs"}
+{: #local-p100_3}
+{: tab-title="Asia-Pacific"}
+
+<br>
+<br>
 
 <table>
-<CAPTION>Table 14. V100 GPU profiles</CAPTION>
+<CAPTION>Table 18. V100 GPU profiles</CAPTION>
 <THEAD>
 <TR>
 <th>Profile</th>
@@ -557,8 +592,44 @@ P100 GPU profiles are available in the _DAL13_, _LON06_, and _WDC07_ data center
 </TBODY>
 </table>
 
-V100 GPU profiles are available in the _DAL10_, _DAL12_, and _LON04_, and _WDC07_ data centers.
-{: note}
+<br>
+<br>
+
+You can also choose V100 GPUs. The following data centers support V100 GPU profiles:
+
+| Available Data Centers - V100 GPUs |       
+| ----------------------  |
+| Dallas (DAL10)          |
+| Dallas (DAL12)          |
+| Washington , DC (WDC07) |
+{: class="simple-tab-table"}
+{: caption="Table 19. Available data centers (V100 GPUs) - Americas" caption-side="top"}
+{: tab-group="V100 GPUs"}
+{: #local-v100_1}
+{: tab-title="Americas"}
+
+| Available Data Centers - V100 GPUs |
+| ---------------------- | 
+| Frankfurt (FRA02)      |  
+| London (LON04)         | 
+{: class="simple-tab-table"}
+{: caption="Table 20. Available data centers (V100 GPUs) - Europe" caption-side="top"}
+{: tab-group="V100 GPUs"}
+{: #local-v100_2}
+{: tab-title="Europe"}
+
+| Available Data Centers - V100 GPUs |
+| ---------------------- |
+| Tokyo (TOK02)          |
+| Sydney (SYD04)         |
+{: class="simple-tab-table"}
+{: caption="Table 21. Available data centers (V100 GPUs) - Asia-Pacific" caption-side="top"}
+{: tab-group="V100 GPUs"}
+{: #local-v100_3}
+{: tab-title="Asia-Pacific"}
+
+<br>
+<br>
 
 ### GPU prerequisites
 Review the following GPU prerequisites.
@@ -566,8 +637,10 @@ Review the following GPU prerequisites.
 1. GPU profile virtual servers are only available on an operating system that supports Hardware Virtual Machine (HVM) boot mode. See the following list for operating systems that support HVM boot mode.  
   - CentOS 7
   - Debian 8
+  - Debian 9
   - RHEL 7
   - Ubuntu 16
+  - Ubuntu 18
   - Windows 2012 R2
   - Windows 2016
 
@@ -581,4 +654,3 @@ You can change the number of GPUs on your virtual server after your initial orde
 
 - If one GPU is provisioned, you can add another GPU, or
 - If two GPUs are provisioned, you can fallback to one GPU
-
