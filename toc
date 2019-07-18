@@ -180,6 +180,8 @@ IBM Cloud Virtual Servers
         faq_servers_general.md
         vsi_faqs_auto_scale.md
         vsi_faqs_bandwidth_graphs.md
+        image-templates-faqs.md
         /software/software-faqs
+        ssh-keys-faq.md
 
     {: .navgroup-end}
