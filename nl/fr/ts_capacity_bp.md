@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2018-01-03"
+  years: 2017, 2019
+lastupdated: "2019-04-05"
 
 subcollection: virtual-servers
 
@@ -17,7 +17,7 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 
-# Remarques sur la capacité
+# Considérations relatives aux ressources pour les instances de serveur virtuel 
 {: #capacity-considerations}
 
 ## Quel est le problème ?
@@ -34,7 +34,7 @@ Lorsque la mise à disposition échoue, toutes les instances de serveur virtuel 
 
 ## Pourquoi ?
 
-Une erreur de capacité se produit lorsque le nombre de ressources disponibles est insuffisant dans le routeur ou dans le centre de données pour répondre à la demande de service. Il existe une série de raisons pour lesquelles cette erreur peut se produire. La disponibilité des ressources change fréquemment, et il est donc conseillé d'attendre et de réessayer plus tard.
+Une erreur se produit lorsque le nombre de ressources disponibles est insuffisant dans le routeur ou dans le centre de données pour répondre à la demande de service. Il existe une série de raisons pour lesquelles cette erreur peut se produire. La disponibilité des ressources change fréquemment, et il est donc conseillé d'attendre et de réessayer plus tard.
 
 ## Comment résoudre le problème ?
 

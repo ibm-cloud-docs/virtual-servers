@@ -252,7 +252,7 @@ Tous les systèmes d'exploitation pris en charge (RHEL, CentOS, Windows, Ubuntu 
 *	Le stockage Balanced Local est disponible dans le monde entier. Le type de stockage (unité SSD locale ou unité de disque dur locale) dépend toutefois de l'emplacement du centre de données.
 *	Vous ne pouvez pas déconnecter les disques principaux ou secondaires.
 
-Les centres de données suivants prennent en charge les serveurs virtuels de stockage Balanced Local sur unité SSD locale :
+Les centres de données suivants prennent en charge les serveurs virtuels de stockage local Balanced sur unité SSD locale :
 
 |Centres de données (unité SSD locale) |        |         |
 |------- |------  |------ |

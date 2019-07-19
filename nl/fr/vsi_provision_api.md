@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-04"
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -14,6 +14,7 @@ subcollection: virtual-servers
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:tip: .tip}
+{:note: .note}
 {:table: .aria-labeledby="caption"}
 
 # Exemples d'API : profils de serveurs virtuels
@@ -33,6 +34,9 @@ Non applicable aux instances transitoires.
 {:tip}
 
 Pour mettre à disposition une instance de serveur virtuel public en utilisant REST, une demande POST est soumise dans https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ avec l'élément JSON suivant dans le corps de la demande.
+
+Le corps de demande JSON suivant est un exemple générique. 
+{:note}
 
 ### Corps de demande JSON 1
 ```
@@ -67,7 +71,11 @@ Non applicable aux instances transitoires.
 
 Pour mettre à disposition un serveur virtuel public en utilisant REST, une demande POST est soumise dans https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ avec l'élément JSON suivant dans le corps de la demande.
 
-**Remarque :** Les descriptions d'élément ne sont pas requises sur les prix. Elles sont incluses uniquement pour afficher les options de produit soumises.
+Les descriptions d'élément ne sont pas requises sur les prix. Elles sont incluses uniquement pour afficher les options de produit soumises.
+{:note}
+
+Le corps de demande JSON suivant est un exemple générique. 
+{:note}
 
 ### Corps de demande JSON 2
 ```
@@ -167,7 +175,11 @@ Non applicable aux instances transitoires.
 
 Pour mettre à disposition un serveur virtuel public en utilisant REST, une demande POST est soumise dans https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ avec l'élément JSON suivant dans le corps de la demande.
 
-**Remarque :** Les descriptions d'élément ne sont pas requises sur les prix. Elles sont incluses uniquement pour afficher les options de produit soumises.
+Les descriptions d'élément ne sont pas requises sur les prix. Elles sont incluses uniquement pour afficher les options de produit soumises.
+{:note}
+
+Le corps de demande JSON suivant est un exemple générique. 
+{:note}
 
 ### Corps de demande JSON 3
 ```
@@ -210,6 +222,9 @@ Pour mettre à disposition un serveur virtuel public en utilisant REST, une dema
 Le service d'API *SoftLayer_Virtual_Guest/createObject* offre le meilleur moyen de mettre à disposition une instance de serveur virtuel transitoire.
 
 Pour mettre à disposition une instance de serveur virtuel transitoire en utilisant REST, une demande POST est soumise dans https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ avec l'élément JSON suivant dans le corps de la demande.
+
+Le corps de demande JSON suivant est un exemple générique. 
+{:note}
 
 ### Corps de la demande JSON 4
 ```

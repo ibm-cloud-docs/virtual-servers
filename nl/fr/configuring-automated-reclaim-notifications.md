@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-05-11"
+  years: 2018, 2019
+lastupdated: "2019-06-03"
 
 subcollection: virtual-servers
 
@@ -30,7 +30,7 @@ La notification `reclaim-scheduled` est une fonction de rappel webhook : une not
 ## Mise à disposition d'une instance de serveur virtuel transitoire
 {: #provision-transient-virtual-server}
 
-Les serveurs virtuels transitoires peuvent être mis à disposition via le portail [{{site.data.keyword.slportal_full}} ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){: new_window} ou par le biais de l'[API SLDN![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](http://sldn.softlayer.com){: new_window}. Pour plus d'informations, voir [Mise à disposition d'instances transitoires](/docs/vsi?topic=virtual-servers-ordering-vs-transient).
+Les serveurs virtuels transitoires peuvent être mis à disposition via la console {{site.data.keyword.cloud_notm}}, {{site.data.keyword.slportal}} ou l'[API SLDN ![Icône de lien externe](../icons/launch-glyph.svg "Icône de lien externe")](http://sldn.softlayer.com){: new_window}. Pour plus d'informations, voir [Mise à disposition d'instances transitoires](/docs/vsi?topic=virtual-servers-ordering-vs-transient#ordering-vs-transient).
 
 ## Configuration de la fonction de rappel webhook
 

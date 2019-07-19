@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-06"
 
 keywords: virtual server, suspend billing feature, virtual server instances, suspend billing
 
@@ -18,9 +18,10 @@ subcollection: virtual-servers
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:row-headers: .row-headers}
 {:table: .aria-labeledby="caption"}
 
-# A propos de l'interruption de facturation
+# Interruption de la facturation
 {: #requirements}
 
 Lorsque vous mettez hors tension un serveur virtuel prenant en charge la fonction d'interruption de facturation, les coûts relatifs à certaines ressources de traitement ne sont pas décomptés. La facturation s'arrête automatiquement lorsque le serveur est mis hors tension. La fonction d'interruption de facturation vous permet de réduire les coûts et vous évite d'avoir à remettre à disposition un serveur virtuel quand vous avez à nouveau besoin de ses ressources.
@@ -39,7 +40,7 @@ Cette fonction est disponible dans les centres de données du monde entier. Pour
 Vous pouvez utiliser la fonction d'interruption de facturation comme une alternative plus rapide à la mise à disposition et à la récupération d'une instance de serveur virtuel.
 {:tip}
 
-La facturation est uniquement suspendue lorsque vous mettez hors tension votre instance de serveur virtuel via le portail {{site.data.keyword.slportal_full}}, l'interface de ligne de commande ou l'API {{site.data.keyword.slapi_short}}. Si vous mettez hors tension votre instance de serveur virtuel directement à travers le système d'exploitation, la facturation n'est pas suspendue pour cette instance.
+La facturation est uniquement interrompue lorsque vous mettez hors tension votre instance de serveur virtuel via la console {{site.data.keyword.cloud}}, l'interface de ligne de commande ou {{site.data.keyword.slapi_short}}. Si vous mettez hors tension votre instance de serveur virtuel directement à travers le système d'exploitation, la facturation n'est pas interrompue pour cette instance.
 {:note}
 
 ## Détails de la mise à disposition
@@ -60,16 +61,19 @@ Il est important de distinguer/connaître les coûts qui ne sont pas décomptés
 
 | Ressource                      | Arrêt de la facturation   | Poursuite de la facturation |
 | ----------------------------- | ----------------- | ---------------- |
-| UC virtuelle                          |          X        |                  |
-| RAM                           |          X        |                  |
-| Vitesse de port                    |          X        |                  |
-| Licences de système d'exploitation     |          X        |                  |
-| Surveillance des modules complémentaires            |          X        |                  |
-| Adresse IP publique secondaire |                   |         X        |
-| Stockage                       |                   |         X        |
-{: caption="Tableau 1. Détails de facturation des ressources" caption-side="top"}   
+| UC virtuelle                          | ![Icône de coche](../../icons/checkmark-icon.svg) |                  |
+| RAM                           | ![Icône de coche](../../icons/checkmark-icon.svg) |                  |
+| Vitesse de port                    | ![Icône de coche](../../icons/checkmark-icon.svg) |                  |
+| Licences de système d'exploitation     | ![Icône de coche](../../icons/checkmark-icon.svg) |                  |
+| Surveillance des modules complémentaires            | ![Icône de coche](../../icons/checkmark-icon.svg) |                  |
+| Adresse IP publique secondaire |                   | ![Icône de coche](../../icons/checkmark-icon.svg) |
+| Stockage                       |                   | ![Icône de coche](../../icons/checkmark-icon.svg) |
+{: row-headers}
+{: class="comparison-table"}
+{: caption="Tableau 1. Détails de facturation des ressources" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify the resource. The column headers identify whether billing stops or persists when your instance is powered off. To understand whether billing stops or persists for a resource, navigate to the row in the table, and find the billing information you are interested in."}  
 
-Lorsque vous mettez à disposition une instance de serveur virtuel qui prend en charge la fonction d'interruption de facturation, les durées d'utilisation sont calculées par minute, aussi bien pour la durée d'utilisation que pour la durée d'interruption de votre instance de serveur virtuel. Même si vous n'avez jamais initié la fonction d'interruption de facturation en mettant votre instance hors tension, la facturation est calculée par minute de cycle de vie de l'instance.
+Lorsque vous mettez à disposition une instance de serveur virtuel qui prend en charge la fonction d'interruption de facturation, les durées d'utilisation sont calculées par seconde, aussi bien pour la durée d'utilisation que pour la durée d'interruption de votre instance de serveur virtuel. Même si vous n'avez jamais initié la fonction d'interruption de la facturation en arrêtant votre instance, les coûts sont calculés à la seconde pour le cycle de vie de l'instance.
 {:note}
 
 ### Charge d'utilisation minimale

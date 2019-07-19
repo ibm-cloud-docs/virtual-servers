@@ -64,7 +64,7 @@ Pour mettre à disposition une instance de serveur virtuel dédiée via le porta
     <td>Nombre d'instances dédiées à déployer.</td>
     </tr>
     <tr>
-    <td>Emplacement</td>
+    <td>Placement</td>
     <td>
     <ul>
     <li>Affectation automatique – {{site.data.keyword.Bluemix_notm}} affecte automatiquement votre instance à un hôte dans votre centre de données sélectionné.</li>
@@ -152,4 +152,4 @@ Pour mettre à disposition une instance de serveur virtuel dédiée via le porta
     Plusieurs messages électroniques sont envoyés à votre administrateur (accusé de réception de la commande de mise à disposition, approbation et traitement de la commande de mise à disposition et mise à disposition terminée). Le message électronique indiquant que la mise à disposition est terminée inclut un lien vous dirigeant directement vers la page **Détails de l'unité** après la connexion à {{site.data.keyword.Bluemix_notm}}. Vous pouvez également vous connecter directement au portail {{site.data.keyword.slportal}}.
 
 ## Etapes suivantes
-Une fois que votre serveur virtuel est mis à disposition, vous pouvez commencer à le gérer. Pour plus d'informations, voir [Gestion des serveurs virtuels](/docs/vsi?topic=virtual-servers-managing-virtual-servers).
+Une fois que votre serveur virtuel est mis à disposition et est disponible pour être utilisé, vous pouvez configurer vos serveurs virtuels en utilisant le portail {{site.data.keyword.slportal_full}} ou l'API {{site.data.keyword.slapi_full}}. Pour plus d'informations, voir [Configuration des serveurs virtuels](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).

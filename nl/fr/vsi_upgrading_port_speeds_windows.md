@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2017
-lastupdated: "2017-12-12"
+  years: 2014, 2019
+lastupdated: "2019-05-28"
 
 subcollection: virtual-servers
 
@@ -13,16 +13,20 @@ subcollection: virtual-servers
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:note: .note}
 {:table: .aria-labeledby="caption"}
 
 # Augmentation de la vitesse de port dans Windows
 {: #upgrading-port-speed-in-windows}
 
-La vitesse de port par défaut pour les serveurs client est de 10 Mbits/s (pour les réseaux publics comme pour les réseaux privés). Si vous souhaitez augmenter vos vitesses de port à 100 Mbits/s ou 1000 Mbits/s, ouvrez un ticket et formulez une demande. Le département des ventes vous demandera d'approuver les frais minimaux et un technicien changera les vitesses de port sur votre réseau.
+La vitesse de port par défaut pour les serveurs client est de 10 Mbits/s (pour les réseaux publics comme pour les réseaux privés). Si vous souhaitez augmenter vos vitesses de port à 100 Mbits/s ou 1000 Mbits/s, ouvrez un ticket et formulez une demande. Le département des ventes vous demandera d'approuver les frais minimaux et un technicien changera les vitesses de port sur votre réseau. Pour plus d'informations sur l'ouverture d'un ticket de support IBM, voir [Support](/docs/get-support?topic=get-support-getting-customer-support).
 
 Une fois la mise à jour effectuée du côté du réseau, codez les interfaces réseau pertinentes sur votre serveur.
 
-Suivez les étapes suivantes pour forcer la vitesse de port sur un serveur Windows. **Remarque :** connectez-vous toujours à votre serveur sur le réseau sur lequel vous ne travaillez PAS afin d'éviter de bloquer votre accès au serveur.
+Connectez-vous toujours à votre serveur sur le réseau sur lequel vous ne travaillez PAS afin d'éviter de bloquer votre accès au serveur.
+{:note}
+
+Effectuez les étapes suivantes pour forcer la vitesse de port sur un serveur Windows.  
 
 1. Sélectionnez **Démarrer > Panneau de configuration > Connexions réseau**.
 2. Cliquez sur la connexion réseau que vous tentez de mettre à niveau/rétromigrer.

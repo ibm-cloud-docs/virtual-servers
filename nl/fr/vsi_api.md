@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-25"
+  years: 2017, 2018
+lastupdated: "2018-04-03"
 
 subcollection: virtual-servers
 
@@ -15,10 +15,10 @@ subcollection: virtual-servers
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Référence d'API
+# Vue d'ensemble des références d'API 
 {: #api-reference}
 
-L'API {{site.data.keyword.slapi_full}} constitue l'interface de développement permettant aux développeurs et aux administrateurs système de gérer l'interaction avec le système dorsal d'{{site.data.keyword.cloud}}. Un grand nombre de fonctions du portail {{site.data.keyword.slportal_full}} sont également disponibles dans l'API {{site.data.keyword.slapi_short}}. Autrement dit, si une interaction est possible dans le portail {{site.data.keyword.slportal}}, elle peut également être exécutée dans l'API. Etant donné que vous pouvez interagir à l'aide d'un programme avec l'ensemble de l'environnement {{site.data.keyword.BluSoftlayer_full}} dans l'API, l'API {{site.data.keyword.slapi_short}} vous permet d'automatiser les tâches. Vous pouvez, par exemple, utiliser l'API *SoftLayer_Virtual_Guest/createObject* pour déployer une instance de serveur virtuel.
+L'API {{site.data.keyword.slapi_full}} constitue l'interface de développement permettant aux développeurs et aux administrateurs système de gérer l'interaction avec le système dorsal d'{{site.data.keyword.cloud_notm}}. {{site.data.keyword.slapi_short}} optimise de nombreuses fonctionnalités de la console {{site.data.keyword.cloud_notm}}, ce qui signifie généralement que si une interaction est possible dans la console {{site.data.keyword.cloud_notm}}, elle peut également être exécutée dans l'API. Etant donné que vous pouvez interagir à l'aide d'un programme avec l'ensemble de l'environnement {{site.data.keyword.cloud_notm}} dans l'API, l'API {{site.data.keyword.slapi_short}} vous permet d'automatiser les tâches. Vous pouvez, par exemple, utiliser l'API *SoftLayer_Virtual_Guest/createObject* pour déployer une instance de serveur virtuel.
 {:shortdesc}
 
 L'API {{site.data.keyword.slapi_short}} est un système d'appel de procédure distante (RPC). Chaque appel implique l'envoi de données vers un noeud final d'API et la réception de données structurées. Le format utilisé pour l'envoi et la réception de données avec l'API {{site.data.keyword.slapi_short}} dépend de l'implémentation choisie pour l'API . L'API {{site.data.keyword.slapi_short}} utilise actuellement SOAP, XML-RPC ou REST pour la transmission des données.

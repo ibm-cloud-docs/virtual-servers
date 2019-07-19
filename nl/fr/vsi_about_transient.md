@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-04"
+lastupdated: "2019-06-04"
 
 keywords: transient virtual servers, transient instances, transient offering, cost savings
 
@@ -32,24 +32,29 @@ Les serveurs virtuels transitoires offrent la flexibilité suivante :
 
     Les serveurs virtuels transitoires sont idéaux pour les charges de travail non associées à un environnement de production. Par exemple, vous pouvez utiliser une instance transitoire pour tester et développer des applications ou pour tester la mise à l'échelle dans des environnements qui ne nécessitent pas une disponibilité constante.
 
-Les instances transitoires sont des instances publiques qui utilisent un stockage SAN.
+Les instances transitoires sont des instances publiques qui utilisent un stockage SAN. Les familles d'instances publiques suivantes sont disponibles pour cette offre. 
+
+| Familles | Description                                                                                              |
+| ----------------------- | -------------------------------------------------------------------------------------------------------- | 
+| [Balanced](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#balanced) | Choix recommandé pour les charges de travail de cloud communes nécessitant un équilibre entre les performances et l'évolutivité. Utilise un stockage sur réseau.|
+| [Compute](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#compute) | Choix recommandé pour les charges de travail de trafic Web modéré à élevé.|
+| [Memory](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#memory)  | Choix recommandé pour les charges de travail d'analyse en temps réel et de mise en cache de mémoire. |
+{: caption="Tableau 1. Sélections de familles de serveurs virtuels publics " caption-side="top"}
 
 ## Notifications
-Vous pouvez utiliser l'{{site.data.keyword.slapi_short}} pour recevoir des notifications lorsque des ressources sont disponibles pour une instance transitoire. Vous pouvez également utiliser l'API pour mettre à disposition un serveur virtuel transitoire à l'aide d'un programme lorsque des ressources deviennent disponibles. De même, vous pouvez utiliser l'API pour arrêter de mettre à disposition des instances à l'aide d'un programme lorsque des ressources deviennent indisponibles. Pour plus d'informations, voir [Configuration des notifications pour la récupération des serveurs virtuels transitoires](/docs/vsi?topic=virtual-servers-configuring-notifications-for-reclaims-of-transient-virtual-servers).
+Vous pouvez utiliser l'{{site.data.keyword.slapi_short}} pour recevoir des notifications lorsque des ressources sont disponibles pour une instance transitoire. Vous pouvez également utiliser l'API pour mettre à disposition un serveur virtuel transitoire à l'aide d'un programme lorsque des ressources deviennent disponibles. De même, vous pouvez utiliser l'API pour arrêter de mettre à disposition des instances à l'aide d'un programme lorsque des ressources deviennent indisponibles. Pour plus d'informations, voir [Configuration des notifications pour la récupération des serveurs virtuels transitoires](/docs/vsi?topic=virtual-servers-configuring-notifications-for-reclaims-of-transient-virtual-servers#configuring-notifications-for-reclaims-of-transient-virtual-servers).  
 
 ## Limitations
 Tenez compte des limitations suivantes avant de mettre à disposition un serveur virtuel transitoire.
 
-* Le nombre d'instances simultanées prises en charge dépend du quota d'unités de votre compte. Pour en savoir plus sur les limites d'instances simultanées, voir la section [Foire aux questions : serveurs virtuels](/docs/vsi?topic=virtual-servers-faqs-virtual-servers#concurrent).
+* Le nombre d'instances simultanées prises en charge dépend du quota d'unités de votre compte. Pour en savoir plus sur les limites d'instances simultanées, voir la section [Foire aux questions : serveurs virtuels](/docs/vsi?topic=virtual-servers-faqs-virtual-servers#faqs-virtual-servers).
 * Les instances transitoires ne peuvent pas être mises à niveau ni rétromigrées.
 * Les ressources peuvent être récupérées à tout moment, sans notification.
 * Les instances transitoires ne peuvent pas utiliser la mémoire locale.
-* Les instances transitoires peuvent uniquement utiliser le stockage SAN (balanced, compute, memory).
 * Les instances transitoires ne peuvent pas utiliser les profils basés sur le GPU.
 
 
 ## Etapes suivantes
 
-Après avoir vérifié et sélectionné votre version de serveur virtuel, mettez à disposition votre serveur virtuel transitoire. Pour commencer, consultez les rubriques suivantes :
-1. [Mise à disposition de sélections](/docs/vsi?topic=virtual-servers-provisioning-selections)
-2. [Mise à disposition d'instances transitoires](/docs/vsi?topic=virtual-servers-ordering-vs-transient)
+Après avoir vérifié et sélectionné votre profil de serveur virtuel, mettez à disposition votre serveur virtuel transitoire. Pour commencer, voir [Mise à disposition d'instances transitoires](/docs/vsi?topic=virtual-servers-ordering-vs-transient#ordering-vs-transient).
+

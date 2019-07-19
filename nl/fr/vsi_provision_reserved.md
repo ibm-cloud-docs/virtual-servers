@@ -69,4 +69,6 @@ Après avoir mis à disposition votre capacité réservée, vous devez mettre à
 
 ## Etapes suivantes
 
-Après avoir mis à disposition votre capacité et vos instances de serveur virtuel réservées, vous pouvez commencer à les gérer. Pour plus d'informations, voir [Gestion des serveurs virtuels](/docs/vsi?topic=virtual-servers-managing-virtual-servers). En cas de questions concernant la capacité et les instances réservées, veuillez vous reporter à [FAQ : Capacité et instances réservées](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances).
+Une fois que votre serveur virtuel est mis à disposition et est disponible pour être utilisé, vous pouvez configurer vos serveurs virtuels à l'aide de la console {{site.data.keyword.cloud_notm}} ou de {{site.data.keyword.slapi_short}}. Pour plus d'informations, voir [Configuration des serveurs virtuels](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).
+
+En cas de questions concernant la capacité et les instances réservées, veuillez vous reporter à [Foire aux questions : capacité et instances réservées](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances#faqs-reserved-capacity-and-instances). 

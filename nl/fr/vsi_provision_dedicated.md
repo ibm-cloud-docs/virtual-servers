@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-24"
+  years: 2017, 2019
+lastupdated: "2019-05-16"
 
 subcollection: virtual-servers
 
@@ -72,7 +72,7 @@ La page de configuration du serveur Cloud** s'affiche. Sur cette page, vous pouv
     <td>Sélectionnez le centre de données {{site.data.keyword.cloud}} dans lequel placer vos hôtes. Pour obtenir la liste des centres de données applicables, voir A propos de.</td>
     </tr>
     <td>Hôte dédié</td>
-    <td>Valeur par défaut : 56 coeurs X 242 RAM X 1,2 To</td>
+    <td>La configuration par défaut est 56 coeur X 242 RAM X 1,2 To, mais vous pouvez choisir parmi d'autres configurations. </td>
     </tr>
     </TBODY>
     </table>
@@ -147,7 +147,7 @@ Pour mettre à disposition vos instances d'hôte dédiées via le portail {{site
     <td>Nombre d'instances d'hôte dédiées à déployer sur un seul hôte.</td>
     </tr>
     <tr>
-    <td>Emplacement</td>
+    <td>Placement</td>
     <td>
     <ul>
     <li>Affectation automatique – {{site.data.keyword.Bluemix_notm}} affecte automatiquement votre instance à un hôte sans que vous n'ayez besoin d'en indiquer un. Votre instance est placée dans un centre de données disposant de capacité. Si vous affectez automatiquement votre instance, vous n'utiliserez pas la capacité de vos hôtes dédiés.</li>
@@ -236,4 +236,4 @@ Pour mettre à disposition vos instances d'hôte dédiées via le portail {{site
 Une fois vos instances d'hôte dédiées mises à disposition, vous recevez un message électronique.
 
 ## Etapes suivantes
-Une fois que votre serveur virtuel est mis à disposition, vous pouvez commencer à le gérer. Pour plus d'informations, voir [Gestion des serveurs virtuels](/docs/vsi?topic=virtual-servers-managing-virtual-servers).
+Une fois que votre serveur virtuel est mis à disposition et est disponible pour être utilisé, vous pouvez configurer vos serveurs virtuels en utilisant le portail {{site.data.keyword.slportal_full}} ou l'API {{site.data.keyword.slapi_full}}. Pour plus d'informations, voir [Configuration des serveurs virtuels](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).
