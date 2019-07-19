@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-25"
+  years: 2017, 2018
+lastupdated: "2018-04-03"
 
 subcollection: virtual-servers
 
@@ -15,10 +15,10 @@ subcollection: virtual-servers
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Referencia de API
+# Visión general de la referencia de la API
 {: #api-reference}
 
-{{site.data.keyword.slapi_full}} es la interfaz de desarrollo que proporciona a los desarrolladores y a los administradores del sistema la interacción directa con el sistema de fondo de {{site.data.keyword.cloud}}. {{site.data.keyword.slapi_short}} alimenta muchas de las características del {{site.data.keyword.slportal_full}}, lo que normalmente significa que si una acción se puede ejecutar en el {{site.data.keyword.slportal}}, también se puede ejecutar en la API. Puesto que puede interactuar mediante programación con todas las partes del entorno de {{site.data.keyword.BluSoftlayer_full}} dentro de la API, {{site.data.keyword.slapi_short}} le permite automatizar las tareas. Por ejemplo, puede utilizar la API *SoftLayer_Virtual_Guest/createObject* para desplegar una instancia del servidor virtual.
+{{site.data.keyword.slapi_full}} es la interfaz de desarrollo que proporciona a los desarrolladores y a los administradores del sistema la interacción directa con el sistema de fondo de {{site.data.keyword.cloud_notm}}. La {{site.data.keyword.slapi_short}} alimenta muchas de las características de la consola de {{site.data.keyword.cloud_notm}}, lo que normalmente significa que si una acción se puede ejecutar en la consola de {{site.data.keyword.cloud_notm}}, también se puede ejecutar en la API. Puesto que puede interactuar mediante programación con todas las partes del entorno de {{site.data.keyword.cloud_notm}} dentro de la API, {{site.data.keyword.slapi_short}} le permite automatizar las tareas. Por ejemplo, puede utilizar la API *SoftLayer_Virtual_Guest/createObject* para desplegar una instancia del servidor virtual.
 {:shortdesc}
 
 La {{site.data.keyword.slapi_short}} es un sistema de llamada a procedimiento remoto. Cada llamada implica el envío de datos a un punto final de API y la recepción de datos estructurados. El formato utilizado para enviar y recibir datos con la {{site.data.keyword.slapi_short}} depende de la implementación de la API que se elija. Actualmente la {{site.data.keyword.slapi_short}} utiliza SOAP, XML-RPC o REST para la transmisión de datos.

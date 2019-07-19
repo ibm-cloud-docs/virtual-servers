@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-08-23"
+  years: 2017, 2019
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -11,6 +11,7 @@ subcollection: virtual-servers
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
+{:note: .note}
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
@@ -26,9 +27,10 @@ Los cortafuegos están disponibles como una característica adicional para todos
 
 Como parte del proceso del pedido, puede seleccionar un hardware específico del dispositivo o un software de cortafuegos para proporcionar protección. Como alternativa, puede desplegar dispositivos cortafuegos dedicados en el entorno y desplegar el servidor virtual en una VLAN protegida.  
 
-**Nota:** un servidor virtual no puede estar protegido por dos dispositivos cortafuegos en la misma interfaz.
+Un servidor virtual no puede estar protegido por dos dispositivos cortafuegos en la misma interfaz. 
+{:note}
 
 Para obtener más información, consulte las siguientes recopilaciones de temas de seguridad.
 
-* [Cortafuegos de hardware (compartido)](/docs/infrastructure/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started-with-hardware-firewall-shared)
-* [Cortafuegos de hardware (dedicado)](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-getting-started-with-hardware-firewall-dedicated)
+* [Cortafuegos de hardware (compartido)](/docs/infrastructure/hardware-firewall-shared?topic=hardware-firewall-shared-about-hardware-firewall-shared-)
+* [Cortafuegos de hardware (dedicado)](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-about-the-hardware-firewall-dedicated-)

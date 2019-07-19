@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-06"
 
 keywords: virtual server, suspend billing feature, virtual server instances, suspend billing
 
@@ -18,9 +18,10 @@ subcollection: virtual-servers
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:row-headers: .row-headers}
 {:table: .aria-labeledby="caption"}
 
-# Acerca de la suspensión de facturación
+# Suspensión de la facturación
 {: #requirements}
 
 Cuando se desactiva un servidor virtual que da soporte a la característica de suspensión de facturación, no se acumulan los costes correspondientes a determinados recursos de cálculo. La facturación se detiene automáticamente cuando el servidor está apagado. La característica de suspensión de facturación le ayuda a reducir el coste e impide que tenga que volver a suministrar un servidor virtual cuando vuelva a necesitar sus recursos.
@@ -39,7 +40,7 @@ Esta característica está disponible en los centros de datos de todo el mundo. 
 Puede utilizar la característica de suspensión de facturación como una alternativa más rápida para suministrar y reclamar una instancia de servidor virtual.
 {:tip}
 
-La facturación solo se suspende cuando apaga la instancia del servicio virtual a través del {{site.data.keyword.slportal_full}}, la CLI o {{site.data.keyword.slapi_short}}. Si apaga el servidor virtual directamente mediante el SO, no se suspende la facturación correspondiente a esa instancia.
+La facturación solo se suspende cuando apaga la instancia del servicio virtual a través de la consola de {{site.data.keyword.cloud}}, la CLI o la {{site.data.keyword.slapi_short}}. Si apaga el servidor virtual directamente mediante el SO, no se suspende la facturación correspondiente a esa instancia.
 {:note}
 
 ## Detalles de suministro
@@ -60,16 +61,19 @@ Es importante comprender qué costes se detienen y qué costes persisten cuando 
 
 | Recurso                      | Fact. detenida   | Fact. persiste |
 | ----------------------------- | ----------------- | ---------------- |
-| vCPU                          |          X        |                  |
-| RAM                           |          X        |                  |
-| Velocidad de puerto                    |          X        |                  |
-| Licencias de sistema operativo     |          X        |                  |
-| Complementos de supervisión            |          X        |                  |
-| IP públicas secundarias |                   |         X        |
-| Almacenamiento                       |                   |         X        |
-{: caption="Tabla 1. Detalles de facturación de recursos" caption-side="top"}   
+| vCPU                          | ![Icono de marca de selección](../../icons/checkmark-icon.svg) |                  |
+| RAM                           | ![Icono de marca de selección](../../icons/checkmark-icon.svg) |                  |
+| Velocidad de puerto                    | ![Icono de marca de selección](../../icons/checkmark-icon.svg) |                  |
+| Licencias de sistema operativo     | ![Icono de marca de selección](../../icons/checkmark-icon.svg) |                  |
+| Complementos de supervisión            | ![Icono de marca de selección](../../icons/checkmark-icon.svg) |                  |
+| IP públicas secundarias |                   | ![Icono de marca de selección](../../icons/checkmark-icon.svg) |
+| Almacenamiento                       |                   | ![Icono de marca de selección](../../icons/checkmark-icon.svg) |
+{: row-headers}
+{: class="comparison-table"}
+{: caption="Tabla 1. Detalles de facturación de recursos" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify the resource. The column headers identify whether billing stops or persists when your instance is powered off. To understand whether billing stops or persists for a resource, navigate to the row in the table, and find the billing information you are interested in."}  
 
-Cuando suministra una instancia de servidor virtual que soporta la característica de suspensión de facturación, los tiempos de uso se calculan por minuto, tanto para el tiempo en uso como para el tiempo de suspensión de la instancia del servidor virtual. Incluso si nunca inicia la característica de suspensión de facturación apagando la instancia, la facturación se calcula por minuto del ciclo de vida de la instancia.
+Cuando suministra una instancia de servidor virtual que soporta la característica de suspensión de facturación, los tiempos de uso se calculan por segundo, tanto para el tiempo en uso como para el tiempo de suspensión de la instancia del servidor virtual. Incluso si nunca inicia la característica de suspensión de facturación apagando la instancia, la facturación se calcula por segundo del ciclo de vida de la instancia.
 {:note}
 
 ### Cargo por uso mínimo

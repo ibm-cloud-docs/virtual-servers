@@ -152,4 +152,5 @@ Para suministrar una instancia de servidor virtual dedicada a través del {{site
     Se enviará una serie de correos electrónicos al administrador: acuse de recibo del pedido de suministro, aprobación y proceso del pedido de suministro y suministro completado. El correo electrónico de suministro completado incluirá un enlace que le llevará directamente a la página **Detalles del dispositivo** después de iniciar una sesión en {{site.data.keyword.Bluemix_notm}}. Otra opción sería iniciar la sesión directamente en el {{site.data.keyword.slportal}}.
 
 ## Siguientes pasos
-Una vez suministrado el servidor virtual, puede empezar a gestionarlo. Para obtener más información, consulte [Gestión de servidores virtuales](/docs/vsi?topic=virtual-servers-managing-virtual-servers).
+Cuando el servidor virtual se haya suministrado y esté disponible, puede configurar los servidores virtuales mediante el
+{{site.data.keyword.slportal_full}} o {{site.data.keyword.slapi_full}}. Para obtener más información, consulte [Configuración de servidores virtuales](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).

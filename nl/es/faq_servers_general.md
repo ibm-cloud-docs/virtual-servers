@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-05-17"
+  years: 2017, 2019
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -14,7 +14,6 @@ subcollection: virtual-servers
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
-{:faq: data-hd-content-type='faq'}
 
 
 # Preguntas frecuentes: Servidores (general)
@@ -25,21 +24,22 @@ subcollection: virtual-servers
 
 Tanto Arrancar desde imagen como Cargar desde imagen utilizan plantillas de imagen existentes, que se aplican a un dispositivo para sustituir el sistema operativo existente o para complementar el sistema operativo con el fin de solucionar un problema existente. La principal diferencia entre los procesos de arranque y carga es el tipo de imagen que se utiliza. Cuando se realice un proceso de arranque o carga desde imagen, asegúrese de haber hecho una copia de seguridad todos los datos que desea recuperar.
 
-   * El proceso de Arrancar desde imagen es una forma de arrancar un dispositivo utilizando un ISO suministrado por {{site.data.keyword.BluSoftlayer_full}} para la recuperación del sistema o un ISO que se ha cargado mediante la característica *Importar imagen* en el {{site.data.keyword.slportal_full}}. El ISO puede ser una versión nueva del sistema operativo del dispositivo o un disco de recuperación que se puede utilizar para solucionar un problema con el dispositivo.
-   * Cargar desde imagen es un método de recarga de SO que utiliza una plantilla de imagen que se ha capturado desde un dispositivo o que se ha cargado utilizando la característica *Importar imagen* en el {{site.data.keyword.slportal}}. La opción *Cargar desde imagen* realiza la recarga utilizando un VHD, que borra todos los datos del dispositivo y sustituye el sistema operativo y los archivos existentes con una versión "como nueva" de la imagen seleccionada.
+   * El proceso de Arrancar desde imagen es una forma de arrancar un dispositivo utilizando un ISO suministrado por {{site.data.keyword.BluSoftlayer_full}} para la recuperación del sistema o un ISO que se ha cargado mediante la característica *Importar imagen* en la consola de {{site.data.keyword.cloud_notm}}. El ISO puede ser una versión nueva del sistema operativo del dispositivo o un disco de recuperación que se puede utilizar para solucionar un problema con el dispositivo.
+   * Cargar desde imagen es un método de recarga de SO que utiliza una plantilla de imagen que se ha capturado desde un dispositivo o que se ha cargado utilizando la característica *Importar imagen* en la consola de {{site.data.keyword.cloud_notm}}. La opción *Cargar desde imagen* realiza la recarga utilizando un VHD, que borra todos los datos del dispositivo y sustituye el sistema operativo y los archivos existentes con una versión "como nueva" de la imagen seleccionada.
 
 ## ¿Por qué no puedo conectar con la consola de KVM?
 {:faq}
 
-Si no puede conectar con la consola de KVM, revise los consejos siguientes sobre resolución de problemas para ayudarle a resolver el problema. Si se producen problemas adicionales, póngase en contacto con el equipo de soporte. Para obtener más información sobre cómo ponerse en contacto con el equipo de soporte, consulte [Obtención de ayuda y soporte](/docs/vsi?topic=virtual-servers-gettinghelp).
+Si no puede conectar con la consola de KVM, revise los consejos siguientes sobre resolución de problemas para ayudarle a resolver el problema. Si se producen problemas adicionales, póngase en contacto con el equipo de soporte. Para obtener más información sobre cómo ponerse en contacto con el equipo de soporte, consulte [Obtención de ayuda y soporte](/docs/vsi?topic=virtual-servers-gettinghelp#gettinghelp).
 
    * La consola de KVM es un applet Java. Java debe estar instalado para poder acceder a la consola. Para obtener más información sobre la instalación de Java, consulte [Descarga gratuita de Java ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://www.java.com/en/download/){: new_window}.  
    * Si Java está instalado, asegúrese de que la conexión se ha establecido utilizando VPN. Si no se ha establecido una conexión, aparece un aviso cuando se intenta conectar con la consola de KVM que indica que se necesita una conexión VPN.
-   * La consola de KVM puede generar uno o varios recuadros emergentes durante el proceso de conexión. Habilite las ventanas emergentes del {{site.data.keyword.slportal}} para asegurarse de que pueda realizarse una conexión.
+   * La consola de KVM puede generar uno o varios recuadros emergentes durante el proceso de conexión. Habilite las ventanas emergentes de la consola de {{site.data.keyword.cloud_notm}} para asegurarse de que pueda realizarse una conexión.
    * Es posible que reciba un error que indique que "Las aplicaciones Java están bloqueadas por los valores de seguridad". Para los dispositivos iKVM nativos, debe añadir una excepción para la dirección IP del dispositivo IPMI. Para dispositivos VSI, asegúrese de permitir "https://control.softlayer.com" y la dirección IP de KVM. Para obtener más información, consulte [¿Por qué las aplicaciones Java están bloqueadas por los valores de seguridad con el Java más reciente? ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://www.java.com/en/download/help/java_blocked.xml){: new_window}.
    * Si se cumplen las condiciones anteriores y recibe un error que indica que "que el manifiesto de permisos necesario en main.jar", significa que los applets Java no se han habilitado en el panel de control de Java. Este valor se ha incorporado como medida de seguridad de Oracle en Java SE v7. Habilite los applets en el panel de control para solucionar este problema.
 
-     **Nota:** Si utiliza Mac OSX junto con Google Chrome, consulte la información y los requisitos del sistema para instalar y utilizar Mac Java 7 en el sitio web de Java.
+     Si utiliza Mac OSX junto con Google Chrome, consulte la información y los requisitos del sistema para instalar y utilizar Mac Java 7 en el sitio web de Java.
+     {:note}
 
    * Si está intentando conectar con un VSI a través de Java estándar y lo único que obtiene son errores, también puede intentarlo utilizando VNC.
 
@@ -52,10 +52,13 @@ Si la contraseña del usuario root o del administrador de repente deja de funcio
 
    * ¿Está copiando y pegando la contraseña? Si no es así, inténtelo. Pegue también la contraseña en un bloc de notas para asegurarse de que no se copian espacios accidentalmente con la contraseña.
    * Si el servidor contiene cPanel, ¿es posible que cPHulk haya bloqueado la dirección IP debido a inicios de sesión fallidos? Si es así, puede acceder al servidor utilizando KVM o IPMI y colocar la dirección IP en la lista blanca en cPHulk con "/scripts/cphulkdwhitelist" seguido de la dirección IP.
-   * ¿Ha intentado alguien cambiar la contraseña del servidor recientemente modificando la contraseña en el {{site.data.keyword.slportal}}? La modificación de la contraseña en el {{site.data.keyword.slportal}} solo cambia lo que se ve como contraseña. No cambia la contraseña que utiliza el servidor. Si ha sucedido esto, puede ponerse en contacto con el equipo de soporte; generalmente pueden recuperar la contraseña original que funcionaba.
-   * Es posible que tenga que arrancar en la modalidad de rescate del sistema operativo para poder restablecer la contraseña. Para obtener más información, consulte [Inicio de un kernel de rescate](/docs/vsi?topic=virtual-servers-launching-rescue).
+   * ¿Ha intentado alguien cambiar la contraseña del servidor recientemente modificando la contraseña en la consola de
+{{site.data.keyword.cloud_notm}}? La modificación de la contraseña en la consola de {{site.data.keyword.cloud_notm}} solo cambia lo que se ve como contraseña. No cambia la contraseña que utiliza el servidor. Si ha sucedido esto, puede ponerse en contacto con el equipo de soporte; generalmente pueden recuperar la contraseña original que funcionaba.
+   * Es posible que tenga que arrancar en la modalidad de rescate del sistema operativo para poder restablecer la contraseña. Para obtener más información, consulte [Inicio de un kernel de rescate](/docs/vsi?topic=virtual-servers-launching-rescue#launching-rescue).
 
-Si ha comprobado todo esto y sigue sin poder conectar con el servidor utilizando la contraseña, póngase en contacto con el equipo de soporte mediante una incidencia y solicite un restablecimiento de contraseña. El equipo de soporte deberá rearrancar el servidor para restablecer la contraseña, por lo que debe asegurarse de que está preparado para aprobar el rearranque y/o para ofrecer un intervalo de tiempo de mantenimiento en el que desea que se complete la operación. La mayoría de los restablecimientos se consiguen en 15 minutos. En el {{site.data.keyword.slportal}}, puede crear una incidencia yendo a **Soporte > Añadir incidencia** y utilizando el asunto *"Rearranques y acceso a la consola"*.
+Si ha comprobado todo esto y sigue sin poder conectar con el servidor utilizando la contraseña, póngase en contacto con el equipo de soporte mediante una incidencia y solicite un restablecimiento de contraseña. El equipo de soporte deberá rearrancar el servidor para restablecer la contraseña, por lo que debe asegurarse de que está preparado para aprobar el rearranque y/o para ofrecer un intervalo de tiempo de mantenimiento en el que desea que se complete la operación. La mayoría de los restablecimientos se consiguen en 15 minutos. En la consola de
+{{site.data.keyword.cloud_notm}}, puede crear una incidencia accediendo a
+**Soporte > Crear un caso** y utilizando el asunto *Cuentas y acceso*.
 
 ## ¿Se da soporte a las particiones LVM como sistema de archivo válido?
 {:faq}
@@ -65,7 +68,7 @@ LVM (Logical Volume Management) proporciona funciones de gestión lógica de sis
 ## Rutas 161.26.0.0/16 preconfiguradas en hosts de clientes
 {:faq}
 
-{{site.data.keyword.BluSoftlayer}} habilita una nueva ruta en todos los servidores recién suministrados para dar soporte a productos futuros.
+{{site.data.keyword.BluSoftlayer_notm}} habilita una nueva ruta en todos los servidores recién suministrados para dar soporte a productos futuros.
    * La ruta apunta a cualquier dirección del rango 161.26.0.0/16 (161.26.0.0 255.255.0.0 | 161.26.0.0 -161.26.255.255) para la red privada de fondo.
    * IANA asigna este bloque de IP a {{site.data.keyword.BluSoftlayer_notm}} y no se anunciará en la Internet pública.
    * Sólo se direccionarán sistemas de {{site.data.keyword.BluSoftlayer_notm}} fuera de este espacio.
@@ -164,7 +167,7 @@ LVM (Logical Volume Management) proporciona funciones de gestión lógica de sis
 ## ¿Puedo hacer que el sistema de supervisión emita un rearranque automático Y advierta a un técnico de soporte en el caso de que el servidor deje de responder?
 {:faq}
 
-Sí; si solicita nuestro servicio de **Arranque automático después de un error de supervisión**, puede configurar el sistema de supervisión de modo que rearranque automáticamente el servidor y emita una incidencia para un técnico de soporte si se genera una alerta de supervisión. Como servicio adicional, ofrecemos la **Supervisión NOC**, por la que recibirá una notificación personal en el caso de que se produzca un problema de supervisión. Para obtener más información sobre estas dos ofertas, consulte [Supervisión del servidor ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](http://www.softlayer.com/services/monitoring/){:new_window}.
+Sí; si solicita nuestro servicio de **Arranque automático después de un error de supervisión**, puede configurar el sistema de supervisión de modo que rearranque automáticamente el servidor y emita una incidencia para un técnico de soporte si se genera una alerta de supervisión. Como servicio adicional, ofrecemos la **Supervisión NOC**, por la que recibirá una notificación personal en el caso de que se produzca un problema de supervisión. Para obtener más información sobre estas dos ofertas, consulte [Supervisión del servidor ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/cloud/infrastructure/monitoring?cm_mc_uid=46846454197915580355142&cm_mc_sid_50200000=71138741559658182022){:new_window}.
 
 ## ¿Qué es una duplicación cvsup?
 {:faq}

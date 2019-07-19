@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-04"
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -14,6 +14,7 @@ subcollection: virtual-servers
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:tip: .tip}
+{:note: .note}
 {:table: .aria-labeledby="caption"}
 
 # Ejemplos de API: perfiles de servidores virtuales públicos
@@ -33,6 +34,9 @@ No aplicable a instancias transitorias.
 {:tip}
 
 Para suministrar una instancia de servidor virtual público mediante REST, se debe enviar una solicitud POST a https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ con el siguiente JSON en el cuerpo de la solicitud.
+
+El cuerpo de solicitud JSON siguiente es un ejemplo genérico. 
+{:note}
 
 ### Cuerpo 1 de solicitud JSON
 ```
@@ -67,7 +71,11 @@ No aplicable a instancias transitorias.
 
 Para suministrar un servidor virtual público mediante REST, se debe enviar una solicitud POST a https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ con el siguiente JSON en el cuerpo de la solicitud.
 
-**Nota:** las descripciones de elementos no se necesitan en los precios. Solo se incluyen para mostrar las opciones del producto que se envían.
+Las descripciones de elementos no se necesitan en los precios. Solo se incluyen para mostrar las opciones del producto que se envían.
+{:note}
+
+El cuerpo de solicitud JSON siguiente es un ejemplo genérico. 
+{:note}
 
 ### Cuerpo 2 de solicitud JSON
 ```
@@ -167,7 +175,11 @@ No aplicable a instancias transitorias.
 
 Para suministrar un servidor virtual público mediante REST, se debe enviar una solicitud POST a https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ con el siguiente JSON en el cuerpo de la solicitud.
 
-**Nota:** las descripciones de elementos no se necesitan en los precios. Solo se incluyen para mostrar las opciones del producto que se envían.
+Las descripciones de elementos no se necesitan en los precios. Solo se incluyen para mostrar las opciones del producto que se envían.
+{:note}
+
+El cuerpo de solicitud JSON siguiente es un ejemplo genérico. 
+{:note}
 
 ### Cuerpo 3 de solicitud JSON
 ```
@@ -210,6 +222,9 @@ Para suministrar un servidor virtual público mediante REST, se debe enviar una 
 El servicio de la API *SoftLayer_Virtual_Guest/createObject* constituye el modo más sencillo de suministrar una instancia de servidor virtual transitorio.
 
 Para suministrar una instancia de servidor virtual transitorio mediante REST, se debe enviar una solicitud POST a https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ con el siguiente JSON en el cuerpo de la solicitud.
+
+El cuerpo de solicitud JSON siguiente es un ejemplo genérico. 
+{:note}
 
 ### Cuerpo 4 de solicitud JSON
 ```

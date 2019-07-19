@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2017
-lastupdated: "2017-12-12"
+  years: 2014, 2019
+lastupdated: "2019-05-28"
 
 subcollection: virtual-servers
 
@@ -13,16 +13,20 @@ subcollection: virtual-servers
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:note: .note}
 {:table: .aria-labeledby="caption"}
 
 # Actualización de la velocidad de puerto en Windows
 {: #upgrading-port-speed-in-windows}
 
-La velocidad de puerto predeterminada para servidores de clientes (para redes públicas y privadas) es 10 Mbps. Si le gustaría actualizar las velocidades de puerto a 100 Mbps o 1000 Mbps, abra una incidencia con la solicitud. Ventas le solicitará que apruebe el cargo mínimo y un técnico cambiará las velocidades de puerto en la red.
+La velocidad de puerto predeterminada para servidores de clientes (para redes públicas y privadas) es 10 Mbps. Si le gustaría actualizar las velocidades de puerto a 100 Mbps o 1000 Mbps, abra una incidencia con la solicitud. Ventas le solicitará que apruebe el cargo mínimo y un técnico cambiará las velocidades de puerto en la red. Para obtener más información sobre cómo abrir una incidencia de soporte de IBM, consulte [Obtención de soporte](/docs/get-support?topic=get-support-getting-customer-support).
 
 Una vez completada la actualización en el lado de la red, codifique las interfaces de red correspondientes en su servidor.
 
-Siga estos pasos para forzar la velocidad de puerto en un servidor Windows. **Nota:** conéctese siempre a su servidor en la red en la que NO esté trabajando para evitar bloquearse del servidor.
+Conéctese siempre a su servidor en la red en la que NO esté trabajando para evitar bloquearse del servidor.
+{:note}
+
+Realice estos pasos para forzar la velocidad de puerto en un servidor Windows. 
 
 1. Seleccione **Inicio > Panel de control > Conexiones de red**.
 2. Pulse la conexión de red que está intentando actualizar o degradar.

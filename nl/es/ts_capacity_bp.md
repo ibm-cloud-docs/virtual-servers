@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2018-01-03"
+  years: 2017, 2019
+lastupdated: "2019-04-05"
 
 subcollection: virtual-servers
 
@@ -17,7 +17,7 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 
-# Consideraciones de capacidad
+# Consideraciones sobre recursos para instancias de servidor virtual
 {: #capacity-considerations}
 
 ## ¿Qué está pasando?
@@ -34,7 +34,7 @@ Cuando el suministro falla, todas las instancias de servidor virtual de dicha so
 
 ## ¿Por qué está pasando?
 
-Se produce un error de capacidad cuando no hay suficientes recursos disponibles en el direccionador o centro de datos para completar la solicitud de servicio. Existen una serie de motivos por las cuales podría recibir este error. La disponibilidad de recursos cambia con frecuencia, por lo que puede esperar y volver a intentarlo más tarde.
+Se produce un error cuando no hay suficientes recursos disponibles en el direccionador o centro de datos para completar la solicitud de servicio. Existen una serie de motivos por las cuales podría recibir este error. La disponibilidad de recursos cambia con frecuencia, por lo que puede esperar y volver a intentarlo más tarde.
 
 ## ¿Cómo arreglarlo?
 

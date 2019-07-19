@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-24"
+  years: 2017, 2019
+lastupdated: "2019-05-16"
 
 subcollection: virtual-servers
 
@@ -72,7 +72,7 @@ Se abrirá la página *Configurar el servidor de nube*. Desde esta página puede
     <td>Seleccione el centro de datos de {{site.data.keyword.cloud}} en el que desea colocar los hosts. Consulte Acerca de para ver la lista de centros de datos disponibles.</td>
     </tr>
     <td>Host dedicado</td>
-    <td>El valor predeterminado es 56 núcleos X 242 RAM X 1,2 TB</td>
+    <td>El valor predeterminado es 56 núcleos X 242 RAM X 1,2 TB, pero puede seleccionar entre otras configuraciones.</td>
     </tr>
     </TBODY>
     </table>
@@ -119,7 +119,7 @@ Para suministrar las instancias de sus hosts dedicados a través de {{site.data.
 
 1.	Pulse **Dispositivos > Lista de dispositivos**.
 
-    La página *Dispositivos* muestra todos los tipos de dispositivos -host dedicados, servidores virtuales, servidores nativos y controladores de distribución de aplicaciones NetScaler- de su cuenta.
+    La página *Dispositivos* muestra todos los tipos de dispositivos —host dedicados, servidores virtuales, servidores nativos y controladores de distribución de aplicaciones NetScaler— de su cuenta.
 
 2.	Seleccione el host para las instancias de host dedicadas pulsando sobre su enlace en **Nombre de dispositivo**.
 
@@ -127,7 +127,7 @@ Para suministrar las instancias de sus hosts dedicados a través de {{site.data.
 
 3.	Desplácese hasta la ventana **Instancias**.
 
-    La forma en que se factura el host dedicado (al mes o por hora) determina la facturación de las instancias de host dedicadas. Tenga en cuenta que si tiene hosts de facturación mensual, puede suministrar instancias de host dedicadas de facturación tanto por hora como al mes. Dispone de dos enlaces -**Añadir por hora** y **Añadir mensualmente**— para suministrar sus instancias. Los hosts dedicados que se facturan por hora solo pueden suministrar instancias de host dedicadas que se facturen por hora y solo verá el enlace **Añadir por hora** enlace.
+    La forma en que se factura el host dedicado (al mes o por hora) determina la facturación de las instancias de host dedicadas. Tenga en cuenta que si tiene hosts de facturación mensual, puede suministrar instancias de host dedicadas de facturación tanto por hora como al mes. Dispone de dos enlaces —**Añadir por hora** y **Añadir mensualmente**— para suministrar sus instancias. Los hosts dedicados que se facturan por hora solo pueden suministrar instancias de host dedicadas que se facturen por hora y solo verá el enlace **Añadir por hora** enlace.
 
 4.	Pulse el enlace **Añadir por hora** si el host se factura por hora o mensualmente; pulse el enlace **Añadir mensualmente** si el host se factura al mes. Se le dirigirá a la página *Configurar el servidor de nube*.
 
@@ -236,4 +236,5 @@ Para suministrar las instancias de sus hosts dedicados a través de {{site.data.
 Recibirá un correo electrónico cuando se hayan suministrado las instancias de host dedicadas.
 
 ## Siguientes pasos
-Una vez suministrado el servidor virtual, puede empezar a gestionarlo. Para obtener más información, consulte [Gestión de servidores virtuales](/docs/vsi?topic=virtual-servers-managing-virtual-servers).
+Cuando el servidor virtual se haya suministrado y esté disponible, puede configurar los servidores virtuales mediante el
+{{site.data.keyword.slportal_full}} o {{site.data.keyword.slapi_full}}. Para obtener más información, consulte [Configuración de servidores virtuales](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).

@@ -31,7 +31,7 @@ Siga los siguientes pasos para volver a configurar un servidor virtual existente
 {:shortdesc}
 
 ## Modificación de un servidor virtual existente (que utilice perfiles predefinidos)
-1. Acceda al [{{site.data.keyword.slportal_full}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window} utilizando sus credenciales exclusivas.
+1. Acceda a la [consola](https://cloud.ibm.com/classic?){: new_window} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo") con las credenciales que haya recibido en un correo electrónico cuando la cuenta se creó inicialmente. También puede iniciar la sesión en el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}. 
 2. En la lista de dispositivos, pulse el nombre del servidor virtual que desea volver a configurar.
 3. En el separador **Configuración**, pulse **Modificar** o **Modificar configuración del dispositivo** para actualizar los elementos siguientes.
   <dl>

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-11-30"
+  years: 2017, 2019
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -21,4 +21,4 @@ subcollection: virtual-servers
 {{site.data.keyword.cloud}} ofrece productos de herramientas de bases de datos opcionales con coste y sin coste para despliegues de {{site.data.keyword.virtualmachinesshort}} y de {{site.data.keyword.baremetal_short}}. Sin embargo, los productos de herramientas de bases de datos solo están disponibles para ciclos de facturación mensuales de {{site.data.keyword.virtualmachinesshort}} y {{site.data.keyword.baremetal_short}}.
 {:shortdesc}
 
-Para obtener más información sobre las Herramientas de base de datos, consulte [Iniciación a las herramientas de base de datos.](/docs/infrastructure/database-tools?topic=database-tools-getting-started-tutorial)
+Para obtener más información sobre las Herramientas de base de datos, consulte [Iniciación a las herramientas de base de datos.](/docs/infrastructure/database-tools?topic=database-tools-dbt-getting-started)

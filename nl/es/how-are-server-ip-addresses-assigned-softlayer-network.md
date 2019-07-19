@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-08-01"
+  years: 2018, 2019
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -22,9 +22,9 @@ subcollection: virtual-servers
 {{site.data.keyword.cloud}} configura las instancias de servidor virtual con una dirección IPv4 en la red privada y, si se solicita, con una dirección IPv4 pública (de cara a internet). Además, puede solicitar una dirección IPv6 en la red pública. Todas estas direcciones IP reciben en conjunto el nombre de _direcciones IP primarias_.
 {:shortdesc}
 
-Se pueden vincular direcciones IP adicionales a instancias de servidor virtual después de adquirir subredes secundarias a través del [{{site.data.keyword.slportal}} ![Icono de enlace externo](../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com). Si adquiere direcciones IP de este modo y las gestiona, reciben el nombre de _direcciones IP secundarias_.
+Se pueden vincular direcciones IP adicionales a las instancias de servidor virtual tras adquirir subredes secundarias a través de la consola de {{site.data.keyword.cloud_notm}}. Si adquiere direcciones IP de este modo y las gestiona, reciben el nombre de _direcciones IP secundarias_.
 
-Para obtener más información sobre las opciones disponibles para adquirir direcciones IP, consulte [Subredes de IP](/docs/infrastructure/subnets?topic=subnets-getting-started-with-subnets-and-ips#getting-started-with-subnets-and-ips).
+Para obtener más información sobre las opciones disponibles para adquirir direcciones IP, consulte [Subredes de IP](/docs/infrastructure/subnets?topic=subnets-about-subnets-and-ips).
 
 ## Vinculación de direcciones IP secundarias
 

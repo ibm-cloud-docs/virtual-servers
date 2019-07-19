@@ -69,4 +69,7 @@ Después de suministrar su capacidad reservada, es el momento de suministrar las
 
 ## Siguientes pasos
 
-Después de suministrar sus instancias y su capacidad de servidor virtual reservado, puede empezar a gestionarlas. Para obtener más información, consulte [Gestión de servidores virtuales](/docs/vsi?topic=virtual-servers-managing-virtual-servers). Si tiene preguntas sobre las instancias y la capacidad reservada, consulte [Preguntas frecuentes: instancias y capacidad reservada](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances).
+Cuando el servidor virtual se haya suministrado y esté disponible, puede configurar los servidores virtuales mediante la consola de
+{{site.data.keyword.cloud_notm}} o {{site.data.keyword.slapi_short}}. Para obtener más información, consulte [Configuración de servidores virtuales](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).
+
+Si tiene preguntas sobre las instancias y la capacidad reservada, consulte [Preguntas frecuentes: instancias y capacidad reservada](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances#faqs-reserved-capacity-and-instances). 
