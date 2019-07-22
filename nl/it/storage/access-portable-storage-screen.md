@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-05-11"
+  years: 2014, 2019
+lastupdated: "2019-06-03"
 
 subcollection: virtual-servers
 
@@ -10,33 +10,37 @@ subcollection: virtual-servers
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:tip: .tip}
+{:note: .note}
 
-# Accesso all'archiviazione portatile
+# Gestione dell'archiviazione portatile
 {: #accessing-portable-storage}
 
-I volumi di archiviazione portatile (PSV) sono una soluzione di archiviazione ausiliaria disponibile solo per {{site.data.keyword.virtualmachinesshort}}. All'interno del {{site.data.keyword.slportal_full}}, puoi accedere ai volumi di archiviazione portatile dalla pagina *Archiviazione portatile*, che visualizza tutti i PSV ed è la posizione in cui i volumi possono essere collegati, scollegati, scambiati e modificati. 
+I volumi di archiviazione portatile (PSV) sono una soluzione di archiviazione ausiliaria disponibile solo per {{site.data.keyword.virtualmachinesshort}}. Nella console {{site.data.keyword.cloud}}, puoi accedere ai volumi di archiviazione portatile e visualizzare tutti i PSV. Puoi anche collegare, scollegare, scambiare e modificare i volumi.
+{:shortdesc}
 
-## Accesso alla pagina Archiviazione portatile
+Non puoi collegare o scambiare i volumi di archiviazione portatile per un'istanza del server virtuale di cui è stato eseguito il provisioning da un template dell'immagine crittografato.
+{:note}
 
-1. Accedi al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} utilizzando le tue credenziali univoche.
-* Nella **Barra di navigazione**, seleziona **Archiviazione > Archiviazione a blocchi** per accedere alla pagina Archiviazione portatile.
-* Fai clic sul pulsante **Azione** accanto all'archiviazione portatile e fai clic sull'opzione di collegamento.
-* Nella schermata successiva, scegli il dispositivo che necessita dell'archiviazione collegata.
+## Informazioni preliminari
+Per prima cosa passa al menu dell'archiviazione o dei dispositivi e assicurati di disporre delle autorizzazioni account corrette per completare le attività. 
 
-**Nota:** la sezione dell'archiviazione portatile è elencata appena sotto la sezione dell'archiviazione iSCSI.
+* Passa al menu del dispositivo o dell'archiviazione della tua console. Per ulteriori informazioni, vedi [Passaggio ai dispositivi](/docs/vsi?topic=virtual-servers-navigating-devices).
+* Assicurati di avere tutte le autorizzazioni account necessarie e l'accesso al dispositivo. Solo il proprietario dell'account o un utente con l'autorizzazione dell'infrastruttura classica **Manage Users**, può modificare le autorizzazioni.
 
-## Azioni disponibili
+Per ulteriori informazioni sulle autorizzazioni, vedi [Autorizzazioni dell'infrastruttura classica](/docs/iam?topic=iam-infrapermission#infrapermission) e [Gestione accesso dispositivo](/docs/vsi?topic=virtual-servers-managing-device-access).
 
-Dalla pagina *Archiviazione portatile*, è possibile modificare, collegare, scollegare e scambiare i PSV.
+## Collegamento dell'archiviazione portatile
 
-## Accesso all'archiviazione portatile collegata a un server
+1. Dal menu **Storage**, seleziona **Block Storage.**
+2. Nella sezione **Portable storage**, seleziona l'opzione di collegamento per l'archiviazione portatile che vuoi utilizzare.
+3. Nella schermata successiva, scegli il dispositivo che necessita dell'archiviazione e seleziona **Attach**.
 
-L'archiviazione portatile collegata a un server è elencata nella pagina *Dettagli del dispositivo* del server.
+## Gestione dell'archiviazione portatile collegata a un server
 
-1. Accedi al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} utilizzando le tue credenziali univoche.
-* Nella **barra di navigazione**, seleziona **Devices > Device List** per accedere alla pagina Device List.
-* Fai clic sul nome host del server virtuale per accedere alla pagina dei dettagli del dispositivo del server.
-* Fai clic sulla scheda *Storage* per visualizzare l'archiviazione portatile attualmente collegata al server.
-* Fai clic su **Action** accanto all'archiviazione portatile e fai clic sull'opzione desiderata per scollegare o scambiare l'archiviazione. 
+L'archiviazione portatile collegata a un server è elencata nella pagina *Device Details* del server.
 
-**Nota:** dalla pagina *Portable Storage*, puoi fare clic sul nome host come scorciatoia per raggiungere la pagina *Device Details*. 
+1. Dal menu **Devices**, seleziona **Device List**.
+2. Da **Device List**, seleziona l'istanza del server virtuale per visualizzarne i dettagli.
+3. Fai clic sulla scheda **Storage** per visualizzare l'archiviazione portatile attualmente collegata all'istanza.
+4. Nel menu **Actions**, puoi eseguire lo swap (**Swap**) o scollegare (**Detach**) l'archiviazione.

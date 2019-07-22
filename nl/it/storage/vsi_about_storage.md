@@ -1,9 +1,16 @@
 ---
+
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-10-23"
+  years: 2014, 2019
+lastupdated: "2019-06-06"
+
+subcollection: virtual-servers
+
 ---
 
+{:note: .note}
+{:tip: .tip}
+{:important: .important}
 {:new_window: target="_blank"}
 
 # Opzioni di archiviazione
@@ -23,11 +30,13 @@ L'archiviazione portatile è una soluzione ideale se desideri trasferire dati tr
 
 Tutti i dischi secondari sono allegati come archiviazione portatile. Nella maggior parte dei casi, questi dischi secondari possono essere scollegati in qualsiasi momento per consentirne lo spostamento su altri server virtuali.
 
-**Eccezione:** con i server virtuali pubblici che utilizzano l'archiviazione locale bilanciata, non puoi scollegare i dischi primari o secondari.
+Con i server virtuali pubblici che utilizzano l'archiviazione locale bilanciata, non puoi scollegare i dischi primari o secondari.
+{:important}
 
 I dischi possono essere ricollegati a un altro server, fintanto che la modifica non superi la quota del disco o il limite massimo della dimensione del volume del server virtuale di destinazione.
 
-**Nota:** i dischi spostati vengono convertiti nel tipo di archiviazione del server di destinazione.
+I dischi spostati vengono convertiti nel tipo di archiviazione del server di destinazione.
+{:note}
 
 Quando un volume di archiviazione portatile è collegato a un server virtuale in un data center diverso rispetto al server virtuale originale, il sistema interno di {{site.data.keyword.cloud_notm}} copia il volume nella SAN del nuovo data center. Il sistema verifica quindi l'integrità del volume copiato e rimuove il volume portatile originale dalla SAN del data center originale.
 
@@ -41,11 +50,11 @@ I server virtuali sono completamente compatibili con {{site.data.keyword.filesto
 
 Per ulteriori informazioni sulle opzioni di archiviazione supplementare, consulta le seguenti risorse:
 
-* [Introduzione all'archiviazione a blocchi](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted)
-* [Introduzione all'archiviazione file](/docs/infrastructure/FileStorage?topic=FileStorage-GettingStarted)
-* [Introduzione all'archiviazione oggetti](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage#about-ibm-cloud-object-storage)
+* [Introduzione all'archiviazione a blocchi](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started)
+* [Introduzione all'archiviazione file](/docs/infrastructure/FileStorage?topic=FileStorage-getting-started)
+* [Introduzione all'archiviazione oggetti](/docs/services/cloud-object-storage?topic=cloud-object-storage-getting-started)
 
 ## Passi successivi
 Per ulteriori informazioni su come utilizzare i volumi di archiviazione portatile, vedi le seguenti attività:
-* [Accesso all'archiviazione portatile](/docs/vsi/storage?topic=virtual-servers-accessing-portable-storage)
-* [Modifica della descrizione dell'archiviazione portatile](/docs/vsi/storage?topic=virtual-servers-editing-a-portable-storage-description)
+* [Gestione dell'archiviazione portatile](/docs/vsi?topic=virtual-servers-accessing-portable-storage#accessing-portable-storage)
+* [Modifica della descrizione di un'archiviazione portatile](/docs/vsi?topic=virtual-servers-editing-a-portable-storage-description#editing-a-portable-storage-description)
