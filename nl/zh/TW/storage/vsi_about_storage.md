@@ -1,9 +1,16 @@
 ---
+
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-10-23"
+  years: 2014, 2019
+lastupdated: "2019-06-06"
+
+subcollection: virtual-servers
+
 ---
 
+{:note: .note}
+{:tip: .tip}
+{:important: .important}
 {:new_window: target="_blank"}
 
 # 儲存空間選項
@@ -23,11 +30,13 @@ lastupdated: "2018-10-23"
 
 所有次要磁碟都會連接為可攜式儲存空間。在大部分案例中，您隨時可以分離次要磁碟，以將它們移至其他虛擬伺服器。
 
-**例外狀況：**如果是使用平衡本端儲存空間的公用虛擬伺服器，則無法分離主要或次要磁碟。
+如果是使用平衡本端儲存空間的公用虛擬伺服器，則無法分離主要或次要磁碟。
+{:important}
 
 只要變更未超出目標虛擬伺服器的磁碟限額或磁區大小上限，即可將磁碟重新連接至另一部伺服器。
 
-**附註：**已移動的磁碟會轉換成目標伺服器的儲存空間類型。
+已移動的磁碟會轉換成目標伺服器的儲存空間類型。
+{:note}
 
 當可攜式儲存磁區連接至與原始虛擬伺服器不同的資料中心內的虛擬伺服器時，{{site.data.keyword.cloud_notm}} 的內部系統會將磁區複製到新資料中心內的 SAN。然後系統會驗證所複製磁區的完整性，並從原始資料中心 SAN 移除原始可攜式磁區。
 
@@ -41,11 +50,11 @@ lastupdated: "2018-10-23"
 
 如需補充性儲存空間選項的相關資訊，請參閱下列資源：
 
-* [開始使用 Block Storage](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted)
-* [開始使用 File Storage](/docs/infrastructure/FileStorage?topic=FileStorage-GettingStarted)
-* [開始使用 Object Storage](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage#about-ibm-cloud-object-storage)
+* [開始使用 Block Storage](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started)
+* [開始使用 File Storage](/docs/infrastructure/FileStorage?topic=FileStorage-getting-started)
+* [開始使用 Object Storage](/docs/services/cloud-object-storage?topic=cloud-object-storage-getting-started)
 
 ## 後續步驟
 如需如何使用可攜式儲存磁區的相關資訊，請參閱下列作業：
-* [存取可攜式儲存空間](/docs/vsi/storage?topic=virtual-servers-accessing-portable-storage)
-* [編輯可攜式儲存空間說明](/docs/vsi/storage?topic=virtual-servers-editing-a-portable-storage-description)
+* [管理可攜式儲存空間](/docs/vsi?topic=virtual-servers-accessing-portable-storage#accessing-portable-storage)
+* [編輯可攜式儲存空間說明](/docs/vsi?topic=virtual-servers-editing-a-portable-storage-description#editing-a-portable-storage-description)
