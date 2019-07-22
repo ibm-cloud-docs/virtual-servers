@@ -31,7 +31,7 @@ subcollection: virtual-servers
 {:shortdesc}
 
 ## 修改使用預設設定檔的現有虛擬伺服器
-1. 使用唯一認證來存取 [{{site.data.keyword.slportal_full}} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){: new_window}。
+1. 使用一開始建立帳戶時透過電子郵件收到的認證，存取 [ 主控台 ](https://cloud.ibm.com/classic?){: new_window} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")。或者，您也可以登入 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){:new_window}。 
 2. 從「裝置清單」中，按一下您要重新配置的虛擬伺服器的名稱。
 3. 在**配置**標籤上，您可以按一下**修改**或**修改裝置配置**以更新下列項目。
   <dl>

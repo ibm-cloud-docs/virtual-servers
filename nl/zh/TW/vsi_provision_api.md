@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-04"
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -14,6 +14,7 @@ subcollection: virtual-servers
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:tip: .tip}
+{:note: .note}
 {:table: .aria-labeledby="caption"}
 
 # API 範例：公用虛擬伺服器設定檔
@@ -33,6 +34,9 @@ subcollection: virtual-servers
 {:tip}
 
 若要使用 REST 來佈建公用虛擬伺服器實例，會將 POST 要求提交至 https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ 並且在要求內文中使用下列 JSON。
+
+下列 JSON 要求內文是一般範例。
+{:note}
 
 ### JSON 要求內文 1
 ```
@@ -67,7 +71,10 @@ subcollection: virtual-servers
 
 若要使用 REST 來佈建公用虛擬伺服器，會將 POST 要求提交至 https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ 並且在要求內文中使用下列 JSON。
 
-**附註：**價格上不需要項目說明。包含它們的目的只是要顯示所提交的產品選項。
+價格不需要項目說明。包含它們的目的只是要顯示所提交的產品選項。{:note}
+
+下列 JSON 要求內文是一般範例。
+{:note}
 
 ### JSON 要求內文 2
 ```
@@ -167,7 +174,10 @@ subcollection: virtual-servers
 
 若要使用 REST 來佈建公用虛擬伺服器，會將 POST 要求提交至 https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ 並且在要求內文中使用下列 JSON。
 
-**附註：**價格上不需要項目說明。包含它們的目的只是要顯示所提交的產品選項。
+價格不需要項目說明。包含它們的目的只是要顯示所提交的產品選項。{:note}
+
+下列 JSON 要求內文是一般範例。
+{:note}
 
 ### JSON 要求內文 3
 ```
@@ -210,6 +220,9 @@ subcollection: virtual-servers
 *SoftLayer_Virtual_Guest/createObject* API 服務是佈建暫時性虛擬伺服器實例的最簡單方式。
 
 若要使用 REST 來佈建暫時性虛擬伺服器實例，會將 POST 要求提交至 https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ 並且在要求內文中使用下列 JSON。
+
+下列 JSON 要求內文是一般範例。
+{:note}
 
 ### JSON 要求內文 4
 ```

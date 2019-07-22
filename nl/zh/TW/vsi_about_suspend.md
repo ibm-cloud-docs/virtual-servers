@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-06"
 
 keywords: virtual server, suspend billing feature, virtual server instances, suspend billing
 
@@ -18,9 +18,10 @@ subcollection: virtual-servers
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:row-headers: .row-headers}
 {:table: .aria-labeledby="caption"}
 
-# 關於暫停計費
+# 暫停計費
 {: #requirements}
 
 當您關閉支援暫停計費特性之虛擬伺服器的電源時，並不會增加特定運算資源的成本。關閉伺服器電源時，就會自動停止計費。暫停計費特性可協助您降低成本，並且讓您於再次需要虛擬伺服器的資源時，不需要重新佈建虛擬伺服器。
@@ -39,7 +40,7 @@ subcollection: virtual-servers
 您可以使用暫停計費特性作為更快速的替代方案，來佈建及收回虛擬伺服器實例。
 {:tip}
 
-只有在您透過 {{site.data.keyword.slportal_full}}、CLI 或 {{site.data.keyword.slapi_short}} 關閉虛擬伺服器實例的電源時，才會暫停計費。如果您直接透過 OS 關閉虛擬伺服器實例的電源，並不會暫停該實例的計費。
+只有在您透過 {{site.data.keyword.cloud}} 主控台、CLI 或 {{site.data.keyword.slapi_short}} 關閉虛擬伺服器實例的電源時，才會暫停計費。如果您直接透過 OS 關閉虛擬伺服器實例的電源，並不會暫停該實例的計費。
 {:note}
 
 ## 佈建詳細資料
@@ -52,7 +53,7 @@ subcollection: virtual-servers
 ### 透過 Softlayer API 佈建
 您可以透過 {{site.data.keyword.slapi_short}} 佈建支援暫停計費特性的虛擬伺服器實例。針對 API 範例，請參閱[使用下訂單物件佈建公用實例](/docs/vsi?topic=virtual-servers-api-rest-public#provisioning-a-public-instance-using-place-order-object)。
 
-您必須在佈建處理程序期間指定特定暫停計費套件 ID。您可以使用 keyName `SUSPEND_CLOUD_SERVER` 在 {{site.data.keyword.slapi_short}} 中查詢暫停計費套件 ID。如需搜尋伺服器套件的範例，請參閱[瞭解及使用 {{site.data.keyword.slapi_short}} 訂單 CLI 建置訂單 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://softlayer.github.io/article/understanding-ordering/){: new_window}。
+您必須在佈建過程中指定特定暫停計費套件 ID。您可以使用 keyName `SUSPEND_CLOUD_SERVER` 在 {{site.data.keyword.slapi_short}} 中查詢暫停計費套件 ID。如需搜尋伺服器套件的範例，請參閱[瞭解及使用 {{site.data.keyword.slapi_short}} 訂單 CLI 建置訂單 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://softlayer.github.io/article/understanding-ordering/){: new_window}。
 
 ## 計費詳細資料
 
@@ -60,16 +61,19 @@ subcollection: virtual-servers
 
 | 資源                          | 計費停止          | 計費持續保存     |
 | ----------------------------- | ----------------- | ---------------- |
-|vCPU|X|                  |
-|RAM|X|                  |
-|埠速度|X|                  |
-| 作業系統授權                  |X|                  |
-| 監視附加程式                  |X|                  |
-| 次要公用 IP 位址              |                   |X|
-|儲存空間|                   |X|
-{: caption="表 1. 資源計費詳細資料" caption-side="top"}   
+|vCPU| ![勾號圖示](../../icons/checkmark-icon.svg) |                  |
+|RAM| ![勾號圖示](../../icons/checkmark-icon.svg) |                  |
+|埠速度| ![勾號圖示](../../icons/checkmark-icon.svg) |                  |
+| 作業系統授權                  | ![勾號圖示](../../icons/checkmark-icon.svg) |                  |
+| 監視附加程式                  | ![勾號圖示](../../icons/checkmark-icon.svg) |                  |
+| 次要公用 IP 位址              |                   | ![勾號圖示](../../icons/checkmark-icon.svg) |
+|儲存空間|                   | ![勾號圖示](../../icons/checkmark-icon.svg) |
+{: row-headers}
+{: class="comparison-table"}
+{: caption="表 1. 資源計費詳細資料" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify the resource. The column headers identify whether billing stops or persists when your instance is powered off. To understand whether billing stops or persists for a resource, navigate to the row in the table, and find the billing information you are interested in."}  
 
-當您佈建支援暫停計費特性的虛擬伺服器實例時，會針對虛擬伺服器實例的使用中時間及暫停時間，計算每分鐘的使用時間。即使您從未透過關閉實例電源來起始暫停計費特性，還是會計算實例生命週期每分鐘的計費。
+當您佈建支援暫停計費特性的虛擬伺服器實例時，會針對虛擬伺服器實例的使用中時間及暫停時間，計算每秒的使用時間。即使您從未透過關閉實例的電源來起始暫停計費特性，還是會在實例生命週期內每秒計算費用。
 {:note}
 
 ### 使用費用下限

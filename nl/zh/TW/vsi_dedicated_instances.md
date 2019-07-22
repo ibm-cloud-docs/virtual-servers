@@ -152,4 +152,4 @@ subcollection: virtual-servers
     一系列的電子郵件會傳送給管理者：佈建訂單確認、佈建訂單核准和處理，以及佈建完成。登入 {{site.data.keyword.Bluemix_notm}} 之後，佈建完成電子郵件所包含的鏈結會直接將您帶到**裝置詳細資料**頁面。另一個選項則是直接登入 {{site.data.keyword.slportal}}。
 
 ## 後續步驟
-佈建虛擬伺服器之後，即可開始進行管理。如需相關資訊，請參閱[管理虛擬伺服器](/docs/vsi?topic=virtual-servers-managing-virtual-servers)。
+虛擬伺服器在佈建且可供使用之後，即可使用 {{site.data.keyword.slportal_full}} 或 {{site.data.keyword.slapi_full}} 來配置虛擬伺服器。如需相關資訊，請參閱[配置虛擬伺服器](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers)。

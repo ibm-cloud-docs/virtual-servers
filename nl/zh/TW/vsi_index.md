@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-05"
+  years: 2017, 2019
+lastupdated: "2019-05-29"
 
 keywords: virtual servers, provisioning process, IBM Cloud Virtual Servers
 
@@ -24,10 +24,10 @@ subcollection: virtual-servers
 您可以在幾分鐘之內部署 {{site.data.keyword.BluVirtServers}}。虛擬伺服器是從您選擇的虛擬伺服器映像檔中進行部署，並部署在對工作負載有意義的地理區域中。
 {:shortdesc}
 
-請在虛擬專用雲端上試用我們的虛擬伺服器！如需相關資訊，請參閱 [IBM Cloud Virtual Servers for VPC](/docs/vsi-is?topic=virtual-servers-is-gettingstartedvsigen#gettingstartedvsigen)。
+請在虛擬專用雲端上試用我們的虛擬伺服器！如需相關資訊，請參閱 [IBM Cloud Virtual Servers for Virtual Private Cloud](/docs/vpc-on-classic-vsi?topic=vpc-on-classic-vsi-getting-started)。
 {:tip}
 
-當您建立虛擬伺服器時，可以選擇公用（多方承租戶）環境或專用（單一承租戶）環境。然後，根據選擇的環境，您也必須選取每小時、每月或暫時性虛擬伺服器。如果是公用虛擬伺服器，則您也可以選擇使用 SAN 型儲存空間或本端儲存空間。
+當您在標準基礎架構中建立虛擬伺服器時，可以選擇公用（多方承租戶）環境或專用（單一承租戶）環境。然後，根據選擇的環境，您也必須選取每小時、每月或暫時性虛擬伺服器。如果是公用虛擬伺服器，則您也可以選擇使用 SAN 型儲存空間或本端儲存空間。
 
 ## 開始之前
 
@@ -48,14 +48,14 @@ subcollection: virtual-servers
 
 在您決定部署選項之後，請開始佈建處理程序。
 
-|佈建指示                                                          |說明                                                   |
+|              佈建指示                                         |說明                                                   |
 | -------------------------------------------------------------------------- | ------------------------------------------------------- |
 |[佈建公用實例](/docs/vsi?topic=virtual-servers-ordering-vs-public)                                 |使用各種選項佈建公用實例                                    |
 |[佈建暫時性實例](/docs/vsi?topic=virtual-servers-ordering-vs-transient)                |使用各種選項佈建暫時性實例                                    |
 |[佈建保留容量及實例](/docs/vsi?topic=virtual-servers-provisioning-reserved-capacity-and-instances)            |使用各種選項佈建保留容量及實例|
-|[佈建專用主機及實例](/docs/vsi?topic=virtual-servers-ordering-vs-dedicated)|在專用主機上佈建專用實例 (private instance) 或專用實例 (dedicated instance)                                  |
+|[佈建專用主機及實例](/docs/vsi?topic=virtual-servers-ordering-vs-dedicated)|在專用主機上佈建專用實例 (private instance) 或專用實例 (dedicated instance)|
 {: caption="表 2. 佈建資訊" caption-side="top"}
 
 ## 後續步驟
 
-虛擬伺服器在佈建且可供使用之後，即可使用 {{site.data.keyword.slportal_full}} 或 {{site.data.keyword.slapi_full}} 來配置虛擬伺服器。如需相關資訊，請參閱[配置虛擬伺服器](/docs/vsi?topic=virtual-servers-configuring-virtual-servers)。
+虛擬伺服器在佈建且可供使用之後，即可使用 {{site.data.keyword.cloud_notm}} 主控台或 {{site.data.keyword.slapi_short}} 來配置虛擬伺服器。如需相關資訊，請參閱[配置虛擬伺服器](/docs/vsi?topic=virtual-servers-configuring-virtual-servers)。

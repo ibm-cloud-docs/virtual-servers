@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-05-11"
+  years: 2018, 2019
+lastupdated: "2019-06-03"
 
 subcollection: virtual-servers
 
@@ -30,7 +30,7 @@ subcollection: virtual-servers
 ## 佈建暫時性虛擬伺服器實例
 {: #provision-transient-virtual-server}
 
-可以透過 [{{site.data.keyword.slportal_full}} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){: new_window} 或透過 [SLDN API ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](http://sldn.softlayer.com){: new_window} 佈建暫時性虛擬伺服器。如需相關資訊，請參閱[佈建暫時性實例](/docs/vsi?topic=virtual-servers-ordering-vs-transient)。
+可以透過 {{site.data.keyword.cloud_notm}} 主控台、{{site.data.keyword.slportal}}，或透過 [SLDN API ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](http://sldn.softlayer.com){: new_window} 佈建暫時性虛擬伺服器。如需相關資訊，請參閱[佈建暫時性實例](/docs/vsi?topic=virtual-servers-ordering-vs-transient#ordering-vs-transient)。
 
 ## 設定 Webhook
 

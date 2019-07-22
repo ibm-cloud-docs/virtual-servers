@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2019
+lastupdated: "2019-06-03"
 
 subcollection: virtual-servers
 
@@ -19,7 +19,7 @@ subcollection: virtual-servers
 # 管理安全群組
 {: #managing-security-groups}
 
-您可以使用 {{site.data.keyword.slportal_full}} 中的「安全群組」頁面或「裝置詳細資料」頁面來管理安全群組。
+您可以使用 {{site.data.keyword.cloud}} 主控台中的**安全**頁面或裝置詳細資料頁面來管理安全群組。
 {:shortdesc}
 
-如需管理安全群組的相關資訊，請參閱[管理安全群組](/docs/infrastructure/security-groups?topic=security-groups-managing-sg)。
+如需管理安全群組的相關資訊，請參閱[管理安全群組](/docs/infrastructure/security-groups?topic=security-groups-managing-sg#managing-sg)。

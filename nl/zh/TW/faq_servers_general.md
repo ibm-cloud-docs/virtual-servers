@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-05-17"
+  years: 2017, 2019
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -14,7 +14,6 @@ subcollection: virtual-servers
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
-{:faq: data-hd-content-type='faq'}
 
 
 # 常見問題：伺服器（一般）
@@ -25,21 +24,22 @@ subcollection: virtual-servers
 
 「從映像檔開機」及「從映像檔載入」都是利用現有映像檔範本，而這些映像檔範本會套用至裝置來取代現有作業系統或補充作業系統，以試圖補救現有問題。「開機」與「載入」處理程序的主要差異在於所使用的映像檔類型。執行「從映像檔開機」或「從映像檔載入」處理程序時，請確定您已備份要回復的所有資料。
 
-   * 「從映像檔開機」是一種方法，使用下列 ISO 將裝置開機：{{site.data.keyword.BluSoftlayer_full}} 為進行系統回復所提供的 ISO，或利用 {{site.data.keyword.slportal_full}} 中的*匯入映像檔* 特性所上傳的 ISO。ISO 可能是全新版本的裝置作業系統或回復磁碟，可用於試圖補救裝置問題。
-   * 「從映像檔載入」是一種「OS 重新載入」方法，其利用已從裝置所擷取或使用 {{site.data.keyword.slportal}} 中的*映像檔匯入* 特性所上傳的映像檔範本。*從映像檔載入* 選項會使用 VHD 執行重新載入，而抹除裝置的所有資料，並將現有的作業系統和檔案取代為「類似新版」的所選取映像檔。
+   * 「從映像檔開機」是一種使用下列 ISO 將裝置開機的方式：{{site.data.keyword.BluSoftlayer_full}} 為進行系統回復所提供的 ISO，或利用 {{site.data.keyword.cloud_notm}} 主控台中的*匯入映像檔* 特性所上傳的 ISO。ISO 可能是全新版本的裝置作業系統或回復磁碟，可用於試圖補救裝置問題。
+   * 「從映像檔載入」是一種「OS 重新載入」方法，其利用已從裝置擷取或使用 {{site.data.keyword.cloud_notm}} 主控台中的*映像檔匯入* 特性所上傳的映像檔範本。*從映像檔載入* 選項會使用 VHD 執行重新載入，而抹除裝置的所有資料，並將現有的作業系統和檔案取代為「類似新版」的所選取映像檔。
 
 ## 為何無法連接至 KVM 主控台？
 {:faq}
 
-如果您無法連接至 KVM 主控台，請檢閱下列疑難排解提示來協助解決此問題。發生其他問題時，請與支援中心聯絡。如需與支援中心聯絡的相關資訊，請參閱[取得協助及支援](/docs/vsi?topic=virtual-servers-gettinghelp)。
+如果您無法連接至 KVM 主控台，請檢閱下列疑難排解提示來協助解決此問題。發生其他問題時，請與支援中心聯絡。如需與支援中心聯絡的相關資訊，請參閱[取得協助及支援](/docs/vsi?topic=virtual-servers-gettinghelp#gettinghelp)。
 
    * KVM 主控台是一種 Java Applet。必須先安裝 Java，才能存取主控台。如需安裝 Java 的相關資訊，請參閱[免費 Java 下載 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://www.java.com/en/download/){: new_window}。  
    * 如果已安裝 Java，請確定已使用 VPN 來建立連線。如果未建立連線，則會在試圖連接至需要 VPN 連線的 KVM 主控台時顯示一則警告。
-   * KVM 主控台可能會在連線處理程序期間產生一個以上的蹦現方框。請啟用來自 {{site.data.keyword.slportal}} 的蹦現畫面，以確保可以建立連線。
+   * KVM 主控台可能會在連線處理程序期間產生一個以上的蹦現方框。請啟用來自 {{site.data.keyword.cloud_notm}} 主控台的蹦現畫面，以確保可以建立連線。
    * 您可能會收到「安全設定已封鎖 Java 應用程式」錯誤。若為裸機 iKVM 裝置，您必須針對 IPMI 裝置的「IP 位址」新增異常狀況。若為 VSI 裝置，請務必容許 "https://control.softlayer.com" 以及 KVM 的 IP 位址。如需相關資訊，請參閱[具有最新 Java 的安全設定為何封鎖 Java 應用程式？![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://www.java.com/en/download/help/java_blocked.xml){: new_window}。
    * 如果已符合上述條件，而且您收到的錯誤指出「main.jar 中遺漏必要的許可權資訊清單」，則表示「Java 控制台」中尚未啟用 Java Applet。在 Java SE 第 7 版中，已引進此設定作為 Oracle 的安全預防措施。在「控制台」中啟用 Applet 來解決此問題。
 
-     **附註：**如果搭配使用 Mac OSX 與 Google Chrome，請參閱 Java 網站上的「安裝及使用 Mac Java 7 的資訊和系統需求」。
+     如果搭配使用 Mac OSX 與 Google Chrome，請參閱 Java 網站上的「安裝及使用 Mac Java 7 的資訊和系統需求」。
+     {:note}
 
    * 如果您要嘗試透過標準 Java 連接至 VSI，而且除了錯誤之外並未取得任何項目，則也可以嘗試使用 VNC。
 
@@ -52,10 +52,10 @@ subcollection: virtual-servers
 
    * 您要複製並貼上密碼嗎？如果不要，請嘗試這麼做。也請將密碼貼入記事本，以確保沒有空格意外與密碼一起複製。
    * 如果伺服器具有 cPanel，則 cPHulk 可能已因登入失敗而封鎖 IP 位址嗎？如果是這樣，可以使用 KVM 或 IPMI 存取伺服器，並在 "/scripts/cphulkdwhitelist" 後接 IP 位址的 cPHulk 中將 IP 位址設為白名單。
-   * 最近是否有人嘗試在 {{site.data.keyword.slportal}} 中修改伺服器密碼來變更密碼？在 {{site.data.keyword.slportal}} 中變更密碼只會將您看到的內容變更為密碼。它並不會變更伺服器所使用的密碼。如果發生這種情況，您可以聯絡「支援中心」，他們通常可以回復原始有效密碼。
-   * 您可能需要開機進入作業系統的救援模式，才能重設密碼。如需相關資訊，請參閱[啟動救援核心](/docs/vsi?topic=virtual-servers-launching-rescue)。
+   * 最近是否有人嘗試藉由修改 {{site.data.keyword.cloud_notm}} 主控台中的密碼來變更伺服器的密碼？變更 {{site.data.keyword.cloud_notm}} 主控台中的密碼，只會變更您所看到的密碼。它並不會變更伺服器所使用的密碼。如果發生這種情況，您可以聯絡「支援中心」，他們通常可以回復原始有效密碼。
+   * 您可能需要開機進入作業系統的救援模式，才能重設密碼。如需相關資訊，請參閱[啟動救援核心](/docs/vsi?topic=virtual-servers-launching-rescue#launching-rescue)。
 
-如果您已檢查上述所有項目，但仍然無法使用密碼連接至伺服器，請使用問題單聯絡支援中心，並要求密碼重設。「支援中心」需要將伺服器重新開機以重設密碼，因此，請確定您已準備好核准重新開機，以及（或）提供要在其間完成它的維護時間範圍。大部分密碼重設可以在 15 分鐘內完成。在 {{site.data.keyword.slportal}} 中，您可以移至**支援 > 新增問題單**來建立問題單，並使用*重新開機及主控台存取* 主旨。
+如果您已檢查上述所有項目，但仍然無法使用密碼連接至伺服器，請使用問題單聯絡支援中心，並要求密碼重設。「支援中心」需要將伺服器重新開機以重設密碼，因此，請確定您已準備好核准重新開機，以及（或）提供要在其間完成它的維護時間範圍。大部分密碼重設可以在 15 分鐘內完成。在 {{site.data.keyword.cloud_notm}} 主控台中，您可以藉由移至**支援 > 建立案例**來建立問題單，並使用*帳戶及存取* 主旨。
 
 ## 支援將 LVM 分割區作為有效的檔案系統嗎？
 {:faq}
@@ -65,7 +65,7 @@ LVM（邏輯磁區管理）提供 Linux 中檔案系統的邏輯管理。在 {{s
 ## 客戶主機上預先配置的 161.26.0.0/16 路徑
 {:faq}
 
-{{site.data.keyword.BluSoftlayer}} 將會在所有新佈建的伺服器上啟用新路徑來支援未來產品。
+{{site.data.keyword.BluSoftlayer_notm}} 將會在所有新佈建的伺服器上啟用新路徑來支援未來產品。
    * 路徑會將 161.26.0.0/16 範圍 (161.26.0.0 255.255.0.0 | 161.26.0.0 -161.26.255.255) 中的任何位址指向後端專用網路。
    * 此 IP 區塊是由 IANA 指派給 {{site.data.keyword.BluSoftlayer_notm}}，而且不會在公用網際網路上進行通告。
    * 只有 {{site.data.keyword.BluSoftlayer_notm}} 系統才會定址到此空間外部。
@@ -166,7 +166,7 @@ LVM（邏輯磁區管理）提供 Linux 中檔案系統的邏輯管理。在 {{s
 ## 我可以讓監視系統發出自動重新開機，並在伺服器停止回應時警告支援技術人員嗎？
 {:faq}
 
-可以，只要訂購**因監視失敗而自動重新開機**服務，您就可以設定監視系統自動將伺服器重新開機，並在發出監視警示時為支援技術人員發出問題單。我們提供 **NOC 監視**作為額外的服務，而在此服務中，您會在發生監視問題時收到個人通知。若要進一步瞭解這兩個供應項目，請參閱[伺服器監視 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](http://www.softlayer.com/services/monitoring/){:new_window}。
+可以，只要訂購**因監視失敗而自動重新開機**服務，您就可以設定監視系統自動將伺服器重新開機，並在發出監視警示時為支援技術人員發出問題單。我們提供 **NOC 監視**作為額外的服務，而在此服務中，您會在發生監視問題時收到個人通知。若要進一步瞭解這兩個供應項目，請參閱[伺服器監視 ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud/infrastructure/monitoring?cm_mc_uid=46846454197915580355142&cm_mc_sid_50200000=71138741559658182022){:new_window}。
 
 ## 何謂 cvsup 鏡映？
 {:faq}

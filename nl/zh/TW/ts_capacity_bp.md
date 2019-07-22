@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2018-01-03"
+  years: 2017, 2019
+lastupdated: "2019-04-05"
 
 subcollection: virtual-servers
 
@@ -17,7 +17,7 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 
-# 容量考量
+# 虛擬伺服器實例的資源考量
 {: #capacity-considerations}
 
 ## 發生狀況
@@ -34,7 +34,7 @@ There is insufficient capacity to complete the request.
 
 ## 發生原因
 
-路由器或資料中心內的可用資源不足而無法滿足服務要求時，發生容量錯誤。有數個原因，您都會收到此錯誤。資源可用性會經常變更，因此您可能需要等待，然後再試一次。
+路由器或資料中心內的可用資源不足而無法滿足服務要求時，發生錯誤。有數個原因，您都會收到此錯誤。資源可用性會經常變更，因此您可能需要等待，然後再試一次。
 
 ## 修正方式
 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-08-01"
+  years: 2018, 2019
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -22,9 +22,9 @@ subcollection: virtual-servers
 {{site.data.keyword.cloud}} 會使用在專用網路上的 IPv4 位址，以及在要求時使用公用（面對網際網路）IPv4 位址，來配置虛擬伺服器實例。此外，您可以在公用網路上要求 IPv6 位址。所有這些 IP 位址統稱為_主要 IP 位址_。
 {:shortdesc}
 
-透過 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com) 購買次要子網路之後，可以將其他 IP 位址連結至虛擬伺服器實例。使用此方式購買且由您管理的 IP 位址稱為_次要 IP 位址_。
+透過 {{site.data.keyword.cloud_notm}} 購買次要子網路之後，可以將其他 IP 位址連結至虛擬伺服器實例。使用此方式購買且由您管理的 IP 位址稱為_次要 IP 位址_。
 
-如需獲得 IP 位址之可用選項的相關資訊，請參閱[子網路及 IP](/docs/infrastructure/subnets?topic=subnets-getting-started-with-subnets-and-ips#getting-started-with-subnets-and-ips)。
+如需獲得 IP 位址之可用選項的相關資訊，請參閱[子網路及 IP](/docs/infrastructure/subnets?topic=subnets-about-subnets-and-ips)。
 
 ## 連結次要 IP 位址
 

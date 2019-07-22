@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-08-23"
+  years: 2017, 2019
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -11,6 +11,7 @@ subcollection: virtual-servers
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
+{:note: .note}
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
@@ -26,9 +27,10 @@ subcollection: virtual-servers
 
 在訂購過程中，您可以選取裝置特定硬體或軟體防火牆來提供保護。或者，您也可以將專用防火牆應用裝置部署至環境，並將虛擬伺服器部署至受保護的 VLAN。  
 
-**附註：**不能透過相同介面上的兩個防火牆應用裝置來保護虛擬伺服器。
+不能藉由相同介面上的兩個防火牆應用裝置來保護虛擬伺服器。
+{:note}
 
 如需相關資訊，請參閱下列安全主題集合。
 
-* [硬體防火牆（共用）](/docs/infrastructure/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started-with-hardware-firewall-shared)
-* [硬體防火牆（專用）](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-getting-started-with-hardware-firewall-dedicated)
+* [硬體防火牆（共用）](/docs/infrastructure/hardware-firewall-shared?topic=hardware-firewall-shared-about-hardware-firewall-shared-)
+* [硬體防火牆（專用）](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-about-the-hardware-firewall-dedicated-)

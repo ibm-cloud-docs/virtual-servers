@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-24"
+  years: 2017, 2019
+lastupdated: "2019-05-16"
 
 subcollection: virtual-servers
 
@@ -72,7 +72,7 @@ subcollection: virtual-servers
     <td>選取您要放置主機的 {{site.data.keyword.cloud}} 資料中心。如需適用資料中心的清單，請參閱「關於」。</td>
     </tr>
     <td>專用主機</td>
-    <td>預設為 56 個核心 X 242 RAM X 1.2 TB</td>
+    <td>預設為 56 核心 X 242 GB RAM X 1.2 TB，但您可以從其他配置中選取。</td>
     </tr>
     </TBODY>
     </table>
@@ -236,4 +236,4 @@ subcollection: virtual-servers
 已佈建專用主機實例之後，您會收到一封電子郵件。
 
 ## 後續步驟
-佈建虛擬伺服器之後，即可開始進行管理。如需相關資訊，請參閱[管理虛擬伺服器](/docs/vsi?topic=virtual-servers-managing-virtual-servers)。
+虛擬伺服器在佈建且可供使用之後，即可使用 {{site.data.keyword.slportal_full}} 或 {{site.data.keyword.slapi_full}} 來配置虛擬伺服器。如需相關資訊，請參閱[配置虛擬伺服器](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers)。

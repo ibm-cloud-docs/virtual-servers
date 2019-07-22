@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2017
-lastupdated: "2017-12-12"
+  years: 2014, 2019
+lastupdated: "2019-05-28"
 
 subcollection: virtual-servers
 
@@ -13,16 +13,20 @@ subcollection: virtual-servers
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:note: .note}
 {:table: .aria-labeledby="caption"}
 
 # 在 Windows 中升級埠速度
 {: #upgrading-port-speed-in-windows}
 
-客戶伺服器的預設埠速度（適用於公用及專用網路）是 10 Mbps。如果您要將任一個埠速度升級為 100 Mbps 或 1000 Mbps，請開立包含要求的問題單。銷售人員會要求您核准最少費用，而技術人員會變更您網路上的埠速度。
+客戶伺服器的預設埠速度（適用於公用及專用網路）是 10 Mbps。如果您要將任一個埠速度升級為 100 Mbps 或 1000 Mbps，請開立包含要求的問題單。銷售人員會要求您核准最少費用，而技術人員會變更您網路上的埠速度。如需開立 IBM 支援問題單的相關資訊，請參閱[取得支援](/docs/get-support?topic=get-support-getting-customer-support)。
 
 網路端上的升級完成之後，請將伺服器上的適當網路介面寫在程式中。
 
-請遵循下列步驟，強制執行 Windows 伺服器上的埠速度。**附註：**一律連接至網路上您未處理的伺服器，避免伺服器將您鎖住。
+一律連接至網路上您未處理的伺服器，避免伺服器將您鎖住。
+{:note}
+
+請完成下列步驟，強制執行 Windows 伺服器上的埠速度。 
 
 1. 選取**開始 > 選取控制台 > 選取網路連線**。
 2. 按一下您要嘗試升級/降級的網路連線。

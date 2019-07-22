@@ -69,4 +69,6 @@ subcollection: virtual-servers
 
 ## 後續步驟
 
-在您佈建保留虛擬伺服器容量及實例之後，即可開始管理它們。如需相關資訊，請參閱[管理虛擬伺服器](/docs/vsi?topic=virtual-servers-managing-virtual-servers)。如果您有保留容量及實例的問題，請參閱[常見問題：保留容量及實例](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances)。
+虛擬伺服器在佈建且可供使用之後，即可使用 {{site.data.keyword.cloud_notm}} 主控台或 {{site.data.keyword.slapi_short}} 來配置虛擬伺服器。如需相關資訊，請參閱[配置虛擬伺服器](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers)。
+
+如果您有保留容量及實例的問題，請參閱[常見問題：保留容量及實例](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances#faqs-reserved-capacity-and-instances)。 
