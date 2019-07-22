@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2019
+lastupdated: "2019-06-03"
 
 subcollection: virtual-servers
 
@@ -19,7 +19,7 @@ subcollection: virtual-servers
 # Gerenciando grupos de segurança
 {: #managing-security-groups}
 
-É possível gerenciar grupos de segurança usando a página Grupos de Segurança ou a página Detalhes do Dispositivo no {{site.data.keyword.slportal_full}}.
+É possível gerenciar grupos de segurança usando a página **Segurança** ou a página de detalhes do dispositivo no console do {{site.data.keyword.cloud}}.
 {:shortdesc}
 
-Para obter mais informações sobre como gerenciar grupos de segurança, consulte [Gerenciando grupos de segurança](/docs/infrastructure/security-groups?topic=security-groups-managing-sg).
+Para obter mais informações sobre como gerenciar grupos de segurança, consulte [Gerenciando grupos de segurança](/docs/infrastructure/security-groups?topic=security-groups-managing-sg#managing-sg).

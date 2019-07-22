@@ -153,4 +153,5 @@ Para fornecer uma instância de servidor virtual dedicada por meio do {{site.dat
     Uma série de e-mails é enviada a seu administrador — confirmação, aprovação e processamento da ordem de fornecimento, e fornecimento concluído. O e-mail completo de fornecimento incluirá um link que o levará diretamente para sua página **Detalhes do dispositivo**, depois de efetuar login no {{site.data.keyword.Bluemix_notm}}. Outra opção seria registrar-se diretamente no {{site.data.keyword.slportal}}.
 
 ## Próximas Etapas
-Depois que seu servidor virtual for provisionado, será possível começar a gerenciá-lo. Para obter mais informações, veja [Gerenciando servidores virtuais](/docs/vsi?topic=virtual-servers-managing-virtual-servers).
+Depois que seu servidor virtual for provisionado e estiver disponível para uso, será possível configurar os servidores virtuais usando
+o {{site.data.keyword.slportal_full}} ou o {{site.data.keyword.slapi_full}}. Para obter mais informações, veja [Configurando servidores virtuais](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).

@@ -1,45 +1,47 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-10-31"
+  years: 2018, 2019
+lastupdated: "2019-04-24"
 
 subcollection: virtual-servers
 
 ---
 
 {:shortdesc: .shortdesc}
+{:note: .note}
 {:new_window: target="_blank"}
 
 # Gerenciando os grupos de posicionamento
 {: #vsi_managing_placegroup}
 
-É possível gerenciar os grupos de posicionamento usando a página Grupos de posicionamento ou a página Detalhes do dispositivo no portal do cliente.
+É possível gerenciar grupos de colocação usando a página de grupos de colocação ou a página de detalhes do dispositivo no console do {{site.data.keyword.cloud}}.
 {:shortdesc}
 
-## Incluindo os grupos de posicionamento por meio da página Grupos de posicionamento
+## Incluindo grupos de colocação
 
-Para incluir os grupos de posicionamento por meio da página Grupos de posicionamento, conclua as seguintes etapas:
+Para incluir grupos de colocação por meio da página de grupos de colocação, conclua as etapas a seguir:
 {:shortdesc}
 
-1. Na navegação [{{site.data.keyword.slportal_full}}![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}, selecione **Dispositivos -> Gerenciar -> Grupos de posicionamento**.
-2. Na página Grupos de posicionamento, clique em **Incluir grupo de posicionamento**.
-3. Insira um nome, uma descrição e um data center para o grupo de posicionamento e clique em **Incluir**.
+1. Abra a página [Grupos de colocação ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://cloud.ibm.com/gen1/infrastructure/placement-groups){: new_window}.
+2. Na página de grupos de colocação, clique em **Novo grupo**.
+3. Insira um nome, uma localização, um pod e uma regra para o grupo de colocação e clique em **Criar**.
 
-**Nota:** as instâncias existentes não podem ser incluídas em um grupo de posicionamento; somente é possível incluir uma instância de servidor virtual em um grupo de posicionamento no fornecimento.
+As instâncias existentes não podem ser incluídas em um grupo de posicionamento; somente é possível incluir uma instância de servidor virtual em um grupo de posicionamento no fornecimento. 
+{:note}
 
+## Gerenciando os grupos de posicionamento
 
-## Gerenciando os grupos de posicionamento por meio da página Grupos de posicionamento
-
-Para gerenciar os grupos de posicionamento por meio da página Grupos de posicionamento, conclua as seguintes etapas:
+Para gerenciar os grupos de colocação por meio da página de grupos de colocação, conclua as etapas a seguir:
 {:shortdesc}
 
-1. Na navegação do [{{site.data.keyword.slportal}}![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}, selecione **Dispositivos -> Gerenciar -> Grupos de posicionamento**.
-2. Na seção Grupo de posicionamento, é possível concluir várias tarefas de gerenciamento.
-     * Visualize uma lista de grupos de posicionamento e o número de instâncias designadas.
-     * Inclua um grupo.
-     * Editar informações sobre o grupo.
-     * Exclui um grupo.
-
- **Notas:** deve-se remover os servidores designados do grupo de posicionamento antes de poder excluí-lo.
-Para remover uma instância de um grupo de posicionamento, deve-se excluí-la ou recuperá-la.
+1. Abra a página [Grupos de colocação ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://cloud.ibm.com/gen1/infrastructure/placement-groups){: new_window}.
+2. Na seção do grupo de colocação, é possível concluir várias tarefas de gerenciamento.
+     * Visualizar uma lista de grupos de colocação e o número de instâncias designadas
+     * Incluir um grupo
+     * Renomear um grupo
+     * Provisionar uma instância
+     * Excluir um grupo
+     
+Deve-se remover os servidores designados do grupo de colocação antes que ele possa ser excluído. Para remover uma instância de um grupo de posicionamento, deve-se excluí-la ou recuperá-la.
+{:note}

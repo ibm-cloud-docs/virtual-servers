@@ -71,4 +71,6 @@ Depois de ter fornecido a capacidade reservada, é hora de fornecer as instânci
 
 ## Próximas Etapas
 
-Depois de ter fornecido a capacidade e as instâncias reservadas do servidor virtual, é possível começar a gerenciá-las. Para obter mais informações, veja [Gerenciando servidores virtuais](/docs/vsi?topic=virtual-servers-managing-virtual-servers). Se você tiver dúvidas sobre a capacidade e as instâncias reservadas, consulte [Perguntas mais frequentes: capacidade e instâncias reservadas](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances).
+Depois que seu servidor virtual for provisionado e estiver disponível para uso, será possível configurar seus servidores virtuais usando o console do {{site.data.keyword.cloud_notm}} ou o {{site.data.keyword.slapi_short}}. Para obter mais informações, veja [Configurando servidores virtuais](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).
+
+Se você tiver dúvidas sobre a capacidade e as instâncias reservadas, consulte [Perguntas mais frequentes: capacidade e instâncias reservadas](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances#faqs-reserved-capacity-and-instances). 

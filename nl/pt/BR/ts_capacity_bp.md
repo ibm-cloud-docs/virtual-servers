@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2018-01-03"
+  years: 2017, 2019
+lastupdated: "2019-04-05"
 
 subcollection: virtual-servers
 
@@ -17,7 +17,7 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 
-# Considerações sobre capacidade
+# Considerações de recurso para instâncias de servidor virtual
 {: #capacity-considerations}
 
 ## O que está acontecendo?
@@ -34,7 +34,7 @@ Quando o fornecimento falha, todas as instâncias de servidor virtual dessa soli
 
 ## Por que isso está acontecendo?
 
-Um erro de capacidade ocorre quando há recursos insuficientes disponíveis no roteador ou no data center para preencher a solicitação de serviço. Existem vários motivos pelos quais você pode receber esse erro. A disponibilidade de recurso muda frequentemente, portanto, você pode esperar e tentar novamente mais tarde.
+Ocorre um erro quando há recursos insuficientes disponíveis no roteador ou no data center para atender à solicitação de serviço. Existem vários motivos pelos quais você pode receber esse erro. A disponibilidade de recurso muda frequentemente, portanto, você pode esperar e tentar novamente mais tarde.
 
 ## Como corrigi-lo
 

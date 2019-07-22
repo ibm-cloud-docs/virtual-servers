@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-11-30"
+  years: 2017, 2019
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -25,4 +25,4 @@ tanto cobrados quanto gratuitos para implementações do
 do {{site.data.keyword.baremetal_short}}. No entanto, os produtos de ferramenta de banco de dados estão disponíveis somente para ciclos de faturamento mensal do {{site.data.keyword.virtualmachinesshort}} e {{site.data.keyword.baremetal_short}}.
 {:shortdesc}
 
-Para obter mais informações sobre as ferramentas do Banco de dados, veja [Introdução a ferramentas de banco de dados.](/docs/infrastructure/database-tools?topic=database-tools-getting-started-tutorial)
+Para obter mais informações sobre as ferramentas do Banco de dados, veja [Introdução a ferramentas de banco de dados.](/docs/infrastructure/database-tools?topic=database-tools-dbt-getting-started)

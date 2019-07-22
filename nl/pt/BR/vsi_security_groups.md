@@ -23,4 +23,4 @@ Com grupos de segurança para {{site.data.keyword.BluVirtServers}}, é possível
 e de saída para as interfaces pública e privada de uma instância de servidor virtual. Um grupo de segurança cria uma espécie de firewall virtual.
 {:shortdesc}
 
-Para obter mais informações sobre o recurso de grupos de segurança, consulte [Introdução aos grupos de segurança](/docs/infrastructure/security-groups?topic=security-groups-getting-started-with-security-groups).
+Para obter mais informações sobre o recurso de grupos de segurança, consulte [Introdução aos grupos de segurança](/docs/infrastructure/security-groups?topic=security-groups-getting-started).

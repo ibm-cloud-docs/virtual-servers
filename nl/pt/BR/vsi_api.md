@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-25"
+  years: 2017, 2018
+lastupdated: "2018-04-03"
 
 subcollection: virtual-servers
 
@@ -15,10 +15,10 @@ subcollection: virtual-servers
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# Referência de API
+# Visão geral da referência de API
 {: #api-reference}
 
-O {{site.data.keyword.slapi_full}} é a interface de desenvolvimento que fornece aos desenvolvedores e administradores do sistema a interação direta com o sistema backend do {{site.data.keyword.cloud}}. O {{site.data.keyword.slapi_short}} impulsiona muitos dos recursos no {{site.data.keyword.slportal_full}}, o que geralmente significa que, se uma interação é possível no {{site.data.keyword.slportal}}, ela também pode ser executada na API. Como você pode interagir programaticamente com todas as partes do ambiente do {{site.data.keyword.BluSoftlayer_full}} dentro da API, o {{site.data.keyword.slapi_short}} permite automatizar tarefas. Por exemplo, é possível usar a API *SoftLayer_Virtual_Guest/createObject* para implementar uma instância de servidor virtual.
+O {{site.data.keyword.slapi_full}} é a interface de desenvolvimento que fornece aos desenvolvedores e administradores do sistema a interação direta com o sistema backend do {{site.data.keyword.cloud_notm}}. O {{site.data.keyword.slapi_short}} alimenta muitos dos recursos no console do {{site.data.keyword.cloud_notm}}, o que geralmente significa que, se uma interação é possível no console do {{site.data.keyword.cloud_notm}}, ela também pode ser executada na API. Como você pode interagir programaticamente com todas as partes do ambiente do {{site.data.keyword.cloud_notm}} dentro da API, o {{site.data.keyword.slapi_short}} permite automatizar tarefas. Por exemplo, é possível usar a API *SoftLayer_Virtual_Guest/createObject* para implementar uma instância de servidor virtual.
 {:shortdesc}
 
 O {{site.data.keyword.slapi_short}} é um sistema de Chamada de Procedimento Remoto. Cada chamada envolve enviar dados para um terminal de API e receber dados estruturados em retorno. O formato usado para enviar e receber dados com o {{site.data.keyword.slapi_short}} depende de qual implementação da API você escolher. O {{site.data.keyword.slapi_short}} usa atualmente SOAP, XML-RPC ou REST para transmissão de dados.

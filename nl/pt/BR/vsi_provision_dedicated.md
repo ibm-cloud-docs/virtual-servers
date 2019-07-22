@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-24"
+  years: 2017, 2019
+lastupdated: "2019-05-16"
 
 subcollection: virtual-servers
 
@@ -72,7 +72,7 @@ Você é conduzido para a página *Configurar seu servidor em nuvem*. Nessa pág
     <td>Selecione o data center do {{site.data.keyword.cloud}} no qual deseja colocar seus hosts. Veja Sobre a lista de data centers aplicáveis.</td>
     </tr>
     <td>Host dedicado</td>
-    <td>Assume por padrão 56 núcleos X 242 X 1,2 TB de RAM</td>
+    <td>Padronizado como 56 Cores X 242 de RAM X 1,2 TB, mas é possível selecionar entre outras configurações.</td>
     </tr>
     </TBODY>
     </table>
@@ -237,4 +237,5 @@ etapas a seguir:
 Você receberá um e-mail quando suas instâncias de host dedicado tiverem sido provisionadas.
 
 ## Próximas Etapas
-Depois que seu servidor virtual for provisionado, será possível começar a gerenciá-lo. Para obter mais informações, veja [Gerenciando servidores virtuais](/docs/vsi?topic=virtual-servers-managing-virtual-servers).
+Depois que seu servidor virtual for provisionado e estiver disponível para uso, será possível configurar os servidores virtuais usando
+o {{site.data.keyword.slportal_full}} ou o {{site.data.keyword.slapi_full}}. Para obter mais informações, veja [Configurando servidores virtuais](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).

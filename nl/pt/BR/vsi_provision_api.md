@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-04"
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -14,6 +14,7 @@ subcollection: virtual-servers
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:tip: .tip}
+{:note: .note}
 {:table: .aria-labeledby="caption"}
 
 # Exemplos de API: perfis de servidores virtuais públicos
@@ -33,6 +34,9 @@ Não aplicável para instâncias temporárias.
 {:tip}
 
 Para provisionar uma instância de servidor virtual público usando REST, uma solicitação de POST seria enviada para https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ com o JSON a seguir no corpo da solicitação.
+
+O corpo da solicitação JSON a seguir é um exemplo genérico. 
+{:note}
 
 ### Corpo da solicitação JSON 1
 ```
@@ -66,7 +70,11 @@ Não aplicável para instâncias temporárias.
 
 Para provisionar um servidor virtual público usando REST, uma solicitação de POST seria enviada para https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ com o JSON abaixo no corpo da solicitação.
 
-**Nota:** as descrições de itens não são necessárias nos preços. Eles são incluídos somente para mostrar as opções do produto que estão sendo enviadas.
+As descrições de itens não são necessárias nos preços. Eles são incluídos somente para mostrar as opções do produto que estão sendo enviadas.
+{:note}
+
+O corpo da solicitação JSON a seguir é um exemplo genérico. 
+{:note}
 
 ### Corpo da solicitação JSON 2
 ```
@@ -165,7 +173,11 @@ Não aplicável para instâncias temporárias.
 
 Para provisionar um servidor virtual público usando REST, uma solicitação de POST seria enviada para https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ com o JSON abaixo no corpo da solicitação.
 
-**Nota:** as descrições de itens não são necessárias nos preços. Eles são incluídos somente para mostrar as opções do produto que estão sendo enviadas.
+As descrições de itens não são necessárias nos preços. Eles são incluídos somente para mostrar as opções do produto que estão sendo enviadas.
+{:note}
+
+O corpo da solicitação JSON a seguir é um exemplo genérico. 
+{:note}
 
 ### Corpo da solicitação JSON 3
 ```
@@ -207,6 +219,9 @@ Para provisionar um servidor virtual público usando REST, uma solicitação de 
 O serviço de API *SoftLayer_Virtual_Guest/createObject* é a maneira mais simples de provisionar uma instância de servidor virtual temporária.
 
 Para provisionar uma instância de servidor virtual temporária usando REST, uma solicitação de POST seria enviada para https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ com o JSON a seguir no corpo da solicitação.
+
+O corpo da solicitação JSON a seguir é um exemplo genérico. 
+{:note}
 
 ### Corpo da solicitação 4 de JSON
 ```

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-06"
 
 keywords: virtual server, suspend billing feature, virtual server instances, suspend billing
 
@@ -18,9 +18,10 @@ subcollection: virtual-servers
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:row-headers: .row-headers}
 {:table: .aria-labeledby="caption"}
 
-# Sobre a suspensão de faturamento
+# Suspender faturamento
 {: #requirements}
 
 Ao desligar um servidor virtual que suporta o recurso de suspensão de faturamento, os custos
@@ -45,8 +46,7 @@ configurações:
 recuperação de uma instância de servidor virtual.
 {:tip}
 
-O faturamento será suspenso somente quando a instância de servidor virtual for desligada por meio do
-{{site.data.keyword.slportal_full}}, da CLI ou do {{site.data.keyword.slapi_short}}. Se você desligar a instância de servidor virtual diretamente por meio do S.O., o faturamento não será suspenso para essa instância.
+O faturamento é suspenso apenas quando você desliga a instância de servidor virtual por meio do console do {{site.data.keyword.cloud}}, da CLI ou do {{site.data.keyword.slapi_short}}. Se você desligar a instância de servidor virtual diretamente por meio do S.O., o faturamento não será suspenso para essa instância.
 {:note}
 
 ## Detalhes do fornecimento
@@ -70,19 +70,19 @@ Deve-se especificar o ID do pacote de suspensão de faturamento específico dura
 
 | Recurso                      | Faturamento interrompido   | Faturamento persistente |
 | ----------------------------- | ----------------- | ---------------- |
-| vCPU                          |          P        |                  |
-| RAM                           |          P        |                  |
-| Velocidade da porta                    |          P        |                  |
-| Licenças do sistema operacional     |          P        |                  |
-| Complementos de monitoramento          |          P        |                  |
-| Endereços IP públicos secundários |                   |         P        |
-| Armazenamento                       |                   |         P        |
-{: caption="Tabela 1. Detalhes do recurso de faturamento" caption-side="top"}   
+| vCPU                          | ![Ícone de visto](../../icons/checkmark-icon.svg) |                  |
+| RAM                           | ![Ícone de visto](../../icons/checkmark-icon.svg) |                  |
+| Velocidade da porta                    | ![Ícone de visto](../../icons/checkmark-icon.svg) |                  |
+| Licenças do sistema operacional     | ![Ícone de visto](../../icons/checkmark-icon.svg) |                  |
+| Complementos de monitoramento          | ![Ícone de visto](../../icons/checkmark-icon.svg) |                  |
+| Endereços IP públicos secundários |                   | ![Ícone de visto](../../icons/checkmark-icon.svg) |
+| Armazenamento                       |                   | ![Ícone de visto](../../icons/checkmark-icon.svg) |
+{: row-headers}
+{: class="comparison-table"}
+{: caption="Tabela 1. Detalhes do recurso de faturamento" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify the resource. The column headers identify whether billing stops or persists when your instance is powered off. To understand whether billing stops or persists for a resource, navigate to the row in the table, and find the billing information you are interested in."}  
 
-Ao fornecer uma instância de servidor virtual que suporta o recurso de suspensão de faturamento, os
-tempos de uso são calculados por minuto, para o tempo de uso e o tempo suspenso da instância de servidor
-virtual. Mesmo se você nunca iniciar o recurso de suspensão de faturamento desligando a instância, o
-faturamento será calculado por minuto do ciclo de vida da instância.
+Quando você provisiona uma instância de servidor virtual que suporta o recurso de suspensão de faturamento, os tempos de uso são calculados por segundo para o tempo de uso e para o tempo de suspensão de sua instância de servidor virtual. Mesmo que você nunca inicie o recurso de suspensão de faturamento desligando sua instância, o faturamento é calculado por segundo do ciclo de vida da instância.
 {:note}
 
 ### Encargo mínimo de uso

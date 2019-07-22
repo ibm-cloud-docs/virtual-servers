@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-04"
+lastupdated: "2019-06-04"
 
 keywords: transient virtual servers, transient instances, transient offering, cost savings
 
@@ -32,24 +32,29 @@ Os servidores virtuais temporários oferecem a flexibilidade a seguir:
 
     Os servidores virtuais temporários são ideais para cargas de trabalho de não produção. Por exemplo, você pode usar uma instância temporária para testar e desenvolver aplicativos ou testar a escalabilidade em ambientes que não requerem tempo de atividade constante.
 
-Instâncias temporárias são instâncias públicas que usam armazenamento suportado pela SAN.
+Instâncias temporárias são instâncias públicas que usam armazenamento suportado pela SAN. As seguintes famílias de instâncias públicas estão disponíveis para essa oferta.
+
+| Famílias  | Descrição                                                                                              |
+| ----------------------- | -------------------------------------------------------------------------------------------------------- | 
+| [Balanceado](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#balanced) | Melhor para cargas de trabalho de nuvem comuns que requerem um balanceamento de desempenho e escalabilidade. Usa armazenamento conectado à rede.|
+| [Cálculo](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#compute) | Melhor para cargas de trabalho de trafego da web moderado a alto.|
+| [Memória](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#memory)  | Melhor para cargas de trabalho de armazenamento em cache de memória e de analítica em tempo real. |
+{: caption="Tabela 1. Seleções de família do servidor virtual público" caption-side="top"}
 
 ## Notificações
-É possível usar o {{site.data.keyword.slapi_short}} para receber notificações quando os recursos estão disponíveis para uma instância temporária. Também será possível usar a API para provisionar programaticamente um servidor virtual temporário quando os recursos forem disponibilizados. Da mesma forma, será possível usar a API para parar programaticamente o fornecimento de instâncias quando os recursos se tornarem indisponíveis. Para obter mais informações, consulte [Configurando notificações automatizadas de recuperação](/docs/vsi?topic=virtual-servers-configuring-notifications-for-reclaims-of-transient-virtual-servers).
+É possível usar o {{site.data.keyword.slapi_short}} para receber notificações quando os recursos estão disponíveis para uma instância temporária. Também será possível usar a API para provisionar programaticamente um servidor virtual temporário quando os recursos forem disponibilizados. Da mesma forma, será possível usar a API para parar programaticamente o fornecimento de instâncias quando os recursos se tornarem indisponíveis. Para obter mais informações, consulte [Configurando notificações automatizadas de recuperação](/docs/vsi?topic=virtual-servers-configuring-notifications-for-reclaims-of-transient-virtual-servers#configuring-notifications-for-reclaims-of-transient-virtual-servers).  
 
 ## Limitações
 Considere as limitações a seguir antes de provisionar um servidor virtual temporário.
 
-* O número de instâncias simultâneas suportadas faz parte de sua cota de dispositivo da conta. Para obter mais informações sobre limites de instância simultâneos, veja [Perguntas frequentes: servidores virtuais](/docs/vsi?topic=virtual-servers-faqs-virtual-servers#concurrent).
+* O número de instâncias simultâneas suportadas faz parte de sua cota de dispositivo da conta. Para obter mais informações sobre limites de instância simultâneos, veja [Perguntas frequentes: servidores virtuais](/docs/vsi?topic=virtual-servers-faqs-virtual-servers#faqs-virtual-servers).
 * As instâncias temporárias não podem ser submetidas a upgrade ou downgrade.
 * Os recursos podem ser recuperados a qualquer momento, sem notificação.
 * As instâncias temporárias não podem usar armazenamento local.
-* As instâncias temporárias usam apenas o armazenamento suportado pela SAN (balanceado, de cálculo, de memória).
 * As instâncias temporárias não podem usar perfis baseados em GPU.
 
 
 ## Próximas Etapas
 
-Depois de revisar e selecionar seu tipo de servidor virtual, é hora de provisionar seu servidor virtual temporário. Para iniciar, revise as informações a seguir:
-1. [Seleções de fornecimento](/docs/vsi?topic=virtual-servers-provisioning-selections)
-2. [Provisionando instâncias temporárias](/docs/vsi?topic=virtual-servers-ordering-vs-transient)
+Depois de revisar e selecionar o perfil do servidor virtual, é hora de provisionar seu servidor virtual temporário. Para iniciar, consulte [Provisionando instâncias temporárias](/docs/vsi?topic=virtual-servers-ordering-vs-transient#ordering-vs-transient).
+

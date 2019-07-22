@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-05"
+  years: 2017, 2019
+lastupdated: "2019-05-29"
 
 keywords: virtual servers, provisioning process, IBM Cloud Virtual Servers
 
@@ -24,10 +24,10 @@ subcollection: virtual-servers
 É possível implementar {{site.data.keyword.BluVirtServers}} em uma questão de minutos. Os servidores virtuais são implementados por meio de sua escolha de imagens do servidor virtual e na região geográfica que faz sentido para suas cargas de trabalho.
 {:shortdesc}
 
-Experimente os nossos servidores virtuais em uma nuvem particular virtual! Para obter mais informações, consulte [IBM Cloud Virtual Servers for VPC](/docs/vsi-is?topic=virtual-servers-is-gettingstartedvsigen#gettingstartedvsigen).
+Experimente os nossos servidores virtuais em uma nuvem particular virtual! Para obter mais informações, consulte [IBM Cloud Virtual Servers for Virtual Private Cloud](/docs/vpc-on-classic-vsi?topic=vpc-on-classic-vsi-getting-started).
 {:tip}
 
-Ao criar um servidor virtual, é possível escolher entre um ambiente público (ocupação variada) ou um ambiente dedicado (ocupação única). Em seguida, dependendo do ambiente escolhido, deve-se também selecionar servidores virtuais horários, mensais ou temporários. No caso de servidores virtuais públicos, você também escolhe usar o armazenamento baseado na SAN ou o armazenamento local.
+Ao criar um servidor virtual na infraestrutura clássica, é possível escolher entre um ambiente público (ocupação variada) ou um ambiente dedicado (ocupação única). Em seguida, dependendo do ambiente escolhido, deve-se também selecionar servidores virtuais horários, mensais ou temporários. No caso de servidores virtuais públicos, você também escolhe usar o armazenamento baseado na SAN ou o armazenamento local.
 
 ## Antes de iniciar
 
@@ -49,15 +49,14 @@ seguintes tópicos:
 
 Depois de decidir sobre uma opção de implementação, inicie o processo de fornecimento.
 
-|              Instruções de fornecimento                                         |  Descrição                                            |
+|              Instruções de provisionamento                                         |  Descrição                                            |
 | -------------------------------------------------------------------------- | ------------------------------------------------------- |
-|[Provisionando instâncias públicas](/docs/vsi?topic=virtual-servers-ordering-vs-public)| Provisione instâncias públicas com várias opções             |
-|[Provisionando instâncias temporárias](/docs/vsi?topic=virtual-servers-ordering-vs-transient)| Provisione instâncias temporárias com várias opções            |
-|[Provisionando a capacidade e as instâncias reservadas](/docs/vsi?topic=virtual-servers-provisioning-reserved-capacity-and-instances)| Fornecimento de capacidade e instâncias reservadas com várias opções |
-|[Provisionando hosts e instâncias dedicadas](/docs/vsi?topic=virtual-servers-ordering-vs-dedicated)| Provisione instâncias privadas ou instâncias dedicadas em hosts dedicados.|
+|[Provisionando instâncias públicas](/docs/vsi?topic=virtual-servers-ordering-vs-public)                | Provisione instâncias públicas com várias opções             |
+|[Provisionando instâncias temporárias](/docs/vsi?topic=virtual-servers-ordering-vs-transient)                | Provisione instâncias temporárias com várias opções            |
+|[Provisionando a capacidade e as instâncias reservadas](/docs/vsi?topic=virtual-servers-provisioning-reserved-capacity-and-instances)            | Fornecimento de capacidade e instâncias reservadas com várias opções |
+|[Provisionando hosts e instâncias dedicadas](/docs/vsi?topic=virtual-servers-ordering-vs-dedicated)| Provisionar instâncias privadas ou instâncias dedicadas em hosts dedicados|
 {: caption="Tabela 2. Provisionando informações" caption-side="top"}
 
 ## Próximas Etapas
 
-Depois que seu servidor virtual for provisionado e estiver disponível para uso, será possível configurar os servidores virtuais usando
-o {{site.data.keyword.slportal_full}} ou o {{site.data.keyword.slapi_full}}. Para obter mais informações, veja [Configurando servidores virtuais](/docs/vsi?topic=virtual-servers-configuring-virtual-servers).
+Depois que seu servidor virtual for provisionado e estiver disponível para uso, será possível configurar seus servidores virtuais usando o console do {{site.data.keyword.cloud_notm}} ou o {{site.data.keyword.slapi_short}}. Para obter mais informações, veja [Configurando servidores virtuais](/docs/vsi?topic=virtual-servers-configuring-virtual-servers).

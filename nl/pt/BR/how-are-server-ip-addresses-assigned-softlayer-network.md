@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-08-01"
+  years: 2018, 2019
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -22,9 +22,9 @@ subcollection: virtual-servers
 O {{site.data.keyword.cloud}} configura as instâncias do servidor virtual com um endereço de Protocolo da Internet versão 4 na rede privada e, se solicitado, um endereço de Protocolo da Internet versão 4 público (voltado para a Internet). Além disso, é possível solicitar um endereço de Protocolo da Internet versão 6 na rede pública. Todos esses endereços IP são coletivamente referidos como _Endereços IP primários_.
 {:shortdesc}
 
-Endereços IP adicionais podem ser ligados às instâncias de servidor virtual após a compra de sub-redes secundárias por meio do [{{site.data.keyword.slportal}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com). Endereços IP comprados dessa maneira e gerenciados por você são referidos como _Endereços IP secundários_.
+Endereços IP adicionais podem ser ligados a instâncias de servidor virtual após a compra de sub-redes secundárias por meio do console do {{site.data.keyword.cloud_notm}}. Endereços IP comprados dessa maneira e gerenciados por você são referidos como _Endereços IP secundários_.
 
-Para obter mais informações sobre as opções disponíveis para a aquisição de endereços IP, consulte [Subnets e IPs](/docs/infrastructure/subnets?topic=subnets-getting-started-with-subnets-and-ips#getting-started-with-subnets-and-ips).
+Para obter mais informações sobre as opções disponíveis para a aquisição de endereços IP, consulte [Subnets e IPs](/docs/infrastructure/subnets?topic=subnets-about-subnets-and-ips).
 
 ## Ligando endereços IP secundários
 

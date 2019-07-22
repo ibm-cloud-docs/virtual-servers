@@ -1,24 +1,13 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="virtual-servers" audience="compute" arm="407" href="/docs/vsi?topic=virtual-servers-getting-started-with-virtual-servers#getting-started-with-virtual-servers" path="vsi"}
+{: .toc subcollection="virtual-servers" category="compute" audience="compute" arm="407" href="/docs/vsi?topic=virtual-servers-getting-started-with-virtual-servers#getting-started-with-virtual-servers" path="vsi"}
 IBM Cloud Virtual Servers
 
     {: .navgroup id="learn"}
     vsi_index.md
     vsi_about.md
-    vsi_about_suspend.md
-
-    {: .topicgroup}
-        Servidores virtuais públicos
-        vsi_public.md
-        vsi_public_balanced.md
-        vsi_public_balanced_local.md
-        vsi_public_compute.md
-        vsi_public_memory.md
-        vsi_public_gpu.md
-        vsi_public_selections.md
-
+    vsi_public.md
     vsi_about_transient.md
     vsi_about_reserved.md
 
@@ -28,9 +17,17 @@ IBM Cloud Virtual Servers
         vsi_dedicated_host.md
         vsi_dedicated_pricing.md
 
+    {: .topicgroup}
+    Escala automática
+        vsi_about_auto_scale.md
+        vsi_auto_scale_apache_brooklyn.md
+
+    vsi_public_profiles.md
     vsi_ps_index.md
     vsi_image_templates_intro.md
     vsi_placegroup.md
+    vsi_about_suspend.md
+    vsi_about_3rd-party.md
 
     {: .topicgroup}
     Opções de segurança
@@ -69,18 +66,20 @@ máximo com os Virtual Servers](https://www.ibm.com/blogs/bluemix/2017/08/maximi
 
     {: .navgroup id="reference"}
     vsi_api.md
-        vsi_provision_api.md
+    vsi_provision_api.md
     vsi_activity_tracker_events.md
+    vsi_auto_scale_terminology.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
     {: .topicgroup}
-    Fornecimento
+    Provisionando
         vsi_provision_public.md
         vsi_provision_transient.md
         vsi_provision_reserved.md
         vsi_dedicated_instances.md
         vsi_provision_dedicated.md
+        vsi_provision_3rd-party.md
 
     {: .topicgroup}
     Configurando
@@ -92,19 +91,30 @@ máximo com os Virtual Servers](https://www.ibm.com/blogs/bluemix/2017/08/maximi
         how-are-server-ip-addresses-assigned-softlayer-network.md
 
     {: .topicgroup}
+    Implementando aplicativos
+        vsi_deploy.md
+
+    logging-in-to-console.md
+
+    {: .topicgroup}
+    Gerenciando permissões e acesso
+        /iam/iam-mngclassicinfra
+        vsi_device_access.md
+        vsi_managing_password.md
+
+    {: .topicgroup}
     Gerenciando servidores
         vsi_managing.md
-        vsi_add_script.md
+        vsi_interact_device_snapshot_view.md
+        add-provisioning-script.md
         vsi_vulnerability_scans.md
         vsi_viewing_suspend.md
-        vsi_bandwidth-graphs.md
-        vsi_interact_device_snapshot_view.md
-        vsi_autoscale_intro.md
-        add-provisioning-script.md
-        vsi_managing_dedicated.md
-        vsi_managing_users_pwd.md
 
-    vsi_device_access.md
+    {: .topicgroup}
+    Gerenciando servidores com ajuste automático de escala
+        vsi_auto_scale_permissions.md
+        vsi_auto_scale_schedule.md
+        vsi_auto_scale_resource.md
 
     {: .topicgroup}
     Gerenciando velocidades de porta
@@ -141,9 +151,9 @@ máximo com os Virtual Servers](https://www.ibm.com/blogs/bluemix/2017/08/maximi
         vsi_migrating_dedicated.md
 
     {: .topicgroup}
-    Monitoramento
+    Monitorando
         vsi_monitoring_intro.md
-        vsi_viewing_monitors.md
+        /SLmonitoring/slmonitoring-viewing-and-managing-monitors
 
     {: .topicgroup}
     Fazendo backup e recuperando
@@ -165,14 +175,13 @@ máximo com os Virtual Servers](https://www.ibm.com/blogs/bluemix/2017/08/maximi
         ts_capacity_bp.md
 
     {: .topicgroup}
-    Perguntas frequentes
+    Perguntas mais frequentes
         vsi_faqs_vs.md
         vsi_faqs_reserved.md
         vsi_faqs_dedicated.md
         faq_servers_general.md
-        [Perguntas frequentes: recarregamento de
-S.O.](/infrastructure/software/software-faqs#faqs)
-        [Perguntas frequentes: e-mail
-cpsrvd](/infrastructure/software/software-faqs#why-did-my-cpsrvd-email-fail-)
+        vsi_faqs_auto_scale.md
+        vsi_faqs_bandwidth_graphs.md
+        /software/software-faqs
 
     {: .navgroup-end}

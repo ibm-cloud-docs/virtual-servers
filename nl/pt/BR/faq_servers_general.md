@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-05-17"
+  years: 2017, 2019
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -14,7 +14,6 @@ subcollection: virtual-servers
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
-{:faq: data-hd-content-type='faq'}
 
 
 # FAQs: servidores (geral)
@@ -25,21 +24,22 @@ subcollection: virtual-servers
 
 Tanto a Inicialização de imagem quanto o Carregamento de imagem utilizam os modelos de imagem existentes, que são aplicados a um dispositivo para substituir o sistema operacional existente ou para complementar o sistema operacional em uma tentativa de solucionar um problema existente. A principal diferença entre o processo de Inicialização e Carregamento é o tipo de imagem que é usado. Ao executar o processo de Inicialização ou Carregamento de imagem, assegure-se de ter feito backup de todos os dados que você pode querer recuperar.
 
-   * Inicialização de Imagem é uma maneira de inicializar um dispositivo usando um ISO fornecido pelo {{site.data.keyword.BluSoftlayer_full}} para recuperação do sistema ou um ISO que foi transferido por upload usando o recurso *Importar Imagem* no {{site.data.keyword.slportal_full}}. O ISO pode ser uma versão limpa do sistema operacional do dispositivo ou um disco de recuperação que pode ser usado em uma tentativa de solucionar um problema com o dispositivo.
-   * Carregamento de Imagem é um método de Recarregamento de SO que utiliza um modelo de imagem que foi capturado de um dispositivo ou transferido por upload usando o recurso *Importação de Imagem* no {{site.data.keyword.slportal}}. A opção *Carregamento de imagem* executa o recarregamento usando um VHD, que limpa o dispositivo de todos os dados e substitui o sistema operacional e arquivos existente por uma versão "como nova" da imagem selecionada.
+   * A Inicialização por meio da imagem é uma maneira de inicializar um dispositivo usando um ISO fornecido pelo {{site.data.keyword.BluSoftlayer_full}} para recuperação do sistema ou um ISO que foi transferido por upload usando o recurso *Importar imagem* no console do {{site.data.keyword.cloud_notm}}. O ISO pode ser uma versão limpa do sistema operacional do dispositivo ou um disco de recuperação que pode ser usado em uma tentativa de solucionar um problema com o dispositivo.
+   * Carregar por meio da imagem é um método de recarregamento do S.O. que utiliza um modelo de imagem capturado de um dispositivo ou transferido por upload usando o recurso *Importação de imagem* no console do {{site.data.keyword.cloud_notm}}. A opção *Carregamento de imagem* executa o recarregamento usando um VHD, que limpa o dispositivo de todos os dados e substitui o sistema operacional e arquivos existente por uma versão "como nova" da imagem selecionada.
 
 ## Por que não posso me conectar ao console KVM?
 {:faq}
 
-Se não for possível se conectar ao console KVM, revise as dicas de resolução de problemas a seguir para ajudar na resolução do problema. Se ocorrerem problemas adicionais, entre em contato com o suporte. Para obter mais informações sobre como entrar em contato com o suporte, veja [Obtendo ajuda e suporte](/docs/vsi?topic=virtual-servers-gettinghelp).
+Se não for possível se conectar ao console KVM, revise as dicas de resolução de problemas a seguir para ajudar na resolução do problema. Se ocorrerem problemas adicionais, entre em contato com o suporte. Para obter mais informações sobre como entrar em contato com o suporte, veja [Obtendo ajuda e suporte](/docs/vsi?topic=virtual-servers-gettinghelp#gettinghelp).
 
    * O console KVM é um applet Java. Antes de acessar o console, o Java deve ser instalado. Para obter mais informações sobre a instalação do Java, veja [Download de Java grátis ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://www.java.com/en/download/){: new_window}.  
    * Se o Java estiver instalado, assegure-se de que uma conexão tenha sido estabelecida usando VPN. Se uma conexão não estiver estabelecida, um aviso de que uma conexão VPN é necessária será exibido ao tentar conectar-se ao console KVM.
-   * O console KVM pode gerar uma ou mais caixas pop-up durante o processo de conexão. Ative pop-ups do {{site.data.keyword.slportal}} para assegurar que uma conexão possa ser feita.
+   * O console KVM pode gerar uma ou mais caixas pop-up durante o processo de conexão. Ative os pop-ups por meio do console do {{site.data.keyword.cloud_notm}} para assegurar que uma conexão possa ser feita.
    * Você pode receber um erro "Os aplicativos Java foram bloqueados pelas configurações de segurança". Para dispositivos iKVM bare metal, deve-se incluir uma exceção para o Endereço IP do dispositivo IPMI. Para dispositivos VSI, certifique-se de permitir "https://control.softlayer.com" e o endereço IP do KVM. Para obter mais informações, veja [Por que os aplicativos Java são bloqueados pelas configurações de segurança com o Java mais recente? ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://www.java.com/en/download/help/java_blocked.xml){: new_window}.
    * Se as condições acima tiverem sido atendidas e você receber um erro que afirma: "Manifest de Permissões necessárias ausente em main.jar", os applets Java não foram ativados no Painel de Controle do Java. Essa configuração foi introduzida como uma precaução de segurança do Oracle no Java SE v7. Ative os applets no Painel de Controle para resolver esse problema.
 
-     **Nota:** se usar o Mac OSX em conjunto com o Google Chrome, consulte Informações e requisitos do sistema para instalar e usar o Mac Java 7 no website do Java.
+     Se estiver usando o Mac OSX em conjunto com o Google Chrome, consulte Informações e requisitos do sistema para instalação e uso do Java 7 para Mac no website do Java.
+     {:note}
 
    * Se você estiver tentando se conectar a um VSI por meio do Java padrão e não estiver obtendo nada, exceto erros, também será possível tentar usar o VNC.
 
@@ -52,10 +52,10 @@ Se a senha raiz ou do administrador para o servidor parar de funcionar de repent
 
    * Você está copiando e colando a senha? Se não, tente. Além disso, cole a senha em um bloco de notas para assegurar que nenhum espaço esteja sendo copiado acidentalmente com a senha.
    * Se o servidor contiver o cPanel, é possível que o cPHulk tenha bloqueado seu endereço IP devido a logins com falha? Se sim, será possível acessar o servidor usando o KVM ou IPMI e incluir na lista de desbloqueio seu endereço IP em cPHulk com "/scripts/cphulkdwhitelist" seguido por seu endereço IP.
-   * Alguém tentou recentemente mudar a senha para o servidor modificando a senha no {{site.data.keyword.slportal}}? Mudar a senha no {{site.data.keyword.slportal}} muda apenas o que você vê como a senha. Isso não muda a senha que o servidor está usando. Se isso aconteceu, é possível entrar em contato com o Suporte e eles podem normalmente recuperar a senha de trabalho original.
-   * Pode ser necessário inicializar no modo de resgate do seu sistema operacional para ser possível redefinir sua senha. Para obter mais informações, consulte [Ativando um kernel de resgate](/docs/vsi?topic=virtual-servers-launching-rescue).
+   * Alguém tentou recentemente mudar a senha para o servidor modificando a senha no console do {{site.data.keyword.cloud_notm}}? Mudar a senha no console do {{site.data.keyword.cloud_notm}} apenas muda o que você vê como a senha. Isso não muda a senha que o servidor está usando. Se isso aconteceu, é possível entrar em contato com o Suporte e eles podem normalmente recuperar a senha de trabalho original.
+   * Pode ser necessário inicializar no modo de resgate do seu sistema operacional para ser possível redefinir sua senha. Para obter mais informações, consulte [Ativando um kernel de resgate](/docs/vsi?topic=virtual-servers-launching-rescue#launching-rescue).
 
-Se tudo isso foi verificado e ainda assim você não conseguir se conectar ao servidor usando a senha, entre em contato com o suporte usando um chamado e solicite uma reconfiguração de senha. O Suporte precisará reinicializar o servidor para reconfigurar a senha, portanto assegure-se de que você esteja preparado para aprovar a reinicialização e/ou fornecer um prazo de manutenção em que gostaria que isso ficasse pronto. A maioria das reconfigurações de senha pode ser realizada em 15 minutos. No {{site.data.keyword.slportal}}, é possível criar um chamado acessando **Suporte > Incluir Chamado** e usar o assunto *"Reinicializações e Acesso ao Console"*.
+Se tudo isso foi verificado e ainda assim você não conseguir se conectar ao servidor usando a senha, entre em contato com o suporte usando um chamado e solicite uma reconfiguração de senha. O Suporte precisará reinicializar o servidor para reconfigurar a senha, portanto assegure-se de que você esteja preparado para aprovar a reinicialização e/ou fornecer um prazo de manutenção em que gostaria que isso ficasse pronto. A maioria das reconfigurações de senha pode ser realizada em 15 minutos. No console do {{site.data.keyword.cloud_notm}}, é possível criar um chamado acessando **Suporte > Criar um caso** e usar o assunto *Contas e acesso*.
 
 ## As partições LVM são suportadas como um sistema de arquivos válido?
 {:faq}
@@ -65,7 +65,7 @@ O LVM (Logical Volume Management) fornece gerenciamento lógico de sistemas de a
 ## Rotas 161.26.0.0/16 pré-configuradas em hosts de cliente
 {:faq}
 
-O {{site.data.keyword.BluSoftlayer}} está ativando uma nova rota em todos os servidores recentemente provisionados para suportar produtos futuros.
+O {{site.data.keyword.BluSoftlayer_notm}} está ativando uma nova rota em todos os servidores recentemente provisionados para suportar produtos futuros.
    * A rota aponta qualquer endereço no intervalo de 161.26.0.0/16 (161.26.0.0 255.255.0.0 | 161.26.0.0 -161.26.255.255) para a rede privada de backend.
    * Esse bloco de IPs é designado ao {{site.data.keyword.BluSoftlayer_notm}} pelo IANA e não será anunciado na Internet pública.
    * Apenas sistemas {{site.data.keyword.BluSoftlayer_notm}} serão tratados fora desse espaço.
@@ -164,7 +164,7 @@ O {{site.data.keyword.BluSoftlayer}} está ativando uma nova rota em todos os se
 ## Posso permitir que o sistema de monitoramento emita uma reinicialização automática e alerte um técnico de suporte no caso de o servidor parar de responder?
 {:faq}
 
-Sim, com a ordem de nosso serviço **Reinicialização automatizada de falha de monitoramento**, é possível configurar o sistema de monitoramento para reinicializar automaticamente o servidor e emitir um chamado para um técnico de suporte se um alerta de monitoramento for emitido. Como um serviço adicional, fornecemos **Monitoramento NOC**, em que você receberá notificação pessoal no caso de um problema monitoramento ocorrer. Para saber mais sobre essas duas ofertas, consulte [Server Monitoring ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](http://www.softlayer.com/services/monitoring/){:new_window}.
+Sim, com a ordem de nosso serviço **Reinicialização automatizada de falha de monitoramento**, é possível configurar o sistema de monitoramento para reinicializar automaticamente o servidor e emitir um chamado para um técnico de suporte se um alerta de monitoramento for emitido. Como um serviço adicional, fornecemos **Monitoramento NOC**, em que você receberá notificação pessoal no caso de um problema monitoramento ocorrer. Para saber mais sobre essas duas ofertas, consulte [Server Monitoring ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://www.ibm.com/cloud/infrastructure/monitoring?cm_mc_uid=46846454197915580355142&cm_mc_sid_50200000=71138741559658182022){:new_window}.
 
 ## O que é um espelho cvsup?
 {:faq}

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2019
+lastupdated: "2019-06-03"
 
 subcollection: virtual-servers
 
@@ -14,14 +14,19 @@ subcollection: virtual-servers
 # Trabalhando com modelos de imagem
 {: #working-with-image-templates}
 
-É possível acessar a tela Modelos de Imagem no {{site.data.keyword.slportal_full}}.
-{:shortdesc}
+## Antes de iniciar
+Primeiro, navegue até o menu de dispositivos e assegure-se de ter as permissões de conta corretas para concluir as tarefas.
 
-Use as etapas a seguir para acessar a tela Modelos de Imagem no {{site.data.keyword.slportal}}.
+* Navegue para o menu de dispositivos do console. Para obter mais informações, consulte [Navegando para dispositivos](/docs/vsi?topic=virtual-servers-navigating-devices).
+* Assegure-se de ter quaisquer permissões de conta necessárias e de ter acesso ao dispositivo. Somente o proprietário da conta ou um usuário com a permissão de infraestrutura clássica **Gerenciar usuários** pode ajustar as permissões.
 
-* Efetue login no [{{site.data.keyword.slportal}} ![Ícone de link externo](../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window} usando suas credenciais exclusivas.
-* No menu **Dispositivos**, selecione **Gerenciar > Imagens**.
+Para obter mais informações sobre permissões, veja [Permissões de infraestrutura clássica](/docs/iam?topic=iam-infrapermission#infrapermission) e [Gerenciando o acesso ao dispositivo](/docs/vsi?topic=virtual-servers-managing-device-access).
 
-Na tela *Modelos de imagem*, você vê todas as imagens privadas associadas à conta. Todas as interações com imagens privadas acontecem aqui. Nessa página, é possível arrastar colunas para customizar a visualização. Também é possível acessar imagens públicas clicando no seletor suspenso **Imagens Privadas** e escolhendo **Imagens Públicas** no lugar.
+## Acessando modelos de imagem
+Conclua as etapas a seguir para acessar os modelos de imagem em seu console.
 
-Para obter mais informações sobre modelos de imagem, veja [Introdução aos modelos de imagem](/docs/infrastructure/image-templates?topic=image-templates-getting-started-with-image-templates).
+1. No menu **Dispositivos**, selecione **Gerenciar > Imagens**.
+2. Na tela *Modelos de imagem*, você vê todas as imagens privadas associadas à conta. Todas as interações com imagens privadas acontecem aqui. Também é possível acessar imagens públicas clicando no seletor suspenso **Imagens Privadas** e escolhendo **Imagens Públicas** no lugar.
+
+Para obter mais informações sobre modelos de imagem, veja [Introdução aos modelos de imagem](/docs/infrastructure/image-templates?topic=image-templates-getting-started-with-image-templates#getting-started-with-image-templates).
+
