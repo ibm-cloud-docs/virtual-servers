@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2019
+lastupdated: "2019-06-03"
 
 subcollection: virtual-servers
 
@@ -14,14 +14,19 @@ subcollection: virtual-servers
 # イメージ・テンプレートの作業
 {: #working-with-image-templates}
 
-{{site.data.keyword.slportal_full}}で「イメージ・テンプレート」画面にアクセスできます。
-{:shortdesc}
+## 始めに
+まず、デバイス・メニューに移動して、タスクを実行するための適切なアカウント権限を持っていることを確認します。
 
-{{site.data.keyword.slportal}}で「イメージ・テンプレート」画面にアクセスするには、以下のステップを使用します。
+* コンソールのデバイス・メニューに移動します。詳しくは、[デバイスへのナビゲート](/docs/vsi?topic=virtual-servers-navigating-devices)を参照してください。
+* 必要なアカウント権限とデバイス・アクセス権限を持っていることを確認します。アカウントの所有者、またはクラシック・インフラストラクチャーの**「ユーザーの管理」**権限を持つユーザーのみが、権限を調整できます。
 
-* ユーザー固有の資格情報を使用して、[{{site.data.keyword.slportal}} ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](https://control.softlayer.com/){: new_window} にログインします。
-* **「デバイス」**メニューから、**「管理」>「イメージ」**を選択します。
+権限について詳しくは、[クラシック・インフラストラクチャー許可](/docs/iam?topic=iam-infrapermission#infrapermission)および[デバイス・アクセスの管理](/docs/vsi?topic=virtual-servers-managing-device-access)を参照してください。
 
-*「イメージ・テンプレート」*画面に、アカウントに関連付けられているすべてのプライベート・イメージが表示されます。 プライベート・イメージの操作はすべてここで行われます。 このページから、列をドラッグしてビューをカスタマイズできます。 あるいは、**「プライベート・イメージ」**ドロップダウン・セレクターをクリックして、**「パブリック・イメージ」**を選択することで、パブリック・イメージにアクセスすることもできます。
+## イメージ・テンプレートへのアクセス
+コンソールでイメージ・テンプレートにアクセスするには、以下の手順を実行します。
 
-イメージ・テンプレートについて詳しくは、[イメージ・テンプレートの概説](/docs/infrastructure/image-templates?topic=image-templates-getting-started-with-image-templates)を参照してください。
+1. **「デバイス」**メニューから、**「管理」>「イメージ」**を選択します。
+2. *「イメージ・テンプレート」*画面に、アカウントに関連付けられているすべてのプライベート・イメージが表示されます。 プライベート・イメージの操作はすべてここで行われます。 あるいは、**「プライベート・イメージ」**ドロップダウン・セレクターをクリックして、**「パブリック・イメージ」**を選択することで、パブリック・イメージにアクセスすることもできます。
+
+イメージ・テンプレートについて詳しくは、[イメージ・テンプレートの概説](/docs/infrastructure/image-templates?topic=image-templates-getting-started-with-image-templates#getting-started-with-image-templates)を参照してください。
+

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-05-11"
+  years: 2018, 2019
+lastupdated: "2019-06-03"
 
 subcollection: virtual-servers
 
@@ -30,7 +30,7 @@ subcollection: virtual-servers
 ## 一時仮想サーバー・インスタンスのプロビジョニング
 {: #provision-transient-virtual-server}
 
-一時仮想サーバーは、[{{site.data.keyword.slportal_full}} ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](https://control.softlayer.com/){: new_window} または [SLDN API ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](http://sldn.softlayer.com){: new_window} を介してプロビジョンできます。 詳しくは、[一時インスタンスのプロビジョニング](/docs/vsi?topic=virtual-servers-ordering-vs-transient)を参照してください。
+一時仮想サーバーは、{{site.data.keyword.cloud_notm}} コンソール、{{site.data.keyword.slportal}}、または [SLDN API ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](http://sldn.softlayer.com){: new_window} を使用してプロビジョンできます。詳しくは、[一時インスタンスのプロビジョニング](/docs/vsi?topic=virtual-servers-ordering-vs-transient#ordering-vs-transient)を参照してください。
 
 ## Web フックのセットアップ
 

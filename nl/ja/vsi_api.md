@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-25"
+  years: 2017, 2018
+lastupdated: "2018-04-03"
 
 subcollection: virtual-servers
 
@@ -15,10 +15,10 @@ subcollection: virtual-servers
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# API リファレンス
+# API リファレンスの概要
 {: #api-reference}
 
-{{site.data.keyword.slapi_full}} は、開発者やシステム管理者が {{site.data.keyword.cloud}} のバックエンド・システムと直接対話できるようにする開発用インターフェースです。 {{site.data.keyword.slapi_short}} により、{{site.data.keyword.slportal_full}}の多くの機能が使用可能になります。つまり、通常、{{site.data.keyword.slportal}}での操作が可能であれば、API でも実行することができます。 API 内で {{site.data.keyword.BluSoftlayer_full}} 環境のすべての部分とプログラムで対話できるため、{{site.data.keyword.slapi_short}} によってタスクを自動化できます。 例えば、*SoftLayer_Virtual_Guest/createObject* API を使用して、仮想サーバー・インスタンスをデプロイすることができます。
+{{site.data.keyword.slapi_full}} は、開発者やシステム管理者が {{site.data.keyword.cloud_notm}} のバックエンド・システムと直接対話できるようにする開発用インターフェースです。 {{site.data.keyword.slapi_short}} により、{{site.data.keyword.cloud_notm}} コンソールの多くの機能が使用可能になります。つまり、通常、{{site.data.keyword.cloud_notm}} コンソールでの操作が可能であれば、API でも実行することができます。 API 内で {{site.data.keyword.cloud_notm}} 環境のすべての部分とプログラムで対話できるため、{{site.data.keyword.slapi_short}} によってタスクを自動化できます。 例えば、*SoftLayer_Virtual_Guest/createObject* API を使用して、仮想サーバー・インスタンスをデプロイすることができます。
 {:shortdesc}
 
 {{site.data.keyword.slapi_short}} は、リモート・プロシージャー・コール・システムです。 各呼び出しには、API エンドポイントへのデータの送信と、それと引き換えに構造化データの受信が含まれます。 {{site.data.keyword.slapi_short}} を使用したデータの送受信に使用される形式は、選択した API 実装によって異なります。 {{site.data.keyword.slapi_short}} は現在、データ伝送に SOAP、XML-RPC、または REST を使用します。

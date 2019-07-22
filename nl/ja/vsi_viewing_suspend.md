@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-01"
+lastupdated: "2019-05-28"
 
 subcollection: virtual-servers
 
@@ -13,33 +13,40 @@ subcollection: virtual-servers
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:note: .note}
 {:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
 # 請求一時停止フィーチャーの表示
 {: #viewing-suspend-billing-feature}
 
-仮想サーバー・インスタンスが、{{site.data.keyword.slportal_full}} で、または {{site.data.keyword.slapi_short}} を使用して、請求一時停止フィーチャーをサポートしているかどうかを表示できます。
+## 始めに
+まず、デバイス・メニューに移動して、タスクを実行するための適切なアカウント権限を持っていることを確認します。 
 
-## カスタマー・ポータルでの請求一時停止フィーチャーの表示
-仮想サーバー・インスタンスが {{site.data.keyword.slportal}} で請求一時停止フィーチャーをサポートしているかどうかを確認するには、以下の手順を実行します。
+* コンソールのデバイス・メニューに移動します。詳しくは、[デバイスへのナビゲート](/docs/vsi?topic=virtual-servers-navigating-devices)を参照してください。
+* 必要なアカウント権限とデバイス・アクセス権限を持っていることを確認します。アカウントの所有者、またはクラシック・インフラストラクチャーの**「ユーザーの管理」**権限を持つユーザーのみが、権限を調整できます。 
 
-1. ユーザー固有の資格情報を使用して、[{{site.data.keyword.slportal}} ![「外部リンク」アイコン](../icons/launch-glyph.svg "「外部リンク」アイコン")](https://control.softlayer.com/){: new_window} にログインします。
-2. **「デバイス」**メニューから**「デバイス・リスト」**を選択します。
-3. **「デバイス・リスト」**で、仮想サーバー・インスタンスの名前をクリックします。
-4. **「構成」**タブの**「一般」**セクションで、仮想サーバー・インスタンスが請求一時停止フィーチャーをサポートしているかどうかを確認できます。
+権限について詳しくは、[クラシック・インフラストラクチャー許可](/docs/iam?topic=iam-infrapermission#infrapermission)および[デバイス・アクセスの管理](/docs/vsi?topic=virtual-servers-managing-device-access)を参照してください。
+
+## 請求一時停止フィーチャーの表示 
+仮想サーバー・インスタンスが請求一時停止フィーチャーをサポートしているかどうかを確認するには、以下の手順を実行します。
+
+1. **「デバイス」**メニューから**「デバイス・リスト」**を選択します。 
+2. **「デバイス・リスト」**で、仮想サーバー・インスタンスの名前をクリックします。 
+3. **「インスタンスの詳細」**セクションで、仮想サーバー・インスタンスが請求一時停止フィーチャーをサポートしているかどうかを確認できます。 
 
 | フィールド                                 | 値                     |
 | --------------------------------------| ------------------------- |
-| 請求一時停止: 電源オフで使用可能 | フィーチャーはサポートされています。     |
-| 請求一時停止: 使用不可          | フィーチャーはサポートされません。 |
+| 請求処理が中断されました: 電源オフで使用可能 | フィーチャーはサポートされています。     |
+| 請求処理が中断されました: 使用不可          | フィーチャーはサポートされません。 |
 {: caption="表 1. 請求一時停止の詳細" caption-side="top"}
 
-## Softlayer API を使用した請求一時停止フィーチャーの表示
+## SoftLayer API を使用した請求一時停止フィーチャーの表示
 
-次のコマンドは、仮想サーバー・インスタンスが {{site.data.keyword.slapi_short}} の請求一時停止フィーチャーをサポートしているかどうかを検証する要求の例です。
+次のコマンドは、仮想サーバー・インスタンスが請求一時停止フィーチャーをサポートしているかどうかを、{{site.data.keyword.slapi_short}} を使用して検証する要求の例です。
 
-**注**: 次の JSON 要求と応答は、一般的な例です。
+次の JSON 要求と応答は、一般的な例です。 
+{:note}
 
 ```
 curl -X GET \
@@ -57,5 +64,6 @@ curl -X GET \
 ## 次のステップ
 
 請求一時停止フィーチャーについて詳しくは、以下の情報を参照してください。
-1. [請求一時停止について](/docs/vsi?topic=virtual-servers-requirements)
-2. [仮想サーバーの管理](/docs/vsi?topic=virtual-servers-managing-virtual-servers)
+1. [請求一時停止](/docs/vsi?topic=virtual-servers-about-suspend-billing#about-suspend-billing)
+2. [仮想サーバーの管理](/docs/vsi?topic=virtual-servers-managing-virtual-servers#managing-virtual-servers)
+

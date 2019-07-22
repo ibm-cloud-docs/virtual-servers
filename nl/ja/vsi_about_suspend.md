@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-06"
 
 keywords: virtual server, suspend billing feature, virtual server instances, suspend billing
 
@@ -18,9 +18,10 @@ subcollection: virtual-servers
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:row-headers: .row-headers}
 {:table: .aria-labeledby="caption"}
 
-# 請求一時停止について
+# 請求一時停止
 {: #requirements}
 
 請求一時停止フィーチャーがサポートされている仮想サーバーの電源を切ると、一定のコンピュート・リソースについてはコストが発生しません。 サーバーの電源が切られると請求は自動的に停止します。 請求一時停止フィーチャーは、コスト削減に役立ち、仮想サーバーのリソースが再び必要になったときに仮想サーバーを再プロビジョンする必要がなくなります。
@@ -39,14 +40,14 @@ subcollection: virtual-servers
 請求一時停止フィーチャーを、仮想サーバー・インスタンスのプロビジョニングおよび再利用をより素早く行うための代替方法として使用できます。
 {:tip}
 
-請求処理が中断されるのは、{{site.data.keyword.slportal_full}}、CLI、または {{site.data.keyword.slapi_short}} を介して仮想サーバー・インスタンスの電源をオフにした場合のみです。 OS を介して仮想サーバー・インスタンスの電源を直接オフにした場合、そのインスタンスの請求処理は中断されません。
+請求処理が中断されるのは、{{site.data.keyword.cloud}}、CLI、または {{site.data.keyword.slapi_short}} コンソールを介して仮想サーバー・インスタンスの電源をオフにした場合のみです。 OS を介して仮想サーバー・インスタンスの電源を直接オフにした場合、そのインスタンスの請求処理は中断されません。
 {:note}
 
 ## プロビジョニングの詳細
 
-{{site.data.keyword.cloud_notm}} カタログ (cloud.ibm.com)、CLI、または {{site.data.keyword.slapi_short}} を使用して、請求一時停止フィーチャーをサポートする仮想サーバー・インスタンスをプロビジョンできます。{{site.data.keyword.slportal}} (control.softlayer.com) を使用して請求一時停止フィーチャーをサポートする仮想サーバー・インスタンスをプロビジョンすることはできません。パブリック仮想サーバー・インスタンスのプロビジョニングについて詳しくは、[パブリック・インスタンスのプロビジョニング](/docs/vsi?topic=virtual-servers-ordering-vs-public#ordering-vs-public)を参照してください。
+{{site.data.keyword.cloud_notm}} カタログ (cloud.ibm.com)、CLI、または {{site.data.keyword.slapi_short}} を使用して、請求一時停止フィーチャーをサポートする仮想サーバー・インスタンスをプロビジョンできます。 {{site.data.keyword.slportal}} (control.softlayer.com) を使用して請求一時停止フィーチャーをサポートする仮想サーバー・インスタンスをプロビジョンすることはできません。 パブリック仮想サーバー・インスタンスのプロビジョニングについて詳しくは、[パブリック・インスタンスのプロビジョニング](/docs/vsi?topic=virtual-servers-ordering-vs-public#ordering-vs-public)を参照してください。
 
-{{site.data.keyword.cloud_notm}} カタログの場合、仮想サーバーを注文するには、アップグレードされたアカウントを持っている必要があります。 アカウントのアップグレードについて詳しくは、[IBM ID への切り替え](/docs/account?topic=account-unifyingaccounts#unifyingaccounts)を参照してください。
+{{site.data.keyword.cloud_notm}} カタログの場合、仮想サーバーを注文するには、アップグレードされたアカウントを持っている必要があります。 アカウントのアップグレードについて詳しくは、[IBMid への切り替え](/docs/account?topic=account-unifyingaccounts#unifyingaccounts)を参照してください。
 {:note}
 
 ### Softlayer API を使用したプロビジョニング
@@ -60,16 +61,19 @@ subcollection: virtual-servers
 
 | リソース                      | 請求が停止する   | 請求が持続する |
 | ----------------------------- | ----------------- | ---------------- |
-| vCPU                          |          X        |                  |
-| RAM                           |          X        |                  |
-| ポート速度                    |          X        |                  |
-| OS のライセンス     |          X        |                  |
-| モニタリング・アドオン          |          X        |                  |
-| 2 次パブリック IP アドレス |                   |         X        |
-| ストレージ                       |                   |         X        |
-{: caption="表 1. リソース請求の詳細" caption-side="top"}   
+| vCPU                          | ![チェック・マーク・アイコン](../../icons/checkmark-icon.svg) |                  |
+| RAM                           | ![チェック・マーク・アイコン](../../icons/checkmark-icon.svg) |                  |
+| ポート速度                    | ![チェック・マーク・アイコン](../../icons/checkmark-icon.svg) |                  |
+| OS のライセンス     | ![チェック・マーク・アイコン](../../icons/checkmark-icon.svg) |                  |
+| モニタリング・アドオン          | ![チェック・マーク・アイコン](../../icons/checkmark-icon.svg) |                  |
+| 2 次パブリック IP アドレス |                   | ![チェック・マーク・アイコン](../../icons/checkmark-icon.svg) |
+| ストレージ                       |                   | ![チェック・マーク・アイコン](../../icons/checkmark-icon.svg) |
+{: row-headers}
+{: class="comparison-table"}
+{: caption="表 1. リソース請求の詳細" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify the resource. The column headers identify whether billing stops or persists when your instance is powered off. To understand whether billing stops or persists for a resource, navigate to the row in the table, and find the billing information you are interested in."}  
 
-請求一時停止フィーチャーがサポートされている仮想サーバー・インスタンスをプロビジョンすると、仮想サーバー・インスタンスの使用時および使用停止時の両方で、分ごとに使用時間が計算されます。 インスタンスの電源を切ることによって請求一時停止フィーチャーを開始することがまったくなくても、インスタンスのライフサイクルにわたって分ごとに請求の計算が行われます。
+請求一時停止フィーチャーがサポートされている仮想サーバー・インスタンスをプロビジョンすると、仮想サーバー・インスタンスの使用時および使用停止時の両方で、秒ごとに使用時間が計算されます。 インスタンスの電源を切ることによって請求一時停止フィーチャーを開始することがまったくなくても、インスタンスのライフサイクルにわたって秒ごとに請求の計算が行われます。
 {:note}
 
 ### 最小使用料金

@@ -1,24 +1,13 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="virtual-servers" audience="compute" arm="407" href="/docs/vsi?topic=virtual-servers-getting-started-with-virtual-servers#getting-started-with-virtual-servers" path="vsi"}
-IBM Cloud 仮想サーバー
+{: .toc subcollection="virtual-servers" category="compute" audience="compute" arm="407" href="/docs/vsi?topic=virtual-servers-getting-started-with-virtual-servers#getting-started-with-virtual-servers" path="vsi"}
+IBM Cloud Virtual Servers
 
     {: .navgroup id="learn"}
     vsi_index.md
     vsi_about.md
-    vsi_about_suspend.md
-
-    {: .topicgroup}
-    パブリック Virtual Server
-        vsi_public.md
-        vsi_public_balanced.md
-        vsi_public_balanced_local.md
-        vsi_public_compute.md
-        vsi_public_memory.md
-        vsi_public_gpu.md
-        vsi_public_selections.md
-
+    vsi_public.md
     vsi_about_transient.md
     vsi_about_reserved.md
 
@@ -28,9 +17,17 @@ IBM Cloud 仮想サーバー
         vsi_dedicated_host.md
         vsi_dedicated_pricing.md
 
+    {: .topicgroup}
+    オート・スケール
+        vsi_about_auto_scale.md
+        vsi_auto_scale_apache_brooklyn.md
+
+    vsi_public_profiles.md
     vsi_ps_index.md
     vsi_image_templates_intro.md
     vsi_placegroup.md
+    vsi_about_suspend.md
+    vsi_about_3rd-party.md
 
     {: .topicgroup}
     セキュリティーのオプション
@@ -69,6 +66,7 @@ IBM Cloud 仮想サーバー
     vsi_api.md
     vsi_provision_api.md
     vsi_activity_tracker_events.md
+    vsi_auto_scale_terminology.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -79,6 +77,7 @@ IBM Cloud 仮想サーバー
         vsi_provision_reserved.md
         vsi_dedicated_instances.md
         vsi_provision_dedicated.md
+        vsi_provision_3rd-party.md
 
     {: .topicgroup}
     構成
@@ -90,19 +89,30 @@ IBM Cloud 仮想サーバー
         how-are-server-ip-addresses-assigned-softlayer-network.md
 
     {: .topicgroup}
+    アプリケーションのデプロイ
+        vsi_deploy.md
+
+    logging-in-to-console.md
+
+    {: .topicgroup}
+    許可とアクセスの管理
+        /iam/iam-mngclassicinfra
+        vsi_device_access.md
+        vsi_managing_password.md
+
+    {: .topicgroup}
     サーバーの管理
         vsi_managing.md
-        vsi_add_script.md
+        vsi_interact_device_snapshot_view.md
+        add-provisioning-script.md
         vsi_vulnerability_scans.md
         vsi_viewing_suspend.md
-        vsi_bandwidth-graphs.md
-        vsi_interact_device_snapshot_view.md
-        vsi_autoscale_intro.md
-        add-provisioning-script.md
-        vsi_managing_dedicated.md
-        vsi_managing_users_pwd.md
 
-    vsi_device_access.md
+    {: .topicgroup}
+    自動スケーリングを使用したサーバーの管理
+        vsi_auto_scale_permissions.md
+        vsi_auto_scale_schedule.md
+        vsi_auto_scale_resource.md
 
     {: .topicgroup}
     ポート速度の管理
@@ -141,7 +151,7 @@ IBM Cloud 仮想サーバー
     {: .topicgroup}
     モニタリング
         vsi_monitoring_intro.md
-        vsi_viewing_monitors.md
+        /SLmonitoring/slmonitoring-viewing-and-managing-monitors
 
     {: .topicgroup}
     バックアップとリカバリー
@@ -168,7 +178,8 @@ IBM Cloud 仮想サーバー
         vsi_faqs_reserved.md
         vsi_faqs_dedicated.md
         faq_servers_general.md
-        [FAQ: OS 再ロード](/infrastructure/software/software-faqs#faqs)
-        [FAQ: cpsrvd E メール](/infrastructure/software/software-faqs#why-did-my-cpsrvd-email-fail-)
+        vsi_faqs_auto_scale.md
+        vsi_faqs_bandwidth_graphs.md
+        /software/software-faqs
 
     {: .navgroup-end}

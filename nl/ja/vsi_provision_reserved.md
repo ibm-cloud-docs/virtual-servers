@@ -69,4 +69,6 @@ subcollection: virtual-servers
 
 ## 次のステップ
 
-予約済みの仮想サーバーの容量とインスタンスをプロビジョンしたら、それらの管理を開始できます。 詳しくは、[仮想サーバーの管理](/docs/vsi?topic=virtual-servers-managing-virtual-servers)を参照してください。 予約済み容量およびインスタンスについて質問がある場合は、[FAQ: 予約済み容量およびインスタンス](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances)を参照してください。
+仮想サーバーがプロビジョンされて使用可能になったら、{{site.data.keyword.cloud_notm}} コンソールまたは {{site.data.keyword.slapi_short}} を使用して仮想サーバーを構成できます。 詳しくは、[仮想サーバーの構成](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers)を参照してください。
+
+予約済み容量およびインスタンスについて質問がある場合は、[FAQ: 予約済み容量およびインスタンス](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances#faqs-reserved-capacity-and-instances)を参照してください。 

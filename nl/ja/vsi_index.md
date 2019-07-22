@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-05"
+  years: 2017, 2019
+lastupdated: "2019-05-29"
 
 keywords: virtual servers, provisioning process, IBM Cloud Virtual Servers
 
@@ -24,16 +24,17 @@ subcollection: virtual-servers
 {{site.data.keyword.BluVirtServers}} のデプロイは、ほんの数分で行うことができます。 仮想サーバーは、ユーザーが選択した仮想サーバー・イメージから、ワークロードに適した地理的地域にデプロイされます。
 {:shortdesc}
 
-仮想プライベート・クラウドで仮想サーバーを試してみてください。 詳しくは、[IBM Cloud Virtual Servers for VPC](/docs/vsi-is?topic=virtual-servers-is-gettingstartedvsigen#gettingstartedvsigen) を参照してください。
+仮想プライベート・クラウドで仮想サーバーを試してみてください。 詳しくは、[
+仮想プライベート・クラウド用の IBM Cloud Virtual Servers](/docs/vpc-on-classic-vsi?topic=vpc-on-classic-vsi-getting-started)を参照してください。
 {:tip}
 
-仮想サーバーの作成時に、パブリック (マルチテナンシー) 環境か専用 (単一テナンシー) 環境を選択することができます。 その後、選択した環境に応じて、時間単位の仮想サーバー、月単位の仮想サーバー、または一時仮想サーバーを選択する必要もあります。 パブリック仮想サーバーの場合、さらに SAN ベースのストレージかローカル・ストレージのいずれかを使用するように選択します。
+クラシック・インフラストラクチャーで仮想サーバーを作成するときに、パブリック (マルチテナンシー) 環境か専用 (単一テナンシー) 環境を選択することができます。 その後、選択した環境に応じて、時間単位の仮想サーバー、月単位の仮想サーバー、または一時仮想サーバーを選択する必要もあります。 パブリック仮想サーバーの場合、さらに SAN ベースのストレージかローカル・ストレージのいずれかを使用するように選択します。
 
 ## 始めに
 
 始めに、以下の前提条件を確認してください。
 
-  1. 仮想サーバーをオーダーするには、アップグレードされたアカウントを持っている必要があります。 このプロセスにはある程度時間がかかり、続行する前にユーザーの要求が承認される必要があります。 アカウントのアップグレードについて詳しくは、[IBM ID への切り替え](/docs/account?topic=account-unifyingaccounts#unifyingaccounts)を参照してください。
+  1. 仮想サーバーをオーダーするには、アップグレードされたアカウントを持っている必要があります。 このプロセスにはある程度時間がかかり、続行する前にユーザーの要求が承認される必要があります。 アカウントのアップグレードについて詳しくは、[IBMid への切り替え](/docs/account?topic=account-unifyingaccounts#unifyingaccounts)を参照してください。
   2. デプロイメント・オプションを確認および選択します。 詳しくは、以下のトピックを参照してください。
 
 |              デプロイメント・オプション                           |  説明                                        |
@@ -58,4 +59,4 @@ subcollection: virtual-servers
 
 ## 次のステップ
 
-仮想サーバーがプロビジョンされて使用可能になったら、{{site.data.keyword.slportal_full}}または {{site.data.keyword.slapi_full}} を使用して仮想サーバーを構成できます。 詳しくは、[仮想サーバーの構成](/docs/vsi?topic=virtual-servers-configuring-virtual-servers)を参照してください。
+仮想サーバーがプロビジョンされて使用可能になったら、{{site.data.keyword.cloud_notm}} コンソールまたは {{site.data.keyword.slapi_short}} を使用して仮想サーバーを構成できます。 詳しくは、[仮想サーバーの構成](/docs/vsi?topic=virtual-servers-configuring-virtual-servers)を参照してください。

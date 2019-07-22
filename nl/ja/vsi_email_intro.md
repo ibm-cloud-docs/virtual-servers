@@ -16,4 +16,4 @@ subcollection: virtual-servers
 
 {{site.data.keyword.SendGrid}} の {{site.data.keyword.cloud}} E メール配信サービスは、スマート・ホストを使用したアウトバウンド・メール・サービスのリレーを可能にするメール・リレー・サービスです。 スマート・ホストは、SMTP サーバー、メール・クライアント、または SMTP を処理可能な他のサービスまたはプログラム言語からの SMTP トラフィックをリレーします。
 
-{{site.data.keyword.cloud_notm}} E メール配信サービスについて詳しくは、[E メール配信](/docs/infrastructure/email-delivery?topic=email-delivery-getting-started-tutorial)を参照してください。
+{{site.data.keyword.cloud_notm}} E メール配信サービスについて詳しくは、[E メール配信](/docs/infrastructure/email-delivery?topic=email-delivery-getting-started-email-delivery#getting-started-email-delivery)を参照してください。

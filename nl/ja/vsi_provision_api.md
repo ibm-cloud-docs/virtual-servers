@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-04"
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -14,6 +14,7 @@ subcollection: virtual-servers
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:tip: .tip}
+{:note: .note}
 {:table: .aria-labeledby="caption"}
 
 # API の例: パブリック仮想サーバー・プロファイル
@@ -33,6 +34,9 @@ subcollection: virtual-servers
 {:tip}
 
 REST を使用してパブリック仮想サーバー・インスタンスをプロビジョンするために、要求本文に以下の JSON を含む POST 要求が https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ に送信されます。
+
+次の JSON 要求本文は、一般的な例です。 
+{:note}
 
 ### JSON 要求本文 1
 ```
@@ -67,7 +71,11 @@ REST を使用してパブリック仮想サーバー・インスタンスをプ
 
 REST を使用してパブリック仮想サーバーをプロビジョンするために、要求本文に以下の JSON を含む POST 要求が https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ に送信されます。
 
-**注:** 価格に項目の説明は必要ありません。 それらは、送信する製品オプションを示すためにのみ含まれています。
+価格に項目の説明は必要ありません。 それらは、送信する製品オプションを示すためにのみ含まれています。
+{:note}
+
+次の JSON 要求本文は、一般的な例です。 
+{:note}
 
 ### JSON 要求本文 2
 ```
@@ -167,7 +175,11 @@ REST を使用してパブリック仮想サーバーをプロビジョンする
 
 REST を使用してパブリック仮想サーバーをプロビジョンするために、要求本文に以下の JSON を含む POST 要求が https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ に送信されます。
 
-**注:** 価格に項目の説明は必要ありません。 それらは、送信する製品オプションを示すためにのみ含まれています。
+価格に項目の説明は必要ありません。 それらは、送信する製品オプションを示すためにのみ含まれています。
+{:note}
+
+次の JSON 要求本文は、一般的な例です。 
+{:note}
 
 ### JSON 要求本文 3
 ```
@@ -210,6 +222,9 @@ REST を使用してパブリック仮想サーバーをプロビジョンする
 *SoftLayer_Virtual_Guest/createObject* API サービスは、一時仮想サーバー・インスタンスをプロビジョンするための最も簡単な方法です。
 
 REST を使用して一時仮想サーバー・インスタンスをプロビジョンするために、要求本文に以下の JSON を含む POST 要求が https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ に送信されます。
+
+次の JSON 要求本文は、一般的な例です。 
+{:note}
 
 ### JSON 要求本文 4
 ```

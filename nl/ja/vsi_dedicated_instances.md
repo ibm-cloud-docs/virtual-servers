@@ -152,4 +152,4 @@ subcollection: virtual-servers
     プロビジョニング注文の確認、プロビジョニング注文の承認と処理、プロビジョニングの完了を示す一連の E メールが管理者に送信されます。 プロビジョニング完了 E メールには、{{site.data.keyword.Bluemix_notm}} へのログイン後に**「デバイスの詳細」**ページに直接移動するためのリンクが含まれています。 もう 1 つの選択肢として、{{site.data.keyword.slportal}}への直接ログインがあります。
 
 ## 次のステップ
-仮想サーバーがプロビジョンされたら、その管理を開始できます。 詳しくは、[仮想サーバーの管理](/docs/vsi?topic=virtual-servers-managing-virtual-servers)を参照してください。
+仮想サーバーがプロビジョンされて使用可能になったら、{{site.data.keyword.slportal_full}}または {{site.data.keyword.slapi_full}} を使用して仮想サーバーを構成できます。 詳しくは、[仮想サーバーの構成](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers)を参照してください。

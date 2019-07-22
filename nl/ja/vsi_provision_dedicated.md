@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-24"
+  years: 2017, 2019
+lastupdated: "2019-05-16"
 
 subcollection: virtual-servers
 
@@ -18,7 +18,8 @@ subcollection: virtual-servers
 # 専用ホストおよび専用インスタンスのプロビジョニング
 {: #ordering-vs-dedicated}
 
-専用インスタンスをプロビジョンする方法には、2 つの選択肢があります。 1 つ目は {{site.data.keyword.Bluemix}} カタログを使用する方法で、2 つ目は {{site.data.keyword.slportal_full}}を使用する方法です。 カタログと{{site.data.keyword.slportal}}には、固有のログイン ID が必要です。 カタログのユーザー名とパスワードはポータルへのログインには使用できず、ポータルのユーザー名とパスワードはカタログのログインには使用できません。 {{site.data.keyword.Bluemix_notm}} カタログまたは {{site.data.keyword.slportal}} 資格情報をセットアップするには、[{{site.data.keyword.Bluemix_notm}} への登録](/docs/account?topic=account-signup#signup)を参照してください。{:shortdesc}
+専用インスタンスをプロビジョンする方法には、2 つの選択肢があります。 1 つ目は {{site.data.keyword.Bluemix}} カタログを使用する方法で、2 つ目は {{site.data.keyword.slportal_full}}を使用する方法です。 カタログと{{site.data.keyword.slportal}}には、固有のログイン ID が必要です。 カタログのユーザー名とパスワードはポータルへのログインには使用できず、ポータルのユーザー名とパスワードはカタログのログインには使用できません。 {{site.data.keyword.Bluemix_notm}} カタログまたは {{site.data.keyword.slportal}} 資格情報をセットアップするには、[{{site.data.keyword.Bluemix_notm}} への登録](/docs/account?topic=account-signup#signup)を参照してください。
+{:shortdesc}
 
 ## 専用ホストおよび専用インスタンスのプロビジョニング
 専用ホストと専用インスタンスは、{{site.data.keyword.cloud_notm}} または {{site.data.keyword.slportal}} を使用してプロビジョンできます。
@@ -71,7 +72,7 @@ subcollection: virtual-servers
     <td>ホストを配置する {{site.data.keyword.cloud}} データ・センターを選択します。 利用可能なデータ・センターのリストについては、製品情報を参照してください。</td>
     </tr>
     <td>専用ホスト</td>
-    <td>デフォルトで、56 コア X 242 RAM X 1.2 TB</td>
+    <td>デフォルトは 56 コア X 242 RAM X 1.2 TB ですが、他の構成から選択することもできます。</td>
     </tr>
     </TBODY>
     </table>
@@ -235,4 +236,4 @@ subcollection: virtual-servers
 専用ホスト・インスタンスがプロビジョンされると E メールを受け取ります。
 
 ## 次のステップ
-仮想サーバーがプロビジョンされたら、その管理を開始できます。 詳しくは、[仮想サーバーの管理](/docs/vsi?topic=virtual-servers-managing-virtual-servers)を参照してください。
+仮想サーバーがプロビジョンされて使用可能になったら、{{site.data.keyword.slportal_full}}または {{site.data.keyword.slapi_full}} を使用して仮想サーバーを構成できます。 詳しくは、[仮想サーバーの構成](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers)を参照してください。

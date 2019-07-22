@@ -21,15 +21,12 @@ subcollection: virtual-servers
 # Activity Tracker イベント
 {: #at_events}
 
-セキュリティー担当者、監査員、およびマネージャーは、{{site.data.keyword.cloudaccesstrailfull}} サービスを使用して、ユーザーおよびアプリケーションが {{site.data.keyword.Bluemix}} 内の仮想サーバー・インスタンス (VSI) とどのように対話しているかをトラッキングできます。
-アカウント所有者およびアカウントにリンクされたユーザーは、{{site.data.keyword.cloudaccesstrailshort}}に記録される仮想サーバー・イベントをトリガーできます。
+セキュリティー担当者、監査員、およびマネージャーは、{{site.data.keyword.cloudaccesstrailfull}} サービスを使用して、ユーザーおよびアプリケーションが {{site.data.keyword.Bluemix}} 内の仮想サーバー・インスタンス (VSI) とどのように対話しているかをトラッキングできます。 アカウント所有者およびアカウントにリンクされたユーザーは、{{site.data.keyword.cloudaccesstrailshort}}に記録される仮想サーバー・イベントをトリガーできます。
 {:shortdesc}
 
-{{site.data.keyword.cloudaccesstrailshort}} サービスは、{{site.data.keyword.Bluemix_notm}} 内のサービスの状態を変更するユーザー開始アクティビティーを記録します。
-詳しくは、[{{site.data.keyword.cloudaccesstrailshort}} について](/docs/services/cloud-activity-tracker?topic=cloud-activity-tracker-activity_tracker_ov#activity_tracker_ov )を参照してください。
+{{site.data.keyword.cloudaccesstrailshort}} サービスは、{{site.data.keyword.Bluemix_notm}} 内のサービスの状態を変更するユーザー開始アクティビティーを記録します。 詳しくは、[{{site.data.keyword.cloudaccesstrailshort}} について](/docs/services/cloud-activity-tracker?topic=cloud-activity-tracker-activity_tracker_ov#activity_tracker_ov )を参照してください。
 
 ユーザーのアクションのモニタリングを開始するには、[{{site.data.keyword.cloudaccesstrailfull_notm}}](/docs/services/cloud-activity-tracker?topic=cloud-activity-tracker-getting-started-with-cla#getting-started-with-cla)を参照してください。
-
 
 イニシエーターは、ユーザー、サービス、またはアプリケーションのいずれかです。 ユーザーがイベントを生成するには、 {{site.data.keyword.Bluemix}} コンソールの**「インフラストラクチャー」**リソースにアクセスできる必要があります。
 {: tip}
@@ -70,9 +67,6 @@ subcollection: virtual-servers
 ## イベントの表示
 {: #ui}
 
-{{site.data.keyword.cloudaccesstrailshort}} イベントは、イベントが生成された {{site.data.keyword.Bluemix_notm}} 地域で使用可能な {{site.data.keyword.cloudaccesstrailshort}} **アカウント・ドメイン**で確認できます。
-詳しくは、[アカウント・イベントの表示](/docs/services/cloud-activity-tracker/how-to/manage-events-ui?topic=cloud-activity-tracker-view_acc_events#account_events) を参照してください。
-
+{{site.data.keyword.cloudaccesstrailshort}} イベントは、イベントが生成された {{site.data.keyword.Bluemix_notm}} 地域で使用可能な {{site.data.keyword.cloudaccesstrailshort}} **アカウント・ドメイン**で確認できます。 詳しくは、[アカウント・イベントの表示](/docs/services/cloud-activity-tracker/how-to/manage-events-ui?topic=cloud-activity-tracker-view_acc_events#account_events) を参照してください。
 
 {{site.data.keyword.cloudaccesstrailshort}} イベントは、アクションが発生するのと同じ地域内の {{site.data.keyword.cloudaccesstrailshort}} サービスに自動的に転送されます。
-

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-08-23"
+  years: 2017, 2019
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -11,6 +11,7 @@ subcollection: virtual-servers
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
+{:note: .note}
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
@@ -26,9 +27,10 @@ subcollection: virtual-servers
 
 オーダー・プロセスの一部として、デバイス固有のハードウェア・ファイアウォールまたはソフトウェア・ファイアウォールを選択して保護を提供することができます。 あるいは、専用のファイアウォール・アプライアンスを環境にデプロイし、保護された VLAN に仮想サーバーをデプロイすることもできます。  
 
-**注:** 同じインターフェース上の 2 つのファイアウォール・アプライアンスによって仮想サーバーを保護することはできません。
+同じインターフェース上の 2 つのファイアウォール・アプライアンスによって仮想サーバーを保護することはできません。 
+{:note}
 
 詳しくは、以下のセキュリティーに関するトピックのコレクションを参照してください。
 
-* [ハードウェア・ファイアウォール (共有)](/docs/infrastructure/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started-with-hardware-firewall-shared)
-* [ハードウェア・ファイアウォール (専用)](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-getting-started-with-hardware-firewall-dedicated)
+* [ハードウェア・ファイアウォール (共有)](/docs/infrastructure/hardware-firewall-shared?topic=hardware-firewall-shared-about-hardware-firewall-shared-)
+* [ハードウェア・ファイアウォール (専用)](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-about-the-hardware-firewall-dedicated-)
