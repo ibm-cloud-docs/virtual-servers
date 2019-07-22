@@ -1,9 +1,16 @@
 ---
+
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-10-23"
+  years: 2014, 2019
+lastupdated: "2019-06-06"
+
+subcollection: virtual-servers
+
 ---
 
+{:note: .note}
+{:tip: .tip}
+{:important: .important}
 {:new_window: target="_blank"}
 
 # ストレージのオプション
@@ -17,17 +24,19 @@ lastupdated: "2018-10-23"
 
 ## ポータブル SAN ストレージ
 
-ポータブル・ストレージ・ボリュームは、{{site.data.keyword.BluVirtServers_short}}上でのみ使用可能な補助ストレージ・ソリューションです。  ポータブル SAN は、ローカル・ホスト・ストレージではなく、{{site.data.keyword.cloud_notm}} のすべてのフラッシュ・ストレージ・クラスター上に構築されます。 このインフラストラクチャーにより、ホスト障害の際の回復力が向上し、また、より大きいボリュームのサポートが可能になります。 ホストで障害が発生した場合、SAN ベースのストレージを使用している仮想サーバー・インスタンスは、自動的に他のホストにマイグレーションされ、再始動されます。
+ポータブル・ストレージ・ボリュームは、{{site.data.keyword.BluVirtServers_short}}上でのみ使用可能な補助ストレージ・ソリューションです。  ポータブル SAN は、ローカル・ホスト・ストレージではなく、{{site.data.keyword.cloud_notm}} のすべてのフラッシュ・ストレージ・クラスター上に構築されます。 このインフラストラクチャーにより、ホスト障害の際の回復力が向上し、また、より大きいボリュームのサポートが可能になります。 ホストで障害が発生した場合、SAN ベースのストレージを使用している仮想サーバー・インスタンスは自動的に他のホストにマイグレーションされ、再始動されます。
 
 ポータブル・ストレージは {{site.data.keyword.cloud_notm}} のネットワーク上のデータ・センターに存在する仮想サーバー間でデータを転送する場合の理想的なソリューションです。 ポータブル・ストレージ・ボリュームは、未加工の不定形式ブロック・レベル・ストレージにアクセスする必要があるデータベース・アプリケーションや、{{site.data.keyword.BluVirtServers_short}}間で大容量のデータ・セットを移動する場合に便利です。
 
 2 次ディスクはすべてポータブル・ストレージとして接続されます。 多くの場合、これらの 2 次ディスクは、他の仮想サーバーに移動できるように、いつでも切り離すことができます。
 
-**例外:** 平衡型ローカル・ストレージを使用するパブリック仮想サーバーでは、1 次ディスクも 2 次ディスクも切り離すことができません。
+平衡型ローカル・ストレージを使用するパブリック仮想サーバーでは、1 次ディスクも 2 次ディスクも切り離すことができません。
+{:important}
 
 変更によってターゲット仮想サーバーのディスク割り当て量または最大ボリューム・サイズの制限を超えない限り、ディスクは別のサーバーに再接続できます。
 
-**注:** 移動されたディスクは、ターゲット・サーバーのストレージ・タイプに変換されます。
+移動されたディスクは、ターゲット・サーバーのストレージ・タイプに変換されます。
+{:note}
 
 ポータブル・ストレージ・ボリュームが、元の仮想サーバーとは異なるデータ・センター内で仮想サーバーに接続された場合、{{site.data.keyword.cloud_notm}} の内部システムは、ボリュームを新しいデータ・センター内の SAN にコピーします。 次に、システムはコピーされたボリュームの整合性を検査し、元のデータ・センター SAN から元のポータブル・ボリュームを削除します。
 
@@ -41,11 +50,11 @@ LVM (Logical Volume Management) は、ブート可能パーティショニング
 
 補足ストレージ・オプションについて詳しくは、以下のリソースを参照してください。
 
-* [Getting Started with Block Storage](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted)
-* [Getting Started with File Storage](/docs/infrastructure/FileStorage?topic=FileStorage-GettingStarted)
-* [Object Storage 概説](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage#about-ibm-cloud-object-storage)
+* [Getting Started with Block Storage](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started)
+* [Getting Started with File Storage](/docs/infrastructure/FileStorage?topic=FileStorage-getting-started)
+* [Object Storage 概説](/docs/services/cloud-object-storage?topic=cloud-object-storage-getting-started)
 
 ## 次のステップ
 ポータブル・ストレージ・ボリュームの使用方法について詳しくは、以下のタスクを参照してください。
-* [ポータブル・ストレージへのアクセス](/docs/vsi/storage?topic=virtual-servers-accessing-portable-storage)
-* [ポータブル・ストレージの説明の編集](/docs/vsi/storage?topic=virtual-servers-editing-a-portable-storage-description)
+* [ポータブル・ストレージの管理](/docs/vsi?topic=virtual-servers-accessing-portable-storage#accessing-portable-storage)
+* [ポータブル・ストレージの説明の編集](/docs/vsi?topic=virtual-servers-editing-a-portable-storage-description#editing-a-portable-storage-description)
