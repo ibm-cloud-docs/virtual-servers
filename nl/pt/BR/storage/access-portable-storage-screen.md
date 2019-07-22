@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-05-11"
+  years: 2014, 2019
+lastupdated: "2019-06-03"
 
 subcollection: virtual-servers
 
@@ -10,33 +10,37 @@ subcollection: virtual-servers
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:tip: .tip}
+{:note: .note}
 
-# Acessando o armazenamento móvel
+# Gerenciando o armazenamento móvel
 {: #accessing-portable-storage}
 
-Volumes de Armazenamento Móvel (PSVs) são uma solução de armazenamento auxiliar exclusivamente para o {{site.data.keyword.virtualmachinesshort}}. No {{site.data.keyword.slportal_full}}, é possível acessar volumes de armazenamento móvel por meio da página *Armazenamento móvel*, que exibe todos os PSVs e é o local em que os volumes podem ser anexados, removidos, trocados e editados. 
+Os volumes de armazenamento móvel (PSVs) são uma solução de armazenamento auxiliar exclusiva para {{site.data.keyword.virtualmachinesshort}}. Dentro do console do {{site.data.keyword.cloud}}, é possível acessar volumes de armazenamento móvel e exibir todos os PSVs. Também é possível anexar, remover, trocar e editar volumes.
+{:shortdesc}
 
-## Acessando a página Armazenamento móvel
+Não é possível anexar nem trocar volumes de armazenamento móvel para uma instância de servidor virtual provisionada por meio de um modelo de imagem criptografada.
+{:note}
 
-1. Acesse o [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window} usando suas credenciais exclusivas.
-* Selecione **Armazenamento > Block Storage** na **Barra de Navegação** para acessar a página Armazenamento Móvel.
-* Clique no botão **Ação** próximo ao armazenamento móvel e clique na opção de conexão.
-* Na tela seguinte escolha o dispositivo que precisa do armazenamento conectado.
+## Antes de iniciar
+Primeiro, navegue para o menu de armazenamento ou de dispositivos e assegure-se de ter as permissões de conta corretas para concluir as tarefas.
 
-**Nota:** a seção de armazenamento móvel é listada logo abaixo da seção de armazenamento do iSCSI.
+* Navegue para o menu de armazenamento ou de dispositivo do console. Para obter mais informações, consulte [Navegando para dispositivos](/docs/vsi?topic=virtual-servers-navigating-devices).
+* Assegure-se de ter quaisquer permissões de conta necessárias e de ter acesso ao dispositivo. Somente o proprietário da conta ou um usuário com a permissão de infraestrutura clássica **Gerenciar usuários** pode ajustar as permissões.
 
-## Ações disponíveis
+Para obter mais informações sobre permissões, veja [Permissões de infraestrutura clássica](/docs/iam?topic=iam-infrapermission#infrapermission) e [Gerenciando o acesso ao dispositivo](/docs/vsi?topic=virtual-servers-managing-device-access).
 
-Na página *Armazenamento Móvel*, os PSVs podem ser editados, conectados, desconectados e trocados.
+## Anexando o armazenamento móvel
 
-## Acessando o armazenamento móvel conectado a um servidor
+1. No menu **Armazenamento**, selecione **Armazenamento de bloco**.
+2. Na seção **Armazenamento móvel**, selecione a opção de conexão para o armazenamento móvel que você deseja usar.
+3. Na próxima tela, escolha o dispositivo que precisa do armazenamento e selecione **Anexar**.
+
+## Gerenciando o armazenamento móvel conectado a um servidor
 
 O armazenamento móvel conectado a um servidor é listado na página *Detalhes* do servidor.
 
-1. Acesse o [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window} usando suas credenciais exclusivas.
-* Selecione **Dispositivos > Lista de Dispositivos** na **Barra de Navegação** para acessar a página de lista de dispositivos.
-* Clique no nome do host de servidores virtuais para acessar a página de detalhes do dispositivo do servidor.
-* Clique na guia *Armazenamento* para visualizar o armazenamento móvel atualmente conectado ao servidor.
-* Clique em **Ação** próximo ao armazenamento móvel e clique na opção para a qual você deseja remover ou trocar o armazenamento. 
-
-**Nota:** na página *Armazenamento Móvel*, é possível clicar no nome do host como um atalho para chegar à página *Detalhes do Dispositivo* do servidor. 
+1. No menu **Dispositivos**, selecione **Lista de dispositivos**.
+2. Na **Lista de dispositivos**, selecione uma instância de servidor virtual para visualizar seus detalhes.
+3. Clique na guia **Armazenamento** para visualizar o armazenamento móvel atualmente anexado à instância.
+4. No menu **Ações**, é possível **Trocar** ou **Remover** o armazenamento.

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-05-11"
+  years: 2017, 2019
+lastupdated: "2019-06-03"
 
 subcollection: virtual-servers
 
@@ -19,17 +19,23 @@ subcollection: virtual-servers
 # Visualizando armazenamento móvel  
 {: #view-portable-storage}
 
- O armazenamento móvel é um disco de armazenamento secundário que pode ser removido de um servidor virtual e conectado a outro. 
+ O armazenamento móvel é um disco de armazenamento secundário que pode ser removido de um servidor virtual e conectado a outro.
  Um disco de armazenamento móvel pode ser conectado a um servidor virtual por vez e retém todas as informações
 que são armazenadas nele para fácil transferência entre dispositivos. O armazenamento móvel pode ser comprado e aplicado
-ao seu servidor virtual a qualquer momento. 
+ao seu servidor virtual a qualquer momento.
  {:shortdesc}
 
+## Antes de iniciar
+Primeiro, navegue para o menu de dispositivos e assegure-se de ter as permissões de conta corretas para concluir as tarefas.
+
+* Navegue para o menu de dispositivos do console. Para obter mais informações, consulte [Navegando para dispositivos](/docs/vsi?topic=virtual-servers-navigating-devices).
+* Assegure-se de ter quaisquer permissões de conta necessárias e de ter acesso ao dispositivo. Somente o proprietário da conta ou um usuário com a permissão de infraestrutura clássica **Gerenciar usuários** pode ajustar as permissões.
+
+Para obter mais informações sobre permissões, veja [Permissões de infraestrutura clássica](/docs/iam?topic=iam-infrapermission#infrapermission) e [Gerenciando o acesso ao dispositivo](/docs/vsi?topic=virtual-servers-managing-device-access).
+
+## Visualizando armazenamento móvel
 Para visualizar o armazenamento móvel, conclua as etapas a seguir:
 
-1. Acesse o [{{site.data.keyword.slportal_full}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/) usando suas credenciais exclusivas.
-2. Na Lista de dispositivos, clique no *Nome do Virtual Server* que contém o dispositivo de armazenamento móvel desejado.
-3. Clique na guia **Configuração**.
-4. Clique no botão **Visualizar armazenamento móvel para este dispositivo**. O armazenamento móvel será exibido para o dispositivo.
-
-
+1. No menu **Dispositivos**, selecione **Lista de dispositivos**.
+2. Na **Lista de dispositivos**, selecione a instância de servidor virtual que contém o dispositivo de armazenamento móvel desejado.
+3. Clique na guia **Armazenamento** para visualizar o armazenamento móvel atualmente anexado à instância.

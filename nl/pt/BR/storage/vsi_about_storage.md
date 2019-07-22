@@ -1,9 +1,16 @@
 ---
+
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-10-23"
+  years: 2014, 2019
+lastupdated: "2019-06-06"
+
+subcollection: virtual-servers
+
 ---
 
+{:note: .note}
+{:tip: .tip}
+{:important: .important}
 {:new_window: target="_blank"}
 
 # Opções de armazenamento
@@ -18,17 +25,19 @@ O armazenamento local é construído em discos que são locais para o host do se
 ## Armazenamento SAN móvel
 
 Os volumes de armazenamento móvel são soluções de armazenamento auxiliar exclusivamente disponíveis nos {{site.data.keyword.BluVirtServers_short}}.  A SAN móvel é construída em todos os clusters de armazenamento flash do {{site.data.keyword.cloud_notm}} em vez de no armazenamento do host local. Essa infraestrutura fornece maior resiliência no caso de uma falha do host e também
-pode suportar volumes muito maiores. No caso de uma falha de host, as instâncias de servidor virtual que usam o armazenamento baseado em SAN são migradas automaticamente para outros hosts e reiniciadas.
+pode suportar volumes muito maiores. Se houver uma falha do host, as instâncias de servidor virtual que usam armazenamento baseado em SAN serão migradas automaticamente para outros hosts e reiniciadas.
 
 O armazenamento móvel é uma solução ideal se você deseja transferir dados entre servidores virtuais existentes em qualquer data center na rede do {{site.data.keyword.cloud_notm}}. Os volumes de armazenamento móvel são úteis para aplicativos de banco de dados que requerem acesso ao armazenamento em nível de bloco bruto e não formatado e para mover grandes conjuntos de dados entre os {{site.data.keyword.BluVirtServers_short}}.
 
 Todos os discos secundários são conectados como armazenamento móvel. Na maioria dos casos, esses discos secundários podem ser separados a qualquer momento para permitir que sejam movidos para outros servidores virtuais.
 
-**Exceção:** com servidores virtuais públicos que utilizam armazenamento local balanceado, não é possível remover discos primários ou secundários.
+Com os servidores virtuais públicos que usam armazenamento local balanceado, não é possível remover discos primários ou secundários.
+{:important}
 
 Os discos podem ser reconectados a outro servidor, contanto que a mudança não exceda a cota do disco ou o limite de tamanho máximo do volume do servidor virtual de destino.
 
-**Nota:** o disco movido é convertido para o tipo de armazenamento do servidor de destino.
+O disco movido é convertido para o tipo de armazenamento do servidor de destino.
+{:note}
 
 Quando um volume de armazenamento móvel é anexado a um servidor virtual em um data center diferente do servidor virtual original, o sistema interno do {{site.data.keyword.cloud_notm}} copia o volume para a SAN no novo data center. O sistema verifica então a integridade do volume copiado e remove o volume móvel original da SAN do data center original.
 
@@ -42,11 +51,11 @@ Os servidores virtuais são totalmente compatíveis com o {{site.data.keyword.fi
 
 Para obter mais informações sobre as opções de armazenamento adicional, consulte os recursos a seguir:
 
-* [Introdução ao Block Storage](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted)
-* [Introdução ao File Storage](/docs/infrastructure/FileStorage?topic=FileStorage-GettingStarted)
-* [Introdução ao Object Storage](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage#about-ibm-cloud-object-storage)
+* [Introdução ao Block Storage](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started)
+* [Introdução ao File Storage](/docs/infrastructure/FileStorage?topic=FileStorage-getting-started)
+* [Introdução ao Object Storage](/docs/services/cloud-object-storage?topic=cloud-object-storage-getting-started)
 
 ## Próximas Etapas
 Para obter mais informações sobre como usar os volumes de armazenamento móvel, veja as tarefas a seguir:
-* [Acessando o armazenamento móvel](/docs/vsi/storage?topic=virtual-servers-accessing-portable-storage)
-* [Editando a descrição de armazenamento móvel](/docs/vsi/storage?topic=virtual-servers-editing-a-portable-storage-description)
+* [Gerenciando o armazenamento móvel](/docs/vsi?topic=virtual-servers-accessing-portable-storage#accessing-portable-storage)
+* [Editando uma descrição de armazenamento móvel](/docs/vsi?topic=virtual-servers-editing-a-portable-storage-description#editing-a-portable-storage-description)
