@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-05-11"
+  years: 2018, 2019
+lastupdated: "2019-06-03"
 
 subcollection: virtual-servers
 
@@ -30,8 +30,7 @@ subcollection: virtual-servers
 ## 供应瞬态虚拟服务器实例
 {: #provision-transient-virtual-server}
 
-瞬态虚拟服务器可以通过 [{{site.data.keyword.slportal_full}} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){: new_window} 或通过 [SLDN API ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](http://sldn.softlayer.com){: new_window} 供应。有关更多信息，请参阅[供应瞬态实例](/docs/vsi?topic=virtual-servers-ordering-vs-transient)。
-
+瞬态虚拟服务器可以通过 {{site.data.keyword.cloud_notm}} 控制台、{{site.data.keyword.slportal}} 或 [SLDN API ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](http://sldn.softlayer.com){: new_window} 来供应。有关更多信息，请参阅[供应瞬态实例](/docs/vsi?topic=virtual-servers-ordering-vs-transient#ordering-vs-transient)。
 
 ## 设置 Webhook
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-06"
 
 keywords: virtual server, suspend billing feature, virtual server instances, suspend billing
 
@@ -18,9 +18,10 @@ subcollection: virtual-servers
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:row-headers: .row-headers}
 {:table: .aria-labeledby="caption"}
 
-# 关于暂挂计费
+# 暂挂计费
 {: #requirements}
 
 关闭支持暂挂计费功能的虚拟服务器时，您不会增加特定计算资源的成本。服务器关闭后会自动停止计费。暂挂计费功能可帮助您降低成本，并使您在再次需要资源时不必重新供应虚拟服务器。
@@ -39,7 +40,7 @@ subcollection: virtual-servers
 使用暂挂计费功能可以替代供应和回收虚拟服务器实例，而且速度更快。
 {:tip}
 
-仅当通过 {{site.data.keyword.slportal_full}}、CLI 或 {{site.data.keyword.slapi_short}} 关闭虚拟服务器实例的电源时，才会暂停计费。如果是直接通过操作系统来关闭虚拟服务器实例的电源，那么不会暂停对该实例的计费。
+仅当通过 {{site.data.keyword.cloud}} 控制台、CLI 或 {{site.data.keyword.slapi_short}} 关闭虚拟服务器实例的电源时，才会暂停计费。如果是直接通过操作系统来关闭虚拟服务器实例的电源，那么不会暂停对该实例的计费。
 {:note}
 
 ## 供应详细信息
@@ -60,16 +61,19 @@ subcollection: virtual-servers
 
 | 资源                      | 计费停止   | 计费持续 |
 | ----------------------------- | ----------------- | ---------------- |
-|vCPU|X|                  |
-|RAM|X|                  |
-|端口速度|X|                  |
-|操作系统许可证            |X|                  |
-| 监视附加组件            |X|                  |
-| 辅助公共 IP 地址         |                   |X|
-|存储器|                   |X|
-{: caption="表 1. 资源计费详细信息" caption-side="top"}   
+|vCPU| ![复选标记图标](../../icons/checkmark-icon.svg) |                  |
+|RAM| ![复选标记图标](../../icons/checkmark-icon.svg) |                  |
+|端口速度| ![复选标记图标](../../icons/checkmark-icon.svg) |                  |
+|操作系统许可证            | ![复选标记图标](../../icons/checkmark-icon.svg) |                  |
+| 监视附加组件            | ![复选标记图标](../../icons/checkmark-icon.svg) |                  |
+| 辅助公共 IP 地址         |                   | ![复选标记图标](../../icons/checkmark-icon.svg) |
+|存储器|                   | ![复选标记图标](../../icons/checkmark-icon.svg) |
+{: row-headers}
+{: class="comparison-table"}
+{: caption="表 1. 资源计费详细信息" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify the resource. The column headers identify whether billing stops or persists when your instance is powered off. To understand whether billing stops or persists for a resource, navigate to the row in the table, and find the billing information you are interested in."}  
 
-供应支持暂挂计费功能的虚拟服务器实例时，对于虚拟服务器实例的使用中时间和暂挂时间，将每分钟计算使用时间。即使您关闭了实例，从而从不启动暂挂计费功能，也将在实例生命周期内每分钟计算计费。
+供应支持暂挂计费功能的虚拟服务器实例时，对于虚拟服务器实例的使用中时间和暂挂时间，将每秒计算使用时间。即使您从未通过关闭实例电源来启动暂挂计费功能，也会根据实例的生命周期按秒来计算费用。
 {:note}
 
 ### 最低使用量费用

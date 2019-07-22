@@ -95,8 +95,8 @@ subcollection: virtual-servers
     <td>为订单中每个实例选择 SAN 或“本地”。</td>
     </tr>
     <tr>
-    <td>附加磁盘</td>
-    <td>可以为每个专用实例供应最多四个附加引导磁盘 - SAN 或“本地”。</td>
+    <td>额外磁盘</td>
+    <td>可以为每个专用实例供应最多四个额外引导磁盘 - SAN 或“本地”。</td>
     </tr>
     <td>网络选项</td>
     <td> 选择相应的选项或使用缺省值。</td>
@@ -154,4 +154,4 @@ subcollection: virtual-servers
     将向您的管理员发送一系列电子邮件 - 确认供应订单、供应订单核准和处理以及供应完成。“供应完成”电子邮件将包含一个链接，用于在您登录到 {{site.data.keyword.Bluemix_notm}} 后直接转至**设备详细信息**页面。另一个选项是直接登录到 {{site.data.keyword.slportal}}。
 
 ## 后续步骤
-供应虚拟服务器后，即可以开始对其进行管理。有关更多信息，请参阅[管理虚拟服务器](/docs/vsi?topic=virtual-servers-managing-virtual-servers)。
+虚拟服务器已供应并可供使用后，可以使用 {{site.data.keyword.slportal_full}}或 {{site.data.keyword.slapi_full}} 来配置虚拟服务器。有关更多信息，请参阅[配置虚拟服务器](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers)。

@@ -69,4 +69,6 @@ subcollection: virtual-servers
 
 ## 后续步骤
 
-供应了预留虚拟服务器容量和实例后，即可以开始对其进行管理。有关更多信息，请参阅[管理虚拟服务器](/docs/vsi?topic=virtual-servers-managing-virtual-servers)。如果有预留容量和实例方面的问题，请参阅[常见问题：预留容量和实例](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances)。
+虚拟服务器已供应并可供使用后，可以使用 {{site.data.keyword.cloud_notm}} 控制台或 {{site.data.keyword.slapi_short}} 来配置虚拟服务器。有关更多信息，请参阅[配置虚拟服务器](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers)。
+
+如果有预留容量和实例方面的问题，请参阅[常见问题：预留容量和实例](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances#faqs-reserved-capacity-and-instances)。 

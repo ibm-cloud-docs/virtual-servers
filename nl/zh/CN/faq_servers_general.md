@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-05-17"
+  years: 2017, 2019
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -14,7 +14,6 @@ subcollection: virtual-servers
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
-{:faq: data-hd-content-type='faq'}
 
 
 # 常见问题：服务器（常规）
@@ -25,21 +24,22 @@ subcollection: virtual-servers
 
 “从映像引导”和“从映像装入”都利用的是现有映像模板，模板应用于设备以替换现有操作系统或作为操作系统的补充来尝试补救现有问题。引导过程和装入过程的主要区别在于所使用的映像类型。执行“从映像引导”或“从映像装入”过程时，请确保已备份您可能希望恢复的所有数据。
 
-   * “从映像引导”是一种设备引导方法，所用映像或者是 {{site.data.keyword.BluSoftlayer_full}} 提供的用于系统恢复的 ISO，或者是在 {{site.data.keyword.slportal_full}}中使用*导入映像*功能上传的 ISO。ISO 可以是设备操作系统的干净版本，也可以是可用于尝试补救设备问题的恢复磁盘。
-   * “从映像装入”是一种操作系统重装方法，利用的是已从设备中捕获的映像模板或在 {{site.data.keyword.slportal}}中使用*映像导入*功能上传的映像模板。*从映像装入*选项使用 VHD 执行重装，这会擦除设备的所有数据，并将现有操作系统和文件替换为所选映像的“如新”版本。
+   * “从映像引导”是一种设备引导方法，所用映像或者是 {{site.data.keyword.BluSoftlayer_full}} 提供的用于系统恢复的 ISO，或者是在 {{site.data.keyword.cloud_notm}} 控制台中使用*导入映像*功能上传的 ISO。ISO 可以是设备操作系统的干净版本，也可以是可用于尝试补救设备问题的恢复磁盘。
+   * “从映像装入”是一种操作系统重装方法，利用的是已从设备中捕获的映像模板或在 {{site.data.keyword.cloud_notm}} 控制台中使用*映像导入*功能上传的映像模板。*从映像装入*选项使用 VHD 执行重装，这会擦除设备的所有数据，并将现有操作系统和文件替换为所选映像的“如新”版本。
 
 ## 为什么无法连接到 KVM 控制台？
 {:faq}
 
-如果无法连接到 KVM 控制台，请查看下面的故障诊断技巧以帮助解决该问题。如果发生其他问题，请联系支持人员。有关联系支持人员的更多信息，请参阅[获取帮助和支持](/docs/vsi?topic=virtual-servers-gettinghelp)。
+如果无法连接到 KVM 控制台，请查看下面的故障诊断技巧以帮助解决该问题。如果发生其他问题，请联系支持人员。有关联系支持人员的更多信息，请参阅[获取帮助和支持](/docs/vsi?topic=virtual-servers-gettinghelp#gettinghelp)。
 
    * KVM 控制台是一个 Java applet。必须安装 Java 后，才能访问该控制台。有关安装 Java 的更多信息，请参阅[免费 Java 下载 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://www.java.com/en/download/){: new_window}。  
    * 如果安装了 Java，请确保已使用 VPN 建立连接。如果未建立连接，那么在尝试连接到需要 VPN 连接的 KVM 控制台时，会显示警告。
-   * 在连接过程中，KVM 控制台可能会生成一个或多个弹出框。从 {{site.data.keyword.slportal}}启用弹出窗口以确保可以建立连接。
+   * 在连接过程中，KVM 控制台可能会生成一个或多个弹出框。从 {{site.data.keyword.cloud_notm}} 控制台启用弹出窗口以确保可以建立连接。
    * 您可能会收到错误“Java 应用程序已被安全设置阻止。”对于裸机 iKVM 设备，必须将 IPMI 设备的 IP 地址添加为例外。对于 VSI 设备，确保允许“https://control.softlayer.com”和 KVM 的 IP 地址。有关更多信息，请参阅 [Why are Java applications blocked by your security settings with the latest Java?![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://www.java.com/en/download/help/java_blocked.xml){: new_window}。
    * 如果满足了上述条件，而您却收到错误称“在 main.jar 中缺少必需的许可权清单”，这说明尚未在 Java 控制面板中启用 Java applet。在 Java SE V7 中，此设置作为 Oracle 的安全预防措施引入。在控制面板中启用 applet 可解决此问题。
 
-     **注**：如果将 Mac OSX 与 Google Chrome 配合使用，请参阅 Java Web 站点上的“安装和使用 Mac Java 7 的信息和系统需求”。
+     如果将 Mac OSX 与 Google Chrome 配合使用，请参阅 Java Web 站点上的“安装和使用 Mac Java 7 的信息和系统需求”。
+     {:note}
 
    * 如果在尝试通过标准 Java 连接到 VSI 时因出错而失败，那么也可以尝试使用 VNC。
 
@@ -52,10 +52,10 @@ subcollection: virtual-servers
 
    * 密码是复制并粘贴的吗？如果不是，请尝试这样做。另外，请将密码粘贴到记事本中，以确保复制密码时不会意外包含任何空格。
    * 如果服务器上有 cPanel，那么是否有可能因登录失败而导致 cPHulk 阻止了您的 IP 地址？如果是，可以使用 KVM 或 IPMI 来访问服务器，并在 cPHulk 中将您的 IP 地址列入白名单，使该 IP 地址紧跟在“/scripts/cphulkdwhitelist”后面。
-   * 最近有人尝试通过在 {{site.data.keyword.slportal}}中修改服务器密码来更改该密码吗？在 {{site.data.keyword.slportal}}中更改密码仅会更改显示为密码的内容，而不会更改服务器使用的密码。如果发生这种情况，可以联系支持人员，他们通常可以恢复原始有效密码。
-   * 您可能需要引导至操作系统的急救方式才能重置密码。有关更多信息，请参阅[启动急救内核](/docs/vsi?topic=virtual-servers-launching-rescue)。
+   * 最近有人尝试通过在 {{site.data.keyword.cloud_notm}} 控制台中修改服务器密码来更改该密码吗？在 {{site.data.keyword.cloud_notm}} 控制台中更改密码仅会更改显示为密码的内容。而不会更改服务器使用的密码。如果发生这种情况，可以联系支持人员，他们通常可以恢复原始有效密码。
+   * 您可能需要引导至操作系统的急救方式才能重置密码。有关更多信息，请参阅[启动急救内核](/docs/vsi?topic=virtual-servers-launching-rescue#launching-rescue)。
 
-如果检查了上面所有各项，却仍无法使用密码连接到服务器，请使用凭单联系支持人员，并请求密码重置。支持人员将需要重新引导服务器来重置密码，因此请确保您已准备好核准重新引导和/或提供您希望执行此操作的维护时间范围。大多数密码重置可以在 15 分钟内完成。在 {{site.data.keyword.slportal}}中，可以通过转至**支持 > 添加凭单**来创建凭单，并使用主题“*重新引导和控制台访问权*”。
+如果检查了上面所有各项，却仍无法使用密码连接到服务器，请使用凭单联系支持人员，并请求密码重置。支持人员将需要重新引导服务器来重置密码，因此请确保您已准备好核准重新引导和/或提供您希望执行此操作的维护时间范围。大多数密码重置可以在 15 分钟内完成。在 {{site.data.keyword.cloud_notm}} 控制台中，可以通过转至**支持 > 创建案例**并使用主题*帐户和访问权*来创建凭单。
 
 ## 是否支持 LVM 分区作为有效的文件系统？
 {:faq}
@@ -65,7 +65,7 @@ LVM（逻辑卷管理）在 Linux 中提供对文件系统的逻辑管理。在 
 ## 客户主机上预配置的 161.26.0.0/16 路径
 {:faq}
 
-{{site.data.keyword.BluSoftlayer}} 将在所有新供应的服务器上启用一条新路径以支持未来的产品。
+{{site.data.keyword.BluSoftlayer_notm}} 将在所有新供应的服务器上启用一条新路径以支持未来的产品。
    * 该路径将 161.26.0/16 范围 (161.26.0.0 255.255.0.0 | 161.26.0.0 -161.26.255.255) 内的任一地址指向后端专用网络。
    * 此 IP 块由 IANA 分配给 {{site.data.keyword.BluSoftlayer_notm}}，并且不会在公共因特网上公布。
    * 只有 {{site.data.keyword.BluSoftlayer_notm}} 系统的地址处于此范围内。
@@ -158,7 +158,7 @@ LVM（逻辑卷管理）在 Linux 中提供对文件系统的逻辑管理。在 
 ## 能否使监视系统在服务器停止响应时，发出自动重新引导操作并向支持技术人员发出警报？
 {:faq}
 
-可以，通过订购**从监视故障自动重新引导**服务，可以将监视系统设置为自动重新引导服务器，并在发出监视警报时，向支持技术人员发出凭单。我们还提供了附加服务 **NOC 监视**，通过此服务，您将在发生监视问题时收到个人通知。要了解有关这两种产品的更多信息，请参阅[服务器监视 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](http://www.softlayer.com/services/monitoring/){:new_window}。
+可以，通过订购**从监视故障自动重新引导**服务，可以将监视系统设置为自动重新引导服务器，并在发出监视警报时，向支持技术人员发出凭单。我们还提供了附加服务 **NOC 监视**，通过此服务，您将在发生监视问题时收到个人通知。要了解有关这两种产品的更多信息，请参阅[服务器监视 ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/cloud/infrastructure/monitoring?cm_mc_uid=46846454197915580355142&cm_mc_sid_50200000=71138741559658182022){:new_window}。
 
 ## 什么是 CVSup 镜像？
 {:faq}

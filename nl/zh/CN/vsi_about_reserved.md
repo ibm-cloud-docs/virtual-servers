@@ -1,11 +1,10 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-10-04"
+  years: 2018, 2019
+lastupdated: "2019-04-25"
 
-keywords: reserved virtual servers, cost savings, guaranteed capacity
-
+keywords: reserved virtual servers, cost savings, guaranteed capacity 
 subcollection: virtual-servers
 
 ---
@@ -26,28 +25,37 @@ subcollection: virtual-servers
 
 * **保证容量**
 
-    预留容量后，将在合同期限内保证供应此容量。
-
+    预留容量后，将在合同期限内保证供应此容量。 
+    
 * **全球可用性**
-
+    
     预留虚拟服务器产品在全球各个数据中心内可用。
 
 * **可靠供应**
-
+   
    可以随时从预留容量中供应虚拟服务器实例，也可随时回收虚拟服务器实例以添加回预留容量。
 
 * **节约成本**
-
+    
     与按小时或按月虚拟服务器计费周期相比，选择一年或三年合同期限可实现一致的每月付款，并降低成本。
 
-## 限制
+保留虚拟服务器实例是使用 SAN 支持的存储器的公共实例。以下公共实例系列可用于此产品。
+
+| 系列  |描述|
+| ----------------------- | -------------------------------------------------------------------------------------------------------- | 
+|[均衡](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#balanced)|最适用于需要均衡性能和可扩展性的常用云工作负载。使用网络连接存储器。|
+|[计算](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#compute)|最适用于中到高 Web 流量工作负载。|
+|[内存](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#memory)|最适用于内存高速缓存和实时分析工作负载。
+|
+{: caption="表 1. 公共虚拟服务器系列选择" caption-side="top"}
+
+## 限制 
 
 在预留容量和供应预留虚拟服务器实例之前，请考虑以下限制：
-
-  * 预留虚拟服务器实例只能使用 SAN 支持的存储器（均衡、内存、计算）。
+  
   * 无法对实例进行升级或降级。
   * 预留容量无法取消；但是，可以回收该容量中的虚拟服务器实例。
-
+    
 ## 通知
 
 在预留虚拟服务器容量到期之前一个月，您会收到相关电子邮件通知。
@@ -56,5 +64,5 @@ subcollection: virtual-servers
 
 复查并决定了选项后，就可以供应预留容量和实例了。首先，请查看以下信息：
 
-   1. [供应预留容量和实例](/docs/vsi?topic=virtual-servers-provisioning-reserved-capacity-and-instances)
-   2. [常见问题：预留容量和实例](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances)
+   1. [供应预留容量和实例](/docs/vsi?topic=virtual-servers-provisioning-reserved-capacity-and-instances#provisioning-reserved-capacity-and-instances)
+   2. [常见问题：预留容量和实例](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances#faqs-reserved-capacity-and-instances)

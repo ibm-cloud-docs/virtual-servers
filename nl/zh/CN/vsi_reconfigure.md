@@ -31,7 +31,7 @@ subcollection: virtual-servers
 {:shortdesc}
 
 ## 修改使用预设置概要文件的现有虚拟服务器
-1. 使用您的唯一凭证来访问 [{{site.data.keyword.slportal_full}} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){: new_window}。
+1. 使用初始创建帐户时通过电子邮件收到的凭证，访问[控制台](https://cloud.ibm.com/classic?){: new_window} ![外部链接图标](../icons/launch-glyph.svg "外部链接图标")。或者，可以登录到 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window}。 
 2. 在“设备列表”中，单击要重新配置的虚拟服务器的名称。
 3. 在**配置**选项卡上，可以单击**修改**或**修改设备配置**来更新以下各项。
   <dl>

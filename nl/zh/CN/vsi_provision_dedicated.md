@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-24"
+  years: 2017, 2019
+lastupdated: "2019-05-16"
 
 subcollection: virtual-servers
 
@@ -18,7 +18,7 @@ subcollection: virtual-servers
 # 供应专用主机和实例
 {: #ordering-vs-dedicated}
 
-对于如何供应专用实例，有两个选项。第一个是通过 {{site.data.keyword.Bluemix}} 目录，第二个是通过 {{site.data.keyword.slportal_full}}。目录和 {{site.data.keyword.slportal}}需要唯一登录标识。目录的用户名和密码无法用于登录到门户网站，反之亦然。
+对于如何供应专用实例，有两个选项。第一个是通过 {{site.data.keyword.Bluemix}} 目录，第二个是通过 {{site.data.keyword.slportal_full}}。目录和 {{site.data.keyword.slportal}} 需要唯一登录标识。目录的用户名和密码无法用于登录到门户网站，反之亦然。
 请参阅[注册 {{site.data.keyword.Bluemix_notm}}](/docs/account?topic=account-signup#signup) 以设置 {{site.data.keyword.Bluemix_notm}} 目录或 {{site.data.keyword.slportal}}凭证。
 {:shortdesc}
 
@@ -74,7 +74,7 @@ subcollection: virtual-servers
     <td>选择要布置主机的 {{site.data.keyword.cloud}} 数据中心。有关适用的数据中心的列表，请参阅“关于”。</td>
     </tr>
     <td>专用主机</td>
-    <td>缺省值为 56 个内核 X 242 RAM X 1.2 TB</td>
+    <td>缺省值为 56 核心 X 242 RAM X 1.2 TB，但您可以从其他配置中进行选择。</td>
     </tr>
     </TBODY>
     </table>
@@ -178,7 +178,7 @@ subcollection: virtual-servers
     <td>为订单中每个实例选择 SAN 或“本地”。</td>
     </tr>
     <tr>
-    <td>附加磁盘</td>
+    <td>额外磁盘</td>
     <td>可以为每个专用主机实例供应最多四个附加引导磁盘 - SAN 或“本地”。</td>
     </tr>
     <td>网络选项</td>
@@ -238,4 +238,4 @@ subcollection: virtual-servers
 一旦供应了专用主机实例，您将收到一封电子邮件。
 
 ## 后续步骤
-供应虚拟服务器后，即可以开始对其进行管理。有关更多信息，请参阅[管理虚拟服务器](/docs/vsi?topic=virtual-servers-managing-virtual-servers)。
+虚拟服务器已供应并可供使用后，可以使用 {{site.data.keyword.slportal_full}}或 {{site.data.keyword.slapi_full}} 来配置虚拟服务器。有关更多信息，请参阅[配置虚拟服务器](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers)。

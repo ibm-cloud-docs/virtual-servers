@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-08-23"
+  years: 2017, 2019
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -11,6 +11,7 @@ subcollection: virtual-servers
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
+{:note: .note}
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
@@ -26,9 +27,10 @@ subcollection: virtual-servers
 
 在订购过程中，可以选择特定于设备的硬件或选择软件防火墙来提供保护。或者，可以将专用防火墙设备部署到环境，然后将虚拟服务器部署到受保护的 VLAN。  
 
-**注**：一个虚拟服务器不能由同一接口上的两个防火墙设备进行保护。
+一个虚拟服务器不能由同一接口上的两个防火墙设备进行保护。
+{:note}
 
 有关更多信息，请参阅以下安全主题集合。
 
-* [Hardware Firewall (Shared)](/docs/infrastructure/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started-with-hardware-firewall-shared)
-* [Hardware Firewall (Dedicated)](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-getting-started-with-hardware-firewall-dedicated)
+* [Hardware Firewall (Shared)](/docs/infrastructure/hardware-firewall-shared?topic=hardware-firewall-shared-about-hardware-firewall-shared-)
+* [Hardware Firewall (Dedicated)](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-about-the-hardware-firewall-dedicated-)

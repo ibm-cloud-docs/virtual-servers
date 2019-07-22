@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-11-30"
+  years: 2017, 2019
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -21,4 +21,4 @@ subcollection: virtual-servers
 {{site.data.keyword.cloud}} 提供了适用于{{site.data.keyword.virtualmachinesshort}}和{{site.data.keyword.baremetal_short}}部署的可选收费和免费数据库工具产品。但是，数据库工具产品只可用于{{site.data.keyword.virtualmachinesshort}}和{{site.data.keyword.baremetal_short}}的每月计费周期。
 {:shortdesc}
 
-有关数据库工具的更多信息，请参阅[数据库工具入门](/docs/infrastructure/database-tools?topic=database-tools-getting-started-tutorial)。
+有关数据库工具的更多信息，请参阅[数据库工具入门](/docs/infrastructure/database-tools?topic=database-tools-dbt-getting-started)。

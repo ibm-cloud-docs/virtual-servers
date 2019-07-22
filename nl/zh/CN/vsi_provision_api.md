@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-04"
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -14,6 +14,7 @@ subcollection: virtual-servers
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:tip: .tip}
+{:note: .note}
 {:table: .aria-labeledby="caption"}
 
 # API 示例：公共虚拟服务器概要文件
@@ -33,6 +34,9 @@ subcollection: virtual-servers
 {:tip}
 
 要使用 REST 来供应公共虚拟服务器实例，将在请求主体中使用以下 JSON 将 POST 请求提交到 https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/。
+
+以下 JSON 请求主体为通用示例。
+{:note}
 
 ### JSON 请求主体 1
 ```
@@ -67,7 +71,11 @@ subcollection: virtual-servers
 
 要使用 REST 来供应公共虚拟服务器，将在请求主体中使用以下 JSON 将 POST 请求提交到 https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/。
 
-**注**：价格上不需要项目描述。仅在显示要提交的产品选项时才包含项目描述。
+价格上不需要项目描述。仅在显示要提交的产品选项时才包含项目描述。
+{:note}
+
+以下 JSON 请求主体为通用示例。
+{:note}
 
 ### JSON 请求主体 2
 ```
@@ -167,7 +175,11 @@ subcollection: virtual-servers
 
 要使用 REST 来供应公共虚拟服务器，将在请求主体中使用以下 JSON 将 POST 请求提交到 https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/。
 
-**注**：价格上不需要项目描述。仅在显示要提交的产品选项时才包含项目描述。
+价格上不需要项目描述。仅在显示要提交的产品选项时才包含项目描述。
+{:note}
+
+以下 JSON 请求主体为通用示例。
+{:note}
 
 ### JSON 请求主体 3
 ```
@@ -210,6 +222,9 @@ subcollection: virtual-servers
 要供应瞬态虚拟服务器实例，使用 *SoftLayer_Virtual_Guest/createObject* API 服务是最简单的方法。
 
 要使用 REST 来供应瞬态虚拟服务器实例，将在请求主体中使用以下 JSON 将 POST 请求提交到 https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/。
+
+以下 JSON 请求主体为通用示例。
+{:note}
 
 ### JSON 请求主体 4
 ```

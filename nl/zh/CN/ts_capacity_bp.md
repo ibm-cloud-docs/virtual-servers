@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2018-01-03"
+  years: 2017, 2019
+lastupdated: "2019-04-05"
 
 subcollection: virtual-servers
 
@@ -17,7 +17,7 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 
-# 容量注意事项
+# 虚拟服务器实例的资源注意事项
 {: #capacity-considerations}
 
 ## 问题描述
@@ -34,7 +34,7 @@ subcollection: virtual-servers
 
 ## 问题原因
 
-路由器或数据中心的可用资源不足而无法执行服务请求时，会发生容量错误。有多个原因可能会导致您收到此错误。资源可用性变化频繁，因此您可以等待并稍后重试。
+路由器或数据中心的可用资源不足而无法满足服务请求时，会发生错误。有多个原因可能会导致您收到此错误。资源可用性变化频繁，因此您可以等待并稍后重试。
 
 ## 解决方法
 
