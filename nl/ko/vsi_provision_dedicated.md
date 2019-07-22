@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-24"
+  years: 2017, 2019
+lastupdated: "2019-05-16"
 
 subcollection: virtual-servers
 
@@ -47,7 +47,7 @@ subcollection: virtual-servers
 1.	**디바이스** 아이콘을 클릭하십시오.
 2.  **시간별 전용 Virtual Server** 또는 **월별 전용 Virtual Server** 링크를 클릭하십시오.
 
-   **참고:** 전용 서버는 개인용 서버입니다.
+   **참고:** 전용 서버는 사설 서버입니다.
 
 *클라우드 서버 구성* 페이지로 이동됩니다. 이 페이지에서 전용 호스트와 연관되거나 연관되지 않은 전용 인스턴스를 주문할 수 있습니다. 인스턴스 주문에 대한 자세한 정보는 [전용 호스트 인스턴스 프로비저닝](#provision-dedicated-instances)에서 제공됩니다.
 
@@ -72,7 +72,7 @@ subcollection: virtual-servers
     <td>호스트를 배치할 {{site.data.keyword.cloud}} 데이터 센터를 선택하십시오. 해당되는 데이터 센터의 목록은 정보를 참조하십시오.</td>
     </tr>
     <td>전용 호스트</td>
-    <td>기본값은 56개 코어 X 242GB RAM X 1.2TB입니다.</td>
+    <td>기본값은 56개 코어 X 242 RAM X 1.2TB지만 기타 구성에서 선택할 수 있습니다. </td>
     </tr>
     </TBODY>
     </table>
@@ -93,8 +93,8 @@ subcollection: virtual-servers
     </THEAD>
     <TBODY>
     <tr>
-    <td>포드 선택</td>
-    <td>드롭 다운 상자를 클릭하고 전용 호스트를 배치할 포드를 선택하십시오.</td>
+    <td>팟(Pod) 선택</td>
+    <td>드롭 다운 상자를 클릭하고 전용 호스트를 배치할 팟(Pod)을 선택하십시오.</td>
     </tr>
     <tr>
     <td>호스트 이름</td>
@@ -236,4 +236,5 @@ subcollection: virtual-servers
 전용 호스트 인스턴스가 프로비저닝되면 이메일을 수신합니다.
 
 ## 다음 단계
-가상 서버가 프로비저닝된 후에는 이 서버의 관리를 시작할 수 있습니다. 자세한 정보는 [가상 서버 관리](/docs/vsi?topic=virtual-servers-managing-virtual-servers)를 참조하십시오.
+가상 서버가 프로비저닝되어 사용 가능한 상태가 되면 {{site.data.keyword.slportal_full}} 또는 {{site.data.keyword.slapi_full}}를 사용하여
+가상 서버를 구성할 수 있습니다. 자세한 정보는 [가상 서버 구성](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers)을 참조하십시오.

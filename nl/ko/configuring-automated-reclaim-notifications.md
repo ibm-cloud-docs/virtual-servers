@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-05-11"
+  years: 2018, 2019
+lastupdated: "2019-06-03"
 
 subcollection: virtual-servers
 
@@ -30,7 +30,7 @@ subcollection: virtual-servers
 ## 임시 가상 서버 인스턴스 프로비저닝
 {: #provision-transient-virtual-server}
 
-임시 가상 서버는 [{{site.data.keyword.slportal_full}} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window} 또는 [SLDN API ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](http://sldn.softlayer.com){: new_window}를 통해 프로비저닝될 수 있습니다. 자세한 정보는 [임시 인스턴스 프로비저닝](/docs/vsi?topic=virtual-servers-ordering-vs-transient)을 참조하십시오.
+임시 가상 서버는 {{site.data.keyword.cloud_notm}} 콘솔, {{site.data.keyword.slportal}}을 통해 프로비저닝되거나 [SLDN API ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](http://sldn.softlayer.com){: new_window}를 통해 프로비저닝될 수 있습니다. 자세한 정보는 [임시 인스턴스 프로비저닝](/docs/vsi?topic=virtual-servers-ordering-vs-transient#ordering-vs-transient)을 참조하십시오.
 
 ## 웹훅 설정
 

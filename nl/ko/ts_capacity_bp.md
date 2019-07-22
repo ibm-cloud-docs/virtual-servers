@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2018-01-03"
+  years: 2017, 2019
+lastupdated: "2019-04-05"
 
 subcollection: virtual-servers
 
@@ -17,7 +17,7 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 
-# 용량 고려사항
+# 가상 서버 인스턴스에 대한 리소스 고려사항
 {: #capacity-considerations}
 
 ## 발생한 증상
@@ -34,7 +34,7 @@ subcollection: virtual-servers
 
 ## 발생 이유
 
-용량 오류는 라우터 또는 데이터 센터에 서비스 요청을 처리하는 데 필요한 리소스가 충분하지 않은 경우에 발생합니다. 몇 가지 이유로 인해 이런 오류가 수신될 수 있습니다. 리소스 가용성은 자주 변경되기 때문에 잠시 대기한 후에 다시 시도해 볼 수도 있습니다.
+오류는 라우터 또는 데이터 센터에 서비스 요청을 처리하는 데 필요한 리소스가 충분하지 않은 경우에 발생합니다. 몇 가지 이유로 인해 이런 오류가 수신될 수 있습니다. 리소스 가용성은 자주 변경되기 때문에 잠시 대기한 후에 다시 시도해 볼 수도 있습니다.
 
 ## 해결 방법
 

@@ -69,4 +69,7 @@ subcollection: virtual-servers
 
 ## 다음 단계
 
-예약된 가상 서버 용량 및 인스턴스를 프로비저닝하고 나면 이에 대한 관리를 시작할 수 있습니다. 자세한 정보는 [가상 서버 관리](/docs/vsi?topic=virtual-servers-managing-virtual-servers)를 참조하십시오. 예약된 용량 및 인스턴스에 대한 질문이 있는 경우 [FAQ: 예약된 용량 및 인스턴스](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances)를 참조하십시오.
+가상 서버가 프로비저닝되어 사용 가능한 상태가 되면 {{site.data.keyword.cloud_notm}} 콘솔 또는 {{site.data.keyword.slapi_short}}를 사용하여
+가상 서버를 구성할 수 있습니다. 자세한 정보는 [가상 서버 구성](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers)을 참조하십시오.
+
+예약된 용량 및 인스턴스에 대한 질문이 있는 경우 [FAQ: 예약된 용량 및 인스턴스](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances#faqs-reserved-capacity-and-instances)를 참조하십시오. 

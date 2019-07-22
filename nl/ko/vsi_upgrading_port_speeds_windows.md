@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2017
-lastupdated: "2017-12-12"
+  years: 2014, 2019
+lastupdated: "2019-05-28"
 
 subcollection: virtual-servers
 
@@ -13,16 +13,20 @@ subcollection: virtual-servers
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:note: .note}
 {:table: .aria-labeledby="caption"}
 
 # Windows에서 포트 속도 업그레이드
 {: #upgrading-port-speed-in-windows}
 
-고객 서버에 대한 기본 포트 속도(공용 및 사설 네트워크 모두)는 10Mbps입니다. 해당 포트 속도 중 하나를 100Mbps 또는 1000Mbps로 업그레이드하려면 요청을 포함하여 티켓을 여십시오. 영업에서 최소 비용 승인을 요청하고 기술자가 사용자 네트워크에서 포트 속도를 변경합니다.
+고객 서버에 대한 기본 포트 속도(공용 및 사설 네트워크 모두)는 10Mbps입니다. 해당 포트 속도 중 하나를 100Mbps 또는 1000Mbps로 업그레이드하려면 요청을 포함하여 티켓을 여십시오. 영업에서 최소 비용 승인을 요청하고 기술자가 사용자 네트워크에서 포트 속도를 변경합니다. IBM 지원 티켓 열기에 대한 자세한 정보는 [지원 받기](/docs/get-support?topic=get-support-getting-customer-support)를 참조하십시오.
 
 네트워크 측의 업그레이드가 완료되면 서버에서 적절한 네트워크 인터페이스를 하드코딩하십시오.
 
-다음 단계에 따라 Windows 서버에서 포트 속도를 강제 설정하십시오. **참고:** 서버에서 잠금되는 것을 방지하기 위해 작업 중이지 않은 네트워크의 서버에 항상 연결하십시오.
+서버에서 잠금되는 것을 방지하기 위해 작업 중이지 않은 네트워크의 서버에 항상 연결하십시오.
+{:note}
+
+다음 단계를 완료하여 Windows 서버에서 포트 속도를 강제 설정하십시오.  
 
 1. **시작 > 제어판 선택 > 네트워크 연결 선택**을 선택하십시오.
 2. 업그레이드/다운그레이드하려는 네트워크 연결을 클릭하십시오.

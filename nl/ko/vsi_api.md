@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-25"
+  years: 2017, 2018
+lastupdated: "2018-04-03"
 
 subcollection: virtual-servers
 
@@ -15,10 +15,10 @@ subcollection: virtual-servers
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# API 참조
+# API 참조 개요
 {: #api-reference}
 
-{{site.data.keyword.slapi_full}}는 개발자 및 시스템 관리자가 {{site.data.keyword.cloud}}의 백엔드 시스템과 직접 상호작용할 수 있게 해 주는 개발 인터페이스입니다. {{site.data.keyword.slapi_short}}는 {{site.data.keyword.slportal_full}}의 여러 기능을 작동시키며, 이는 일반적으로 {{site.data.keyword.slportal}}에서 상호작용이 가능한 경우, API에서도 이를 실행할 수 있음을 의미합니다. 프로그래밍 방식으로 API 내에서 {{site.data.keyword.BluSoftlayer_full}} 환경의 모든 부분과 상호작용할 수 있으므로, {{site.data.keyword.slapi_short}}는 태스크를 자동화할 수 있게 해 줍니다. 예를 들면, *SoftLayer_Virtual_Guest/createObject* API를 사용하여 가상 서버 인스턴스를 배치할 수 있습니다.
+{{site.data.keyword.slapi_full}}는 개발자 및 시스템 관리자가 {{site.data.keyword.cloud_notm}}의 백엔드 시스템과 직접 상호작용할 수 있게 해 주는 개발 인터페이스입니다. {{site.data.keyword.slapi_short}}는 {{site.data.keyword.cloud_notm}} 콘솔의 여러 기능을 작동시키며, 이는 일반적으로 {{site.data.keyword.cloud_notm}} 콘솔에서 상호작용이 가능한 경우, API에서도 이를 실행할 수 있음을 의미합니다. 프로그래밍 방식으로 API 내에서 {{site.data.keyword.cloud_notm}} 환경의 모든 부분과 상호작용할 수 있으므로, {{site.data.keyword.slapi_short}}는 태스크를 자동화할 수 있게 해 줍니다. 예를 들면, *SoftLayer_Virtual_Guest/createObject* API를 사용하여 가상 서버 인스턴스를 배치할 수 있습니다.
 {:shortdesc}
 
 {{site.data.keyword.slapi_short}}는 원격 프로시저 호출(RPC) 시스템입니다. 각 호출에는 API 엔드포인트로 데이터를 전송하고 구조화된 데이터를 수신하는 과정이 포함됩니다. {{site.data.keyword.slapi_short}}와의 사이에 데이터를 전송하고 수신할 때 사용되는 형식은 사용자가 선택한 API 구현에 따라 달라집니다. {{site.data.keyword.slapi_short}}는 현재 데이터 전송에 SOAP, XML-RPC 또는 REST를 사용합니다.

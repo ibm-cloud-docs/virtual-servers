@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-06"
 
 keywords: virtual server, suspend billing feature, virtual server instances, suspend billing
 
@@ -18,9 +18,10 @@ subcollection: virtual-servers
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:row-headers: .row-headers}
 {:table: .aria-labeledby="caption"}
 
-# 비용 청구 일시중단 정보
+# 비용 청구 일시중단
 {: #requirements}
 
 비용 청구 일시중단 기능을 지원하는 가상 서버의 전원을 끄면 특정 컴퓨팅 리소스에 대해 비용이 발생하지 않습니다. 비용 청구는 서버의 전원이 꺼지면 자동으로 중지됩니다. 비용 청구 일시중단 기능은 비용을 절감하고 리소스가 다시 필요할 때 가상 서버를 다시 프로비저닝할 필요가 없게 해 줍니다.
@@ -39,7 +40,7 @@ subcollection: virtual-servers
 비용 청구 일시중단 기능은 가상 서버 인스턴스를 프로비저닝하고 재확보할 수 있는 더 빠른 대안으로 사용할 수 있습니다.
 {:tip}
 
-비용 청구는 {{site.data.keyword.slportal_full}}, CLI 또는 {{site.data.keyword.slapi_short}}를 통해 가상 서버 인스턴스의 전원을 끈 경우에만 일시중단됩니다. OS를 통해 직접 가상 서버 인스턴스의 전원을 끄는 경우에는 해당 인스턴스에 대한 비용 청구가 일시중단되지 않습니다.
+비용 청구는 {{site.data.keyword.cloud}} 콘솔, CLI 또는 {{site.data.keyword.slapi_short}}를 통해 가상 서버 인스턴스의 전원을 끈 경우에만 일시중단됩니다. OS를 통해 직접 가상 서버 인스턴스의 전원을 끄는 경우에는 해당 인스턴스에 대한 비용 청구가 일시중단되지 않습니다.
 {:note}
 
 ## 프로비저닝 세부사항
@@ -60,16 +61,19 @@ subcollection: virtual-servers
 
 | 리소스                      | 비용 청구 중지   | 비용 청구 지속 |
 | ----------------------------- | ----------------- | ---------------- |
-| vCPU                          |          X        |                  |
-| RAM                           |          X        |                  |
-| 포트 속도                    |          X        |                  |
-| 운영 체제 라이센스     |          X        |                  |
-| 모니터링 추가 기능             |          X        |                  |
-| 보조 공인 IP 주소 |                   |          X        |
-| 스토리지                       |                   |          X        |
-{: caption="표 1. 리소스 비용 청구 세부사항" caption-side="top"}   
+| vCPU                          | ![체크 표시 아이콘](../../icons/checkmark-icon.svg) |                  |
+| RAM                           | ![체크 표시 아이콘](../../icons/checkmark-icon.svg) |                  |
+| 포트 속도                    | ![체크 표시 아이콘](../../icons/checkmark-icon.svg) |                  |
+| 운영 체제 라이센스     | ![체크 표시 아이콘](../../icons/checkmark-icon.svg) |                  |
+| 모니터링 추가 기능             | ![체크 표시 아이콘](../../icons/checkmark-icon.svg) |                  |
+| 보조 공인 IP 주소 |                   | ![체크 표시 아이콘](../../icons/checkmark-icon.svg) |
+| 스토리지                       |                   | ![체크 표시 아이콘](../../icons/checkmark-icon.svg) |
+{: row-headers}
+{: class="comparison-table"}
+{: caption="표 1. 리소스 비용 청구 세부사항" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify the resource. The column headers identify whether billing stops or persists when your instance is powered off. To understand whether billing stops or persists for a resource, navigate to the row in the table, and find the billing information you are interested in."}  
 
-비용 청구 일시중단 기능을 지원하는 가상 서버 인스턴스를 프로비저닝하는 경우 가상 서버 인스턴스의 사용 시간 및 일시중단 시간은 모두 분 단위로 계산됩니다. 인스턴스의 전원을 꺼서 비용 청구 일시중단 기능을 시작한 적이 없는 경우에도, 비용 청구는 인스턴스 라이프사이클의 분 단위로 계산됩니다.
+비용 청구 일시중단 기능을 지원하는 가상 서버 인스턴스를 프로비저닝하는 경우 가상 서버 인스턴스의 사용 시간 및 일시중단 시간은 모두 초 단위로 계산됩니다. 인스턴스의 전원을 꺼서 비용 청구 일시중단 기능을 시작한 적이 없는 경우에도, 비용 청구는 인스턴스 라이프사이클의 초 단위로 계산됩니다.
 {:note}
 
 ### 최소 사용 요금

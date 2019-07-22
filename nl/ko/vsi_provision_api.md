@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-04"
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -14,6 +14,7 @@ subcollection: virtual-servers
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:tip: .tip}
+{:note: .note}
 {:table: .aria-labeledby="caption"}
 
 # API 예: 공용 가상 서버 프로파일
@@ -33,6 +34,9 @@ subcollection: virtual-servers
 {:tip}
 
 REST를 사용하여 공용 가상 서버 인스턴스를 프로비저닝하는 경우에는 요청 본문에 다음 JSON을 포함하는 POST 요청이 https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ 에 제출됩니다.
+
+다음 JSON 요청 본문이 일반적인 예입니다.
+{:note}
 
 ### JSON 요청 본문 1
 ```
@@ -67,7 +71,11 @@ REST를 사용하여 공용 가상 서버 인스턴스를 프로비저닝하는 
 
 REST를 사용하여 공용 가상 서버를 프로비저닝하는 경우에는 요청 본문에 아래 JSON을 포함하는 POST 요청이 https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ 에 제출됩니다.
 
-**참고:** 가격에서 항목 설명은 필수가 아닙니다. 이들은 제출되는 제품 옵션을 표시하기 위해서만 추가되었습니다.
+가격에서 항목 설명은 필수가 아닙니다. 이들은 제출되는 제품 옵션을 표시하기 위해서만 추가되었습니다.
+{:note}
+
+다음 JSON 요청 본문이 일반적인 예입니다.
+{:note}
 
 ### JSON 요청 본문 2
 ```
@@ -167,7 +175,11 @@ REST를 사용하여 공용 가상 서버를 프로비저닝하는 경우에는 
 
 REST를 사용하여 공용 가상 서버를 프로비저닝하는 경우에는 요청 본문에 아래 JSON을 포함하는 POST 요청이 https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ 에 제출됩니다.
 
-**참고:** 가격에서 항목 설명은 필수가 아닙니다. 이들은 제출되는 제품 옵션을 표시하기 위해서만 추가되었습니다.
+가격에서 항목 설명은 필수가 아닙니다. 이들은 제출되는 제품 옵션을 표시하기 위해서만 추가되었습니다.
+{:note}
+
+다음 JSON 요청 본문이 일반적인 예입니다.
+{:note}
 
 ### JSON 요청 본문 3
 ```
@@ -210,6 +222,9 @@ REST를 사용하여 공용 가상 서버를 프로비저닝하는 경우에는 
 *SoftLayer_Virtual_Guest/createObject* API 서비스는 임시 가상 서버 인스턴스를 프로비저닝하는 가장 간단한 방법입니다.
 
 REST를 사용하여 임시 가상 서버 인스턴스를 프로비저닝하는 경우에는 요청 본문에 다음 JSON을 포함하는 POST 요청이 https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ 에 제출됩니다.
+
+다음 JSON 요청 본문이 일반적인 예입니다.
+{:note}
 
 ### JSON 요청 본문 4
 ```

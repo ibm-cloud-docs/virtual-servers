@@ -152,4 +152,5 @@ subcollection: virtual-servers
     일련의 이메일(프로비저닝 주문 확인, 프로비저닝 주문 승인 및 처리, 프로비저닝 완료)이 관리자에게 발송됩니다. 프로비저닝 완료 이메일은 {{site.data.keyword.Bluemix_notm}}에 로그인한 후 **디바이스 세부사항** 페이지로 바로 이동하는 링크를 포함합니다. 또 다른 옵션은 {{site.data.keyword.slportal}}에 직접 로그인하는 것입니다.
 
 ## 다음 단계
-가상 서버가 프로비저닝된 후에는 이 서버의 관리를 시작할 수 있습니다. 자세한 정보는 [가상 서버 관리](/docs/vsi?topic=virtual-servers-managing-virtual-servers)를 참조하십시오.
+가상 서버가 프로비저닝되어 사용 가능한 상태가 되면 {{site.data.keyword.slportal_full}} 또는 {{site.data.keyword.slapi_full}}를 사용하여
+가상 서버를 구성할 수 있습니다. 자세한 정보는 [가상 서버 구성](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers)을 참조하십시오.

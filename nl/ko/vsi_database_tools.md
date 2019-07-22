@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-11-30"
+  years: 2017, 2019
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -21,4 +21,4 @@ subcollection: virtual-servers
 {{site.data.keyword.cloud}}에서는 {{site.data.keyword.virtualmachinesshort}} 및 {{site.data.keyword.baremetal_short}} 배치 모두를 위한 선택적 무료 및 유료 데이터베이스 도구 제품을 제공합니다. 그렇지만 데이터베이스 도구 제품은 {{site.data.keyword.virtualmachinesshort}} 및 {{site.data.keyword.baremetal_short}}의 월별 청구 주기로만 가능합니다.
 {:shortdesc}
 
-데이터베이스 도구에 대한 자세한 정보는 [데이터베이스 도구 시작하기](/docs/infrastructure/database-tools?topic=database-tools-getting-started-tutorial)를 참조하십시오.
+데이터베이스 도구에 대한 자세한 정보는 [데이터베이스 도구 시작하기](/docs/infrastructure/database-tools?topic=database-tools-dbt-getting-started)를 참조하십시오.

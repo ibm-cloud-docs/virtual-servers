@@ -31,7 +31,7 @@ subcollection: virtual-servers
 {:shortdesc}
 
 ## 기존 가상 서버(사전 설정된 프로파일 사용) 수정
-1. 고유 인증 정보를 사용하여 [{{site.data.keyword.slportal_full}} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}에 액세스하십시오.
+1. 초기에 계정 작성 시 이메일로 받은 인증 정보를 사용하여 [ 콘솔 ](https://cloud.ibm.com/classic?){: new_window} ![외부 링크 아이콘](../icons/launch-glyph.svg "외부 링크 아이콘")에 액세스하십시오. 또는 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}에 로그인할 수 있습니다. 
 2. 디바이스 목록에서 다시 구성할 가상 서버의 이름을 클릭하십시오.
 3. **구성** 탭에서 **수정** 또는 **디바이스 구성 수정**을 클릭하여 다음 항목을 업데이트할 수 있습니다.
   <dl>
