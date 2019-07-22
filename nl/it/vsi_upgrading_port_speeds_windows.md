@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2017
-lastupdated: "2017-12-12"
+  years: 2014, 2019
+lastupdated: "2019-05-28"
 
 subcollection: virtual-servers
 
@@ -13,16 +13,20 @@ subcollection: virtual-servers
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:note: .note}
 {:table: .aria-labeledby="caption"}
 
 # Upgrade della velocità della porta in Windows
 {: #upgrading-port-speed-in-windows}
 
-La velocità della porta predefinita per i server del cliente (sia per le reti private che pubbliche) è 10 Mbps. Se vuoi aggiornare una delle tue velocità della porta a 100 Mbps o 1000 Mbps, apri un ticket con la richiesta. Il dipartimento delle vendite ti chiede di approvare l'addebito minimo e un tecnico modifica le velocità della porta sulla rete.
+La velocità della porta predefinita per i server del cliente (sia per le reti private che pubbliche) è 10 Mbps. Se vuoi aggiornare una delle tue velocità della porta a 100 Mbps o 1000 Mbps, apri un ticket con la richiesta. Il dipartimento delle vendite ti chiede di approvare l'addebito minimo e un tecnico modifica le velocità della porta sulla rete. Per ulteriori informazioni su come aprire un ticket di supporto IBM, consulta [Richiesta di assistenza tecnica](/docs/get-support?topic=get-support-getting-customer-support).
 
 Dopo aver completato l'upgrade nel lato della rete, imposta come hardcoded le interfacce di rete appropriate nel tuo server.
 
-Segui queste istruzioni per forzare la velocità della porta in un sistema Windows. **Nota:** collegati sempre al tuo server sulla rete che NON stai utilizzando per evitare di bloccarti all'esterno del server.
+Collegati sempre al tuo server sulla rete che NON stai utilizzando per evitare di bloccarti all'esterno del server.
+{:note}
+
+Completa la seguente procedura per forzare la velocità della porta in un sistema Windows.  
 
 1. Seleziona **Avvia > Seleziona pannello di controllo > Seleziona connessioni di rete**.
 2. Fai clic sulla connessione di rete per cui stai tentando l'upgrade/downgrade.

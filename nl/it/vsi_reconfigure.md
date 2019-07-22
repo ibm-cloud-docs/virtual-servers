@@ -31,7 +31,7 @@ Utilizza le seguenti istruzioni per riconfigurare un server virtuale esistente.
 {:shortdesc}
 
 ## Modifica di un server virtuale esistente (che utilizza profili preconfigurati)
-1. Accedi al [{{site.data.keyword.slportal_full}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} utilizzando le tue credenziali univoche.
+1. Accesso alla [console](https://cloud.ibm.com/classic?){: new_window} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno") con le credenziali che hai ricevuto in un'email quando il tuo account è stato inizialmente creato. In alternativa, puoi accedere al [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}. 
 2. Dall'elenco dei dispositivi, fai clic sul nome del server virtuale che desideri riconfigurare.
 3. Nella scheda **Configurazione**, puoi fare clic su **Modifica** o **Modifica configurazione dispositivo** per aggiornare i seguenti elementi.
   <dl>

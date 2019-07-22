@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-06"
 
 keywords: virtual server, suspend billing feature, virtual server instances, suspend billing
 
@@ -18,9 +18,10 @@ subcollection: virtual-servers
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:row-headers: .row-headers}
 {:table: .aria-labeledby="caption"}
 
-# Informazioni sulla sospensione della fatturazione
+# Sospensione della fatturazione 
 {: #requirements}
 
 Quando spegni un server virtuale che supporta la funzione di sospensione della fatturazione, non accumuli costi per alcune risorse di calcolo. La fatturazione si arresta automaticamente quando il server viene spento. La funzione di sospensione della fatturazione ti aiuta a ridurre i costi e a prevenire un reprovisioning di un server virtuale quando ti servono nuovamente le risorse.
@@ -39,14 +40,14 @@ Questa funzione è disponibile nei data center di tutto il mondo. Per eseguire i
 Puoi utilizzare la funzione di sospensione della fatturazione come un'alternativa più rapida al provisioning e al recupero di un'istanza del server virtuale.
 {:tip}
 
-La fatturazione viene sospesa solo quando disattivi la tua istanza del server virtuale tramite {{site.data.keyword.slportal_full}}, la CLI o {{site.data.keyword.slapi_short}}. Se disattivi l'istanza del server virtuale direttamente attraverso il SO, la fatturazione non viene sospesa per quella istanza.
+La fatturazione viene sospesa solo quando disattivi la tua istanza del server virtuale tramite la console {{site.data.keyword.cloud}}, la CLI o {{site.data.keyword.slapi_short}}. Se disattivi l'istanza del server virtuale direttamente attraverso il SO, la fatturazione non viene sospesa per quella istanza.
 {:note}
 
 ## Dettagli del provisioning
 
 Puoi eseguire il provisioning di un'istanza del server virtuale che supporta la funzione di sospensione della fatturazione tramite il catalogo {{site.data.keyword.cloud_notm}} (cloud.ibm.com), la CLI o l'{{site.data.keyword.slapi_short}}. Non puoi eseguire il provisioning di un'istanza del server virtuale che supporta la funzione di sospensione della fatturazione tramite il {{site.data.keyword.slportal}} (control.softlayer.com). Per ulteriori informazioni sul provisioning delle istanze del server virtuale pubbliche, vedi [Provisioning di istanze pubbliche](/docs/vsi?topic=virtual-servers-ordering-vs-public#ordering-vs-public).
 
-Per il catalogo {{site.data.keyword.cloud_notm}}, devi disporre di un account di cui è stato eseguito l'upgrade per ordinare i server virtuali. Per ulteriori informazioni sull'aggiornamento del tuo account, consulta [Passaggio all'ID IBM](/docs/account?topic=account-unifyingaccounts#unifyingaccounts).
+Per il catalogo {{site.data.keyword.cloud_notm}}, devi disporre di un account di cui è stato eseguito l'upgrade per ordinare i server virtuali. Per ulteriori informazioni sull'upgrade del tuo account, consulta [Passaggio all'ID IBM](/docs/account?topic=account-unifyingaccounts#unifyingaccounts).
 {:note}
 
 ### Provisioning tramite la API Softlayer
@@ -60,16 +61,19 @@ Devi specificare l'ID del pacchetto di sospensione della fatturazione specifico 
 
 | Risorsa                      | Fatturazione arrestata   | Fatturazione non arrestata |
 | ----------------------------- | ----------------- | ---------------- |
-| vCPU                          |          X        |                  |
-| RAM                           |          X        |                  |
-| Velocità porta                    |          X        |                  |
-| Licenze sistema operativo     |          X        |                  |
-| Monitoraggio componenti aggiuntivi          |          X        |                  |
-| Indirizzi IP pubblici secondari |                   |         X        |
-| Archiviazione                       |                   |         X        |
-{: caption="Tabella 1. Dettagli sulla fatturazione della risorsa" caption-side="top"}   
+| vCPU                          | ![Icona di casella di spunta](../../icons/checkmark-icon.svg) |                  |
+| RAM                           | ![Icona di casella di spunta](../../icons/checkmark-icon.svg) |                  |
+| Velocità porta                    | ![Icona di casella di spunta](../../icons/checkmark-icon.svg) |                  |
+| Licenze sistema operativo     | ![Icona di casella di spunta](../../icons/checkmark-icon.svg) |                  |
+| Monitoraggio componenti aggiuntivi          | ![Icona di casella di spunta](../../icons/checkmark-icon.svg) |                  |
+| Indirizzi IP pubblici secondari |                   | ![Icona di casella di spunta](../../icons/checkmark-icon.svg) |
+| Archiviazione                       |                   | ![Icona di casella di spunta](../../icons/checkmark-icon.svg) |
+{: row-headers}
+{: class="comparison-table"}
+{: caption="Tabella 1. Dettagli sulla fatturazione della risorsa" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify the resource. The column headers identify whether billing stops or persists when your instance is powered off. To understand whether billing stops or persists for a resource, navigate to the row in the table, and find the billing information you are interested in."}  
 
-Quando esegui il provisioning di un'istanza del server virtuale che supporta la funzione di sospensione della fatturazione, i tempi di utilizzo vengono calcolati per minuto, sia per il tempo in uso che per quello in sospensione della tua istanza del server virtuale. Anche se non avvii mai la funzione di sospensione della fatturazione spegnendo la tua istanza, la fatturazione viene calcolata per minuto del ciclo di vita dell'istanza.
+Quando esegui il provisioning di un'istanza del server virtuale che supporta la funzione di sospensione della fatturazione, i tempi di utilizzo vengono calcolati per secondo, sia per il tempo in uso che per quello in sospensione della tua istanza del server virtuale. Anche se non avvii mai la funzione di sospensione della fatturazione spegnendo la tua istanza, la fatturazione viene calcolata per secondo del ciclo di vita dell'istanza.
 {:note}
 
 ### Addebito di utilizzo minimo

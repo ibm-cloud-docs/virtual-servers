@@ -1,45 +1,47 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-10-31"
+  years: 2018, 2019
+lastupdated: "2019-04-24"
 
 subcollection: virtual-servers
 
 ---
 
 {:shortdesc: .shortdesc}
+{:note: .note}
 {:new_window: target="_blank"}
 
 # Gestione dei gruppi di posizionamento
 {: #vsi_managing_placegroup}
 
-Puoi gestire i gruppi di posizionamento utilizzando la pagina Placement Groups oppure la pagina Device Details nel portale del cliente.
+Puoi gestire i gruppi di posizionamento utilizzando la pagina dei gruppi di posizionamento oppure la pagina dei dettagli del dispositivo nella console {{site.data.keyword.cloud}}.
 {:shortdesc}
 
-## Aggiunta di gruppi di posizionamento dalla pagina Placement Groups
+## Aggiunta di gruppi di posizionamento
 
-Per aggiungere dei gruppi di posizionamento dalla pagina Placement Groups, completa la seguente procedura:
+Per aggiungere dei gruppi di posizionamento dalla pagina dei gruppi di posizionamento, completa la seguente procedura:
 {:shortdesc}
 
-1. Nella navigazione di [{{site.data.keyword.slportal_full}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}, seleziona **Devices -> Manage -> Placement Groups**.
-2. Nella pagina Placement Groups, fai clic su **Add Placement Group**.
-3. Immetti un nome, una descrizione e un data center per il gruppo di posizionamento e fai clic su **Add**.
+1. Apri la pagina [Gruppi di posizionamento ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://cloud.ibm.com/gen1/infrastructure/placement-groups){: new_window}.
+2. Nella pagina dei gruppi di posizionamento, fai clic su **Nuovo gruppo**.
+3. Immetti un nome, un'ubicazione, un pod e una regola per il gruppo di posizionamento e fai clic su **Crea**.
 
-**Nota:** le istanze esistenti non possono essere aggiunte a un gruppo di posizionamento; puoi aggiungere un'istanza del server virtuale a un gruppo di posizionamento solo in fase di provisioning.
+Le istanze esistenti non possono essere aggiunte a un gruppo di posizionamento; puoi aggiungere un'istanza del server virtuale a un gruppo di posizionamento solo in fase di provisioning. 
+{:note}
 
+## Gestione dei gruppi di posizionamento
 
-## Gestione dei gruppi di posizionamento dalla pagina Placement Groups
-
-Per gestire i gruppi di posizionamento dalla pagina Placement Groups, completa la seguente procedura:
+Per gestire i gruppi di posizionamento dalla pagina dei gruppi di posizionamento, completa la seguente procedura:
 {:shortdesc}
 
-1. Dalla navigazione di [{{site.data.keyword.slportal}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}, seleziona **Devices -> Manage -> Placement Groups**.
-2. Nella sezione Placement Group, puoi completare diverse attività di gestione.
-     * Visualizzare un elenco di gruppi di posizionamento e il numero di istanze assegnate.
-     * Aggiungere un gruppo.
-     * Modificare le informazioni sul gruppo.
-     * Eliminare un gruppo.
-
- **Note:** devi rimuovere i server assegnati dal gruppo di posizionamento prima che il gruppo di posizionamento possa essere eliminato.
-Per rimuovere un'istanza da un gruppo di posizionamento, devi eliminare o recuperare l'istanza.
+1. Apri la pagina [Gruppi di posizionamento ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://cloud.ibm.com/gen1/infrastructure/placement-groups){: new_window}.
+2. Nella sezione del gruppo di posizionamento, puoi completare diverse attività di gestione.
+     * Visualizzare un elenco di gruppi di posizionamento e il numero di istanze assegnate
+     * Aggiungere un gruppo
+     * Ridenominare un gruppo
+     * Eseguire il provisioning di un'istanza
+     * Eliminare un gruppo
+     
+Devi rimuovere i server assegnati dal gruppo di posizionamento prima che il gruppo di posizionamento possa essere eliminato. Per rimuovere un'istanza da un gruppo di posizionamento, devi eliminare o recuperare l'istanza.
+{:note}

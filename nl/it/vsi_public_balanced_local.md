@@ -18,7 +18,7 @@ subcollection: virtual-servers
 # Archiviazione locale bilanciata
 {: #balanced-local-storage}
 
-I profili dell'archiviazione locale bilanciati sono pensati principalmente per i cluster del database grandi che richiedono prestazioni I/O di bassa o alta latenza. Questa offerta ha prestazioni elevate poiché le risorse non possono sottoscrivere più della disponibilità effettiva. Le prestazioni di rete vanno da standard a premium.
+I profili dell'archiviazione locale bilanciata sono pensati principalmente per i cluster del database grandi che richiedono prestazioni I/O di bassa o alta latenza. Questa offerta ha prestazioni elevate poiché le risorse non possono sottoscrivere più della disponibilità effettiva. Le prestazioni di rete vanno da standard a premium.
 
 L'offerta è disponibile in vari profili e data center, con le seguenti opzioni di archiviazione locale:
 
@@ -28,7 +28,7 @@ L'offerta è disponibile in vari profili e data center, con le seguenti opzioni 
 ## HDD locale {: #HDD}
 
 <table>
-<CAPTION>Tabella 1. Profili dell'archiviazione locale bilanciati con HDD locale</CAPTION>
+<CAPTION>Tabella 1. Profili dell'archiviazione locale bilanciata con HDD locale</CAPTION>
 <THEAD>
 <TR>
 <th>Profilo</th>
@@ -148,7 +148,7 @@ Tutti i sistemi operativi supportati (come RHEL, CentOS, Windows, Ubuntu e altri
 
 ## SSD locale {: #SSD}
 <table>
-<CAPTION>Tabella 1. Profili dell'archiviazione locale bilanciati con SSD locale</CAPTION>
+<CAPTION>Tabella 1. Profili dell'archiviazione locale bilanciata con SSD locale</CAPTION>
 <THEAD>
 <TR>
 <th>Profilo</th>

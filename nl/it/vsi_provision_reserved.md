@@ -46,7 +46,7 @@ Nel catalogo {{site.data.keyword.cloud_notm}}, completa la seguente procedura pe
 | Ubicazione                | Seleziona l'ubicazione specifica richiesta per i tuoi carichi di lavoro. Le ubicazioni sono composte da regioni; ciascuna regione è un'area geografica separata. **Nota:** non puoi selezionare singole ubicazioni per ogni istanza del server virtuale di cui esegui il provisioning all'interno di questa capacità riservata. La tua selezione è l'ubicazione di tutte le istanze del server virtuale di cui esegui il provisioning all'interno di questa capacità riservata. |
 | POD                     | Seleziona il POD specifico per la tua ubicazione. |
 | Termini del piano              | Scegli tra un termine del contratto di uno o tre anni. |                                                                                                                                                                                                                                                                                            
-| Profilo                 | Seleziona dai profili popolari o da tutte le combinazioni vCPU e RAM disponibili di archiviazione di backup SAN (bilanciata, memoria o calcolo). **Nota:** non puoi combinare le diverse dimensioni del profilo all'interno della serie di istanze del server virtuale assegnate a questa capacità o modificarle successivamente. La serie di istanze del server virtuale che riservi deve essere della stessa dimensione. |
+| Profilo                 | Seleziona dai profili popolari o da tutte le combinazioni vCPU e RAM disponibili di archiviazione con supporto SAN (bilanciata, memoria o calcolo). **Nota:** non puoi combinare le diverse dimensioni del profilo all'interno della serie di istanze del server virtuale assegnate a questa capacità o modificarle successivamente. La serie di istanze del server virtuale che riservi deve essere della stessa dimensione. |
 {: caption="Tabella 1. Selezioni di provisioning della capacità riservata" caption-side="top"}
 
 
@@ -69,4 +69,7 @@ Dopo aver eseguito il provisioning della tua capacità riservata, è ora di eseg
 
 ## Passi successivi
 
-Dopo aver eseguito il provisioning della tua capacità e delle tue istanze del server virtuale riservate, puoi iniziare a gestirle. Per ulteriori informazioni, vedi [Gestione dei server virtuali](/docs/vsi?topic=virtual-servers-managing-virtual-servers). Se hai domande sulla capacità e le istanze riservate, consulta [FAQ: capacità e istanze riservate](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances).
+Dopo aver eseguito il provisioning del tuo server virtuale ed è possibile utilizzarlo, puoi configurare i tuoi server virtuali utilizzando la console
+{{site.data.keyword.cloud_notm}} o la {{site.data.keyword.slapi_short}}. Per ulteriori informazioni, vedi [Configurazione di server virtuali](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).
+
+Se hai domande sulla capacità e le istanze riservate, consulta [FAQ: capacità e istanze riservate](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances#faqs-reserved-capacity-and-instances). 

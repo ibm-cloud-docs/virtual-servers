@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-05"
+  years: 2017, 2019
+lastupdated: "2019-05-29"
 
 keywords: virtual servers, provisioning process, IBM Cloud Virtual Servers
 
@@ -24,16 +24,16 @@ subcollection: virtual-servers
 Puoi distribuire {{site.data.keyword.BluVirtServers}} in pochi minuti. I server virtuali vengono distribuiti dalla tua scelta di immagini del server virtuale e nella regione geografica che abbia senso per i tuoi carichi di lavoro.
 {:shortdesc}
 
-Prova i nostri server virtuali su un cloud privato virtuale! Per ulteriori informazioni, consulta [IBM Cloud Virtual Servers for VPC](/docs/vsi-is?topic=virtual-servers-is-gettingstartedvsigen#gettingstartedvsigen).
+Prova i nostri server virtuali su un cloud privato virtuale! Per ulteriori informazioni, consulta [IBM Cloud Virtual Servers for Virtual Private Cloud](/docs/vpc-on-classic-vsi?topic=vpc-on-classic-vsi-getting-started).
 {:tip}
 
-Quando crei un server virtuale, puoi scegliere tra un ambiente (a tenancy multipla) pubblico o un ambiente (a tenancy singola) dedicato. Quindi, a seconda dell'ambiente scelto, devi anche selezionare oraria, mensile o i server virtuali temporanei. Nel caso dei server virtuali pubblici, scegli anche di utilizzare l'archiviazione locale o basata su SAN.
+Quando crei un server virtuale nell'infrastruttura classica, puoi scegliere tra un ambiente (a tenancy multipla) pubblico o un ambiente (a tenancy singola) dedicato. Quindi, a seconda dell'ambiente scelto, devi anche selezionare oraria, mensile o i server virtuali temporanei. Nel caso dei server virtuali pubblici, scegli anche di utilizzare l'archiviazione locale o basata su SAN.
 
 ## Informazioni preliminari
 
 Prima di iniziare, controlla i seguenti prerequisiti.
 
-  1. Devi disporre di un account aggiornato per ordinare i server virtuali. Questo processo può richiedere del tempo e devi richiederne l'approvazione prima di continuare. Per ulteriori informazioni sull'aggiornamento del tuo account, consulta [Passaggio all'ID IBM](/docs/account?topic=account-unifyingaccounts#unifyingaccounts).
+  1. Devi disporre di un account aggiornato per ordinare i server virtuali. Questo processo può richiedere del tempo e devi richiederne l'approvazione prima di continuare. Per ulteriori informazioni sull'upgrade del tuo account, consulta [Passaggio all'ID IBM](/docs/account?topic=account-unifyingaccounts#unifyingaccounts).
   2. Controlla e scegli le tue opzioni di distribuzione. Per ulteriori informazioni, consulta i seguenti argomenti:
 
 |              Opzioni di distribuzione                           |  Descrizione                                        |
@@ -48,7 +48,7 @@ Prima di iniziare, controlla i seguenti prerequisiti.
 
 Dopo aver deciso un'opzione di distribuzione, avvia il processo di provisioning.
 
-|              Istruzioni provisioning                                         |  Descrizione                                            |
+|              Istruzioni di provisioning                                         |  Descrizione                                            |
 | -------------------------------------------------------------------------- | ------------------------------------------------------- |
 |[Provisioning di istanze pubbliche](/docs/vsi?topic=virtual-servers-ordering-vs-public)                | Provisioning di istanze pubbliche con varie opzioni             |
 |[Provisioning di istanze temporanee](/docs/vsi?topic=virtual-servers-ordering-vs-transient)                | Provisioning di istanze temporanee con varie opzioni            |
@@ -58,5 +58,5 @@ Dopo aver deciso un'opzione di distribuzione, avvia il processo di provisioning.
 
 ## Passi successivi
 
-Dopo aver eseguito il provisioning del tuo server virtuale ed è possibile utilizzarlo, puoi configurare i tuoi server virtuali utilizzando il
-{{site.data.keyword.slportal_full}} o l'{{site.data.keyword.slapi_full}}. Per ulteriori informazioni, vedi [Configurazione di server virtuali](/docs/vsi?topic=virtual-servers-configuring-virtual-servers).
+Dopo aver eseguito il provisioning del tuo server virtuale ed è possibile utilizzarlo, puoi configurare i tuoi server virtuali utilizzando la console
+{{site.data.keyword.cloud_notm}} o la {{site.data.keyword.slapi_short}}. Per ulteriori informazioni, vedi [Configurazione di server virtuali](/docs/vsi?topic=virtual-servers-configuring-virtual-servers).

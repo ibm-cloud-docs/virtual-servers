@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-05-11"
+  years: 2018, 2019
+lastupdated: "2019-06-03"
 
 subcollection: virtual-servers
 
@@ -30,11 +30,11 @@ La notifica `reclaim-scheduled` è un webhook, il che significa che la notifica 
 ## Provisioning di un'istanza del server virtuale temporanea
 {: #provision-transient-virtual-server}
 
-I server virtuali temporanei possono essere forniti tramite [{{site.data.keyword.slportal_full}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} o tramite [SLDN API ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](http://sldn.softlayer.com){: new_window}. Per ulteriori informazioni, vedi [Provisioning delle istanze temporanee](/docs/vsi?topic=virtual-servers-ordering-vs-transient).
+I server virtuali temporanei possono essere forniti tramite la console {{site.data.keyword.cloud_notm}}, {{site.data.keyword.slportal}} o l'[API SLDN ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](http://sldn.softlayer.com){: new_window}. Per ulteriori informazioni, vedi [Provisioning delle istanze temporanee](/docs/vsi?topic=virtual-servers-ordering-vs-transient#ordering-vs-transient).
 
 ## Configurazione del webhook
 
-Per configurare il webhook, devi assegnare i seguenti parametri all'istanza del server virtuale temporaneo utilizzando la API SLDN:
+Per configurare il webhook, devi assegnare i seguenti parametri all'istanza del server virtuale temporanea utilizzando la API SLDN:
 
    * **URI** - Un URI HTTP valido a cui viene inviata la notifica `reclaim-scheduled`.
    * **Segreto** - Una stringa utilizzata come la chiave dell'algoritmo hash per firmare la richiesta. Non comunicare la stringa segreta a nessuno.

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2018-01-03"
+  years: 2017, 2019
+lastupdated: "2019-04-05"
 
 subcollection: virtual-servers
 
@@ -17,7 +17,7 @@ subcollection: virtual-servers
 {:table: .aria-labeledby="caption"}
 
 
-# Considerazioni sulla capacità
+# Considerazioni sulle risorse per le istanze del server virtuale
 {: #capacity-considerations}
 
 ## Cosa sta succedendo
@@ -34,7 +34,7 @@ Quando il provisioning non riesce, tutte le istanze del server virtuale in quest
 
 ## Perché sta succedendo
 
-Un errore di capacità si verifica quando non ci sono risorse disponibili sufficienti nel router o nel data center per soddisfare la richiesta del servizio. Ci sono molti motivi per cui potresti ricevere questo errore. La disponibilità delle risorse cambia frequentemente, per cui puoi attendere e riprovare più tardi.
+Un errore si verifica quando non ci sono risorse disponibili sufficienti nel router o nel data center per soddisfare la richiesta del servizio. Ci sono molti motivi per cui potresti ricevere questo errore. La disponibilità delle risorse cambia frequentemente, per cui puoi attendere e riprovare più tardi.
 
 ## Come risolverlo
 

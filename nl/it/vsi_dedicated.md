@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2019
+lastupdated: "2019-06-07"
 
 subcollection: virtual-servers
 
@@ -13,13 +13,15 @@ subcollection: virtual-servers
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:note: .note}
+{:row-headers: .row-headers}
 {:table: .aria-labeledby="caption"}
 
 
-# Server virtuali dedicati
+# Informazioni sui server virtuali dedicati
 {: #dedicated-virtual-servers}
 
-L'offerta dell'host dedicato per l'infrastruttura {{site.data.keyword.Bluemix}} è un server dedicato, virtualizzato e a singolo tenant. Fornisce il massimo controllo sul posizionamento del carico di lavoro e opzioni di post provisioning flessibili. Puoi decidere in quale data center {{site.data.keyword.cloud}} predeterminato vengono collocati i tuoi server virtuali e può essere garantita la capacità assegnando gli host direttamente al tuo account.
+L'offerta dell'host dedicato per l'infrastruttura {{site.data.keyword.Bluemix}} è un server dedicato, virtualizzato e a singolo tenant. Fornisce il massimo controllo sul posizionamento del carico di lavoro e opzioni di post provisioning flessibili. Puoi decidere in quale data center {{site.data.keyword.cloud_notm}} predeterminato vengono collocati i tuoi server virtuali e può essere garantita la capacità assegnando gli host direttamente al tuo account.
 {:shortdesc}
 
 L'offerta include le seguenti funzioni:
@@ -30,84 +32,28 @@ L'offerta include le seguenti funzioni:
 
 Puoi scegliere tra due modelli di distribuzione: host dedicati e istanze dedicate. Gli host dedicati aiutano nel controllo del posizionamento del carico di lavoro e le istanze dedicate offrono l'isolamento a singolo tenant.
 
-**Nota:** le istanze dedicate non forniscono alcune delle funzioni di controllo offerte dagli host dedicati.  Consulta la seguente tabella per ulteriori dettagli.
-<table>
-<CAPTION>Tabella 1. Funzioni di controllo</CAPTION>
-<THEAD>
-<TR>
-<th>Funzione server virtuale dedicato</th>
-<th>Istanze host dedicate</th>
-<th>Istanze dedicate</th>
-</TR>
-</THEAD>
-<TBODY>
-<tr>
-<td>Isolamento a singolo tenant</td>
-<td>X</td>
-<td>X</td>
-</tr>
-<tr>
-<td>Controllo posizionamento del server virtuale</td>
-<td>X</td>
-<td></td>
-</tr>
-<tr>
-<td>Visibilità della risorsa</td>
-<td>X</td>
-<td></td>
-</tr>
-<tr>
-<td>Fatturazione istanza</td>
-<td></td>
-<td>X</td>
-</tr>
-<tr>
-<td>Fatturazione host<sup>(1)</sup></td>
-<td>X</td>
-<td></td>
-</tr>
-<tr>
-<td>Controllo post distribuzione</td>
-<td>X</td>
-<td></td>
-</tr>
-<tr>
-<td>Riserve capacità</td>
-<td>X</td>
-<td></td>
-</tr>
-</TBODY>
-</table>
+Le istanze dedicate non forniscono alcune delle funzioni di controllo offerte dagli host dedicati.  Consulta la seguente tabella per ulteriori dettagli.
+{:note}
 
+| Funzione server virtuale dedicato | Istanze host dedicato | Istanze dedicate |
+| ------- | ------- | ------- |
+| Isolamento a singolo tenant | ![Icona di casella di spunta](../../icons/checkmark-icon.svg) | ![Icona di casella di spunta](../../icons/checkmark-icon.svg) |
+| Controllo posizionamento del server virtuale | ![Icona di casella di spunta](../../icons/checkmark-icon.svg) |   |
+| Visibilità della risorsa | ![Icona di casella di spunta](../../icons/checkmark-icon.svg) |   |
+| Fatturazione istanza |   | ![Icona di casella di spunta](../../icons/checkmark-icon.svg) |
+| Fatturazione host<sup>(1)</sup> | ![Icona di casella di spunta](../../icons/checkmark-icon.svg) |   |
+| Controllo post distribuzione | ![Icona di casella di spunta](../../icons/checkmark-icon.svg) |   |
+| Riserve capacità | ![Icona di casella di spunta](../../icons/checkmark-icon.svg) |   |
+{: row-headers}
+{: class="comparison-table}
+{: caption="Tabella 1. Funzioni di controllo" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify the control feature. The column headers identify whether the offering offers the control feature. To understand whether the offering offers the control feature, navigate to the row in the table, and find the offering you are interested in.}
 
 <sup>(1)</sup>Il prezzo dell'host è comprensivo di core, RAM, SSD locale e velocità di rete. Il prezzo del sistema operativo Premium, l'archiviazione SAN (storage area network) e i componenti aggiuntivi software sarà stabilito per istanza in base al prezzo e alle licenze esistenti in un modello orario o mensile.
 
-Tieni presente quanto segue quando ordini gli host dedicati e le istanze host dedicate:
+Tieni presente quanto segue quando ordini gli host dedicati e le istanze host dedicato:
 
-* La posizione del tuo host; poi scegliere tra i seguenti data center {{site.data.keyword.cloud_notm}}:
-
-| Data Center          ||
-| ------------ | ------- |
-|AMS01         |  MON01  |
-|AMS03         |  OSL01  |
-|CHE01         |  PAR01  |
-|DAL05         |  SAO01  |
-|DAL06         |  SEO01  |
-|DAL09         |  SJC01  |
-|DAL10         |  SJC03  |
-|DAL12         |  SJC04  |
-|DAL13         |  SNG01  |
-|FRA02         |  SYD01  |
-|HKG02         |  SYD04  |
-|HOU02         |  TOK02  |
-|LON02         |  TOR01  |
-|LON04         |  WDC01  |
-|MEL01         |  WDC04  |
-|MEX01         |  WDC06  |
-|MIL01         |  WDC07  |
-{: caption="Tabella 2. Data center supportati" caption-side="top"}
-
-* La dimensione dei tuoi host viene determinata dai tuoi carichi di lavoro che stai eseguendo su di essi. L'impostazione predefinita è 56 Core X 242 GB RAM X 1.2 TB.
+* La dimensione dei tuoi host viene determinata dai tuoi carichi di lavoro che stai eseguendo su di essi. L'impostazione predefinita è 56 Core X 242 GB RAM X 1.2 TB, ma puoi scegliere tra ulteriori configurazioni.
 * Puoi ordinare solo due host alla volta. Ad esempio, se hai bisogno di sei host, devi posizionare tre ordini separati.
 * Ogni host avrà bisogno del proprio nome univoco e puoi assegnare automaticamente il tuo POD.
 

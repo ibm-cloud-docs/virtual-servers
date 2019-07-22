@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-04"
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -14,6 +14,7 @@ subcollection: virtual-servers
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:tip: .tip}
+{:note: .note}
 {:table: .aria-labeledby="caption"}
 
 # Esempi API: profili server virtuali pubblici
@@ -33,6 +34,9 @@ Non applicabile alle istanze temporanee.
 {:tip}
 
 Per eseguire il provisioning di un'istanza del server virtuale pubblica utilizzando REST, deve essere inviata una richiesta POST all'indirizzo https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ con il seguente JSON nel corpo della richiesta.
+
+Il seguente corpo della richiesta JSON è un esempio generico.
+{:note}
 
 ### Corpo richiesta JSON 1
 ```
@@ -67,7 +71,11 @@ Non applicabile alle istanze temporanee.
 
 Per eseguire il provisioning di un server virtuale utilizzando REST, deve essere inviata una richiesta POST all'indirizzo https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ con il seguente JSON nel corpo della richiesta.
 
-**Nota:** le descrizioni degli elementi non sono richieste sui prezzi. Vengono incluse solo per mostrare le opzioni del prodotto che stanno venendo inviate.
+Le descrizioni degli elementi non sono richieste sui prezzi. Vengono incluse solo per mostrare le opzioni del prodotto che stanno venendo inviate.
+{:note}
+
+Il seguente corpo della richiesta JSON è un esempio generico.
+{:note}
 
 ### Corpo richiesta JSON 2
 ```
@@ -167,7 +175,11 @@ Non applicabile alle istanze temporanee.
 
 Per eseguire il provisioning di un server virtuale utilizzando REST, deve essere inviata una richiesta POST all'indirizzo https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ con il seguente JSON nel corpo della richiesta.
 
-**Nota:** le descrizioni degli elementi non sono richieste sui prezzi. Vengono incluse solo per mostrare le opzioni del prodotto che stanno venendo inviate.
+Le descrizioni degli elementi non sono richieste sui prezzi. Vengono incluse solo per mostrare le opzioni del prodotto che stanno venendo inviate.
+{:note}
+
+Il seguente corpo della richiesta JSON è un esempio generico.
+{:note}
 
 ### Corpo richiesta JSON 3
 ```
@@ -210,6 +222,9 @@ Per eseguire il provisioning di un server virtuale utilizzando REST, deve essere
 Il servizio API *SoftLayer_Virtual_Guest/createObject* è il modo più semplice per eseguire il provisioning di un'istanza del server virtuale temporanea.
 
 Per eseguire il provisioning di un'istanza del server virtuale temporanea utilizzando REST, deve essere inviata una richiesta POST all'indirizzo https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ con il seguente JSON nel corpo della richiesta.
+
+Il seguente corpo della richiesta JSON è un esempio generico.
+{:note}
 
 ### Corpo richiesta JSON 4
 ```

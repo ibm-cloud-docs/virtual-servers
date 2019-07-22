@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-01"
+lastupdated: "2019-05-28"
 
 subcollection: virtual-servers
 
@@ -13,21 +13,27 @@ subcollection: virtual-servers
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:note: .note}
 {:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
 # Visualizzazione della funzione di sospensione della fatturazione
 {: #viewing-suspend-billing-feature}
 
-Puoi visualizzare se la tua istanza del server virtuale supporta la funzione di sospensione della fatturazione nel {{site.data.keyword.slportal_full}} o tramite la {{site.data.keyword.slapi_short}}.
+## Informazioni preliminari
+Per prima cosa passa al menu del dispositivo e assicurati di disporre delle autorizzazioni account corrette per completare l'attività. 
 
-## Visualizzazione della funzione di sospensione della fatturazione nel portale del cliente
-Per determinare se la tua istanza del server virtuale supporta la funzione di sospensione della fatturazione nel {{site.data.keyword.slportal}}, attieniti alla seguente procedura:
+* Passa al menu del dispositivo della tua console. Per ulteriori informazioni, vedi [Passaggio ai dispositivi](/docs/vsi?topic=virtual-servers-navigating-devices).
+* Assicurati di avere tutte le autorizzazioni account necessarie e l'accesso al dispositivo. Solo il proprietario dell'account o un utente con l'autorizzazione dell'infrastruttura classica **Manage Users**, può modificare le autorizzazioni. 
 
-1. Accedi al [{{site.data.keyword.slportal}} ![Icona link esterno](../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} utilizzando le tue credenziali univoche.
-2. Dal menu **Devices**, seleziona **Device List**.
-3. Da **Device List**, fai clic sul nome della tua istanza del server virtuale.
-4. Sulla scheda **Configuration** nella sezione **General**, puoi visualizzare se la tua istanza del server virtuale supporta la funzione di sospensione della fatturazione.
+Per ulteriori informazioni sulle autorizzazioni, vedi [Autorizzazioni dell'infrastruttura classica](/docs/iam?topic=iam-infrapermission#infrapermission) e [Gestione accesso dispositivo](/docs/vsi?topic=virtual-servers-managing-device-access).
+
+## Visualizzazione della funzione di sospensione della fatturazione 
+Per determinare se la tua istanza del server virtuale supporta la funzione di sospensione della fatturazione, attieniti alla seguente procedura:
+
+1. Dal menu **Devices**, seleziona **Device List**. 
+2. Da **Device List**, fai clic sul nome della tua istanza del server virtuale. 
+3. Nella sezione **Instance details**, puoi visualizzare se la tua istanza del server virtuale supporta la funzione di sospensione della fatturazione. 
 
 | Campo                                 | Valore                     |
 | --------------------------------------| ------------------------- |
@@ -35,11 +41,12 @@ Per determinare se la tua istanza del server virtuale supporta la funzione di so
 | Sospensione della fatturazione: Non disponibile          | La funzione non è supportata. |
 {: caption="Tabella 1. Dettagli della sospensione della fatturazione" caption-side="top"}
 
-## Visualizzazione della funzione di sospensione della fatturazione tramite la API Softlayer
+## Visualizzazione della funzione di sospensione della fatturazione tramite l'API SoftLayer
 
-Il seguente comando è una richiesta di esempio di verifica per appurare se la tua istanza del server virtuale supporta la funzione di sospensione della fatturazione nella {{site.data.keyword.slapi_short}}.
+Il seguente comando è una richiesta di esempio di verifica per appurare se la tua istanza del server virtuale supporta la funzione di sospensione della fatturazione tramite la {{site.data.keyword.slapi_short}}.
 
-**Nota**: la richiesta e la risposta JSON di seguito riportate sono un esempio generico.
+La richiesta e la risposta JSON di seguito riportate sono un esempio generico.
+{:note}
 
 ```
 curl -X GET \
@@ -57,5 +64,6 @@ Per ulteriori informazioni, consulta la [documentazione della API SLDN ![Icona l
 ## Passi successivi
 
 Per ulteriori informazioni sulla funzione di sospensione della fatturazione, consulta le seguenti informazioni:
-1. [Informazioni sulla sospensione della fatturazione](/docs/vsi?topic=virtual-servers-requirements)
-2. [Gestione di server virtuali](/docs/vsi?topic=virtual-servers-managing-virtual-servers)
+1. [Sospensione della fatturazione ](/docs/vsi?topic=virtual-servers-about-suspend-billing#about-suspend-billing)
+2. [Gestione di server virtuali](/docs/vsi?topic=virtual-servers-managing-virtual-servers#managing-virtual-servers)
+

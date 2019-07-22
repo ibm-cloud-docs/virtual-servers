@@ -35,7 +35,7 @@ Per eseguire il provisioning di un'istanza del server virtuale dedicata tramite 
   4. Fai clic su **Crea**.
   5. Nella sezione **Host dedicato**, seleziona **Assegnazione automatica**. {{site.data.keyword.cloud_notm}} assegna quindi automaticamente la tua istanza a un host nel tuo data center selezionato.
 
-     **Nota**: per gli host dedicati, seleziona **Specifica host** oppure **Crea host**. Per ulteriori informazioni sugli host dedicati e le istanze host dedicate, vedi [Server virtuali dedicati](/docs/vsi?topic=virtual-servers-dedicated-virtual-servers).
+     **Nota**: per gli host dedicati, seleziona **Specifica host** oppure **Crea host**. Per ulteriori informazioni sugli host dedicati e le istanze host dedicato, vedi [Server virtuali dedicati](/docs/vsi?topic=virtual-servers-dedicated-virtual-servers).
 
   5. Completa tutte le informazioni pertinenti per la tua istanza del server virtuale dedicata.
   6. Dopo aver riesaminato il riepilogo dell'ordine, fai clic sulla casella di spunta **Accordi di servizio di terze parti**.
@@ -51,7 +51,7 @@ Per eseguire il provisioning di un'istanza del server virtuale dedicata tramite 
 4.	Immetti le seguenti informazioni:
 
     <table>
-    <CAPTION>Tabella 1. Selezioni di istanze host dedicate</CAPTION>
+    <CAPTION>Tabella 1. Selezioni di istanze host dedicato</CAPTION>
     <THEAD>
     <TR>
     <th>Campo</th>
@@ -68,7 +68,7 @@ Per eseguire il provisioning di un'istanza del server virtuale dedicata tramite 
     <td>
     <ul>
     <li>Assegnazione automatica – {{site.data.keyword.Bluemix_notm}} assegna automaticamente la tua istanza a un host nel data center che hai selezionato.</li>
-    <li>Specifica host – Utilizzato con le istanze host dedicate. Vedi [Server virtuali dedicati](/docs/vsi?topic=virtual-servers-dedicated-virtual-servers) per ulteriori informazioni sugli host dedicati e sulle istanze host dedicate.</li>
+    <li>Specifica host – Utilizzato con le istanze host dedicato. Vedi [Server virtuali dedicati](/docs/vsi?topic=virtual-servers-dedicated-virtual-servers) per ulteriori informazioni sugli host dedicati e sulle istanze host dedicato.</li>
     </ul>
     </td>
     </tr>
@@ -152,4 +152,5 @@ Per eseguire il provisioning di un'istanza del server virtuale dedicata tramite 
     Viene inviata una serie di email al tuo amministratore di riconoscimento dell'ordine di provisioning, l'approvazione e l'elaborazione e il completamento del provisioning. L'email di completamento del provisioning includerà un link che ti porterà direttamente alla pagina **Dettagli del dispositivo** dopo aver eseguito l'accesso a {{site.data.keyword.Bluemix_notm}}. Un'altra opzione potrebbe essere quella di accedere direttamente al {{site.data.keyword.slportal}}.
 
 ## Passi successivi
-Dopo che è stato eseguito il provisioning del tuo server virtuale, puoi iniziare a gestirlo. Per ulteriori informazioni, vedi [Gestione dei server virtuali](/docs/vsi?topic=virtual-servers-managing-virtual-servers).
+Dopo aver eseguito il provisioning del tuo server virtuale ed è possibile utilizzarlo, puoi configurare i tuoi server virtuali utilizzando il
+{{site.data.keyword.slportal_full}} o l'{{site.data.keyword.slapi_full}}. Per ulteriori informazioni, vedi [Configurazione di server virtuali](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).

@@ -18,7 +18,7 @@ subcollection: virtual-servers
 # GPU
 {: #gpu}
 
-I profili GPU sono migliori per i carichi di lavoro dalle prestazioni elevate che richiedono più densità di calcolo per ridurre la gestione delle risorse e i costi. I profili GPU sono ideali per i processi di intelligenza artificiale, le applicazioni di dati e grafiche intense o per lo sviluppo di nuove applicazioni che richiedono prestazioni veloci. 
+I profili GPU sono migliori per i carichi di lavoro dalle prestazioni elevate che richiedono più densità di calcolo per ridurre la gestione delle risorse e i costi. I profili GPU sono ideali per i processi di intelligenza artificiale, le applicazioni di dati e grafiche intense o per lo sviluppo di nuove applicazioni che richiedono prestazioni veloci.
 
 Con tecnologia NVDIA Tesla GPUs, le caratteristiche {{site.data.keyword.cloud_notm}} Accelerated Compute “ac1” e "ac2" offrono entrambe l'archiviazione blocchi e SSD locale. I seguenti profili GPU sono disponibili per la tua scelta:  
 

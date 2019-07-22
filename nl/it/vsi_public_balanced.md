@@ -18,12 +18,12 @@ subcollection: virtual-servers
 # Bilanciato
 {: #balanced}
 
-I profili bilanciati (con l'archiviazione assegnata per rete) forniscono prestazioni elevate, poiché le risorse non possono sottoscrivere più della disponibilità effettiva. Le prestazioni di rete vanno da standard a premium.
+I profili bilanciati (con l'archiviazione collegata alla rete) forniscono prestazioni elevate, poiché le risorse non possono sottoscrivere più della disponibilità effettiva. Le prestazioni di rete vanno da standard a premium.
 
 L'offerta è disponibile nei seguenti profili:
 
 <table>
-<CAPTION>Tabella 1. Profili bilanciati con l'archiviazione assegnata per rete</CAPTION>
+<CAPTION>Tabella 1. Profili bilanciati con l'archiviazione collegata alla rete</CAPTION>
 <THEAD>
 <TR>
 <th>Profilo</th>
@@ -119,6 +119,6 @@ L'offerta è disponibile nei seguenti profili:
 * Disco di avvio primario SAN (25 o 100 GB) con dischi aggiuntivi disponibili, fino a 2 TB ciascuno (5 dischi totali consentiti).
 * I prezzi per i server virtuali pubblici che utilizzano l'archiviazione SAN includono CPU virtuale, memoria e disco di avvio primario minimo. I prezzi di ulteriori dischi dipendono dalla dimensione e dalla quantità che selezioni.  
 
-I profili bilanciati (con l'archiviazione assegnata per rete) sono disponibili in tutti i data center.
+I profili bilanciati (con l'archiviazione collegata alla rete) sono disponibili in tutti i data center.
 
 Tutti i sistemi operativi supportati (come RHEL, CentOS, Windows, Ubuntu e altri), i database supportati e i componenti aggiuntivi software sono inoltre disponibili con questa offerta.  
