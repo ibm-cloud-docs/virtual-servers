@@ -1,9 +1,16 @@
 ---
+
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-10-23"
+  years: 2014, 2019
+lastupdated: "2019-06-06"
+
+subcollection: virtual-servers
+
 ---
 
+{:note: .note}
+{:tip: .tip}
+{:important: .important}
 {:new_window: target="_blank"}
 
 # 스토리지 옵션
@@ -23,11 +30,13 @@ lastupdated: "2018-10-23"
 
 모든 보조 디스크는 휴대용 스토리지로서 연결됩니다. 대부분의 경우, 이러한 보조 디스크는 다른 가상 서버로 이동할 수 있도록 언제든지 분리할 수 있습니다.
 
-**예외:** 밸런스된 로컬 스토리지를 사용하는 공용 가상 서버의 경우, 1차 또는 2차 디스크를 분리할 수 없습니다.
+밸런스된 로컬 스토리지를 사용하는 공용 가상 서버의 경우, 1차 또는 2차 디스크를 분리할 수 없습니다.
+{:important}
 
 이러한 디스크는 변경사항이 디스크 할당량 또는 대상 가상 서버의 최대 볼륨 크기 한계를 초과하지 않는 한 다른 서버에 다시 연결할 수 있습니다.
 
-**참고:** 이동된 디스크는 대상 서버의 스토리지 유형으로 변환됩니다.
+이동된 디스크는 대상 서버의 스토리지 유형으로 변환됩니다.
+{:note}
 
 휴대용 스토리지 볼륨이 원래 가상 서버가 아닌 다른 데이터 센터 내의 가상 서버에 연결되는 경우, {{site.data.keyword.cloud_notm}}의 내부 시스템이 볼륨을 새 데이터 센터 내의 SAN으로 복사합니다. 그런 다음 시스템이 복사된 볼륨의 무결성을 확인하고 원래 데이터 센터 SAN에서 원래 휴대용 볼륨을 제거합니다.
 
@@ -41,11 +50,11 @@ LVM(Logical Volume Management)은 부트 가능한 파티셔닝 스킴으로 지
 
 보조 스토리지 옵션에 대한 자세한 정보는 다음 자원을 참조하십시오.
 
-* [Block Storage 시작하기](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted)
-* [File Storage 시작하기](/docs/infrastructure/FileStorage?topic=FileStorage-GettingStarted)
-* [Object Storage 시작하기](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage#about-ibm-cloud-object-storage)
+* [Block Storage 시작하기](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started)
+* [File Storage 시작하기](/docs/infrastructure/FileStorage?topic=FileStorage-getting-started)
+* [Object Storage 시작하기](/docs/services/cloud-object-storage?topic=cloud-object-storage-getting-started)
 
 ## 다음 단계
 휴대용 스토리지 볼륨 사용에 대한 자세한 정보는 다음 태스크를 참조하십시오.
-* [휴대용 스토리지 액세스](/docs/vsi/storage?topic=virtual-servers-accessing-portable-storage)
-* [휴대용 스토리지 설명 편집](/docs/vsi/storage?topic=virtual-servers-editing-a-portable-storage-description)
+* [휴대용 스토리지 관리](/docs/vsi?topic=virtual-servers-accessing-portable-storage#accessing-portable-storage)
+* [휴대용 스토리지 설명 편집](/docs/vsi?topic=virtual-servers-editing-a-portable-storage-description#editing-a-portable-storage-description)

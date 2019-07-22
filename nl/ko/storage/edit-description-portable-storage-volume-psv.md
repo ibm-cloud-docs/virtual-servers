@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-05-11"
+  years: 2014, 2019
+lastupdated: "2019-06-03"
 
 subcollection: virtual-servers
 
@@ -14,15 +14,24 @@ subcollection: virtual-servers
 # 휴대용 스토리지 설명 편집
 {: #editing-a-portable-storage-description}
 
-{{site.data.keyword.slportal_full}}에서 휴대용 스토리지 볼륨(PSV)을 볼 수 있습니다. 휴대용 스토리지 페이지는 PSV에 대한 설명, 위치, 용량 및 PSV와 연관된 디바이스 이름을 표시합니다. 설명은 언제든지 업데이트할 수 있습니다. PSV의 사용과 관련된 고유 ID로 각 PSV 설명을 업데이트하십시오.
+{{site.data.keyword.cloud}} 콘솔에서 휴대용 스토리지 볼륨(PSV)을 볼 수 있습니다. 휴대용 스토리지 페이지는 PSV에 대한 설명, 위치, 용량 및 PSV와 연관된 디바이스 이름을 표시합니다. 설명은 언제든지 업데이트할 수 있습니다. PSV의 사용과 관련된 고유 ID로 각 PSV 설명을 업데이트하십시오.
+{:shortdesc}
 
-## PSV 설명 편집
+## 시작하기 전에
+먼저 스토리지 메뉴로 이동하여 태스크를 완료할 수 있는 올바른 계정 권한이 있는지 확인하십시오. 
 
-1. [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}에서 **휴대용 스토리지**에 액세스하십시오. 자세한 정보는 [휴대용 스토리지 액세스](/docs/vsi/storage?topic=virtual-servers-accessing-portable-storage)를 참조하십시오.
-* 원하는 휴대용 스토리지 볼륨을 찾으십시오.<br/>**참고:** **필터** 도구를 사용하면 긴 목록에서 볼륨을 빠르게 찾을 수 있습니다.
-* PSV에 대한 **설명** 섹션을 클릭하여 편집할 설명을 여십시오.
-* 필요에 따라 **설명** 필드에서 컨텐츠를 입력하거나 수정하십시오.
-* PSV를 포함하는 행 중 아무 위치나 클릭하여 편집된 설명을 저장하십시오.
+* 콘솔의 스토리지 메뉴로 이동하십시오. 자세한 정보는 [디바이스로 이동](/docs/vsi?topic=virtual-servers-navigating-devices)을 참조하십시오.
+* 필요한 계정 권한 및 디바이스 액세스 권한이 있는지 확인하십시오. 계정 소유자 또는 **사용자 관리** 클래식 인프라 권한이 있는 사용자만 권한을 조정할 수 있습니다. 
+
+권한에 대한 자세한 정보는 [클래식 인프라 권한](/docs/iam?topic=iam-infrapermission#infrapermission) 및 [디바이스 액세스 관리](/docs/vsi?topic=virtual-servers-managing-device-access)를 참조하십시오.
+
+## 휴대용 스토리지 설명 편집
+
+1. **스토리지** 메뉴에서 **블록 스토리지**를 선택하십시오. 
+2. **휴대용 스토리지** 섹션에서 편집할 휴대용 스토리지 볼륨을 찾으십시오. **휴대용 스토리지 필터링** 도구를 사용하여 볼륨을 빠르게 찾으십시오. 
+3. 휴대용 스토리지 볼륨에 대한 **설명** 섹션을 클릭하여 편집할 설명을 여십시오.
+4. 필요에 따라 **설명** 필드에서 컨텐츠를 입력하거나 수정하십시오.
+5. PSV를 포함하는 행 중 아무 위치나 클릭하여 편집된 설명을 저장하십시오.
 
 ## 다음 단계
 
