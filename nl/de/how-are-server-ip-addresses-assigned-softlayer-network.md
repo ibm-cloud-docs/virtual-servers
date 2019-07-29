@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-08-01"
+  years: 2018, 2019
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -22,9 +22,9 @@ subcollection: virtual-servers
 In {{site.data.keyword.cloud}} werden virtuelle Serverinstanzen mit einer IPv4-Adresse im privaten Netz konfiguriert, soweit angefordert, auch mit einer öffentlichen (mit dem Internet verbundenen) IPv4-Adresse. Darüber hinaus können Sie eine IPv6-Adresse im öffentlichen Netz anfordern. Diese IP-Adressen werden als _primäre IP-Adressen_ bezeichnet.
 {:shortdesc}
 
-Zusätzliche IP-Adressen können nach dem Erwerb sekundärer Teilnetze über das [{{site.data.keyword.slportal}} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com) an virtuelle Serverinstanzen gebunden werden. Auf diese Weise erworbene und von Ihnen verwaltete IP-Adressen werden als _sekundäre IP-Adressen_ bezeichnet.
+Zusätzliche IP-Adressen können nach dem Erwerb sekundärer Teilnetze über die {{site.data.keyword.cloud_notm}}-Konsole an virtuelle Serverinstanzen gebunden werden. Auf diese Weise erworbene und von Ihnen verwaltete IP-Adressen werden als _sekundäre IP-Adressen_ bezeichnet.
 
-Weitere Informationen zu den für den Bezug von IP-Adressen verfügbaren Optionen finden Sie im Abschnitt [Teilnetze und IP-Adressen](/docs/infrastructure/subnets?topic=subnets-getting-started-with-subnets-and-ips#getting-started-with-subnets-and-ips).
+Weitere Informationen zu den für den Bezug von IP-Adressen verfügbaren Optionen finden Sie im Abschnitt [Teilnetze und IP-Adressen](/docs/infrastructure/subnets?topic=subnets-about-subnets-and-ips).
 
 ## Sekundäre IP-Adressen binden
 

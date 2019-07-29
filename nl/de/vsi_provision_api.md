@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-04"
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -14,6 +14,7 @@ subcollection: virtual-servers
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:tip: .tip}
+{:note: .note}
 {:table: .aria-labeledby="caption"}
 
 # API-Beispiele: Profile öffentlicher virtueller Server
@@ -33,6 +34,9 @@ Nicht zutreffend für transiente Instanzen.
 {:tip}
 
 Zum Bereitstellen einer öffentlichen virtuellen Serverinstanz mit REST wird eine POST-Anforderung an https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ übergeben, die den folgenden JSON-Code im Anforderungshauptteil enthält.
+
+Der folgende JSON-Anforderungshauptteil stellt ein generisches Beispiel dar.
+{:note}
 
 ### JSON-Anforderungshauptteil 1
 ```
@@ -67,7 +71,11 @@ Nicht zutreffend für transiente Instanzen.
 
 Zum Bereitstellen eines öffentlichen virtuellen Servers mit REST wird eine POST-Anforderung an https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ übergeben, die den folgenden JSON-Code im Anforderungshauptteil enthält.
 
-**Hinweis:** Die Artikelbezeichnungen sind in den Preisen nicht erforderlich. Sie sind nur angegeben, um deutlich zu machen, welche Produktoptionen übergeben werden.
+Die Artikelbezeichnungen sind für die Preise nicht erforderlich. Sie sind nur angegeben, um deutlich zu machen, welche Produktoptionen übergeben werden.
+{:note}
+
+Der folgende JSON-Anforderungshauptteil stellt ein generisches Beispiel dar.
+{:note}
 
 ### JSON-Anforderungshauptteil 2
 ```
@@ -167,7 +175,11 @@ Nicht zutreffend für transiente Instanzen.
 
 Zum Bereitstellen eines öffentlichen virtuellen Servers mit REST wird eine POST-Anforderung an https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ übergeben, die den folgenden JSON-Code im Anforderungshauptteil enthält.
 
-**Hinweis:** Die Artikelbezeichnungen sind in den Preisen nicht erforderlich. Sie sind nur angegeben, um deutlich zu machen, welche Produktoptionen übergeben werden.
+Die Artikelbezeichnungen sind für die Preise nicht erforderlich. Sie sind nur angegeben, um deutlich zu machen, welche Produktoptionen übergeben werden.
+{:note}
+
+Der folgende JSON-Anforderungshauptteil stellt ein generisches Beispiel dar.
+{:note}
 
 ### JSON-Anforderungshauptteil 3
 ```
@@ -210,6 +222,9 @@ Zum Bereitstellen eines öffentlichen virtuellen Servers mit REST wird eine POST
 Der API-Service *SoftLayer_Virtual_Guest/createObject* ist die einfachste Methode zum Bereitstellen einer transienten virtuellen Serverinstanz.
 
 Zum Bereitstellen einer transienten virtuellen Serverinstanz mit REST wird eine POST-Anforderung an https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ übergeben, die den folgenden JSON-Code im Anforderungshauptteil enthält.
+
+Der folgende JSON-Anforderungshauptteil stellt ein generisches Beispiel dar.
+{:note}
 
 ### JSON-Anforderungshauptteil 4
 ```

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-11-30"
+  years: 2017, 2019
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -21,4 +21,4 @@ subcollection: virtual-servers
 {{site.data.keyword.cloud}} bietet optionale kostenpflichtige und kostenlose Datenbanktoolprodukte sowohl für {{site.data.keyword.virtualmachinesshort}}- als auch für {{site.data.keyword.baremetal_short}}-Bereitstellungen. Datenbanktoolprodukte sind jedoch nur bei monatlichem Abrechnungszyklus für {{site.data.keyword.virtualmachinesshort}} und {{site.data.keyword.baremetal_short}} verfügbar.
 {:shortdesc}
 
-Weitere Informationen zu Datenbanktools finden Sie unter [Datenbanktools - Einführung.](/docs/infrastructure/database-tools?topic=database-tools-getting-started-tutorial)
+Weitere Informationen zu Datenbanktools finden Sie unter [Datenbanktools - Einführung.](/docs/infrastructure/database-tools?topic=database-tools-dbt-getting-started)

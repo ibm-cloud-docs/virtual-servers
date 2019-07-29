@@ -31,7 +31,7 @@ Führen Sie die folgenden Schritte aus, um die Konfiguration für einen vorhande
 {:shortdesc}
 
 ## Vorhandenen virtuellen Server mit vordefinierten Profilen ändern
-1. Öffnen Sie das [{{site.data.keyword.slportal_full}} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window}, indem Sie Ihre eindeutigen Berechtigungsnachweise eingeben.
+1. Greifen Sie mit den Berechtigungsnachweisen, die Sie bei der Ersterstellung Ihres Kontos per E-Mail erhalten haben, auf die [Konsole](https://cloud.ibm.com/classic?){: new_window} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link") zu. Alternativ hierzu können Sie sich auch beim [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){:new_window} anmelden. 
 2. Klicken Sie in der Einheitenliste auf den Namen des virtuellen Servers, den Sie neu konfigurieren möchten.
 3. Auf der Registerkarte **Konfiguration** können Sie auf **Ändern** oder auf **Einheitenkonfiguration ändern** klicken, um die folgenden Einstellungen zu ändern.
   <dl>

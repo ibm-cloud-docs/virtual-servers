@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-05-17"
+  years: 2017, 2019
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -14,7 +14,6 @@ subcollection: virtual-servers
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
-{:faq: data-hd-content-type='faq'}
 
 
 # Häufig gestellte Fragen (FAQs): Server (allgemein)
@@ -25,21 +24,22 @@ subcollection: virtual-servers
 
 Die Funktionen "Aus Image starten" und "Aus Image laden" wenden vorhandene Imagevorlagen auf eine Einheit an, um das vorhandene Betriebssystem entweder zu ersetzen oder zu ergänzen. Mit dieser Maßnahme soll ein bestehendes Problem behoben werden. Der Hauptunterschied zwischen dem Start- und dem Ladeprozess ist der Typ des verwendeten Images. Stellen Sie vor dem Ausführen des Prozesses "Aus Image starten" oder "Aus Image laden" sicher, dass Sie alle Daten gesichert haben, die möglicherweise wiederhergestellt werden sollen.
 
-   * "Aus Image starten" ist eine Methode zum Booten einer Einheit mithilfe eines ISO-Images, das von {{site.data.keyword.BluSoftlayer_full}} für die Systemwiederherstellung bereitgestellt wird, oder eines ISO-Images, das mit der Funktion *Image importieren* im {{site.data.keyword.slportal_full}} hochgeladen wurde. Das ISO-Image kann eine bereinigte Version des Betriebssystems der Einheit oder ein Wiederherstellungsdatenträger sein, die bzw. der verwendet werden kann, um ein Problem in der Einheit zu beheben.
-   * "Aus Image laden" ist eine Methode zum erneuten Laden des Betriebssystems unter Verwendung einer Imagevorlage, die entweder aus einer Einheit erfasst oder mit der Funktion *Image importieren* im {{site.data.keyword.slportal}} hochgeladen wurde. Bei der Methode *Aus Image laden* wird eine VHD zum erneuten Laden verwendet. Dabei werden alle Daten auf der Einheit gelöscht und das vorhandene Betriebssystem sowie die Dateien werden durch eine (unbenutzte) Originalversion des ausgewählten Images ersetzt.
+   * "Aus Image starten" ist eine Methode zum Booten einer Einheit mithilfe eines ISO-Images, das von {{site.data.keyword.BluSoftlayer_full}} für die Systemwiederherstellung bereitgestellt wird, oder eines ISO-Images, das mit der Funktion *Image importieren* in der {{site.data.keyword.cloud_notm}}-Konsole hochgeladen wurde. Das ISO-Image kann eine bereinigte Version des Betriebssystems der Einheit oder ein Wiederherstellungsdatenträger sein, die bzw. der verwendet werden kann, um ein Problem in der Einheit zu beheben.
+   * "Aus Image laden" ist eine Methode zum erneuten Laden des Betriebssystems unter Verwendung einer Imagevorlage, die entweder aus einer Einheit erfasst oder mit der Funktion *Image importieren* in der {{site.data.keyword.cloud_notm}}-Konsole hochgeladen wurde. Bei der Methode *Aus Image laden* wird eine VHD zum erneuten Laden verwendet. Dabei werden alle Daten auf der Einheit gelöscht und das vorhandene Betriebssystem sowie die Dateien werden durch eine (unbenutzte) Originalversion des ausgewählten Images ersetzt.
 
 ## Warum kann ich keine Verbindung zur KVM-Konsole herstellen?
 {:faq}
 
-Wenn Sie keine Verbindung zur KVM-Konsole herstellen können, prüfen Sie die nachfolgenden Tipps zur Fehlerbehebung, die beim Beheben des Problems nützlich sein können. Falls weitere Probleme auftreten sollten, wenden Sie sich an den Support. Weitere Informationen zur Kontaktaufnahme mit dem Support finden Sie unter [Hilfe und Unterstützung anfordern](/docs/vsi?topic=virtual-servers-gettinghelp).
+Wenn Sie keine Verbindung zur KVM-Konsole herstellen können, prüfen Sie die nachfolgenden Tipps zur Fehlerbehebung, die beim Beheben des Problems nützlich sein können. Falls weitere Probleme auftreten sollten, wenden Sie sich an den Support. Weitere Informationen zur Kontaktaufnahme mit dem Support finden Sie unter [Hilfe und Unterstützung anfordern](/docs/vsi?topic=virtual-servers-gettinghelp#gettinghelp).
 
    * Die KVM-Konsole ist ein Java-Applet. Vor dem Zugriff auf die Konsole muss Java installiert werden. Weitere Informationen zum Installieren von Java finden Sie unter [Java kostenlos herunterladen ![Symbol für extrernen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://www.java.com/en/download/){: new_window}.  
    * Wenn Java installiert ist, stellen Sie sicher, dass eine Verbindung über VPN hergestellt wurde. Falls keine Verbindung besteht und Sie versuchen, eine Verbindung zur KVM-Konsole herzustellen, weist eine Warnung darauf hin, dass eine VPN-Verbindung erforderlich ist.
-   * Die KVM-Konsole öffnet während des Verbindungsprozesses möglicherweise ein oder mehrere Popup-Fenster. Aktivieren Sie Pop-up-Fenster vom {{site.data.keyword.slportal}} um sicherzustellen, dass eine Verbindung hergestellt werden kann.
+   * Die KVM-Konsole öffnet während des Verbindungsprozesses möglicherweise ein oder mehrere Popup-Fenster. Aktivieren Sie Pop-up-Fenster über die {{site.data.keyword.cloud_notm}}-Konsole, um sicherzustellen, dass eine Verbindung hergestellt werden kann.
    * Möglicherweise wird der Fehler "Java-Anwendungen werden durch Ihre Sicherheitseinstellungen blockiert" angezeigt. Für Bare-Metal-iKVM-Einheiten müssen Sie eine Ausnahme für die IP-Adresse der IPMI-Einheit hinzufügen. Für VSI-Einheiten müssen "https://control.softlayer.com" und die IP-Adresse der KVM-Konsole zugelassen werden. Weitere Informationen finden Sie unter [Warum werden Java-Anwendungen beim aktuellen Java-Release durch Ihre Sicherheitseinstellungen blockiert? ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://www.java.com/en/download/help/java_blocked.xml){: new_window}.
    * Wenn die oben genannten Bedingungen erfüllt sind und der Fehler "Missing required Permissions manifest in main.jar" angezeigt wird, dann wurden im Java Control Panel keine Java-Applets aktiviert. Diese Einstellung wurde von Oracle in Java SE v7 als Sicherheitsvorkehrung eingeführt. Aktivieren Sie Applets im Control Panel, um dieses Problem zu beheben.
 
-     **Anmerkung:** Wenn Sie Mac OS X in Verbindung mit Google Chrome verwenden, lesen Sie die Angaben unter "Informationen und Systemvoraussetzungen zum Installieren und Verwenden von Mac Java 7" auf der Java-Website.
+     Wenn Sie Mac OS X in Verbindung mit Google Chrome verwenden, lesen Sie die Angaben unter "Informationen und Systemvoraussetzungen zum Installieren und Verwenden von Mac Java 7" auf der Java-Website.
+     {:note}
 
    * Wenn bei dem Versuch, eine Verbindung zu einer VSI über die Java-Standardversion herzustellen, nur Fehler angezeigt werden, können Sie alternativ versuchen, VNC zu verwenden.
 
@@ -52,10 +52,10 @@ Wenn das Root- oder Administratorkennwort für Ihren Server plötzlich nicht meh
 
    * Haben Sie das Kennwort kopiert und eingefügt? Falls nicht, versuchen Sie es. Fügen Sie das Kennwort probeweise in einem Texteditor ein, um sicherzustellen, dass keine unbeabsichtigten Leerzeichen mit kopiert werden.
    * Wenn der Server über eine Komponente cPanel verfügt: Besteht die Möglichkeit, dass Ihre IP-Adresse nach fehlgeschlagenen Anmeldeversuchen durch cPHulk gesperrt wurde? Wenn dies zutrifft, können Sie über KVM oder IPMI auf den Server zugreifen und Ihre IP-Adresse in die Whitelist eintragen, indem Sie cPHulk mit "/scripts/cphulkdwhitelist", gefolgt von Ihrer IP-Adresse eingeben.
-   * Hat jemand in letzter Zeit versucht, das Kennwort für den Server durch Ändern des Kennworts im {{site.data.keyword.slportal}} zu ändern? Beim Ändern des Kennworts im {{site.data.keyword.slportal}} wird nur das für Sie angezeigte Kennwort geändert. Dies hat keine Auswirkung auf das vom Server verwendete Kennwort. Wenn dies der Fall ist, verständigen Sie den Support. Der Support kann in der Regel das ursprüngliche gültige Kennwort wiederherstellen.
-   * Möglicherweise müssen Sie über einen Bootvorgang zum Wiederherstellungsmodus Ihres Betriebssystems wechseln, um das Kennwort zurücksetzen zu können. Weitere Informationen finden Sie unter [Rescue-Kernel starten](/docs/vsi?topic=virtual-servers-launching-rescue).
+   * Hat jemand in letzter Zeit versucht, das Kennwort für den Server durch Ändern des Kennworts in der {{site.data.keyword.cloud_notm}}-Konsole zu ändern? Beim Ändern des Kennworts in der {{site.data.keyword.cloud_notm}}-Konsole wird nur das für Sie angezeigte Kennwort geändert. Dies hat keine Auswirkung auf das vom Server verwendete Kennwort. Wenn dies der Fall ist, verständigen Sie den Support. Der Support kann in der Regel das ursprüngliche gültige Kennwort wiederherstellen.
+   * Möglicherweise müssen Sie über einen Bootvorgang zum Wiederherstellungsmodus Ihres Betriebssystems wechseln, um das Kennwort zurücksetzen zu können. Weitere Informationen finden Sie unter [Rescue-Kernel starten](/docs/vsi?topic=virtual-servers-launching-rescue#launching-rescue).
 
-Wenn die angegebenen Punkte überprüft wurden und weiterhin kein Serverzugriff mit dem Kennwort möglich ist, öffnen Sie ein Support-Ticket und fordern Sie das Zurücksetzen des Kennworts an. Der Support muss einen Neustart des Servers durchführen, um das Kennwort zurückzusetzen. Halten Sie sich bereit, den Neustart zu bestätigen und/oder benennen Sie einen Wartungszeitrahmen, in dem der Neustart erfolgen kann. Das Zurücksetzen des Kennworts dauert in den meisten Fällen nicht länger als 15 Minuten. Um ein Ticket zu öffnen, navigieren Sie im {{site.data.keyword.slportal}} zu **Support > Ticket hinzufügen** und verwenden Sie den Eintrag *"Neustarts und Konsolenzugriff"*.
+Wenn die angegebenen Punkte überprüft wurden und weiterhin kein Serverzugriff mit dem Kennwort möglich ist, öffnen Sie ein Support-Ticket und fordern Sie das Zurücksetzen des Kennworts an. Der Support muss einen Neustart des Servers durchführen, um das Kennwort zurückzusetzen. Halten Sie sich bereit, den Neustart zu bestätigen und/oder benennen Sie einen Wartungszeitrahmen, in dem der Neustart erfolgen kann. Das Zurücksetzen des Kennworts dauert in den meisten Fällen nicht länger als 15 Minuten. Um ein Ticket zu erstellen, navigieren Sie in der {{site.data.keyword.cloud_notm}}-Konsole zu **Support > Fall erstellen** und verwenden Sie den Eintrag *Konten & Zugriff*.
 
 ## Werden LVM-Partitionen als gültiges Dateisystem unterstützt?
 {:faq}
@@ -65,7 +65,7 @@ LVM (Logical Volume Management) ermöglicht die logische Verwaltung von Dateisys
 ## Vorkonfigurierte 161.26.0.0/16-Routen auf Kunden-Hosts
 {:faq}
 
-{{site.data.keyword.BluSoftlayer}} aktiviert auf allen neu bereitgestellten Servern eine neue Route, um zukünftige Produkte zu unterstützen.
+{{site.data.keyword.BluSoftlayer_notm}} aktiviert auf allen neu bereitgestellten Servern eine neue Route, um zukünftige Produkte zu unterstützen.
    * Die Route verweist auf eine beliebige Adresse für das private Back-End-Netz im Bereich 161.26.0.0/16 (161.26.0.0 255.255.0.0 | 161.26.0.0 -161.26.255.255).
    * Dieser IP-Block wird der {{site.data.keyword.BluSoftlayer_notm}} von IANA zugewiesen und nicht im öffentlichen Internet zugänglich gemacht.
    * Über diesen IP-Bereich werden nur Systeme der {{site.data.keyword.BluSoftlayer_notm}} adressiert.
@@ -164,7 +164,7 @@ LVM (Logical Volume Management) ermöglicht die logische Verwaltung von Dateisys
 ## Kann das Überwachungssystem einen automatischen Warmstart auslösen UND einen Support-Techniker verständigen, wenn der Server nicht mehr reagiert?
 {:faq}
 
-Ja, wenn Sie den Service **Automatischer Warmstart nach Überwachungsfehler** bestellt haben, können Sie das Überwachungssystem so einrichten, dass automatisch ein Warmstart des Servers eingeleitet und ein Ticket für einen Support-Techniker geöffnet wird, wenn ein Überwachungsalert ausgegeben wird. Der zusätzliche Service **NOC-Überwachung** bietet die Möglichkeit, dass Sie persönlich benachrichtigt werden, wenn ein Überwachungsproblem auftritt. Weitere Informationen zu diesen beiden Angeboten enthält die Seite [Serverüberwachung ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](http://www.softlayer.com/services/monitoring/){:new_window}.
+Ja, wenn Sie den Service **Automatischer Warmstart nach Überwachungsfehler** bestellt haben, können Sie das Überwachungssystem so einrichten, dass automatisch ein Warmstart des Servers eingeleitet und ein Ticket für einen Support-Techniker geöffnet wird, wenn ein Überwachungsalert ausgegeben wird. Der zusätzliche Service **NOC-Überwachung** bietet die Möglichkeit, dass Sie persönlich benachrichtigt werden, wenn ein Überwachungsproblem auftritt. Weitere Informationen zu diesen beiden Angeboten enthält die Seite [Serverüberwachung ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/infrastructure/monitoring?cm_mc_uid=46846454197915580355142&cm_mc_sid_50200000=71138741559658182022){:new_window}.
 
 ## Was ist ein cvsup-Spiegel?
 {:faq}

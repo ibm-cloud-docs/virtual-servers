@@ -89,11 +89,11 @@ Führen Sie die folgenden Schritte aus, um eine dedizierte virtuelle Serverinsta
     <td>Wählen Sie das Betriebssystem für die Instanz aus. Beachten Sie, dass eine Fehlernachricht ausgegeben wird, wenn ein Konflikt zwischen dem Server und dem Betriebssystem auftritt (z. B. beim Auswählen von Linux für einen Microsoft SQL-Server).</td>
     </tr>
     <tr>
-    <td>Erster Plattenspeicher</td>
+    <td>Erster Datenträger</td>
     <td>Wählen Sie für jede Instanz in einer Bestellung entweder 'SAN' oder 'Lokal' aus.</td>
     </tr>
     <tr>
-    <td>Zusätzliche Plattenspeicher</td>
+    <td>Zusätzliche Datenträger</td>
     <td>Sie können bis zu vier zusätzliche Bootdatenträger (SAN oder Lokal) für jede dedizierte Instanz bereitstellen.</td>
     </tr>
     <td>Netzoptionen</td>
@@ -152,4 +152,5 @@ Führen Sie die folgenden Schritte aus, um eine dedizierte virtuelle Serverinsta
     Mehrere E-Mails werden an Ihren Administrator gesendet: die Auftragsbestätigung für Ihre Bereitstellungsbestellung, die Genehmigung und die Bearbeitungsnachricht für die Bereitstellung sowie die Fertigstellungsnachricht für die Bereitstellung. Über einen Link in der Fertigstellungsnachricht gelangen Sie direkt zu der zugehörigen Seite **Einheitendetails**, nachdem Sie sich bei {{site.data.keyword.Bluemix_notm}} angemeldet haben. Eine weitere Option ist die direkte Anmeldung beim {{site.data.keyword.slportal}}.
 
 ## Nächste Schritte
-Nachdem Ihr virtueller Server bereitgestellt ist, können Sie ihn verwalten. Weitere Informationen finden Sie unter [Virtuelle Server verwalten](/docs/vsi?topic=virtual-servers-managing-virtual-servers).
+Nachdem Ihr virtueller Server bereitgestellt wurde und verfügbar ist, können Sie Ihre virtuellen Server über das
+{{site.data.keyword.slportal_full}} oder über die {{site.data.keyword.slapi_full}} konfigurieren. Weitere Informationen finden Sie unter [Virtuelle Server konfigurieren](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).

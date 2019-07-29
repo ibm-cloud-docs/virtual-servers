@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-24"
+  years: 2017, 2019
+lastupdated: "2019-05-16"
 
 subcollection: virtual-servers
 
@@ -73,7 +73,7 @@ bestellen, die entweder einem dedizierten Host zugeordnet ist oder nicht. Weiter
     <td>Wählen sie das {{site.data.keyword.cloud}}-Rechenzentrum aus, in dem Ihre Hosts platziert werden sollen. Die Liste der in Frage kommenden Rechenzentren finden Sie unter 'Informationen zu'.</td>
     </tr>
     <td>Dedizierter Host</td>
-    <td>Die Standardeinstellung sind 56 Cores X 242 RAM X 1,2 TB</td>
+    <td>Die Standardeinstellung sind 56 Cores X 242 RAM X 1,2 TB. Sie können jedoch auch andere Konfigurationen auswählen.</td>
     </tr>
     </TBODY>
     </table>
@@ -120,7 +120,7 @@ Führen Sie die folgenden Schritte aus, um die dedizierten Hostinstanzen über d
 
 1.	Klicken Sie auf **Einheiten > Einheitenliste**.
 
-    Auf der Seite *Einheiten* werden alle Einheitentypen in Ihrem Konto angezeigt (dedizierte Hosts, virtuelle Server, Bare-Metal-Server und NetScaler-Controller für Anwendungsbereitstellung).
+    Auf der Seite *Einheiten* werden alle Einheitentypen in Ihrem Konto angezeigt (dedizierte Hosts, virtuelle Server, Bare Metal Server und NetScaler-Controller für die Anwendungsbereitstellung).
 
 2.	Wählen Sie den Host für Ihre dedizierten Hostinstanzen durch Klicken auf den entsprechenden Link unter **Einheitenname** aus.
 
@@ -237,4 +237,5 @@ Führen Sie die folgenden Schritte aus, um die dedizierten Hostinstanzen über d
 Sie werden per E-Mail benachrichtigt, sobald Ihre dedizierten Hostinstanzen bereitgestellt sind.
 
 ## Nächste Schritte
-Nachdem Ihr virtueller Server bereitgestellt ist, können Sie ihn verwalten. Weitere Informationen finden Sie unter [Virtuelle Server verwalten](/docs/vsi?topic=virtual-servers-managing-virtual-servers).
+Nachdem Ihr virtueller Server bereitgestellt wurde und verfügbar ist, können Sie Ihre virtuellen Server über das
+{{site.data.keyword.slportal_full}} oder über die {{site.data.keyword.slapi_full}} konfigurieren. Weitere Informationen finden Sie unter [Virtuelle Server konfigurieren](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).

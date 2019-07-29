@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-04"
+lastupdated: "2019-06-04"
 
 keywords: transient virtual servers, transient instances, transient offering, cost savings
 
@@ -32,24 +32,29 @@ Transiente virtuelle Server ermöglichen in verschiedener Hinsicht eine flexible
 
     Transiente virtuelle Server sind ideal für Nicht-Produktions-Workloads. Sie können beispielsweise eine transiente Instanz zum Testen oder Entwickeln von Anwendungen oder zum Testen der Skalierbarkeit in Umgebungen, für die keine konstante Verfügbarkeit erforderlich ist, verwenden.
 
-Transiente Instanzen sind öffentliche Instanzen, die SAN-gestützten Speicher verwenden.
+Transiente Instanzen sind öffentliche Instanzen, die SAN-gestützten Speicher verwenden. Für dieses Angebot sind die folgenden Familien von öffentlichen Instanzen verfügbar.
+
+| Familien  | Beschreibung                                                                                              |
+| ----------------------- | -------------------------------------------------------------------------------------------------------- | 
+| [Ausgeglichen](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#balanced) | Besonders geeignet für gemeinsame Cloud-Workloads, für die eine Balance zwischen Leistung und Skalierbarkeit erforderlich ist. NAS (Network-attached Storage) wird verwendet.|
+| [Compute](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#compute) | Besonders geeignet für mittlere bis große Workloads im Webdatenverkehr.|
+| [Speicher](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#memory)  | Besonders geeignet für Speichercache- und Echtzeitanalyse-Workloads. |
+{: caption="Tabelle 1. Optionen für Produktfamilie öffentlicher virtueller Server" caption-side="top"}
 
 ## Benachrichtigungen
-Sie können die {{site.data.keyword.slapi_short}} zum Empfangen von Benachrichtigungen verwenden, wenn Ressourcen für eine transiente Instanz verfügbar sind. Sie können die API auch verwenden, um einen transienten virtuellen Server programmgesteuert bereitzustellen, wenn Ressourcen verfügbar werden. Analog können Sie die API verwenden, um die Bereitstellung von Instanzen programmgesteuert zu stoppen, wenn Ressourcen nicht mehr verfügbar sind. Weitere Informationen finden Sie in [Automatisierte Benachrichtigungen über ein Zurückfordern konfigurieren](/docs/vsi?topic=virtual-servers-configuring-notifications-for-reclaims-of-transient-virtual-servers).
+Sie können die {{site.data.keyword.slapi_short}} zum Empfangen von Benachrichtigungen verwenden, wenn Ressourcen für eine transiente Instanz verfügbar sind. Sie können die API auch verwenden, um einen transienten virtuellen Server programmgesteuert bereitzustellen, wenn Ressourcen verfügbar werden. Analog können Sie die API verwenden, um die Bereitstellung von Instanzen programmgesteuert zu stoppen, wenn Ressourcen nicht mehr verfügbar sind. Weitere Informationen finden Sie in [Automatisierte Benachrichtigungen über ein Zurückfordern konfigurieren](/docs/vsi?topic=virtual-servers-configuring-notifications-for-reclaims-of-transient-virtual-servers#configuring-notifications-for-reclaims-of-transient-virtual-servers).  
 
 ## Einschränkungen
 Beachten Sie die folgenden Einschränkungen, bevor Sie einen transienten virtuellen Server bereitstellen.
 
-* Die Anzahl der unterstützten gleichzeitig ausgeführten Instanzen ist Teil Ihres kontoweiten Einheitenkontingents. Weitere Informationen zu Einschränkungen bei gleichzeitig ausgeführten Instanzen finden Sie unter [FAQs: Virtuelle Server](/docs/vsi?topic=virtual-servers-faqs-virtual-servers#concurrent).
+* Die Anzahl der unterstützten gleichzeitig ausgeführten Instanzen ist Teil Ihres kontoweiten Einheitenkontingents. Weitere Informationen zu Einschränkungen bei gleichzeitig ausgeführten Instanzen finden Sie unter [Häufig gestellte Fragen (FAQs): Virtuelle Server](/docs/vsi?topic=virtual-servers-faqs-virtual-servers#faqs-virtual-servers).
 * Für transiente Instanzen kann kein Upgrade oder Downgrade durchgeführt werden.
 * Ressourcen können jederzeit ohne Benachrichtigung freigegeben werden.
 * Transiente Instanzen können keinen lokalen Speicher verwenden.
-* Transiente Instanzen verwenden nur SAN-gestützten Speicher (ausgeglichen, Compute, Speicher).
 * Transiente Instanzen können keine GPU-gestützten Profile verwenden.
 
 
 ## Nächste Schritte
 
-Nach dem Überprüfen und Auswählen der Version (Flavor) Ihres virtuellen Servers können Sie nun Ihren transienten virtuellen Server bereitstellen. Lesen Sie zunächst die folgenden Informationen:
-1. [Optionen für die Bereitstellung](/docs/vsi?topic=virtual-servers-provisioning-selections)
-2. [Bereitstellung transienter Instanzen](/docs/vsi?topic=virtual-servers-ordering-vs-transient)
+Nach dem Überprüfen und Auswählen des Profils Ihres virtuellen Servers können Sie nun Ihren transienten virtuellen Server bereitstellen. Informationen zur Vorgehensweise finden Sie in [Transiente Instanzen bereitstellen](/docs/vsi?topic=virtual-servers-ordering-vs-transient#ordering-vs-transient).
+

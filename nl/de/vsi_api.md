@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-25"
+  years: 2017, 2018
+lastupdated: "2018-04-03"
 
 subcollection: virtual-servers
 
@@ -15,10 +15,10 @@ subcollection: virtual-servers
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
-# API-Referenz
+# Übersicht zur API-Referenz
 {: #api-reference}
 
-Die {{site.data.keyword.slapi_full}} ist die Entwicklungsschnittstelle, die Entwicklern und Systemadministratoren die direkte Interaktion mit dem Back-End-System von {{site.data.keyword.cloud}} ermöglicht. Die {{site.data.keyword.slapi_short}} ermöglicht viele der Funktionen im {{site.data.keyword.slportal_full}}, d. h. jede Interaktion, die im {{site.data.keyword.slportal}} möglich ist, kann in der Regel auch in der API ausgeführt werden. Da Sie innerhalb der API programmgesteuert mit allen Teilen der {{site.data.keyword.BluSoftlayer_full}}-Umgebung interagieren können, eröffnet {{site.data.keyword.slapi_short}} Ihnen die Möglichkeit zum Automatisieren von Tasks. Sie können zum Beispiel die API *SoftLayer_Virtual_Guest/createObject* verwenden, um eine virtuelle Instanz bereitzustellen.
+Die {{site.data.keyword.slapi_full}} ist die Entwicklungsschnittstelle, die Entwicklern und Systemadministratoren die direkte Interaktion mit dem Back-End-System von {{site.data.keyword.cloud_notm}} ermöglicht. Die {{site.data.keyword.slapi_short}} ermöglicht die Nutzung vieler Funktionen in der {{site.data.keyword.cloud_notm}}-Konsole. Dies bedeutet, dass jede Interaktion, die in der {{site.data.keyword.cloud_notm}}-Konsole möglich ist, in der Regel auch in der API ausgeführt werden kann. Da Sie innerhalb der API programmgesteuert mit allen Teilen der {{site.data.keyword.cloud_notm}}-Umgebung interagieren können, eröffnet {{site.data.keyword.slapi_short}} Ihnen die Möglichkeit zum Automatisieren von Tasks. Sie können zum Beispiel die API *SoftLayer_Virtual_Guest/createObject* verwenden, um eine virtuelle Serverinstanz bereitzustellen.
 {:shortdesc}
 
 Die {{site.data.keyword.slapi_short}} ist ein System für ferne Prozeduraufrufe (Remote Procedure Calls). Bei jedem Aufruf werden Daten an einen API-Endpunkt gesendet und strukturierte Daten als Antwort zurückgegeben. Das Format zum Senden und Empfangen von Daten in der {{site.data.keyword.slapi_short}} hängt von der API-Implementierung ab, die Sie auswählen. Die {{site.data.keyword.slapi_short}} unterstützt derzeit SOAP, XML-RPC oder REST für die Datenübertragung.

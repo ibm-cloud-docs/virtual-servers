@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-05-11"
+  years: 2018, 2019
+lastupdated: "2019-06-03"
 
 subcollection: virtual-servers
 
@@ -23,14 +23,14 @@ Transiente virtuelle Server sind ihrer Art nach ephemer und können jederzeit be
 
 Die Benachrichtigung `reclaim-scheduled` ist ein Webhook; dies bedeutet, die Benachrichtigung wird über die HTTP-Anforderung POST an einen vom Benutzer bereitgestellten Endpunkt gesendet. Führen Sie für die Einrichtung und Verwendung des Webhooks folgende Schritte aus:
 
-1. Instanz eines transienten virtuellen Servers bereitstellen
+1. Transiente virtuelle Serverinstanz bereitstellen
 2. Webhook einrichten
 3. Webhookanforderungen überprüfen
 
 ## Transiente virtuelle Serverinstanz bereitstellen
 {: #provision-transient-virtual-server}
 
-Transiente virtuelle Server können über das [{{site.data.keyword.slportal_full}} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window} oder über die [SLDN-API ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](http://sldn.softlayer.com){: new_window} bereitgestellt werden. Weitere Informationen finden Sie unter [Transiente Instanzen bereitstellen](/docs/vsi?topic=virtual-servers-ordering-vs-transient).
+Transiente virtuelle Server können über die {{site.data.keyword.cloud_notm}}-Konsole, über das {{site.data.keyword.slportal}} oder über die [SLDN-API ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](http://sldn.softlayer.com){: new_window} bereitgestellt werden. Weitere Informationen finden Sie unter [Transiente Instanzen bereitstellen](/docs/vsi?topic=virtual-servers-ordering-vs-transient#ordering-vs-transient).
 
 ## Webhook einrichten
 

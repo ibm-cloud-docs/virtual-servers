@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-25"
+lastupdated: "2019-06-06"
 
 keywords: virtual server, suspend billing feature, virtual server instances, suspend billing
 
@@ -18,12 +18,13 @@ subcollection: virtual-servers
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:row-headers: .row-headers}
 {:table: .aria-labeledby="caption"}
 
-# Informationen zur ausgesetzten Abrechnung
+# Abrechnung aussetzen
 {: #requirements}
 
-Bei Ausschalten eines virtuellen Servers, der das Feature für das Aussetzen der Abrechnung unterstützt, fallen für bestimmte Rechenressourcen keine Kosten an. Die Abrechnung stoppt bei Ausschalten des Servers automatisch. Die Funktion für ausgesetzte Abrechnung unterstützt Sie bei der Kostenreduzierung und bewirkt, dass Sie einen virtuellen Server nicht erneut bereitstellen müssen, wenn sie seine Ressourcen wieder benötigen.
+Bei Ausschalten eines virtuellen Servers, der das Feature für das Aussetzen der Abrechnung unterstützt, fallen für bestimmte Rechenressourcen keine Kosten an. Die Abrechnung stoppt bei Ausschalten des Servers automatisch. Das Feature für das Aussetzen der Abrechnung unterstützt Sie bei der Kostenreduzierung und bewirkt, dass Sie einen virtuellen Server nicht erneut bereitstellen müssen, wenn Sie seine Ressourcen wieder benötigen.
 {:shortdesc}
 
 Die meisten virtuellen Serverinstanzen, die vor dem 01. November 2018 erstellt wurden, unterstützten das Feature für das Aussetzen der Abrechnung nicht. Informationen darüber, ob die virtuelle Serverinstanz das Feature für das Aussetzen der Abrechnung unterstützt, finden Sie in [Feature für das Aussetzen der Abrechnung anzeigen](/docs/vsi?topic=virtual-servers-viewing-suspend-billing-feature).
@@ -39,7 +40,7 @@ Dieses Feature ist in Rechenzentren auf der ganzen Welt verfügbar. Wenn Sie ein
 Sie können das Feature für das Aussetzen der Abrechnung als eine schnellere Alternative zum Bereitstellen und Freigeben von virtuellen Serverinstanzen verwenden.
 {:tip}
 
-Die Abrechnung wird nur ausgesetzt, wenn Sie die virtuelle Serverinstanz über das {{site.data.keyword.slportal_full}}, die CLI oder die {{site.data.keyword.slapi_short}} ausschalten. Wenn Sie die virtuelle Serverinstanz direkt über das Betriebssystem ausschalten, wird die Abrechnung für die betreffende Instanz nicht ausgesetzt.
+Die Abrechnung wird nur ausgesetzt, wenn Sie die virtuelle Serverinstanz über die {{site.data.keyword.cloud}}-Konsole, die CLI oder die {{site.data.keyword.slapi_short}} ausschalten. Wenn Sie die virtuelle Serverinstanz direkt über das Betriebssystem ausschalten, wird die Abrechnung für die betreffende Instanz nicht ausgesetzt.
 {:note}
 
 ## Bereitstellungsdetails
@@ -60,16 +61,19 @@ Es ist wichtig zu verstehen, welche Kosten bei Ausschalten der virtuellen Server
 
 | Ressource                      | Abrechnung stoppt   | Abrechnung läuft weiter |
 | ----------------------------- | ----------------- | ---------------- |
-| vCPU                          |          X        |                  |
-| RAM                           |          X        |                  |
-| Portgeschwindigkeit                    |          X        |                  |
-| Lizenzen des Betriebssystems     |          X        |                  |
-| Überwachung von Add-ons          |          X        |                  |
-| Sekundäre öffentl. IP-Adressen |                   |         X        |
-| Speicher                       |                   |         X        |
-{: caption="Tabelle 1. Details zur Abrechnung von Ressourcen" caption-side="top"}   
+| vCPU                          | ![Häkchensymbol](../../icons/checkmark-icon.svg) |                  |
+| RAM                           | ![Häkchensymbol](../../icons/checkmark-icon.svg) |                  |
+| Portgeschwindigkeit                    | ![Häkchensymbol](../../icons/checkmark-icon.svg) |                  |
+| Lizenzen des Betriebssystems     | ![Häkchensymbol](../../icons/checkmark-icon.svg) |                  |
+| Überwachung von Add-ons          | ![Häkchensymbol](../../icons/checkmark-icon.svg) |                  |
+| Sekundäre öffentl. IP-Adressen |                   | ![Häkchensymbol](../../icons/checkmark-icon.svg) |
+| Speicher                       |                   | ![Häkchensymbol](../../icons/checkmark-icon.svg) |
+{: row-headers}
+{: class="comparison-table"}
+{: caption="Tabelle 1. Details zur Abrechnung von Ressourcen" caption-side="top"}
+{: summary="This table has row and column headers. The row headers identify the resource. The column headers identify whether billing stops or persists when your instance is powered off. To understand whether billing stops or persists for a resource, navigate to the row in the table, and find the billing information you are interested in."}  
 
-Wenn Sie eine virtuelle Serverinstanz bereitstellen, die das Feature für das Aussetzen der Abrechnung unterstützt, wird die Verwendungsdauer sowohl bei Verwendung als auch bei Aussetzen pro Minute berechnet. Auch wenn Sie das Feature für das Aussetzen der Abrechnung nie durch Ausschalten der Instanz aufrufen, wird die Abrechnungssumme pro Minute des Lebenszyklus der Instanz berechnet.
+Wenn Sie eine virtuelle Serverinstanz bereitstellen, die das Feature für das Aussetzen der Abrechnung unterstützt, wird die Verwendungsdauer sowohl für die Verwendungszeit als auch für die Aussetzzeit pro Sekunde berechnet. Auch wenn Sie das Feature für das Aussetzen der Abrechnung nie durch Ausschalten der Instanz aufrufen, wird die Abrechnungssumme pro Sekunde des Lebenszyklus der Instanz berechnet.
 {:note}
 
 ### Mindestnutzungsgebühr
@@ -97,7 +101,7 @@ Alle öffentlichen IP-Adressen werden für Sie beibehalten, wenn die Abrechnung 
 
 ### Einschränkungen
 
-Virtuelle Serverinstanzen, für die die Abrechnung ausgesetzt ist, zählen weiterhin zum Einheitenkontingent des Kontos. Weitere Informationen zu Einschränkungen bei Instanzen finden Sie in [FAQs: Virtuelle Server](/docs/vsi?topic=virtual-servers-faqs-virtual-servers#concurrent).
+Virtuelle Serverinstanzen, für die die Abrechnung ausgesetzt ist, zählen weiterhin zum Einheitenkontingent des Kontos. Weitere Informationen zu Einschränkungen bei Instanzen finden Sie in [Häufig gestellte Fragen (FAQs): Virtuelle Server](/docs/vsi?topic=virtual-servers-faqs-virtual-servers#concurrent).
 
 ## Nächste Schritte
 Nach der Bereitstellung eines virtuellen Servers, der die ausgesetzte Abrechnung unterstützt, können Sie in der Einheit mit dem Aussetzen und Wiederaufnehmen der Abrechnung beginnen.

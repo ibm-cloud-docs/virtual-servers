@@ -23,4 +23,4 @@ Mithilfe von Sicherheitsgruppen für {{site.data.keyword.BluVirtServers}} könne
 eingehender und ausgehender Datenverkehr für öffentliche und private Schnittstellen einer virtuellen Serverinstanz abgewickelt wird. Eine Sicherheitsgruppe bildet eine Art virtuelle Firewall.
 {:shortdesc}
 
-Weitere Informationen zur Funktion der Sicherheitsgruppen finden Sie unter [Einführung in Sicherheitsgruppen](/docs/infrastructure/security-groups?topic=security-groups-getting-started-with-security-groups).
+Weitere Informationen zur Funktion der Sicherheitsgruppen finden Sie unter [Einführung in Sicherheitsgruppen](/docs/infrastructure/security-groups?topic=security-groups-getting-started).

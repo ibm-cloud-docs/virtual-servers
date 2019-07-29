@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-05"
+  years: 2017, 2019
+lastupdated: "2019-05-29"
 
 keywords: virtual servers, provisioning process, IBM Cloud Virtual Servers
 
@@ -25,10 +25,10 @@ subcollection: virtual-servers
 aus den virtuellen Serverimages Ihrer Wahl und in der geografischen Region bereitgestellt, die für Ihre Workloads geeignet ist.
 {:shortdesc}
 
-Lernen Sie unsere virtuellen Server in einer virtuellen privaten Cloud kennen! Weitere Informationen finden Sie im Abschnitt zu [IBM Cloud Virtual Server-Instanzen für eine VPC](/docs/vsi-is?topic=virtual-servers-is-gettingstartedvsigen#gettingstartedvsigen).
+Lernen Sie unsere virtuellen Server in einer virtuellen privaten Cloud kennen! Weitere Informationen finden Sie in [IBM Cloud Virtual Servers for Virtual Private Cloud](/docs/vpc-on-classic-vsi?topic=vpc-on-classic-vsi-getting-started).
 {:tip}
 
-Wenn Sie einen virtuellen Server erstellen, können Sie zwischen einer öffentlichen Umgebung (Multi-Tenant-Funktionalität) und einer dedizierten Umgebung (Einzel-Tenant-Funktionalität) wählen. Abhängig von der gewählten Umgebung müssen Sie dann auch auf Stundenbasis abzurechnende, auf Monatsbasis abzurechnende oder transiente virtuelle Server auswählen. Im Falle öffentlicher virtueller Server wählen Sie auch aus, ob SAN-basierter Speicher oder lokaler Speicher verwendet werden soll.
+Wenn Sie einen virtuellen Server in der klassischen Infrastruktur erstellen, können Sie zwischen einer öffentlichen Umgebung (Multi-Tenant-Funktionalität) und einer dedizierten Umgebung (Einzel-Tenant-Funktionalität) wählen. Abhängig von der gewählten Umgebung müssen Sie dann auch auf Stundenbasis abzurechnende, auf Monatsbasis abzurechnende oder transiente virtuelle Server auswählen. Im Falle öffentlicher virtueller Server wählen Sie auch aus, ob SAN-basierter Speicher oder lokaler Speicher verwendet werden soll.
 
 ## Vorbereitungen
 
@@ -51,7 +51,7 @@ Sie in den folgenden Abschnitten:
 
 Nachdem Sie sich für eine Bereitstellungsoption entschieden haben, können Sie mit dem Bereitstellungsprozess beginnen.
 
-|              Bereitstellungsanleitung                                         |  Beschreibung                                            |
+|              Bereitstellungsanweisungen                                        |  Beschreibung                                            |
 | -------------------------------------------------------------------------- | ------------------------------------------------------- |
 |[Öffentliche Instanzen bereitstellen](/docs/vsi?topic=virtual-servers-ordering-vs-public)                | Öffentliche Instanzen mit verschiedenen Optionen bereitstellen             |
 |[Transiente Instanzen bereitstellen](/docs/vsi?topic=virtual-servers-ordering-vs-transient)                | Transiente Instanzen mit verschiedenen Optionen bereitstellen            |
@@ -61,5 +61,5 @@ Nachdem Sie sich für eine Bereitstellungsoption entschieden haben, können Sie 
 
 ## Nächste Schritte
 
-Nachdem Ihr virtueller Server bereitgestellt wurde und verfügbar ist, können Sie Ihre virtuellen Server über das
-{{site.data.keyword.slportal_full}} oder über die {{site.data.keyword.slapi_full}} konfigurieren. Weitere Informationen finden Sie unter [Virtuelle Server konfigurieren](/docs/vsi?topic=virtual-servers-configuring-virtual-servers).
+Nachdem Ihr virtueller Server bereitgestellt wurde und einsatzbereit ist, können Sie Ihre virtuellen Server über die
+{{site.data.keyword.cloud_notm}}-Konsole oder über die {{site.data.keyword.slapi_short}} konfigurieren. Weitere Informationen finden Sie unter [Virtuelle Server konfigurieren](/docs/vsi?topic=virtual-servers-configuring-virtual-servers).

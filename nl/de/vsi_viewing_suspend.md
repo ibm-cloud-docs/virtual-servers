@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-03-01"
+lastupdated: "2019-05-28"
 
 subcollection: virtual-servers
 
@@ -13,21 +13,27 @@ subcollection: virtual-servers
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:note: .note}
 {:tip: .tip}
 {:table: .aria-labeledby="caption"}
 
 # Feature für das Aussetzen der Abrechnung anzeigen
 {: #viewing-suspend-billing-feature}
 
-Informationen darüber, ob die virtuelle Serverinstanz das Feature für das Aussetzen der Abrechnung unterstützt, können Sie über das {{site.data.keyword.slportal_full}} oder die {{site.data.keyword.slapi_short}} anzeigen.
+## Vorbereitungen
+Navigieren Sie zuerst zum Einheitenmenü und stellen Sie sicher, dass Sie über die korrekten Kontoberechtigungen verfügen, um die Task auszuführen. 
 
-## Feature für das Aussetzen der Abrechnung im Kundenportal anzeigen
-Führen Sie die folgenden Schritte aus, um über das {{site.data.keyword.slportal}} zu ermitteln, ob die virtuelle Serverinstanz das Feature für das Aussetzen der Abrechnung:
+* Navigieren Sie zum Einheitenmenü Ihrer Konsole. Weitere Informationen finden Sie in [Zu Einheiten navigieren](/docs/vsi?topic=virtual-servers-navigating-devices).
+* Vergewissern Sie sich, dass Sie über alle erforderlichen Kontoberechtigungen und Zugriff auf die Einheiten verfügen. Nur der Kontoeigner oder ein Benutzer mit der Berechtigung **Benutzer verwalten** der klassischen Infrastruktur kann die Berechtigungen anpassen. 
 
-1. Melden Sie sich beim [{{site.data.keyword.slportal}} ![Symbol für externen Link](../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window} mit Ihren eindeutigen Berechtigungsnachweisen an.
-2. Wählen Sie im Menü **Einheiten** die Option **Einheitenliste** aus.
-3. Klicken Sie in der **Einheitenliste** auf den Namen der virtuellen Serverinstanz.
-4. Auf der Registerkarte **Konfiguration** im Abschnitt **Allgemein** können Sie Informationen darüber anzeigen, ob die virtuelle Serverinstanz das Feature für das Aussetzen der Abrechnung unterstützt.
+Weitere Informationen zu Berechtigungen finden Sie in [Berechtigungen für klassische Infrastruktur](/docs/iam?topic=iam-infrapermission#infrapermission) und [Einheitenzugriff verwalten](/docs/vsi?topic=virtual-servers-managing-device-access).
+
+## Feature für das Aussetzen der Abrechnung anzeigen 
+Führen Sie die folgenden Schritte aus, um festzustellen, ob Ihre virtuelle Serverinstanz das Feature für das Aussetzen der Abrechnung unterstützt:
+
+1. Wählen Sie im Menü **Einheiten** die Option **Einheitenliste** aus. 
+2. Klicken Sie in der **Einheitenliste** auf den Namen der virtuellen Serverinstanz. 
+3. Im Abschnitt **Instanzdetails** können Sie feststellen, ob Ihre virtuelle Serverinstanz das Feature für das Aussetzen der Abrechnung unterstützt. 
 
 | Feld                                 | Wert                     |
 | --------------------------------------| ------------------------- |
@@ -39,7 +45,8 @@ Führen Sie die folgenden Schritte aus, um über das {{site.data.keyword.slporta
 
 Der folgende Befehl ist eine Beispielanforderung, mit der über die {{site.data.keyword.slapi_short}} verifiziert wird, ob die virtuelle Serverinstanz das Feature für das Aussetzen der Abrechnung unterstützt.
 
-**Hinweis**: Bei der folgenden JSON-Anforderung und -Antwort handelt es sich um ein generisches Beispiel.
+Bei der folgenden JSON-Anforderung und -Antwort handelt es sich um ein generisches Beispiel.
+{:note}
 
 ```
 curl -X GET \
@@ -57,5 +64,6 @@ Weitere Informationen finden Sie in der [SLDN-API-Dokumentation ![Symbol für ex
 ## Nächste Schritte
 
 Weitere Informationen zum Feature für das Aussetzen der Abrechnung finden Sie hier:
-1. [Informationen zur ausgesetzten Abrechnung](/docs/vsi?topic=virtual-servers-requirements)
-2. [Virtuelle Server verwalten](/docs/vsi?topic=virtual-servers-managing-virtual-servers)
+1. [Abrechnung aussetzen](/docs/vsi?topic=virtual-servers-about-suspend-billing#about-suspend-billing)
+2. [Virtuelle Server verwalten](/docs/vsi?topic=virtual-servers-managing-virtual-servers#managing-virtual-servers)
+

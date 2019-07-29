@@ -69,4 +69,7 @@ Nach dem Bereitstellen der reservierten Kapazität können Sie nun die reservier
 
 ## Nächste Schritte
 
-Nach dem Bereitstellen der von Ihnen reservierten virtuellen Serverkapazität und der virtuellen Serverinstanzen können Sie nun zur Verwaltung übergehen. Weitere Informationen finden Sie unter [Virtuelle Server verwalten](/docs/vsi?topic=virtual-servers-managing-virtual-servers). Bei Fragen zur reservierten Kapazität und zu reservierten Instanzen ziehen Sie den Abschnitt [Häufig gestellte Fragen (FAQs): Reservierte Kapazität und Instanzen](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances) zurate.
+Nachdem Ihr virtueller Server bereitgestellt wurde und einsatzbereit ist, können Sie Ihre virtuellen Server über die
+{{site.data.keyword.cloud_notm}}-Konsole oder über die {{site.data.keyword.slapi_short}} konfigurieren. Weitere Informationen finden Sie unter [Virtuelle Server konfigurieren](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).
+
+Bei Fragen zur reservierten Kapazität und zu reservierten Instanzen ziehen Sie den Abschnitt [Häufig gestellte Fragen (FAQs): Reservierte Kapazität und Instanzen](/docs/vsi?topic=virtual-servers-faqs-reserved-capacity-and-instances#faqs-reserved-capacity-and-instances) zurate. 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2017
-lastupdated: "2017-12-12"
+  years: 2014, 2019
+lastupdated: "2019-05-28"
 
 subcollection: virtual-servers
 
@@ -13,16 +13,20 @@ subcollection: virtual-servers
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:note: .note}
 {:table: .aria-labeledby="caption"}
 
 # Portgeschwindigkeit in Windows erhöhen (Upgrade)
 {: #upgrading-port-speed-in-windows}
 
-Die Standardportgeschwindigkeit für Kundenserver (sowohl für öffentliche als auch private Netze) beträgt 10 Mbps. Wenn Sie Ihre Portgeschwindigkeit auf 100 Mbps oder 1000 Mbps erhöhen möchten, öffnen Sie ein Ticket mit der Anforderung. Der Vertrieb bittet Sie, die Mindestgebühr zu bestätigen, und ein Techniker ändert die Portgeschwindigkeiten für Ihr Netz.
+Die Standardportgeschwindigkeit für Kundenserver (sowohl für öffentliche als auch private Netze) beträgt 10 Mbps. Wenn Sie Ihre Portgeschwindigkeit auf 100 Mbps oder 1000 Mbps erhöhen möchten, öffnen Sie ein Ticket mit der Anforderung. Der Vertrieb bittet Sie, die Mindestgebühr zu bestätigen, und ein Techniker ändert die Portgeschwindigkeiten für Ihr Netz. Weitere Informationen zum Öffnen eines IBM Support-Tickets finden Sie in [Support anfordern](/docs/get-support?topic=get-support-getting-customer-support).
 
 Führen Sie auf Ihrem Server eine feste Codierung der entsprechenden Netzschnittstellen durch, nachdem das Upgrade auf der Netzseite durchgeführt wurde.
 
-Führen Sie die folgenden Schritte durch, um die Portgeschwindigkeit auf einem Windows-Server zu erzwingen. **Hinweis:** Stellen Sie die Verbindung zu Ihrem Server immer in dem Netz her, an dem Sie gerade NICHT arbeiten, sodass Sie sich nicht selbst aus dem Server aussperren.
+Stellen Sie die Verbindung zu Ihrem Server immer in dem Netz her, an dem Sie gerade NICHT arbeiten, sodass Sie sich nicht selbst aus dem Server aussperren.
+{:note}
+
+Führen Sie die folgenden Schritte aus, um die Portgeschwindigkeit auf einem Windows-Server zu erzwingen. 
 
 1. Wählen Sie **Start > Systemsteuerung > Netzwerkverbindungen** aus.
 2. Klicken Sie auf die Netzverbindung, für die Sie ein Upgrade/Downgrade durchführen möchten.

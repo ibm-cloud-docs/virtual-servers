@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-08-23"
+  years: 2017, 2019
+lastupdated: "2019-06-04"
 
 subcollection: virtual-servers
 
@@ -11,6 +11,7 @@ subcollection: virtual-servers
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
+{:note: .note}
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
@@ -28,12 +29,12 @@ Serverressourcen stets für den beabsichtigen Verwendungszweck zur Verfügung st
 Firewalls sind als Add-on-Feature für alle Server im öffentlichen Infrastrukturnetz verfügbar.
 
 Im Rahmen des Bestellprozesses können Sie einheitenspezifische Hardware oder eine Software-Firewall
-auswählen, um Schutzfunktionen bereitzustellen. Alternativ können Sie dedizierte Firewall-Anwendungen
-in der Umgebung bereitstellen und den virtuellen Server in einem geschützten VLAN bereitstellen.  
+auswählen, um Schutzfunktionen bereitzustellen. Alternativ können Sie dedizierte Firewallanwendungen in der Umgebung bereitstellen und den virtuellen Server in einem geschützten VLAN bereitstellen.  
 
-**Hinweis:** Ein virtueller Server kann nicht durch zwei Firewall-Anwendungen in derselben Schnittstelle geschützt werden.
+Ein virtueller Server kann nicht durch zwei Firewallanwendungen in derselben Schnittstelle geschützt werden.
+{:note}
 
 Weitere Informationen können Sie den folgenden Themensammlungen zur Sicherheit entnehmen.
 
-* [Hardware-Firewalls (gemeinsam genutzt)](/docs/infrastructure/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started-with-hardware-firewall-shared)
-* [Hardware-Firewalls (dediziert)](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-getting-started-with-hardware-firewall-dedicated)
+* [Hardware-Firewalls (gemeinsam genutzt)](/docs/infrastructure/hardware-firewall-shared?topic=hardware-firewall-shared-about-hardware-firewall-shared-)
+* [Hardware-Firewalls (dediziert)](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-about-the-hardware-firewall-dedicated-)
