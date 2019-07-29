@@ -1,9 +1,16 @@
 ---
+
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-10-23"
+  years: 2014, 2019
+lastupdated: "2019-06-06"
+
+subcollection: virtual-servers
+
 ---
 
+{:note: .note}
+{:tip: .tip}
+{:important: .important}
 {:new_window: target="_blank"}
 
 # Speicheroptionen
@@ -23,11 +30,13 @@ Portierbarer Speicher stellt eine ideale Lösung dar, wenn Sie Daten, die in ein
 
 Alle sekundären Platten werden als portierbarer Speicher angehängt. In den meisten Fällen können diese sekundären Platten jederzeit abgehängt werden, um das Verschieben auf andere virtuelle Server zu ermöglichen.
 
-**Ausnahme:** Bei öffentlichen virtuellen Servern, die ausgeglichenen lokalen Speicher verwenden, können primäre oder sekundäre Platten nicht abgehängt werden.
+Bei öffentlichen virtuellen Servern, die ausgeglichenen lokalen Speicher verwenden, können primäre oder sekundäre Platten nicht abgehängt werden.
+{:important}
 
 Die Platten können erneut an einen anderen Server angehängt werden, sofern die Änderung nicht das Plattenkontingent oder die maximale Datenträgergröße des virtuellen Zielservers überschreitet.
 
-**Hinweise:** Die verschobene Platte wird an den Speichertyp des Zielservers angepasst.
+Die verschobene Platte wird an den Speichertyp des Zielservers angepasst.
+{:note}
 
 Wenn ein portierbarer Speicherdatenträger an einen virtuellen Server in einem anderen Rechenzentrum als der ursprüngliche virtuelle Server angehängt ist, kopiert das interne {{site.data.keyword.cloud_notm}}-System den Datenträger in das SAN im neuen Rechenzentrum. Das System überprüft daraufhin die Integrität des kopierten Datenträgers und entfernt den ursprünglichen portierbaren Datenträger aus dem ursprünglichen Rechenzentrum-SAN.
 
@@ -41,11 +50,11 @@ Virtuelle Server sind vollständig kompatibel mit {{site.data.keyword.filestorag
 
 Weitere Informationen zu Optionen mit ergänzendem Speicher finden Sie in den folgenden Ressourcen:
 
-* [Einführung in Blockspeicher](/docs/infrastructure/BlockStorage?topic=BlockStorage-GettingStarted)
-* [Einführung in Dateispeicher](/docs/infrastructure/FileStorage?topic=FileStorage-GettingStarted)
-* [Einführung in Objektspeicher](/docs/services/cloud-object-storage?topic=cloud-object-storage-about-ibm-cloud-object-storage#about-ibm-cloud-object-storage)
+* [Einführung in Blockspeicher](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started)
+* [Einführung in Dateispeicher](/docs/infrastructure/FileStorage?topic=FileStorage-getting-started)
+* [Einführung in Objektspeicher](/docs/services/cloud-object-storage?topic=cloud-object-storage-getting-started)
 
 ## Nächste Schritte
 Weitere Informationen zur Verwendung von portierbaren Speicherdatenträgern finden Sie unter den folgenden Tasks:
-* [Auf portierbaren Speicher zugreifen](/docs/vsi/storage?topic=virtual-servers-accessing-portable-storage)
-* [Beschreibung für portierbaren Speicher bearbeiten](/docs/vsi/storage?topic=virtual-servers-editing-a-portable-storage-description)
+* [Portierbaren Speicher verwalten](/docs/vsi?topic=virtual-servers-accessing-portable-storage#accessing-portable-storage)
+* [Beschreibung für portierbaren Speicher bearbeiten](/docs/vsi?topic=virtual-servers-editing-a-portable-storage-description#editing-a-portable-storage-description)
