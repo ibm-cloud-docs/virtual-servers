@@ -22,7 +22,7 @@ subcollection: virtual-servers
 # Managing servers
 {: #managing-virtual-servers}
 
-You can manage virtual servers, bare-metal servers, along with other devices, from the device details list.
+You can manage virtual servers, bare metal servers, along with other devices, from the device details list.
 {:shortdesc}
 
 ## Before you begin
