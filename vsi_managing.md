@@ -23,7 +23,6 @@ subcollection: virtual-servers
 {: #managing-virtual-servers}
 
 You can manage virtual servers, along with other devices, from the device details list.
->>>>>>> origin/master
 {:shortdesc}
 
 
