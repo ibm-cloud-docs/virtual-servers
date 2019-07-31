@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-05-17"
+lastupdated: "2019-07-30"
 
 subcollection: virtual-servers
 
@@ -63,6 +63,9 @@ You must be logged in to see all available options.
 
 If you choose any OS, control panel, or software add-ons, they must be compatible with your image to avoid an error when you are ordering your instance. For example, you can’t provision a Red Hat image with a Microsoft database.
 {:important}
+
+Depending on your instance billing type (hourly or monthly), some add-ons might not be available.
+{:tip}
 
 | Field     | Details     |
 | --------- | ----------- |
