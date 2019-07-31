@@ -22,7 +22,11 @@ subcollection: virtual-servers
 # Managing virtual servers
 {: #managing-virtual-servers}
 
+<<<<<<< HEAD
 You can manage virtual servers, along with other devices, from the device details list.
+=======
+You can manage virtual servers, bare metal servers, along with other devices, from the device details list.
+>>>>>>> origin/master
 {:shortdesc}
 
 
@@ -63,7 +67,11 @@ A reboot is very helpful when experiencing an issue in which the server cannot b
 {:tip}
 
 ## Power On/Off
+<<<<<<< HEAD
 If the device has been powered off, the device remains in the power off state and must be manually powered on by repeating the steps above. Users cannot interact with a device when a device is powered off. If the virtual server supports the suspend billing feature, billing is suspended for some compute resources. You cannot complete all management actions on an instance until billing is resumed. For more information, see [Suspend billing](/docs/vsi?topic=virtual-servers-about-suspend-billing#about-suspend-billing). To find out if your virtual server instance supports the suspend billing feature, see [Viewing suspend billing feature](/docs/vsi?topic=virtual-servers-viewing-suspend-billing-feature#viewing-suspend-billing-feature). If the device has been powered on, normal interaction can take place. It will remain on until further action is taken.
+=======
+If the device has been powered off, the device remains in the power off state and must be manually powered on by repeating [steps 1 to 4](#device-types). Users cannot interact with a device when a device is powered off. If the server supports the suspend billing feature, billing is suspended for some compute resources. You cannot complete all management actions on an instance until billing is resumed. For more information, see [Suspend billing](/docs/vsi?topic=virtual-servers-requirements). To find out if your server instance supports the suspend billing feature, see [Viewing suspend billing feature](/docs/vsi?topic=virtual-servers-viewing-suspend-billing-feature). If the device has been powered on, normal interaction can take place. It will remain on until further action is taken.
+>>>>>>> origin/master
 
 ## Rename
 After renaming the device, the name is automatically updated in the {{site.data.keyword.cloud_notm}} console. When performing a search within the {{site.data.keyword.cloud_notm}} console, use the new device name when attempting to locate content associated with it. Repeat the previous steps to rename the device again at any time.
