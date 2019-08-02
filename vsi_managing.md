@@ -59,7 +59,7 @@ Complete the following steps to perform management tasks for your servers.
 ## Reboot
 A reboot is one of the most basic device actions. Rebooting a device results in the immediate powering off and then back on of your device and is done for many reasons, often specific to the device or business needs of the individual user. Device reboots can take place from both the Device List and from the Device View of an individual device. Virtual Servers can be rebooted at any time.
 
-A reboot is very helpful when experiencing an issue in which the server cannot boot to the operating system because of a configuration issue.  You can also boot into the Rescue Kernel. After booting to the Rescue Kernel, you can mount the drive/drives of your server, and then fix the configuration issue. Once the issue has been fixed, just reboot the server from the command line, and the server will reboot into the default kernel for your server.
+A reboot is very helpful when experiencing an issue in which the server cannot boot to the operating system because of a configuration issue.  You can also boot into rescue mode. After booting to rescue mode, you can mount the drive/drives of your server, and then fix the configuration issue. Once the issue has been fixed, just reboot the server from the command line, and the server will reboot into the default kernel for your server.
 {:tip}
 
 ## Power On/Off

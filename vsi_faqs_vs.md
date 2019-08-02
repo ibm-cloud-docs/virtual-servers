@@ -91,7 +91,7 @@ When you provision a virtual server, you might receive an error message stating 
 ## How do I log in to my server?
 {: faq}
 
-Log in to your console and navigate to your **Devices** menu. For more information, see [Navigating to devices](/docs/vsi?topic=virtual-servers-navigating-devices). In the **Device List**, select your instance. You can view and manage the device user names and passwords to use to log in. For more information, see [Viewing and managing device user names and passwords](https://test.cloud.ibm.com/docs/vsi?topic=virtual-servers-view-update-user-name-password-for-device). 
+Log in to your console and navigate to your **Devices** menu. For more information, see [Navigating to devices](/docs/vsi?topic=virtual-servers-navigating-devices). In the **Device List**, select your instance. You can view and manage the device user names and passwords to use to log in. For more information, see [Viewing and managing device user names and passwords](https://test.cloud.ibm.com/docs/vsi?topic=virtual-servers-view-update-user-name-password-for-device).
 
 ## How do I use VPN to access the IBM Cloud private network?
 {: faq}
@@ -103,10 +103,10 @@ You can log in to the VPN through [the web interface](https://www.softlayer.com/
 
 Device reboots can take place from either the **Device List** or from the snapshot view of an individual instance. Navigate to your virtual server instance in the **Device List** in your console. For more information, see [Navigating to devices](/docs/vsi?topic=virtual-servers-navigating-devices). Select **Actions** for the device you want to manage and select **Reboot**.
 
-## How do I use Rescue Kernel?
+## How do I use rescue mode?
 {: faq}
 
-Booting into Rescue Kernel is helpful if you're experiencing an issue with the server. To launch Rescue Kernel, select the device name from the **Device List** in your console. In the **Actions** menu, select **Rescue mode** or select **Boot from image** for a Windows instance. For more information, see [Launching Rescue Kernel](/docs/vsi?topic=virtual-servers-launching-rescue).
+Booting into rescue mode is helpful if you're experiencing an issue with the server. To launch rescue mode, select the device name from the **Device List** in your console. In the **Actions** menu, select **Rescue mode** or select **Boot from image** for a Windows instance. For more information, see [Launching rescue mode](/docs/vsi?topic=virtual-servers-launching-rescue).
 
 ## Where do I find network status?
 {: faq}
@@ -117,4 +117,3 @@ You can access the **Status** page directly at [{{site.data.keyword.cloud_notm}}
 {: faq}
 
 For information about viewing or requesting compliance information, including SOC reports, see [How do I know that my data is safe?](/docs/overview?topic=overview-security)
-
