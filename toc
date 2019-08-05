@@ -57,7 +57,6 @@ IBM Cloud Virtual Servers
 
     {: .topicgroup}
     Related links
-        [Control Portal](https://control.softlayer.com/)
         [Maximize Control with Virtual Servers](https://www.ibm.com/blogs/bluemix/2017/08/maximize-control-ibm-bluemix-virtual-servers/)
     {: .navgroup-end}
 
@@ -161,7 +160,6 @@ IBM Cloud Virtual Servers
     {: .topicgroup}
     Related links
         [Virtual Machine Network Setup](/infrastructure/virtualization/Virtualization-setting-up-a-virtual-machine-network#setting-up-a-virtual-machine-network)
-        [Control Portal](https://control.softlayer.com/)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
