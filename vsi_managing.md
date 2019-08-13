@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-07-19"
+lastupdated: "2019-08-13"
 
 keywords: manage virtual servers, power off, replicate, manage device reload os, delete server, manage server
 
@@ -67,6 +67,9 @@ If the device has been powered off, the device remains in the power off state an
 
 ## Rename
 After renaming the device, the name is automatically updated in the {{site.data.keyword.cloud_notm}} console. When performing a search within the {{site.data.keyword.cloud_notm}} console, use the new device name when attempting to locate content associated with it. Repeat the previous steps to rename the device again at any time.
+
+## KVM console
+The KVM console is a Java applet. Java must be installed prior to accessing the console. If Java is installed, ensure that a connection is established using the VPN. If a connection is not established, a warning is displayed when attempting to connect to the KVM console that a VPN connection is required. If you have issues connecting to your KVM console, see [Why can I not connect to the KVM console?](/docs/vsi?topic=virtual-servers-faqs-servers-general-#why-can-i-not-connect-to-the-kvm-console-).
 
 ## Cancel
 If you cancel a device, you end use the of that device. Devices can be canceled immediately or on a billing anniversary. After you confirm the cancellation of your device, the action cannot be undone. Refunds cannot be given for immediate cancellations.
