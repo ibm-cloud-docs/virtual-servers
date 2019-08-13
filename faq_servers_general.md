@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-08-13"
 
 subcollection: virtual-servers
 
@@ -30,20 +30,20 @@ Boot from Image and Load from Image both utilize existing image templates, which
 ## Why can I not connect to the KVM console?
 {:faq}
 
-If you are unable to connect to the KVM console, review the troubleshooting tips below to assist in resolving the issue. Should additional issues occur, please contact support. For more information on contacting support, see [Getting help and support](/docs/vsi?topic=virtual-servers-gettinghelp#gettinghelp).
+If you are unable to connect to the KVM console, review these troubleshooting tips to assist in resolving the issue. Should additional issues occur, contact support. For more information on contacting support, see [Getting help and support](/docs/vsi?topic=virtual-servers-gettinghelp#gettinghelp).
 
    * The KVM console is a Java applet. Java must be installed prior to accessing the console. For more information on installing Java, see [Free Java Download ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.java.com/en/download/){: new_window}.  
-   * If Java is installed, ensure that a connection has been established using VPN. If a connection is not established, a warning is displayed when attempting to connect to the KVM console that a VPN connection is required.
-   * The KVM console may generate one or more pop-up boxes during the connection process. Enable pop-ups from the {{site.data.keyword.cloud_notm}} console to ensure a connection can be made.
-   * You may receive an error "Java applications are blocked by your security settings." For bare-metal iKVM devices, you must add an exception for the IP Address of the IPMI device. For VSI devices, be sure to allow "https://control.softlayer.com" and the IP address of the KVM. For more information, see [Why are Java applications blocked by your security settings with the latest Java? ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.java.com/en/download/help/java_blocked.xml){: new_window}.
+   * If Java is installed, ensure that a connection is established using VPN. If a connection is not established, a warning is displayed when attempting to connect to the KVM console that a VPN connection is required.
+   * The KVM console might generate one or more pop-up boxes during the connection process. Enable pop-ups from the {{site.data.keyword.cloud_notm}} console to ensure a connection can be made.
+   * You might receive an error "Java applications are blocked by your security settings." For bare metal iKVM devices, you must add an exception for the IP Address of the IPMI device. For virtual server instances, be sure to allow "https://cloud.ibm.com" and the IP address of the KVM. For more information, see [Why are Java applications blocked by your security settings with the latest Java? ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.java.com/en/download/help/java_blocked.xml){: new_window}.
    * If the above conditions have been met and you receive an error that states, "Missing required Permissions manifest in main.jar", then Java applets have not been enabled in the Java Control Panel. This setting was introduced as a security precaution from Oracle in Java SE v7. Enable applets in the Control Panel to resolve this issue.
 
      If using Mac OSX in conjunction with Google Chrome, refer to Information and System Requirements for Installing and Using Mac Java 7 on the Java website.
      {:note}
 
-   * If you are trying to connect to a VSI through the standard Java and are getting nothing but errors, you can also try using VNC.
+   * If you are trying to connect to a virtual server instance through the standard Java applet and are still experiencing errors, you can also try using the VNC viewer of your choice. As an example, you could use [TightVNC](https://www.tightvnc.com/docs.php){: external} for Windows or Linux or [TigerVNC](https://tigervnc.org/){: external} for Mac OSX, where you would input the KVM IP and port as `KVMIP::KVMPORT`. 
 
-If you have completed all of the checks above and still are unable to connect to the KVM console, contact Support for additional assistance in troubleshooting the issue. If a connection to the console has been made but issues occur connecting to the device, ensure the credentials being used to access the device are valid. Contact the account administrator to verify credentials, if necessary.
+If you have completed all of the checks above and still are unable to connect to the KVM console, contact support for additional assistance in troubleshooting the issue. If a connection to the console has been made but issues occur connecting to the device, ensure the credentials being used to access the device are valid. Contact the account administrator to verify credentials, if necessary.
 
 ## I lost my password to my server. How can I recover it?
 {:faq}
