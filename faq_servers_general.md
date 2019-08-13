@@ -13,6 +13,7 @@ subcollection: virtual-servers
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:external: target="_blank" .external}
 {:table: .aria-labeledby="caption"}
 
 
