@@ -26,5 +26,5 @@ Some third-party vendors provide images that include specific virtual server ins
 
 ## Next steps
 
-To provision a virtual server instance using a third-party image, see [Provisioning a virtual server instance from a third-party image](/docs/vsi?topic=virtual-servers-ordering-3P#ordering-3P).
+To provision a virtual server instance using a third-party image, see [Provisioning a virtual server instance from a third-party image](/docs/vsi?topic=virtual-servers-ordering-3P).
 
