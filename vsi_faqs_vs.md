@@ -22,9 +22,9 @@ subcollection: virtual-servers
 
 ## What types of virtual servers are available for use?
 {: faq}
-{{site.data.keyword.BluSoftlayer_full}} offers a couple types of virtual servers within its Classic Infrastructure. The standard offering is a public-based virtual server, which is a multi-tenant environment, suitable for a variety of needs. If you're looking for a single-tenant environment, consider the Dedicated Virtual Server offering. The dedicated virtual server option is ideal for applications with more stringent resource requirements. For more information about the current virtual server offerings see, [Getting started with virtual servers](/docs/vsi?topic=virtual-servers-getting-started-with-virtual-servers#getting-started-with-virtual-servers).
+{{site.data.keyword.BluSoftlayer_full}} offers a couple types of virtual servers within its Classic Infrastructure. The standard offering is a public-based virtual server, which is a multi-tenant environment, suitable for a variety of needs. If you're looking for a single-tenant environment, consider the Dedicated Virtual Server offering. The dedicated virtual server option is ideal for applications with more stringent resource requirements. For more information about the current virtual server offerings see, [Getting started with virtual servers](/docs/vsi?topic=virtual-servers-getting-started-tutorial).
 
-IBM Cloud offers the Virtual Private Cloud (VPC) Infrastructure, which is the next generation cloud platform. You create your own space in the {{site.data.keyword.cloud_notm}} to run an isolated environment within the public cloud by using VPC. VPC provides the security of a private cloud with the agility and ease of a public cloud. For more information, see [About Virtual Private Cloud](https://cloud.ibm.com/docs/vpc-on-classic?topic=vpc-on-classic-about).
+IBM Cloud offers the Virtual Private Cloud (VPC) Infrastructure, which is the next generation cloud platform. You create your own space in the {{site.data.keyword.cloud_notm}} to run an isolated environment within the public cloud by using VPC. VPC provides the security of a private cloud with the agility and ease of a public cloud. For more information, see [About Virtual Private Cloud](/docs/vpc-on-classic?topic=vpc-on-classic-about).
 
 ## Where can I find pricing information for public instance types?
 {: faq}
@@ -34,12 +34,12 @@ For pricing information, see [Build your virtual server ![External link icon](..
 ## Where can I find pricing information for virtual public instances?
 {: faq}
 
-Estimating your cost for an {{site.data.keyword.cloud_notm}} server to support your workload begins in the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog){: external}. From the catalog, select **Compute** and choose the server type - Bare Metal Server, Virtual Server, or Virtual Server for VPC (Virtual Private Cloud). For pricing information, see the [Virtual servers provisioning calculator ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud-computing/bluemix/virtual-servers/calculator){: new_window}.
+Estimating your cost for an {{site.data.keyword.cloud_notm}} server to support your workload begins in the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog){: external}. From the catalog, select **Compute** and choose the server type - Bare Metal Server, Virtual Server, or Virtual Server for VPC (Virtual Private Cloud). For pricing information, see the [Virtual servers provisioning calculator ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/virtual-servers/calculator/){: new_window}.
 
 ## Can I add disk storage to my hourly or monthly virtual server?
 {: faq}
 
-You can upgrade or downgrade disk storage for any virtual server by updating your storage options in the *First Disk* through *Fifth Disk* fields in the *Configuration* screen of the device you want to update. For more information, see [Reconfiguring an existing virtual server](/docs/vsi?topic=virtual-servers-reconfiguring-virtual-servers#reconfiguring-virtual-servers).
+You can upgrade or downgrade disk storage for any virtual server by updating your storage options in the *First Disk* through *Fifth Disk* fields in the *Configuration* screen of the device you want to update. For more information, see [Reconfiguring an existing virtual server](/docs/vsi?topic=virtual-servers-reconfiguring-virtual-servers).
 
 ## How many hourly virtual servers can I start?
 {: #concurrent}
@@ -74,7 +74,7 @@ When storage is deleted, any pointers to the data on that volume are removed, th
 ## Can I use a Red Hat Cloud Access subscription to create a virtual server?
 {: faq}
 
-Yes. When you import an image, you can specify that you will provide the operating system license. For more information, see [Use Red Hat Cloud Access](/docs/infrastructure/image-templates?topic=image-templates-using-your-own-os-license-or-subscription#using-your-own-os-license-or-subscription). Then you can order a virtual server from that image template and use your existing [Red Hat Cloud Access ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.redhat.com/en/technologies/cloud-computing/cloud-access){: new_window} subscription.
+Yes. When you import an image, you can specify that you will provide the operating system license. For more information, see [Use Red Hat Cloud Access](/docs/infrastructure/image-templates?topic=image-templates-using-your-own-os-license-or-subscription). Then you can order a virtual server from that image template and use your existing [Red Hat Cloud Access ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.redhat.com/en/technologies/cloud-computing/cloud-access){: new_window} subscription.
 
 ## What is the difference between a virtual server and a virtual private server (VPS)?
 {: faq}
@@ -86,12 +86,12 @@ Virtual servers are provisioned on a multi-server cloud architecture that pools 
 ## Why do I receive a capacity error when provisioning a virtual server?
 {: faq}
 
-When you provision a virtual server, you might receive an error message stating that there is insufficient capacity to complete the request. When provisioning fails, all the virtual server instances within that particular request fail. A capacity error occurs when there are insufficient resources available in the router or data center to fulfill the service request. There are a number of reasons that you might receive this error. Resource availability changes frequently, so you might wait and try again later. For more information on strategies to avoid this error, see [Resource considerations for virtual server instances](/docs/vsi?topic=virtual-servers-capacity-considerations#capacity-considerations).
+When you provision a virtual server, you might receive an error message stating that there is insufficient capacity to complete the request. When provisioning fails, all the virtual server instances within that particular request fail. A capacity error occurs when there are insufficient resources available in the router or data center to fulfill the service request. There are a number of reasons that you might receive this error. Resource availability changes frequently, so you might wait and try again later. For more information on strategies to avoid this error, see [Resource considerations for virtual server instances](/docs/vsi?topic=virtual-servers-capacity-considerations).
 
 ## How do I log in to my server?
 {: faq}
 
-Log in to your console and navigate to your **Devices** menu. For more information, see [Navigating to devices](/docs/vsi?topic=virtual-servers-navigating-devices). In the **Device List**, select your instance. You can view and manage the device user names and passwords to use to log in. For more information, see [Viewing and managing device user names and passwords](https://test.cloud.ibm.com/docs/vsi?topic=virtual-servers-view-update-user-name-password-for-device).
+Log in to your console and navigate to your **Devices** menu. For more information, see [Navigating to devices](/docs/vsi?topic=virtual-servers-navigating-devices). In the **Device List**, select your instance. You can view and manage the device user names and passwords to use to log in. For more information, see [Viewing and managing device user names and passwords](/docs/vsi?topic=virtual-servers-view-update-user-name-password-for-device).
 
 ## How do I use VPN to access the IBM Cloud private network?
 {: faq}
@@ -116,4 +116,4 @@ You can access the **Status** page directly at [{{site.data.keyword.cloud_notm}}
 ## How do I request a compliance report?
 {: faq}
 
-For information about viewing or requesting compliance information, including SOC reports, see [How do I know that my data is safe?](/docs/overview?topic=overview-security)
+For information about viewing or requesting compliance information, including SOC reports, see [How do I know that my data is safe?](/docs/overview?topic=overview-security).
