@@ -44,12 +44,12 @@ Triggers are conditionals that can be satisfied (only when the group is active).
 ## What is the Maximum Member Count?
 {: faq}
 
-It's the most members that a group allows to be present. For more information, see [Maximum VSI Member Count](/docs/vsi?topic=virtual-servers-auto-scale-terminology).
+It's the most members that a group allows to be present. For more information, see [Maximum Member Count](/docs/vsi?topic=virtual-servers-auto-scale-terminology).
 
 ## What is Minimum Member Count?
 {: faq}
 
-It's the fewest members that a group allows to be present. For more information, see [Minimum VSI Member Count](/docs/vsi?topic=virtual-servers-auto-scale-terminology).
+It's the fewest members that a group allows to be present. For more information, see [Minimum Member Count](/docs/vsi?topic=virtual-servers-auto-scale-terminology).
 
 ## What is an auto scale asset?
 {: faq}
