@@ -33,7 +33,7 @@ First, navigate to the device menu and ensure you have the correct account permi
 For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access).
 
 ## Managing a device in snapshot view
-{: #managing-a-device-in-snapshot-view}
+{: #managing-device-snapshot-view}
 
 1. From the **Devices** menu, select **Device List**.
 2. Click the arrow next to the device that you want to expand into snapshot view.
