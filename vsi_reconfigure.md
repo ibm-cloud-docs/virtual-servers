@@ -32,6 +32,8 @@ You cannot modify the individual core, RAM, or disk size of a virtual server tha
 Dedicated virtual servers are more customizable than public virtual servers; therefore, you can modify the individual cores, RAM, and disk sizes.
 
 ## Before you begin
+{: #before-you-begin-reconfiguring-virtual-server}
+
 First, navigate to the device menu, and make sure that you have the correct account permissions to complete the tasks.
 
 * Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/vsi?topic=virtual-servers-navigating-devices).
@@ -41,6 +43,7 @@ For more information about permissions, see [Classic infrastructure permissions]
 
 ## Resizing an existing virtual server 
 {: #resizing-an-existing-virtual-server}
+
 Complete the following steps to resize an existing virtual server that uses pre-set profiles.
 
 1. From the **Devices** menu, select **Device List**.
