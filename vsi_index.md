@@ -30,6 +30,7 @@ Try our virtual servers on a virtual private cloud! For more information, see [I
 When you create a virtual server in the classic infrastructure, you can choose between a public (multi-tenancy) environment or a dedicated (single-tenancy) environment. Then, depending on the chosen environment, you must also select hourly, monthly, or transient virtual servers. In the case of public virtual servers, you also choose to use either SAN-based storage or local storage.
 
 ## Before you begin
+{: #before-you-begin-virtual-servers}
 
 Before you begin, review the following prerequisites.
 
@@ -45,6 +46,7 @@ Before you begin, review the following prerequisites.
 {: caption="Table 1. Deployment options" caption-side="top"}   
 
 ## Provisioning a virtual server
+{: #provisioning-a-virtual-server-getting-started}
 
 After you decide upon a deployment option, begin the provisioning process.
 
@@ -57,6 +59,7 @@ After you decide upon a deployment option, begin the provisioning process.
 {: caption="Table 2. Provisioning information" caption-side="top"}
 
 ## Next steps
+{: #next-steps-getting-started}
 
 After your virtual server is provisioned and available to use, you can configure your virtual servers by using the
 {{site.data.keyword.cloud_notm}} console or {{site.data.keyword.slapi_short}}. For more information, see [Configuring virtual servers](/docs/vsi?topic=virtual-servers-configuring-virtual-servers).
