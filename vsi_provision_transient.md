@@ -22,6 +22,8 @@ subcollection: virtual-servers
 {: #ordering-vs-transient}
 
 ## Before you begin
+{: #before-you-begin-provisioning-transient}
+
 You have two options to provision your transient virtual server instances. The first is through the {{site.data.keyword.cloud}} console and the second is through the {{site.data.keyword.slportal}}. The console and {{site.data.keyword.slportal}} require unique log-in IDs. You can't use your console user name and password to log in to the portal and vice versa.
 {:shortdesc}
 
@@ -45,6 +47,7 @@ You must be logged in to see all available options.
 {:tip}
 
 ### Transient instance
+{: #transient-instance}
 
 | Field    | Details     |
 | -------- | ----------- |
@@ -59,7 +62,8 @@ You must be logged in to see all available options.
 | Image        |  An image is the deployed operating system for your instance. You can select a number of free options such as CentOS and Ubuntu. Paid options such as Windows Server and Red Hat Enterprise Linux (RHEL) are also available. It's important to note that Windows requires a 100 GB primary disk. |
 {: caption="Table 1. Transient instance options" caption-side="top"}
 
-### Transient instance add-ons 
+### Transient instance add-ons
+{: #transient-instance-add-ons}
 
 If you choose any software add-ons, they must be compatible with your image to avoid an error when you are ordering your instance. For example, you can’t provision a RedHat image with a Microsoft database.
 {:important}
@@ -73,10 +77,12 @@ If you choose any software add-ons, they must be compatible with your image to a
 {: caption="Table 2. Transient instance add-ons" caption-side="top"}
 
 ### Attached storage disks
+{: #attached-storage-disks-transient}
 
 If you need extra storage, you can attach storage disks to your instance. The type of storage disks that are available to you depend on the profile that you select. 
 
 ### Network interface
+{: #network-interface-transient}
 
 | Field    | Details     |
 | -------- | ----------- |
@@ -87,6 +93,7 @@ If you need extra storage, you can attach storage disks to your instance. The ty
 {: caption="Table 3. Network interface options" caption-side="top"}
 
 ### Network interface add-ons
+{: #network-interface-add-ons-transient}
 
 | Field    | Details     |
 | -------- | ----------- |
@@ -99,6 +106,8 @@ If you need extra storage, you can attach storage disks to your instance. The ty
 {: caption="Table 4. Network interface add-ons" caption-side="top"}
 
 ## Provisioning transient virtual server instances through the customer portal
+{: #provisioning-transient-virtual-server-instances-through-the-customer-portal}
+
 To provision a transient virtual server instance through the {{site.data.keyword.slportal}}, complete the following steps:
 
   1. Log in to the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
@@ -114,6 +123,8 @@ You can also provision a transient virtual server by using the {{site.data.keywo
 {:tip}
 
 ## Next steps
+{: #next-steps-provisioning-transient}
+
 A series of emails are sent to your administrator: acknowledgment of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email includes a link to your *Device Details* page.
  
 After your virtual server is provisioned and available to use, you can configure your virtual servers by using the
