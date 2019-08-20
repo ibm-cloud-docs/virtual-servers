@@ -67,6 +67,7 @@ The offering is available in the following profiles:
 {: caption="Table 2. Balanced profiles with network-attached storage" caption-side="top"}
 
 ### Storage notes
+{: #storage-notes-balanced}
 
 * SAN primary boot disk (25 or 100GB) with additional disks available, up to 2 TB each (five total disks allowed).
 * Pricing for public virtual servers using SAN storage includes virtual CPU, memory, and minimum primary boot disk. Extra disk prices depend on the disk size and quantity that you select.  
@@ -188,6 +189,8 @@ The offering is available in various profiles and data centers, with the followi
 </table>
 
 #### Storage notes
+{: #storage-notes-local-hdd}
+
 * <sup>(*)</sup>Balanced local profiles automatically come with a 100 GB local storage boot disk. Then, you can select a second disk (options shown in Table 3). Any additional local disks are optional. If you require over 500 GB, then two additional disks are required (for example, 8 cores require 2 x 250 GB of local storage).
 *	Maximum local storage is limited by cores. 
 *	Balanced local storage is globally available; however, the type of storage (local SSD or local HDD) depends on the data center location. 
@@ -331,6 +334,8 @@ All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and othe
 </table>
 
 #### Storage notes
+{: #storage-notes-local-ssd}
+
 * <sup>(*)</sup>Balanced local profiles automatically come with a 100 GB local storage boot disk. Then, you can select a second disk (options shown in table above). Any additional local disks are optional. If you require over 500 GB, then two additional disks are required (for example, 8 cores require 2 x 250 GB of local storage).
 *	Maximum local storage is limited by cores. 
 *	Balanced local storage is globally available; however, the type of storage (local SSD or local HDD) depends on the data center location. 
@@ -396,6 +401,8 @@ The offering is available in the following profiles:
 {: caption="Table 11. Compute profiles" caption-side="top"}
 
 ### Storage notes
+{: #storage-notes-compute}
+
 * SAN primary boot disk (25 or 100 GB) with additional disks available, up to 2 TB each (five total disks allowed).
 * Pricing for public virtual servers using SAN storage includes virtual CPU, memory, and minimum primary boot disk. Extra disk prices depend on the disk size and quantity that you select.  
 
@@ -424,6 +431,8 @@ The offering is available in the following profiles:
 {: caption="Table 12. Memory profiles" caption-side="top"}
 
 ### Storage notes
+{: #storage-notes-memory}
+
 * SAN primary boot disk (25 or 100 GB) with additional disks available, up to 2 TB each (5 total disks allowed).
 * Pricing for public virtual servers using SAN storage includes virtual CPU, memory, and minimum primary boot disk. Additional disk prices depend on the disk size and quantity that you select.  
 
@@ -632,6 +641,8 @@ You can also choose V100 GPUs. The following data centers support V100 GPU profi
 <br>
 
 ### GPU prerequisites
+{: #gpu-prerequisites}
+
 Review the following GPU prerequisites.
 
 1. GPU profile virtual servers are only available on an operating system that supports Hardware Virtual Machine (HVM) boot mode. See the following list for operating systems that support HVM boot mode.  
@@ -650,6 +661,8 @@ The software that you install might have prerequisite software and operating sys
 {: note}
 
 ### Adding or removing GPUs 
+{: #adding-or-removing-gpus}
+
 You can change the number of GPUs on your virtual server after your initial order. But, that depends on how many GPUs you provisioned. You have one of the following options.
 
 - If one GPU is provisioned, you can add another GPU, or
