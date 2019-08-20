@@ -49,6 +49,7 @@ Reserved virtual server instances are public instances that use SAN-backed stora
 {: caption="Table 1. Public virtual server family selections" caption-side="top"}
 
 ## Limitations 
+{: #limitations-reserved-virtual-servers}
 
 Consider the following limitations before reserving capacity and provisioning reserved virtual server instances:
   
@@ -56,10 +57,12 @@ Consider the following limitations before reserving capacity and provisioning re
   * Reserved capacity cannot be canceled; however, you can reclaim virtual server instances in that capacity.
     
 ## Notifications
+{: #notifications-reserved-virtual-servers}
 
 You will receive an email notification one month before the end of the term on your reserved virtual server capacity.
 
 ## Next steps
+{: #next-steps-reserved-virtual-servers}
 
 After you've reviewed and decided on your options, it's time to provision your reserved capacity and instances. To get started, review the following information:
 
