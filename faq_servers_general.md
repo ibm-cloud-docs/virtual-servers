@@ -21,6 +21,7 @@ subcollection: virtual-servers
 {: #faqs-servers-general-}
 
 ## What is the difference between "Boot from Image" and "Load from Image"?
+{: #what-is-the-difference-between-boot-from-image-and-load-from-image-}
 {:faq}
 
 Boot from Image and Load from Image both utilize existing image templates, which are applied to a device to either replace the existing operating system or to supplement the operating system in an attempt to remedy an existing issue. The main difference between the Boot and Load process is the type of image that is used. When performing either the Boot or Load from Image process, ensure you have backed up all data you may want to recover.
@@ -29,14 +30,15 @@ Boot from Image and Load from Image both utilize existing image templates, which
    * Load from Image is a method of OS Reload that utilizes an image template that has either been captured from a device or uploaded using the *Image Import* feature in the {{site.data.keyword.cloud_notm}} console. The *Load from Image* option performs the reload using a VHD, which wipes the device of all data and replaces the existing operating system and files with a "like new" version of the selected image.
 
 ## Why can I not connect to the KVM console?
+{: #why-can-i-not-connect-to-the-kvm-console-}
 {:faq}
 
 If you are unable to connect to the KVM console, review these troubleshooting tips to assist in resolving the issue. Should additional issues occur, contact support. For more information on contacting support, see [Getting help and support](/docs/vsi?topic=virtual-servers-gettinghelp#gettinghelp).
 
-   * The KVM console is a Java applet. Java must be installed prior to accessing the console. For more information on installing Java, see [Free Java Download ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.java.com/en/download/){: new_window}.  
+   * The KVM console is a Java applet. Java must be installed prior to accessing the console. For more information on installing Java, see [Free Java Download](https://www.java.com/en/download/){: external}.  
    * If Java is installed, ensure that a connection is established using VPN. If a connection is not established, a warning is displayed when attempting to connect to the KVM console that a VPN connection is required.
    * The KVM console might generate one or more pop-up boxes during the connection process. Enable pop-ups from the {{site.data.keyword.cloud_notm}} console to ensure a connection can be made.
-   * You might receive an error "Java applications are blocked by your security settings." For bare metal iKVM devices, you must add an exception for the IP Address of the IPMI device. For virtual server instances, be sure to allow "https://cloud.ibm.com" and the IP address of the KVM. For more information, see [Why are Java applications blocked by your security settings with the latest Java? ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.java.com/en/download/help/java_blocked.xml){: new_window}.
+   * You might receive an error "Java applications are blocked by your security settings." For bare metal iKVM devices, you must add an exception for the IP Address of the IPMI device. For virtual server instances, be sure to allow "https://cloud.ibm.com" and the IP address of the KVM. For more information, see [Why are Java applications blocked by your security settings with the latest Java?](https://www.java.com/en/download/help/java_blocked.xml){: external}.
    * If the above conditions have been met and you receive an error that states, "Missing required Permissions manifest in main.jar", then Java applets have not been enabled in the Java Control Panel. This setting was introduced as a security precaution from Oracle in Java SE v7. Enable applets in the Control Panel to resolve this issue.
 
      If using Mac OSX in conjunction with Google Chrome, refer to Information and System Requirements for Installing and Using Mac Java 7 on the Java website.
@@ -47,6 +49,7 @@ If you are unable to connect to the KVM console, review these troubleshooting ti
 If you have completed all of the checks above and still are unable to connect to the KVM console, contact support for additional assistance in troubleshooting the issue. If a connection to the console has been made but issues occur connecting to the device, ensure the credentials being used to access the device are valid. Contact the account administrator to verify credentials, if necessary.
 
 ## I lost my password to my server. How can I recover it?
+{: #i-lost-my-password-to-my-server-how-can-i-recover-it-}
 {:faq}
 
 If the root or administrator password to your server is suddenly not working, check the following items. If necessary, use the instructions to launch rescue mode and reset your password.
@@ -59,11 +62,13 @@ If the root or administrator password to your server is suddenly not working, ch
 If these have all been checked and you are still unable to connect to the server using the password, please contact support using a ticket and request a password reset. Support will need to reboot the server in order to reset the password, so please ensure that you are prepared to approve the reboot and/or provide a maintenance time frame in which you would like it done. Most password resets can be accomplished in 15 minutes. In the {{site.data.keyword.cloud_notm}} console, you can create a ticket by going to **Support > Create a case** and use the subject *Accounts & access*.
 
 ## Are LVM partitions supported as a valid filesystem?
+{: #are-lvm-partitions-supported-as-a-valid-filesystem-}
 {:faq}
 
 LVM (Logical Volume Management) provides logical management of file systems in Linux. In the {{site.data.keyword.BluSoftlayer}} environment, LVM is not supported as a bootable partitioning scheme. Virtual server instances cannot be ordered with LVM, and importing images that use LVM as a boot partition will fail to provision. If you require LVM on the boot partition, the bare metal offering can support LVM on boot for certain operating systems. With proper OS support and configuration, secondary VSI Disks can be used for LVM partitions; however, it is important to note that LVM is not a supported filesystem for Flex Image or Image Templates. If you have further questions, please open a ticket with the support team who can assist you.
 
-## Preconfigured 161.26.0.0/16 Routes on Customer Hosts
+## Preconfigured 161.26.0.0/16 routes on customer hosts
+{: #preconfigured-161-26-0-0-16-routes-on-customer-hosts}
 {:faq}
 
 {{site.data.keyword.BluSoftlayer_notm}} is enabling a new route on all newly provisioned servers to support future products.
@@ -73,6 +78,7 @@ LVM (Logical Volume Management) provides logical management of file systems in L
    * ACLs on customer servers, virtual servers, and Vyatta gateways will need to be updated to allow customer's hosts to use Infrastructure services configured with IP addresses out of this range.
 
 ## How to add the new routing for various OSes
+{: #how-to-add-the-new-routing-for-various-oses}
 {:faq}
 
    <table>
@@ -163,11 +169,13 @@ LVM (Logical Volume Management) provides logical management of file systems in L
    <a name="top"></a>
 
 ## Can I have the monitoring system issue an automatic reboot AND alert a support technician in the event that the server stops responding?
+{: #can-i-have-the-monitoring-system-issue-an-automatic-reboot-and-alert-a-support-technician-in-the-event-that-the-server-stops-responding-}
 {:faq}
 
-Yes, with the order of our **Automated Reboot from Monitoring Failure** service, you can set up the monitoring system to automatically reboot the server and issue a ticket for a support technician if a monitoring alert is issued. As an additional service, we provide **NOC Monitoring**, in which you will receive personal notification in the event a monitoring issue occurs. To learn more about both of these offerings, please refer to [Server Monitoring ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/infrastructure/monitoring?cm_mc_uid=46846454197915580355142&cm_mc_sid_50200000=71138741559658182022){:new_window}.
+Yes, with the order of our **Automated Reboot from Monitoring Failure** service, you can set up the monitoring system to automatically reboot the server and issue a ticket for a support technician if a monitoring alert is issued. As an additional service, we provide **NOC Monitoring**, in which you will receive personal notification in the event a monitoring issue occurs. To learn more about both of these offerings, please refer to [Server Monitoring](https://www.ibm.com/cloud/infrastructure/monitoring?cm_mc_uid=46846454197915580355142&cm_mc_sid_50200000=71138741559658182022){: external}.
 
 ## What is a cvsup mirror?
+{: #what-is-a-cvsup-mirror-}
 {:faq}
 
 You can update against a local cvsup mirror that was run for you. Ensure your supfile has the following entry:
