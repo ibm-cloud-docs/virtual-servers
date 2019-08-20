@@ -39,6 +39,7 @@ Complete the following steps to force the port speed on a Windows server.
 5. If the IP addresses do not match up, repeat steps 1-3 for the other Network Connection.
 
 ## LAN Status
+{: #lan-status}
 
 Select the **General Tab** again, and then select **Properties.** A new window appears.
 
