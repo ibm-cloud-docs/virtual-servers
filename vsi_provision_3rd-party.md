@@ -24,17 +24,23 @@ You can provision a virtual server instance from an image that was created by a 
 {:shortdesc}
 
 ## Before you begin
+{: #before-you-begin-third-party-image}
+
 Before you begin, ensure that you have your {{site.data.keyword.cloud_notm}} catalog credentials set up.
 
 For the {{site.data.keyword.Bluemix_notm}} catalog, you must have an upgraded account to order virtual servers. For more information about upgrading your account, see [Switching to IBMid](/docs/account?topic=account-unifyingaccounts#unifyingaccounts).
 {:note}
 
 ## Selecting a virtual server image
+{: #selecting-a-virtual-server-image}
+
 1. Log in to the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/){: new_window} by using your unique credentials.
 2. In the **Compute** section, locate the **Cloud Images** section and click the third-party image you want to deploy.
 3. Review the custom image details and click **Continue**. The **Virtual server instance - custom image** page is displayed with your custom image pre-selected.
 
 ## Reviewing and choosing your deployment options
+{: #reviewing-and-choosing-your-deployment-options}
+
 For more information, see the following topics:
 
 |              Deployment options                           |  Description                                        |
@@ -46,6 +52,8 @@ For more information, see the following topics:
 {: caption="Table 1. Deployment options" caption-side="top"}
 
 ## Provisioning a virtual server
+{: #provisioning-a-virtual-server-third-party-image}
+
 After you decide upon a deployment option, begin the provisioning process. For more information, refer to the following topics.
 
 Because you started the provisioning process with a third-party image, you cannot change the image type during the provisioning process.
@@ -61,5 +69,7 @@ Because you started the provisioning process with a third-party image, you canno
 
 
 ## Next steps
+{: #next-steps-provisioning-third-party}
+
 After your virtual server is provisioned and available to use, you can configure your virtual servers by using the
 {{site.data.keyword.cloud_notm}} console or {{site.data.keyword.slapi_short}}. For more information, see [Configuring virtual servers](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).
