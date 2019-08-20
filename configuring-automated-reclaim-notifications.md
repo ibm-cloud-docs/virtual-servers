@@ -33,6 +33,7 @@ The `reclaim-scheduled` notification is a webhook, which means the notification 
 Transient virtual servers can be provisioned through the {{site.data.keyword.cloud_notm}} console, {{site.data.keyword.slportal}}, or through the [SLDN API ![External link icon](../icons/launch-glyph.svg "External link icon")](http://sldn.softlayer.com){: new_window}. For more information, see [Provisioning transient instances](/docs/vsi?topic=virtual-servers-ordering-vs-transient#ordering-vs-transient).
 
 ## Setting up the webhook
+{: #setting-up-the-webhook}
 
 To set up the webhook, you need to assign the following parameters to the transient virtual server instance by using the SLDN API:
 
@@ -51,6 +52,7 @@ The transient virtual server webhook can be set up through the SLDN API by using
 For more information, see the SLDN API method documentation for [webhook set-up ![External link icon](../icons/launch-glyph.svg "External link icon")](http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/setTransientWebhook/){: new_window}.
 
 ### Canceling reclaim-scheduled notifications
+{: #canceling-reclaim-scheduled-notifications}
 
 To cancel the `reclaim-scheduled` notifications, call the following SLDN API method:
 
@@ -59,6 +61,7 @@ To cancel the `reclaim-scheduled` notifications, call the following SLDN API met
 For more information, see the SLDN API method documentation for [canceling notifications ![External link icon](../icons/launch-glyph.svg "External link icon")](http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/deleteTransientWebhook/){: new_window}.
 
 ## Verifying the webhook requests
+{: #verifying-the-webhook-requests}
 
 To verify `reclaim-scheduled` notifications, review the following items:
 
@@ -75,6 +78,7 @@ To verify `reclaim-scheduled` notifications, review the following items:
    This value is a string that is hashed by using the HMAC-SHA256 algorithm that uses the provided secret string as the key, and then encoded into Base64. You need to construct the string, hash it, encode it to Base64, and then compare the result to the signature in the "Authorization" header. If they do not match, do not accept the request. See next section for details on creating the HMAC signature.
 
 ### Comparing the HMAC signatures
+{: #comparing-the-hmac-signatures}
 
 To verify the HMAC signature that is located in the request's "Authorization" header, you need to create a comparison string. Complete the following steps to create the string:
 
@@ -101,6 +105,7 @@ To verify the HMAC signature that is located in the request's "Authorization" he
   Use a timing-attack safe string comparison function. If the strings do not match, do not accept the request.
 
 ## Anatomy of the `reclaim-scheduled` notification request payload
+{: #anatomy-of-the-reclaim-scheduled-notification-request-payload}
 
 The request that is sent from the transient virtual server webhook is like any HTTP request in that it has headers and a payload. The payload is a JSON formatted string in the following form:
 
@@ -116,6 +121,7 @@ The request that is sent from the transient virtual server webhook is like any H
 
 
 ## Code examples for creating the HMAC signature
+{: #code-examples-for-creating-the-hmac-signature}
 
 Python:
 
