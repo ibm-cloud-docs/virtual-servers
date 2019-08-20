@@ -22,6 +22,8 @@ subcollection: virtual-servers
 You can modify the speed that your server is negotiating at without opening a support ticket.
 
 ## Before you begin
+{: #before-you-begin-managing-port-speeds}
+
 First, navigate to the device menu and ensure you have the correct account permissions to complete the task. 
 
 * Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/vsi?topic=virtual-servers-navigating-devices).
@@ -30,6 +32,8 @@ First, navigate to the device menu and ensure you have the correct account permi
 For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access).
 
 ## Managing port speeds
+{: #manage-port-speeds}
+
 Complete the following steps to update port speeds.
 
 1. From the **Devices** menu, select **Device List**.
