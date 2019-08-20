@@ -15,6 +15,8 @@ subcollection: virtual-servers
 {: #working-with-image-templates}
 
 ## Before you begin
+{: #before-you-begin-image-templates}
+
 First, navigate to the devices menu and ensure you have the correct account permissions to complete the tasks.
 
 * Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/vsi?topic=virtual-servers-navigating-devices).
@@ -23,6 +25,8 @@ First, navigate to the devices menu and ensure you have the correct account perm
 For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access).
 
 ## Accessing image templates
+{: #accessing-image-templates}
+
 Complete the following steps to access image templates in your console.
 
 1. From the **Devices** menu, select **Manage > Images**.
