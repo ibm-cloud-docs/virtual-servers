@@ -20,6 +20,8 @@ Web traffic spikes can be a good thing and a bad thing. Spikes are good in the s
 {:shortdesc}
 
 ## Before you begin
+{: #before-you-begin-schedule-based-auto-scale}
+
 First, navigate to the device menu and ensure you have the correct account permissions to complete the tasks.
 
 * Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/vsi?topic=virtual-servers-navigating-devices).
@@ -61,6 +63,7 @@ In this scenario, the social website is using schedule-based scaling. Two polici
 6. The time entered in the **Triggers** field is based on UTC time, which is why you need to select 10:00 PM for 5:00 PM Central Daylight Time and 1:00 AM for 8:00 PM Central Daylight Time. During Central Standard Time, the times would be 9:00 AM and 12:00 AM because UTC/GMT doesn’t acknowledge Daylight Saving Time. See the [World Time Server ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.worldtimeserver.com/current_time_in_UTC.aspx){: new_window} site for a time converter.
 
 ## Adding a local load balancer
+{: #adding-a-local-load-balancer}
 
 If you have a local load balancer set up, you can use it to load balance your auto scale group.
 
