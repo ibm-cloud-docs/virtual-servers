@@ -22,6 +22,8 @@ You can use provisioning scripts to specify a URL to a script that runs on a new
 * Using **HTTPS protocol** downloads and runs the script automatically, if possible. If the URL is not associated to a valid script, the script is downloaded and no further action must be taken.
 
 ## Before you begin
+{: #before-you-begin-managing-provisioning-scripts}
+
 First, navigate to the device menu and ensure you have the correct account permissions to complete the tasks. 
 
 * Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/vsi?topic=virtual-servers-navigating-devices).
@@ -49,6 +51,7 @@ For more information about permissions, see [Classic infrastructure permissions]
 4. Click anywhere on the screen to save the edit.
 
 ## Next steps
+{: #next-steps-provisioning-scripts}
 
 Provisioning scripts that are associated with an account can be modified or removed at any time. Provisioning scripts are saved in the {{site.data.keyword.cloud_notm}} console until they are removed and can be associated to any new device ordered through the {{site.data.keyword.cloud_notm}} console. If the script is associated with an HTTP URL, it is downloaded to the new device during provisioning and the administrator must log in to the device and run the script manually. Scripts that are associated with HTTPS URLs are downloaded and, when applicable, run on the new device without additional interaction required. 
 
