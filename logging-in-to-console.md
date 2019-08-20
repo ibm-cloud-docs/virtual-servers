@@ -54,5 +54,6 @@ Figure 3. Portal Device page
 ![Figure 3. Portal Device page](/images/portal_device_list.png "Portal Device page")
 
 ## Next steps
+{: #next-steps-navigating-devices}
 
 Select the applicable management tasks to work with your virtual server instances.
