@@ -33,5 +33,6 @@ Placement groups with the “spread” rule are available to create in select {{
 You can create your placement group, then assign up to five new virtual server instances. With the "spread" rule, each of your virtual servers are provisioned on different physical hosts.
 
 ## Next steps
+{: #next-steps-placement-groups}
 
 To create and manage new placement groups, see [Managing placement groups](/docs/vsi?topic=virtual-servers-vsi_managing_placegroup#vsi_managing_placegroup).
