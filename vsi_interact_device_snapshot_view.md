@@ -23,6 +23,7 @@ From the device list, you can view a limited amount of information, or snapshot,
 {:shortdesc}
 
 ## Before you begin
+{: #before-you-begin-snapshot-view}
 
 First, navigate to the device menu and ensure you have the correct account permissions to complete the tasks. 
 
@@ -32,6 +33,7 @@ First, navigate to the device menu and ensure you have the correct account permi
 For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access).
 
 ## Managing a device in snapshot view
+{: #managing-a-device-in-snapshot-view}
 
 1. From the **Devices** menu, select **Device List**.
 2. Click the arrow next to the device that you want to expand into snapshot view.
