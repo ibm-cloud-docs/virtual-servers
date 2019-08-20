@@ -23,6 +23,8 @@ You can temporarily downgrade port speeds for your virtual server instance witho
 {:shortdesc}
 
 ## Before you begin
+{: #before-you-begin-downgrading-port-speeds}
+
 First, navigate to the device menu and ensure you have the correct account permissions to complete the task. 
 
 * Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/vsi?topic=virtual-servers-navigating-devices).
@@ -31,6 +33,8 @@ First, navigate to the device menu and ensure you have the correct account permi
 For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access).
 
 ## Downgrading port speeds
+{: #downgrade-port-speed}
+
 Complete the following steps to downgrade port speeds.
 
 1. From the **Devices** menu, select **Device List**.
