@@ -22,9 +22,13 @@ You have two options on how to provision your dedicated instances. The first is 
 {:shortdesc}
 
 ## Provisioning dedicated hosts and instances
+{: #provisioning-dedicated-hosts-and-instances}
+
 You can provision your dedicated hosts and instances through the {{site.data.keyword.cloud_notm}} or the {{site.data.keyword.slportal}}.
 
 ### Provisioning dedicated hosts and instances through the IBM Cloud catalog
+{: #provisioning-dedicated-hosts-and-instances-through-the-ibm-cloud-catalog}
+
 To provision your dedicated hosts and dedicated host instances through the {{site.data.keyword.cloud_notm}} catalog, complete the following steps:
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/){: new_window} by using your unique credentials.
@@ -37,11 +41,15 @@ To provision your dedicated hosts and dedicated host instances through the {{sit
 8. Click **Provision**.
 
 ### Provisioning dedicated hosts and instances through the customer portal
+{: #provisioning-dedicated-hosts-and-instances-through-the-customer-portal}
+
 To provision your dedicated hosts and dedicated host instances through the {{site.data.keyword.slportal}}, complete the following steps:
 
 1. Log in to the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
 
 #### Provisioning your dedicated host
+{: #provisioning-your-dedicated-host}
+
 Use the following steps to provision your dedicated hosts.
 
 1.	Click the **Devices** icon.
@@ -235,6 +243,8 @@ To provision your dedicated host instances through the {{site.data.keyword.slpor
 
 You will receive an email once your dedicated host instances have been provisioned.
 
-## Next Steps
+## Next steps
+{: #next-steps-provisioning-dedicated-instances-hosts}
+
 After your virtual server is provisioned and available to use, you can configure your virtual servers by using the
-{{site.data.keyword.slportal_full}} or {{site.data.keyword.slapi_full}}. For more information, see [Configuring virtual servers](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).
+{{site.data.keyword.cloud_notm}} console or {{site.data.keyword.slapi}}. For more information, see [Configuring virtual servers](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).
