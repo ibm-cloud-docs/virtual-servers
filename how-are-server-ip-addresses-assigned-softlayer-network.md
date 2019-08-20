@@ -27,5 +27,6 @@ Additional IP addresses can be bound to virtual server instances after purchasin
 For more information about options available for acquiring IP addresses, see [Subnets and IPs](/docs/infrastructure/subnets?topic=subnets-about-subnets-and-ips).
 
 ## Binding secondary IP addresses
+{: #binding-secondary-ip-addresses}
 
 After a secondary subnet is purchased and routed, you must configure the operating system to use one or more of the newly available IP addresses. The configuration steps for the new IP addresses are different for each operating system, but the setup is typically referred to as setting up "interface aliases." See your operating system documentation for additional configuration details.
