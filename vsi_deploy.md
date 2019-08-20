@@ -43,14 +43,17 @@ The App Service provisions a virtual server instance for you, loads an image tha
 3. Select **Deploy to a Virtual Server**, along with the region in which to run your server.
 
 ## How the deployment process works
+{: #how-the-deployment-process-works}
 
 The virtual server deployment process consists of several key technologies that include Terraform, pipeline enablement, API key management (Git operations), and understanding the toolchain process. 
 
 ### Deploying through Terraform
+{: #deploying-through-terraform}
 
 Any of the App Service starter kits can be deployed in a dynamically created virtual instance through [Terraform](https://ibm-cloud.github.io/tf-ibm-docs/v0.10.0/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"), an open source infrastructure as code framework. 
 
 ### Enabling your pipeline deployment
+{: #enabling-your-pipeline-deployment}
 
 When you create a starter kit that uses the {{site.data.keyword.cloud_notm}} [App Service](https://{DomainName}/developer/appservice/starter-kits){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"), the virtual server instance is enabled. After the app is created, you can then choose where you want to deploy the app. The starter kits are enabled to support deployment by using a Continuous Delivery toolchain. Starter kits can target Kubernetes, Cloud Foundry, and Virtual Server Instances. The toolchain includes a source code repository and a deployment pipeline.
 
