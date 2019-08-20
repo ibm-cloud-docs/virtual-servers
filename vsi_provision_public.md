@@ -22,6 +22,8 @@ subcollection: virtual-servers
 {: #ordering-vs-public}
 
 ## Before you begin
+{: #before-you-begin-provisioning-public}
+
 You have two options to provision your public virtual server instances. The first is through the {{site.data.keyword.cloud}} console and the second is through the {{site.data.keyword.slportal}}. The console and {{site.data.keyword.slportal}} require unique log-in IDs. You can't use your console user name and password to log in to the portal and vice versa.
 {:shortdesc}
 
@@ -45,6 +47,7 @@ You must be logged in to see all available options.
 {:tip}
 
 ### Public instance
+{: #public-instance}
 
 | Field    | Details     |
 | -------- | ----------- |
@@ -59,7 +62,8 @@ You must be logged in to see all available options.
 | Image        |  An image is the deployed operating system for your instance. You can select a number of free options such as CentOS and Ubuntu. Paid options such as Windows Server and Red Hat Enterprise Linux (RHEL) are also available. It's important to note that Windows requires a 100 GB primary disk. |
 {: caption="Table 1. Public instance options" caption-side="top"}
 
-### Public instance add-ons 
+### Public instance add-ons
+{: #public-instance-add-ons}
 
 If you choose any OS, control panel, or software add-ons, they must be compatible with your image to avoid an error when you are ordering your instance. For example, you can’t provision a Red Hat image with a Microsoft database.
 {:important}
@@ -78,10 +82,12 @@ Depending on your instance billing type (hourly or monthly), some add-ons might 
 {: caption="Table 2. Public instance add-ons" caption-side="top"}
 
 ### Attached storage disks
+{: #attached-storage-disks-public}
 
 If you need extra storage, you can attach storage disks to your instance. The type of storage disks that are available to you depend on the profile that you select. For example, balanced local profiles and a few of the GPU profiles use local storage disks. If you select monthly billing, you can add {{site.data.keyword.backup_notm}} and choose the option that best fits your needs. For more information, see [{{site.data.keyword.backup_notm}} services](/docs/infrastructure/Backup?topic=Backup-getting-started).
 
 ### Network interface
+{: #network-interface-public}
 
 | Field    | Details     |
 | -------- | ----------- |
@@ -92,6 +98,7 @@ If you need extra storage, you can attach storage disks to your instance. The ty
 {: caption="Table 3. Network interface options" caption-side="top"}
 
 ### Network interface add-ons
+{: #network-interface-add-ons-public}
 
 | Field    | Details     |
 | -------- | ----------- |
@@ -105,6 +112,8 @@ If you need extra storage, you can attach storage disks to your instance. The ty
 
 
 ## Provisioning a public instance through the customer portal
+{: #provisioning-a-public-instance-through-the-customer-portal}
+
 To provision your public virtual server instance through the {{site.data.keyword.slportal}}, complete the following steps:
 
   1. Log in to the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
@@ -117,6 +126,8 @@ To provision your public virtual server instance through the {{site.data.keyword
   8. Confirm or enter your payment information and click **Submit Order**. You are redirected to a screen with your provisioning order number. You can print the screen because it's also your provisioning order receipt.
 
 ## Next steps
+{: #next-steps-provisioning-public}
+
 A series of emails is sent to your administrator: acknowledgment of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email includes a link to your *Device Details* page after you log in to {{site.data.keyword.Bluemix_notm}}.
 
 After your virtual server is provisioned and available to use, you can configure your virtual servers by using the
