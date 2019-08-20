@@ -58,5 +58,6 @@ Keep in mind the following when you’re ordering a dedicated host(s) and dedica
 * Each host will need its own unique name and you can automatically assign your POD.
 
 ## Next steps
+{: #next-steps-dedicated-virtual-servers}
 
 After you have reviewed and decided upon your deployment options, it is time to provision your virtual server. To get started, see [Provisioning dedicated hosts and instances](/docs/vsi?topic=virtual-servers-ordering-vs-dedicated).
