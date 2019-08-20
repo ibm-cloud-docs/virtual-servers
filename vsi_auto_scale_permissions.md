@@ -27,6 +27,7 @@ If you are the account administrator and you want to grant users permission to a
 5. Click **Apply**.
 
 ## Next steps
+{: #next-steps-user-permissions-auto-scale}
 
 After you have permission to access and use the auto scale options, you're ready to use the feature. To get started, review the following information:
 
