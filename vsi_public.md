@@ -51,5 +51,6 @@ Some of these families are also available for IBM Cloud Virtual Servers for VPC.
 {:tip}
 
 ## Next steps
+{: #next-steps-public-virtual-servers}
 
 After you review and decide upon your virtual server profile, it's time to provision your public virtual server. To get started, see [Provisioning public instances](/docs/vsi?topic=virtual-servers-ordering-vs-public#ordering-vs-public).
