@@ -44,6 +44,7 @@ Billing is suspended only when you power off your virtual server instance throug
 {:note}
 
 ## Provisioning details
+{: #provisioning-details}
 
 You can provision a virtual server instance that supports the suspend billing feature through the {{site.data.keyword.cloud_notm}} catalog (cloud.ibm.com), CLI, or the {{site.data.keyword.slapi_short}}. You can't provision a virtual server instance that supports the suspend billing feature through the {{site.data.keyword.slportal}} (control.softlayer.com). For more information on provisioning public virtual server instances, see [Provisioning public instances](/docs/vsi?topic=virtual-servers-ordering-vs-public#ordering-vs-public).
 
@@ -51,11 +52,14 @@ For the {{site.data.keyword.cloud_notm}} catalog, you must have an upgraded acco
 {:note}
 
 ### Provisioning through the Softlayer API
+{: #provisioning-through-API}
+
 You can provision a virtual server instance that supports the suspend billing feature through the {{site.data.keyword.slapi_short}}. For API examples, see [Provisioning a public instance using Place Order Object](/docs/vsi?topic=virtual-servers-api-rest-public#provisioning-a-public-instance-using-place-order-object).
 
 You must specify the specific suspend billing package ID during the provisioning process. You can query in the {{site.data.keyword.slapi_short}} for the suspend billing package ID by using the keyName `SUSPEND_CLOUD_SERVER`. For an example on searching for server packages, see [Understanding and building an order using the {{site.data.keyword.slapi_short}} order CLI ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/article/understanding-ordering/){: new_window}.
 
 ## Billing details
+{: #billing-details}
 
 It's important to understand what costs stop accruing and what costs persist when your virtual server instance is powered off.
 
@@ -77,9 +81,13 @@ When you provision a virtual server instance that supports the suspend billing f
 {:note}
 
 ### Minimum usage charge
+{: #minimum-usage-charge}
+
 Virtual server instances that support the suspend billing feature can have a minimum usage charge that is applied in some cases. If usage is greater than 25%, you are billed for that usage. If usage is less than 25%, you are charged for 25% of the hours that the instance existed within the current billing cycle.
 
 ### Billing invoice
+{: #billing-invoice}
+
 When you suspend billing on a virtual server, you will see a few changes in your billing invoice. The relevant charges now appear as usage-based details. For example, you might see the following additions that reflect hours available, hours used, and total number of hours charged:
 
 ```
@@ -90,20 +98,26 @@ Operating system usage...
 {:screen}
 
 ## Resource details
+{: #resource-details}
 
 ### Storage
+{: #storage}
 
 When you suspend billing on a virtual server instance, the billing for the associated storage persists, but you cannot access the stored data while the virtual server instance is powered off. When you resume billing on the instance, you can access your data again.
 
 ### IP addresses
+{: #ip-addresses}
 
 All public IP addresses are retained for you when billing is suspended for your virtual server instance.
 
 ### Limitations
+{: #limitations-suspend-billing}
 
 Virtual server instances that are suspended continue to count toward your account-wide device quota. For more information about instance limits, see [FAQ: Virtual servers](/docs/vsi?topic=virtual-servers-faqs-virtual-servers#concurrent).
 
 ## Next steps
+{: #next-steps-suspend-billing}
+
 After you provision a virtual server that supports suspend billing, you can begin to suspend and resume billing on the device.
 
 When billing is suspended on a virtual server instance, you can't complete all of the same actions on the instance until you resume billing for the device. You can view whether your device is stopped, as well as the relevant date when the status changed, through the {{site.data.keyword.slapi_short}} or by accessing the Device details page in the {{site.data.keyword.slportal}}.
