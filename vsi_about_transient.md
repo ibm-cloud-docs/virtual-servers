@@ -42,9 +42,13 @@ Transient instances are public instances that use SAN-backed storage. The follow
 {: caption="Table 1. Public virtual server family selections" caption-side="top"}
 
 ## Notifications
+{: #notifications-transient-virtual-servers}
+
 You can use the {{site.data.keyword.slapi_short}} to receive notifications when resources are available for a transient instance. You can also use the API to programmatically provision a transient virtual server when resources become available. Likewise, you can use the API to programmatically stop provisioning instances when resources become unavailable. For more information, see [Configuring automated reclaim notifications](/docs/vsi?topic=virtual-servers-configuring-notifications-for-reclaims-of-transient-virtual-servers#configuring-notifications-for-reclaims-of-transient-virtual-servers).  
 
 ## Limitations
+{: #limitations-transient-virtual-servers}
+
 Consider the following limitations before provisioning a transient virtual server.
 
 * The number of supported, concurrent instances are part of your account-wide device quota. For more information about concurrent instance limits, see [FAQ: Virtual servers](/docs/vsi?topic=virtual-servers-faqs-virtual-servers#faqs-virtual-servers).
@@ -55,6 +59,7 @@ Consider the following limitations before provisioning a transient virtual serve
 
 
 ## Next steps
+{: #next-steps-transient-virtual-servers}
 
 After you review and select your virtual server profile, it's time to provision your transient virtual server. To get started, see [Provisioning transient instances](/docs/vsi?topic=virtual-servers-ordering-vs-transient#ordering-vs-transient).
 
