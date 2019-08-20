@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-10-24"
+  years: 2017, 2019
+lastupdated: "2019-06-19"
 
 subcollection: virtual-servers
 
@@ -24,9 +24,12 @@ You have two options on how to provision your dedicated instances. The first is 
 
 ## Provisioning dedicated virtual server instances
 {: #provision-dedicated-instances}
+
 You can provision your dedicated virtual server instance through the {{site.data.keyword.cloud_notm}} catalog or the {{site.data.keyword.slportal}}.
 
 ### Provisioning a dedicated virtual server instance through the IBM Cloud catalog
+{: #provisioning-a-dedicated-virtual-server-instance-through-the-ibm-cloud-catalog}
+
 To provision a dedicated virtual server instance through the {{site.data.keyword.cloud_notm}} catalog, complete the following steps:
 
   1. Log in to the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/){: new_window} by using your unique credentials.
@@ -35,13 +38,15 @@ To provision a dedicated virtual server instance through the {{site.data.keyword
   4. Click **Create**.
   5. In the **Dedicated Host** section, select **Auto Assign**. {{site.data.keyword.cloud_notm}} then automatically assigns your instance to a host in your selected data center.
 
-     **Note**: For dedicated hosts, select **Specify Host** or **Create Host**. For more information about dedicated hosts and dedicated host instances, see [Dedicated virtual servers](/docs/vsi?topic=virtual-servers-dedicated-virtual-servers).
+     **Note**: For dedicated hosts, select **Specify Host** or **Create Host**. For more information about dedicated hosts and dedicated host instances, see [Dedicated virtual servers](/docs/vsi?topic=virtual-servers-about-dedicated-virtual-servers#about-dedicated-virtual-servers).
 
   5. Complete all of the relevant information for your dedicated virtual server instance.
   6. After you review your order summary, click the **Third-Party Service Agreements** check box.
   7. Click **Provision**.
 
 ### Provisioning a dedicated virtual server instance through the customer portal
+{: #provisioning-a-dedicated-virtual-server-instance-through-the-customer-portal}
+
 To provision a dedicated virtual server instance through the {{site.data.keyword.slportal}}, complete the following steps:
 
 1. Log in to the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
@@ -68,7 +73,7 @@ To provision a dedicated virtual server instance through the {{site.data.keyword
     <td>
     <ul>
     <li>Auto Assign – {{site.data.keyword.Bluemix_notm}} automatically assigns your instance to a host in your selected data center.</li>
-    <li>Specify Host – Used with dedicated host instances. See [Dedicated virtual servers](/docs/vsi?topic=virtual-servers-dedicated-virtual-servers) for more information on dedicated hosts and dedicated host instances.</li>
+    <li>Specify Host – Used with dedicated host instances. See [Dedicated virtual servers](/docs/vsi?topic=virtual-servers-about-dedicated-virtual-servers#about-dedicated-virtual-servers) for more information on dedicated hosts and dedicated host instances.</li>
     </ul>
     </td>
     </tr>
@@ -149,8 +154,10 @@ To provision a dedicated virtual server instance through the {{site.data.keyword
 7.  Click the **Cloud Service terms** and **Third-Party Services Agreement** checkboxes.
 8. Confirm or enter your payment information and click the **Submit Order** button. You will be redirected to a screen with your provisioning order number. You can print the screen because it's also your provisioning order receipt.
 
-    A series of emails are sent to your administrator—acknowledgement of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email will include a link that will take you directly to your **Device Details** page after logging in to {{site.data.keyword.Bluemix_notm}}. Another option would be to log directly in to the {{site.data.keyword.slportal}}.
+    A series of emails are sent to your administrator—acknowledgement of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email will include a link that will take you directly to your **Device Details** page after logging in to {{site.data.keyword.cloud_notm}} console. Another option would be to log directly in to the {{site.data.keyword.slportal}}.
 
-## Next Steps
+## Next steps
+{: #next-steps-provisioning-dedicated}
+
 After your virtual server is provisioned and available to use, you can configure your virtual servers by using the
-{{site.data.keyword.slportal_full}} or {{site.data.keyword.slapi_full}}. For more information, see [Configuring virtual servers](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).
+{{site.data.keyword.cloud_notm}} console or {{site.data.keyword.slapi_short}}. For more information, see [Configuring virtual servers](/docs/vsi?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).
