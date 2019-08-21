@@ -34,7 +34,6 @@ Existing instances cannot be added to a placement group; you can only add a virt
 {: #managing-placement-groups}
 
 To manage placement groups from the placement groups page, complete the following steps:
-{:shortdesc}
 
 1. Open the [Placement groups ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/gen1/infrastructure/placement-groups){: new_window} page.
 2. Under the placement group section, you can complete several management tasks.
