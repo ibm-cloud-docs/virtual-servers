@@ -67,7 +67,7 @@ The following is the example JSON response to the request:
 For more information, see the [SLDN API documentation ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/getAttributes/){: new_window}.
 
 ## Next steps
-{: #next-steps-suspend-billing}
+{: #next-steps-suspend-billing-feature}
 
 To learn more about the suspend billing feature, review the following information:
 1. [Suspend billing](/docs/vsi?topic=virtual-servers-about-suspend-billing#about-suspend-billing)
