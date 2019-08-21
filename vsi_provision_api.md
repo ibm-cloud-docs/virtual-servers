@@ -12,6 +12,7 @@ subcollection: virtual-servers
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:tip: .tip}
 {:note: .note}
@@ -24,10 +25,12 @@ The following information displays Rest API examples for provisioning public vir
 {:shortdesc}
 
 For more robust API examples, see the following resources:
-* [Softlayer_Virtual_Guest API examples ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/classes/softlayer_virtual_guest/)
-* [Getting a profile list ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/article/vsiflavors/)
+* [Softlayer_Virtual_Guest API examples](https://softlayer.github.io/classes/softlayer_virtual_guest/){: external}
+* [Getting a profile list](https://softlayer.github.io/article/vsiflavors/){: external}
 
 ## Provisioning a public instance using Create Object
+{: #provisioning-a-public-instance-using-create-object}
+
 The *SoftLayer_Virtual_Guest/createObject* API service is the simplest way to provision a public virtual server instance that uses pre-set profiles.
 
 Not applicable for transient instances.
@@ -39,6 +42,8 @@ The following JSON request body is a generic example.
 {:note}
 
 ### JSON Request Body 1
+{: #json-request-body-1}
+
 ```
 {
     "parameters":[
@@ -64,6 +69,8 @@ The following JSON request body is a generic example.
 ```
 
 ## Provisioning a public instance using Place Order Object
+{: #provisioning-a-public-instance-using-place-order-object}
+
 Provisioning a public virtual server that uses pre-set profiles is done using the *SoftLayer_Product_Order/placeOrder* API service.
 
 Not applicable for transient instances.
@@ -78,6 +85,8 @@ The following JSON request body is a generic example.
 {:note}
 
 ### JSON Request Body 2
+{: #json-request-body-2}
+
 ```
 {
     "parameters": [
@@ -168,6 +177,8 @@ The following JSON request body is a generic example.
 ```
 
 ## Upgrading public instances
+{: #upgrading-public-instances}
+
 Upgrading a public virtual server is done using the *SoftLayer_Product_Order/placeOrder* API service.
 
 Not applicable for transient instances.
@@ -182,6 +193,8 @@ The following JSON request body is a generic example.
 {:note}
 
 ### JSON Request Body 3
+{: #json-request-body-3}
+
 ```
 {
     "parameters":[
@@ -227,6 +240,8 @@ The following JSON request body is a generic example.
 {:note}
 
 ### JSON Request Body 4
+{: #json-request-body-4}
+
 ```
 {
     "parameters":[
