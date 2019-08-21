@@ -34,7 +34,7 @@ Public virtual servers have many advantages, including the following:
 
     The public virtual server offering gives you small or large virtual server options to meet various workload requirements.
 
-Network traffic for public virtual servers, which encompasses VSI SAN and other network-attached storage, has no guarantee. If network traffic of a virtual server instance begins to have a significant, negative impact on other virtual servers, that instance may be restarted on a new host, or in extreme cases, completely disabled. This negative impact is often observed as traffic levels approach 20,000 to 30,000 packets per second (PPS).  For guaranteed networking, use of the Dedicated Virtual Server offering is recommended. For more information, see the single-tenant environment, [Dedicated virtual server](/docs/vsi?topic=virtual-servers-about-dedicated-virtual-servers#about-dedicated-virtual-servers) offering.
+Network traffic for public virtual servers, which encompasses VSI SAN and other network-attached storage, has no guarantee. If network traffic of a virtual server instance begins to have a significant, negative impact on other virtual servers, that instance may be restarted on a new host, or in extreme cases, completely disabled. This negative impact is often observed as traffic levels approach 20,000 to 30,000 packets per second (PPS).  For guaranteed networking, use of the Dedicated Virtual Server offering is recommended. For more information, see the single-tenant environment, [Dedicated virtual server](/docs/vsi?topic=virtual-servers-dedicated-virtual-servers) offering.
 
 The following families of public instances are available for this offering. 
 
