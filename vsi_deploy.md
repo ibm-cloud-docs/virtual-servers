@@ -70,14 +70,14 @@ To view these environment properties, complete the following steps.
 
 | Property  | Description  |
 |-----------|--------------|
-| `TF_VAR_ibm_sl_api_key` | The [infrastructure API key](/docs/apps?topic=creating-apps-vsi-deploy#iaas-key) is from the classic infrastructure console. |
-| `TF_VAR_ibm_sl_username` | The [infrastructure user name](/docs/apps?topic=creating-apps-vsi-deploy#user-key) that identifies the classic infrastructure account |
-| `TF_VAR_ibm_cloud_api_key` | The {{site.data.keyword.cloud_notm}} [API key](/docs/apps?topic=creating-apps-vsi-deploy#platform-key) is used to enable service creation. |
-| `PUBLIC_KEY` | [Public key](/docs/apps?topic=creating-apps-vsi-deploy#public-key) that is defined to enable access to the virtual server instance. |
-| `PRIVATE_KEY` | [Private key](/docs/apps?topic=creating-apps-vsi-deploy#public-key) that is defined to enable access to the virtual server instance. You must use `\n` newline style formatting. |
+| `TF_VAR_ibm_sl_api_key` | The [infrastructure API key](/docs/vsi?topic=virtual-servers-deploying-to-a-virtual-server#iaas-key) is from the classic infrastructure console. |
+| `TF_VAR_ibm_sl_username` | The [infrastructure user name](/docs/vsi?topic=virtual-servers-deploying-to-a-virtual-server#user-key) that identifies the classic infrastructure account |
+| `TF_VAR_ibm_cloud_api_key` | The {{site.data.keyword.cloud_notm}} [API key](/docs/vsi?topic=virtual-servers-deploying-to-a-virtual-server#platform-key) is used to enable service creation. |
+| `PUBLIC_KEY` | [Public key](/docs/vsi?topic=virtual-servers-deploying-to-a-virtual-server#public-key) that is defined to enable access to the virtual server instance. |
+| `PRIVATE_KEY` | [Private key](/docs/vsi?topic=virtual-servers-deploying-to-a-virtual-server#public-key) that is defined to enable access to the virtual server instance. You must use `\n` newline style formatting. |
 | `VI_INSTANCE_NAME` | Auto-generated name for the virtual server instance |
-| `GIT_USER` | If you set the [Terraform state](/docs/apps?topic=creating-apps-vsi-deploy#tform-state) to store the state of the apply command, the GitLab user name is required. |
-| `GIT_PASSWORD` | If you set the [Terraform state](/docs/apps?topic=creating-apps-vsi-deploy#tform-state) to store the state of the apply command, the GitLab password is required. |
+| `GIT_USER` | If you set the [Terraform state](/docs/vsi?topic=virtual-servers-deploying-to-a-virtual-server#tform-state) to store the state of the apply command, the GitLab user name is required. |
+| `GIT_PASSWORD` | If you set the [Terraform state](/docs/vsi?topic=virtual-servers-deploying-to-a-virtual-server#tform-state) to store the state of the apply command, the GitLab password is required. |
 {: caption="Table 1. Environment variables to change for enablement" caption-side="top"}
 
 
