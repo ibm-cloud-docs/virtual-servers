@@ -70,6 +70,6 @@ For more information, see the [SLDN API documentation ![External link icon](../i
 {: #next-steps-suspend-billing-feature}
 
 To learn more about the suspend billing feature, review the following information:
-1. [Suspend billing](/docs/vsi?topic=virtual-servers-about-suspend-billing#about-suspend-billing)
+1. [Suspend billing](/docs/vsi?topic=virtual-servers-requirements)
 2. [Managing virtual servers](/docs/vsi?topic=virtual-servers-managing-virtual-servers#managing-virtual-servers)
 
