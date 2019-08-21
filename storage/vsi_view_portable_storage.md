@@ -26,6 +26,8 @@ subcollection: virtual-servers
  {:shortdesc}
 
 ## Before you begin
+{: #before-you-begin-viewing-portable-storage}
+
 First, navigate to the device menu and ensure you have the correct account permissions to complete the tasks.
 
 * Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/vsi?topic=virtual-servers-navigating-devices).
@@ -34,6 +36,8 @@ First, navigate to the device menu and ensure you have the correct account permi
 For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access).
 
 ## Viewing portable storage
+{: #viewing-portable-storage}
+
 To view portable storage, complete the following steps:
 
 1. From the **Devices** menu, select **Device List**.
