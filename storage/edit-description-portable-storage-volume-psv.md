@@ -18,6 +18,8 @@ You can view portable storage volumes (PSVs) in the {{site.data.keyword.cloud}} 
 {:shortdesc}
 
 ## Before you begin
+{: #before-you-begin-editing-portable-storage}
+
 First, navigate to the storage menu and ensure you have the correct account permissions to complete the task.
 
 * Navigate to your console's storage menu. For more information, see [Navigating to devices](/docs/vsi?topic=virtual-servers-navigating-devices).
@@ -26,6 +28,7 @@ First, navigate to the storage menu and ensure you have the correct account perm
 For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access).
 
 ## Editing a portable storage description
+{: #edit-a-portable-storage-description}
 
 1. From the **Storage** menu, select **Block Storage**.
 2. In the **Portable storage** section, locate the portable storage volume that you want to edit. Use the **Filter portable storage** tool to quickly locate a volume.
@@ -34,5 +37,6 @@ For more information about permissions, see [Classic infrastructure permissions]
 5. Click anywhere in the row containing the PSV to save the edited description.
 
 ## Next steps
+{: #next-steps-portable-storage}
 
 After editing the description for a PSV, it remains in its original location in the list until you exit the portable storage page. When you reopen the page, the PSV appears in a new location, based on the description's alphabetical order. If the PSV cannot be located in this list after relaunching the screen, hold **CTRL** and click the **Refresh** button to clear the browser's cache and try again. The description can be changed again at any time by repeating the steps above.
