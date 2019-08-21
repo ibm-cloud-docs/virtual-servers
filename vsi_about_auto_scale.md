@@ -14,7 +14,7 @@ subcollection: virtual-servers
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# About auto scale
+# Auto scale
 {: #about-auto-scale}
 
 Auto scale for {{site.data.keyword.cloud}} virtual server instances provides you with the ability to automate the manual scaling process that's associated with adding or removing instances to support your business applications. This allows you to set up new instances automatically as more resources are needed and then those instances are shut down and removed when the extra load subsides. Auto scale uses groups to contain the policies that change how your environment expands or shrinks. These policies use actions to add or remove virtual server based on your business and application needs. 
