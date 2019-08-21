@@ -24,6 +24,8 @@ You can migrate your dedicated host instances from one host to another within th
 {:shortdesc}
 
 ## Before you begin
+{: #before-you-begin-migrating-dedicated-host}
+
 First, navigate to the device menu and ensure you have the correct account permissions to complete the tasks.
 
 * Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/vsi?topic=virtual-servers-navigating-devices).
@@ -32,6 +34,8 @@ First, navigate to the device menu and ensure you have the correct account permi
 For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access).
 
 ## Migrating from the dedicated host
+{: #migrating-from-the-dedicated-host}
+
 Use the following steps to migrate dedicated host instances to another dedicated host within the same POD from the device details page of the *original dedicated host*. 
 
 1. From the **Devices** menu, select **Device List**.
@@ -43,6 +47,8 @@ Use the following steps to migrate dedicated host instances to another dedicated
 The migration begins immediately. During the migration, the dedicated instance is offline until on its new host. You can view the target host’s Device Details page to make sure the instance migrated correctly.
 
 ## Migrating from the dedicated instance
+{: #migrating-from-the-dedicated-instance}
+
 Use the following steps to migrate dedicated host instances to another dedicated host within the same POD from the details page of the *dedicated host instance*.
 
 1. From the **Devices** menu, select **Device List**.
@@ -54,5 +60,7 @@ Use the following steps to migrate dedicated host instances to another dedicated
 The migration begins immediately. During the migration, the dedicated instance is offline until on its new host. You can view the target host’s device details page to make sure the instance migrated correctly.
 
 ## Next steps
+{: #next-steps-migrating-dedicated}
+
 After you migrate a dedicated host instance, confirm the migration worked by verifying that its status is green on the new dedicated host's device details page.
 
