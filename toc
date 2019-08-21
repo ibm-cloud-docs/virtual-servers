@@ -48,6 +48,7 @@ IBM Cloud Virtual Servers
 
     {: .topicgroup}
     Services options
+        vsi_backup.md
         vsi_email_intro.md
 
     {: .topicgroup}
@@ -153,7 +154,6 @@ IBM Cloud Virtual Servers
 
     {: .topicgroup}
     Backing up and recovering
-        vsi_backup.md
         vsi_launch_rescue.md
         [Restoring a server from an R1Soft image](/infrastructure/software/software-restoring-your-server-from-an-r1soft-image#restoring-your-server-from-an-r1soft-image)
 
