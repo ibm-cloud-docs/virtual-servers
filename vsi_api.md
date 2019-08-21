@@ -12,6 +12,7 @@ subcollection: virtual-servers
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
@@ -24,21 +25,25 @@ The {{site.data.keyword.slapi_full}} is the development interface that gives dev
 The {{site.data.keyword.slapi_short}} is a Remote Procedure Call system. Each call involves sending data towards an API endpoint and receiving structured data in return. The format used to send and receive data with the {{site.data.keyword.slapi_short}} depends on which implementation of the API you choose. The {{site.data.keyword.slapi_short}} currently uses SOAP, XML-RPC or REST for data transmission.
 
 For more information about the {{site.data.keyword.slapi_short}} and virtual server APIs, see the following resources in the {{site.data.keyword.sldn_full}}:
-* [{{site.data.keyword.slapi_short}} Overview ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/reference/softlayerapi/){: new_window}
-* [Getting Started with the {{site.data.keyword.slapi_short}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/article/getting-started/){: new_window}
-* [API Reference: SoftLayer_Virtual_Guest::createObject ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/){: new_window}
-* [API Reference: SoftLayer_Product_Order::placeOrder ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/){: new_window}
+* [{{site.data.keyword.slapi_short}} Overview](https://softlayer.github.io/reference/softlayerapi/){: external}
+* [Getting Started with the {{site.data.keyword.slapi_short}}](https://softlayer.github.io/article/getting-started/){: external}
+* [API Reference: SoftLayer_Virtual_Guest::createObject](https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/){: external}
+* [API Reference: SoftLayer_Product_Order::placeOrder](https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/){: external}
 
 For API usage examples, see the following resources:
-* [Understanding and building an order using the {{site.data.keyword.slapi_short}} order CLI ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/article/understanding-ordering/){: new_window}
-* [{{site.data.keyword.slapi_short}} Python Client: Working with Virtual Servers ![External link icon](../icons/launch-glyph.svg "External link icon")](http://softlayer-python.readthedocs.io/en/latest/cli/vs.html){: new_window}
-* [{{site.data.keyword.slapi_short}} Examples - Release Notes ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/){: new_window}
-* [Python examples ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/python/){: new_window}
+* [Understanding and building an order using the {{site.data.keyword.slapi_short}} order CLI](https://softlayer.github.io/article/understanding-ordering/){: external}
+* [{{site.data.keyword.slapi_short}} Python Client: Working with Virtual Servers](http://softlayer-python.readthedocs.io/en/latest/cli/vs.html){: external}
+* [{{site.data.keyword.slapi_short}} Examples - Release Notes](https://softlayer.github.io/){: external}
+* [Python examples](https://softlayer.github.io/python/){: external}
 
 ## Dedicated virtual servers usage examples
-* [Get Dedicated Host Allocation ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/python/getDediHostAllocation/){: new_window}
-* [Get Dedicated Host Guests ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/python/getDedicatedHostGuests/){: new_window}
-* [Migrate a virtual server instance between dedicated hosts ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/python/migrateDedicatedHost.py/){: new_window}
+{: #dedicated-virtual-servers-usage-examples}
+
+* [Get Dedicated Host Allocation](https://softlayer.github.io/python/getdedihostallocation/){: external}
+* [Get Dedicated Host Guests](https://softlayer.github.io/python/getdedicatedhostguests/){: external}
+* [Migrate a virtual server instance between dedicated hosts](https://softlayer.github.io/python/migratededicatedinstance/){: external}
 
 ## Public virtual servers usage examples
-* [softlayer_virtual_guest API examples ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/classes/softlayer_virtual_guest/){: new_window}
+{: #public-virtual-servers-usage-examples}
+
+* [softlayer_virtual_guest API examples](https://softlayer.github.io/classes/softlayer_virtual_guest/){: external}
