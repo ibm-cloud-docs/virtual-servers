@@ -23,6 +23,8 @@ You can't attach or swap portable storage volumes to a virtual server instance t
 {:note}
 
 ## Before you begin
+{: #before-you-begin-managing-portable-storage}
+
 First, navigate to the storage or devices menu and ensure you have the correct account permissions to complete the tasks.
 
 * Navigate to your console's storage or device menu. For more information, see [Navigating to devices](/docs/vsi?topic=virtual-servers-navigating-devices).
@@ -31,12 +33,14 @@ First, navigate to the storage or devices menu and ensure you have the correct a
 For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access).
 
 ## Attaching portable storage
+{: #attaching-portable-storage}
 
 1. From the **Storage** menu, select **Block Storage.**
 2. In the **Portable storage** section, select the attach option for the portable storage you want to use.
 3. On the next screen, choose the device that needs the storage, and select **Attach.**
 
 ## Managing portable storage attached to a server
+{: #managing-portable-storage-attached-to-a-server}
 
 Portable storage attached to a server is listed on the server's *Device Details* page.
 
