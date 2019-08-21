@@ -21,6 +21,7 @@ subcollection: virtual-servers
 {: #capacity-considerations}
 
 ## What's happening
+{: #what-s-happening}
 
 When you provision a virtual server, you might receive the following error message:
 
@@ -33,10 +34,12 @@ When provisioning fails, all the virtual server instances within that particular
 {:tip}
 
 ## Why it's happening
+{: #why-it-s-happening}
 
 An error occurs when there are insufficient resources available in the router or data center to fulfill the service request. There are a number of reasons that you could receive this error. Resource availability changes frequently, so you might wait and try again later.
 
 ## How to fix it
+{: #how-to-fix-it}
 
 You can attempt to provision again by using the following strategies:
 
@@ -46,4 +49,4 @@ You can attempt to provision again by using the following strategies:
 4. Provision fewer instances.
 5. Spread out instances by provisioning to multiple data centers.
 6. Provision smaller instance sizes.
-7. Alter the VSI storage from SAN to LOCAL or LOCAL to SAN.
+7. Alter the instance storage from SAN to LOCAL or LOCAL to SAN.
