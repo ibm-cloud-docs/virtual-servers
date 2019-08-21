@@ -38,7 +38,7 @@ To provision a dedicated virtual server instance through the {{site.data.keyword
   4. Click **Create**.
   5. In the **Dedicated Host** section, select **Auto Assign**. {{site.data.keyword.cloud_notm}} then automatically assigns your instance to a host in your selected data center.
 
-     **Note**: For dedicated hosts, select **Specify Host** or **Create Host**. For more information about dedicated hosts and dedicated host instances, see [Dedicated virtual servers](/docs/vsi?topic=virtual-servers-about-dedicated-virtual-servers#about-dedicated-virtual-servers).
+     **Note**: For dedicated hosts, select **Specify Host** or **Create Host**. For more information about dedicated hosts and dedicated host instances, see [Dedicated virtual servers](/docs/vsi?topic=virtual-servers-dedicated-virtual-servers).
 
   5. Complete all of the relevant information for your dedicated virtual server instance.
   6. After you review your order summary, click the **Third-Party Service Agreements** check box.
@@ -73,7 +73,7 @@ To provision a dedicated virtual server instance through the {{site.data.keyword
     <td>
     <ul>
     <li>Auto Assign – {{site.data.keyword.Bluemix_notm}} automatically assigns your instance to a host in your selected data center.</li>
-    <li>Specify Host – Used with dedicated host instances. See [Dedicated virtual servers](/docs/vsi?topic=virtual-servers-about-dedicated-virtual-servers#about-dedicated-virtual-servers) for more information on dedicated hosts and dedicated host instances.</li>
+    <li>Specify Host – Used with dedicated host instances. See [Dedicated virtual servers](/docs/vsi?topic=virtual-servers-dedicated-virtual-servers) for more information on dedicated hosts and dedicated host instances.</li>
     </ul>
     </td>
     </tr>
