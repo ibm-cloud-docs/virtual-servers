@@ -47,7 +47,7 @@ The following families of public instances are available for this offering.
 | [GPU](/docs/vsi?topic=virtual-servers-gpu#gpu)  | Best for high-performance workloads.
 {: caption="Table 1. Public virtual server family selections" caption-side="top"}
 
-Some of these families are also available for IBM Cloud Virtual Servers for VPC. For more information, see [IBM Cloud Virtual Servers for Virtual Private Cloud](/docs/vpc-on-classic-vsi?topic=vpc-on-classic-vsi-getting-started).
+Some of these families are also available for {{site.data.keyword.vsi_is_full}}. For more information, see [{{site.data.keyword.vsi_is_short}}](/docs/vpc-on-classic-vsi?topic=vpc-on-classic-vsi-getting-started#gettingstartedvsigen).
 {:tip}
 
 ## Next steps
