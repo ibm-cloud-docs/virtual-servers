@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-07-09"
+lastupdated: "2019-08-29"
 
 subcollection: virtual-servers
 
@@ -77,7 +77,7 @@ You might also see the **Migrate Host** option if one of your virtual servers is
 {: #what-happens-to-my-data-when-my-portable-storage-is-deleted-}
 {: faq}
 
-When storage is deleted, any pointers to the data on that volume are removed, thus the data becomes inaccessible. If the physical storage is reprovisioned to another account, a new set of pointers is assigned. There is no way for the new account to access any data that might have been on the physical storage. The new set of pointers shows all 0's. When new data is written to the volume/LUN, any inaccessible data that still exists gets overwritten.
+Virtual server instance SAN is similar to file storage. Virtual server instance disks are just files on an NFS share that Xen presents to the instance as a block device, that is, a hard disk drive. When you delete an instance SAN disk, you delete the file, after which undelete is not possible. Any pointers to the data on that volume are removed, and the data becomes inaccessible. If the physical storage is reprovisioned to another account, a new set of pointers is assigned. There is no way for the new account to access any data that might have been on the physical storage. The new set of pointers shows all 0's. When new data is written to the volume/LUN, any inaccessible data that still exists gets overwritten.
 
 ## Can I use a Red Hat Cloud Access subscription to create a virtual server?
 {: #can-i-use-a-red-hat-cloud-access-subscription-to-create-a-virtual-server-}
