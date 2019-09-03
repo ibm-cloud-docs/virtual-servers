@@ -1,0 +1,284 @@
+{
+    "what-types-of-virtual-servers-are-available-for-use-": [
+      "Types of virtual servers",
+      "Virtual servers types"
+    ],
+    "where-can-i-find-pricing-information-for-public-instance-types-": [
+      "Public instance pricing",
+      "Public instance cost"
+    ],
+    "where-can-i-find-pricing-information-for-virtual-public-instances-": [
+      "Virtual public instance pricing",
+      "Virtual public instance cost"
+    ],
+    "can-i-add-disk-storage-to-my-hourly-or-monthly-virtual-server-": [
+      "Adding disk storage"
+    ],
+    "concurrent": [
+      "How many hourly virtual servers can I start",
+      "Number of hourly virtual servers",
+      "Concurrent virtual servers"
+    ],
+    "how-will-i-be-billed-for-bandwidth-for-my-hourly-virtual-servers-": [
+      "Cost of bandwidth for hourly virtual servers",
+      "Price for bandwidth"
+    ],
+    "in-what-cases-is-my-virtual-server-migrated-to-a-different-host-": [
+      "Migrating to a different host",
+      "Moving virtual server to a different host",
+      "Migrate host"
+    ],
+    "what-happens-to-my-data-when-my-portable-storage-is-deleted-": [
+      "Deleted my data from portable storage",
+      "Deleting data from portable storage"
+    ],
+    "can-i-use-a-red-hat-cloud-access-subscription-to-create-a-virtual-server-": [
+      "Using Red Hat Cloud Access to create a virtual server",
+      "Creating a virtual server with Red Hat Cloud Access"
+    ],
+    "what-is-the-difference-between-a-virtual-server-and-a-virtual-private-server-vps-": [
+      "Virtual server vs virtual private server"
+    ],
+    "why-do-i-receive-a-capacity-error-when-provisioning-a-virtual-server-": [
+      "Insufficent capacity to complete the request",
+      "Insuffienent resources when provisioning"
+    ],
+    "how-do-i-log-in-to-my-server-": [
+      "How do I log in to my server",
+      "Logging in to my server",
+      "Sign in to my server",
+      "Signing into my server"
+    ],
+    "how-do-i-use-vpn-to-access-the-ibm-cloud-private-network-": [
+      "How do I use VPN to access the IBM Cloud private network",
+      "Using VPN to access IBM Cloud private network",
+      "Accessing IBM Cloud private network using VPN"
+    ],
+    "how-do-i-reboot-my-virtual-server-": [
+      "How do I reboot my virtual server",
+      "Rebooting my virtual server",
+      "Restartung my virtual server",
+      "Restart my virtual server"
+    ],
+    "how-do-i-use-rescue-mode-": [
+      "How do I use rescue mode",
+      "Boot from image",
+      "Booting from an image"
+    ],
+    "where-do-i-find-network-status-": [
+      "Where do I find network status",
+      "Resource status",
+      "Viewing network status"
+    ],
+    "how-do-i-request-a-compliance-report-": [
+      "How do I request a compliance report",
+      "Requesting a compliance report"
+    ],
+    "which-virtual-server-instance-types-can-be-reserved-": [
+      "Reserving virtual server instances"
+    ],
+    "can-i-combine-different-cpuxram-sizes-or-change-the-sizes-later-": [
+      "Can I combine different CPUxRAM sizes or change the sizes later",
+      "Combining different CPUxRAM sizes",
+      "Change CPUxRAM sizes",
+      "Changing CPUxRAM sizes"
+    ],
+    "is-my-payment-upfront-or-monthly-": [
+      "Payment frequency",
+      "Payment terms"
+    ],
+    "what-happens-at-the-end-of-my-contract-": [
+      "Ending contract"
+    ],
+    "what-happens-if-i-don-t-need-my-reserved-virtual-server-instances-anymore-": [
+      "Finished using my instances",
+      "End instance usage"
+    ],
+    "does-the-reservation-include-everything-i-configured-into-my-virtual-server-instance-": [
+      "What does my reservation include"
+    ],
+    "why-do-i-have-to-choose-hourly-or-monthly-billing-on-the-virtual-server-instance-": [
+      "Choosing hourly or monthly"
+    ],
+    "Interchanging dedicated hosts and dedicated host instances",
+    "Reprovisioning dedicated instances on dedicated hosts"
+  ],
+  "what-type-of-server-virtual-or-bare-metal-supports-the-dedicated-host-offering-": [
+    "Servers that support for dedicated hosts"
+  ],
+  "what-is-the-provisioning-lifecycle-of-a-dedicated-host-": [
+    "How long does my dedicated host stay active"
+  ],
+  "how-is-the-dedicated-host-offering-billed-": [
+    "Billing for dedicated host"
+  ],
+  "i-m-running-an-on-demand-dedicated-host-how-am-i-billed-": [
+    "Billing for on-demand dedicated host"
+  ],
+  "how-is-tenancy-specified-when-provisioning-dedicated-hosts-and-dedicated-host-instances-": [
+    "Tenant option for dedicated host and dedicated host instances"
+  ],
+  "can-i-mix-and-match-different-dedicated-host-instance-configurations-on-my-dedicated-host-": [
+    "Use multiple dedicated host configurations",
+    "Using multiple dedicated host configurations",
+    "Mixing dedicated host configurations"
+  ],
+  "how-do-i-know-how-many-dedicated-host-instances-i-can-run-on-each-dedicated-host-": [
+    "How many dedicated instances can I run",
+    "Running multiple dedicated hosts instance on a dedicated host"
+  ],
+  "what-images-can-be-provisioned-on-dedicated-hosts-": [
+    "Provisioning images on a dedicated host",
+    "Using images on a dedicated host"
+  ],
+  "is-there-a-limit-as-to-how-many-dedicated-hosts-can-be-allocated-to-a-single-account-": [
+    "Number of dedicated hosts can I run on a single account"
+  ],
+  "can-dedicated-host-deployments-be-oversubscribed-": [
+    "Oversubscribing dedicated hosts"
+  ],
+  "what-is-the-difference-between-boot-from-image-and-load-from-image-": [
+    "Boot vs. Load",
+    "Boot from an ISO image",
+    "Booting from an ISO image",
+    "Recovering a server",
+    "Recover a server"
+  ],
+  "why-can-i-not-connect-to-the-kvm-console-": [
+    "Connecting to KVM console",
+    "KVM Java applet",
+    "Java applications are blocked by your security settings",
+    "IP Address of the IPMI device",
+    "Missing required Permissions manifest in main.jar"
+  ],
+  "i-lost-my-password-to-my-server-how-can-i-recover-it-": [
+    "Recovering password",
+    "Root password",
+    "Admin password"
+  ],
+  "are-lvm-partitions-supported-as-a-valid-filesystem-": [
+    "Large Volume Management",
+    "LVM bootable partitioning scheme"
+  ],
+  "preconfigured-161-26-0-0-16-routes-on-customer-hosts": [
+    "Preconfigured 161.26.0.0/16 routes on customer hosts",
+    "IP block",
+    "ACL"
+  ],
+  "how-to-add-the-new-routing-for-various-oses": [
+  "Adding new routing",
+  "Create new routes",
+  "Editing routes"
+  ],
+  "can-i-have-the-monitoring-system-issue-an-automatic-reboot-and-alert-a-support-technician-in-the-event-that-the-server-stops-responding-": [
+    "Issuing automatic reboot",
+    "Alert support technician",
+    "Alerting support",
+    "Server stopped",
+    "Automated Reboot from Monitoring Failure service",
+    "NOC Monitoring",
+    "Configure monitoring",
+    "Configure monitoring"
+  ],
+  "what-is-a-cvsup-mirror-": [
+    "What is a cvsup mirror",
+    "supfile"
+  ],
+  "does-auto-scale-support-bare-metal-auto-scale-instances-}": [
+    "Bare metal support for autoscale",
+    "Bare metal and autoscale"
+  ],
+  "does-auto-scale-work-with-load-balancers-}": [
+    "Load balancers and autoscale",
+    "Load balancer support for autoscale",
+    "Load balaner API autoscale"
+  ],
+  "what-are-the-different-auto-scale-termination-policies-}": [
+    "Scaling down",
+    "Removing autscale members"
+  ],
+  "what-are-auto-scale-policies-}": [
+    "Autoscale actions and triggers"
+  ],
+  "what-are-auto-scale-triggers-}": [
+    "One-time trigger",
+    "Repeating trigger",
+    "resource-use trigger"
+  ],
+  "what-is-the-maximum-member-count-}": [
+    "Group maximum",
+    "Number of members in a group"
+  ],
+  "what-is-minimum-member-count-}": [
+    "Group minimum",
+    "Number of members in a group"
+  ],
+  "what-is-an-auto-scale-asset-}": [
+    "Asset and triggers"
+  ],
+  "what-is-an-auto-scale-group-}": [
+    "Scale group",
+    "Member count boundary",
+    "Scaled member templates"
+  ],
+  "what-is-an-auto-scale-member-}": [
+    "Scaled unit"
+  ],
+  "public-network-bandwidth-graphs": [
+    "Internet traffic graphs",
+    "Public network traffic"
+  ],
+  "private-network-bandwidth-graphs": [
+    "Internal network traffic"
+  ],
+  "projected-usage-doesn't-match-graphs": [
+    "Estimated usage",
+    "Projecting network usage"
+  ],
+  "difference-between-monthy-and-billing-bandwidth-data":[
+    "Monthly bandwidth",
+    "Monthly billing vs billing bandwidth"
+  ],
+  "what-is-a-standard-image-template-": [
+    "Image options",
+    "Creating a server from on an image",
+    "Create a server from on an image"
+  ],
+  "what-is-an-iso-template-": [
+    "Boot image",
+    "ISO image"
+  ],
+  "what-is-the-difference-between-a-public-image-and-a-private-image-": [
+    "Public image vs private image"
+  ],
+  "can-i-capture-and-deploy-virtual-servers-with-my-self-managed-hypervisor-": [
+    "Capturing images",
+    "Deploying images",
+    "Images on private devices"
+  ],
+  "can-i-share-my-private-iso-template-with-other-customers-": [
+    "Sharing image templates",
+    "Share ISO images"
+  ],
+  "does-my-iso-template-need-to-be-in-the-same-data-center-as-my-virtual-server-to-complete-a-boot-from-image-": [
+    "ISO image location",
+    "Booting from an ISO image",
+    "Booting from image template",
+    "Boot from an ISO image",
+    "Boot from image template"
+  ],
+  "what-is-the-difference-between-physical-data-and-volume-size-": [
+    "Physical data vs. volume size",
+    "Disk space"
+  ],
+  "what-is-the-image-import-export-feature-": [
+    "What is the image import/export feature",
+    "Converting VHDs and ISOs to image templates",
+    "Convert VHDs and ISOs to image templates"
+  ],
+  "how-do-i-create-an-image-template-for-my-entire-server-and-not-just-my-primary-drive-": [
+    "Creating an image template",
+    "image-0.vhd",
+    "image-1.vhd"
+  ]
+}
