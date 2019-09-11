@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-07-09"
+lastupdated: "2019-09-11"
 
 keywords:
 
@@ -78,3 +78,9 @@ To create an image template for your entire server, see the instructions in [Cre
 
 If you choose to export an image template to {{site.data.keyword.cos_full_notm}}, each block device (or disk) has its own associated file. For example, if your image file is named image.vhd, the first block device is exported as image-0.vhd. The second block device is exported as image-1.vhd, and so on.
 {: tip}
+
+## How much does it cost to store an image template?
+{: #how-much-does-it-cost}
+{: faq}
+
+Image templates are charged at $ 0.25 per GB used during your account's billing cycle.
