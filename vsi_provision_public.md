@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-07-30"
+lastupdated: "2019-09-16"
 
 subcollection: virtual-servers
 
@@ -91,7 +91,7 @@ If you need extra storage, you can attach storage disks to your instance. The ty
 
 | Field    | Details     |
 | -------- | ----------- |
-| Uplink port speeds | You can select the uplink speed for your instance, up to 1 GB/s. These virtual uplinks are backed by redundant physical uplinks to the IBM public and dedicated networks. The public and dedicated speed is always the same at the time of order, with the option to upgrade or downgrade a link if needed. |
+| Uplink port speeds | You can select the uplink speed for your instance, up to 1 Gbps. These virtual uplinks are backed by redundant physical uplinks to the IBM public and dedicated networks. The public and dedicated speed is always the same at the time of order, with the option to upgrade or downgrade a link if needed. If you select the 100 Mbps rate-limited option, the maximum instance throughput is limited only by the physical bandwidth available to the virtual server host. If you select the 1 Gbps non rate-limited option, you can achieve higher network performance through additional configuration. For more information, see [Configuring virtual server settings for improved network performance](/docs/vsi?topic=virtual-servers-configuring-network-performance). |
 | Private and public security group  | You can use security groups to enact a set of IP filter rules that define how to handle incoming and outgoing traffic to both the public and private interfaces your instance. For more information, see [About IBM Security Groups](/docs/infrastructure/security-groups?topic=security-groups-about-ibm-security-groups). |
 | Private and public VLAN | Your virtual server instance is placed on an automatically assigned VLAN by default. You can choose a different VLAN if you already have one in your selected data center. For more information, see [About VLANs](/docs/infrastructure/vlans?topic=vlans-about-vlans). |
 | Private and public subnet | Selecting a subnet is optional and to be used only when you require your device to use an IP address from the subnet. If you select a subnet, verify that you have enough IP addresses to fulfill the request. If you do not have enough IP addresses for your subnet, your order can be delayed or canceled. For more information, see [About subnets and IPs](/docs/infrastructure/subnets?topic=subnets-about-subnets-and-ips#about-subnets-and-ips). |
