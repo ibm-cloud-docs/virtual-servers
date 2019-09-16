@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2019
-lastupdated: "2019-04-25"
+lastupdated: "2019-09-16"
 
 keywords: reserved virtual servers, cost savings, guaranteed capacity 
 subcollection: virtual-servers
@@ -47,6 +47,8 @@ Reserved virtual server instances are public instances that use SAN-backed stora
 | [Compute](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#compute) | Best for moderate to high web traffic workloads.|
 | [Memory](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#memory)  | Best for memory caching and real-time analytics workloads. |
 {: caption="Table 1. Public virtual server family selections" caption-side="top"}
+
+Network speeds greater than 10 Gbps are achievable through additional configuration. For more information about network performance, see [Configuring virtual server settings for improved network performance](/docs/vsi?topic=virtual-servers-configuring-network-performance).
 
 ## Limitations 
 {: #limitations-reserved-virtual-servers}
