@@ -77,6 +77,7 @@ IBM Cloud Virtual Servers
     {: .topicgroup}
     Configuring
         vsi_configuring.md
+        configuring-network-performance.md
         vsi_reconfigure.md
         vsi_work_image.md
         vsi_ssh_config.md
