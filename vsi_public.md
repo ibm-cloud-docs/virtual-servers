@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-04"
+lastupdated: "2019-09-16"
 
 keywords: public virtual servers, network traffic, virtual server deployment
 
@@ -46,6 +46,8 @@ The following families of public instances are available for this offering.
 | [Memory](/docs/vsi?topic=virtual-servers-memory#memory)  | Best for memory caching and real-time analytics workloads. |
 | [GPU](/docs/vsi?topic=virtual-servers-gpu#gpu)  | Best for high-performance workloads.
 {: caption="Table 1. Public virtual server family selections" caption-side="top"}
+
+Network speeds greater than 10 Gbps are achievable through additional configuration. For more information about network performance, see [Configuring virtual server settings for improved network performance](/docs/vsi?topic=virtual-servers-configuring-network-performance).
 
 Some of these families are also available for {{site.data.keyword.vsi_is_full}}. For more information, see [{{site.data.keyword.vsi_is_short}}](/docs/vpc-on-classic-vsi?topic=vpc-on-classic-vsi-getting-started#gettingstartedvsigen).
 {:tip}
