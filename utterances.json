@@ -333,7 +333,7 @@
     "tell me about cvsup",
     "cvsup mirror overview"
   ],
-  "does-auto-scale-support-bare-metal-auto-scale-instances-}": [
+  "does-auto-scale-support-bare-metal-auto-scale-instances-": [
     "Bare metal support for autoscale",
     "Bare metal and autoscale",
     "use autoscale with bare metal",
@@ -341,7 +341,7 @@
     "bare metal support autoscale",
     "use bare metal with auto scale"
   ],
-  "does-auto-scale-work-with-load-balancers-}": [
+  "does-auto-scale-work-with-load-balancers-": [
     "Load balancers and autoscale",
     "Load balancer support for autoscale",
     "Load balaner API autoscale",
@@ -350,20 +350,20 @@
     "bare metal support load balancer",
     "use load balancer with auto scale"
   ],
-  "what-are-the-different-auto-scale-termination-policies-}": [
+  "what-are-the-different-auto-scale-termination-policies-": [
     "Scaling down",
     "auto scale termination policy",
     "policy to terminate auto scale",
     "policies to finish auto scale",
     "terminating autoscale"
   ],
-  "what-are-auto-scale-policies-}": [
+  "what-are-auto-scale-policies-": [
     "Autoscale actions and triggers",
     "auto scale policy",
     "policies for autoscale",
     "auto scale policies"
   ],
-  "what-are-auto-scale-triggers-}": [
+  "what-are-auto-scale-triggers-": [
     "One-time trigger",
     "Repeating trigger",
     "resource-use trigger",
@@ -372,28 +372,28 @@
     "conditionals for auto scale",
     "different types of triggers for autoscale"
   ],
-  "what-is-the-maximum-member-count-}": [
+  "what-is-the-maximum-member-count-": [
     "Group maximum",
     "Number of members in a group",
     "what's max member count",
     "learn about maximum member count",
     "tell me about max VSI Member Count"
   ],
-  "what-is-minimum-member-count-}": [
+  "what-is-minimum-member-count-": [
     "Group minimum",
     "Number of members in a group",
     "what's min member count",
     "learn about minimum member count",
     "tell me about Min VSI Member Count"
   ],
-  "what-is-an-auto-scale-asset-}": [
+  "what-is-an-auto-scale-asset-": [
     "Asset and triggers",
     "tell me about assets for autoscale",
     "know about auto scale assets",
     "asset for auto scale",
     "whats an asset in auto scale"
   ],
-  "what-is-an-auto-scale-group-}": [
+  "what-is-an-auto-scale-group-": [
     "Scale group",
     "Member count boundary",
     "Scaled member templates",
@@ -402,7 +402,7 @@
     "know about auto scale groups",
     "group for auto scale"
   ],
-  "what-is-an-auto-scale-member-}": [
+  "what-is-an-auto-scale-member-": [
     "Scaled unit",
     "whats a member in auto scale",
     "tell me about members for autoscale",
