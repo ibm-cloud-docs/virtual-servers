@@ -13,16 +13,36 @@ subcollection: virtual-servers
 {:screen: .screen}
 {:new_window: target="_blank"}
 {:pre: .pre}
+{:note: .note}
 {:external: target="_blank" .external}
 {:table: .aria-labeledby="caption"}
 
 
 # FAQs: Servers (general)
-{: #faqs-servers-general-}
+{: faqs-servers-general-}
+
+## My virtual server is down. What should I do?
+{: #my-virtual-server-is-down-what-should-i-do}
+
+If your virtual server is down, follow these steps:
+1. Try to power on your server. For more information, see [Power On/Off](/docs/infrastructure/vsi?topic=virtual-servers-managing-virtual-servers#power-on-off){: new_window}.
+2. If your server does not power on or returns to a down state, you might need to start your server in rescue mode. For more information, see [Launching rescue mode](/docs/vsi?topic=virtual-servers-launching-rescue){: new_window}.
+
+In the rare case that a host failure causes your server to go down, you are notified by IBM Support and your server is migrated to a new host. This migration process is automated. You do not need to take action.
+
+For additional help, see [Getting help and support](/docs/infrastructure/vsi?topic=virtual-servers-gettinghelp)
+
+## My bare metal server is down. What should I do?
+{: #my-bare-metal-server-is-down-what-should-i-do}
+
+If your bare-metal server is down, check for any alerts from your monitoring software. To get your server running again, follow these steps.
+1. Try to power on your server. For more information, see [Power On/Off](/docs/infrastructure/vsi?topic=virtual-servers-managing-virtual-servers#power-on-off){: new_window}.
+2. If your server does not power on or returns to a down state, you might need to start your server in rescue mode. For more information, see [Launching rescue mode](/docs/vsi?topic=virtual-servers-launching-rescue){: new_window}.
+
+For additional help, see [Getting help and support](/docs/infrastructure/vsi?topic=virtual-servers-gettinghelp)
 
 ## What is the difference between "Boot from Image" and "Load from Image"?
 {: #what-is-the-difference-between-boot-from-image-and-load-from-image-}
-{:faq}
 
 Boot from Image and Load from Image both utilize existing image templates, which are applied to a device to either replace the existing operating system or to supplement the operating system in an attempt to remedy an existing issue. The main difference between the Boot and Load process is the type of image that is used. When performing either the Boot or Load from Image process, ensure you have backed up all data you may want to recover.
 
@@ -31,7 +51,6 @@ Boot from Image and Load from Image both utilize existing image templates, which
 
 ## Why can I not connect to the KVM console?
 {: #why-can-i-not-connect-to-the-kvm-console-}
-{:faq}
 
 If you are unable to connect to the KVM console, review these troubleshooting tips to assist in resolving the issue. Should additional issues occur, contact support. For more information on contacting support, see [Getting help and support](/docs/vsi?topic=virtual-servers-gettinghelp#gettinghelp).
 
@@ -44,13 +63,12 @@ If you are unable to connect to the KVM console, review these troubleshooting ti
      If using Mac OSX in conjunction with Google Chrome, refer to Information and System Requirements for Installing and Using Mac Java 7 on the Java website.
      {:note}
 
-   * If you are trying to connect to a virtual server instance through the standard Java applet and are still experiencing errors, you can also try using the VNC viewer of your choice. As an example, you could use [TightVNC](https://www.tightvnc.com/docs.php){: external} for Windows or Linux or [TigerVNC](https://tigervnc.org/){: external} for Mac OSX, where you would input the KVM IP and port as `KVMIP::KVMPORT`. 
+   * If you are trying to connect to a virtual server instance through the standard Java applet and are still experiencing errors, you can also try using the VNC viewer of your choice. As an example, you could use [TightVNC](https://www.tightvnc.com/docs.php){: external} for Windows or Linux or [TigerVNC](https://tigervnc.org/){: external} for Mac OSX, where you would input the KVM IP and port as `KVMIP::KVMPORT`.
 
 If you have completed all of the checks above and still are unable to connect to the KVM console, contact support for additional assistance in troubleshooting the issue. If a connection to the console has been made but issues occur connecting to the device, ensure the credentials being used to access the device are valid. Contact the account administrator to verify credentials, if necessary.
 
 ## I lost my password to my server. How can I recover it?
 {: #i-lost-my-password-to-my-server-how-can-i-recover-it-}
-{:faq}
 
 If the root or administrator password to your server is suddenly not working, check the following items. If necessary, use the instructions to launch rescue mode and reset your password.
 
@@ -63,13 +81,11 @@ If these have all been checked and you are still unable to connect to the server
 
 ## Are LVM partitions supported as a valid filesystem?
 {: #are-lvm-partitions-supported-as-a-valid-filesystem-}
-{:faq}
 
-LVM (Logical Volume Management) provides logical management of file systems in Linux. In the {{site.data.keyword.BluSoftlayer}} environment, LVM is not supported as a bootable partitioning scheme. Virtual server instances cannot be ordered with LVM, and importing images that use LVM as a boot partition will fail to provision. If you require LVM on the boot partition, the bare metal offering can support LVM on boot for certain operating systems. With proper OS support and configuration, secondary VSI Disks can be used for LVM partitions; however, it is important to note that LVM is not a supported filesystem for Flex Image or Image Templates. If you have further questions, please open a ticket with the support team who can assist you.
+LVM (Logical Volume Management) provides logical management of file systems in Linux. In the {{site.data.keyword.BluSoftlayer}} environment, LVM is not supported as a bootable partitioning scheme. Virtual server instances cannot be ordered with LVM, and importing images that use LVM as a boot partition will fail to provision. If you require LVM on the boot partition, the bare metal offering can support LVM on boot for certain operating systems. With proper OS support and configuration, secondary virtual server instance disks can be used for LVM partitions; however, it is important to note that LVM is not a supported filesystem for Flex Image or Image Templates. If you have further questions, please open a ticket with the support team who can assist you.
 
 ## Preconfigured 161.26.0.0/16 routes on customer hosts
 {: #preconfigured-161-26-0-0-16-routes-on-customer-hosts}
-{:faq}
 
 {{site.data.keyword.BluSoftlayer_notm}} is enabling a new route on all newly provisioned servers to support future products.
    * The route points any address in the 161.26.0.0/16 range (161.26.0.0 255.255.0.0 | 161.26.0.0 -161.26.255.255) to the back-end private network.
@@ -79,7 +95,6 @@ LVM (Logical Volume Management) provides logical management of file systems in L
 
 ## How to add the new routing for various OSes
 {: #how-to-add-the-new-routing-for-various-oses}
-{:faq}
 
    <table>
    <CAPTION>Table 1. Adding a routes by OS</CAPTION>
@@ -170,13 +185,11 @@ LVM (Logical Volume Management) provides logical management of file systems in L
 
 ## Can I have the monitoring system issue an automatic reboot AND alert a support technician in the event that the server stops responding?
 {: #can-i-have-the-monitoring-system-issue-an-automatic-reboot-and-alert-a-support-technician-in-the-event-that-the-server-stops-responding-}
-{:faq}
 
 Yes, with the order of our **Automated Reboot from Monitoring Failure** service, you can set up the monitoring system to automatically reboot the server and issue a ticket for a support technician if a monitoring alert is issued. As an additional service, we provide **NOC Monitoring**, in which you will receive personal notification in the event a monitoring issue occurs. To learn more about both of these offerings, please refer to [Server Monitoring](https://www.ibm.com/cloud/infrastructure/monitoring?cm_mc_uid=46846454197915580355142&cm_mc_sid_50200000=71138741559658182022){: external}.
 
 ## What is a cvsup mirror?
 {: #what-is-a-cvsup-mirror-}
-{:faq}
 
 You can update against a local cvsup mirror that was run for you. Ensure your supfile has the following entry:
 
