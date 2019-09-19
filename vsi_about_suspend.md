@@ -24,7 +24,7 @@ subcollection: virtual-servers
 # Suspend billing
 {: #requirements}
 
-When you power off a virtual server that supports the suspend billing feature, you don't accrue costs for certain compute resources. Billing stops automatically when the server is powered off. The suspend billing feature helps you reduce cost and prevents you from having to reprovision a virtual server when you need its resources again.
+When you power off {{site.data.keyword.BluVirtServers}} that support the suspend billing feature, you don't accrue costs for certain compute resources. Billing stops automatically when the server is powered off. The suspend billing feature helps you reduce cost and prevents you from having to reprovision a virtual server when you need its resources again.
 {:shortdesc}
 
 Most virtual server instances created before November 1st, 2018 don't support the suspend billing feature. To find out if your virtual server instance supports the suspend billing feature, see [Viewing suspend billing feature](/docs/vsi?topic=virtual-servers-viewing-suspend-billing-feature).
@@ -40,7 +40,7 @@ This feature is available in data centers across the globe. To provision a virtu
 You can use the suspend billing feature as a faster alternative to provisioning and reclaiming a virtual server instance.
 {:tip}
 
-Billing is suspended only when you power off your virtual server instance through the {{site.data.keyword.cloud}} console, CLI, or {{site.data.keyword.slapi_short}}. If you power off your virtual server instance directly through the OS, billing isn't suspended for that instance.
+Billing is suspended only when you power off your virtual server instance through the {{site.data.keyword.cloud_notm}} console, CLI, or {{site.data.keyword.slapi_short}}. If you power off your virtual server instance directly through the OS, billing isn't suspended for that instance.
 {:note}
 
 ## Provisioning details
