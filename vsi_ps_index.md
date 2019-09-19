@@ -15,7 +15,7 @@ subcollection: virtual-servers
 # Provisioning scripts
 {: #provisioning-scripts}
 
-A provisioning script is a script that can either be downloaded to, or downloaded and run on, a device during the provisioning process. For existing accounts, provisioning scripts are managed within the {{site.data.keyword.cloud_notm}} console. During the ordering process, you can manually enter scripts for new accounts or scripts that are not yet tracked.
+A provisioning script is a script that can either be downloaded to, or downloaded and run on, a device during the provisioning process. For existing accounts, provisioning scripts are managed within the {{site.data.keyword.cloud}} console. During the ordering process, you can manually enter scripts for new accounts or scripts that are not yet tracked.
 
 Alternatively, you can use a cloud-init enabled image and provide user data to automatically perform configuration tasks or run scripts. For more information, see [Provisioning with a cloud-init enabled image](/docs/infrastructure/image-templates?topic=image-templates-provisioning-with-a-cloud-init-enabled-image).
 {: tip}
