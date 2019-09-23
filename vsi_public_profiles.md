@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-07-17"
+lastupdated: "2019-09-11"
 
 keywords: public virtual servers, network traffic, virtual server deployment, profile
 
@@ -22,7 +22,7 @@ subcollection: virtual-servers
 # Profiles
 {: #about-virtual-server-profiles}
 
-When you provision {{site.data.keyword.cloud}} virtual server instances, you can select from supported families of profiles. A profile is a combination of vCPU and RAM that can be instantiated quickly to start a virtual server instance. In the {{site.data.keyword.cloud_notm}} console, you can choose from popular profile configurations or select from a list of profiles that best fit your needs.
+When you provision {{site.data.keyword.BluVirtServers}}, you can select from supported families of profiles. A profile is a combination of vCPU and RAM that can be instantiated quickly to start a virtual server instance. In the {{site.data.keyword.cloud_notm}} console, you can choose from popular profile configurations or select from a list of profiles that best fit your needs.
 {:shortdesc}
 
 The following virtual server instance families are available.
@@ -34,7 +34,8 @@ Depending on your instance type, some families might not be available.
 | ----------------------- | -------------------------------------------------------------------------------------------------------- | 
 | [Balanced](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#balanced) | Best for common cloud workloads that require a balance of performance and scalability. Uses network-attached storage. |
 | [Balanced local storage](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#balanced-local-storage) | Best for large database workloads that require high I/O performance with very low latency. |
-| [Compute](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#compute) | Best for moderate to high web traffic workloads. |
+| [Variable compute](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#variable-compute)  | Best for workloads that don’t require steady, high-CPU performance. | 
+| [Compute](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#compute) | Best for moderate to high web traffic workloads.|
 | [Memory](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#memory)  | Best for memory caching and real-time analytics workloads. |
 | [GPU](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#gpu)  | Best for high-performance workloads. |
 {: caption="Table 1. Public virtual server family selections" caption-side="top"}
@@ -45,7 +46,7 @@ Some of these families are also available for {{site.data.keyword.vsi_is_full}}.
 ## Balanced
 {: #balanced}
 
-The balanced profiles (with network-attached storage) are ideal for common cloud workloads that require a balance of performance and scale. Network performance ranges from standard to premium.
+The balanced profiles (with network-attached storage) are ideal for common cloud workloads that require a balance of performance and scale. Network performance ranges from standard to premium. 
 
 The offering is available in the following profiles:
 
@@ -199,11 +200,11 @@ The offering is available in various profiles and data centers, with the followi
 The following data centers support balanced local storage virtual servers with local HDD:
 
 | Available Data Centers - Local HDD |       |
-| ---------------------- | ----- |
-| Dallas (DAL01)         | Dallas (DAL05)   |
-| Dallas (DAL06)         | Houston (HOU02)  |
-| Seattle (SEA01)        | San Jose (SJC01) |
-| Washington, DC (WDC01) |                  |
+| ---------------------- | ------- |
+| Dallas (DAL01)         | Dallas (DAL05)         |
+| Dallas (DAL06)         | Houston (HOU02)        |
+| San Jose (SJC01)       | Seattle (SEA01)        |
+| Washington, DC (WDC01) |                        |
 {: class="simple-tab-table"}
 {: caption="Table 4. Available data centers (local HDD) - Americas" caption-side="top"}
 {: tab-group="Local-HDD"}
@@ -221,7 +222,7 @@ The following data centers support balanced local storage virtual servers with l
 
 | Available Data Centers - Local HDD |
 | ---------------------- |
-| Hong Kong (HKG02)      | 
+| Hong Kong (HKG02)      |
 | Singapore (SNG01)      |
 {: class="simple-tab-table"}
 {: caption="Table 6. Available data centers (local HDD) - Asia-Pacific" caption-side="top"}
@@ -383,6 +384,30 @@ The following data centers support balanced local storage virtual servers with l
 
 All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), supported  databases, and software add-ons are also available with this offering.
 
+## Variable compute
+{: #variable-compute}
+
+Variable compute profiles are best for workloads that don’t require steady, high-CPU performance. CPU performance levels might be less than other public profiles with the same number of cores, while RAM and storage remain consistent, which makes variable compute profiles a lower-cost alternative. For example, you can use this function to test a new feature without incurring the higher cost of a full-performance virtual server instance.
+
+The offering is available in the following profiles:
+
+| Profile      | vCPU     | RAM       | Storage Type |
+| ------------ | -------- | --------- | ------------ |
+| U1.1x2       | 1        | 2 GB      | SAN          |
+| U1.2x4       | 2        | 4 GB      | SAN          |
+| U1.4x8       | 4        | 8 GB      | SAN          |
+{: caption="Table 11. Variable compute profiles" caption-side="top"}
+
+### Storage notes
+{: #storage-notes-variable-compute}
+
+* SAN primary boot disk (25 or 100 GB) with an extra disk available, up to 2 TB. You can add one extra secondary disk to your variable compute instance. 
+* Pricing for public virtual servers by using SAN storage includes virtual CPU, memory, and minimum primary boot disk. Extra disk prices depend on the disk size and quantity that you select.  
+
+Variable compute profiles are available in all data centers.
+
+Supported operating systems (such as RHEL, CentOS, Ubuntu, and others), supported databases, and software add-ons are also available with this offering.
+
 ## Compute
 {: #compute}
 
@@ -398,7 +423,7 @@ The offering is available in the following profiles:
 | C1.8x8       | 8        | 8 GB      | SAN          |
 | C1.16x16     | 16       | 16 GB     | SAN          |
 | C1.32x32     | 32       | 32 GB     | SAN          |
-{: caption="Table 11. Compute profiles" caption-side="top"}
+{: caption="Table 12. Compute profiles" caption-side="top"}
 
 ### Storage notes
 {: #storage-notes-compute}
@@ -428,7 +453,7 @@ The offering is available in the following profiles:
 | M1.48x384    | 48       | 384 GB    | SAN          |
 | M1.56x448    | 56       | 448 GB    | SAN          |
 | M1.64x512    | 64       | 512 GB    | SAN          |
-{: caption="Table 12. Memory profiles" caption-side="top"}
+{: caption="Table 13. Memory profiles" caption-side="top"}
 
 ### Storage notes
 {: #storage-notes-memory}
@@ -660,10 +685,11 @@ Review the following GPU prerequisites.
 The software that you install might have prerequisite software and operating system-specific configurations.
 {: note}
 
-### Adding or removing GPUs 
+### Adding or removing GPUs
 {: #adding-or-removing-gpus}
 
 You can change the number of GPUs on your virtual server after your initial order. But, that depends on how many GPUs you provisioned. You have one of the following options.
 
 - If one GPU is provisioned, you can add another GPU, or
 - If two GPUs are provisioned, you can fallback to one GPU
+
