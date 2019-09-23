@@ -57,7 +57,7 @@ Consider the following limitations before provisioning a transient virtual serve
 * Transient instances cannot be upgraded or downgraded.
 * Resources can be reclaimed at any time, without notification.
 * Transient instances cannot use local storage.
-* Transient instances cannot use GPU-based profiles.
+* Transient instances cannot use GPU-based or variable compute profiles.
 
 
 ## Next steps
