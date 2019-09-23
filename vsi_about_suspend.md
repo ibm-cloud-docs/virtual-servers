@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-06"
+lastupdated: "2019-09-23"
 
 keywords: virtual server, suspend billing feature, virtual server instances, suspend billing
 
@@ -36,6 +36,7 @@ This feature is available in data centers across the globe. To provision a virtu
   * Balanced
   * Compute
   * Memory
+  * Variable compute
 
 You can use the suspend billing feature as a faster alternative to provisioning and reclaiming a virtual server instance.
 {:tip}
