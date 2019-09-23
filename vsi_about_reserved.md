@@ -55,6 +55,7 @@ Network speeds greater than 10 Gbps are achievable through additional configurat
 
 Consider the following limitations before reserving capacity and provisioning reserved virtual server instances:
   
+  * You can't use variable compute profiles.
   * You can't upgrade or downgrade your instances.
   * Reserved capacity cannot be canceled; however, you can reclaim virtual server instances in that capacity.
     
