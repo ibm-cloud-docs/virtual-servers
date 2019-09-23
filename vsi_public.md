@@ -13,7 +13,7 @@ subcollection: virtual-servers
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:tips: .tips}
+{:tip: .tip}
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
@@ -34,7 +34,7 @@ Public virtual servers have many advantages, including the following:
 
     The public virtual server offering gives you small or large virtual server options to meet various workload requirements.
 
-Network traffic for public virtual servers, which encompasses virtual server instance SAN and other network-attached storage, has no guarantee. If network traffic of a virtual server instance begins to have a significant, negative impact on other virtual servers, that instance may be restarted on a new host, or in extreme cases, completely disabled. This negative impact is often observed as traffic levels approach 20,000 to 30,000 packets per second (PPS).  For guaranteed networking, use of the Dedicated Virtual Server offering is recommended. For more information, see the single-tenant environment, [Dedicated virtual server](/docs/vsi?topic=virtual-servers-dedicated-virtual-servers) offering.
+Network traffic for public virtual servers, which encompasses virtual server instance SAN and other network-attached storage, has no guarantee. If network traffic of a virtual server instance begins to have a significant, negative impact on other virtual servers, that instance might be restarted on a new host, or in extreme cases, completely disabled. This negative impact is often observed as traffic levels approach 20,000 to 30,000 packets per second (PPS).  For guaranteed networking, use of the Dedicated Virtual Server offering is recommended. For more information, see the single-tenant environment, [Dedicated virtual server](/docs/vsi?topic=virtual-servers-about-dedicated-virtual-servers#about-dedicated-virtual-servers) offering.
 
 The following families of public instances are available for this offering. 
 
@@ -42,6 +42,7 @@ The following families of public instances are available for this offering.
 | ----------------------- | -------------------------------------------------------------------------------------------------------- | 
 | [Balanced](/docs/vsi?topic=virtual-servers-balanced#balanced) | Best for common cloud workloads that require a balance of performance and scalability. Uses network-attached storage. |
 | [Balanced local storage](/docs/vsi?topic=virtual-servers-balanced-local-storage#balanced-local-storage) | Best for large database workloads that require high I/O performance with very low latency. |
+| [Variable compute](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#variable-compute)  | Best for workloads that don’t require steady, high-CPU performance. | 
 | [Compute](/docs/vsi?topic=virtual-servers-compute#compute) | Best for moderate to high web traffic workloads.|
 | [Memory](/docs/vsi?topic=virtual-servers-memory#memory)  | Best for memory caching and real-time analytics workloads. |
 | [GPU](/docs/vsi?topic=virtual-servers-gpu#gpu)  | Best for high-performance workloads.
