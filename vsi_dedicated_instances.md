@@ -33,12 +33,11 @@ You can provision your dedicated virtual server instance through the {{site.data
 To provision a dedicated virtual server instance through the {{site.data.keyword.cloud_notm}} catalog, complete the following steps:
 
   1. Log in to the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/){: new_window} by using your unique credentials.
-  2. In the **Compute Infrastructure** section, click the **Virtual Servers** tile.
-  3. Select the **Dedicated Virtual Server** option.
-  4. Click **Create**.
-  5. In the **Dedicated Host** section, select **Auto Assign**. {{site.data.keyword.cloud_notm}} then automatically assigns your instance to a host in your selected data center.
+  2. In the **Compute Infrastructure** section, click the **Virtual Server** tile.
+  3. Select **Dedicated** as your virtual server type.
+  4. In the **Dedicated Host** section, select **Auto Assign**. {{site.data.keyword.cloud_notm}} then automatically assigns your instance to a host in your selected data center.
 
-     **Note**: For dedicated hosts, select **Specify Host** or **Create Host**. For more information about dedicated hosts and dedicated host instances, see [Dedicated virtual servers](/docs/vsi?topic=virtual-servers-dedicated-virtual-servers).
+     **Note**: For dedicated hosts, select **Specify Host** or **Create Host**. For more information about dedicated hosts and dedicated host instances, see [Dedicated virtual servers](/docs/vsi?topic=virtual-servers-about-dedicated-virtual-servers#about-dedicated-virtual-servers).
 
   5. Complete all of the relevant information for your dedicated virtual server instance.
   6. After you review your order summary, click the **Third-Party Service Agreements** check box.
