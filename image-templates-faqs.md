@@ -13,7 +13,7 @@ subcollection: image-templates
 
 {:new_window: target="_blank"}
 {:tip: .tip}
-{:external: target="_blank" .external} 
+{:external: target="_blank" .external}
 {:faq: data-hd-content-type='faq'}
 
 # FAQs: Image templates
@@ -84,3 +84,10 @@ If you choose to export an image template to {{site.data.keyword.cos_full_notm}}
 {: faq}
 
 Image templates are charged at $ 0.25 per GB used during your account's billing cycle.
+
+## How do I boot my virtual server instance (VSI) from an image?
+{: #how-do-i-boot-my-virtual-server-instance-from-an-image-}
+{: faq}
+
+Navigate to the Device List. Click the virtual server that you want to start from an ISO template. On the Device Details page, select Actions > Boot from Image.
+For complete steps, refer to [Booting a VSI from an image](/docs/image-templates?topic=image-templates-booting-a-vsi-from-an-image).
