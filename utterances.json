@@ -2,8 +2,7 @@
     "my-virtual-server-is-down-what-should-i-do": [
       "virtual server down",
       "virtual server stopped",
-      "Restarting my VSI",
-      "Restart my virtual server instance",
+      "no connection to virtual server instance",
       "My VSI stopped",
       "can not connect to virtual servers",
       "can't access my virtual server",
@@ -132,6 +131,7 @@
       "Rebooting my virtual server",
       "Reboot my virtual server",
       "Restartung my virtual server",
+      "restarting VSI",
       "Restart my virtual server",
       "server re-boot",
       "rebooting my server",
@@ -142,8 +142,8 @@
     ],
     "how-do-i-use-rescue-mode-": [
       "using rescue mode",
-      "Boot from image",
-      "Booting from an image",
+      "Boot into rescue",
+      "Booting with rescue mode",
       "booting into Rescue Kernel",
       "launch rescue",
       "rescue use",
@@ -288,18 +288,17 @@
   ],
   "what-is-the-difference-between-boot-from-image-and-load-from-image-": [
     "Boot vs. Load",
-    "Boot from an ISO image",
-    "Booting from an ISO image",
+    "Boot from an ISO image different to load from image",
+    "Booting from an ISO image the same as loading from an image",
     "Recovering a server",
     "Recover a server",
     "difference between boot from and load from image",
     "are boot from image and load from image the same"
   ],
   "why-can-i-not-connect-to-the-kvm-console-": [
-    "Connecting to KVM console",
-    "KVM Java applet",
+    "Connecting to KVM console issue",
+    "KVM Java applet error",
     "Java applications are blocked by your security settings",
-    "IP Address of the IPMI device",
     "Missing required Permissions manifest in main.jar",
     "unable to connect to the KVM console",
     "issue with KVM connection",
@@ -316,7 +315,8 @@
     "administrator password to my server is not working",
     "root password won't work",
     "lost my server password",
-    "forgotten server password"
+    "forgotten server password",
+    "new password for my server"
   ],
   "are-lvm-partitions-supported-as-a-valid-filesystem-": [
     "Large Volume Management",
@@ -348,11 +348,11 @@
   "can-i-have-the-monitoring-system-issue-an-automatic-reboot-and-alert-a-support-technician-in-the-event-that-the-server-stops-responding-": [
     "Issuing automatic reboot",
     "Alert support technician",
-    "Alerting support",
-    "Server stopped",
+    "Alerting support when server's down",
+    "Server stopped can I have an alert",
     "Automated Reboot from Monitoring Failure service",
     "NOC Monitoring",
-    "Configure monitoring",
+    "Configure monitoring when server stops",
     "automatically reboot the server and issue a ticket",
     "notification in the event a monitoring issue",
     "reboots automatically"
@@ -405,14 +405,14 @@
   ],
   "what-is-the-maximum-member-count-": [
     "Group maximum",
-    "Number of members in a group",
+    "maximum number of members in a group",
     "what's max member count",
     "learn about maximum member count",
     "tell me about max VSI Member Count"
   ],
   "what-is-minimum-member-count-": [
     "Group minimum",
-    "Number of members in a group",
+    "minimum number of members in a group",
     "what's min member count",
     "learn about minimum member count",
     "tell me about Min VSI Member Count"
@@ -475,7 +475,7 @@
     "what's a standard image template"
   ],
   "what-is-an-iso-template-": [
-    "Boot image",
+    "whats an image",
     "ISO image",
     "explain a ISO image template",
     "what's a ISO template"
@@ -503,10 +503,10 @@
   ],
   "does-my-iso-template-need-to-be-in-the-same-data-center-as-my-virtual-server-to-complete-a-boot-from-image-": [
     "ISO image location",
-    "Booting from an ISO image",
-    "Booting from image template",
-    "Boot from an ISO image",
-    "Boot from image template"
+    "ISO image in same data center as server",
+    "server and image template in the same data center",
+    "ISO image reside in same location as the server",
+    "image template and server in the same data center"
   ],
   "what-is-the-difference-between-physical-data-and-volume-size-": [
     "Physical data vs. volume size",
@@ -530,5 +530,24 @@
     "create an image template for the whole server",
     "image template creation",
     "make an image template for complete server"
-  ]
+  ],
+    "how-do-i-boot-my-virtual-server-instance-from-an-image-": [
+      "boot from an ISO image",
+      "booting from image template",
+      "booting from an image",
+      "re-boot from ISO image",
+      "reboot using an image",
+      "boot my VSI from an image",
+      "use an image to boot my virtual server"
+    ],
+     "how-do-i-connect-to-the-kvm-console-": [
+       "access kvm console",
+       "connect to the KVM console",
+       "connection to my kvm",
+       "kvm connection",
+       "access my server through kvm",
+       "want to kvm in",
+       "login to kvm",
+       "kvm log in"
+     ]
 }
