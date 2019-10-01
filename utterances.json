@@ -539,15 +539,5 @@
       "reboot using an image",
       "boot my VSI from an image",
       "use an image to boot my virtual server"
-    ],
-     "how-do-i-connect-to-the-kvm-console-": [
-       "access kvm console",
-       "connect to the KVM console",
-       "connection to my kvm",
-       "kvm connection",
-       "access my server through kvm",
-       "want to kvm in",
-       "login to kvm",
-       "kvm log in"
-     ]
+    ]
 }
