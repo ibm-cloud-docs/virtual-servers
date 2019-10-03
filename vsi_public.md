@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-09-16"
+lastupdated: "2019-10-03"
 
 keywords: public virtual servers, network traffic, virtual server deployment
 
@@ -34,7 +34,7 @@ Public virtual servers have many advantages, including the following:
 
     The public virtual server offering gives you small or large virtual server options to meet various workload requirements.
 
-Network traffic for public virtual servers, which encompasses virtual server instance SAN and other network-attached storage, has no guarantee. If network traffic of a virtual server instance begins to have a significant, negative impact on other virtual servers, that instance might be restarted on a new host, or in extreme cases, completely disabled. This negative impact is often observed as traffic levels approach 20,000 to 30,000 packets per second (PPS).  For guaranteed networking, use of the Dedicated Virtual Server offering is recommended. For more information, see the single-tenant environment, [Dedicated virtual server](/docs/vsi?topic=virtual-servers-about-dedicated-virtual-servers#about-dedicated-virtual-servers) offering.
+Through extra configuration, network performance of virtual servers can be improved as compared to using the default settings. For more information, see [Configuring virtual server settings for improved network performance](/docs/vsi?topic=virtual-servers-configuring-network-performance). However, the amount of allowable network traffic for public virtual servers, which encompasses virtual server instance SAN and other network-attached storage, has no guarantee. If network traffic of a virtual server instance has a significant, negative impact on other virtual servers, that instance might restart on a new host, or in extreme cases, become disabled. This negative impact is often observed as traffic levels approach 20,000 to 30,000 packets per second (PPS). For guaranteed networking, use of the Dedicated Virtual Server offering is recommended. For more information, see the single-tenant environment, [Dedicated virtual server](/docs/vsi?topic=virtual-servers-dedicated-virtual-servers) offering.
 
 The following families of public instances are available for this offering. 
 
@@ -47,8 +47,6 @@ The following families of public instances are available for this offering.
 | [Memory](/docs/vsi?topic=virtual-servers-memory#memory)  | Best for memory caching and real-time analytics workloads. |
 | [GPU](/docs/vsi?topic=virtual-servers-gpu#gpu)  | Best for high-performance workloads.
 {: caption="Table 1. Public virtual server family selections" caption-side="top"}
-
-Network speeds greater than 10 Gbps are achievable through additional configuration. For more information about network performance, see [Configuring virtual server settings for improved network performance](/docs/vsi?topic=virtual-servers-configuring-network-performance).
 
 Some of these families are also available for {{site.data.keyword.vsi_is_full}}. For more information, see [{{site.data.keyword.vsi_is_short}}](/docs/vpc-on-classic-vsi?topic=vpc-on-classic-vsi-getting-started#gettingstartedvsigen).
 {:tip}
