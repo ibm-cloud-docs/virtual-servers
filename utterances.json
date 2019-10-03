@@ -1,6 +1,8 @@
 {
     "my-virtual-server-is-down-what-should-i-do": [
       "virtual server down",
+      "virtual machine is down",
+      "cant connect to VM",  
       "virtual server stopped",
       "no connection to virtual server instance",
       "My VSI stopped",
@@ -32,6 +34,7 @@
     "what-types-of-virtual-servers-are-available-for-use-": [
       "Types of virtual servers",
       "Virtual servers types",
+      "Virtual machine type",
       "available options for virtual servers",
       "available virtual servers",
       "different types for virtual server",
@@ -64,6 +67,7 @@
       "How many hourly virtual servers can I start",
       "Number of hourly virtual servers",
       "Concurrent virtual servers",
+      "number of concurrent VMs",
       "how many VSIs can I have",
       "maximum number of virtual servers"
     ],
@@ -77,6 +81,7 @@
     "in-what-cases-is-my-virtual-server-migrated-to-a-different-host-": [
       "Migrating to a different host",
       "Moving virtual server to a different host",
+      "Move a virtual machine onto another host",
       "Migrate host",
       "virtual server moved to another host",
       "migrate virtual server's host",
@@ -93,6 +98,7 @@
       "Using Red Hat Cloud Access to create a virtual server",
       "Creating a virtual server with Red Hat Cloud Access",
       "creating a server using red hat cloud access",
+      "create a a VM with red hat cloud access",
       "create a VSI using red hat access",
       "use red hat cloud access to get a virtual server"
     ],
@@ -116,6 +122,7 @@
       "Logging in to my server",
       "Sign in to my server",
       "Signing into my server",
+      "How to login to my VM",
       "server login",
       "server log in",
       "help to access server",
@@ -130,12 +137,14 @@
     "how-do-i-reboot-my-virtual-server-": [
       "Rebooting my virtual server",
       "Reboot my virtual server",
-      "Restartung my virtual server",
+      "Restarting my virtual server",
+      "restart the virtual machine",
       "restarting VSI",
       "Restart my virtual server",
       "server re-boot",
       "rebooting my server",
       "reboot the VSI",
+      "reboot my VM",
       "want to do a server reboot",
       "assistance in booting my server",
       "help to reboot my VSI server"
@@ -201,6 +210,7 @@
       "Finished using my instances",
       "End instance usage",
       "don't need my VSI anymore",
+      "no longer require my VM",
       "can I reclaim reserved virtual server instances",
       "cancel reserved capacity?"
     ],
@@ -208,6 +218,7 @@
       "What does my reservation include",
       "included with my virtual server reservation",
       "Whats included with VSI reservation",
+      "What's included in the VM reservation",
       "does the reservation include primary disk",
       "reserved a virtual server whats included"
     ],
@@ -537,6 +548,8 @@
       "booting from an image",
       "re-boot from ISO image",
       "reboot using an image",
+      "use an image to boot my VM",
+      "boot the virtual machine using an image", 
       "boot my VSI from an image",
       "use an image to boot my virtual server"
     ]
