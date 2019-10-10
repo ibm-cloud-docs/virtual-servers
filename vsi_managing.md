@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2019
 lastupdated: "2019-08-13"
 
-keywords: manage virtual servers, power off, replicate, manage device reload os, delete server, manage server
+keywords: manage virtual servers, power off, replicate, manage device, reload os, delete server, manage server
 
 subcollection: virtual-servers
 
