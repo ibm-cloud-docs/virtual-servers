@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-09-11"
+lastupdated: "2019-09-14"
 
 keywords: public virtual servers, network traffic, virtual server deployment, profile
 
@@ -71,7 +71,7 @@ The offering is available in the following profiles:
 {: #storage-notes-balanced}
 
 * SAN primary boot disk (25 or 100GB) with additional disks available, up to 2 TB each (five total disks allowed).
-* Pricing for public virtual servers using SAN storage includes virtual CPU, memory, and minimum primary boot disk. Extra disk prices depend on the disk size and quantity that you select.  
+* Pricing for public virtual servers that use SAN storage includes virtual CPU, memory, and minimum primary boot disk. Extra disk prices depend on the disk size and quantity that you select.  
 
 Balanced profiles (with network-attached storage) are available in all data centers.
 
@@ -402,7 +402,7 @@ The offering is available in the following profiles:
 {: #storage-notes-variable-compute}
 
 * SAN primary boot disk (25 or 100 GB) with an extra disk available, up to 2 TB. You can add one extra secondary disk to your variable compute instance. 
-* Pricing for public virtual servers by using SAN storage includes virtual CPU, memory, and minimum primary boot disk. Extra disk prices depend on the disk size and quantity that you select.  
+* Pricing for public virtual servers that use SAN storage includes virtual CPU, memory, and minimum primary boot disk. Extra disk prices depend on the disk size and quantity that you select.  
 
 Variable compute profiles are available in all data centers.
 
@@ -429,7 +429,7 @@ The offering is available in the following profiles:
 {: #storage-notes-compute}
 
 * SAN primary boot disk (25 or 100 GB) with additional disks available, up to 2 TB each (five total disks allowed).
-* Pricing for public virtual servers using SAN storage includes virtual CPU, memory, and minimum primary boot disk. Extra disk prices depend on the disk size and quantity that you select.  
+* Pricing for public virtual servers that use SAN storage includes virtual CPU, memory, and minimum primary boot disk. Extra disk prices depend on the disk size and quantity that you select.  
 
 Compute profiles are available in all data centers.
 
@@ -459,7 +459,7 @@ The offering is available in the following profiles:
 {: #storage-notes-memory}
 
 * SAN primary boot disk (25 or 100 GB) with additional disks available, up to 2 TB each (5 total disks allowed).
-* Pricing for public virtual servers using SAN storage includes virtual CPU, memory, and minimum primary boot disk. Additional disk prices depend on the disk size and quantity that you select.  
+* Pricing for public virtual servers that use SAN storage includes virtual CPU, memory, and minimum primary boot disk. Additional disk prices depend on the disk size and quantity that you select.  
 
 Memory profiles are available in all data centers.
 
