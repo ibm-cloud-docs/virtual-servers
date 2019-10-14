@@ -4,7 +4,7 @@ copyright:
   years: 2019
 lastupdated: "2019-06-03"
 
-keywords: Accessing the Device List, {{site.data.keyword.cloud_notm}} console, {{site.data.keyword.cloud_notm}} infrastructure customer portal
+keywords: Accessing the Device List, {{site.data.keyword.cloud_notm}} console, {{site.data.keyword.slportal}}
 
 subcollection: virtual-servers
 
