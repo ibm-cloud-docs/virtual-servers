@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-07-25"
+lastupdated: "2019-10-22"
 
 subcollection: virtual-servers
 
@@ -89,7 +89,7 @@ For more information, see the following information.
 
 Backups ensure that your data is safely stored outside of your device and protected if it is lost. The following backup services are available to store your data in a secure location in case you ever need to reload your information onto your device:
 - {{site.data.keyword.backup_notm}} is an automated, agent-based backup system. This is a popular “set-and-forget” solution for managing your device. It is compatible with Microsoft software including Exchange and SQL through extra plug-ins. {{site.data.keyword.backup_notm}} users interact with this service through {{site.data.keyword.backup_notm}}’s WebCC web-based application. For more information, see [Getting started with {{site.data.keyword.backup_notm}} services](/docs/infrastructure/Backup?topic=Backup-getting-started).
-- R1Soft Continuous Data Protection is backup software that can be installed on your server or self-managed virtual machine. It is recommended if you want a single interface to manage all of your backups. You interact with R1Soft CDP through your proprietary management system, which allows agents to be installed on virtual machines and offers database plug-ins for extra functions. For more information, see [Getting started with {{site.data.keyword.backup_notm}} services](/docs/infrastructure/Backup?topic=Backup-getting-started).
+- R1Soft Continuous Data Protection is backup software that can be installed on your server or self-managed virtual machine. It is recommended if you want a single interface to manage all of your backups. You interact with R1Soft CDP through your proprietary management system, which allows agents to be installed on virtual machines and offers database plug-ins for extra functions. For more information about R1Soft CDP back-up services, see the [R1Soft Documentation ![External link icon](../icons/launch-glyph.svg "External link icon")](http://wiki.r1soft.com/display/ServerBackupManager/Home){: new_window}.
 
 ## Next steps
 {: #next-steps-configuring-virtual-servers}
