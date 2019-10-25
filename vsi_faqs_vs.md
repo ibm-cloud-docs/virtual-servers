@@ -24,7 +24,7 @@ subcollection: virtual-servers
 {: #what-types-of-virtual-servers-are-available-for-use-}
 {: faq}
 
-{{site.data.keyword.cloud}} offers a couple types of virtual servers within its Classic Infrastructure. The standard offering is a public-based virtual server, which is a multi-tenant environment, suitable for a variety of needs. If you're looking for a single-tenant environment, consider the dedicated virtual server offering. The dedicated virtual server option is ideal for applications with more stringent resource requirements. For more information about the current virtual server offerings, see [Getting started with virtual servers](/docs/vsi?topic=virtual-servers-getting-started-with-virtual-servers).
+{{site.data.keyword.cloud}} offers a couple types of virtual servers within its Classic Infrastructure. The standard offering is a public-based virtual server, which is a multi-tenant environment, suitable for a variety of needs. If you're looking for a single-tenant environment, consider the dedicated virtual server offering. The dedicated virtual server option is ideal for applications with more stringent resource requirements. For more information about the current virtual server offerings, see [Getting started with virtual servers](/docs/vsi?topic=virtual-servers-getting-started-tutorial).
 
 {{site.data.keyword.vsi_is_full}} (VPC) is the next generation of virtual servers. You create your own space in the {{site.data.keyword.cloud_notm}} to run an isolated environment within the public cloud by using VPC. {{site.data.keyword.vpc_short}} provides the security of a private cloud with the agility and ease of a public cloud. For more information, see [About Virtual Private Cloud](/docs/vpc-on-classic?topic=vpc-on-classic-about).
 
