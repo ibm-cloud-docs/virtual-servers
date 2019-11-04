@@ -14,6 +14,9 @@
       "need help as VSI down",
       "virtual servers are not up",
       "VSI down",
+      "unable to access server",
+      "not able to view my servers",
+      "can't access our server",
       "unable to connect to virtual server"
     ],
     "my-bare-metal-server-is-down-what-should-i-do": [
@@ -76,7 +79,9 @@
       "Price for bandwidth",
       "hourly virtual billing cost",
       "cost of traffic to server",
-      "price of hourly billing for VSI"
+      "price of hourly billing for VSI",
+      "view my bandwidth usage",
+      "view the bandwidth that is be used by our servers"  
     ],
     "in-what-cases-is-my-virtual-server-migrated-to-a-different-host-": [
       "Migrating to a different host",
@@ -542,6 +547,14 @@
     "image template creation",
     "make an image template for complete server"
   ],
+    "how-much-does-it-cost": [
+     "how much is image template storage",
+     "price for image template storage",
+     "Image Template Storage Usage",
+     "cost of image template",
+     "image template storage price",
+     "image template cost"
+  ],  
     "how-do-i-boot-my-virtual-server-instance-from-an-image-": [
       "boot from an ISO image",
       "booting from image template",
