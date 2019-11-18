@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-05-22"
+lastupdated: "2019-11-18"
 
 subcollection: virtual-servers
 
@@ -22,7 +22,7 @@ subcollection: virtual-servers
 Pricing for dedicated hosts is offered in an hourly and monthly model.
 {:shortdesc}
 
-Dedicated host pricing is inclusive of all vCPU, RAM, local storage, and uplink port speed components as instances are provisioned onto dedicated hosts. For more information about pricing, see the [Virtual servers provisioning calculator ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud-computing/bluemix/virtual-servers/calculator){: new_window}.
+Dedicated host pricing is inclusive of all vCPU, RAM, local storage, and uplink port speed components as instances are provisioned onto dedicated hosts. For more information about pricing, see the [Virtual servers provisioning calculator ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/virtual-servers/calculator/){: new_window}.
 
 With dedicated hosts, additional local storage disks are available on first, second, third, fourth, and fifth disks. There is also additional capacity up to 400 GB on each secondary disk.
 
