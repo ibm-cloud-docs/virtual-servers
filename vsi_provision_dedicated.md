@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-10-03"
+lastupdated: "2019-11-19"
 
 subcollection: virtual-servers
 
@@ -31,7 +31,7 @@ You can provision your dedicated hosts and instances through the {{site.data.key
 
 To provision your dedicated hosts and dedicated host instances through the {{site.data.keyword.cloud_notm}} catalog, complete the following steps:
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/){: new_window} by using your unique credentials.
+1. Log in to the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/catalog){: new_window} by using your unique credentials.
 2. In the **Compute Infrastructure** section, click the **Virtual Server** tile.
 3. Select **Dedicated** as your virtual server type.
 4. In the **Dedicated Host** section, you can either select **Create Host**, where you can create a new dedicated host, or **Specify Host**, where you can select from your existing dedicated hosts.
