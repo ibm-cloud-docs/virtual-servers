@@ -110,21 +110,6 @@ If you need extra storage, you can attach storage disks to your instance. The ty
 | VPN management | This option is automatically selected for your instance with unlimited SSL VPN users. For more information, see [About VPN](/docs/infrastructure/iaas-vpn?topic=VPN-about-iaas-vpn). |
 {: caption="Table 4. Network interface add-ons" caption-side="top"}
 
-
-## Provisioning a public instance through the customer portal
-{: #provisioning-a-public-instance-through-the-customer-portal}
-
-To provision your public virtual server instance through the {{site.data.keyword.slportal}}, complete the following steps:
-
-  1. Log in to the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
-  2. Locate the **Order** section and click **Devices**.
-  3. On the Devices page, click **Hourly SAN**, **Hourly local**, **Monthly**, or **Transient** for one of the Virtual Server offerings.
-  4. On the *Configure your Cloud Server* page, complete all the relevant information.
-  5. Click **Add to Order** to continue.
-  6. Confirm or edit the domain information for the server.
-  7. Click the **Cloud Service terms** and the **Third-Party Service Agreement** check box.
-  8. Confirm or enter your payment information and click **Submit Order**. You are redirected to a screen with your provisioning order number. You can print the screen because it's also your provisioning order receipt.
-
 ## Next steps
 {: #next-steps-provisioning-public}
 
