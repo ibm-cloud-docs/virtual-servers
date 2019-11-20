@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-02-12"
+lastupdated: "2019-11-20"
 
 subcollection: virtual-servers
 
@@ -19,7 +19,7 @@ subcollection: virtual-servers
 {: #installing-gpu-drivers-and-software-packages}
 
 You need to install the following software before you can use a GPU Family virtual server.
-* [NVIDIA drivers ![External link icon](../icons/launch-glyph.svg "External link icon")](http://www.nvidia.com/drivers){: new_window} - allows your operating system to communicate with the GPU.
+* [NVIDIA drivers ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.nvidia.com/Download/index.aspx?lang=en-us){: new_window} - allows your operating system to communicate with the GPU.
 * [CUDA Toolkit ![External link icon](../icons/launch-glyph.svg "External link icon")](https://docs.nvidia.com/cuda/){: new_window} - development environment for high-performance GPU-accelerated applications.
 * [cuDNN ![External link icon](../icons/launch-glyph.svg "External link icon")](https://developer.nvidia.com/cudnn){: new_window} - (CUDA Deep Neural Network) library that is used for neural network applications.
 * [NCCL ![External link icon](../icons/launch-glyph.svg "External link icon")](http://docs.nvidia.com/deeplearning/sdk/nccl-install-guide/index.html){: new_window} - cluster communications library for multi-GPU and or multi-system communications.
