@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-05-29"
+lastupdated: "2019-11-20"
 
 keywords: virtual servers, provisioning process, IBM Cloud Virtual Servers
 
@@ -62,4 +62,4 @@ After you decide upon a deployment option, begin the provisioning process.
 {: #next-steps-getting-started}
 
 After your virtual server is provisioned and available to use, you can configure your virtual servers by using the
-{{site.data.keyword.cloud_notm}} console or {{site.data.keyword.slapi_short}}. For more information, see [Configuring virtual servers](/docs/vsi?topic=virtual-servers-configuring-virtual-servers).
+{{site.data.keyword.cloud_notm}} console. For more information, see [Configuring virtual servers](/docs/vsi?topic=virtual-servers-configuring-virtual-servers).
