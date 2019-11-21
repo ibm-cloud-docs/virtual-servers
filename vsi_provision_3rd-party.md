@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-11-21"
 
 subcollection: virtual-servers
 
@@ -34,7 +34,7 @@ For the {{site.data.keyword.Bluemix_notm}} catalog, you must have an upgraded ac
 ## Selecting a virtual server image
 {: #selecting-a-virtual-server-image}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/catalog/){: new_window} by using your unique credentials.
+1. Log in to the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/catalog){: new_window} by using your unique credentials.
 2. In the **Compute** section, locate the **Cloud Images** section and click the third-party image you want to deploy.
 3. Review the custom image details and click **Continue**. The **Virtual server instance - custom image** page is displayed with your custom image pre-selected.
 
