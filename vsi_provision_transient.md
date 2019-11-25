@@ -24,7 +24,7 @@ subcollection: virtual-servers
 ## Before you begin
 {: #before-you-begin-provisioning-transient}
 
-You have two options to provision your transient virtual server instances. The first is through the {{site.data.keyword.cloud}} console and the second is through the {{site.data.keyword.slportal}}. The console and {{site.data.keyword.slportal}} require unique log-in IDs. You can't use your console user name and password to log in to the portal and vice versa.
+You can provision your transient virtual server instances through the {{site.data.keyword.cloud}} console.
 {:shortdesc}
 
 For the {{site.data.keyword.cloud_notm}} console, you must have an upgraded account to order virtual servers. For more information about upgrading your account, see [Pay-As-You-Go account](/docs/account?topic=account-accounts#paygo).
