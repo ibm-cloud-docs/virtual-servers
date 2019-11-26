@@ -19,7 +19,7 @@ subcollection: virtual-servers
 
 
 # Provisioning dedicated hosts and instances
-{: #provisioning-dedicated-instances}
+{: #provisioning-dedicated-hosts-instances}
 
 You can provision your dedicated instances through the {{site.data.keyword.cloud}} catalog. See [Signing up for {{site.data.keyword.cloud_notm}}](/docs/account?topic=account-signup#signup) to set up your {{site.data.keyword.cloud_notm}} catalog credentials.
 {:shortdesc}
