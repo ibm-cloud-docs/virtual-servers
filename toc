@@ -84,10 +84,6 @@ IBM Cloud Virtual Servers
         configuring-automated-reclaim-notifications.md
         how-are-server-ip-addresses-assigned-softlayer-network.md
 
-    {: .topicgroup}
-    Deploying applications
-        vsi_deploy.md
-
     logging-in-to-console.md
 
     {: .topicgroup}
