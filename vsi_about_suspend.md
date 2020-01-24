@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-09-23"
+lastupdated: "2020-01-24"
 
 keywords: virtual server, suspend billing feature, virtual server instances, suspend billing
 
@@ -66,13 +66,13 @@ It's important to understand what costs stop accruing and what costs persist whe
 
 | Resource                      | Billing stopped   | Billing persists |
 | ----------------------------- | ----------------- | ---------------- |
-| vCPU                          | ![Checkmark icon](../../icons/checkmark-icon.svg) |                  |
-| RAM                           | ![Checkmark icon](../../icons/checkmark-icon.svg) |                  |
-| Port speed                    | ![Checkmark icon](../../icons/checkmark-icon.svg) |                  |
-| Operating system licenses     | ![Checkmark icon](../../icons/checkmark-icon.svg) |                  |
-| Monitoring add-ons            | ![Checkmark icon](../../icons/checkmark-icon.svg) |                  |
-| Secondary public IP addresses |                   | ![Checkmark icon](../../icons/checkmark-icon.svg) |
-| Storage                       |                   | ![Checkmark icon](../../icons/checkmark-icon.svg) |
+| vCPU                          | ![Checkmark icon](../icons/checkmark-icon.svg) |                  |
+| RAM                           | ![Checkmark icon](../icons/checkmark-icon.svg) |                  |
+| Port speed                    | ![Checkmark icon](../icons/checkmark-icon.svg) |                  |
+| Operating system licenses     | ![Checkmark icon](../icons/checkmark-icon.svg) |                  |
+| Monitoring add-ons            | ![Checkmark icon](../icons/checkmark-icon.svg) |                  |
+| Secondary public IP addresses |                   | ![Checkmark icon](../icons/checkmark-icon.svg) |
+| Storage                       |                   | ![Checkmark icon](../icons/checkmark-icon.svg) |
 {: row-headers}
 {: class="comparison-table"}
 {: caption="Table 1. Resource billing details" caption-side="top"}
