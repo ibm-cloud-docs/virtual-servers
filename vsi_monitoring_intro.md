@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2020
+lastupdated: "2020-02-04"
 
 subcollection: virtual-servers
 
@@ -18,6 +18,6 @@ subcollection: virtual-servers
 # Monitoring
 {: #monitoring-intro}
 
-{{site.data.keyword.BluSoftlayer_full}} offers both Standard Monitoring Services and Nimsoft Monitoring to ensure that you are always aware of any issues with your devices. Standard Monitoring Services include features like Ping, IPMI Statistics, and NOC Monitoring. Nimsoft Monitoring consists of three levels of monitoring, including Basic, Advanced, and Premium monitoring. Each service within both Standard and Nimsoft Monitoring offerings features a variety of benefits and are available at a variety of pricing options to meet your business needs.
+{{site.data.keyword.cloud}} offers both standard monitoring services and IBM Cloud Monitoring with Sysdig to make sure that you are always aware of any issues with your devices. Standard monitoring services include features like Ping, and IPMI Statistics. Sysdig gives you insight into the performance and health of your applications, services, and platforms. Your administrators, DevOps teams, and developers have full stack telemetry with advanced features to help them monitor and troubleshoot, define alerts, and design custom dashboards.
 
-For more information about monitoring, see [Getting started with monitoring](/docs/infrastructure/SLmonitoring?topic=slmonitoring-monitoring).
+For more information about monitoring options, see [Getting started with monitoring](/docs/infrastructure/SLmonitoring?topic=slmonitoring-monitoring#monitoring).
