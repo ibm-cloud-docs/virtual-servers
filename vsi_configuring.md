@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-10-22"
+  years: 2017, 2020
+lastupdated: "2020-02-04"
 
 subcollection: virtual-servers
 
@@ -67,7 +67,7 @@ The private network is the precursor to interacting with your devices through re
 ## Set up monitoring
 {: #set-up-monitoring}
 
-Monitoring is primarily used as a resource to check your server’s uptime, but it can also be useful for knowing when to scale. Both Standard Monitoring and Nimsoft Monitoring services are available to cover various monitoring needs. Standard Monitoring, sometimes referred to as “Basic Monitoring,” is generally used in the ping-and-respond method by using either a slow or service ping that is initiated by using the {{site.data.keyword.cloud_notm}} console. Nimsoft Monitoring is also referred to as “Advanced Monitoring” and is available in three tiers: Basic, Advanced, and Premium. This service is also accessible through the {{site.data.keyword.cloud_notm}} console. For more information, see [Monitoring](/docs/infrastructure/SLmonitoring?topic=slmonitoring-monitoring#monitoring).
+Monitoring is primarily used as a resource to check your server’s uptime, but it can also be useful for knowing when to scale. Both Standard Monitoring and IBM Cloud Monitoring with Sysdig services are available to cover various monitoring needs. Standard Monitoring, sometimes referred to as “Basic Monitoring,” is generally used in the ping-and-respond method by using either a slow or service ping that is initiated by using the {{site.data.keyword.cloud_notm}} console. Sysdig keeps you aware of any issues with your devices. Sysdig gives you insight into the performance and health of your applications, services, and platforms. Your administrators, DevOps teams, and developers have full stack telemetry with advanced features to help them monitor and troubleshoot, define alerts, and design custom dashboards. For more information, see [Getting started with monitoring](/docs/infrastructure/SLmonitoring?topic=slmonitoring-monitoring).
 
 ## Configure security groups
 {: #configure-security-groups}
