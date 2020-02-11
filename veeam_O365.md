@@ -6,8 +6,7 @@ lastupdated: "2019-11-20"
 
 keywords: veeam backup, office 365, Veeam Backup for Office 365, veeam
 
-subcollection: bare-metal
-
+subcollection: vsi
 ---
 
 {:shortdesc: .shortdesc}
