@@ -62,7 +62,7 @@ Hourly virtual billing is broken down for inbound and outbound traffic. All inbo
 {: #in-what-cases-is-my-virtual-server-migrated-to-a-different-host-}
 {: faq}
 
-We are frequently upgrading our systems with most of the changes applied to virtual servers transparently. When changes happen, your virtual server would experience a brief pause of up to 3 seconds. In limited cases, a virtual server might need to be migrated to a different host. If a migration is required, the virtual server is shut down, migrated, and then restarted. A virtual server might be migrated in the following cases:
+We are frequently upgrading our systems with most of the changes applied to virtual servers transparently. When changes happen, your virtual server would experience a brief pause of up to 3 seconds. In limited cases, such as specialized hardware, a virtual server might need to be migrated to a different host. If a migration is required, the virtual server is shut down, migrated, and then restarted. A virtual server might be migrated in the following cases:
 
 * A host needs to be updated, a host is being decommissioned, or a host is not allowed to take on new instances. If a host is marked for any of these changes, when one of its virtual servers is restarted from the {{site.data.keyword.cloud_notm}} console, the restart automatically triggers the virtual server to be migrated to a different host.
 * Infrastructure maintenance. You might receive an email that indicates that maintenance is required on a system that is hosting your virtual server. Your virtual server might need to be migrated as part of the infrastructure maintenance.
