@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-08-29"
+  years: 2017, 2020
+lastupdated: "2020-02-28"
 
 subcollection: virtual-servers
 
@@ -62,16 +62,15 @@ Hourly virtual billing is broken down for inbound and outbound traffic. All inbo
 {: #in-what-cases-is-my-virtual-server-migrated-to-a-different-host-}
 {: faq}
 
-In limited cases a virtual server might need to be migrated to a different host. If a migration is required, the virtual server is shut down, migrated, and then restarted. A virtual server might be migrated in the following cases:
+We are frequently upgrading our systems with most of the changes applied to virtual servers transparently. When changes happen, your virtual server would experience a brief pause of up to 3 seconds. In limited cases, a virtual server might need to be migrated to a different host. If a migration is required, the virtual server is shut down, migrated, and then restarted. A virtual server might be migrated in the following cases:
 
-* A hypervisor needs to be updated, a host is being decommissioned, or a host is not allowed to take on new instances. If a host is marked for any of these changes, when one of its virtual servers is rebooted from the {{site.data.keyword.cloud_notm}} console, the reboot automatically triggers the virtual server to be migrated to a different host.
-* Infrastructure maintenance. You might receive an email indicating that maintenance is required on a system that is hosting your virtual server. Your virtual server might need to be migrated as part of the infrastructure maintenance.
+* A host needs to be updated, a host is being decommissioned, or a host is not allowed to take on new instances. If a host is marked for any of these changes, when one of its virtual servers is restarted from the {{site.data.keyword.cloud_notm}} console, the restart automatically triggers the virtual server to be migrated to a different host.
+* Infrastructure maintenance. You might receive an email that indicates that maintenance is required on a system that is hosting your virtual server. Your virtual server might need to be migrated as part of the infrastructure maintenance.
 * An upgrade to an existing instance. For consistent performance, if you upgrade an instance it might be migrated to a different host to ensure that it receives the appropriate dedicated CPU and memory.
 * A dedicated host fails. Dedicated instances are migrated to another empty host without using any existing capacity that you might have.
+* A virtual host fails. Your instances are migrated to another host within the environment.
 
-During a maintenance window, you might see a **Migrate Host** option display in the **Actions** menu of your device in the {{site.data.keyword.cloud_notm}} console. **Migrate Host** allows you to migrate the virtual server to a new host at your convenience during a specified maintenance period. If you do not initiate the migration during the maintenance period, then the virtual server is automatically migrated to complete the required maintenance. The **Migrate Host** option does not persist and is only available during maintenance periods that are communicated through maintenance notifications.
-
-You might also see the **Migrate Host** option if one of your virtual servers is required to have a certain level of hypervisor that is not available on the current host.
+When a host failure occurs, we automatically detect this failure and move your instance onto a new host. This failure detection typically occurs within 1 minute, your virtual server rescheduled to a new host within 5 minutes, and up and running within 7 minutes. To opt out of auto-recovery, a support case must be opened with the request.
 
 ## What happens to my data when my portable storage is deleted?
 {: #what-happens-to-my-data-when-my-portable-storage-is-deleted-}
