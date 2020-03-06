@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2020-01-10"
+lastupdated: "2020-03-06"
 
 subcollection: virtual-servers
 
@@ -61,4 +61,4 @@ Keep in mind the following when you’re ordering a dedicated host(s) and dedica
 ## Next steps
 {: #next-steps-dedicated-virtual-servers}
 
-After you have reviewed and decided upon your deployment options, it is time to provision your virtual server. To get started, see [Provisioning dedicated hosts and instances](/docs/vsi?topic=virtual-servers-ordering-vs-dedicated).
+After you have reviewed and decided upon your deployment options, it is time to provision your virtual server. To get started, see [Provisioning dedicated hosts and instances](/docs/vsi?topic=virtual-servers-provisioning-dedicated-hosts-instances).
