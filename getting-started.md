@@ -27,7 +27,7 @@ You can deploy {{site.data.keyword.BluVirtServers}} in a matter of minutes. The 
 Try our Virtual Servers for VPC. For more information, see [Virtual private cloud](/docs/vpc?topic=vpc-getting-started).
 {:tip}
 
-When you create a virtual server in the classic infrastructure, you can choose between a public (multi-tenancy) environment or a dedicated (single-tenancy) environment. Then, depending on the chosen environment, you must also select hourly, monthly, or transient virtual servers. In the case of public virtual servers, you also choose to use either SAN-based storage or local storage.
+When you create a virtual server in the classic infrastructure, you can choose between a public (multi-tenancy) environment or a dedicated (single-tenancy) environment. Then, depending on the chosen environment, you must also select hourly, monthly or transient virtual servers. In the case of public virtual servers, you also choose to use either SAN-based storage or local storage.
 
 ## Before you begin
 {: #before-you-begin-virtual-servers}
