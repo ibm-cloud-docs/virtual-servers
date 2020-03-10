@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-11-20"
+lastupdated: "2020-03-10"
 
 keywords: virtual servers, provisioning process, IBM Cloud Virtual Servers
 
