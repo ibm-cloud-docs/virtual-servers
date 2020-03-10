@@ -41,7 +41,7 @@ To provision a virtual server instance that supports the suspend billing feature
     * Memory
     * Variable compute
 
-For suspend working to work properly, your instance must meet the requirements above and you must specify a profile (also known as flavor).
+For suspend billing to work properly, your instance must meet the requirements above and you must specify a profile (also known as flavor).
 {:important} 
 
 You can use the suspend billing feature as a faster alternative to provisioning and reclaiming a virtual server instance.
