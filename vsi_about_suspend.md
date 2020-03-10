@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2020-01-24"
+  years: 2017, 2020
+lastupdated: "2020-03-10"
 
 keywords: virtual server, suspend billing feature, virtual server instances, suspend billing
 
@@ -29,17 +29,22 @@ When you power off {{site.data.keyword.BluVirtServers}} that support the suspend
 
 Most virtual server instances created before November 1st, 2018 don't support the suspend billing feature. To find out if your virtual server instance supports the suspend billing feature, see [Viewing suspend billing feature](/docs/vsi?topic=virtual-servers-viewing-suspend-billing-feature).
 
-This feature is available in data centers across the globe. To provision a virtual server instance that supports the suspend billing feature, the virtual server instance must be configured with the following settings:
+## Before you begin
+{: #suspend-billing-prereqs}
 
-* Hourly SAN
-* Public profiles of one of the following families:
-  * Balanced
-  * Compute
-  * Memory
-  * Variable compute
+To provision a virtual server instance that supports the suspend billing feature, the virtual server instance must be configured with the following settings:
+
+1. Hourly SAN
+2. Public profiles from one of the following families:
+    * Balanced
+    * Compute
+    * Memory
+    * Variable compute
+
+For suspend working to work properly, your instance must meet the requirements above and you must specify a profile (also known as flavor).
+{:important} 
 
 You can use the suspend billing feature as a faster alternative to provisioning and reclaiming a virtual server instance.
-{:tip}
 
 Billing is suspended only when you power off your virtual server instance through the {{site.data.keyword.cloud_notm}} console, CLI, or {{site.data.keyword.slapi_short}}. If you power off your virtual server instance directly through the OS, billing isn't suspended for that instance.
 {:note}
