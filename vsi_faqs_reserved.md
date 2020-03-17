@@ -40,7 +40,7 @@ Reserved capacity and instances are purchased for a one or three year term. Afte
 {: #what-happens-at-the-end-of-my-contract-}
 {: faq}
 
-Depending on whether you specified hourly or monthly billing, billing for the CPU and RAM will convert to the current list price, with any account discounts applied. For more information about pricing, see [Build your virtual server ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/virtual-servers){: new_window}.
+Depending on whether you specified hourly or monthly billing, the billing price for the CPU and RAM will convert to the current list price, with any account discounts applied. Contact your sales representative, who in turn will work with your global sales manager to determine end-of-contract options such as renewal or restructuring of your contract provisions. For more information about pricing, see [Build your virtual server ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/virtual-servers){: new_window}.
 
 ## What happens if I don't need my reserved virtual server instances anymore?
 {: #what-happens-if-i-don-t-need-my-reserved-virtual-server-instances-anymore-}
