@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2016, 2018
-lastupdated: "2018-11-06"
+  years: 2016, 2018, 2019, 2020
+lastupdated: "2020-03-19"
 
 subcollection: virtual-servers
 
@@ -74,7 +74,7 @@ The following table lists the actions that generate an event:
 
 The {{site.data.keyword.cloudaccesstrailshort}} events are available in the {{site.data.keyword.cloudaccesstrailshort}} **account domain** that
 is available in the {{site.data.keyword.Bluemix_notm}} region where the events are generated. For more information, see [Viewing account
-events](/docs/services/cloud-activity-tracker/how-to/manage-events-ui?topic=cloud-activity-tracker-view_acc_events#account_events).
+events](/docs/Activity-Tracker-with-LogDNA?topic=logdnaat-manage_events).
 
 {{site.data.keyword.cloudaccesstrailshort}} events are automatically forwarded to the {{site.data.keyword.cloudaccesstrailshort}} service
 in the same region where the action happens.
