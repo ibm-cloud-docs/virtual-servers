@@ -28,7 +28,7 @@ with the account can trigger virtual server events that are logged in {{site.dat
 
 The {{site.data.keyword.cloudaccesstrailshort}} service records user-initiated activities that change the state of a service in
 {{site.data.keyword.Bluemix_notm}}. For more information, see
-[About {{site.data.keyword.cloudaccesstrailshort}}](/docs/services/cloud-activity-tracker?topic=cloud-activity-tracker-activity_tracker_ov#activity_tracker_ov).
+[About {{site.data.keyword.cloudaccesstrailshort}}](/docs/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started#gs_ov).
 
 To get started monitoring your user's actions, see
 [{{site.data.keyword.cloudaccesstrailfull_notm}}](/docs/services/cloud-activity-tracker?topic=cloud-activity-tracker-getting-started).
