@@ -31,7 +31,7 @@ The {{site.data.keyword.cloudaccesstrailshort}} service records user-initiated a
 [About {{site.data.keyword.cloudaccesstrailshort}}](/docs/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started#gs_ov).
 
 To get started monitoring your user's actions, see
-[{{site.data.keyword.cloudaccesstrailfull_notm}}](/docs/services/cloud-activity-tracker?topic=cloud-activity-tracker-getting-started).
+[{{site.data.keyword.cloudaccesstrailfull_notm}}](/docs/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started).
 
 An initiator can be a user, a service, or an application. For a user to generate events, the user must have access to **Infrastructure** resources in {{site.data.keyword.Bluemix}} console.
 {: tip}
