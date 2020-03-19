@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2020
-lastupdated: "2020-03-11"
+lastupdated: "2020-03-19"
 
 keywords: virtual servers, provisioning process, IBM Cloud Virtual Servers, virtual machines
 
@@ -41,7 +41,7 @@ Before you begin, review the following prerequisites.
 |[Public virtual server](/docs/vsi?topic=virtual-servers-about-public-virtual-servers#about-public-virtual-servers)            | IBM-managed, multi-tenancy virtual server deployments|
 |[Transient virtual server](/docs/vsi?topic=virtual-servers-transient-virtual-servers#transient-virtual-servers)| IBM-managed, multi-tenancy virtual server deployments offered at a reduced cost and best suited for flexible workloads |
 |[Reserved virtual server](/docs/vsi?topic=virtual-servers-about-reserved-virtual-servers#about-reserved-virtual-servers)  | IBM-managed, multi-tenancy virtual server deployments with guaranteed capacity for a contract term |
-|[Dedicated virtual server](/docs/vsi?topic=virtual-servers-about-dedicated-virtual-servers#about-dedicated-virtual-servers)      | IBM-managed, single-tenancy virtual server deployments            |
+|[Dedicated virtual server](/docs/vsi?topic=virtual-servers-dedicated-virtual-servers)      | IBM-managed, single-tenancy virtual server deployments            |
 {: caption="Table 1. Deployment options" caption-side="top"} 
 
 ## Provisioning a virtual server
