@@ -25,21 +25,21 @@ subcollection: virtual-servers
 {: #my-virtual-server-is-down-what-should-i-do}
 
 If your virtual server is down, follow these steps:
-1. Try to power on your server. For more information, see [Power On/Off](/docs/infrastructure/vsi?topic=virtual-servers-managing-virtual-servers#power-on-off){: new_window}.
+1. Try to power on your server. For more information, see [Power On/Off](/docs/vsi?topic=virtual-servers-managing-virtual-servers#power-on-off){: new_window}.
 2. If your server does not power on or returns to a down state, you might need to start your server in rescue mode. For more information, see [Launching rescue mode](/docs/vsi?topic=virtual-servers-launching-rescue){: new_window}.
 
 In the rare case that a host failure causes your server to go down, you are notified by IBM Support and your server is migrated to a new host automaticall - no action required. 
 
-For more help, see [Getting help and support](/docs/infrastructure/vsi?topic=virtual-servers-gettinghelp).
+For more help, see [Getting help and support](/docs/vsi?topic=virtual-servers-gettinghelp).
 
 ## My bare metal server is down. What should I do?
 {: #my-bare-metal-server-is-down-what-should-i-do}
 
 If your bare-metal server is down, check for any alerts from your monitoring software. To get your server running again, follow these steps.
-1. Try to power on your server. For more information, see [Power On/Off](/docs/infrastructure/vsi?topic=virtual-servers-managing-virtual-servers#power-on-off){: new_window}.
+1. Try to power on your server. For more information, see [Power On/Off](/docs/vsi?topic=virtual-servers-managing-virtual-servers#power-on-off){: new_window}.
 2. If your server does not power on or returns to a down state, you might need to start your server in rescue mode. For more information, see [Launching rescue mode](/docs/vsi?topic=virtual-servers-launching-rescue){: new_window}.
 
-For additional help, see [Getting help and support](/docs/infrastructure/vsi?topic=virtual-servers-gettinghelp).
+For additional help, see [Getting help and support](/docs/vsi?topic=virtual-servers-gettinghelp).
 
 ## What is the difference between "Boot from Image" and "Load from Image"?
 {: #what-is-the-difference-between-boot-from-image-and-load-from-image-}
