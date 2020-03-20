@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2020
-lastupdated: "2020-03-18"
+lastupdated: "2020-03-20"
 
 subcollection: virtual-servers
 
@@ -38,7 +38,7 @@ For pricing information, see [Build your virtual server](https://www.ibm.com/clo
 {: #where-can-i-find-pricing-information-for-virtual-public-instances-}
 {: faq}
 
-Estimating your cost for an {{site.data.keyword.cloud_notm}} server to support your workload begins in the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog){: external}. From the catalog, select **Compute** and choose the server type - Bare Metal Server, Virtual Server, or Virtual Server for VPC (Virtual Private Cloud). For pricing information, see the [Virtual servers provisioning calculator](https://www.ibm.com/cloud/virtual-servers/calculator/){: external}.
+Estimating your cost for an {{site.data.keyword.cloud_notm}} server to support your workload begins in the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog){: external}. From the catalog, select **Compute** and choose the server type - Bare Metal Server, Virtual Server, or Virtual Server for VPC (Virtual Private Cloud). For pricing information, see the [Virtual servers provisioning calculator](https://www.ibm.com/cloud/virtual-servers-cloud/pricing-configuration/){: external}.
 
 ## Can I add disk storage to my hourly or monthly virtual server?
 {: #can-i-add-disk-storage-to-my-hourly-or-monthly-virtual-server-}
