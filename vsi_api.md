@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-04-03"
+  years: 2017, 2020
+lastupdated: "2020-03-20"
 
 subcollection: virtual-servers
 
@@ -32,16 +32,13 @@ For more information about the {{site.data.keyword.slapi_short}} and virtual ser
 
 For API usage examples, see the following resources:
 * [Understanding and building an order using the {{site.data.keyword.slapi_short}} order CLI](https://softlayer.github.io/article/understanding-ordering/){: external}
-* [{{site.data.keyword.slapi_short}} Python Client: Working with Virtual Servers](http://softlayer-python.readthedocs.io/en/latest/cli/vs.html){: external}
 * [{{site.data.keyword.slapi_short}} Examples - Release Notes](https://softlayer.github.io/){: external}
 * [Python examples](https://softlayer.github.io/python/){: external}
 
 ## Dedicated virtual servers usage examples
 {: #dedicated-virtual-servers-usage-examples}
 
-* [Get Dedicated Host Allocation](https://softlayer.github.io/python/getdedihostallocation/){: external}
-* [Get Dedicated Host Guests](https://softlayer.github.io/python/getdedicatedhostguests/){: external}
-* [Migrate a virtual server instance between dedicated hosts](https://softlayer.github.io/python/migratededicatedinstance/){: external}
+* [SoftLayer_Virtual_DedicatedHost API examples](https://sldn.softlayer.com/reference/services/SoftLayer_Virtual_DedicatedHost/){: external}
 
 ## Public virtual servers usage examples
 {: #public-virtual-servers-usage-examples}
