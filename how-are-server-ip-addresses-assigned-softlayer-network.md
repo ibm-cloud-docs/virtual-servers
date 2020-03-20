@@ -24,7 +24,7 @@ subcollection: virtual-servers
 
 Additional IP addresses can be bound to virtual server instances after purchasing secondary subnets through the {{site.data.keyword.cloud_notm}} console. IP addresses purchased in this way and managed by you are referred to as _Secondary IP Addresses_.
 
-For more information about options available for acquiring IP addresses, see [Subnets and IPs](/docs/infrastructure/subnets?topic=subnets-about-subnets-and-ips).
+For more information about options available for acquiring IP addresses, see [Subnets and IPs](/docs/subnets?topic=subnets-about-subnets-and-ips).
 
 ## Binding secondary IP addresses
 {: #binding-secondary-ip-addresses}

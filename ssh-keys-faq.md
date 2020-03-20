@@ -28,7 +28,7 @@ SSH keys are device-specific and are found within the device. Because each opera
 {: #how-many-ssh-keys-can-i-add-to-my-account-}
 {: faq}
 
-You can associate up to 100 SSH keys with an account. Authorized users can [add 1 SSH key](/docs/infrastructure/ssh-keys?topic=ssh-keys-adding-an-ssh-key#adding-an-ssh-key) at a time by using the {{site.data.keyword.cloud}} console. While most users don't need 100 keys, you should remove any keys that you do not need to ensure that space is available for more valid keys. For more information, see [Removing an SSH key](/docs/infrastructure/ssh-keys?topic=ssh-keys-removing-an-ssh-key#removing-an-ssh-key).
+You can associate up to 100 SSH keys with an account. Authorized users can [add 1 SSH key](/docs/ssh-keys?topic=ssh-keys-adding-an-ssh-key#adding-an-ssh-key) at a time by using the {{site.data.keyword.cloud}} console. While most users don't need 100 keys, you should remove any keys that you do not need to ensure that space is available for more valid keys. For more information, see [Removing an SSH key](/docs/ssh-keys?topic=ssh-keys-removing-an-ssh-key#removing-an-ssh-key).
 
 ## I don't see my actual SSH key listed, but I do see a fingerprint. What is that?
 {: #i-don-t-see-my-actual-ssh-key-listed-but-i-do-see-a-fingerprint-what-is-that-}

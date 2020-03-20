@@ -23,4 +23,4 @@ Secure Sockets Layer (SSL) is a technology that encrypts traffic between the cli
 
 The SSL certificate contains the server’s public key, dates for which the certificate is valid, a host name for which the certificate is valid and a signature from the certificate authority that issued it. With this information and some protocol information exchanged during the beginning of a session, you can be reasonably certain that the server is the one to which it is intending to talk.
 
-For more information about SSL certificates, see [Getting started with SSL certificates](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-getting-started-tutorial#getting-started-tutorial).
+For more information about SSL certificates, see [Getting started with SSL certificates](/docs/ssl-certificates?topic=ssl-certificates-getting-started-tutorial#getting-started-tutorial).

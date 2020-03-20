@@ -40,7 +40,7 @@ Change your password using strong password guidelines. See [Viewing and managing
 ## Configure SSH
 {: #configure-ssh}
 
-SSH provides better security solution than password authentication. See [Getting started with SSH keys](/docs/infrastructure/ssh-keys?topic=ssh-keys-getting-started-tutorial#getting-started-tutorial).
+SSH provides better security solution than password authentication. See [Getting started with SSH keys](/docs/ssh-keys?topic=ssh-keys-getting-started-tutorial#getting-started-tutorial).
 
 ## Record IP addresses and credentials
 {: #record-ip-addresses-and-credentials}
@@ -67,12 +67,12 @@ The private network is the precursor to interacting with your devices through re
 ## Set up monitoring
 {: #set-up-monitoring}
 
-Monitoring is primarily used as a resource to check your server’s uptime, but it can also be useful for knowing when to scale. Both Standard Monitoring and IBM Cloud Monitoring with Sysdig services are available to cover various monitoring needs. Standard Monitoring, sometimes referred to as “Basic Monitoring,” is generally used in the ping-and-respond method by using either a slow or service ping that is initiated by using the {{site.data.keyword.cloud_notm}} console. Sysdig keeps you aware of any issues with your devices. Sysdig gives you insight into the performance and health of your applications, services, and platforms. Your administrators, DevOps teams, and developers have full stack telemetry with advanced features to help them monitor and troubleshoot, define alerts, and design custom dashboards. For more information, see [Getting started with monitoring](/docs/infrastructure/SLmonitoring?topic=slmonitoring-monitoring).
+Monitoring is primarily used as a resource to check your server’s uptime, but it can also be useful for knowing when to scale. Both Standard Monitoring and IBM Cloud Monitoring with Sysdig services are available to cover various monitoring needs. Standard Monitoring, sometimes referred to as “Basic Monitoring,” is generally used in the ping-and-respond method by using either a slow or service ping that is initiated by using the {{site.data.keyword.cloud_notm}} console. Sysdig keeps you aware of any issues with your devices. Sysdig gives you insight into the performance and health of your applications, services, and platforms. Your administrators, DevOps teams, and developers have full stack telemetry with advanced features to help them monitor and troubleshoot, define alerts, and design custom dashboards. For more information, see [Getting started with monitoring](/docs/SLmonitoring?topic=slmonitoring-monitoring).
 
 ## Configure security groups
 {: #configure-security-groups}
 
-You can use security groups to limit network traffic on your virtual servers. Use security groups to enact a set of IP filter rules that define how to handle incoming and outgoing traffic to both the public and private interfaces of a virtual server instance. For more information, see [Getting started with security groups](/docs/infrastructure/security-groups?topic=security-groups-getting-started).
+You can use security groups to limit network traffic on your virtual servers. Use security groups to enact a set of IP filter rules that define how to handle incoming and outgoing traffic to both the public and private interfaces of a virtual server instance. For more information, see [Getting started with security groups](/docs/security-groups?topic=security-groups-getting-started).
 
 ## Configure firewalls
 {: #configure-firewalls}
@@ -81,14 +81,14 @@ Hardware firewalls are also available for even more protection. Hardware firewal
 
 For more information, see the following information.
 
-* [Hardware Firewalls (Shared)](/docs/infrastructure/hardware-firewall-shared?topic=hardware-firewall-shared-about-hardware-firewall-shared-)
-* [Hardware Firewalls (Dedicated)](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-about-the-hardware-firewall-dedicated-)
+* [Hardware Firewalls (Shared)](/docs/hardware-firewall-shared?topic=hardware-firewall-shared-about-hardware-firewall-shared-)
+* [Hardware Firewalls (Dedicated)](/docs/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-about-the-hardware-firewall-dedicated-)
 
 ## Schedule backups
 {: #schedule-backups}
 
 Backups ensure that your data is safely stored outside of your device and protected if it is lost. The following backup services are available to store your data in a secure location in case you ever need to reload your information onto your device:
-- {{site.data.keyword.backup_notm}} is an automated, agent-based backup system. This is a popular “set-and-forget” solution for managing your device. It is compatible with Microsoft software including Exchange and SQL through extra plug-ins. {{site.data.keyword.backup_notm}} users interact with this service through {{site.data.keyword.backup_notm}}’s WebCC web-based application. For more information, see [Getting started with {{site.data.keyword.backup_notm}} services](/docs/infrastructure/Backup?topic=Backup-getting-started).
+- {{site.data.keyword.backup_notm}} is an automated, agent-based backup system. This is a popular “set-and-forget” solution for managing your device. It is compatible with Microsoft software including Exchange and SQL through extra plug-ins. {{site.data.keyword.backup_notm}} users interact with this service through {{site.data.keyword.backup_notm}}’s WebCC web-based application. For more information, see [Getting started with {{site.data.keyword.backup_notm}} services](/docs/Backup?topic=Backup-getting-started).
 - R1Soft Continuous Data Protection is backup software that can be installed on your server or self-managed virtual machine. It is recommended if you want a single interface to manage all of your backups. You interact with R1Soft CDP through your proprietary management system, which allows agents to be installed on virtual machines and offers database plug-ins for extra functions. For more information about R1Soft CDP back-up services, see the [R1Soft Documentation ![External link icon](../icons/launch-glyph.svg "External link icon")](http://wiki.r1soft.com/display/ServerBackupManager/Home){: new_window}.
 
 ## Next steps

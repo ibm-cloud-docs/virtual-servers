@@ -54,8 +54,8 @@ Virtual servers are fully compatible with {{site.data.keyword.filestorage_short}
 
 For more information about supplemental storage options, see the following resources:
 
-* [Getting Started with Block Storage](/docs/infrastructure/BlockStorage?topic=BlockStorage-getting-started)
-* [Getting Started with File Storage](/docs/infrastructure/FileStorage?topic=FileStorage-getting-started)
+* [Getting Started with Block Storage](/docs/BlockStorage?topic=BlockStorage-getting-started)
+* [Getting Started with File Storage](/docs/FileStorage?topic=FileStorage-getting-started)
 * [Getting Started with Object Storage](/docs/services/cloud-object-storage?topic=cloud-object-storage-getting-started)
 
 ## Next steps
