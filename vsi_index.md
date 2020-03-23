@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2020-03-10"
+  years: 2017, 2019, 2020
+lastupdated: "2020-03-23"
 
 keywords: virtual servers, provisioning process, IBM Cloud Virtual Servers
 
@@ -55,7 +55,7 @@ After you decide upon a deployment option, begin the provisioning process.
 |[Provisioning public instances](/docs/vsi?topic=virtual-servers-ordering-vs-public)                | Provision public instances with various options             |
 |[Provisioning transient instances](/docs/vsi?topic=virtual-servers-ordering-vs-transient)                | Provision transient instances with various options            |
 |[Provisioning reserved capacity and instances](/docs/vsi?topic=virtual-servers-provisioning-reserved-capacity-and-instances)            | Provision reserved capacity and instances with various options |
-|[Provisioning dedicated hosts and instances](/docs/vsi?topic=virtual-servers-provisioning-dedicated-hosts-instance) | Provision private instances or dedicated instances on dedicated hosts|
+|[Provisioning dedicated hosts and instances](/docs/vsi?topic=virtual-servers-provisioning-dedicated-hosts-instances) | Provision private instances or dedicated instances on dedicated hosts|
 {: caption="Table 2. Provisioning information" caption-side="top"}
 
 ## Next steps
