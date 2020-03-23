@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017, 2019
+  years: 2017, 2019, 2020
 lastupdated: "2019-11-21"
 
 subcollection: virtual-servers
@@ -64,7 +64,7 @@ Because you started the provisioning process with a third-party image, you canno
 |[Provisioning public instances](/docs/vsi?topic=virtual-servers-ordering-vs-public#ordering-vs-public)                | Provision public instances with various options             |
 |[Provisioning transient instances](/docs/vsi?topic=virtual-servers-ordering-vs-transient#ordering-vs-transient)                | Provision transient instances with various options            |
 |[Provisioning reserved capacity and instances](/docs/vsi?topic=virtual-servers-provisioning-reserved-capacity-and-instances#provisioning-reserved-capacity-and-instances)            | Provision reserved capacity and instances with various options |
-|[Provisioning dedicated hosts and instances](/docs/vsi?topic=virtual-servers-ordering-vs-dedicated#ordering-vs-dedicated)| Provision private instances or dedicated instances on dedicated hosts.|
+|[Provisioning dedicated hosts and instances](/docs/vsi?topic=virtual-servers-provisioning-dedicated-hosts-instances)| Provision private instances or dedicated instances on dedicated hosts.|
 {: caption="Table 2. Provisioning information" caption-side="top"}
 
 
