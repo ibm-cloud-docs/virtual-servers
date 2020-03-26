@@ -19,7 +19,7 @@ subcollection: virtual-servers
 
 
 # FAQs: Servers (general)
-{: faqs-servers-general-}
+{: #faqs-servers-general-}
 
 ## My virtual server is down. What should I do?
 {: #my-virtual-server-is-down-what-should-i-do}
