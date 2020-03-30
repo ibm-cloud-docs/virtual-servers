@@ -36,10 +36,10 @@ IBM Cloud Virtual Servers
 
     {: .topicgroup}
     Software options
-        [About software](/infrastructure/software/software-about-software#about-software)
-        [Microsoft Windows Update Information](/infrastructure/software/software-microsoft-windows-update-information#microsoft-windows-update-information)
-        [RedHat Update Information](/infrastructure/software/software-red-hat-update-instructions#red-hat-update-instructions)
-        [AV/S/Host IDS Topic Description](/infrastructure/software/software-anti-virus-spyware-and-host-ids-information#anti-virus-spyware-and-host-ids-information)
+        [About software](/software/software-about-software#about-software)
+        [Microsoft Windows Update Information](/software/software-microsoft-windows-update-information#microsoft-windows-update-information)
+        [RedHat Update Information](/software/software-red-hat-update-instructions#red-hat-update-instructions)
+        [AV/S/Host IDS Topic Description](/software/software-anti-virus-spyware-and-host-ids-information#anti-virus-spyware-and-host-ids-information)
         vsi_database_tools.md
 
     {: .topicgroup}
@@ -116,7 +116,7 @@ IBM Cloud Virtual Servers
     {: .topicgroup}
     Managing security
         vsi_managing_sg.md
-        [Accessing SSL certificates](/infrastructure/ssl-certificates/ssl-certificates-accessing-ssl-certificates#accessing-ssl-certificates)
+        [Accessing SSL certificates](/ssl-certificates/ssl-certificates-accessing-ssl-certificates#accessing-ssl-certificates)
 
     {: .topicgroup}
     Managing storage
@@ -126,12 +126,12 @@ IBM Cloud Virtual Servers
 
     {: .topicgroup}
     Managing software
-        [Reloading the OS](/infrastructure/software/software-reloading-the-os#reloading-the-os)
-        [Reloading an OS using an image template](/infrastructure/software/software-reloading-an-os-using-an-image-template#reloading-an-os-using-an-image-template)
-        [Adding IPv6 to Ubuntu systems](/infrastructure/software/software-adding-ipv6-to-ubuntu-systems#adding-ipv6-to-ubuntu-systems)
-        [Installing ClamAV](/infrastructure/software/software-installing-clamav#installing-clamav)
-        [Notifying Users of an Approaching Bandwidth Limitation in cPanel/WHM](/infrastructure/software/software-notifying-users-of-an-approaching-bandwidth-limitation-in-cpanel-and-whm#notifying-users-of-an-approaching-bandwidth-limitation-in-cpanel-and-whm)
-        [Updating an instance to use a local WSUS server](/infrastructure/software/software-updating-an-instance-to-use-a-local-wsus-server#updating-an-instance-to-use-a-local-wsus-server)
+        [Reloading the OS](/software/software-reloading-the-os#reloading-the-os)
+        [Reloading an OS using an image template](/software/software-reloading-an-os-using-an-image-template#reloading-an-os-using-an-image-template)
+        [Adding IPv6 to Ubuntu systems](/software/software-adding-ipv6-to-ubuntu-systems#adding-ipv6-to-ubuntu-systems)
+        [Installing ClamAV](/software/software-installing-clamav#installing-clamav)
+        [Notifying Users of an Approaching Bandwidth Limitation in cPanel/WHM](/software/software-notifying-users-of-an-approaching-bandwidth-limitation-in-cpanel-and-whm#notifying-users-of-an-approaching-bandwidth-limitation-in-cpanel-and-whm)
+        [Updating an instance to use a local WSUS server](/software/software-updating-an-instance-to-use-a-local-wsus-server#updating-an-instance-to-use-a-local-wsus-server)
         vsi_gpu_nvidia_drivers.md
 
     vsi_managing_placegroup.md
@@ -144,17 +144,17 @@ IBM Cloud Virtual Servers
     Monitoring
         vsi_monitoring_intro.md
         /SLmonitoring/slmonitoring-viewing-and-managing-monitors
-        sysdig-monitoring-metrics.md
+        [Sysdig monitoring metrics](sysdig-monitoring-metrics.md)
 
     {: .topicgroup}
     Backing up and recovering
         vsi_launch_rescue.md
-        [Restoring a server from an R1Soft image](/infrastructure/software/software-restoring-your-server-from-an-r1soft-image#restoring-your-server-from-an-r1soft-image)
+        [Restoring a server from an R1Soft image](/software/software-restoring-your-server-from-an-r1soft-image#restoring-your-server-from-an-r1soft-image)
         veeam_O365.md
         
     {: .topicgroup}
     Related links
-        [Virtual Machine Network Setup](/infrastructure/virtualization/Virtualization-setting-up-a-virtual-machine-network#setting-up-a-virtual-machine-network)
+        [Virtual Machine Network Setup](/virtualization/Virtualization-setting-up-a-virtual-machine-network#setting-up-a-virtual-machine-network)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
