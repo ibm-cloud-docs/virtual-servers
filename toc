@@ -62,6 +62,7 @@ IBM Cloud Virtual Servers
     vsi_provision_api.md
     vsi_activity_tracker_events.md
     vsi_auto_scale_terminology.md
+    vsi_high-availability.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -151,7 +152,7 @@ IBM Cloud Virtual Servers
         vsi_launch_rescue.md
         [Restoring a server from an R1Soft image](/software/software-restoring-your-server-from-an-r1soft-image#restoring-your-server-from-an-r1soft-image)
         veeam_O365.md
-        
+
     {: .topicgroup}
     Related links
         [Virtual Machine Network Setup](/virtualization/Virtualization-setting-up-a-virtual-machine-network#setting-up-a-virtual-machine-network)
