@@ -145,6 +145,7 @@ IBM Cloud Virtual Servers
     Monitoring
         vsi_monitoring_intro.md
         /SLmonitoring/slmonitoring-viewing-and-managing-monitors
+        sysdig-monitoring-metrics.md
 
     {: .topicgroup}
     Backing up and recovering
