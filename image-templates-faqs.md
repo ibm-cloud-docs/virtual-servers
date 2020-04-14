@@ -6,7 +6,7 @@ lastupdated: "2019-09-11"
 
 keywords:
 
-subcollection: image-templates
+subcollection: virtual-servers
 
 ---
 
