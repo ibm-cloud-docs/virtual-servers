@@ -6,7 +6,7 @@ lastupdated: "2019-06-11"
 
 keywords: SSH keys, SSH key, device-specific
 
-subcollection: ssh-keys
+subcollection: virtual-servers
 
 ---
 
