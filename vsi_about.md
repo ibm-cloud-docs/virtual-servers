@@ -23,6 +23,9 @@ subcollection: virtual-servers
 {{site.data.keyword.BluVirtServers}} are scalable virtual servers that are purchased with cores and memory allocations. They are a great option if you are looking for compute resources, that can be added in minutes, with access to features like image templates. The hypervisor is fully managed by {{site.data.keyword.cloud_notm}} and you can perform configuration and management tasks by using both the {{site.data.keyword.cloud_notm}} console and the {{site.data.keyword.slapi_short}}. Virtual servers are deployed to the same VLANs as physical servers, allowing you to spread workloads across virtual servers and bare metal servers, while maintaining interoperability. Virtual servers are fully customizable when you order them, with options to scale up as your compute needs grow.
 {:shortdesc}
 
+Newer version available. Try our Virtual Servers for VPC. For more information, see [Virtual Private Cloud](/docs/vpc?topic=vpc-getting-started).
+{:tip}
+
 When you create a virtual server, you can choose between a public (multi-tenancy) environment or a dedicated (single-tenancy) environment. You can also choose between hourly or monthly billing, and high-performance local disks or enterprise SAN storage.
 
 ## Key features

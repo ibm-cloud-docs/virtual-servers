@@ -24,6 +24,9 @@ subcollection: virtual-servers
 The public {{site.data.keyword.BluVirtServers}} offerings are IBM-managed, multi-tenant virtual server deployments. They give you rapid scalability and higher-cost effectiveness with pre-defined sizes that meet all business requirements to get you up and running quickly.
 {:shortdesc}
 
+Newer version available. Try our Virtual Servers for VPC. For more information, see [Virtual Private Cloud](/docs/vpc?topic=vpc-getting-started).
+{:tip}
+
 Public virtual servers have many advantages, including the following:
 
 * **Global availability** 
