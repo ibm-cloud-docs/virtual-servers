@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-10-24"
+  years: 2017, 2020
+lastupdated: "2020-04-23"
 
 subcollection: virtual-servers
 
@@ -104,3 +104,10 @@ Yes, resource limitations are per account as defined for all {{site.data.keyword
 {: faq}
 
 No; you can only provision the listed capacity on dedicated hosts.
+
+## What happens if my dedicated host fails?
+{: #what-happens-if-my-dedicated-host-fails-}
+{: faq}
+
+When a dedicated host failure occurs, we automatically detect this failure and move your instances onto a new dedicated host. This failure detection typically occurs within 1 minute. Your virtual servers are rescheduled to the new dedicated host within 5 minutes, and are up and running within 7 minutes. To opt out of auto-recovery, a support case must be opened with the request.
+
