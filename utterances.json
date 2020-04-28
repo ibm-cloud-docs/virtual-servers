@@ -565,5 +565,19 @@
       "boot the virtual machine using an image", 
       "boot my VSI from an image",
       "use an image to boot my virtual server"
-    ]
+    ],
+    "how-to-cancel-device": [
+      "cancel a device",
+      "virtual server cancellation",
+      "cancelling a virtual server",
+      "bare metal cancellation",
+      "how long to cancel a  VM",
+      "cancel my VM",
+      "cancel my server",  
+      "delete one server",
+      "remove a virtual server",
+      "how long it takes to remove bare metal",
+      "removing a VM",
+      "deleting a server"
+     ]   
 }

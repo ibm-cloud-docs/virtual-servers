@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019, 2020
-lastupdated: "2020-03-26"
+lastupdated: "2020-04-26"
 
 subcollection: virtual-servers
 
@@ -25,21 +25,21 @@ subcollection: virtual-servers
 {: #my-virtual-server-is-down-what-should-i-do}
 
 If your virtual server is down, follow these steps:
-1. Try to power on your server. For more information, see [Power On/Off](/docs/vsi?topic=virtual-servers-managing-virtual-servers#power-on-off){: new_window}.
+1. Try to power on your server. For more information, see [Power On/Off](/docs/infrastructure/vsi?topic=virtual-servers-managing-virtual-servers#power-on-off){: new_window}.
 2. If your server does not power on or returns to a down state, you might need to start your server in rescue mode. For more information, see [Launching rescue mode](/docs/vsi?topic=virtual-servers-launching-rescue){: new_window}.
 
-In the rare case that a host failure causes your server to go down, you are notified by IBM Support and your server is migrated to a new host automaticall - no action required. 
+In the rare case that a host failure causes your server to go down, you are notified by IBM Support and your server is migrated to a new host automaticall - no action required.
 
-For more help, see [Getting help and support](/docs/vsi?topic=virtual-servers-gettinghelp).
+For more help, see [Getting help and support](/docs/infrastructure/vsi?topic=virtual-servers-gettinghelp).
 
 ## My bare metal server is down. What should I do?
 {: #my-bare-metal-server-is-down-what-should-i-do}
 
 If your bare-metal server is down, check for any alerts from your monitoring software. To get your server running again, follow these steps.
-1. Try to power on your server. For more information, see [Power On/Off](/docs/vsi?topic=virtual-servers-managing-virtual-servers#power-on-off){: new_window}.
+1. Try to power on your server. For more information, see [Power On/Off](/docs/infrastructure/vsi?topic=virtual-servers-managing-virtual-servers#power-on-off){: new_window}.
 2. If your server does not power on or returns to a down state, you might need to start your server in rescue mode. For more information, see [Launching rescue mode](/docs/vsi?topic=virtual-servers-launching-rescue){: new_window}.
 
-For additional help, see [Getting help and support](/docs/vsi?topic=virtual-servers-gettinghelp).
+For additional help, see [Getting help and support](/docs/infrastructure/vsi?topic=virtual-servers-gettinghelp).
 
 ## What is the difference between "Boot from Image" and "Load from Image"?
 {: #what-is-the-difference-between-boot-from-image-and-load-from-image-}
@@ -78,6 +78,11 @@ If the root or administrator password to your server is suddenly not working, ch
    * You might need to boot into your operating system's rescue mode to be able to reset your password. For more information, see [Launching rescue mode](/docs/vsi?topic=virtual-servers-launching-rescue#launching-rescue).
 
 If these have all been checked and you are still unable to connect to the server using the password, please contact support using a ticket and request a password reset. Support will need to reboot the server to reset the password, so prepare to approve the reboot and set a maintenance timeframe for completion. Most password resets can be accomplished in 15 minutes. In the {{site.data.keyword.cloud_notm}} console, you can create a ticket by going to **Support > Create a case** and use the subject *Accounts & access*.
+
+## How do I cancel a server or device?
+{: #how-to-cancel-device}
+
+You can cancel a device at any time through the IBM Cloud console.  Go to the [Device List](https://cloud.ibm.com/classic/devices). Click Actions for the device you want to cancel, and select the cancel option from the menu.  For more information on the cancellation process, review the [Cancel](docs/vsi?topic=virtual-servers-managing-virtual-servers#cancel) topic.
 
 ## Are LVM partitions supported as a valid file system?
 {: #are-lvm-partitions-supported-as-a-valid-filesystem-}

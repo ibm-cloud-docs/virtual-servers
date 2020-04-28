@@ -132,6 +132,4 @@ You can access the **Status** page directly at [{{site.data.keyword.cloud_notm}}
 {: #how-do-i-request-a-compliance-report-}
 {: faq}
 
-For information about viewing or requesting compliance information, including SOC reports, see [How do I know that my data is safe?](/docs/overview?topic=overview-security).
-
-
+For information about viewing or requesting compliance information, including SOC reports, see [Understanding IBM Cloud compliance](/docs/overview?topic=overview-compliance).
