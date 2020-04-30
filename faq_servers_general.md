@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019, 2020
-lastupdated: "2020-04-26"
+lastupdated: "2020-04-30"
 
 subcollection: virtual-servers
 
@@ -82,7 +82,7 @@ If these have all been checked and you are still unable to connect to the server
 ## How do I cancel a server or device?
 {: #how-to-cancel-device}
 
-You can cancel a device at any time through the IBM Cloud console.  Go to the [Device List](https://cloud.ibm.com/classic/devices). Click Actions for the device you want to cancel, and select the cancel option from the menu.  For more information on the cancellation process, review the [Cancel](docs/vsi?topic=virtual-servers-managing-virtual-servers#cancel) topic.
+You can cancel a device at any time through the IBM Cloud console.  Go to the [Device List](https://cloud.ibm.com/classic/devices). Click Actions for the device you want to cancel, and select the cancel option from the menu.  For more information on the cancellation process, review the [Cancel](/docs/vsi?topic=virtual-servers-managing-virtual-servers#cancel) topic.
 
 ## Are LVM partitions supported as a valid file system?
 {: #are-lvm-partitions-supported-as-a-valid-filesystem-}
