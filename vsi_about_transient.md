@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-10-03"
+  years: 2017, 2020
+lastupdated: "2020-05-06"
 
 keywords: transient virtual servers, transient instances, transient offering, cost savings
 
@@ -44,7 +44,7 @@ Transient instances are public instances that use SAN-backed storage. The follow
 ## Notifications
 {: #notifications-transient-virtual-servers}
 
-You can use the {{site.data.keyword.slapi_short}} to receive notifications when resources are available for a transient instance. You can also use the API to programmatically provision a transient virtual server when resources become available. Likewise, you can use the API to programmatically stop provisioning instances when resources become unavailable. For more information, see [Configuring automated reclaim notifications](/docs/vsi?topic=virtual-servers-configuring-notifications-for-reclaims-of-transient-virtual-servers#configuring-notifications-for-reclaims-of-transient-virtual-servers).  
+When configured, you can receive automated reclaim notifications that help you prepare and reduce lost data. For more information, see [Configuring automated reclaim notifications](/docs/vsi?topic=virtual-servers-configuring-notifications-for-reclaims-of-transient-virtual-servers#configuring-notifications-for-reclaims-of-transient-virtual-servers).    
 
 ## Limitations
 {: #limitations-transient-virtual-servers}
