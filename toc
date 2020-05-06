@@ -176,5 +176,6 @@ IBM Cloud Virtual Servers
         image-templates-faqs.md
         /software/software-faqs
         ssh-keys-faq.md
+        sysdig-faq.md
 
     {: .navgroup-end}
