@@ -64,7 +64,7 @@ For information about provisioning, configuring your agent, managing data, and a
 
 For information about uninstalling Advanced Monitoring by Nimsoft, see [Uninstalling Advanced Monitoring by Nimsoft](/docs/SLmonitoring?topic=slmonitoring-uninstall-nimsoft).
 
-## What if I am using custom images with "Advanced Monitoring" by Nimsoft?
+## What if I am using custom images with Advanced Monitoring by Nimsoft?
 {: what-if-i-use-custom-images-with-nimsoft}
 {: faq}
 
