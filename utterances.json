@@ -251,6 +251,7 @@
   "what-is-the-provisioning-lifecycle-of-a-dedicated-host-": [
     "How long does my dedicated host stay active",
     "lifecycle of a dedicated host",
+    "dedicated host timeline",  
     "provisioning timeline for a dedicated host",
     "how long is a dedicated host active"
   ],
@@ -258,15 +259,20 @@
     "Billing for dedicated host",
     "bill the dedicated host",
     "bill creation for dedicated host",
-    "invoice creatiion for on-demand dedicated hosts"
+    "invoice for on demand dedicated host",
+    "invoices for on-demand dedicated host", 
+    "invoice creation for on-demand dedicated hosts"
   ],
   "i-m-running-an-on-demand-dedicated-host-how-am-i-billed-": [
     "Billing for on-demand dedicated host",
     "bill the on demand dedicated host",
+    "how to I get an invoice with demand dedicated host",
     "bill creation for on demand dedicated host"
   ],
   "how-is-tenancy-specified-when-provisioning-dedicated-hosts-and-dedicated-host-instances-": [
     "Tenant option for dedicated host and dedicated host instances",
+    "Tenant option for dedicated host",
+    "Tenancy option for dedicated host instances",  
     "tenancy for dedicated host",
     "tenant for dedicated host instances"
   ],
@@ -407,6 +413,7 @@
   "what-are-auto-scale-policies-": [
     "Autoscale actions and triggers",
     "auto scale policy",
+    "policy information for autoscaling",  
     "policies for autoscale",
     "auto scale policies"
   ],
@@ -466,8 +473,9 @@
   "private-network-bandwidth-graphs": [
     "Internal network traffic",
     "what are private network graphs",
+    "private network bandwidth graph",
     "private network bandwith overview",
-    "describe private networkbandwidth graph"
+    "describe private network bandwidth graph"
   ],
   "projected-usage-doesn't-match-graphs": [
     "Estimated usage",
@@ -481,6 +489,7 @@
     "Monthly billing vs billing bandwidth",
     "why is billing bandwidth data different",
     "are monthly and billing bandwidth data the same",
+    "where can i see our bandwidth usage",
     "differences between billing and monthly bandwidth data"
   ],
   "what-is-a-standard-image-template-": [
@@ -492,6 +501,7 @@
   ],
   "what-is-an-iso-template-": [
     "whats an image",
+    "interested in ISO image",  
     "ISO image",
     "explain a ISO image template",
     "what's a ISO template"
@@ -499,6 +509,7 @@
   "what-is-the-difference-between-a-public-image-and-a-private-image-": [
     "Public image vs private image",
     "public and private images the same",
+    "difference between the two images", 
     "differences between private and public images",
     "public image the same as a private image"
   ],
