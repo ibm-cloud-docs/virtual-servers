@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-05-06"
+lastupdated: "2020-05-14"
 
 keywords:
 
@@ -44,7 +44,12 @@ IBM Cloud is committed to providing you the highest quality of service and is ma
 {: #will-sysdig-cost-more}
 {: faq}
 
-Depending on which Advanced Monitoring by Nimsoft plan you are using, you might see an increase in your monthly resource monitoring cost. {{site.data.keyword.mon_full_notm}} offers two pricing plans: a Lite plan for $9.99 a month per agent, or a Graduated Tier plan that starts at $35.00 a month per agent. For more information, see [{{site.data.keyword.mon_full_notm}} pricing](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-pricing_plans).
+Depending on which Advanced Monitoring by Nimsoft plan you are using, you might see an increase in your monthly resource monitoring cost. {{site.data.keyword.mon_full_notm}} offers different pricing plans. 
+
+* Lite plan 
+* Graduated Tier plan 
+
+For more information about plans and pricing, see [{{site.data.keyword.mon_full_notm}} pricing](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-pricing_plans).
 
 ## How do I install {{site.data.keyword.mon_full_notm}}?
 {: #how-do-i-install-sysdig}
