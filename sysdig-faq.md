@@ -60,6 +60,8 @@ You can install and configure an {{site.data.keyword.mon_full_notm}} agent for a
 * Docker containers or for non-containerized services
 * Mesos, Marathon, and DCOS
 * Linux installations
+
+In addition to the previously listed environments, you can see all of the IBM Cloud services that are Sysdig-enabled [here](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-cloud_services).
  
 For information about installing {{site.data.keyword.mon_full_notm}}, see [Getting started tutorial](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-getting-started).
 
