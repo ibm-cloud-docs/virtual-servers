@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-05-14"
+lastupdated: "2020-05-15"
 
 keywords:
 
@@ -55,6 +55,12 @@ For more information about plans and pricing, see [{{site.data.keyword.mon_full_
 {: #how-do-i-install-sysdig}
 {: faq}
 
+You can install and configure an {{site.data.keyword.mon_full_notm}} agent for any of the following environments:
+* Kubernetes, GKE, and OpenShift
+* Docker containers or for non-containerized services
+* Mesos, Marathon, and DCOS
+* Linux installations
+ 
 For information about installing {{site.data.keyword.mon_full_notm}}, see [Getting started tutorial](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-getting-started).
 
 ## How do I get started with {{site.data.keyword.mon_full_notm}}?
