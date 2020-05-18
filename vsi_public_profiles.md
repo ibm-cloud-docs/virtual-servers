@@ -692,6 +692,3 @@ You can change the number of GPUs on your virtual server after your initial orde
 
 - If one GPU is provisioned, you can add another GPU, or
 - If two GPUs are provisioned, you can fallback to one GPU
-
-### NVIDIA GRID
-{{site.data.keyword.cloud_notm}} does not currently support GRID drivers for virtual GPUs. For GRID support, provision a GPU on a bare-metal server and install the appropriate GRID driver. See [NVIDIA GPU support](/docs/bare-metal?topic=bare-metal-about-bm#bm-gpu-support){: external}
