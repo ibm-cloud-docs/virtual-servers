@@ -84,110 +84,24 @@ The balanced local storage profiles are primarily for large database workloads t
 
 The offering is available in various profiles and data centers, with the following local storage options:
 
-* [Local HDD](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#HDD)
-* [Local SSD](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#SSD)
-
 ### Local HDD
 {: #HDD}
 
-<table>
-<CAPTION>Table 3. Balanced local storage profiles using local HDD</CAPTION>
-<THEAD>
-<TR>
-<th>Profile</th>
-<th>vCPU</th>
-<th>RAM</th>
-<th>Secondary disks<sup>(*)</sup></th>
-<th>Storage type</th>
-</TR>
-</THEAD>
-<TBODY>
-<tr>
-<td>BL1.1x2</td>
-<td>1</td>
-<td>2 GB</td>
-<td>25, 100 GB</td>
-<td>Local HDD</td>
-</tr>
-<tr>
-<td>BL1.1x4</td>
-<td>1</td>
-<td>4 GB</td>
-<td>25, 100 GB</td>
-<td>Local HDD</td>
-</tr>
-<tr>
-<td>BL1.2x4</td>
-<td>2</td>
-<td>4 GB</td>
-<td>100, 200 GB</td>
-<td>Local HDD</td>
-</tr>
-<tr>
-<td>BL1.2x8</td>
-<td>2</td>
-<td>8 GB</td>
-<td>100, 200 GB</td>
-<td>Local HDD</td>
-</tr>
-<tr>
-<td>BL1.4x8</td>
-<td>4</td>
-<td>8 GB</td>
-<td>150, 300 GB</td>
-<td>Local HDD</td>
-</tr>
-<tr>
-<td>BL1.4x16</td>
-<td>4</td>
-<td>16 GB</td>
-<td>150, 300 GB</td>
-<td>Local HDD</td>
-</tr>
-<tr>
-<td>BL1.8x16</td>
-<td>8</td>
-<td>16 GB</td>
-<td>250 GB, (2 x 250 GB)</td>
-<td>Local HDD</td>
-</tr>
-<tr>
-<td>BL1.8x32</td>
-<td>8</td>
-<td>32 GB</td>
-<td>250 GB, (2 x 250 GB)</td>
-<td>Local HDD</td>
-</tr>
-<tr>
-<td>BL1.16x32</td>
-<td>16</td>
-<td>32 GB</td>
-<td>300 GB, (2 x 300 GB)</td>
-<td>Local HDD</td>
-</tr>
-<tr>
-<td>BL1.16x64</td>
-<td>16</td>
-<td>64 GB</td>
-<td>300 GB, (2 x 300 GB)</td>
-<td>Local HDD</td>
-</tr>
-<tr>
-<td>BL1.32x64</td>
-<td>32</td>
-<td>64 GB</td>
-<td>400 GB, (2 x 400 GB)</td>
-<td>Local HDD</td>
-</tr>
-<tr>
-<td>BL1.32x128</td>
-<td>32</td>
-<td>128 GB</td>
-<td>400 GB, (2 x 400 GB)</td>
-<td>Local HDD</td>
-</tr>
-</TBODY>
-</table>
+|Profile|vCPU|RAM|Secondary disks<sup>(*)</sup>|Storage type|
+|---|---|---|---|---|
+|BL1.1x2|1|2 GB|25, 100 GB|Local HDD
+|BL1.1x4|1|4 GB|25, 100 GB|Local HDD|
+|BL1.2x4|2|4 GB|100, 200 GB|Local HDD|
+|BL1.2x8|2|8 GB|100, 200 GB|Local HDD|
+|BL1.4x8|4|8 GB|150, 300 GB|Local HDD|
+|BL1.4x16|4|16 GB|150, 300 GB|Local HDD|
+|BL1.8x16|8|16 GB|250 GB, (2 x 250 GB)|Local HDD|
+|BL1.8x32|8|32 GB|250 GB, (2 x 250 GB)|Local HDD|
+|BL1.16x32|16|32 GB|300 GB, (2 x 300 GB)|Local HDD|
+|BL1.16x64|16|64 GB|300 GB, (2 x 300 GB)|Local HDD|
+|BL1.32x64|32|64 GB|400 GB, (2 x 400 GB)|Local HDD|
+|BL1.32x128|32|128 GB|400 GB, (2 x 400 GB)|Local HDD|
+{: caption="Table 3. Balanced local storage profiles using local HDD" caption-side="top"}
 
 #### Storage notes
 {: #storage-notes-local-hdd}
@@ -199,12 +113,15 @@ The offering is available in various profiles and data centers, with the followi
 
 The following data centers support balanced local storage virtual servers with local HDD:
 
-| Available Data Centers - Local HDD |       |
-| ---------------------- | ------- |
-| Dallas (DAL01)         | Dallas (DAL05)         |
-| Dallas (DAL06)         | Houston (HOU02)        |
-| San Jose (SJC01)       | Seattle (SEA01)        |
-| Washington, DC (WDC01) |                        |
+| Available Data Centers - Local HDD |
+| ---------------------- |
+| Dallas (DAL01)         |
+| Dallas (DAL05)         |
+| Dallas (DAL06)         |
+| Houston (HOU02)        |
+| San Jose (SJC01)       |
+| Seattle (SEA01)        |
+| Washington, DC (WDC01) |
 {: class="simple-tab-table"}
 {: caption="Table 4. Available data centers (local HDD) - Americas" caption-side="top"}
 {: tab-group="Local-HDD"}
@@ -235,104 +152,21 @@ All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and othe
 ### Local SSD
 {: #SSD}
 
-<table>
-<CAPTION>Table 7. Balanced local storage profiles using local SSD</CAPTION>
-<THEAD>
-<TR>
-<th>Profile</th>
-<th>vCPU</th>
-<th>RAM</th>
-<th>Secondary disks<sup>(*)</sup></th>
-<th>Storage type</th>
-</TR>
-</THEAD>
-<TBODY>
-<tr>
-<td>BL2.1x2</td>
-<td>1</td>
-<td>2 GB</td>
-<td>25, 100 GB</td>
-<td>Local SSD</td>
-</tr>
-<tr>
-<td>BL2.1x4</td>
-<td>1</td>
-<td>4 GB</td>
-<td>25, 100 GB</td>
-<td>Local SSD</td>
-</tr>
-<tr>
-<td>BL2.2x4</td>
-<td>2</td>
-<td>4 GB</td>
-<td>100, 200 GB</td>
-<td>Local SSD</td>
-</tr>
-<tr>
-<td>BL2.2x8</td>
-<td>2</td>
-<td>8 GB</td>
-<td>100, 200 GB</td>
-<td>Local SSD</td>
-</tr>
-<tr>
-<td>BL2.4x8</td>
-<td>4</td>
-<td>8 GB</td>
-<td>150, 300 GB</td>
-<td>Local SSD</td>
-</tr>
-<tr>
-<td>BL2.4x16</td>
-<td>4</td>
-<td>16 GB</td>
-<td>150, 300 GB</td>
-<td>Local SSD</td>
-</tr>
-<tr>
-<td>BL2.8x16</td>
-<td>8</td>
-<td>16 GB</td>
-<td>250 GB, (2 x 250 GB)</td>
-<td>Local SSD</td>
-</tr>
-<tr>
-<td>BL2.8x32</td>
-<td>8</td>
-<td>32 GB</td>
-<td>250 GB, (2 x 250 GB)</td>
-<td>Local SSD</td>
-</tr>
-<tr>
-<td>BL2.16x32</td>
-<td>16</td>
-<td>32 GB</td>
-<td>300 GB, (2 x 300 GB)</td>
-<td>Local SSD</td>
-</tr>
-<tr>
-<td>BL2.16x64</td>
-<td>16</td>
-<td>64 GB</td>
-<td>300 GB, (2 x 300 GB)</td>
-<td>Local SSD</td>
-</tr>
-<tr>
-<td>BL2.32x64</td>
-<td>32</td>
-<td>64 GB</td>
-<td>400 GB, (2 x 400 GB)</td>
-<td>Local SSD</td>
-</tr>
-<tr>
-<td>BL2.32x128</td>
-<td>32</td>
-<td>128 GB</td>
-<td>400 GB, (2 x 400 GB)</td>
-<td>Local SSD</td>
-</tr>
-</TBODY>
-</table>
+|Profile|vCPU|RAM|Secondary disks<sup>(*)</sup>|Storage type|
+|---|---|---|---|---|
+|BL2.1x2|1|2 GB|25, 100 GB|Local SSD|
+|BL2.1x4|1|4 GB|25, 100 GB|Local SSD|
+|BL2.2x4|2|4 GB|100, 200 GB|Local SSD|
+|BL2.2x8|2|8 GB|100, 200 GB|Local SSD|
+|BL2.4x8|4|8 GB|150, 300 GB|Local SSD|
+|BL2.4x16|4|16 GB|150, 300 GB|Local SSD|
+|BL2.8x16|8|16 GB|250 GB, (2 x 250 GB)|Local SSD|
+|BL2.8x32|8|32 GB|250 GB, (2 x 250 GB)|Local SSD|
+|BL2.16x32|16|32 GB|300 GB, (2 x 300 GB)|Local SSD|
+|BL2.16x64|16|64 GB|300 GB, (2 x 300 GB)|Local SSD|
+|BL2.32x64|32|64 GB|400 GB, (2 x 400 GB)|Local SSD|
+|BL2.32x128|32|128 GB|400 GB, (2 x 400 GB)|Local SSD|
+{: caption="Table 7. Balanced local storage profiles using local SSD" caption-side="top"}
 
 #### Storage notes
 {: #storage-notes-local-ssd}
@@ -472,69 +306,17 @@ GPU profiles are best for high-performance workloads that require more compute d
 
 Powered by NVDIA Tesla GPUs, {{site.data.keyword.cloud_notm}} Accelerated Compute “ac1” and "ac2" profiles both offer block and local SSD storage. The following GPU profiles are available globally for you to choose from:  
 
-<table>
-<CAPTION>Table 14. P100 GPU profiles</CAPTION>
-<THEAD>
-<TR>
-<th>Profile</th>
-<th>GPU</th>
-<th>GPU RAM (GB)</th>
-<th>vCPU</th>
-<th>vCPU RAM (GB)</th>
-<th>Storage Type</th>
-<th>Boot Disc (GB)</th>
-<th>Secondary Discs (2 and 3) (GB)</th>
-</TR>
-</THEAD>
-<TBODY>
-<tr>
-<td>ac1.8x60x25</td>
-<td>1 P100</td>
-<td>16</td>
-<td>8</td>
-<td>60</td>
-<td>Block (SAN)</td>
-<td>25</td>
-<td>None</td>
-</tr>
-<tr>
-<td>ac1.8x60x100</td>
-<td>1 P100</td>
-<td>16</td>
-<td>8</td>
-<td>60</td>
-<td>Local SSD or SAN</td>
-<td>100</td>
-<td>None (SAN)<br>300 (Local)</td>
-</tr>
-<tr>
-<td>ac1.16x120x25</td>
-<td>2 P100</td>
-<td>32</td>
-<td>16</td>
-<td>120</td>
-<td>Block (SAN)</td>
-<td>25</td>
-<td>None</td>
-</tr>
-<tr>
-<td>ac1.16x120x100</td>
-<td>2 P100</td>
-<td>32</td>
-<td>16</td>
-<td>120</td>
-<td>Local SSD or SAN</td>
-<td>100</td>
-<td>None (SAN)<br>600 (Local)</td></tr>
+|Profile|GPU|GPU RAM (GB)|vCPU|vCPU RAM (GB)|Storage Type|Boot Disc (GB)|Secondary Discs (2 and 3) (GB)|
+|---|---|---|---|---|---|---|---|
+|ac1.8x60x25|1 P100|16|8|60|Block (SAN)|25|None|
+|ac1.8x60x100|1 P100|16|8|60|Local SSD or SAN|100|None (SAN)<br>300 (Local)|
+|ac1.16x120x25|2 P100|32|16|120|Block (SAN)|25|None|
+|ac1.16x120x100|2 P100|32|16|120|Local SSD or SAN|100|None (SAN)<br>600 (Local)|
+{: caption="Table 14. P100 GPU profiles" caption-side="top"}
 
-</TBODY>
-</table>
-
-<br>
-<br>
 The following data centers support P100 GPU profiles:
 
-| Available Data Centers - P100 GPUs |       
+| Available Data Centers - P100 GPUs |
 | ----------------------  |
 | Dallas (DAL13)          |
 | Washington , DC (WDC07) |
@@ -565,73 +347,17 @@ The following data centers support P100 GPU profiles:
 {: #local-p100_3}
 {: tab-title="Asia-Pacific"}
 
-<br>
-<br>
-
-<table>
-<CAPTION>Table 18. V100 GPU profiles</CAPTION>
-<THEAD>
-<TR>
-<th>Profile</th>
-<th>GPU</th>
-<th>GPU RAM (GB)</th>
-<th>vCPU</th>
-<th>vCPU RAM (GB)</th>
-<th>Storage Type</th>
-<th>Boot Disc (GB)</th>
-<th>Secondary Discs (2 and 3) (GB)</th>
-</TR>
-</THEAD>
-<TBODY>
-<tr>
-<td>ac2.8x60x25</td>
-<td>1 V100</td>
-<td>16</td>
-<td>8</td>
-<td>60</td>
-<td>Block (SAN)</td>
-<td>25</td>
-<td>None</td>
-</tr>
-<tr>
-<td>ac2.8x60x100</td>
-<td>1 V100</td>
-<td>16</td>
-<td>8</td>
-<td>60</td>
-<td>Local SSD or SAN</td>
-<td>100</td>
-<td>None (SAN)<br>300 (Local)</td>
-</tr>
-<tr>
-<td>ac2.16x120x25</td>
-<td>2 V100</td>
-<td>32</td>
-<td>16</td>
-<td>120</td>
-<td>Block (SAN)</td>
-<td>25</td>
-<td>None</td>
-</tr>
-<tr>
-<td>ac2.16x120x100</td>
-<td>2 V100</td>
-<td>32</td>
-<td>16</td>
-<td>120</td>
-<td>Local SSD or SAN</td>
-<td>100</td>
-<td>None (SAN)<br>600 (Local)</td></tr>
-
-</TBODY>
-</table>
-
-<br>
-<br>
+|Profile|GPU|GPU RAM (GB)|vCPU|vCPU RAM (GB)|Storage Type|Boot Disc (GB)|Secondary Discs (2 and 3) (GB)|
+|---|---|---|---|---|---|---|---|
+|ac2.8x60x25|1 V100|16|8|60|Block (SAN)|25|None|
+|ac2.8x60x100|1 V100|16|8|60|Local SSD or SAN|100|None (SAN)<br>300 (Local)|
+|ac2.16x120x25|2 V100|32|16|120|Block (SAN)|25|None|
+|ac2.16x120x100|2 V100|32|16|120|Local SSD or SAN|100|None (SAN)<br>600 (Local)|
+{: caption="Table 18. V100 GPU profiles" caption-side="top"}
 
 You can also choose V100 GPUs. The following data centers support V100 GPU profiles:
 
-| Available Data Centers - V100 GPUs |       
+| Available Data Centers - V100 GPUs |
 | ----------------------  |
 | Dallas (DAL10)          |
 | Dallas (DAL12)          |
@@ -662,9 +388,6 @@ You can also choose V100 GPUs. The following data centers support V100 GPU profi
 {: #local-v100_3}
 {: tab-title="Asia-Pacific"}
 
-<br>
-<br>
-
 ### GPU prerequisites
 {: #gpu-prerequisites}
 
@@ -690,5 +413,10 @@ The software that you install might have prerequisite software and operating sys
 
 You can change the number of GPUs on your virtual server after your initial order. But, that depends on how many GPUs you provisioned. You have one of the following options.
 
-- If one GPU is provisioned, you can add another GPU, or
+- If one GPU is provisioned, you can add another GPU
 - If two GPUs are provisioned, you can fallback to one GPU
+
+### NVIDIA GRID
+{: #nvidia-grid}
+
+{{site.data.keyword.cloud_notm}} does not currently support GRID drivers for virtual GPUs. For GRID support, provision a GPU on a bare-metal server and install the appropriate GRID driver. See [NVIDIA GPU support](/docs/bare-metal?topic=bare-metal-about-bm#bm-gpu-support){: external}
