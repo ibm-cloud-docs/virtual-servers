@@ -35,4 +35,4 @@ You can create your placement group, then assign up to five new virtual server i
 ## Next steps
 {: #next-steps-placement-groups}
 
-To create and manage new placement groups, see [Managing placement groups](/docs/vsi?topic=virtual-servers-vsi_managing_placegroup#vsi_managing_placegroup).
+To create and manage new placement groups, see [Managing placement groups](/docs/virtual-servers?topic=virtual-servers-vsi_managing_placegroup#vsi_managing_placegroup).

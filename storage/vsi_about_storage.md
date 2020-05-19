@@ -21,7 +21,7 @@ You have the option of local storage or SAN (portable SAN) for each virtual serv
 ## Local storage
 {: #local-storage}
 
-Local storage is built on disks that are local to the virtual server host. Local storage provides improved disk read/write performance. The disks are built in a redundant array of independent disks (RAID) configuration for redundancy, disk replacement, and health monitoring which is fully managed by {{site.data.keyword.cloud}}. In newer data centers, this storage is all solid state drive (SSD) to provide the best performance. For more information about available data centers for local SSD storage, see [Balanced local storage](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#balanced-local-storage).
+Local storage is built on disks that are local to the virtual server host. Local storage provides improved disk read/write performance. The disks are built in a redundant array of independent disks (RAID) configuration for redundancy, disk replacement, and health monitoring which is fully managed by {{site.data.keyword.cloud}}. In newer data centers, this storage is all solid state drive (SSD) to provide the best performance. For more information about available data centers for local SSD storage, see [Balanced local storage](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#balanced-local-storage).
 
 ## Portable SAN storage
 {: #portable-san-storage}
@@ -62,5 +62,5 @@ For more information about supplemental storage options, see the following resou
 {: #next-steps-storage}
 
 For more information about how to use portable storage volumes, see the following tasks:
-* [Managing portable storage](/docs/vsi?topic=virtual-servers-accessing-portable-storage#accessing-portable-storage)
-* [Editing a portable storage description](/docs/vsi?topic=virtual-servers-editing-a-portable-storage-description#editing-a-portable-storage-description)
+* [Managing portable storage](/docs/virtual-servers?topic=virtual-servers-accessing-portable-storage#accessing-portable-storage)
+* [Editing a portable storage description](/docs/virtual-servers?topic=virtual-servers-editing-a-portable-storage-description#editing-a-portable-storage-description)

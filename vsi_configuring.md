@@ -30,12 +30,12 @@ Log in to the [{{site.data.keyword.cloud}} console ![External link icon](../icon
 ## Locate your virtual server
 {: #locate-your-virtual-server}
 
-Find your virtual server in the Device List in the {{site.data.keyword.cloud_notm}} console. From the Device List, you can manage devices, upgrade devices, or generate bandwidth usage charts. For more information, see [Managing virtual servers](/docs/vsi?topic=virtual-servers-managing-virtual-servers#managing-virtual-servers).
+Find your virtual server in the Device List in the {{site.data.keyword.cloud_notm}} console. From the Device List, you can manage devices, upgrade devices, or generate bandwidth usage charts. For more information, see [Managing virtual servers](/docs/virtual-servers?topic=virtual-servers-managing-virtual-servers#managing-virtual-servers).
 
 ## Change your password
 {: #change-your-password}
 
-Change your password using strong password guidelines. See [Viewing and managing device user names and passwords](/docs/vsi?topic=virtual-servers-view-update-user-name-password-for-device#view-update-user-name-password-for-device).
+Change your password using strong password guidelines. See [Viewing and managing device user names and passwords](/docs/virtual-servers?topic=virtual-servers-view-update-user-name-password-for-device#view-update-user-name-password-for-device).
 
 ## Configure SSH
 {: #configure-ssh}
@@ -57,7 +57,7 @@ All software that was loaded onto your device during the provisioning process wa
 
 Optionally, password updates can be stored on the Passwords tab for each device; however, understand that when you store passwords within the {{site.data.keyword.cloud_notm}} console, any person with access to the account and appropriate permissions can view passwords that are stored on the Passwords screen.
 
-For more information about viewing and managing your software credentials, see [Managing classic infrastructure access](/docs/vsi?topic=iam-mngclassicinfra).
+For more information about viewing and managing your software credentials, see [Managing classic infrastructure access](/docs/virtual-servers?topic=iam-mngclassicinfra).
 
 ## Access your server on the private network
 {: #access-your-server-on-the-private-network}
@@ -94,4 +94,4 @@ Backups ensure that your data is safely stored outside of your device and protec
 ## Next steps
 {: #next-steps-configuring-virtual-servers}
 
-After your virtual server is configured, you can start managing it. For more information, see [Managing your virtual server](/docs/vsi?topic=virtual-servers-managing-virtual-servers#managing-virtual-servers).
+After your virtual server is configured, you can start managing it. For more information, see [Managing your virtual server](/docs/virtual-servers?topic=virtual-servers-managing-virtual-servers#managing-virtual-servers).

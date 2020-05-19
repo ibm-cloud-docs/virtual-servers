@@ -26,7 +26,7 @@ subcollection: virtual-servers
 
 If your virtual server is down, follow these steps:
 1. Try to power on your server. For more information, see [Power On/Off](/docs/infrastructure/vsi?topic=virtual-servers-managing-virtual-servers#power-on-off){: new_window}.
-2. If your server does not power on or returns to a down state, you might need to start your server in rescue mode. For more information, see [Launching rescue mode](/docs/vsi?topic=virtual-servers-launching-rescue){: new_window}.
+2. If your server does not power on or returns to a down state, you might need to start your server in rescue mode. For more information, see [Launching rescue mode](/docs/virtual-servers?topic=virtual-servers-launching-rescue){: new_window}.
 
 In the rare case that a host failure causes your server to go down, you are notified by IBM Support and your server is migrated to a new host automaticall - no action required.
 
@@ -37,7 +37,7 @@ For more help, see [Getting help and support](/docs/infrastructure/vsi?topic=vir
 
 If your bare-metal server is down, check for any alerts from your monitoring software. To get your server running again, follow these steps.
 1. Try to power on your server. For more information, see [Power On/Off](/docs/infrastructure/vsi?topic=virtual-servers-managing-virtual-servers#power-on-off){: new_window}.
-2. If your server does not power on or returns to a down state, you might need to start your server in rescue mode. For more information, see [Launching rescue mode](/docs/vsi?topic=virtual-servers-launching-rescue){: new_window}.
+2. If your server does not power on or returns to a down state, you might need to start your server in rescue mode. For more information, see [Launching rescue mode](/docs/virtual-servers?topic=virtual-servers-launching-rescue){: new_window}.
 
 For additional help, see [Getting help and support](/docs/infrastructure/vsi?topic=virtual-servers-gettinghelp).
 
@@ -52,7 +52,7 @@ Boot from Image and Load from Image both leverage existing image templates, whic
 ## Why can I not connect to the KVM console?
 {: #why-can-i-not-connect-to-the-kvm-console-}
 
-If you are unable to connect to the KVM console, review these troubleshooting tips to assist in resolving the issue. Should additional issues occur, contact support. For more information on contacting support, see [Getting help and support](/docs/vsi?topic=virtual-servers-gettinghelp#gettinghelp).
+If you are unable to connect to the KVM console, review these troubleshooting tips to assist in resolving the issue. Should additional issues occur, contact support. For more information on contacting support, see [Getting help and support](/docs/virtual-servers?topic=virtual-servers-gettinghelp#gettinghelp).
 
    * The KVM console is a Java applet. Java must be installed before you access the console. For more information on installing Java, see [Free Java Download](https://www.java.com/en/download/){: external}.  
    * If Java is installed, ensure that a connection is established using VPN. If a connection is not established, a warning is displayed when attempting to connect to the KVM console that a VPN connection is required.
@@ -75,14 +75,14 @@ If the root or administrator password to your server is suddenly not working, ch
    * Are you copying and pasting the password? If not, please try to. Please also paste the password in a notepad to ensure no spaces are accidentally being copied with the password.
    * If the server has cPanel on it, is it possible that cPHulk has blocked your IP address due to failed logins? If so, you can access the server using the KVM or IPMI and whitelist your IP address in cPHulk with "/scripts/cphulkdwhitelist" followed by your IP address.
    * Has someone recently tried to change the password for the server by modifying the password in the {{site.data.keyword.cloud_notm}} console? Changing the password in the {{site.data.keyword.cloud_notm}} console only changes what you see as the password. It does not change the password the server is using. If this has happened, you can contact Support and they can usually recover the original, working password.
-   * You might need to boot into your operating system's rescue mode to be able to reset your password. For more information, see [Launching rescue mode](/docs/vsi?topic=virtual-servers-launching-rescue#launching-rescue).
+   * You might need to boot into your operating system's rescue mode to be able to reset your password. For more information, see [Launching rescue mode](/docs/virtual-servers?topic=virtual-servers-launching-rescue#launching-rescue).
 
 If these have all been checked and you are still unable to connect to the server using the password, please contact support using a ticket and request a password reset. Support will need to reboot the server to reset the password, so prepare to approve the reboot and set a maintenance timeframe for completion. Most password resets can be accomplished in 15 minutes. In the {{site.data.keyword.cloud_notm}} console, you can create a ticket by going to **Support > Create a case** and use the subject *Accounts & access*.
 
 ## How do I cancel a server or device?
 {: #how-to-cancel-device}
 
-You can cancel a device at any time through the IBM Cloud console.  Go to the [Device List](https://cloud.ibm.com/classic/devices). Click Actions for the device you want to cancel, and select the cancel option from the menu.  For more information on the cancellation process, review the [Cancel](/docs/vsi?topic=virtual-servers-managing-virtual-servers#cancel) topic.
+You can cancel a device at any time through the IBM Cloud console.  Go to the [Device List](https://cloud.ibm.com/classic/devices). Click Actions for the device you want to cancel, and select the cancel option from the menu.  For more information on the cancellation process, review the [Cancel](/docs/virtual-servers?topic=virtual-servers-managing-virtual-servers#cancel) topic.
 
 ## Are LVM partitions supported as a valid file system?
 {: #are-lvm-partitions-supported-as-a-valid-filesystem-}

@@ -26,5 +26,5 @@ The default behavior for the IBM scheduler is to place the VSIs in available hyp
 
 IBM Cloud provides two solutions to help avoid the VSIs being deployed on the same hypervisor.
 
-1. Use a dedicated VSI. This option allows you to own the entire hypervisor and control the placement of the VSIs. For more information, see [About dedicated virtual servers](/docs/vsi?topic=virtual-servers-dedicated-virtual-servers)
-2. Use Placement Groups. Placement Groups is an anti-affinity feature. If VSIs are marked in the same placement group, then these VSIs is instantiated across different hypervisors. By putting the VSIs in placement groups, availability is improved. For more information see [Placement groups](/docs/vsi?topic=virtual-servers-placement-groups).
+1. Use a dedicated VSI. This option allows you to own the entire hypervisor and control the placement of the VSIs. For more information, see [About dedicated virtual servers](/docs/virtual-servers?topic=virtual-servers-dedicated-virtual-servers)
+2. Use Placement Groups. Placement Groups is an anti-affinity feature. If VSIs are marked in the same placement group, then these VSIs is instantiated across different hypervisors. By putting the VSIs in placement groups, availability is improved. For more information see [Placement groups](/docs/virtual-servers?topic=virtual-servers-placement-groups).

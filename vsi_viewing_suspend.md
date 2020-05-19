@@ -25,10 +25,10 @@ subcollection: virtual-servers
 
 First, navigate to the device menu and ensure you have the correct account permissions to complete the task. 
 
-* Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/vsi?topic=virtual-servers-navigating-devices).
+* Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/virtual-servers?topic=virtual-servers-navigating-devices).
 * Ensure you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions. 
 
-For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access).
+For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
 
 ## Viewing the suspend billing feature
 {: #viewing-the-suspend-billing-feature}
@@ -70,6 +70,6 @@ For more information, see the [SLDN API documentation ![External link icon](../i
 {: #next-steps-suspend-billing-feature}
 
 To learn more about the suspend billing feature, review the following information:
-1. [Suspend billing](/docs/vsi?topic=virtual-servers-requirements)
-2. [Managing virtual servers](/docs/vsi?topic=virtual-servers-managing-virtual-servers#managing-virtual-servers)
+1. [Suspend billing](/docs/virtual-servers?topic=virtual-servers-requirements)
+2. [Managing virtual servers](/docs/virtual-servers?topic=virtual-servers-managing-virtual-servers#managing-virtual-servers)
 

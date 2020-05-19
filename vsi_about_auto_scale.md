@@ -32,11 +32,11 @@ There are two common business solutions to which auto scaling can be applied:
 
 | Solution | Description |
 | -------- | ----------- |
-| [Schedule-based scaling](/docs/vsi?topic=virtual-servers-managing-schedule-based-auto-scaling) | Schedule-based scaling can be used to set up policies for time-based usage spikes, like over weekends or holidays. Schedule-based scaling can be used when a company is expecting traffic to spike, for example, a social networking site that requires more resources based on a schedule. |
-| [Resource-based scaling](/docs/vsi?topic=virtual-servers-managing-resourced-based-auto-scaling) | Resource-based scheduling can be used to set up policies for irregular spikes, based on resource usage. Irregular spikes in traffic can occur when there is a push to get a product to market or an e-commerce site is having a sale and resources are needed to sustain response times. |
+| [Schedule-based scaling](/docs/virtual-servers?topic=virtual-servers-managing-schedule-based-auto-scaling) | Schedule-based scaling can be used to set up policies for time-based usage spikes, like over weekends or holidays. Schedule-based scaling can be used when a company is expecting traffic to spike, for example, a social networking site that requires more resources based on a schedule. |
+| [Resource-based scaling](/docs/virtual-servers?topic=virtual-servers-managing-resourced-based-auto-scaling) | Resource-based scheduling can be used to set up policies for irregular spikes, based on resource usage. Irregular spikes in traffic can occur when there is a push to get a product to market or an e-commerce site is having a sale and resources are needed to sustain response times. |
 {: caption="Table 1. Auto scaling solutions" caption-side="top"}
 
-If you are not the account administrator, your user account must include permission to use auto scale. The account administrator can grant user's permission from the {{site.data.keyword.cloud_notm}} console. For more information about updating permissions, see [Setting up user permissions for auto scale](/docs/vsi?topic=virtual-servers-user-permissions-required-to-use-auto-scale).
+If you are not the account administrator, your user account must include permission to use auto scale. The account administrator can grant user's permission from the {{site.data.keyword.cloud_notm}} console. For more information about updating permissions, see [Setting up user permissions for auto scale](/docs/virtual-servers?topic=virtual-servers-user-permissions-required-to-use-auto-scale).
 {:note}
 
 

@@ -24,7 +24,7 @@ subcollection: virtual-servers
 {: #what-types-of-virtual-servers-are-available-for-use-}
 {: faq}
 
-{{site.data.keyword.cloud}} offers a couple types of virtual servers within its Classic Infrastructure. The standard offering is a public-based virtual server, which is a multi-tenant environment that is suitable for various needs. If you're looking for a single-tenant environment, consider the dedicated virtual server offering. The dedicated virtual server option is ideal for applications with more stringent resource requirements. For more information about the current virtual server offerings, see [Getting started with virtual servers](/docs/vsi?topic=virtual-servers-getting-started-tutorial).
+{{site.data.keyword.cloud}} offers a couple types of virtual servers within its Classic Infrastructure. The standard offering is a public-based virtual server, which is a multi-tenant environment that is suitable for various needs. If you're looking for a single-tenant environment, consider the dedicated virtual server offering. The dedicated virtual server option is ideal for applications with more stringent resource requirements. For more information about the current virtual server offerings, see [Getting started with virtual servers](/docs/virtual-servers?topic=virtual-servers-getting-started-tutorial).
 
 {{site.data.keyword.vsi_is_full}} (VPC) is the next generation of virtual servers. You create your own space in the {{site.data.keyword.cloud_notm}} to run an isolated environment within the public cloud by using VPC. {{site.data.keyword.vpc_short}} provides the security of a private cloud with the agility and ease of a public cloud. For more information, see [About Virtual Private Cloud](/docs/vpc-on-classic?topic=vpc-on-classic-about).
 
@@ -44,7 +44,7 @@ Estimating your cost for an {{site.data.keyword.cloud_notm}} server to support y
 {: #can-i-add-disk-storage-to-my-hourly-or-monthly-virtual-server-}
 {: faq}
 
-You can upgrade or downgrade disk storage for any virtual server by updating your storage options in the *First Disk* through *Fifth Disk* fields in the *Configuration* screen of the device you want to update. For more information, see [Reconfiguring an existing virtual server](/docs/vsi?topic=virtual-servers-reconfiguring-virtual-servers).
+You can upgrade or downgrade disk storage for any virtual server by updating your storage options in the *First Disk* through *Fifth Disk* fields in the *Configuration* screen of the device you want to update. For more information, see [Reconfiguring an existing virtual server](/docs/virtual-servers?topic=virtual-servers-reconfiguring-virtual-servers).
 
 ## How many hourly virtual servers can I start?
 {: #concurrent}
@@ -96,13 +96,13 @@ Virtual servers are provisioned on a multi-server cloud architecture that pools 
 {: #why-do-i-receive-a-capacity-error-when-provisioning-a-virtual-server-}
 {: faq}
 
-When you provision a virtual server, you might receive an error message stating that there is insufficient capacity to complete the request. When provisioning fails, all the virtual server instances within that particular request fail. A capacity error occurs when there are insufficient resources available in the router or data center to fulfill the service request. There are a number of reasons that you might receive this error. Resource availability changes frequently, so you might wait and try again later. For more information on strategies to avoid this error, see [Resource considerations for virtual server instances](/docs/vsi?topic=virtual-servers-capacity-considerations).
+When you provision a virtual server, you might receive an error message stating that there is insufficient capacity to complete the request. When provisioning fails, all the virtual server instances within that particular request fail. A capacity error occurs when there are insufficient resources available in the router or data center to fulfill the service request. There are a number of reasons that you might receive this error. Resource availability changes frequently, so you might wait and try again later. For more information on strategies to avoid this error, see [Resource considerations for virtual server instances](/docs/virtual-servers?topic=virtual-servers-capacity-considerations).
 
 ## How do I log in to my server?
 {: #how-do-i-log-in-to-my-server-}
 {: faq}
 
-Log in to your console and navigate to your **Devices** menu. For more information, see [Navigating to devices](/docs/vsi?topic=virtual-servers-navigating-devices). In the **Device List**, select your instance. You can view and manage the device usernames and passwords to use to log in. For more information, see [Viewing and managing device usernames and passwords](/docs/vsi?topic=virtual-servers-view-update-user-name-password-for-device).
+Log in to your console and navigate to your **Devices** menu. For more information, see [Navigating to devices](/docs/virtual-servers?topic=virtual-servers-navigating-devices). In the **Device List**, select your instance. You can view and manage the device usernames and passwords to use to log in. For more information, see [Viewing and managing device usernames and passwords](/docs/virtual-servers?topic=virtual-servers-view-update-user-name-password-for-device).
 
 ## How do I use VPN to access the IBM Cloud Private network?
 {: #how-do-i-use-vpn-to-access-the-ibm-cloud-private-network-}
@@ -114,13 +114,13 @@ You can log in to the VPN through [the web interface](https://www.softlayer.com/
 {: #how-do-i-reboot-my-virtual-server-}
 {: faq}
 
-Device restarts can take place from either the **Device List** or from the snapshot view of an individual instance. Navigate to your virtual server instance in the **Device List** in your console. For more information, see [Navigating to devices](/docs/vsi?topic=virtual-servers-navigating-devices). Select **Actions** for the device you want to manage and select **Reboot**.
+Device restarts can take place from either the **Device List** or from the snapshot view of an individual instance. Navigate to your virtual server instance in the **Device List** in your console. For more information, see [Navigating to devices](/docs/virtual-servers?topic=virtual-servers-navigating-devices). Select **Actions** for the device you want to manage and select **Reboot**.
 
 ## How do I use rescue mode?
 {: #how-do-i-use-rescue-mode-}
 {: faq}
 
-Booting into rescue mode is helpful if you're experiencing an issue with the server. To start rescue mode, select the device name from the **Device List** in your console. In the **Actions** menu, select **Rescue mode** or select **Boot from image** for a Windows instance. For more information, see [Launching rescue mode](/docs/vsi?topic=virtual-servers-launching-rescue).
+Booting into rescue mode is helpful if you're experiencing an issue with the server. To start rescue mode, select the device name from the **Device List** in your console. In the **Actions** menu, select **Rescue mode** or select **Boot from image** for a Windows instance. For more information, see [Launching rescue mode](/docs/virtual-servers?topic=virtual-servers-launching-rescue).
 
 ## Where do I find network status?
 {: #where-do-i-find-network-status-}

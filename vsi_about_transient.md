@@ -36,22 +36,22 @@ Transient instances are public instances that use SAN-backed storage. The follow
 
 | Families  | Description                                                                                              |
 | ----------------------- | -------------------------------------------------------------------------------------------------------- | 
-| [Balanced](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#balanced) | Best for common cloud workloads that require a balance of performance and scalability. Uses network-attached storage.|
-| [Compute](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#compute) | Best for moderate to high web traffic workloads.|
-| [Memory](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#memory)  | Best for memory caching and real-time analytics workloads. |
+| [Balanced](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#balanced) | Best for common cloud workloads that require a balance of performance and scalability. Uses network-attached storage.|
+| [Compute](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#compute) | Best for moderate to high web traffic workloads.|
+| [Memory](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#memory)  | Best for memory caching and real-time analytics workloads. |
 {: caption="Table 1. Public virtual server family selections" caption-side="top"}
 
 ## Notifications
 {: #notifications-transient-virtual-servers}
 
-When configured, you can receive automated reclaim notifications that help you prepare and reduce lost data. For more information, see [Configuring automated reclaim notifications](/docs/vsi?topic=virtual-servers-configuring-notifications-for-reclaims-of-transient-virtual-servers#configuring-notifications-for-reclaims-of-transient-virtual-servers).    
+When configured, you can receive automated reclaim notifications that help you prepare and reduce lost data. For more information, see [Configuring automated reclaim notifications](/docs/virtual-servers?topic=virtual-servers-configuring-notifications-for-reclaims-of-transient-virtual-servers#configuring-notifications-for-reclaims-of-transient-virtual-servers).    
 
 ## Limitations
 {: #limitations-transient-virtual-servers}
 
 Consider the following limitations before provisioning a transient virtual server.
 
-* The number of supported, concurrent instances are part of your account-wide device quota. For more information about concurrent instance limits, see [FAQ: Virtual servers](/docs/vsi?topic=virtual-servers-faqs-virtual-servers#faqs-virtual-servers).
+* The number of supported, concurrent instances are part of your account-wide device quota. For more information about concurrent instance limits, see [FAQ: Virtual servers](/docs/virtual-servers?topic=virtual-servers-faqs-virtual-servers#faqs-virtual-servers).
 * Transient instances cannot be upgraded or downgraded.
 * Resources can be reclaimed at any time, without notification.
 * Transient instances cannot use local storage.
@@ -61,5 +61,5 @@ Consider the following limitations before provisioning a transient virtual serve
 ## Next steps
 {: #next-steps-transient-virtual-servers}
 
-After you review and select your virtual server profile, it's time to provision your transient virtual server. To get started, see [Provisioning transient instances](/docs/vsi?topic=virtual-servers-ordering-vs-transient#ordering-vs-transient).
+After you review and select your virtual server profile, it's time to provision your transient virtual server. To get started, see [Provisioning transient instances](/docs/virtual-servers?topic=virtual-servers-ordering-vs-transient#ordering-vs-transient).
 

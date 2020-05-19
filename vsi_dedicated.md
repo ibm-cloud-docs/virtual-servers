@@ -56,9 +56,9 @@ Keep in mind the following when you’re ordering a dedicated host(s) and dedica
 * The size of your host(s) is determined by your workloads that you will be running on it. The default is 56 Cores X 242 GB RAM X 1.2 TB, but you can choose from additional configurations.
 * You can order only two hosts at a time. For example, if you need six hosts, you will need to place three separate orders.
 * Each host will need its own unique name and you can automatically assign your POD.
-* Network speeds up to 20 Gbps are achievable through additional configuration. For more information about network performance, see [Configuring virtual server settings for improved network performance](/docs/vsi?topic=virtual-servers-configuring-network-performance).
+* Network speeds up to 20 Gbps are achievable through additional configuration. For more information about network performance, see [Configuring virtual server settings for improved network performance](/docs/virtual-servers?topic=virtual-servers-configuring-network-performance).
 
 ## Next steps
 {: #next-steps-dedicated-virtual-servers}
 
-After you have reviewed and decided upon your deployment options, it is time to provision your virtual server. To get started, see [Provisioning dedicated hosts and instances](/docs/vsi?topic=virtual-servers-provisioning-dedicated-hosts-instances).
+After you have reviewed and decided upon your deployment options, it is time to provision your virtual server. To get started, see [Provisioning dedicated hosts and instances](/docs/virtual-servers?topic=virtual-servers-provisioning-dedicated-hosts-instances).

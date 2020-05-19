@@ -32,12 +32,12 @@ Depending on your instance type, some families might not be available.
 
 | Families  | Description                                                                                              |
 | ----------------------- | -------------------------------------------------------------------------------------------------------- |
-| [Balanced](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#balanced) | Best for common cloud workloads that require a balance of performance and scalability. Uses network-attached storage. |
-| [Balanced local storage](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#balanced-local-storage) | Best for large database workloads that require high I/O performance with very low latency. |
-| [Variable compute](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#variable-compute)  | Best for workloads that don’t require steady, high-CPU performance. |
-| [Compute](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#compute) | Best for moderate to high web traffic workloads.|
-| [Memory](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#memory)  | Best for memory caching and real-time analytics workloads. |
-| [GPU](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#gpu)  | Best for high-performance workloads. |
+| [Balanced](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#balanced) | Best for common cloud workloads that require a balance of performance and scalability. Uses network-attached storage. |
+| [Balanced local storage](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#balanced-local-storage) | Best for large database workloads that require high I/O performance with very low latency. |
+| [Variable compute](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#variable-compute)  | Best for workloads that don’t require steady, high-CPU performance. |
+| [Compute](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#compute) | Best for moderate to high web traffic workloads.|
+| [Memory](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#memory)  | Best for memory caching and real-time analytics workloads. |
+| [GPU](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#gpu)  | Best for high-performance workloads. |
 {: caption="Table 1. Public virtual server family selections" caption-side="top"}
 
 Some of these families are also available for {{site.data.keyword.vsi_is_full}}. For more information, see [{{site.data.keyword.vsi_is_short}}](/docs/vpc-on-classic-vsi?topic=vpc-on-classic-vsi-getting-started#gettingstartedvsigen).
@@ -84,8 +84,8 @@ The balanced local storage profiles are primarily for large database workloads t
 
 The offering is available in various profiles and data centers, with the following local storage options:
 
-* [Local HDD](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#HDD)
-* [Local SSD](/docs/vsi?topic=virtual-servers-about-virtual-server-profiles#SSD)
+* [Local HDD](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#HDD)
+* [Local SSD](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#SSD)
 
 ### Local HDD
 {: #HDD}
@@ -680,7 +680,7 @@ Review the following GPU prerequisites.
   - Windows 2012 R2
   - Windows 2016
 
-2. Appropriate NVIDIA drivers and software must be installed. For more information about software and NVIDIA drivers, see [Installing GPU drivers and software packages](/docs/vsi?topic=virtual-servers-installing-gpu-drivers-and-software-packages#installing-gpu-drivers-and-software-packages).  
+2. Appropriate NVIDIA drivers and software must be installed. For more information about software and NVIDIA drivers, see [Installing GPU drivers and software packages](/docs/virtual-servers?topic=virtual-servers-installing-gpu-drivers-and-software-packages#installing-gpu-drivers-and-software-packages).  
 
 The software that you install might have prerequisite software and operating system-specific configurations.
 {: note}

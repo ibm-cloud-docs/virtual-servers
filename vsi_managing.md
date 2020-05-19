@@ -31,10 +31,10 @@ You can manage virtual servers, along with other devices, from the device detail
 
 First, navigate to the device menu and ensure you have the correct account permissions to complete the tasks.
 
-* Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/vsi?topic=virtual-servers-navigating-devices).
+* Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/virtual-servers?topic=virtual-servers-navigating-devices).
 * Ensure you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
 
-For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access).
+For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
 
 ## Device types
 {: #device-types-and-actions}
@@ -71,7 +71,7 @@ A reboot is very helpful when experiencing an issue in which the server cannot b
 ## Power On/Off
 {: #power-on-off}
 
-If the device has been powered off, the device remains in the power off state and must be manually powered on by repeating the steps above. Users cannot interact with a device when a device is powered off. If the virtual server supports the suspend billing feature, billing is suspended for some compute resources. You cannot complete all management actions on an instance until billing is resumed. For more information, see [Suspend billing](/docs/vsi?topic=virtual-servers-requirements). To find out if your virtual server instance supports the suspend billing feature, see [Viewing suspend billing feature](/docs/vsi?topic=virtual-servers-viewing-suspend-billing-feature#viewing-suspend-billing-feature). If the device has been powered on, normal interaction can take place. It will remain on until further action is taken.
+If the device has been powered off, the device remains in the power off state and must be manually powered on by repeating the steps above. Users cannot interact with a device when a device is powered off. If the virtual server supports the suspend billing feature, billing is suspended for some compute resources. You cannot complete all management actions on an instance until billing is resumed. For more information, see [Suspend billing](/docs/virtual-servers?topic=virtual-servers-requirements). To find out if your virtual server instance supports the suspend billing feature, see [Viewing suspend billing feature](/docs/virtual-servers?topic=virtual-servers-viewing-suspend-billing-feature#viewing-suspend-billing-feature). If the device has been powered on, normal interaction can take place. It will remain on until further action is taken.
 
 ## Rename
 {: #rename}
@@ -81,7 +81,7 @@ After renaming the device, the name is automatically updated in the {{site.data.
 ## KVM console
 {: #kvm-console}
 
-The KVM console is a Java applet. Java must be installed prior to accessing the console. If Java is installed, ensure that a connection is established using the VPN. If a connection is not established, a warning is displayed when attempting to connect to the KVM console that a VPN connection is required. If you have issues connecting to your KVM console, see [Why can I not connect to the KVM console?](/docs/vsi?topic=virtual-servers-faqs-servers-general-#why-can-i-not-connect-to-the-kvm-console-).
+The KVM console is a Java applet. Java must be installed prior to accessing the console. If Java is installed, ensure that a connection is established using the VPN. If a connection is not established, a warning is displayed when attempting to connect to the KVM console that a VPN connection is required. If you have issues connecting to your KVM console, see [Why can I not connect to the KVM console?](/docs/virtual-servers?topic=virtual-servers-faqs-servers-general-#why-can-i-not-connect-to-the-kvm-console-).
 
 ## Cancel
 {: #cancel}
@@ -93,4 +93,4 @@ After confirming the cancellation, the device cancellation process will begin. I
 ## Next steps
 {: #managing-virtual-servers-next-steps}
 
-If you need to reconfigure an existing virtual server, see [Reconfiguring an existing virtual server](/docs/vsi?topic=virtual-servers-reconfiguring-virtual-servers#reconfiguring-virtual-servers).
+If you need to reconfigure an existing virtual server, see [Reconfiguring an existing virtual server](/docs/virtual-servers?topic=virtual-servers-reconfiguring-virtual-servers#reconfiguring-virtual-servers).

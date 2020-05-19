@@ -39,10 +39,10 @@ Before you begin, review the following prerequisites.
 
 |              Deployment options                           |  Description                                        |
 | --------------------------------------------------------- | --------------------------------------------------- |
-|[Public virtual server](/docs/vsi?topic=virtual-servers-about-public-virtual-servers)            | IBM-managed, multi-tenancy virtual server deployments|
-|[Transient virtual server](/docs/vsi?topic=virtual-servers-about-vs-transient)| IBM-managed, multi-tenancy virtual server deployments offered at a reduced cost and best suited for flexible workloads |
-|[Reserved virtual server](/docs/vsi?topic=virtual-servers-about-reserved-virtual-servers)  | IBM-managed, multi-tenancy virtual server deployments with guaranteed capacity for a contract term |
-|[Dedicated virtual server](/docs/vsi?topic=virtual-servers-dedicated-virtual-servers)      | IBM-managed, single-tenancy virtual server deployments            |
+|[Public virtual server](/docs/virtual-servers?topic=virtual-servers-about-public-virtual-servers)            | IBM-managed, multi-tenancy virtual server deployments|
+|[Transient virtual server](/docs/virtual-servers?topic=virtual-servers-about-vs-transient)| IBM-managed, multi-tenancy virtual server deployments offered at a reduced cost and best suited for flexible workloads |
+|[Reserved virtual server](/docs/virtual-servers?topic=virtual-servers-about-reserved-virtual-servers)  | IBM-managed, multi-tenancy virtual server deployments with guaranteed capacity for a contract term |
+|[Dedicated virtual server](/docs/virtual-servers?topic=virtual-servers-dedicated-virtual-servers)      | IBM-managed, single-tenancy virtual server deployments            |
 {: caption="Table 1. Deployment options" caption-side="top"}   
 
 ## Provisioning a virtual server
@@ -52,14 +52,14 @@ After you decide upon a deployment option, begin the provisioning process.
 
 |              Provisioning instructions                                         |  Description                                            |
 | -------------------------------------------------------------------------- | ------------------------------------------------------- |
-|[Provisioning public instances](/docs/vsi?topic=virtual-servers-ordering-vs-public)                | Provision public instances with various options             |
-|[Provisioning transient instances](/docs/vsi?topic=virtual-servers-ordering-vs-transient)                | Provision transient instances with various options            |
-|[Provisioning reserved capacity and instances](/docs/vsi?topic=virtual-servers-provisioning-reserved-capacity-and-instances)            | Provision reserved capacity and instances with various options |
-|[Provisioning dedicated hosts and instances](/docs/vsi?topic=virtual-servers-provisioning-dedicated-hosts-instances) | Provision private instances or dedicated instances on dedicated hosts|
+|[Provisioning public instances](/docs/virtual-servers?topic=virtual-servers-ordering-vs-public)                | Provision public instances with various options             |
+|[Provisioning transient instances](/docs/virtual-servers?topic=virtual-servers-ordering-vs-transient)                | Provision transient instances with various options            |
+|[Provisioning reserved capacity and instances](/docs/virtual-servers?topic=virtual-servers-provisioning-reserved-capacity-and-instances)            | Provision reserved capacity and instances with various options |
+|[Provisioning dedicated hosts and instances](/docs/virtual-servers?topic=virtual-servers-provisioning-dedicated-hosts-instances) | Provision private instances or dedicated instances on dedicated hosts|
 {: caption="Table 2. Provisioning information" caption-side="top"}
 
 ## Next steps
 {: #next-steps-getting-started}
 
 After your virtual server is provisioned and available to use, you can configure your virtual servers by using the
-{{site.data.keyword.cloud_notm}} console. For more information, see [Configuring virtual servers](/docs/vsi?topic=virtual-servers-configuring-virtual-servers).
+{{site.data.keyword.cloud_notm}} console. For more information, see [Configuring virtual servers](/docs/virtual-servers?topic=virtual-servers-configuring-virtual-servers).

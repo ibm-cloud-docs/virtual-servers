@@ -31,7 +31,7 @@ If you are the account administrator and you want to grant users permission to a
 
 After you have permission to access and use the auto scale options, you're ready to use the feature. To get started, review the following information:
 
-1. [Managing traffic spikes with schedule-based auto scaling](/docs/vsi?topic=virtual-servers-managing-schedule-based-auto-scaling)
-2. [Managing traffic spikes with resource-based auto scaling](/docs/vsi?topic=virtual-servers-managing-resourced-based-auto-scaling)
-3. [FAQs: Auto scale](/docs/vsi?topic=virtual-servers-faqs-auto-scale)
+1. [Managing traffic spikes with schedule-based auto scaling](/docs/virtual-servers?topic=virtual-servers-managing-schedule-based-auto-scaling)
+2. [Managing traffic spikes with resource-based auto scaling](/docs/virtual-servers?topic=virtual-servers-managing-resourced-based-auto-scaling)
+3. [FAQs: Auto scale](/docs/virtual-servers?topic=virtual-servers-faqs-auto-scale)
 
