@@ -144,7 +144,7 @@ IBM Cloud Virtual Servers
     {: .topicgroup}
     Monitoring
         vsi_monitoring_intro.md
-        /SLmonitoring/slmonitoring-viewing-and-managing-monitors
+        /SLmonitoring/SLmonitoring-viewing-and-managing-monitors
         sysdig-monitoring-metrics.md
 
     {: .topicgroup}
