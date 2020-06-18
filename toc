@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="virtual-servers" category="compute" audience="compute" href="/docs/virtual-servers?topic=virtual-servers-getting-started-tutorial" path="virtual-servers"}
+{: .toc subcollection="virtual-servers" category="virtualservers" audience="compute" href="/docs/virtual-servers?topic=virtual-servers-getting-started-tutorial" path="virtual-servers"}
 IBM Cloud Virtual Servers
 
     {: .navgroup id="learn"}
