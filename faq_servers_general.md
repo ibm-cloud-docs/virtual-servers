@@ -188,10 +188,10 @@ LVM (Logical Volume Management) provides logical management of file systems in L
 
    <a name="top"></a>
 
-## Can I have the monitoring system issue an automatic restart AND alert a support technician if the server stops responding?
-{: #can-i-have-the-monitoring-system-issue-an-automatic-restart-and-alert-a-support-technician-in-the-event-that-the-server-stops-responding-}
+<!--## Can I have the monitoring system issue an automatic restart AND alert a support technician if the server stops responding?
+{: #can-i-have-the-monitoring-system-issue-an-automatic-restart-and-alert-a-support-technician-in-the-event-that-the-server-stops-responding-}-->
 
-Yes, with the order of our **Automated Restart from Monitoring Failure** service, you can set up the monitoring system to automatically restart the server and issue a ticket for a support technician if a monitoring alert is issued. As an additional service, we provide **NOC Monitoring**, in which you will receive personal notification in the event a monitoring issue occurs. To learn more about both of these offerings, please refer to [Server Monitoring](https://www.ibm.com/cloud/infrastructure/monitoring?cm_mc_uid=46846454197915580355142&cm_mc_sid_50200000=71138741559658182022){: external}.
+<!--Yes, with the order of our **Automated Restart from Monitoring Failure** service, you can set up the monitoring system to automatically restart the server and issue a ticket for a support technician if a monitoring alert is issued. As an additional service, we provide **NOC Monitoring**, in which you will receive personal notification in the event a monitoring issue occurs.-->
 
 ## What is a cvsup mirror?
 {: #what-is-a-cvsup-mirror-}
