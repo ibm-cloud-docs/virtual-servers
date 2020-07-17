@@ -41,7 +41,7 @@ To provision a dedicated virtual server instance through the {{site.data.keyword
   7. Click **Provision**.
 
 ## Next steps
-{: #next-steps-provisioning-dedicated}
+{: #next-steps-prov-dedicated}
 
 After your virtual server is provisioned and available to use, you can configure your virtual servers by using the
 {{site.data.keyword.cloud_notm}} console or API. For more information, see [Configuring virtual servers](/docs/virtual-servers?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).

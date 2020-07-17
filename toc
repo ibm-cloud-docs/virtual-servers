@@ -165,7 +165,7 @@ IBM Cloud Virtual Servers
     Troubleshooting
         ts_capacity_bp.md
 
-    {: .topicgroup}
+    {: .topicgroup} 
     FAQs
         vsi_faqs_vs.md
         vsi_faqs_reserved.md

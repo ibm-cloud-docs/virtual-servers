@@ -25,7 +25,7 @@ You can provision your dedicated instances through the {{site.data.keyword.cloud
 {:shortdesc}
 
 ## Provisioning a dedicated virtual server instance through the IBM Cloud catalog
-{: #provisioning-a-dedicated-virtual-server-instance-through-the-ibm-cloud-catalog}
+{: #provisioning-a-dedicated-virtual-server-instance-through-the-ibm-cloud-cat}
 
 To provision a dedicated virtual server instance through the {{site.data.keyword.cloud_notm}} catalog, complete the following steps:
 
