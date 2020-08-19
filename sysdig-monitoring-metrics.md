@@ -6,7 +6,7 @@ lastupdated: "2020-03-30"
 
 keywords: Sysdig, IBM Cloud, monitoring, platform metrics, metrics
 
-subcollection: vsi
+subcollection: virtual-servers
 
 ---
 
