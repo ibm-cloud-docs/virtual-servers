@@ -1,247 +1,293 @@
 {
-    "my-virtual-server-is-down-what-should-i-do": [
-      "virtual server down",
-      "virtual machine is down",
-      "cant connect to VM",  
-      "virtual server stopped",
-      "no connection to virtual server instance",
-      "My VSI stopped",
-      "can not connect to virtual servers",
-      "can't access my virtual server",
-      "can't connect to my virtual server",
-      "can not get my VSI up",
-      "my virtual server is down",
-      "need help as VSI down",
-      "virtual servers are not up",
-      "VSI down",
-      "unable to access server",
-      "not able to view my servers",
-      "can't access our server",
-      "unable to connect to virtual server"
-    ],
-    "my-bare-metal-server-is-down-what-should-i-do": [
-      "bare metal server down",
-      "bare metal stopped",
-      "Restarting my bare metal server",
-      "Restart my bare metal",
-      "can not connect to bare metal server",
-      "can't access bare metal",
-      "can't connect to my bare metal servers",
-      "can not get my bare metal server up",
-      "my bare metal server is down",
-      "need help as bare metal servers down",
-      "bare metal is not up",
-      "bare metal server down",
-      "unable to connect to bare metal server"
-    ],
-    "what-types-of-virtual-servers-are-available-for-use-": [
-      "Types of virtual servers",
-      "Virtual servers types",
-      "Virtual machine type",
-      "available options for virtual servers",
-      "available virtual servers",
-      "different types for virtual server",
-      "different virtual server types"
-    ],
-    "where-can-i-find-pricing-information-for-public-instance-types-": [
-      "Public instance pricing",
-      "Public instance cost",
-      "How much for a public instance",
-      "cost info for public server instance",
-      "price of public instances",
-      "cost for public instance"
-    ],
-    "where-can-i-find-pricing-information-for-virtual-public-instances-": [
-      "Virtual public instance pricing",
-      "Virtual public instance cost",
-      "How much for a virtual public instance",
-      "cost info for public virtual server instance",
-      "price of virtual public instances",
-      "cost for public virtual instance"
-    ],
-    "can-i-add-disk-storage-to-my-hourly-or-monthly-virtual-server-": [
-      "Adding disk storage",
-      "disk storage addition to VSI",
-      "add disk storage",
-      "add more disk storage",
-      "disk storage upgrade"
-    ],
-    "concurrent": [
-      "How many hourly virtual servers can I start",
-      "Number of hourly virtual servers",
-      "Concurrent virtual servers",
-      "number of concurrent VMs",
-      "how many VSIs can I have",
-      "maximum number of virtual servers"
-    ],
-    "how-will-i-be-billed-for-bandwidth-for-my-hourly-virtual-servers-": [
-      "Cost of bandwidth for hourly virtual servers",
-      "Price for bandwidth",
-      "hourly virtual billing cost",
-      "cost of traffic to server",
-      "price of hourly billing for VSI",
-      "view my bandwidth usage",
-      "view the bandwidth that is be used by our servers"  
-    ],
-    "in-what-cases-is-my-virtual-server-migrated-to-a-different-host-": [
-      "Migrating to a different host",
-      "Moving virtual server to a different host",
-      "Move a virtual machine onto another host",
-      "Migrate host",
-      "virtual server moved to another host",
-      "migrate virtual server's host",
-      "migrating the host for VSI"
-    ],
-    "what-happens-to-my-data-when-my-portable-storage-is-deleted-": [
-      "Deleted my data from portable storage",
-      "Deleting data from portable storage",
-      "data is deleted from portable storage",
-      "removal of data from portable storage",
-      "data being removed from portable storage"
-    ],
-    "can-i-use-a-red-hat-cloud-access-subscription-to-create-a-virtual-server-": [
-      "Using Red Hat Cloud Access to create a virtual server",
-      "Creating a virtual server with Red Hat Cloud Access",
-      "creating a server using red hat cloud access",
-      "create a a VM with red hat cloud access",
-      "create a VSI using red hat access",
-      "use red hat cloud access to get a virtual server"
-    ],
-    "what-is-the-difference-between-a-virtual-server-and-a-virtual-private-server-vps-": [
-      "Virtual server vs virtual private server",
-      "Is VSI the same as VPS",
-      "differences between VPS and VSI",
-      "virtual private server the same as a VSI",
-      "virtual server environments the same"
-    ],
-    "why-do-i-receive-a-capacity-error-when-provisioning-a-virtual-server-": [
-      "Insufficent capacity to complete the request",
-      "Insuffienent resources when provisioning",
-      "insufficient capacity to complete the request",
-      "getting a capacity error",
-      "error when I provision my VSI",
-      "provisioning failure with an error"
-    ],
-    "how-do-i-log-in-to-my-server-": [
-      "How do I log in to my server",
-      "Logging in to my server",
-      "Sign in to my server",
-      "Signing into my server",
-      "How to login to my VM",
-      "server login",
-      "server log in",
-      "help to access server",
-      "get logged into server"
-    ],
-    "how-do-i-use-vpn-to-access-the-ibm-cloud-private-network-": [
-      "How do I use VPN to access the IBM Cloud private network",
-      "Using VPN to access IBM Cloud private network",
-      "Accessing IBM Cloud private network using VPN",
-      "want to login to VPN"
-    ],
-    "how-do-i-reboot-my-virtual-server-": [
-      "Rebooting my virtual server",
-      "Reboot my virtual server",
-      "Restarting my virtual server",
-      "restart the virtual machine",
-      "restarting VSI",
-      "Restart my virtual server",
-      "server re-boot",
-      "rebooting my server",
-      "reboot the VSI",
-      "reboot my VM",
-      "want to do a server reboot",
-      "assistance in booting my server",
-      "help to reboot my VSI server"
-    ],
-    "how-do-i-use-rescue-mode-": [
-      "using rescue mode",
-      "Boot into rescue",
-      "Booting with rescue mode",
-      "booting into Rescue Kernel",
-      "launch rescue",
-      "rescue use",
-      "launching rescue kernel",
-      "start rescue mode"
-    ],
-    "where-do-i-find-network-status-": [
-      "find network status",
-      "Resource status",
-      "Viewing network status",
-      "Whats the network status",
-      "status of network",
-      "network status",
-      "is my network up",
-      "is network down"
-    ],
-    "how-do-i-request-a-compliance-report-": [
-      "request a compliance report",
-      "Requesting a compliance report",
-      "need my compliance report",
-      "see my compliance information",
-      "where can I find a SOC report",
-      "report on compliance"
-    ],
-    "which-virtual-server-instance-types-can-be-reserved-": [
-      "Reserving virtual server instances",
-      "can I reserve any virtual server",
-      "type of virtual server reservation",
-      "reverving a virtual server instance",
-      "assistance on VSI that can be reserved"
-    ],
-    "can-i-combine-different-cpuxram-sizes-or-change-the-sizes-later-": [
-      "combine different CPUxRAM sizes",
-      "Combining different CPUxRAM sizes",
-      "Change CPUxRAM size",
-      "Changing CPUxRAM sizes",
-      "update CPUxRAM later",
-      "CPUxRAM size updates"
-    ],
-    "is-my-payment-upfront-or-monthly-": [
-      "Payment frequency",
-      "Payment terms",
-      "do I pay immediately for instances",
-      "make monthly payments for VSI",
-      "pay for virtual server now or later"
-    ],
-    "what-happens-at-the-end-of-my-contract-": [
-      "Ending contract",
-      "happens at end of the contract",
-      "contract ended now what",
-      "contract is ending what happens next",
-      "happens at contract termination"
-    ],
-    "what-happens-if-i-don-t-need-my-reserved-virtual-server-instances-anymore-": [
-      "Finished using my instances",
-      "End instance usage",
-      "don't need my VSI anymore",
-      "no longer require my VM",
-      "can I reclaim reserved virtual server instances",
-      "cancel reserved capacity?"
-    ],
-    "does-the-reservation-include-everything-i-configured-into-my-virtual-server-instance-": [
-      "What does my reservation include",
-      "included with my virtual server reservation",
-      "Whats included with VSI reservation",
-      "What's included in the VM reservation",
-      "does the reservation include primary disk",
-      "reserved a virtual server whats included"
-    ],
-    "why-do-i-have-to-choose-hourly-or-monthly-billing-on-the-virtual-server-instance-": [
-      "Choosing hourly or monthly",
-      "only have hourly billing",
-      "must I select hourly or monthly billing",
-      "don’t want to choose monthly or hourly invoices",
-      "must I have VSI monthly billing"
-    ],
-    "can-i-interchange-provisioning-of-dedicated-instances-auto-assigned-and-dedicated-host-instances-": [
-      "Interchanging dedicated hosts and dedicated host instances",
-      "Interchange dedicated hosts and dedicated host instances",
-      "Reprovisioning dedicated instances on dedicated hosts",
-      "Reprovision dedicated instances on dedicated hosts",
-      "Switch dedicated instances on dedicated hosts",
-      "Switching dedicated instances on dedicated hosts",
-      "Auto-assigned deidicated instances vs. dedicated host instances"
+  "my-virtual-server-is-down-what-should-i-do": [
+    "virtual server down",
+    "virtual machine is down",
+    "our servers are still down",
+    "cant connect to VM",
+    "virtual server stopped",
+    "no connection to virtual server instance",
+    "My VSI stopped",
+    "can not connect to virtual servers",
+    "can't access my virtual server",
+    "can't access servers",
+    "can't connect to my virtual server",
+    "can not get my VSI up",
+    "my virtual server is down",
+    "Can not connect to my server",
+    "servers down for multiple hours",
+    "how to power on server",
+    "need help as VSI down",
+    "virtual servers are not up",
+    "VSI down",
+    "unable to access server",
+    "server unreachable",
+    "not able to view my servers",
+    "unable to access servers",
+    "we can't access our server",
+    "issues to access the server",
+    "can't access our server",
+    "unable to connect to virtual server"
+  ],
+  "my-bare-metal-server-is-down-what-should-i-do": [
+    "bare metal server down",
+    "bare metal stopped",
+    "Restarting my bare metal server",
+    "Restart my bare metal",
+    "can not connect to bare metal server",
+    "can't access bare metal",
+    "can't connect to my bare metal servers",
+    "can not get my bare metal server up",
+    "my bare metal server is down",
+    "need help as bare metal servers down",
+    "cannot access to my bare metal",
+    "bare metal is not up",
+    "bare metal server down",
+    "unable to connect to bare metal server"
+  ],
+  "what-types-of-virtual-servers-are-available-for-use-": [
+    "Types of virtual servers",
+    "Virtual servers types",
+    "Virtual machine type",
+    "available options for virtual servers",
+    "available virtual servers",
+    "different types for virtual server",
+    "How do I provision a server",
+    "where is add server",
+    "get started with a virtual server",
+    "order a new VSI server",
+    "provisioining a server",
+    "want to setup a small VM",
+    "get started with a VM",
+    "need new cloud server",
+    "different virtual server types"
+  ],
+  "where-can-i-find-pricing-information-for-public-instance-types-": [
+    "Public instance pricing",
+    "Public instance cost",
+    "How much for a public instance",
+    "cost info for public server instance",
+    "price of public instances",
+    "cost for public instance"
+  ],
+  "where-can-i-find-pricing-information-for-virtual-public-instances-": [
+    "Virtual public instance pricing",
+    "Virtual public instance cost",
+    "How much for a virtual public instance",
+    "how to create a feee virtual machine",
+    "setup free tier of VM",
+    "get a server for free",
+    "get a free virtual server",
+    "how to create server",
+    "create a free vm",
+    "how i pruchase a virtual server",
+    "cost info for public virtual server instance",
+    "price of virtual public instances",
+    "virtual server prices",
+    "cost for public virtual instance"
+  ],
+  "can-i-add-disk-storage-to-my-hourly-or-monthly-virtual-server-": [
+    "Adding disk storage",
+    "disk storage addition to VSI",
+    "add more disk on our database server",
+    "add more disk storage to our server",
+    "add disk storage",
+    "add more disk storage",
+    "disk storage upgrade"
+  ],
+  "concurrent": [
+    "How many hourly virtual servers can I start",
+    "Number of hourly virtual servers",
+    "Concurrent virtual servers",
+    "number of concurrent VMs",
+    "how many VSIs can I have",
+    "maximum number of virtual servers"
+  ],
+  "how-will-i-be-billed-for-bandwidth-for-my-hourly-virtual-servers-": [
+    "Cost of bandwidth for hourly virtual servers",
+    "Price for bandwidth",
+    "hourly virtual billing cost",
+    "cost of traffic to server",
+    "price of hourly billing for VSI",
+    "public bandwidth charged for virtual server instance",
+    "bandwidth charges for virtual server",
+    "view my bandwidth usage",
+    "view the bandwidth that is be used by our servers"
+  ],
+  "in-what-cases-is-my-virtual-server-migrated-to-a-different-host-": [
+    "Migrating to a different host",
+    "Moving virtual server to a different host",
+    "Move a virtual machine onto another host",
+    "Migrate host",
+    "virtual server moved to another host",
+    "migrate virtual server's host",
+    "migrating the host for VSI"
+  ],
+  "what-happens-to-my-data-when-my-portable-storage-is-deleted-": [
+    "Deleted my data from portable storage",
+    "Deleting data from portable storage",
+    "data is deleted from portable storage",
+    "removal of data from portable storage",
+    "data being removed from portable storage"
+  ],
+  "can-i-use-a-red-hat-cloud-access-subscription-to-create-a-virtual-server-": [
+    "Using Red Hat Cloud Access to create a virtual server",
+    "Creating a virtual server with Red Hat Cloud Access",
+    "creating a server using red hat cloud access",
+    "create a a VM with red hat cloud access",
+    "create a VSI using red hat access",
+    "use red hat cloud access to get a virtual server"
+  ],
+  "what-is-the-difference-between-a-virtual-server-and-a-virtual-private-server-vps-": [
+    "Virtual server vs virtual private server",
+    "Is VSI the same as VPS",
+    "differences between VPS and VSI",
+    "virtual private server the same as a VSI",
+    "virtual server environments the same"
+  ],
+  "why-do-i-receive-a-capacity-error-when-provisioning-a-virtual-server-": [
+    "Insufficent capacity to complete the request",
+    "Insuffienent resources when provisioning",
+    "insufficient capacity to complete the request",
+    "getting a capacity error",
+    "There is insufficient capacity to complete the request",
+    "I can't create a server",
+    "Not able to provision a server",
+    "unable to provision a server",
+    "I can not create a server",
+    "insufficient capacity error when I try to create a server",
+    "error when I provision my VSI",
+    "provisioning failure with an error"
+  ],
+  "how-do-i-log-in-to-my-server-": [
+    "How do I log in to my server",
+    "Logging in to my server",
+    "Sign in to my server",
+    "Signing into my server",
+    "How to login to my VM",
+    "server login",
+    "server log in",
+    "help to access server",
+    "get logged into server"
+  ],
+  "how-do-i-use-vpn-to-access-the-ibm-cloud-private-network-": [
+    "How do I use VPN to access the IBM Cloud private network",
+    "Using VPN to access IBM Cloud private network",
+    "Accessing IBM Cloud private network using VPN",
+    "want to login to VPN"
+  ],
+  "how-do-i-reboot-my-virtual-server-": [
+    "Rebooting my virtual server",
+    "Reboot my virtual server",
+    "Restarting my virtual server",
+    "restart the virtual machine",
+    "restarting VSI",
+    "Restart my virtual server",
+    "server re-boot",
+    "rebooting my server",
+    "reboot the VSI",
+    "reboot my VM",
+    "how do I restart my vm",
+    "I'm in trouble. The server is stopped",
+    "to reboot my virtual server",
+    "how do i reboot my vm",
+    "how to boot my VM",
+    "want to do a server reboot",
+    "need to reboot a baremetal",
+    "need to reboot a server",
+    "assistance in booting my server",
+    "help to reboot my VSI server"
+  ],
+  "how-do-i-use-rescue-mode-": [
+    "using rescue mode",
+    "Boot into rescue",
+    "how to rescue",
+    "Booting with rescue mode",
+    "booting into Rescue Kernel",
+    "launch rescue",
+    "rescue use",
+    "launching rescue kernel",
+    "start rescue mode"
+  ],
+  "where-do-i-find-network-status-": [
+    "find network status",
+    "Resource status",
+    "Viewing network status",
+    "Whats the network status",
+    "status of network",
+    "network status",
+    "is my network up",
+    "is network down"
+  ],
+  "how-do-i-request-a-compliance-report-": [
+    "request a compliance report",
+    "Requesting a compliance report",
+    "need my compliance report",
+    "see my compliance information",
+    "can I get compliance report",
+    "getting compliance reports",
+    "where can I find a SOC report",
+    "report on compliance"
+  ],
+  "which-virtual-server-instance-types-can-be-reserved-": [
+    "Reserving virtual server instances",
+    "can I reserve any virtual server",
+    "type of virtual server reservation",
+    "reverving a virtual server instance",
+    "assistance on VSI that can be reserved"
+  ],
+  "can-i-combine-different-cpuxram-sizes-or-change-the-sizes-later-": [
+    "combine different CPUxRAM sizes",
+    "Combining different CPUxRAM sizes",
+    "Change CPUxRAM size",
+    "Changing CPUxRAM sizes",
+    "update CPUxRAM later",
+    "CPUxRAM size updates"
+  ],
+  "is-my-payment-upfront-or-monthly-": [
+    "Payment frequency",
+    "Payment terms",
+    "do I pay immediately for instances",
+    "make monthly payments for VSI",
+    "pay for virtual server now or later"
+  ],
+  "what-happens-at-the-end-of-my-contract-": [
+    "Ending contract",
+    "happens at end of the contract",
+    "contract ended now what",
+    "contract is ending what happens next",
+    "happens at contract termination"
+  ],
+  "what-happens-if-i-don-t-need-my-reserved-virtual-server-instances-anymore-": [
+    "Finished using my instances",
+    "End instance usage",
+    "don't need my VSI anymore",
+    "no longer require my VM",
+    "can I reclaim reserved virtual server instances",
+    "cancel reserved capacity?"
+  ],
+  "does-the-reservation-include-everything-i-configured-into-my-virtual-server-instance-": [
+    "What does my reservation include",
+    "included with my virtual server reservation",
+    "Whats included with VSI reservation",
+    "What's included in the VM reservation",
+    "does the reservation include primary disk",
+    "reserved a virtual server whats included"
+  ],
+  "why-do-i-have-to-choose-hourly-or-monthly-billing-on-the-virtual-server-instance-": [
+    "Choosing hourly or monthly",
+    "only have hourly billing",
+    "must I select hourly or monthly billing",
+    "don’t want to choose monthly or hourly invoices",
+    "must I have VSI monthly billing"
+  ],
+  "can-i-interchange-provisioning-of-dedicated-instances-auto-assigned-and-dedicated-host-instances-": [
+    "Interchanging dedicated hosts and dedicated host instances",
+    "Interchange dedicated hosts and dedicated host instances",
+    "Reprovisioning dedicated instances on dedicated hosts",
+    "Reprovision dedicated instances on dedicated hosts",
+    "Switch dedicated instances on dedicated hosts",
+    "Switching dedicated instances on dedicated hosts",
+    "Auto-assigned deidicated instances vs. dedicated host instances"
   ],
   "what-type-of-server-virtual-or-bare-metal-supports-the-dedicated-host-offering-": [
     "Servers that support for dedicated hosts",
@@ -251,7 +297,7 @@
   "what-is-the-provisioning-lifecycle-of-a-dedicated-host-": [
     "How long does my dedicated host stay active",
     "lifecycle of a dedicated host",
-    "dedicated host timeline",  
+    "dedicated host timeline",
     "provisioning timeline for a dedicated host",
     "how long is a dedicated host active"
   ],
@@ -260,7 +306,7 @@
     "bill the dedicated host",
     "bill creation for dedicated host",
     "invoice for on demand dedicated host",
-    "invoices for on-demand dedicated host", 
+    "invoices for on-demand dedicated host",
     "invoice creation for on-demand dedicated hosts"
   ],
   "i-m-running-an-on-demand-dedicated-host-how-am-i-billed-": [
@@ -272,7 +318,7 @@
   "how-is-tenancy-specified-when-provisioning-dedicated-hosts-and-dedicated-host-instances-": [
     "Tenant option for dedicated host and dedicated host instances",
     "Tenant option for dedicated host",
-    "Tenancy option for dedicated host instances",  
+    "Tenancy option for dedicated host instances",
     "tenancy for dedicated host",
     "tenant for dedicated host instances"
   ],
@@ -358,14 +404,14 @@
     "configured routes on hosts"
   ],
   "how-to-add-the-new-routing-for-various-oses": [
-  "Adding new routing",
-  "Create new routes",
-  "Editing routes",
-  "new route creation",
-  "new routing update",
-  "Add the persistent route to Redhat",
-  "new route configuration for my OS",
-  "configure a new route to Ubuntu"
+    "Adding new routing",
+    "Create new routes",
+    "Editing routes",
+    "new route creation",
+    "new routing update",
+    "Add the persistent route to Redhat",
+    "new route configuration for my OS",
+    "configure a new route to Ubuntu"
   ],
   "can-i-have-the-monitoring-system-issue-an-automatic-reboot-and-alert-a-support-technician-in-the-event-that-the-server-stops-responding-": [
     "Issuing automatic reboot",
@@ -413,7 +459,7 @@
   "what-are-auto-scale-policies-": [
     "Autoscale actions and triggers",
     "auto scale policy",
-    "policy information for autoscaling",  
+    "policy information for autoscaling",
     "policies for autoscale",
     "auto scale policies"
   ],
@@ -467,6 +513,7 @@
     "Internet traffic graphs",
     "Public network traffic",
     "what are public network graphs",
+    "what is bandwidth",
     "public network bandwith overview",
     "describe  public networkbandwidth graph"
   ],
@@ -484,7 +531,7 @@
     "why is the project usage different",
     "is the usage data an estimate"
   ],
-  "difference-between-monthy-and-billing-bandwidth-data":[
+  "difference-between-monthy-and-billing-bandwidth-data": [
     "Monthly bandwidth",
     "Monthly billing vs billing bandwidth",
     "why is billing bandwidth data different",
@@ -494,6 +541,7 @@
   ],
   "what-is-a-standard-image-template-": [
     "Image options",
+    "what is Image Template",
     "Creating a server from on an image",
     "Create a server from on an image",
     "explain a standard image template",
@@ -501,7 +549,7 @@
   ],
   "what-is-an-iso-template-": [
     "whats an image",
-    "interested in ISO image",  
+    "interested in ISO image",
     "ISO image",
     "explain a ISO image template",
     "what's a ISO template"
@@ -509,7 +557,7 @@
   "what-is-the-difference-between-a-public-image-and-a-private-image-": [
     "Public image vs private image",
     "public and private images the same",
-    "difference between the two images", 
+    "difference between the two images",
     "differences between private and public images",
     "public image the same as a private image"
   ],
@@ -558,37 +606,50 @@
     "image template creation",
     "make an image template for complete server"
   ],
-    "how-much-does-it-cost": [
-     "how much is image template storage",
-     "price for image template storage",
-     "Image Template Storage Usage",
-     "cost of image template",
-     "image template storage price",
-     "image template cost"
-  ],  
-    "how-do-i-boot-my-virtual-server-instance-from-an-image-": [
-      "boot from an ISO image",
-      "booting from image template",
-      "booting from an image",
-      "re-boot from ISO image",
-      "reboot using an image",
-      "use an image to boot my VM",
-      "boot the virtual machine using an image", 
-      "boot my VSI from an image",
-      "use an image to boot my virtual server"
-    ],
-    "how-to-cancel-device": [
-      "cancel a device",
-      "virtual server cancellation",
-      "cancelling a virtual server",
-      "bare metal cancellation",
-      "how long to cancel a  VM",
-      "cancel my VM",
-      "cancel my server",  
-      "delete one server",
-      "remove a virtual server",
-      "how long it takes to remove bare metal",
-      "removing a VM",
-      "deleting a server"
-     ]   
+  "how-much-does-it-cost": [
+    "how much is image template storage",
+    "price for image template storage",
+    "Image Template Storage Usage",
+    "price for image template storage",
+    "cost for image template storage",
+    "cost of image template",
+    "image template storage price",
+    "image template cost"
+  ],
+  "how-do-i-boot-my-virtual-server-instance-from-an-image-": [
+    "boot from an ISO image",
+    "booting from image template",
+    "booting from an image",
+    "re-boot from ISO image",
+    "reboot using an image",
+    "use an image to boot my VM",
+    "boot the virtual machine using an image",
+    "boot my VSI from an image",
+    "use an image to boot my virtual server"
+  ],
+  "how-to-cancel-device": [
+    "cancel a device",
+    "virtual server cancellation",
+    "cancelling a virtual server",
+    "bare metal cancellation",
+    "how long to cancel a  VM",
+    "cancel my VM",
+    "cancel my server",
+    "delete one server",
+    "remove a virtual server",
+    "how long it takes to remove bare metal",
+    "want to cancel one of my VM's",
+    "remove 2 unprovission servers",
+    "want to cancel a virtual server",
+    "remove 2 unprovission servers",
+    "remove my server",
+    "removing virtual servers",
+    "delete an virtual server",
+    "how to delete a virtual server",
+    "remove a server",
+    "server termination",
+    "terminate server",
+    "removing a VM",
+    "deleting a server"
+  ]
 }
