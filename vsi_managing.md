@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-08-13"
+  years: 2017, 2020
+lastupdated: "2020-09-10"
 
 keywords: manage virtual servers, power off, replicate, manage device, reload os, delete server, manage server
 
@@ -82,6 +82,9 @@ After renaming the device, the name is automatically updated in the {{site.data.
 {: #kvm-console}
 
 The KVM console is a Java applet. Java must be installed prior to accessing the console. If Java is installed, ensure that a connection is established using the VPN. If a connection is not established, a warning is displayed when attempting to connect to the KVM console that a VPN connection is required. If you have issues connecting to your KVM console, see [Why can I not connect to the KVM console?](/docs/virtual-servers?topic=virtual-servers-faqs-servers-general-#why-can-i-not-connect-to-the-kvm-console-).
+
+If you have issues with incompatible Java settings in your browser, you can alternatively use the TightVNC viewer. You must download and install TightVNC viewer for Windows 64-bit version. For more information, see [How to connect to KVM console of IBM Cloud Virtual Servers](https://www.ibm.com/support/pages/how-connect-kvm-console-ibm-cloud-virtual-servers){: external} from the Support Center.
+{:tip}
 
 ## Cancel
 {: #cancel}
