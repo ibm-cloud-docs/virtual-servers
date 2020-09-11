@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2020
-lastupdated: "2020-03-10"
+lastupdated: "2020-09-11"
 
 keywords: suspend billing feature, suspend billing
 
@@ -26,6 +26,9 @@ subcollection: virtual-servers
 
 When you power off {{site.data.keyword.BluVirtServers}} that support the suspend billing feature, you don't accrue costs for certain compute resources. Billing stops automatically when the server is powered off. The suspend billing feature helps you reduce cost and prevents you from having to reprovision a virtual server when you need its resources again.
 {:shortdesc}
+
+If your profile doesn't support suspend billing or you choose not to suspend your instances, you are billed for your usage based on the normal hourly or monthly rates for your instance configuration.
+{:note}
 
 Most virtual server instances created before November 1st, 2018 don't support the suspend billing feature. To find out if your virtual server instance supports the suspend billing feature, see [Viewing suspend billing feature](/docs/virtual-servers?topic=virtual-servers-viewing-suspend-billing-feature).
 
