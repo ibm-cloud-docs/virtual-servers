@@ -140,13 +140,9 @@ Virtual Servers for Classic
     {: .topicgroup}
     Migrating
         vsi_migrating_dedicated.md
-
-    {: .topicgroup}
-    Monitoring
-        vsi_monitoring_intro.md
-        /SLmonitoring/SLmonitoring-viewing-and-managing-monitors
-        sysdig-monitoring-metrics.md
-
+   
+    vsi_monitoring_intro.md
+        
     {: .topicgroup}
     Backing up and recovering
         vsi_launch_rescue.md
