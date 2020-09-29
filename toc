@@ -36,10 +36,7 @@ Virtual Servers for Classic
 
     {: .topicgroup}
     Software options
-        [About software](/software/software-about-software#about-software)
-        [Microsoft Windows Update Information](/software/software-microsoft-windows-update-information#microsoft-windows-update-information)
-        [RedHat Update Information](/software/software-red-hat-update-instructions#red-hat-update-instructions)
-        [AV/S/Host IDS Topic Description](/software/software-anti-virus-spyware-and-host-ids-information#anti-virus-spyware-and-host-ids-information)
+        /bare-metal/bare-metal-about-software
         vsi_database_tools.md
 
     {: .topicgroup}
@@ -127,12 +124,12 @@ Virtual Servers for Classic
 
     {: .topicgroup}
     Managing software
-        [Reloading the OS](/software/software-reloading-the-os#reloading-the-os)
-        [Reloading an OS using an image template](/software/software-reloading-an-os-using-an-image-template#reloading-an-os-using-an-image-template)
-        [Adding IPv6 to Ubuntu systems](/software/software-adding-ipv6-to-ubuntu-systems#adding-ipv6-to-ubuntu-systems)
-        [Installing ClamAV](/software/software-installing-clamav#installing-clamav)
-        [Notifying Users of an Approaching Bandwidth Limitation in cPanel/WHM](/software/software-notifying-users-of-an-approaching-bandwidth-limitation-in-cpanel-and-whm#notifying-users-of-an-approaching-bandwidth-limitation-in-cpanel-and-whm)
-        [Updating an instance to use a local WSUS server](/software/software-updating-an-instance-to-use-a-local-wsus-server#updating-an-instance-to-use-a-local-wsus-server)
+        /bare-metal/bare-metal-reloading-the-os
+        /bare-metal/bare-metal-reloading-an-os-using-an-image-template
+        /bare-metal/bare-metal-adding-ipv6-to-ubuntu-systems
+        /bare-metal/bare-metal-installing-clamav
+        /bare-metal/bare-metal-notifying-users-of-an-approaching-bandwidth-limitation-in-cpanel-and-whm
+        /bare-metal/bare-metal-updating-an-instance-to-use-a-local-wsus-server
         vsi_gpu_nvidia_drivers.md
 
     vsi_managing_placegroup.md
@@ -140,9 +137,9 @@ Virtual Servers for Classic
     {: .topicgroup}
     Migrating
         vsi_migrating_dedicated.md
-   
+
     vsi_monitoring_intro.md
-        
+
     {: .topicgroup}
     Backing up and recovering
         vsi_launch_rescue.md
@@ -170,7 +167,7 @@ Virtual Servers for Classic
         vsi_faqs_auto_scale.md
         vsi_faqs_bandwidth_graphs.md
         image-templates-faqs.md
-        /software/software-faqs
+        /bare-metal/bare-metal-software-faqs
         ssh-keys-faq.md
         sysdig-faq.md
 
