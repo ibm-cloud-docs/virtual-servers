@@ -25,7 +25,7 @@ The following information displays Rest API examples for provisioning public vir
 {:shortdesc}
 
 For more robust API examples, see the following resources:
-* [Softlayer_Virtual_Guest API examples](https://softlayer.github.io/classes/softlayer_virtual_guest/){: external}
+* [Softlayer_Virtual_Guest API examples](https://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/){: external}
 * [Getting a profile list](https://softlayer.github.io/article/vsiflavors/){: external}
 
 ## Provisioning a public instance using Create Object

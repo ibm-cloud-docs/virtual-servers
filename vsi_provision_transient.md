@@ -102,7 +102,7 @@ If you need extra storage, you can attach storage disks to your instance. The ty
 | Primary IP address | A primary IP address is automatically assigned to your instance. |
 | Public secondary IP addresses | These subnets are owned by you for the duration of your virtual server instance. You can cancel the subnet separately, but if you cancel your instance, the subnet is also removed. For more information, see [About subnets and IPs](/docs/subnets?topic=subnets-about-subnets-and-ips#about-subnets-and-ips). |
 | IPv6 and public static IPv6 addresses | You can select an IPv6 address or public static IPv6 addresses for your instance. |
-| VPN management | This option is automatically selected for your instance with unlimited SSL VPN users. For more information, see [About VPN](/docs/iaas-vpn?topic=VPN-about-iaas-vpn). |
+| VPN management | This option is automatically selected for your instance with unlimited SSL VPN users. For more information, see [About VPN](/docs/iaas-vpn?topic=iaas-vpn-about-iaas-vpn). |
 {: caption="Table 4. Network interface add-ons" caption-side="top"}
 
 You can also provision a transient virtual server by using the {{site.data.keyword.slapi_short}}. For an example, see [Provisioning a transient instance using Create Object](/docs/virtual-servers?topic=virtual-servers-api-rest-public#api-rest-transient).

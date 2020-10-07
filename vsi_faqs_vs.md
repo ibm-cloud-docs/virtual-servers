@@ -82,7 +82,7 @@ Virtual server instance SAN is similar to file storage. Virtual server instance 
 {: #can-i-use-a-red-hat-cloud-access-subscription-to-create-a-virtual-server-}
 {: faq}
 
-Yes. When you import an image, you can specify that you provide the operating system license. For more information, see [Use Red Hat Cloud Access](/docs/infrastructure/image-templates?topic=image-templates-using-your-own-os-license-or-subscription). Then, you can order a virtual server from that image template and use your existing [Red Hat Cloud Access](https://www.redhat.com/en/technologies/cloud-computing/cloud-access){: external} subscription.
+Yes. When you import an image, you can specify that you provide the operating system license. For more information, see [Use Red Hat Cloud Access](/docs/image-templates?topic=image-templates-using-your-own-os-license-or-subscription). Then, you can order a virtual server from that image template and use your existing [Red Hat Cloud Access](https://www.redhat.com/en/technologies/cloud-computing/cloud-access){: external} subscription.
 
 ## What is the difference between a virtual server and a virtual private server (VPS)?
 {: #what-is-the-difference-between-a-virtual-server-and-a-virtual-private-server-vps-}
@@ -108,7 +108,7 @@ Log in to your console and navigate to your **Devices** menu. For more informati
 {: #how-do-i-use-vpn-to-access-the-ibm-cloud-private-network-}
 {: faq}
 
-You can log in to the VPN through [the web interface](https://www.softlayer.com/VPN-Access){: external} or use a [stand-alone VPN client](/docs/infrastructure/iaas-vpn?topic=VPN-standalone-vpn-clients) for Linux, macOS, or Windows. For more information about what to do once you're connected to the VPN, see [Use SSL VPN](/docs/infrastructure/iaas-vpn?topic=VPN-use-ssl-vpn).
+You can log in to the VPN through [the web interface](https://www.softlayer.com/VPN-Access){: external} or use a [stand-alone VPN client](/docs/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients) for Linux, macOS, or Windows. For more information about what to do once you're connected to the VPN, see [Use SSL VPN](/docs/iaas-vpn?topic=iaas-vpn-using-ssl-vpn).
 
 ## How do I restart my virtual server?
 {: #how-do-i-reboot-my-virtual-server-}

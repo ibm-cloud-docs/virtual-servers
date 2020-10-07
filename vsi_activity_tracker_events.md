@@ -28,10 +28,10 @@ with the account can trigger virtual server events that are logged in {{site.dat
 
 The {{site.data.keyword.cloudaccesstrailshort}} service records user-initiated activities that change the state of a service in
 {{site.data.keyword.Bluemix_notm}}. For more information, see
-[About {{site.data.keyword.cloudaccesstrailshort}}](/docs/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started#gs_ov).
+[About {{site.data.keyword.cloudaccesstrailshort}}](/docs/Activity-Tracker-with-LogDNA?topic=Activity-Tracker-with-LogDNA-getting-started#gs_ov).
 
 To get started monitoring your user's actions, see
-[{{site.data.keyword.cloudaccesstrailfull_notm}}](/docs/Activity-Tracker-with-LogDNA?topic=logdnaat-getting-started).
+[{{site.data.keyword.cloudaccesstrailfull_notm}}](/docs/Activity-Tracker-with-LogDNA?topic=Activity-Tracker-with-LogDNA-getting-started).
 
 An initiator can be a user, a service, or an application. For a user to generate events, the user must have access to **Infrastructure** resources in {{site.data.keyword.Bluemix}} console.
 {: tip}
@@ -74,7 +74,7 @@ The following table lists the actions that generate an event:
 
 The {{site.data.keyword.cloudaccesstrailshort}} events are available in the {{site.data.keyword.cloudaccesstrailshort}} **account domain** that
 is available in the {{site.data.keyword.Bluemix_notm}} region where the events are generated. For more information, see [Viewing account
-events](/docs/Activity-Tracker-with-LogDNA?topic=logdnaat-manage_events).
+events](/docs/Activity-Tracker-with-LogDNA?topic=Activity-Tracker-with-LogDNA-manage_events).
 
 {{site.data.keyword.cloudaccesstrailshort}} events are automatically forwarded to the {{site.data.keyword.cloudaccesstrailshort}} service
 in the same region where the action happens.

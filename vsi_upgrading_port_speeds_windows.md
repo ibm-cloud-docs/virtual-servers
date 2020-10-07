@@ -19,7 +19,7 @@ subcollection: virtual-servers
 # Upgrading port speed in Windows
 {: #upgrading-port-speed-in-windows}
 
-The default port speed for customer servers (for both public and private networks) is 10 Mbps. If you would like to upgrade either of your port speeds to 100 Mbps or 1000 Mbps, open a ticket with the request. Sales asks you to approve the minimal charge and a technician changes the port speeds on your network. For more information about opening an IBM support ticket, see [Getting support](/docs/get-support?topic=get-support-getting-customer-support).
+The default port speed for customer servers (for both public and private networks) is 10 Mbps. If you would like to upgrade either of your port speeds to 100 Mbps or 1000 Mbps, open a ticket with the request. Sales asks you to approve the minimal charge and a technician changes the port speeds on your network. For more information about opening an IBM support ticket, see [Getting support](/docs/get-support?topic=get-support-using-avatar).
 
 After the upgrade is completed on the network side, hardcode the appropriate network interfaces on your server.
 

@@ -24,7 +24,7 @@ subcollection: virtual-servers
 
 You can provision your reserved capacity and instances through the {{site.data.keyword.cloud}} catalog. You must provision your reserved capacity before your virtual server instances.
 
-If you are not the account administrator, your user account must include the **Manage Reserved Capacities** permission. The account administrator can grant user's permission from the **Portal Permissions** tab in the console. For more information about updating permissions, see [Managing infrastructure access](/docs/iam?topic=iam-mngclassicinfra#mngclassicinfra).
+If you are not the account administrator, your user account must include the **Manage Reserved Capacities** permission. The account administrator can grant user's permission from the **Portal Permissions** tab in the console. For more information about updating permissions, see [Managing infrastructure access](/docs/account?topic=account-mngclassicinfra#mngclassicinfra).
 {:note}
 
 ## Provisioning reserved capacity

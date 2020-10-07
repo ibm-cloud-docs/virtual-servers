@@ -43,4 +43,4 @@ For API usage examples, see the following resources:
 ## Public virtual servers usage examples
 {: #public-virtual-servers-usage-examples}
 
-* [softlayer_virtual_guest API examples](https://softlayer.github.io/classes/softlayer_virtual_guest/){: external}
+* [softlayer_virtual_guest API examples](https://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/){: external}

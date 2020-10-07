@@ -30,7 +30,7 @@ First, navigate to the device menu and ensure you have the correct account permi
 * Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/virtual-servers?topic=virtual-servers-navigating-devices).
 * Ensure you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions. 
 
-For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
+For more information about permissions, see [Classic infrastructure permissions](/docs/account?topic=account-infrapermission) and [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
 
 ## Managing a device in snapshot view
 {: #managing-device-snapshot-view}
@@ -44,5 +44,5 @@ For more information about permissions, see [Classic infrastructure permissions]
 |View the username and password for the device|Select the **Show Password** check box.|
 |Enter tags to be associated with a device|Enter each tag for the device in the **Tags** field, separated by a comma.|
 |View a recent case associated with a device|Click the desired case number to be redirected to the details of the case.|
-|Add a case for a device|Click **Add a Case for this Device** to be redirected to the **Add Case** page. For more information about getting support, see [Getting support](/docs/get-support?topic=get-support-getting-customer-support).|
+|Add a case for a device|Click **Add a Case for this Device** to be redirected to the **Add Case** page. For more information about getting support, see [Getting support](/docs/get-support?topic=get-support-using-avatar).|
 {: caption="Table 1. Snapshot view actions" caption-side="top"}

@@ -56,7 +56,7 @@ For more information about supplemental storage options, see the following resou
 
 * [Getting Started with Block Storage](/docs/BlockStorage?topic=BlockStorage-getting-started)
 * [Getting Started with File Storage](/docs/FileStorage?topic=FileStorage-getting-started)
-* [Getting Started with Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started)
+* [Getting Started with Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage)
 
 ## Next steps
 {: #next-steps-storage}

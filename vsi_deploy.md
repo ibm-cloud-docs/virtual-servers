@@ -38,7 +38,7 @@ Services don't bind to the virtual server instance. You cannot add services to a
 
 The App Service provisions a virtual server instance for you, loads an image that includes your app, creates a Devops toolchain, and initiates the first deployment cycle for you.
 
-1. [Create an app](/docs/apps?topic=creating-apps-tutorial-scratch#tutorial-scratch). 
+1. [Create an app](/docs/apps?topic=apps-tutorial-scratch#tutorial-scratch). 
 2. Click **Configure continuous delivery** from the App details page.
 3. Select **Deploy to a Virtual Server**, along with the region in which to run your server.
 
@@ -50,7 +50,7 @@ The virtual server deployment process consists of several key technologies that 
 ### Deploying through Terraform
 {: #deploying-through-terraform}
 
-Any of the App Service starter kits can be deployed in a dynamically created virtual instance through [Terraform](https://ibm-cloud.github.io/tf-ibm-docs/v0.10.0/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"), an open source infrastructure as code framework. 
+Any of the App Service starter kits can be deployed in a dynamically created virtual instance through [Terraform](/docs/terraform?topic=terraform-getting-started){: new_window}, an open source infrastructure as code framework. 
 
 ### Enabling your pipeline deployment
 {: #enabling-your-pipeline-deployment}
@@ -92,7 +92,7 @@ Terraform requires a classic infrastructure API key to create infrastructure res
 4. Copy or download the API key `TF_VAR_ibm_sl_api_key`, and save it in a safe place. You can retrieve the details of the API key later by using the **View details** option from the **Actions** ![List of actions icon](../icons/action-menu-icon.svg) menu.
 5. Paste the copied API key value into the toolchain configuration to replace the `TF_VAR_ibm_sl_api_key`.
 
-For more information, see [Managing classic infrastructure API keys](/docs/iam?topic=iam-classic_keys#classic_keys) and [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission).
+For more information, see [Managing classic infrastructure API keys](/docs/account?topic=account-classic_keys#classic_keys) and [Classic infrastructure permissions](/docs/account?topic=account-infrapermission).
 
 #### Classic infrastructure user name
 {: #user-key}
@@ -161,7 +161,7 @@ When the app is deployed to {{site.data.keyword.cloud_notm}}, a GitLab repositor
 #### Debian folder
 {: #debian-folder}
 
-The `debian` folder holds the configuration that is required to enable the packaging of the app into a [Debian package](https://www.debian.org/doc/manuals/debian-faq/ch-pkgtools.en.html){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
+The `debian` folder holds the configuration that is required to enable the packaging of the app into a Debian package.
 
 #### Terraform folder
 {: #terraform-folder}
@@ -187,7 +187,7 @@ resource "ibm_compute_vm_instance" "vm1" {
 }
 ```
 
-You can also provision bare metal servers with Terraform. For more information, see [IBM Terraform Provider Documentation](https://ibm-cloud.github.io/tf-ibm-docs/v0.10.0/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") and [IBM Terraform Provider GIT Repo](https://github.com/IBM-Cloud/terraform-provider-ibm){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
+You can also provision bare metal servers with Terraform. For more information, see [IBM Terraform Provider Documentation](/docs/terraform?topic=terraform-getting-started){: new_window} and [IBM Terraform Provider GIT Repo](https://github.com/IBM-Cloud/terraform-provider-ibm){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
 
 The `variables.tf` can be used to change the data center you want to target to create the virtual instance. To see the list of defined data centers on the platform, see [Data Centers](https://www.ibm.com/cloud/data-centers/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
 

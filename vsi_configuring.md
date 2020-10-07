@@ -57,12 +57,12 @@ All software that was loaded onto your device during the provisioning process wa
 
 Optionally, password updates can be stored on the Passwords tab for each device; however, understand that when you store passwords within the {{site.data.keyword.cloud_notm}} console, any person with access to the account and appropriate permissions can view passwords that are stored on the Passwords screen.
 
-For more information about viewing and managing your software credentials, see [Managing classic infrastructure access](/docs/virtual-servers?topic=iam-mngclassicinfra).
+For more information about viewing and managing your software credentials, see [Managing classic infrastructure access](/docs/virtual-servers?topic=account-mngclassicinfra).
 
 ## Access your server on the private network
 {: #access-your-server-on-the-private-network}
 
-The private network is the precursor to interacting with your devices through remote desktop (RDP) using SSH and KVM over IP. The VPN Access tool allows for private network connection to either the closest SSL VPN endpoint or to the endpoint of your choice. VPN access is also required to interact with several services that are offered. For more information, see [Getting started with Virtual Private Networks (VPN)](/docs/iaas-vpn?topic=VPN-getting-started).
+The private network is the precursor to interacting with your devices through remote desktop (RDP) using SSH and KVM over IP. The VPN Access tool allows for private network connection to either the closest SSL VPN endpoint or to the endpoint of your choice. VPN access is also required to interact with several services that are offered. For more information, see [Getting started with Virtual Private Networks (VPN)](/docs/iaas-vpn?topic=iaas-vpn-getting-started).
 
 ## Set up monitoring
 {: #set-up-monitoring}
