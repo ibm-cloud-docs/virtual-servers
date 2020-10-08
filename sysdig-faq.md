@@ -4,7 +4,7 @@ copyright:
   years: 2020
 lastupdated: "2020-05-15"
 
-keywords:
+keywords: sysdig faq
 
 subcollection: virtual-servers
 
@@ -26,7 +26,7 @@ subcollection: virtual-servers
 {: #why-transition-to-sysdig}
 {: faq}
 
-IBM Cloud is committed to providing you the highest quality of service and is making the transition to a new monitoring offering. {{site.data.keyword.mon_full_notm}} offers an improved customer experience, robust functionality, and customizable dashboards for your resource monitoring needs. For more information, see [{{site.data.keyword.mon_full_notm}}](/docs/Monitoring-with-Sysdig?topic=Monitoring-with-Sysdig-getting-started).
+IBM Cloud is committed to providing you the highest quality of service and is making the transition to a new monitoring offering. {{site.data.keyword.mon_full_notm}} offers an improved customer experience, robust functionality, and customizable dashboards for your resource monitoring needs. For more information, see [{{site.data.keyword.mon_full_notm}}](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-about).
 
 ## What benefits does {{site.data.keyword.mon_full_notm}} provide?
 {: #what-are-sysdig-benefits}
@@ -36,7 +36,7 @@ IBM Cloud is committed to providing you the highest quality of service and is ma
 
 * Provides real-time operational visibility into the performance and health of your applications, IBM services and platforms.
 
-* A visual representation of your infrastructure. Sysdig automatically collects important metrics such as CPU usage, used and available memory, response times, network latency, and more. For more information about Sysdig metrics, see [Sysdig monitoring metrics](/docs/Monitoring-with-Sysdig?topic=Monitoring-with-Sysdig-getting-started).
+* A visual representation of your infrastructure. Sysdig automatically collects important metrics such as CPU usage, used and available memory, response times, network latency, and more. For more information about Sysdig metrics, see [Sysdig monitoring metrics](/docs/virtual-servers?topic=virtual-servers-sysdig-monitoring-metrics).
 
 * Offers administrators, DevOps teams, and developers full stack telemetry with advanced features to monitor and troubleshoot, define alters, and design custom dashboards. 
 
@@ -44,12 +44,12 @@ IBM Cloud is committed to providing you the highest quality of service and is ma
 {: #will-sysdig-cost-more}
 {: faq}
 
-Depending on which Advanced Monitoring by Nimsoft plan you are using, you might see an increase in your monthly resource monitoring cost. {{site.data.keyword.mon_full_notm}} offers different pricing plans. 
+Depending on which Advanced Monitoring by Nimsoft plan you are using, you might see an increase in your monthly resource monitoring cost. {{site.data.keyword.mon_full_notm}} offers different pricing plans.
 
-* Lite plan 
-* Graduated Tier plan 
+* Lite plan
+* Graduated Tier plan
 
-For more information about plans and pricing, see [{{site.data.keyword.mon_full_notm}} pricing](/docs/Monitoring-with-Sysdig?topic=Monitoring-with-Sysdig-pricing_plans).
+For more information about plans and pricing, see [{{site.data.keyword.mon_full_notm}} pricing](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-pricing_plans).
 
 ## How do I install {{site.data.keyword.mon_full_notm}}?
 {: #how-do-i-install-sysdig}
@@ -61,21 +61,21 @@ You can install and configure an {{site.data.keyword.mon_full_notm}} agent for a
 * Mesos, Marathon, and DCOS
 * Linux installations
 
-In addition to the previously listed environments, you can see all of the IBM Cloud services that are Sysdig-enabled [here](/docs/Monitoring-with-Sysdig?topic=Monitoring-with-Sysdig-cloud_services).
- 
-For information about installing {{site.data.keyword.mon_full_notm}}, see [Getting started tutorial](/docs/Monitoring-with-Sysdig?topic=Monitoring-with-Sysdig-getting-started).
+In addition to the previously listed environments, you can see all of the IBM Cloud services that are Sysdig-enabled [here](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-cloud_services).
+
+For information about installing {{site.data.keyword.mon_full_notm}}, see [Getting started tutorial](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-getting-started).
 
 ## How do I get started with {{site.data.keyword.mon_full_notm}}?
 {: #how-do-i-get-started-sysdig}
 {: faq}
 
-For information about provisioning, configuring your agent, managing data, and alerting, see {{site.data.keyword.mon_full_notm}}, see [Getting started tutorial](/docs/Monitoring-with-Sysdig?topic=Monitoring-with-Sysdig-getting-started).
+For information about provisioning, configuring your agent, managing data, and alerting, see {{site.data.keyword.mon_full_notm}}, see [Getting started tutorial](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-getting-started).
 
-## How do I uninstall Advanced Monitoring by Nimsoft?
+<!--## How do I uninstall Advanced Monitoring by Nimsoft?
 {: #how-do-i-uninstall-nimsoft}
-{: faq}
+{: faq}-->
 
-For information about uninstalling Advanced Monitoring by Nimsoft, see [Uninstalling Advanced Monitoring by Nimsoft](/docs/SLmonitoring?topic=slmonitoring-uninstall-nimsoft).
+<!--For information about uninstalling Advanced Monitoring by Nimsoft, see [Uninstalling Advanced Monitoring by Nimsoft](/docs/SLmonitoring?topic=SLmonitoring-uninstall-nimsoft).-->
 
 ## What if I am using custom images with Advanced Monitoring by Nimsoft?
 {: what-if-i-use-custom-images-with-nimsoft}
@@ -88,7 +88,7 @@ To simplify this transition, IBM Cloud will automatically remove the "Advanced M
 {: #how-do-i-get-transition-help}
 {: faq}
 
-If you need help transitioning to {{site.data.keyword.mon_full_notm}}, you can contact your CSM or see [Getting support](/docs/get-support?topic=get-support-using-avatar) to open a support ticket.
+If you need help transitioning to {{site.data.keyword.mon_full_notm}}, you can contact your CSM or see [Getting support](/docs/get-support?topic=get-support-getting-customer-support) to open a support ticket.
 
 ## What are the important dates that are associated with Advanced Monitoring by Nimsoft EOS?
 {: #what-are-important-transition-dates}
