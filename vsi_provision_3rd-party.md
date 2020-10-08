@@ -28,7 +28,8 @@ You can provision a virtual server instance from an image that was created by a 
 
 Before you begin, ensure that you have your {{site.data.keyword.cloud_notm}} catalog credentials set up.
 
-For the {{site.data.keyword.Bluemix_notm}} catalog, you must have an upgraded account to order virtual servers. For more information about upgrading your account, see [Switching to IBMid](/docs/account?topic=account-unifyingaccounts#unifyingaccounts).
+For the {{site.data.keyword.Bluemix_notm}} catalog, you must have an upgraded account to order virtual servers. For more information about upgrading your account, see [
+Account types](/docs/account?topic=account-accounts).
 {:note}
 
 ## Selecting a virtual server image
