@@ -38,7 +38,7 @@ Not applicable for transient instances.
 
 To provision a public virtual server instance using REST, a POST request would be submitted to https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ with the following JSON in the request body.
 
-The following JSON request body is a generic example. 
+The following JSON request body is a generic example.
 {:note}
 
 ### JSON Request Body 1
@@ -81,7 +81,7 @@ To provision a public virtual server using REST, a POST request would be submitt
 The item descriptions are not required on the prices. They are included only to show the product options being submitted.
 {:note}
 
-The following JSON request body is a generic example. 
+The following JSON request body is a generic example.
 {:note}
 
 ### JSON Request Body 2
@@ -154,12 +154,6 @@ The following JSON request body is a generic example.
                     "item": {
                         "description": "Unlimited SSL VPN Users & 1 PPTP VPN User per account"
                     }
-                },
-                {
-                    "id": 418,
-                    "item": {
-                        "description": "Nessus Vulnerability Assessment & Reporting"
-                    }
                 }
             ],
             "quantity": 1,
@@ -189,7 +183,7 @@ To provision a public virtual server using REST, a POST request would be submitt
 The item descriptions are not required on the prices. They are included only to show the product options being submitted.
 {:note}
 
-The following JSON request body is a generic example. 
+The following JSON request body is a generic example.
 {:note}
 
 ### JSON Request Body 3
@@ -236,7 +230,7 @@ The *SoftLayer_Virtual_Guest/createObject* API service is the simplest way to pr
 
 To provision a transient virtual server instance using REST, a POST request would be submitted to https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ with the following JSON in the request body.
 
-The following JSON request body is a generic example. 
+The following JSON request body is a generic example.
 {:note}
 
 ### JSON Request Body 4
