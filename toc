@@ -143,7 +143,7 @@ Virtual Servers for Classic
     {: .topicgroup}
     Backing up and recovering
         vsi_launch_rescue.md
-        [Restoring a server from an R1Soft image](/software/software-restoring-your-server-from-an-r1soft-image#restoring-your-server-from-an-r1soft-image)
+        [Restoring a server from an R1Soft image](/docs/bare-metal/bare-metal-restoring-your-server-from-an-r1soft-image)
         veeam_O365.md
 
     {: .topicgroup}
