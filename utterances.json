@@ -657,6 +657,7 @@
    "cancel a device",
     "virtual server cancellation",
     "cancelling a virtual server",
+    "canceling a virtual server",	  
     "bare metal cancellation",
     "how long to cancel a VM",
     "cancel my VM",
@@ -669,7 +670,8 @@
     "remove 2 unprovission servers",
     "want to cancel a virtual server",
     "remove 2 unprovission servers",
-    "How to cancell bare metal server", 
+    "How to cancell bare metal server",
+    "How to cancel a bare metal server"	   
     "cancel server money back",
     "stop the baremetal which I deployed",
     "remove my server",
