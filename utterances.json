@@ -20,6 +20,10 @@
     "the server is down",
     "vm is down",
     "my server is down",
+    "how to power on server",
+    "my virtual server is powered off",
+    "power on my server",
+    "power off a server",
     "the server does not respond",
     "need assistance with a server down",
     "could not able access my vm",
@@ -27,6 +31,8 @@
     "client's server is down",
     "server still down",
     "virtual servers are not up",
+    "server suspended",
+    "the server is stopped",
     "VSI down",
     "unable to access server",
     "server unreachable",
@@ -46,6 +52,8 @@
     "can't access bare metal",
     "cannot access to my bare metal machine",
     "can't connect to my bare metal servers",
+    "power on bare metal server",
+    "power off bare metal servers",
     "can not get my bare metal server up",
     "my bare metal server is down",
     "need help as bare metal servers down",
@@ -101,14 +109,6 @@
     "need new cloud server",
     "different virtual server types"
   ],
-  "where-can-i-find-pricing-information-for-public-instance-types-": [
-    "Public instance pricing",
-    "Public instance cost",
-    "How much for a public instance",
-    "cost info for public server instance",
-    "price of public instances",
-    "cost for public instance"
-  ],
   "where-can-i-find-pricing-information-for-virtual-public-instances-": [
     "Virtual public instance pricing",
     "Virtual public instance cost",
@@ -139,20 +139,23 @@
     "add more disk on our database server",
     "add more disk storage to our server",
     "increase the storage on my server",
+    "I want to increase the storage on my server",
+    "need to add more disk on our server",
     "increase the storage on VM",
+    "want to increase my cloud server ram",
+    "increase my server ram",
+    "I need to upgrade my current server",
+    "server upgrades",
+    "upgrading our server",
+    "upgrade my current server",
+    "resizing my server",
+    "how can i upgrade my server",
+    "uprade my server",
     "need to add more disk on our server",
     "add more disk space to server",
     "add disk storage",
     "add more disk storage",
     "disk storage upgrade"
-  ],
-  "concurrent": [
-    "How many hourly virtual servers can I start",
-    "Number of hourly virtual servers",
-    "Concurrent virtual servers",
-    "number of concurrent VMs",
-    "how many VSIs can I have",
-    "maximum number of virtual servers"
   ],
   "how-will-i-be-billed-for-bandwidth-for-my-hourly-virtual-servers-": [
     "Cost of bandwidth for hourly virtual servers",
@@ -168,41 +171,31 @@
     "bandwidth free for inbound traffic",
     "bandwidth charges for inbound traffic",
     "bandwidth charges for outbound traffic",
-    "how is bandwidth charged",
-    "find my bandwidth usage on my invoice",
-    "find the bandwith usage",
-    "view the bandwidth that is be used by our servers"
+    "how is bandwidth charged"
   ],
   "in-what-cases-is-my-virtual-server-migrated-to-a-different-host-": [
-    "Migrating to a different host",
-    "Moving virtual server to a different host",
-    "Move a virtual machine onto another host",
-    "Migrate host",
-    "virtual server moved to another host",
-    "migrate virtual server's host",
-    "migrating the host for VSI"
-  ],
-  "what-happens-to-my-data-when-my-portable-storage-is-deleted-": [
-    "Deleted my data from portable storage",
-    "Deleting data from portable storage",
-    "data is deleted from portable storage",
-    "removal of data from portable storage",
-    "data being removed from portable storage"
+    "How does IBM handle maintenance for servers",
+    "how does maintenance impact my VSI",
+    "maintenance impacts my server",
+    "happens to servers during maintenance",
+    "server maintenance",
+    "virtual server down for maintenance",
+    "maintenance for virtual servers",
+    "maintenance for a virtual server",
+    "maintenance on my virtual machine",
+    "how maintenance affects my virtual server"
   ],
   "can-i-use-a-red-hat-cloud-access-subscription-to-create-a-virtual-server-": [
     "Using Red Hat Cloud Access to create a virtual server",
+    "Red Hat to create a virtual server",
     "Creating a virtual server with Red Hat Cloud Access",
     "creating a server using red hat cloud access",
     "create a a VM with red hat cloud access",
+    "create a new red hat server",
+    "setup a new server with red hat",
+    "create a new server with red hat",
     "create a VSI using red hat access",
     "use red hat cloud access to get a virtual server"
-  ],
-  "what-is-the-difference-between-a-virtual-server-and-a-virtual-private-server-vps-": [
-    "Virtual server vs virtual private server",
-    "Is VSI the same as VPS",
-    "differences between VPS and VSI",
-    "virtual private server the same as a VSI",
-    "virtual server environments the same"
   ],
   "why-do-i-receive-a-capacity-error-when-provisioning-a-virtual-server-": [
     "Insufficent capacity to complete the request",
@@ -215,7 +208,11 @@
     "unable to create a virtual machine",
     "error provisioning VM",
     "Not able to provision a server",
+    "creating a server but getting error",
     "unable to provision a server",
+    "unable to make any new server instances",
+    "I not able to create virtual server",
+    "can't create a virtual machine",
     "I can not create a server",
     "insufficient capacity error when I try to create a server",
     "error when I provision my VSI",
@@ -228,10 +225,12 @@
     "Signing into my server",
     "how to login to my baremetal server",
     "how to log into my device",
+    "how do i log in to vm",
     "login to my bare metal server",
     "what are my server names",
     "what are my server user names",
     "baremetal log in",
+    "bare metal server log in",
     "log in to baremetal",
     "how do i log in to vm",
     "HOW DO I LOGIN TO MY SERVER",
@@ -240,17 +239,68 @@
     "server login",
     "server log in",
     "help to access server",
-    "get logged into server"
+    "get logged into server",
+    "List of servers",
+    "how do I find my vm",
+    "need to know what my server details are",
+    "how do i find my server",
+    "How many VMs do I have",
+    "where i can find my servers",
+    "where to see my servers",
+    "where do i manage my server",
+    "what are my server names",
+    "How to see my servers",
+    "created a virtual server but i cannot see it",
+    "Where are my servers",
+    "where is the server i have access to",
+    "where I can view and manage  IBM Cloud Virtual Server",
+    "Where are my servers"
   ],
   "how-do-i-use-vpn-to-access-the-ibm-cloud-private-network-": [
     "How do I use VPN to access the IBM Cloud private network",
     "Using VPN to access IBM Cloud private network",
     "Accessing IBM Cloud private network using VPN",
+    "use VPN to access the private network",
+    "where is vpn access settings",
+    "I want to activate a VPN access",
+    "VPN access link",
+    "How can I log in to VPN",
+    "log in to VPN",
+    "How do I VPN",
+    "How do I access VPN",
+    "vpn quick-access",
+    "vpn access to dal09",
+    "vpn quick access",
+    "VPN access link",
+    "how to enable VPN access",
+    "VPN access",
+    "vpn access points",
+    "vpn access point",
+    "DAL09 VPN access",
+    "i need to VPN into the DAL09",
+    "how to setup vpn access",
+    "looking for the vpn access",
+    "vpn ssl access private ip",
+    "VPN access",
+    "vpn",
+    "access vpn",
+    "request for VPN gateway access",
+    "'How do I set up MotionPro VPN",
+    "How do I update my VPN acces",
+    "How can I access to the Soft Layer VPN",
+    "request for VPN access",
+    "looking for the vpn access option",
+    "enable access to the ibm cloud infrastructure for private network",
+    "access to virtual private network",
+    "looking for VPN access to SoftLayer",
+    "VPN access to SoftLayer",
     "want to login to VPN"
   ],
   "how-do-i-reboot-my-virtual-server-": [
     "Rebooting my virtual server",
     "Reboot my virtual server",
+    "reboot virtual server",
+    "reboot my device",
     "Restarting my virtual server",
     "restart the virtual machine",
     "restarting VSI",
@@ -267,6 +317,7 @@
     "how to boot my Virtual Server",
     "where do you request a reboot",
     "re-starting my Virtual Machine",
+    "request a soft system reboot",
     "i want to reboot",
     "compute server reboots",
     "I need to restart the server",
@@ -293,6 +344,7 @@
     "Boot into rescue",
     "how to rescue",
     "Booting with rescue mode",
+    "how to use rescue mode",
     "booting into Rescue Kernel",
     "launch rescue",
     "rescue use",
@@ -307,10 +359,15 @@
     "where to see my virtual server status",
     "There might be a temporary server outage",
     "see my virtual server status",
+    "status of my server",
+    "what's the cloud status",
+    "status",
+    "cloud status",
     "see bare metal status",
     "status of network",
     "network status",
     "is my network up",
+    "is your network down",
     "is network down"
   ],
   "how-do-i-request-a-compliance-report-": [
@@ -340,138 +397,14 @@
     "compliance of bare metals",
     "report on compliance"
   ],
-  "which-virtual-server-instance-types-can-be-reserved-": [
-    "Reserving virtual server instances",
-    "can I reserve any virtual server",
-    "type of virtual server reservation",
-    "reverving a virtual server instance",
-    "assistance on VSI that can be reserved"
-  ],
-  "can-i-combine-different-cpuxram-sizes-or-change-the-sizes-later-": [
-    "combine different CPUxRAM sizes",
-    "Combining different CPUxRAM sizes",
-    "Change CPUxRAM size",
-    "Changing CPUxRAM sizes",
-    "update CPUxRAM later",
-    "CPUxRAM size updates"
-  ],
-  "is-my-payment-upfront-or-monthly-": [
-    "Payment frequency",
-    "Payment terms",
-    "do I pay immediately for instances",
-    "make monthly payments for VSI",
-    "pay for virtual server now or later"
-  ],
-  "what-happens-at-the-end-of-my-contract-": [
-    "Ending contract",
-    "happens at end of the contract",
-    "contract ended now what",
-    "contract is ending what happens next",
-    "happens at contract termination"
-  ],
-  "what-happens-if-i-don-t-need-my-reserved-virtual-server-instances-anymore-": [
-    "Finished using my instances",
-    "End instance usage",
-    "don't need my VSI anymore",
-    "no longer require my VM",
-    "can I reclaim reserved virtual server instances",
-    "cancel reserved capacity?"
-  ],
-  "does-the-reservation-include-everything-i-configured-into-my-virtual-server-instance-": [
-    "What does my reservation include",
-    "included with my virtual server reservation",
-    "Whats included with VSI reservation",
-    "What's included in the VM reservation",
-    "does the reservation include primary disk",
-    "reserved a virtual server whats included"
-  ],
-  "why-do-i-have-to-choose-hourly-or-monthly-billing-on-the-virtual-server-instance-": [
-    "Choosing hourly or monthly",
-    "only have hourly billing",
-    "must I select hourly or monthly billing",
-    "don’t want to choose monthly or hourly invoices",
-    "must I have VSI monthly billing"
-  ],
-  "can-i-interchange-provisioning-of-dedicated-instances-auto-assigned-and-dedicated-host-instances-": [
-    "Interchanging dedicated hosts and dedicated host instances",
-    "Interchange dedicated hosts and dedicated host instances",
-    "Reprovisioning dedicated instances on dedicated hosts",
-    "Reprovision dedicated instances on dedicated hosts",
-    "Switch dedicated instances on dedicated hosts",
-    "Switching dedicated instances on dedicated hosts",
-    "Auto-assigned deidicated instances vs. dedicated host instances"
-  ],
-  "what-type-of-server-virtual-or-bare-metal-supports-the-dedicated-host-offering-": [
-    "Servers that support for dedicated hosts",
-    "server supporting a dedicated host",
-    "server types that support dedicated hosts"
-  ],
-  "what-is-the-provisioning-lifecycle-of-a-dedicated-host-": [
-    "How long does my dedicated host stay active",
-    "lifecycle of a dedicated host",
-    "dedicated host timeline",
-    "provisioning timeline for a dedicated host",
-    "how long is a dedicated host active"
-  ],
-  "how-is-the-dedicated-host-offering-billed-": [
-    "Billing for dedicated host",
-    "bill the dedicated host",
-    "bill creation for dedicated host",
-    "invoice for on demand dedicated host",
-    "invoices for on-demand dedicated host",
-    "invoice creation for on-demand dedicated hosts"
-  ],
-  "i-m-running-an-on-demand-dedicated-host-how-am-i-billed-": [
-    "Billing for on-demand dedicated host",
-    "bill the on demand dedicated host",
-    "how to I get an invoice with demand dedicated host",
-    "bill creation for on demand dedicated host"
-  ],
-  "how-is-tenancy-specified-when-provisioning-dedicated-hosts-and-dedicated-host-instances-": [
-    "Tenant option for dedicated host and dedicated host instances",
-    "Tenant option for dedicated host",
-    "Tenancy option for dedicated host instances",
-    "tenancy for dedicated host",
-    "tenant for dedicated host instances"
-  ],
-  "can-i-mix-and-match-different-dedicated-host-instance-configurations-on-my-dedicated-host-": [
-    "multiple dedicated host configurations",
-    "Using multiple dedicated host configuration",
-    "Mixing dedicated host configurations",
-    "mix up the configurations of dedicated host instance",
-    "have different dedicated host configurations"
-  ],
-  "how-do-i-know-how-many-dedicated-host-instances-i-can-run-on-each-dedicated-host-": [
-    "many dedicated instances can I run",
-    "Running multiple dedicated hosts instance on a dedicated host",
-    "run more than one dedicated host instances",
-    "add multiple dedicated hosts instance to one host"
-  ],
-  "what-images-can-be-provisioned-on-dedicated-hosts-": [
-    "Provisioning images on a dedicated host",
-    "Using images on a dedicated host",
-    "which images can be added to dedicated hosts",
-    "images provisioned on dedicated hosts"
-  ],
-  "is-there-a-limit-as-to-how-many-dedicated-hosts-can-be-allocated-to-a-single-account-": [
-    "Number of dedicated hosts can I run on a single account",
-    "how many dedicated hosts on a account",
-    "is there a maximum number of dedicated hosts per account",
-    "more than two dedicated hosts per provisioning order",
-    "multiple dedicated hosts possible for one provisioning order"
-  ],
-  "can-dedicated-host-deployments-be-oversubscribed-": [
-    "Oversubscribing dedicated hosts",
-    "provision more than the listed capacity on dedicated hosts",
-    "over subscribe a dedicated host",
-    "oversubscibing possible with a dedicated host"
-  ],
   "what-is-the-difference-between-boot-from-image-and-load-from-image-": [
     "Boot vs. Load",
     "Boot from an ISO image different to load from image",
     "Booting from an ISO image the same as loading from an image",
     "Recovering a server",
     "Recover a server",
+    "what is boot from image",
+    "what is load from image",
     "difference between boot from and load from image",
     "are boot from image and load from image the same"
   ],
@@ -484,6 +417,8 @@
     "issue with KVM connection",
     "can't get a connection to my KVM",
     "KVM console doesn't work",
+    "try connecting to a KVM console",
+    "trying to connect to KVM console",
     "unable to connect to kvm console",
     "can't access my server through kvm console",
     "unable to login to kvm panel"
@@ -493,7 +428,11 @@
     "Root password",
     "Admin password",
     "administrator password to my server is not working",
+    "root password to your server is not working",
     "how i can change the root password",
+    "what is my root password",
+    "virtual server password",
+    "root password for my virtual server",
     "update the root password",
     "changing the root password",
     "Server password reset",
@@ -508,144 +447,6 @@
     "forgot the root password",
     "new password for my server"
   ],
-  "are-lvm-partitions-supported-as-a-valid-filesystem-": [
-    "Large Volume Management",
-    "LVM bootable partitioning scheme",
-    "are LVMs supported as a bootable partitioning scheme",
-    "LVM a supported filesystem",
-    "filesystem for Flex Image or Image Templates",
-    "filesystems supported by Logical Volume Management"
-  ],
-  "preconfigured-161-26-0-0-16-routes-on-customer-hosts": [
-    "Preconfigured 161.26.0.0/16 routes on customer hosts",
-    "IP block",
-    "ACL",
-    "161.26.0.0/16 routes",
-    "Routes on Customer Hosts",
-    "customer host route",
-    "configured routes on hosts"
-  ],
-  "how-to-add-the-new-routing-for-various-oses": [
-    "Adding new routing",
-    "Create new routes",
-    "Editing routes",
-    "new route creation",
-    "new routing update",
-    "Add the persistent route to Redhat",
-    "new route configuration for my OS",
-    "configure a new route to Ubuntu"
-  ],
-  "can-i-have-the-monitoring-system-issue-an-automatic-reboot-and-alert-a-support-technician-in-the-event-that-the-server-stops-responding-": [
-    "Issuing automatic reboot",
-    "Alert support technician",
-    "Alerting support when server's down",
-    "Server stopped can I have an alert",
-    "Automated Reboot from Monitoring Failure service",
-    "NOC Monitoring",
-    "Configure monitoring when server stops",
-    "automatically reboot the server and issue a ticket",
-    "notification in the event a monitoring issue",
-    "reboots automatically"
-  ],
-  "what-is-a-cvsup-mirror-": [
-    "What is a cvsup mirror",
-    "supfile",
-    "explain cvsup mirror",
-    "tell me about cvsup",
-    "cvsup mirror overview"
-  ],
-  "does-auto-scale-support-bare-metal-auto-scale-instances-": [
-    "Bare metal support for autoscale",
-    "Bare metal and autoscale",
-    "use autoscale with bare metal",
-    "auto scale support Bare Metal server",
-    "bare metal support autoscale",
-    "use bare metal with auto scale"
-  ],
-  "does-auto-scale-work-with-load-balancers-": [
-    "Load balancers and autoscale",
-    "Load balancer support for autoscale",
-    "Load balaner API autoscale",
-    "use autoscale with a load balancer",
-    "auto scale support adding load balancers",
-    "bare metal support load balancer",
-    "use load balancer with auto scale"
-  ],
-  "what-are-the-different-auto-scale-termination-policies-": [
-    "Scaling down",
-    "auto scale termination policy",
-    "policy to terminate auto scale",
-    "policies to finish auto scale",
-    "terminating autoscale"
-  ],
-  "what-are-auto-scale-policies-": [
-    "Autoscale actions and triggers",
-    "auto scale policy",
-    "policy information for autoscaling",
-    "policies for autoscale",
-    "auto scale policies"
-  ],
-  "what-are-auto-scale-triggers-": [
-    "One-time trigger",
-    "Repeating trigger",
-    "resource-use trigger",
-    "trigger for autocsale",
-    "autoscale trigger",
-    "conditionals for auto scale",
-    "different types of triggers for autoscale"
-  ],
-  "what-is-the-maximum-member-count-": [
-    "Group maximum",
-    "maximum number of members in a group",
-    "what's max member count",
-    "learn about maximum member count",
-    "tell me about max VSI Member Count"
-  ],
-  "what-is-minimum-member-count-": [
-    "Group minimum",
-    "minimum number of members in a group",
-    "what's min member count",
-    "learn about minimum member count",
-    "tell me about Min VSI Member Count"
-  ],
-  "what-is-an-auto-scale-asset-": [
-    "Asset and triggers",
-    "tell me about assets for autoscale",
-    "know about auto scale assets",
-    "asset for auto scale",
-    "whats an asset in auto scale"
-  ],
-  "what-is-an-auto-scale-group-": [
-    "Scale group",
-    "Member count boundary",
-    "Scaled member templates",
-    "whats a group in auto scale",
-    "tell me about groups for autoscale",
-    "know about auto scale groups",
-    "group for auto scale"
-  ],
-  "what-is-an-auto-scale-member-": [
-    "Scaled unit",
-    "whats a member in auto scale",
-    "tell me about members for autoscale",
-    "know about auto scale members",
-    "member for auto scale"
-  ],
-  "public-network-bandwidth-graphs": [
-    "Internet traffic graphs",
-    "Public network traffic",
-    "what are public network graphs",
-    "what is bandwidth",
-    "public network bandwith overview",
-    "describe  public networkbandwidth graph"
-  ],
-  "private-network-bandwidth-graphs": [
-    "Internal network traffic",
-    "what are private network graphs",
-    "private network bandwidth graph",
-    "private network bandwith overview",
-    "describe private network bandwidth graph"
-  ],
   "projected-usage-doesn't-match-graphs": [
     "Estimated usage",
     "Projecting network usage",
@@ -655,6 +456,12 @@
     "see the usage of my server",
     "bandwidth usage of my server",
     "view the server bandwidth usage",
+    "where can i see our bandwidth usage",
+    "find my bandwidth usage",
+    "find my bandwidth usage on my invoice",
+    "find the bandwith usage",
+    "view the bandwidth that is be used by our servers",
+    "bandwidth used",
     "view the projected server usage",
     "is the usage data an estimate"
   ],
@@ -665,59 +472,10 @@
     "are monthly and billing bandwidth data the same",
     "i'm getting bandwith overages",
     "why do I get bandwith overages",
-    "where can i see our bandwidth usage",
+    "bandwith overages",
+    "difference with monthly bandwidth and my invoice",
+    "difference between billing and monthly bandwidth data",
     "differences between billing and monthly bandwidth data"
-  ],
-  "what-is-a-standard-image-template-": [
-    "Image options",
-    "what is Image Template",
-    "Creating a server from on an image",
-    "Create a server from on an image",
-    "explain a standard image template",
-    "what's a standard image template"
-  ],
-  "what-is-an-iso-template-": [
-    "whats an image",
-    "interested in ISO image",
-    "ISO image",
-    "explain a ISO image template",
-    "what's a ISO template"
-  ],
-  "what-is-the-difference-between-a-public-image-and-a-private-image-": [
-    "Public image vs private image",
-    "public and private images the same",
-    "difference between the two images",
-    "differences between private and public images",
-    "public image the same as a private image"
-  ],
-  "can-i-capture-and-deploy-virtual-servers-with-my-self-managed-hypervisor-": [
-    "Capturing images",
-    "Deploying images",
-    "Images on private devices",
-    "I created a virtual server can I provision it",
-    "deploy a non IBM provisioned server",
-    "only servers provisioned by IBM Cloud be deployed"
-  ],
-  "can-i-share-my-private-iso-template-with-other-customers-": [
-    "Sharing image templates",
-    "Share ISO images",
-    "share a private ISO template with someone",
-    "give someone else my private image template",
-    "share private ISO image"
-  ],
-  "does-my-iso-template-need-to-be-in-the-same-data-center-as-my-virtual-server-to-complete-a-boot-from-image-": [
-    "ISO image location",
-    "ISO image in same data center as server",
-    "server and image template in the same data center",
-    "ISO image reside in same location as the server",
-    "image template and server in the same data center"
-  ],
-  "what-is-the-difference-between-physical-data-and-volume-size-": [
-    "Physical data vs. volume size",
-    "Disk space",
-    "physical data and volume size the same",
-    "differences between volume size and physical data",
-    "volume size the same as physical data"
   ],
   "what-is-the-image-import-export-feature-": [
     "What is the image import/export feature",
@@ -739,6 +497,7 @@
     "where are image templates",
     "create an image template",
     "how to create an image template",
+    "create an image template for my server",
     "image template creation",
     "make an image template for complete server"
   ],
@@ -791,7 +550,6 @@
     "want to cancel a virtual server",
     "remove 2 unprovission servers",
     "I want to cancel one of my VM's",
-    "How to cancell bare metal server",
     "How to cancel bare metal server",
     "how to cancel servers from account",
     "cancel server money back",
@@ -805,6 +563,9 @@
     "to remove baremetal server from my list",
     "how to delete a virtual server",
     "where do I go to cancel a server",
+    "how to check cancel server request",
+    "cancellation of a device",
+    "cancel bare metal server",
     "where to cancel a server",
     "remove a server",
     "server termination",
