@@ -32,7 +32,7 @@ Public network bandwidth graphs show traffic to and from the internet. **Inbound
 Private network bandwidth graphs show traffic to and from the private network. **Inbound** shows traffic from the private network coming into your server. **Outbound** shows traffic from your server going out to the private network.
 
 ## What is the projected usage and why doesn't it match my graphs?
-{: #projected-usage-doesn't-match-graphs}
+{: #projected-usage-doesnt-match-graphs}
 {:faq}
 
 The estimated usage data is not real-time data for your server. It's calculated and stored for the previous day to provide a quick way to monitor and display bandwidth usage. It can be slightly off from the monthly view graphs. The estimated usage data is rounded at daily intervals; whereas, the monthly graphs are rounded at a monthly interval. Additionally, the graph images are showing data usage up to the time when they were displayed, but the estimated totals are only up to midnight of the previous day.
