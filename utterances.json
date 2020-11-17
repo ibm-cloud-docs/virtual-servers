@@ -447,7 +447,7 @@
     "forgot the root password",
     "new password for my server"
   ],
-  "projected-usage-doesn't-match-graphs": [
+  "projected-usage-doesnt-match-graphs": [
     "Estimated usage",
     "Projecting network usage",
     "What is the projected usage",
