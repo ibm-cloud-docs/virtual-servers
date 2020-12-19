@@ -137,6 +137,7 @@ Virtual Servers for Classic
     {: .topicgroup}
     Migrating
         vsi_migrating_dedicated.md
+        vsi_migrate_classic_dctodc.md
 
     vsi_monitoring_intro.md
 
