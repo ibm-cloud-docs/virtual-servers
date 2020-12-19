@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="virtual-servers" category="virtualservers" audience="compute" href="/docs/virtual-servers?topic=virtual-servers-getting-started-tutorial" path="virtual-servers"}
-Virtual Servers for Classic
+Virtual Servers for Classic 1
 
     {: .navgroup id="learn"}
     vsi_index.md
