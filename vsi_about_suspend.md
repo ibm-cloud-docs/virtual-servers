@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017, 2020
+  years: 2017, 2021
 lastupdated: "2020-11-04"
 
 keywords: suspend billing feature, suspend billing
@@ -24,7 +24,7 @@ subcollection: virtual-servers
 # Suspend billing
 {: #requirements}
 
-When you power off {{site.data.keyword.BluVirtServers}} that support the suspend billing feature, you don't accrue costs for certain compute resources. Billing stops automatically when the server is powered off. The suspend billing feature helps you reduce cost and prevents you from having to reprovision a virtual server when you need its resources again.
+When you power off {{site.data.keyword.BluVirtServers}} that support the suspend billing feature, you don't accrue costs for certain compute resources. Billing stops automatically when the server is powered off. The suspend billing feature helps you reduce cost and prevents you from having to reprovision a virtual server when you need its resources again. Suspend billing does not apply to secondary public IP addresses and storage. A minimum 25% usage charge is applied to a powered off instance during its billing cycle.
 {:shortdesc}
 
 If your profile doesn't support suspend billing or you choose not to suspend your instances, you are billed for your usage based on the normal hourly or monthly rates for your instance configuration.
@@ -51,7 +51,7 @@ For suspend billing to work properly, your instance must meet the preceding requ
 You can use the suspend billing feature as a faster alternative to provisioning and reclaiming a virtual server instance.
 
 Billing is suspended only when you power off your virtual server instance through the {{site.data.keyword.cloud_notm}} console, CLI, or {{site.data.keyword.slapi_short}}. If you power off your virtual server instance directly through the OS, billing isn't suspended for that instance.
-{:note}
+{:important}
 
 ## Provisioning details
 {: #provisioning-details}
