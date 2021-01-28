@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-06-03"
+  years: 2017, 2021
+lastupdated: "2021-01-28"
 
 subcollection: virtual-servers
 
@@ -23,6 +23,10 @@ Rescue mode is a live rescue environment designed to provide you with the abilit
 {:shortdesc}
 
 ## Before you begin
+{: #callout-important}
+CentOS version 7 and higher requires a minimum of 6 GB of RAM for any Linux&reg; VSI configuration. For a Linux&reg; VSI configuration with less than 6 GB of RAM, CentOS version 5 is used.
+{: important}
+
 {: #before-you-begin-launching-rescue-mode}
 
 First, navigate to the device menu and ensure you have the correct account permissions to complete the tasks.
