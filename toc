@@ -139,7 +139,7 @@ Virtual Servers for Classic
         vsi_migrating_dedicated.md
         vsi_migrate_classic_dctodc.md
 
-    vsi_monitoring_intro.md
+    sysdig-classic-metrics.md
 
     {: .topicgroup}
     Backing up and recovering
