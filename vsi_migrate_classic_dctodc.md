@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2020
-lastupdated: "2020-10-08"
+  years: 2020, 2021
+lastupdated: "2021-02-23"
 
 content-type: tutorial
 services: virtual-servers, loadbalancer-service
@@ -28,9 +28,9 @@ subcollection: virtual-servers
 {: toc-services="virtual-servers, loadbalancer-service"} 
 {: toc-completion-time=" "}
 
-You have two ways to move your virtual server instance between {{site.data.keyword.Bluemix}} Classic Infrastructure data centers:
+You have two ways to move your virtual server instance between {{site.data.keyword.Bluemix}} classic infrastructure data centers:
 * **Lift and Shift**<br>
-When you use this method, you create an image template, provision it, and cancel the old VSI. This method is like lift and shift. The advantage of this method is that it is usually the easier and quicker method for moving a virtual server instance. However, while the image is being made, the virtual server instance is shut down.
+When you use this method, you create an image template, provision it, and cancel the old virtual server instance. This method is like lift and shift. The advantage of this method is that it is usually the easier and quicker method for moving a virtual server instance. However, while the image is being made, the virtual server instance is shut down.
 *  **System Rebuild**<br>
 When you use this method, you order a new virtual server instance and copy the data from the old virtual server instance to the new virtual server instance. This method is more involved because you need to rebuild the OS specifics and redeploy the application, which might also involve making modifications. The advantage of this method is that it provides an opportunity to start fresh with a new system or to upgrade to a newer OS.
 
@@ -48,7 +48,7 @@ Creating an image template is an intrusive operation and shuts down the virtual 
 * **Attached storage considerations** <br> 
 Capturing the data on the attached storage is optional. You can select which attached storage disks are part of the image template. The Boot volume is always mandatory.
 * **Network-attached storage considerations**<br>
-Block Endurance and Performance and File storage volumes are not captured as part of the imaging process. You migrate data for these volumes at the OS level by using data migration tools such as `scp`, `rsynch`, `dd`, or another third-party tool of choice. These storage services are data center specific. If you are moving your virtual server instance to a different data center, order new storage volumes at the same location where the new virtual server instance is being deployed.
+Block Endurance and Performance and File storage volumes are not captured as part of the imaging process. You migrate data for these volumes at the OS level by using data migration tools such as `scp`, `rsync`, `dd`, or another third-party tool of choice. These storage services are data center specific. If you are moving your virtual server instance to a different data center, order new storage volumes at the same location where the new virtual server instance is being deployed.
 
 ### Evaluate and create an image template
 {: #vsi-migrate-evaluate-lift-shift-method}
