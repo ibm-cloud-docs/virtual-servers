@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2020
-lastupdated: "2020-04-23"
+  years: 2017, 2021
+lastupdated: "2021-03-02"
 
 subcollection: virtual-servers
 
@@ -40,6 +40,12 @@ For more information, see [Build your virtual server](https://www.ibm.com/cloud/
 
 Estimating your cost for an {{site.data.keyword.cloud_notm}} server to support your workload begins in the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog){: external}. From the catalog, select **Compute** and choose the server type - Bare Metal Server, Virtual Server, or Virtual Server for VPC (Virtual Private Cloud). For more information, see the [Virtual servers provisioning calculator](https://www.ibm.com/cloud/virtual-servers/calculator/){: external}.
 
+## Can I change the configuration of a virtual server?
+{: #can-i-reconfigure-virtual-server}
+{: faq}
+
+After you provision a virtual server, you can upgrade or downgrade your server configuration at any time. For more information, see [Reconfiguring an existing virtual server](/docs/virtual-servers?topic=virtual-servers-reconfiguring-virtual-servers). If the item that you want to change is not available from the Device List, you can cancel and reorder or contact [IBM Cloud Sales](https://cloud.ibm.com/catalog?contactmodule) for assistance.
+
 ## Can I add disk storage to my hourly or monthly virtual server?
 {: #can-i-add-disk-storage-to-my-hourly-or-monthly-virtual-server-}
 {: faq}
@@ -57,20 +63,6 @@ The number of instances that you can run depends on the maturity level of your a
 {: faq}
 
 Hourly virtual billing is broken down for inbound and outbound traffic. All inbound traffic to your virtual server is free of charge. Outbound traffic is metered and charged per GB, with totals assessed at the end of your billing period.
-
-## How does IBM handle maintenance?
-{: #in-what-cases-is-my-virtual-server-migrated-to-a-different-host-}
-{: faq}
-
-We're frequently upgrading our systems with most of the changes applied to virtual servers transparently. When these transparent changes happen, your virtual server might experience a brief pause of up to 3 seconds. In limited cases, such as specialized hardware, a virtual server might require a restart or stop and start to complete the change and a scheduled maintenance is required.
-
-In the case of scheduled maintenance, you can take the required action anytime during the maintenance period (typically 30 days). Alternatively, you can take no action and let the action automatically complete at the end of the maintenance window.
-
-## What happens if my virtual server host fails?
-{: #what-happens-if-my-virtual-server-host-fails-}
-{: faq}
-
-When a host failure occurs, we automatically detect this failure and move your instance onto a new host. This failure detection typically occurs within 1 minute, your virtual server rescheduled to a new host within 5 minutes, and up and running within 7 minutes. To opt out of auto-recovery, a support case must be opened with the request.
 
 ## What happens to my data when my portable storage is deleted?
 {: #what-happens-to-my-data-when-my-portable-storage-is-deleted-}
