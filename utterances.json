@@ -584,7 +584,7 @@
     "removing a VM",
     "deleting a server"
   ],
-  "can-i-reconfigure": [
+  "can-i-reconfigure-virtual-server": [
     "change the configuration of a virtual server",
     "update the configuration to my virtual server",
     "update my server configuration",
