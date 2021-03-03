@@ -603,5 +603,31 @@
     "resizing my server",
     "how can i upgrade my server",
     "uprade my server"
+    
+    "how-do-i-install-sysdig": [
+    "trying to create a sysdig monitoring instance",
+    "sysdig",
+    "Monitoring with Sysdig",
+    "sysdig guide",
+    "sysdig be the right tool to configure monitoring",
+    "need to install Sysdig",
+    "installing monitoring with sysdig",
+    "install the Lite instance of Sysdig",
+    "installing IBM Cloud Monitoring with Sysdig",
+    "which Cloud services are Sysdig enabled",
+    "use sysdig with Kubernetes",
+    "integrate Linux with sysdig"
+  ],
+  "will-sysdig-cost-more": [
+    "how much is Monitoring with Sysdig",
+    "cost of Monitoring with Sysdig",
+    "pricing plans for sysdig",
+    "price of monitoring with Sysdig",
+    "cost for sysdig",
+    "how much will sysdig cost",
+    "pricing plan for sysdig",
+    "can I get sysdig for free",
+    "what pricing options are there for sysdig",
+    "Lite plan for systig"
   ]
 }
