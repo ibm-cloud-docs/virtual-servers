@@ -139,7 +139,10 @@ Virtual Servers for Classic
         vsi_migrating_dedicated.md
         vsi_migrate_classic_dctodc.md
 
-    sysdig-classic-metrics.md
+    {: .topicgroup}
+    Monitoring
+        /cloud-infrastructure/cloud-infrastructure-monitoring-iaas
+        sysdig-classic-metrics.md
 
     {: .topicgroup}
     Backing up and recovering
