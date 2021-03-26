@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-09-16"
+  years: 2019, 2021
+lastupdated: "2021-03-26"
 
 keywords: high availability, ha
 
@@ -22,9 +22,9 @@ subcollection: virtual-servers
 # Considerations for high availability
 {: #ha-dr}
 
-The default behavior for the IBM scheduler is to place the VSIs in available hypervisors first, which can result in VSIs being placed within the same hypervisor. This can be catastrophic if any or all of the VSIs are deployed on the same hypervisor. A hardware (HW) or software (SW) failure can cause a disruption.
+The default behavior for the IBM scheduler is to place virtual servers in available hypervisors first, which can result in virtual servers sharing the same hypervisor. This result can be catastrophic if any or all of the virtual servers are deployed on the same hypervisor. A hardware or software failure can cause a disruption.
 
-IBM Cloud provides two solutions to help avoid the VSIs being deployed on the same hypervisor.
+IBM Cloud provides two solutions to help avoid virtual servers from deploying on the same hypervisor.
 
-1. Use a dedicated VSI. This option allows you to own the entire hypervisor and control the placement of the VSIs. For more information, see [About dedicated virtual servers](/docs/virtual-servers?topic=virtual-servers-dedicated-virtual-servers)
-2. Use Placement Groups. Placement Groups is an anti-affinity feature. If VSIs are marked in the same placement group, then these VSIs is instantiated across different hypervisors. By putting the VSIs in placement groups, availability is improved. For more information see [Placement groups](/docs/virtual-servers?topic=virtual-servers-placement-groups).
+1. Use a dedicated virtual server. By using a dedicated virtual server, you to own the entire hypervisor and control the placement of the virtual servers. For more information, see [About dedicated virtual servers](/docs/virtual-servers?topic=virtual-servers-dedicated-virtual-servers)
+2. Use Placement Groups. Placement Groups is an anti-affinity feature. If virtual servers are marked in the same placement group, then these virtual servers are instantiated across different hypervisors. By putting the virtual servers in placement groups, availability is improved. For more information, see [Placement groups](/docs/virtual-servers?topic=virtual-servers-placement-groups).
