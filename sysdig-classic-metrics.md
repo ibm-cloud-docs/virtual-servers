@@ -2,9 +2,9 @@
 
 copyright:
   years:  2020, 2021
-lastupdated: "2020-09-15"
+lastupdated: "2021-03-30"
 
-keywords: Sysdig, IBM Cloud monitoring, platform metrics, metrics, Sysdig metrics, virtual server monitoring metrics, classic sysdig metrics, classic metrics
+keywords: IBM Cloud monitoring, platform metrics, metrics, virtual server monitoring metrics, classic monitoring metrics, classic metrics
 
 subcollection: cloud-infrastructure
 
