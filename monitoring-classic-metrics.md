@@ -2,7 +2,7 @@
 
 copyright:
   years:  2020, 2021
-lastupdated: "2021-03-30"
+lastupdated: "2021-04-02"
 
 keywords: IBM Cloud monitoring, platform metrics, metrics, virtual server monitoring metrics, classic monitoring metrics, classic metrics
 
@@ -22,9 +22,9 @@ subcollection: cloud-infrastructure
 {:note: .note}
 
 # Classic virtual server instance metrics definitions
-{: #classic-sysdig-metrics}
+{: #classic-monitoring-metrics}
 
-The following metrics are available only if you use the {{site.data.keyword.mon_full_notm}} full agent. If you provisioned a 'no driver mode' instance, see [{{site.data.keyword.mon_full_notm}} 'no driver mode' metrics](/docs/cloud-infrastructure?topic=cloud-infrastructure-enabling-sysdig-light-no-driver#sysdig-light-metrics).
+The following metrics are available only if you use the {{site.data.keyword.mon_full_notm}} full agent. If you provisioned a 'no driver mode' instance, see [Monitoring 'no driver mode' metrics](/docs/cloud-infrastructure?topic=cloud-infrastructure-enabling-monitoring-light-no-driver#monitoring-light-metrics).
 {:important}
 
 The following tables define basic Classic virtual server instance metrics.
