@@ -142,7 +142,7 @@ Virtual Servers for Classic
     {: .topicgroup}
     Monitoring
         /cloud-infrastructure/cloud-infrastructure-monitoring-iaas
-        sysdig-classic-metrics.md
+        monitoring-classic-metrics.md
 
     {: .topicgroup}
     Backing up and recovering
@@ -173,6 +173,6 @@ Virtual Servers for Classic
         image-templates-faqs.md
         /bare-metal/bare-metal-faqs
         ssh-keys-faq.md
-        sysdig-faq.md
+        monitoring-faq.md
 
     {: .navgroup-end}
