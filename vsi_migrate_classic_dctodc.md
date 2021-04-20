@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-02-23"
+lastupdated: "2021-04-20"
 
 content-type: tutorial
 services: virtual-servers, loadbalancer-service
@@ -22,7 +22,7 @@ subcollection: virtual-servers
 {:step: data-tutorial-type='step'}
 
 
-# Migrating a VSI between classic data centers
+# Migrating a virtual server between classic data centers
 {: #migrating-vsi-new-datacenter}
 {: toc-content-type="tutorial"} 
 {: toc-services="virtual-servers, loadbalancer-service"} 
@@ -74,17 +74,17 @@ Block Endurance and Performance and File storage volumes are not captured as par
 
 1. Click the **Actions** ![Menu icon](../../icons/action-menu-icon.svg) icon for the image template and select *Order < Type of > VSI*. < Type of > is the type of virtual server instance that you are creating.
 
-1. Change the virtual server instance location to the new data center. The form defaults to the original VSI properties. Other than selecting the new location, you can keep or modify the rest of the parameters to better suit the new environment, for example:
+1. Change the virtual server instance location to the new data center. The form defaults to the original virtual server properties. Other than selecting the new location, you can keep or modify the rest of the parameters to better suit the new environment, for example:
  * Enter hostname and domain
  * (Optional) Select or create a placement group
  * Select a virtual server profile
  * (Recommended) Select SSH key
  * Select Uplink port speeds
 
- The new VSI is given a new IP address automatically on deployment.
+ The new virtual server is given a new IP address automatically on deployment.
  {: note}
 
-###  Verify and validate the virtual server instance, and update network resources
+### Verify and validate the virtual server instance, and update network resources
 {: #vsi-migrate-verify-lift-shift-method}
 
 1. After the new virtual server is deployed, verify the instance.
@@ -112,7 +112,7 @@ Block Endurance and Performance and File storage volumes are not captured as par
 
 ## System rebuild method
 {: #vsi-migrate-system-rebuild-method}
-For this method, you are ordering a new virtual server and copying the data from the old to the new virtual server. Copying the data is handled at the OS level, by using `scp`, `rsync`, `dd`, or another third-party tool. 
+For this method, you're ordering a new virtual server and copying the data from the old to the new virtual server. Copying the data is handled at the OS level, by using `scp`, `rsync`, `dd`, or another third-party tool. 
 
 ### Evaluate your virtual server
 {: #vsi-migrate-evaluate-system-rebuild-method}
@@ -162,7 +162,7 @@ For this method, you are ordering a new virtual server and copying the data from
 
 1. Verify the new virtual server.
 
-1. When you are ready to make the new virtual server active, power off the old server.
+1. When you're ready to make the new virtual server active, power off the old server.
 
 1. Create an image template of the old server as a backup. For more information, see [Creating an image template](/docs/image-templates?topic=image-templates-creating-an-image-template).
 
