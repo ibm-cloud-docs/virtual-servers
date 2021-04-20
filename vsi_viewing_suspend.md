@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-05-28"
+  years: 2018, 2021
+lastupdated: "2021-04-20"
 
 subcollection: virtual-servers
 
@@ -23,17 +23,17 @@ subcollection: virtual-servers
 ## Before you begin
 {: #before-you-begin-viewing-suspend}
 
-First, navigate to the device menu and ensure you have the correct account permissions to complete the task. 
+First, go to the device menu and ensure you have the correct account permissions to complete the task. 
 
 * Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/virtual-servers?topic=virtual-servers-navigating-devices).
-* Ensure you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions. 
+* Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions. 
 
 For more information about permissions, see [Classic infrastructure permissions](/docs/account?topic=account-infrapermission) and [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
 
 ## Viewing the suspend billing feature
 {: #viewing-the-suspend-billing-feature}
 
-To determine if your virtual server instance supports the suspend billing feature, use the following steps:
+To determine whether your virtual server instance supports the suspend billing feature, use the following steps:
 
 1. From the **Devices** menu, select **Device List**. 
 2. From the **Device List**, click the name of your virtual server instance. 
@@ -45,10 +45,10 @@ To determine if your virtual server instance supports the suspend billing featur
 | Suspended billing: Unavailable          | Feature is not supported. |
 {: caption="Table 1. Suspend billing details" caption-side="top"}
 
-## Viewing the suspend billing feature through the SoftLayer API
+## Viewing the suspend billing feature through the {{site.data.keyword.cloud}} API
 {: #viewing-the-suspend-billing-feature-through-the-softlayer-api}
 
-The following command is an example request of verifying if your virtual server instance supports the suspend billing feature through the {{site.data.keyword.slapi_short}}.
+The following command is an example request of verifying whether your virtual server instance supports the suspend billing feature through the {{site.data.keyword.cloud}} API.
 
 The following JSON request and response is a generic example. 
 {:note}
@@ -69,7 +69,7 @@ For more information, see the [SLDN API documentation ![External link icon](../i
 ## Next steps
 {: #next-steps-suspend-billing-feature}
 
-To learn more about the suspend billing feature, review the following information:
+For more information about the suspend billing feature, see the following information:
 1. [Suspend billing](/docs/virtual-servers?topic=virtual-servers-requirements)
 2. [Managing virtual servers](/docs/virtual-servers?topic=virtual-servers-managing-virtual-servers#managing-virtual-servers)
 
