@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2020
-lastupdated: "2020-04-14"
+  years: 2014, 2021
+lastupdated: "2021-04-20"
 
 keywords:
 
@@ -23,15 +23,15 @@ subcollection: virtual-servers
 {: #what-is-a-standard-image-template-}
 {: faq}
 
-A standard image template is the {{site.data.keyword.virtualmachineslong}} imaging option for {{site.data.keyword.BluSoftlayer_notm}}. Standard image templates allow you to capture an image of an existing virtual server instance regardless of its operating system and create a new virtual server based on the image.
+A standard image template is the {{site.data.keyword.virtualmachineslong}} imaging option for {{site.data.keyword.BluSoftlayer_notm}}. You use standard image templates to capture an image of an existing virtual server instance regardless of its operating system and create a new virtual server that is based on the image.
 
 ## What is an ISO template?
 {: #what-is-an-iso-template-}
 {: faq}
 
-The ISO template is a type of template that is specifically reserved for ISOs that can be used to boot a virtual server instance. ISO templates are available in two versions: public and private. Public ISO templates are preconfigured templates that are provided by {{site.data.keyword.BluSoftlayer_notm}} and can be used by any customer. Private ISO templates are created by importing an image of an ISO stored on an {{site.data.keyword.objectstorageshort}} account. In order for an ISO to be imported to the Image Templates screen, the ISO must be bootable.
+The ISO template is a type of template that is reserved for ISOs that can be used to start a virtual server instance. ISO templates are available in two versions: public and private. Public ISO templates are preconfigured templates that are provided by {{site.data.keyword.BluSoftlayer_notm}} and can be used by any customer. Private ISO templates are created by importing an image of an ISO stored on an {{site.data.keyword.objectstorageshort}} account. In order for an ISO to be imported to the Image Templates screen, the ISO must be bootable.
 
-Only {{site.data.keyword.BluSoftlayer_notm}} supported operating systems can be used to load an ISO template onto an instance. For more information, see [Supported Operating Systems](/docs/bare-metal?topic=bare-metal-about-software&locale=en#supported-operating-systems-for-ibm-cloud-virtual-servers){: external}.
+{{site.data.keyword.BluSoftlayer_notm}} supported operating systems can be used only to load an ISO template onto an instance. For more information, see [Supported Operating Systems](/docs/bare-metal?topic=bare-metal-about-software&locale=en#supported-operating-systems-for-ibm-cloud-virtual-servers){: external}.
 {:tip}
 
 ## What is the difference between a public image and a private image?
@@ -56,7 +56,7 @@ The only ISO templates that are made public to all customers are templates that 
 {: #does-my-iso-template-need-to-be-in-the-same-data-center-as-my-virtual-server-to-complete-a-boot-from-image-}
 {: faq}
 
-Yes, ISO templates must be in the same data center as a virtual server to boot from the image. If it is not in the same data center, the ISO template must be copied to the appropriate data center to complete the action. If this situation occurs, a warning appears regarding the transaction. When an ISO template is copied to a different data center, a small fee is charged to the account in the same manner that fees are applied for copying other types of image templates.
+Yes, ISO templates must be in the same data center as a virtual server to boot from the image. If the ISO template isn't in the same data center, the ISO template must be copied to the appropriate data center to complete the action. If this situation occurs, a warning appears about the transaction. When an ISO template is copied to a different data center, a small fee is charged to the account in the same manner that fees are applied for copying other types of image templates.
 
 ## What is the difference between physical data and volume size?
 {: #what-is-the-difference-between-physical-data-and-volume-size-}
@@ -68,7 +68,7 @@ Volume is the disk space that is available for storing files, while physical dat
 {: #what-is-the-image-import-export-feature-}
 {: faq}
 
-The image import/export feature that is located on the Image Templates page in the {{site.data.keyword.cloud_notm}} console allows for the conversion of VHDs and ISOs stored on an {{site.data.keyword.objectstorageshort}} account to be converted into image templates, and vice versa. When you import an image, a specific file (either VHD or ISO) is sourced from a specified [{{site.data.keyword.objectstorageshort}}] Account's Container and is converted into an image template. The image template can then be used to boot or load a device. When you export an image, the image template is converted into a file (or several files if the template has multiple disks) that is stored in a specified location on an {{site.data.keyword.objectstorageshort}} Account's Container.
+The image import/export feature that is on the Image Templates page in the {{site.data.keyword.cloud_notm}} console is used for the conversion of VHDs and ISOs that are stored on an {{site.data.keyword.objectstorageshort}} account to convert into image templates, and vice versa. When you import an image, a specific file (either VHD or ISO) is sourced from a specified [{{site.data.keyword.objectstorageshort}}] Account's Container and is converted into an image template. The image template can then be used to start or load a device. When you export an image, the image template is converted into a file (or several files if the template has multiple disks) that is stored in a specified location on an {{site.data.keyword.objectstorageshort}} Account's Container.
 
 ## How do I create an image template for my entire server and not just my primary drive?
 {: #how-do-i-create-an-image-template-for-my-entire-server-and-not-just-my-primary-drive-}
@@ -85,9 +85,9 @@ If you choose to export an image template to {{site.data.keyword.cos_full_notm}}
 
 Image templates are charged at $ 0.25 per GB used during your account's billing cycle.
 
-## How do I boot my virtual server instance (VSI) from an image?
+## How do I boot my virtual server instance from an image?
 {: #how-do-i-boot-my-virtual-server-instance-from-an-image-}
 {: faq}
 
 Navigate to the Device List. Click the virtual server that you want to start from an ISO template. On the Device Details page, select Actions > Boot from Image.
-For complete steps, refer to [Booting a VSI from an image](/docs/image-templates?topic=image-templates-booting-a-vsi-from-an-image).
+For complete steps, refer to [Booting a virtual server instance from an image](/docs/image-templates?topic=image-templates-booting-a-vsi-from-an-image).
