@@ -59,6 +59,30 @@ After you decide upon a deployment option, begin the provisioning process.
 |[Provisioning dedicated hosts and instances](/docs/virtual-servers?topic=virtual-servers-provisioning-dedicated-hosts-instances) | Provision private instances or dedicated instances on dedicated hosts|
 {: caption="Table 2. Provisioning information" caption-side="top"}
 
+## Recommendations
+{: #recommendations}
+
+IBM Cloud uses Citrix Hypervisor to power Classic VSI. As with most hypervisors, guest additions play critical roles in maintaining a stable and healthy computing environment. IBM Cloud uses this information to make informed decisions about routine server maintenance and will affect our ability to do them. Without this required guest additions, VSI may not be eligible for live migrations when a critical maintenance needs to be performed. This can lead to a disruptive maintenance for your VSI. 
+
+To help ensure the smoothest operations of your VSI, please do not disable or remove the guest additions that are installed by default on IBM Cloud supplied images.
+
+If you are bringing your own images to IBM Cloud Classic VSI, install the guest additions so that you will have the best performance possible. Below you will find links the latest vmtools we support:
+
+Windows VSI:
+http://downloads.service.networklayer.com/citrix/xen/citrix-vm-tools-9.1.5.zip
+* Unzip the package
+* Navigate to the Windows Installer, for example, _managementagent64_, and double-click to open the **Citrix XenServer Windows Management Agent Setup** wizard. Complete the installation wizard to install XenServer Tools.
+
+Linux VSI:
+http://downloads.service.networklayer.com/citrix/xen/CitrixHypervisor-LinuxGuestTools-7.20.0-1.tar.gz
+* Untar the package and follow the directions in README.txt
+
+NOTE: You will need to be connected via the VPN in order to access these.
+
+If you wish to validate that the guest additions are working from the hypervisor point of view, please open a support ticket and ask for xentools VSI validation
+
+
+
 ## Next steps
 {: #next-steps-getting-started}
 
