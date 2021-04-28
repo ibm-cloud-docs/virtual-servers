@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2017, 2019, 2020
-lastupdated: "2020-03-23"
+  years: 2017, 2021
+lastupdated: "2021-04-28"
 
-keywords: virtual servers, provisioning process, IBM Cloud Virtual Servers
+keywords: virtual servers, classic, provisioning process, IBM Cloud Virtual Servers, virtual machines
 
 subcollection: virtual-servers
 
@@ -17,6 +17,8 @@ subcollection: virtual-servers
 {:pre: .pre}
 {:tip: .tip}
 {:table: .aria-labeledby="caption"}
+{:important: .important}
+{:note: .note}
 
 # Getting started with virtual servers
 {: #getting-started-tutorial}
@@ -46,6 +48,10 @@ Account types](/docs/account?topic=account-accounts).
 |[Dedicated virtual server](/docs/virtual-servers?topic=virtual-servers-dedicated-virtual-servers)      | IBM-managed, single-tenancy virtual server deployments            |
 {: caption="Table 1. Deployment options" caption-side="top"}   
 
+{{site.data.keyword.BluVirtServers}} are powered by Citrix Hypervisor. As with most hypervisors, guest additions help maintain a stable and properly working computing environment. {{site.data.keyword.cloud}} uses the information from guest additions to make informed decisions about routine server maintenance. Without the required guest additions, your virtual servers might miss critical maintenance updates, which can disrupt maintenance for your virtual server. 
+To make sure that virtual servers operate properly, don't disable or remove the default guest additions that are installed on {{site.data.keyword.cloud}}-supplied images. If you are brining your own image to {{site.data.keyword.BluVirtServers}}, you need to install the associated guest images. For more information about installing guest additions, see [Preparing and importing images](/docs/image-templates?topic=image-templates-preparing-and-importing-images).
+{:important}
+
 ## Provisioning a virtual server
 {: #provisioning-a-virtual-server-getting-started}
 
@@ -56,7 +62,7 @@ After you decide upon a deployment option, begin the provisioning process.
 |[Provisioning public instances](/docs/virtual-servers?topic=virtual-servers-ordering-vs-public)                | Provision public instances with various options             |
 |[Provisioning transient instances](/docs/virtual-servers?topic=virtual-servers-ordering-vs-transient)                | Provision transient instances with various options            |
 |[Provisioning reserved capacity and instances](/docs/virtual-servers?topic=virtual-servers-provisioning-reserved-capacity-and-instances)            | Provision reserved capacity and instances with various options |
-|[Provisioning dedicated hosts and instances](/docs/virtual-servers?topic=virtual-servers-provisioning-dedicated-hosts-instances) | Provision private instances or dedicated instances on dedicated hosts|
+|[Provisioning dedicated hosts and instances](/docs/virtual-servers?topic=virtual-servers-dedicated-hosts-and-dedicated-instances) | Provision private instances or dedicated instances on dedicated hosts|
 {: caption="Table 2. Provisioning information" caption-side="top"}
 
 ## Next steps
