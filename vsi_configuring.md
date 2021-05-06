@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2020-03-30"
+lastupdated: "2021-05-06"
 
 subcollection: virtual-servers
 
@@ -14,13 +14,16 @@ subcollection: virtual-servers
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
-
+{:note: .note}
 
 # Configuring virtual servers
 {: #configuring-virtual-servers}
 
 When you have access to your virtual server, be sure to change your password and consider setting up SSH for a more secure authentication solution. There are many other options for configuring your virtual server to meet the needs of your environment.
 {:shortdesc}
+
+Before you configure a virtual server, review your options for connecting to the server and how to manage passwords and credentials. For more information, see [Getting started with IBM Cloud Virtual Private Networking](/docs/iaas-vpn?topic=iaas-vpn-getting-started) and [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
+{: note}
 
 ## Log in
 {: #log-in}
