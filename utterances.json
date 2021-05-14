@@ -387,7 +387,11 @@
     "network status",
     "is my network up",
     "is your network down",
-    "is network down"
+    "is network down",
+    "what is the data center status",
+	     "Do you have problems in AMS01?",
+	     "Is there a server outage in dal05",
+	     "What's the status of FRA02 datacenter"
   ],
   "how-do-i-request-a-compliance-report-": [
     "request a compliance report",
