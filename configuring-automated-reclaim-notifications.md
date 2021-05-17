@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-06-03"
+  years: 2018, 2021
+lastupdated: "2021-05-17"
 
 subcollection: virtual-servers
 
@@ -15,11 +15,12 @@ subcollection: virtual-servers
 {:pre: .pre}
 {:tip: .tip}
 {:table: .aria-labeledby="caption"}
+{:external: :external}
 
 # Configuring notifications for reclaims of transient virtual servers
 {: #configuring-notifications-for-reclaims-of-transient-virtual-servers}
 
-Transient virtual servers are by their nature ephemeral and they can be terminated at any time, which might lead to lost data. Automated reclaim notifications can help reduce lost data. When provisioned, a transient virtual server can be configured to receive a notification that it is being terminated **two minutes** before the actual termination. The notification enables you to programmatically alert the transient virtual server to finish any processing that is in progress or to transfer any necessary data off the transient virtual server.
+Transient virtual servers are by their nature ephemeral and they can be terminated at any time, which might lead to lost data. Automated reclaim notifications can help reduce lost data. When provisioned, a transient virtual server can be configured to receive a notification that it is being terminated 2 minutes before the actual termination. The notification programmatically alerts the transient virtual server to finish any processing that is in progress or to transfer any necessary data off the transient virtual server.
 
 The `reclaim-scheduled` notification is a webhook, which means the notification is sent by an HTTP POST request to a user-provided endpoint. Complete the following steps to set up and use the webhook:
 
@@ -30,7 +31,7 @@ The `reclaim-scheduled` notification is a webhook, which means the notification 
 ## Provisioning a transient virtual server instance
 {: #provision-transient-virtual-server}
 
-Transient virtual servers can be provisioned through the {{site.data.keyword.cloud_notm}} console, {{site.data.keyword.slportal}}, or through the [SLDN API ![External link icon](../icons/launch-glyph.svg "External link icon")](http://sldn.softlayer.com){: new_window}. For more information, see [Provisioning transient instances](/docs/virtual-servers?topic=virtual-servers-ordering-vs-transient#ordering-vs-transient).
+Transient virtual servers can be provisioned through the {{site.data.keyword.cloud_notm}} console, {{site.data.keyword.slportal}}, or through the [SLDN API](http://sldn.softlayer.com){: external}. For more information, see [Provisioning transient instances](/docs/virtual-servers?topic=virtual-servers-ordering-vs-transient#ordering-vs-transient).
 
 ## Setting up the webhook
 {: #setting-up-the-webhook}
@@ -49,7 +50,7 @@ The transient virtual server webhook can be set up through the SLDN API by using
 
   `SoftLayer_Virtual_Guest::setWebhook(uri, secret)`
 
-For more information, see the SLDN API method documentation for [webhook set-up ![External link icon](../icons/launch-glyph.svg "External link icon")](http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/setTransientWebhook/){: new_window}.
+For more information, see the SLDN API method documentation for [webhook set-up](http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/setTransientWebhook/){: external}.
 
 ### Canceling reclaim-scheduled notifications
 {: #canceling-reclaim-scheduled-notifications}
@@ -58,16 +59,16 @@ To cancel the `reclaim-scheduled` notifications, call the following SLDN API met
 
   `SoftLayer_Virtual_Guest::deleteWebhook()`
 
-For more information, see the SLDN API method documentation for [canceling notifications ![External link icon](../icons/launch-glyph.svg "External link icon")](http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/deleteTransientWebhook/){: new_window}.
+For more information, see the SLDN API method documentation for [canceling notifications](http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/deleteTransientWebhook/){: external}.
 
 ## Verifying the webhook requests
 {: #verifying-the-webhook-requests}
 
 To verify `reclaim-scheduled` notifications, review the following items:
 
-1. The time stamp of the request
+1. The timestamp of the request
 
-   Check the time that the request was received against the time stamp in the request headers. If it is off by more than 30 seconds or so, do not accept the request. This action can help prevent replay attacks.
+   Check the time that the request was received against the timestamp in the request headers. If it is off by more than 30 seconds or so, do not accept the request. This action can help prevent replay attacks.
 
 2. The nonce found in the request's "X-IBM-Nonce" header
 
@@ -92,7 +93,7 @@ To verify the HMAC signature that is located in the request's "Authorization" he
 
   To create the canonical string, combine the canonical string data in the following EXACT order with no delimiters:
 
-  Method Type + Content Type + Payload['id'] + Payload['serviceName'] + Payload['event'] + Payload['time stamp'] + Nonce
+  Method Type + Content Type + Payload['id'] + Payload['serviceName'] + Payload['event'] + Payload['timestamp'] + Nonce
 
 2. Hash the canonical string.
 
@@ -102,14 +103,15 @@ To verify the HMAC signature that is located in the request's "Authorization" he
 
 4. Compare the resulting string to the signature in the 'Authorization' header.  
 
-  Use a timing-attack safe string comparison function. If the strings do not match, do not accept the request.
+  Use a timing-attack safe string comparison function. If the strings don't match, don't accept the request.
 
 ## Anatomy of the `reclaim-scheduled` notification request payload
 {: #anatomy-of-the-reclaim-scheduled-notification-request-payload}
 
-The request that is sent from the transient virtual server webhook is like any HTTP request in that it has headers and a payload. The payload is a JSON formatted string in the following form:
+The request that is sent from the transient virtual server webhook is like any HTTP request in that it has headers and a payload. The payload is a JSON formatted string in the following form.
 
-**NOTE**: There is no guarantee that the key names are in this specific order.
+Key names might not be listed as shown in the example.
+{: note}
 
 	{
 		'event': 'reclaim-scheduled',
@@ -126,8 +128,8 @@ The request that is sent from the transient virtual server webhook is like any H
 Python:
 
 ```
-# This assumes that the request headers are stored in a dictionary called headers and that the JSON
-# content of the request has been decoded into a dictionary called payload.
+# This assumes that the request headers are stored in a dictionary that are called headers and that the JSON
+# content of the request was decoded into a dictionary called payload.
 
 import base64
 import hashlib
