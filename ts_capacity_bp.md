@@ -1,8 +1,10 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-10-23"
+  years: 2017, 2021
+lastupdated: "2021-05-18"
+
+keywords: insufficient capacity to complete the request
 
 subcollection: virtual-servers
 
@@ -27,7 +29,7 @@ subcollection: virtual-servers
 When you provision a virtual server, you might receive the following error message:
 
 ```
-There is insufficient capacity to complete the request.
+Insufficient capacity to complete the request.
 ```
 {:screen}
 
@@ -37,21 +39,21 @@ When provisioning fails, all the virtual server instances within that particular
 ## Why it's happening
 {: #why-it-s-happening}
 
-An error occurs when there are insufficient resources available in the router or data center to fulfill the service request. There are a number of reasons that you could receive this error. Resource availability changes frequently, so you might wait and try again later.
+An error occurs when the router or data center has insufficient available resources to fulfill the service request. Resource availability changes frequently, so you might wait and try again later.
 
 ## How to fix it
 {: #how-to-fix-it}
 
 You can attempt to provision again by using the following strategies:
 
-1. Provision specifying a different router.  
-2. Provision without specifying a router.
-3. Provision in a different data center.
+* Provision specifying a different router.  
+* Provision without specifying a router.
+* Provision in a different data center.
 
-   GPU provisioning is allowed only in datacenters dal10, dal12, dal13, lon04, lon06, wdc07, tok02, syd04, and fra02
+   You can provision GPUs only in the following data centers: dal10, dal12, dal13, lon04, lon06, wdc07, tok02, syd04, and fra02
    {:note}
 
-4. Provision fewer instances.
-5. Spread out instances by provisioning to multiple data centers.
-6. Provision smaller instance sizes.
-7. Alter the instance storage from SAN to LOCAL or LOCAL to SAN.
+* Provision fewer instances.
+* Spread out instances by provisioning to multiple data centers.
+* Provision smaller instance sizes.
+* Alter the instance storage from SAN to LOCAL or LOCAL to SAN.
