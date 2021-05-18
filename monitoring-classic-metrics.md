@@ -2,7 +2,7 @@
 
 copyright:
   years:  2020, 2021
-lastupdated: "2021-04-02"
+lastupdated: "2021-05-18"
 
 keywords: IBM Cloud monitoring, platform metrics, metrics, virtual server monitoring metrics, classic monitoring metrics, classic metrics
 
@@ -24,7 +24,7 @@ subcollection: cloud-infrastructure
 # Classic virtual server instance metrics definitions
 {: #monitoring-classic-metrics}
 
-The following metrics are available only if you use the {{site.data.keyword.mon_full_notm}} full agent. If you provisioned a 'no driver mode' instance, see [Monitoring 'no driver mode' metrics](/docs/cloud-infrastructure?topic=cloud-infrastructure-enabling-monitoring-light-no-driver#monitoring-light-metrics).
+The following metrics are available only if you use the {{site.data.keyword.mon_full_notm}} full agent. If you provisioned a 'no driver mode' instance, see [{{site.data.keyword.mon_full_notm}} 'no driver mode' metrics](/docs/cloud-infrastructure?topic=cloud-infrastructure-enabling-monitoring-light-no-driver#sysdig-light-metrics).
 {:important}
 
 The following tables define basic Classic virtual server instance metrics.
@@ -32,7 +32,7 @@ The following tables define basic Classic virtual server instance metrics.
 ## Average CPU usage percentage
 {: #avg-cpu-usage-gen1}
 
-Average percentage of time that elapsed executing instructions across all CPUs
+Average percentage of time that elapsed running instructions across all CPUs
 
 | Metadata | Description |
 |----------|-------------|
@@ -46,7 +46,7 @@ Average percentage of time that elapsed executing instructions across all CPUs
 ## CPU usage
 {: #cpu-usage-cumulative-gen1}
 
-Cumulative elapsed time that a CPU is executing instructions since virtual server instance start
+Cumulative elapsed time that a CPU is running instructions since virtual server instance start
 
 | Metadata | Description |
 |----------|-------------|
@@ -60,7 +60,7 @@ Cumulative elapsed time that a CPU is executing instructions since virtual serve
 ## CPU usage percentage
 {: #cpu-usage-percentage-gen1}
 
-Average percentage of time that a CPU is executing instructions
+Average percentage of time that a CPU is running instructions
 
 | Metadata | Description |
 |----------|-------------|
@@ -186,7 +186,7 @@ All volume I/O, in MiB/s.
 ## Volume I/O throughput written
 {: #volume-io-throughput-written-mib-gen1}
 
-Data written to the volume (MiB/s)
+Data that is written to the volume (MiB/s)
 
 | Metadata | Description |
 |----------|-------------|
