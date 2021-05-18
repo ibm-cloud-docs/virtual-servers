@@ -2,9 +2,9 @@
 
 copyright:
   years: 2014, 2021
-lastupdated: "2021-04-20"
+lastupdated: "2021-05-18"
 
-keywords:
+keywords: iso template, boot my virtual server instance from an image
 
 subcollection: virtual-servers
 
@@ -56,7 +56,7 @@ The only ISO templates that are made public to all customers are templates that 
 {: #does-my-iso-template-need-to-be-in-the-same-data-center-as-my-virtual-server-to-complete-a-boot-from-image-}
 {: faq}
 
-Yes, ISO templates must be in the same data center as a virtual server to boot from the image. If the ISO template isn't in the same data center, the ISO template must be copied to the appropriate data center to complete the action. If this situation occurs, a warning appears about the transaction. When an ISO template is copied to a different data center, a small fee is charged to the account in the same manner that fees are applied for copying other types of image templates.
+Yes, ISO templates must be in the same data center as a virtual server to boot from the image. If the ISO template isn't in the same data center, the ISO template must be copied to the appropriate data center. If this situation occurs, a warning appears about the transaction. When an ISO template is copied to a different data center, a small fee is charged to the account as they are for copying other types of image templates.
 
 ## What is the difference between physical data and volume size?
 {: #what-is-the-difference-between-physical-data-and-volume-size-}
@@ -64,11 +64,11 @@ Yes, ISO templates must be in the same data center as a virtual server to boot f
 
 Volume is the disk space that is available for storing files, while physical data consists of the actual files that are stored on the disk.
 
-## What is the image import/export feature?
+## What is the image import export feature?
 {: #what-is-the-image-import-export-feature-}
 {: faq}
 
-The image import/export feature that is on the Image Templates page in the {{site.data.keyword.cloud_notm}} console is used for the conversion of VHDs and ISOs that are stored on an {{site.data.keyword.objectstorageshort}} account to convert into image templates, and vice versa. When you import an image, a specific file (either VHD or ISO) is sourced from a specified [{{site.data.keyword.objectstorageshort}}] Account's Container and is converted into an image template. The image template can then be used to start or load a device. When you export an image, the image template is converted into a file (or several files if the template has multiple disks) that is stored in a specified location on an {{site.data.keyword.objectstorageshort}} Account's Container.
+The image import export feature converts VHDs and ISOs that are stored on an {{site.data.keyword.objectstorageshort}} account to convert into image templates, and vice versa. When you import an image, a specific file (either VHD or ISO) is sourced from a specified [{{site.data.keyword.objectstorageshort}}] Account's Container and is converted into an image template. The image template can then be used to start or load a device. When you export an image, the image template is converted into a file (or several files if the template has multiple disks). The image template is then stored in a specified location on an {{site.data.keyword.objectstorageshort}} Account's Container.
 
 ## How do I create an image template for my entire server and not just my primary drive?
 {: #how-do-i-create-an-image-template-for-my-entire-server-and-not-just-my-primary-drive-}
@@ -79,15 +79,12 @@ To create an image template for your entire server, see the instructions in [Cre
 If you choose to export an image template to {{site.data.keyword.cos_full_notm}}, each block device (or disk) has its own associated file. For example, if your image file is named image.vhd, the first block device is exported as image-0.vhd. The second block device is exported as image-1.vhd, and so on.
 {: tip}
 
-## How much does it cost to store an image template?
-{: #how-much-does-it-cost}
-{: faq}
-
-Image templates are charged at $ 0.25 per GB used during your account's billing cycle.
+<!--## How much does it cost to store an image template?-->
+<!--Image templates are charged at $0.25 per GB used during your account's billing cycle.-->
 
 ## How do I boot my virtual server instance from an image?
 {: #how-do-i-boot-my-virtual-server-instance-from-an-image-}
 {: faq}
 
-Navigate to the Device List. Click the virtual server that you want to start from an ISO template. On the Device Details page, select Actions > Boot from Image.
+Go to the Device List. Click the virtual server that you want to start from an ISO template. On the Device Details page, select Actions > Boot from Image.
 For complete steps, refer to [Booting a virtual server instance from an image](/docs/image-templates?topic=image-templates-booting-a-vsi-from-an-image).
