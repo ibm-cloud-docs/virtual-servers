@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2019
-lastupdated: "2019-09-16"
+  years: 2019, 2021
+lastupdated: "2021-05-17"
 
-keywords: 
+keywords: jumbo frames, virtual server improved network performance
 
 subcollection: virtual-servers
 
@@ -42,7 +42,7 @@ To increase the maximum transmission unit (MTU) to support ethernet jumbo frames
 
 1. Check the current setting by running the command, `- ifconfig| grep -i MTU`.
 2. Change the current setting to support 9000 MTU by running the command, `ifconfig eth0 mtu 9000`.
-3. Change the setting so that it persists after the system is rebooted. Edit the file `/etc/network/interfaces`, and add `MTU=9000`.
+3. Change the setting so that it persists after the system is restarted. Edit the file `/etc/network/interfaces`, and add `MTU=9000`.
 
 ### Configuring jumbo frames for CentOS and Red Hat Enterprise Linux
 {: #jumbo-frames-centos-rhel}
@@ -51,7 +51,7 @@ To increase the maximum transmission unit (MTU) to support ethernet jumbo frames
 
 1. Check the current setting by running the command, `ip link show dev eth0`
 2. Change the current setting to support 9000 MTU by running the command, `ip link set mtu 9000 dev eth0`.
-3. Change the setting so that it persists after the system is rebooted. Edit the file `/etc/sysconfig/network-scripts/ifcfg-eth0`, and add `MTU=9000`.
+3. Change the setting so that it persists after the system is restarted. Edit the file `/etc/sysconfig/network-scripts/ifcfg-eth0`, and add `MTU=9000`.
 
 ### Configuring jumbo frames for Windows
 {: #jumbo-frames-windows}
