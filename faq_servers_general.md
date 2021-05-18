@@ -110,7 +110,7 @@ Use the following table for OS-specific routing information.
 
 | Operating system | Steps |
 |-----|-----|
-|Windows 2003 Standard and Enterprise|  Add the persistent route from the command line by entering the following address: ```route add 161.26.0.0 mask 255.255.0.0 10.0.0.1 -`p``` Replace 10.0.0.1 with your private gateway IP address. |
+|Windows 2003 Standard and Enterprise|  Add the persistent route from the command line by entering the following address: ```route add 161.26.0.0 mask 255.255.0.0 10.0.0.1 -p``` Replace 10.0.0.1 with your private gateway IP address. |
 | Windows 2008 Server Core | Add the persistent route from the command line by entering the following address: ```route add 161.26.0.0 mask 255.255.0.0 10.0.0.1 -p``` Replace 10.0.0.1 with your private gateway IP address. |
 | Windows 2008 Web, Standard, Enterprise, and Datacenter |  Add the persistent route from the command line by entering the following address: ```route add 161.26.0.0 mask 255.255.0.0 10.0.0.1 -p``` Replace 10.0.0.1 with your private gateway IP address. |
 | Red Hat, Fedora, and CentOS | Create a new route by editing or creating the following file: `/etc/sysconfig/network-scripts/route-eth0` Replace 10.0.0.1 with your private gateway IP address.<br><br> After you create that file, you must add the following information: _161.26.0.0/16 via 10.0.0.1_ |
