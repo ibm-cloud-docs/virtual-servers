@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2019
-lastupdated: "2019-06-03"
+  years: 2014, 2021
+lastupdated: "2021-05-19"
 
 subcollection: virtual-servers
 
@@ -25,10 +25,10 @@ You can't attach or swap portable storage volumes to a virtual server instance t
 ## Before you begin
 {: #before-you-begin-managing-portable-storage}
 
-First, navigate to the storage or devices menu and ensure you have the correct account permissions to complete the tasks.
+First, go to the storage or devices menu and ensure you have the correct account permissions to complete the tasks.
 
-* Navigate to your console's storage or device menu. For more information, see [Navigating to devices](/docs/virtual-servers?topic=virtual-servers-navigating-devices).
-* Ensure you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
+* Go to your console's storage or device menu. For more information, see [Navigating to devices](/docs/virtual-servers?topic=virtual-servers-navigating-devices).
+* Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
 
 For more information about permissions, see [Classic infrastructure permissions](/docs/account?topic=account-infrapermission) and [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
 
@@ -39,12 +39,12 @@ For more information about permissions, see [Classic infrastructure permissions]
 2. In the **Portable storage** section, select the attach option for the portable storage you want to use.
 3. On the next screen, choose the device that needs the storage, and select **Attach.**
 
-## Managing portable storage attached to a server
+## Managing portable storage that is attached to a server
 {: #managing-portable-storage-attached-to-a-server}
 
 Portable storage attached to a server is listed on the server's *Device Details* page.
 
 1. From the **Devices** menu, select **Device List.**
 2. From the **Device List**, select a virtual server instance to view its details.
-3. Click the **Storage** tab to view the portable storage currently attached to the instance.
-4. In the **Actions** menu, you can **Swap** or **Detach** the storage.
+3. Click the **Storage** tab to view the portable storage that is  attached to the instance.
+4. In the **Actions** menu, you select either **Swap** or **Detach** the storage.
