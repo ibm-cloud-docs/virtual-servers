@@ -1,8 +1,10 @@
 ---
 
 copyright:
-  years: 2014, 2017
-lastupdated: "2017-12-12"
+  years: 2014, 2021
+lastupdated: "2021-05-19"
+
+keywords: Upgrading port speed in Linux
 
 subcollection: virtual-servers
 
@@ -20,21 +22,21 @@ subcollection: virtual-servers
 # Upgrading port speed in Linux
 {: #upgrading-port-speed-in-linux}
 
-The default port speeds for customer servers (for both public and private networks) is 10 Mbps. If you would like to upgrade either of your port speeds to 100 Mbps or 1000 Mbps, please open a ticket with our Sales department. Sales will ask you to approve the monthly charge and a technician will change the port speed limits on the network.
+The default port speed for customer servers (for both public and private networks) is 10 Mbps. If you want to upgrade either of your port speeds to 100 Mbps or 1000 Mbps, open a support case with the Sales department. You need to approve the monthly charge before a technician changes the port speed limits on the network.
 
-These commands affect the connectivity of your server. Always manage network connections by first connecting to the IP you are NOT working on.
+These commands affect the connectivity of your server. Always manage network connections by first connecting to the IP that you are NOT working on.
 {:tip}
 
 You can check the current speed of your connection by running the following commands:
 
-    ```
+    ```bash
     # ethtool eth#   (eth1 for public, eth0 for private)
     ```
     {: pre}
 
-Output will display the current configs for that connection:
+Output displays the current configurations for that connection:
 
-    ```
+    ```bash
     root@noc-training-linux [~]# ethtool eth1
     ```
     {: screen}
@@ -69,8 +71,8 @@ You will find the following line:
 
     ETHTOOL_OPTS="autoneg off speed 100 duplex full"
 
-This allows the auto-negotiation, speed and duplex to be forced on boot, keeping a consistent configuration through a reboot.
-The speed can be modified to match your new port speed. This requires a network reboot before the new speed is used.
+This entry allows the auto-negotiation, speed, and duplex to be forced on boot, keeping a consistent configuration through a restart.
+The speed can be modified to match your new port speed. This modification requires a network restart before the new speed is applied.
 
 All connections forced to 1000 Mbps must have autoneg enabled in the ifcfg-eth# file.
 {: tip}
