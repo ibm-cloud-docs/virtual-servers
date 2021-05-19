@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2021
-lastupdated: "2021-03-26"
+lastupdated: "2021-05-19"
 
 keywords: high availability, ha
 
@@ -22,7 +22,7 @@ subcollection: virtual-servers
 # Considerations for high availability
 {: #ha-dr}
 
-The default behavior for the IBM scheduler is to place virtual servers in available hypervisors first, which can result in virtual servers sharing the same hypervisor. This result can be catastrophic if any or all of the virtual servers are deployed on the same hypervisor. A hardware or software failure can cause a disruption.
+The default behavior for the IBM scheduler is to place virtual servers in available hypervisors first, which can result in virtual servers that share a hypervisor. This result can be catastrophic if any or all of the virtual servers are deployed on the same hypervisor. A hardware or software failure can cause a disruption.
 
 IBM Cloud provides two solutions to help avoid virtual servers from deploying on the same hypervisor.
 
