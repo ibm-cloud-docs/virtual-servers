@@ -1,10 +1,11 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-10-03"
+  years: 2018, 2021
+lastupdated: "2021-05-19"
 
 keywords: reserved virtual servers, cost savings, guaranteed capacity 
+
 subcollection: virtual-servers
 
 ---
@@ -19,9 +20,9 @@ subcollection: virtual-servers
 # Reserved virtual servers
 {: #about-reserved-virtual-servers}
 
-{{site.data.keyword.BluVirtServers}} reserved instances offering is a great option if you want guaranteed resources for future deployments and cost savings. You choose between either a one or three year contract term for your reserved capacity. Within that reserved capacity, you can reserve a set of up to 20 virtual server instances of a specific size and provision those instances when you need them. You are guaranteed this capacity within the POD and data center of your choice for the life of the contract term.
+{{site.data.keyword.BluVirtServers}} reserved instances offering is a great option if you want guaranteed resources for future deployments and cost savings. You choose between either a 1 or 3-year contract term for your reserved capacity. Within that reserved capacity, you can reserve a set of up to 20 virtual server instances of a specific size and provision those instances when you need them. You are guaranteed this capacity within the POD and data center of your choice for the life of the contract term.
 
-Reserved virtual server instances offer many advantages, including the following:
+Reserved virtual server instances offer many advantages, including the following benefits:
 
 * **Guaranteed capacity**
 
@@ -37,7 +38,7 @@ Reserved virtual server instances offer many advantages, including the following
 
 * **Cost savings**
     
-    Choosing either a one or three year contract term allows for consistent monthly payments and reduced costs compared to hourly or monthly virtual server billing cycles.
+    Choosing either a 1 or 3-year contract term allows for consistent monthly payments and reduced costs compared to hourly or monthly virtual server billing cycles.
 
 Reserved virtual server instances are public instances that use SAN-backed storage. The following families of public instances are available for this offering.
 
@@ -51,7 +52,7 @@ Reserved virtual server instances are public instances that use SAN-backed stora
 ## Limitations 
 {: #limitations-reserved-virtual-servers}
 
-Consider the following limitations before reserving capacity and provisioning reserved virtual server instances:
+Consider the following limitations before you reserve capacity and provision a reserved virtual server instance:
   
   * You can't use variable compute profiles.
   * You can't upgrade or downgrade your instances.
@@ -60,12 +61,12 @@ Consider the following limitations before reserving capacity and provisioning re
 ## Notifications
 {: #notifications-reserved-virtual-servers}
 
-You will receive an email notification one month before the end of the term on your reserved virtual server capacity.
+You receive an email notification one month before the end of the term on your reserved virtual server capacity.
 
 ## Next steps
 {: #next-steps-reserved-virtual-servers}
 
-After you've reviewed and decided on your options, it's time to provision your reserved capacity and instances. To get started, review the following information:
+After you review and decided on your options, it's time to provision your reserved capacity and instances. To get started, review the following information:
 
    1. [Provisioning reserved capacity and instances](/docs/virtual-servers?topic=virtual-servers-provisioning-reserved-capacity-and-instances#provisioning-reserved-capacity-and-instances)
    2. [FAQs: Reserved capacity and instances](/docs/virtual-servers?topic=virtual-servers-faqs-reserved-capacity-and-instances#faqs-reserved-capacity-and-instances)
