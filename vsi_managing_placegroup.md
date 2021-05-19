@@ -1,16 +1,23 @@
 ---
 
 copyright:
-  years: 2018, 2019
-lastupdated: "2019-04-24"
+  years: 2018, 2021
+lastupdated: "2021-05-19"
 
 subcollection: virtual-servers
 
 ---
 
 {:shortdesc: .shortdesc}
-{:note: .note}
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:external: target="_blank" .external}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
 {:new_window: target="_blank"}
+{:shortdesc: .shortdesc}
+{:note: .note}
+{:important: .important}
 
 # Managing placement groups
 {: #vsi_managing_placegroup}
@@ -23,11 +30,11 @@ You can manage placement groups by using the placement groups page or the device
 
 To add placement groups from the placement groups page, complete the following steps:
 
-1. Open the [Placement groups ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/gen1/infrastructure/placement-groups){: new_window} page.
-2. On the placement groups page, click **New group**.
-3. Enter a name, location, pod, and rule for the placement group, and click **Create**.
+1. Open [Placement groups](https://cloud.ibm.com/gen1/infrastructure/placement-groups){: external}.
+2. Click **New group**.
+3. Enter a name, location, POD, and rule for the placement group, and click **Create**.
 
-Existing instances cannot be added to a placement group; you can only add a virtual server instance to a placement group at provisioning. 
+You can add existing instances to a placement group. You can add a virtual server instance only to a placement group at provisioning. 
 {:note}
 
 ## Managing placement groups
@@ -35,7 +42,7 @@ Existing instances cannot be added to a placement group; you can only add a virt
 
 To manage placement groups from the placement groups page, complete the following steps:
 
-1. Open the [Placement groups ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/gen1/infrastructure/placement-groups){: new_window} page.
+1. Open [Placement groups](https://cloud.ibm.com/gen1/infrastructure/placement-groups){: external}.
 2. Under the placement group section, you can complete several management tasks.
      * View a list of placement groups and number of assigned instances
      * Add a group
