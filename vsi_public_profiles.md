@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-09-14"
+  years: 2017, 2021
+lastupdated: "2021-05-19"
 
 keywords: public virtual servers, network traffic, virtual server deployment, profile
 
@@ -32,15 +32,15 @@ Depending on your instance type, some families might not be available.
 
 | Families  | Description                                                                                              |
 | ----------------------- | -------------------------------------------------------------------------------------------------------- |
-| [Balanced](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#balanced) | Best for common cloud workloads that require a balance of performance and scalability. Uses network-attached storage. |
-| [Balanced local storage](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#balanced-local-storage) | Best for large database workloads that require high I/O performance with very low latency. |
+| [Balanced](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#balanced) | Best for common workloads that require a balance of performance and scalability. Uses network-attached storage. |
+| [Balanced local storage](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#balanced-local-storage) | Best for large database workloads that require high I/O performance with low latency. |
 | [Variable compute](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#variable-compute)  | Best for workloads that don’t require steady, high-CPU performance. |
 | [Compute](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#compute) | Best for moderate to high web traffic workloads.|
 | [Memory](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#memory)  | Best for memory caching and real-time analytics workloads. |
 | [GPU](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#gpu)  | Best for high-performance workloads. |
 {: caption="Table 1. Public virtual server family selections" caption-side="top"}
 
-Some of these families are also available for {{site.data.keyword.vsi_is_full}}. For more information, see [{{site.data.keyword.vsi_is_short}}](/docs/vpc-on-classic-vsi?topic=vpc-on-classic-vsi-getting-started#gettingstartedvsigen).
+Some of these families are also available for {{site.data.keyword.vsi_is_full}}. For more information, see [{{site.data.keyword.vsi_is_short}}](/docs/vpc-on-classic-vsi?topic=vpc-on-classic-vsi-getting-started).
 {:tip}
 
 ## Balanced
@@ -70,17 +70,17 @@ The offering is available in the following profiles:
 ### Storage notes
 {: #storage-notes-balanced}
 
-* SAN primary boot disk (25 or 100GB) with additional disks available, up to 2 TB each (five total disks allowed).
+* SAN primary boot disk (25 or 100 GB) with more disks available, up to 2 TB each (five total disks allowed).
 * Pricing for public virtual servers that use SAN storage includes virtual CPU, memory, and minimum primary boot disk. Extra disk prices depend on the disk size and quantity that you select.  
 
 Balanced profiles (with network-attached storage) are available in all data centers.
 
-All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), supported  databases, and software add-ons are also available with this offering.
+All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), databases that are supported, and software add-ons are also available with this offering.
 
 ## Balanced local storage
 {: #balanced-local-storage}
 
-The balanced local storage profiles are primarily for large database workloads that require high I/O performance with very low latency. Network performance ranges from standard to premium.
+The balanced local storage profiles are primarily for large database workloads that require high I/O performance with low latency. Network performance ranges from standard to premium.
 
 The offering is available in various profiles and data centers, with the following local storage options:
 
@@ -106,7 +106,7 @@ The offering is available in various profiles and data centers, with the followi
 #### Storage notes
 {: #storage-notes-local-hdd}
 
-* <sup>(*)</sup>Balanced local profiles automatically come with a 100 GB local storage boot disk. Then, you can select a second disk (options shown in Table 3). Any additional local disks are optional. If you require over 500 GB, then two additional disks are required (for example, 8 cores require 2 x 250 GB of local storage).
+* <sup>(*)</sup>Balanced local profiles automatically come with a 100 GB local storage boot disk. Then, you can select a second disk (options are shown in Table 3). Any additional local disks are optional. If you require over 500 GB, then two extra disks are required (for example, 8 cores require 2 x 250 GB of local storage).
 *	Maximum local storage is limited by cores.
 *	Balanced local storage is globally available; however, the type of storage (local SSD or local HDD) depends on the data center location.
 *	You can't detach primary or secondary disks.
@@ -147,7 +147,7 @@ The following data centers support balanced local storage virtual servers with l
 {: #local-hdd3}
 {: tab-title="Asia-Pacific"}
 
-All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), supported  databases, and software add-ons are also available with this offering.  
+All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), databases that are supported, and software add-ons are also available with this offering.  
 
 ### Local SSD
 {: #SSD}
@@ -171,7 +171,7 @@ All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and othe
 #### Storage notes
 {: #storage-notes-local-ssd}
 
-* <sup>(*)</sup>Balanced local profiles automatically come with a 100 GB local storage boot disk. Then, you can select a second disk (options shown in table above). Any additional local disks are optional. If you require over 500 GB, then two additional disks are required (for example, 8 cores require 2 x 250 GB of local storage).
+* <sup>(*)</sup>Balanced local profiles automatically come with a 100 GB local storage boot disk. Then, you can select a second disk (options are shown in Table 7). Any extra local disks are optional. If you require over 500 GB, then two extra disks are required (for example, 8 cores require 2 x 250 GB of local storage).
 *	Maximum local storage is limited by cores.
 *	Balanced local storage is globally available; however, the type of storage (local SSD or local HDD) depends on the data center location.
 *	You can't detach primary or secondary disks.
@@ -216,12 +216,12 @@ The following data centers support balanced local storage virtual servers with l
 {: #local-sdd3}
 {: tab-title="Asia-Pacific"}
 
-All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), supported  databases, and software add-ons are also available with this offering.
+All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), databases that are supported, and software add-ons are also available with this offering.
 
 ## Variable compute
 {: #variable-compute}
 
-Variable compute profiles are best for workloads that don’t require steady, high-CPU performance. Due to the level of CPU oversubscription allowed on the hosts for variable compute server instances, CPU performance levels might be less than other public profiles with the same number of cores, while RAM and storage remain consistent.  This makes variable compute profiles a lower-cost alternative. For example, you can use this function to test a new feature without incurring the higher cost of a full-performance virtual server instance.
+Variable compute profiles are best for workloads that don’t require steady, high-CPU performance. Due to the level of CPU oversubscription that is allowed on the hosts for variable compute server instances, CPU performance levels might be less than other public profiles with the same number of cores, while RAM and storage remain consistent.  These variable compute profiles are a lower-cost alternative. For example, you can use this function to test a new feature without incurring the higher cost of a full-performance virtual server instance.
 
 The offering is available in the following profiles:
 
@@ -240,7 +240,7 @@ The offering is available in the following profiles:
 
 Variable compute profiles are available in all data centers.
 
-Supported operating systems (such as RHEL, CentOS, Ubuntu, and others), supported databases, and software add-ons are also available with this offering.
+Supported operating systems (such as RHEL, CentOS, Ubuntu, and others), databases that are supported, and software add-ons are also available with this offering.
 
 ## Compute
 {: #compute}
@@ -262,12 +262,12 @@ The offering is available in the following profiles:
 ### Storage notes
 {: #storage-notes-compute}
 
-* SAN primary boot disk (25 or 100 GB) with additional disks available, up to 2 TB each (five total disks allowed).
+* SAN primary boot disk (25 or 100 GB) with extra disks available, up to 2 TB each (five total disks allowed).
 * Pricing for public virtual servers that use SAN storage includes virtual CPU, memory, and minimum primary boot disk. Extra disk prices depend on the disk size and quantity that you select.  
 
 Compute profiles are available in all data centers.
 
-All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), supported  databases, and software add-ons are also available with this offering.
+All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), databases that are supported, and software add-ons are also available with this offering.
 
 ## Memory
 {: #memory}
@@ -292,12 +292,12 @@ The offering is available in the following profiles:
 ### Storage notes
 {: #storage-notes-memory}
 
-* SAN primary boot disk (25 or 100 GB) with additional disks available, up to 2 TB each (5 total disks allowed).
-* Pricing for public virtual servers that use SAN storage includes virtual CPU, memory, and minimum primary boot disk. Additional disk prices depend on the disk size and quantity that you select.  
+* SAN primary boot disk (25 or 100 GB) with extra disks available, up to 2 TB each (five total disks allowed).
+* Pricing for public virtual servers that use SAN storage includes virtual CPU, memory, and minimum primary boot disk. Extra disk prices depend on the disk size and quantity that you select.  
 
 Memory profiles are available in all data centers.
 
-All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), supported  databases, and software add-ons are also available with this offering.
+All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), databases that are supported, and software add-ons are also available with this offering.
 
 ## GPU
 {: #gpu}
@@ -306,7 +306,7 @@ GPU profiles are best for high-performance workloads that require more compute d
 
 Powered by NVDIA Tesla GPUs, {{site.data.keyword.cloud_notm}} Accelerated Compute “ac1” and "ac2" profiles both offer block and local SSD storage. The following GPU profiles are available globally for you to choose from:  
 
-|Profile|GPU|GPU RAM (GB)|vCPU|vCPU RAM (GB)|Storage Type|Boot Disc (GB)|Secondary Discs (2 and 3) (GB)|
+|Profile|GPU|GPU RAM (GB)|vCPU|vCPU RAM (GB)|Storage Type|Boot Disk (GB)|Secondary Disks (2 and 3) (GB)|
 |---|---|---|---|---|---|---|---|
 |ac1.8x60x25|1 P100|16|8|60|Block (SAN)|25|None|
 |ac1.8x60x100|1 P100|16|8|60|Local SSD or SAN|100|None (SAN)<br>300 (Local)|
@@ -347,7 +347,7 @@ The following data centers support P100 GPU profiles:
 {: #local-p100_3}
 {: tab-title="Asia-Pacific"}
 
-|Profile|GPU|GPU RAM (GB)|vCPU|vCPU RAM (GB)|Storage Type|Boot Disc (GB)|Secondary Discs (2 and 3) (GB)|
+|Profile|GPU|GPU RAM (GB)|vCPU|vCPU RAM (GB)|Storage Type|Boot Disk (GB)|Secondary Disks (2 and 3) (GB)|
 |---|---|---|---|---|---|---|---|
 |ac2.8x60x25|1 V100|16|8|60|Block (SAN)|25|None|
 |ac2.8x60x100|1 V100|16|8|60|Local SSD or SAN|100|None (SAN)<br>300 (Local)|
@@ -393,7 +393,7 @@ You can also choose V100 GPUs. The following data centers support V100 GPU profi
 
 Review the following GPU prerequisites.
 
-1. GPU profile virtual servers are only available on an operating system that supports Hardware Virtual Machine (HVM) boot mode. See the following list for operating systems that support HVM boot mode.  
+1. GPU profile virtual servers are available only on an operating system that supports Hardware Virtual Machine (HVM) boot mode. See the following list for operating systems that support HVM boot mode.  
   - CentOS 7
   - Debian 8
   - Debian 9
@@ -414,7 +414,7 @@ The software that you install might have prerequisite software and operating sys
 You can change the number of GPUs on your virtual server after your initial order. But, that depends on how many GPUs you provisioned. You have one of the following options.
 
 - If one GPU is provisioned, you can add another GPU
-- If two GPUs are provisioned, you can fallback to one GPU
+- If two GPUs are provisioned, you can fall back to one GPU
 
 ### NVIDIA GRID
 {: #nvidia-grid}
