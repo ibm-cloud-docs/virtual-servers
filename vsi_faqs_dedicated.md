@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2020
-lastupdated: "2020-04-23"
+  years: 2017, 2021
+lastupdated: "2021-05-19"
 
 subcollection: virtual-servers
 
@@ -23,13 +23,13 @@ subcollection: virtual-servers
 {: #what-is-a-dedicated-host-}
 {: faq}
 
-{{site.data.keyword.cloud}} dedicated hosts are physical servers committed to a group of users. Dedicated hosts offer virtual server provisioning capacity and maximum placement control.
+{{site.data.keyword.cloud}} dedicated hosts are physical servers that are committed to a group of users. Dedicated hosts offer virtual server provisioning capacity and maximum placement control.
 
 ## What are the benefits of using dedicated hosts over dedicated instances?
 {: #what-are-the-benefits-of-using-dedicated-hosts-over-dedicated-instances-}
 {: faq}
 
-Both offerings are guaranteed single tenancy. Dedicated hosts provide the flexibility to specify on which host to provision dedicated host instances, as well as:
+Both offerings are guaranteed single tenancy. Dedicated hosts provide the flexibility to specify on which host to provision dedicated host instances, and these other benefits:
    * Control over which {{site.data.keyword.cloud_notm}} data center the server is placed
    * Ability to manage your servers as workload requirements change; for example, migrate virtual servers between your dedicated hosts on the same POD
 
@@ -55,25 +55,25 @@ The offering is supported on virtual servers; {{site.data.keyword.cloud_notm}} d
 {: #what-is-the-provisioning-lifecycle-of-a-dedicated-host-}
 {: faq}
 
-Dedicated hosts are allocated to users when provisioned. They will persist to the account until it is reclaimed. Dedicated hosts are offered in only on-demand pricing, hourly or monthly, so when reclaimed, billing models will charge as either hourly or monthly {{site.data.keyword.cloud_notm}} offerings.
+Dedicated hosts are allocated to users when provisioned. They persist to the account until it is reclaimed. Dedicated hosts are offered in only on-demand pricing, hourly or monthly, so when reclaimed, billing models charge as either hourly or monthly {{site.data.keyword.cloud_notm}} offerings.
 
 ## How is the dedicated host offering billed?
 {: #how-is-the-dedicated-host-offering-billed-}
 {: faq}
 
-You can purchase dedicated hosts on-demand with hourly or monthly billing. Hourly-only hosts allow only hourly instances to be provisioned; monthly-only hosts allow you to provision monthly *and* hourly instances. Pricing for dedicated hosts includes core, RAM, local SSD storage, and network port speeds. Premium operating systems, storage area network (SAN) storage, and software add-on prices and licensing are charged based on the instance deployed—hourly or monthly—on the dedicated host. The same pricing model as {{site.data.keyword.cloud_notm}} public and dedicated instances is followed for these items.
+You can purchase dedicated hosts on-demand with hourly or monthly billing. Hourly only hosts allow only hourly instances to be provisioned; monthly only hosts allow provisioning of monthly *and* hourly instances. Pricing for dedicated hosts includes core, RAM, local SSD storage, and network port speeds. Premium operating systems, storage area network (SAN) storage, and software add-on prices and licensing are charged based on the instance deployed—hourly or monthly—on the dedicated host. The same pricing model as {{site.data.keyword.cloud_notm}} public and dedicated instances is followed for these items.
 
 ## I’m running an on-demand dedicated host; how am I billed?
 {: #i-m-running-an-on-demand-dedicated-host-how-am-i-billed-}
 {: faq}
 
-You will be billed at the hourly or monthly on-demand rate for dedicated hosts. Dedicated host instances provisioned on dedicated hosts may incur instances charges as noted in the answer to **How is a dedicated host offering billed**.
+You are billed at the hourly or monthly on-demand rate for dedicated hosts. Dedicated host instances that are provisioned on dedicated hosts might incur instances charges as noted in the answer to [How is a dedicated host offering billed](#how-is-the-dedicated-host-offering-billed-).
 
-## How is tenancy specified when provisioning dedicated hosts and dedicated host instances?
+## How is tenancy specified when you provision dedicated hosts and dedicated host instances?
 {: #how-is-tenancy-specified-when-provisioning-dedicated-hosts-and-dedicated-host-instances-}
 {: faq}
 
-The default tenancy for dedicated instances is single tenant. You have the option to provision dedicated instances on either a dedicated host (dedicated host instances) or an auto-assigned host (dedicated instances). Dedicated instances on auto-assigned hosts do not offer the same management level as those on a dedicated host.
+The default tenancy for dedicated instances is single tenant. You can provision dedicated instances on either a dedicated host (dedicated host instances) or an auto-assigned host (dedicated instances). Dedicated instances on auto-assigned hosts do not offer the same management level as those hosts that are on a dedicated host.
 
 ## Can I mix and match different dedicated host instance configurations on my dedicated host?
 {: #can-i-mix-and-match-different-dedicated-host-instance-configurations-on-my-dedicated-host-}
@@ -85,7 +85,7 @@ Yes. You can provision different virtual server sizes on dedicated hosts within 
 {: #how-do-i-know-how-many-dedicated-host-instances-i-can-run-on-each-dedicated-host-}
 {: faq}
 
-Each dedicated host has a specific allotment of core, RAM, and local SSD storage. You will be able to view resource allocations on the host Allocations tab to know how many dedicated host instances are provisioned, current host capacity used, and what is available.
+Each dedicated host has a specific allotment of core, RAM, and local SSD storage. You are able to view resource allocations on the host Allocations tab to know how many dedicated host instances are provisioned, current host capacity that is used, and what is available.
 
 ## What images can be provisioned on dedicated hosts?
 {: #what-images-can-be-provisioned-on-dedicated-hosts-}
@@ -103,11 +103,10 @@ Yes, resource limitations are per account as defined for all {{site.data.keyword
 {: #can-dedicated-host-deployments-be-oversubscribed-}
 {: faq}
 
-No; you can only provision the listed capacity on dedicated hosts.
+No; you can provision only the listed capacity on dedicated hosts.
 
 ## What happens if my dedicated host fails?
 {: #what-happens-if-my-dedicated-host-fails-}
 {: faq}
 
 When a dedicated host failure occurs, we automatically detect this failure and move your instances onto a new dedicated host. This failure detection typically occurs within 1 minute. Your virtual servers are rescheduled to the new dedicated host within 5 minutes, and are up and running within 7 minutes. To opt out of auto-recovery, a support case must be opened with the request.
-
