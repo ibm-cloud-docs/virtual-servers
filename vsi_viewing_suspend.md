@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2021
-lastupdated: "2021-04-20"
+lastupdated: "2021-05-19"
 
 subcollection: virtual-servers
 
@@ -11,7 +11,7 @@ subcollection: virtual-servers
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:note: .note}
 {:tip: .tip}
@@ -25,7 +25,7 @@ subcollection: virtual-servers
 
 First, go to the device menu and ensure you have the correct account permissions to complete the task. 
 
-* Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/virtual-servers?topic=virtual-servers-navigating-devices).
+* Go to your console's device menu. For more information, see [Navigating to devices](/docs/virtual-servers?topic=virtual-servers-navigating-devices).
 * Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions. 
 
 For more information about permissions, see [Classic infrastructure permissions](/docs/account?topic=account-infrapermission) and [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
@@ -53,18 +53,18 @@ The following command is an example request of verifying whether your virtual se
 The following JSON request and response is a generic example. 
 {:note}
 
-```
+```bash
 curl -X GET \
  https://$SOFTLAYER_USERNAME:$SOFTLAYER_API_KEY@api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/<VSI ID>/getAttributes.json
 ```
 
-The following is the example JSON response to the request:
+The following example is the JSON response to the request:
 
-```
+```bash
 [{"value":"1","type":{"keyname":"SUSPENDED_BILLING","name":"Suspended Billing"}}]
 ```
 
-For more information, see the [SLDN API documentation ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/getAttributes/){: new_window}.
+For more information, see the [SLDN API documentation](https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/getAttributes/){: external}.
 
 ## Next steps
 {: #next-steps-suspend-billing-feature}
