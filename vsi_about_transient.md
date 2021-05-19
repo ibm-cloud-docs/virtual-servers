@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2020
-lastupdated: "2020-05-06"
+  years: 2017, 2021
+lastupdated: "2021-05-19"
 
 keywords: transient virtual servers, transient instances, transient offering, cost savings
 
@@ -20,7 +20,7 @@ subcollection: virtual-servers
 
 # Transient virtual servers
 {: #about-vs-transient}
-The {{site.data.keyword.BluVirtServers}} transient offering is a good option if you have flexible workloads and want cost savings. You will save money by running your workload on a transient virtual server. Transient instances are provisioned when there is unused capacity available. Therefore, when data center resources are needed for full, on-demand accounts, you can also lose those resources. Transient instances are de-provisioned on a first-on, first-off basis when those resources need to be reclaimed.   
+The {{site.data.keyword.BluVirtServers}} transient offering is a good option if you have flexible workloads and want cost savings. You save money by running your workload on a transient virtual server. Transient instances are provisioned when unused capacity available is available. Therefore, when data center resources are needed for full, on-demand accounts, you can also lose those resources. Transient instances are de-provisioned on a first-on, first-off basis when those resources need to be reclaimed.   
 
 Transient virtual servers offer the following flexibility:
 
@@ -44,12 +44,12 @@ Transient instances are public instances that use SAN-backed storage. The follow
 ## Notifications
 {: #notifications-transient-virtual-servers}
 
-When configured, you can receive automated reclaim notifications that help you prepare and reduce lost data. For more information, see [Configuring automated reclaim notifications](/docs/virtual-servers?topic=virtual-servers-configuring-notifications-for-reclaims-of-transient-virtual-servers#configuring-notifications-for-reclaims-of-transient-virtual-servers).    
+When configured, you can receive automated reclaim notifications that help you prepare and reduce lost data. For more information, see [Configuring automated reclaim notifications](/docs/virtual-servers?topic=virtual-servers-configuring-notifications-for-reclaims-of-transient-virtual-servers#configuring-notifications-for-reclaims-of-transient-virtual-servers).  
 
 ## Limitations
 {: #limitations-transient-virtual-servers}
 
-Consider the following limitations before provisioning a transient virtual server.
+Consider the following limitations before you provision a transient virtual server.
 
 * The number of supported, concurrent instances are part of your account-wide device quota. For more information about concurrent instance limits, see [FAQ: Virtual servers](/docs/virtual-servers?topic=virtual-servers-faqs-virtual-servers#faqs-virtual-servers).
 * Transient instances cannot be upgraded or downgraded.
