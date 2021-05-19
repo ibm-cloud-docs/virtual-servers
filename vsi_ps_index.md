@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2019
-lastupdated: "2019-06-04"
+  years: 2014, 2021
+lastupdated: "2021-05-19"
 
 subcollection: virtual-servers
 
@@ -20,6 +20,6 @@ A provisioning script is a script that can either be downloaded to, or downloade
 Alternatively, you can use a cloud-init enabled image and provide user data to automatically perform configuration tasks or run scripts. For more information, see [Provisioning with a cloud-init enabled image](/docs/image-templates?topic=image-templates-provisioning-with-a-cloud-init-enabled-image).
 {: tip}
 
-During the provisioning process, scripts that are associated with an HTTP URL are downloaded to the device. After provisioning, an administrator must run the script manually on the device. Scripts that are associated with an HTTPS URL are downloaded and run automatically. Provisioning scripts are currently available on standard Linux operating systems (Cent, RHEL, Fedora, Debian, or Ubuntu), and Windows and FreeBSD. Other systems such as Vyatta, Netscaler, XenServer, VMware are not supported. The provisioning script can be any type of file that is run by the operating system, including combined binary files or any OS supported language.
+During the provisioning process, scripts that are associated with an HTTP URL are downloaded to the device. After provisioning, an administrator must run the script manually on the device. Scripts that are associated with an HTTPS URL are downloaded and run automatically. Provisioning scripts are currently available on only Linux operating systems (Cent, RHEL, Fedora, Debian, or Ubuntu), and Windows and FreeBSD. The provisioning script can be any type of file that is run by the operating system, including combined binary files or any OS supported language.
 
 For more information, see [Managing a provisioning script](/docs/virtual-servers?topic=virtual-servers-managing-a-provisioning-script#managing-a-provisioning-script).
