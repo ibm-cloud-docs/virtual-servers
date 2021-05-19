@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2016, 2018, 2019, 2020
-lastupdated: "2020-03-19"
+  years: 2016, 2021
+lastupdated: "2021-05-19"
 
 subcollection: virtual-servers
 
@@ -21,17 +21,13 @@ subcollection: virtual-servers
 # Activity Tracker events
 {: #at_events}
 
-As a security officer, auditor, or manager, you can use the {{site.data.keyword.cloudaccesstrailfull}} service to track how users and
-applications interact with virtual server instances in {{site.data.keyword.Bluemix}}. The account owner and users that are linked
-with the account can trigger virtual server events that are logged in {{site.data.keyword.cloudaccesstrailshort}}.
+As a security officer, auditor, or manager, you can use the {{site.data.keyword.cloudaccesstrailfull}} service to track how users and applications interact with virtual server instances in {{site.data.keyword.Bluemix}}. The account owner and users that are linked with the account can trigger virtual server events that are logged in {{site.data.keyword.cloudaccesstrailshort}}.
 {:shortdesc}
 
 The {{site.data.keyword.cloudaccesstrailshort}} service records user-initiated activities that change the state of a service in
-{{site.data.keyword.Bluemix_notm}}. For more information, see
-[About {{site.data.keyword.cloudaccesstrailshort}}](/docs/Activity-Tracker-with-LogDNA?topic=Activity-Tracker-with-LogDNA-getting-started#gs_ov).
+{{site.data.keyword.Bluemix_notm}}. For more information, see [Auditing events for IAM](/docs/activity-tracker?topic=activity-tracker-at_events_iam).
 
-To get started monitoring your user's actions, see
-[{{site.data.keyword.cloudaccesstrailfull_notm}}](/docs/Activity-Tracker-with-LogDNA?topic=Activity-Tracker-with-LogDNA-getting-started).
+To get started with monitoring your user's actions, see [Getting started with {{site.data.keyword.at_full_notm}}](/docs/activity-tracker?topic=activity-tracker-getting-started).
 
 An initiator can be a user, a service, or an application. For a user to generate events, the user must have access to **Infrastructure** resources in {{site.data.keyword.Bluemix}} console.
 {: tip}
@@ -39,7 +35,7 @@ An initiator can be a user, a service, or an application. For a user to generate
 ## Virtual server instance events
 {: #vsi}
 
-You can audit a virtual server instance through its life cycle by using the {{site.data.keyword.cloudaccesstrailshort}} service.
+You can audit a virtual server instance through its lifecycle by using the {{site.data.keyword.cloudaccesstrailshort}} service.
 
 The following table lists the actions that generate an event:
 
@@ -66,8 +62,6 @@ The following table lists the actions that generate an event:
 | `audit-log.vsi.reclaim`               | An event is generated when an initiator cancels an instance. |
 | `audit-log.vsi.pause`                 | An event is generated when an initiator pauses an instance. |
 {: caption="Table 1. Virtual server instance actions" caption-side="top"}
-
-
 
 ## Viewing events
 {: #ui}
