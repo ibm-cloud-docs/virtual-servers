@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019, 2020
-lastupdated: "2020-03-23"
+  years: 2017, 2021
+lastupdated: "2021-05-20"
 
 subcollection: virtual-servers
 
@@ -26,7 +26,7 @@ You can provision a virtual server instance from an image that was created by a 
 ## Before you begin
 {: #before-you-begin-third-party-image}
 
-Before you begin, ensure that you have your {{site.data.keyword.cloud_notm}} catalog credentials set up.
+Before you begin, make sure that you have your {{site.data.keyword.cloud_notm}} catalog credentials set up.
 
 For the {{site.data.keyword.Bluemix_notm}} catalog, you must have an upgraded account to order virtual servers. For more information about upgrading your account, see [
 Account types](/docs/account?topic=account-accounts).
@@ -36,8 +36,8 @@ Account types](/docs/account?topic=account-accounts).
 {: #selecting-a-virtual-server-image}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/catalog){: new_window} by using your unique credentials.
-2. In the **Compute** section, locate the **Cloud Images** section and click the third-party image you want to deploy.
-3. Review the custom image details and click **Continue**. The **Virtual server instance - custom image** page is displayed with your custom image pre-selected.
+2. In the **Compute** section, locate the **Cloud Images** section and click the third-party image that you want to deploy.
+3. Review the custom image details and click **Continue**. The **Virtual server instance - custom image** page is displayed with your custom image preselected.
 
 ## Reviewing and choosing your deployment options
 {: #reviewing-and-choosing-your-deployment-options}
@@ -65,7 +65,7 @@ Because you started the provisioning process with a third-party image, you canno
 |[Provisioning public instances](/docs/virtual-servers?topic=virtual-servers-ordering-vs-public#ordering-vs-public)                | Provision public instances with various options             |
 |[Provisioning transient instances](/docs/virtual-servers?topic=virtual-servers-ordering-vs-transient#ordering-vs-transient)                | Provision transient instances with various options            |
 |[Provisioning reserved capacity and instances](/docs/virtual-servers?topic=virtual-servers-provisioning-reserved-capacity-and-instances#provisioning-reserved-capacity-and-instances)            | Provision reserved capacity and instances with various options |
-|[Provisioning dedicated hosts and instances](/docs/virtual-servers?topic=virtual-servers-provisioning-dedicated-hosts-instances)| Provision private instances or dedicated instances on dedicated hosts.|
+|[Provisioning dedicated hosts and instances](/docs/virtual-servers?topic=virtual-servers-provisioning-dedicated-instances)| Provision private instances or dedicated instances on dedicated hosts.|
 {: caption="Table 2. Provisioning information" caption-side="top"}
 
 
