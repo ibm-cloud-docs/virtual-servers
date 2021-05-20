@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2020
+  years: 2020, 2021
 lastupdated: "2020-08-25"
 
-keywords: infrastructure, monitoring
+keywords: virtual server monitoring, monitoring
 
 subcollection: virtual-servers
 
