@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019, 2020
-lastupdated: "2020-03-23"
+  years: 2017, 2021
+lastupdated: "2021-05-20"
 
 keywords: virtual server, dedicated server, {{site.data.keyword.cloud}}, {{site.data.keyword.cloud_notm}}
 
@@ -21,7 +21,7 @@ subcollection: virtual-servers
 # Provisioning dedicated hosts and instances
 {: #provisioning-dedicated-hosts-instances}
 
-You can provision your dedicated instances through the {{site.data.keyword.cloud}} catalog. See [Signing up for {{site.data.keyword.cloud_notm}}](/docs/account?topic=account-account-getting-started#signup) to set up your {{site.data.keyword.cloud_notm}} catalog credentials.
+You can provision your dedicated instances through the {{site.data.keyword.cloud}} catalog. See [Signing up for {{site.data.keyword.cloud_notm}}](/docs/account?topic=account-account-getting-started) to set up your {{site.data.keyword.cloud_notm}} catalog credentials.
 {:shortdesc}
 
 ## Provisioning a dedicated virtual server instance through the IBM Cloud catalog
@@ -37,7 +37,7 @@ To provision a dedicated virtual server instance through the {{site.data.keyword
      **Note**: For dedicated hosts, select **Specify Host** or **Create Host**. For more information about dedicated hosts and dedicated host instances, see [Dedicated virtual servers](/docs/virtual-servers?topic=virtual-servers-dedicated-virtual-servers).
 
   5. Complete all of the relevant information for your dedicated virtual server instance.
-  6. After you review your order summary, click the **Third-Party Service Agreements** check box.
+  6. After you review your order summary, click the **Third-Party Service Agreements** checkbox.
   7. Click **Provision**.
 
 ## Next steps
