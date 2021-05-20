@@ -29,14 +29,14 @@ These commands affect the connectivity of your server. Always manage network con
 
 You can check the current speed of your connection by running the following commands:
 
-    ```bash
+    ```
     # ethtool eth#   (eth1 for public, eth0 for private)
     ```
     {: pre}
 
 Output displays the current configurations for that connection:
 
-    ```bash
+    ```
     root@noc-training-linux [~]# ethtool eth1
     ```
     {: screen}
