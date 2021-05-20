@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "20201-05-19"
+lastupdated: "2021-05-19"
 
 keywords: manage virtual servers, power off, replicate, manage device, reload os, delete server, manage server
 
