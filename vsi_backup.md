@@ -1,35 +1,4 @@
 ---
-
-copyright:
-  years: 2017, 2021
-lastupdated: "2021-05-19"
-
-keywords: IBM cloud backup, R1Soft, R1Soft Continuous Data Protection
-
-subcollection: virtual-servers
-
----
-
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:external: target="_blank" .external}
-
-# Backup services
-{: #backup-services}
-
-## IBM Cloud Backup
-{: #ibm-cloud-backup}
-
-{{site.data.keyword.backup_full}} is an automated agent-based backup system that is managed through the {{site.data.keyword.backup_notm}} WebCC browser-based management utility, providing users with a method to back up data between servers in one or more data centers on the {{site.data.keyword.BluSoftlayer}} network.  Administrators can set backups to follow an hourly, daily, weekly, or custom schedule that targets full systems, specific directories, or even individual files.  Extra plug-ins allow for compatibility with software like Microsoft Exchange and Microsoft SQL, and other types of third-party software to perform a Bare Metal Restore, when necessary.
-
-For more information about {{site.data.keyword.backup_notm}} services, see [Getting Started with {{site.data.keyword.backup_notm}} services](/docs/Backup?topic=Backup-getting-started).
-
-## R1Soft ---
-
 copyright:
   years: 2017, 2021
 lastupdated: "2021-05-19"
