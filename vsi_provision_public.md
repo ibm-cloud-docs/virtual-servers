@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-10-31"
+  years: 2017, 2021
+lastupdated: "2021-05-20"
 
 subcollection: virtual-servers
 
@@ -17,6 +17,7 @@ subcollection: virtual-servers
 {:new_window: target="_blank"}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
 
 # Provisioning public instances
 {: #ordering-vs-public}
@@ -34,9 +35,9 @@ Before you begin, review the following prerequisites.
 
   1. Review the deployment options available to you. For more information, see [Public virtual servers](/docs/virtual-servers?topic=virtual-servers-about-public-virtual-servers#about-public-virtual-servers).
 
-  2. Review virtual server instance capacity considerations.  For more information, see [Resource considerations for virtual server instances](/docs/virtual-servers?topic=virtual-servers-capacity-considerations#capacity-considerations).
+  2. Review virtual server instance capacity considerations. For more information, see [Resource considerations for virtual server instances](/docs/virtual-servers?topic=virtual-servers-capacity-considerations#capacity-considerations).
   
-  3. Open the [virtual server instance ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/gen1/infrastructure/provision/vs?cm_sp=Cloud-Product-_-OnPageNav-IBMCloudPlatform_IBMVirtualMachines-_-VSI_Prod_Midpage){: new_window} page from the {{site.data.keyword.cloud_notm}} console.
+  3. Open the virtual server instance page from the {{site.data.keyword.cloud_notm}} console.
 
 ## Provisioning a public virtual server instance  
 {: #ordering-public-instance}
@@ -52,8 +53,8 @@ You must be logged in to see all available options.
 | Field    | Details     |
 | -------- | ----------- |
 | Billing  | Depending on your virtual server instance, you can select either hourly or monthly billing. The primary difference, other than cost, is that hourly instances don't have an included bandwidth allocation. At the end of a billing period, the bandwidth usage and the number of hours that each instance was active on the account are calculated. For example, if you cancel an hourly instance after 10 days, you pay for only the hours for those 10 days. If you cancel a monthly instance after 10 days, you pay for the whole month. If you're interested in the suspend billing feature, which is only available on hourly instances, see [About suspend billing](/docs/virtual-servers?topic=virtual-servers-requirements). |
-| Hostname | Can contain labels that are made of alphanumeric characters and dashes, separated by periods. Labels cannot be numeric only, begin or end with a dash, nor have consecutive dashes or periods. |
-| Domain | Must have two or more labels that can be made of alphanumeric characters and dashes, separated by periods. Labels can't begin or end with a dash, or have consecutive dashes or periods. The last label must be letters only. |
+| Hostname | Can contain labels that are made of alphanumeric characters and dashes, which are separated by periods. Labels cannot be numeric only, begin or end with a dash, nor have consecutive dashes or periods. |
+| Domain | Must have two or more labels that can be made of alphanumeric characters and dashes, which are separated by periods. Labels can't begin or end with a dash, or have consecutive dashes or periods. The last label must be letters only. |
 | Placement group | You can select a placement group for your instance. If you add a placement group, the "spread" rule means that the instances are on different physical hardware. For more information, see [Placement groups](/docs/virtual-servers?topic=virtual-servers-placement-groups). |
 | Location  | Locations are composed of regions (specific geographic areas) and zones (fault tolerant data centers within a region). Select the location where you want your virtual server instance to be created. |
 | Popular profiles | Consider selecting from popular profile configurations that support most common use cases. Profiles contain preconfigured instances that are ready to use in a matter of minutes. |
@@ -73,7 +74,7 @@ Depending on your instance billing type (hourly or monthly), some add-ons might 
 
 | Field     | Details     |
 | --------- | ----------- |
-| OS add-ons | If you select monthly billing, you can select the following image add-ons:<br><br> **R1Soft Server Backup Manager** provides high-performance disk-to-disk server backup and a central management and data repository. If you select the R1Soft add-on, you must purchase an R1Soft Backup Agent pack, which is a CDP add-on in the **Services** section. Selecting one without the other causes an error with your order. For more information about R1Soft and IBM Cloud, see [R1Soft Server Backup Manager ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/cloud/backup-and-restore?mhq=R1Soft%20Server%20Backup%20Manager&mhsrc=ibmsearch_a){: new_window}.<br><br>**Veeam Backup and Replication** combines automated backup along with restore and replication capabilities. Veeam also provides advanced monitoring, reporting, and capacity planning. For more information about Veeam Backup and Replication, see this [Veeam overview](/docs/vmwaresolutions?topic=vmwaresolutions-veeam_considerations).<br><br>**VMware vCenter** automates deployment of the underlying VMware vSphere and VMware vCenter Server layers that you need for a flexible and customizable VMware solution. For more information about vCenter on IBM Cloud, see [About vCenter Server on IBM Cloud ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/downloads/cas/L7RKPZND?mhq=vmware%20vcenter&mhsrc=ibmsearch_a){: new_window}.|
+| OS add-ons | If you select monthly billing, you can select the following image add-ons:<br><br> **R1Soft Server Backup Manager** provides high-performance disk-to-disk server backup and a central management and data repository. If you select the R1Soft add-on, you must purchase an R1Soft Backup Agent pack, which is a CDP add-on in the **Services** section. Selecting one without the other causes an error with your order. For more information about R1Soft and IBM Cloud, see [R1Soft Server Backup Manager](https://www.ibm.com/cloud/backup-and-restore?mhq=R1Soft%20Server%20Backup%20Manager&mhsrc=ibmsearch_a){: external}.<br><br>**Veeam Backup and Replication** combines automated backup along with restore and replication capabilities. Veeam also provides advanced monitoring, reporting, and capacity planning. For more information about Veeam Backup and Replication, see [Veeam overview](/docs/vmwaresolutions?topic=vmwaresolutions-veeam_considerations).<br><br>**VMware vCenter** automates deployment of the underlying VMware vSphere and VMware vCenter Server layers that you need for a flexible and customizable VMware solution. For more information about vCenter on IBM Cloud, see [About vCenter Server on IBM Cloud ](https://www.ibm.com/downloads/cas/L7RKPZND?mhq=vmware%20vcenter&mhsrc=ibmsearch_a){: external}.|
 | Control panel software | If you select monthly billing, you can add a control panel for web hosting. |
 | Database software      | You can select a database software to install. {{site.data.keyword.cloud_notm}} supports any database software that is deployed during the provisioning process. You can also install your own database software after the server is deployed. |
 | Services | Some services are automatically selected for you, depending on your billing and image selections. You can choose from any of the remaining service add-ons for your instance. |
@@ -91,7 +92,7 @@ If you need extra storage, you can attach storage disks to your instance. The ty
 
 | Field    | Details     |
 | -------- | ----------- |
-| Uplink port speeds | You can select the uplink speed for your instance, up to 1 Gbps. These virtual uplinks are backed by redundant physical uplinks to the IBM public and dedicated networks. The public and dedicated speed is always the same at the time of order, with the option to upgrade or downgrade a link if needed. If you select the 100 Mbps rate-limited option, the maximum instance throughput is limited only by the physical bandwidth available to the virtual server host. If you select the 1 Gbps non rate-limited option, you can achieve higher network performance through additional configuration. For more information, see [Configuring virtual server settings for improved network performance](/docs/virtual-servers?topic=virtual-servers-configuring-network-performance). |
+| Uplink port speeds | You can select the uplink speed for your instance, up to 1 Gbps. These virtual uplinks are backed by redundant physical uplinks to the IBM public and dedicated networks. The public and dedicated speed is always the same at the time of order, with the option to upgrade or downgrade a link if needed. If you select the 100 Mbps rate-limited option, the maximum instance throughput is limited only by the physical bandwidth available to the virtual server host. If you select the 1 Gbps non rate-limited option, you can achieve higher network performance through extra configuration. For more information, see [Configuring virtual server settings for improved network performance](/docs/virtual-servers?topic=virtual-servers-configuring-network-performance). |
 | Private and public security group  | You can use security groups to enact a set of IP filter rules that define how to handle incoming and outgoing traffic to both the public and private interfaces your instance. For more information, see [About IBM Security Groups](/docs/security-groups?topic=security-groups-about-ibm-security-groups). |
 | Private and public VLAN | Your virtual server instance is placed on an automatically assigned VLAN by default. You can choose a different VLAN if you already have one in your selected data center. For more information, see [About VLANs](/docs/vlans?topic=vlans-about-vlans). |
 | Private and public subnet | Selecting a subnet is optional and to be used only when you require your device to use an IP address from the subnet. If you select a subnet, verify that you have enough IP addresses to fulfill the request. If you do not have enough IP addresses for your subnet, your order can be delayed or canceled. For more information, see [About subnets and IPs](/docs/subnets?topic=subnets-about-subnets-and-ips#about-subnets-and-ips). |
@@ -105,9 +106,9 @@ If you need extra storage, you can attach storage disks to your instance. The ty
 | Bandwidth | 250 GB are included with monthly instances that have a public uplink. You can purchase larger allocations at a reduced cost compared to the overage rate. |
 | Hardware and software firewalls  | Firewall services prevent unwanted traffic on your servers, reduce the likelihood of an attack, and allow your server resources to be dedicated for their intended use. |
 | Primary IP address | A primary IP address is automatically assigned to your instance. |
-| Public secondary IP addresses | These subnets are owned by you for the duration of your virtual server instance. You can cancel the subnet separately, but if you cancel your instance, the subnet is also removed. For more information, see [About subnets and IPs](/docs/subnets?topic=subnets-about-subnets-and-ips#about-subnets-and-ips). |
+| Public secondary IP addresses | These subnets are owned by you during your virtual server instance ownership. You can cancel the subnet separately, but if you cancel your instance, the subnet is also removed. For more information, see [About subnets and IPs](/docs/subnets?topic=subnets-about-subnets-and-ips#about-subnets-and-ips). |
 | IPv6 and public static IPv6 addresses | You can select an IPv6 address or public static IPv6 addresses for your instance. |
-| VPN management | This option is automatically selected for your instance with unlimited SSL VPN users. For more information, see [About VPN](/docs/iaas-vpn?topic=iaas-vpn-about-iaas-vpn). |
+| VPN management | This option is automatically selected for your instance with unlimited SSL VPN users. For more information, see [About VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started). |
 {: caption="Table 4. Network interface add-ons" caption-side="top"}
 
 ## Next steps
