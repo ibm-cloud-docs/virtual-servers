@@ -95,7 +95,6 @@ Virtual Servers for Classic
         vsi_managing.md
         vsi_interact_device_snapshot_view.md
         add-provisioning-script.md
-        vsi_vulnerability_scans.md
         vsi_viewing_suspend.md
 
     {: .topicgroup}
