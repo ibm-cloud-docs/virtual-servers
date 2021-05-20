@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-06-04"
+  years: 2017, 2021
+lastupdated: "2021-05-20"
 
 subcollection: virtual-servers
 
@@ -20,7 +20,7 @@ subcollection: virtual-servers
 # Firewalls
 {: #virtual-server-security-options}
 
-With {{site.data.keyword.BluVirtServers}}, you have several firewall options that provide an essential security layer.  The firewall options are provisioned on demand, without service interruptions. The firewall services prevent unwanted traffic from hitting your servers, reducing the likelihood of an attack and allowing your server resources to be dedicated for their intended use.
+With {{site.data.keyword.BluVirtServers}}, you have several firewall options that provide an essential security layer. The firewall options are provisioned on demand, without service interruptions. The firewall services prevent unwanted traffic from reaching your servers, reducing the likelihood of an attack, and by allowing your server resources to be dedicated for their intended use.
 {:shortdesc}
 
 Firewalls are available as an add-on feature for all servers on the Infrastructure public network.
