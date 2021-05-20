@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-02-22"
+  years: 2014, 2021
+lastupdated: "2021-05-20"
 
 subcollection: virtual-servers
 
@@ -18,6 +18,6 @@ subcollection: virtual-servers
 # Configuring SSH keys
 {: #configuring-ssh-keys}
 
-The Secure Socket Shell (SSH) protocol is part of the operating system installed on the server. You have several configuration options available, such as configuring ports and restricting access. You can also manage SSH keys.
+The Secure Socket Shell (SSH) protocol is part of the operating system that is installed on the server. You have several configuration options available, such as configuring ports and restricting access. You can also manage SSH keys.
 
 For more information about your SSH options, see [Getting started with SSH keys](/docs/ssh-keys?topic=ssh-keys-getting-started-tutorial).
