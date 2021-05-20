@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-09-16"
+  years: 2017, 2021
+lastupdated: "2021-05-20"
 
 subcollection: virtual-servers
 
@@ -13,7 +13,7 @@ subcollection: virtual-servers
 {:note: .note}
 {:important: .important}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:tip: .tip}
 {:table: .aria-labeledby="caption"}
@@ -32,11 +32,11 @@ For the {{site.data.keyword.cloud_notm}} console, you must have an upgraded acco
 
 Before you begin, review the following prerequisites.
 
-  1. Review the deployment options available to you. For more information, see [Transient virtual servers](/docs/virtual-servers?topic=virtual-servers-about-vs-transient).
+  1. Review the deployment options that are available to you. For more information, see [Transient virtual servers](/docs/virtual-servers?topic=virtual-servers-about-vs-transient).
 
   2. Review virtual server instance capacity considerations.  For more information, see [Resource considerations for virtual server instances](/docs/virtual-servers?topic=virtual-servers-capacity-considerations#capacity-considerations).
   
-  3. Open the [virtual server instance ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/gen1/infrastructure/provision/vs?guestType=transient&cm_sp=Cloud-Product-_-OnPageNav-IBMCloudPlatform_IBMVirtualMachines-_-VSI_Prod_Midpage){: new_window} page from the {{site.data.keyword.cloud_notm}} console.
+  3. Open the [virtual server instance](https://cloud.ibm.com/gen1/infrastructure/provision/vs?guestType=transient&cm_sp=Cloud-Product-_-OnPageNav-IBMCloudPlatform_IBMVirtualMachines-_-VSI_Prod_Midpage){: external} page from the {{site.data.keyword.cloud_notm}} console.
 
 ## Provisioning a transient virtual server instance
 {: #ordering-transient-instance}
@@ -52,8 +52,8 @@ You must be logged in to see all available options.
 | Field    | Details     |
 | -------- | ----------- |
 | Billing  | Transient instances are only available as hourly instances. If you cancel your hourly instance after 10 days, you pay for only the hours for those 10 days. |
-| Hostname | Can contain labels that are made of alphanumeric characters and dashes, separated by periods. Labels cannot be numeric only, begin or end with a dash, nor have consecutive dashes or periods. |
-| Domain | Must have two or more labels that can be made of alphanumeric characters and dashes, separated by periods. Labels can't begin or end with a dash, or have consecutive dashes or periods. The last label must be letters only. |
+| Hostname | Can contain labels that are made of alphanumeric characters and dashes, which are separated by periods. Labels cannot be numeric only, begin or end with a dash, nor have consecutive dashes or periods. |
+| Domain | Must have two or more labels that can be made of alphanumeric characters and dashes, which are separated by periods. Labels can't begin or end with a dash, or have consecutive dashes or periods. The last label must be letters only. |
 | Placement group | You can select a placement group for your instance. If you add a placement group, the "spread" rule means that the instances are on different physical hardware. For more information, see [Placement groups](/docs/virtual-servers?topic=virtual-servers-placement-groups). |
 | Location  | Locations are composed of regions (specific geographic areas) and zones (fault tolerant data centers within a region). Select the location where you want your instance to be created. |
 | Popular profiles | Consider selecting from popular profile configurations that support most common use cases. Profiles contain preconfigured instances that are ready to use in a matter of minutes. |
@@ -65,7 +65,7 @@ You must be logged in to see all available options.
 ### Transient instance add-ons
 {: #transient-instance-add-ons}
 
-If you choose any software add-ons, they must be compatible with your image to avoid an error when you are ordering your instance. For example, you can’t provision a RedHat image with a Microsoft database.
+If you choose any software add-ons, they must be compatible with your image to avoid an error when you are ordering your instance. For example, you can’t provision a Red Hat image with a Microsoft database.
 {:important}
 
 | Field     | Details     |
@@ -73,7 +73,7 @@ If you choose any software add-ons, they must be compatible with your image to a
 | Database software      | You can select a database software to install. {{site.data.keyword.cloud_notm}} supports any database software that is deployed during the provisioning process. You can also install your own database software after the server is deployed. |
 | Services | Some services are automatically selected for you, depending on image selection. You can choose from any of the remaining service add-ons for your instance. |
 | Provision script | Provisioning scripts are commonly used to apply a customer-specific configuration to a server and to aid in automation of your scaling strategy. Provisioning scripts can be any file that the operating system (OS) can run, including combined binary files or any OS-supported language. Provisioning scripts can't be used on cloud-init images. For more information, see [Provisioning scripts](/docs/virtual-servers?topic=virtual-servers-provisioning-scripts). |
-| User data        | You can add user data that automatically performs common configuration tasks or runs scripts. User data can be used on cloud-init and non-cloud-init images.  |
+| User data        | You can add user data that automatically performs common configuration tasks or runs scripts. User data can be used on cloud-init and non-cloud-init images. |
 {: caption="Table 2. Transient instance add-ons" caption-side="top"}
 
 ### Attached storage disks
@@ -86,7 +86,7 @@ If you need extra storage, you can attach storage disks to your instance. The ty
 
 | Field    | Details     |
 | -------- | ----------- |
-| Uplink port speeds | You can select the uplink speed for your instance, up to 1 Gbps. These virtual uplinks are backed by redundant physical uplinks to the IBM public and dedicated networks. The public and dedicated speed is always the same at the time of order, with the option to upgrade or downgrade a link if needed. If you select the 100 Mbps rate-limited option, the maximum instance throughput is limited only by the physical bandwidth available to the virtual server host. If you select the 1 Gbps non rate-limited option, you can achieve higher network performance through additional configuration. For more information, see [Configuring virtual server settings for improved network performance](/docs/virtual-servers?topic=virtual-servers-configuring-network-performance). |
+| Uplink port speeds | You can select the uplink speed for your instance, up to 1 Gbps. These virtual uplinks are backed by redundant physical uplinks to the IBM public and dedicated networks. The public and dedicated speed is always the same at the time of order, with the option to upgrade or downgrade a link if needed. If you select the 100 Mbps rate-limited option, the maximum instance throughput is limited only by the physical bandwidth available to the virtual server host. If you select the 1 Gbps non rate-limited option, you can achieve higher network performance through extra configuration. For more information, see [Configuring virtual server settings for improved network performance](/docs/virtual-servers?topic=virtual-servers-configuring-network-performance). |
 | Private and public security group  | You can use security groups to enact a set of IP filter rules that define how to handle incoming and outgoing traffic to both the public and private interfaces your instance. For more information, see [About IBM Security Groups](/docs/security-groups?topic=security-groups-about-ibm-security-groups). |
 | Private and public VLAN | Your virtual server instance is placed on an automatically assigned VLAN by default. You can choose a different VLAN if you already have one in your selected data center. For more information, see [About VLANs](/docs/vlans?topic=vlans-about-vlans). |
 | Private and public subnet | Selecting a subnet is optional and to be used only when you require your device to use an IP address from the subnet. If you select a subnet, verify that you have enough IP addresses to fulfill the request. If you do not have enough IP addresses for your subnet, your order can be delayed or canceled. For more information, see [About subnets and IPs](/docs/subnets?topic=subnets-about-subnets-and-ips#about-subnets-and-ips). |
@@ -100,12 +100,12 @@ If you need extra storage, you can attach storage disks to your instance. The ty
 | Bandwidth | Bandwidth allocation is not included with transient virtual server instances. |
 | Hardware and software firewalls  | Firewall services prevent unwanted traffic on your servers, reduce the likelihood of an attack, and allow your server resources to be dedicated for their intended use. |
 | Primary IP address | A primary IP address is automatically assigned to your instance. |
-| Public secondary IP addresses | These subnets are owned by you for the duration of your virtual server instance. You can cancel the subnet separately, but if you cancel your instance, the subnet is also removed. For more information, see [About subnets and IPs](/docs/subnets?topic=subnets-about-subnets-and-ips#about-subnets-and-ips). |
+| Public secondary IP addresses | These subnets are owned by you during your virtual server instance ownership. You can cancel the subnet separately, but if you cancel your instance, the subnet is also removed. For more information, see [About subnets and IPs](/docs/subnets?topic=subnets-about-subnets-and-ips#about-subnets-and-ips). |
 | IPv6 and public static IPv6 addresses | You can select an IPv6 address or public static IPv6 addresses for your instance. |
-| VPN management | This option is automatically selected for your instance with unlimited SSL VPN users. For more information, see [About VPN](/docs/iaas-vpn?topic=iaas-vpn-about-iaas-vpn). |
+| VPN management | This option is automatically selected for your instance with unlimited SSL VPN users. For more information, see [About VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started). |
 {: caption="Table 4. Network interface add-ons" caption-side="top"}
 
-You can also provision a transient virtual server by using the {{site.data.keyword.slapi_short}}. For an example, see [Provisioning a transient instance using Create Object](/docs/virtual-servers?topic=virtual-servers-api-rest-public#api-rest-transient).
+You can also provision a transient virtual server by using the {{site.data.keyword.slapi_short}}. For an example, see [Provisioning a transient instance with Create Object](/docs/virtual-servers?topic=virtual-servers-api-rest-public#api-rest-transient).
 {:tip}
 
 ## Next steps
