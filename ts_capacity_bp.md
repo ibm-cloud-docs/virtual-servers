@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-05-18"
+lastupdated: "2021-06-21"
 
-keywords: insufficient capacity to complete the request
+keywords: troubleshoot virtual server, virtual servers troubleshooting, tips, error, problem, insufficient capacity to complete the request
 
 subcollection: virtual-servers
 
@@ -14,16 +14,204 @@ subcollection: virtual-servers
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:note: .note}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
+{:support: data-reuse='support'}
 {:pre: .pre}
 {:tip: .tip}
 {:table: .aria-labeledby="caption"}
+{:important: .important}
+{:tsSymptoms: .tsSymptoms}
+{:tsCauses: .tsCauses}
+{:tsResolve: .tsResolve}
+{:troubleshoot: data-hd-content-type='troubleshoot'}
 
+# Troubleshooting your virtual server
+{: #troubleshooting-virtual-server}
 
-# Resource considerations for virtual server instances
+The following topics cover common difficulties that you might encounter, and offers some helpful tips.
+
+## Why can't I log in to a virtual server through SSH?
+{: #troubleshoot-vs-cannot-ssh-into-server}
+{: troubleshoot}
+{: support} 
+
+If you can't log in to a server through SSH, it might be caused by one of the following reasons.
+
+* [Remote logins through SSH for root are disabled](#remote-ssh-logins-disabled)
+* [Port not configured for SSH](#port-number-configuration)
+* [Firewall is blocking SSH traffic](#firewall-blocking-ssh-traffic)
+* [Security group is blocking SSH traffic](#security-group-blocking-ssh-traffic)
+
+### Remote logins through SSH for root are disabled
+{: #remote-ssh-logins-disabled}
+
+Remote logins through SSH for root might be disabled in the SSH configuration (_/etc/ssh/sshd_config_) of your server. Use the following instructions to enable SSH for root login.
+
+For security reasons, it is recommended that you don't enable root for remote SSH logins. Instead, create a non-root user for remote SSH login.
+{: important} 
+
+1. Log in to KVM IPMI console for your virtual server. 
+2. As root, edit the _sshd_config_ file in _/etc/ssh/sshd_config_ 
+  `nano /etc/ssh/sshd_config`
+3. Add a line in the **Authentication** section of the file that says _PermitRootLogin yes_. This line might exist and be commented out with a "#". In this example, remove the "#".
+
+  
+`#LoginGraceTime 2m`    
+`PermitRootLogin yes`   
+`#StrictModes yes`   
+`#MaxAuthTries 6`    
+`#MaxSessions 10`      
+Save the updated /etc/ssh/sshd_config file.    
+
+Restart sshd service on an Ubuntu or Debian Linux by using the following command:    
+*sudo systemctl restart ssh.service*  
+RHEL and CentOS Linux users, run the following command:  
+*sudo systemctl restart sshd.service* 
+
+### Port not configured for SSH
+{: #port-number-configuration}
+
+Check the port number that is configured for SSH in the _/etc/ssh/sshd_config_ file. By default, SSH is configured with port 22. However, for security reasons, your administrator might change the port.
+
+### Firewall is blocking SSH traffic
+{: #firewall-blocking-ssh-traffic}
+
+SSH port traffic might be blocked by your firewall. For more information, see [Allowing SSH and pinging to a public subnet](https://cloud.ibm.com/docs/vsrx?topic=vsrx-allowing-ssh-and-pinging-to-a-public-subnet).
+
+### Security group is blocking SSH traffic
+{: #security-group-blocking-ssh-traffic}
+
+If you use a security group to protect your virtual servers, you need to allow SSH traffic. For more information, [Creating security groups and rules](https://cloud.ibm.com/docs/security-groups?topic=security-groups-creating-security-groups).
+
+## Why is my server not responding? (server not pinging)
+{: #troubleshoot-vs-device-not-responding}
+{: troubleshoot}
+{: support} 
+
+If you can't access your server, you can use the following prechecks to help get a response.
+
+* Try to access the server through the KVM IPMI console.  
+* If you can't access the server through the KVM IPMI console, then the ping traffic might be blocked by your firewall or gateway (Vyatta, AT&T, Juniper, Fortigate). Ask your administrator to check the firewall rules. For help with setting up firewall rules, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).  
+* If you're using security group, you need to allow ICMP traffic. For more information, see [Creating security groups and rules](https://cloud.ibm.com/docs/security-groups?topic=security-groups-creating-security-groups).  
+
+## Why can't I access KVM through a browser?
+{: #troubleshoot-vs-KVM-not-accessible-browser}
+{: troubleshoot}
+{: support}
+
+If you can't access KVM through a browser, it might be caused by one of the following reasons.
+
+* [Browser or Java needs updating](#update-browser-and-java)
+* You need to [install TightVNC viewer](#install-tightVNC-viewer)
+
+### Browser or Java needs updating
+{: #update-browser-and-java}
+
+If you can't access KVM through your browser, you might need to update your browser and or Java. Update your browser and Java and try to access KVM.
+
+### You need to install TightVNC viewer
+{: #install-tightVNC-viewer}
+
+If you still can't access KVM, you need to install TightVNC viewer. For more information about installing TightVNC viewer, see [How to connect to KVM console of {{site.data.keyword.BluVirtServers}}](https://www.ibm.com/support/pages/how-connect-kvm-console-ibm-cloud-virtual-servers). 
+
+If you still can't access KVM, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+
+## Why isn't RDP working?
+{: #troubleshoot-vs-RDP-not-working}
+{: troubleshoot}
+{: support}
+
+If you can access your server through KVM, but RDP isn't working, it might be caused by one of the following reasons. 
+
+* [Blocked RDP traffic](#blocked-RDP-traffic)
+* [Inadequate client access licenses](#inadequate-client-access-licenses)
+* [Pending Windows updates](#pending-windows-updates)
+* [A security group is blocking RDP traffic](#security-group-blocking-rdp-traffic)
+
+### RDP traffic is blocked
+{: #blocked-RDP-traffic}
+
+RDP traffic (port 3389) might be blocked by the Windows firewall, firewall, or gateway (Vyatta, AT&T, Juniper, Fortigate). Check that your firewall allows RDP port 3389.
+
+### The server has inadequate client access licenses
+{: #inadequate-client-access-licenses}
+
+RDP might not work because of inadequate client access licenses that are installed on the server. For more information, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+
+### The server has pending Windows updates
+{: #pending-windows-updates}
+
+If your server has pending Windows updates, install the latest updates, restart the server, and try to access RDP.  
+
+### RDP traffic is block by a security group
+{: #security-group-blocking-rdp-traffic}
+
+If you're using a security group, make sure that you allow RDP (port 3389) traffic. For more information, see [Creating security groups and rules](https://cloud.ibm.com/docs/security-groups?topic=security-groups-creating-security-groups).
+
+## Why can't I connect to a server through the public IP?
+{: #troubleshoot-vs-cannot-connect-public-ip}
+{: troubleshoot}
+{: support}
+
+Public traffic might be blocked by your firewall or gateway (Vyatta, AT&T, Juniper, Fortigate). 
+
+If the firewall isn't an issue, check whether the public gateway IP is configured for the public network card and try pinging the public gateway. For more help, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+
+## Why is the internet disconnected?
+{: #troubleshoot-vs-internet-disconnected}
+{: troubleshoot}
+{: support}
+
+If your internet is disconnected, it might be caused by one of the following reasons.
+
+* [Internet is blocked by firewall or gateway](#internet-blocked-by-firewall-or-gateway)
+* [Public gateway IP configuration](#public-gateway-ip-configuration)
+* [No ping from DNS servers](#ping-DNS-servers)
+
+### Internet is blocked by firewall or gateway
+{: #internet-blocked-by-firewall-or-gateway}
+
+If you can't access the internet, your internet access might be blocked by your firewall or gateway (Vyatta, AT&T, Juniper, Fortigate).
+
+### Public gateway IP isn't configured for the network card
+{: #public-gateway-ip-configuration}
+
+If firewall is not an issue, check whether the public gateway IP is configured for the public network card and try pinging the public gateway. For more help, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+
+### No ping from DNS servers
+{: #ping-DNS-servers}
+
+Check whether you can ping IBM DNS servers (_10.0.80.11_, _10.0.80.12_), if you configured DNS servers for the public network card.
+
+If you have Linux servers, add the following entries in the _/etc/resolv.conf_ file:<br>
+`nameserver 10.0.80.11` and `nameserver 10.0.80.12` 
+
+## Why does the portal show that my server is disconnected even though it's running?
+{: #troubleshoot-vs-portal-shows-server-disconnected-but-running}
+{: troubleshoot}
+{: support}
+
+If your portal shows that the server is disconnected, but the server is running, it might be caused by one of the following reasons.
+
+* [Your firewall or gateway rules are blocking ping](#firewall-or-gateway-rules-blocking-ping)
+* [A security group is blocking ping](#security-group-blocking-ping)
+
+### Firewall or gateway rules are blocking the ping
+{: #firewall-or-gateway-rules-blocking-ping}
+
+If your firewall or gateway (Vyatta, AT&T, Juniper, Fortigate) blocks ping traffic, then the status of your servers shows "disconnected" in the portal. Check that your firewall rules allow ping traffic from {{site.data.keyword.cloud}} IP ranges. For more information, see [{{site.data.keyword.cloud}} IP ranges](https://cloud.ibm.com/docs/security-groups?topic=hardware-firewall-dedicated-ibm-cloud-ip-ranges).
+
+### Security group is blocking the ping
+{: #security-group-blocking-ping}
+
+If you're using a security group, make sure that you allow ping traffic from the {{site.data.keyword.cloud}} IP ranges. For more information, see [Creating security groups and rules](https://cloud.ibm.com/docs/security-groups?topic=security-groups-creating-security-groups)
+
+## Resource considerations for virtual server instances
 {: #capacity-considerations}
+{: troubleshoot}
+{: support}
 
-## What's happening
+### What's happening
 {: #what-s-happening}
 
 When you provision a virtual server, you might receive the following error message:
@@ -36,13 +224,13 @@ Insufficient capacity to complete the request.
 When provisioning fails, all the virtual server instances within that particular request fail.
 {:tip}
 
-## Why it's happening
-{: #why-it-s-happening}
+### Why it's happening
+{: #why-error}
 
 An error occurs when the router or data center has insufficient available resources to fulfill the service request. Resource availability changes frequently, so you might wait and try again later.
 
-## How to fix it
-{: #how-to-fix-it}
+### How to fix it
+{: #how-to-fix-error}
 
 You can attempt to provision again by using the following strategies:
 
