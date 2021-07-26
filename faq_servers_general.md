@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-05-18"
+lastupdated: "2021-07-26"
 
-keywords: server down, lost server password, cancel server, cvsup mirror
+keywords: server down, lost server password, cancel server, cvsup mirror, how do I cancel a virtual server, cancel virtual server, cancel vsi, virtual server faq
 
 subcollection: virtual-servers
 
@@ -57,20 +57,21 @@ For more help, see [Getting help and support](/docs/virtual-servers?topic=virtua
 ## Why can't I connect to the KVM console?
 {: #why-can-i-not-connect-to-the-kvm-console-}
 
-If you are unable to connect to the KVM console, review the following troubleshooting tips for help. If issues continue, contact support. For more information, see [Getting help and support](/docs/virtual-servers?topic=virtual-servers-gettinghelp#gettinghelp).
+If you are unable to connect to the KVM console, review the following troubleshooting tips for help. <!--If issues continue, contact support. For more information, see [Getting help and support](/docs/virtual-servers?topic=virtual-servers-gettinghelp#gettinghelp).-->
 
-   * The KVM console is a Java applet. Java must be installed before you access the console. For more information about installing Java, see [Free Java Download](https://www.java.com/en/download/){: external}.  
-   * If Java is installed, make sure that a connection is established by using the VPN. If a connection isn't established, a warning displays that a VPN connection is required.
-   * The KVM console might generate one or more pop-up boxes during the connection process. Allow pop-ups from the {{site.data.keyword.cloud_notm}} console so a connection can be made.
-   * You might receive an error `Java applications arehycuk blocked by your security settings.` For bare metal iKVM devices, you must add an exception for the IP address of the IPMI device. For virtual server instances, you need to allow "https://cloud.ibm.com" and the IP address of the KVM. For more information, see [Why are Java applications blocked by your security settings with the latest Java?](https://www.java.com/en/download/help/java_blocked.xml){: external}.
-   * If the previous conditions are met and you receive an error that states, `Missing required Permissions manifest in main.jar`, then Java applets are not enabled in the Java Control Panel. This setting was introduced as a security precaution from Oracle in Java SE v7. Enable applets in the Control Panel to resolve this issue.
+* Use a VNC viewer of your choice. As an example, you can use [TightVNC](https://www.tightvnc.com/docs.php){: external} for Windows or Linux or [TigerVNC](https://tigervnc.org/){: external} for Mac OSX, where you would input the KVM IP and port as `KVMIP::KVMPORT`.
 
-     If you are using Mac OSX with Google Chrome, see the Information and System Requirements for Installing and Using Mac Java 7 on the Java website.
-     {:note}
+* Make sure that a connection is established by using the VPN. If a connection isn't established, a warning displays that a VPN connection is required.
 
-   * If you are trying to connect to a virtual server instance through the standard Java applet and still experience errors, you can also try a VNC viewer of your choice. As an example, you can use [TightVNC](https://www.tightvnc.com/docs.php){: external} for Windows or Linux or [TigerVNC](https://tigervnc.org/){: external} for Mac OSX, where you would input the KVM IP and port as `KVMIP::KVMPORT`.
+* Check that the credentials for the device are valid. Contact the account administrator to verify credentials, if necessary.
 
-If you completed all of the previous checks and still can't to connect to the KVM console, [contact support](/docs/get-support?topic=get-support-using-avatar) for assistance. If a connection to the console was made but issues occur connecting to the device, check that the credentials for the device are valid. Contact the account administrator to verify credentials, if necessary.
+If you still can't to connect to the KVM console, [contact support](/docs/get-support?topic=get-support-using-avatar) for assistance. 
+   <!--* The KVM console is a Java applet. Java must be installed before you access the console. For more information about installing Java, see [Free Java Download](https://www.java.com/en/download/){: external}.-->
+<!--The KVM console might generate one or more pop-up boxes during the connection process. Allow pop-ups from the {{site.data.keyword.cloud_notm}} console so a connection can be made.-->
+   <!--* You might receive an error `Java applications arehycuk blocked by your security settings.` For bare metal iKVM devices, you must add an exception for the IP address of the IPMI device. For virtual server instances, you need to allow "https://cloud.ibm.com" and the IP address of the KVM. For more information, see [Why are Java applications blocked by your security settings with the latest Java?](https://www.java.com/en/download/help/java_blocked.xml){: external}.-->
+   <!--* If the previous conditions are met and you receive an error that states, `Missing required Permissions manifest in main.jar`, then Java applets are not enabled in the Java Control Panel. This setting was introduced as a security precaution from Oracle in Java SE v7. Enable applets in the Control Panel to resolve this issue.-->
+
+<!--If you are using Mac OSX with Google Chrome, see the Information and System Requirements for Installing and Using Mac Java 7 on the Java website.{:note}-->
 
 ## I lost my password to my server. How can I recover it?
 {: #i-lost-my-password-to-my-server-how-can-i-recover-it-}
@@ -84,7 +85,7 @@ If the root or administrator password to your server is suddenly not working, ch
 
 If still can't connect to the server by using the password, open a [support case](/docs/get-support?topic=get-support-using-avatar#getting-support) and request a password reset. Support needs to restart the server to reset the password, so prepare to approve the restart and set a maintenance timeframe for completion. Most password resets are completed in ~15 minutes. In the {{site.data.keyword.cloud_notm}} console, you can create a support case by going to **Support > Create a case** and use the subject *Accounts and access*.
 
-## How do I cancel a server or device?
+## How do I cancel a virtual server?
 {: #how-to-cancel-device}
 
 You can cancel a device at any time. Go to the [Device List](https://cloud.ibm.com/classic/devices). Click **Actions** for the device that you want to cancel, and select the cancel option from the menu. For more information, see the [Canceling virtual servers](/docs/virtual-servers?topic=virtual-servers-managing-virtual-servers#cancel).
