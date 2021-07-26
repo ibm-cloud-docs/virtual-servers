@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-07-19"
+lastupdated: "2021-07-26"
 
-keywords: manage virtual servers, power off, replicate, manage device, reload os, delete server, manage server
+keywords: manage virtual servers, power off, replicate, manage device, reload os, delete server, manage server, cancel virtual server, cancel device, cancel server, restart, reboot, rename
 
 subcollection: virtual-servers
 
@@ -65,7 +65,7 @@ Complete the following steps to perform management tasks for your servers.
 
 The following are relevant tasks that you can do from the **Actions** menu as described the previous steps.
 
-### Reboot
+### Rebooting a device
 {: #reboot}
 
 A reboot is one of the most basic device actions. Rebooting a device results in the immediate powering off and then back on of your device. Device reboots can take place from both the Device List and from the Device View of an individual device. Virtual Servers can be rebooted at any time.
@@ -73,17 +73,17 @@ A reboot is one of the most basic device actions. Rebooting a device results in 
 A reboot is helpful when you experience an issue in which the server cannot boot to the operating system because of a configuration issue.  You can also boot into rescue mode. After it boots into rescue mode, you can mount the drives of your server, and then fix the configuration issue. When the issue is fixed, reboot the server from the command line, and the server reboots into the default kernel for your server.
 {:tip}
 
-### Power On or Off
+### Powering a device On or Off
 {: #power-on-off}
 
 If the device is powered off, the device remains powered off and must be manually powered on by repeating the previous steps. Users can't interact with a powered off device. If the virtual server supports the suspend billing feature, billing is suspended for some compute resources. You can't complete all management actions on an instance until billing is resumed. For more information, see [Suspend billing](/docs/virtual-servers?topic=virtual-servers-requirements). To find out whether your virtual server instance supports the suspend billing feature, see [Viewing suspend billing feature](/docs/virtual-servers?topic=virtual-servers-viewing-suspend-billing-feature#viewing-suspend-billing-feature). If the device is powered on, normal interaction can take place. The device remains on until further action is taken.
 
-### Rename
+### Renaming a device
 {: #rename}
 
 After you rename a device, the name is automatically updated in the {{site.data.keyword.cloud_notm}} console. When a search is done within the {{site.data.keyword.cloud_notm}} console, use the new device name when you attempt to locate content that is associated with it. Repeat the previous steps to rename the device at any time.
 
-### KVM console
+### Connecting to the KVM console
 {: #kvm-console}
 
 The KVM console is a Java applet. Java must be installed before you can access the console. If Java is installed, make sure that a connection is established through the VPN. If a connection isn't established, a warning displays saying that a VPN connection is required. If you have connection issues with your KVM console, see [Why can I not connect to the KVM console?](/docs/virtual-servers?topic=virtual-servers-faqs-servers-general-#why-can-i-not-connect-to-the-kvm-console-).
@@ -91,7 +91,7 @@ The KVM console is a Java applet. Java must be installed before you can access t
 If you have issues with incompatible Java settings in your browser, you can alternatively use the TightVNC viewer. You must download and install TightVNC viewer for Windows 64-bit version. For more information, see [How to connect to KVM console of IBM Cloud Virtual Servers](https://www.ibm.com/support/pages/how-connect-kvm-console-ibm-cloud-virtual-servers){: external} from the Support Center.
 {:tip}
 
-### Cancel
+### Canceling a device
 {: #cancel}
 
 If you cancel a device, you end use of that device. Devices can be canceled immediately or on a billing anniversary. After you confirm the cancellation of your device, the action cannot be undone. Refunds can't be given for immediate cancellations.
