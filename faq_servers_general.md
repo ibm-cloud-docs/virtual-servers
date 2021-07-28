@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-07-26"
+lastupdated: "2021-07-28"
 
-keywords: server down, lost server password, cancel server, cvsup mirror, how do I cancel a virtual server, cancel virtual server, cancel vsi, virtual server faq
+keywords: server down, lost server password, cancel server, cvsup mirror, how do I cancel a device, cancel device, cancel server
 
 subcollection: virtual-servers
 
@@ -85,10 +85,10 @@ If the root or administrator password to your server is suddenly not working, ch
 
 If still can't connect to the server by using the password, open a [support case](/docs/get-support?topic=get-support-using-avatar#getting-support) and request a password reset. Support needs to restart the server to reset the password, so prepare to approve the restart and set a maintenance timeframe for completion. Most password resets are completed in ~15 minutes. In the {{site.data.keyword.cloud_notm}} console, you can create a support case by going to **Support > Create a case** and use the subject *Accounts and access*.
 
-## How do I cancel a virtual server?
+## How do I cancel a device?
 {: #how-to-cancel-device}
 
-You can cancel a device at any time. Go to the [Device List](https://cloud.ibm.com/classic/devices). Click **Actions** for the device that you want to cancel, and select the cancel option from the menu. For more information, see the [Canceling virtual servers](/docs/virtual-servers?topic=virtual-servers-managing-virtual-servers#cancel).
+You can cancel a device at any time. Go to the [Device List](https://cloud.ibm.com/classic/devices). Click **Actions** for the device that you want to cancel, and select the cancel option from the menu. For more information, see [Canceling virtual servers](/docs/virtual-servers?topic=virtual-servers-managing-virtual-servers#cancel).
 
 ## Are LVM partitions supported as a valid file system?
 {: #are-lvm-partitions-supported-as-a-valid-filesystem-}
