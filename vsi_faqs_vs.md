@@ -46,6 +46,11 @@ Estimating your cost for an {{site.data.keyword.cloud_notm}} server to support y
 
 After you provision a virtual server, you can upgrade or downgrade your server configuration at any time. For more information, see [Reconfiguring an existing virtual server](/docs/virtual-servers?topic=virtual-servers-reconfiguring-virtual-servers). If the item that you want to change is not available from the Device List, you can cancel and reorder or contact [IBM Cloud Sales](https://cloud.ibm.com/catalog?contactmodule) for assistance.
 
+## How do I cancel a virtual server?
+{: how-do-i-cancel-virtual-server}
+
+You can cancel a virtual server at any time. Go to the [Device List](https://cloud.ibm.com/classic/devices). Click **Actions** for the server that you want to cancel, and select the cancel option from the menu. For more information, see [Canceling virtual servers](/docs/virtual-servers?topic=virtual-servers-managing-virtual-servers#cancel).
+
 ## Can I add disk storage to my hourly or monthly virtual server?
 {: #can-i-add-disk-storage-to-my-hourly-or-monthly-virtual-server-}
 {: faq}
