@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2021
 lastupdated: "2021-07-26"
 
-keywords: manage virtual servers, power off, replicate, manage device, reload os, delete server, manage server, cancel virtual server, cancel device, cancel server, restart, reboot, rename
+keywords: manage virtual servers, power off, replicate, manage device, reload os, delete server, manage server, cancel virtual server, cancel device, cancel server, restart, reboot, rename, how do i cancel a virtual server
 
 subcollection: virtual-servers
 
@@ -22,14 +22,14 @@ subcollection: virtual-servers
 # Managing virtual servers
 {: #managing-virtual-servers}
 
-You can manage virtual servers, along with other devices, from the device details list.
+You can manage virtual servers, along with other devices, from the device details list. You can cancel, reboot, or rename a vitual server by using the following steps. 
 {:shortdesc}
 
 
 ## Before you begin
 {: #before-you-begin-managing-virtual-servers}
 
-First, go to the device menu and ensure you have the correct account permissions to complete the tasks.
+First, go to the device menu and make sure that you have the correct account permissions to complete the tasks.
 
 * Go to your console's device menu. For more information, see [Navigating to devices](/docs/virtual-servers?topic=virtual-servers-navigating-devices).
 * Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
@@ -91,10 +91,10 @@ The KVM console is a Java applet. Java must be installed before you can access t
 If you have issues with incompatible Java settings in your browser, you can alternatively use the TightVNC viewer. You must download and install TightVNC viewer for Windows 64-bit version. For more information, see [How to connect to KVM console of IBM Cloud Virtual Servers](https://www.ibm.com/support/pages/how-connect-kvm-console-ibm-cloud-virtual-servers){: external} from the Support Center.
 {:tip}
 
-### Canceling a device
+### Canceling a virtual server
 {: #cancel}
 
-If you cancel a device, you end use of that device. Devices can be canceled immediately or on a billing anniversary. After you confirm the cancellation of your device, the action cannot be undone. Refunds can't be given for immediate cancellations.
+If you cancel a virtual server or other device, you end use of that device. Devices can be canceled immediately or on a billing anniversary. After you confirm the cancellation of your device, the action cannot be undone. Refunds can't be given for immediate cancellations.
 
 After you confirm the cancellation, the device cancellation process begins. If an immediate cancellation was requested, the device is canceled immediately. If a billing anniversary cancellation was requested, the device remains active until the next billing anniversary. Upon its cancellation, the device no longer appears in the **Device List** on the {{site.data.keyword.cloud_notm}} console. Billing items are also removed from invoices when all outstanding balances are paid on the device, if any. For questions about a bill for a canceled device, [open a case](https://cloud.ibm.com/unifiedsupport/cases/add){: external} and select **Billing and usage** as the type of support needed. Refunds can't be given for immediate cancellations.
 
