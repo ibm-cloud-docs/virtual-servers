@@ -83,6 +83,7 @@ Virtual Servers for Classic
         how-are-server-ip-addresses-assigned-softlayer-network.md
 
     logging-in-to-console.md
+    vsi_kvm_console_connect.md
 
     {: .topicgroup}
     Managing permissions and access
