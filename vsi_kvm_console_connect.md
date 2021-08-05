@@ -37,7 +37,7 @@ The KVM console is a quick-and-easy way for you to configure and administer your
 
 1. Before you can access the KVM console of a virtual server, you must establish a VPN connection to the private network.
 
-  For more information about connecting to the VPN, see [Connecting to SSL VPN (Windows 7 and higher)](/docs/iaas-vpn?topic=iaas-vpn-connect-ssl-vpn-windows7) or [Connecting to an SSL VPN (MacOS)](/docs/iaas-vpn?topic=iaas-vpn-connect-ssl-vpn-mac-osx).
+  For more information about connecting to the VPN, see [Connecting to SSL VPN](/docs/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients).
 
 2. The virtual server must be powered on to get a KVM console connection started.
 
