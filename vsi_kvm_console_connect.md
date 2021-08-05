@@ -25,7 +25,7 @@ subcollection: virtual-servers
 
 You can now access the KVM console of your virtual servers from the {{site.data.keyword.cloud}} console.
 
-The KVM console feature is gradually coming all data centers. If your virtual servers don't have access to it now, try again later. You can also contact your IBM Sales representative for more information on the availability status of this feature.
+The KVM console feature is gradually coming to all data centers. If your virtual servers don't have access to it now, try again later. You can also contact your IBM Sales representative for more information on the availability status of this feature.
 {: note}
 
 The KVM console provides a graphical user interface and accepts both mouse and keyboard input. You can open the KVM console by using any of the {{site.data.keyword.cloud}} supported browsers. For more information about {{site.data.keyword.cloud}} supported browsers, see [Browsers](/docs/overview?topic=overview-prereqs-platform#browsers-platform).
