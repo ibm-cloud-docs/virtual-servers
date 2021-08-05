@@ -25,12 +25,12 @@ subcollection: virtual-servers
 
 You can now access the KVM console of your virtual servers from the {{site.data.keyword.cloud}} console.
 
-The KVM console feature will be rolled out to all data centers gradually. Please wait a few days if you find your virtual servers don't have access to it now. Contact your IBM Sales representative for more information on the availability status of this feature.
+The KVM console feature is gradually coming all data centers. If your virtual servers don't have access to it now, try again later. You can also contact your IBM Sales representative for more information on the availability status of this feature.
 {: note}
 
 The KVM console provides a graphical user interface and accepts both mouse and keyboard input. You can open the KVM console by using any of the {{site.data.keyword.cloud}} supported browsers. For more information about {{site.data.keyword.cloud}} supported browsers, see [Browsers](/docs/overview?topic=overview-prereqs-platform#browsers-platform).
 
-The KVM console is a quick-and-easy way for you to configure and administer the virtual servers. It applies to situations where a boot failure or kernel crash occurred. When these situations happen, you can use the console to examine the issue.
+The KVM console is a quick-and-easy way for you to configure and administer your virtual servers. It applies to situations where a boot failure or kernel crash occurred. When these situations happen, you can use the console to examine the issue.
 
 ## Prerequisites
 {: #prereqs}
@@ -54,12 +54,12 @@ Use the following steps to connect to a console by using {{site.data.keyword.clo
 
   ![Figure showing KVM console VPN notification window](images/kvm_vpn_note.png "Figure showing KVM console VPN notification window"){: caption="Figure 1. VPN notification window" caption-side="top"}
 
-4. In the KVM console window, enter the credentials to log in to the virtual server.
+4. In the KVM console window, enter your credentials to log in to the virtual server.
 
 ## Actions that are available in the KVM console window
 {: #available-actions}
 
-In the KVM console window, you can restart, power on, and power off the virtual server. To perform the actions, click the overflow icon on the upper right of the console's window, then click the appropriate action.
+In the KVM console window, you can restart, power on, and power off the virtual server. To perform these actions, click the overflow icon on the upper right of the console's window, then click the appropriate action.
 
 You can also use the "Ctrl + Alt + Del" key combination from the actions.
 {: tip}
