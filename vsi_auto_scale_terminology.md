@@ -11,7 +11,6 @@ subcollection: virtual-servers
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
 
 # Auto scale terminology
 {: #auto-scale-terminology}
