@@ -57,15 +57,16 @@ For more help, see [Getting help and support](/docs/virtual-servers?topic=virtua
 ## Why can't I connect to the KVM console?
 {: #why-can-i-not-connect-to-the-kvm-console-}
 
-If you are unable to connect to the KVM console, review the following troubleshooting tips for help. <!--If issues continue, contact support. For more information, see [Getting help and support](/docs/virtual-servers?topic=virtual-servers-gettinghelp#gettinghelp).-->
+If you are unable to connect to the KVM console, review the following troubleshooting tips for help. For more information about accessing the KVM, see [Accessing the KVM console for virtual servers](/docs/virtual-servers?topic=virtual-servers-access-kvm-console).
 
-* Use a VNC viewer of your choice. As an example, you can use [TightVNC](https://www.tightvnc.com/docs.php){: external} for Windows or Linux or [TigerVNC](https://tigervnc.org/){: external} for Mac OSX, where you would input the KVM IP and port as `KVMIP::KVMPORT`.
+* Make sure that you're using a supported browser. For more information about {{site.data.keyword.cloud}}-supported browsers, see [Browsers](/docs/overview?topic=overview-prereqs-platform#browsers-platform).
 
 * Make sure that a connection is established by using the VPN. If a connection isn't established, a warning displays that a VPN connection is required.
 
 * Check that the credentials for the device are valid. Contact the account administrator to verify credentials, if necessary.
 
 If you still can't to connect to the KVM console, [contact support](/docs/get-support?topic=get-support-using-avatar) for assistance. 
+
    <!--* The KVM console is a Java applet. Java must be installed before you access the console. For more information about installing Java, see [Free Java Download](https://www.java.com/en/download/){: external}.-->
 <!--The KVM console might generate one or more pop-up boxes during the connection process. Allow pop-ups from the {{site.data.keyword.cloud_notm}} console so a connection can be made.-->
    <!--* You might receive an error `Java applications arehycuk blocked by your security settings.` For bare metal iKVM devices, you must add an exception for the IP address of the IPMI device. For virtual server instances, you need to allow "https://cloud.ibm.com" and the IP address of the KVM. For more information, see [Why are Java applications blocked by your security settings with the latest Java?](https://www.java.com/en/download/help/java_blocked.xml){: external}.-->
