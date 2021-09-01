@@ -24,7 +24,7 @@ subcollection: cloud-infrastructure
 # Classic virtual server instance metrics definitions
 {: #monitoring-classic-metrics}
 
-The following metrics are available only if you use the {{site.data.keyword.mon_full_notm}} full agent. If you provisioned a 'no driver mode' instance, see [{{site.data.keyword.mon_full_notm}} 'no driver mode' metrics](/docs/cloud-infrastructure?topic=cloud-infrastructure-enabling-monitoring-light-no-driver#sysdig-light-metrics).
+The following metrics are associated with the {{site.data.keyword.mon_full_notm}} full agent. If you provisioned a 'no driver mode' instance, see [{{site.data.keyword.mon_full_notm}} 'no driver mode' metrics](/docs/cloud-infrastructure?topic=cloud-infrastructure-enabling-monitoring-light-no-driver#sysdig-light-metrics).
 {:important}
 
 The following tables define basic Classic virtual server instance metrics.
