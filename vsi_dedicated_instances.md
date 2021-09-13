@@ -29,17 +29,17 @@ You can provision your dedicated instances through the {{site.data.keyword.cloud
 
 To provision a dedicated virtual server instance through the {{site.data.keyword.cloud_notm}} catalog, complete the following steps:
 
-   1. Log in to the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog){: external} by using your unique credentials.
-   2. In the **Compute Infrastructure** section, click the **Virtual Server** tile.
-   3. Select **Dedicated** as your virtual server type.
-   4. In the **Dedicated Host** section, select **Auto Assign**. {{site.data.keyword.cloud_notm}} then automatically assigns your instance to a host in your selected data center.
-    
-    For dedicated hosts, select **Specify Host** or **Create Host**. For more information about dedicated hosts and dedicated host instances, see [Dedicated virtual servers](/docs/virtual-servers?topic=virtual-servers-dedicated-virtual-servers).
-    {: note}
+1. Log in to the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog){: external} by using your unique credentials.
+2. In the **Compute Infrastructure** section, click the **Virtual Server** tile.
+3. Select **Dedicated** as your virtual server type.
+4. In the **Dedicated Host** section, select **Auto Assign**. {{site.data.keyword.cloud_notm}} then automatically assigns your instance to a host in your selected data center.
 
-   5. Complete all of the relevant information for your dedicated virtual server instance.
-   6. After you review your order summary, click the **Third-Party Service Agreements** checkbox.
-   7. Click **Provision**.
+   For dedicated hosts, select **Specify Host** or **Create Host**. For more information about dedicated hosts and dedicated host instances, see [Dedicated virtual servers](/docs/virtual-servers?topic=virtual-servers-dedicated-virtual-servers).
+   {: note}
+
+5. Complete all of the relevant information for your dedicated virtual server instance.
+6. After you review your order summary, click the **Third-Party Service Agreements** checkbox.
+7. Click **Provision**.
 
 ## Next steps
 {: #next-steps-prov-dedicated}
