@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-05-20"
+lastupdated: "2021-09-13"
 
 subcollection: virtual-servers
 
@@ -32,11 +32,11 @@ For the {{site.data.keyword.cloud_notm}} console, you must have an upgraded acco
 
 Before you begin, review the following prerequisites.
 
-  1. Review the deployment options that are available to you. For more information, see [Transient virtual servers](/docs/virtual-servers?topic=virtual-servers-about-vs-transient).
+1. Review the deployment options that are available to you. For more information, see [Transient virtual servers](/docs/virtual-servers?topic=virtual-servers-about-vs-transient).
 
-  2. Review virtual server instance capacity considerations.  For more information, see [Resource considerations for virtual server instances](/docs/virtual-servers?topic=virtual-servers-capacity-considerations#capacity-considerations).
+2. Review virtual server instance capacity considerations.  For more information, see [Resource considerations for virtual server instances](/docs/virtual-servers?topic=virtual-servers-capacity-considerations#capacity-considerations).
   
-  3. Open the [virtual server instance](https://cloud.ibm.com/gen1/infrastructure/provision/vs?guestType=transient&cm_sp=Cloud-Product-_-OnPageNav-IBMCloudPlatform_IBMVirtualMachines-_-VSI_Prod_Midpage){: external} page from the {{site.data.keyword.cloud_notm}} console.
+3. Open the [virtual server instance](https://cloud.ibm.com/gen1/infrastructure/provision/vs?guestType=transient&cm_sp=Cloud-Product-_-OnPageNav-IBMCloudPlatform_IBMVirtualMachines-_-VSI_Prod_Midpage){: external} page from the {{site.data.keyword.cloud_notm}} console.
 
 ## Provisioning a transient virtual server instance
 {: #ordering-transient-instance}
