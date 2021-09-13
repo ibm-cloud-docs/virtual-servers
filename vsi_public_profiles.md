@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-05-19"
+lastupdated: "2021-09-13"
 
 keywords: public virtual servers, network traffic, virtual server deployment, profile
 
@@ -394,14 +394,14 @@ You can also choose V100 GPUs. The following data centers support V100 GPU profi
 Review the following GPU prerequisites.
 
 1. GPU profile virtual servers are available only on an operating system that supports Hardware Virtual Machine (HVM) boot mode. See the following list for operating systems that support HVM boot mode.  
-  - CentOS 7
-  - Debian 8
-  - Debian 9
-  - RHEL 7
-  - Ubuntu 16
-  - Ubuntu 18
-  - Windows 2012 R2
-  - Windows 2016
+   - CentOS 7
+   - Debian 8
+   - Debian 9
+   - RHEL 7
+   - Ubuntu 16
+   - Ubuntu 18
+   - Windows 2012 R2
+   - Windows 2016
 
 2. Appropriate NVIDIA drivers and software must be installed. For more information about software and NVIDIA drivers, see [Installing GPU drivers and software packages](/docs/virtual-servers?topic=virtual-servers-installing-gpu-drivers-and-software-packages#installing-gpu-drivers-and-software-packages).  
 
