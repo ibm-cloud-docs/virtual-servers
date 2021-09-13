@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-05-20"
+lastupdated: "2021-09-13"
 
 keywords: virtual servers, classic, provisioning process, IBM Cloud Virtual Servers, virtual machines, guest additions
 
@@ -36,9 +36,9 @@ When you create a virtual server in the classic infrastructure, you can choose b
 
 Before you begin, review the following prerequisites.
 
-  1. You must have an upgraded account to order virtual servers. This process can take some time and requires your request to be approved before you can continue. For more information about upgrading your account, see [
+1. You must have an upgraded account to order virtual servers. This process can take some time and requires your request to be approved before you can continue. For more information about upgrading your account, see [
 Account types](/docs/account?topic=account-accounts).
-  2. Review and choose your deployment options. For more information, see the following topics:
+2. Review and choose your deployment options. For more information, see the following topics:
 
 |              Deployment options                           |  Description                                        |
 | --------------------------------------------------------- | --------------------------------------------------- |
