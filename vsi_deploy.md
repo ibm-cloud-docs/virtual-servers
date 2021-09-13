@@ -196,8 +196,8 @@ By default, the Terraform file is configured for Washington and `wdc04`.
 
 ```json
 variable "datacenter" {
-  description = "Washington"
-  default = "wdc04"
+   description = "Washington"
+   default = "wdc04"
 }
 ```
 {: codeblock}
