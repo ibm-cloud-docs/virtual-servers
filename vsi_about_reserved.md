@@ -54,9 +54,9 @@ Reserved virtual server instances are public instances that use SAN-backed stora
 
 Consider the following limitations before you reserve capacity and provision a reserved virtual server instance:
 
-    * You can't use variable compute profiles.
-    * You can't upgrade or downgrade your instances.
-    * Reserved capacity cannot be canceled; however, you can reclaim virtual server instances in that capacity.
+   * You can't use variable compute profiles.
+   * You can't upgrade or downgrade your instances.
+   * Reserved capacity cannot be canceled; however, you can reclaim virtual server instances in that capacity.
     
 ## Notifications
 {: #notifications-reserved-virtual-servers}
@@ -68,5 +68,5 @@ You receive an email notification one month before the end of the term on your r
 
 After you review and decided on your options, it's time to provision your reserved capacity and instances. To get started, review the following information:
 
-   1. [Provisioning reserved capacity and instances](/docs/virtual-servers?topic=virtual-servers-provisioning-reserved-capacity-and-instances#provisioning-reserved-capacity-and-instances)
-   2. [FAQs: Reserved capacity and instances](/docs/virtual-servers?topic=virtual-servers-faqs-reserved-capacity-and-instances#faqs-reserved-capacity-and-instances)
+1. [Provisioning reserved capacity and instances](/docs/virtual-servers?topic=virtual-servers-provisioning-reserved-capacity-and-instances#provisioning-reserved-capacity-and-instances)
+2. [FAQs: Reserved capacity and instances](/docs/virtual-servers?topic=virtual-servers-faqs-reserved-capacity-and-instances#faqs-reserved-capacity-and-instances)
