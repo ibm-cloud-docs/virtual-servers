@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2019-07-17"
+lastupdated: "2021-09-13"
 
 subcollection: virtual-servers
 
@@ -52,8 +52,8 @@ Complete the following steps to resize an existing virtual server that uses pre-
 4. In the **Resize window** section, specify the window of time your system is down to perform the update. You can select **Immediately** for an immediate update, or schedule a time for the update to become active by choosing a date and time for the update. You can also specify any applicable notes for your device.
 5. In the **Profiles** section, select a new profile configuration for your device. 
 
-  When you modify a profile that uses local storage, you cannot switch to a profile that uses non-local storage. Likewise, when you modify a profile that uses non-local storage, you cannot switch to a profile that uses local storage.
-  {:note}
+   When you modify a profile that uses local storage, you cannot switch to a profile that uses non-local storage. Likewise, when you modify a profile that uses non-local storage, you cannot switch to a profile that uses local storage.
+   {:note}
 
 6. If you need extra storage, you can attach storage disks to your device.
 7. Click **Resize** to confirm your order and apply the changes to your device.
@@ -70,8 +70,8 @@ Complete the following steps to resize an existing virtual server (before pre-se
 5. In the **Computing instance** section, you can select new vCPU and RAM for your device. 
 6. If you need extra storage, you can attach storage disks to your device. The type of storage disks that are available to you depend on the profile that you select.
 
-  For public virtual servers, if you are upgrading local storage and require more vCPU or RAM, you might lose your secondary disk. When you modify a virtual server profile that uses local storage, the profile is pre-set for you, and profiles that are not comparable cannot be selected.
-  {: note}
+   For public virtual servers, if you are upgrading local storage and require more vCPU or RAM, you might lose your secondary disk. When you modify a virtual server profile that uses local storage, the profile is pre-set for you, and profiles that are not comparable cannot be selected.
+   {: note}
 
 7. Click **Resize** to confirm your order and apply the changes to your device.
 
