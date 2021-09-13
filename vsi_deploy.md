@@ -186,18 +186,21 @@ resource "ibm_compute_vm_instance" "vm1" {
     ]
 }
 ```
+{: codeblock}
 
 You can also provision bare metal servers with Terraform. For more information, see [IBM Terraform Provider Documentation](/docs/terraform?topic=terraform-getting-started){: external} and [IBM Terraform Provider GitHub Repo](https://github.com/IBM-Cloud/terraform-provider-ibm){: external}.
 
 The `variables.tf` can be used to change the data center you want to target to create the virtual instance. To see the list of defined data centers on the platform, see [Data centers](https://www.ibm.com/cloud/data-centers/){: external}.
 
 By default, the Terraform file is configured for Washington and `wdc04`.
+
 ```json
 variable "datacenter" {
   description = "Washington"
   default = "wdc04"
 }
 ```
+{: codeblock}
 
 ### Understanding the toolchain stages
 {: #toolchain-stages-vsi}
@@ -208,11 +211,13 @@ The toolchain process has five stages.
 
 1. The build stage clones the Git repo and packages the code into a Debian package.
 2. The Terraform plan stage prepares a Terraform plan.
+
   ```console
   terraform init -input=false
   terraform validate
   terraform plan -var "ssh_public_key=$PUBLIC_KEY" -input=false -out tfplan
   ```
+  {: pre}
 
 3. The Terraform apply stage applies the Terraform configuration and waits until the IP address of the virtual server is available.
 
@@ -220,6 +225,7 @@ The toolchain process has five stages.
   terraform apply -auto-approve -input=false tfplan
   terraform output "host ip" > hostip.txt
   ```
+  {: pre}
 
 4. The deployment, install, start stage moves the Debian package that is built in the first stage into the running virtual server, installs it and then starts it.
 5. The health check stage validates the health endpoint is available on the app and then completes the pipeline.
