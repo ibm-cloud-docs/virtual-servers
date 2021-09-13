@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-08-05"
+lastupdated: "2021-09-13"
 
 keywords: classic virtual servers, access kvm console, connect to virtual server, kvm console, kvm virtual servers, virtual server kvm, vsi kvm, classic kvm
 
@@ -38,7 +38,7 @@ The KVM console is a quick-and-easy way for you to configure and administer your
 
 1. Before you can access the KVM console of a virtual server, you must establish a VPN connection to the private network.
 
-  For more information about connecting to the VPN, see [Connecting to SSL VPN](/docs/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients).
+    For more information about connecting to the VPN, see [Connecting to SSL VPN](/docs/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients).
 
 2. The virtual server must be powered on to get a KVM console connection started.
 
@@ -53,7 +53,7 @@ Use the following steps to connect to a console by using {{site.data.keyword.clo
 
 3. In the VPN notification window, click **Continue**.
 
-  ![Figure showing KVM console VPN notification window](images/kvm_vpn_note.png "Figure showing KVM console VPN notification window"){: caption="Figure 1. VPN notification window" caption-side="top"}
+    ![Figure showing KVM console VPN notification window](images/kvm_vpn_note.png "Figure showing KVM console VPN notification window"){: caption="Figure 1. VPN notification window" caption-side="top"}
 
 4. In the KVM console window, enter your credentials to log in to the virtual server.
 
