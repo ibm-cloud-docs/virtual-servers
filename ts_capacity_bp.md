@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-06-21"
+lastupdated: "2021-09-09"
 
 keywords: troubleshoot virtual server, virtual servers troubleshooting, tips, error, problem, insufficient capacity to complete the request
 
@@ -52,7 +52,10 @@ For security reasons, it is recommended that you don't enable root for remote SS
 
 1. Log in to KVM IPMI console for your virtual server. 
 2. As root, edit the _sshd_config_ file in _/etc/ssh/sshd_config_ 
-  `nano /etc/ssh/sshd_config`
+
+    `nano /etc/ssh/sshd_config`
+    {: pre}
+    
 3. Add a line in the **Authentication** section of the file that says _PermitRootLogin yes_. This line might exist and be commented out with a "#". In this example, remove the "#".
 
   
