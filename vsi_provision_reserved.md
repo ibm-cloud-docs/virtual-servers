@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2021
-lastupdated: "2021-05-20"
+lastupdated: "2021-09-13"
 
 subcollection: virtual-servers
 
@@ -32,8 +32,8 @@ If you are not the account administrator, your user account must include the **M
 
 In the {{site.data.keyword.cloud_notm}} catalog, complete the following steps to provision your reserved capacity.
 
-  1. Open the [reserved virtual server instance ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/gen1/infrastructure/provision/vs?guestType=reserved&cm_sp=Cloud-Product-_-OnPageNav-IBMCloudPlatform_IBMVirtualMachines-_-VSI_Prod_Midpage){: new_window} page from the catalog.
-  2. To create new reserved capacity, select **New capacity +**. From the **Reserved capacity** page, enter or select the following information:
+1. Open the [reserved virtual server instance ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/gen1/infrastructure/provision/vs?guestType=reserved&cm_sp=Cloud-Product-_-OnPageNav-IBMCloudPlatform_IBMVirtualMachines-_-VSI_Prod_Midpage){: new_window} page from the catalog.
+2. To create new reserved capacity, select **New capacity +**. From the **Reserved capacity** page, enter or select the following information:
 
 | Field                   | Value               |                                                                                                                                                                                                                                                                                                                                 
 | ----------------------- | ------------------- |
