@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2021
-lastupdated: "2021-05-17"
+lastupdated: "2021-09-15"
 
 subcollection: virtual-servers
 
@@ -48,7 +48,10 @@ Both parameters are required. If the URI or secret must be changed, call the met
 
 The transient virtual server webhook can be set up through the SLDN API by using the following method:
 
-  `SoftLayer_Virtual_Guest::setWebhook(uri, secret)`
+   ```
+   SoftLayer_Virtual_Guest::setWebhook(uri, secret)
+   ```
+   {: pre}
 
 For more information, see the SLDN API method documentation for [webhook set-up](http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/setTransientWebhook/){: external}.
 
@@ -57,7 +60,10 @@ For more information, see the SLDN API method documentation for [webhook set-up]
 
 To cancel the `reclaim-scheduled` notifications, call the following SLDN API method:
 
-  `SoftLayer_Virtual_Guest::deleteWebhook()`
+   ```
+   SoftLayer_Virtual_Guest::deleteWebhook()
+   ```
+   {: pre}
 
 For more information, see the SLDN API method documentation for [canceling notifications](http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/deleteTransientWebhook/){: external}.
 
@@ -85,25 +91,25 @@ To verify the HMAC signature that is located in the request's "Authorization" he
 
 1. Create the canonical string.
 
-  The canonical string must contain the following data:
-  * Method Type - POST in this case (must be uppercase)
-  * Content Type - Found in the "Content-Type" header
-  * Payload - The body of the request. This example assumes that the JSON string is decoded into a native associative array or dictionary.  
-  * Nonce - Found in the "X-IBM-Nonce" header
+   The canonical string must contain the following data:
+   * Method Type - POST in this case (must be uppercase)
+   * Content Type - Found in the "Content-Type" header
+   * Payload - The body of the request. This example assumes that the JSON string is decoded into a native associative array or dictionary.  
+   * Nonce - Found in the "X-IBM-Nonce" header
 
-  To create the canonical string, combine the canonical string data in the following EXACT order with no delimiters:
+   To create the canonical string, combine the canonical string data in the following EXACT order with no delimiters:
 
-  Method Type + Content Type + Payload['id'] + Payload['serviceName'] + Payload['event'] + Payload['timestamp'] + Nonce
+   Method Type + Content Type + Payload['id'] + Payload['serviceName'] + Payload['event'] + Payload['timestamp'] + Nonce
 
 2. Hash the canonical string.
 
-  The hashing algorithm that is used in the transient virtual server webhook is HMAC-SHA256, which is a keyed hashing algorithm. The key to use is the secret that was provided when the webhook was set up.
+   The hashing algorithm that is used in the transient virtual server webhook is HMAC-SHA256, which is a keyed hashing algorithm. The key to use is the secret that was provided when the webhook was set up.
 
 3. Encode the hashed canonical string to Base64.
 
 4. Compare the resulting string to the signature in the 'Authorization' header.  
 
-  Use a timing-attack safe string comparison function. If the strings don't match, don't accept the request.
+   Use a timing-attack safe string comparison function. If the strings don't match, don't accept the request.
 
 ## Anatomy of the `reclaim-scheduled` notification request payload
 {: #anatomy-of-the-reclaim-scheduled-notification-request-payload}
@@ -113,21 +119,23 @@ The request that is sent from the transient virtual server webhook is like any H
 Key names might not be listed as shown in the example.
 {: note}
 
-	{
-		'event': 'reclaim-scheduled',
-		'id': <string - that is the ID of the transient guest being reclaimed>,
-		'link': <string - link for an API call to return info about the guest being reaped>,
-		'serviceName': <string - name of the API service class>,
-		'time stamp': <integer - timestamp of when the reclaim was scheduled>
-	}
-
+```
+   {
+      'event': 'reclaim-scheduled',
+      'id': <string - that is the ID of the transient guest being reclaimed>,
+      'link': <string - link for an API call to return info about the guest being reaped>,
+      'serviceName': <string - name of the API service class>,
+      'time stamp': <integer - timestamp of when the reclaim was scheduled>
+   }
+```
+{: codeblock}
 
 ## Code examples for creating the HMAC signature
 {: #code-examples-for-creating-the-hmac-signature}
 
 Python:
 
-```
+```python
 # This assumes that the request headers are stored in a dictionary that are called headers and that the JSON
 # content of the request was decoded into a dictionary called payload.
 
@@ -141,11 +149,11 @@ canonical = 'POST' + headers['Content-Type'] + payload['id'] + payload['serviceN
 signature = base64.b64encode(hmac.new(secret, canonical, hashlib.sha256).hexdigest())
 match_flag = hmac.compare_digest(headers['Authorization'], signature)
 ```
-{: screen}
+{: codeblock}
 
 PHP:
 
-```
+```php
 // This assumes that the request headers are stored in an associative array called $headers and that
 // the JSON content of the request is decoded into an associative array called $payload.
 
@@ -155,11 +163,11 @@ $canonical = 'POST' . $headers['Content-Type'] . $payload['id'] . $payload['serv
 $signature = base64_encode(hash_hmac('sha256', $canonical, $secret));
 $matchFlag = hash_equals($headers['Authorization'], $signature);
 ```
-{: screen}
+{: codeblock}
 
 Node.js:
 
-```
+```js
 // This assumes that the request headers are stored in variables that are named content_type, nonce, and auth_string.
 // This also assumes that the content of the request is a JSON object called payload.
 
@@ -170,4 +178,4 @@ hmac = crypto.createHmac('sha256', secret).update(canonical);
 signature = Buffer.from(hmac.digest('hex')).toString('base64');
 matchFlag = crypto.timingSafeEqual(auth_string, signature);
 ```
-{: screen}
+{: codeblock}
