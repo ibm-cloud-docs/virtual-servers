@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2021
-lastupdated: "2021-05-19"
+lastupdated: "2021-09-15"
 
 subcollection: virtual-servers
 
@@ -57,12 +57,14 @@ The following JSON request and response is a generic example.
 curl -X GET \
  https://$SOFTLAYER_USERNAME:$SOFTLAYER_API_KEY@api.softlayer.com/rest/v3/SoftLayer_Virtual_Guest/<VSI ID>/getAttributes.json
 ```
+{: pre}
 
 The following example is the JSON response to the request:
 
 ```bash
 [{"value":"1","type":{"keyname":"SUSPENDED_BILLING","name":"Suspended Billing"}}]
 ```
+{: pre}
 
 For more information, see the [SLDN API documentation](https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/getAttributes/){: external}.
 
