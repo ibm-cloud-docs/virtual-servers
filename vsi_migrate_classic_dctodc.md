@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-04-20"
+lastupdated: "2021-09-16"
 
 content-type: tutorial
 services: virtual-servers, loadbalancer-service
@@ -54,9 +54,9 @@ Block Endurance and Performance and File storage volumes are not captured as par
 {: #vsi-migrate-evaluate-lift-shift-method}
 
 1. Evaluate the virtual server that you want to migrate to see which services it is using, such as:
- * Auto scale group
- * Placement group
- * Security group 
+   * Auto scale group
+   * Placement group
+   * Security group 
 1.  Log in to the [{{site.data.keyword.cloud}} console ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/classic?){: new_window} by using your unique credentials. 
 
 1. From the dashboard, click **Menu icon ![Menu icon](../icons/icon_hamburger.svg) > Classic Infrastructure > Devices > Device List**.
@@ -75,11 +75,11 @@ Block Endurance and Performance and File storage volumes are not captured as par
 1. Click the **Actions** ![Menu icon](../../icons/action-menu-icon.svg) icon for the image template and select *Order < Type of > VSI*. < Type of > is the type of virtual server instance that you are creating.
 
 1. Change the virtual server instance location to the new data center. The form defaults to the original virtual server properties. Other than selecting the new location, you can keep or modify the rest of the parameters to better suit the new environment, for example:
- * Enter hostname and domain
- * (Optional) Select or create a placement group
- * Select a virtual server profile
- * (Recommended) Select SSH key
- * Select Uplink port speeds
+   * Enter hostname and domain
+   * (Optional) Select or create a placement group
+   * Select a virtual server profile
+   * (Recommended) Select SSH key
+   * Select Uplink port speeds
 
  The new virtual server is given a new IP address automatically on deployment.
  {: note}
@@ -94,11 +94,11 @@ Block Endurance and Performance and File storage volumes are not captured as par
 1. (Optional) If block or file storage volumes were part of the original virtual server, create the new volumes and update the iSCSI or NFS configuration on the new virtual server. After created and attached, copy the data over from the old to new virtual server by using your tool of choice. 
 
 1. Update and add or modify any infrastructure resources, such as:
- * Security groups
- * Firewall rules
- * Load balancers
- * VPN
- * DNS
+   * Security groups
+   * Firewall rules
+   * Load balancers
+   * VPN
+   * DNS
 
 ### Final check
 {: #vsi-migrate-final-lift-shift-method}
@@ -118,11 +118,11 @@ For this method, you're ordering a new virtual server and copying the data from 
 {: #vsi-migrate-evaluate-system-rebuild-method}
 
 1. Evaluate the virtual server that you want to migrate so see which services it is using, such as (not an exhaustive list):
- * Auto scale group
- * Placement group
- * Security groups
- * Firewall rules
- * Load balancers
+   * Auto scale group
+   * Placement group
+   * Security groups
+   * Firewall rules
+   * Load balancers
 
 1. Make sure that similar services are created at the new data center. 
 
@@ -134,13 +134,13 @@ For this method, you're ordering a new virtual server and copying the data from 
 1. Click the **Virtual Server for Classic** tile in the catalog. 
 
 1. Provision the new virtual server:
- * Enter a hostname and domain
- * (Optional) Select or create a placement group
- * Select a location
- * Select a virtual server profile
- * (Recommended) Select an SSH key
- * Add an extra attached storage disk, if necessary
- * Select Uplink port speeds
+   * Enter a hostname and domain
+   * (Optional) Select or create a placement group
+   * Select a location
+   * Select a virtual server profile
+   * (Recommended) Select an SSH key
+   * Add an extra attached storage disk, if necessary
+   * Select Uplink port speeds
 
 1. (Optional) If block or file volumes were part of the original virtual server, create the new volumes and attach them to the new virtual server. 
 
@@ -151,11 +151,11 @@ For this method, you're ordering a new virtual server and copying the data from 
 1. Copy the data from the old server to the new server by using `scp`, `rsync`, `dd`, or another third-party tool. 
 
 1. Update and add or modify any infrastructure resources, such as: 
- * Security groups
- * Firewall rules
- * Load balancers
- * VPN
- * DNS
+   * Security groups
+   * Firewall rules
+   * Load balancers
+   * VPN
+   * DNS
 
 ### Verify and validate
 {: #vsi-migrate-verify-system-rebuild-method}
