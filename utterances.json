@@ -265,7 +265,10 @@
     "Where are my servers",
     "where is the server i have access to",
     "where I can view and manage  IBM Cloud Virtual Server",
-    "Where are my servers"
+    "Where are my servers",
+    "device list",
+    "access the device list", 
+    "Where is the devices menu"
   ],
   "how-do-i-use-vpn-to-access-the-ibm-cloud-private-network-": [
     "How do I use VPN to access the IBM Cloud private network",
@@ -389,9 +392,9 @@
     "is your network down",
     "is network down",
     "what is the data center status",
-	  "Do you have problems in AMS01?",
-	  "Is there a server outage in dal05",
-	  "What's the status of FRA02 datacenter"
+    "Do you have problems in AMS01?",
+    "Is there a server outage in dal05",
+    "What's the status of FRA02 datacenter"
   ],
   "what-is-the-difference-between-boot-from-image-and-load-from-image-": [
     "Boot vs. Load",
@@ -406,26 +409,6 @@
     "what is load from image",
     "difference between boot from and load from image",
     "are boot from image and load from image the same"
-  ],
-  "why-can-i-not-connect-to-the-kvm-console-": [
-    "Connecting to KVM console issue",
-    "KVM Java applet error",
-    "how to access using the kvm",
-    "Java applications are blocked by your security settings",
-    "Missing required Permissions manifest in main.jar",
-    "unable to connect to the KVM console",
-    "issue with KVM connection",
-    "can't get a connection to my KVM",
-    "can not access kvm console",
-    "unable to access kvm console",
-    "facing issue in one of server kvm console",
-    "kvm console problem. When i try to connect my server via kvm , i can not see anything",
-    "KVM console doesn't work",
-    "try connecting to a KVM console",
-    "trying to connect to KVM console",
-    "unable to connect to kvm console",
-    "can't access my server through kvm console",
-    "unable to login to kvm panel"
   ],
   "i-lost-my-password-to-my-server-how-can-i-recover-it-": [
     "Recovering password",
@@ -637,5 +620,102 @@
     "Lite plan for monitoring",
     "how much is Monitoring",
     "Lite plan for systig"
+  ],
+  "troubleshoot-vs-cannot-ssh-into-server": [
+    "I cannot connect to my server via ssh",
+    "How to ssh virtual server",
+    "I could not access my device via SSH",
+    "Why can't I log in to a virtual server through SSH?",
+    "ssh unable to authenticate",
+    "ssh not working on vsi",
+    "How to add ssh access to virtual server",
+    "When I moved ssh port I can not access virtual server",
+    "cannot ssh into server",
+    "having problems with access by SSH",
+    "my server is not working i am trying to login with ssh",
+    "login to my server using ssh"
+  ],
+  "troubleshoot-vs-device-not-responding": [
+    "the server just stopped responding",
+    "the server is not responding",
+    "live server is not responding please we need assistance",
+    "server not responding to ping",
+    "The server not responding",
+    "server state is active but not responding",
+    "Currently server is not responding, I tried reboot also",
+    "My server is not responding",
+    "ping is down",
+    "server is unreachable I can't ping it",
+    "unable to ping server"
+  ],
+  "troubleshoot-vs-KVM-not-accessible-browser": [
+    "Connecting to KVM console issue",
+    "KVM Java applet error",
+    "how to access using the kvm",
+    "Java applications are blocked by your security settings",
+    "Missing required Permissions manifest in main.jar",
+    "unable to connect to the KVM console",
+    "issue with KVM connection",
+    "can't get a connection to my KVM",
+    "can not access kvm console",
+    "unable to access kvm console",
+    "facing issue in one of server kvm console",
+    "kvm console problem. When i try to connect my server via kvm , i can not see anything",
+    "KVM console doesn't work",
+    "try connecting to a KVM console",
+    "trying to connect to KVM console",
+    "can't access my server through kvm console",
+    "unable to login to kvm panel",
+    "Can you access thru KVM",
+    "I don't have access to the KVM console",
+    "How do I access to my server on KVM",
+    "kvm support",
+    "KVM Invalid password",
+    "i want to make kvm console connection virtual server tightVNC",
+    "cannot connect to kvm console",
+    "kvm console"
+  ],
+  "troubleshoot-vs-RDP-not-working": [
+    "access to virtual server with RDP",
+    "I cannot RDP server",
+    "I cant connect to my server RDP",
+    "Getting an internal error when RDP to a VSI",
+    "We can't access the remote desktop",
+    "I cannot remote my server",
+    "Cannot remote to the server",
+    "How to set up or restore remote access for Windows VSI",
+    "Unable to remotely connect to server",
+    "I can't access to server by remote desktop",
+    "remote connect to my server",
+    "how to connect to virtual server remotely"
+  ],
+  "troubleshoot-vs-cannot-connect-public-ip": [
+    "I have some trouble with the public network interface",
+    "public interface doesn't show up",
+    "enable public IP of VM",
+    "description of your public vs private interfaces for our VMs",
+    "unable to connect through public IP address"
+  ],
+  "troubleshoot-vs-internet-disconnected": [
+    "Why is the internet disconnected",
+    "but I don't have access internet access",
+    "network blocked internet access",
+    "internet access in our VM",
+    "how can I enable the internet connection of our VM",
+    "enable the internet connection of virtual server instance",
+    "access the internet on Microsoft windows server",
+    "I don't have an internet connection on a server"
+  ],
+  "troubleshoot-vs-portal-shows-server-disconnected-but-runnin": [
+    "our device is indicated by IBM as disconnected",
+    "powered on but disconnected",
+    "server is still not reconnected",
+    "virtual server is disconnected",
+    "disconnected server",
+    "my VM even after reboot keep saying it is disconnected",
+    "my server has status on the disconnect port",
+    "my vm is in warning status",
+    "virtual server shows warning",
+    "VSI shows warning"
   ]
 }
