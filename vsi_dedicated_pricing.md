@@ -21,9 +21,9 @@ subcollection: virtual-servers
 {: #dedicated-virtual-server-pricing}
 
 Pricing for dedicated hosts is offered in an hourly and monthly model.
-{:shortdesc}
+{: shortdesc}
 
-Dedicated host pricing is inclusive of all vCPU, RAM, local storage, and uplink port speed components as instances are provisioned onto dedicated hosts. For more information about pricing, see the [Virtual servers pricing and configuration tool](https://www.ibm.com/cloud/virtual-servers/calculator/){:external}.
+Dedicated host pricing is inclusive of all vCPU, RAM, local storage, and uplink port speed components as instances are provisioned onto dedicated hosts. For more information about pricing, see the [Virtual servers pricing and configuration tool](https://www.ibm.com/cloud/virtual-servers/calculator/){: external}.
 
 With dedicated hosts, extra local storage disks are available on first, second, third, fourth, and fifth disks. Extra capacity up to 400 GB on each secondary disk is also available.
 
@@ -36,7 +36,7 @@ Hourly instances can be provisioned on hourly and monthly hosts. Monthly instanc
 {: caption="Table 1. Dedicated host configurations" caption-side="top"}
 
 Pricing varies by region.
-{:note}
+{: note}
 
 SAN (network attached), premium OSs, and add-ons are charged hourly or monthly, by the instance, depending on the instance provisioned on the dedicated host. Pricing for these components is consistent with the existing offering on public instances and dedicated instances. 
 
