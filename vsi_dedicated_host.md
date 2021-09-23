@@ -20,7 +20,7 @@ subcollection: virtual-servers
 {: #dedicated-hosts-and-dedicated-instances}
 
 Dedicated hosts are virtual servers that you can use to specify the data center and POD in which you want your host. You then assign instances, or virtual machines, to a specific host for maximum control over workload placement and for flexible cost-provisioning options.
-{:shortdesc}
+{: shortdesc}
 
 ## Guaranteed capacity
 {: #guaranteed-capacity}
