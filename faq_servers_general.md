@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-07-28"
+lastupdated: "2021-08-16"
 
 keywords: server down, lost server password, cancel server, cvsup mirror, how do I cancel a device, cancel device, cancel server
 
@@ -51,28 +51,8 @@ For more help, see [Getting help and support](/docs/virtual-servers?topic=virtua
 
 *Boot from Image* and *Load from Image* both use existing image templates, which are applied to a device to either replace or  supplement the existing operating system to help remedy an existing issue. The main difference between the Boot and Load process is the type of image that is used. When either the Boot or Load from Image process is used, make sure that all data that you might want to recover is backed up.
 
-   * *Boot from Image* starts a device by using an ISO supplied by {{site.data.keyword.BluSoftlayer_full}} for system recovery or an ISO that was uploaded by using the *Import Image* feature in the {{site.data.keyword.cloud_notm}} console. The ISO might be a clean version of the device operating system or a recovery disk that is used in an attempt to remedy an issue with the device.
-   * *Load from Image* is a method of OS reload that uses an image template that was either captured from a device or uploaded by using the *Image Import* feature in the {{site.data.keyword.cloud_notm}} console. *Load from Image* uses a VHD that wipes the device of all data and replaces the existing operating system and files with a "like new" version of the selected image.
-
-## Why can't I connect to the KVM console?
-{: #why-can-i-not-connect-to-the-kvm-console-}
-
-If you are unable to connect to the KVM console, review the following troubleshooting tips for help. For more information about accessing the KVM, see [Accessing the KVM console for virtual servers](/docs/virtual-servers?topic=virtual-servers-access-kvm-console).
-
-* Make sure that you're using a supported browser. For more information about {{site.data.keyword.cloud}}-supported browsers, see [Browsers](/docs/overview?topic=overview-prereqs-platform#browsers-platform).
-
-* Make sure that a connection is established by using the VPN. If a connection isn't established, a warning displays that a VPN connection is required.
-
-* Check that the credentials for the device are valid. Contact the account administrator to verify credentials, if necessary.
-
-If you still can't to connect to the KVM console, [contact support](/docs/get-support?topic=get-support-using-avatar) for assistance. 
-
-   <!--* The KVM console is a Java applet. Java must be installed before you access the console. For more information about installing Java, see [Free Java Download](https://www.java.com/en/download/){: external}.-->
-<!--The KVM console might generate one or more pop-up boxes during the connection process. Allow pop-ups from the {{site.data.keyword.cloud_notm}} console so a connection can be made.-->
-   <!--* You might receive an error `Java applications arehycuk blocked by your security settings.` For bare metal iKVM devices, you must add an exception for the IP address of the IPMI device. For virtual server instances, you need to allow "https://cloud.ibm.com" and the IP address of the KVM. For more information, see [Why are Java applications blocked by your security settings with the latest Java?](https://www.java.com/en/download/help/java_blocked.xml){: external}.-->
-   <!--* If the previous conditions are met and you receive an error that states, `Missing required Permissions manifest in main.jar`, then Java applets are not enabled in the Java Control Panel. This setting was introduced as a security precaution from Oracle in Java SE v7. Enable applets in the Control Panel to resolve this issue.-->
-
-<!--If you are using Mac OSX with Google Chrome, see the Information and System Requirements for Installing and Using Mac Java 7 on the Java website.{:note}-->
+* *Boot from Image* starts a device by using an ISO supplied by {{site.data.keyword.BluSoftlayer_full}} for system recovery or an ISO that was uploaded by using the *Import Image* feature in the {{site.data.keyword.cloud_notm}} console. The ISO might be a clean version of the device operating system or a recovery disk that is used in an attempt to remedy an issue with the device.
+* *Load from Image* is a method of OS reload that uses an image template that was either captured from a device or uploaded by using the *Image Import* feature in the {{site.data.keyword.cloud_notm}} console. *Load from Image* uses a VHD that wipes the device of all data and replaces the existing operating system and files with a "like new" version of the selected image.
 
 ## I lost my password to my server. How can I recover it?
 {: #i-lost-my-password-to-my-server-how-can-i-recover-it-}
@@ -100,10 +80,10 @@ LVM (Logical Volume Management) provides logical management of Linux file system
 {: #preconfigured-161-26-0-0-16-routes-on-customer-hosts}
 
 {{site.data.keyword.BluSoftlayer_notm}} is enabling a new route on all newly provisioned servers to support future products.
-   * The route points any address in the 161.26.0.0/16 range (161.26.0.0 255.255.0.0 | 161.26.0.0 -161.26.255.255) to the back-end private network.
-   * This IP block is assigned to {{site.data.keyword.BluSoftlayer_notm}} by IANA and isn't advertised on the public internet.
-   * Only {{site.data.keyword.BluSoftlayer_notm}} systems are addressed out of this space.
-   * ACLs on customer servers, virtual servers, and Vyatta gateways need to be updated to allow customer's hosts to use Infrastructure services that are configured with IP addresses out of this range.
+* The route points any address in the 161.26.0.0/16 range (161.26.0.0 255.255.0.0 | 161.26.0.0 -161.26.255.255) to the back-end private network.
+* This IP block is assigned to {{site.data.keyword.BluSoftlayer_notm}} by IANA and isn't advertised on the public internet.
+* Only {{site.data.keyword.BluSoftlayer_notm}} systems are addressed out of this space.
+* ACLs on customer servers, virtual servers, and Vyatta gateways need to be updated to allow customer's hosts to use Infrastructure services that are configured with IP addresses out of this range.
 
 ## How do I add the new routing for various OSes?
 {: #how-to-add-the-new-routing-for-various-oses}
@@ -115,11 +95,11 @@ Use the following table for OS-specific routing information.
 |Windows 2003 Standard and Enterprise|  Add the persistent route from the command line by entering the following address: ```route add 161.26.0.0 mask 255.255.0.0 10.0.0.1 -p``` Replace 10.0.0.1 with your private gateway IP address. |
 | Windows 2008 Server Core | Add the persistent route from the command line by entering the following address: ```route add 161.26.0.0 mask 255.255.0.0 10.0.0.1 -p``` Replace 10.0.0.1 with your private gateway IP address. |
 | Windows 2008 Web, Standard, Enterprise, and Datacenter |  Add the persistent route from the command line by entering the following address: ```route add 161.26.0.0 mask 255.255.0.0 10.0.0.1 -p``` Replace 10.0.0.1 with your private gateway IP address. |
-| Red Hat, Fedora, and CentOS | Create a new route by editing or creating the following file: `/etc/sysconfig/network-scripts/route-eth0` Replace 10.0.0.1 with your private gateway IP address.<br><br> After you create that file, you must add the following information: _161.26.0.0/16 via 10.0.0.1_ |
+| Red Hat, Fedora, and CentOS | Create a new route by editing or creating the following file: `/etc/sysconfig/network-scripts/route-eth0` Replace 10.0.0.1 with your private gateway IP address. After you create that file, you must add the following information: _161.26.0.0/16 via 10.0.0.1_ |
 | Ubuntu and Debian | In the `/etc/network/interfaces` file, add the following line at the end of the file: ```up route add -net 161.26.0.0/16 gw 10.0.0.1``` Replace 10.0.0.1 with your private gateway IP address. |
 | Vyatta |  Set protocols static route ```161.26.0.0/16 next-hop 172.16.0.26```. Replace 172.16.0.26 with the gateway of the subnet that the machine is on. The gateway needs to be the same as the gateway that is defined for the 10.0.0./8 route.|
 |ESXi| Use the following command to add the route to the ESXi host: ```esxcfg-route -a 161.26.0.0/16 10.0.0.1```. Replace 10.0.0.1 with your private gateway IP address. |
-| CoreOS | Create a static route file in `/etc/systemd/network` with the name `10-static.network` that looks like the following route:<br><br>`[Route]` <br> `Gateway=10.0.0.1`<br>`Destination=161.26.0.0/16` <br><br> Replace 10.0.0.1 with your private gateway IP address. |
+| CoreOS | Create a static route file in `/etc/systemd/network` with the name `10-static.network` that looks like the following route: `[Route]` `Gateway=10.0.0.1` `Destination=161.26.0.0/16` Replace 10.0.0.1 with your private gateway IP address. |
 
 ## What is a cvsup mirror?
 {: #what-is-a-cvsup-mirror-}
@@ -129,13 +109,13 @@ You can update against a local cvsup mirror that was run for you. Make sure that
 ```
 *default host=cvsup.service.softlayer.com
 ```
-{:pre }
+{: pre }
 
 The distfiles are also mirrored and available from freebsd.org. You can add the following line into your */etc/make.conf* file to attempt to download from the local repository:
 
 ```
 MASTER_SITE_OVERRIDE?="http://mirrors.service.softlayer.com/freebsd/distfiles/${DIST_SUBDIR}/"
 ```
-{:screen }
+{: screen }
 
 If the file is not found there, the path follows the individual port makefile and moves to the next mirror.
