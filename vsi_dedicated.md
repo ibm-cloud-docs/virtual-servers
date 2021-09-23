@@ -22,7 +22,7 @@ subcollection: virtual-servers
 {: #dedicated-virtual-servers}
 
 The {{site.data.keyword.Bluemix}} infrastructure dedicated host offering is a virtualized, single-tenant, dedicated server. It provides you with maximum control over workload placement and flexible post-provisioning options. You can decide which pre-determined {{site.data.keyword.cloud_notm}} data center your virtual servers are placed in and can be assured capacity by allocating your hosts directly to your account.
-{:shortdesc}
+{: shortdesc}
 
 The offering includes the following features:
 
@@ -33,7 +33,7 @@ The offering includes the following features:
 You have the choice of two deployment models: dedicated hosts and dedicated instances. Dedicated hosts help with control over workload placement and dedicated instances offer single-tenant isolation.
 
 Dedicated instances do not provide some of the control features offered by dedicated hosts.  See the following table for more details.
-{:note}
+{: note}
 
 | Dedicated virtual server feature | Dedicated hosts instances | Dedicated instances |
 | ------- | ------- | ------- |
@@ -49,7 +49,7 @@ Dedicated instances do not provide some of the control features offered by dedic
 {: caption="Table 1. Control features" caption-side="top"}
 {: summary="This table has row and column headers. The row headers identify the control feature. The column headers identify whether the offering offers the control feature. To understand whether the offering offers the control feature, navigate to the row in the table, and find the offering that you are interested in.}
 
-<sup>(1)</sup>Pricing of host is inclusive of core, RAM, Local SSD, and network speeds. Premium operating system (OS), storage area network (SAN) storage, and software add-ons are priced per instance with existing pricing and licensing in an hourly or monthly model.
+Pricing of host is inclusive of core, RAM, Local SSD, and network speeds. Premium operating system (OS), storage area network (SAN) storage, and software add-ons are priced per instance with existing pricing and licensing in an hourly or monthly model.
 
 Keep in mind the following when you’re ordering a dedicated host and dedicated host instance:
 
