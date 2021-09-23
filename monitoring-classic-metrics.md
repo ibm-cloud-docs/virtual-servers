@@ -25,7 +25,7 @@ subcollection: cloud-infrastructure
 {: #monitoring-classic-metrics}
 
 The following metrics are associated with the {{site.data.keyword.mon_full_notm}} full agent. If you provisioned a 'no driver mode' instance, see [{{site.data.keyword.mon_full_notm}} 'no driver mode' metrics](/docs/cloud-infrastructure?topic=cloud-infrastructure-enabling-monitoring-light-no-driver#sysdig-light-metrics).
-{:important}
+{: important}
 
 The following tables define basic Classic virtual server instance metrics.
 
@@ -40,7 +40,6 @@ Average percentage of time that elapsed running instructions across all CPUs
 | `Metric type` | `gauge` |
 | `Value type`  | `percent` |
 | `Segment by` | `IBM IS Generation, 1, resource name` |
-
 {: caption="Table 1: Average CPU usage percentage metric metadata" caption-side="top"}
 
 ## CPU usage
@@ -54,7 +53,6 @@ Cumulative elapsed time that a CPU is running instructions since virtual server 
 | `Metric type` | `gauge` |
 | `Value type`  | `second` |
 | `Segment by` | `IBM IS Generation, 1, resource name, Virtual CPU index` |
-
 {: caption="Table 2: Cumulative CPU usage metric metadata" caption-side="top"}
 
 ## CPU usage percentage
@@ -68,7 +66,6 @@ Average percentage of time that a CPU is running instructions
 | `Metric type` | `gauge` |
 | `Value type`  | `percent` |
 | `Segment by` | `IBM IS Generation, 1, resource name, Virtual CPU index` |
-
 {: caption="Table 3: Average CPU usage metric metadata" caption-side="top"}
 
 ## Free memory
@@ -82,7 +79,6 @@ Free memory of the virtual server instance in kibibytes (1024 bytes)
 | `Metric type` | `gauge` |
 | `Value type`  | `byte` |
 | `Segment by` | `IBM IS Generation, 1, resource name` |
-
 {: caption="Table 4: Free memory metric metadata" caption-side="top"}
 
 ## I/O requests in flight
@@ -96,7 +92,6 @@ Number of I/O requests in flight
 | `Metric type` | `gauge` |
 | `Value type`  | `none` |
 | `Segment by` | `IBM IS Generation, 1, resource name, disk name of the volume, UUID of storage volume` |
-
 {: caption="Table 5: I/O requests in flight metric metadata" caption-side="top"}
 
 ## Memory usage percentage
@@ -110,7 +105,6 @@ Percent of used memory of the virtual server instance
 | `Metric type` | `gauge` |
 | `Value type`  | `percent` |
 | `Segment by` | `IBM IS Generation, 1, resource name` |
-
 {: caption="Table 6: Memory usage percentage metric metadata" caption-side="top"}
 
 ## Network received in bytes per second
@@ -124,7 +118,6 @@ Bytes per second received for a network interface
 | `Metric type` | `gauge` |
 | `Value type`  | `byte` |
 | `Segment by` | `IBM IS Generation, 1, resource name, Network interface index` |
-
 {: caption="Table 7: Network in bytes per second metric metadata" caption-side="top"}
 
 ## Network out bytes per second
@@ -138,7 +131,6 @@ Bytes per second transmitted for a network interface
 | `Metric type` | `gauge` |
 | `Value type`  | `none` |
 | `Segment by` | `IBM IS Generation, 1, resource name, Network interface index` |
-
 {: caption="Table 8: Network out bytes per second metric metadata" caption-side="top"}
 
 ## Total memory
@@ -152,7 +144,6 @@ Total memory of the virtual server instance in kibibytes (1024 bytes)
 | `Metric type` | `gauge` |
 | `Value type`  | `byte` |
 | `Segment by` | `IBM IS Generation, 1, resource name` |
-
 {: caption="Table 9: Total memory in kibibytes metric metadata" caption-side="top"}
 
 ## Volume I/O throughput read
@@ -166,7 +157,6 @@ Data read from the volume (MiB/s).
 | `Metric type` | `gauge` |
 | `Value type`  | `byte` |
 | `Segment by` | `IBM IS Generation, 1, resource name, disk name of the volume, UUID of storage volume` |
-
 {: caption="Table 10: Volume I/O throughput read metric metadata" caption-side="top"}
 
 ## Volume I/O throughput total
@@ -180,7 +170,6 @@ All volume I/O, in MiB/s.
 | `Metric type` | `gauge` |
 | `Value type`  | `byte` |
 | `Segment by` | `IBM IS Generation, 1, resource name, disk name of the volume, UUID of storage volume` |
-
 {: caption="Table 11: Volume I/O throughput total metric metadata" caption-side="top"}
 
 ## Volume I/O throughput written
@@ -194,7 +183,6 @@ Data that is written to the volume (MiB/s)
 | `Metric type` | `gauge` |
 | `Value type`  | `byte` |
 | `Segment by` | `IBM IS Generation, 1, resource name, disk name of the volume, UUID of storage volume` |
-
 {: caption="Table 12: Volume I/O throughput written metric metadata" caption-side="top"}
 
 ## Volume I/O wait time
@@ -208,7 +196,6 @@ Total I/O wait time (all requests) per second
 | `Metric type` | `gauge` |
 | `Value type`  | `none` |
 | `Segment by` | `IBM IS Generation, 1, resource name, disk name of the volume, UUID of storage volume` |
-
 {: caption="Table 13: Volume I/O wait time metric metadata" caption-side="top"}
 
 ## Volume read requests bytes per second
@@ -222,7 +209,6 @@ Read requests in bytes per second.
 | `Metric type` | `gauge` |
 | `Value type`  | `byte` |
 | `Segment by` | `IBM IS Generation, 1, resource name, disk name of the volume, UUID of storage volume` |
-
 {: caption="Table 14: Volume read requests bytes per second metric metadata" caption-side="top"}
 
 ## Volume read requests I/O operations per second
@@ -236,7 +222,6 @@ Volume read requests per second.
 | `Metric type` | `gauge` |
 | `Value type`  | `none` |
 | `Segment by` | `IBM IS Generation, 1, resource name, disk name of the volume, UUID of storage volume` |
-
 {: caption="Table 15: Volume read I/O operations per second metric metadata" caption-side="top"}
 
 ## Volume read latency
@@ -250,7 +235,6 @@ Read latency from volume, in microseconds
 | `Metric type` | `gauge` |
 | `Value type`  | `second` |
 | `Segment by` | `IBM IS Generation, 1, resource name, disk name of the volume, UUID of storage volume` |
-
 {: caption="Table 16: Volume read latency metric metadata" caption-side="top"}
 
 ## Volume total I/O operations per second
@@ -264,7 +248,6 @@ I/O requests per second.
 | `Metric type` | `gauge` |
 | `Value type`  | `none` |
 | `Segment by` | `IBM IS Generation, 1, resource name, disk name of the volume, UUID of storage volume` |
-
 {: caption="Table 17: Volume total I/O operations per second metric metadata" caption-side="top"}
 
 ## Volume write bytes per second
@@ -278,7 +261,6 @@ Write requests in bytes per second.
 | `Metric type` | `gauge` |
 | `Value type`  | `byte` |
 | `Segment by` | `IBM IS Generation, 1, resource name, disk name of the volume, UUID of storage volume` |
-
 {: caption="Table 18: Volume write bytes per second metric metadata" caption-side="top"}
 
 ### Volume write I/O operations per second
@@ -292,7 +274,6 @@ Write requests per second.
 | `Metric type` | `gauge` |
 | `Value type`  | `none` |
 | `Segment by` | `IBM IS Generation, 1, resource name, disk name of the volume, UUID of storage volume` |
-
 {: caption="Table 19: Volume write I/O operations per second metric metadata" caption-side="top"}
 
 ### Volume write latency
@@ -306,5 +287,4 @@ Write latency from volume, in microseconds
 | `Metric type` | `gauge` |
 | `Value type`  | `second` |
 | `Segment by` | `IBM IS Generation, 1, resource name, disk name of the volume, UUID of storage volume` |
-
 {: caption="Table 20: Volume write latency metric metadata" caption-side="top"}
