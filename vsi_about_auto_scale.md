@@ -18,7 +18,10 @@ subcollection: virtual-servers
 {: #about-auto-scale}
 
 Auto scale for {{site.data.keyword.BluVirtServers}} provides you with the ability to automate the manual scaling process that's associated with adding or removing instances to support your business applications. This automation sets up new instances automatically as more resources are needed and then those instances are shut down and removed when the extra load subsides. Auto scale uses groups to contain the policies that change how your environment expands or shrinks. These policies use actions to add or remove virtual server based on your business and application needs. 
-{:shortdesc}
+{: shortdesc}
+
+## Auto scale features
+{: #auto-scale-features}
 
 Auto scaling enables the following features:
 
@@ -37,6 +40,4 @@ Two common business solutions exist to which you can use auto scaling:
 {: caption="Table 1. Auto scaling solutions" caption-side="top"}
 
 If you are not the account administrator, your user account must include permission to use auto scale. The account administrator can grant user's permission from the {{site.data.keyword.cloud_notm}} console. For more information about updating permissions, see [Setting up user permissions for auto scale](/docs/virtual-servers?topic=virtual-servers-user-permissions-required-to-use-auto-scale).
-{:note}
-
-
+{: note}
