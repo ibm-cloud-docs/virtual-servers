@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2021
-lastupdated: "2021-09-15"
+lastupdated: "2021-09-13"
 
 subcollection: virtual-servers
 
@@ -11,7 +11,7 @@ subcollection: virtual-servers
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:note: .note}
 {:pre: .pre}
 {:tip: .tip}
 {:table: .aria-labeledby="caption"}
@@ -38,8 +38,8 @@ Transient virtual servers can be provisioned through the {{site.data.keyword.clo
 
 To set up the webhook, you need to assign the following parameters to the transient virtual server instance by using the SLDN API:
 
-   * **URI** - A valid HTTP URI to which the `reclaim-scheduled` notification is sent.
-   * **Secret** - A string that is used as the key to a hash algorithm to sign the request. Do not communicate the secret string to anyone else.
+* **URI** - A valid HTTP URI to which the `reclaim-scheduled` notification is sent.
+* **Secret** - A string that is used as the key to a hash algorithm to sign the request. Do not communicate the secret string to anyone else.
 
 The webhook must be set up for each provisioned transient virtual server. However, the URI and the secret do not need to be unique.
 
@@ -74,15 +74,15 @@ To verify `reclaim-scheduled` notifications, review the following items:
 
 1. The timestamp of the request
 
-   Check the time that the request was received against the timestamp in the request headers. If it is off by more than 30 seconds or so, do not accept the request. This action can help prevent replay attacks.
+    Check the time that the request was received against the timestamp in the request headers. If it is off by more than 30 seconds or so, do not accept the request. This action can help prevent replay attacks.
 
 2. The nonce found in the request's "X-IBM-Nonce" header
 
-   This value is a string that is randomly generated when the request is sent. You can choose to store previously received nonces to compare against the nonce included in the request. If the nonce in the request was used before, do not accept the request. This action can help prevent replay attacks.
+    This value is a string that is randomly generated when the request is sent. You can choose to store previously received nonces to compare against the nonce included in the request. If the nonce in the request was used before, do not accept the request. This action can help prevent replay attacks.
 
 3. Hash Message Authentication Code (HMAC) located in the request's "Authorization" header
 
-   This value is a string that is hashed by using the HMAC-SHA256 algorithm that uses the provided secret string as the key, and then encoded into Base64. You need to construct the string, hash it, encode it to Base64, and then compare the result to the signature in the "Authorization" header. If they do not match, do not accept the request. See next section for details on creating the HMAC signature.
+    This value is a string that is hashed by using the HMAC-SHA256 algorithm that uses the provided secret string as the key, and then encoded into Base64. You need to construct the string, hash it, encode it to Base64, and then compare the result to the signature in the "Authorization" header. If they do not match, do not accept the request. See next section for details on creating the HMAC signature.
 
 ### Comparing the HMAC signatures
 {: #comparing-the-hmac-signatures}
@@ -129,6 +129,8 @@ Key names might not be listed as shown in the example.
    }
 ```
 {: codeblock}
+		
+
 
 ## Code examples for creating the HMAC signature
 {: #code-examples-for-creating-the-hmac-signature}
