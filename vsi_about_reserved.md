@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2021
-lastupdated: "2021-09-09"
+lastupdated: "2021-09-13"
 
 keywords: reserved virtual servers, cost savings, guaranteed capacity 
 
@@ -54,9 +54,9 @@ Reserved virtual server instances are public instances that use SAN-backed stora
 
 Consider the following limitations before you reserve capacity and provision a reserved virtual server instance:
 
-   * You can't use variable compute profiles.
-   * You can't upgrade or downgrade your instances.
-   * Reserved capacity cannot be canceled; however, you can reclaim virtual server instances in that capacity.
+* You can't use variable compute profiles.
+* You can't upgrade or downgrade your instances.
+* Reserved capacity cannot be canceled; however, you can reclaim virtual server instances in that capacity.
     
 ## Notifications
 {: #notifications-reserved-virtual-servers}
