@@ -17,7 +17,7 @@ subcollection: virtual-servers
 {: #managing-schedule-based-auto-scaling}
 
 Web traffic spikes can be a good thing and a bad thing. Traffic spikes are good in the sense that more people are using your site. Traffic spikes can be bad because of how a surge in activity can affect your response times. {{site.data.keyword.cloud}} auto scale provides you with ability to automatically scale your servers up or down to support your business needs. You can use schedule-based auto scaling to control the traffic spikes. 
-{:shortdesc}
+{: shortdesc}
 
 ## Before you begin
 {: #before-you-begin-schedule-based-auto-scale}
