@@ -218,7 +218,6 @@ The toolchain process has five stages.
   terraform plan -var "ssh_public_key=$PUBLIC_KEY" -input=false -out tfplan
   ```
   {: pre}
-
 3. The Terraform apply stage applies the Terraform configuration and waits until the IP address of the virtual server is available.
 
   ```console
@@ -226,7 +225,6 @@ The toolchain process has five stages.
   terraform output "host ip" > hostip.txt
   ```
   {: pre}
-
 4. The deployment, install, start stage moves the Debian package that is built in the first stage into the running virtual server, installs it and then starts it.
 5. The health check stage validates the health endpoint is available on the app and then completes the pipeline.
 
