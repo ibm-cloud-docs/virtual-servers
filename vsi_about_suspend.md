@@ -26,13 +26,12 @@ subcollection: virtual-servers
 {: #requirements}
 
 When you power off {{site.data.keyword.BluVirtServers}} that support the suspend billing feature, you don't accrue costs for certain compute resources. Billing stops automatically when the server is powered off. The suspend billing feature helps you reduce cost and prevents you from having to reprovision a virtual server when you need its resources again. Suspend billing does not apply to secondary public IP addresses and storage. A minimum 25% usage charge is applied to a powered off instance during its billing cycle.
-{:shortdesc}
+{: shortdesc}
 
 If your profile doesn't support the suspend billing option or you choose not to suspend your instances, you are billed for your usage. The usage rate is based on the normal hourly or monthly rates for your instance configuration.
-{:note}
 
 Most virtual server instances that were created before 1 November 2018 and instances that are billed monthly don't support the suspend billing feature. To find out whether your virtual server instance supports the suspend billing feature, see [Viewing suspend billing feature](/docs/virtual-servers?topic=virtual-servers-viewing-suspend-billing-feature).
-{:important}
+{: important}
 
 ## Before you begin
 {: #suspend-billing-prereqs}
@@ -47,21 +46,19 @@ To provision a virtual server instance that supports the suspend billing feature
     * Variable compute
 
 For suspend billing to work properly, your instance must meet the preceding requirements and you must specify a profile.
-{:important} 
+{: important} 
 
 You can use the suspend billing feature as a faster alternative to provisioning and reclaiming a virtual server instance.
 
 Billing is suspended only when you power off your virtual server instance through the {{site.data.keyword.cloud_notm}} console, CLI, or {{site.data.keyword.slapi_short}}. If you power off your virtual server instance directly through the OS, billing isn't suspended for that instance.
-{:important}
+{: important}
 
 ## Provisioning details
 {: #provisioning-details}
 
 You can provision a virtual server instance that supports the suspend billing feature through the {{site.data.keyword.cloud_notm}} catalog (cloud.ibm.com), CLI, or the {{site.data.keyword.slapi_short}}. You can't provision a virtual server instance that supports the suspend billing feature through the {{site.data.keyword.slportal}} (control.softlayer.com). For more information about provisioning public virtual server instances, see [Provisioning public instances](/docs/virtual-servers?topic=virtual-servers-ordering-vs-public#ordering-vs-public).
 
-For the {{site.data.keyword.cloud_notm}} catalog, you must have an upgraded account to order virtual servers. For more information about upgrading your account, see [
-Account types](/docs/account?topic=account-accounts).
-{:note}
+For the {{site.data.keyword.cloud_notm}} catalog, you must have an upgraded account to order virtual servers. For more information about upgrading your account, see [Account types](/docs/account?topic=account-accounts).
 
 ### Provisioning through the API
 {: #provisioning-through-API}
@@ -90,7 +87,6 @@ It's important to understand what costs stop accruing and what costs persist whe
 {: summary="This table has row and column headers. The row headers identify the resource. The column headers identify whether billing stops or persists when your instance is powered off. To understand whether billing stops or persists for a resource, go to the row in the table, and find the billing information that you are interested in."}  
 
 When you provision a virtual server instance that supports the suspend billing feature, the usage times are calculated per second, for both the in use time and suspended time of your virtual server instance. Even if you never initiate the suspend billing feature by powering off your instance, the billing is calculated per second of the instance's lifecycle.
-{:note}
 
 ### Minimum usage charge
 {: #minimum-usage-charge}
@@ -107,7 +103,7 @@ Computing instance usage...
 RAM usage...
 Operating system usage...
 ```
-{:screen}
+{: screen}
 
 ## Resource details
 {: #resource-details}
