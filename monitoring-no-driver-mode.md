@@ -28,41 +28,29 @@ subcollection: virtual-servers
 When you provision an {{site.data.keyword.mon_full_notm}} instance, you can enable the 'no driver mode'. You can access metrics through the pre-built dashboards that are available in the {{site.data.keyword.mon_full_notm}} dashboard.
 {: shortdesc}
 
-<!--Sysdig agent 9.9.0 or higher is required for 'no driver mode'.
-{: note}-->
-
-## {{site.data.keyword.mon_full_notm}} agents and plans
-{: #monitoring-agents-and-plans}
-
-
-
 ## Configuring {{site.data.keyword.mon_full_notm}} 'no driver mode'
 {: #provision-monitoring-light}
 
 To enable 'no driver mode' and monitor and manage metrics, you need to configure a monitoring agent in each environment that you want to use 'no driver mode'.
-{: shortdesc}
 
 Use these steps to enable 'no driver mode'.
 
-**1.** Provision a Graduated tier Sysdig instance by following the steps in [Provisioning a monitoring instance](/docs/Monitoring-with-Sysdig?topic=Monitoring-with-Sysdig-provision). For more information about the Graduated tier, see [Service plans](/docs/Monitoring-with-Sysdig?topic=Monitoring-with-Sysdig-pricing_plans).
-
-**2.** Enable {{site.data.keyword.mon_full_notm}} 'no driver mode' by following the steps that correspond to your provisioned environment by following the steps in [Configuring a monitoring agent](/docs/Monitoring-with-Sysdig?topic=Monitoring-with-Sysdig-config_agent).
-
-**3.** Add the following configuration to the `dragent.yaml` file:
+1. Provision a Graduated tier Sysdig instance by following the steps in [Provisioning a monitoring instance](/docs/Monitoring-with-Sysdig?topic=Monitoring-with-Sysdig-provision). For more information about the Graduated tier, see [Service plans](/docs/Monitoring-with-Sysdig?topic=Monitoring-with-Sysdig-pricing_plans).
+2. Enable {{site.data.keyword.mon_full_notm}} 'no driver mode' by following the steps that correspond to your provisioned environment by following the steps in [Configuring a monitoring agent](/docs/Monitoring-with-Sysdig?topic=Monitoring-with-Sysdig-config_agent).
+3. Add the following configuration to the `dragent.yaml` file:
 
 ```
 feature:
   mode: `monitor_light`
   Available options for the feature mode are: `monitor_light | monitor | none`.
 ```
+{: codeblock}
 
 **OR**
 
 Alternatively, you can use the following curl command:
 
-```
-curl -sL https://ibm.biz/install-sysdig-agent | sudo bash -s -- -a SYSDIG_ACCESS_KEY -c COLLECTOR_ENDPOINT --collector_port 6443 --secure true -ac "feature:\n mode: monitor_light"
-```
+`curl -sL https://ibm.biz/install-sysdig-agent | sudo bash -s -- -a SYSDIG_ACCESS_KEY -c COLLECTOR_ENDPOINT --collector_port 6443 --secure true -ac "feature:\n mode: monitor_light"`
 
 Where
 
@@ -84,7 +72,6 @@ After you provision your monitoring agent and enable 'no driver mode', you need 
 {: #sysdig-light-metrics}
 
 {{site.data.keyword.mon_full_notm}} collects basic virtual server instance metrics such as CPU usage, disk usage, network traffic, and memory. You can access metrics through the prebuilt monitoring dashboard.
-{: shortdesc}
 
 Use the following tables to see which metrics are supported by 'no driver mode'.
 
