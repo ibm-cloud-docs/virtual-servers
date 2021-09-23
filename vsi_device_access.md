@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-06-07"
+  years: 2017, 2021
+lastupdated: "2021-05-20"
 
 subcollection: virtual-servers
 
@@ -15,24 +15,25 @@ subcollection: virtual-servers
 {:pre: .pre}
 {:note: .note}
 {:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
 
 
 # Managing device access
 {: #managing-device-access}
 
-To access and manage the details for a specific device, you must have the correct permissions granted to your user account.  After the account administrator grants your user account access to a device, you can view the device details by using the {{site.data.keyword.cloud}} console or by using the {{site.data.keyword.slapi_short}}. The information or actions that you see depend on the device type, as well as the permissions that are granted to your user account.
-{:shortdesc}
+To access and manage the details for a specific device, you needthe correct permissions.  After the account administrator grants your user account access to a device, you can view the device details by using the {{site.data.keyword.cloud}} console or by using the {{site.data.keyword.slapi_short}}. The information or actions that you see depend on the device type, and the permissions that are granted to your user account.
+{: shortdesc}
 
-If your account has devices to which you have not been granted access, you will see an "Unknown Device" name when you try to access those devices.
-{:note}
+If your account has devices to that you don't have access, you see an "Unknown Device" name when you try to access those devices.
+{: note}
 
 You can assign device access to any users on your account, but not to yourself. Only an account's administrator has access to all devices on their customer account and can set access for all other users on their account. 
 
 You must have the following permissions to access the device details for public virtual servers or dedicated virtual servers.
 
-* **View Virtual Servers Details** - Allows you to view the IP addresses, operating system type, passwords, and more for a given virtual server.  It also allows you to update virtual server passwords in the portal. You must have this access to view public instances, dedicated instances, and dedicated host instances.
+* **View Virtual Servers Details** - Used to view the IP addresses, operating system type, passwords, and more for a given virtual server.  IView Virtual Servers Details is also used to update virtual server passwords in the portal. You must have this access to view public instances, dedicated instances, and dedicated host instances.
 
-* **View Virtual Dedicated Host Details** - Allows you to view the IP addresses, operating system type, passwords, and more for a given dedicated host.  It also allows you to migrate dedicated instances to a different dedicated host. You must have this access to view dedicated hosts.
+* **View Virtual Dedicated Host Details** - Used to view the IP addresses, operating system type, passwords, and more for a given dedicated host.  View Virtual Dedicated Host Details is also used to migrate dedicated instances to a different dedicated host. You must have this access to view dedicated hosts.
 
 
 ## Adding permissions for your users
@@ -64,7 +65,7 @@ If you are the account administrator and you want to grant users permission to v
 
 1. Access the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
 2. Select **Account > Users** from the Navigation Bar to access the Users screen.
-3. Click the relevant user name to access the User Profile.
+3. Click the relevant username to access the User Profile.
 4. Click the **Portal Permissions** icon to access the Portal Permissions screen.
 5. On the **Device** tab, select **View Virtual Server Details** and **View Virtual Dedicated Host Details** to add these permissions to the user’s profile.
 
@@ -75,16 +76,16 @@ To provide access at a specific device level, continue to the following steps.
 
 1. Click the **Device Access** icon to access the Device Access screen.
 2. Click the **Quick Access** tab. 
-3. From the **Device Type** drop down list, select **All virtual servers** and **All dedicated hosts**.
-4. Select the **Automatically grant access when new devices are added** check box if the associated user should always have access to this device type.
-5. Verify the correct devices are selected.
+3. From the **Device Type** drop-down list, select **All virtual servers** and **All dedicated hosts**.
+4. Select the **Automatically grant access when new devices are added** checkbox if the associated user needs to always have access to this device type.
+5. Verify that the correct devices are selected.
 6. Click **Update device access**.
 
-You can also use the SoftLayer_User_Customer::addBulkDedicatedHostAccess API service to give a user access to one or more dedicated hosts. For more information, see [Adding Bulk Dedicated Host Access ![External link icon](../icons/launch-glyph.svg "External link icon")](https://softlayer.github.io/reference/services/SoftLayer_User_Customer/addBulkDedicatedHostAccess/){: new_window}.  
-{:note}
+You can also use the SoftLayer_User_Customer::addBulkDedicatedHostAccess API service to give a user access to one or more dedicated hosts. For more information, see [Adding Bulk Dedicated Host Access](https://softlayer.github.io/reference/services/SoftLayer_User_Customer/addBulkDedicatedHostAccess/){: external}.  
+{: note}
 
 ## Next steps
 {: #next-steps-device-access}
 
-User permissions are updated immediately after the changes are submitted. If permissions have been granted, the user can view or interact with the selected features. If permissions have been removed, the user can no longer view or interact with the selected features. Permissions can be updated again at any time.
+User permissions are updated immediately after the changes are submitted. If permissions are granted, the user can view or interact with the selected features. If permissions are removed, the user can no longer view or interact with the selected features. Permissions can be updated again at any time.
 
