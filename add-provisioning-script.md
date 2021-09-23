@@ -16,7 +16,7 @@ subcollection: virtual-servers
 {: #managing-a-provisioning-script}
 
 You can use provisioning scripts to specify a URL to a script that runs on a newly provisioned device. Provisioning scripts can be any file that the operating system can run, including combined binary files or any OS-supported language. You have no restrictions for the script name; however, using a similar naming convention for each script makes it easier to identify. Provisioning scripts must be associated with a fully qualified domain name and accessible using the HTTP or HTTPS protocols. The type of protocol that is used impacts the system's automated response when the provisioning script is downloaded to the device.  
-{:shortdesc}
+{: shortdesc}
 
 * Using **HTTP protocol** requires an administrator to run the script manually after it is downloaded.
 * Using **HTTPS protocol** downloads and runs the script automatically, if possible. If the URL is not associated to a valid script, the script is downloaded and no further action must be taken.
@@ -47,7 +47,7 @@ For more information about permissions, see [Classic infrastructure permissions]
 2. Click anywhere in the **Name** or **URL** column for the provisioning script to open the script for edits.
 3. Update the name or URL.
    When you update a URL, you must use a fully qualified domain name or the change is not saved.
-   {:note}
+   {: note}
 4. Click anywhere on the screen to save the edit.
 
 ## Next steps
