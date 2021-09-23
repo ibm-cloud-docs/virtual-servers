@@ -171,7 +171,7 @@ Virtual Servers for Classic
         vsi_faqs_auto_scale.md
         vsi_faqs_bandwidth_graphs.md
         image-templates-faqs.md
-        /bare-metal/bare-metal-faqs
+        /bare-metal?topic=bare-metal-bm-faq
         ssh-keys-faq.md
         monitoring-faq.md
 
