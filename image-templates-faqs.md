@@ -32,7 +32,7 @@ A standard image template is the {{site.data.keyword.virtualmachineslong}} imagi
 The ISO template is a type of template that is reserved for ISOs that can be used to start a virtual server instance. ISO templates are available in two versions: public and private. Public ISO templates are preconfigured templates that are provided by {{site.data.keyword.BluSoftlayer_notm}} and can be used by any customer. Private ISO templates are created by importing an image of an ISO stored on an {{site.data.keyword.objectstorageshort}} account. In order for an ISO to be imported to the Image Templates screen, the ISO must be bootable.
 
 {{site.data.keyword.BluSoftlayer_notm}} supported operating systems can be used only to load an ISO template onto an instance. For more information, see [Supported Operating Systems](/docs/bare-metal?topic=bare-metal-about-software&locale=en#supported-operating-systems-for-ibm-cloud-virtual-servers){: external}.
-{:tip}
+{: tip}
 
 ## What is the difference between a public image and a private image?
 {: #what-is-the-difference-between-a-public-image-and-a-private-image-}
