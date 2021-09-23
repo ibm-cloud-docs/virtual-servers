@@ -11,7 +11,7 @@ subcollection: virtual-servers
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 {:note: .note}
@@ -19,33 +19,33 @@ subcollection: virtual-servers
 # Configuring virtual servers
 {: #configuring-virtual-servers}
 
-When you have access to your virtual server, be sure to change your password and consider setting up SSH for a more secure authentication solution. There are many other options for configuring your virtual server to meet the needs of your environment.
-{:shortdesc}
+When you have access to your virtual server, make sure that you change your password and consider setting up SSH for a more secure authentication solution. You have many other options for configuring your virtual server to meet the needs of your environment.
+{: shortdesc}
 
 Before you configure a virtual server, review your options for connecting to the server and how to manage passwords and credentials. For more information, see [Getting started with IBM Cloud Virtual Private Networking](/docs/iaas-vpn?topic=iaas-vpn-getting-started) and [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
 {: note}
 
-## Log in
+### Log in
 {: #log-in}
 
-Log in to the [{{site.data.keyword.cloud}} console ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/classic?){: new_window} with the credentials that you received in an email when your account was initially created. Alternatively, you can log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+Log in to the [{{site.data.keyword.cloud}} console](https://cloud.ibm.com/classic?){: external} with the credentials that you received in an email when your account was initially created.
 
-## Locate your virtual server
+### Locate your virtual server
 {: #locate-your-virtual-server}
 
 Find your virtual server in the Device List in the {{site.data.keyword.cloud_notm}} console. From the Device List, you can manage devices, upgrade devices, or generate bandwidth usage charts. For more information, see [Managing virtual servers](/docs/virtual-servers?topic=virtual-servers-managing-virtual-servers#managing-virtual-servers).
 
-## Change your password
+### Change your password
 {: #change-your-password}
 
 Change your password using strong password guidelines. See [Viewing and managing device user names and passwords](/docs/virtual-servers?topic=virtual-servers-view-update-user-name-password-for-device#view-update-user-name-password-for-device).
 
-## Configure SSH
+### Manage SSH keys
 {: #configure-ssh}
 
 SSH provides better security solution than password authentication. See [Getting started with SSH keys](/docs/ssh-keys?topic=ssh-keys-getting-started-tutorial#getting-started-tutorial).
 
-## Record IP addresses and credentials
+### Record IP addresses and credentials
 {: #record-ip-addresses-and-credentials}
 
 Keep a log of IP addresses and credentials for the server in a safe location so that you can access them quickly without having to log in to the {{site.data.keyword.cloud_notm}} console.
@@ -53,7 +53,7 @@ Keep a log of IP addresses and credentials for the server in a safe location so 
 - Individual device root passwords can be viewed in the device’s Snapshot View. Click the arrow next to the device name to expand the view.
 - Multiple device IP addresses can be viewed by using the Download CSV action within the Device List. Select Download CSV from the Settings cog to download a full list of devices and details in spreadsheet format.
 
-## Update software credentials
+### Update software credentials
 {: #update-software-credentials}
 
 All software that was loaded onto your device during the provisioning process was assigned temporary credentials. These credentials are viewed and managed on the Passwords tab of each device in the {{site.data.keyword.cloud_notm}} console. Use these temporary credentials to access your software for the first time. As a best practice, change the password to your software after you access it for the first time. Use a strong password that consists of a combination of letters, numbers, and symbols.
@@ -62,7 +62,7 @@ Optionally, password updates can be stored on the Passwords tab for each device;
 
 For more information about viewing and managing your software credentials, see [Managing classic infrastructure access](/docs/virtual-servers?topic=account-mngclassicinfra).
 
-## Access your server on the private network
+### Access your server on the private network
 {: #access-your-server-on-the-private-network}
 
 The private network is the precursor to interacting with your devices through remote desktop (RDP) using SSH and KVM over IP. The VPN Access tool allows for private network connection to either the closest SSL VPN endpoint or to the endpoint of your choice. VPN access is also required to interact with several services that are offered. For more information, see [Getting started with Virtual Private Networks (VPN)](/docs/iaas-vpn?topic=iaas-vpn-getting-started).
@@ -92,7 +92,7 @@ For more information, see the following information.
 
 Backups ensure that your data is safely stored outside of your device and protected if it is lost. The following backup services are available to store your data in a secure location in case you ever need to reload your information onto your device:
 - {{site.data.keyword.backup_notm}} is an automated, agent-based backup system. This is a popular “set-and-forget” solution for managing your device. It is compatible with Microsoft software including Exchange and SQL through extra plug-ins. {{site.data.keyword.backup_notm}} users interact with this service through {{site.data.keyword.backup_notm}}’s WebCC web-based application. For more information, see [Getting started with {{site.data.keyword.backup_notm}} services](/docs/Backup?topic=Backup-getting-started).
-- R1Soft Continuous Data Protection is backup software that can be installed on your server or self-managed virtual machine. It is recommended if you want a single interface to manage all of your backups. You interact with R1Soft CDP through your proprietary management system, which allows agents to be installed on virtual machines and offers database plug-ins for extra functions. For more information about R1Soft CDP back-up services, see the [R1Soft Documentation ![External link icon](../icons/launch-glyph.svg "External link icon")](http://wiki.r1soft.com/display/ServerBackupManager/Home){: new_window}.
+- R1Soft Continuous Data Protection is backup software that can be installed on your server or self-managed virtual machine. It is recommended if you want a single interface to manage all of your backups. You interact with R1Soft CDP through your proprietary management system, which allows agents to be installed on virtual machines and offers database plug-ins for extra functions. For more information about R1Soft CDP back-up services, see the [R1Soft Documentation](http://wiki.r1soft.com/display/ServerBackupManager/Home){: external}.
 
 ## Next steps
 {: #next-steps-configuring-virtual-servers}
