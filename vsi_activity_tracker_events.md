@@ -22,7 +22,7 @@ subcollection: virtual-servers
 {: #at_events}
 
 As a security officer, auditor, or manager, you can use the {{site.data.keyword.cloudaccesstrailfull}} service to track how users and applications interact with virtual server instances in {{site.data.keyword.Bluemix}}. The account owner and users that are linked with the account can trigger virtual server events that are logged in {{site.data.keyword.cloudaccesstrailshort}}.
-{:shortdesc}
+{: shortdesc}
 
 The {{site.data.keyword.cloudaccesstrailshort}} service records user-initiated activities that change the state of a service in
 {{site.data.keyword.Bluemix_notm}}. For more information, see [Auditing events for IAM](/docs/activity-tracker?topic=activity-tracker-at_events_iam).
