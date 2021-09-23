@@ -17,9 +17,11 @@ subcollection: virtual-servers
 {: #managing-resourced-based-auto-scaling}
 
 Launching a new product or having a sale on an existing product can cause a spike in traffic on your website. A spike in traffic can affect your response time, which affects your customers’ experience with your website. {{site.data.keyword.cloud}} auto scale automatically responds to traffic spikes. You can use resource-based auto scaling to control traffic spikes.
-{:shortdesc}
+{: shortdesc}
 
 ## Before you begin
+{: #before-you-begin-auto-scale-resources}
+
 Go to the device menu and make sure that you have the correct account permissions to complete the tasks.
 
 * Go to your console's device menu. For more information, see [Navigating to devices](/docs/virtual-servers?topic=virtual-servers-navigating-devices).
@@ -49,7 +51,7 @@ For example, a Dallas Texas-based e-commerce website requires three virtual serv
 4. If the instances require extra steps to install extra software, specify the URL of a **Post-Install Script** to install the software. 
 
 If you use a load balancer for the group, the post-install scripts are run before a member is placed behind a load balancer.
-{:note}
+{: note}
 
 ## Setting up policies
 {: #setting-up-policies}
