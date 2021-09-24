@@ -20,6 +20,6 @@ subcollection: virtual-servers
 {: #managing-security-groups}
 
 You can manage security groups by using the **Security** page or your device details page in the {{site.data.keyword.cloud}} console.
-{:shortdesc}
+{: shortdesc}
 
 For more information about managing security groups, see [Managing security groups](/docs/security-groups?topic=security-groups-managing-sg#managing-sg).
