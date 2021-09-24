@@ -23,7 +23,7 @@ subcollection: virtual-servers
 {: #provisioning-dedicated-hosts-instances}
 
 You can provision your dedicated instances through the {{site.data.keyword.cloud}} catalog. See [Signing up for {{site.data.keyword.cloud_notm}}](/docs/account?topic=account-account-getting-started) to set up your {{site.data.keyword.cloud_notm}} catalog credentials.
-{:shortdesc}
+{: shortdesc}
 
 ## Provisioning a dedicated virtual server instance through the IBM Cloud catalog
 {: #provisioning-a-dedicated-virtual-server-instance-through-the-ibm-cloud-cat}
