@@ -23,7 +23,7 @@ subcollection: virtual-servers
 {: #managing-virtual-servers}
 
 You can manage virtual servers, along with other devices, from the device details list. You can cancel, reboot, or rename a vitual server by using the following steps. 
-{:shortdesc}
+{: shortdesc}
 
 
 ## Before you begin
@@ -58,7 +58,7 @@ Complete the following steps to perform management tasks for your servers.
 * You can interact with servers in the {{site.data.keyword.cloud_notm}} console in both the snapshot view (a summary of your device) and on the device's details page (a fully detailed list). To view and interact with your server in the snapshot view, click the arrow next to the Device Name to expand the view. To view and interact with your server on the device's details page, click the Device Name of the server.
 
 * You can add notes to a device at any time from the **Configuration** tab. Notes can help identify details about the device, its use, and actions that were taken on the device.
- {:tip}
+ {: tip}
 
 ## Device tasks
 {: #device-tasks}
@@ -71,7 +71,7 @@ The following are relevant tasks that you can do from the **Actions** menu as de
 A reboot is one of the most basic device actions. Rebooting a device results in the immediate powering off and then back on of your device. Device reboots can take place from both the Device List and from the Device View of an individual device. Virtual Servers can be rebooted at any time.
 
 A reboot is helpful when you experience an issue in which the server cannot boot to the operating system because of a configuration issue.  You can also boot into rescue mode. After it boots into rescue mode, you can mount the drives of your server, and then fix the configuration issue. When the issue is fixed, reboot the server from the command line, and the server reboots into the default kernel for your server.
-{:tip}
+{: tip}
 
 ### Powering a device On or Off
 {: #power-on-off}
@@ -89,7 +89,7 @@ After you rename a device, the name is automatically updated in the {{site.data.
 The KVM console is a Java applet. Java must be installed before you can access the console. If Java is installed, make sure that a connection is established through the VPN. If a connection isn't established, a warning displays saying that a VPN connection is required. If you have connection issues with your KVM console, see [Why can I not connect to the KVM console?](/docs/virtual-servers?topic=virtual-servers-faqs-servers-general-#why-can-i-not-connect-to-the-kvm-console-).
 
 If you have issues with incompatible Java settings in your browser, you can alternatively use the TightVNC viewer. You must download and install TightVNC viewer for Windows 64-bit version. For more information, see [How to connect to KVM console of IBM Cloud Virtual Servers](https://www.ibm.com/support/pages/how-connect-kvm-console-ibm-cloud-virtual-servers){: external} from the Support Center.
-{:tip}
+{: tip}
 
 ### Canceling a virtual server
 {: #cancel}
