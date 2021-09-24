@@ -21,16 +21,15 @@ subcollection: virtual-servers
 {: #ordering-3P}
 
 You can provision a virtual server instance from an image that was created by a third-party vendor. Third-party images are available through the {{site.data.keyword.cloud}} catalog Cloud Images link.
-{:shortdesc}
+{: shortdesc}
 
 ## Before you begin
 {: #before-you-begin-third-party-image}
 
 Before you begin, make sure that you have your {{site.data.keyword.cloud_notm}} catalog credentials set up.
 
-For the {{site.data.keyword.Bluemix_notm}} catalog, you must have an upgraded account to order virtual servers. For more information about upgrading your account, see [
-Account types](/docs/account?topic=account-accounts).
-{:note}
+For the {{site.data.keyword.Bluemix_notm}} catalog, you must have an upgraded account to order virtual servers. For more information about upgrading your account, see [Account types](/docs/account?topic=account-accounts).
+{: note}
 
 ## Selecting a virtual server image
 {: #selecting-a-virtual-server-image}
@@ -58,7 +57,7 @@ For more information, see the following topics:
 After you decide upon a deployment option, begin the provisioning process. For more information, refer to the following topics.
 
 Because you started the provisioning process with a third-party image, you cannot change the image type during the provisioning process.
-{:note}
+{: note}
 
 |              Provisioning instructions                                         |  Description                                            |
 | -------------------------------------------------------------------------- | ------------------------------------------------------- |
@@ -67,7 +66,6 @@ Because you started the provisioning process with a third-party image, you canno
 |[Provisioning reserved capacity and instances](/docs/virtual-servers?topic=virtual-servers-provisioning-reserved-capacity-and-instances#provisioning-reserved-capacity-and-instances)            | Provision reserved capacity and instances with various options |
 |[Provisioning dedicated hosts and instances](/docs/virtual-servers?topic=virtual-servers-provisioning-dedicated-instances)| Provision private instances or dedicated instances on dedicated hosts.|
 {: caption="Table 2. Provisioning information" caption-side="top"}
-
 
 ## Next steps
 {: #next-steps-provisioning-third-party}
