@@ -15,7 +15,7 @@ subcollection: virtual-servers
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:note: .note}
 {:table: .aria-labeledby="caption"}
@@ -29,9 +29,13 @@ subcollection: virtual-servers
 {: toc-completion-time=" "}
 
 You have two ways to move your virtual server instance between {{site.data.keyword.Bluemix}} classic infrastructure data centers:
-* **Lift and Shift**<br>
+
+* **Lift and Shift**
+
 When you use this method, you create an image template, provision it, and cancel the old virtual server instance. This method is like lift and shift. The advantage of this method is that it is usually the easier and quicker method for moving a virtual server instance. However, while the image is being made, the virtual server instance is shut down.
-*  **System Rebuild**<br>
+
+*  **System Rebuild**
+
 When you use this method, you order a new virtual server instance and copy the data from the old virtual server instance to the new virtual server instance. This method is more involved because you need to rebuild the OS specifics and redeploy the application, which might also involve making modifications. The advantage of this method is that it provides an opportunity to start fresh with a new system or to upgrade to a newer OS.
 
 Both methods work; the method you choose depends on your business and timeline requirements.
@@ -43,11 +47,15 @@ Both methods work; the method you choose depends on your business and timeline r
 {: #vsi-migrate-before-lift-shift-method}
 
 Before you create an image template: 
-* **Plan for maintenance time** <br>
+* **Plan for maintenance time** 
+
 Creating an image template is an intrusive operation and shuts down the virtual server instance. After the template is complete, the virtual server instance powers back up. Powering down and up happens automatically and does not require user interaction.
-* **Attached storage considerations** <br> 
+* **Attached storage considerations**
+
 Capturing the data on the attached storage is optional. You can select which attached storage disks are part of the image template. The Boot volume is always mandatory.
-* **Network-attached storage considerations**<br>
+
+* **Network-attached storage considerations**
+
 Block Endurance and Performance and File storage volumes are not captured as part of the imaging process. You migrate data for these volumes at the OS level by using data migration tools such as `scp`, `rsync`, `dd`, or another third-party tool of choice. These storage services are data center specific. If you are moving your virtual server instance to a different data center, order new storage volumes at the same location where the new virtual server instance is being deployed.
 
 ### Evaluate and create an image template
@@ -57,7 +65,7 @@ Block Endurance and Performance and File storage volumes are not captured as par
    * Auto scale group
    * Placement group
    * Security group 
-1.  Log in to the [{{site.data.keyword.cloud}} console ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/classic?){: new_window} by using your unique credentials. 
+1.  Log in to the [{{site.data.keyword.cloud}} console](https://cloud.ibm.com/classic?){: external} by using your unique credentials. 
 
 1. From the dashboard, click **Menu icon ![Menu icon](../icons/icon_hamburger.svg) > Classic Infrastructure > Devices > Device List**.
 
@@ -68,7 +76,7 @@ Block Endurance and Performance and File storage volumes are not captured as par
 ### Provision the new virtual server instance
 {: #vsi-migrate-provision-lift-shift-method}
 
-1. From the [{{site.data.keyword.cloud}} console ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/classic?){: new_window}, click **Menu icon ![Menu icon](../icons/icon_hamburger.svg) > Classic Infrastructure > Devices > Device List > Manage > Images**.
+1. From the [{{site.data.keyword.cloud}} console](https://cloud.ibm.com/classic?){: external}, click **Menu icon ![Menu icon](../icons/icon_hamburger.svg) > Classic Infrastructure > Devices > Device List > Manage > Images**.
 
 1. Locate the image template that you created in *Evaluate and create an image template*. 
 
@@ -129,7 +137,7 @@ For this method, you're ordering a new virtual server and copying the data from 
 ### Order, provision, and configure the new virtual server
 {: #vsi-migrate-provision-system-rebuild-method}
 
-1. Log in to the [{{site.data.keyword.cloud}} console ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/classic?){: new_window} by using your unique credentials.
+1. Log in to the [{{site.data.keyword.cloud}} console](https://cloud.ibm.com/classic?){: external} by using your unique credentials.
 
 1. Click the **Virtual Server for Classic** tile in the catalog. 
 
@@ -166,4 +174,4 @@ For this method, you're ordering a new virtual server and copying the data from 
 
 1. Create an image template of the old server as a backup. For more information, see [Creating an image template](/docs/image-templates?topic=image-templates-creating-an-image-template).
 
-1. When ready, clean and cancel any unused resources at the old location. 
+1. When you're ready, clean and cancel any unused resources at the old location. 
