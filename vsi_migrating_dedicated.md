@@ -21,7 +21,7 @@ subcollection: virtual-servers
 {: #migrating-dedicated-host}
 
 You can migrate your dedicated host instances from one host to another within the same POD. Select the instance to be migrated from either the host’s device details page or the instance’s device details page. SAN disks are migrated quicker because local disks require copying the disk. The migrating instances are offline while the are migrated and the host remains online for its other dedicated host instances.
-{:shortdesc}
+{: shortdesc}
 
 Only two instances can be migrated at a time and the migration time depends on the disk. 
 {: note}
