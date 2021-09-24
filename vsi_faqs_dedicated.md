@@ -30,8 +30,8 @@ subcollection: virtual-servers
 {: faq}
 
 Both offerings are guaranteed single tenancy. Dedicated hosts provide the flexibility to specify on which host to provision dedicated host instances, and these other benefits:
-   * Control over which {{site.data.keyword.cloud_notm}} data center the server is placed
-   * Ability to manage your servers as workload requirements change; for example, migrate virtual servers between your dedicated hosts on the same POD
+* Control over which {{site.data.keyword.cloud_notm}} data center the server is placed
+* Ability to manage your servers as workload requirements change; for example, migrate virtual servers between your dedicated hosts on the same POD
 
 ## Can I keep my existing dedicated instances or do I need to set up a dedicated host and dedicated host instances?
 {: #can-i-keep-my-existing-dedicated-instances-or-do-i-need-to-set-up-a-dedicated-host-and-dedicated-host-instances-}
