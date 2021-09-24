@@ -37,9 +37,9 @@ For more information about permissions, see [Classic infrastructure permissions]
 Complete the following steps to update port speeds.
 
 1. From the **Devices** menu, select **Device List**.
-3. Select the server that you want to update.
-4. In the **Overview** tab, go to **Network details.**
-5. Select the drop-down menu in **Speed** (for either public or private network) to update port speed.
+2. Select the server that you want to update.
+3. In the **Overview** tab, go to **Network details.**
+4. Select the drop-down menu in **Speed** (for either public or private network) to update port speed.
 
 A manual configuration change for your server's network settings is required to complete the port speed change.
-{:tip}
+{: tip}
