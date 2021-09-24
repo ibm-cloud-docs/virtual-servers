@@ -1,10 +1,31 @@
+---
+
+copyright:
+  years: 2015, 2021
+lastupdated: "2021-05-20"
+
+subcollection: virtual-servers
+
+---
+
+{:shortdesc: .shortdesc}
+{:note: .note}
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:new_window: target="_blank"}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+
+# Image templates
+{: #image-templates}
+
 With {{site.data.keyword.BluVirtServers}} image templates, you can capture a device's image to quickly replicate its configuration with minimal changes in the order process.
-{:shortdesc}
+{: shortdesc}
 
 Image templates provide an imaging option for all {{site.data.keyword.BluVirtServers_short}}, regardless of operating system. Image templates are used to capture an image of an existing virtual server and create a new one based on the captured image. Image templates are not compatible with bare metal servers.
 
 Image templates are not intended for backing up your data.
-{:note}
+{: note}
 
 ## How image templates work
 {: #how-image-templates-work}
