@@ -21,14 +21,14 @@ subcollection: virtual-servers
 # Provisioning transient instances
 {: #ordering-vs-transient}
 
-## Before you begin
-{: #before-you-begin-provisioning-transient}
-
 You can provision your transient virtual server instances through the {{site.data.keyword.cloud}} console.
-{:shortdesc}
+{: shortdesc}
 
 For the {{site.data.keyword.cloud_notm}} console, you must have an upgraded account to order virtual servers. For more information about upgrading your account, see [Pay-As-You-Go account](/docs/account?topic=account-accounts#paygo).
-{:note}
+{: note}
+
+## Before you begin
+{: #before-you-begin-provisioning-transient}
 
 Before you begin, review the following prerequisites.
 
@@ -44,7 +44,7 @@ Before you begin, review the following prerequisites.
 To provision a transient virtual server instance, you need to consider the following information.
 
 You must be logged in to see all available options. 
-{:tip}
+{: tip}
 
 ### Transient instance
 {: #transient-instance}
@@ -66,7 +66,7 @@ You must be logged in to see all available options.
 {: #transient-instance-add-ons}
 
 If you choose any software add-ons, they must be compatible with your image to avoid an error when you are ordering your instance. For example, you can’t provision a Red Hat image with a Microsoft database.
-{:important}
+{: important}
 
 | Field     | Details     |
 | --------- | ----------- |
@@ -106,7 +106,7 @@ If you need extra storage, you can attach storage disks to your instance. The ty
 {: caption="Table 4. Network interface add-ons" caption-side="top"}
 
 You can also provision a transient virtual server by using the {{site.data.keyword.slapi_short}}. For an example, see [Provisioning a transient instance with Create Object](/docs/virtual-servers?topic=virtual-servers-api-rest-public#api-rest-transient).
-{:tip}
+{: tip}
 
 ## Next steps
 {: #next-steps-provisioning-transient}
