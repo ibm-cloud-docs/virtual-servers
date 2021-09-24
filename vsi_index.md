@@ -24,10 +24,10 @@ subcollection: virtual-servers
 {: #getting-started-tutorial}
 
 You can deploy {{site.data.keyword.BluVirtServers}} in a matter of minutes. The virtual servers are deployed from your choice of virtual server images and in the geographic region that makes sense for your workloads.
-{:shortdesc}
+{: shortdesc}
 
 Newer version available. Try our Virtual Servers for VPC. For more information, see [Virtual Private Cloud](/docs/vpc?topic=vpc-getting-started).
-{:tip}
+{: tip}
 
 When you create a virtual server in the classic infrastructure, you can choose between a public (multi-tenancy) environment or a dedicated (single-tenancy) environment. Then, depending on the chosen environment, you must also select hourly, monthly, or transient virtual servers. With public virtual servers, you also choose to use either SAN-based storage or local storage.
 
@@ -49,7 +49,7 @@ Account types](/docs/account?topic=account-accounts).
 {: caption="Table 1. Deployment options" caption-side="top"}   
 
 {{site.data.keyword.BluVirtServers}} are powered by Citrix Hypervisor. As with most hypervisors, guest additions help maintain a properly working computing environment. {{site.data.keyword.cloud}} uses the information from guest additions to make informed decisions about routine server maintenance. Without the required guest additions, your virtual servers might miss critical maintenance updates. So, don't disable or remove any default guest additions. If you are brining your own image to, you need to install the associated guest images. For more information about installing guest additions, see [Preparing and importing images](/docs/image-templates?topic=image-templates-preparing-and-importing-images).
-{:important}
+{: important}
 
 ## Provisioning a virtual server
 {: #provisioning-a-virtual-server-getting-started}
