@@ -23,12 +23,15 @@ subcollection: virtual-servers
 {: #about-virtual-server-profiles}
 
 When you provision {{site.data.keyword.BluVirtServers}}, you can select from supported families of profiles. A profile is a combination of vCPU and RAM that can be instantiated quickly to start a virtual server instance. In the {{site.data.keyword.cloud_notm}} console, you can choose from popular profile configurations or select from a list of profiles that best fit your needs.
-{:shortdesc}
+{: shortdesc}
+
+## Profile families
+{: #available-virtual-server-profile-families}
 
 The following virtual server instance families are available.
 
 Depending on your instance type, some families might not be available.
-{:note}
+{: note}
 
 | Families  | Description                                                                                              |
 | ----------------------- | -------------------------------------------------------------------------------------------------------- |
@@ -41,7 +44,7 @@ Depending on your instance type, some families might not be available.
 {: caption="Table 1. Public virtual server family selections" caption-side="top"}
 
 Some of these families are also available for {{site.data.keyword.vsi_is_full}}. For more information, see [{{site.data.keyword.vsi_is_short}}](/docs/vpc-on-classic-vsi?topic=vpc-on-classic-vsi-getting-started).
-{:tip}
+{: tip}
 
 ## Balanced
 {: #balanced}
@@ -106,7 +109,7 @@ The offering is available in various profiles and data centers, with the followi
 #### Storage notes
 {: #storage-notes-local-hdd}
 
-* <sup>(*)</sup>Balanced local profiles automatically come with a 100 GB local storage boot disk. Then, you can select a second disk (options are shown in Table 3). Any additional local disks are optional. If you require over 500 GB, then two extra disks are required (for example, 8 cores require 2 x 250 GB of local storage).
+* Balanced local profiles automatically come with a 100 GB local storage boot disk. Then, you can select a second disk (options are shown in Table 3). Any additional local disks are optional. If you require over 500 GB, then two extra disks are required (for example, 8 cores require 2 x 250 GB of local storage).
 *	Maximum local storage is limited by cores.
 *	Balanced local storage is globally available; however, the type of storage (local SSD or local HDD) depends on the data center location.
 *	You can't detach primary or secondary disks.
@@ -171,7 +174,7 @@ All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and othe
 #### Storage notes
 {: #storage-notes-local-ssd}
 
-* <sup>(*)</sup>Balanced local profiles automatically come with a 100 GB local storage boot disk. Then, you can select a second disk (options are shown in Table 7). Any extra local disks are optional. If you require over 500 GB, then two extra disks are required (for example, 8 cores require 2 x 250 GB of local storage).
+* Balanced local profiles automatically come with a 100 GB local storage boot disk. Then, you can select a second disk (options are shown in Table 7). Any extra local disks are optional. If you require over 500 GB, then two extra disks are required (for example, 8 cores require 2 x 250 GB of local storage).
 *	Maximum local storage is limited by cores.
 *	Balanced local storage is globally available; however, the type of storage (local SSD or local HDD) depends on the data center location.
 *	You can't detach primary or secondary disks.
