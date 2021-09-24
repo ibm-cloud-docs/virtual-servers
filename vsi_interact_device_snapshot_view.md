@@ -20,7 +20,7 @@ subcollection: virtual-servers
 {: #managing-a-device-in-snapshot-view}
 
 From the device list, you can view a limited amount of information, or snapshot, for one or more devices. You can perform multiple actions on a device in snapshot view. The actions include viewing the username and password for the device, adding tags, and viewing tickets.
-{:shortdesc}
+{: shortdesc}
 
 ## Before you begin
 {: #before-you-begin-snapshot-view}
