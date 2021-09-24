@@ -12,7 +12,7 @@ subcollection: virtual-servers
 {:codeblock: .codeblock}
 {:screen: .screen}
 {:note: .note}
-{:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:pre: .pre}
 {:table: .aria-labeledby="caption"}
 
@@ -25,14 +25,14 @@ subcollection: virtual-servers
 You can provision your reserved capacity and instances through the {{site.data.keyword.cloud}} catalog. You must provision your reserved capacity before your virtual server instances.
 
 If you are not the account administrator, your user account must include the **Manage Reserved Capacities** permission. The account administrator can grant user's permission from the **Portal Permissions** tab in the console. For more information about updating permissions, see [Managing infrastructure access](/docs/account?topic=account-mngclassicinfra#mngclassicinfra).
-{:note}
+{: note}
 
 ## Provisioning reserved capacity
 {: #provisioning-reserved-capacity}
 
 In the {{site.data.keyword.cloud_notm}} catalog, complete the following steps to provision your reserved capacity.
 
-1. Open the [reserved virtual server instance ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/gen1/infrastructure/provision/vs?guestType=reserved&cm_sp=Cloud-Product-_-OnPageNav-IBMCloudPlatform_IBMVirtualMachines-_-VSI_Prod_Midpage){: new_window} page from the catalog.
+1. Open the [reserved virtual server instance](https://cloud.ibm.com/gen1/infrastructure/provision/vs?guestType=reserved&cm_sp=Cloud-Product-_-OnPageNav-IBMCloudPlatform_IBMVirtualMachines-_-VSI_Prod_Midpage){: external} page from the catalog.
 2. To create new reserved capacity, select **New capacity +**. From the **Reserved capacity** page, enter or select the following information:
 
 | Field                   | Value               |                                                                                                                                                                                                                                                                                                                                 
@@ -51,7 +51,7 @@ In the {{site.data.keyword.cloud_notm}} catalog, complete the following steps to
 
 After you provision your reserved capacity, it's time to provision your reserved virtual server instances. Reserved virtual server instances can be provisioned at any time during the contract term because your capacity is guaranteed. Complete the following steps to provision your reserved instances.
 
-1. Open the [reserved virtual server instance ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/gen1/infrastructure/provision/vs?guestType=reserved&cm_sp=Cloud-Product-_-OnPageNav-IBMCloudPlatform_IBMVirtualMachines-_-VSI_Prod_Midpage){: new_window} page from the catalog.
+1. Open the [reserved virtual server instance](https://cloud.ibm.com/gen1/infrastructure/provision/vs?guestType=reserved&cm_sp=Cloud-Product-_-OnPageNav-IBMCloudPlatform_IBMVirtualMachines-_-VSI_Prod_Midpage){: external} page from the catalog.
 2. To provision a reserved virtual server instance, enter or select the following information:
 
 | Field                     | Value               |                                                                                                                                                                                                                                                                                                                                 
