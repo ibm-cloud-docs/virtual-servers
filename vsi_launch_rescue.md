@@ -21,13 +21,9 @@ subcollection: virtual-servers
 {: #launching-rescue}
 
 Rescue mode is a live rescue environment that is designed to provide you with the ability to bring a bare metal server or virtual server online to troubleshoot system issues that would normally be resolved only through OS Reload. Rescue mode must be initiated in the {{site.data.keyword.cloud}} console. Use the following steps to start rescue mode for a device.
-{:shortdesc}
+{: shortdesc}
 
 ## Before you begin
-{: #callout-important}
-CentOS version 7 and higher requires a minimum of 6 GB of RAM for any Linux&reg; virtual server configuration. For a Linux&reg; virtual server configuration with less than 6 GB of RAM, CentOS version 5 is used.
-{: important}
-
 {: #before-you-begin-launching-rescue-mode}
 
 First, go to the device menu and make sure that you have the correct account permissions to complete the tasks.
@@ -39,6 +35,11 @@ For more information about permissions, see [Classic infrastructure permissions]
 
 ## Launching rescue mode
 {: #launching-rescue-mode}
+
+To launch rescue mode, use the following steps.
+
+CentOS version 7 and higher requires a minimum of 6 GB of RAM for any Linux&reg; virtual server configuration. For a Linux&reg; virtual server configuration with less than 6 GB of RAM, CentOS version 5 is used.
+{: important}
 
 1. From the **Devices** menu, select **Device List**.
 2. From the **Device List**, click the device name that you want to rescue.
