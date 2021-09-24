@@ -22,7 +22,7 @@ subcollection: virtual-servers
 {: #api-rest-public}
 
 The following information displays Rest API examples for provisioning public virtual server instances that use pre-set profiles.
-{:shortdesc}
+{: shortdesc}
 
 For more robust API examples, see the following resources:
 * [Softlayer_Virtual_Guest API examples](https://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/){: external}
@@ -34,12 +34,11 @@ For more robust API examples, see the following resources:
 The *SoftLayer_Virtual_Guest/createObject* API service is the simplest way to provision a public virtual server instance that uses pre-set profiles.
 
 Not applicable for transient instances.
-{:tip}
+{: tip}
 
 To provision a public virtual server instance by using REST, a POST request would be submitted to https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ with the following JSON in the request body.
 
 The following JSON request body is a generic example.
-{:note}
 
 ### JSON Request Body 1
 {: #json-request-body-1}
@@ -74,15 +73,14 @@ The following JSON request body is a generic example.
 Provisioning a public virtual server that uses pre-set profiles is done by using the *SoftLayer_Product_Order/placeOrder* API service.
 
 Not applicable for transient instances.
-{:tip}
+{: tip}
 
 To provision a public virtual server by using REST, a POST request would be submitted to https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ with the following JSON in the request body.
 
 The item descriptions are not required on the prices. They are included only to show the product options that are being submitted.
-{:note}
+{: note}
 
 The following JSON request body is a generic example.
-{:note}
 
 ### JSON Request Body 2
 {: #json-request-body-2}
@@ -176,15 +174,14 @@ The following JSON request body is a generic example.
 Upgrading a public virtual server is done by using the *SoftLayer_Product_Order/placeOrder* API service.
 
 Not applicable for transient instances.
-{:tip}
+{: tip}
 
 To provision a public virtual server by using REST, a POST request would be submitted to https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/ with the following JSON in the request body.
 
 The item descriptions are not required on the prices. They are included only to show the product options that are being submitted.
-{:note}
+{: note}
 
 The following JSON request body is a generic example.
-{:note}
 
 ### JSON Request Body 3
 {: #json-request-body-3}
@@ -231,7 +228,6 @@ The *SoftLayer_Virtual_Guest/createObject* API service is the simplest way to pr
 To provision a transient virtual server instance by using REST, a POST request would be submitted to https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/createObject/ with the following JSON in the request body.
 
 The following JSON request body is a generic example.
-{:note}
 
 ### JSON Request Body 4
 {: #json-request-body-4}
