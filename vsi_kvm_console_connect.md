@@ -53,7 +53,7 @@ Use the following steps to connect to a console by using {{site.data.keyword.clo
 
 3. In the VPN notification window, click **Continue**.
 
-    ![Figure showing KVM console VPN notification window](images/kvm_vpn_note.png "Figure showing KVM console VPN notification window"){: caption="Figure 1. VPN notification window" caption-side="top"}
+   ![Figure showing KVM console VPN notification window](images/kvm_vpn_note.png "Figure showing KVM console VPN notification window"){: caption="Figure 1. VPN notification window" caption-side="top"}
 
 4. In the KVM console window, enter your credentials to log in to the virtual server.
 
@@ -75,8 +75,8 @@ When you're finished with the console, you can disconnect from it by closing the
 ## Notes on the KVM console
 {: #notes}
 
-1. The **KVM Console disconnected** notification appears anytime the console either can’t connect or gets disconnected in the middle of a session. The code in the text is displayed only if the disconnection was unexpected. It helps debug find why the connection is failing. On a regular disconnection, no code is displayed.
+The **KVM Console disconnected** notification appears anytime the console either can’t connect or gets disconnected in the middle of a session. The code in the text is displayed only if the disconnection was unexpected. It helps debug find why the connection is failing. On a regular disconnection, no code is displayed.
 
-  ![Figure showing KVM console disconnection window](images/kvm_disconnected_note.png "Figure showing KVM console disconnection window"){: caption="Figure 1. KVM console disconnection window" caption-side="top"}
+![Figure showing KVM console disconnection window](images/kvm_disconnected_note.png "Figure showing KVM console disconnection window"){: caption="Figure 1. KVM console disconnection window" caption-side="top"}
 
-2. The KVM Console opens in a new browser tab or window. If the KVM Console doesn't open, check the browser for any blocked new windows.
+The KVM Console opens in a new browser tab or window. If the KVM Console doesn't open, check the browser for any blocked new windows.
