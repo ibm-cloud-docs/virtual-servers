@@ -25,7 +25,7 @@ You need to install the following software before you can use a GPU Family virtu
 * [cuDNN](https://developer.nvidia.com/cudnn){: external} - (CUDA Deep Neural Network) library that is used for neural network applications.
 * [NCCL](http://docs.nvidia.com/deeplearning/sdk/nccl-install-guide/index.html){: external} - cluster communications library for multi-GPU and or multi-system communications.
 * **BLAS** (_Basic Linear Algebra Subprograms_) - routines that provide the building blocks for performing basic linear algebraic operations such as one of the following libraries:
-   - [Atlas ](http://math-atlas.sourceforge.net/atlas_install/){: external}
+   - [Atlas](http://math-atlas.sourceforge.net/atlas_install/){: external}
    - [cuBLAS](https://developer.nvidia.com/cublas){: external}
    - [MKL](https://software.intel.com/en-us/mkl-developer-reference-c-blas-and-sparse-blas-routines){: external}
    - [OpenBLAS](http://www.openblas.net/){: external}
