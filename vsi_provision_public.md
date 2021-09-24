@@ -22,14 +22,14 @@ subcollection: virtual-servers
 # Provisioning public instances
 {: #ordering-vs-public}
 
-## Before you begin
-{: #before-you-begin-provisioning-public}
-
 You can provision your public virtual server instances through the {{site.data.keyword.cloud}} console.
-{:shortdesc}
+{: shortdesc}
 
 For the {{site.data.keyword.cloud_notm}} console, you must have an upgraded account to order virtual servers. For more information about upgrading your account, see [Pay-As-You-Go account](/docs/account?topic=account-accounts#paygo).
-{:note}
+{: note}
+
+## Before you begin
+{: #before-you-begin-provisioning-public}
 
 Before you begin, review the following prerequisites.
 
@@ -45,7 +45,7 @@ Before you begin, review the following prerequisites.
 To provision a virtual server instance, you need to consider the following information.
 
 You must be logged in to see all available options. 
-{:tip}
+{: tip}
 
 ### Public instance
 {: #public-instance}
@@ -67,10 +67,9 @@ You must be logged in to see all available options.
 {: #public-instance-add-ons}
 
 If you choose any OS, control panel, or software add-ons, they must be compatible with your image to avoid an error when you are ordering your instance. For example, you can’t provision a Red Hat image with a Microsoft database.
-{:important}
 
 Depending on your instance billing type (hourly or monthly), some add-ons might not be available.
-{:tip}
+{: tip}
 
 | Field     | Details     |
 | --------- | ----------- |
