@@ -132,7 +132,7 @@ To manually generate an SSH key pair, use the following steps:
 The private key must be on a single line. Replace new lines with `\n`. See the following example.
 {: tip}
 
-```
+```console
 ---------BEGIN RSA KEY----------\nasdfasdfeqwtqf13rf1eqwfwe\netq3efaewf23fa23f23f\n.....\n----------END RSA KEY-------------
 ```
 {: screen}
