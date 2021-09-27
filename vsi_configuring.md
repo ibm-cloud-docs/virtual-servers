@@ -25,7 +25,7 @@ When you have access to your virtual server, make sure that you change your pass
 Before you configure a virtual server, review your options for connecting to the server and how to manage passwords and credentials. For more information, see [Getting started with IBM Cloud Virtual Private Networking](/docs/iaas-vpn?topic=iaas-vpn-getting-started) and [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
 {: note}
 
-### Log in
+## Log in
 {: #log-in}
 
 Log in to the [{{site.data.keyword.cloud}} console](https://cloud.ibm.com/classic?){: external} with the credentials that you received in an email when your account was initially created.
