@@ -39,18 +39,21 @@ Use these steps to enable 'no driver mode'.
 2. Enable {{site.data.keyword.mon_full_notm}} 'no driver mode' by following the steps that correspond to your provisioned environment by following the steps in [Configuring a monitoring agent](/docs/Monitoring-with-Sysdig?topic=Monitoring-with-Sysdig-config_agent).
 3. Add the following configuration to the `dragent.yaml` file:
 
-```
+```curl
 feature:
   mode: `monitor_light`
   Available options for the feature mode are: `monitor_light | monitor | none`.
 ```
-{: codeblock}
+{: screen}
 
 **OR**
 
 Alternatively, you can use the following curl command:
 
-`curl -sL https://ibm.biz/install-sysdig-agent | sudo bash -s -- -a SYSDIG_ACCESS_KEY -c COLLECTOR_ENDPOINT --collector_port 6443 --secure true -ac "feature:\n mode: monitor_light"`
+```text
+curl -sL https://ibm.biz/install-sysdig-agent | sudo bash -s -- -a SYSDIG_ACCESS_KEY -c COLLECTOR_ENDPOINT --collector_port 6443 --secure true -ac "feature:\n mode: monitor_light"
+```
+{: pre}
 
 Where
 
