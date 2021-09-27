@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-09-13"
+lastupdated: "2021-09-27"
 
 keywords: classic virtual servers, access kvm console, connect to virtual server, kvm console, kvm virtual servers, virtual server kvm, vsi kvm, classic kvm
 
@@ -25,9 +25,6 @@ subcollection: virtual-servers
 
 You can now access the KVM console of your virtual servers from the {{site.data.keyword.cloud}} console.\
 {: shortdesc}
-
-The KVM console feature is gradually coming to all data centers. If your virtual servers don't have access to it now, try again later. You can also contact your IBM Sales representative for more information on the availability status of this feature.
-{: note}
 
 The KVM console for virtual servers provides a graphical user interface and accepts both mouse and keyboard input. You can open the KVM console by using any of the {{site.data.keyword.cloud}} supported browsers. For more information about {{site.data.keyword.cloud}} supported browsers, see [Browsers](/docs/overview?topic=overview-prereqs-platform#browsers-platform).
 
