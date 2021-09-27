@@ -59,10 +59,10 @@ For more help, see [Getting help and support](/docs/virtual-servers?topic=virtua
 
 If the root or administrator password to your server is suddenly not working, check the following items. If necessary, use the instructions to start rescue mode and reset your password.
 
-   * Are you copying and pasting the password? If not, try to. Also, paste the password in a notepad to make sure that no spaces are accidentally being copied with the password.
-   * If the server has cPanel, it's possible that cPHulk blocked your IP address due to failed logins. You can access the server by using the KVM or IPMI and allowlist your IP address. Use cPHulk with "/scripts/cphulkdwhitelist" followed by your IP address.
-   * Has someone recently tried to change the password for the server by modifying the password in the {{site.data.keyword.cloud_notm}} console? Changing the password in the {{site.data.keyword.cloud_notm}} console changes what you see as the password. It doesn't change the server password. If so, you can contact [Support](/docs/get-support?topic=get-support-using-avatar) and they can usually recover the original, working password.
-   * You might need to start into rescue mode to reset your password. For more information, see [Rescue mode](/docs/virtual-servers?topic=virtual-servers-launching-rescue#launching-rescue).
+* Are you copying and pasting the password? If not, try to. Also, paste the password in a notepad to make sure that no spaces are accidentally being copied with the password.
+* If the server has cPanel, it's possible that cPHulk blocked your IP address due to failed logins. You can access the server by using the KVM or IPMI and allowlist your IP address. Use cPHulk with "/scripts/cphulkdwhitelist" followed by your IP address.
+* Has someone recently tried to change the password for the server by modifying the password in the {{site.data.keyword.cloud_notm}} console? Changing the password in the {{site.data.keyword.cloud_notm}} console changes what you see as the password. It doesn't change the server password. If so, you can contact [Support](/docs/get-support?topic=get-support-using-avatar) and they can usually recover the original, working password.
+* You might need to start into rescue mode to reset your password. For more information, see [Rescue mode](/docs/virtual-servers?topic=virtual-servers-launching-rescue#launching-rescue).
 
 If still can't connect to the server by using the password, open a [support case](/docs/get-support?topic=get-support-using-avatar#getting-support) and request a password reset. Support needs to restart the server to reset the password, so prepare to approve the restart and set a maintenance timeframe for completion. Most password resets are completed in ~15 minutes. In the {{site.data.keyword.cloud_notm}} console, you can create a support case by going to **Support > Create a case** and use the subject *Accounts and access*.
 
@@ -106,14 +106,14 @@ Use the following table for OS-specific routing information.
 
 You can update against a local cvsup mirror that was run for you. Make sure that the supfile has the following entry:
 
-```
+```text
 *default host=cvsup.service.softlayer.com
 ```
 {: pre }
 
 The distfiles are also mirrored and available from freebsd.org. You can add the following line into your */etc/make.conf* file to attempt to download from the local repository:
 
-```
+```text
 MASTER_SITE_OVERRIDE?="http://mirrors.service.softlayer.com/freebsd/distfiles/${DIST_SUBDIR}/"
 ```
 {: screen }
