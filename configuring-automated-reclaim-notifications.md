@@ -48,7 +48,7 @@ Both parameters are required. If the URI or secret must be changed, call the met
 
 The transient virtual server webhook can be set up through the SLDN API by using the following method:
 
-   ```
+   ```text
    SoftLayer_Virtual_Guest::setWebhook(uri, secret)
    ```
    {: pre}
@@ -60,7 +60,7 @@ For more information, see the SLDN API method documentation for [webhook set-up]
 
 To cancel the `reclaim-scheduled` notifications, call the following SLDN API method:
 
-   ```
+   ```text
    SoftLayer_Virtual_Guest::deleteWebhook()
    ```
    {: pre}
@@ -119,7 +119,7 @@ The request that is sent from the transient virtual server webhook is like any H
 Key names might not be listed as shown in the example.
 {: note}
 
-```
+```text
    {
       'event': 'reclaim-scheduled',
       'id': <string - that is the ID of the transient guest being reclaimed>,
