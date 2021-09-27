@@ -110,6 +110,7 @@ Block Endurance and Performance and File storage volumes are not captured as par
 
 ### Final check
 {: #vsi-migrate-final-lift-shift-method}
+
 1. After you complete the new virtual server verification and are ready to activate the new server, do one last sync of any data drift from the old to new virtual server. 
 
 1. Shut down the old server.
@@ -120,6 +121,7 @@ Block Endurance and Performance and File storage volumes are not captured as par
 
 ## System rebuild method
 {: #vsi-migrate-system-rebuild-method}
+
 For this method, you're ordering a new virtual server and copying the data from the old to the new virtual server. Copying the data is handled at the OS level, by using `scp`, `rsync`, `dd`, or another third-party tool. 
 
 ### Evaluate your virtual server
