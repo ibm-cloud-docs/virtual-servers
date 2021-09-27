@@ -29,21 +29,21 @@ These commands affect the connectivity of your server. Always manage network con
 
 You can check the current speed of your connection by running the following commands:
 
-   ```
+   ```text
    # ethtool eth#   (eth1 for public, eth0 for private)
    ```
    {: pre}
 
 Output displays the current configurations for that connection:
 
-   ```
+   ```text
    root@noc-training-linux [~]# ethtool eth1
    ```
    {: screen}
 
 Settings for eth1:
    
-   ```
+   ```text
    Supported ports: [ MII ]
    Supported link modes:   10baseT/Half 10baseT/Full
                            100baseT/Half 100baseT/Full
@@ -68,14 +68,14 @@ Settings for eth1:
 
 To change the speed, edit the following file using your favorite text editor:
 
-   ```
+   ```text
    /etc/sysconfig/network-scripts/ifcfg-eth#   (ifcfg-eth1 for public, ifcfg-eth0 for private)
    ```
    {: pre}
 
 You will find the following line:
 
-   ```
+   ```text
    ETHTOOL_OPTS="autoneg off speed 100 duplex full"
    ```
    {: screen}
