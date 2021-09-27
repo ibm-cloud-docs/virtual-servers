@@ -43,7 +43,7 @@ The following JSON request body is a generic example.
 ### JSON Request Body 1
 {: #json-request-body-1}
 
-```
+```bash
 {
     "parameters":[
         {
@@ -85,7 +85,7 @@ The following JSON request body is a generic example.
 ### JSON Request Body 2
 {: #json-request-body-2}
 
-```
+```bash
 {
     "parameters": [
         {
@@ -186,7 +186,7 @@ The following JSON request body is a generic example.
 ### JSON Request Body 3
 {: #json-request-body-3}
 
-```
+```bash
 {
     "parameters":[
         {
@@ -232,7 +232,7 @@ The following JSON request body is a generic example.
 ### JSON Request Body 4
 {: #json-request-body-4}
 
-```
+```bash
 {
     "parameters":[
         {
