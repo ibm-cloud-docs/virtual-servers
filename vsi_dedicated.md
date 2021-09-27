@@ -41,7 +41,7 @@ Dedicated instances do not provide some of the control features offered by dedic
 | Virtual server placement control | ![Checkmark icon](../icons/checkmark-icon.svg) |   |
 | Resource visibility | ![Checkmark icon](../icons/checkmark-icon.svg) |   |
 | Instance billing |   | ![Checkmark icon](../icons/checkmark-icon.svg) |
-| Host billing<sup>(1)</sup> | ![Checkmark icon](../icons/checkmark-icon.svg) |   |
+| Host billing | ![Checkmark icon](../icons/checkmark-icon.svg) |   |
 | Post-deployment control | ![Checkmark icon](../icons/checkmark-icon.svg) |   |
 | Capacity reservations | ![Checkmark icon](../icons/checkmark-icon.svg) |   |
 {: row-headers}
