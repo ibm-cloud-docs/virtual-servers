@@ -155,7 +155,7 @@ All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and othe
 ### Local SSD
 {: #SSD}
 
-|Profile|vCPU|RAM|Secondary disks<sup>(*)</sup>|Storage type|
+|Profile|vCPU|RAM|Secondary disks |Storage type|
 |---|---|---|---|---|
 |BL2.1x2|1|2 GB|25, 100 GB|Local SSD|
 |BL2.1x4|1|4 GB|25, 100 GB|Local SSD|
@@ -312,9 +312,9 @@ Powered by NVDIA Tesla GPUs, {{site.data.keyword.cloud_notm}} Accelerated Comput
 |Profile|GPU|GPU RAM (GB)|vCPU|vCPU RAM (GB)|Storage Type|Boot Disk (GB)|Secondary Disks (2 and 3) (GB)|
 |---|---|---|---|---|---|---|---|
 |ac1.8x60x25|1 P100|16|8|60|Block (SAN)|25|None|
-|ac1.8x60x100|1 P100|16|8|60|Local SSD or SAN|100|None (SAN)<br>300 (Local)|
+|ac1.8x60x100|1 P100|16|8|60|Local SSD or SAN|100|None (SAN), 300 (Local)|
 |ac1.16x120x25|2 P100|32|16|120|Block (SAN)|25|None|
-|ac1.16x120x100|2 P100|32|16|120|Local SSD or SAN|100|None (SAN)<br>600 (Local)|
+|ac1.16x120x100|2 P100|32|16|120|Local SSD or SAN|100|None (SAN), 600 (Local)|
 {: caption="Table 14. P100 GPU profiles" caption-side="top"}
 
 The following data centers support P100 GPU profiles:
@@ -353,9 +353,9 @@ The following data centers support P100 GPU profiles:
 |Profile|GPU|GPU RAM (GB)|vCPU|vCPU RAM (GB)|Storage Type|Boot Disk (GB)|Secondary Disks (2 and 3) (GB)|
 |---|---|---|---|---|---|---|---|
 |ac2.8x60x25|1 V100|16|8|60|Block (SAN)|25|None|
-|ac2.8x60x100|1 V100|16|8|60|Local SSD or SAN|100|None (SAN)<br>300 (Local)|
+|ac2.8x60x100|1 V100|16|8|60|Local SSD or SAN|100|None (SAN), 300 (Local)|
 |ac2.16x120x25|2 V100|32|16|120|Block (SAN)|25|None|
-|ac2.16x120x100|2 V100|32|16|120|Local SSD or SAN|100|None (SAN)<br>600 (Local)|
+|ac2.16x120x100|2 V100|32|16|120|Local SSD or SAN|100|None (SAN), 600 (Local)|
 {: caption="Table 18. V100 GPU profiles" caption-side="top"}
 
 You can also choose V100 GPUs. The following data centers support V100 GPU profiles:
