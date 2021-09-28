@@ -42,5 +42,5 @@ Complete the following steps to downgrade port speeds.
 3. In the **Overview** tab, go to **Network details.**
 4. Select the drop-down menu in **Speed** (for either public or private network) to downgrade or disconnect the port speed.
 
-When you change port speeds or disconnecting your ports for any reason, you must manually change the server itself.
+When you change port speeds or disconnect your ports for any reason, you must manually change the server itself.
 {: tip}
