@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-03-02"
+lastupdated: "2021-10-06"
 
 subcollection: virtual-servers
 
@@ -130,3 +130,9 @@ You can access the **Status** page directly at [{{site.data.keyword.cloud_notm}}
 {: faq}
 
 For information about viewing or requesting compliance information, including SOC reports, see [Understanding IBM Cloud compliance](/docs/overview?topic=overview-compliance).
+
+## How long does it take for maintenance to complete?
+{: #how-long-maintenance}
+{: faq}
+
+The maintenance notification contains an estimated duration for the maintenance window. Keep in mind that the timeframe is an estimate and maintenance tasks might take longer. Make sure that you allow an extra hour past the maintenance window for tasks to complete and for the server to return online. If the server remains offline longer than 2 hours past the estimate, contact [support](https://test.cloud.ibm.com/docs/virtual-servers?topic=virtual-servers-gettinghelp).
