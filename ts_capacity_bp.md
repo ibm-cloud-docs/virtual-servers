@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-09-09"
+lastupdated: "2021-10-06"
 
 keywords: troubleshoot virtual server, virtual servers troubleshooting, tips, error, problem, insufficient capacity to complete the request
 
@@ -268,3 +268,19 @@ You can attempt to provision again by using the following strategies:
 * Spread out instances by provisioning to multiple data centers.
 * Provision smaller instance sizes.
 * Alter the instance storage from SAN to LOCAL or LOCAL to SAN.
+
+## Why can't I view the password for a recently provisioned virtual server even though you have the correct permissions?
+{: #troubleshoot-view-password}
+{: troubleshoot}
+{: support}
+
+### Why it's happening
+{: #why-cant-view-password}
+
+ This problem can occur if a firewall prevents the provisioning framework from updating the password value.
+
+### How to fix it
+{: #how-to-fix-view-password}
+
+* _Option 1_: Update the firewall to allow the IBM Cloud service IP ranges as described the firewall [documentation](https://cloud.ibm.com/docs/vsrx?topic=hardware-firewall-shared-ibm-cloud-ip-ranges){: external}. These ranges allow for provisioning, monitoring, and management. Restart the server so the provisioning network to populate the password in the portal.
+* _Option 2_: Bypass the VLAN of the server from the firewall. Then, restart the server to allow provisioning network to populate the password in the portal and then route the VLAN back in the firewall.
