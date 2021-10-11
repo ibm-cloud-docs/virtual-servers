@@ -92,13 +92,13 @@ Use the following table for OS-specific routing information.
 
 | Operating system | Steps |
 |-----|-----|
-|Windows 2003 Standard and Enterprise|  Add the persistent route from the command line by entering the following address: ```route add 161.26.0.0 mask 255.255.0.0 10.0.0.1 -p``` Replace 10.0.0.1 with your private gateway IP address. |
-| Windows 2008 Server Core | Add the persistent route from the command line by entering the following address: ```route add 161.26.0.0 mask 255.255.0.0 10.0.0.1 -p``` Replace 10.0.0.1 with your private gateway IP address. |
-| Windows 2008 Web, Standard, Enterprise, and Datacenter |  Add the persistent route from the command line by entering the following address: ```route add 161.26.0.0 mask 255.255.0.0 10.0.0.1 -p``` Replace 10.0.0.1 with your private gateway IP address. |
+|Windows 2003 Standard and Enterprise|  Add the persistent route from the command line by entering the following address: `route add 161.26.0.0 mask 255.255.0.0 10.0.0.1 -p` Replace 10.0.0.1 with your private gateway IP address. |
+| Windows 2008 Server Core | Add the persistent route from the command line by entering the following address: `route add 161.26.0.0 mask 255.255.0.0 10.0.0.1 -p` Replace 10.0.0.1 with your private gateway IP address. |
+| Windows 2008 Web, Standard, Enterprise, and Datacenter |  Add the persistent route from the command line by entering the following address: `route add 161.26.0.0 mask 255.255.0.0 10.0.0.1 -p` Replace 10.0.0.1 with your private gateway IP address. |
 | Red Hat, Fedora, and CentOS | Create a new route by editing or creating the following file: `/etc/sysconfig/network-scripts/route-eth0` Replace 10.0.0.1 with your private gateway IP address. After you create that file, you must add the following information: _161.26.0.0/16 via 10.0.0.1_ |
-| Ubuntu and Debian | In the `/etc/network/interfaces` file, add the following line at the end of the file: ```up route add -net 161.26.0.0/16 gw 10.0.0.1``` Replace 10.0.0.1 with your private gateway IP address. |
-| Vyatta |  Set protocols static route ```161.26.0.0/16 next-hop 172.16.0.26```. Replace 172.16.0.26 with the gateway of the subnet that the machine is on. The gateway needs to be the same as the gateway that is defined for the 10.0.0./8 route.|
-|ESXi| Use the following command to add the route to the ESXi host: ```esxcfg-route -a 161.26.0.0/16 10.0.0.1```. Replace 10.0.0.1 with your private gateway IP address. |
+| Ubuntu and Debian | In the `/etc/network/interfaces` file, add the following line at the end of the file: `up route add -net 161.26.0.0/16 gw 10.0.0.1` Replace 10.0.0.1 with your private gateway IP address. |
+| Vyatta |  Set protocols static route `161.26.0.0/16 next-hop 172.16.0.26`. Replace 172.16.0.26 with the gateway of the subnet that the machine is on. The gateway needs to be the same as the gateway that is defined for the 10.0.0./8 route.|
+|ESXi| Use the following command to add the route to the ESXi host: `esxcfg-route -a 161.26.0.0/16 10.0.0.1`. Replace 10.0.0.1 with your private gateway IP address. |
 | CoreOS | Create a static route file in `/etc/systemd/network` with the name `10-static.network` that looks like the following route: `[Route]` `Gateway=10.0.0.1` `Destination=161.26.0.0/16` Replace 10.0.0.1 with your private gateway IP address. |
 
 ## What is a cvsup mirror?
