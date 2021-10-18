@@ -26,11 +26,11 @@ Transient virtual servers offer the following flexibility:
 
 * **Global availability**
 
-    The transient virtual server offering is available in data centers across the globe.
+   The transient virtual server offering is available in data centers across the globe.
 
 * **Cost savings**
 
-    Transient virtual servers are ideal for non-production workloads. For example, you might use a transient instance to test and develop applications, or test scalability in environments that don't require constant uptime.
+   Transient virtual servers are ideal for non-production workloads. For example, you might use a transient instance to test and develop applications, or test scalability in environments that don't require constant uptime.
 
 Transient instances are public instances that use SAN-backed storage. The following families of public instances are available for this offering.
 
