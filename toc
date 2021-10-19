@@ -52,6 +52,8 @@ Virtual Servers for Classic
     {: .topicgroup}
     Related links
         [Maximize Control with Virtual Servers](https://www.ibm.com/blogs/bluemix/2017/08/maximize-control-ibm-bluemix-virtual-servers/)
+    
+    release-notes.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
@@ -60,7 +62,6 @@ Virtual Servers for Classic
     vsi_activity_tracker_events.md
     vsi_auto_scale_terminology.md
     vsi_high-availability.md
-    release-notes.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
