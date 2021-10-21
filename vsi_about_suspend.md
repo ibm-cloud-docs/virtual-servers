@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-05-18"
+lastupdated: "2021-10-21"
 
 keywords: suspend billing feature, suspend billing
 
@@ -91,7 +91,10 @@ When you provision a virtual server instance that supports the suspend billing f
 ### Minimum usage charge
 {: #minimum-usage-charge}
 
-Virtual server instances that support the suspend billing feature can have a minimum usage charge that is applied in some cases. If usage is greater than 25%, you are billed for that usage. If usage is less than 25%, you are charged for 25% of the hours that the instance existed within the current billing cycle.
+Virtual server instances that support suspend billing have a minimum usage charge. This minimum usage charge is applied when a virtual server instance is powered off during its billing cycle whether the server was used or not.
+
+- If usage is fewer than 25% of the allotted hours, you are charged the minimum 25% of the allotted hours - no matter how few hours that the server used. 
+- If usage is greater than 25% of the allotted hours, you are billed for all of the hours that the server used.
 
 ### Billing invoice
 {: #billing-invoice}
