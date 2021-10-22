@@ -132,7 +132,6 @@
     "get a server for free",
     "free virtual machine",
     "get a free virtual server",
-    "like to know the cost of 3 VMs",
     "virtual server cost",
     "pricing for server",
     "link for VM pricing",
@@ -140,7 +139,6 @@
     "would like a quote for a new server",
     "create a free vm",
     "cost info for public virtual server instance",
-    "can I spin up VMs with my Lite account",
     "price of virtual public instances",
     "virtual server prices",
     "cost for public virtual instance"
@@ -621,6 +619,7 @@
     "unable to access kvm console",
     "facing issue in one of server kvm console",
     "kvm console problem. When i try to connect my server via kvm , i can not see anything",
+    "running into issues and have lost the KVM access trying to upgrade Xentools",
     "KVM console doesn't work",
     "try connecting to a KVM console",
     "trying to connect to KVM console",
