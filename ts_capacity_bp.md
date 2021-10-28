@@ -2,9 +2,9 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-10-06"
+lastupdated: "2021-10-28"
 
-keywords: troubleshoot virtual server, virtual servers troubleshooting, tips, error, problem, insufficient capacity to complete the request
+keywords: troubleshoot virtual server, virtual servers troubleshooting, tips, error, problem, insufficient capacity
 
 subcollection: virtual-servers
 
@@ -231,6 +231,11 @@ If your firewall or gateway (Vyatta, AT&T, Juniper, Fortigate) blocks ping traff
 {: #security-group-blocking-ping}
 
 If you're using a security group, make sure that you allow ping traffic from the {{site.data.keyword.cloud}} IP ranges. For more information, see [Creating security groups and rules](/docs/security-groups?topic=security-groups-creating-security-groups)
+
+## Why is my migration not working?
+{: #troubleshoot-migration-stuck}
+
+If your migration is stuck or didn't complete properly, create a [support case](/docs/get-support?topic=get-support-get-supportfaq#open-support-case) for assistance. 
 
 ## Resource considerations for virtual server instances
 {: #capacity-considerations}
