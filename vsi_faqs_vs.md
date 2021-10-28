@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-10-06"
+lastupdated: "2021-10-27"
 
 subcollection: virtual-servers
 
@@ -136,3 +136,21 @@ For information about viewing or requesting compliance information, including SO
 {: faq}
 
 The maintenance notification contains an estimated duration for the maintenance window. Keep in mind that the timeframe is an estimate and maintenance tasks might take longer. Make sure that you allow an extra hour past the maintenance window for tasks to complete and for the server to return online. If the server remains offline longer than 2 hours past the estimate, contact [support](https://test.cloud.ibm.com/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+
+## Why do I need to migrate my virtual server?
+{: why-migrate-virtual-server}
+{: faq}
+
+Migrations happen for several reasons. The most common reasons are because of host failure and planned migrations due to maintenance. 
+
+## What happens if I don't perform a manual migrate for maintenance reasons?
+{: #what-happens-ignore-maintenance-migration}
+{: faq}
+
+Sometimes you need to perform a public host migration for maintenance reasons. If you don't perform this manual migration within the allotted time, the migration happens automatically.
+
+## Why can't I migrate my virtual server?
+{: #why-cant-migrate-virtual-server}
+{: faq}
+
+You can migrate only private, dedicated hosts. For more information about migrating private, dedicated hosts, see [Migrating a dedicated host instance to another host](/docs/virtual-servers?topic=virtual-servers-migrating-dedicated-host).
