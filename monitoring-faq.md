@@ -2,7 +2,7 @@
 
 copyright:
   years: 2020, 2021
-lastupdated: "2021-04-02"
+lastupdated: "2021-11-01"
 
 keywords: 
 
@@ -78,7 +78,7 @@ For information about provisioning, configuring your agent, managing data, and a
 <!--For information about uninstalling Advanced Monitoring by Nimsoft, see [Uninstalling Advanced Monitoring by Nimsoft](/docs/cloud-infrastructure?topic=cloud-infrastructure-faq-sysdig-monitoring#how-do-i-uninstall-nimsoft).-->
 
 ## What if I am using custom images with Advanced Monitoring by Nimsoft?
-{: what-if-i-use-custom-images-with-nimsoft}
+{: #what-if-i-use-custom-images-with-nimsoft}
 {: faq}
 
 To simplify this transition, IBM Cloud will automatically remove the "Advanced Monitoring" attribute from all of your custom images to prevent provisioning failures after **8 May 2020** when Advanced Monitoring by Nimsoft is no longer available. By removing this attribute, you can continue to use custom images without interruption. If you want to continue with resource monitoring, you need to manually install {{site.data.keyword.mon_full_notm}} after a new resource is provisioned.
