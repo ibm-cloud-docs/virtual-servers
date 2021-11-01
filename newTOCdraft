@@ -1,0 +1,203 @@
+#  Name your file `toc.yaml`
+#  Make sure you include all nav file coding requirements, as defined in https://test.cloud.ibm.com/docs/writing?topic=writing-code-nav
+#  Anything with a fully qualified URL with `http` or `https` will get an external link icon added to the nav entry
+---
+toc:
+  properties:
+    subcollection: virtual-servers
+    version: 2
+    category: compute_classic
+    audience: service
+    href: /docs/virtual-servers
+    console-page: "/classic"
+    product-page: "https://www.ibm.com/cloud/virtual-servers"
+    path: virtual-servers
+    label: Virtual Servers for Classic
+#  List your getting started tutorial (getting-started.md) as the first item in the Get started nav group. See https://test.cloud.ibm.com/docs/writing?topic=writing-navigation for more details on the toc design.
+  entries: 
+  
+  - navgroup: 
+      id: learn
+      topics:
+       - vsi_index.md
+       - vsi_about.md
+       - vsi_public.md
+       - vsi_about_transient.md
+       - vsi_about_reserved.md        
+       - topicgroup: 
+           label: Dedicated virtual servers
+           topics: 
+           - vsi_dedicated.md
+           - vsi_dedicated_host.md
+           - vsi_dedicated_host.md        
+       - vsi_about_auto_scale.md
+       - vsi_public_profiles.md
+       - vsi_ps_index.md
+       - vsi_image_templates_intro.md
+       - vsi_placegroup.md
+       - vsi_about_suspend.md
+       - vsi_about_3rd-party.md      
+       - topicgroup: 
+           label: Security options
+           topics: 
+           - vsi_security_options.md
+           - vsi_security_groups.md
+           - vsi_ssl_intro.md
+           -  vsi_ssh_intro.md        
+       - storage/vsi_about_storage.md      
+       - topicgroup: 
+           label: Software options
+           topics: 
+           - /bare-metal/bare-metal-about-software
+           - vsi_database_tools.md      
+       - topicgroup: 
+           label: Services options
+           topics: 
+           - vsi_backup.md
+           - vsi_email_intro.md
+       - topicgroup: 
+           label:  Related links
+           links: 
+           - link:
+               label: Maximize Control with Virtual Servers
+               href: https://www.ibm.com/blogs/bluemix/2017/08/maximize-control-ibm-bluemix-virtual-servers/        
+       - release-notes.md
+   
+  - navgroup: 
+      id: tutorial
+      topics: 
+      - topicgroup:
+          label: Use Virtual Servers to build highly available and scalable web app
+          topics:
+          - /solution-tutorials/solution-tutorials-highly-available-and-scalable-web-application
+
+  - navgroup: 
+      id: howto
+      topics:
+      - topicgroup: 
+          label: Provisioning
+          topics: 
+          - vsi_provision_public.md
+          - vsi_provision_transient.md
+          - vsi_provision_reserved.md
+          - vsi_dedicated_instances.md
+          - vsi_provision_dedicated.md
+          - vsi_provision_3rd-party.md    
+      - topicgroup: 
+          label: Configuring
+          topics: 
+          - vsi_configuring.md
+          - configuring-network-performance.md
+          - vsi_reconfigure.md
+          - vsi_work_image.md
+          - vsi_ssh_config.md
+          - configuring-automated-reclaim-notifications.md
+          - how-are-server-ip-addresses-assigned-softlayer-network.md 
+      - logging-in-to-console.md
+      - vsi_kvm_console_connect.md     
+      - topicgroup: 
+           label: Managing permissions and access
+           topics: 
+           - /account/account-mngclassicinfra
+           - vsi_device_access.md
+           - vsi_managing_password.md
+      - topicgroup: 
+          label: Managing servers
+          topics: 
+          - vsi_managing.md
+          - vsi_interact_device_snapshot_view.md
+          - add-provisioning-script.md
+          - vsi_viewing_suspend.md         
+      - topicgroup: 
+          label: Managing servers with auto scaling
+          topics: 
+          - vsi_auto_scale_permissions.md
+          - vsi_auto_scale_schedule.md
+          - vsi_auto_scale_resource.md
+      - topicgroup: 
+          label: Managing port speeds
+          topics: 
+          - vsi_managing_port_speeds.md
+          - vsi_upgrading_port_speeds_linux.md
+          - vsi_upgrading_port_speeds_windows.md
+          - vsi_downgrading_port_speeds.md       
+      - topicgroup: 
+          label: Managing security
+          topics: 
+          - vsi_managing_sg.md
+          links:
+            - link:
+                label: Accessing SSL certificates
+                href: /ssl-certificates/ssl-certificates-accessing-ssl-certificates#accessing-ssl-certificates)         
+      - topicgroup: 
+          label: Managing storage
+          topics: 
+          - storage/access-portable-storage-screen.md
+          - storage/vsi_view_portable_storage.md
+          - storage/edit-description-portable-storage-volume-psv.md         
+      - topicgroup: 
+          label: Managing software
+          topics: 
+          - /bare-metal/bare-metal-reloading-the-os
+          - /bare-metal/bare-metal-reloading-an-os-using-an-image-template
+          - /bare-metal/bare-metal-adding-ipv6-to-ubuntu-systems
+          - /bare-metal/bare-metal-installing-clamav
+          - /bare-metal/bare-metal-notifying-users-of-an-approaching-bandwidth-limitation-in-cpanel-and-whm
+          - /bare-metal/bare-metal-updating-an-instance-to-use-a-local-wsus-server
+          - vsi_gpu_nvidia_drivers.md       
+      - vsi_managing_placegroup.md
+      - topicgroup: 
+          label: Migrating
+          topics: 
+          - vsi_migrating_dedicated.md
+          - vsi_migrate_classic_dctodc.md         
+      - topicgroup: 
+          label: Monitoring
+          topics: 
+          - /cloud-infrastructure/cloud-infrastructure-monitoring-iaas
+          - monitoring-classic-metrics.md          
+      - topicgroup: 
+          label:  Backing up and recovering
+          topics: 
+          - vsi_launch_rescue.md
+          - /bare-metal/bare-metal-restoring-your-server-from-an-r1soft-image
+          - veeam_O365.md          
+      - topicgroup: 
+          label: Related links
+          links: 
+          - link:
+              label: Virtual Machine Network Setup
+              href: /virtualization/Virtualization-setting-up-a-virtual-machine-network#setting-up-a-virtual-machine-network
+                                        
+  - navgroup:
+      id: reference
+      topics: 
+      - vsi_api.md
+      - vsi_provision_api.md
+      - vsi_activity_tracker_events.md
+      - vsi_auto_scale_terminology.md
+      - vsi_high-availability.md
+              
+  - navgroup:
+      id: help
+      topics: 
+      - vsi_ts_index.md     
+      - topicgroup: 
+          label: Troubleshooting
+          topics: 
+          - ts_capacity_bp.md         
+      - topicgroup: 
+          label: FAQs
+          topics: 
+          - vsi_faqs_vs.md
+          - vsi_faqs_reserved.md
+          - vsi_faqs_dedicated.md
+          - faq_servers_general.md
+          - vsi_faqs_auto_scale.md
+          - vsi_faqs_bandwidth_graphs.md
+          - image-templates-faqs.md
+          - /bare-metal/bare-metal-bm-faq
+          - ssh-keys-faq.md
+          - monitoring-faq.md
+      
+
