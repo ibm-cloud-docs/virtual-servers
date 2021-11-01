@@ -29,7 +29,7 @@ toc:
            topics: 
            - vsi_dedicated.md
            - vsi_dedicated_host.md
-           - vsi_dedicated_host.md        
+           - vsi_dedicated_pricing.md        
        - vsi_about_auto_scale.md
        - vsi_public_profiles.md
        - vsi_ps_index.md
