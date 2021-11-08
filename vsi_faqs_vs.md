@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2021
-lastupdated: "2021-10-27"
+lastupdated: "2021-11-08"
 
 subcollection: virtual-servers
 
@@ -154,3 +154,16 @@ Sometimes you need to perform a public host migration for maintenance reasons. I
 {: faq}
 
 You can migrate only private, dedicated hosts. For more information about migrating private, dedicated hosts, see [Migrating a dedicated host instance to another host](/docs/virtual-servers?topic=virtual-servers-migrating-dedicated-host).
+
+## What servers support suspend billing?
+{: #what-servers-support-suspend-billing}
+{: faq}
+
+Your virtual server instance must be configured with the following settings to support the suspend billing feature.
+
+- Hourly SAN
+- A public profile from one of the following families
+   - Balanced
+   - Compute
+   - Memory
+   - Variable compute
