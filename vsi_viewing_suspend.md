@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2021
-lastupdated: "2021-09-15"
+lastupdated: "2021-11-08"
 
 subcollection: virtual-servers
 
@@ -20,10 +20,22 @@ subcollection: virtual-servers
 # Viewing suspend billing feature
 {: #viewing-suspend-billing-feature}
 
+From your **Device List**, you can see what virtual server instances are using the suspend billing feature. Use the following steps to see which of your devices support suspend billing.
+{: shortdesc}
+
+Your virtual server instances must be configured with the following settings to support the suspend billing feature.
+
+- Hourly SAN
+- A public profile from one of the following families
+   - Balanced
+   - Compute
+   - Memory
+   - Variable compute
+
 ## Before you begin
 {: #before-you-begin-viewing-suspend}
 
-First, go to the device menu and ensure you have the correct account permissions to complete the task. 
+First, go to the device menu and make sure that you have the correct account permissions to complete the task. 
 
 * Go to your console's device menu. For more information, see [Navigating to devices](/docs/virtual-servers?topic=virtual-servers-navigating-devices).
 * Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions. 
@@ -51,7 +63,7 @@ To determine whether your virtual server instance supports the suspend billing f
 The following command is an example request of verifying whether your virtual server instance supports the suspend billing feature through the {{site.data.keyword.cloud}} API.
 
 The following JSON request and response is a generic example. 
-{:note}
+{: note}
 
 ```bash
 curl -X GET \
@@ -74,4 +86,3 @@ For more information, see the [SLDN API documentation](https://softlayer.github.
 For more information about the suspend billing feature, see the following information:
 1. [Suspend billing](/docs/virtual-servers?topic=virtual-servers-requirements)
 2. [Managing virtual servers](/docs/virtual-servers?topic=virtual-servers-managing-virtual-servers#managing-virtual-servers)
-
