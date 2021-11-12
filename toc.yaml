@@ -6,7 +6,7 @@ toc:
   properties:
     subcollection: virtual-servers
     version: 2
-    category: compute_classic
+    category: virtualservers
     audience: service
     href: /docs/virtual-servers
     console-page: "/classic"
