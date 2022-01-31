@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2021
-lastupdated: "2021-07-26"
+  years: 2017, 2022
+lastupdated: "2022-01-31"
 
 keywords: manage virtual servers, power off, replicate, manage device, reload os, delete server, manage server, cancel virtual server, cancel device, cancel server, restart, reboot, rename, how do i cancel a virtual server
 
@@ -86,10 +86,7 @@ After you rename a device, the name is automatically updated in the {{site.data.
 ### Connecting to the KVM console
 {: #kvm-console}
 
-The KVM console is a Java applet. Java must be installed before you can access the console. If Java is installed, make sure that a connection is established through the VPN. If a connection isn't established, a warning displays saying that a VPN connection is required. If you have connection issues with your KVM console, see [Why can I not connect to the KVM console?](/docs/virtual-servers?topic=virtual-servers-faqs-servers-general-#why-can-i-not-connect-to-the-kvm-console-).
-
-If you have issues with incompatible Java settings in your browser, you can alternatively use the TightVNC viewer. You must download and install TightVNC viewer for Windows 64-bit version. For more information, see [How to connect to KVM console of IBM Cloud Virtual Servers](https://www.ibm.com/support/pages/how-connect-kvm-console-ibm-cloud-virtual-servers){: external} from the Support Center.
-{: tip}
+The KVM console for virtual servers provides a graphical user interface and accepts both mouse and keyboard input. You can open the KVM console by using any of the {{site.data.keyword.cloud}} supported browsers. For more information, see [Accessing the KVM console for virtual servers](/docs/virtual-servers?topic=virtual-servers-access-kvm-console).
 
 ### Canceling a virtual server
 {: #cancel}
