@@ -181,7 +181,8 @@ toc:
   - navgroup:
       id: help
       topics: 
-      - vsi_ts_index.md     
+      - vsi_ts_index.md
+      - /bare-metal/bare-metal-understanding-server-status
       - topicgroup: 
           label: Troubleshooting
           topics: 
