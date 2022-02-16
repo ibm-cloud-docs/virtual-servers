@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2021
+  years: 2021, 2022
 
 lastupdated: "2021-10-19"
 
@@ -85,7 +85,7 @@ For information about changes to the {{site.data.keyword.BluVirtServers}} API , 
 {: release-note}
 
 **Autoscale now available for virtual servers**
-:   Auto scale for {{site.data.keyword.BluVirtServers}} provides you with the ability to automate the manual scaling process that's associated with adding or removing instances to support your business applications. This automation sets up new instances automatically as more resources are needed and then those instances are shut down and removed when the extra load subsides. Auto scale uses groups to contain the policies that change how your environment expands or shrinks. These policies use actions to add or remove virtual server based on your business and application needs. For more information, see [Auto scale](docs/virtual-servers?topic=virtual-servers-about-auto-scale).
+:   Auto scale for {{site.data.keyword.BluVirtServers}} provides you with the ability to automate the manual scaling process that's associated with adding or removing instances to support your business applications. This automation sets up new instances automatically as more resources are needed and then those instances are shut down and removed when the extra load subsides. Auto scale uses groups to contain the policies that change how your environment expands or shrinks. These policies use actions to add or remove virtual server based on your business and application needs. For more information, see [Auto scale](/docs/virtual-servers?topic=virtual-servers-about-auto-scale).
 
 ## April 2019 
 {: #subcollection-apr19}
@@ -102,7 +102,7 @@ For information about changes to the {{site.data.keyword.BluVirtServers}} API , 
 {: release-note}
 
 **New profile families for virtual server**
-:   When you provision {{site.data.keyword.BluVirtServers}}, you can select from supported families of profiles. A profile is a combination of vCPU and RAM that can be instantiated quickly to start a virtual server instance. In the {{site.data.keyword.cloud_notm}} console, you can choose from popular profile configurations or select from a list of profiles that best fit your needs. For more information, see [Profiles](docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles).
+:   When you provision {{site.data.keyword.BluVirtServers}}, you can select from supported families of profiles. A profile is a combination of vCPU and RAM that can be instantiated quickly to start a virtual server instance. In the {{site.data.keyword.cloud_notm}} console, you can choose from popular profile configurations or select from a list of profiles that best fit your needs. For more information, see [Profiles](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles).
 
 ## October 2018
 {: #subcollection-oct18}
