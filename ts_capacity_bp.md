@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017, 2021
+  years: 2017, 2022
 lastupdated: "2021-10-28"
 
 keywords: troubleshoot virtual server, virtual servers troubleshooting, tips, error, problem, insufficient capacity
@@ -137,7 +137,7 @@ Check that the credentials for the device are valid. Contact the account adminis
 ### You need to install TightVNC viewer
 {: #install-tightVNC-viewer}
 
-If you still can't access KVM, you need to install TightVNC viewer. For more information about installing TightVNC viewer, see [How to connect to KVM console of {{site.data.keyword.BluVirtServers}}](https://www.ibm.com/support/pages/how-connect-kvm-console-ibm-cloud-virtual-servers). 
+If you still can't access KVM, you need to install TightVNC viewer. For more information about installing TightVNC viewer, see [How to connect to KVM console of {{site.data.keyword.BluVirtServers}}](/docs/virtual-servers?topic=virtual-servers-access-kvm-console&mhsrc=ibmsearch_a&mhq=+How+to+connect+to+KVM+console+). 
 
 If you still can't access KVM, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
 
@@ -287,5 +287,5 @@ You can attempt to provision again by using the following strategies:
 ### How to fix it
 {: #how-to-fix-view-password}
 
-* _Option 1_: Update the firewall to allow the IBM Cloud service IP ranges as described the firewall [documentation](https://cloud.ibm.com/docs/vsrx?topic=hardware-firewall-shared-ibm-cloud-ip-ranges){: external}. These ranges allow for provisioning, monitoring, and management. Restart the server so the provisioning network to populate the password in the portal.
+* _Option 1_: Update the firewall to allow the IBM Cloud service IP ranges as described the firewall [documentation](/docs/vsrx?topic=hardware-firewall-shared-ibm-cloud-ip-ranges){: external}. These ranges allow for provisioning, monitoring, and management. Restart the server so the provisioning network to populate the password in the portal.
 * _Option 2_: Bypass the VLAN of the server from the firewall. Then, restart the server to allow provisioning network to populate the password in the portal and then route the VLAN back in the firewall.
