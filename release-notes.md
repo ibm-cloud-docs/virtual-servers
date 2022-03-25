@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2022
 
-lastupdated: "2021-10-19"
+lastupdated: "2022-03-25"
 
 
 keywords: virtual servers on classic release notes
@@ -36,40 +36,40 @@ Use the release notes to learn the latest updates to {{site.data.keyword.BluVirt
 For information about changes to the {{site.data.keyword.BluVirtServers}} API , see [{{site.data.keyword.BluVirtServers}} API reference overview](/docs/virtual-servers?topic=virtual-servers-api-reference)
 
 ## June 2021
-{: #subcollection-jun21}
+{: #virtual-servers-jun21}
 
 ### 08 June 2021
-{: #subcollection-jun9821}
+{: #virtual-servers-jun9821}
 {: release-note}
 
 **KVM console now available**
 :   You can now access the KVM console of your virtual servers directly from IBM Cloud console. For more information, see [Accessing the KVM console for virtual servers](/docs/virtual-servers?topic=virtual-servers-access-kvm-console).
 
 ## July 2020 
-{: #subcollection-jul20}
+{: #virtual-servers-jul20}
 
 ### 22 July 2020
-{: #subcollection-jul2220}
+{: #virtual-servers-jul2220}
 {: release-note}
 
 **IBM Cloud Monitoring**
 :   {{site.data.keyword.mon_full}} collects classic infrastructure and VPC virtual server instance metrics such as CPU usage, disk usage, network traffic, and memory. These metrics are stored in {{site.data.keyword.mon_full_notm}}. For more information, see [IBM Cloud Monitoring](/docs/virtual-servers?topic=cloud-infrastructure-monitoring-iaas).
 
 ## February 2020 
-{: #subcollection-feb20}
+{: #virtual-servers-feb20}
 
 ### 11 February 2020
-{: #subcollection-feb1120}
+{: #virtual-servers-feb1120}
 {: release-note}
 
 **Veeam Backup for Microsoft Office 365 is now available** 
 :   Veeam Backup for Microsoft Office 365 is now available for virtual servers on a monthly basis. For more information about Veeam Backup for Microsoft Office 365, see [Veeam backup for Office 365](/docs/virtual-servers?topic=virtual-servers-veeam-backup-o365).
 
 ## September 2019 
-{: #subcollection-sep19}
+{: #virtual-servers-sep19}
 
 ### 12 September 2019
-{: #subcollection-sep1219}
+{: #virtual-servers-sep1219}
 {: release-note}
 
 **Improve network performance by configuring jumbo frames**
@@ -78,61 +78,61 @@ For information about changes to the {{site.data.keyword.BluVirtServers}} API , 
     * Windows
     
 ## May 2019 
-{: #subcollection-may19}
+{: #virtual-servers-may19}
 
 ### 07 May 2019
-{: #subcollection-may0719}
+{: #virtual-servers-may0719}
 {: release-note}
 
 **Autoscale now available for virtual servers**
 :   Auto scale for {{site.data.keyword.BluVirtServers}} provides you with the ability to automate the manual scaling process that's associated with adding or removing instances to support your business applications. This automation sets up new instances automatically as more resources are needed and then those instances are shut down and removed when the extra load subsides. Auto scale uses groups to contain the policies that change how your environment expands or shrinks. These policies use actions to add or remove virtual server based on your business and application needs. For more information, see [Auto scale](/docs/virtual-servers?topic=virtual-servers-about-auto-scale).
 
 ## April 2019 
-{: #subcollection-apr19}
+{: #virtual-servers-apr19}
 
 ### 15 April 2019
-{: #subcollection-apr1519}
+{: #virtual-servers-apr1519}
 {: release-note}
 
 **View and update device details for virtual servers**
 :   You can now view the existing usernames and passwords for a device or update those values from the device details page. For more information, see [Viewing and managing device usernames and passwords](/docs/virtual-servers?topic=virtual-servers-view-update-user-name-password-for-device).
 
 ### 24 April 2019
-{: #subcollection-apr2419}
+{: #virtual-servers-apr2419}
 {: release-note}
 
 **New profile families for virtual server**
 :   When you provision {{site.data.keyword.BluVirtServers}}, you can select from supported families of profiles. A profile is a combination of vCPU and RAM that can be instantiated quickly to start a virtual server instance. In the {{site.data.keyword.cloud_notm}} console, you can choose from popular profile configurations or select from a list of profiles that best fit your needs. For more information, see [Profiles](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles).
 
 ## October 2018
-{: #subcollection-oct18}
+{: #virtual-servers-oct18}
 
 ### 03 October 2018
-{: #subcollection-oct0318}
+{: #virtual-servers-oct0318}
 {: release-note}
 
 **Provision virtual server using 3rd-party images**
 :   You can now provision a virtual server instance from an image that was created by a 3rd party vendor using the IBM Cloud catalog Cloud Images link. To access the link, you must first have your catalog credentials set up with an upgraded account to order virtual servers. For more information, see [Third-party images](/docs/virtual-servers?topic=virtual-servers-about-3rd-party).
 
 ### 30 October 2018
-{: #subcollection-oct3018}
+{: #virtual-servers-oct3018}
 {: release-note}
 
 **View suspended billing feature on your virtual server**
 :   You can now view whether your virtual server instance supports the suspend billing feature. For more information, see [Viewing suspend billing feature](/docs/virtual-servers?topic=virtual-servers-viewing-suspend-billing-feature).
 
 ### 31 October 2018
-{: #subcollection-oct3118}
+{: #virtual-servers-oct3118}
 {: release-note}
 
 **Placement groups available on virtual servers**
 :   With placement groups, you can use public instances to build for high availability within a data center or provide and additional level of fault tolerance within a larger deployment. Each placement group can be assigned a maximum of 5 new virtual server instances. Each virtual server is provisioned on different physical hosts. For more information, see [Placement groups](https://cloud.ibm.com/docs/virtual-servers?topic=virtual-servers-placement-groups).
 
 ## September 2018
-{: #subcollection-sep18}
+{: #virtual-servers-sep18}
 
 ### 26 September 2018
-{: #subcollection-sep2618}
+{: #virtual-servers-sep2618}
 {: release-note}
 
 **Reserved servers now available**
