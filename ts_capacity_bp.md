@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2021-10-28"
+lastupdated: "2021-03-30"
 
 keywords: troubleshoot virtual server, virtual servers troubleshooting, tips, error, problem, insufficient capacity
 
@@ -289,3 +289,30 @@ You can attempt to provision again by using the following strategies:
 
 * _Option 1_: Update the firewall to allow the IBM Cloud service IP ranges as described the firewall [documentation](/docs/vsrx?topic=hardware-firewall-shared-ibm-cloud-ip-ranges){: external}. These ranges allow for provisioning, monitoring, and management. Restart the server so the provisioning network to populate the password in the portal.
 * _Option 2_: Bypass the VLAN of the server from the firewall. Then, restart the server to allow provisioning network to populate the password in the portal and then route the VLAN back in the firewall.
+
+## Why is my virtual server read-only?
+{: #troubleshoot-vs-why-vs-read-only}
+{: troubleshoot}
+{: support} 
+
+### Why it's happening
+{: #why-vs-read-only}
+
+A virtual server might receive a read-only issue because of unplanned networking incidents or outages.
+
+### How to fix it
+{: #how-to-fix-vs-read-only}
+
+To bring back your server from a read-only status, you need to restart the server to rescue kernel and you need to run a file system check on all your file systems.
+
+1. From your device list, click the **name of the server** > **Actions menu** > **Rescue kernel**.
+2. When your server restarts in rescue mode, log in to the server by using SSH with the root user credentials.
+3. Run a file system check by using the following command:
+   `fsck -y -C /dev/xvda1`
+4. Run the same command if you have more files systems such as _/dev/xvda2_, _/dev/xvda3_, and so on. 
+
+For more help, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp) or open a support case. 
+
+Running a file system check might cause data loss, so make sure that your data is backed up.
+{: note}
+
