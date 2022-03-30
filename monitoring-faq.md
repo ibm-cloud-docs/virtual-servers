@@ -41,7 +41,7 @@ IBM Cloud is committed to providing you the highest quality of service and is ma
 
 ## How does {{site.data.keyword.mon_full_notm}} pricing work?
 {: #will-monitoring-cost-more}
-{: faq}-->
+{: faq}
 
 {{site.data.keyword.mon_full_notm}} offers different pricing plans.
 
