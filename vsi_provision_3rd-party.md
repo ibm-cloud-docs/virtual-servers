@@ -1,21 +1,14 @@
 ---
 
 copyright:
-  years: 2017, 2021
+  years: 2017, 2022
 lastupdated: "2021-05-20"
 
 subcollection: virtual-servers
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:tip: .tip}
-{:note: .note}
-{:table: .aria-labeledby="caption"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Provisioning a virtual server instance from a third-party image
 {: #ordering-3P}
@@ -34,7 +27,7 @@ For the {{site.data.keyword.Bluemix_notm}} catalog, you must have an upgraded ac
 ## Selecting a virtual server image
 {: #selecting-a-virtual-server-image}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/catalog){: new_window} by using your unique credentials.
+1. Log in to the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog){: external} by using your unique credentials.
 2. In the **Compute** section, locate the **Cloud Images** section and click the third-party image that you want to deploy.
 3. Review the custom image details and click **Continue**. The **Virtual server instance - custom image** page is displayed with your custom image preselected.
 
