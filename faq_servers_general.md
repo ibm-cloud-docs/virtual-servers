@@ -1,33 +1,24 @@
 ---
 
 copyright:
-  years: 2017, 2021
-lastupdated: "2021-08-16"
+  years: 2017, 2022
+lastupdated: "2022-04-15"
 
-keywords: server down, lost server password, cancel server, cvsup mirror, how do I cancel a device, cancel device, cancel server
+keywords:
 
 subcollection: virtual-servers
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:note: .note}
-{:external: target="_blank" .external}
-{:table: .aria-labeledby="caption"}
-{:faq: data-hd-content-type='faq'}
+{{site.data.keyword.attribute-definition-list}}
 
 # FAQs: Servers (general)
 {: #faqs-servers-general-}
 
 ## My virtual server is down. What do I do?
 {: #my-virtual-server-is-down-what-should-i-do}
-{: faq}
 
-If your virtual server is down, use the following steps to bring it back down:
+If your virtual server is down, use the following steps to bring it back up:
 
 1. Try to power on your server. For more information, see [Power server on or off](/docs/virtual-servers?topic=virtual-servers-managing-virtual-servers#power-on-off){: external}.
 2. If your server does not power on or returns to a down state, you might need to start your server in rescue mode. For more information, see [Starting rescue mode](/docs/virtual-servers?topic=virtual-servers-launching-rescue){: external}.
@@ -100,6 +91,7 @@ Use the following table for OS-specific routing information.
 | Vyatta |  Set protocols static route `161.26.0.0/16 next-hop 172.16.0.26`. Replace 172.16.0.26 with the gateway of the subnet that the machine is on. The gateway needs to be the same as the gateway that is defined for the 10.0.0./8 route.|
 |ESXi| Use the following command to add the route to the ESXi host: `esxcfg-route -a 161.26.0.0/16 10.0.0.1`. Replace 10.0.0.1 with your private gateway IP address. |
 | CoreOS | Create a static route file in `/etc/systemd/network` with the name `10-static.network` that looks like the following route: `[Route]` `Gateway=10.0.0.1` `Destination=161.26.0.0/16` Replace 10.0.0.1 with your private gateway IP address. |
+{: caption="Table 1. OS-specific routing information" caption-side="top"}
 
 ## What is a cvsup mirror?
 {: #what-is-a-cvsup-mirror-}
