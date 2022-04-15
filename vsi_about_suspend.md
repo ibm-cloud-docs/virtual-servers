@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017, 2021
+  years: 2017, 2022
 lastupdated: "2021-10-21"
 
 keywords: suspend billing feature, suspend billing
@@ -10,17 +10,7 @@ subcollection: virtual-servers
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:row-headers: .row-headers}
-{:table: .aria-labeledby="caption"}
-{:external: target="_blank" .external}
+{{site.data.keyword.attribute-definition-list}}
 
 # Suspend billing
 {: #requirements}
@@ -101,7 +91,7 @@ Virtual server instances that support suspend billing have a minimum usage charg
 
 When you suspend billing on a virtual server, a few changes appear in your billing invoice. The relevant charges now appear as usage-based details. For example, you might see the following additions that reflect hours available, hours that were used, and total number of hours charged:
 
-```
+```text
 Computing instance usage...
 RAM usage...
 Operating system usage...
