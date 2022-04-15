@@ -1,42 +1,34 @@
 ---
 
 copyright:
-  years: 2018, 2021
-lastupdated: "2021-09-13"
+  years: 2018, 2022
+lastupdated: "2022-04-15"
 
-keywords: apps, deploy, virtual server, App Service, vsi, virtual machine, delivery pipeline, virtual deployment
+keywords: 
 
 subcollection: virtual-servers
 
 ---
 
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:screen: .screen}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:table: .aria-labeledby="caption"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Deploying to a virtual server
 {: #deploying-to-a-virtual-server}
 
-If you have a Pay-As-You-Go account, you can use the {{site.data.keyword.cloud}} [App Service](https://{DomainName}/developer/appservice/starter-kits){: external} to deploy your apps to many types of environments, including virtual server instances. A virtual server instance emulates a bare metal machine and is a common deployment choice when you move on-premises workloads to the cloud.
+If you have a Pay-As-You-Go account, you can use the {{site.data.keyword.cloud}} [App Service](https://{DomainName}/developer/appservice/starter-kits){: external} to deploy your apps to many types of environments, including virtual servers. A virtual server emulates a bare metal machine and is a common deployment choice when you move on-premises workloads to the cloud.
 {: shortdesc}
 
-A virtual server instance offers better transparency, predictability, and automation for all workload types when compared to other configurations. Combine it with a bare metal server to create unique workload combinations. For example, you can create high-performance database logic or machine learning with bare metal and GPU configurations that run a Debian Linux-based operating system.
+A virtual server offers better transparency, predictability, and automation for all workload types when compared to other configurations. Combine it with a bare metal server to create unique workload combinations. For example, you can create high-performance database logic or machine learning with bare metal and GPU configurations that run a Debian Linux-based operating system.
 
-Provisioning a virtual server instance and deploying it can be a complex and time-consuming process, but you can get up and running quickly by using the {{site.data.keyword.cloud_notm}} App Service.
+Provisioning a virtual server and deploying it can be a complex and time-consuming process, but you can get up and running quickly by using the {{site.data.keyword.cloud_notm}} App Service.
 
-Services don't bind to the virtual server instance. You cannot add services to an application in a virtual server. However, you can still use any {{site.data.keyword.cloud_notm}} service in an application that is running in a virtual server if you made the credentials available to the app that is running in the virtual server instance.
+Services don't bind to the virtual server. You cannot add services to an application in a virtual server. However, you can still use any {{site.data.keyword.cloud_notm}} service in an application that is running in a virtual server if you made the credentials available to the app that is running in the virtual server.
 {: important}
 
 ## Deploying apps
 {: #create-deploy-vsi}
 
-The App Service provisions a virtual server instance for you, loads an image that includes your app, creates a DevOps toolchain, and initiates the first deployment cycle for you.
+The App Service provisions a virtual server for you, loads an image that includes your app, creates a DevOps toolchain, and initiates the first deployment cycle for you.
 
 1. [Create an app](/docs/apps?topic=apps-tutorial-scratch#tutorial-scratch){: external}.
 2. Click **Configure continuous delivery** from the App details page.
@@ -50,14 +42,14 @@ The virtual server deployment process consists of several key technologies that 
 ### Deploying through Terraform
 {: #deploying-through-terraform}
 
-You can deploy any of the App Service starter kits in a dynamically created virtual instance through [Terraform](/docs/terraform?topic=terraform-getting-started), an open source infrastructure as code framework.
+You can deploy any of the App Service starter kits in a dynamically created virtual through [Terraform](/docs/terraform?topic=terraform-getting-started), an open source infrastructure as code framework.
 
 ### Enabling your pipeline deployment
 {: #enabling-your-pipeline-deployment}
 
-When you create a starter kit that uses the {{site.data.keyword.cloud_notm}} [App Service](https://{DomainName}/developer/appservice/starter-kits){: external}, the virtual server instance is enabled. After the app is created, you can then choose where you want to deploy the app. The starter kits are enabled to support deployment by using a Continuous Delivery toolchain. Starter kits can target Kubernetes, Cloud Foundry, and Virtual Server Instances. The toolchain includes a source code repository and a deployment pipeline.
+When you create a starter kit that uses the {{site.data.keyword.cloud_notm}} [App Service](https://{DomainName}/developer/appservice/starter-kits){: external}, the virtual server is enabled. After the app is created, you can then choose where you want to deploy the app. The starter kits are enabled to support deployment by using a Continuous Delivery toolchain. Starter kits can target Kubernetes, Cloud Foundry, and irtual Server. The toolchain includes a source code repository and a deployment pipeline.
 
-The virtual server option works in phases. First, the app code is prepared and stored into a GitLab Git repository and the source code creates a toolchain with a pipeline. The pipeline is defined to build the code and package it into a Debian Package manager format. Then, Terraform provisions a virtual instance. Finally, the app is deployed, installed, and started inside the running virtual image and its health is validated.
+The virtual server option works in phases. First, the app code is prepared and stored into a GitLab Git repository and the source code creates a toolchain with a pipeline. The pipeline is defined to build the code and package it into a Debian Package manager format. Then, Terraform provisions a virtual server. Finally, the app is deployed, installed, and started inside the running virtual image and its health is validated.
 
 The pipeline uses a set of user account properties and a fresh SSH key pair to deploy to infrastructure. These properties are automatically passed into the toolchain, but not stored in Git source code for security reasons.
 
@@ -73,9 +65,9 @@ To view these environment properties, complete the following steps.
 | `TF_VAR_ibm_sl_api_key` | The [infrastructure API key](/docs/virtual-servers?topic=virtual-servers-deploying-to-a-virtual-server#iaas-key) is from the classic infrastructure console. |
 | `TF_VAR_ibm_sl_username` | The [infrastructure username](/docs/virtual-servers?topic=virtual-servers-deploying-to-a-virtual-server#user-key) that identifies the classic infrastructure account |
 | `TF_VAR_ibm_cloud_api_key` | The {{site.data.keyword.cloud_notm}} [API key](/docs/virtual-servers?topic=virtual-servers-deploying-to-a-virtual-server#platform-key) is used to enable service creation. |
-| `PUBLIC_KEY` | [Public key](/docs/virtual-servers?topic=virtual-servers-deploying-to-a-virtual-server#public-key) that is defined to enable access to the virtual server instance. |
-| `PRIVATE_KEY` | [Private key](/docs/virtual-servers?topic=virtual-servers-deploying-to-a-virtual-server#public-key) that is defined to enable access to the virtual server instance. You must use `\n` newline style formatting. |
-| `VI_INSTANCE_NAME` | Auto-generated name for the virtual server instance |
+| `PUBLIC_KEY` | [Public key](/docs/virtual-servers?topic=virtual-servers-deploying-to-a-virtual-server#public-key) that is defined to enable access to the virtual server. |
+| `PRIVATE_KEY` | [Private key](/docs/virtual-servers?topic=virtual-servers-deploying-to-a-virtual-server#public-key) that is defined to enable access to the virtual server. You must use `\n` newline style formatting. |
+| `VI_INSTANCE_NAME` | Auto-generated name for the virtual server. |
 | `GIT_USER` | If you set the [Terraform state](/docs/virtual-servers?topic=virtual-servers-deploying-to-a-virtual-server#tform-state) to store the state of the apply command, the GitLab username is required. |
 | `GIT_PASSWORD` | If you set the [Terraform state](/docs/virtual-servers?topic=virtual-servers-deploying-to-a-virtual-server#tform-state) to store the state of the apply command, the GitLab password is required. |
 {: caption="Table 1. Environment variables to change for enablement" caption-side="top"}
@@ -94,7 +86,7 @@ Terraform requires a classic infrastructure API key to create infrastructure res
 
 For more information, see [Managing classic infrastructure API keys](/docs/account?topic=account-classic_keys#classic_keys) and [Classic infrastructure permissions](/docs/account?topic=account-infrapermission).
 
-#### Classic infrastructure user name
+#### Classic infrastructure username
 {: #user-key}
 
 The classic infrastructure username is also automatically obtained and used during deployment. To manually obtain the username, complete the following steps.
@@ -120,7 +112,7 @@ To create platform-level services in Terraform, like databases and compose servi
 #### Public and private keys
 {: #public-key}
 
-You need a toolchain to install the Debian packaging into the virtual server instance. The deployment infrastructure automatically generates a private and public SSH key pair to transfer the Git contents to the instance.
+You need a toolchain to install the Debian packaging into the virtual server. The deployment infrastructure automatically generates a private and public SSH key pair to transfer the Git contents to the virtual server.
 
 To manually generate an SSH key pair, use the following steps:
 1. In your client, use the following instructions to create a [public and private key pair](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/){: external}.
@@ -148,7 +140,7 @@ To enable the state storage, `GIT_USER` and `GIT_PASSWORD` are automatically con
 2. In GitLab, click the **Profile icon** and then click **Settings**.
 3. Click **Account** and copy the username and replace the `GIT_USER` value.
 4. Click **Access Tokens**.
-5. Give your token an appropraite name, select a scope, and click **Create Personal Access Token**.
+5. Give your token an appropriate name, select a scope, and click **Create Personal Access Token**.
 6. Click **Copy** from the `Your New Personal Access Token` field, and replace the value of the `GIT_PASSWORD` in the toolchain properties.
 
 The Terraform state is stored in a branch that is called `terraform`, and doesn't trigger the pipeline to run if it was changed.
@@ -161,12 +153,12 @@ When the app is deployed to {{site.data.keyword.cloud_notm}}, a GitLab repositor
 #### Debian folder
 {: #debian-folder}
 
-The `debian` folder holds the configuration that is required to enable the packaging of the app into a Debian package.
+The `debian` folder holds the configuration that's required to enable the packaging of the app into a Debian package.
 
 #### Terraform folder
 {: #terraform-folder}
 
-The `terraform` folder holds the configuration for the infrastructure as code that can be used to provision infrastructure resources. The file `main.tf` is the main source for changing the options for your Terraform configuration.
+The `terraform` folder holds the configuration for the infrastructure as code that you can use to provision infrastructure resources. The file `main.tf` is the main source for changing the options for your Terraform configuration.
 
 ```json
 resource "ibm_compute_vm_instance" "vm1" {
@@ -190,7 +182,7 @@ resource "ibm_compute_vm_instance" "vm1" {
 
 You can also provision bare metal servers with Terraform. For more information, see [IBM Terraform Provider Documentation](/docs/terraform?topic=terraform-getting-started){: external} and [IBM Terraform Provider GitHub Repo](https://github.com/IBM-Cloud/terraform-provider-ibm){: external}.
 
-The `variables.tf` can be used to change the data center you want to target to create the virtual instance. To see the list of defined data centers on the platform, see [Data centers](https://www.ibm.com/cloud/data-centers/){: external}.
+The `variables.tf` can be used to change the data center you want to target to create the virtual server. To see the list of defined data centers on the platform, see [Data centers](https://www.ibm.com/cloud/data-centers/){: external}.
 
 By default, the Terraform file is configured for Washington and `wdc04`.
 
@@ -212,20 +204,22 @@ The toolchain process has five stages.
 1. The build stage clones the Git repo and packages the code into a Debian package.
 2. The Terraform plan stage prepares a Terraform plan.
 
-  ```console
-  terraform init -input=false
-  terraform validate
-  terraform plan -var "ssh_public_key=$PUBLIC_KEY" -input=false -out tfplan
-  ```
-  {: pre}
+   ```console
+   terraform init -input=false
+   terraform validate
+   terraform plan -var "ssh_public_key=$PUBLIC_KEY" -input=false -out tfplan
+   ```
+   {: pre}
+  
 3. The Terraform apply stage applies the Terraform configuration and waits until the IP address of the virtual server is available.
 
-  ```console
-  terraform apply -auto-approve -input=false tfplan
-  terraform output "host ip" > hostip.txt
-  ```
-  {: pre}
-4. The deployment, install, start stage moves the Debian package that is built in the first stage into the running virtual server, installs it and then starts it.
+   ```console
+   terraform apply -auto-approve -input=false tfplan
+   terraform output "host ip" > hostip.txt
+   ```
+   {: pre}
+  
+4. The deployment, install, start stage moves the Debian package that was built in the first stage into the running virtual server, installs it and then starts it.
 5. The health check stage validates the health endpoint is available on the app and then completes the pipeline.
 
-To access the app after it starts, check the logs of the Health Check Stage. Click the URL links listed in the logs that show the IP address and port of the app.
+To access the app after it starts, check the logs of the Health Check Stage. Click the URL links that are listed in the logs that show the IP address and port of the app.
