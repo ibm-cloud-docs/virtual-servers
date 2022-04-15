@@ -1,27 +1,20 @@
 ---
 
 copyright:
-  years: 2017, 2021
+  years: 2017, 2022
 lastupdated: "2021-05-20"
 
 subcollection: virtual-servers
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:note: .note}
-{:table: .aria-labeledby="caption"}
-{:external: target="_blank" .external}
+{{site.data.keyword.attribute-definition-list}}
 
 
 # Managing device access
 {: #managing-device-access}
 
-To access and manage the details for a specific device, you needthe correct permissions.  After the account administrator grants your user account access to a device, you can view the device details by using the {{site.data.keyword.cloud}} console or by using the {{site.data.keyword.slapi_short}}. The information or actions that you see depend on the device type, and the permissions that are granted to your user account.
+To access and manage the details for a specific device, you need the correct permissions. After the account administrator grants your user account access to a device, you can view the device details by using the {{site.data.keyword.cloud}} console or by using the {{site.data.keyword.slapi_short}}. The information or actions that you see depend on the device type, and the permissions that are granted to your user account.
 {: shortdesc}
 
 If your account has devices to that you don't have access, you see an "Unknown Device" name when you try to access those devices.
@@ -31,9 +24,9 @@ You can assign device access to any users on your account, but not to yourself. 
 
 You must have the following permissions to access the device details for public virtual servers or dedicated virtual servers.
 
-* **View Virtual Servers Details** - Used to view the IP addresses, operating system type, passwords, and more for a given virtual server.  IView Virtual Servers Details is also used to update virtual server passwords in the portal. You must have this access to view public instances, dedicated instances, and dedicated host instances.
+* **View Virtual Servers Details** - Used to view the IP addresses, operating system type, passwords, and more for a given virtual server. IView Virtual Servers Details is also used to update virtual server passwords in the portal. You must have this access to view public instances, dedicated instances, and dedicated host instances.
 
-* **View Virtual Dedicated Host Details** - Used to view the IP addresses, operating system type, passwords, and more for a given dedicated host.  View Virtual Dedicated Host Details is also used to migrate dedicated instances to a different dedicated host. You must have this access to view dedicated hosts.
+* **View Virtual Dedicated Host Details** - Used to view the IP addresses, operating system type, passwords, and more for a given dedicated host. View Virtual Dedicated Host Details is also used to migrate dedicated instances to a different dedicated host. You must have this access to view dedicated hosts.
 
 
 ## Adding permissions for your users
@@ -41,7 +34,7 @@ You must have the following permissions to access the device details for public 
 
 If you are the account administrator and you want to grant users permission to view virtual server details and dedicated host details, complete the following steps.
 
-1. Log in to the [Access (IAM) ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/iam#/users){: new_window} page in the {{site.data.keyword.cloud}} console. 
+1. Log in to the [Access (IAM)](https://cloud.ibm.com/iam#/users){: external} page in the {{site.data.keyword.cloud}} console. 
 2. In the **Users** tab, select **View by: My classic infrastructure users**.
 3. Select a user, then click the **Classic infrastructure** tab.
 4. Expand the **Devices** category in the **Permissions tab** and select **View Virtual Server Details** and **View Virtual Dedicated Host Details**.
@@ -63,7 +56,7 @@ If you want to provide users access at a specific device level, complete the fol
 
 If you are the account administrator and you want to grant users permission to view virtual server details and dedicated host details, complete the following steps.
 
-1. Access the [{{site.data.keyword.slportal}} ![External link icon](../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
+1. Access the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} by using your unique credentials.
 2. Select **Account > Users** from the Navigation Bar to access the Users screen.
 3. Click the relevant username to access the User Profile.
 4. Click the **Portal Permissions** icon to access the Portal Permissions screen.
