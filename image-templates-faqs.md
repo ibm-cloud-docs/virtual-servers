@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2014, 2021
+  years: 2014, 2022
 lastupdated: "2021-05-18"
 
 keywords: iso template, boot my virtual server instance from an image
@@ -78,9 +78,6 @@ To create an image template for your entire server, see the instructions in [Cre
 
 If you choose to export an image template to {{site.data.keyword.cos_full_notm}}, each block device (or disk) has its own associated file. For example, if your image file is named image.vhd, the first block device is exported as image-0.vhd. The second block device is exported as image-1.vhd, and so on.
 {: tip}
-
-<!--## How much does it cost to store an image template?-->
-<!--Image templates are charged at $0.25 per GB used during your account's billing cycle.-->
 
 ## How do I boot my virtual server instance from an image?
 {: #how-do-i-boot-my-virtual-server-instance-from-an-image-}
