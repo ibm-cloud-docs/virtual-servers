@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years:  2020, 2021
-lastupdated: "2021-05-18"
+  years:  2020, 2022
+lastupdated: "2022-04-14"
 
-keywords: monitoring no driver mode, no driver mode, monitoring light, light mode
+keywords: 
 
 subcollection: virtual-servers
 
@@ -46,8 +46,6 @@ feature:
 ```
 {: screen}
 
-**OR**
-
 Alternatively, you can use the following curl command:
 
 ```text
@@ -61,7 +59,7 @@ Where
 
 `COLLECTOR_ENDPOINT` is the ingestion URL for the region where the monitoring instance is available.
 
-**4.** Restart the agent.
+4. Restart the agent.
 
 After you complete the previous steps, limited functionality is implemented and you see the reduced pricing on your invoice.
 {: note}
