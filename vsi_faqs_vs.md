@@ -1,21 +1,14 @@
 ---
 
 copyright:
-  years: 2017, 2021
+  years: 2017, 2022
 lastupdated: "2021-11-08"
 
 subcollection: virtual-servers
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:external: target="_blank" .external}
-{:faq: data-hd-content-type='faq'}
+{{site.data.keyword.attribute-definition-list}}
 
 # FAQs: Virtual servers  
 {: #faqs-virtual-servers}
@@ -47,7 +40,8 @@ Estimating your cost for an {{site.data.keyword.cloud_notm}} server to support y
 After you provision a virtual server, you can upgrade or downgrade your server configuration at any time. For more information, see [Reconfiguring an existing virtual server](/docs/virtual-servers?topic=virtual-servers-reconfiguring-virtual-servers). If the item that you want to change is not available from the Device List, you can cancel and reorder or contact [IBM Cloud Sales](https://cloud.ibm.com/catalog?contactmodule) for assistance.
 
 ## How do I cancel a virtual server?
-{: how-do-i-cancel-virtual-server}
+{: #how-do-i-cancel-virtual-server}
+{: faq}
 
 You can cancel a virtual server at any time. Go to the [Device List](https://cloud.ibm.com/classic/devices). Click **Actions** for the server that you want to cancel, and select the cancel option from the menu. For more information, see [Canceling virtual servers](/docs/virtual-servers?topic=virtual-servers-managing-virtual-servers#cancel).
 
@@ -138,7 +132,7 @@ For information about viewing or requesting compliance information, including SO
 The maintenance notification contains an estimated duration for the maintenance window. Keep in mind that the timeframe is an estimate and maintenance tasks might take longer. Make sure that you allow an extra hour past the maintenance window for tasks to complete and for the server to return online. If the server remains offline longer than 2 hours past the estimate, contact [support](https://test.cloud.ibm.com/docs/virtual-servers?topic=virtual-servers-gettinghelp).
 
 ## Why do I need to migrate my virtual server?
-{: why-migrate-virtual-server}
+{: #why-migrate-virtual-server}
 {: faq}
 
 Migrations happen for several reasons. The most common reasons are because of host failure and planned migrations due to maintenance. 
