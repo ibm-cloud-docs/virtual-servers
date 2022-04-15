@@ -19,7 +19,7 @@ subcollection: virtual-servers
 {: #migrating-vsi-new-datacenter}
 {: toc-content-type="tutorial"} 
 {: toc-services="virtual-servers, loadbalancer-service"} 
-{: toc-completion-time="10m"}
+{: toc-completion-time="15m"}
 
 You have two ways to move your virtual server between {{site.data.keyword.Bluemix}} classic infrastructure data centers:
 
