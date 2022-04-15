@@ -1,23 +1,16 @@
 ---
 
 copyright:
-  years: 2017, 2021
+  years: 2017, 2022
 lastupdated: "2021-09-13"
 
-keywords: public virtual servers, network traffic, virtual server deployment, profile
+keywords: 
 
 subcollection: virtual-servers
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:tips: .tips}
-{:note: .note}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Profiles
 {: #about-virtual-server-profiles}
@@ -90,7 +83,7 @@ The offering is available in various profiles and data centers, with the followi
 ### Local HDD
 {: #HDD}
 
-|Profile|vCPU|RAM|Secondary disks<sup>(*)</sup>|Storage type|
+|Profile|vCPU|RAM|Secondary disks|Storage type|
 |---|---|---|---|---|
 |BL1.1x2|1|2 GB|25, 100 GB|Local HDD
 |BL1.1x4|1|4 GB|25, 100 GB|Local HDD|
