@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2019, 2021
+  years: 2019, 2022
 lastupdated: "2019-11-22"
 
 keywords: Accessing the Device List, {{site.data.keyword.cloud_notm}} console
@@ -10,13 +10,7 @@ subcollection: virtual-servers
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:external: target="_blank" .external}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # Navigating to devices
 {: #navigating-devices}
@@ -30,14 +24,6 @@ The following steps use the {{site.data.keyword.cloud_notm}} console to go to yo
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com/){: external} by using your unique credentials.
 2. From the Dashboard, click the menu icon ![Menu icon](../../icons/icon_hamburger.svg) > **Classic Infrastructure** > **Devices**.
-
-Figure 1. Expanded ![Menu icon](../../icons/icon_hamburger.svg) menu
-![Figure 1. Expanded ![Menu icon](../../icons/icon_hamburger.svg) menu](/images/expanded-hamburger-menu.png "Expanded ![Menu icon](../../icons/icon_hamburger.svg) menu")
-
-Figure 2 is an example of the **Device** page.
-
-Figure 2. Console Device page
-![Figure 2. Console Device page](/images/device-list.png "Console Device page")
 
 ## Next steps
 {: #next-steps-navigating-devices}
