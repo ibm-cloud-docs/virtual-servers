@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2014, 2021
+  years: 2014, 2022
 lastupdated: "2021-05-18"
 
 keywords:
@@ -10,8 +10,7 @@ subcollection: virtual-servers
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Managing traffic spikes with resource-based auto scaling
 {: #managing-resourced-based-auto-scaling}
@@ -62,7 +61,7 @@ In the scenario, the e-commerce website is using resource-based scaling. Two pol
 2. Select the group cooldown option for the **Cooldown Period**.
 3. Click **Add Trigger**, and specify a repeating trigger by selecting **Every** in the first drop-down menu, then highlight **Monday, Tuesday, Wednesday, Thursday,** and **Friday** and **2:00 PM**\* from the subsequent drop-down boxes. (By selecting the **Advanced Edit** checkbox, you get the trigger frequency in crontab–like notation.)
 4. Click the **Scale By** drop-down box under **Action** and select **Exact**. Enter 3 in the **Members** field.
-5. Click **Add Policy** again to specify the second policy that removes the servers every afternoon. The cooldown period is the same as the group’s cooldown. The trigger is every Monday, Tuesday, Wednesday, Thursday, and Friday at 10:00 PM\*, with an exact scale action of 3. The time that is entered in the **Triggers** field is based on UTC time, which is why you need to select 2:00 PM for 9:00 AM Central Daylight Time and 10:00 PM for 5:00 PM Central Daylight Time. During Central Standard Time, the times would be 1:00 PM and 9:00 PM because UTC/GMT does not acknowledge Daylight Saving Time. See the [World Time Server ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.worldtimeserver.com/current_time_in_UTC.aspx){: new_window} site for a time converter.
+5. Click **Add Policy** again to specify the second policy that removes the servers every afternoon. The cooldown period is the same as the group’s cooldown. The trigger is every Monday, Tuesday, Wednesday, Thursday, and Friday at 10:00 PM\*, with an exact scale action of 3. The time that is entered in the **Triggers** field is based on UTC time, which is why you need to select 2:00 PM for 9:00 AM Central Daylight Time and 10:00 PM for 5:00 PM Central Daylight Time. During Central Standard Time, the times would be 1:00 PM and 9:00 PM because UTC/GMT does not acknowledge Daylight Saving Time. See the [World Time Server](http://www.worldtimeserver.com/current_time_in_UTC.aspx){: external} site for a time converter.
 6. Set up another group with cooldown of 0, named, for example, Traffic Burst Group, with a minimum member count of 0 and a maximum of 5. Use the same settings for group and member configuration as the Weekday Scale Up group, except for the group name.
 7. Click **Add Policy** to add the second policy that controls the two extra servers when public inbound traffic averages over 5 MB per second across all virtual servers for 10 minutes.
 8. Enter the **Policy Name**, for example, Traffic Burst Group.
