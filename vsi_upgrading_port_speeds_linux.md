@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2021
-lastupdated: "2021-09-15"
+  years: 2014, 2022
+lastupdated: "2022-04-15"
 
 keywords: Upgrading port speed in Linux
 
@@ -10,14 +10,7 @@ subcollection: virtual-servers
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:screen: .screen}
-{:tip .tip}
-{:table: .aria-labeledby="caption"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Upgrading port speed in Linux
 {: #upgrading-port-speed-in-linux}
@@ -25,7 +18,7 @@ subcollection: virtual-servers
 The default port speed for customer servers (for both public and private networks) is 10 Mbps. If you want to upgrade either of your port speeds to 100 Mbps or 1000 Mbps, open a support case with the Sales department. You need to approve the monthly charge before a technician changes the port speed limits on the network.
 
 These commands affect the connectivity of your server. Always manage network connections by first connecting to the IP that you are NOT working on.
-{:tip}
+{: tip}
 
 You can check the current speed of your connection by running the following commands:
 
@@ -66,14 +59,14 @@ Settings for eth1:
    ```
    {: screen}
 
-To change the speed, edit the following file using your favorite text editor:
+To change the speed, edit the following file by using your favorite text editor:
 
    ```text
    /etc/sysconfig/network-scripts/ifcfg-eth#   (ifcfg-eth1 for public, ifcfg-eth0 for private)
    ```
    {: pre}
 
-You will find the following line:
+You see find the following line:
 
    ```text
    ETHTOOL_OPTS="autoneg off speed 100 duplex full"
