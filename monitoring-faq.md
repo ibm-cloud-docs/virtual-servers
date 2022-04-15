@@ -70,12 +70,6 @@ For information about installing {{site.data.keyword.mon_full_notm}}, see [Getti
 
 For information about provisioning, configuring your agent, managing data, and alerting, see {{site.data.keyword.mon_full_notm}}, see [Getting started tutorial](/docs/monitoring?topic=monitoring-getting-started).
 
-<!--## How do I uninstall Advanced Monitoring by Nimsoft?
-{: #how-do-i-uninstall-nimsoft}
-{: faq}-->
-
-<!--For information about uninstalling Advanced Monitoring by Nimsoft, see [Uninstalling Advanced Monitoring by Nimsoft](/docs/cloud-infrastructure?topic=cloud-infrastructure-faq-sysdig-monitoring#how-do-i-uninstall-nimsoft).-->
-
 ## What if I used custom images with Advanced Monitoring by Nimsoft?
 {: #what-if-i-use-custom-images-with-nimsoft}
 {: faq}
