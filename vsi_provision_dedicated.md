@@ -1,22 +1,15 @@
 ---
 
 copyright:
-  years: 2017, 2021
+  years: 2017, 2022
 lastupdated: "2021-09-13"
 
-keywords: virtual server, dedicated server, {{site.data.keyword.cloud}}, {{site.data.keyword.cloud_notm}}
-
+keywords: 
 subcollection: virtual-servers
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 
 # Provisioning dedicated hosts and instances
@@ -30,7 +23,7 @@ You can provision your dedicated instances through the {{site.data.keyword.cloud
 
 To provision a dedicated virtual server instance through the {{site.data.keyword.cloud_notm}} catalog, complete the following steps:
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} catalog ![External link icon](../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/catalog){: new_window} by using your unique credentials.
+1. Log in to the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog){: external} by using your unique credentials.
 2. In the **Compute Infrastructure** section, click the **Virtual Server** tile.
 3. Select **Dedicated** as your virtual server type.
 4. In the **Dedicated Host** section, select **Auto Assign**. {{site.data.keyword.cloud_notm}} then automatically assigns your instance to a host in your selected data center.
