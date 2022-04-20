@@ -55,12 +55,6 @@ toc:
            topics: 
            - vsi_backup.md
            - vsi_email_intro.md
-       - topicgroup: 
-           label:  Related links
-           links: 
-           - link:
-               label: Maximize Control with Virtual Servers
-               href: https://www.ibm.com/blogs/bluemix/2017/08/maximize-control-ibm-bluemix-virtual-servers/        
        - release-notes.md
    
   - navgroup: 
