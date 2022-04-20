@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2021-11-08"
+lastupdated: "2022-04-15"
 
 subcollection: virtual-servers
 
@@ -161,3 +161,9 @@ Your virtual server instance must be configured with the following settings to s
    - Compute
    - Memory
    - Variable compute
+
+## How do I change the operating sysetm on my virtual server?
+{: #how-change-os-virtual-server|
+{: faq}
+
+You can perform an OS reload to change the operating system in your virtual server ay any time. For more information about an OS reload, see [Reloading the OS](/docs/virtual-servers?topic=bare-metal-reloading-the-os). 
