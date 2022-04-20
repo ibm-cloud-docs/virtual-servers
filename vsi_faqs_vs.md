@@ -163,7 +163,7 @@ Your virtual server instance must be configured with the following settings to s
    - Variable compute
 
 ## How do I change the operating system on my virtual server?
-{: #how-change-os-virtual-server|
+{: #how-change-os-virtual-server}
 {: faq}
 
 You can perform an OS reload to change the operating system on your virtual server at any time. For more information about OS reloads, see [Reloading the OS](/docs/virtual-servers?topic=bare-metal-reloading-the-os). 
