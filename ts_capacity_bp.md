@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2021-03-30"
+lastupdated: "2022-05-03"
 
 keywords: troubleshoot virtual server, virtual servers troubleshooting, tips, error, problem, insufficient capacity
 
@@ -47,7 +47,7 @@ If you can't log in to a server through SSH, it might be caused by one of the fo
 
 Remote logins through SSH for root might be disabled in the SSH configuration (_/etc/ssh/sshd_config_) of your server. Use the following instructions to enable SSH for root login.
 
-For security reasons, it is recommended that you don't enable root for remote SSH logins. Instead, create a non-root user for remote SSH login.
+For security reasons, we recommended that you don't enable root for remote SSH logins. Instead, create a nonroot user for remote SSH login.
 {: important} 
 
 1. Log in to KVM IPMI console for your virtual server. 
@@ -90,7 +90,7 @@ SSH port traffic might be blocked by your firewall. For more information, see [A
 ### Security group is blocking SSH traffic
 {: #security-group-blocking-ssh-traffic}
 
-If you use a security group to protect your virtual servers, you need to allow SSH traffic. For more information, [Creating security groups and rules](/docs/security-groups?topic=security-groups-creating-security-groups).
+If you use a security group to protect your virtual servers, you need to allow SSH traffic. For more information, see [Creating security groups and rules](/docs/security-groups?topic=security-groups-creating-security-groups).
 
 ## Why is my server not responding? (server not pinging)
 {: #troubleshoot-vs-device-not-responding}
@@ -124,10 +124,10 @@ The KVM Console opens in a new browser tab or window. If the KVM Console doesn't
 
 If you can't access KVM through your browser, you might need to update your browser and or Java. Update your browser and Java and try to access KVM.
 
-### You haven’t established a VPN connection
+### A VPN connection isn't established
 {: #vpn-connection}
 
-Make sure that a connection is established by using the VPN. If a connection isn't established, a warning displays that a VPN connection is required.
+Make sure that a connection is established by using the VPN. If a connection isn't established, a warning displays that a VPN connection is required. For more information, see [Getting started with IBM Cloud Virtual Private Networking](/docs/iaas-vpn?topic=iaas-vpn-getting-started).
 
 ### Your credentials are invalid
 {: #check-credentials}
@@ -137,7 +137,7 @@ Check that the credentials for the device are valid. Contact the account adminis
 ### You need to install TightVNC viewer
 {: #install-tightVNC-viewer}
 
-If you still can't access KVM, you need to install TightVNC viewer. For more information about installing TightVNC viewer, see [How to connect to KVM console of {{site.data.keyword.BluVirtServers}}](/docs/virtual-servers?topic=virtual-servers-access-kvm-console&mhsrc=ibmsearch_a&mhq=+How+to+connect+to+KVM+console+). 
+If you still can't access KVM, you need to install TightVNC viewer. For more information about installing TightVNC viewer, see [How to connect to {{site.data.keyword.BluVirtServers}} KVM console](/docs/virtual-servers?topic=virtual-servers-access-kvm-console). 
 
 If you still can't access KVM, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
 
@@ -156,7 +156,7 @@ If you can access your server through KVM, but RDP isn't working, it might be ca
 ### RDP traffic is blocked
 {: #blocked-RDP-traffic}
 
-RDP traffic (port 3389) might be blocked by the Windows firewall, firewall, or gateway (Vyatta, AT&T, Juniper, Fortigate). Check that your firewall allows RDP port 3389.
+RDP traffic (port 3389) might be blocked by the Windows firewall, hardware firewall, or gateway (Vyatta, AT&T, Juniper, Fortigate). Check that your firewall allows RDP port 3389.
 
 ### The server has inadequate client access licenses
 {: #inadequate-client-access-licenses}
@@ -168,7 +168,7 @@ RDP might not work because of inadequate client access licenses that are install
 
 If your server has pending Windows updates, install the latest updates, restart the server, and try to access RDP.  
 
-### RDP traffic is block by a security group
+### RDP traffic is blocked by a security group
 {: #security-group-blocking-rdp-traffic}
 
 If you're using a security group, make sure that you allow RDP (port 3389) traffic. For more information, see [Creating security groups and rules](/docs/security-groups?topic=security-groups-creating-security-groups).
@@ -225,7 +225,7 @@ If your portal shows that the server is disconnected, but the server is running,
 ### Firewall or gateway rules are blocking the ping
 {: #firewall-or-gateway-rules-blocking-ping}
 
-If your firewall or gateway (Vyatta, AT&T, Juniper, Fortigate) blocks ping traffic, then the status of your servers shows "disconnected" in the portal. Check that your firewall rules allow ping traffic from {{site.data.keyword.cloud}} IP ranges. For more information, see [{{site.data.keyword.cloud}} IP ranges](docs/security-groups?topic=hardware-firewall-dedicated-ibm-cloud-ip-ranges).
+If your firewall or gateway (Vyatta, AT&T, Juniper, Fortigate) blocks ping traffic, then the status of your servers shows "disconnected" in the portal. Check that your firewall rules allow ping traffic from {{site.data.keyword.cloud}} IP ranges. For more information about IP ranges, see [{{site.data.keyword.cloud}} IP ranges](/docs/cloud-infrastructure?topic=cloud-infrastructure-ibm-cloud-ip-ranges).
 
 ### Security group is blocking the ping
 {: #security-group-blocking-ping}
@@ -287,7 +287,7 @@ You can attempt to provision again by using the following strategies:
 ### How to fix it
 {: #how-to-fix-view-password}
 
-* _Option 1_: Update the firewall to allow the IBM Cloud service IP ranges as described the firewall [documentation](/docs/vsrx?topic=hardware-firewall-shared-ibm-cloud-ip-ranges){: external}. These ranges allow for provisioning, monitoring, and management. Restart the server so the provisioning network to populate the password in the portal.
+* _Option 1_: Update the firewall to allow the IBM Cloud service IP ranges as described in the firewall [documentation](/docs/vsrx?topic=hardware-firewall-shared-ibm-cloud-ip-ranges){: external}. These ranges allow for provisioning, monitoring, and management. Restart the server so the provisioning network to populate the password in the portal.
 * _Option 2_: Bypass the VLAN of the server from the firewall. Then, restart the server to allow provisioning network to populate the password in the portal and then route the VLAN back in the firewall.
 
 ## Why is my virtual server read-only?
@@ -315,4 +315,3 @@ For more help, contact [support](/docs/virtual-servers?topic=virtual-servers-get
 
 Running a file system check might cause data loss, so make sure that your data is backed up.
 {: note}
-
