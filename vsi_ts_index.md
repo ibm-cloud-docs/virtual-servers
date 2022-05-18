@@ -18,4 +18,4 @@ If you have problems or questions, you can get help by searching for information
 
 When you use the forums to ask a question, tag your question so that it is seen by the {{site.data.keyword.Bluemix}} development teams.
 * If you have technical questions about virtual servers, post your question on [Stack Overflow](http://stackoverflow.com/search?q=virtual-servers+ibm-cloud){: external} and tag your question with "ibm-cloud" and "virtual-servers".
-* For questions about the service and getting started instructions, use the [IBM Developer Answers](https://developer.ibm.com/answers/topics/virtual-servers.html){:external} forum. Make sure to include the "virtual servers" and "ibm cloud" tags.
+* For questions about the service and getting started instructions, use the [IBM Developer Answers](https://developer.ibm.com/answers/topics/virtual-servers.html){: external} forum. Make sure to include the "virtual servers" and "ibm cloud" tags.
