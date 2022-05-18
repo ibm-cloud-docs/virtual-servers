@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2014, 2021
+  years: 2014, 2022
 lastupdated: "2021-05-19"
 
 keywords:
@@ -10,8 +10,7 @@ subcollection: virtual-servers
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Managing traffic spikes with schedule-based auto scaling
 {: #managing-schedule-based-auto-scaling}
@@ -60,7 +59,7 @@ In this scenario, the social website is using schedule-based scaling. Two polici
 3. Click **Add Trigger**, and specify a repeating trigger by selecting **Every** in the first drop-down menu, then select **Friday** and **10:00 PM**\* from the subsequent drop-down menus. (With the **Advanced Edit** checkbox, you can enter the trigger frequency in crontab–like notation.)
 4. Click the **Scale By** drop-down box under **Action** and select **Relative**. Enter 2 in the **Members field**.
 5. Click **Add Policy** again to specify the second policy that scales the servers down on Sunday evenings. The cooldown period is the same as the group’s cooldown. The trigger is every Sunday at 1:00 AM*, with a relative scale action of -2.
-6. The time that is entered in the **Triggers** field is based on UTC time, which is why you need to select 10:00 PM for 5:00 PM Central Daylight Time and 1:00 AM for 8:00 PM Central Daylight Time. During Central Standard Time, the times would be 9:00 AM and midnight because UTC or GMT doesn’t acknowledge Daylight Saving Time. See the [World Time Server ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.worldtimeserver.com/current_time_in_UTC.aspx){: new_window} site for a time converter.
+6. The time that is entered in the **Triggers** field is based on UTC time, which is why you need to select 10:00 PM for 5:00 PM Central Daylight Time and 1:00 AM for 8:00 PM Central Daylight Time. During Central Standard Time, the times would be 9:00 AM and midnight because UTC or GMT doesn’t acknowledge Daylight Saving Time. See the [World Time Server](http://www.worldtimeserver.com/current_time_in_UTC.aspx){: external} site for a time converter.
 
 ## Adding a local load balancer
 {: #adding-a-local-load-balancer}
