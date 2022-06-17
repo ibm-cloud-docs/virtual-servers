@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2022-04-15"
+lastupdated: "2022-06-17"
 
 keywords:
 
@@ -20,20 +20,22 @@ subcollection: virtual-servers
 
 If your virtual server is down, use the following steps to bring it back up:
 
-1. Try to power on your server. For more information, see [Power server on or off](/docs/virtual-servers?topic=virtual-servers-managing-virtual-servers#power-on-off){: external}.
-2. If your server does not power on or returns to a down state, you might need to start your server in rescue mode. For more information, see [Starting rescue mode](/docs/virtual-servers?topic=virtual-servers-launching-rescue){: external}.
+1. Try to power on your server. For more information, see [Power server on or off](/docs/virtual-servers?topic=virtual-servers-managing-virtual-servers#power-on-off).
+2. If your server does not power on or returns to a down state, use the following troubleshooting documentation to help diagnose the problem.
+   * [Why can't I log in to a virtual server through SSH?](/docs/virtual-servers?topic=virtual-servers-troubleshooting-virtual-server#troubleshoot-vs-cannot-ssh-into-server)
+   * [Why is my server not responding? ](/docs/virtual-servers?topic=virtual-servers-troubleshooting-virtual-server#troubleshoot-vs-device-not-responding)
+   * [Why does the portal show that my server is disconnected even though it's running?](/docs/virtual-servers?topic=virtual-servers-troubleshooting-virtual-server#troubleshoot-vs-portal-shows-server-disconnected-but-running)
 
 In the rare case that a host failure causes your server to go down, you are notified by IBM Support and your server is migrated to a new host automatically. No action is required. 
 
 For more help, see [Getting help and support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
-
 ## What do I do if my bare metal server is down?
 {: #my-bare-metal-server-is-down-what-should-i-do}
 
 If your bare-metal server is down, check for any alerts from the monitoring software. To get your server up again, use the following steps.
 
-1. Try to power on your server. For more information, see [Power server on or off](/docs/virtual-servers?topic=virtual-servers-managing-virtual-servers#power-on-off){: external}.
-2. If your server does not power on or returns to a down state, you might need to start your server in rescue mode. For more information, see [Rescue mode](/docs/virtual-servers?topic=virtual-servers-launching-rescue){: external}.
+1. Try to power on your server. For more information, see [Power server on or off](/docs/virtual-servers?topic=virtual-servers-managing-virtual-servers#power-on-off).
+2. If your server does not power on or returns to a down state, you might need to start your server in rescue mode. For more information, see [Rescue mode](/docs/virtual-servers?topic=virtual-servers-launching-rescue).
 
 For more help, see [Getting help and support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
 
