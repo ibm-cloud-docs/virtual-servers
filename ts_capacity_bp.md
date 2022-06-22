@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2022-05-03"
+lastupdated: "2022-06-22"
 
 keywords: troubleshoot virtual server, virtual servers troubleshooting, tips, error, problem, insufficient capacity
 
@@ -315,3 +315,50 @@ For more help, contact [support](/docs/virtual-servers?topic=virtual-servers-get
 
 Running a file system check might cause data loss, so make sure that your data is backed up.
 {: note}
+
+## Why does my server have connectivity issues?
+{: #troubleshoot-server-connectivity-issues}
+
+### Why it's happening
+{: #why-server-connectivity}
+
+If your server has connectivity issues, the server might experience packet drops or packet loss and intermittent network connectivity. 
+
+### How to fix it
+{: #how-to-fix-server-connectivity}
+
+When your server faces a connectivity issue, you need to gather the following information if you need to escalate the issue with {{site.data.keyword.cloud}} support. 
+
+* Nongraphical MTR and traceroute from the server to user location.
+* Nongraphical MTR and traceroute from user location to the server.
+* Hundred ping count from the server to user location.
+* Hundred ping count from user location to the server.
+
+#### Linux
+{: #linux-os} 
+
+If your server uses Linux, run the following command to gather the nongraphical MTR information.
+
+`mtr -r -c 100 -n`
+
+To gather the Linux traceroute information, use the following Linux command.
+
+`traceroute`
+
+#### Windows
+{: #windows-os} 
+
+If your server uses Windows, you can use the [WinMTR tool](http://sourceforge.net/projects/winmtr/){: external} to gather the nongraphical MTR and traceroute information.
+
+To gather the Windows traceroute information, run the `tracert` command in the command prompt. Click **Start** > **Run** > **cmd** > click **OK** and type `tracert`. 
+
+### Next steps
+{: #next-steps-mtr-traceroute}
+
+After the tests complete, paste the results into the support case. You can also attach the results as a file or image. 
+
+Make sure that you include the IP address that you are using to connect to the server. 
+
+Disable your firewall, or allow echo and ICMP requests so that server traffic isn't dropped. 
+
+For more help, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
