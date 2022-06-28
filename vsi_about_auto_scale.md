@@ -10,9 +10,7 @@ subcollection: virtual-servers
 
 ---
 
-{:note: .note}
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Auto scale
 {: #about-auto-scale}
