@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2022
 
-lastupdated: "2022-03-30"
+lastupdated: "2022-06-28"
 
 
 keywords: 
@@ -25,11 +25,21 @@ Use the release notes to learn the latest updates to {{site.data.keyword.BluVirt
 
 For information about changes to the {{site.data.keyword.BluVirtServers}} API , see [{{site.data.keyword.BluVirtServers}} API reference overview](/docs/virtual-servers?topic=virtual-servers-api-reference)
 
+## June 2022
+{: #virtual-servers-jun22}
+
+### 27 June 2022
+{: #virtual-servers-jun2722}
+{: release-note}
+
+End of Marketing (EOM) for Autoscale
+:   *End of Marketing (EOM): 30 September 2022* After this date, Autoscale for {{site.data.keyword.BluVirtServers}} is no longer available for purchase.  You can use Auto scale for your virtual servers that are on {{site.data.keyword.vpc_short}}. For more information, see [Creating an instance group for auto scaling](/docs/vpc?topic=vpc-creating-auto-scale-instance-group).
+
 ## June 2021
 {: #virtual-servers-jun21}
 
 ### 08 June 2021
-{: #virtual-servers-jun9821}
+{: #virtual-servers-jun0821}
 {: release-note}
 
 KVM console now available
@@ -127,6 +137,3 @@ Placement groups available on virtual servers
 
 Reserved servers now available
 :   Reserved servers offers guaranteed resources for future deployments and, with one or three year contract terms, offers you cost savings. You can reserve up to 20 virtual server instances of a specific size. Reserved capacity must be provisioned first before other virtual server instances. For more information, see [Reserved virtual servers](/docs/virtual-servers?topic=virtual-servers-about-reserved-virtual-servers).
-
-
-
