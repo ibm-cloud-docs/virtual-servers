@@ -33,7 +33,7 @@ For information about changes to the {{site.data.keyword.BluVirtServers}} API , 
 {: release-note}
 
 End of Marketing (EOM) for Autoscale
-:   *End of Marketing (EOM): 30 September 2022* After this date, Autoscale for {{site.data.keyword.BluVirtServers}} is no longer available for purchase.  You can use Auto scale for your virtual servers that are on {{site.data.keyword.vpc_short}}. For more information, see [Creating an instance group for auto scaling](/docs/vpc?topic=vpc-creating-auto-scale-instance-group).
+:   *End of Marketing (EOM): 30 July 2022* After this date, Autoscale for {{site.data.keyword.BluVirtServers}} is no longer available for purchase.  You can use Auto scale for your virtual servers that are on {{site.data.keyword.vpc_short}}. For more information, see [Creating an instance group for auto scaling](/docs/vpc?topic=vpc-creating-auto-scale-instance-group).
 
 ## June 2021
 {: #virtual-servers-jun21}
