@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2021-09-13"
+lastupdated: "2022-07-12"
 
 keywords: 
 
@@ -398,6 +398,7 @@ Review the following GPU prerequisites.
    - Ubuntu 18
    - Windows 2012 R2
    - Windows 2016
+   - Windows 2022
 
 2. Appropriate NVIDIA drivers and software must be installed. For more information about software and NVIDIA drivers, see [Installing GPU drivers and software packages](/docs/virtual-servers?topic=virtual-servers-installing-gpu-drivers-and-software-packages#installing-gpu-drivers-and-software-packages).  
 
