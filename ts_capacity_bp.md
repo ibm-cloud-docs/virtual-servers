@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2022-06-22"
+lastupdated: "2022-07-13"
 
 keywords: troubleshoot virtual server, virtual servers troubleshooting, tips, error, problem, insufficient capacity
 
@@ -110,19 +110,18 @@ If you can't access your server, you can use the following prechecks to help get
 
 If you are unable to connect to the KVM console, review the following troubleshooting tips for help. For more information about accessing the KVM, see [Accessing the KVM console for virtual servers](/docs/virtual-servers?topic=virtual-servers-access-kvm-console).
 
-* [Browser or Java needs updating](#update-browser-and-java)
+* [Browser needs updating](#update-browser)
 * You haven’t [established a VPN connection](#vpn-connection)
 * Your [credentials are invalid](#check-credentials)
-* You need to [install TightVNC viewer](#install-tightVNC-viewer)
 
-### Browser or Java needs updating
-{: #update-browser-and-java}
+### Browser needs updating
+{: #update-browser}
 
 Make sure that you're using a supported browser. For more information about {{site.data.keyword.cloud}}-supported browsers, see [Browsers](/docs/overview?topic=overview-prereqs-platform#browsers-platform).
 
 The KVM Console opens in a new browser tab or window. If the KVM Console doesn't open, check the browser for any blocked new windows.
 
-If you can't access KVM through your browser, you might need to update your browser and or Java. Update your browser and Java and try to access KVM.
+If you can't access KVM through your browser, you might need to update your browser. Update your browser and try to access KVM.
 
 ### A VPN connection isn't established
 {: #vpn-connection}
@@ -133,13 +132,6 @@ Make sure that a connection is established by using the VPN. If a connection isn
 {: #check-credentials}
 
 Check that the credentials for the device are valid. Contact the account administrator to verify credentials, if necessary.
-
-### You need to install TightVNC viewer
-{: #install-tightVNC-viewer}
-
-If you still can't access KVM, you need to install TightVNC viewer. For more information about installing TightVNC viewer, see [How to connect to {{site.data.keyword.BluVirtServers}} KVM console](/docs/virtual-servers?topic=virtual-servers-access-kvm-console). 
-
-If you still can't access KVM, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
 
 ## Why isn't RDP working?
 {: #troubleshoot-vs-RDP-not-working}
@@ -156,7 +148,7 @@ If you can access your server through KVM, but RDP isn't working, it might be ca
 ### RDP traffic is blocked
 {: #blocked-RDP-traffic}
 
-RDP traffic (port 3389) might be blocked by the Windows firewall, hardware firewall, or gateway (Vyatta, AT&T, Juniper, Fortigate). Check that your firewall allows RDP port 3389.
+RDP traffic (port 3389) might be blocked by the Windows&reg; firewall, hardware firewall, or gateway (Vyatta, AT&T, Juniper, Fortigate). Check that your firewall allows RDP port 3389.
 
 ### The server has inadequate client access licenses
 {: #inadequate-client-access-licenses}
@@ -362,3 +354,16 @@ Make sure that you include the IP address that you are using to connect to the s
 Disable your firewall, or allow echo and ICMP requests so that server traffic isn't dropped. 
 
 For more help, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+
+## Why did my Windows 2022 server fail to provision? (WIP - don't push to prod)
+{: provision-fail-Win2022}
+
+### Why it's happening
+{: why-provision-fail-Win2022}
+
+Provisioning a Windows Server 2022 for dedicated guests can fail because the existing dedicated host’s hypervisor is running older software that isn’t compatible with Windows Server 2022.
+
+### How to fix it
+{: how-to-fix-provision-fail-Win2022}
+
+Create a new dedicated host or contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp) to upgrade your existing dedicated host.
