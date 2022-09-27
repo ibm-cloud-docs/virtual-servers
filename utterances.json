@@ -314,7 +314,6 @@
     "want to do a server reboot",
     "need to reboot a baremetal",
     "need to reboot a server",
-    "assistance in booting my server",
     "help to reboot my VSI server"
   ],
   "how-do-i-use-rescue-mode-": [
@@ -343,20 +342,6 @@
     "Do you have problems in AMS01?",
     "Is there a server outage in dal05",
     "What's the status of FRA02 datacenter"
-  ],
-  "what-is-the-difference-between-boot-from-image-and-load-from-image-": [
-    "Boot vs. Load",
-    "Boot from an ISO image different to load from image",
-    "Booting from an ISO image the same as loading from an image",
-    "Recovering a server",
-    "Recover a server",
-    "what is boot from image",
-    "boot from iso image",
-    "how to boot from ISO",
-    "booting from an ISO image",
-    "what is load from image",
-    "difference between boot from and load from image",
-    "are boot from image and load from image the same"
   ],
   "i-lost-my-password-to-my-server-how-can-i-recover-it-": [
     "Recovering password",
@@ -452,17 +437,6 @@
     "cost of image template",
     "image template storage price",
     "image template cost"
-  ],
-  "how-do-i-boot-my-virtual-server-instance-from-an-image-": [
-    "boot from an ISO image",
-    "booting from image template",
-    "booting from an image",
-    "re-boot from ISO image",
-    "reboot using an image",
-    "use an image to boot my VM",
-    "boot the virtual machine using an image",
-    "boot my VSI from an image",
-    "use an image to boot my virtual server"
   ],
   "how-to-cancel-device": [
     "cancel a device",
