@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2021
-lastupdated: "2021-06-30"
+  years: 2014, 2022
+lastupdated: "2021-09-30"
 
 keywords: auto scale, virtual servers
 
@@ -18,8 +18,8 @@ subcollection: virtual-servers
 Auto scale for {{site.data.keyword.BluVirtServers}} provides you with the ability to automate the manual scaling process that's associated with adding or removing instances to support your business applications. This automation sets up new instances automatically as more resources are needed and then those instances are shut down and removed when the extra load subsides. Auto scale uses groups to contain the policies that change how your environment expands or shrinks. These policies use actions to add or remove virtual server based on your business and application needs. 
 {: shortdesc}
 
-*End of Marketing (EOM): 30 July 2022* After this date, Autoscale for {{site.data.keyword.BluVirtServers}} is no longer available for purchase. You can use Auto scale for your virtual servers that are on {{site.data.keyword.vpc_short}}. For more information, see [Creating an instance group for auto scaling](/docs/vpc?topic=vpc-creating-auto-scale-instance-group).
-{: important}
+*End of Service (EOS): 30 September 2022* After this date, Autoscale for {{site.data.keyword.BluVirtServers}} is no longer supported. Any autoscale schedules that still exist after that date are deleted. You can use Auto scale for your virtual servers that are on {{site.data.keyword.vpc_short}}. For more information, see [Creating an instance group for auto scaling](/docs/vpc?topic=vpc-creating-auto-scale-instance-group).
+{: deprecated}
 
 ## Auto scale features
 {: #auto-scale-features}

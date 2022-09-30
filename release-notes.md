@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2022
 
-lastupdated: "2022-06-29"
+lastupdated: "2022-09-30"
 
 
 keywords: 
@@ -24,6 +24,16 @@ Use the release notes to learn the latest updates to {{site.data.keyword.BluVirt
 {: shortdesc}
 
 For information about changes to the {{site.data.keyword.BluVirtServers}} API , see [{{site.data.keyword.BluVirtServers}} API reference overview](/docs/virtual-servers?topic=virtual-servers-api-reference)
+
+## September 2022
+{: #virtual-servers-sep22}
+
+### 30 September 2022
+{: #virtual-servers-sep3022}
+{: release-note}
+
+End of Service (EOS) for Autoscale
+:   *End of Service (EOS): 30 September 2022* After this date, Autoscale for {{site.data.keyword.BluVirtServers}} is no longer supported. Any autoscale schedules that still exist after that date are deleted. You can use Auto scale for your virtual servers that are on {{site.data.keyword.vpc_short}}. For more information, see [Creating an instance group for auto scaling](/docs/vpc?topic=vpc-creating-auto-scale-instance-group).
 
 ## June 2022
 {: #virtual-servers-jun22}
