@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2022-07-13"
+lastupdated: "2022-11-03"
 
 keywords: troubleshoot virtual server, virtual servers troubleshooting, tips, error, problem, insufficient capacity
 
@@ -99,9 +99,9 @@ If you use a security group to protect your virtual servers, you need to allow S
 
 If you can't access your server, you can use the following prechecks to help get a response.
 
-* Try to access the server through the KVM IPMI console.  
-* If you can't access the server through the KVM IPMI console, then the ping traffic might be blocked by your firewall or gateway (Vyatta, AT&T, Juniper, Fortigate). Ask your administrator to check the firewall rules. For help with setting up firewall rules, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).  
-* If you're using security group, you need to allow ICMP traffic. For more information, see [Creating security groups and rules](/docs/security-groups?topic=security-groups-creating-security-groups).  
+* Try to access the server through the KVM console. For more information, see [Accessing the KVM console for virtual servers](docs/virtual-servers?topic=virtual-servers-access-kvm-console).  
+* If you can't access the server through the KVM console, then the ping traffic might be blocked by your firewall or gateway (Vyatta, AT&T, Juniper, Fortigate). Ask your administrator to check the firewall rules. For help with setting up firewall rules, contact support.   
+* If you're using security group, you need to allow ICMP traffic. For more information, see [Creating security groups and rules](/docs/security-groups?topic=security-groups-creating-security-groups).
 
 ## Why can't I access KVM through a browser?
 {: #troubleshoot-vs-KVM-not-accessible-browser}
@@ -295,7 +295,7 @@ A virtual server might receive a read-only issue because of unplanned networking
 ### How to fix it
 {: #how-to-fix-vs-read-only}
 
-To bring back your server from a read-only status, you need to restart the server to rescue kernel and you need to run a file system check on all your file systems.
+To bring back your server from a read-only status, you need to restart the server to rescue kernel, and you need to run a file system check on all your file systems.
 
 1. From your device list, click the **name of the server** > **Actions menu** > **Rescue kernel**.
 2. When your server restarts in rescue mode, log in to the server by using SSH with the root user credentials.
@@ -354,3 +354,16 @@ Make sure that you include the IP address that you are using to connect to the s
 Disable your firewall, or allow echo and ICMP requests so that server traffic isn't dropped. 
 
 For more help, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+
+## Why did my Windows 2022 server fail to provision? (WIP - don't push to prod)
+{: provision-fail-Win2022}
+
+### Why it's happening
+{: why-provision-fail-Win2022}
+
+Provisioning a Windows Server 2022 for dedicated guests can fail because the existing dedicated host’s hypervisor is running older software that isn’t compatible with Windows Server 2022.
+
+### How to fix it
+{: how-to-fix-provision-fail-Win2022}
+
+Create a new dedicated host or contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp) to upgrade your existing dedicated host.
