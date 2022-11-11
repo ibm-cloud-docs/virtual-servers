@@ -30,7 +30,6 @@ toc:
            - vsi_dedicated.md
            - vsi_dedicated_host.md
            - vsi_dedicated_pricing.md        
-       - vsi_about_auto_scale.md
        - vsi_public_profiles.md
        - vsi_ps_index.md
        - vsi_image_templates_intro.md
@@ -102,12 +101,6 @@ toc:
           - vsi_interact_device_snapshot_view.md
           - add-provisioning-script.md
           - vsi_viewing_suspend.md         
-      - topicgroup: 
-          label: Managing servers with auto scaling
-          topics: 
-          - vsi_auto_scale_permissions.md
-          - vsi_auto_scale_schedule.md
-          - vsi_auto_scale_resource.md
       - topicgroup: 
           label: Managing port speeds
           topics: 
