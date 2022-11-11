@@ -162,7 +162,6 @@ toc:
       - vsi_api.md
       - vsi_provision_api.md
       - vsi_activity_tracker_events.md
-      - vsi_auto_scale_terminology.md
       - vsi_high-availability.md
               
   - navgroup:
@@ -181,7 +180,6 @@ toc:
           - vsi_faqs_reserved.md
           - vsi_faqs_dedicated.md
           - faq_servers_general.md
-          - vsi_faqs_auto_scale.md
           - vsi_faqs_bandwidth_graphs.md
           - image-templates-faqs.md
           - /bare-metal/bare-metal-bm-faq
