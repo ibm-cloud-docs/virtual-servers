@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2022-04-15"
+lastupdated: "2022-11-29"
 
 subcollection: virtual-servers
 
@@ -14,7 +14,7 @@ subcollection: virtual-servers
 # Viewing portable storage  
 {: #view-portable-storage}
 
-Portable storage is an axillary storage disk that you can detach from one virtual server and attach to another. You can connect portable storage disk to virtual server at a time while all information that is stored on the disk is retained for transfer between devices. Portable storage can be purchased and applied to your virtual server at any time.
+Portable storage is an auxillary storage disk that you can detach from one virtual server and attach to another. You can connect portable storage disk to virtual server at a time while all information that is stored on the disk is retained for transfer between devices. Portable storage can be purchased and applied to your virtual server at any time.
 {: shortdesc}
 
 ## Before you begin
