@@ -354,16 +354,3 @@ Make sure that you include the IP address that you are using to connect to the s
 Disable your firewall, or allow echo and ICMP requests so that server traffic isn't dropped.
 
 For more help, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
-
-## Why did my Windows 2022 server fail to provision? (WIP - don't push to prod)
-{: provision-fail-Win2022}
-
-### Why it's happening
-{: why-provision-fail-Win2022}
-
-Provisioning a Windows Server 2022 for dedicated guests can fail because the existing dedicated host’s hypervisor is running older software that isn’t compatible with Windows Server 2022.
-
-### How to fix it
-{: how-to-fix-provision-fail-Win2022}
-
-Create a new dedicated host or contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp) to upgrade your existing dedicated host.
