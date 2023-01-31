@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2022
-lastupdated: "2022-11-03"
+  years: 2017, 2023
+lastupdated: "2023-01-31"
 
 keywords: troubleshoot virtual server, virtual servers troubleshooting, tips, error, problem, insufficient capacity
 
@@ -33,7 +33,7 @@ The following topics cover common difficulties that you might encounter, and off
 ## Why can't I log in to a virtual server through SSH?
 {: #troubleshoot-vs-cannot-ssh-into-server}
 {: troubleshoot}
-{: support} 
+{: support}
 
 If you can't log in to a server through SSH, it might be caused by one of the following reasons.
 
@@ -48,17 +48,17 @@ If you can't log in to a server through SSH, it might be caused by one of the fo
 Remote logins through SSH for root might be disabled in the SSH configuration (_/etc/ssh/sshd_config_) of your server. Use the following instructions to enable SSH for root login.
 
 For security reasons, we recommended that you don't enable root for remote SSH logins. Instead, create a nonroot user for remote SSH login.
-{: important} 
+{: important}
 
-1. Log in to KVM IPMI console for your virtual server. 
-2. As root, edit the _sshd_config_ file in _/etc/ssh/sshd_config_ 
+1. Log in to KVM IPMI console for your virtual server.
+2. As root, edit the _sshd_config_ file in _/etc/ssh/sshd_config_
 
    `nano /etc/ssh/sshd_config`
    {: pre}
-    
+
 3. Add a line in the **Authentication** section of the file that says _PermitRootLogin yes_. This line might exist and be commented out with a "#". In this example, remove the "#".
 
-  
+
    `#LoginGraceTime 2m`
 
    `PermitRootLogin yes`
@@ -69,13 +69,13 @@ For security reasons, we recommended that you don't enable root for remote SSH l
 
    `#MaxSessions 10`
 
-Save the updated /etc/ssh/sshd_config file.    
+Save the updated /etc/ssh/sshd_config file.
 
-Restart sshd service on an Ubuntu or Debian Linux by using the following command:    
-*sudo systemctl restart ssh.service*  
+Restart sshd service on an Ubuntu or Debian Linux by using the following command:
+*sudo systemctl restart ssh.service*
 
-RHEL and CentOS Linux users, run the following command:  
-*sudo systemctl restart sshd.service* 
+RHEL and CentOS Linux users, run the following command:
+*sudo systemctl restart sshd.service*
 
 ### Port not configured for SSH
 {: #port-number-configuration}
@@ -95,12 +95,12 @@ If you use a security group to protect your virtual servers, you need to allow S
 ## Why is my server not responding? (server not pinging)
 {: #troubleshoot-vs-device-not-responding}
 {: troubleshoot}
-{: support} 
+{: support}
 
 If you can't access your server, you can use the following prechecks to help get a response.
 
-* Try to access the server through the KVM console. For more information, see [Accessing the KVM console for virtual servers](docs/virtual-servers?topic=virtual-servers-access-kvm-console).  
-* If you can't access the server through the KVM console, then the ping traffic might be blocked by your firewall or gateway (Vyatta, AT&T, Juniper, Fortigate). Ask your administrator to check the firewall rules. For help with setting up firewall rules, contact support.   
+* Try to access the server through the KVM console. For more information, see [Accessing the KVM console for virtual servers](docs/virtual-servers?topic=virtual-servers-access-kvm-console).
+* If you can't access the server through the KVM console, then the ping traffic might be blocked by your firewall or gateway (Vyatta, AT&T, Juniper, Fortigate). Ask your administrator to check the firewall rules. For help with setting up firewall rules, contact support.
 * If you're using security group, you need to allow ICMP traffic. For more information, see [Creating security groups and rules](/docs/security-groups?topic=security-groups-creating-security-groups).
 
 ## Why can't I access KVM through a browser?
@@ -138,7 +138,7 @@ Check that the credentials for the device are valid. Contact the account adminis
 {: troubleshoot}
 {: support}
 
-If you can access your server through KVM, but RDP isn't working, it might be caused by one of the following reasons. 
+If you can access your server through KVM, but RDP isn't working, it might be caused by one of the following reasons.
 
 * [Blocked RDP traffic](#blocked-RDP-traffic)
 * [Inadequate client access licenses](#inadequate-client-access-licenses)
@@ -158,7 +158,7 @@ RDP might not work because of inadequate client access licenses that are install
 ### The server has pending Windows updates
 {: #pending-windows-updates}
 
-If your server has pending Windows updates, install the latest updates, restart the server, and try to access RDP.  
+If your server has pending Windows updates, install the latest updates, restart the server, and try to access RDP.
 
 ### RDP traffic is blocked by a security group
 {: #security-group-blocking-rdp-traffic}
@@ -170,7 +170,7 @@ If you're using a security group, make sure that you allow RDP (port 3389) traff
 {: troubleshoot}
 {: support}
 
-Public traffic might be blocked by your firewall or gateway (Vyatta, AT&T, Juniper, Fortigate). 
+Public traffic might be blocked by your firewall or gateway (Vyatta, AT&T, Juniper, Fortigate).
 
 If the firewall isn't an issue, check whether the public gateway IP is configured for the public network card and try pinging the public gateway. For more help, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
 
@@ -202,7 +202,7 @@ Check whether you can ping IBM DNS servers (_10.0.80.11_, _10.0.80.12_), if you 
 
 If you have Linux servers, add the following entries in the _/etc/resolv.conf_ file:
 
-`nameserver 10.0.80.11` and `nameserver 10.0.80.12` 
+`nameserver 10.0.80.11` and `nameserver 10.0.80.12`
 
 ## Why does the portal show that my server is disconnected even though it's running?
 {: #troubleshoot-vs-portal-shows-server-disconnected-but-running}
@@ -227,7 +227,7 @@ If you're using a security group, make sure that you allow ping traffic from the
 ## Why is my migration not working?
 {: #troubleshoot-migration-stuck}
 
-If your migration is stuck or didn't complete properly, create a [support case](/docs/get-support?topic=get-support-get-supportfaq#open-support-case) for assistance. 
+If your migration is stuck or didn't complete properly, create a [support case](/docs/get-support?topic=get-support-get-supportfaq#open-support-case) for assistance.
 
 ## Resource considerations for virtual server instances
 {: #capacity-considerations}
@@ -254,7 +254,7 @@ An error occurs when the router or data center has insufficient available resour
 
 You can attempt to provision again by using the following strategies:
 
-* Provision specifying a different router.  
+* Provision specifying a different router.
 * Provision without specifying a router.
 * Provision in a different data center.
 
@@ -285,7 +285,7 @@ You can attempt to provision again by using the following strategies:
 ## Why is my virtual server read-only?
 {: #troubleshoot-vs-why-vs-read-only}
 {: troubleshoot}
-{: support} 
+{: support}
 
 ### Why it's happening
 {: #why-vs-read-only}
@@ -301,9 +301,9 @@ To bring back your server from a read-only status, you need to restart the serve
 2. When your server restarts in rescue mode, log in to the server by using SSH with the root user credentials.
 3. Run a file system check by using the following command:
    `fsck -y -C /dev/xvda1`
-4. Run the same command if you have more files systems such as _/dev/xvda2_, _/dev/xvda3_, and so on. 
+4. Run the same command if you have more files systems such as _/dev/xvda2_, _/dev/xvda3_, and so on.
 
-For more help, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp) or open a support case. 
+For more help, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp) or open a support case.
 
 Running a file system check might cause data loss, so make sure that your data is backed up.
 {: note}
@@ -314,12 +314,12 @@ Running a file system check might cause data loss, so make sure that your data i
 ### Why it's happening
 {: #why-server-connectivity}
 
-If your server has connectivity issues, the server might experience packet drops or packet loss and intermittent network connectivity. 
+If your server has connectivity issues, the server might experience packet drops or packet loss and intermittent network connectivity.
 
 ### How to fix it
 {: #how-to-fix-server-connectivity}
 
-When your server faces a connectivity issue, you need to gather the following information if you need to escalate the issue with {{site.data.keyword.cloud}} support. 
+When your server faces a connectivity issue, you need to gather the following information if you need to escalate the issue with {{site.data.keyword.cloud}} support.
 
 * Nongraphical MTR and traceroute from the server to user location.
 * Nongraphical MTR and traceroute from user location to the server.
@@ -327,7 +327,7 @@ When your server faces a connectivity issue, you need to gather the following in
 * Hundred ping count from user location to the server.
 
 #### Linux
-{: #linux-os} 
+{: #linux-os}
 
 If your server uses Linux, run the following command to gather the nongraphical MTR information.
 
@@ -338,20 +338,20 @@ To gather the Linux traceroute information, use the following Linux command.
 `traceroute`
 
 #### Windows
-{: #windows-os} 
+{: #windows-os}
 
 If your server uses Windows, you can use the [WinMTR tool](http://sourceforge.net/projects/winmtr/){: external} to gather the nongraphical MTR and traceroute information.
 
-To gather the Windows traceroute information, run the `tracert` command in the command prompt. Click **Start** > **Run** > **cmd** > click **OK** and type `tracert`. 
+To gather the Windows traceroute information, run the `tracert` command in the command prompt. Click **Start** > **Run** > **cmd** > click **OK** and type `tracert`.
 
 ### Next steps
 {: #next-steps-mtr-traceroute}
 
-After the tests complete, paste the results into the support case. You can also attach the results as a file or image. 
+After the tests complete, paste the results into the support case. You can also attach the results as a file or image.
 
-Make sure that you include the IP address that you are using to connect to the server. 
+Make sure that you include the IP address that you are using to connect to the server.
 
-Disable your firewall, or allow echo and ICMP requests so that server traffic isn't dropped. 
+Disable your firewall, or allow echo and ICMP requests so that server traffic isn't dropped.
 
 For more help, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
 
