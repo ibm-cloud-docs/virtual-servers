@@ -14,168 +14,160 @@ toc:
     path: virtual-servers
     label: Virtual Servers for Classic
 #  List your getting started tutorial (getting-started.md) as the first item in the Get started nav group. See https://test.cloud.ibm.com/docs/writing?topic=writing-navigation for more details on the toc design.
-  entries: 
-  
-  - navgroup: 
+  entries:
+
+  - navgroup:
       id: learn
       topics:
        - vsi_index.md
        - vsi_about.md
        - vsi_public.md
        - vsi_about_transient.md
-       - vsi_about_reserved.md        
-       - topicgroup: 
+       - vsi_about_reserved.md
+       - topicgroup:
            label: Dedicated virtual servers
-           topics: 
+           topics:
            - vsi_dedicated.md
            - vsi_dedicated_host.md
-           - vsi_dedicated_pricing.md        
+           - vsi_dedicated_pricing.md
        - vsi_public_profiles.md
        - vsi_ps_index.md
        - vsi_image_templates_intro.md
        - vsi_placegroup.md
        - vsi_about_suspend.md
-       - vsi_about_3rd-party.md      
-       - topicgroup: 
+       - vsi_about_3rd-party.md
+       - topicgroup:
            label: Security options
-           topics: 
+           topics:
            - vsi_security_options.md
            - vsi_security_groups.md
            - vsi_ssl_intro.md
-           -  vsi_ssh_intro.md        
-       - storage/vsi_about_storage.md      
-       - topicgroup: 
+           -  vsi_ssh_intro.md
+       - storage/vsi_about_storage.md
+       - topicgroup:
            label: Software options
-           topics: 
+           topics:
            - /bare-metal/bare-metal-about-software
-           - vsi_database_tools.md      
-       - topicgroup: 
+           - vsi_database_tools.md
+       - topicgroup:
            label: Services options
-           topics: 
+           topics:
            - vsi_backup.md
            - vsi_email_intro.md
        - release-notes.md
-   
-  - navgroup: 
-      id: tutorial
-      topics: 
-      - topicgroup:
-          label: Use Virtual Servers to build highly available and scalable web app
-          topics:
-          - /solution-tutorials/solution-tutorials-highly-available-and-scalable-web-application
 
-  - navgroup: 
+  - navgroup:
       id: howto
       topics:
-      - topicgroup: 
+      - topicgroup:
           label: Provisioning
-          topics: 
+          topics:
           - vsi_provision_public.md
           - vsi_provision_transient.md
           - vsi_provision_reserved.md
           - vsi_dedicated_instances.md
           - vsi_provision_dedicated.md
-          - vsi_provision_3rd-party.md    
-      - topicgroup: 
+          - vsi_provision_3rd-party.md
+      - topicgroup:
           label: Configuring
-          topics: 
+          topics:
           - vsi_configuring.md
           - configuring-network-performance.md
           - vsi_reconfigure.md
           - vsi_work_image.md
           - vsi_ssh_config.md
           - configuring-automated-reclaim-notifications.md
-          - how-are-server-ip-addresses-assigned-softlayer-network.md 
+          - how-are-server-ip-addresses-assigned-softlayer-network.md
       - logging-in-to-console.md
-      - vsi_kvm_console_connect.md     
-      - topicgroup: 
+      - vsi_kvm_console_connect.md
+      - topicgroup:
            label: Managing permissions and access
-           topics: 
+           topics:
            - /account/account-mngclassicinfra
            - vsi_device_access.md
            - vsi_managing_password.md
-      - topicgroup: 
+      - topicgroup:
           label: Managing servers
-          topics: 
+          topics:
           - vsi_managing.md
           - vsi_interact_device_snapshot_view.md
           - add-provisioning-script.md
-          - vsi_viewing_suspend.md         
-      - topicgroup: 
+          - vsi_viewing_suspend.md
+      - topicgroup:
           label: Managing port speeds
-          topics: 
+          topics:
           - vsi_managing_port_speeds.md
           - vsi_upgrading_port_speeds_linux.md
           - vsi_upgrading_port_speeds_windows.md
-          - vsi_downgrading_port_speeds.md       
-      - topicgroup: 
+          - vsi_downgrading_port_speeds.md
+      - topicgroup:
           label: Managing security
-          topics: 
+          topics:
           - vsi_managing_sg.md
           links:
             - link:
                 label: Accessing SSL certificates
-                href: /ssl-certificates/ssl-certificates-accessing-ssl-certificates#accessing-ssl-certificates)         
-      - topicgroup: 
+                href: /ssl-certificates/ssl-certificates-accessing-ssl-certificates#accessing-ssl-certificates)
+      - topicgroup:
           label: Managing storage
-          topics: 
+          topics:
           - storage/access-portable-storage-screen.md
           - storage/vsi_view_portable_storage.md
-          - storage/edit-description-portable-storage-volume-psv.md         
-      - topicgroup: 
+          - storage/edit-description-portable-storage-volume-psv.md
+      - topicgroup:
           label: Managing software
-          topics: 
+          topics:
           - /bare-metal/bare-metal-reloading-the-os
           - /bare-metal/bare-metal-reloading-an-os-using-an-image-template
           - /bare-metal/bare-metal-adding-ipv6-to-ubuntu-systems
           - /bare-metal/bare-metal-installing-clamav
           - /bare-metal/bare-metal-notifying-users-of-an-approaching-bandwidth-limitation-in-cpanel-and-whm
           - /bare-metal/bare-metal-updating-an-instance-to-use-a-local-wsus-server
-          - vsi_gpu_nvidia_drivers.md       
+          - vsi_gpu_nvidia_drivers.md
       - vsi_managing_placegroup.md
-      - topicgroup: 
+      - topicgroup:
           label: Migrating
-          topics: 
+          topics:
           - vsi_migrating_dedicated.md
-          - vsi_migrate_classic_dctodc.md         
-      - topicgroup: 
+          - vsi_migrate_classic_dctodc.md
+      - topicgroup:
           label: Monitoring
-          topics: 
+          topics:
           - /cloud-infrastructure/cloud-infrastructure-monitoring-iaas
-          - monitoring-classic-metrics.md          
-      - topicgroup: 
+          - monitoring-classic-metrics.md
+      - topicgroup:
           label:  Backing up and recovering
-          topics: 
+          topics:
           - vsi_launch_rescue.md
           - /bare-metal/bare-metal-restoring-your-server-from-an-r1soft-image
-          - veeam_O365.md          
-      - topicgroup: 
+          - veeam_O365.md
+      - topicgroup:
           label: Related links
-          links: 
+          links:
           - link:
               label: Virtual Machine Network Setup
               href: /virtualization/Virtualization-setting-up-a-virtual-machine-network#setting-up-a-virtual-machine-network
-                                        
+
   - navgroup:
       id: reference
-      topics: 
+      topics:
       - vsi_api.md
       - vsi_provision_api.md
       - vsi_activity_tracker_events.md
       - vsi_high-availability.md
-              
+
   - navgroup:
       id: help
-      topics: 
+      topics:
       - vsi_ts_index.md
       - /bare-metal/bare-metal-understanding-server-status
-      - topicgroup: 
+      - topicgroup:
           label: Troubleshooting
-          topics: 
-          - ts_capacity_bp.md         
-      - topicgroup: 
+          topics:
+          - ts_capacity_bp.md
+      - topicgroup:
           label: FAQs
-          topics: 
+          topics:
           - vsi_faqs_vs.md
           - vsi_faqs_reserved.md
           - vsi_faqs_dedicated.md
@@ -185,5 +177,3 @@ toc:
           - /bare-metal/bare-metal-bm-faq
           - ssh-keys-faq.md
           - monitoring-faq.md
-      
-
