@@ -47,7 +47,7 @@ toc:
        - topicgroup:
            label: Software options
            topics:
-           - /bare-metal/bare-metal-about-software
+           - include: ../bare-metal/about-software.md
            - vsi_database_tools.md
        - topicgroup:
            label: Services options
@@ -83,7 +83,7 @@ toc:
       - topicgroup:
            label: Managing permissions and access
            topics:
-           - /account/account-mngclassicinfra
+           - include: ../account/iam-mnginfra.md 
            - vsi_device_access.md
            - vsi_managing_password.md
       - topicgroup:
@@ -117,12 +117,12 @@ toc:
       - topicgroup:
           label: Managing software
           topics:
-          - /bare-metal/bare-metal-reloading-the-os
-          - /bare-metal/bare-metal-reloading-an-os-using-an-image-template
-          - /bare-metal/bare-metal-adding-ipv6-to-ubuntu-systems
-          - /bare-metal/bare-metal-installing-clamav
-          - /bare-metal/bare-metal-notifying-users-of-an-approaching-bandwidth-limitation-in-cpanel-and-whm
-          - /bare-metal/bare-metal-updating-an-instance-to-use-a-local-wsus-server
+          - include: ../bare-metal/vsi_reload_os.md
+          - include: ../bare-metal/vsi_reload_os_image.md
+          - include: ../bare-metal/adding-ipv6-ubuntu-systems.md
+          - include: ../bare-metal/install-clamav.md
+          - include: ../bare-metal/notify-users-approaching-bandwidth-limitation-cpanelwhm.md
+          - include: ../bare-metal/local-wsus.md
           - vsi_gpu_nvidia_drivers.md
       - vsi_managing_placegroup.md
       - topicgroup:
@@ -133,13 +133,13 @@ toc:
       - topicgroup:
           label: Monitoring
           topics:
-          - /cloud-infrastructure/cloud-infrastructure-monitoring-iaas
+          - include: ../cloud-infrastructure/monitoring-iaas.md
           - monitoring-classic-metrics.md
       - topicgroup:
           label:  Backing up and recovering
           topics:
           - vsi_launch_rescue.md
-          - /bare-metal/bare-metal-restoring-your-server-from-an-r1soft-image
+          - include: ../bare-metal/r1soft-cdp-bare-metal-restore-procedures.md
           - veeam_O365.md
       - topicgroup:
           label: Related links
@@ -160,7 +160,7 @@ toc:
       id: help
       topics:
       - vsi_ts_index.md
-      - /bare-metal/bare-metal-understanding-server-status
+      - include: ../bare-metal/device-status.md
       - topicgroup:
           label: Troubleshooting
           topics:
@@ -174,6 +174,6 @@ toc:
           - faq_servers_general.md
           - vsi_faqs_bandwidth_graphs.md
           - image-templates-faqs.md
-          - /bare-metal/bare-metal-bm-faq
+          - include: ../bare-metal/faq.md
           - ssh-keys-faq.md
           - monitoring-faq.md
