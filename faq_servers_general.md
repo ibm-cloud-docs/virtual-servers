@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017, 2022
+  years: 2017, 2023
 lastupdated: "2022-06-17"
 
 keywords:
@@ -29,6 +29,7 @@ If your virtual server is down, use the following steps to bring it back up:
 In the rare case that a host failure causes your server to go down, you are notified by IBM Support and your server is migrated to a new host automatically. No action is required. 
 
 For more help, see [Getting help and support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+
 ## What do I do if my bare metal server is down?
 {: #my-bare-metal-server-is-down-what-should-i-do}
 
