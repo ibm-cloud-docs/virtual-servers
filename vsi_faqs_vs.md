@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2022
-lastupdated: "2022-04-15"
+  years: 2017, 2023
+lastupdated: "2023-02-15"
 
 subcollection: virtual-servers
 
@@ -10,7 +10,7 @@ subcollection: virtual-servers
 
 {{site.data.keyword.attribute-definition-list}}
 
-# FAQs: Virtual servers  
+# FAQs: Virtual servers
 {: #faqs-virtual-servers}
 
 ## What types of virtual servers are available for use?
@@ -79,7 +79,7 @@ Yes. When you import an image, you can specify that you provide the operating sy
 {: #what-is-the-difference-between-a-virtual-server-and-a-virtual-private-server-vps-}
 {: faq}
 
-A virtual server is similar to the virtual private server (VPS) or virtual dedicated server (VDS) platforms you might already be familiar with. These "virtual server" environments allow for distinct environments to be provisioned privately and securely on a single hardware node, but VDS and VPS are more limited in their capabilities. VPS and VDS options are generally confined to a single-server architecture. The only resources that can be added or divided up between each virtual server on a VDS or VPS are the resources that are physically installed on that single server.
+A virtual server is similar to the virtual private server (VPS) or virtual dedicated server (VDS) platforms that you might already be familiar with. These "virtual server" environments allow for distinct environments to be provisioned privately and securely on a single hardware node, but VDS and VPS are more limited in their capabilities. VPS and VDS options are generally confined to a single-server architecture. The only resources that can be added or divided up between each virtual server on a VDS or VPS are the resources that are physically installed on that single server.
 
 Virtual servers are provisioned on a multi-server cloud architecture that pools all available hardware resources for individual instances to use. Virtual servers can use a shared high-capacity SAN-based primary storage platform or high-performance local disk storage. Because each instance is part of the larger cloud environment, communication between all virtual servers is instantaneous.
 
@@ -129,13 +129,13 @@ For information about viewing or requesting compliance information and SOC repor
 {: #how-long-maintenance}
 {: faq}
 
-The maintenance notification contains an estimated duration for the maintenance window. Keep in mind that the timeframe is an estimate and maintenance tasks might take longer. Make sure that you allow an extra hour past the maintenance window for tasks to complete and for the server to return online. If the server remains offline longer than 2 hours past the estimate, contact [support](https://test.cloud.ibm.com/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+The maintenance notification contains an estimated duration for the maintenance window. Keep in mind that the time frame is an estimate and maintenance tasks might take longer. Make sure that you allow an extra hour past the maintenance window for tasks to complete and for the server to return online. If the server remains offline longer than 2 hours past the estimate, contact [support](https://test.cloud.ibm.com/docs/virtual-servers?topic=virtual-servers-gettinghelp).
 
 ## Why do I need to migrate my virtual server?
 {: #why-migrate-virtual-server}
 {: faq}
 
-Migrations happen for several reasons. The most common reasons are because of host failure and planned migrations due to maintenance. 
+Migrations happen for several reasons. The most common reasons are because of host failure and planned migrations due to maintenance.
 
 ## What happens if I don't perform a manual migrate for maintenance reasons?
 {: #what-happens-ignore-maintenance-migration}
@@ -166,4 +166,52 @@ Your virtual server instance must be configured with the following settings to s
 {: #how-change-os-virtual-server}
 {: faq}
 
-You can perform an OS reload to change the operating system on your virtual server at any time. For more information about OS reloads, see [Reloading the OS](/docs/virtual-servers?topic=bare-metal-reloading-the-os). 
+You can perform an OS reload to change the operating system on your virtual server at any time. For more information about OS reloads, see [Reloading the OS](/docs/virtual-servers?topic=bare-metal-reloading-the-os).
+
+## Why do web pages load slowly on Linux?
+{: #why-web-page-load-slowly-linux}
+{: faq}
+
+Slow loading web pages can be caused by several issues.
+
+- Over-utilization of server resources. Check your monitoring tools to find any potential bottlenecks in server resources.
+- Configuration file limits with Apache, PHP, or SQL. For more information, see [Apache configuration files](https://httpd.apache.org/docs/2.4/configuring.html).
+- Network latency or packet loss.
+   * DoS attack might be targeting services or oversaturating the network.
+
+For more information about troubleshooting Linux network speed issues, see [Using iPerf to Troubleshoot Speed and Throughput Issues](https://www.ibm.com/cloud/blog/using-iperf-to-troubleshoot-speed-and-throughput-issues?mhsrc=ibmsearch_a&mhq=iperf){: external}.
+
+## Why do I have RHEL package issues?
+{: #why-rhel-package-issues}
+{: faq}
+
+If you experience one of the following RHEL package issues, see the possible solutions.
+
+- Can't download new packages for RHEL servers
+- Can't update packages through YUM
+- Can't connect to internal {{site.data.keyword.cloud}} YUM repositories
+
+Possible solutions
+
+   1. Check the connectivity of server with IBM DNS servers.
+      - Verify that the server is using IBM repositories within its /etc/resolv.conf file (10.0.80.11/12).
+      - Test ping DNS server IPS (10.0.80.11 & 10.0.80.12).
+   2. Check whether the private network is pinging. A private network is used for YUM updates and downloads, so IBM repositories need to be connected through a private interface.
+   3. Allow the proper IP ranges for the back-end network through your gateway and or security groups. For more information, see [Red Hat Enterprise Linux server requirements](/docs/cloud-infrastructure?topic=cloud-infrastructure-ibm-cloud-ip-ranges#red-hat-enterprise-linux-server) and [Getting started with IBM security groups](/docs/security-groups?topic=security-groups-getting-started).
+   4. Check your subscription status by using the following commands.
+
+      - `subscription-manager status`
+
+      Expected output
+
+      ```text
+      System Status Details
+      Overall Status: Current
+      ```
+      {: screen}
+
+      - `subscription-manager identity`
+
+      If the registration status is “Unknown”, then you need to register the server. To register your server, open a [support case](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+
+If you need more help, you can [create a case](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
