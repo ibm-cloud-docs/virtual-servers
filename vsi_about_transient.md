@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2022
-lastupdated: "2021-05-19"
+  years: 2017, 2023
+lastupdated: "2023-03-01"
 
 keywords:
 
@@ -15,7 +15,7 @@ subcollection: virtual-servers
 # Transient virtual servers
 {: #about-vs-transient}
 
-The {{site.data.keyword.BluVirtServers}} transient offering is a good option if you have flexible workloads and want cost savings. You save money by running your workload on a transient virtual server. Transient instances are provisioned when unused capacity available is available. Therefore, when data center resources are needed for full, on-demand accounts, you can also lose those resources. Transient instances are de-provisioned on a first-on, first-off basis when those resources need to be reclaimed.   
+The {{site.data.keyword.BluVirtServers}} transient offering is a good option if you have flexible workloads and want cost savings. You save money by running your workload on a transient virtual server. Transient instances are provisioned when unused capacity is available. Therefore, when data center resources are needed for full, on-demand accounts, you can also lose those resources. Transient instances are de-provisioned on a first-on, first-off basis when those resources need to be reclaimed.   
 
 Transient virtual servers offer the following flexibility:
 
@@ -25,7 +25,7 @@ Transient virtual servers offer the following flexibility:
 
 * **Cost savings**
 
-   Transient virtual servers are ideal for non-production workloads. For example, you might use a transient instance to test and develop applications, or test scalability in environments that don't require constant uptime.
+   Transient virtual servers are ideal for nonproduction workloads. For example, you might use a transient instance to test and develop applications, or test scalability in environments that don't require constant uptime.
 
 Transient instances are public instances that use SAN-backed storage. The following families of public instances are available for this offering.
 
@@ -52,9 +52,7 @@ Consider the following limitations before you provision a transient virtual serv
 * Transient instances cannot use local storage.
 * Transient instances cannot use GPU-based or variable compute profiles.
 
-
 ## Next steps
 {: #next-steps-transient-virtual-servers}
 
 After you review and select your virtual server profile, it's time to provision your transient virtual server. To get started, see [Provisioning transient instances](/docs/virtual-servers?topic=virtual-servers-ordering-vs-transient#ordering-vs-transient).
-
