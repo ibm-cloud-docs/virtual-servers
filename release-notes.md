@@ -1,12 +1,12 @@
 ---
 
 copyright:
-  years: 2021, 2022
+  years: 2021, 2023
 
-lastupdated: "2022-09-30"
+lastupdated: "2023-05-15"
 
 
-keywords: 
+keywords:
 
 subcollection: virtual-servers
 
@@ -15,15 +15,25 @@ content-type: release-note
 ---
 
 {{site.data.keyword.attribute-definition-list}}
+{:external: target="_blank" .external}
 {:release-note: data-hd-content-type='release-note'}
 
 # Release notes for {{site.data.keyword.BluVirtServers}} for Classic
 {: #release-notes}
 
-Use the release notes to learn the latest updates to {{site.data.keyword.BluVirtServers}} in the classic infrastructure that are groups by date.
+Use the release notes to learn the latest updates to {{site.data.keyword.BluVirtServers}} in the Classic infrastructure that are grouped by date.
 {: shortdesc}
 
-For information about changes to the {{site.data.keyword.BluVirtServers}} API , see [{{site.data.keyword.BluVirtServers}} API reference overview](/docs/virtual-servers?topic=virtual-servers-api-reference)
+For more information about changes to the {{site.data.keyword.BluVirtServers}} API, see [{{site.data.keyword.BluVirtServers}} API reference overview](/docs/virtual-servers?topic=virtual-servers-api-reference)
+
+## May 2023
+{: #virtual-servers-may2023}
+
+### 15 May 2023
+{: #virtual-servers-may112023}
+
+Red Hat Enterprise Linux 9 (RHEL 9)
+:   IBM Cloud&reg; server software now supports RHEL 9 as an OS option for virtual servers. For more information, see the virtual servers tab in [Supported operating systems for IBM Cloud&reg; server software](/docs/bare-metal?topic=bare-metal-about-software#supported-operating-systems-for-ibm-cloud-servers).
 
 ## September 2022
 {: #virtual-servers-sep22}
@@ -32,8 +42,8 @@ For information about changes to the {{site.data.keyword.BluVirtServers}} API , 
 {: #virtual-servers-sep3022}
 {: release-note}
 
-End of Service (EOS) for Autoscale
-:   *End of Service (EOS): 30 September 2022* After this date, Autoscale for {{site.data.keyword.BluVirtServers}} is no longer supported. Any autoscale schedules that still exist after that date are deleted. You can use Auto scale for your virtual servers that are on {{site.data.keyword.vpc_short}}. For more information, see [Creating an instance group for auto scaling](/docs/vpc?topic=vpc-creating-auto-scale-instance-group).
+End of service (EOS) for Autoscale
+:   *End of service (EOS): 30 September 2022* After this date, Autoscale for {{site.data.keyword.BluVirtServers}} is no longer supported. Any autoscale schedules that still exist after that date are deleted. You can use Auto scale for your virtual servers that are on {{site.data.keyword.vpc_short}}. For more information, see [Creating an instance group for auto scaling](/docs/vpc?topic=vpc-creating-auto-scale-instance-group).
 
 ## June 2022
 {: #virtual-servers-jun22}
@@ -43,7 +53,7 @@ End of Service (EOS) for Autoscale
 {: release-note}
 
 End of Marketing (EOM) for Autoscale
-:   *End of Marketing (EOM): 30 July 2022* After this date, Autoscale for {{site.data.keyword.BluVirtServers}} is no longer available for purchase.  You can use Auto scale for your virtual servers that are on {{site.data.keyword.vpc_short}}. For more information, see [Creating an instance group for auto scaling](/docs/vpc?topic=vpc-creating-auto-scale-instance-group).
+:   *End of Marketing (EOM): 30 July 2022* After this date, Autoscale for {{site.data.keyword.BluVirtServers}} is no longer available for purchase. You can use Auto scale for your virtual servers that are on {{site.data.keyword.vpc_short}}. For more information, see [Creating an instance group for auto scaling](/docs/vpc?topic=vpc-creating-auto-scale-instance-group).
 
 ## June 2021
 {: #virtual-servers-jun21}
@@ -55,7 +65,7 @@ End of Marketing (EOM) for Autoscale
 KVM console now available
 :   You can now access the KVM console of your virtual servers directly from IBM Cloud console. For more information, see [Accessing the KVM console for virtual servers](/docs/virtual-servers?topic=virtual-servers-access-kvm-console).
 
-## July 2020 
+## July 2020
 {: #virtual-servers-jul20}
 
 ### 22 July 2020
@@ -65,7 +75,7 @@ KVM console now available
 IBM Cloud Monitoring
 :   {{site.data.keyword.mon_full}} collects classic infrastructure and VPC virtual server instance metrics such as CPU usage, disk usage, network traffic, and memory. These metrics are stored in {{site.data.keyword.mon_full_notm}}. For more information, see [IBM Cloud Monitoring](/docs/virtual-servers?topic=cloud-infrastructure-monitoring-iaas).
 
-## February 2020 
+## February 2020
 {: #virtual-servers-feb20}
 
 ### 11 February 2020
@@ -73,9 +83,9 @@ IBM Cloud Monitoring
 {: release-note}
 
 Veeam Backup for Microsoft Office 365 is now available
-:   Veeam Backup for Microsoft Office 365 is now available for virtual servers on a monthly basis. For more information about Veeam Backup for Microsoft Office 365, see [Veeam backup for Office 365](/docs/virtual-servers?topic=virtual-servers-veeam-backup-o365).
+:   Veeam Backup for Microsoft Office 365 is now available for virtual servers monthly. For more information about Veeam Backup for Microsoft Office 365, see [Veeam backup for Office 365](/docs/virtual-servers?topic=virtual-servers-veeam-backup-o365).
 
-## September 2019 
+## September 2019
 {: #virtual-servers-sep19}
 
 ### 12 September 2019
@@ -84,10 +94,11 @@ Veeam Backup for Microsoft Office 365 is now available
 
 Improve network performance by configuring jumbo frames
 :   You can improve network performance on your virtual server instance by configuring jumbo frames in your virtual server settings. You can configure jumbo frames for the following operating systems.
-    * Linux: Debian, Ubuntu, CentOS, Red Hat Enterprise Linux
-    * Windows
-    
-## May 2019 
+
+   * Linux: Debian, Ubuntu, CentOS, Red Hat Enterprise Linux
+   * Windows
+
+## May 2019
 {: #virtual-servers-may19}
 
 ### 07 May 2019
@@ -97,7 +108,7 @@ Improve network performance by configuring jumbo frames
 Autoscale now available for virtual servers
 :   Auto scale for {{site.data.keyword.BluVirtServers}} provides you with the ability to automate the manual scaling process that's associated with adding or removing instances to support your business applications. This automation sets up new instances automatically as more resources are needed and then those instances are shut down and removed when the extra load subsides. Auto scale uses groups to contain the policies that change how your environment expands or shrinks. These policies use actions to add or remove virtual server based on your business and application needs. For more information, see [Auto scale](/docs/virtual-servers?topic=virtual-servers-about-auto-scale).
 
-## April 2019 
+## April 2019
 {: #virtual-servers-apr19}
 
 ### 15 April 2019
@@ -121,22 +132,22 @@ New profile families for virtual server
 {: #virtual-servers-oct0318}
 {: release-note}
 
-Provision virtual server using 3rd-party images
-:   You can now provision a virtual server instance from an image that was created by a 3rd party vendor using the IBM Cloud catalog Cloud Images link. To access the link, you must first have your catalog credentials set up with an upgraded account to order virtual servers. For more information, see [Third-party images](/docs/virtual-servers?topic=virtual-servers-about-3rd-party).
+Provision virtual server by using 3rd-party images
+:   You can now provision a virtual server instance from an image that was created by a 3rd party vendor by using the IBM Cloud catalog Cloud Images link. To access the link, you must first have your catalog credentials set up with an upgraded account to order virtual servers. For more information, see [Third-party images](/docs/virtual-servers?topic=virtual-servers-about-3rd-party).
 
 ### 30 October 2018
 {: #virtual-servers-oct3018}
 {: release-note}
 
-View suspended billing feature on your virtual server
-:   You can now view whether your virtual server instance supports the suspend billing feature. For more information, see [Viewing suspend billing feature](/docs/virtual-servers?topic=virtual-servers-viewing-suspend-billing-feature).
+View suspended billing on your virtual server
+:   You can now view whether your virtual server instance supports billing. For more information, see [Viewing suspend billing](/docs/virtual-servers?topic=virtual-servers-viewing-suspend-billing-feature).
 
 ### 31 October 2018
 {: #virtual-servers-oct3118}
 {: release-note}
 
 Placement groups available on virtual servers
-:   With placement groups, you can use public instances to build for high availability within a data center or provide and additional level of fault tolerance within a larger deployment. Each placement group can be assigned a maximum of 5 new virtual server instances. Each virtual server is provisioned on different physical hosts. For more information, see [Placement groups](https://cloud.ibm.com/docs/virtual-servers?topic=virtual-servers-placement-groups).
+:   With placement groups, you can use public instances to build for high availability within a data center or provide and extra level of fault tolerance within a larger deployment. Each placement group can be assigned a maximum of 5 new virtual server instances. Each virtual server is provisioned on different physical hosts. For more information, see [Placement groups](https://cloud.ibm.com/docs/virtual-servers?topic=virtual-servers-placement-groups).
 
 ## September 2018
 {: #virtual-servers-sep18}
@@ -146,4 +157,4 @@ Placement groups available on virtual servers
 {: release-note}
 
 Reserved servers now available
-:   Reserved servers offers guaranteed resources for future deployments and, with one or three year contract terms, offers you cost savings. You can reserve up to 20 virtual server instances of a specific size. Reserved capacity must be provisioned first before other virtual server instances. For more information, see [Reserved virtual servers](/docs/virtual-servers?topic=virtual-servers-about-reserved-virtual-servers).
+:   Reserved servers offer guaranteed resources for future deployments and with one or three year contract terms, offers you cost savings. You can reserve up to 20 virtual server instances of a specific size. Reserved capacity must be provisioned first before other virtual server instances. For more information, see [Reserved virtual servers](/docs/virtual-servers?topic=virtual-servers-about-reserved-virtual-servers).
