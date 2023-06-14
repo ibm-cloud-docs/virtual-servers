@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2023
-lastupdated: "2023-02-15"
+lastupdated: "2023-06-14"
 
 subcollection: virtual-servers
 
@@ -19,7 +19,7 @@ subcollection: virtual-servers
 
 {{site.data.keyword.cloud}} offers a couple types of virtual servers within its Classic Infrastructure. The standard offering is a public-based virtual server, which is a multi-tenant environment that is suitable for various needs. If you're looking for a single-tenant environment, consider the dedicated virtual server offering. The dedicated virtual server option is ideal for applications with more stringent resource requirements. For more information about the current virtual server offerings, see [Getting started with virtual servers](/docs/virtual-servers?topic=virtual-servers-getting-started-tutorial).
 
-{{site.data.keyword.vsi_is_full}} (VPC) is the next generation of virtual servers. You create your own space in the {{site.data.keyword.cloud_notm}} to run an isolated environment within the public cloud by using VPC. {{site.data.keyword.vpc_short}} provides the security of a private cloud with the agility and ease of a public cloud. For more information, see [About Virtual Private Cloud](/docs/vpc-on-classic?topic=vpc-on-classic-about).
+{{site.data.keyword.vsi_is_full}} (VPC) is the next generation of virtual servers. You create your own space in the {{site.data.keyword.cloud_notm}} to run an isolated environment within the public cloud by using VPC. {{site.data.keyword.vpc_short}} provides the security of a private cloud with the agility and ease of a public cloud. For more information, see [About virtual server instances for VPC](/docs/vpc?topic=vpc-about-advanced-virtual-servers).
 
 ## Where can I find pricing information for public instance types?
 {: #where-can-i-find-pricing-information-for-public-instance-types-}
