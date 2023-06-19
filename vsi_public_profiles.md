@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2022
-lastupdated: "2022-07-12"
+  years: 2017, 2023
+lastupdated: "2023-06-19"
 
 keywords: 
 
@@ -69,16 +69,12 @@ The offering is available in the following profiles:
 * SAN primary boot disk (25 or 100 GB) with more disks available, up to 2 TB each (five total disks allowed).
 * Pricing for public virtual servers that use SAN storage includes virtual CPU, memory, and minimum primary boot disk. Extra disk prices depend on the disk size and quantity that you select.  
 
-Balanced profiles (with network-attached storage) are available in all data centers.
-
 All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), databases that are supported, and software add-ons are also available with this offering.
 
 ## Balanced local storage
 {: #balanced-local-storage}
 
 The balanced local storage profiles are primarily for large database workloads that require high I/O performance with low latency. Network performance ranges from standard to premium.
-
-The offering is available in various profiles and data centers, with the following local storage options:
 
 ### Local HDD
 {: #HDD}
@@ -106,42 +102,6 @@ The offering is available in various profiles and data centers, with the followi
 *	Maximum local storage is limited by cores.
 *	Balanced local storage is globally available; however, the type of storage (local SSD or local HDD) depends on the data center location.
 *	You can't detach primary or secondary disks.
-
-The following data centers support balanced local storage virtual servers with local HDD:
-
-| Available Data Centers - Local HDD |
-| ---------------------- |
-| Dallas (DAL01)         |
-| Dallas (DAL05)         |
-| Dallas (DAL06)         |
-| Houston (HOU02)        |
-| San Jose (SJC01)       |
-| Seattle (SEA01)        |
-| Washington, DC (WDC01) |
-{: class="simple-tab-table"}
-{: caption="Table 4. Available data centers (local HDD) - Americas" caption-side="top"}
-{: tab-group="Local-HDD"}
-{: #local-hdd1}
-{: tab-title="Americas"}
-
-| Available Data Centers - Local HDD |
-| ---------------------- |
-| Amsterdam (AMS01)      |
-{: class="simple-tab-table"}
-{: caption="Table 5. Available data centers (local HDD) - Europe" caption-side="top"}
-{: tab-group="Local-HDD"}
-{: #local-hdd2}
-{: tab-title="Europe"}
-
-| Available Data Centers - Local HDD |
-| ---------------------- |
-| Hong Kong (HKG02)      |
-| Singapore (SNG01)      |
-{: class="simple-tab-table"}
-{: caption="Table 6. Available data centers (local HDD) - Asia-Pacific" caption-side="top"}
-{: tab-group="Local-HDD"}
-{: #local-hdd3}
-{: tab-title="Asia-Pacific"}
 
 All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), databases that are supported, and software add-ons are also available with this offering.  
 
@@ -172,46 +132,6 @@ All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and othe
 *	Balanced local storage is globally available; however, the type of storage (local SSD or local HDD) depends on the data center location.
 *	You can't detach primary or secondary disks.
 
-The following data centers support balanced local storage virtual servers with local SSD:
-
-| Available Data Centers - Local SDD |        |
-| ---------------------------------- | ------ |
-| Dallas (DAL09)                     | Dallas (DAL10)         |
-| Dallas (DAL12)                     | Dallas (DAL13)         |
-| Queretaro (MEX01)                  | Montreal (MON01)       |
-| Sao Paulo (SAO01)                  | San Jose (SJC03)       |
-| San Jose (SJC04)                   | Toronto (TOR01)        |
-| Washington, DC (WDC04)             | Washington, DC (WDC06) |
-| Washington, DC (WDC07)             |                        |
-{: class="simple-tab-table"}
-{: caption="Table 8. Available data centers (local SDD) - Americas" caption-side="top"}
-{: tab-group="Local-SDD"}
-{: #local-sdd1}
-{: tab-title="Americas"}
-
-| Available Data Centers - Local SDD |       |
-| ---------------------------------- | ----- |
-| Amsterdam (AMS03)                  | Frankfurt (FRA02) |
-| London (LON02)                     | London (LON04)    |
-| London (LON06)                     | Milan (MIL01)     |
-| Oslo (OSL01)                       | Paris (PAR01)     |
-{: class="simple-tab-table"}
-{: caption="Table 9. Available data centers (local SDD) - Europe" caption-side="top"}
-{: tab-group="Local-SDD"}
-{: #local-sdd2}
-{: tab-title="Europe"}
-
-| Available Data Centers - Local SDD |       |
-| ---------------------------------- | ----- |
-| Chennai (CHE01)                    | Melbourne (MEL01) |
-| Seoul (SEO01)                      | Sydney (SYD01)    |
-| Sydney (SYD04)                     | Tokyo (TOK02)     |
-{: class="simple-tab-table"}
-{: caption="Table 10. Available data centers (local SDD) - Asia-Pacific" caption-side="top"}
-{: tab-group="Local-SDD"}
-{: #local-sdd3}
-{: tab-title="Asia-Pacific"}
-
 All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), databases that are supported, and software add-ons are also available with this offering.
 
 ## Variable compute
@@ -233,8 +153,6 @@ The offering is available in the following profiles:
 
 * SAN primary boot disk (25 or 100 GB) with an extra disk available, up to 2 TB. You can add one extra secondary disk to your variable compute instance.
 * Pricing for public virtual servers that use SAN storage includes virtual CPU, memory, and minimum primary boot disk. Extra disk prices depend on the disk size and quantity that you select.  
-
-Variable compute profiles are available in all data centers.
 
 Supported operating systems (such as RHEL, CentOS, Ubuntu, and others), databases that are supported, and software add-ons are also available with this offering.
 
@@ -260,8 +178,6 @@ The offering is available in the following profiles:
 
 * SAN primary boot disk (25 or 100 GB) with extra disks available, up to 2 TB each (five total disks allowed).
 * Pricing for public virtual servers that use SAN storage includes virtual CPU, memory, and minimum primary boot disk. Extra disk prices depend on the disk size and quantity that you select.  
-
-Compute profiles are available in all data centers.
 
 All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), databases that are supported, and software add-ons are also available with this offering.
 
@@ -291,8 +207,6 @@ The offering is available in the following profiles:
 * SAN primary boot disk (25 or 100 GB) with extra disks available, up to 2 TB each (five total disks allowed).
 * Pricing for public virtual servers that use SAN storage includes virtual CPU, memory, and minimum primary boot disk. Extra disk prices depend on the disk size and quantity that you select.  
 
-Memory profiles are available in all data centers.
-
 All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), databases that are supported, and software add-ons are also available with this offering.
 
 ## GPU
@@ -310,39 +224,6 @@ Powered by NVDIA Tesla GPUs, {{site.data.keyword.cloud_notm}} Accelerated Comput
 |ac1.16x120x100|2 P100|32|16|120|Local SSD or SAN|100|None (SAN), 600 (Local)|
 {: caption="Table 14. P100 GPU profiles" caption-side="top"}
 
-The following data centers support P100 GPU profiles:
-
-| Available Data Centers - P100 GPUs |
-| ----------------------  |
-| Dallas (DAL13)          |
-| Washington , DC (WDC07) |
-{: class="simple-tab-table"}
-{: caption="Table 15. Available data centers (P100 GPUs) - Americas" caption-side="top"}
-{: tab-group="P100 GPUs"}
-{: #local-p100_1}
-{: tab-title="Americas"}
-
-| Available Data Centers - P100 GPUs |
-| ---------------------- |
-| Frankfurt (FRA02)      |
-| London (LON04)         |
-| London (LON06)         |
-{: class="simple-tab-table"}
-{: caption="Table 16. Available data centers (P100 GPUs) - Europe" caption-side="top"}
-{: tab-group="P100 GPUs"}
-{: #local-p100_2}
-{: tab-title="Europe"}
-
-| Available Data Centers - P100 GPUs |
-| ---------------------- |
-| Tokyo (TOK02)          |
-| Sydney (SYD04)         |
-{: class="simple-tab-table"}
-{: caption="Table 17. Available data centers (P100 GPUs) - Asia-Pacific" caption-side="top"}
-{: tab-group="P100 GPUs"}
-{: #local-p100_3}
-{: tab-title="Asia-Pacific"}
-
 |Profile|GPU|GPU RAM (GB)|vCPU|vCPU RAM (GB)|Storage Type|Boot Disk (GB)|Secondary Disks (2 and 3) (GB)|
 |---|---|---|---|---|---|---|---|
 |ac2.8x60x25|1 V100|16|8|60|Block (SAN)|25|None|
@@ -351,46 +232,12 @@ The following data centers support P100 GPU profiles:
 |ac2.16x120x100|2 V100|32|16|120|Local SSD or SAN|100|None (SAN), 600 (Local)|
 {: caption="Table 18. V100 GPU profiles" caption-side="top"}
 
-You can also choose V100 GPUs. The following data centers support V100 GPU profiles:
-
-| Available Data Centers - V100 GPUs |
-| ----------------------  |
-| Dallas (DAL10)          |
-| Dallas (DAL12)          |
-| Washington , DC (WDC07) |
-{: class="simple-tab-table"}
-{: caption="Table 19. Available data centers (V100 GPUs) - Americas" caption-side="top"}
-{: tab-group="V100 GPUs"}
-{: #local-v100_1}
-{: tab-title="Americas"}
-
-| Available Data Centers - V100 GPUs |
-| ---------------------- |
-| Frankfurt (FRA02)      |  
-| London (LON04)         |
-{: class="simple-tab-table"}
-{: caption="Table 20. Available data centers (V100 GPUs) - Europe" caption-side="top"}
-{: tab-group="V100 GPUs"}
-{: #local-v100_2}
-{: tab-title="Europe"}
-
-| Available Data Centers - V100 GPUs |
-| ---------------------- |
-| Tokyo (TOK02)          |
-| Sydney (SYD04)         |
-{: class="simple-tab-table"}
-{: caption="Table 21. Available data centers (V100 GPUs) - Asia-Pacific" caption-side="top"}
-{: tab-group="V100 GPUs"}
-{: #local-v100_3}
-{: tab-title="Asia-Pacific"}
-
 ### GPU prerequisites
 {: #gpu-prerequisites}
 
 Review the following GPU prerequisites.
 
 1. GPU profile virtual servers are available only on an operating system that supports Hardware Virtual Machine (HVM) boot mode. See the following list for operating systems that support HVM boot mode.  
-   - CentOS 7
    - Debian 8
    - Debian 9
    - RHEL 7
