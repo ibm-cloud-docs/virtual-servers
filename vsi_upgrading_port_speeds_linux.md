@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2022
-lastupdated: "2022-04-15"
+  years: 2014, 2023
+lastupdated: "2023-06-19"
 
 keywords: Upgrading port speed in Linux
 
@@ -15,10 +15,10 @@ subcollection: virtual-servers
 # Upgrading port speed in Linux
 {: #upgrading-port-speed-in-linux}
 
-The default port speed for customer servers (for both public and private networks) is 10 Mbps. If you want to upgrade either of your port speeds to 100 Mbps or 1000 Mbps, open a support case with the Sales department. You need to approve the monthly charge before a technician changes the port speed limits on the network.
+Use the following information to update your port speed in Linux.
+{: shortdesc}
 
-These commands affect the connectivity of your server. Always manage network connections by first connecting to the IP that you are NOT working on.
-{: tip}
+The following commands affect the connectivity of your server. Always manage network connections by first connecting to the IP that you are not working on.
 
 You can check the current speed of your connection by running the following commands:
 
