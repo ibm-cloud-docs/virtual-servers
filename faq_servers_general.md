@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2023
-lastupdated: "2023-03-21"
+lastupdated: "2023-07-12"
 
 keywords:
 
@@ -12,7 +12,7 @@ subcollection: virtual-servers
 
 {{site.data.keyword.attribute-definition-list}}
 
-# FAQs: Servers (general)
+# FAQ: Servers (general)
 {: #faqs-servers-general-}
 
 ## My virtual server is down. What do I do?
@@ -20,33 +20,33 @@ subcollection: virtual-servers
 
 If your virtual server is down, use the following steps to bring it back up:
 
-1. Try to power on your server. For more information, see [Power server on or off](/docs/virtual-servers?topic=virtual-servers-managing-virtual-servers#power-on-off).
-2. If your server does not power on or returns to a down state, use the following troubleshooting documentation to help diagnose the problem.
-   * [Why can't I log in to a virtual server through SSH?](/docs/virtual-servers?topic=virtual-servers-troubleshooting-virtual-server#troubleshoot-vs-cannot-ssh-into-server)
-   * [Why is my server not responding? ](/docs/virtual-servers?topic=virtual-servers-troubleshooting-virtual-server#troubleshoot-vs-device-not-responding)
-   * [Why does the portal show that my server is disconnected even though it's running?](/docs/virtual-servers?topic=virtual-servers-troubleshooting-virtual-server#troubleshoot-vs-portal-shows-server-disconnected-but-running)
+1. Try to access the server by using the [KVM console](/docs/virtual-servers?topic=virtual-servers-access-kvm-console). Depending on the output, you might need to create a [support case](/docs/virtual-servers?topic=virtual-servers-gettinghelp). 
+2. Try to power your server off and on. For more information, see [Powering server on or off](/docs/virtual-servers?topic=virtual-servers-managing-virtual-servers#power-on-off) or [Rebooting a device](/docs/virtual-servers?topic=virtual-servers-managing-virtual-servers#reboot).
 
-In the rare case that a host failure causes your server to go down, you are notified by IBM Support and your server is migrated to a new host automatically. No action is required. 
+   * [Why can't I log in to a virtual server through SSH?](/docs/virtual-servers?topic=virtual-servers-troubleshooting-virtual-server#troubleshoot-vs-cannot-ssh-into-server)
+   * [Why is my server not responding?](/docs/virtual-servers?topic=virtual-servers-troubleshooting-virtual-server#troubleshoot-vs-device-not-responding)
+   * [Why does the portal show that my server is disconnected even though it's running?](/docs/virtual-servers?topic=virtual-servers-troubleshooting-virtual-server#troubleshoot-vs-portal-shows-server-disconnected-but-running)
 
 For more help, see [Getting help and support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
 
 ## What do I do if my bare metal server is down?
 {: #my-bare-metal-server-is-down-what-should-i-do}
 
-If your bare-metal server is down, check for any alerts from the monitoring software. To get your server up again, use the following steps.
+If your bare metal server is down, use the following steps.
 
-1. Try to power on your server. For more information, see [Power server on or off](/docs/virtual-servers?topic=virtual-servers-managing-virtual-servers#power-on-off).
-2. If your server does not power on or returns to a down state, you might need to start your server in rescue mode. For more information, see [Rescue mode](/docs/virtual-servers?topic=virtual-servers-launching-rescue).
+1. Remotely access the server by using [IPMI](/docs/bare-metal?topic=bare-metal-bm-faq#how-do-i-use-ipmi). Depending on the output, you might need to create a [support case](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+
+If your server does not power on, you might need to start your server in rescue mode. For more information, see [Rescue mode](/docs/virtual-servers?topic=virtual-servers-launching-rescue)
 
 For more help, see [Getting help and support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
 
-## What is the difference between "Boot from Image" and "Load from Image"?
+## What is the difference between "Boot from image" and "Load from image"?
 {: #what-is-the-difference-between-boot-from-image-and-load-from-image-}
 
-*Boot from Image* and *Load from Image* both use existing image templates, which are applied to a device to either replace or  supplement the existing operating system to help remedy an existing issue. The main difference between the Boot and Load process is the type of image that is used. When either the Boot or Load from Image process is used, make sure that all data that you might want to recover is backed up.
+*Boot from image* and *Load from image* both use image templates, which are applied to a device to either replace or supplement the existing operating system to help remedy an existing issue. The main difference between the Boot and Load process is the type of image that is used. When either the boot or load from image process is used, make sure that you back up all data that you might want to recover.
 
-* *Boot from Image* starts a device by using an ISO supplied by {{site.data.keyword.BluSoftlayer_full}} for system recovery or an ISO that was uploaded by using the *Import Image* feature in the {{site.data.keyword.cloud_notm}} console. The ISO might be a clean version of the device operating system or a recovery disk that is used in an attempt to remedy an issue with the device.
-* *Load from Image* is a method of OS reload that uses an image template that was either captured from a device or uploaded by using the *Image Import* feature in the {{site.data.keyword.cloud_notm}} console. *Load from Image* uses a VHD that wipes the device of all data and replaces the existing operating system and files with a "like new" version of the selected image.
+* *Boot from image* starts a device by using an ISO supplied by {{site.data.keyword.BluSoftlayer_full}} for system recovery or an ISO that was uploaded by using the *Import image* feature in the {{site.data.keyword.cloud_notm}} console. The ISO might be a clean version of the device operating system or a recovery disk that is used in an attempt to remedy an issue with the device.
+* *Load from image* is a method of OS reload that uses an image template that was either captured from a device or uploaded by using the *Image import* feature in the {{site.data.keyword.cloud_notm}} console. *Load from image* uses a VHD that wipes the device of all data and replaces the existing operating system and files with a "like new" version of the selected image.
 
 ## I lost my password to my server. How can I recover it?
 {: #i-lost-my-password-to-my-server-how-can-i-recover-it-}
@@ -74,6 +74,7 @@ LVM (Logical Volume Management) provides logical management of Linux file system
 {: #preconfigured-161-26-0-0-16-routes-on-customer-hosts}
 
 {{site.data.keyword.BluSoftlayer_notm}} is enabling a new route on all newly provisioned servers to support future products.
+
 * The route points any address in the 161.26.0.0/16 range (161.26.0.0 255.255.0.0 | 161.26.0.0 -161.26.255.255) to the back-end private network.
 * This IP block is assigned to {{site.data.keyword.BluSoftlayer_notm}} by IANA and isn't advertised on the public internet.
 * Only {{site.data.keyword.BluSoftlayer_notm}} systems are addressed out of this space.
@@ -86,10 +87,10 @@ Use the following table for OS-specific routing information.
 
 | Operating system | Steps |
 |-----|-----|
-| CentOS | Create a new route by editing or creating the following file: `/etc/sysconfig/network-scripts/route-eth0` Replace 10.0.0.1 with your private gateway IP address. After you create that file, you must add the following information: _161.26.0.0/16 via 10.0.0.1_ |
-| Debian | In the `/etc/network/interfaces` file, add the following line at the end of the file: `up route add -net 161.26.0.0/16 gw 10.0.0.1` Replace 10.0.0.1 with your private gateway IP address. | 
+| CentOS | Create route by editing or creating the following file: `/etc/sysconfig/network-scripts/route-eth0` Replace 10.0.0.1 with your private gateway IP address. After you create that file, you must add the following information: _161.26.0.0/16 through 10.0.0.1 |
+| Debian | In the `/etc/network/interfaces` file, add the following line at the end of the file: `up route add -net 161.26.0.0/16 gw 10.0.0.1` Replace 10.0.0.1 with your private gateway IP address. |
 | Microsoft Windows |  Add the persistent route from the command line by entering the following address: `route add 161.26.0.0 mask 255.255.0.0 10.0.0.1 -p` Replace 10.0.0.1 with your private gateway IP address. |
-| Red Hat | Create a new route by editing or creating the following file: `/etc/sysconfig/network-scripts/route-eth0` Replace 10.0.0.1 with your private gateway IP address. After you create that file, you must add the following information: _161.26.0.0/16 via 10.0.0.1_ |
+| Red Hat | Create a route by editing or creating the following file: `/etc/sysconfig/network-scripts/route-eth0` Replace 10.0.0.1 with your private gateway IP address. After you create that file, you must add the following information: _161.26.0.0/16 through 10.0.0.1 |
 | Ubuntu | In the `/etc/network/interfaces` file, add the following line at the end of the file: `up route add -net 161.26.0.0/16 gw 10.0.0.1` Replace 10.0.0.1 with your private gateway IP address. |
 | VMWare ESXi| Use the following command to add the route to the ESXi host: `esxcfg-route -a 161.26.0.0/16 10.0.0.1`. Replace 10.0.0.1 with your private gateway IP address. |
 {: caption="Table 1. OS-specific routing information" caption-side="top"}
@@ -104,7 +105,7 @@ You can update against a local cvsup mirror that was run for you. Make sure that
 ```
 {: pre }
 
-The distfiles are also mirrored and available from www.freebsd.org. You can add the following line into your */etc/make.conf* file to attempt to download from the local repository.
+The distfiles are also mirrored and available from [The FreeBSD Project](www.freebsd.org). You can add the following line into your */etc/make.conf* file to attempt to download from the local repository.
 
 ```text
 MASTER_SITE_OVERRIDE?="http://mirrors.service.softlayer.com/freebsd/distfiles/${DIST_SUBDIR}/"
