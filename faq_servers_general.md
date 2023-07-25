@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2023
-lastupdated: "2023-07-12"
+lastupdated: "2023-07-25"
 
 keywords:
 
@@ -39,6 +39,15 @@ If your bare metal server is down, use the following steps.
 If your server does not power on, you might need to start your server in rescue mode. For more information, see [Rescue mode](/docs/virtual-servers?topic=virtual-servers-launching-rescue)
 
 For more help, see [Getting help and support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+
+## Why does my server status show "disconnected"?
+{: #server-status-shows-disconnected}
+
+If your server status shows "disconnected", it might mean that the network monitoring service can't ping your device. Your server might be disconnected for several reasons - such as a network configuration, firewall, or a hardware issue.
+
+For more information about monitoring, see [Basic Monitoring](/docs/cloud-infrastructure?topic=cloud-infrastructure-monitoring-iaas#basic-monitoring).
+
+If you need more help, see [Getting help and support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
 
 ## What is the difference between "Boot from image" and "Load from image"?
 {: #what-is-the-difference-between-boot-from-image-and-load-from-image-}
