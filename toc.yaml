@@ -134,7 +134,6 @@ toc:
           label: Monitoring
           topics:
           - include: ../cloud-infrastructure/monitoring-iaas.md
-          - monitoring-classic-metrics.md
       - topicgroup:
           label:  Backing up and recovering
           topics:
