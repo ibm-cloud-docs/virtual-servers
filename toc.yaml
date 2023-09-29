@@ -163,7 +163,18 @@ toc:
       - topicgroup:
           label: Troubleshooting
           topics:
-          - ts_capacity_bp.md
+          - vsi_troubleshooting_virtualserver_readonly.md
+          - vsi_troubleshooting_unable_to_view_password.md
+          - vsi_troubleshooting_server_connectivity_issues.md
+          - vsi_troubleshooting_server_capacity.md
+          - vsi_troubleshooting_cannot_login_SSH.md
+          - vsi_troubleshooting_server_disconnected.md
+          - vsi_troubleshooting_internet_disconnected.md
+          - vsi_troubleshooting_connect_public_IP.md
+          - vsi_troubleshooting_vs_not_responding.md
+          - vsi_troubleshooting_vs_stuck_provisioning.md
+          - vsi_troubleshooting_KVM_not_accessible.md
+          - vsi_troubleshooting_RDP_not_working.md
       - topicgroup:
           label: FAQs
           topics:
