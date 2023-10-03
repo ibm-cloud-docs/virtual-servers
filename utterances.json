@@ -8,7 +8,6 @@
     "Server is not accessible",
     "not able to access the server",
     "cant connect to VM",
-    "can not connect to the server via remote desktop connection",
     "virtual server stopped",
     "no connection to virtual server instance",
     "My VSI stopped",
@@ -16,7 +15,6 @@
     "can't access my virtual server",
     "can't access servers",
     "can't connect to my virtual server",
-    "can not get my VSI up",
     "my virtual server is down",
     "Cannot connect to my server",
     "servers down for multiple hours",
@@ -36,14 +34,14 @@
     "VSI down",
     "unable to access server",
     "server unreachable",
-    "not able to view my servers",
     "unable to access servers",
     "we can't access our server",
     "issues to access the server",
     "can't access our server",
     "unable to power on Virtual Server",
     "problem of bring up the server",
-    "unable to connect to virtual server"
+    "unable to connect to virtual server",
+    "server is not working"
   ],
   "my-bare-metal-server-is-down-what-should-i-do": [
     "cannot connect to bare metal server",
@@ -97,8 +95,6 @@
     "Virtual public instance pricing",
     "Virtual public instance cost",
     "How much for a virtual public instance",
-    "how to create a free virtual machine",
-    "how to create a free server",
     "how much it cost to make virtual server",
     "setup free tier of VM",
     "get a server for free",
@@ -109,7 +105,6 @@
     "link for VM pricing",
     "server pricing",
     "would like a quote for a new server",
-    "create a free vm",
     "cost info for public virtual server instance",
     "price of virtual public instances",
     "virtual server prices",
@@ -151,18 +146,6 @@
     "bandwidth charges for outbound traffic",
     "how is bandwidth charged"
   ],
-  "in-what-cases-is-my-virtual-server-migrated-to-a-different-host-": [
-    "How does IBM handle maintenance for servers",
-    "how does maintenance impact my VSI",
-    "maintenance impacts my server",
-    "happens to servers during maintenance",
-    "server maintenance",
-    "virtual server down for maintenance",
-    "maintenance for virtual servers",
-    "maintenance for a virtual server",
-    "maintenance on my virtual machine",
-    "how maintenance affects my virtual server"
-  ],
   "can-i-use-a-red-hat-cloud-access-subscription-to-create-a-virtual-server-": [
     "Using Red Hat Cloud Access to create a virtual server",
     "Red Hat to create a virtual server",
@@ -176,8 +159,8 @@
     "use red hat cloud access to get a virtual server"
   ],
   "why-do-i-receive-a-capacity-error-when-provisioning-a-virtual-server-": [
-    "Insufficent capacity to complete the request",
-    "Insuffienent resources when provisioning",
+    "Insufficient capacity to complete the request",
+    "insufficient resources when provisioning",
     "insufficient capacity to complete the request",
     "getting a capacity error",
     "There is insufficient capacity to complete the request",
@@ -248,7 +231,7 @@
     "Restarting my virtual server",
     "PLEASE REBOOT OUR SERVER",
     "CAN YOU PLEASE RESTART OUR SERVER",
-    "WE SHUTDOWN OUR CLOUD SERVER , CAN YOU RESTART IT",
+    "WE SHUTDOWN OUR CLOUD SERVER, CAN YOU RESTART IT",
     "reboot our server, we shut it down",
     "restart the virtual machine",
     "restarting VSI",
@@ -325,25 +308,6 @@
     "forgot the root password",
     "new password for my server"
   ],
-  "projected-usage-doesnt-match-graphs": [
-    "Estimated usage",
-    "Projecting network usage",
-    "What is the projected usage",
-    "why is the project usage different",
-    "how do I see the bandwidth usage of my server",
-    "see the usage of my server",
-    "want to know about total bandwidth of my server",
-    "bandwidth usage of my server",
-    "view the server bandwidth usage",
-    "where can i see our bandwidth usage",
-    "find my bandwidth usage",
-    "find my bandwidth usage on my invoice",
-    "find the bandwith usage",
-    "view the bandwidth that is be used by our servers",
-    "bandwidth used",
-    "view the projected server usage",
-    "is the usage data an estimate"
-  ],
   "difference-between-monthy-and-billing-bandwidth-data": [
     "Monthly bandwidth",
     "Monthly billing vs billing bandwidth",
@@ -379,21 +343,6 @@
     "create an image template for my server",
     "image template creation",
     "make an image template for complete server"
-  ],
-  "how-much-does-it-cost": [
-    "how much is image template storage",
-    "price for image template storage",
-    "Image Template Storage Usage",
-    "price for image template storage",
-    "cost for image template storage",
-    "know the price for image template storage",
-    "what is image template storage usage",
-    "how much for image template storage",
-    "image template storage usage",
-    "image template storage costs",
-    "cost of image template",
-    "image template storage price",
-    "image template cost"
   ],
   "how-to-cancel-device": [
     "server cancellation request",
@@ -442,7 +391,7 @@
     "upgrade my current server",
     "resizing my server",
     "how can i upgrade my server",
-    "uprade my server"
+    "upgrade my server"
   ],
   "how-do-i-install-monitoring": [
     "trying to create a sysdig monitoring instance",
@@ -479,7 +428,7 @@
     "how much is Monitoring",
     "Lite plan for systig"
   ],
-  "troubleshoot-vs-cannot-ssh-into-server": [
+  "vsi-troubleshoot-vs-cannot-ssh-into-server": [
     "I cannot connect to my server via ssh",
     "How to ssh virtual server",
     "I could not access my device via SSH",
@@ -493,7 +442,7 @@
     "my server is not working i am trying to login with ssh",
     "login to my server using ssh"
   ],
-  "troubleshoot-vs-device-not-responding": [
+  "vsi-troubleshoot-vs-device-not-responding": [
     "the server just stopped responding",
     "the server is not responding",
     "live server is not responding please we need assistance",
@@ -506,12 +455,10 @@
     "server is unreachable I can't ping it",
     "unable to ping server"
   ],
-  "troubleshoot-vs-KVM-not-accessible-browser": [
+  "vsi-troubleshoot-vs-KVM-not-accessible-browser": [
     "Connecting to KVM console issue",
     "KVM Java applet error",
     "how to access using the kvm",
-    "Java applications are blocked by your security settings",
-    "Missing required Permissions manifest in main.jar",
     "unable to connect to the KVM console",
     "issue with KVM connection",
     "can't get a connection to my KVM",
@@ -534,7 +481,7 @@
     "cannot connect to kvm console",
     "kvm console"
   ],
-  "troubleshoot-vs-RDP-not-working": [
+  "vsi-troubleshoot-vs-RDP-not-working": [
     "access to virtual server with RDP",
     "I cannot RDP server",
     "I cant connect to my server RDP",
@@ -548,7 +495,7 @@
     "remote connect to my server",
     "how to connect to virtual server remotely"
   ],
-  "troubleshoot-vs-cannot-connect-public-ip": [
+  "vsi-troubleshoot-vs-cannot-connect-public-ip": [
     "I have some trouble with the public network interface",
     "public interface doesn't show up",
     "enable public IP of VM",
@@ -556,7 +503,7 @@
     "unable to connect through public IP address",
     "My public ip is disabled"    
   ],
-  "troubleshoot-vs-internet-disconnected": [
+  "vsi-troubleshoot-vs-internet-disconnected": [
     "Why is the internet disconnected",
     "but I don't have access internet access",
     "network blocked internet access",
@@ -566,7 +513,7 @@
     "access the internet on Microsoft windows server",
     "I don't have an internet connection on a server"
   ],
-  "troubleshoot-vs-portal-shows-server-disconnected-but-runnin": [
+  "vsi-troubleshoot-vs-portal-shows-server-disconnected-but-runnin": [
     "our device is indicated by IBM as disconnected",
     "powered on but disconnected",
     "server is still not reconnected",
