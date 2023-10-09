@@ -5,6 +5,7 @@
 toc:
   properties:
     subcollection: virtual-servers
+    service-name: classic-vsi
     version: 2
     category: virtualservers
     audience: service
