@@ -27,10 +27,11 @@ Use the release notes to learn the latest updates to {{site.data.keyword.BluVirt
 For more information about changes to the {{site.data.keyword.BluVirtServers}} API, see [{{site.data.keyword.BluVirtServers}} API reference overview](/docs/virtual-servers?topic=virtual-servers-api-reference)
 
 ## May 2023
-{: #virtual-servers-may2023}
+{: #virtual-servers-may23}
 
 ### 15 May 2023
-{: #virtual-servers-may112023}
+{: #virtual-servers-may1123}
+{: release-note}
 
 Red Hat Enterprise Linux 9 (RHEL 9)
 :   IBM Cloud&reg; server software now supports RHEL 9 as an OS option for virtual servers. For more information, see the virtual servers tab in [Supported operating systems for IBM Cloud&reg; server software](/docs/bare-metal?topic=bare-metal-about-software#supported-operating-systems-for-ibm-cloud-servers).
