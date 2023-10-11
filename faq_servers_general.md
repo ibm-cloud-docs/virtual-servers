@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2023
-lastupdated: "2023-07-25"
+lastupdated: "2023-10-11"
 
 keywords:
 
@@ -23,9 +23,9 @@ If your virtual server is down, use the following steps to bring it back up:
 1. Try to access the server by using the [KVM console](/docs/virtual-servers?topic=virtual-servers-access-kvm-console). Depending on the output, you might need to create a [support case](/docs/virtual-servers?topic=virtual-servers-gettinghelp). 
 2. Try to power your server off and on. For more information, see [Powering server on or off](/docs/virtual-servers?topic=virtual-servers-managing-virtual-servers#power-on-off) or [Rebooting a device](/docs/virtual-servers?topic=virtual-servers-managing-virtual-servers#reboot).
 
-   * [Why can't I log in to a virtual server through SSH?](/docs/virtual-servers?topic=virtual-servers-troubleshooting-virtual-server#troubleshoot-vs-cannot-ssh-into-server)
-   * [Why is my server not responding?](/docs/virtual-servers?topic=virtual-servers-troubleshooting-virtual-server#troubleshoot-vs-device-not-responding)
-   * [Why does the portal show that my server is disconnected even though it's running?](/docs/virtual-servers?topic=virtual-servers-troubleshooting-virtual-server#troubleshoot-vs-portal-shows-server-disconnected-but-running)
+   * [Why can't I log in to a virtual server through SSH?](/docs/virtual-servers?topic=virtual-servers-vsi-troubleshoot-vs-cannot-ssh-into-server)
+   * [Why is my server not responding?](/docs/virtual-servers?topic=virtual-servers-vsi-troubleshoot-vs-device-not-responding)
+   * [Why does the portal show that my server is disconnected even though it's running?](/docs/virtual-servers?topic=virtual-servers-vsi-troubleshoot-vs-portal-shows-server-disconnected-but-running)
 
 For more help, see [Getting help and support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
 
