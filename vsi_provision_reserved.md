@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2023
-lastupdated: "2021-09-13"
+lastupdated: "2021-10-16"
 
 subcollection: virtual-servers
 
@@ -59,6 +59,6 @@ After you provision your reserved capacity, it's time to provision your reserved
 {: #next-steps-provisioning-reserved}
 
 After your virtual server is provisioned and available to use, you can configure your virtual servers by using the
-{{site.data.keyword.cloud_notm}} console or {{site.data.keyword.slapi_short}}. For more information, see [Configuring virtual servers](/docs/virtual-servers?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).
+{{site.data.keyword.cloud_notm}} console or the API. For more information, see [Configuring virtual servers](/docs/virtual-servers?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).
 
 If you have questions about reserved capacity and instances, see [FAQs: Reserved capacity and instances](/docs/virtual-servers?topic=virtual-servers-faqs-reserved-capacity-and-instances#faqs-reserved-capacity-and-instances). 
