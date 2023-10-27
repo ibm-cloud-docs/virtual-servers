@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2023
 
-lastupdated: "2023-05-15"
+lastupdated: "2023-10-27"
 
 
 keywords:
@@ -25,6 +25,16 @@ Use the release notes to learn the latest updates to {{site.data.keyword.BluVirt
 {: shortdesc}
 
 For more information about changes to the {{site.data.keyword.BluVirtServers}} API, see [{{site.data.keyword.BluVirtServers}} API reference overview](/docs/virtual-servers?topic=virtual-servers-api-reference)
+
+## October 2023
+{: #virtual-servers-oct23}
+
+### 27 October 2023
+{: #virtual-servers-oct2723}
+{: release-note}
+
+Microsoft&reg; SQL Server 2019 and 2022
+:   Classic infrastructure bare metal and virutal servers now support Microsoft SQL Server [2019](https://www.microsoft.com/en-us/sql-server/sql-server-2019){: external} and [2022](https://www.microsoft.com/en-us/sql-server/sql-server-2022){: external}. 
 
 ## May 2023
 {: #virtual-servers-may23}
