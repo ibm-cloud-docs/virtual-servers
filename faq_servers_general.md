@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2023
-lastupdated: "2023-10-11"
+lastupdated: "2023-11-21"
 
 keywords:
 
@@ -20,25 +20,25 @@ subcollection: virtual-servers
 
 If your virtual server is down, use the following steps to bring it back up:
 
-1. Try to access the server by using the [KVM console](/docs/virtual-servers?topic=virtual-servers-access-kvm-console). Depending on the output, you might need to create a [support case](/docs/virtual-servers?topic=virtual-servers-gettinghelp). 
+1. Try to access the server by using the [KVM console](/docs/virtual-servers?topic=virtual-servers-access-kvm-console). Depending on the output, you might need to create a [support case](/docs/virtual-servers?topic=virtual-servers-virtual-server-help-and-support). 
 2. Try to power your server off and on. For more information, see [Powering server on or off](/docs/virtual-servers?topic=virtual-servers-managing-virtual-servers#power-on-off) or [Rebooting a device](/docs/virtual-servers?topic=virtual-servers-managing-virtual-servers#reboot).
 
    * [Why can't I log in to a virtual server through SSH?](/docs/virtual-servers?topic=virtual-servers-vsi-troubleshoot-vs-cannot-ssh-into-server)
    * [Why is my server not responding?](/docs/virtual-servers?topic=virtual-servers-vsi-troubleshoot-vs-device-not-responding)
    * [Why does the portal show that my server is disconnected even though it's running?](/docs/virtual-servers?topic=virtual-servers-vsi-troubleshoot-vs-portal-shows-server-disconnected-but-running)
 
-For more help, see [Getting help and support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+For more help, see [Getting help and support](/docs/virtual-servers?topic=virtual-servers-virtual-server-help-and-support).
 
 ## What do I do if my bare metal server is down?
 {: #my-bare-metal-server-is-down-what-should-i-do}
 
 If your bare metal server is down, use the following steps.
 
-1. Remotely access the server by using [IPMI](/docs/bare-metal?topic=bare-metal-bm-faq#how-do-i-use-ipmi). Depending on the output, you might need to create a [support case](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+1. Remotely access the server by using [IPMI](/docs/bare-metal?topic=bare-metal-bm-faq#how-do-i-use-ipmi). Depending on the output, you might need to create a [support case](/docs/virtual-servers?topic=virtual-servers-virtual-server-help-and-support).
 
 If your server does not power on, you might need to start your server in rescue mode. For more information, see [Rescue mode](/docs/virtual-servers?topic=virtual-servers-launching-rescue)
 
-For more help, see [Getting help and support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+For more help, see [Getting help and support](/docs/virtual-servers?topic=virtual-servers-virtual-server-help-and-support).
 
 ## Why does my server status show "disconnected"?
 {: #server-status-shows-disconnected}
@@ -47,7 +47,7 @@ If your server status shows "disconnected", it might mean that the network monit
 
 For more information about monitoring, see [Basic Monitoring](/docs/cloud-infrastructure?topic=cloud-infrastructure-monitoring-iaas#basic-monitoring).
 
-If you need more help, see [Getting help and support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+If you need more help, see [Getting help and support](/docs/virtual-servers?topic=virtual-servers-virtual-server-help-and-support).
 
 ## What is the difference between "Boot from image" and "Load from image"?
 {: #what-is-the-difference-between-boot-from-image-and-load-from-image-}
