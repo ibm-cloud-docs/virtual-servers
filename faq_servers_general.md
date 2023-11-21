@@ -27,7 +27,7 @@ If your virtual server is down, use the following steps to bring it back up:
    * [Why is my server not responding?](/docs/virtual-servers?topic=virtual-servers-vsi-troubleshoot-vs-device-not-responding)
    * [Why does the portal show that my server is disconnected even though it's running?](/docs/virtual-servers?topic=virtual-servers-vsi-troubleshoot-vs-portal-shows-server-disconnected-but-running)
 
-For more help, see [Getting help and support](/docs/virtual-servers?topic=virtual-servers-virtual-server-help-and-support).
+For more help, see [Getting help and support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
 
 ## What do I do if my bare metal server is down?
 {: #my-bare-metal-server-is-down-what-should-i-do}
@@ -38,7 +38,7 @@ If your bare metal server is down, use the following steps.
 
 If your server does not power on, you might need to start your server in rescue mode. For more information, see [Rescue mode](/docs/virtual-servers?topic=virtual-servers-launching-rescue)
 
-For more help, see [Getting help and support](/docs/virtual-servers?topic=virtual-servers-virtual-server-help-and-support).
+For more help, see [Getting help and support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
 
 ## Why does my server status show "disconnected"?
 {: #server-status-shows-disconnected}
@@ -47,7 +47,7 @@ If your server status shows "disconnected", it might mean that the network monit
 
 For more information about monitoring, see [Basic Monitoring](/docs/cloud-infrastructure?topic=cloud-infrastructure-monitoring-iaas#basic-monitoring).
 
-If you need more help, see [Getting help and support](/docs/virtual-servers?topic=virtual-servers-virtual-server-help-and-support).
+If you need more help, see [Getting help and support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
 
 ## What is the difference between "Boot from image" and "Load from image"?
 {: #what-is-the-difference-between-boot-from-image-and-load-from-image-}
