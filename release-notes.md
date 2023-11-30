@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2023
 
-lastupdated: "2023-10-27"
+lastupdated: "2023-11-30"
 
 
 keywords:
@@ -25,6 +25,16 @@ Use the release notes to learn the latest updates to {{site.data.keyword.BluVirt
 {: shortdesc}
 
 For more information about changes to the {{site.data.keyword.BluVirtServers}} API, see [{{site.data.keyword.BluVirtServers}} API reference overview](/docs/virtual-servers?topic=virtual-servers-api-reference)
+
+## November 2023
+{: #virtual-servers-nov23}
+
+### 30 November 2023
+{: #virtual-servers-nov3023}
+{: release-note}
+
+SSL Certificate Order End of Marketing (EOM): 15 April 2024
+:    After this date, [SSL Certificate Order](/classic/?orderType=sslCertificatesOrder) is not longer available for purchase. For more information, see [Migrating SSL certificates](/docs/ssl-certificates?topic=ssl-certificates-migrating-ssl-certificates).
 
 ## October 2023
 {: #virtual-servers-oct23}
