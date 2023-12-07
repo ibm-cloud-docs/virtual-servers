@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2023
 
-lastupdated: "2023-10-27"
+lastupdated: "2023-12-07"
 
 
 keywords:
@@ -25,6 +25,13 @@ Use the release notes to learn the latest updates to {{site.data.keyword.BluVirt
 {: shortdesc}
 
 For more information about changes to the {{site.data.keyword.BluVirtServers}} API, see [{{site.data.keyword.BluVirtServers}} API reference overview](/docs/virtual-servers?topic=virtual-servers-api-reference)
+
+### 07 December 2023
+{: #virtual-servers-dec1223}
+{: release-note}
+
+CentOS Stream 9
+:   {{site.data.keyword.BluVirtServers}} for Classic now supports CentOS Stream 9. For more information, see [CentOS Stream 9](https://centos.org/stream9/){: external}.
 
 ## October 2023
 {: #virtual-servers-oct23}
