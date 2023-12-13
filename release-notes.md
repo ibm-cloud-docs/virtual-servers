@@ -15,8 +15,6 @@ content-type: release-note
 ---
 
 {{site.data.keyword.attribute-definition-list}}
-{:external: target="_blank" .external}
-{:release-note: data-hd-content-type='release-note'}
 
 # Release notes for {{site.data.keyword.BluVirtServers}} for Classic
 {: #release-notes}
