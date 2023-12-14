@@ -5,7 +5,6 @@ copyright:
 
 lastupdated: "2023-12-15"
 
-
 keywords:
 
 subcollection: virtual-servers
@@ -34,6 +33,13 @@ For more information about changes to the {{site.data.keyword.BluVirtServers}} A
 SSL Certificate Order is deprecated
 :   As of 15 April 2024, SSL Certificate Order is no longer available for purchase. As of 15 December 2024,  SSL Certificate Order is no longer supported for new orders or reorders. Only existing certificates that are not expired are still available for you to download, reissue, or revoke. For more information, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation-ssl-certificates).
 {: deprecated}
+
+### 07 December 2023
+{: #virtual-servers-dec1223}
+{: release-note}
+
+CentOS Stream 9
+:   {{site.data.keyword.BluVirtServers}} for Classic now supports CentOS Stream 9. For more information, see [CentOS Stream 9](https://centos.org/stream9/){: external}.
 
 ## October 2023
 {: #virtual-servers-oct23}
