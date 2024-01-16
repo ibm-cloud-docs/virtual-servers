@@ -1,9 +1,9 @@
 ---
 
 copyright:
-  years: 2021, 2023
+  years: 2021, 2024
 
-lastupdated: "2023-12-15"
+lastupdated: "2024-01-16"
 
 keywords:
 
@@ -22,6 +22,16 @@ Use the release notes to learn the latest updates to {{site.data.keyword.BluVirt
 {: shortdesc}
 
 For more information about changes to the {{site.data.keyword.BluVirtServers}} API, see [{{site.data.keyword.BluVirtServers}} API reference overview](/docs/virtual-servers?topic=virtual-servers-api-reference)
+
+## January 2024
+{: #virtual-servers-jan24}
+
+### 16 January 2024
+{: #virtual-servers-jan1624}
+{: release-note}
+
+Debian 12
+:   {{site.data.keyword.BluVirtServers}} for Classic now supports Debian 12. For more information, see [Debian "bookworm" release information](https://www.debian.org/releases/bookworm/).
 
 ## December 2023
 {: #virtual-servers-dec23}
