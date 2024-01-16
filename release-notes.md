@@ -31,7 +31,7 @@ For more information about changes to the {{site.data.keyword.BluVirtServers}} A
 {: release-note}
 
 Debian 12
-:   {{site.data.keyword.BluVirtServers}} for Classic now supports Debian 12. For more information, see [Debian "bookworm" release information](https://www.debian.org/releases/bookworm/).
+:   {{site.data.keyword.BluVirtServers}} for Classic now supports Debian 12. For more information, see [Debian "bookworm" release information](https://www.debian.org/releases/bookworm/){: external}.
 
 ## December 2023
 {: #virtual-servers-dec23}
