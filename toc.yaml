@@ -68,7 +68,6 @@ toc:
           - vsi_provision_reserved.md
           - vsi_dedicated_instances.md
           - vsi_provision_dedicated.md
-          - vsi_provision_3rd-party.md
       - topicgroup:
           label: Configuring
           topics:
