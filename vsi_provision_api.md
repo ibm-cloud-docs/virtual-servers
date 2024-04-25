@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2022
-lastupdated: "2022-04-15"
+  years: 2017, 2024
+lastupdated: "2024-04-25"
 
 subcollection: virtual-servers
 
@@ -39,10 +39,10 @@ The following JSON request body is a generic example.
 {
     "parameters":[
         {
-            "hostname": "public-01-mex01",
+            "hostname": "public-01-dal10",
             "domain": "softlayer.local",
             "datacenter": {
-                "name": "mex01"  
+                "name": "dal10"  
             },
             "operatingSystemReferenceCode": "CENTOS_LATEST",
             "networkComponents": [
@@ -152,7 +152,7 @@ The following JSON request body is a generic example.
             "virtualGuests": [
                 {
                     "domain": "softlayer.local",
-                    "hostname": "public-01-mex01"
+                    "hostname": "public-01-dal10"
                 }
             ],
             "complexType": "SoftLayer_Container_Product_Order_Virtual_Guest"
@@ -235,7 +235,7 @@ The following JSON request body is a generic example.
             "hostname": "sample-transient-public",
             "domain": "softlayer.local",
             "datacenter": {
-                "name": "mex01"
+                "name": "dal10"
             },
             "operatingSystemReferenceCode": "CENTOS_LATEST",
             "networkComponents": [
