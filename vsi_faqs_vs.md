@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017, 2023
+  years: 2017, 2024
 lastupdated: "2023-06-14"
 
 subcollection: virtual-servers
@@ -166,7 +166,7 @@ Your virtual server instance must be configured with the following settings to s
 {: #how-change-os-virtual-server}
 {: faq}
 
-You can perform an OS reload to change the operating system on your virtual server at any time. For more information about OS reloads, see [Reloading the OS](/docs/virtual-servers?topic=bare-metal-reloading-the-os).
+You can perform an OS reload to change the operating system on your virtual server at any time. For more information about OS reloads, see [Reloading the OS](/docs/baremetal?topic=bare-metal-reloading-the-os).
 
 ## Why do web pages load slowly on Linux?
 {: #why-web-page-load-slowly-linux}
