@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2023
-lastupdated: "2023-09-14"
+  years: 2018, 2024
+lastupdated: "2024-04-29"
 
 keywords: reserved virtual servers, cost savings, guaranteed capacity 
 
@@ -25,6 +25,7 @@ Reserved virtual server instances offer many advantages, including the following
 | Global availability | Reserved virtual servers are available in data centers globally. |
 | Reliable provisioning | You can provision and reclaim virtual server instances to your reserved capacities at any time. |
 | Cost savings | Choosing either a 1 or 3-year contract term allows for consistent monthly payments and reduced costs compared to hourly or monthly virtual server billing cycles. |
+{: caption="Table 1. Reserved virtual server advantages" caption-side="top"}
 
 Reserved virtual server instances are public instances that use SAN-backed storage. The following families of public instances are available for this offering.
 
@@ -33,7 +34,7 @@ Reserved virtual server instances are public instances that use SAN-backed stora
 | [Balanced](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#balanced) | Best for common cloud workloads that require a balance of performance and scalability. Uses network-attached storage.|
 | [Compute](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#compute) | Best for moderate to high web traffic workloads.|
 | [Memory](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#memory)  | Best for memory caching and real-time analytics workloads. |
-{: caption="Table 1. Public virtual server family selections" caption-side="top"}
+{: caption="Table 2. Public virtual server family selections" caption-side="top"}
 
 ## Limitations 
 {: #limitations-reserved-virtual-servers}
