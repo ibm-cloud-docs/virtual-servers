@@ -109,7 +109,7 @@ KVM console now available
 {: release-note}
 
 IBM Cloud Monitoring
-:   {{site.data.keyword.mon_full}} collects classic infrastructure and VPC virtual server instance metrics such as CPU usage, disk usage, network traffic, and memory. These metrics are stored in {{site.data.keyword.mon_full_notm}}. For more information, see [IBM Cloud Monitoring](/docs/virtual-servers?topic=cloud-infrastructure-monitoring-iaas).
+:   {{site.data.keyword.mon_full}} collects classic infrastructure and VPC virtual server instance metrics such as CPU usage, disk usage, network traffic, and memory. These metrics are stored in {{site.data.keyword.mon_full_notm}}. For more information, see [IBM Cloud Monitoring](/docs/cloud-infrastructure?topic=cloud-infrastructure-monitoring-iaas).
 
 ## February 2020
 {: #virtual-servers-feb20}
