@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2022
-lastupdated: "2022-04-15"
+  years: 2014, 2024
+lastupdated: "2024-05-14"
 
 subcollection: virtual-servers
 
@@ -12,6 +12,8 @@ subcollection: virtual-servers
 
 # SSL certificates
 {: #ssl-certificates}
+
+SSL Certificate Order is deprecated. As of 15 April 2024, SSL Certificate Order is no longer available for purchase. As of 15 December 2024, SSL Certificate Order is no longer supported for new orders or reorders. Only existing certificates that are not expired are still available for you to download, reissue, or revoke. For more information, see Deprecation of SSL Certificates. {: deprecated}
 
 Secure Sockets Layer (SSL) is a technology that encrypts traffic between the client application and the server application that is involved in the conversation. This encryption is accomplished through a public key or private key system by using an SSL certificate.
 {: shortdesc}
