@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2022
-lastupdated: "2021-09-13"
+lastupdated: "2024-05-15"
 
 subcollection: virtual-servers
 
@@ -26,7 +26,7 @@ Before you begin, review the following prerequisites.
 
 1. Review the deployment options available to you. For more information, see [Public virtual servers](/docs/virtual-servers?topic=virtual-servers-about-public-virtual-servers#about-public-virtual-servers).
 
-2. Review virtual server instance capacity considerations. For more information, see [Resource considerations for virtual server instances](/docs/virtual-servers?topic=virtual-servers-capacity-considerations#capacity-considerations).
+2. Review virtual server instance capacity considerations. For more information, see [Resource considerations for virtual server instances](/docs/virtual-servers?topic=virtual-servers-vsi-troubleshooting-capacity-considerations#capacity-considerations).
   
 3. Open the virtual server instance page from the {{site.data.keyword.cloud_notm}} console.
 
