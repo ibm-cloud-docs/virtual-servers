@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2017, 2023
-lastupdated: "2023-09-28"
+  years: 2017, 2024
+lastupdated: "2024-06-06"
 
-keywords: troubleshoot virtual server, virtual servers troubleshooting, tips, error, problem, insufficient capacity
+keywords:
 
 subcollection: virtual-servers
 
@@ -19,7 +19,7 @@ content-type: troubleshoot
 {: troubleshoot}
 {: support}
 
-You are unable to access your virtual server and the server is not pinging.
+You are unable to access your virtual server and the server is not pinging through a public or private IP.
 {: tsSymptoms}
 
 The ping traffice might be blocked by your firewall or gateway (Vyatta, AT&T, Juniper, or Fortigate).
