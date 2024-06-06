@@ -1,8 +1,10 @@
 ---
 
 copyright:
-  years: 2017, 2023
-lastupdated: "2023-01-31"
+  years: 2017, 2024
+
+lastupdated: "2024-06-06"
+
 
 keywords: troubleshoot virtual server, virtual servers troubleshooting, tips, error, problem, insufficient capacity
 
@@ -10,54 +12,30 @@ subcollection: virtual-servers
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:note: .note}
-{:external: target="_blank" .external}
-{:support: data-reuse='support'}
-{:pre: .pre}
-{:tip: .tip}
-{:table: .aria-labeledby="caption"}
-{:important: .important}
-{:tsSymptoms: .tsSymptoms}
-{:tsCauses: .tsCauses}
-{:tsResolve: .tsResolve}
-{:troubleshoot: data-hd-content-type='troubleshoot'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Troubleshooting your virtual server
 {: #troubleshooting-virtual-server}
 
-The following topics cover common difficulties that you might encounter, and offers some helpful tips.
+Use the following information to help troubleshoot your virtual server.
 
-## Why can't I log in to a virtual server through SSH?
-{: #troubleshoot-vs-cannot-ssh-into-server}
+## How do I solve this problem
+{: #troubleshoot-this-problem}
 {: troubleshoot}
 {: support}
 
-If you can't log in to a server through SSH, it might be caused by one of the following reasons.
+If your service has this problem, you'll see this symptom.
+{: tsSymptoms}
 
-* [Remote logins through SSH for root are disabled](#remote-ssh-logins-disabled)
-* [Port not configured for SSH](#port-number-configuration)
-* [Firewall is blocking SSH traffic](#firewall-blocking-ssh-traffic)
-* [Security group is blocking SSH traffic](#security-group-blocking-ssh-traffic)
+This problem is caused by this action happening.
+{: tsCauses}
 
-### Remote logins through SSH for root are disabled
-{: #remote-ssh-logins-disabled}
+You can fix the problem by taking this action.
+{: tsResolve}
 
-Remote logins through SSH for root might be disabled in the SSH configuration (_/etc/ssh/sshd_config_) of your server. Use the following instructions to enable SSH for root login.
+All troubleshooting content must include description, symptoms, possible causes, and steps to resolve. 
 
-For security reasons, we recommended that you don't enable root for remote SSH logins. Instead, create a nonroot user for remote SSH login.
-{: important}
-
-1. Log in to KVM IPMI console for your virtual server.
-2. As root, edit the _sshd_config_ file in _/etc/ssh/sshd_config_
-
-   `nano /etc/ssh/sshd_config`
-   {: pre}
-
-3. Add a line in the **Authentication** section of the file that says _PermitRootLogin yes_. This line might exist and be commented out with a "#". In this example, remove the "#".
-
+If the troubleshooting content just contains steps for information to be collected and included in a support case, that content should be added to the [Getting help and support for virtual servers](/docs/virtual-servers?topic=virtual-servers-virtual-server-help-and-support) page in the [Providing support case details](/docs/virtual-servers?topic=virtual-servers-virtual-server-help-and-support#virtual-server-support-case-details).
 
    `#LoginGraceTime 2m`
 
@@ -103,6 +81,24 @@ If you can't access your server, you can use the following prechecks to help get
 * If you can't access the server through the KVM console, then the ping traffic might be blocked by your firewall or gateway (Vyatta, AT&T, Juniper, Fortigate). Ask your administrator to check the firewall rules. For help with setting up firewall rules, contact support.
 * If you're using security group, you need to allow ICMP traffic. For more information, see [Creating security groups and rules](/docs/security-groups?topic=security-groups-creating-security-groups).
 
+## Why is my server stuck in the provisioning process?
+{: #troubleshoot-vs-stuck-provisioning}
+{: troubleshoot}
+{: support}
+
+If your server is taking too long to provision, one of the following issues might be the reason. Keep in mind that it can take up to 24 hours to complete the provision process.
+
+* Vyatta is blocking the connection. Make sure that Vyatta allows connections.
+* If security groups are applied, a security group might be blocking passwords from populating. Don't apply a security group until provisioning completes. For more information about security groups, see [Getting started with IBM security groups](/docs/security-groups?topic=security-groups-getting-started).
+* Outages or maintenance operations. Check your notifications for outage or maintenance announcements.
+
+If you need more help, [contact support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+
+## Why is my server stuck in the deleting state?
+{: #troubleshoot-vs-stuck-delete}
+
+Sometimes, due to backend issues, your server might get stuck in the deleting state. [Contact support](/docs/get-support?topic=get-support-using-avatar) to check and resolve the issue.
+
 ## Why can't I access KVM through a browser?
 {: #troubleshoot-vs-KVM-not-accessible-browser}
 {: troubleshoot}
@@ -111,8 +107,13 @@ If you can't access your server, you can use the following prechecks to help get
 If you are unable to connect to the KVM console, review the following troubleshooting tips for help. For more information about accessing the KVM, see [Accessing the KVM console for virtual servers](/docs/virtual-servers?topic=virtual-servers-access-kvm-console).
 
 * [Browser needs updating](#update-browser)
-* You haven’t [established a VPN connection](#vpn-connection)
+* You don't have an [established a VPN connection](#vpn-connection)
 * Your [credentials are invalid](#check-credentials)
+
+## Fixing disk issue
+{: #fix-disk-issue}
+
+Disks can move into a read-only state due to many reasons. You can place the system in rescue mode and run `fsck` to [repair bad sectors](https://cloud.ibm.com/docs/virtual-servers?topic=virtual-servers-troubleshooting-virtual-server#troubleshoot-vs-why-vs-read-only). Sometimes the disk might be full, so you need to clean up old log file from your file system.
 
 ### Browser needs updating
 {: #update-browser}
@@ -144,16 +145,34 @@ If you can access your server through KVM, but RDP isn't working, it might be ca
 * [Inadequate client access licenses](#inadequate-client-access-licenses)
 * [Pending Windows updates](#pending-windows-updates)
 * [A security group is blocking RDP traffic](#security-group-blocking-rdp-traffic)
+* [Xentools removed network configuration](#xentools-removed-network-configuration)
+* [RDP not running](#rdp-not-running)
 
 ### RDP traffic is blocked
 {: #blocked-RDP-traffic}
 
 RDP traffic (port 3389) might be blocked by the Windows&reg; firewall, hardware firewall, or gateway (Vyatta, AT&T, Juniper, Fortigate). Check that your firewall allows RDP port 3389.
 
+Run the following commands to check whether the ports are open in _powershell_.
+
+`Test-NetConnection -Port 3389`  \n
+`Get-NetFirewallPortFilter | Where LocalPort -eq 3389`
+
+For information about generating a per User CALs report, see [Cannot connect to RDS because no RD Licensing servers are available](https://learn.microsoft.com/en-us/troubleshoot/windows-server/remote/cannot-connect-rds-no-license-server){: external}.
+
 ### The server has inadequate client access licenses
 {: #inadequate-client-access-licenses}
 
-RDP might not work because of inadequate client access licenses that are installed on the server. For more information, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+* RDP might not work because of inadequate client access licenses that are installed on the server. If you don't have enough valid licenses, you might see one of the following messages.
+
+   * `This remote session disconnected because no Remote Desktop License Servers are available to provide a license.`
+   * `The remote session disconnected because of an error that is related to licensing in terminal server.`
+   * `The remote session disconnected because no Remote Desktop client access licenses are available for this computer.`
+
+* Check whether you used all of your available licenses. For more information, see [Track your Remote Desktop Services client access licenses](https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/rds-track-cals){: external}.
+
+* Your 120 days RDS trial period expired. You can see how many days remain by using the following command.
+   `tlsbln.exe`
 
 ### The server has pending Windows updates
 {: #pending-windows-updates}
@@ -163,7 +182,32 @@ If your server has pending Windows updates, install the latest updates, restart 
 ### RDP traffic is blocked by a security group
 {: #security-group-blocking-rdp-traffic}
 
-If you're using a security group, make sure that you allow RDP (port 3389) traffic. For more information, see [Creating security groups and rules](/docs/security-groups?topic=security-groups-creating-security-groups).
+* If you're using a security group, make sure that you allow RDP (port 3389) traffic. For more information, see [Creating security groups and rules](/docs/security-groups?topic=security-groups-creating-security-groups).
+
+* Are your interfaces enabled and connected?
+   `netsh interface show interface`
+
+### Xentools removed network configuration
+{: #xentools-removed-network-configuration}
+
+Sometimes when you update Xentools, your network configuration is removed from both public and private network cards. If the network configuration is removed, you need to log in to the KVM console and put back the IP address, gateway, and DNS settings for both network cards. For more information about applying Xentools, see this [technote](https://www.ibm.com/support/pages/node/6462327){: external}.
+
+### RDP not running
+{: #rdp-not-running}
+
+* Check that RDP is running. Use the following command to see whether RDP is running. 
+
+   `Command: net start | find "Remote Desktop Services"`
+
+* Check whether the interaces are connected by using the following command. 
+
+   `netsh interface show interface`
+
+* Check whether MAC addresses are learned by using the following command. 
+
+   `getmac /v`
+
+For more information, see General Remote Desktop connection troubleshooting](https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/troubleshoot/rdp-error-general-troubleshooting){: external}.
 
 ## Why can't I connect to a server through the public IP?
 {: #troubleshoot-vs-cannot-connect-public-ip}
@@ -202,7 +246,8 @@ Check whether you can ping IBM DNS servers (_10.0.80.11_, _10.0.80.12_), if you 
 
 If you have Linux servers, add the following entries in the _/etc/resolv.conf_ file:
 
-`nameserver 10.0.80.11` and `nameserver 10.0.80.12`
+`nameserver 10.0.80.11`  \n
+`nameserver 10.0.80.12`
 
 ## Why does the portal show that my server is disconnected even though it's running?
 {: #troubleshoot-vs-portal-shows-server-disconnected-but-running}
@@ -354,3 +399,4 @@ Make sure that you include the IP address that you are using to connect to the s
 Disable your firewall, or allow echo and ICMP requests so that server traffic isn't dropped.
 
 For more help, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+
