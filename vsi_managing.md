@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2022
-lastupdated: "2022-01-31"
+  years: 2017, 2024
+lastupdated: "2024-06-06"
 
 keywords: manage virtual servers, power off, replicate, manage device, reload os, delete server, manage server, cancel virtual server, cancel device, cancel server, restart, reboot, rename, how do i cancel a virtual server
 
@@ -10,19 +10,12 @@ subcollection: virtual-servers
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:external: target="_blank" .external}
-{:pre: .pre}
-{:tip: .tip}
-{:table: .aria-labeledby="caption"}
-
+{{site.data.keyword.attribute-definition-list}}
 
 # Managing virtual servers
 {: #managing-virtual-servers}
 
-You can manage virtual servers, along with other devices, from the device details list. You can cancel, reboot, or rename a vitual server by using the following steps. 
+You can manage virtual servers, along with other devices, from the device details list. You can cancel, reboot, or rename a virtual server by using the following steps. 
 {: shortdesc}
 
 
