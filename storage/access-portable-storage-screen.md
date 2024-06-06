@@ -1,17 +1,14 @@
 ---
 
 copyright:
-  years: 2014, 2021
-lastupdated: "2021-10-27"
+  years: 2014, 2024
+lastupdated: "2024-06-06"
 
 subcollection: virtual-servers
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:tip: .tip}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # Managing portable storage
 {: #accessing-portable-storage}
@@ -34,6 +31,9 @@ For more information about permissions, see [Classic infrastructure permissions]
 
 ## Attaching portable storage
 {: #attaching-portable-storage}
+
+Attaching portable storage shut down and restarts the virtual server while portable storage is attached or swapped.
+{: important}
 
 1. From the **Storage** menu, select **Block Storage.**
 2. In the **Portable storage** section, select the attach option for the portable storage you want to use.
