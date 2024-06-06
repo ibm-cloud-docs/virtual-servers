@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-05-29"
+lastupdated: "2024-06-06"
 
 subcollection: virtual-servers
 
@@ -179,7 +179,7 @@ Slow loading web pages can be caused by several issues.
 - Network latency or packet loss.
    * DoS attack might be targeting services or oversaturating the network.
 
-For more information about troubleshooting Linux network speed issues, see [Using iPerf to Troubleshoot Speed and Throughput Issues](https://www.ibm.com/cloud/blog/using-iperf-to-troubleshoot-speed-and-throughput-issues?mhsrc=ibmsearch_a&mhq=iperf){: external}.
+For more information about troubleshooting Linux network speed issues, see [How do you use iPerf](https://www.ibm.com/support/pages/how-do-you-use-iperf){: external}.
 
 ## Why do I have RHEL package issues?
 {: #why-rhel-package-issues}
@@ -215,3 +215,8 @@ Possible solutions
       If the registration status is “Unknown”, then you need to register the server. To register your server, open a [support case](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
 
 If you need more help, you can [create a case](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+
+## How do I stop the automatic migration of a virtual server?
+{: #how-stop-virtual-server-migration}
+
+If you want to stop the automatic migration of a virtual server to the latest hypervisor because of a pending Xentools installation or similar reason, contact [support](/docs/virtual-servers?topic=virtual-servers-virtual-server-help-and-support).
