@@ -3,7 +3,7 @@
 copyright:
   years: 2021, 2024
 
-lastupdated: "2024-01-16"
+lastupdated: "2024-05-14"
 
 keywords:
 
@@ -22,6 +22,16 @@ Use the release notes to learn the latest updates to {{site.data.keyword.BluVirt
 {: shortdesc}
 
 For more information about changes to the {{site.data.keyword.BluVirtServers}} API, see [{{site.data.keyword.BluVirtServers}} API reference overview](/docs/virtual-servers?topic=virtual-servers-api-reference)
+
+## Febuary 2024
+{: #virtual-servers-feb24}
+
+### 07 Febuary 2024
+{: #virtual-servers-jan1624}
+{: release-note}
+
+Ubuntu 20.04 LTS
+:   {{site.data.keyword.BluVirtServers}} for Classic now supports Ubuntu 20.04 LTS. For more information, see [Ubuntu releases](https://releases.ubuntu.com/){: external}.
 
 ## January 2024
 {: #virtual-servers-jan24}
@@ -168,8 +178,9 @@ New profile families for virtual server
 {: #virtual-servers-oct0318}
 {: release-note}
 
-Provision virtual server by using 3rd-party images
-:   You can now provision a virtual server instance from an image that was created by a 3rd party vendor by using the IBM Cloud catalog Cloud Images link. To access the link, you must first have your catalog credentials set up with an upgraded account to order virtual servers. For more information, see [Third-party images](/docs/virtual-servers?topic=virtual-servers-about-3rd-party).
+Provision virtual server by using 3rd-party images (deprecated)
+:   Provisioning a virtual server instance from an image that was created by a 3rd party vendor by using the IBM Cloud catalog Cloud Images link is now deprecated. 
+{: deprecated}
 
 ### 30 October 2018
 {: #virtual-servers-oct3018}

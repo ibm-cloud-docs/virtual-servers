@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2021, 2023
+  years: 2021, 2024
 lastupdated: "2023-09-13"
 
 keywords: classic virtual servers, access kvm console, connect to virtual server, kvm console, kvm virtual servers, virtual server kvm, vsi kvm, classic kvm

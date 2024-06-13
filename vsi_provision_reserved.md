@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2023
-lastupdated: "2021-10-16"
+  years: 2018, 2024
+lastupdated: "2023-10-16"
 
 subcollection: virtual-servers
 

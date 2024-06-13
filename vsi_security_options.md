@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2022
-lastupdated: "2022-04-15"
+  years: 2017, 2024
+lastupdated: "2022-06-30"
 
 subcollection: virtual-servers
 
@@ -24,7 +24,4 @@ As part of the ordering process, you can select device-specific hardware or a so
 You can't protect a virtual server with two firewall appliances on the same interface. 
 {: note}
 
-For more information, see the following security topic collections.
-
-* [Hardware firewalls (Shared)](/docs/hardware-firewall-shared?topic=hardware-firewall-shared-about-hardware-firewall-shared-)
-* [Hardware firewalls (Dedicated)](/docs/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-about-the-hardware-firewall-dedicated-)
+For more information, see [Hardware firewalls (Shared)](/docs/hardware-firewall-shared?topic=hardware-firewall-shared-about-hardware-firewall-shared-).

@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2019, 2021
+  years: 2019, 2024
 lastupdated: "2021-05-18"
 
 keywords: veeam backup, office 365, Veeam backup for Office 365, veeam

@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2014, 2022
+  years: 2014, 2024
 lastupdated: "2021-05-18"
 
 keywords: iso template, boot my virtual server instance from an image

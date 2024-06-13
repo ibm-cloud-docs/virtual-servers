@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2018, 2021
+  years: 2018, 2024
 lastupdated: "2021-05-18"
 
 keywords: assign ip address, bind ip address
