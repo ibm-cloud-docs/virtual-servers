@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2014, 2023
+  years: 2014, 2024
 lastupdated: "2023-06-19"
 
 keywords: Upgrading port speed in Linux

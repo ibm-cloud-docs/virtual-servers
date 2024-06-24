@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017, 2021
+  years: 2017, 2024
 lastupdated: "2021-09-09"
 
 keywords: virtual servers, classic, provisioning process, IBM Cloud Virtual Servers, virtual machines
@@ -13,7 +13,7 @@ subcollection: virtual-servers
 {:shortdesc: .shortdesc}
 {:codeblock: .codeblock}
 {:screen: .screen}
-{:external: target="_blank" .external}
+{:new_window: target="_blank"}
 {:pre: .pre}
 {:tip: .tip}
 {:table: .aria-labeledby="caption"}

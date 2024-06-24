@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2018, 2021
+  years: 2018, 2024
 lastupdated: "2021-09-13"
 
 subcollection: virtual-servers
@@ -19,7 +19,7 @@ subcollection: virtual-servers
 # Installing GPU drivers and software packages
 {: #installing-gpu-drivers-and-software-packages}
 
-You need to install the following software before you can use a GPU Family virtual server.
+You need to install the following software before you can use a GPU profile with your virtual server.
 * [NVIDIA drivers](https://www.nvidia.com/Download/index.aspx?lang=en-us){: external} - allows your operating system to communicate with the GPU.
 * [CUDA Toolkit](https://docs.nvidia.com/cuda/){: external} - development environment for high-performance GPU-accelerated applications.
 * [cuDNN](https://developer.nvidia.com/cudnn){: external} - (CUDA Deep Neural Network) library that is used for neural network applications.

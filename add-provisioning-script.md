@@ -1,16 +1,14 @@
 ---
 
 copyright:
-  years: 2014, 2024
+  years: 2014, [{CURRENT_YEAR}]
 lastupdated: "2021-05-17"
 
 subcollection: virtual-servers
 
 ---
 
-{:note: .note}
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Managing provisioning scripts
 {: #managing-a-provisioning-script}

@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017, 2022
+  years: 2017, 2024
 lastupdated: "2021-10-21"
 
 keywords: suspend billing feature, suspend billing

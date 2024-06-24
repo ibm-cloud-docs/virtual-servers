@@ -16,7 +16,6 @@ toc:
     label: Virtual Servers for Classic
 #  List your getting started tutorial (getting-started.md) as the first item in the Get started nav group. See https://test.cloud.ibm.com/docs/writing?topic=writing-navigation for more details on the toc design.
   entries:
-
   - navgroup:
       id: learn
       topics:
@@ -36,14 +35,13 @@ toc:
        - vsi_image_templates_intro.md
        - vsi_placegroup.md
        - vsi_about_suspend.md
-       - vsi_about_3rd-party.md
        - topicgroup:
            label: Security options
            topics:
            - vsi_security_options.md
            - vsi_security_groups.md
            - vsi_ssl_intro.md
-           -  vsi_ssh_intro.md
+           - vsi_ssh_intro.md
        - storage/vsi_about_storage.md
        - topicgroup:
            label: Software options
@@ -56,7 +54,6 @@ toc:
            - vsi_backup.md
            - vsi_email_intro.md
        - release-notes.md
-
   - navgroup:
       id: howto
       topics:
@@ -83,7 +80,7 @@ toc:
       - topicgroup:
            label: Managing permissions and access
            topics:
-           - include: ../account/iam-mnginfra.md 
+           - include: ../account/iam-mnginfra.md
            - vsi_device_access.md
            - vsi_managing_password.md
       - topicgroup:
@@ -146,7 +143,6 @@ toc:
           - link:
               label: Virtual Machine Network Setup
               href: /virtualization/Virtualization-setting-up-a-virtual-machine-network#setting-up-a-virtual-machine-network
-
   - navgroup:
       id: reference
       topics:
@@ -154,7 +150,6 @@ toc:
       - vsi_provision_api.md
       - vsi_activity_tracker_events.md
       - vsi_high-availability.md
-
   - navgroup:
       id: help
       topics:
@@ -163,6 +158,7 @@ toc:
       - topicgroup:
           label: Troubleshooting
           topics:
+          - ts_capacity_bp.md
           - vsi_troubleshooting_virtualserver_readonly.md
           - vsi_troubleshooting_unable_to_view_password.md
           - vsi_troubleshooting_server_connectivity_issues.md

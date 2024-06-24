@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017, 2021
+  years: 2017, 2024
 lastupdated: "2021-09-13"
 
 keywords: virtual server, dedicated server, {{site.data.keyword.cloud}}, {{site.data.keyword.cloud_notm}}
