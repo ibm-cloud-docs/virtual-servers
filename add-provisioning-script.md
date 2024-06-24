@@ -1,16 +1,14 @@
 ---
 
 copyright:
-  years: 2014, 2024
+  years: 2014, [{CURRENT_YEAR}]
 lastupdated: "2021-05-17"
 
 subcollection: virtual-servers
 
 ---
 
-{:note: .note}
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Managing provisioning scripts
 {: #managing-a-provisioning-script}
@@ -45,7 +43,7 @@ For more information about permissions, see [Classic infrastructure permissions]
 
 1. From the **Devices** menu, select **Manage > Provisioning Scripts**.
 2. Click anywhere in the **Name** or **URL** column for the provisioning script to open the script for edits.
-3. Update the name or URL. When you update a URL, you must use a fully qualified domain name or the change is not saved.]
+3. Update the name or URL. When you update a URL, you must use a fully qualified domain name or the change is not saved.
 4. Click anywhere on the screen to save the edit.
 
 ## Next steps
