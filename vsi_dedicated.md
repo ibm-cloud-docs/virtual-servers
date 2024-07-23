@@ -24,7 +24,7 @@ The offering includes the following features:
 
 You have the choice of two deployment models: dedicated hosts and dedicated instances. Dedicated hosts help with control over workload placement and dedicated instances offer single-tenant isolation.
 
-Dedicated instances do not provide some of the control features offered by dedicated hosts.  See the following table for more details.
+Dedicated instances do not provide some of the control features offered by dedicated hosts. See the following table for more details.
 {: note}
 
 | Dedicated virtual server feature | Dedicated hosts instances | Dedicated instances |
@@ -45,10 +45,10 @@ Pricing of host is inclusive of core, RAM, Local SSD, and network speeds. Premiu
 
 Keep in mind the following when you’re ordering a dedicated host and dedicated host instance:
 
-* The size of your host is determined by your workloads that you wnat to run on it. The default is 56 Cores X 242 GB RAM X 1.2 TB, but you can choose from more configurations.
+* The size of your host is determined by your workloads that you want to run on it. The default is 56 Cores X 242 GB RAM X 1.2 TB, but you can choose from more configurations.
 * You can order only two hosts at a time. For example, if you need six hosts, you need to place three separate orders.
 * Each host needs its own unique name and you can automatically assign your POD.
-* Network speeds up to 20 Gbps are achievable through extra configuration. For more information about network performance, see [Configuring virtual server settings for improved network performance](/docs/virtual-servers?topic=virtual-servers-configuring-network-performance).
+* Network speeds up to 20 Gbps are achievable through extra configuration. For more information about network performance, see [Configuring virtual server settings to improve network performance](/docs/virtual-servers?topic=virtual-servers-configuring-network-performance).
 
 ## Next steps
 {: #next-steps-dedicated-virtual-servers}
