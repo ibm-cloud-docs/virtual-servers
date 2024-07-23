@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-06-06"
+lastupdated: "2024-07-23"
 
 subcollection: virtual-servers
 
@@ -19,19 +19,19 @@ subcollection: virtual-servers
 
 {{site.data.keyword.cloud}} offers a couple types of virtual servers within its Classic Infrastructure. The standard offering is a public-based virtual server, which is a multi-tenant environment that is suitable for various needs. If you're looking for a single-tenant environment, consider the dedicated virtual server offering. The dedicated virtual server option is ideal for applications with more stringent resource requirements. For more information about the current virtual server offerings, see [Getting started with virtual servers](/docs/virtual-servers?topic=virtual-servers-getting-started-tutorial).
 
-{{site.data.keyword.vsi_is_full}} (VPC) is the next generation of virtual servers. You create your own space in the {{site.data.keyword.cloud_notm}} to run an isolated environment within the public cloud by using VPC. {{site.data.keyword.vpc_short}} provides the security of a private cloud with the agility and ease of a public cloud. For more information, see [About virtual server instances for VPC](/docs/vpc?topic=vpc-about-advanced-virtual-servers).
+{{site.data.keyword.vsi_is_full}} (VPC) is the next generation of virtual servers. You can create your own space in the {{site.data.keyword.cloud_notm}} to run an isolated environment within the public cloud by using VPC. {{site.data.keyword.vpc_short}} provides the security of a private cloud with the agility and ease of a public cloud. For more information, see [About virtual server instances for VPC](/docs/vpc?topic=vpc-about-advanced-virtual-servers).
 
 ## Where can I find pricing information for public instance types?
 {: #where-can-i-find-pricing-information-for-public-instance-types-}
 {: faq}
 
-For more information, see [Build your virtual server](https://www.ibm.com/cloud/virtual-servers){: external}.
+For more information, see [{{site.data.keyword.cloud_notm}} Classic Virtual Servers](https://www.ibm.com/products/virtual-servers-classic){: external}.
 
 ## Where can I find pricing information for virtual public instances?
 {: #where-can-i-find-pricing-information-for-virtual-public-instances-}
 {: faq}
 
-Estimating your cost for an {{site.data.keyword.cloud_notm}} server to support your workload begins in the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog){: external}. From the catalog, select **Compute** and choose the server type - Bare Metal Server, Virtual Server, or Virtual Server for VPC (Virtual Private Cloud). For more information, see the [Virtual servers provisioning calculator](https://www.ibm.com/cloud/virtual-servers/calculator/){: external}.
+Estimating your cost for an {{site.data.keyword.cloud_notm}} server to support your workload begins in the [{{site.data.keyword.cloud_notm}} catalog](https://cloud.ibm.com/catalog){: external}. From the catalog, select **Compute** and choose the server type - Bare Metal Server, Virtual Server, or Virtual Server for VPC (Virtual Private Cloud).
 
 ## Can I change the configuration of a virtual server?
 {: #can-i-reconfigure-virtual-server}
@@ -87,7 +87,7 @@ Virtual servers are provisioned on a multi-server cloud architecture that pools 
 {: #why-do-i-receive-a-capacity-error-when-provisioning-a-virtual-server-}
 {: faq}
 
-When you provision a virtual server, you might receive an insufficient capacity to complete the request error. When provisioning fails, all the virtual server instances within that particular request fail. A capacity error occurs when the data center or router has insufficient resources to fulfill the service request. Resource availability changes frequently, so you might wait and try again later. For more information about strategies to avoid this error, see [Resource considerations for virtual server instances](/docs/virtual-servers?topic=virtual-servers-capacity-considerations).
+When you provision a virtual server, you might receive an insufficient capacity to complete the request error. When provisioning fails, all the virtual server instances within that particular request fail. A capacity error occurs when the data center or router has insufficient resources to fulfill the service request. Resource availability changes frequently, so you might wait and try again later. For more information about strategies to avoid this error, see [Resource considerations for virtual server instances](/docs/virtual-servers?topic=virtual-servers-vsi-troubleshooting-capacity-considerations#capacity-considerations).
 
 ## How do I log in to my server?
 {: #how-do-i-log-in-to-my-server-}
@@ -99,7 +99,7 @@ Log in to your console and go to your **Devices** menu. For more information, se
 {: #how-do-i-use-vpn-to-access-the-ibm-cloud-private-network-}
 {: faq}
 
-You can log in to the VPN through [the web interface](https://www.softlayer.com/VPN-Access){: external} or use a [stand-alone VPN client](/docs/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients) for Linux, macOS, or Windows. For more information about what to do after you connect to the VPN, see [Use SSL VPN](/docs/iaas-vpn?topic=iaas-vpn-using-ssl-vpn).
+You can log in to the VPN through the web interface or you can use a [stand-alone VPN client](/docs/iaas-vpn?topic=iaas-vpn-standalone-vpn-clients) for Linux, macOS, or Windows. For more information about what to do after you connect to the VPN, see [Use SSL VPN](/docs/iaas-vpn?topic=iaas-vpn-using-ssl-vpn).
 
 ## How do I restart my virtual server?
 {: #how-do-i-reboot-my-virtual-server-}
@@ -129,7 +129,7 @@ For information about viewing or requesting compliance information and SOC repor
 {: #how-long-maintenance}
 {: faq}
 
-The maintenance notification contains an estimated duration for the maintenance window. Keep in mind that the time frame is an estimate and maintenance tasks might take longer. Make sure that you allow an extra hour past the maintenance window for tasks to complete and for the server to return online. If the server remains offline longer than 2 hours past the estimate, contact [support](https://test.cloud.ibm.com/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+The maintenance notification contains an estimated duration for the maintenance window. Keep in mind that the time frame is an estimate and maintenance tasks might take longer. Make sure that you allow an extra hour past the maintenance window for tasks to be complete and for the server to return online. If the server remains offline longer than 2 hours past the estimate, contact [support](/docs/get-support?topic=get-support-get-supportfaq#contactsupport).
 
 ## Why do I need to migrate my virtual server?
 {: #why-migrate-virtual-server}
@@ -147,7 +147,7 @@ Sometimes you need to perform a public host migration for maintenance reasons. I
 {: #why-cant-migrate-virtual-server}
 {: faq}
 
-You can migrate only private, dedicated hosts. For more information about migrating private, dedicated hosts, see [Migrating a dedicated host instance to another host](/docs/virtual-servers?topic=virtual-servers-migrating-dedicated-host).
+You can migrate only to private, dedicated hosts. For more information about migrating private, dedicated hosts, see [Migrating a dedicated host instance to another host](/docs/virtual-servers?topic=virtual-servers-migrating-dedicated-host).
 
 ## What servers support suspend billing?
 {: #what-servers-support-suspend-billing}
@@ -172,9 +172,9 @@ You can perform an OS reload to change the operating system on your virtual serv
 {: #why-web-page-load-slowly-linux}
 {: faq}
 
-Slow loading web pages can be caused by several issues.
+Slow-loading web pages can be caused by several issues.
 
-- Over-utilization of server resources. Check your monitoring tools to find any potential bottlenecks in server resources.
+- Over-usage of server resources. Check your monitoring tools to find any potential bottlenecks in server resources.
 - Configuration file limits with Apache, PHP, or SQL. For more information, see [Apache configuration files](https://httpd.apache.org/docs/2.4/configuring.html).
 - Network latency or packet loss.
    * DoS attack might be targeting services or oversaturating the network.
@@ -193,8 +193,8 @@ If you experience one of the following RHEL package issues, see the possible sol
 
 Possible solutions
 
-   1. Check the connectivity of server with IBM DNS servers.
-      - Verify that the server is using IBM repositories within its /etc/resolv.conf file (10.0.80.11/12).
+   1. Check the connectivity of the server with IBM DNS servers.
+      - Verify that the server is using IBM repositories within its /etc/resolv.conf file (`10.0.80.11/12`).
       - Test ping DNS server IPS (10.0.80.11 & 10.0.80.12).
    2. Check whether the private network is pinging. A private network is used for YUM updates and downloads, so IBM repositories need to be connected through a private interface.
    3. Allow the proper IP ranges for the back-end network through your gateway and or security groups. For more information, see [Red Hat Enterprise Linux server requirements](/docs/cloud-infrastructure?topic=cloud-infrastructure-ibm-cloud-ip-ranges#red-hat-enterprise-linux-server) and [Getting started with IBM security groups](/docs/security-groups?topic=security-groups-getting-started).
@@ -214,9 +214,9 @@ Possible solutions
 
       If the registration status is “Unknown”, then you need to register the server. To register your server, open a [support case](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
 
-If you need more help, you can [create a case](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+If you need more help, you can [contact support](/docs/get-support?topic=get-support-get-supportfaq#contactsupport).
 
 ## How do I stop the automatic migration of a virtual server?
 {: #how-stop-virtual-server-migration}
 
-If you want to stop the automatic migration of a virtual server to the latest hypervisor because of a pending Xentools installation or similar reason, contact [support](/docs/virtual-servers?topic=virtual-servers-virtual-server-help-and-support).
+If you want to stop the automatic migration of a virtual server to the most recent hypervisor because of a pending Xentools&reg; installation or similar reason, contact [support](/docs/get-support?topic=get-support-get-supportfaq#contactsupport).
