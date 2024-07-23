@@ -2,26 +2,18 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2021-05-20"
+lastupdated: "2024-07-23"
 
 subcollection: virtual-servers
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:note: .note}
-{:row-headers: .row-headers}
-{:table: .aria-labeledby="caption"}
-
+{{site.data.keyword.attribute-definition-list}}
 
 # About dedicated virtual servers
 {: #dedicated-virtual-servers}
 
-The {{site.data.keyword.Bluemix}} infrastructure dedicated host offering is a virtualized, single-tenant, dedicated server. It provides you with maximum control over workload placement and flexible post-provisioning options. You can decide which pre-determined {{site.data.keyword.cloud_notm}} data center your virtual servers are placed in and can be assured capacity by allocating your hosts directly to your account.
+The {{site.data.keyword.Bluemix}} infrastructure dedicated host offering is a virtualized, single-tenant, dedicated server. It provides you with maximum control over workload placement and flexible post-provisioning options. You can decide which pre-determined {{site.data.keyword.cloud_notm}} data center your virtual servers are placed in and have capacity by allocating your hosts directly to your account.
 {: shortdesc}
 
 The offering includes the following features:
