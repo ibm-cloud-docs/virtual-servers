@@ -2,19 +2,13 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2021-05-20"
+lastupdated: "2024-07-23"
 
 subcollection: virtual-servers
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-
+{{site.data.keyword.attribute-definition-list}}
 
 # Dedicated hosts and dedicated instances
 {: #dedicated-hosts-and-dedicated-instances}
@@ -49,4 +43,4 @@ Occasionally, infrastructure maintenance requires a dedicated host to restart. F
 
 If a dedicated host fails, the workloads on the dedicated host are automatically migrated to a new dedicated host. Dedicated instances remain dedicated throughout the lifecycle of the virtual server.
 
-For high availability scenarios, you might want to consider an extra dedicated host. For example, the extra dedicated host provides you the flexibility to migrate workloads for maintenance windows.
+For high availability scenarios, you might want to consider an extra dedicated host. For example, the extra dedicated host provides you with the flexibility to migrate workloads for maintenance windows.
