@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-04-16"
+lastupdated: "2024-07-23"
 
 keywords:
 
@@ -62,7 +62,7 @@ If you need more help, see [Getting help and support](/docs/virtual-servers?topi
 
 If the root or administrator password to your server is suddenly not working, check the following items. If necessary, use the instructions to start rescue mode and reset your password.
 
-* Are you copying and pasting the password? If not, try to. Also, paste the password in a notepad to make sure that no spaces are accidentally copied with the password.
+* Are you copying and pasting the password? If not, try to. Also, paste the password in a notepad to make sure that no spaces are copied with the password.
 * If the server has cPanel, it's possible that cPHulk blocked your IP address due to failed logins. You can access the server by using the KVM or IPMI and allowlist your IP address. Use cPHulk with "/scripts/cphulkdwhitelist" followed by your IP address.
 * Has someone recently tried to change the password for the server by modifying the password in the {{site.data.keyword.cloud_notm}} console? Changing the password in the {{site.data.keyword.cloud_notm}} console changes what you see as the password. It doesn't change the server password. If so, you can contact [Support](/docs/get-support?topic=get-support-using-avatar) and they can usually recover the original, working password.
 * You might need to start into rescue mode to reset your password. For more information, see [Rescue mode](/docs/virtual-servers?topic=virtual-servers-launching-rescue#launching-rescue).
@@ -114,7 +114,7 @@ You can update against a local cvsup mirror that was run for you. Make sure that
 ```
 {: pre }
 
-The distfiles are also mirrored and available from [The FreeBSD Project](www.freebsd.org). You can add the following line into your */etc/make.conf* file to attempt to download from the local repository.
+The distfiles are also mirrored and available from [The FreeBSD Project](https://www.freebsd.org/){: external}. You can add the following line into your */etc/make.conf* file to attempt to download from the local repository.
 
 ```text
 MASTER_SITE_OVERRIDE?="http://mirrors.service.softlayer.com/freebsd/distfiles/${DIST_SUBDIR}/"
