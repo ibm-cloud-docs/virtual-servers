@@ -157,7 +157,6 @@ toc:
       - topicgroup:
           label: Troubleshooting
           topics:
-          - ts_capacity_bp.md
           - vsi_troubleshooting_virtualserver_readonly.md
           - vsi_troubleshooting_unable_to_view_password.md
           - vsi_troubleshooting_server_connectivity_issues.md
