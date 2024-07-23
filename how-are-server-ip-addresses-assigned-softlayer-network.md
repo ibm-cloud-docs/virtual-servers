@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2024
-lastupdated: "2021-05-18"
+lastupdated: "2024-07-23"
 
 keywords: assign ip address, bind ip address
 
@@ -10,18 +10,12 @@ subcollection: virtual-servers
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:tip: .tip}
-{:table: .aria-labeledby="caption"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Assign server IP addresses
 {: #assigning-server-ip-addresses}
 
-{{site.data.keyword.cloud}} configures virtual server instances with an IPv4 address on the private network, and if requested, a public (internet-facing) IPv4 address. Additionally, you can request an IPv6 address on the public network. All of these IP addresses are collectively referred to as _Primary IP addresses_.
+{{site.data.keyword.cloud}} configures virtual server instances with an IPv4 address on the private network, and if requested, a public (internet-facing) IPv4 address. Additionally, you can request an IPv6 address on the public network. All of these IP addresses are collectively referred to as _primary IP addresses_.
 {: shortdesc}
 
 Extra IP addresses can be bound to virtual server instances after you purchase secondary subnets through the {{site.data.keyword.cloud_notm}} console. IP addresses that are purchased in this way and managed by you are referred to as _Secondary IP addresses_.
