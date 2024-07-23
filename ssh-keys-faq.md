@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2024
-lastupdated: "2021-05-19"
+lastupdated: "2024-07-23"
 
 keywords: SSH keys, SSH key, device-specific
 
@@ -10,10 +10,7 @@ subcollection: virtual-servers
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:external: target="_blank" .external}
-{:faq: data-hd-content-type='faq'}
+{{site.data.keyword.attribute-definition-list}}
 
 # FAQs: SSH keys
 {: #faq-ssh-keys}
@@ -28,7 +25,7 @@ SSH keys are device-specific and are found within the device. Because each opera
 {: #how-many-ssh-keys-can-i-add-to-my-account-}
 {: faq}
 
-You can associate up to 100 SSH keys with an account. Authorized users can [add 1 SSH key](/docs/ssh-keys?topic=ssh-keys-adding-an-ssh-key#adding-an-ssh-key) at a time by using the {{site.data.keyword.cloud}} console. While most users don't need 100 keys, you need to remove any keys that you do not need to ensure that space is available for more valid keys. For more information, see [Removing an SSH key](/docs/ssh-keys?topic=ssh-keys-removing-an-ssh-key#removing-an-ssh-key).
+You can associate up to 100 SSH keys with an account. Authorized users can [add 1 SSH key](/docs/ssh-keys?topic=ssh-keys-adding-an-ssh-key#adding-an-ssh-key) at a time by using the {{site.data.keyword.cloud}} console. While most users don't need 100 keys, you need to remove any keys that you do not need to make sure that space is available for more valid keys. For more information, see [Removing an SSH key](/docs/ssh-keys?topic=ssh-keys-removing-an-ssh-key#removing-an-ssh-key).
 
 ## I don't see my actual SSH key in the list, but I do see a fingerprint. What is that?
 {: #i-don-t-see-my-actual-ssh-key-listed-but-i-do-see-a-fingerprint-what-is-that-}
@@ -40,4 +37,4 @@ The fingerprint that is shown with the details for an SSH key is an abbreviated 
 {: #if-i-create-or-reload-a-device-that-uses-an-image-template-will-the-ssh-keys-carry-over-}
 {: faq}
 
-Yes and no. Each device has a unique SSH key, so the key for the newly provisioned or reloaded device is different from the image.  However, SSH keys that are associated with either a Flex Image or a standard image templates are associated with the device when it is provisioned or reloaded. You can also add keys during the setup process.
+Yes and no. Each device has a unique SSH key, so the key for the newly provisioned or reloaded device is different from the image. However, SSH keys that are associated with either a Flex Image or a standard image templates are associated with the device when it is provisioned or reloaded. You can also add keys during the setup process.
