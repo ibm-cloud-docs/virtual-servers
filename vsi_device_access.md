@@ -2,14 +2,13 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2021-05-20"
+lastupdated: "2024-07-23"
 
 subcollection: virtual-servers
 
 ---
 
 {{site.data.keyword.attribute-definition-list}}
-
 
 # Managing device access
 {: #managing-device-access}
@@ -20,7 +19,7 @@ To access and manage the details for a specific device, you need the correct per
 If your account has devices to that you don't have access, you see an "Unknown Device" name when you try to access those devices.
 {: note}
 
-You can assign device access to any users on your account, but not to yourself. Only an account's administrator has access to all devices on their customer account and can set access for all other users on their account. 
+You can assign device access to any users on your account, but not to yourself. Only an account's administrator has access to all devices on their customer account and can set access for all other users on their account.
 
 You must have the following permissions to access the device details for public virtual servers or dedicated virtual servers.
 
@@ -28,13 +27,12 @@ You must have the following permissions to access the device details for public 
 
 * **View Virtual Dedicated Host Details** - Used to view the IP addresses, operating system type, passwords, and more for a given dedicated host. View Virtual Dedicated Host Details is also used to migrate dedicated instances to a different dedicated host. You must have this access to view dedicated hosts.
 
-
 ## Adding permissions for your users
 {: #adding-permissions-for-your-users}
 
 If you are the account administrator and you want to grant users permission to view virtual server details and dedicated host details, complete the following steps.
 
-1. Log in to the [Access (IAM)](https://cloud.ibm.com/iam#/users){: external} page in the {{site.data.keyword.cloud}} console. 
+1. Log in to the [Access (IAM)](https://cloud.ibm.com/iam#/users){: external} page in the {{site.data.keyword.cloud}} console.
 2. In the **Users** tab, select **View by: My classic infrastructure users**.
 3. Select a user, then click the **Classic infrastructure** tab.
 4. Expand the **Devices** category in the **Permissions tab** and select **View Virtual Server Details** and **View Virtual Dedicated Host Details**.
@@ -45,9 +43,9 @@ If you are the account administrator and you want to grant users permission to v
 
 If you want to provide users access at a specific device level, complete the following steps.
 
-1. In the **Users** tab, select **View by: My classic infrastructure users**. 
+1. In the **Users** tab, select **View by: My classic infrastructure users**.
 2. Select a user, then click the **Classic infrastructure** tab.
-3. In the **Select type** section in the **Devices** tab, select the appropriate permission: **All bare metal servers**, **All dedicated hosts**, or **All virtual servers**. 
+3. In the **Select type** section in the **Devices** tab, select the appropriate permission: **All bare metal servers**, **All dedicated hosts**, or **All virtual servers**.
 4. In the **Enable future access** section in the **Devices** tab, select the appropriate permission: **Auto bare metal server access**, **Auto dedicated host access**, or **Auto virtual server access**. This permission allows your users to always have access to the device type when new devices are added.
 5. Click **Set** to apply the new permissions.
 
@@ -56,7 +54,7 @@ If you want to provide users access at a specific device level, complete the fol
 
 If you are the account administrator and you want to grant users permission to view virtual server details and dedicated host details, complete the following steps.
 
-1. Access the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} by using your unique credentials.
+1. Access the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} by using your credentials.
 2. Select **Account > Users** from the Navigation Bar to access the Users screen.
 3. Click the relevant username to access the User Profile.
 4. Click the **Portal Permissions** icon to access the Portal Permissions screen.
@@ -68,17 +66,16 @@ If you are the account administrator and you want to grant users permission to v
 To provide access at a specific device level, continue to the following steps.
 
 1. Click the **Device Access** icon to access the Device Access screen.
-2. Click the **Quick Access** tab. 
+2. Click the **Quick Access** tab.
 3. From the **Device Type** drop-down list, select **All virtual servers** and **All dedicated hosts**.
 4. Select the **Automatically grant access when new devices are added** checkbox if the associated user needs to always have access to this device type.
 5. Verify that the correct devices are selected.
 6. Click **Update device access**.
 
-You can also use the SoftLayer_User_Customer::addBulkDedicatedHostAccess API service to give a user access to one or more dedicated hosts. For more information, see [Adding Bulk Dedicated Host Access](https://softlayer.github.io/reference/services/SoftLayer_User_Customer/addBulkDedicatedHostAccess/){: external}.  
+You can also use the SoftLayer_User_Customer::addBulkDedicatedHostAccess API service to give a user access to one or more dedicated hosts. For more information, see [Adding Bulk Dedicated Host Access](https://sldn.softlayer.com/reference/services/SoftLayer_User_Customer/addBulkDedicatedHostAccess/){: external}.
 {: note}
 
 ## Next steps
 {: #next-steps-device-access}
 
 User permissions are updated immediately after the changes are submitted. If permissions are granted, the user can view or interact with the selected features. If permissions are removed, the user can no longer view or interact with the selected features. Permissions can be updated again at any time.
-

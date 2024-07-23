@@ -2,19 +2,13 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-05-15"
+lastupdated: "2024-07-23"
 
 subcollection: virtual-servers
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:external: target="_blank" .external}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # Configuring virtual servers
 {: #configuring-virtual-servers}
@@ -38,12 +32,12 @@ Find your virtual server in the Device List in the {{site.data.keyword.cloud_not
 ### Change your password
 {: #change-your-password}
 
-Change your password using strong password guidelines. See [Viewing and managing device user names and passwords](/docs/virtual-servers?topic=virtual-servers-view-update-user-name-password-for-device#view-update-user-name-password-for-device).
+Change your password by using strong password guidelines. See [Viewing and managing device usernames and passwords](/docs/virtual-servers?topic=virtual-servers-view-update-user-name-password-for-device#view-update-user-name-password-for-device).
 
 ### Manage SSH keys
 {: #configure-ssh}
 
-SSH provides better security solution than password authentication. See [Getting started with SSH keys](/docs/ssh-keys?topic=ssh-keys-getting-started-tutorial#getting-started-tutorial).
+SSH provides a better security solution than password authentication. See [Getting started with SSH keys](/docs/ssh-keys?topic=ssh-keys-getting-started-tutorial#getting-started-tutorial).
 
 ### Record IP addresses and credentials
 {: #record-ip-addresses-and-credentials}
@@ -58,19 +52,19 @@ Keep a log of IP addresses and credentials for the server in a safe location so 
 
 All software that was loaded onto your device during the provisioning process was assigned temporary credentials. These credentials are viewed and managed on the Passwords tab of each device in the {{site.data.keyword.cloud_notm}} console. Use these temporary credentials to access your software for the first time. As a best practice, change the password to your software after you access it for the first time. Use a strong password that consists of a combination of letters, numbers, and symbols.
 
-Optionally, password updates can be stored on the Passwords tab for each device; however, understand that when you store passwords within the {{site.data.keyword.cloud_notm}} console, any person with access to the account and appropriate permissions can view passwords that are stored on the Passwords screen.
+Optionally, password updates can be stored on the Passwords tab for each device. However, understand that when you store passwords within the {{site.data.keyword.cloud_notm}} console, any person with access to the account and appropriate permissions can view passwords that are stored on the Passwords screen.
 
 For more information about viewing and managing your software credentials, see [Managing classic infrastructure access](/docs/account?topic=account-mngclassicinfra).
 
 ### Access your server on the private network
 {: #access-your-server-on-the-private-network}
 
-The private network is the precursor to interacting with your devices through remote desktop (RDP) using SSH and KVM over IP. The VPN Access tool allows for private network connection to either the closest SSL VPN endpoint or to the endpoint of your choice. VPN access is also required to interact with several services that are offered. For more information, see [Getting started with Virtual Private Networks (VPN)](/docs/iaas-vpn?topic=iaas-vpn-getting-started).
+The private network is the precursor to interacting with your devices through remote desktop (RDP) by using SSH and KVM over IP. The VPN Access tool allows for private network connection to either the closest SSL VPN endpoint or to the endpoint of your choice. VPN access is also required to interact with several services that are offered. For more information, see [Getting started with Virtual Private Networks (VPN)](/docs/iaas-vpn?topic=iaas-vpn-getting-started).
 
 ## Set up monitoring
 {: #set-up-monitoring}
 
-Monitoring is primarily used as a resource to check your server’s uptime, but it can also be useful for knowing when to scale. {{site.data.keyword.mon_full_notm}} services are available to cover various monitoring needs. Standard Monitoring, sometimes referred to as “Basic Monitoring,” is generally used in the ping-and-respond method by using either a slow or service ping that is initiated by using the {{site.data.keyword.cloud_notm}} console. {{site.data.keyword.mon_full_notm}} keeps you aware of any issues with your devices. {{site.data.keyword.mon_full_notm}} gives you insight into the performance and health of your applications, services, and platforms. Your administrators, DevOps teams, and developers have full stack telemetry with advanced features to help them monitor and troubleshoot, define alerts, and design custom dashboards. For more information, see [{{site.data.keyword.mon_full_notm}}](/docs/cloud-infrastructure?topic=cloud-infrastructure-monitoring-iaas).
+Monitoring is primarily used as a resource to check your server’s uptime, but it can also be useful for knowing when to scale. {{site.data.keyword.mon_full_notm}} services are available to cover various monitoring needs. Standard Monitoring, sometimes referred to as “Basic Monitoring,” is generally used in the ping-and-respond method by using either a slow or service ping that is initiated by using the {{site.data.keyword.cloud_notm}} console. {{site.data.keyword.mon_full_notm}} keeps you aware of any issues with your devices. {{site.data.keyword.mon_full_notm}} gives you insight into the performance and health of your applications, services, and platforms. Your administrators, DevOps teams, and developers have a full-stack telemetry with advanced features to help them monitor and troubleshoot, define alerts, and design custom dashboards. For more information, see [{{site.data.keyword.mon_full_notm}}](/docs/cloud-infrastructure?topic=cloud-infrastructure-monitoring-iaas).
 
 ## Configure security groups
 {: #configure-security-groups}
@@ -89,9 +83,10 @@ For more information, see the following information.
 ## Schedule backups
 {: #schedule-backups}
 
-Backups ensure that your data is safely stored outside of your device and protected if it is lost. The following backup services are available to store your data in a secure location in case you ever need to reload your information onto your device:
-- {{site.data.keyword.backup_notm}} is an automated, agent-based backup system. This is a popular “set-and-forget” solution for managing your device. It is compatible with Microsoft software including Exchange and SQL through extra plug-ins. {{site.data.keyword.backup_notm}} users interact with this service through {{site.data.keyword.backup_notm}}’s WebCC web-based application. For more information, see [Getting started with {{site.data.keyword.backup_notm}} services](/docs/Backup?topic=Backup-getting-started).
-- R1Soft Continuous Data Protection is backup software that can be installed on your server or self-managed virtual machine. It is recommended if you want a single interface to manage all of your backups. You interact with R1Soft CDP through your proprietary management system, which allows agents to be installed on virtual machines and offers database plug-ins for extra functions. For more information about R1Soft CDP back-up services, see the [R1Soft Documentation](https://wiki.r1soft.com/display/ServerBackup.html){: external}.
+Backups make sure that your data is safely stored outside of your device and protected if it is lost. The following backup services are available to store your data in a secure location in case you ever need to reload your information onto your device:
+
+- {{site.data.keyword.backup_notm}} is an automated, agent-based backup system. This backup system is a popular “set-and-forget” solution for managing your device. It is compatible with Microsoft software that includes Exchange and SQL through extra plug-ins. {{site.data.keyword.backup_notm}} users interact with this service through {{site.data.keyword.backup_notm}}’s WebCC web-based application. For more information, see [Getting started with {{site.data.keyword.backup_notm}} services](/docs/Backup?topic=Backup-getting-started).
+- R1Soft&reg; Continuous Data Protection is backup software that can be installed on your server or self-managed virtual machine. It is recommended if you want a single interface to manage all of your backups. You interact with R1Soft&reg; CDP through your proprietary management system, which allows agents to be installed on virtual machines and offers database plug-ins for extra functions. For more information about R1Soft&reg; CDP backup services, see the [R1Soft&reg; Documentation](https://wiki.r1soft.com/display/ServerBackup.html){: external}.
 
 ## Next steps
 {: #next-steps-configuring-virtual-servers}

@@ -2,9 +2,9 @@
 
 copyright:
   years: 2018, 2024
-lastupdated: "2024-04-29"
+lastupdated: "2024-07-23"
 
-keywords: reserved virtual servers, cost savings, guaranteed capacity 
+keywords: reserved virtual servers, cost savings, guaranteed capacity
 
 subcollection: virtual-servers
 
@@ -15,7 +15,7 @@ subcollection: virtual-servers
 # Reserved virtual servers
 {: #about-reserved-virtual-servers}
 
-{{site.data.keyword.BluVirtServers}} reserved instances offering is a great option if you want guaranteed resources for future deployments and cost savings. You choose between either a 1 or 3-year contract term for your reserved capacity. Within that reserved capacity, you can reserve a set of up to 20 virtual server instances of a specific size and provision those instances when you need them. You are guaranteed this capacity within the POD and data center of your choice for the life of the contract term.
+{{site.data.keyword.BluVirtServers}} reserved instances offering is a great option if you want guaranteed resources for future deployments and cost savings. You can choose between either a 1 or 3-year contract term for your reserved capacity. Within that reserved capacity, you can reserve a set of up to 20 virtual server instances of a specific size and provision those instances when you need them. You are guaranteed this capacity within the POD and data center of your choice for the life of the contract term.
 
 Reserved virtual server instances offer many advantages, including the following benefits:
 
@@ -30,13 +30,13 @@ Reserved virtual server instances offer many advantages, including the following
 Reserved virtual server instances are public instances that use SAN-backed storage. The following families of public instances are available for this offering.
 
 | Family | Description |
-| ------ | --------- | 
+| ------ | --------- |
 | [Balanced](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#balanced) | Best for common cloud workloads that require a balance of performance and scalability. Uses network-attached storage.|
 | [Compute](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#compute) | Best for moderate to high web traffic workloads.|
 | [Memory](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#memory)  | Best for memory caching and real-time analytics workloads. |
 {: caption="Table 2. Public virtual server family selections" caption-side="top"}
 
-## Limitations 
+## Limitations
 {: #limitations-reserved-virtual-servers}
 
 Consider the following limitations before you reserve capacity and provision a reserved virtual server instance:
@@ -44,7 +44,7 @@ Consider the following limitations before you reserve capacity and provision a r
 * You can't use variable compute profiles.
 * You can't upgrade or downgrade your instances.
 * Reserved capacity cannot be canceled; however, you can reclaim virtual server instances in that capacity.
-    
+
 ## Notifications
 {: #notifications-reserved-virtual-servers}
 

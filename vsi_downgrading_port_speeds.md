@@ -1,36 +1,30 @@
 ---
 
 copyright:
-  years: 2014, 2023
-lastupdated: "2021-05-20"
+  years: 2014, 2024
+lastupdated: "2024-07-23"
 
 subcollection: virtual-servers
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:tip: .tip}
-{:table: .aria-labeledby="caption"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Downgrading port speeds
 {: #downgrading-port-speeds}
 
-You can temporarily downgrade port speeds for your virtual server instance without opening a ticket. You can only downgrade, disconnect, or reconnect at a maximum of whatever you are already paying for. You cannot upgrade from this option. The changes stay in the console until you change it back. No billing changes are made, and downgrading your server temporarily does not lower your bill. If you need a permanent change to your port speed, you must open a sales ticket.
+You can temporarily downgrade port speeds for your virtual server instance without opening a ticket. You can only downgrade, disconnect, or reconnect at a maximum of whatever you are already paying for. You cannot upgrade from this option. The changes stay in the console until you change it back. No billing changes are made, and downgrading your server temporarily does not reduce your bill. If you need a permanent change to your port speed, you must open a sales ticket.
 {: shortdesc}
 
 ## Before you begin
 {: #before-you-begin-downgrading-port-speeds}
 
-First, go to the device menu and make sure that you have the correct account permissions to complete the task. 
+First, go to the device menu and make sure that you have the correct account permissions to complete the task.
 
 * Go to your console's device menu. For more information, see [Navigating to devices](/docs/virtual-servers?topic=virtual-servers-navigating-devices).
-* Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions. 
+* Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
 
-For more information about permissions, see [Classic infrastructure permissions](/docs/account?topic=account-infrapermission) and [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
+For more information about permissions, [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
 
 ## Downgrading port speeds
 {: #downgrade-port-speed}

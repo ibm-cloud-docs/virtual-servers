@@ -2,22 +2,15 @@
 
 copyright:
   years: 2020, 2024
-lastupdated: "2022-03-30"
+lastupdated: "2024-07-23"
 
-keywords: 
+keywords:
 
 subcollection: cloud-infrastructure
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:external: target="_blank" .external}
-{:faq: data-hd-content-type='faq'}
+{{site.data.keyword.attribute-definition-list}}
 
 # FAQs: {{site.data.keyword.mon_full_notm}}
 {: #faq-monitoring}
@@ -26,18 +19,16 @@ subcollection: cloud-infrastructure
 {: #why-transition-monitoring}
 {: faq}
 
-IBM Cloud is committed to providing you the highest quality of service and is making the transition to a new monitoring offering. {{site.data.keyword.mon_full_notm}} offers an improved customer experience, robust functionality, and customizable dashboards for your resource monitoring needs. For more information, see [{{site.data.keyword.mon_full_notm}}](/docs/monitoring?topic=monitoring-getting-started).
+{{site.data.keyword.cloud}} is committed to providing you with the highest quality of service and is making the transition to a new monitoring offering. {{site.data.keyword.mon_full_notm}} offers an improved customer experience, robust functionality, and customizable dashboards for your resource monitoring needs. For more information, see [{{site.data.keyword.mon_full_notm}}](/docs/monitoring?topic=monitoring-getting-started).
 
 ## What benefits does {{site.data.keyword.mon_full_notm}} provide?
 {: #what-are-new-benefits}
 {: faq}
 
-* A cloud native and container intelligence management system that you can include as part of your {{site.data.keyword.cloud}} architecture.
-
-* Provides real-time operational visibility into the performance and health of your applications, IBM services and platforms.
-
+* A cloud-native and container intelligence management system that you can include as part of your {{site.data.keyword.cloud}} architecture.
+* Provides real-time operational visibility into the performance and health of your applications, IBM services, and platforms.
 * A visual representation of your infrastructure. {{site.data.keyword.mon_full_notm}} automatically collects important metrics such as CPU usage, used and available memory, response times, network latency, and more.
-* Offers administrators, DevOps teams, and developers full stack telemetry with advanced features to monitor and troubleshoot, define alters, and design custom dashboards. 
+* Administrators, DevOps teams, and developers full-stack have telemetry with advanced features to monitor and troubleshoot, define alters, and design custom dashboards.
 
 ## How does {{site.data.keyword.mon_full_notm}} pricing work?
 {: #will-monitoring-cost-more}
@@ -55,12 +46,13 @@ For more information about plans and pricing, see [{{site.data.keyword.mon_full_
 {: faq}
 
 You can install and configure an {{site.data.keyword.mon_full_notm}} agent for any of the following environments:
-* Kubernetes, GKE, and OpenShift
-* Docker containers or for non-containerized services
-* Mesos, Marathon, and DCOS
+
+* Kubernetes, GKE, and Red Hat OpenShift
+* Docker containers or for noncontainerized services
+* Mesos&reg;, Marathon, and DCOS
 * Linux installations
 
-In addition to the previously listed environments, you can see all of the IBM Cloud services that are {{site.data.keyword.mon_full_notm}}-enabled [here](/docs/monitoring?topic=monitoring-cloud_services).
+In addition to the previously listed environments, you can see all of the {{site.data.keyword.cloud}} services that are {{site.data.keyword.mon_full_notm}}-enabled [here](/docs/monitoring?topic=monitoring-cloud_services).
 
 For information about installing {{site.data.keyword.mon_full_notm}}, see [Getting started tutorial](/docs/monitoring?topic=monitoring-getting-started).
 
@@ -74,7 +66,7 @@ For information about provisioning, configuring your agent, managing data, and a
 {: #what-if-i-use-custom-images-with-nimsoft}
 {: faq}
 
-To simplify this transition, IBM Cloud automatically removed the "Advanced Monitoring" attribute from all of your custom images to prevent provisioning failures after **8 May 2020** when Advanced Monitoring by Nimsoft is no longer available. By removing this attribute, you can continue to use custom images without interruption. If you want to continue with resource monitoring, you need to manually install {{site.data.keyword.mon_full_notm}} after a new resource is provisioned.
+To simplify this transition, {{site.data.keyword.cloud}} automatically removed the "Advanced Monitoring" attribute from all of your custom images to prevent provisioning failures after **8 May 2020** when Advanced Monitoring by Nimsoft is no longer available. By removing this attribute, you can continue to use custom images without interruption. If you want to continue with resource monitoring, you need to manually install {{site.data.keyword.mon_full_notm}} after a new resource is provisioned.
 
 ## How do I get help if I have issues with this transition?
 {: #how-do-i-get-transition-help}
@@ -87,7 +79,7 @@ If you need help transitioning to {{site.data.keyword.mon_full_notm}}, you can c
 {: faq}
 
 * **End of Marketing (EOM): 8 May 2020** After this date, Advanced Monitoring by Nimsoft is no longer available for purchase.
-* **End of Service (EOS): 8 July 2020** After this date, Advanced Monitoring by Nimsoft is no longer supported and usage is withdrawn by IBM Cloud.
+* **End of service (EOS): 8 July 2020** After this date, Advanced Monitoring by Nimsoft is no longer supported and usage is withdrawn by {{site.data.keyword.cloud}}.
 
 ## What happens if I can't make the transition on time?
 {: #what-if-i-cannot-transition-on-time}

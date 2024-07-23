@@ -2,7 +2,8 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-01-05"
+lastupdated: "2024-07-23"
+
 
 keywords:
 
@@ -26,27 +27,27 @@ When you plan for an OS EOS, keep the following information in mind:
 -You can upgrade your instances on your own.
 -Continue with your EOS OS (at your own risk).
 
-
 ## Available options when you modernize your OS
 {: #options-when-upgrading-os-classic}
 
 When you plan for an OS EOS, keep the following information in mind:
 
-* You can use the assistance of an IBM partner. 
+* You can use the assistance of an IBM partner.
 * You can upgrade your instances on your own.
 * Continue with your EOS OS (at your own risk).
 
-### Wanclouds partnership
+### Wanclouds&reg; partnership
 {: #partner-classic}
 
-IBM has a partnership with Wan clouds. For more information, see [Wanclouds](https://wanclouds.net/ibm){: external}.
+IBM has a partnership with Wanclouds&reg;. For more information, see [Wanclouds&reg;](https://wanclouds.net/ibm){: external}.
 
 ### Upgrade your OS on your own
 {: #upgrade-os-classic}
 
 If you decide to upgrade your OS yourself, you can use one of three options:
-- Side-by-side upgrade (migration).
-- OS Reload
+
+* Side-by-side upgrade (migration).
+* OS Reload
 
 Follow your OS vendor's guidance when you upgrade your OS.
 
@@ -65,18 +66,21 @@ Best practices for side-by-side upgrades:
 -Create a backup of your original instance. For more information, see [Getting started with IBM Cloud backup for Classic](/docs/Backup?topic=Backup-getting-started).
 -Test that the new instance with the updated OS works properly before you migrate data or delete your original instance.
 
-#### OS reload
+### OS reload
 {: #os-reload-classic}
 
 With OS Reload, you can reconfigure a device with a different operating system. Along with the OS reload feature, you can use the OS reload with disk preservation option.
 
-**OS reload with disk preservation**
+#### OS reload with disk preservation
+{: #os-reload-disk-preservation-classic}
 
 OS reload with disk preservation option configures your current primary disk as a secondary disk while it retains all data and creates a new primary disk.
 
 Disk preservation converts the primary drive to a portable storage device. This option is available only on virtual devices and incurs charges based on the billing patterns of the device. Charges can be canceled by canceling the portable storage device anytime after it was created.
 
-**Best practices for OS Reload upgrades:**
+#### Best practices for OS reload upgrades
+{: #best-practices-os-reload-classic}
+
 - Read your OS vendor's documentation to understand the differences between the old and new OS versions.
 - See [Reloading the OS](/docs/bare-metal?topic=bare-metal-reloading-the-os).
 - Consider the instance downtime that is required for the upgrade.
@@ -90,7 +94,7 @@ If you choose to continue with an EOS OS, consider the following information:
 - The EOS OS can't receive security updates.
 - The OS isn't tested for hardware, drivers, or firmware.
 - Support isn't available for performance or operational issues on the server with an EOS OS.
-   - Vendor support is unavailable for an EOS OS.
+   - Vendor support is not available for an EOS OS.
    - EOS operating systems are not supported by {{site.data.keyword.Bluemix_notm}} Technical Support.
 
 ## End of Support (EOS) announcements
@@ -115,4 +119,4 @@ For existing customers, upgrade to the latest version. For more information, see
 {: #windows-2012-clssic}
 
 Windows Server 2012 and Windows Server 2012 R2 EOS date is 10 October 2023. For more information, see [Overview of Windows Server upgrades](https://learn.microsoft.com/en-us/windows-server/get-started/upgrade-overview){: external}.
-No additional licensing costs are incurred to move to a newer software version when you use IBM’s License Included options. IBM Cloud® is governed by the Service Provider License Agreement (SPLA) with Microsoft. For more information, see [License Mobility Deployment Process](/docs/microsoft?topic=microsoft-microsoft-license-mobility-process).
+No additional licensing costs are incurred to move to a newer software version when you use IBM’s license-included options. IBM Cloud® is governed by the Service Provider License Agreement (SPLA) with Microsoft. For more information, see [License Mobility Deployment Process](/docs/microsoft?topic=microsoft-microsoft-license-mobility-process).

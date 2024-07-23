@@ -2,8 +2,7 @@
 
 copyright:
   years: 2021, 2024
-
-lastupdated: "2024-05-14"
+lastupdated: "2024-07-23"
 
 keywords:
 
@@ -23,10 +22,10 @@ Use the release notes to learn the latest updates to {{site.data.keyword.BluVirt
 
 For more information about changes to the {{site.data.keyword.BluVirtServers}} API, see [{{site.data.keyword.BluVirtServers}} API reference overview](/docs/virtual-servers?topic=virtual-servers-api-reference)
 
-## Febuary 2024
+## February 2024
 {: #virtual-servers-feb24}
 
-### 07 Febuary 2024
+### 07 February 2024
 {: #virtual-servers-jan1624}
 {: release-note}
 
@@ -51,7 +50,7 @@ Debian 12
 {: release-note}
 
 SSL Certificate Order is deprecated
-:   As of 15 April 2024, SSL Certificate Order is no longer available for purchase. As of 15 December 2024,  SSL Certificate Order is no longer supported for new orders or reorders. Only existing certificates that are not expired are still available for you to download, reissue, or revoke. For more information, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation-ssl-certificates).
+:   As of 15 April 2024, SSL Certificate Order is no longer available for purchase. As of 15 December 2024, SSL Certificate Order is no longer supported for new orders or reorders. Only existing certificates that are not expired are still available for you to download, reissue, or revoke. For more information, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation).
 {: deprecated}
 
 ### 07 December 2023
@@ -69,7 +68,7 @@ CentOS Stream 9
 {: release-note}
 
 Microsoft&reg; SQL Server 2019 and 2022
-:   Classic infrastructure bare metal and virutal servers now support Microsoft SQL Server [2019](https://www.microsoft.com/en-us/sql-server/sql-server-2019){: external} and [2022](https://www.microsoft.com/en-us/sql-server/sql-server-2022){: external}. 
+:   Classic infrastructure bare metal and virtual servers now support Microsoft SQL Server [2019](https://www.microsoft.com/en-us/sql-server/sql-server-2019){: external} and [2022](https://www.microsoft.com/en-us/sql-server/sql-server-2022){: external}.
 
 ## May 2023
 {: #virtual-servers-may23}
@@ -108,7 +107,7 @@ End of Marketing (EOM) for Autoscale
 {: #virtual-servers-jun0821}
 {: release-note}
 
-KVM console now available
+KVM console is now available
 :   You can now access the KVM console of your virtual servers directly from IBM Cloud console. For more information, see [Accessing the KVM console for virtual servers](/docs/virtual-servers?topic=virtual-servers-access-kvm-console).
 
 ## July 2020
@@ -152,7 +151,7 @@ Improve network performance by configuring jumbo frames
 {: release-note}
 
 Autoscale now available for virtual servers
-:   Auto scale for {{site.data.keyword.BluVirtServers}} provides you with the ability to automate the manual scaling process that's associated with adding or removing instances to support your business applications. This automation sets up new instances automatically as more resources are needed and then those instances are shut down and removed when the extra load subsides. Auto scale uses groups to contain the policies that change how your environment expands or shrinks. These policies use actions to add or remove virtual server based on your business and application needs. For more information, see [Auto scale](/docs/virtual-servers?topic=virtual-servers-about-auto-scale).
+:   Auto scale for {{site.data.keyword.BluVirtServers}} provides you with the ability to automate the manual scaling process that's associated with adding or removing instances to support your business applications. This automation sets up new instances automatically as more resources are needed and then those instances are shut down and removed when the extra load subsides. Auto scale uses groups to contain the policies that change how your environment expands or shrinks. These policies use actions to add or remove a virtual server based on your business and application needs.
 
 ## April 2019
 {: #virtual-servers-apr19}
@@ -178,8 +177,8 @@ New profile families for virtual server
 {: #virtual-servers-oct0318}
 {: release-note}
 
-Provision virtual server by using 3rd-party images (deprecated)
-:   Provisioning a virtual server instance from an image that was created by a 3rd party vendor by using the IBM Cloud catalog Cloud Images link is now deprecated. 
+Provision a virtual server by using 3rd-party images (deprecated)
+:   Provisioning a virtual server instance from an image that was created by a 3rd party vendor by using the IBM Cloud catalog Cloud Images link is now deprecated.
 {: deprecated}
 
 ### 30 October 2018
@@ -193,7 +192,7 @@ View suspended billing on your virtual server
 {: #virtual-servers-oct3118}
 {: release-note}
 
-Placement groups available on virtual servers
+Placement groups are available on virtual servers
 :   With placement groups, you can use public instances to build for high availability within a data center or provide and extra level of fault tolerance within a larger deployment. Each placement group can be assigned a maximum of 5 new virtual server instances. Each virtual server is provisioned on different physical hosts. For more information, see [Placement groups](https://cloud.ibm.com/docs/virtual-servers?topic=virtual-servers-placement-groups).
 
 ## September 2018
@@ -203,5 +202,5 @@ Placement groups available on virtual servers
 {: #virtual-servers-sep2618}
 {: release-note}
 
-Reserved servers now available
+Reserved servers are now available
 :   Reserved servers offer guaranteed resources for future deployments and with one or three year contract terms, offers you cost savings. You can reserve up to 20 virtual server instances of a specific size. Reserved capacity must be provisioned first before other virtual server instances. For more information, see [Reserved virtual servers](/docs/virtual-servers?topic=virtual-servers-about-reserved-virtual-servers).

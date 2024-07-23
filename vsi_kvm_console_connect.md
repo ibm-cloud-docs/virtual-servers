@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2024
-lastupdated: "2023-09-13"
+lastupdated: "2024-07-23"
 
 keywords: classic virtual servers, access kvm console, connect to virtual server, kvm console, kvm virtual servers, virtual server kvm, vsi kvm, classic kvm
 
@@ -47,10 +47,10 @@ Use the following steps to connect to a console by using {{site.data.keyword.clo
 
 In the KVM console window, you can restart, power on, and power off the virtual server. To perform these actions, click the overflow icon on the upper right of the console's window, then click the appropriate action.
 
-You can also use the **Ctrl + Alt + Del** key combination from the actions, which works with all OSes.
+You can also use the Ctrl + Alt + Del key combination from the actions, which works with all OSes.
 {: tip}
 
-If the console disconnects, you can reconnect by clicking **Reconnect**. 
+If the console disconnects, you can reconnect by clicking **Reconnect**.
 
 ## Disconnecting from the KVM console
 {: #disconnect}

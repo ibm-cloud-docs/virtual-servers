@@ -2,24 +2,15 @@
 
 copyright:
   years:  2020, 2024
-lastupdated: "2021-05-18"
+lastupdated: "2024-07-23"
 
-keywords: IBM Cloud monitoring, platform metrics, metrics, virtual server monitoring metrics, classic monitoring metrics, classic metrics
+keywords: platform metrics, metrics, virtual server monitoring metrics, classic monitoring metrics, classic metrics
 
 subcollection: cloud-infrastructure
 
 ---
 
-{:new_window: target="_blank"}
-{:shortdesc: .shortdesc}
-{:screen: .screen}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:codeblock: .codeblock}
-{:tip: .tip}
-{:download: .download}
-{:important: .important}
-{:note: .note}
+{{site.data.keyword.attribute-definition-list}}
 
 # Classic virtual server instance metrics definitions
 {: #monitoring-classic-metrics}
@@ -45,7 +36,7 @@ Average percentage of time that elapsed running instructions across all CPUs
 ## CPU usage
 {: #cpu-usage-cumulative-gen1}
 
-Cumulative elapsed time that a CPU is running instructions since virtual server instance start
+Cumulative elapsed time that a CPU is running instructions from the start of the virtual
 
 | Metadata | Description |
 |----------|-------------|
@@ -68,10 +59,10 @@ Average percentage of time that a CPU is running instructions
 | `Segment by` | `IBM IS Generation, 1, resource name, Virtual CPU index` |
 {: caption="Table 3: Average CPU usage metric metadata" caption-side="top"}
 
-## Free memory
+## Available memory
 {: #free-memory-gen1}
 
-Free memory of the virtual server instance in kibibytes (1024 bytes)
+Available memory of the virtual server instance in kibibytes (1024 bytes)
 
 | Metadata | Description |
 |----------|-------------|
@@ -97,7 +88,7 @@ Number of I/O requests in flight
 ## Memory usage percentage
 {: #memory-usage-percentage-gen1}
 
-Percent of used memory of the virtual server instance
+Percentage of used memory of the virtual server instance
 
 | Metadata | Description |
 |----------|-------------|
@@ -149,7 +140,7 @@ Total memory of the virtual server instance in kibibytes (1024 bytes)
 ## Volume I/O throughput read
 {: #volume-io-throughput-read-gen1}
 
-Data read from the volume (MiB/s).
+Data that is read from the volume (mebibytes per second).
 
 | Metadata | Description |
 |----------|-------------|
@@ -162,7 +153,7 @@ Data read from the volume (MiB/s).
 ## Volume I/O throughput total
 {: #volume-io-throughput-total-mib-gen1}
 
-All volume I/O, in MiB/s.
+All volume I/O, in mebibytes per second.
 
 | Metadata | Description |
 |----------|-------------|
@@ -175,7 +166,7 @@ All volume I/O, in MiB/s.
 ## Volume I/O throughput written
 {: #volume-io-throughput-written-mib-gen1}
 
-Data that is written to the volume (MiB/s)
+Data that is written to the volume (mebibytes per second)
 
 | Metadata | Description |
 |----------|-------------|

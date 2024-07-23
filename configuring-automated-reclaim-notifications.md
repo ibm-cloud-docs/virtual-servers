@@ -2,20 +2,13 @@
 
 copyright:
   years: 2018, 2024
-lastupdated: "2021-09-13"
+lastupdated: "2024-07-23"
 
 subcollection: virtual-servers
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:note: .note}
-{:pre: .pre}
-{:tip: .tip}
-{:table: .aria-labeledby="caption"}
-{:external: :external}
+{{site.data.keyword.attribute-definition-list}}
 
 # Configuring notifications for reclaims of transient virtual servers
 {: #configuring-notifications-for-reclaims-of-transient-virtual-servers}
@@ -53,7 +46,7 @@ The transient virtual server webhook can be set up through the SLDN API by using
    ```
    {: pre}
 
-For more information, see the SLDN API method documentation for [webhook set-up](http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/setTransientWebhook/){: external}.
+For more information, see the SLDN API method documentation for [webhook set up](http://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/setTransientWebhook/){: external}.
 
 ### Canceling reclaim-scheduled notifications
 {: #canceling-reclaim-scheduled-notifications}
@@ -76,11 +69,11 @@ To verify `reclaim-scheduled` notifications, review the following items:
 
     Check the time that the request was received against the timestamp in the request headers. If it is off by more than 30 seconds or so, do not accept the request. This action can help prevent replay attacks.
 
-2. The nonce found in the request's "X-IBM-Nonce" header
+2. The nonce is found in the request's "X-IBM-Nonce" header
 
     This value is a string that is randomly generated when the request is sent. You can choose to store previously received nonces to compare against the nonce included in the request. If the nonce in the request was used before, do not accept the request. This action can help prevent replay attacks.
 
-3. Hash Message Authentication Code (HMAC) located in the request's "Authorization" header
+3. Hash Message Authentication Code (HMAC) is located in the request's "Authorization" header
 
     This value is a string that is hashed by using the HMAC-SHA256 algorithm that uses the provided secret string as the key, and then encoded into Base64. You need to construct the string, hash it, encode it to Base64, and then compare the result to the signature in the "Authorization" header. If they do not match, do not accept the request. See next section for details on creating the HMAC signature.
 
@@ -94,7 +87,7 @@ To verify the HMAC signature that is located in the request's "Authorization" he
    The canonical string must contain the following data:
    * Method Type - POST in this case (must be uppercase)
    * Content Type - Found in the "Content-Type" header
-   * Payload - The body of the request. This example assumes that the JSON string is decoded into a native associative array or dictionary.  
+   * Payload - The body of the request. This example assumes that the JSON string is decoded into a basic associative array or dictionary.
    * Nonce - Found in the "X-IBM-Nonce" header
 
    To create the canonical string, combine the canonical string data in the following EXACT order with no delimiters:
@@ -107,7 +100,7 @@ To verify the HMAC signature that is located in the request's "Authorization" he
 
 3. Encode the hashed canonical string to Base64.
 
-4. Compare the resulting string to the signature in the 'Authorization' header.  
+4. Compare the resulting string to the signature in the 'Authorization' header.
 
    Use a timing-attack safe string comparison function. If the strings don't match, don't accept the request.
 
@@ -129,7 +122,7 @@ Key names might not be listed as shown in the example.
    }
 ```
 {: codeblock}
-		
+
 
 
 ## Code examples for creating the HMAC signature

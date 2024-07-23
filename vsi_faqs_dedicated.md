@@ -2,19 +2,13 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2021-05-19"
+lastupdated: "2024-07-23"
 
 subcollection: virtual-servers
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:new_window: target="_blank"}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-
+{{site.data.keyword.attribute-definition-list}}
 
 # FAQs: Dedicated hosts and instances
 {: #faqs-dedicated-hosts-and-instances}
@@ -30,6 +24,7 @@ subcollection: virtual-servers
 {: faq}
 
 Both offerings are guaranteed single tenancy. Dedicated hosts provide the flexibility to specify on which host to provision dedicated host instances, and these other benefits:
+
 * Control over which {{site.data.keyword.cloud_notm}} data center the server is placed
 * Ability to manage your servers as workload requirements change; for example, migrate virtual servers between your dedicated hosts on the same POD
 
@@ -39,7 +34,7 @@ Both offerings are guaranteed single tenancy. Dedicated hosts provide the flexib
 
 Yes, you can keep your existing dedicated instances.
 
-## Can I interchange provisioning of dedicated instances (auto–assigned) and dedicated host instances?
+## Can I interchange the provisioning of dedicated instances (auto–assigned) and dedicated host instances?
 {: #can-i-interchange-provisioning-of-dedicated-instances-auto-assigned-and-dedicated-host-instances-}
 {: faq}
 
@@ -73,7 +68,7 @@ You are billed at the hourly or monthly on-demand rate for dedicated hosts. Dedi
 {: #how-is-tenancy-specified-when-provisioning-dedicated-hosts-and-dedicated-host-instances-}
 {: faq}
 
-The default tenancy for dedicated instances is single tenant. You can provision dedicated instances on either a dedicated host (dedicated host instances) or an auto-assigned host (dedicated instances). Dedicated instances on auto-assigned hosts do not offer the same management level as those hosts that are on a dedicated host.
+The default tenancy for dedicated instances is a single tenant. You can provision dedicated instances on either a dedicated host (dedicated host instances) or an auto-assigned host (dedicated instances). Dedicated instances on auto-assigned hosts do not offer the same management level as those hosts that are on a dedicated host.
 
 ## Can I mix and match different dedicated host instance configurations on my dedicated host?
 {: #can-i-mix-and-match-different-dedicated-host-instance-configurations-on-my-dedicated-host-}

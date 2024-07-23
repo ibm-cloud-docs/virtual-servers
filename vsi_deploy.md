@@ -2,9 +2,9 @@
 
 copyright:
   years: 2018, 2024
-lastupdated: "2022-04-15"
+lastupdated: "2024-07-23"
 
-keywords: 
+keywords:
 
 subcollection: virtual-servers
 
@@ -47,7 +47,7 @@ You can deploy any of the App Service starter kits in a dynamically created virt
 ### Enabling your pipeline deployment
 {: #enabling-your-pipeline-deployment}
 
-When you create a starter kit that uses the {{site.data.keyword.cloud_notm}} [App Service](https://{DomainName}/developer/appservice/starter-kits){: external}, the virtual server is enabled. After the app is created, you can then choose where you want to deploy the app. The starter kits are enabled to support deployment by using a Continuous Delivery toolchain. Starter kits can target Kubernetes, Cloud Foundry, and irtual Server. The toolchain includes a source code repository and a deployment pipeline.
+When you create a starter kit that uses the {{site.data.keyword.cloud_notm}} [App Service](https://{DomainName}/developer/appservice/starter-kits){: external}, the virtual server is enabled. After the app is created, you can then choose where you want to deploy the app. The starter kits are enabled to support deployment by using a Continuous Delivery toolchain. Starter kits can target Kubernetes, Cloud Foundry, and Virtual Server. The toolchain includes a source code repository and a deployment pipeline.
 
 The virtual server option works in phases. First, the app code is prepared and stored into a GitLab Git repository and the source code creates a toolchain with a pipeline. The pipeline is defined to build the code and package it into a Debian Package manager format. Then, Terraform provisions a virtual server. Finally, the app is deployed, installed, and started inside the running virtual image and its health is validated.
 
@@ -65,8 +65,8 @@ To view these environment properties, complete the following steps.
 | `TF_VAR_ibm_sl_api_key` | The [infrastructure API key](/docs/virtual-servers?topic=virtual-servers-deploying-to-a-virtual-server#iaas-key) is from the classic infrastructure console. |
 | `TF_VAR_ibm_sl_username` | The [infrastructure username](/docs/virtual-servers?topic=virtual-servers-deploying-to-a-virtual-server#user-key) that identifies the classic infrastructure account |
 | `TF_VAR_ibm_cloud_api_key` | The {{site.data.keyword.cloud_notm}} [API key](/docs/virtual-servers?topic=virtual-servers-deploying-to-a-virtual-server#platform-key) is used to enable service creation. |
-| `PUBLIC_KEY` | [Public key](/docs/virtual-servers?topic=virtual-servers-deploying-to-a-virtual-server#public-key) that is defined to enable access to the virtual server. |
-| `PRIVATE_KEY` | [Private key](/docs/virtual-servers?topic=virtual-servers-deploying-to-a-virtual-server#public-key) that is defined to enable access to the virtual server. You must use `\n` newline style formatting. |
+| `PUBLIC_KEY` | [A public key](/docs/virtual-servers?topic=virtual-servers-deploying-to-a-virtual-server#public-key) that is defined to enable access to the virtual server. |
+| `PRIVATE_KEY` | [A private key](/docs/virtual-servers?topic=virtual-servers-deploying-to-a-virtual-server#public-key) that is defined to enable access to the virtual server. You must use `\n` newline style formatting. |
 | `VI_INSTANCE_NAME` | Auto-generated name for the virtual server. |
 | `GIT_USER` | If you set the [Terraform state](/docs/virtual-servers?topic=virtual-servers-deploying-to-a-virtual-server#tform-state) to store the state of the apply command, the GitLab username is required. |
 | `GIT_PASSWORD` | If you set the [Terraform state](/docs/virtual-servers?topic=virtual-servers-deploying-to-a-virtual-server#tform-state) to store the state of the apply command, the GitLab password is required. |
@@ -93,7 +93,7 @@ The classic infrastructure username is also automatically obtained and used duri
 
 1. Go to the user list by clicking **Manage** > **Access (IAM)** > **Users**.
 2. Click a username, and then click **User details**.
-3. Locate the **VPN Username** property.
+3. Locate the **VPN username** property.
 4. Cut and paste this value and replace the toolchain configuration `TF_VAR_ibm_sl_username`.
 
 #### {{site.data.keyword.cloud_notm}} API key
@@ -129,7 +129,7 @@ The private key must be on a single line. Replace new lines with `\n`. See the f
 ```
 {: screen}
 
-#### Enabling Terraform state
+#### Enabling a Terraform state
 {: #tform-state}
 
 Terraform supports storing the state of the Terraform `apply` command. This state file runs the `apply` command a second time to determine whether any of the Terraform configuration files changed. The state is stored in the Git repo where the app and configuration are automatically set up.
@@ -143,7 +143,7 @@ To enable the state storage, `GIT_USER` and `GIT_PASSWORD` are automatically con
 5. Give your token an appropriate name, select a scope, and click **Create Personal Access Token**.
 6. Click **Copy** from the `Your New Personal Access Token` field, and replace the value of the `GIT_PASSWORD` in the toolchain properties.
 
-The Terraform state is stored in a branch that is called `terraform`, and doesn't trigger the pipeline to run if it was changed.
+The Terraform state is stored in a branch that is called `terraform`, and doesn't trigger the pipeline to run if it changed.
 
 ### Enabling Git operations
 {: #git-repo-vsi}
@@ -153,7 +153,7 @@ When the app is deployed to {{site.data.keyword.cloud_notm}}, a GitLab repositor
 #### Debian folder
 {: #debian-folder}
 
-The `debian` folder holds the configuration that's required to enable the packaging of the app into a Debian package.
+The `debian` folder holds the required configuration to enable the packaging of the app into a Debian package.
 
 #### Terraform folder
 {: #terraform-folder}
@@ -210,7 +210,7 @@ The toolchain process has five stages.
    terraform plan -var "ssh_public_key=$PUBLIC_KEY" -input=false -out tfplan
    ```
    {: pre}
-  
+
 3. The Terraform apply stage applies the Terraform configuration and waits until the IP address of the virtual server is available.
 
    ```console
@@ -218,8 +218,8 @@ The toolchain process has five stages.
    terraform output "host ip" > hostip.txt
    ```
    {: pre}
-  
+
 4. The deployment, install, start stage moves the Debian package that was built in the first stage into the running virtual server, installs it and then starts it.
-5. The health check stage validates the health endpoint is available on the app and then completes the pipeline.
+5. The health check stage validates the health endpoint that is available on the app and then completes the pipeline.
 
 To access the app after it starts, check the logs of the Health Check Stage. Click the URL links that are listed in the logs that show the IP address and port of the app.

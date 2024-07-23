@@ -11,7 +11,7 @@ toc:
     audience: service
     href: /docs/virtual-servers
     console-page: "/classic"
-    product-page: "https://www.ibm.com/cloud/virtual-servers"
+    product-page: "https://www.ibm.com/products/virtual-servers"
     path: virtual-servers
     label: Virtual Servers for Classic
 #  List your getting started tutorial (getting-started.md) as the first item in the Get started nav group. See https://test.cloud.ibm.com/docs/writing?topic=writing-navigation for more details on the toc design.
@@ -118,7 +118,6 @@ toc:
           - include: ../bare-metal/vsi_reload_os_image.md
           - include: ../bare-metal/adding-ipv6-ubuntu-systems.md
           - include: ../bare-metal/install-clamav.md
-          - include: ../bare-metal/notify-users-approaching-bandwidth-limitation-cpanelwhm.md
           - include: ../bare-metal/local-wsus.md
           - vsi_gpu_nvidia_drivers.md
       - vsi_managing_placegroup.md
@@ -148,7 +147,6 @@ toc:
       topics:
       - vsi_api.md
       - vsi_provision_api.md
-      - vsi_activity_tracker_events.md
       - vsi_high-availability.md
   - navgroup:
       id: help
@@ -158,7 +156,6 @@ toc:
       - topicgroup:
           label: Troubleshooting
           topics:
-          - ts_capacity_bp.md
           - vsi_troubleshooting_virtualserver_readonly.md
           - vsi_troubleshooting_unable_to_view_password.md
           - vsi_troubleshooting_server_connectivity_issues.md
