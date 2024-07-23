@@ -147,7 +147,6 @@ toc:
       topics:
       - vsi_api.md
       - vsi_provision_api.md
-      - vsi_activity_tracker_events.md
       - vsi_high-availability.md
   - navgroup:
       id: help
