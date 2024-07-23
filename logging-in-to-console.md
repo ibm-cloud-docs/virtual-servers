@@ -2,7 +2,7 @@
 
 copyright:
   years: 2019, 2024
-lastupdated: "2019-11-22"
+lastupdated: "2024-07-23"
 
 keywords: Accessing the Device List, {{site.data.keyword.cloud_notm}} console
 
@@ -15,7 +15,7 @@ subcollection: virtual-servers
 # Navigating to devices
 {: #navigating-devices}
 
-Use the [{{site.data.keyword.cloud_notm}} console](#using-console) to locate your existing {{site.data.keyword.cloud}} devices or provision new ones. 
+Use the [{{site.data.keyword.cloud_notm}} console](#using-console) to locate your existing {{site.data.keyword.cloud}} devices or provision new ones.
 
 ## Using the {{site.data.keyword.cloud_notm}} console to go to your devices
 {: #using-console}
