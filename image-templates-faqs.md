@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2024
-lastupdated: "2021-05-18"
+lastupdated: "2024-07-23"
 
 keywords: iso template, boot my virtual server instance from an image
 
@@ -11,10 +11,7 @@ subcollection: virtual-servers
 ---
 
 
-{:new_window: target="_blank"}
-{:tip: .tip}
-{:external: target="_blank" .external}
-{:faq: data-hd-content-type='faq'}
+{{site.data.keyword.attribute-definition-list}}}
 
 # FAQs: Image templates
 {: #faq-image-templates}
@@ -31,14 +28,14 @@ A standard image template is the {{site.data.keyword.virtualmachineslong}} imagi
 
 The ISO template is a type of template that is reserved for ISOs that can be used to start a virtual server instance. ISO templates are available in two versions: public and private. Public ISO templates are preconfigured templates that are provided by {{site.data.keyword.BluSoftlayer_notm}} and can be used by any customer. Private ISO templates are created by importing an image of an ISO stored on an {{site.data.keyword.objectstorageshort}} account. In order for an ISO to be imported to the Image Templates screen, the ISO must be bootable.
 
-{{site.data.keyword.BluSoftlayer_notm}} supported operating systems can be used only to load an ISO template onto an instance. For more information, see [Supported Operating Systems](/docs/bare-metal?topic=bare-metal-about-software&locale=en#supported-operating-systems-for-ibm-cloud-virtual-servers){: external}.
+{{site.data.keyword.BluSoftlayer_notm}} supported operating systems can be used only to load an ISO template onto an instance. For more information, see [Lifecycle for operating systems and add-ons](/docs/bare-metal?topic=bare-metal-product-lifecycle-classic).
 {: tip}
 
 ## What is the difference between a public image and a private image?
 {: #what-is-the-difference-between-a-public-image-and-a-private-image-}
 {: faq}
 
-A public image is an image that can be viewed and applied to a new virtual server by any {{site.data.keyword.BluSoftlayer_notm}} user. {{site.data.keyword.BluSoftlayer_notm}} currently creates public images as a solution for configuration options on different devices. You can also make images public and available to any user. A private image is an image that can be viewed only by authorized users. Authorized users default to any user on your account; however, images also can be shared between multiple accounts by updating the sharing options in the {{site.data.keyword.cloud_notm}} console.
+A public image is an image that can be viewed and applied to a new virtual server by any {{site.data.keyword.BluSoftlayer_notm}} user. {{site.data.keyword.BluSoftlayer_notm}} currently creates public images as a solution for configuration options on different devices. You can also make images public and available to any user. A private image is an image that can be viewed only by authorized users. Authorized users default to any user on your account; however, images can also be shared between multiple accounts by updating the sharing options in the {{site.data.keyword.cloud_notm}} console.
 
 ## Can I capture and deploy virtual servers with my self-managed hypervisor?
 {: #can-i-capture-and-deploy-virtual-servers-with-my-self-managed-hypervisor-}
