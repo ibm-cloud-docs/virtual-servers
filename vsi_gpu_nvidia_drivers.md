@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-07-24"
 
 subcollection: virtual-servers
 
@@ -21,7 +21,7 @@ You need to install the following software before you can use a GPU profile with
 * **BLAS** (_Basic Linear Algebra Subprograms_) - routines that provide the building blocks for performing basic linear algebraic operations such as one of the following libraries:
    - [Atlas&reg;](http://math-atlas.sourceforge.net/atlas_install/){: external}
    - [cuBLAS](https://developer.nvidia.com/cublas){: external}
-   - [MKL](hhttps://www.intel.com/content/www/us/en/resources-documentation/developer.html){: external}
+   - [MKL](https://www.intel.com/content/www/us/en/resources-documentation/developer.html){: external}
    - [OpenBLAS](http://www.openblas.net/){: external}
 
 If you are installing a machine learning framework, you need to install framework software such as one of these platforms in addition to the preceding software packages.
