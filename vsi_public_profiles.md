@@ -2,9 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2023-06-19"
-
-keywords: 
+lastupdated: "2024-07-24"
 
 subcollection: virtual-servers
 
@@ -26,7 +24,7 @@ The following virtual server instance families are available.
 Depending on your instance type, some families might not be available.
 {: note}
 
-| Families  | Description                                                                                              |
+| Profile family  | Description                                                                                              |
 | ----------------------- | -------------------------------------------------------------------------------------------------------- |
 | [Balanced](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#balanced) | Best for common workloads that require a balance of performance and scalability. Uses network-attached storage. |
 | [Balanced local storage](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#balanced-local-storage) | Best for large database workloads that require high I/O performance with low latency. |
@@ -35,9 +33,6 @@ Depending on your instance type, some families might not be available.
 | [Memory](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#memory)  | Best for memory caching and real-time analytics workloads. |
 | [GPU](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#gpu)  | Best for high-performance workloads. |
 {: caption="Table 1. Public virtual server family selections" caption-side="top"}
-
-Some of these families are also available for {{site.data.keyword.vsi_is_full}}. For more information, see [{{site.data.keyword.vsi_is_short}}](/docs/vpc-on-classic-vsi?topic=vpc-on-classic-vsi-getting-started).
-{: tip}
 
 ## Balanced
 {: #balanced}
@@ -67,7 +62,7 @@ The offering is available in the following profiles:
 {: #storage-notes-balanced}
 
 * SAN primary boot disk (25 or 100 GB) with more disks available, up to 2 TB each (five total disks allowed).
-* Pricing for public virtual servers that use SAN storage includes virtual CPU, memory, and minimum primary boot disk. Extra disk prices depend on the disk size and quantity that you select.  
+* Pricing for public virtual servers that use SAN storage includes virtual CPU, memory, and minimum primary boot disk. Extra disk prices depend on the disk size and quantity that you select.
 
 All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), databases that are supported, and software add-ons are also available with this offering.
 
@@ -103,7 +98,7 @@ The balanced local storage profiles are primarily for large database workloads t
 *	Balanced local storage is globally available; however, the type of storage (local SSD or local HDD) depends on the data center location.
 *	You can't detach primary or secondary disks.
 
-All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), databases that are supported, and software add-ons are also available with this offering.  
+All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), databases that are supported, and software add-ons are also available with this offering.
 
 ### Local SSD
 {: #SSD}
@@ -137,7 +132,7 @@ All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and othe
 ## Variable compute
 {: #variable-compute}
 
-Variable compute profiles are best for workloads that don’t require steady, high-CPU performance. Due to the level of CPU oversubscription that is allowed on the hosts for variable compute server instances, CPU performance levels might be less than other public profiles with the same number of cores, while RAM and storage remain consistent.  These variable compute profiles are a lower-cost alternative. For example, you can use this function to test a new feature without incurring the higher cost of a full-performance virtual server instance.
+Variable compute profiles are best for workloads that don’t require steady, high-CPU performance. Due to the level of CPU oversubscription that is allowed on the hosts for variable compute server instances, CPU performance levels might be less than other public profiles with the same number of cores, while RAM and storage remain consistent. These variable compute profiles are a lower-cost alternative. For example, you can use this function to test a new feature without incurring the higher cost of a full-performance virtual server instance.
 
 The offering is available in the following profiles:
 
@@ -152,7 +147,7 @@ The offering is available in the following profiles:
 {: #storage-notes-variable-compute}
 
 * SAN primary boot disk (25 or 100 GB) with an extra disk available, up to 2 TB. You can add one extra secondary disk to your variable compute instance.
-* Pricing for public virtual servers that use SAN storage includes virtual CPU, memory, and minimum primary boot disk. Extra disk prices depend on the disk size and quantity that you select.  
+* Pricing for public virtual servers that use SAN storage includes virtual CPU, memory, and minimum primary boot disk. Extra disk prices depend on the disk size and quantity that you select.
 
 Supported operating systems (such as RHEL, CentOS, Ubuntu, and others), databases that are supported, and software add-ons are also available with this offering.
 
@@ -177,7 +172,7 @@ The offering is available in the following profiles:
 {: #storage-notes-compute}
 
 * SAN primary boot disk (25 or 100 GB) with extra disks available, up to 2 TB each (five total disks allowed).
-* Pricing for public virtual servers that use SAN storage includes virtual CPU, memory, and minimum primary boot disk. Extra disk prices depend on the disk size and quantity that you select.  
+* Pricing for public virtual servers that use SAN storage includes virtual CPU, memory, and minimum primary boot disk. Extra disk prices depend on the disk size and quantity that you select.
 
 All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), databases that are supported, and software add-ons are also available with this offering.
 
@@ -205,7 +200,7 @@ The offering is available in the following profiles:
 {: #storage-notes-memory}
 
 * SAN primary boot disk (25 or 100 GB) with extra disks available, up to 2 TB each (five total disks allowed).
-* Pricing for public virtual servers that use SAN storage includes virtual CPU, memory, and minimum primary boot disk. Extra disk prices depend on the disk size and quantity that you select.  
+* Pricing for public virtual servers that use SAN storage includes virtual CPU, memory, and minimum primary boot disk. Extra disk prices depend on the disk size and quantity that you select.
 
 All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), databases that are supported, and software add-ons are also available with this offering.
 
@@ -214,7 +209,7 @@ All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and othe
 
 GPU profiles are best for high-performance workloads that require more compute density to reduce resource management and costs. The GPU profiles are ideal for artificial intelligence processes, intense graphic and data applications, or developing new applications that require fast performance.
 
-Powered by NVDIA Tesla GPUs, {{site.data.keyword.cloud_notm}} Accelerated Compute “ac1” and "ac2" profiles both offer block and local SSD storage. The following GPU profiles are available globally for you to choose from:  
+Powered by NVDIA Tesla GPUs, {{site.data.keyword.cloud_notm}} Accelerated Compute “ac1” and "ac2" profiles both offer block and local SSD storage. The following GPU profiles are available globally for you to choose from:
 
 |Profile|GPU|GPU RAM (GB)|vCPU|vCPU RAM (GB)|Storage Type|Boot Disk (GB)|Secondary Disks (2 and 3) (GB)|
 |---|---|---|---|---|---|---|---|
@@ -237,7 +232,7 @@ Powered by NVDIA Tesla GPUs, {{site.data.keyword.cloud_notm}} Accelerated Comput
 
 Review the following GPU prerequisites.
 
-1. GPU profile virtual servers are available only on an operating system that supports Hardware Virtual Machine (HVM) boot mode. See the following list for operating systems that support HVM boot mode.  
+1. GPU-profile virtual servers are available only on an operating system that supports Hardware Virtual Machine (HVM) boot mode. See the following list for operating systems that support HVM boot mode.
    - Debian 8
    - Debian 9
    - RHEL 7
@@ -247,7 +242,7 @@ Review the following GPU prerequisites.
    - Windows 2016
    - Windows 2022
 
-2. Appropriate NVIDIA drivers and software must be installed. For more information about software and NVIDIA drivers, see [Installing GPU drivers and software packages](/docs/virtual-servers?topic=virtual-servers-installing-gpu-drivers-and-software-packages#installing-gpu-drivers-and-software-packages).  
+2. Appropriate NVIDIA drivers and software must be installed. For more information about software and NVIDIA drivers, see [Installing GPU drivers and software packages](/docs/virtual-servers?topic=virtual-servers-installing-gpu-drivers-and-software-packages#installing-gpu-drivers-and-software-packages).
 
 The software that you install might have prerequisite software and operating system-specific configurations.
 {: note}

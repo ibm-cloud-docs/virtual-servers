@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-07-24"
 
 subcollection: virtual-servers
 
@@ -87,7 +87,7 @@ Virtual servers are provisioned on a multi-server cloud architecture that pools 
 {: #why-do-i-receive-a-capacity-error-when-provisioning-a-virtual-server-}
 {: faq}
 
-When you provision a virtual server, you might receive an insufficient capacity to complete the request error. When provisioning fails, all the virtual server instances within that particular request fail. A capacity error occurs when the data center or router has insufficient resources to fulfill the service request. Resource availability changes frequently, so you might wait and try again later. For more information about strategies to avoid this error, see [Resource considerations for virtual server instances](/docs/virtual-servers?topic=virtual-servers-vsi-troubleshooting-capacity-considerations#capacity-considerations).
+When you provision a virtual server, you might receive an insufficient capacity to complete the request error. When provisioning fails, all the virtual server instances within that particular request fail. A capacity error occurs when the data center or router has insufficient resources to fulfill the service request. Resource availability changes frequently, so you might wait and try again later.
 
 ## How do I log in to my server?
 {: #how-do-i-log-in-to-my-server-}
@@ -212,7 +212,7 @@ Possible solutions
 
       - `subscription-manager identity`
 
-      If the registration status is “Unknown”, then you need to register the server. To register your server, open a [support case](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+      If the registration status is “Unknown”, then you need to register the server. To register your server, open a [support case](/docs/get-support?topic=get-support-get-supportfaq#contactsupport).
 
 If you need more help, you can [contact support](/docs/get-support?topic=get-support-get-supportfaq#contactsupport).
 

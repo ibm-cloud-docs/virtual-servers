@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2023-09-28"
+lastupdated: "2024-07-24"
 
 keywords: troubleshoot virtual server, virtual servers troubleshooting, tips, error, problem, insufficient capacity
 
@@ -32,9 +32,9 @@ To bring back your server from a read-only status, you need to restart the serve
 1. When your server restarts in rescue mode, log in to the server by using SSH with the root user credentials.
 1. Run a file system check by using the following command:
    `fsck -y -C /dev/xvda1`
-1. Run the same command if you have more files systems such as _/dev/xvda2_, _/dev/xvda3_, and so on.
+1. Run the same command if you have more files systems such as `/dev/xvda2_, _/dev/xvda3`, and other files.
 
-For more help, contact [support](/docs/virtual-servers?topic=virtual-servers-gettinghelp) or open a support case.
+For more help, contact [support](/docs/get-support?topic=get-support-get-supportfaq#contactsupport) or open a support case.
 
 Running a file system check might cause data loss, so make sure that your data is backed up.
 {: note}

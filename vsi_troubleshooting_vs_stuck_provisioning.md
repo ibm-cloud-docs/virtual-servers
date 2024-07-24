@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2023-09-28"
+lastupdated: "2024-07-24"
 
 keywords: troubleshoot virtual server, virtual servers troubleshooting, tips, error, problem, insufficient capacity
 
@@ -26,14 +26,14 @@ If your server is taking too long to provision, one of the following issues migh
 {: tsCauses}
 
 * Vyatta is blocking the connection. Make sure that Vyatta allows connections.
-* If security groups are applied, a security group might be blocking passwords from populating. 
-* Outages or maintenance operations. 
+* If security groups are applied, a security group might be blocking passwords from populating.
+* Outages or maintenance operations.
 
 To attempt to resolve the issue, try the following troubleshooting tasks:
 {: tsResolve}
 
-* Verify Vyatta allows connections.
-* Don't apply a security group until provisioning completes. For more information about security groups, see [Getting started with IBM security groups](/docs/security-groups?topic=security-groups-getting-started).
+* Verify that Vyatta allows connections.
+* Don't add a security group until provisioning completes. For more information about security groups, see [Getting started with IBM security groups](/docs/security-groups?topic=security-groups-getting-started).
 * Check your notifications for outage or maintenance announcements.
 
-If you need more help, [contact support](/docs/virtual-servers?topic=virtual-servers-gettinghelp).
+If you need more help, [contact support](/docs/get-support?topic=get-support-get-supportfaq#contactsupport).

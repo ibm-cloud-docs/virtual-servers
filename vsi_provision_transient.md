@@ -2,21 +2,13 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-05-15"
+lastupdated: "2024-07-24"
 
 subcollection: virtual-servers
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:note: .note}
-{:important: .important}
-{:screen: .screen}
-{:external: target="_blank" .external}
-{:pre: .pre}
-{:tip: .tip}
-{:table: .aria-labeledby="caption"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Provisioning transient instances
 {: #ordering-vs-transient}
@@ -34,8 +26,8 @@ Before you begin, review the following prerequisites.
 
 1. Review the deployment options that are available to you. For more information, see [Transient virtual servers](/docs/virtual-servers?topic=virtual-servers-about-vs-transient).
 
-2. Review virtual server instance capacity considerations.  For more information, see [Resource considerations for virtual server instances](/docs/virtual-servers?topic=virtual-servers-vsi-troubleshooting-capacity-considerations#capacity-considerations).
-  
+2. Review virtual server instance capacity considerations.
+
 3. Open the [virtual server instance](https://cloud.ibm.com/gen1/infrastructure/provision/vs?guestType=transient&cm_sp=Cloud-Product-_-OnPageNav-IBMCloudPlatform_IBMVirtualMachines-_-VSI_Prod_Midpage){: external} page from the {{site.data.keyword.cloud_notm}} console.
 
 ## Provisioning a transient virtual server instance
@@ -43,7 +35,7 @@ Before you begin, review the following prerequisites.
 
 To provision a transient virtual server instance, you need to consider the following information.
 
-You must be logged in to see all available options. 
+You must be logged in to see all available options.
 {: tip}
 
 ### Transient instance
@@ -52,7 +44,7 @@ You must be logged in to see all available options.
 | Field    | Details     |
 | -------- | ----------- |
 | Billing  | Transient instances are only available as hourly instances. If you cancel your hourly instance after 10 days, you pay for only the hours for those 10 days. |
-| Hostname | Can contain labels that are made of alphanumeric characters and dashes, which are separated by periods. Labels cannot be numeric only, begin or end with a dash, nor have consecutive dashes or periods. |
+| Hostname | Hostname can contain labels that are made of alphanumeric characters and dashes, which are separated by periods. Labels cannot be numeric only, begin or end with a dash, nor have consecutive dashes or periods. |
 | Domain | Must have two or more labels that can be made of alphanumeric characters and dashes, which are separated by periods. Labels can't begin or end with a dash, or have consecutive dashes or periods. The last label must be letters only. |
 | Placement group | You can select a placement group for your instance. If you add a placement group, the "spread" rule means that the instances are on different physical hardware. For more information, see [Placement groups](/docs/virtual-servers?topic=virtual-servers-placement-groups). |
 | Location  | Locations are composed of regions (specific geographic areas) and zones (fault tolerant data centers within a region). Select the location where you want your instance to be created. |
@@ -79,7 +71,7 @@ If you choose any software add-ons, they must be compatible with your image to a
 ### Attached storage disks
 {: #attached-storage-disks-transient}
 
-If you need extra storage, you can attach storage disks to your instance. The type of storage disks that are available to you depend on the profile that you select. 
+If you need extra storage, you can attach storage disks to your instance. The type of storage disks that are available to you depend on the profile that you select.
 
 ### Network interface
 {: #network-interface-transient}
@@ -112,6 +104,6 @@ You can also provision a transient virtual server by using the {{site.data.keywo
 {: #next-steps-provisioning-transient}
 
 A series of emails are sent to your administrator: acknowledgment of the provisioning order, provisioning order approval and processing, and provisioning complete. The provisioning complete email includes a link to your *Device Details* page.
- 
+
 After your virtual server is provisioned and available to use, you can configure your virtual servers by using the
 {{site.data.keyword.cloud_notm}} console or {{site.data.keyword.slapi_short}}. For more information, see [Configuring virtual servers](/docs/virtual-servers?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).
