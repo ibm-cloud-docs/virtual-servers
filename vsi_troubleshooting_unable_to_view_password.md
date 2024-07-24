@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2023-09-28"
+lastupdated: "2024-07-24"
 
 keywords: troubleshoot virtual server, virtual servers troubleshooting, tips, error, problem, insufficient capacity
 
@@ -28,5 +28,5 @@ This problem can occur if a firewall prevents the provisioning framework from up
 To attempt to resolve the issue, try the following troubleshooting tasks:
 {: tsResolve}
 
-* Update the firewall to allow the IBM Cloud service IP ranges as described in the firewall [documentation](/docs/vsrx?topic=hardware-firewall-shared-ibm-cloud-ip-ranges){: external}. These ranges allow for provisioning, monitoring, and management. Restart the server so the provisioning network to populate the password in the portal.
-* Bypass the VLAN of the server from the firewall. Then, restart the server to allow provisioning network to populate the password in the portal and then route the VLAN back in the firewall.
+* Update the firewall to allow the IBM Cloud service IP ranges as described in the firewall [documentation](/docs/vsrx?topic=vsrx-ibm-cloud-ip-ranges). These ranges allow for provisioning, monitoring, and management. Restart the server so the provisioning network to populate the password in the portal.
+* Bypass the VLAN of the server from the firewall. Then, restart the server to allow the provisioning network to populate the password in the portal and then route the VLAN back in the firewall.
