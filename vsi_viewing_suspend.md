@@ -2,20 +2,13 @@
 
 copyright:
   years: 2018, 2024
-lastupdated: "2021-11-08"
+lastupdated: "2024-07-24"
 
 subcollection: virtual-servers
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:external: target="_blank" .external}
-{:pre: .pre}
-{:note: .note}
-{:tip: .tip}
-{:table: .aria-labeledby="caption"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Viewing suspend billing feature
 {: #viewing-suspend-billing-feature}
@@ -35,26 +28,26 @@ Your virtual server instances must be configured with the following settings to 
 ## Before you begin
 {: #before-you-begin-viewing-suspend}
 
-First, go to the device menu and make sure that you have the correct account permissions to complete the task. 
+First, go to the device menu and make sure that you have the correct account permissions to complete the task.
 
 * Go to your console's device menu. For more information, see [Navigating to devices](/docs/virtual-servers?topic=virtual-servers-navigating-devices).
-* Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions. 
+* Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
 
-For more information about permissions, see [Classic infrastructure permissions](/docs/account?topic=account-infrapermission) and [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
+For more information about permissions, see [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
 
 ## Viewing the suspend billing feature
 {: #viewing-the-suspend-billing-feature}
 
 To determine whether your virtual server instance supports the suspend billing feature, use the following steps:
 
-1. From the **Devices** menu, select **Device List**. 
-2. From the **Device List**, click the name of your virtual server instance. 
-3. In the **Instance details** section, you can view whether your virtual server instance supports the suspend billing feature. 
+1. From the **Devices** menu, select **Device List**.
+2. From the **Device List**, click the name of your virtual server instance.
+3. In the **Instance details** section, you can view whether your virtual server instance supports the suspend billing feature.
 
 | Field                                 | Value                     |
 | --------------------------------------| ------------------------- |
-| Suspended billing: Enabled on Power Off | Feature is supported.     |
-| Suspended billing: Unavailable          | Feature is not supported. |
+| Suspend billing: Enabled on Power Off | Suspend billing is supported.     |
+| Suspend billing: Not available          | Suspend billing is not supported. |
 {: caption="Table 1. Suspend billing details" caption-side="top"}
 
 ## Viewing the suspend billing feature through the {{site.data.keyword.cloud}} API
@@ -62,7 +55,7 @@ To determine whether your virtual server instance supports the suspend billing f
 
 The following command is an example request of verifying whether your virtual server instance supports the suspend billing feature through the {{site.data.keyword.cloud}} API.
 
-The following JSON request and response is a generic example. 
+The following JSON request and response is a generic example.
 {: note}
 
 ```bash
@@ -78,7 +71,7 @@ The following example is the JSON response to the request:
 ```
 {: pre}
 
-For more information, see the [SLDN API documentation](https://softlayer.github.io/reference/services/SoftLayer_Virtual_Guest/getAttributes/){: external}.
+For more information, see the [SLDN API documentation](https://sldn.softlayer.com/reference/services/SoftLayer_Virtual_Guest/getAttributes/){: external}.
 
 ## Next steps
 {: #next-steps-suspend-billing-feature}
