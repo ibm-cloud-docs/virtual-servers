@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2023-10-23"
+lastupdated: "2024-07-24"
 
 subcollection: virtual-servers
 
@@ -29,7 +29,7 @@ Dedicated virtual servers are more customizable than public virtual servers. The
 First, go to the device menu, and make sure that you have the correct account permissions to complete the tasks.
 
 * Go to your console device menu. For more information, see [Navigating to devices](/docs/virtual-servers?topic=virtual-servers-navigating-devices).
-* Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions. For more information about permissions, see [Classic infrastructure permissions](/docs/account?topic=account-infrapermission) and [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
+* Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions. For more information about permissions, see [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
 
 Resizing or reconfiguring a virtual server initiates a system restart.
 {: important}
@@ -72,8 +72,8 @@ Complete the following steps to resize an existing virtual server (before pre-se
 If you added storage disks when you resized a virtual server, the disks aren't usable until they are configured. Use the following steps to configure new storage disks.
 
 1. From the Windows search bar, enter `Disk management` and click **Create and format hard disk partitions** to open the Disk Management tool.
-2. In the **Initialize Disk** prompt, select the disks that you want to initialize and click **OK**. Your new disks are ready to initialize and appear in the last section of the tool.
-3. Right-click the disk that you want to initialize and select **New simple volume**. The **New Simple Volume Wizard** opens.
+2. In the **Initialize disk** prompt, select the disks that you want to initialize and click **OK**. Your new disks are ready to initialize and appear in the last section of the tool.
+3. Right-click the disk that you want to initialize and select **New simple volume**. The **New Simple Volume** wizard opens.
 4. Follow the steps in the volume wizard and select all the appropriate information for the disk.
 5. After you click **Finish**, repeat steps 2-4 for each disk that you want to initialize.
 6. You can now access your new disks from the file explorer.
