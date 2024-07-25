@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2022
-lastupdated: "2022-04-15"
+  years: 2014, {CURRENT_YEAR}]
+lastupdated: "2024-07-25"
 
 keywords: storage options, local storage, portable storage, portable san, supplemental storage
 
@@ -26,7 +26,7 @@ Local storage is built on disks that are local to the virtual server host. Local
 ## Portable SAN storage
 {: #portable-san-storage}
 
-Portable storage volumes are auxiliary storage solutions that are exclusively available on {{site.data.keyword.BluVirtServers_short}}. The portable SAN is built on {{site.data.keyword.cloud_notm}}'s all flash storage clusters rather than the local host storage. This infrastructure provides greater resiliency if a host fails and can also support much larger volumes. If a host fails, virtual server instances that use SAN-based storage are automatically migrated to other hosts and restarted.
+Portable storage volumes are auxiliary storage solutions that are exclusively available on {{site.data.keyword.BluVirtServers_short}}. The portable SAN is built on {{site.data.keyword.cloud_notm}}'s all Flash Storage clusters rather than the local host storage. This infrastructure provides greater resiliency if a host fails and can also support much larger volumes. If a host fails, virtual server instances that use SAN-based storage are automatically migrated to other hosts and restarted.
 
 Portable storage is an ideal solution if you want to transfer data between virtual servers that exist in any data center on {{site.data.keyword.cloud_notm}}'s network. Portable storage volumes are useful for database applications that require access to raw, unformatted block-level storage and for moving large data sets between {{site.data.keyword.BluVirtServers_short}}.
 
@@ -47,7 +47,7 @@ Logical volume management (LVM) isn't supported as a bootable partitioning schem
 ## Supplemental storage
 {: #supplemental-storage}
 
-Virtual servers are fully compatible with {{site.data.keyword.filestorage_short}} and {{site.data.keyword.blockstorageshort}}, and, {{site.data.keyword.cos_full}}. These storage types are recommended for cluster drives, shared file storage, archival storage, large storage requirements, or specific performance requirements.
+Virtual servers are fully compatible with {{site.data.keyword.filestorage_short}} and {{site.data.keyword.blockstorageshort}}, and {{site.data.keyword.cos_full}}. These storage types are recommended for cluster drives, shared file storage, archival storage, large storage requirements, or specific performance requirements.
 
 For more information about supplemental storage options, see the following resources:
 
