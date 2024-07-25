@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2022
-lastupdated: "2022-04-15"
+  years: 2014, {CURRENT_YEAR}]
+lastupdated: "2024-07-25"
 
 subcollection: virtual-servers
 
@@ -21,10 +21,10 @@ You can view portable storage volumes (PSVs) in the {{site.data.keyword.cloud}} 
 
 First, go to the storage menu and make sure that you have the correct account permissions to complete the task.
 
-* Go to your console's storage menu. For more information, see [Navigating to devices](/docs/virtual-servers?topic=virtual-servers-navigating-devices).
-* Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** Classic infrastructure permission, can adjust the permissions.
+* Go to your console's storage menu.
+* Make sure that you have any necessary account permissions and device access. Only the account owner, or a user with the `Manage users` Classic infrastructure permission, can adjust the permissions.
 
-For more information about permissions, see [Classic infrastructure permissions](/docs/account?topic=account-infrapermission) and [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
+For more information about permissions, see [Managing device access](/docs/virtual-servers?topic=virtual-servers-managing-device-access).
 
 ## Editing a portable storage description
 {: #edit-a-portable-storage-description}
@@ -38,4 +38,4 @@ For more information about permissions, see [Classic infrastructure permissions]
 ## Next steps
 {: #next-steps-portable-storage}
 
-After you edit the description for a PSV, it remains in its original location in the list until you exit the portable storage page. When you reopen the page, the PSV appears in a new location, based on the description's alphabetical order. If the PSV isn't located in this list after the screen relaunches, hold **Ctrl** and click **Refresh** to clear the browser's cache and try again. You can change the description again at any time by repeating the previous steps.
+After you edit the description for a PSV, it remains in its original location in the list until you exit the portable storage page. When you reopen the page, the PSV appears in a new location, based on the description's alphabetical order. If the PSV isn't located in this list after the screen restarts, hold the Ctrl key and click **Refresh** to clear the browser's cache and try again. You can change the description again at any time by repeating the previous steps.
