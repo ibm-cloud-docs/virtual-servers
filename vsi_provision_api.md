@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-07-24"
+lastupdated: "2024-07-25"
 
 subcollection: virtual-servers
 
@@ -68,7 +68,7 @@ Provisioning a public virtual server that uses pre-set profiles is done by using
 Not applicable for transient virtual servers.
 {: tip}
 
-To provision a public virtual server by using REST, a POST request would be submitted to [Place order](https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/){: external} with the following JSON in the request body.
+To provision a public virtual server by using REST, a POST request would be submitted to [Place order](https://sldn.softlayer.com/reference/services/SoftLayer_Product_Order/placeOrder/){: external} with the following JSON in the request body.
 
 The item descriptions are not required on the prices. They are included only to show the product options that are being submitted.
 {: note}
@@ -170,7 +170,7 @@ Upgrading a public virtual server is done by using the `SoftLayer_Product_Order/
 Not applicable for transient virtual servers.
 {: tip}
 
-To provision a public virtual server by using REST, a POST request would be submitted to [Place order](https://softlayer.github.io/reference/services/SoftLayer_Product_Order/placeOrder/){: external} with the following JSON in the request body.
+To provision a public virtual server by using REST, a POST request would be submitted to [Place order](https://sldn.softlayer.com/reference/services/SoftLayer_Product_Order/placeOrder/){: external} with the following JSON in the request body.
 
 The item descriptions are not required on the prices. They are included only to show the product options that are being submitted.
 {: note}
