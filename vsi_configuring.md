@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-08-02"
 
 subcollection: virtual-servers
 
@@ -78,7 +78,7 @@ Hardware firewalls are also available for even more protection. Hardware firewal
 
 For more information, see the following information.
 
-* [Hardware Firewalls (Shared)](/docs/hardware-firewall-shared?topic=hardware-firewall-shared-about-hardware-firewall-shared-)
+* [Hardware Firewalls (Shared)](/docs/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started)
 
 ## Schedule backups
 {: #schedule-backups}
