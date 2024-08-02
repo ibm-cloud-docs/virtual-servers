@@ -2,14 +2,13 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2022-06-30"
+lastupdated: "2024-08-02"
 
 subcollection: virtual-servers
 
 ---
 
 {{site.data.keyword.attribute-definition-list}}
-
 
 # Firewalls
 {: #virtual-server-security-options}
@@ -19,9 +18,9 @@ With {{site.data.keyword.BluVirtServers}}, you have several firewall options tha
 
 Firewalls are available as an add-on feature for all servers on the infrastructure public network.
 
-As part of the ordering process, you can select device-specific hardware or a software firewall to provide protection. Alternatively, you can deploy dedicated firewall appliances to the environment and deploy the virtual server to a protected VLAN.  
+As part of the ordering process, you can select device-specific hardware or a software firewall to provide protection. Alternatively, you can deploy dedicated firewall appliances to the environment and deploy the virtual server to a protected VLAN.
 
-You can't protect a virtual server with two firewall appliances on the same interface. 
+You can't protect a virtual server with two firewall appliances on the same interface.
 {: note}
 
-For more information, see [Hardware firewalls (Shared)](/docs/hardware-firewall-shared?topic=hardware-firewall-shared-about-hardware-firewall-shared-).
+For more information, see [Hardware firewalls (Shared)](/docs/hardware-firewall-shared?topic=hardware-firewall-shared-getting-started).
