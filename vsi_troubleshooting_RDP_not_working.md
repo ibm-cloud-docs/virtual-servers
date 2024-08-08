@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2023-09-28"
+lastupdated: "2024-08-02"
 
 keywords: troubleshoot virtual server, virtual servers troubleshooting, tips, error, problem, insufficient capacity
 
@@ -49,7 +49,7 @@ To attempt to resolve the issue, try the following troubleshooting tasks:
 - The server has inadequate client access licenses
 
    RDP might not work because of inadequate client access licenses that are installed on the server. If you don't have enough valid licenses, you might see one of the following messages.
-   
+
    - `This remote session disconnected because no Remote Desktop License Servers are available to provide a license.`
    - `The remote session disconnected because of an error that is related to licensing in terminal server.`
    - `The remote session disconnected because no Remote Desktop client access licenses are available for this computer.`
@@ -76,16 +76,16 @@ To attempt to resolve the issue, try the following troubleshooting tasks:
 
 - RDP not running
 
-   - Check that RDP is running. Use the following command to see whether RDP is running. 
-   
+   - Check that RDP is running. Use the following command to see whether RDP is running.
+
       `Command: net start | find "Remote Desktop Services"`
 
-   - Check whether the interaces are connected by using the following command. 
+   - Check whether the interaces are connected by using the following command.
 
       `netsh interface show interface`
 
-   - Check whether MAC addresses are learned by using the following command. 
+   - Check whether MAC addresses are learned by using the following command.
 
       `getmac /v`
 
-   For more information, see General Remote Desktop connection troubleshooting](https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/troubleshoot/rdp-error-general-troubleshooting){: external}.
+   For more information, see General Remote Desktop connection troubleshooting](https://learn.microsoft.com/en-us/troubleshoot/windows-server/remote/rdp-error-general-troubleshooting){: external}.
