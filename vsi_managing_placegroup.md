@@ -2,22 +2,13 @@
 
 copyright:
   years: 2018, 2024
-lastupdated: "2021-05-19"
+lastupdated: "2024-08-22"
 
 subcollection: virtual-servers
 
 ---
 
-{:shortdesc: .shortdesc}
-{:codeblock: .codeblock}
-{:screen: .screen}
-{:external: target="_blank" .external}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:new_window: target="_blank"}
-{:shortdesc: .shortdesc}
-{:note: .note}
-{:important: .important}
+{{site.data.keyword.attribute-definition-list}}
 
 # Managing placement groups
 {: #vsi_managing_placegroup}
@@ -34,7 +25,7 @@ To add placement groups from the placement groups page, complete the following s
 2. Click **New group**.
 3. Enter a name, location, POD, and rule for the placement group, and click **Create**.
 
-You can add existing instances to a placement group. You can add a virtual server instance only to a placement group at provisioning. 
+You can add a virtual server instance to a placement group only at provisioning. 
 {: note}
 
 ## Managing placement groups
@@ -50,5 +41,5 @@ To manage placement groups from the placement groups page, complete the followin
    * Provision an instance
    * Delete a group
      
-You must remove assigned servers from the placement group before the placement group can be deleted. To remove an instance from a placement group, you must delete or reclaim the instance.
+You must remove assigned servers from the placement group before you can delete a placement group. To remove an instance from a placement group, you must delete or reclaim the instance.
 {: note}
