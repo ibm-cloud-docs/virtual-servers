@@ -28,8 +28,8 @@ For more information about changes to the {{site.data.keyword.BluVirtServers}} A
 ### 10 September 2024
 {: #bare-metal-sep102024}
 
-New add-on support for Ubuntu 22.04 and 24.04
-:   {{site.data.keyword.cloud}} Classic infrastructure now supports cPanel, Plesk, and R1Soft for Ubuntu 22.04 and 24.04.
+New add-on support for Ubuntu 22.04
+:   {{site.data.keyword.cloud}} Classic infrastructure now supports cPanel, Plesk, and R1Soft for Ubuntu 22.04.
 
 ## February 2024
 {: #virtual-servers-feb24}
