@@ -11,7 +11,7 @@ toc:
     audience: service
     href: /docs/virtual-servers
     console-page: "/classic"
-    product-page: "https://www.ibm.com/products/virtual-servers"
+    product-page: "https://www.ibm.com/products/virtual-servers-classic"
     path: virtual-servers
     label: Virtual Servers for Classic
 #  List your getting started tutorial (getting-started.md) as the first item in the Get started nav group. See https://test.cloud.ibm.com/docs/writing?topic=writing-navigation for more details on the toc design.
