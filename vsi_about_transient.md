@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-10-10"
 
 keywords:
 
@@ -34,7 +34,7 @@ Transient instances are public instances that use SAN-backed storage. The follow
 | [Balanced](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#balanced) | Best for common cloud workloads that require a balance of performance and scalability. Uses network-attached storage.|
 | [Compute](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#compute) | Best for moderate to high web traffic workloads.|
 | [Memory](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#memory)  | Best for memory caching and real-time analytics workloads. |
-{: caption="Table 1. Public virtual server family selections" caption-side="top"}
+{: caption="Public virtual server family selections" caption-side="top"}
 
 ## Notifications
 {: #notifications-transient-virtual-servers}

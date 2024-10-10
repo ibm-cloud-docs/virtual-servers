@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-10-10"
 
 keywords: suspend billing feature, suspend billing
 
@@ -73,7 +73,7 @@ It's important to understand what costs stop accruing and what costs persist whe
 | Storage                       |                   | ![Checkmark icon](../icons/checkmark-icon.svg) |
 {: row-headers}
 {: class="comparison-table"}
-{: caption="Table 1. Resource billing details" caption-side="top"}
+{: caption="Resource billing details" caption-side="top"}
 {: summary="This table has row and column headers. The row headers identify the resource. The column headers identify whether billing stops or persists when your instance is powered off. To understand whether billing stops or persists for a resource, go to the row in the table, and find the billing information that you are interested in."}
 
 When you provision a virtual server instance that supports suspend billing, the usage times are calculated per second. Usage includes both the in use time and suspended time of your virtual server instance. Even if you never initiate the suspend billing feature by powering off your instance, the billing is calculated per second of the instance's lifecycle.

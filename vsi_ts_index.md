@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-07-24"
+lastupdated: "2024-10-10"
 
 subcollection: virtual-servers
 
@@ -47,7 +47,7 @@ When your server faces a connectivity issue, you need to gather the following in
 |-----|-----|
 | Nongeographical MTR information | `mtr -r -c 100 -n` |
 | Traceroute information |  `traceroute` |
-{: caption="Table 1. Information to collect for connectivity issues - Linux" caption-side="bottom"}
+{: caption="Information to collect for connectivity issues - Linux" caption-side="bottom"}
 {: #connectivity-linux}
 {: tab-title="Linux"}
 {: tab-group="Connectivity"}
@@ -58,7 +58,7 @@ When your server faces a connectivity issue, you need to gather the following in
 |-----|-----|
 | Nongeographical MTR information | [WinMTR tool](http://sourceforge.net/projects/winmtr/){: external} |
 | Traceroute information | [WinMTR tool](http://sourceforge.net/projects/winmtr/){: external} or run the `tracert` command in the command prompt. |
-{: caption="Table 2. Information to collect for connectivity issues - Windows" caption-side="bottom"}
+{: caption="Information to collect for connectivity issues - Windows" caption-side="bottom"}
 {: #connectivity-windows}
 {: tab-title="Windows"}
 {: tab-group="Connectivity"}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018, 2024
-lastupdated: "2024-07-24"
+lastupdated: "2024-10-10"
 
 subcollection: virtual-servers
 
@@ -48,7 +48,7 @@ To determine whether your virtual server instance supports the suspend billing f
 | --------------------------------------| ------------------------- |
 | Suspend billing: Enabled on Power Off | Suspend billing is supported.     |
 | Suspend billing: Not available          | Suspend billing is not supported. |
-{: caption="Table 1. Suspend billing details" caption-side="top"}
+{: caption="Suspend billing details" caption-side="top"}
 
 ## Viewing the suspend billing feature through the {{site.data.keyword.cloud}} API
 {: #viewing-the-suspend-billing-feature-through-the-softlayer-api}

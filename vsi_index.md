@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-10-10"
 
 keywords:
 
@@ -37,7 +37,7 @@ Before you begin, review the following prerequisites.
 |[Transient virtual server](/docs/virtual-servers?topic=virtual-servers-about-vs-transient)| IBM-managed, multi-tenancy virtual server deployments are offered at a reduced cost and best suited for flexible workloads |
 |[Reserved virtual server](/docs/virtual-servers?topic=virtual-servers-about-reserved-virtual-servers)  | IBM-managed, multi-tenancy virtual server deployments with guaranteed capacity for a contract term |
 |[Dedicated virtual server](/docs/virtual-servers?topic=virtual-servers-dedicated-virtual-servers)      | IBM-managed, single-tenancy virtual server deployments            |
-{: caption="Table 1. Deployment options" caption-side="top"}
+{: caption="Deployment options" caption-side="top"}
 
 {{site.data.keyword.BluVirtServers}} are powered by Citrix Hypervisor. As with most hypervisors, guest additions help maintain a properly working computing environment. {{site.data.keyword.cloud}} uses the information from guest additions to make informed decisions about routine server maintenance. Without the required guest additions, your virtual servers might miss critical maintenance updates. So, don't disable or remove any default guest additions. If you are brining your own image to, you need to install the associated guest images. For more information about installing guest additions, see [Preparing and importing images](/docs/image-templates?topic=image-templates-preparing-and-importing-images).
 {: important}
@@ -53,7 +53,7 @@ After you decide upon a deployment option, begin the provisioning process.
 |[Provisioning transient instances](/docs/virtual-servers?topic=virtual-servers-ordering-vs-transient)                | Provision transient instances with various options            |
 |[Provisioning reserved capacity and instances](/docs/virtual-servers?topic=virtual-servers-provisioning-reserved-capacity-and-instances)            | Provision reserved capacity and instances with various options |
 |[Provisioning dedicated hosts and instances](/docs/virtual-servers?topic=virtual-servers-dedicated-hosts-and-dedicated-instances) | Provision private instances or dedicated instances on dedicated hosts|
-{: caption="Table 2. Provisioning information" caption-side="top"}
+{: caption="Provisioning information" caption-side="top"}
 
 ## Next steps
 {: #next-steps-getting-started}
