@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-07-24"
+lastupdated: "2024-10-10"
 
 subcollection: virtual-servers
 
@@ -32,7 +32,7 @@ Depending on your instance type, some families might not be available.
 | [Compute](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#compute) | Best for moderate to high web traffic workloads.|
 | [Memory](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#memory)  | Best for memory caching and real-time analytics workloads. |
 | [GPU](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#gpu)  | Best for high-performance workloads. |
-{: caption="Table 1. Public virtual server family selections" caption-side="top"}
+{: caption="Public virtual server family selections" caption-side="top"}
 
 ## Balanced
 {: #balanced}
@@ -56,7 +56,7 @@ The offering is available in the following profiles:
 | B1.32x64  | 32      | 64 GB   | SAN          |
 | B1.32x128 | 32      | 128 GB  | SAN          |
 | B1.48x192 | 48      | 192 GB  | SAN          |
-{: caption="Table 2. Balanced profiles with network-attached storage" caption-side="top"}
+{: caption="Balanced profiles with network-attached storage" caption-side="top"}
 
 ### Storage notes
 {: #storage-notes-balanced}
@@ -88,7 +88,7 @@ The balanced local storage profiles are primarily for large database workloads t
 |BL1.16x64|16|64 GB|300 GB, (2 x 300 GB)|Local HDD|
 |BL1.32x64|32|64 GB|400 GB, (2 x 400 GB)|Local HDD|
 |BL1.32x128|32|128 GB|400 GB, (2 x 400 GB)|Local HDD|
-{: caption="Table 3. Balanced local storage profiles using local HDD" caption-side="top"}
+{: caption="Balanced local storage profiles using local HDD" caption-side="top"}
 
 #### Storage notes
 {: #storage-notes-local-hdd}
@@ -117,7 +117,7 @@ All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and othe
 |BL2.16x64|16|64 GB|300 GB, (2 x 300 GB)|Local SSD|
 |BL2.32x64|32|64 GB|400 GB, (2 x 400 GB)|Local SSD|
 |BL2.32x128|32|128 GB|400 GB, (2 x 400 GB)|Local SSD|
-{: caption="Table 7. Balanced local storage profiles using local SSD" caption-side="top"}
+{: caption="Balanced local storage profiles using local SSD" caption-side="top"}
 
 #### Storage notes
 {: #storage-notes-local-ssd}
@@ -141,7 +141,7 @@ The offering is available in the following profiles:
 | U1.1x2       | 1        | 2 GB      | SAN          |
 | U1.2x4       | 2        | 4 GB      | SAN          |
 | U1.4x8       | 4        | 8 GB      | SAN          |
-{: caption="Table 11. Variable compute profiles" caption-side="top"}
+{: caption="Variable compute profiles" caption-side="top"}
 
 ### Storage notes
 {: #storage-notes-variable-compute}
@@ -166,7 +166,7 @@ The offering is available in the following profiles:
 | C1.8x8       | 8        | 8 GB      | SAN          |
 | C1.16x16     | 16       | 16 GB     | SAN          |
 | C1.32x32     | 32       | 32 GB     | SAN          |
-{: caption="Table 12. Compute profiles" caption-side="top"}
+{: caption="Compute profiles" caption-side="top"}
 
 ### Storage notes
 {: #storage-notes-compute}
@@ -194,7 +194,7 @@ The offering is available in the following profiles:
 | M1.48x384    | 48       | 384 GB    | SAN          |
 | M1.56x448    | 56       | 448 GB    | SAN          |
 | M1.64x512    | 64       | 512 GB    | SAN          |
-{: caption="Table 13. Memory profiles" caption-side="top"}
+{: caption="Memory profiles" caption-side="top"}
 
 ### Storage notes
 {: #storage-notes-memory}
@@ -217,7 +217,7 @@ Powered by NVDIA Tesla GPUs, {{site.data.keyword.cloud_notm}} Accelerated Comput
 |ac1.8x60x100|1 P100|16|8|60|Local SSD or SAN|100|None (SAN), 300 (Local)|
 |ac1.16x120x25|2 P100|32|16|120|Block (SAN)|25|None|
 |ac1.16x120x100|2 P100|32|16|120|Local SSD or SAN|100|None (SAN), 600 (Local)|
-{: caption="Table 14. P100 GPU profiles" caption-side="top"}
+{: caption="P100 GPU profiles" caption-side="top"}
 
 |Profile|GPU|GPU RAM (GB)|vCPU|vCPU RAM (GB)|Storage Type|Boot Disk (GB)|Secondary Disks (2 and 3) (GB)|
 |---|---|---|---|---|---|---|---|
@@ -225,7 +225,7 @@ Powered by NVDIA Tesla GPUs, {{site.data.keyword.cloud_notm}} Accelerated Comput
 |ac2.8x60x100|1 V100|16|8|60|Local SSD or SAN|100|None (SAN), 300 (Local)|
 |ac2.16x120x25|2 V100|32|16|120|Block (SAN)|25|None|
 |ac2.16x120x100|2 V100|32|16|120|Local SSD or SAN|100|None (SAN), 600 (Local)|
-{: caption="Table 18. V100 GPU profiles" caption-side="top"}
+{: caption="V100 GPU profiles" caption-side="top"}
 
 ### GPU prerequisites
 {: #gpu-prerequisites}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-07-24"
+lastupdated: "2024-10-10"
 
 keywords: manage virtual servers, power off, replicate, manage device, reload os, delete server, manage server, cancel virtual server, cancel device, cancel server, restart, reboot, rename, how do i cancel a virtual server
 
@@ -38,7 +38,7 @@ The device details list shows you the following device types:
 | Virtual servers | Virtual |
 | Bare metal servers | Server |
 | Dedicated hosts | Dedicated virtual host |
-{: caption="Table 1. Device types" caption-side="top"}
+{: caption="Device types" caption-side="top"}
 
 The actions that you see depend on the device type, and the permissions that are granted to your user account.
 

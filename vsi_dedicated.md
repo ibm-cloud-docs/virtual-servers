@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-10-10"
 
 subcollection: virtual-servers
 
@@ -38,7 +38,7 @@ Dedicated instances do not provide some of the control features offered by dedic
 | Capacity reservations | ![Checkmark icon](../icons/checkmark-icon.svg) |   |
 {: row-headers}
 {: class="comparison-table}
-{: caption="Table 1. Control features" caption-side="top"}
+{: caption="Control features" caption-side="top"}
 {: summary="This table has row and column headers. The row headers identify the control feature. The column headers identify whether the offering offers the control feature. To understand whether the offering offers the control feature, navigate to the row in the table, and find the offering that you are interested in.}
 
 Pricing of host is inclusive of core, RAM, Local SSD, and network speeds. Premium operating system (OS), storage area network (SAN) storage, and software add-ons are priced per instance with existing pricing and licensing in an hourly or monthly model.

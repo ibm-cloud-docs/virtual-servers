@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-07-24"
+lastupdated: "2024-10-10"
 
 keywords: public virtual servers, network traffic, virtual server deployment
 
@@ -40,7 +40,7 @@ The following families of public instances are available for this offering.
 | [Compute](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#compute) | Best for moderate to high web traffic workloads.|
 | [Memory](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#memory)  | Best for memory caching and real-time analytics workloads. |
 | [GPU](/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles#gpu)  | Best for high-performance workloads.
-{: caption="Table 1. Public virtual server family selections" caption-side="top"}
+{: caption="Public virtual server family selections" caption-side="top"}
 
 ## Next steps
 {: #next-steps-public-virtual-servers}

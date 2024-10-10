@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-10-10"
 
 subcollection: virtual-servers
 
@@ -39,4 +39,4 @@ For more information about permissions, see [Managing device access](/docs/virtu
 |Enter tags to be associated with a device|Enter each tag for the device in the **Tags** field, which is separated by a comma.|
 |View a recent case associated with a device|Click the case number that you want redirected to the details of the case.|
 |Add a case for a device|Click **Add a case for this device** to be redirected to the **Add a Case** page. For more information about getting support, see [Getting support](/docs/get-support?topic=get-support-using-avatar).|
-{: caption="Table 1. Snapshot view actions" caption-side="top"}
+{: caption="Snapshot view actions" caption-side="top"}

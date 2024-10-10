@@ -37,7 +37,7 @@ In the {{site.data.keyword.cloud_notm}} catalog, complete the following steps to
 | Location                | Select the specific location that is required for your workloads. Locations are composed of regions; each region is a separate geographic area. **Note:** You can't select individual locations for each virtual server instance that you provision within this reserved capacity. Your selection is the location for all virtual server instances that you provision within this reserved capacity. |
 | Pod                     | Select the pod specific to your location. |                                                                               
 | Profile                 | Select from popular profiles or all available vCPU and RAM combinations of SAN-backed storage (balanced, memory, or compute). **Note:** You cannot combine different profile sizes within the set of virtual server instances that are assigned to this capacity or change them later. The set of virtual server instances you reserve must be the same size. |
-{: caption="Table 1. Reserved capacity provisioning selections" caption-side="top"}
+{: caption="Reserved capacity provisioning selections" caption-side="top"}
 
 ## Provisioning reserved instances
 {: #provisioning-reserved-instances}
@@ -53,7 +53,7 @@ After you provision your reserved capacity, it's time to provision your reserved
 | Billing                   | Select either hourly or monthly billing. |                                                                             
 | Reserved Capacity         | Select your reserved capacity or select **New Capacity +** to provision extra reserved capacity. |                     
 | Add-ons                   | Choose any extra storage, network, or software. |                                                                       
-{: caption="Table 2. Reserved instances provisioning selections" caption-side="top"}
+{: caption="Reserved instances provisioning selections" caption-side="top"}
 
 ## Next steps
 {: #next-steps-provisioning-reserved}

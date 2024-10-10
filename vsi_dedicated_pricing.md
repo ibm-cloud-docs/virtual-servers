@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-10-10"
 
 subcollection: virtual-servers
 
@@ -26,7 +26,7 @@ Hourly instances can be provisioned on hourly and monthly hosts. Monthly instanc
 | ------------------ | ---- | -------- | ---------------------- |
 | 56x242x1.2  	     |  56 	|   242    |        	1.2	          |
 | 56x484x1.2         |  56  |   484    |          1.2           |
-{: caption="Table 1. Dedicated host configurations" caption-side="top"}
+{: caption="Dedicated host configurations" caption-side="top"}
 
 Pricing varies by region.
 {: note}

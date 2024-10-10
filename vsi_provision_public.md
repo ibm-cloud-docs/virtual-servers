@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-07-24"
+lastupdated: "2024-10-10"
 
 subcollection: virtual-servers
 
@@ -52,7 +52,7 @@ You must be logged in to see all available options.
 | All profiles | For more information about available profile options for public instances, see [Public virtual servers](/docs/virtual-servers?topic=virtual-servers-about-public-virtual-servers). |
 | SSH keys     | SSH keys allow access to an instance without using a password from corresponding clients for each public key that is implemented on the instance. If you decide to add an SSH key, provide a public key of your SSH key, which you can use to log in to your instance after it is provisioned. |
 | Image        |  An image is the deployed operating system for your instance. You can select a number of free options such as CentOS and Ubuntu. Paid options such as Windows Server and Red Hat Enterprise Linux (RHEL) are also available. It's important to note that Windows requires a 100 GB primary disk. |
-{: caption="Table 1. Public instance options" caption-side="top"}
+{: caption="Public instance options" caption-side="top"}
 
 ### Public instance add-ons
 {: #public-instance-add-ons}
@@ -70,7 +70,7 @@ Depending on your instance billing type (hourly or monthly), some add-ons might 
 | Services | Some services are automatically selected for you, depending on your billing and image selections. You can choose from any of the remaining service add-ons for your instance. |
 | Provision script | Provisioning scripts are commonly used to apply a customer-specific configuration to a server and to aid in automation of your scaling strategy. Provisioning scripts can be any file that the operating system (OS) can run, including combined binary files or any OS-supported language. Provisioning scripts can't be used on cloud-init images. For more information, see [Provisioning scripts](/docs/virtual-servers?topic=virtual-servers-provisioning-scripts). |
 | User data        | You can add user data that automatically performs common configuration tasks or runs scripts. User data can be used on cloud-init and non-cloud-init images.  |
-{: caption="Table 2. Public instance add-ons" caption-side="top"}
+{: caption="Public instance add-ons" caption-side="top"}
 
 ### Attached storage disks
 {: #attached-storage-disks-public}
@@ -86,7 +86,7 @@ If you need extra storage, you can attach storage disks to your instance. The ty
 | Private and public security group  | You can use security groups to enact a set of IP filter rules that define how to handle incoming and outgoing traffic to both the public and private interfaces in your instance. For more information, see [About IBM Security Groups](/docs/security-groups?topic=security-groups-about-ibm-security-groups). |
 | Private and public VLAN | Your virtual server instance is placed on an automatically assigned VLAN by default. You can choose a different VLAN if you already have one in your selected data center. For more information, see [About VLANs](/docs/vlans?topic=vlans-about-vlans). |
 | Private and public subnet | Selecting a subnet is optional and to be used only when you require your device to use an IP address from the subnet. If you select a subnet, verify that you have enough IP addresses to fulfill the request. If you do not have enough IP addresses for your subnet, your order can be delayed or canceled. For more information, see [About subnets and IPs](/docs/subnets?topic=subnets-about-subnets-and-ips#about-subnets-and-ips). |
-{: caption="Table 3. Network interface options" caption-side="top"}
+{: caption="Network interface options" caption-side="top"}
 
 ### Network interface add-ons
 {: #network-interface-add-ons-public}
@@ -99,7 +99,7 @@ If you need extra storage, you can attach storage disks to your instance. The ty
 | Public secondary IP addresses | These subnets are owned by you during your virtual server instance ownership. You can cancel the subnet separately, but if you cancel your instance, the subnet is also removed. For more information, see [About subnets and IPs](/docs/subnets?topic=subnets-about-subnets-and-ips#about-subnets-and-ips). |
 | IPv6 and public static IPv6 addresses | You can select an IPv6 address or public static IPv6 addresses for your instance. |
 | VPN management | This option is automatically selected for your instance with unlimited SSL VPN users. For more information, see [About VPN](/docs/iaas-vpn?topic=iaas-vpn-getting-started). |
-{: caption="Table 4. Network interface add-ons" caption-side="top"}
+{: caption="Network interface add-ons" caption-side="top"}
 
 ## Next steps
 {: #next-steps-provisioning-public}

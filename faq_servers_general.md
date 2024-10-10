@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-10-10"
 
 keywords:
 
@@ -102,7 +102,7 @@ Use the following table for OS-specific routing information.
 | Red Hat | Create a route by editing or creating the following file: `/etc/sysconfig/network-scripts/route-eth0` Replace 10.0.0.1 with your private gateway IP address. After you create that file, you must add the following information: _161.26.0.0/16 through 10.0.0.1 |
 | Ubuntu | In the `/etc/network/interfaces` file, add the following line at the end of the file: `up route add -net 161.26.0.0/16 gw 10.0.0.1` Replace 10.0.0.1 with your private gateway IP address. |
 | VMWare ESXi| Use the following command to add the route to the ESXi host: `esxcfg-route -a 161.26.0.0/16 10.0.0.1`. Replace 10.0.0.1 with your private gateway IP address. |
-{: caption="Table 1. OS-specific routing information" caption-side="top"}
+{: caption="OS-specific routing information" caption-side="top"}
 
 ## What is a cvsup mirror?
 {: #what-is-a-cvsup-mirror-}
