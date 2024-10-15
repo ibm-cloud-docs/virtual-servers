@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "title": "Virtual Server for Classic",
+  "introduction": "You can deploy IBM Cloud® Virtual Servers for Classic with your choice of image, environment (public or dedicated), and geographic region that makes sense for your workloads.",
+  "product_page": "https://www.ibm.com/products/virtual-servers-classic",
+  "console_page": "/classic",
+  "section_topics": {
+    "links": [
+      {
+        "title": "Getting started with virtual servers",
+        "href": "/docs/virtual-servers?topic=virtual-servers-getting-started-tutorial"
+      },
+      {
+        "title": "Managing classic infrastructure access",
+        "href": "/docs/virtual-servers?topic=virtual-servers-mngclassicinfra"
+      },
+      {
+        "title": "Reserved virtual servers",
+        "href": "/docs/virtual-servers?topic=virtual-servers-about-reserved-virtual-servers"
+      },
+      {
+        "title": "Suspend billing",
+        "href": "/docs/virtual-servers?topic=virtual-servers-requirements"
+      },
+      {
+        "title": "Profiles (provision for any workload)",
+        "href": "/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles"
+      },
+      {
+        "title": "FAQs: Virtual servers",
+        "href": "/docs/virtual-servers?topic=virtual-servers-faqs-virtual-servers"
+      }
+    ]
+  },
+  "section_devtools": {
+    "api": "https://sldn.softlayer.com/reference/softlayerapi/",
+    "cli": "/docs/cli?topic=cli-cli-virtual-servers",
+    "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/compute_vm_instance"
+  },
+  "section_updates": {
+    "view_more": "/docs/virtual-servers?topic=virtual-servers-release-notes"
+  }
+}
+
