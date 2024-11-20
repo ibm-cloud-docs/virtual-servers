@@ -27,10 +27,6 @@
         "href": "/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles"
       },
       {
-        "title": "FAQs: Virtual servers",
-        "href": "/docs/virtual-servers?topic=virtual-servers-faqs-virtual-servers"
-      },
-      {
         "title": "SoftLayer API Reference",
         "href": "https://sldn.softlayer.com/reference/softlayerapi/"
       }
