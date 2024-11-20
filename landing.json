@@ -29,11 +29,14 @@
       {
         "title": "FAQs: Virtual servers",
         "href": "/docs/virtual-servers?topic=virtual-servers-faqs-virtual-servers"
+      },
+      {
+        "title": "SoftLayer API Reference",
+        "href": "https://sldn.softlayer.com/reference/softlayerapi/"
       }
     ]
   },
   "section_devtools": {
-    "api": "https://sldn.softlayer.com/reference/softlayerapi/",
     "cli": "/docs/cli?topic=cli-cli-virtual-servers",
     "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/compute_vm_instance"
   },
@@ -41,4 +44,3 @@
     "view_more": "/docs/virtual-servers?topic=virtual-servers-release-notes"
   }
 }
-
