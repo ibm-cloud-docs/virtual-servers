@@ -129,7 +129,8 @@ toc:
       - topicgroup:
           label: Monitoring
           topics:
-          - include: ../cloud-infrastructure/monitoring-iaas.md
+          - monitoring-iaas.md
+          - monitoring-no-driver-mode.md
       - topicgroup:
           label:  Backing up and recovering
           topics:
