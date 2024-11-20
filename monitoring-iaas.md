@@ -16,7 +16,7 @@ subcollection: cloud-infrastructure
 You can use {{site.data.keyword.mon_full_notm}} to monitor classic infrastructure metrics such as CPU usage, disk usage, network traffic, and memory. These metrics are stored in {{site.data.keyword.mon_full_notm}}. You can access metrics through the prebuilt dashboards.
 {: shortdesc}
 
-{{site.data.keyword.mon_full_notm}} metrics are available if you deploy the monitoring agent for non-orchestrated environments. For more information, see [{{site.data.keyword.mon_full_notm}} agent for non-orchestrated environments metrics](/docs/cloud-infrastructure?topic=cloud-infrastructure-enabling-monitoring-light-no-driver#monitoring-light-metrics).
+{{site.data.keyword.mon_full_notm}} metrics are available if you deploy the monitoring agent for non-orchestrated environments. For more information, see [{{site.data.keyword.mon_full_notm}} agent for non-orchestrated environments metrics](/docs/virtual-servers?topic=virtual-servers-enabling-monitoring-light-no-driver#monitoring-light-metrics).
 {: important} 
 
 ## Basic monitoring
