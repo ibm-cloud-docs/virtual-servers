@@ -27,12 +27,13 @@
         "href": "/docs/virtual-servers?topic=virtual-servers-about-virtual-server-profiles"
       },
       {
-        "title": "SoftLayer API Reference",
-        "href": "https://sldn.softlayer.com/reference/softlayerapi/"
+        "title": "Virtual server FAQs",
+        "href": "/docs/virtual-servers?topic=virtual-servers-vsi-troubleshoot-vs-why-vs-read-only"
       }
     ]
   },
   "section_devtools": {
+    "api": "https://sldn.softlayer.com/reference/softlayerapi/",
     "cli": "/docs/cli?topic=cli-cli-virtual-servers",
     "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/compute_vm_instance"
   },
