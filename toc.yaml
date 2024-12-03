@@ -149,6 +149,7 @@ toc:
       - vsi_api.md
       - vsi_provision_api.md
       - vsi_high-availability.md
+      - data-portability-classic.md
   - navgroup:
       id: help
       topics:
