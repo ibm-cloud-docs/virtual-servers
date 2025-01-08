@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2024
-lastupdated: "2024-08-02"
+  years: 2017, 2025
+lastupdated: "2025-01-07"
 
 keywords: troubleshoot virtual server, virtual servers troubleshooting, tips, error, problem, insufficient capacity
 
@@ -70,9 +70,9 @@ To attempt to resolve the issue, try the following troubleshooting tasks:
    Are your interfaces enabled and connected?
       `netsh interface show interface`
 
-- Xentools removed network configuration
+- XenServer VM Tools removed network configuration
 
-   Sometimes when you update Xentools, your network configuration is removed from both public and private network cards. If the network configuration is removed, you need to log in to the KVM console and put back the IP address, gateway, and DNS settings for both network cards. For more information about applying Xentools, see this [technote](https://www.ibm.com/support/pages/node/6462327){: external}.
+   Sometimes when you update XenServer VM Tools (also referred to as Xentools), your network configuration is removed from both public and private network cards. If the network configuration is removed, you need to log in to the KVM console and reenter the IP address, gateway, and DNS settings for both network cards. For more information about applying XenServer VM Tools, see this [technote](https://www.ibm.com/support/pages/node/6462327){: external}.
 
 - RDP not running
 
