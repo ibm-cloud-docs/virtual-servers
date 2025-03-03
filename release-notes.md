@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2024
-lastupdated: "2024-11-18"
+  years: 2021, 2025
+lastupdated: "2025-03-03"
 
 keywords:
 
@@ -17,12 +17,21 @@ content-type: release-note
 # Release notes for {{site.data.keyword.BluVirtServers}} for Classic
 {: #release-notes}
 
-Use the release notes to learn the latest updates to {{site.data.keyword.BluVirtServers}} in the Classic infrastructure that are grouped by date.
+Use the release notes to learn the latest updates to {{site.data.keyword.BluVirtServers}} for the Classic infrastructure that are grouped by date.
 {: shortdesc}
 
-For more information about changes to the {{site.data.keyword.BluVirtServers}} API, see [{{site.data.keyword.BluVirtServers}} API reference overview](/docs/virtual-servers?topic=virtual-servers-api-reference)
+For more information about changes to the {{site.data.keyword.BluVirtServers}} API, see [{{site.data.keyword.BluVirtServers}} API reference overview](/docs/virtual-servers?topic=virtual-servers-api-reference).
 
+## March 2025
+{: #virtual-servers-mar25}
 
+### 03 March 2025
+{: #virtual-servers-mar0325}
+{: release-note}
+
+Add-on support for Rocky Linux
+
+:   Rocky Linux on {{site.data.keyword.BluVirtServers}} for Classic now supports add-ons. For more information, see [Rocky Linux Documentation](https://docs.rockylinux.org/){: external}.
 
 ## September 2024
 {: #virtual-servers-sep2024}
@@ -41,7 +50,7 @@ New add-on support for Ubuntu 22.04
 {: release-note}
 
 Ubuntu 20.04 LTS
-:   {{site.data.keyword.BluVirtServers}} for Classic now supports Ubuntu 20.04 LTS. For more information, see [Ubuntu releases](https://releases.ubuntu.com/){: external}.
+:   now supports Ubuntu 20.04 LTS. For more information, see [Ubuntu releases](https://releases.ubuntu.com/){: external}.
 
 ## January 2024
 {: #virtual-servers-jan24}
