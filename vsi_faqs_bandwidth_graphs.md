@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2019, 2024
-lastupdated: "2024-07-23"
+  years: 2019, 2025
+lastupdated: "2025-03-24"
 
 subcollection: virtual-servers
 
@@ -10,7 +10,7 @@ subcollection: virtual-servers
 
 {{site.data.keyword.attribute-definition-list}}
 
-# FAQs: Bandwidth graphs
+# FAQ: Bandwidth graphs
 {: #faqs-bandwidth-graphs}
 
 ## What are public network bandwidth graphs?
