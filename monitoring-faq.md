@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2020, 2024
-lastupdated: "2024-07-23"
+  years: 2020, 2025
+lastupdated: "2025-03-24"
 
 keywords:
 
@@ -12,7 +12,7 @@ subcollection: cloud-infrastructure
 
 {{site.data.keyword.attribute-definition-list}}
 
-# FAQs: {{site.data.keyword.mon_full_notm}}
+# FAQ: {{site.data.keyword.mon_full_notm}}
 {: #faq-monitoring}
 
 ## Why did {{site.data.keyword.cloud}} transition from Advanced Monitoring by Nimsoft to {{site.data.keyword.mon_full_notm}}?

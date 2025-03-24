@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018, 2024
-lastupdated: "2024-07-23"
+  years: 2018, 2025
+lastupdated: "2025-03-24"
 
 subcollection: virtual-servers
 
@@ -10,7 +10,7 @@ subcollection: virtual-servers
 
 {{site.data.keyword.attribute-definition-list}}
 
-# FAQs: Reserved capacity and instances
+# FAQ: Reserved capacity and instances
 {: #faqs-reserved-capacity-and-instances}
 
 ## Which virtual server instance types can be reserved?

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2024
-lastupdated: "2024-07-23"
+  years: 2014, 2025
+lastupdated: "2025-03-24"
 
 keywords: iso template, boot my virtual server instance from an image
 
@@ -13,7 +13,7 @@ subcollection: virtual-servers
 
 {{site.data.keyword.attribute-definition-list}}}
 
-# FAQs: Image templates
+# FAQ: Image templates
 {: #faq-image-templates}
 
 ## What is a standard image template?

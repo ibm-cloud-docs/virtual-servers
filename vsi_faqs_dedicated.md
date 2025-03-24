@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2024
-lastupdated: "2024-07-23"
+  years: 2017, 2025
+lastupdated: "2025-03-24"
 
 subcollection: virtual-servers
 
@@ -10,7 +10,7 @@ subcollection: virtual-servers
 
 {{site.data.keyword.attribute-definition-list}}
 
-# FAQs: Dedicated hosts and instances
+# FAQ: Dedicated hosts and instances
 {: #faqs-dedicated-hosts-and-instances}
 
 ## What is a dedicated host?
