@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2024
-lastupdated: "2024-07-23"
+  years: 2017, 2025
+lastupdated: "2025-04-09"
 
 keywords: scalable virtual servers, virtual servers, key features
 
@@ -12,25 +12,25 @@ subcollection: virtual-servers
 
 {{site.data.keyword.attribute-definition-list}}
 
-# About virtual servers
+# About virtual servers for Classic
 {: #about-virtual-servers}
 
-{{site.data.keyword.BluVirtServers}} are scalable virtual servers that are purchased with cores and memory allocations. These servers are a great option if you are looking for compute resources that can be added in minutes with access to features like image templates. For more information about image templates, see [Image templates](/docs/virtual-servers?topic=virtual-servers-image-templates).
+{{site.data.keyword.BluVirtServers}} for Classic are scalable virtual servers that are purchased with cores and memory allocations. These servers are a great option if you are looking for compute resources that can be added in minutes with access to features like image templates. For more information about image templates, see [Image templates](/docs/virtual-servers?topic=virtual-servers-image-templates).
 {: shortdesc}
 
-Virtual servers are deployed to the same VLANs as physical servers, which spread workloads across virtual servers and bare metal servers, while interoperability is maintained. Virtual servers are fully customizable when you order them, with options to scale up as your compute needs grow.
+Classic virtual servers are deployed to the same VLANs as physical servers, which spread workloads across virtual servers and bare metal servers, while interoperability is maintained. Virtual servers are fully customizable when you order them, with options to scale up as your compute needs grow.
 
 Newer version available! Try our Virtual Servers for VPC. For more information, see [Virtual Private Cloud](/docs/vpc?topic=vpc-getting-started).
 {: tip}
 
-When you create a virtual server, you can choose between a public (multi-tenancy) environment or a dedicated (single-tenancy) environment. You can also choose between hourly or monthly billing, and high-performance local disks or enterprise SAN storage.
+When you create a Classic virtual server, you can choose between a public (multi-tenancy) environment or a dedicated (single-tenancy) environment. You can also choose between hourly or monthly billing, and high-performance local disks or enterprise SAN storage.
 
 The hypervisor is fully managed by {{site.data.keyword.cloud_notm}} and you can perform configuration and management tasks by using both the {{site.data.keyword.cloud_notm}} console and the {{site.data.keyword.slapi_short}}.
 
 ## Key features
 {: #virtual-servers-key-features}
 
-The following information lists the key features that are included with virtual servers.
+The following information lists the key features that are included with Classic virtual servers.
 
 ### Seamless integration
 {: #virtual-servers-seamless}

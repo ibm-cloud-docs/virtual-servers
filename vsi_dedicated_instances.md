@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2017, 2024
-lastupdated: "2024-07-23"
+  years: 2017, 2025
+lastupdated: "2025-04-09"
 
-keywords: virtual server, dedicated server, {{site.data.keyword.cloud}}, {{site.data.keyword.cloud_notm}}
+keywords: virtual server, dedicated server, classic
 
 subcollection: virtual-servers
 
@@ -12,13 +12,13 @@ subcollection: virtual-servers
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Provisioning dedicated instances
+# Provisioning dedicated virtual server instances for Classic
 {: #provisioning-dedicated-instances}
 
-You can provision your dedicated instances through the {{site.data.keyword.cloud}} catalog. See [Signing up for {{site.data.keyword.cloud_notm}}](/docs/account?topic=account-account-getting-started) to set up your {{site.data.keyword.cloud_notm}} catalog credentials.
+You can provision your dedicated Classic virtual server instances through the {{site.data.keyword.cloud}} catalog. See [Signing up for {{site.data.keyword.cloud_notm}}](/docs/account?topic=account-account-getting-started) to set up your {{site.data.keyword.cloud_notm}} catalog credentials.
 {: shortdesc}
 
-## Provisioning a dedicated virtual server instance through the IBM Cloud catalog
+## Provisioning a dedicated Classic virtual server instance through the IBM Cloud catalog
 {: #provisioning-a-dedicated-virtual-server-instance-through-the-ibm-cloud-catalog}
 
 To provision a dedicated virtual server instance through the {{site.data.keyword.cloud_notm}} catalog, complete the following steps:
@@ -38,5 +38,4 @@ To provision a dedicated virtual server instance through the {{site.data.keyword
 ## Next steps
 {: #next-steps-prov-dedicated}
 
-After your virtual server is provisioned and available to use, you can configure your virtual servers by using the
-{{site.data.keyword.cloud_notm}} console or API. For more information, see [Configuring virtual servers](/docs/virtual-servers?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).
+After your Classic virtual server is provisioned and available to use, you can configure your virtual server by using the {{site.data.keyword.cloud_notm}} console or API. For more information, see [Configuring virtual servers](/docs/virtual-servers?topic=virtual-servers-configuring-virtual-servers#configuring-virtual-servers).
