@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2024
-lastupdated: "2024-10-10"
+  years: 2017, 2025
+lastupdated: "2025-04-09"
 
 subcollection: virtual-servers
 
@@ -10,17 +10,19 @@ subcollection: virtual-servers
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Dedicated host pricing
+# Dedicated host pricing for Classic
 {: #dedicated-virtual-server-pricing}
 
-Pricing for dedicated hosts is offered in an hourly and monthly model.
+Pricing for Classic dedicated hosts is priced at an hourly and monthly rates.
 {: shortdesc}
 
-Dedicated host pricing is inclusive of all vCPU, RAM, local storage, and uplink port speed components as instances are provisioned onto dedicated hosts.
+Classic dedicated host pricing is inclusive of all vCPU, RAM, local storage, and uplink port speed components as instances are provisioned onto dedicated hosts.
 
 With dedicated hosts, extra local storage disks are available on the first, second, third, fourth, and fifth disks. Extra capacity of up to 400 GB on each secondary disk is also available.
 
-Hourly instances can be provisioned on hourly and monthly hosts. Monthly instances can be provisioned on only monthly hosts.
+You can provision hourly instances on hourly and monthly hosts. Monthly instances can be provisioned on only monthly hosts.
+
+The following table is an example of a Classic dedicated host configuration.
 
 | Host configuration | vCPU	| RAM (GB) | Local storage (TB SSD) |
 | ------------------ | ---- | -------- | ---------------------- |
@@ -31,7 +33,7 @@ Hourly instances can be provisioned on hourly and monthly hosts. Monthly instanc
 Pricing varies by region.
 {: note}
 
-SAN (network attached), premium OSs, and add-ons are charged hourly or monthly, by the instance, depending on the instance provisioned on the dedicated host. Pricing for these components is consistent with the existing offering on public instances and dedicated instances.
+SAN (network attached), premium operating systems, and add-ons are charged hourly or monthly, by the instance, depending on the instance provisioned on the dedicated host. Pricing for these components is consistent with the existing Classic offering on public instances and dedicated instances.
 
 For example, a dedicated instance that is provisioned on a dedicated host with the following configuration isn't charged by the instance. vCPU, RAM, local storage, and uplink port speeds are included in dedicated host charges.
 
