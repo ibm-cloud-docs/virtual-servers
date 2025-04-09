@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2024
-lastupdated: "2024-10-10"
+  years: 2017, 2025
+lastupdated: "2025-04-09"
 
 subcollection: virtual-servers
 
@@ -10,10 +10,10 @@ subcollection: virtual-servers
 
 {{site.data.keyword.attribute-definition-list}}
 
-# About dedicated virtual servers
+# About dedicated virtual servers for Classic
 {: #dedicated-virtual-servers}
 
-The {{site.data.keyword.Bluemix}} infrastructure dedicated host offering is a virtualized, single-tenant, dedicated server. It provides you with maximum control over workload placement and flexible post-provisioning options. You can decide which pre-determined {{site.data.keyword.cloud_notm}} data center your virtual servers are placed in and have capacity by allocating your hosts directly to your account.
+The {{site.data.keyword.Bluemix}} Classic infrastructure dedicated host is a virtualized, single-tenant, dedicated server. It provides you with maximum control over your Classic workload placement and flexible post-provisioning options. You can decide which pre-determined {{site.data.keyword.cloud_notm}} data center your virtual servers are placed in and have capacity by allocating your hosts directly to your account.
 {: shortdesc}
 
 The offering includes the following features:
@@ -22,10 +22,7 @@ The offering includes the following features:
 * Post-deployment management. You can migrate virtual servers between dedicated hosts based on your workload requirements.
 * Workload visibility. You can view resource consumption—core, RAM, and local storage—for each host, giving you maximum control over your workload management.
 
-You have the choice of two deployment models: dedicated hosts and dedicated instances. Dedicated hosts help with control over workload placement and dedicated instances offer single-tenant isolation.
-
-Dedicated instances do not provide some of the control features offered by dedicated hosts. See the following table for more details.
-{: note}
+You have the choice of two deployment models: dedicated hosts and dedicated instances. Classic dedicated hosts help with control over workload placement and dedicated instances offer single-tenant isolation. See the following table to compare dedicated host and instance features.
 
 | Dedicated virtual server feature | Dedicated hosts instances | Dedicated instances |
 | ------- | ------- | ------- |
@@ -36,17 +33,17 @@ Dedicated instances do not provide some of the control features offered by dedic
 | Host billing| ![Checkmark icon](../icons/checkmark-icon.svg) |   |
 | Post-deployment control | ![Checkmark icon](../icons/checkmark-icon.svg) |   |
 | Capacity reservations | ![Checkmark icon](../icons/checkmark-icon.svg) |   |
-{: row-headers}
-{: class="comparison-table}
-{: caption="Control features" caption-side="top"}
-{: summary="This table has row and column headers. The row headers identify the control feature. The column headers identify whether the offering offers the control feature. To understand whether the offering offers the control feature, navigate to the row in the table, and find the offering that you are interested in.}
+{: caption="Table 1: Control features" caption-side="top"}
 
-Pricing of host is inclusive of core, RAM, Local SSD, and network speeds. Premium operating system (OS), storage area network (SAN) storage, and software add-ons are priced per instance with existing pricing and licensing in an hourly or monthly model.
+Classic dedicated instances do not provide some of the control features offered by dedicated hosts. See the following table for more details.
+{: note}
 
-Keep in mind the following when you’re ordering a dedicated host and dedicated host instance:
+Pricing of the host is inclusive of core, RAM, Local SSD, and network speeds. Premium operating system (OS), storage area network (SAN) storage, and software add-ons are priced per instance with existing pricing and licensing in an hourly or monthly model.
 
-* The size of your host is determined by your workloads that you want to run on it. The default is 56 Cores X 242 GB RAM X 1.2 TB, but you can choose from more configurations.
-* You can order only two hosts at a time. For example, if you need six hosts, you need to place three separate orders.
+Keep the following list in mind when you order a dedicated host and dedicated host instance for Classic:
+
+* The size of your host is determined by your workloads. The default is 56 Cores X 242 GB RAM X 1.2 TB, but you can choose from more configurations.
+* You can order only two hosts at a time. For example, if you need six hosts, then you need to place three separate orders.
 * Each host needs its own unique name and you can automatically assign your POD.
 * Network speeds up to 20 Gbps are achievable through extra configuration. For more information about network performance, see [Configuring virtual server settings to improve network performance](/docs/virtual-servers?topic=virtual-servers-configuring-network-performance).
 
