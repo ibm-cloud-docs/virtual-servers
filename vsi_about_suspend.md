@@ -63,14 +63,14 @@ You must specify the specific suspend billing package ID during the provisioning
 It's important to understand what costs stop accruing and what costs persist when your virtual server instance is powered off.
 
 | Resource                      | Billing stopped   | Billing persists |
-| ----------------------------- | ----------------- | ---------------- |
-| vCPU                          |  :Stopped:  |                  |
-| RAM                           |  :Stopped:  |                  |
-| Port speed                    |  :Stopped:  |                  |
-| Operating system licenses     |  :Stopped:  |                  |
-| Monitoring add-ons            |  :Stopped:  |                  |
-| Secondary public IP addresses |                   | :Persists: |
-| Storage                       |                   | :Persists: |
+| ----------------------------- | :---------------: | :----------------: |
+| vCPU                          |  Stopped  |                  |
+| RAM                           |  Stopped  |                  |
+| Port speed                    |  Stopped  |                  |
+| Operating system licenses     |  Stopped  |                  |
+| Monitoring add-ons            |  Stopped  |                  |
+| Secondary public IP addresses |                   | Persists |
+| Storage                       |                   | Persists |
 {: row-headers}
 {: class="comparison-table"}
 {: caption="Resource billing details" caption-side="top"}
