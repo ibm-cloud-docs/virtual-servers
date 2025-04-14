@@ -12,15 +12,15 @@ subcollection: virtual-servers
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Suspend billing
+# Suspend billing for Classic virtual servers
 {: #requirements}
 
-When you power off {{site.data.keyword.BluVirtServers}} that support the suspend billing feature, you don't accrue costs for certain compute resources. Billing stops automatically when the server is powered off. The suspend billing feature helps you reduce cost and prevents you from having to reprovision a virtual server when you need its resources again. Suspend billing does not apply to secondary public IP addresses and storage. A minimum 25% usage charge is applied to an instance that is powered off during its billing cycle.
+When you power off {{site.data.keyword.BluVirtServers}} for Classic that support suspend billing, you don't accrue costs for certain compute resources. Billing stops automatically when the server is powered off. The suspend billing feature helps you reduce cost and prevents you from having to reprovision a Classic virtual server when you need its resources again. Suspend billing does not apply to secondary public IP addresses and storage. A minimum 25% usage charge is applied to an instance that is powered off during its billing cycle.
 {: shortdesc}
 
 If your profile doesn't support suspend billing or you choose not to suspend your instances, you are billed for your usage. The usage rate is based on the normal hourly or monthly rates for your instance configuration.
 
-Most virtual server instances that were created before 1 November 2018 and instances that are billed monthly don't support suspend billing. To find out whether your virtual server instance supports suspend billing, see [Viewing the suspend billing feature](/docs/virtual-servers?topic=virtual-servers-viewing-suspend-billing-feature).
+Most Classic virtual server instances that were created before 1 November 2018 and instances that are billed monthly don't support suspend billing. To find out whether your Classic virtual server instance supports suspend billing, see [Viewing the suspend billing feature](/docs/virtual-servers?topic=virtual-servers-viewing-suspend-billing-feature).
 {: important}
 
 ## Before you begin
