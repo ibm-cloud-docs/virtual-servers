@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2017, 2024
-lastupdated: "2024-10-10"
+  years: 2017, 2025
+lastupdated: "2025-04-14"
 
-keywords: suspend billing feature, suspend billing
+keywords: suspended billing, suspend billing
 
 subcollection: virtual-servers
 
@@ -12,15 +12,15 @@ subcollection: virtual-servers
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Suspend billing
+# Suspend billing for Classic virtual servers
 {: #requirements}
 
-When you power off {{site.data.keyword.BluVirtServers}} that support the suspend billing feature, you don't accrue costs for certain compute resources. Billing stops automatically when the server is powered off. The suspend billing feature helps you reduce cost and prevents you from having to reprovision a virtual server when you need its resources again. Suspend billing does not apply to secondary public IP addresses and storage. A minimum 25% usage charge is applied to an instance that is powered off during its billing cycle.
+When you power off {{site.data.keyword.BluVirtServers}} for Classic that support suspend billing, you don't accrue costs for certain compute resources. Billing stops automatically when the server is powered off. The suspend billing feature helps you reduce cost and prevents you from having to reprovision a Classic virtual server when you need its resources again. Suspend billing does not apply to secondary public IP addresses and storage. A minimum 25% usage charge is applied to an instance that is powered off during its billing cycle.
 {: shortdesc}
 
-If your profile doesn't support the suspend billing option or you choose not to suspend your instances, you are billed for your usage. The usage rate is based on the normal hourly or monthly rates for your instance configuration.
+If your profile doesn't support suspend billing or you choose not to suspend your instances, you are billed for your usage. The usage rate is based on the normal hourly or monthly rates for your instance configuration.
 
-Most virtual server instances that were created before 1 November 2018 and instances that are billed monthly don't support the suspend billing feature. To find out whether your virtual server instance supports the suspend billing feature, see [Viewing the suspend billing feature](/docs/virtual-servers?topic=virtual-servers-viewing-suspend-billing-feature).
+Most Classic virtual server instances that were created before 1 November 2018 and instances that are billed monthly don't support suspend billing. To find out whether your Classic virtual server instance supports suspend billing, see [Viewing the suspend billing feature](/docs/virtual-servers?topic=virtual-servers-viewing-suspend-billing-feature).
 {: important}
 
 ## Before you begin
@@ -63,28 +63,28 @@ You must specify the specific suspend billing package ID during the provisioning
 It's important to understand what costs stop accruing and what costs persist when your virtual server instance is powered off.
 
 | Resource                      | Billing stopped   | Billing persists |
-| ----------------------------- | ----------------- | ---------------- |
-| vCPU                          | ![Checkmark icon](../icons/checkmark-icon.svg) |                  |
-| RAM                           | ![Checkmark icon](../icons/checkmark-icon.svg) |                  |
-| Port speed                    | ![Checkmark icon](../icons/checkmark-icon.svg) |                  |
-| Operating system licenses     | ![Checkmark icon](../icons/checkmark-icon.svg) |                  |
-| Monitoring add-ons            | ![Checkmark icon](../icons/checkmark-icon.svg) |                  |
-| Secondary public IP addresses |                   | ![Checkmark icon](../icons/checkmark-icon.svg) |
-| Storage                       |                   | ![Checkmark icon](../icons/checkmark-icon.svg) |
+| ----------------------------- | :---------------: | :----------------: |
+| vCPU                          |  Stopped  |                  |
+| RAM                           |  Stopped  |                  |
+| Port speed                    |  Stopped  |                  |
+| Operating system licenses     |  Stopped  |                  |
+| Monitoring add-ons            |  Stopped  |                  |
+| Secondary public IP addresses |                   | Persists |
+| Storage                       |                   | Persists |
 {: row-headers}
 {: class="comparison-table"}
 {: caption="Resource billing details" caption-side="top"}
 {: summary="This table has row and column headers. The row headers identify the resource. The column headers identify whether billing stops or persists when your instance is powered off. To understand whether billing stops or persists for a resource, go to the row in the table, and find the billing information that you are interested in."}
 
-When you provision a virtual server instance that supports suspend billing, the usage times are calculated per second. Usage includes both the in use time and suspended time of your virtual server instance. Even if you never initiate the suspend billing feature by powering off your instance, the billing is calculated per second of the instance's lifecycle.
+When you provision a virtual server instance that supports suspend billing, the usage times are calculated per second. Usage includes both the in-use time and suspended time of your virtual server instance. Even if you never initiate suspend billing by powering off your instance, the billing is calculated per second of the instance's lifecycle.
 
 ### Minimum usage charge
 {: #minimum-usage-charge}
 
 Virtual server instances that support suspend billing have a minimum usage charge. This minimum usage charge is applied when a virtual server instance is powered off during its billing cycle whether the server was used.
 
-- If usage is fewer than 25% of the allotted hours, you are charged the minimum 25% of the allotted hours - no matter how few hours that the server used.
-- If usage is greater than 25% of the allotted hours, you are billed for all of the hours that the server used.
+* If usage is fewer than 25% of the allotted hours, you are charged the minimum 25% of the allotted hours - no matter how few hours that the server is used.
+* If usage is greater than 25% of the allotted hours, you are billed for all of the hours that the server is used.
 
 ### Billing invoice
 {: #billing-invoice}
@@ -109,7 +109,7 @@ When you suspend billing on a virtual server instance, the billing for the assoc
 ### IP addresses
 {: #ip-addresses}
 
-All public IP addresses are retained for you when billing is suspended for your virtual server instance.
+All public IP addresses are retained for your virtual server instance when billing is suspended.
 
 ### Limitations
 {: #limitations-suspend-billing}
