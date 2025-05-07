@@ -25,9 +25,9 @@ For more information about changes to the {{site.data.keyword.BluVirtServers}} A
 ## May 2025
 {: #virtual-servers-may25}
 
-### 03 March 2025
+### 07 May 2025
 {: #virtual-servers-may0725}
-{: release-note
+{: release-note}
 
 Rocky Linux 8.10 support
 :   {{site.data.keyword.cloud}} Classic infrastructure now supports Rocky Linux 8.10.
