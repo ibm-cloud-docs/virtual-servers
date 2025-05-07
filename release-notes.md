@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2025
-lastupdated: "2025-04-11"
+lastupdated: "2025-05-07"
 
 keywords:
 
@@ -21,6 +21,16 @@ Use the release notes to learn the latest updates to {{site.data.keyword.BluVirt
 {: shortdesc}
 
 For more information about changes to the {{site.data.keyword.BluVirtServers}} API, see [{{site.data.keyword.BluVirtServers}} API reference overview](/docs/virtual-servers?topic=virtual-servers-api-reference).
+
+## May 2025
+{: #virtual-servers-may25}
+
+### 03 March 2025
+{: #virtual-servers-may0725}
+{: release-note
+
+Rocky Linux 8.10 support
+:   {{site.data.keyword.cloud}} Classic infrastructure now supports Rocky Linux 8.10.
 
 ## March 2025
 {: #virtual-servers-mar25}
