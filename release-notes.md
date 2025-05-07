@@ -60,7 +60,7 @@ New add-on support for Ubuntu 22.04
 {: release-note}
 
 Ubuntu 20.04 LTS
-:   now supports Ubuntu 20.04 LTS. For more information, see [Ubuntu releases](https://releases.ubuntu.com/){: external}.
+:   {{site.data.keyword.BluVirtServers}} for Classic now supports Ubuntu 20.04 LTS. For more information, see [Ubuntu releases](https://releases.ubuntu.com/){: external}.
 
 ## January 2024
 {: #virtual-servers-jan24}
