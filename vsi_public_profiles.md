@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2024
-lastupdated: "2024-10-10"
+  years: 2017, 2025
+lastupdated: "2025-05-09"
 
 subcollection: virtual-servers
 
@@ -21,7 +21,7 @@ When you provision {{site.data.keyword.BluVirtServers}}, you can select from sup
 
 The following virtual server instance families are available.
 
-Depending on your instance type, some families might not be available.
+Depending on your instance type, some profile families might not be available.
 {: note}
 
 | Profile family  | Description                                                                                              |
@@ -37,7 +37,7 @@ Depending on your instance type, some families might not be available.
 ## Balanced
 {: #balanced}
 
-The balanced profiles (with network-attached storage) are ideal for common cloud workloads that require a balance of performance and scale. Network performance ranges from standard to premium.
+Balanced profiles (with network-attached storage) are ideal for common cloud workloads that require a balance of performance and scale. Network performance ranges from standard to premium.
 
 The offering is available in the following profiles:
 
@@ -69,7 +69,7 @@ All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and othe
 ## Balanced local storage
 {: #balanced-local-storage}
 
-The balanced local storage profiles are primarily for large database workloads that require high I/O performance with low latency. Network performance ranges from standard to premium.
+Balanced local storage profiles are primarily for large database workloads that require high I/O performance with low latency. Network performance ranges from standard to premium.
 
 ### Local HDD
 {: #HDD}
@@ -202,7 +202,7 @@ The offering is available in the following profiles:
 * SAN primary boot disk (25 or 100 GB) with extra disks available, up to 2 TB each (five total disks allowed).
 * Pricing for public virtual servers that use SAN storage includes virtual CPU, memory, and minimum primary boot disk. Extra disk prices depend on the disk size and quantity that you select.
 
-All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), databases that are supported, and software add-ons are also available with this offering.
+All supported operating systems (such as RHEL, CentOS, Windows, Ubuntu, and others), supported databases, and software add-ons are also available with this offering.
 
 ## GPU
 {: #gpu}
@@ -232,7 +232,7 @@ Powered by NVDIA Tesla GPUs, {{site.data.keyword.cloud_notm}} Accelerated Comput
 
 Review the following GPU prerequisites.
 
-1. GPU-profile virtual servers are available only on an operating system that supports Hardware Virtual Machine (HVM) boot mode. See the following list for operating systems that support HVM boot mode.
+1. GPU-profile virtual servers are available only on operating systems that support Hardware Virtual Machine (HVM) boot mode. See the following list for operating systems that support HVM boot mode.
    - Debian 8
    - Debian 9
    - RHEL 7
@@ -258,4 +258,4 @@ You can change the number of GPUs on your virtual server after your initial orde
 ### NVIDIA GRID
 {: #nvidia-grid}
 
-{{site.data.keyword.cloud_notm}} does not currently support GRID drivers for virtual GPUs. For GRID support, provision a GPU on a bare-metal server and install the appropriate GRID driver. See [NVIDIA GPU support](/docs/bare-metal?topic=bare-metal-about-bm#bm-gpu-support){: external}
+{{site.data.keyword.cloud_notm}} does not currently support GRID drivers for virtual GPUs. For GRID support, provision a GPU on a bare metal server and install the appropriate GRID driver. For more information, see [NVIDIA GPU support](/docs/bare-metal?topic=bare-metal-about-bm#bm-gpu-support){: external}.
