@@ -23,7 +23,7 @@ Use the [{{site.data.keyword.cloud_notm}} console](#using-console) to locate you
 The following steps use the {{site.data.keyword.cloud_notm}} console to go to your devices. For more information about working with the console, see [Navigating the {{site.data.keyword.cloud_notm}} console](/docs/overview?topic=overview-ui#ui).
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://cloud.ibm.com/){: external} by using your unique credentials.
-2. From the Dashboard, click the menu icon ![Menu icon](../../icons/icon_hamburger.svg) > **Infrastructure** > **Classic Infrastructure** > **Devices**.
+2. From the Dashboard, click the menu icon ![menu icon](../icons/icon_hamburger.svg) > **Infrastructure** > **Classic Infrastructure** > **Devices**.
 
 ## Next steps
 {: #next-steps-navigating-devices}
