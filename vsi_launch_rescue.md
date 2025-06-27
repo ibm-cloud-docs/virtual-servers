@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2024
-lastupdated: "2024-07-23"
+  years: 2017, 2025
+lastupdated: "2025-06-27"
 
 subcollection: virtual-servers
 
@@ -52,6 +52,6 @@ CentOS version 7 and higher requires a minimum of 6 GB of RAM for any Linux&reg;
 
 After you start rescue mode, the device is powered down and restarted into rescue mode for the device's operating system. This process might take several minutes.
 
-Remote access to the device is available from the device's IP address. You can access the device in rescue mode by using the root or admin credentials for the devices that are recorded in the {{site.data.keyword.cloud_notm}} console. When you use rescue mode, you can troubleshoot, discover issues, and resolve issues as you would on a regularly started device. If necessary, you can mount drives into the rescue mode. To exit rescue mode and return your device to its regular environment, restart the device in the {{site.data.keyword.cloud_notm}} console or restart from rescue mode OS.
+Remote access to the device is available from the device's IP address. You can access the device in rescue mode by using the root or admin credentials for the devices that are recorded in the {{site.data.keyword.cloud_notm}} console. When you use rescue mode, you can troubleshoot, discover issues, and resolve issues as you would on a regularly started device. If necessary, you can mount drives into the rescue mode. 
 
-For more information about restarting a device, see [Managing virtual servers](/docs/virtual-servers?topic=virtual-servers-managing-virtual-servers#managing-virtual-servers).
+To exit rescue mode and return your device to its regular environment, restart the device in the {{site.data.keyword.cloud_notm}} console or restart from rescue mode OS. To restart from the console, go to the *Actions* menu then select **Boot from image**. If prompted for your device type, select **Continue** to unload the current image and return to normal booting.
