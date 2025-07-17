@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2025
-lastupdated: "2025-07-08"
+lastupdated: "2025-07-17"
 
 keywords:
 
@@ -24,6 +24,13 @@ For more information about changes to the {{site.data.keyword.BluVirtServers}} A
 
 ## July 2025
 {: #virtual-servers-jul25}
+
+## 17 July 2025
+{: #virtual-servers-jul0725}
+{: release-note}
+
+RHEL 9.6
+:   {{site.data.keyword.cloud}} Classic infrastructure now supports RHEL 9.6.
 
 ### 07 July 2025
 {: #virtual-servers-jul0725}
