@@ -26,7 +26,7 @@ For more information about changes to the {{site.data.keyword.BluVirtServers}} A
 {: #virtual-servers-jul25}
 
 ## 17 July 2025
-{: #virtual-servers-jul0725}
+{: #virtual-servers-jul1725}
 {: release-note}
 
 RHEL 9.6
