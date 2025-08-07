@@ -23,6 +23,7 @@ toc:
        - vsi_about.md
        - vsi_public.md
        - vsi_about_transient.md
+       - ri-deprecation.md
        - vsi_about_reserved.md
        - topicgroup:
            id: dedicated-virtual-servers
