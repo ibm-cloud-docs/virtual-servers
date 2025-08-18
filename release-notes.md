@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2025
-lastupdated: "2025-07-17"
+lastupdated: "2025-08-18"
 
 keywords:
 
@@ -21,6 +21,16 @@ Use the release notes to learn the latest updates to {{site.data.keyword.BluVirt
 {: shortdesc}
 
 For more information about changes to the {{site.data.keyword.BluVirtServers}} API, see [{{site.data.keyword.BluVirtServers}} API reference overview](/docs/virtual-servers?topic=virtual-servers-api-reference).
+
+## August 2025
+{: #virtual-servers-aug25}
+
+### 18 August 2025
+{: #virtual-servers-aug1825}
+
+SUSE Linux Enterprise Server 15 SP6 for SAP workloads
+
+{{site.data.keyword.cloud}} Classic infrastructure now supports SUSE Linux Enterprise Server 15 SP6 for SAP workloads. For more information, see [SUSE Linux Enterprise Server for SAP applications 15 SP6](https://documentation.suse.com/sles-sap/15-SP6/){: external}.
 
 ## July 2025
 {: #virtual-servers-jul25}
