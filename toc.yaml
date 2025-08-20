@@ -41,6 +41,8 @@ toc:
            id: security-options
            label: Security options
            topics:
+           - topic: vsi_security_options_recap.md
+             navtitle: Security options overview
            - vsi_security_options.md
            - vsi_security_groups.md
            - vsi_ssl_intro.md
