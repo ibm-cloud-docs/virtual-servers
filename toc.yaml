@@ -1,7 +1,3 @@
-#  Name your file `toc.yaml`
-#  Make sure you include all nav file coding requirements, as defined in https://test.cloud.ibm.com/docs/writing?topic=writing-code-nav
-#  Anything with a fully qualified URL with `http` or `https` will get an external link icon added to the nav entry
----
 toc:
   properties:
     subcollection: virtual-servers
@@ -10,57 +6,56 @@ toc:
     category: virtualservers
     audience: service
     href: /docs/virtual-servers
-    console-page: "/classic"
-    product-page: "https://www.ibm.com/products/virtual-servers-classic"
+    console-page: /classic
+    product-page: https://www.ibm.com/products/virtual-servers-classic
     path: virtual-servers
     label: Virtual Servers for Classic
-#  List your getting started tutorial (getting-started.md) as the first item in the Get started nav group. See https://test.cloud.ibm.com/docs/writing?topic=writing-navigation for more details on the toc design.
   entries:
   - navgroup:
       id: learn
       topics:
-       - vsi_index.md
-       - vsi_about.md
-       - vsi_public.md
-       - vsi_about_transient.md
-       - ri-deprecation.md
-       - vsi_about_reserved.md
-       - topicgroup:
-           id: dedicated-virtual-servers
-           label: Dedicated virtual servers
-           topics:
-           - vsi_dedicated.md
-           - vsi_dedicated_host.md
-           - vsi_dedicated_pricing.md
-       - vsi_public_profiles.md
-       - vsi_ps_index.md
-       - vsi_image_templates_intro.md
-       - vsi_placegroup.md
-       - vsi_about_suspend.md
-       - topicgroup:
-           id: security-options
-           label: Security options
-           topics:
-           - topic: vsi_security_options_recap.md
-             navtitle: Security options overview
-           - vsi_security_options.md
-           - vsi_security_groups.md
-           - vsi_ssl_intro.md
-           - vsi_ssh_intro.md
-       - storage/vsi_about_storage.md
-       - topicgroup:
-           id: software-options
-           label: Software options
-           topics:
-           - include: ../bare-metal/about-software.md
-           - vsi_database_tools.md
-       - topicgroup:
-           id: services-options
-           label: Services options
-           topics:
-           - vsi_backup.md
-           - vsi_email_intro.md
-       - release-notes.md
+      - vsi_index.md
+      - vsi_about.md
+      - vsi_public.md
+      - vsi_about_transient.md
+      - ri-deprecation.md
+      - vsi_about_reserved.md
+      - topicgroup:
+          id: dedicated-virtual-servers
+          label: Dedicated virtual servers
+          topics:
+          - vsi_dedicated.md
+          - vsi_dedicated_host.md
+          - vsi_dedicated_pricing.md
+      - vsi_public_profiles.md
+      - vsi_ps_index.md
+      - vsi_image_templates_intro.md
+      - vsi_placegroup.md
+      - vsi_about_suspend.md
+      - topicgroup:
+          id: security-options
+          label: Security options
+          topics:
+          - topic: vsi_security_options_recap.md
+            navtitle: Security options overview
+          - vsi_security_options.md
+          - vsi_security_groups.md
+          - vsi_ssl_intro.md
+          - vsi_ssh_intro.md
+      - storage/vsi_about_storage.md
+      - topicgroup:
+          id: software-options
+          label: Software options
+          topics:
+          - include: ../bare-metal/about-software.md
+          - vsi_database_tools.md
+      - topicgroup:
+          id: services-options
+          label: Services options
+          topics:
+          - vsi_backup.md
+          - vsi_email_intro.md
+      - release-notes.md
   - navgroup:
       id: howto
       topics:
@@ -87,12 +82,12 @@ toc:
       - logging-in-to-console.md
       - vsi_kvm_console_connect.md
       - topicgroup:
-           id: managing-permissions-and-access
-           label: Managing permissions and access
-           topics:
-           - include: ../account/iam-mnginfra.md
-           - vsi_device_access.md
-           - vsi_managing_password.md
+          id: managing-permissions-and-access
+          label: Managing permissions and access
+          topics:
+          - include: ../account/iam-mnginfra.md
+          - vsi_device_access.md
+          - vsi_managing_password.md
       - topicgroup:
           id: managing-servers
           label: Managing servers
@@ -115,9 +110,9 @@ toc:
           topics:
           - vsi_managing_sg.md
           links:
-            - link:
-                label: Accessing SSL certificates
-                href: /ssl-certificates/ssl-certificates-accessing-ssl-certificates#accessing-ssl-certificates)
+          - link:
+              label: Accessing SSL certificates
+              href: /ssl-certificates/ssl-certificates-accessing-ssl-certificates#accessing-ssl-certificates)
       - topicgroup:
           id: managing-storage
           label: Managing storage
@@ -150,7 +145,7 @@ toc:
           - monitoring-no-driver-mode.md
       - topicgroup:
           id: backing-up-and-recovery
-          label:  Backing up and recovering
+          label: Backing up and recovering
           topics:
           - vsi_launch_rescue.md
           - include: ../bare-metal/r1soft-cdp-bare-metal-restore-procedures.md
