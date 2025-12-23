@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2025
-lastupdated: "2025-10-13"
+lastupdated: "2025-12-23"
 
 keywords:
 
@@ -127,33 +127,3 @@ SSL Certificate Order is deprecated
 
 CentOS Stream 9
 :   {{site.data.keyword.BluVirtServers}} for Classic now supports CentOS Stream 9. For more information, see [CentOS Stream 9](https://centos.org/stream9/){: external}.
-
-## October 2023
-{: #virtual-servers-oct23}
-
-### 27 October 2023
-{: #virtual-servers-oct2723}
-{: release-note}
-
-Microsoft&reg; SQL Server 2019 and 2022
-:   Classic infrastructure bare metal and virtual servers now support Microsoft SQL Server [2019](https://www.microsoft.com/en-us/sql-server/sql-server-2019){: external} and [2022](https://www.microsoft.com/en-us/sql-server/sql-server-2022){: external}.
-
-## May 2023
-{: #virtual-servers-may23}
-
-### 15 May 2023
-{: #virtual-servers-may1123}
-{: release-note}
-
-Red Hat Enterprise Linux 9 (RHEL 9)
-:   IBM Cloud&reg; server software now supports RHEL 9 as an OS option for virtual servers. For more information, see the virtual servers tab in [Supported operating systems for IBM Cloud&reg; server software](/docs/bare-metal?topic=bare-metal-about-software#supported-operating-systems-for-ibm-cloud-servers).
-
-## September 2022
-{: #virtual-servers-sep22}
-
-### 30 September 2022
-{: #virtual-servers-sep3022}
-{: release-note}
-
-End of service (EOS) for Autoscale
-:   *End of service (EOS): 30 September 2022* After this date, Autoscale for {{site.data.keyword.BluVirtServers}} is no longer supported. Any autoscale schedules that still exist after that date are deleted. You can use Auto scale for your virtual servers that are on {{site.data.keyword.vpc_short}}. For more information, see [Creating an instance group for auto scaling](/docs/vpc?topic=vpc-creating-auto-scale-instance-group).
