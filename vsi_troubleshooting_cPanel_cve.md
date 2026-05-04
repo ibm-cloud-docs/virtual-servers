@@ -22,7 +22,7 @@ content-type: troubleshoot
 If you suspect that an {{site.data.keyword.BluVirtServers}} for Classic is affected by a cPanel security vulnerability, you should update to the latest cPanel version, change the server password. If the server is compromised, you should also perform an OS Reload or restore from backup.
 {: shortdesc}
 
-You received a notification from {{site.data.keyword.cloud}} alerting you to a CVE from cPanel that might compromise your server. Or you discover that you are unable to access the server, unable to log in to root, or with WHM.
+You received a notification from {{site.data.keyword.cloud}} alerting you to a CVE from cPanel that might compromise your server. Or you discover that you are unable to access the server, unable to log in as root, or with WHM.
 {: tsSymptoms}
 
 cPanel, a third-party vendor that provides an add-on for {{site.data.keyword.BluVirtServers}} for Classic, published a critical CVE on 28 April 2026 for an authentication bypass vulnerability that could compromise your root password and cPanel environment.
