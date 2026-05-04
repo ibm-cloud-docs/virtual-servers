@@ -184,6 +184,7 @@ toc:
           - vsi_troubleshooting_connect_public_IP.md
           - vsi_troubleshooting_vs_not_responding.md
           - vsi_troubleshooting_vs_stuck_provisioning.md
+          - vsi_troubleshooting_cPanel_cve.md
           - vsi_troubleshooting_KVM_not_accessible.md
           - vsi_troubleshooting_RDP_not_working.md
       - topicgroup:
