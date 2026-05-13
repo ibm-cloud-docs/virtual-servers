@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2018, 2025
-lastupdated: "2025-04-09"
+  years: 2018, 2026
+lastupdated: "2026-05-13"
 
-keywords: reserved virtual servers, cost savings, guaranteed capacity, classic
+keywords: reserved virtual servers, cost savings, classic
 
 subcollection: virtual-servers
 
@@ -15,17 +15,17 @@ subcollection: virtual-servers
 # Reserved virtual servers for Classic
 {: #about-reserved-virtual-servers}
 
-{{site.data.keyword.BluVirtServers}} reserved instances for Classic are a great option if you want guaranteed resources for future deployments and cost savings. You can choose between either a 1 or 3-year contract term for your reserved capacity. Within that reserved capacity, you can reserve a set of up to 20 virtual server instances of a specific size and provision those instances when you need them. You are guaranteed this capacity within the POD and data center of your choice for the life of the contract term.
+{{site.data.keyword.BluVirtServers}} reserved instances for Classic are a 1-year contract term that offers a cost savings. Within this reserved capacity, you can reserve a set of up to 20 virtual server instances of a specific size and provision those instances when you need them. You have this capacity within the POD and data center of your choice for the life of the contract term.
 {:shortdesc}
 
 Classic reserved virtual servers offer many advantages, including the following benefits:
 
 | Benefit | Description |
 | ----- | ----- |
-| Guaranteed capacity | When you reserve capacity, this capacity is guaranteed for the life of your contract term. |
+| Reserved capacity | When you reserve capacity, this capacity is available for the life of your contract term. |
 | Global availability | Reserved virtual servers are available in data centers globally. |
 | Reliable provisioning | You can provision and reclaim virtual server instances to your reserved capacities at any time. |
-| Cost savings | Choosing either a 1 or 3-year contract term allows for consistent monthly payments and reduced costs compared to hourly or monthly virtual server billing cycles. |
+| Cost savings | A 1-year contract term offers consistent monthly payments and reduced costs compared to hourly or monthly virtual server billing cycles. |
 {: caption="Reserved virtual server advantages" caption-side="top"}
 
 Classic reserved virtual server instances are public instances that use SAN-backed storage. The following families of public instances are available for this offering.
@@ -44,7 +44,7 @@ Consider the following limitations before you reserve capacity and provision a r
 
 * You can't use variable compute profiles.
 * You can't change the configuration of the reserved virtual server.
-* Reserved capacity cannot be canceled; however, you can reclaim virtual server instances in that capacity.
+* Reserved capacity can't be canceled; however, you can reclaim virtual server instances in that capacity.
 
 ## Notifications
 {: #notifications-reserved-virtual-servers}
