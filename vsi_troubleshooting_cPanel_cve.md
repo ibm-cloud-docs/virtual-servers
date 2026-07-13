@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026, 2026
-lastupdated: "2026-05-12"
+lastupdated: "2026-07-13"
 
 keywords: troubleshoot virtual server, virtual server troubleshooting, cPanel CVE
 
@@ -74,10 +74,10 @@ To restore from backup, follow the instructions for the [Back up and recovery](/
 To reload the operating system, go to the **Device list**, select the server to show the _Device details_ page, and select **Actions** > **OS reload**. For more information, see [Reloading the operating system](/docs/virtual-servers?topic=virtual-servers-reloading-the-os).
 
    - You might need to change the operating system version during the operating system reload if your current one is past the end of support. For more information, see [End of support for operating systems considerations](/docs/virtual-servers?topic=virtual-servers-about-software#supported-operating-systems-for-ibm-cloud-servers).
-   - To use the most recent cPanel version on Linux systems, select Ubuntu 22.04 during the operating system reload because CentOS and Rocky Linux are not supported by cPanel.
+   - To use the most recent cPanel version on Linux systems, select the most recent Ubuntu version during the operating system reload. CentOS and Rocky Linux are not supported by cPanel.
    - An operating system reload clears all data from the device. If needed, use a backup of the server to restore it after the operating is reloaded.
 
 ## Getting help
 {: #getting-help}
 
-If you need help with recovery, go to the IBM Cloud Support Center to [get support](/docs/support?topic=support-using-avatar&interface=ui#getting-support) by creating a case or reporting an issue, as defined by your support plan.
+If you need help with recovery, you can [get support](/docs/support?topic=support-using-avatar&interface=ui#getting-support) by creating a case or reporting an issue, as defined by your support plan.
